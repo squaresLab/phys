@@ -427,6 +427,7 @@ class ConstraintCollector:
         # ASSUME THE TOKENS COME BACK AS A SORTED LIST
         break_point = 1000
         i=0
+            
 
         for root_token in function_dict['root_tokens']:
             #print root_token.str, root_token.linenr

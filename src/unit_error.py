@@ -10,6 +10,7 @@ class UnitError:
         self.ERROR_TYPE = None 
         self.SEVERITY = ''
         self.var_name = ''
+        self.var_token = None
         self.linenr = 0
         self.was_assigned_mutiple_units = False
         # SOURCE OF UNITS

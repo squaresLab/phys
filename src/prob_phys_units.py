@@ -16,6 +16,7 @@ from subprocess import Popen
 import sys
 from time import gmtime, strftime
 from shutil import copyfile
+import json
 
 
 # SET PROBABILITY THRESHOLD
@@ -39,17 +40,17 @@ def _log(msg):
 
 @click.command()
 @click.argument('target_cpp_file')
+@click.option('--output_file', default='', help='unit to output data to')
 @click.option('--correction_file', default='', help='file with unit correction')
 @click.option('--should_print_one_line_summary', default='True', help='prints a one-line summary of inconsistencies')
 @click.option('--print_constraints/--no-print_constraints', default='False', help='prints constaints used during analysis.')
 @click.option('--print_variable_types/--no-print_variable_types', default='False', help='For each variable, prints the physical unit type assignment as a probability distribution.')
-def main(target_cpp_file, correction_file, should_print_one_line_summary, print_constraints, print_variable_types):
+def main(target_cpp_file, output_file, correction_file, should_print_one_line_summary, print_constraints, print_variable_types):
     original_directory = os.getcwd()
 
     SHOULD_SUPRESS_OUTPUT_FILES = False  # DURING PARALLEL OPERATION
     SHOULD_USE_CONSTRAINT_SCOPING = False
    
-
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # TEST FOR CPPCHECK
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -80,6 +81,13 @@ def main(target_cpp_file, correction_file, should_print_one_line_summary, print_
 
     target_cpp_file_base_name = os.path.basename(target_cpp_file)
     dump_filename = os.path.basename(target_cpp_file) + '.dump'
+    print(target_cpp_file_base_name)
+    print(dump_filename)
+
+    if not output_file:
+        output_file = os.path.join(original_directory, os.path.splitext(target_cpp_file_base_name)[0] + "_output.json")
+        with open(output_file, "w") as f:
+            pass
 
     if not os.path.exists(dump_filename):
         args = ['cppcheck', '--dump', '-I ../include', target_cpp_file_base_name]
@@ -156,7 +164,7 @@ def main(target_cpp_file, correction_file, should_print_one_line_summary, print_
 
     # PRINT VARIABLE-UNITS LIST TO FILE
     if not SHOULD_SUPRESS_OUTPUT_FILES:
-        print_variable_units(con_collector.configurations[0], var2unitproba)
+        print_variable_units(con_collector.configurations[0], var2unitproba, output_file)
 
     # COLLECT ERRORS
     err_checker = ErrorChecker(dump_file, source_file)
@@ -165,7 +173,7 @@ def main(target_cpp_file, correction_file, should_print_one_line_summary, print_
 
     # PRINT ERRORS TO FILE
     if not SHOULD_SUPRESS_OUTPUT_FILES:
-        err_checker.print_unit_errors('errors.txt')
+        err_checker.print_unit_errors(output_file)
         err_checker.print_var_units_to_check('variable_units_to_check.txt')
 
         rechecker = ErrorRechecker()
@@ -180,48 +188,51 @@ def main(target_cpp_file, correction_file, should_print_one_line_summary, print_
                                                con_collector, con_solver, con_scoper)
     
 
-def print_variable_units(a_cppcheck_configuration, var2unitproba):
+def print_variable_units(a_cppcheck_configuration, var2unitproba, output_file_path):
     my_symbol_helper = SymbolHelper()
     var_dict = {}
-    with open('variables.txt', 'w') as f:
-        for t in a_cppcheck_configuration.tokenlist:
-            if t.variable:
-                if t.is_unit_propagation_based_on_unknown_variable:
-                    #continue
-                    pass
 
-                #print t.str + ': ' + str(t.units)
-                (t, name) = my_symbol_helper.find_compound_variable_and_name_for_variable_token(t)
-                if not t:
-                    continue
-                #eprint("%s, %s, %s" % (name, t.str, t.varId))
+    output_json = {}
+    with open(output_file_path) as f:
+        try:
+            output_json = json.load(f)
+        except:
+            pass
 
-                if not my_symbol_helper.should_have_unit(t, name):
-                    continue
-                    
-                if (t.variable.Id, name) not in var_dict:
-                    var_dict[(t.variable.Id, name)] = []
+    variable_unit_list = []
+    for t in a_cppcheck_configuration.tokenlist:
+        if t.variable:
+            if t.is_unit_propagation_based_on_unknown_variable:
+                #continue
+                pass
 
-                for unit in t.units:
-                    if unit not in var_dict[(t.variable.Id, name)]:
-                        var_dict[(t.variable.Id, name)].append(unit)
+            #print t.str + ': ' + str(t.units)
+            (t, name) = my_symbol_helper.find_compound_variable_and_name_for_variable_token(t)
+            if not t:
+                continue
+            #eprint("%s, %s, %s" % (name, t.str, t.varId))
 
-                if (t.variable, name) in var2unitproba:
-                    if len(var2unitproba[(t.variable, name)]) >= 2:
-                        unit, proba = var2unitproba[(t.variable, name)][0]
-                        unit2, proba2 = var2unitproba[(t.variable, name)][1]
-                    else:
-                        unit, proba = var2unitproba[(t.variable, name)][0]
-                        proba2 = 0.0
-                    proba = round(proba, 7)
-                    proba2 = round(proba2, 7)
-                    if (proba > 0.5) and (proba != proba2): #and (unit not in var_dict[(t.variable.Id, name)]):
-                        #var_dict[(t.variable.Id, name)].append(unit)
-                        var_dict[(t.variable.Id, name)] = [unit]
-            
-        for (var_id, var_name) in var_dict: 
-            var_units = var_dict[(var_id, var_name)]
-            f.write("%s, %s, %s\n" % (var_id, var_name, var_units))
+            if not my_symbol_helper.should_have_unit(t, name):
+                continue
+
+            if (t.variable.Id, name) not in var_dict:
+                var_dict[(t.variable.Id, name)] = []
+
+            for unit in t.units:
+                if unit not in var_dict[(t.variable.Id, name)]:
+                    var_dict[(t.variable.Id, name)].append(unit)
+
+            if (t.variable, name) in var2unitproba:
+                inferred_units = var2unitproba[(t.variable, name)][:3]
+                inferred_units = list(filter(lambda x: x[1] > 0.5, inferred_units))
+                var_dict[(t.variable.Id, name)] = inferred_units
+    
+    for (var_id, var_name) in var_dict:
+        units = var_dict[(var_id, var_name)]
+        variable_unit_list.append({"var_id": var_id, "var_name": var_name, "units": units})
+    output_json["variables"] = variable_unit_list
+    with open(output_file_path, "w") as f:
+        json.dump(output_json, f)
     
 
 def compute_results_for_constraint_scopes(target_cpp_file, dump_file, source_file, 

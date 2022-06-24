@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from analysis_utils import *
 from unit_error import UnitError
 from unit_error_types import UnitErrorTypes
 from tree_walker import TreeWalker
@@ -9,6 +10,7 @@ import os.path
 from operator import itemgetter
 import copy
 import cppcheckdata
+import json
 
 
 class ErrorChecker:
@@ -199,11 +201,38 @@ class ErrorChecker:
                             new_error.token_left = left_token
                             new_error.token_right = right_token
                             new_error.token = token
+                            print("??")
+                            print(self.get_var_name(left_token))
                             new_error.var_name = self.get_var_name(left_token)
                             # GET LINE FROM ORIGINAL FILE IF IT EXISTS
                             if self.source_file_exists:
                                 pass
                             # COLLECT ERROR
+
+                            # symbols = [token.str]
+                            # prev = token.previous
+                            # while prev:
+                            #     symbols = [prev.str] + symbols
+                            #     prev = prev.previous
+                            # next = token.next
+                            # while next:
+                            #     symbols.append(next.str)
+                            #     next = next.next
+                            def get_root(t):
+                                while t.astParent:
+                                    t = t.astParent
+                                
+                                return t
+
+                            def get_statement(t):
+                                if not t:
+                                    return []
+                                if not(t.astOperand1 or t.astOperand2):
+                                    return [t.str]
+                                
+                                return get_statement(t.astOperand1) + [t.str] + get_statement(t.astOperand2)
+
+                            print("".join(get_statement(get_root(token))))
                             self.all_errors.append(new_error)
                             self.have_found_addition_error_on_this_line = True
 
@@ -717,7 +746,7 @@ class ErrorChecker:
                     (self.variable_units_to_check[(token.variable, var_name)])[2].append(token.linenr)
 
 
-    def print_unit_errors(self, errors_file, show_high_confidence=True, show_low_confidence=False):
+    def print_unit_errors(self, errors_file_path, show_high_confidence=True, show_low_confidence=False):
         error_type_text = [
                            'VARIABLE_MULTIPLE_UNITS',
                            'COMPARISON_INCOMPATIBLE_UNITS',
@@ -730,26 +759,51 @@ class ErrorChecker:
                           ]
         tw = TreeWalker(None)
 
-        with open(errors_file, 'w') as f:
-            for e in self.all_errors:
-                is_high_confidence = not e.is_warning
-                is_low_confidence = e.is_warning
+        output_json = {}
+        try:
+            with open(errors_file_path) as f:
+                output_json = json.load(f)
+        except:
+            pass
 
-                if is_high_confidence and not show_high_confidence:
-                    continue
-                if is_low_confidence and not show_low_confidence:
-                    continue
+        error_list = []
+        for e in self.all_errors:
+            is_high_confidence = not e.is_warning
+            is_low_confidence = e.is_warning
 
-                linenr = e.linenr
-                etype = error_type_text[e.ERROR_TYPE]
-                name = e.var_name
-                f.write("%s, %s, %s\n" % (linenr, name, etype))
+            if is_high_confidence and not show_high_confidence:
+                continue
+            if is_low_confidence and not show_low_confidence:
+                continue
 
-                if e.ERROR_TYPE == UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS:
-                    tw.generic_recurse_and_apply_function(e.token_left, self.collect_var_units_for_check)
-                    tw.generic_recurse_and_apply_function(e.token_right, self.collect_var_units_for_check)
-                else:
-                    tw.generic_recurse_and_apply_function(e.token, self.collect_var_units_for_check)
+            linenr = e.linenr
+            etype = error_type_text[e.ERROR_TYPE]
+            name = e.var_name
+
+            if e.ERROR_TYPE == UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS or e.ERROR_TYPE == UnitErrorTypes.COMPARISON_INCOMPATIBLE_UNITS:
+                error_list.append({"line_num": linenr, "var_name": name, "token_id": e.token.Id, "error_type": etype, 
+                "tokens": tokens_to_str(get_statement_tokens(e.token)), "left_token": e.token_left.str,
+                "left_token_unit": e.token_left.units, "right_token": e.token_right.str, "right_token_unit": e.token_right.units})
+            elif e.ERROR_TYPE == UnitErrorTypes.VARIABLE_MULTIPLE_UNITS:
+                statement_tokens = get_statement_tokens(e.token)
+                error_list.append({"line_num": linenr, "var_name": name, "var_id": e.token.Id, "error_type": etype, 
+                "tokens": tokens_to_str(statement_tokens), "lhs_tokens": tokens_to_str(get_LHS_from_statement(statement_tokens)),
+                "rhs_tokens": tokens_to_str(get_RHS_from_statement(statement_tokens)), "units": e.units_when_multiple_happened})
+            else:
+                error_list.append({"line_num": linenr, "var_name": name, "error_type": etype, 
+                "tokens": tokens_to_str(get_statement_tokens(e.token))})
+            # f.write("%s, %s, %s\n" % (linenr, name, etype))
+
+            if e.ERROR_TYPE == UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS:
+                tw.generic_recurse_and_apply_function(e.token_left, self.collect_var_units_for_check)
+                tw.generic_recurse_and_apply_function(e.token_right, self.collect_var_units_for_check)
+            else:
+                tw.generic_recurse_and_apply_function(e.token, self.collect_var_units_for_check)
+
+        output_json["errors"] = error_list
+        # print(error_list)
+        with open(errors_file_path, "w") as f:
+            json.dump(output_json, f)
 
 
     def print_var_units_to_check(self, check_file):
