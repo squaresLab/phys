@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Created by Zhaogui Xu on 8/12/16
 
@@ -105,7 +105,6 @@ class PGMEngine(object):
         self.factor_graph = factor_graph
         self.method_aliases = None
         self.method2inference = {}
-        self.method2props = {}
         self.method = ''
         self.dai_factor_graph = None
         self.inference = None
@@ -128,10 +127,8 @@ class PGMEngine(object):
             self.method = method
             self.inference = self.method2inference[method]
         else:
-            mthdname2props = dai.parseNameProperties(method, self.method_aliases)
-            alg = dai.newInfAlg(mthdname2props.first, self.dai_factor_graph,
-                                mthdname2props.second)
-            self.method2props[method] = mthdname2props
+            alg = dai.newInfAlgFromString(method, self.dai_factor_graph,
+                                self.method_aliases)
             self.method2inference[method] = alg
             self.method = method
             self.inference = alg
