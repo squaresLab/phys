@@ -37,7 +37,6 @@ def eprint(*args, **kwargs):
 def _log(msg):
     print (msg)
 
-
 @click.command()
 @click.argument('target_cpp_file')
 @click.option('--output_file', default='', help='unit to output data to')

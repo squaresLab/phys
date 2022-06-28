@@ -65,10 +65,12 @@ def is_abbrev_for_multiple(abbrev, words):
     return is_abbrev_for_multiple(abbrev[max_len:], words[1:])
 
 
-
+        
 def get_pos(text):
-    return [(w, penn_to_wn(p)) for w, p in tag(text)]
-
+    try:
+        return [(w, penn_to_wn(p)) for w, p in tag(text)]
+    except RuntimeError:
+        return []
 
 def is_singular(text):
     return singularize(text) is not text
