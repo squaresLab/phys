@@ -20,7 +20,7 @@ class ErrorChecker:
     def __init__(self, dump_file, source_file): 
         self.dump_file = dump_file 
         self.current_file_under_analysis = ''
-	self.source_file = source_file
+        self.source_file = source_file
         self.source_file_exists = False
         self.source_file_lines = []
         self.prepare_source_file_for_reading()
@@ -41,7 +41,7 @@ class ErrorChecker:
             with open(self.source_file, 'r') as f:
                 self.source_file_lines = f.readlines()
         else:
-            print 'No source file found at: %s' % self.source_file
+            print('No source file found at: %s' % self.source_file)
 
 
     def get_file_URI_where_error_occured(self, e):
@@ -160,7 +160,7 @@ class ErrorChecker:
             returns: none
             side_effects: might add UnitError objects to self.all_errors list
             '''            
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             tw = TreeWalker(None)
             for root_token in function_dict['root_tokens']:
                 self.have_found_addition_error_on_this_line = False
@@ -202,7 +202,7 @@ class ErrorChecker:
                             new_error.token_right = right_token
                             new_error.token = token
                             print("??")
-                            print(self.get_var_name(left_token))
+                            print((self.get_var_name(left_token)))
                             new_error.var_name = self.get_var_name(left_token)
                             # GET LINE FROM ORIGINAL FILE IF IT EXISTS
                             if self.source_file_exists:
@@ -232,7 +232,7 @@ class ErrorChecker:
                                 
                                 return get_statement(t.astOperand1) + [t.str] + get_statement(t.astOperand2)
 
-                            print("".join(get_statement(get_root(token))))
+                            print(("".join(get_statement(get_root(token)))))
                             self.all_errors.append(new_error)
                             self.have_found_addition_error_on_this_line = True
 
@@ -243,7 +243,7 @@ class ErrorChecker:
             returns: none
             side_effects: might add UnitError objects to self.all_errors list
             '''            
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             tw = TreeWalker(None)
             for root_token in function_dict['root_tokens']:
                 tw.generic_recurse_and_apply_function(root_token, self.error_check_comparison_recursive)
@@ -294,7 +294,7 @@ class ErrorChecker:
             returns: none
             side_effects: might add UnitError objects to self.all_errors list
             '''
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             tw = TreeWalker(None)
             for root_token in function_dict['root_tokens']:
                 tw.generic_recurse_and_apply_function(root_token, self.error_check_logical_recursive)
@@ -365,8 +365,8 @@ class ErrorChecker:
                     if con.is_only_known_unit_variable(left_token.variable, left_name):
                         n = 1
                     left_units = con.variable2unitproba[(left_token.variable, left_name)][:n]
-                    left_units = filter(lambda (u, p): p > con.unit_prob_threshold, left_units)
-                    left_units = map(lambda (u, p): u, left_units)
+                    left_units = [u_p for u_p in left_units if u_p[1] > con.unit_prob_threshold]
+                    left_units = [u_p1[0] for u_p1 in left_units]
                     if con.ENABLE_UNIT_LIST_FLATTENING:
                         left_units = con.flatten_unit_list(left_units)
 
@@ -390,8 +390,8 @@ class ErrorChecker:
                     if con.is_only_known_unit_variable(right_token.variable, right_name):
                         n = 1
                     right_units = con.variable2unitproba[(right_token.variable, right_name)][:n]
-                    right_units = filter(lambda (u, p): p > con.unit_prob_threshold, right_units)
-                    right_units = map(lambda (u, p): u, right_units)
+                    right_units = [u_p2 for u_p2 in right_units if u_p2[1] > con.unit_prob_threshold]
+                    right_units = [u_p3[0] for u_p3 in right_units]
                     if con.ENABLE_UNIT_LIST_FLATTENING:
                         right_units = con.flatten_unit_list(right_units)
         
@@ -491,14 +491,14 @@ class ErrorChecker:
             f.is_unit_propagation_based_on_unknown_variable = is_unit_propagation_based_on_unknown_variable
             f.is_unit_propagation_based_on_weak_inference = is_unit_propagation_based_on_weak_inference
             f.maybe_generic_function = maybe_generic_function
-            for arg_number in f.argument.keys():
+            for arg_number in list(f.argument.keys()):
                 f.arg_units.append([])
 
 
         # collect return units of all functions
         returnlist = {}
 
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             if not function_dict['scopeObject'].function:
                 continue
             if function_dict['scopeObject'].function.return_arg_var_nr:
@@ -837,7 +837,7 @@ class ErrorChecker:
             if is_low_confidence and not show_low_confidence:
                 continue
 
-            print '- '*42
+            print('- '*42)
 
             if e.is_warning:
                 confidence = 'low'
@@ -848,13 +848,13 @@ class ErrorChecker:
                 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                 # MUTIPLE UNITS ON VARIABLE
                 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-                print e.get_error_desc()
+                print(e.get_error_desc())
            
                 units = []
                 if e.units_when_multiple_happened:
                     units = e.units_when_multiple_happened
 
-                print "Assignment of multiple units on line %s. Units: %s" % (e.linenr, units)
+                print("Assignment of multiple units on line %s. Units: %s" % (e.linenr, units))
                 #print e.all_units_assigned_to_var
                 #print 'UNITS FIRST ASSIGNED LINE %s : %s' % (e.linenr_at_first_unit_assignment, e.units_at_first_assignment)
                 #print 'SOURCE : %s' % e.source_code_at_first_assignment
@@ -873,27 +873,27 @@ class ErrorChecker:
                 linenr_first = e.linenr_at_first_unit_assignment
                 linenr_second = e.linenr_of_multiple_unit_assignment
                 
-                print
-                print 'Cause: Function %s invoked with different units:' % e.var_name
-                print 'LINE             UNITS'
-                print '-----            -----------'
+                print()
+                print('Cause: Function %s invoked with different units:' % e.var_name)
+                print('LINE             UNITS')
+                print('-----            -----------')
                 for u in e.units_at_first_assignment:
-                    print '{:5d}           '.format(linenr_first),
-                    for k,v in u.iteritems():
-                        print '{:10s} {:3f}  '.format(k, v), 
-                    print
+                    print('{:5d}           '.format(linenr_first), end=' ')
+                    for k,v in u.items():
+                        print('{:10s} {:3f}  '.format(k, v), end=' ') 
+                    print()
                 for u in e.units_when_multiple_happened:
-                    print '{:5d}           '.format(linenr_second),
-                    for k,v in u.iteritems():
-                        print '{:10s} {:3f}  '.format(k, v), 
-                    print
-                print
-                print '{:5d} {:80s}'.format(linenr_first, e.source_code_at_first_assignment)
-                print '{:5d} {:80s}'.format(linenr_second, e.source_code_when_multiple_units_happened)
+                    print('{:5d}           '.format(linenr_second), end=' ')
+                    for k,v in u.items():
+                        print('{:10s} {:3f}  '.format(k, v), end=' ') 
+                    print()
+                print()
+                print('{:5d} {:80s}'.format(linenr_first, e.source_code_at_first_assignment))
+                print('{:5d} {:80s}'.format(linenr_second, e.source_code_when_multiple_units_happened))
                 # print '- '*42
 
             if e.ERROR_TYPE == UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS:
-                print e.get_error_desc()
+                print(e.get_error_desc())
 
                 units_left = []
                 if e.token_left and e.token_left.units:
@@ -902,11 +902,11 @@ class ErrorChecker:
                 if e.token_right and e.token_right.units:
                     units_right = e.token_right.units
 
-                print "Addition of inconsistent units on line %s. Attempting to add %s to %s." % \
-                        (e.linenr, units_left, units_right)
+                print("Addition of inconsistent units on line %s. Attempting to add %s to %s." % \
+                        (e.linenr, units_left, units_right))
 
             if e.ERROR_TYPE == UnitErrorTypes.COMPARISON_INCOMPATIBLE_UNITS:
-                print e.get_error_desc()
+                print(e.get_error_desc())
 
                 units_left = []
                 if e.token_left and e.token_left.units:
@@ -915,8 +915,8 @@ class ErrorChecker:
                 if e.token_right and e.token_right.units:
                     units_right = e.token_right.units
 
-                print "Comparison of inconsistent units on line %s. Attempting to compare %s to %s." % \
-                        (e.linenr, units_left, units_right)
+                print("Comparison of inconsistent units on line %s. Attempting to compare %s to %s." % \
+                        (e.linenr, units_left, units_right))
 
 
     def print_one_line_summary(self, show_high_confidence=True, show_low_confidence=True):

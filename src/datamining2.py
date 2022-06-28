@@ -64,7 +64,7 @@ class TypeMiner(object):
 
             _extract_suffix_distance = self._extract_suffix_distance
             suffix2sim = {s: (1.0 - _extract_suffix_distance(term, s)) for s in self.suffix2type}
-            suffix_sims = sorted(suffix2sim.iteritems(), key=operator.itemgetter(1), reverse=True)
+            suffix_sims = sorted(iter(suffix2sim.items()), key=operator.itemgetter(1), reverse=True)
             for suffix, sim in suffix_sims:
                 t = self.suffix2type[suffix]
                 if t not in type2maxsim:
@@ -75,7 +75,7 @@ class TypeMiner(object):
             i+=1
 
         type2prob = {}
-        for t, sim in type2maxsim.items():
+        for t, sim in list(type2maxsim.items()):
             type2prob[t] = 0.5 + (sim/2.0)
 
         return type2prob
@@ -83,8 +83,8 @@ class TypeMiner(object):
 
     def _get_meaningful_term(self, var_name):
         terms = self._split_var(var_name)
-        terms = filter(lambda x: len(x) > 1, terms)
-        terms = filter(lambda x: x not in self.excluded_nouns, terms)
+        terms = [x for x in terms if len(x) > 1]
+        terms = [x for x in terms if x not in self.excluded_nouns]
         if not terms:
             return ''
         else:
@@ -104,7 +104,7 @@ class TypeMiner(object):
         
         _extract_suffix_distance = self._extract_suffix_distance
         suffix2sim = {s: (1.0 - _extract_suffix_distance(term, s)) for s in self.suffix2type}
-        suffix_sims = sorted(suffix2sim.iteritems(), key=operator.itemgetter(1), reverse=True)
+        suffix_sims = sorted(iter(suffix2sim.items()), key=operator.itemgetter(1), reverse=True)
         for suffix, sim in suffix_sims:
             t = self.suffix2type[suffix]
             if t not in type2maxsim:
@@ -113,7 +113,7 @@ class TypeMiner(object):
                 type2maxsim[t] = sim
 
         type2prob = {}
-        for t, sim in type2maxsim.items():
+        for t, sim in list(type2maxsim.items()):
             type2prob[t] = 0.5 + (sim/2.0)
 
         return type2prob
@@ -121,8 +121,8 @@ class TypeMiner(object):
 
     def _get_meaningful_term_2(self, var_name):
         terms = self._split_var(var_name)
-        terms = filter(lambda x: len(x) > 1, terms)
-        terms = filter(lambda x: x not in self.excluded_nouns, terms)
+        terms = [x for x in terms if len(x) > 1]
+        terms = [x for x in terms if x not in self.excluded_nouns]
         if not terms:
             return ''
         else:
@@ -138,17 +138,17 @@ class TypeMiner(object):
 
     def _split_var(self, name):
         final_names = []
-        names = map(self._remove_tail_digits, re.split(r'[_|\.]', name))
+        names = list(map(self._remove_tail_digits, re.split(r'[_|\.]', name)))
         for name in names:
             name = self._remove_array_index(name)
             if self._check_if_all_capitals(name):
                 final_names.append(name.lower())
             else:
                 subnames = self._split_by_captials(name)
-                subnames = map(self._remove_tail_digits, subnames)
-                subnames = map(str.lower, subnames)
+                subnames = list(map(self._remove_tail_digits, subnames))
+                subnames = list(map(str.lower, subnames))
                 final_names.extend(subnames)
-        final_names = filter(bool, final_names)
+        final_names = list(filter(bool, final_names))
         return final_names
 
 
@@ -169,7 +169,7 @@ class TypeMiner(object):
 
     @staticmethod
     def _split_by_captials(name):
-        return filter(bool, re.split('([A-Z][^A-Z]*)', name))
+        return list(filter(bool, re.split('([A-Z][^A-Z]*)', name)))
 
 
     @staticmethod

@@ -52,7 +52,7 @@ class ConstraintCollector:
             f.is_unit_propagation_based_on_constants = False
             f.is_unit_propagation_based_on_unknown_variable = False
             f.is_unit_propagation_based_on_weak_inference = False
-            for arg_number in f.argument.keys():
+            for arg_number in list(f.argument.keys()):
                 f.arg_units.append([])
         return c
 
@@ -321,32 +321,32 @@ class ConstraintCollector:
 
 
     def print_all_naming_constraints(self):
-        for var, nm_con in con.naming_constraints.items():
+        for var, nm_con in list(con.naming_constraints.items()):
             (lt, lname, units) = nm_con
-            print "nm_constraint: %s %s" % (lname, units[:3])
+            print("nm_constraint: %s %s" % (lname, units[:3]))
 
     def print_all_computed_unit_constraints(self):
-        for var, cu_con in con.computed_unit_constraints.items():
+        for var, cu_con in list(con.computed_unit_constraints.items()):
             units = []
             for (lt, lname, un, isKnown) in cu_con:
                 units.append(un)
-            print "cu_constraint: %s %s" % (lname, units)
+            print("cu_constraint: %s %s" % (lname, units))
 
         for (lt, lname, units, isKnown) in con.derived_cu_constraints:
-            print "cu_constraint: %s %s" % (lname, units)
+            print("cu_constraint: %s %s" % (lname, units))
 
     def print_all_df_constraints(self):
         for (lt, lname, rt, rname, df_type) in con.df_constraints:
-            print "df_constraint: %s %s, %s %s" % (lname, lt.units, rname, rt.units)
+            print("df_constraint: %s %s, %s %s" % (lname, lt.units, rname, rt.units))
 
     def print_all_conversion_factor_constraints(self):
         for (t, name, units, cf_type) in con.conversion_factor_constraints:
-            print "cf_constraint: %s %s %s" % (name, units, cf_type)
+            print("cf_constraint: %s %s %s" % (name, units, cf_type))
 
     def print_all_known_symbol_constraints(self):
-        for var, ks_con in con.known_symbol_constraints.items():
+        for var, ks_con in list(con.known_symbol_constraints.items()):
             (t, name, units) = ks_con[0]
-            print "ks_constraint: %s %s" % (name, units)
+            print("ks_constraint: %s %s" % (name, units))
 
 
     def main_run_collect(self, dump_file, source_file=''): 
@@ -366,7 +366,7 @@ class ConstraintCollector:
                 self.source_file_lines = f.readlines()
                 #print "yes"
         else:
-            print "no %s %s" % (self.source_file, self.debug)
+            print("no %s %s" % (self.source_file, self.debug))
 
         # for c in data.configurations:  #todo: what is a data configuration?  -- Check for multiple
         for c in data.configurations[:1]:   # MODIFIED TO ONLY TEST THE FIRST CONFIGURATION
@@ -386,7 +386,7 @@ class ConstraintCollector:
                 self.all_sorted_analysis_unit_dicts.append(sorted_analysis_unit_dict)
 
             # COLLECT ALL TOKEN PARSE TREES FOR EACH FUNCTION
-            for function_dict in sorted_analysis_unit_dict.values():
+            for function_dict in list(sorted_analysis_unit_dict.values()):
                 self.collect_constraints(function_dict)
 
             if self.SHOULD_PRINT_CONSTRAINTS:
@@ -408,12 +408,12 @@ class ConstraintCollector:
         self.init_cppcheck_config_data_structures(self.configurations[0])
         sorted_analysis_unit_dict = self.all_sorted_analysis_unit_dicts[0]
 
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             self.repeat_collect_constraints(function_dict)
 
         if self.SHOULD_PRINT_CONSTRAINTS:
-            print "Round %d:" % i
-            print "========"
+            print("Round %d:" % i)
+            print("========")
             self.print_all_computed_unit_constraints()
             self.print_all_df_constraints()
             self.print_all_conversion_factor_constraints()
@@ -514,7 +514,7 @@ class ConstraintCollector:
         self.init_cppcheck_config_data_structures(self.configurations[0])
         sorted_analysis_unit_dict = self.all_sorted_analysis_unit_dicts[0]
 
-        for function_dict in sorted_analysis_unit_dict.values():
+        for function_dict in list(sorted_analysis_unit_dict.values()):
             self.propagate_units(function_dict)
       
 
@@ -526,7 +526,7 @@ class ConstraintCollector:
         # BUILD CALL GRAPH
         self.function_graph = nx.DiGraph()
         G = self.function_graph
-        for k, function_dict in analysis_unit_dict.iteritems():
+        for k, function_dict in analysis_unit_dict.items():
             if function_dict['function']:  # MIGHT BE NONE WHEN FUNCTION IS CLASS CONSTRUCTOR (?)
                 node = function_dict['function'].Id             # Id of the Function
                 #if not G.has_node(node):
@@ -534,7 +534,7 @@ class ConstraintCollector:
                 #else:
                 all_attr = nx.get_node_attributes(G, 'function_id')
                 all_attr[node] = k
-                nx.set_node_attributes(G, 'function_id', all_attr)
+                nx.set_node_attributes(G, all_attr,'function_id')
                 #function_dict['is_visited'] = False
                 self.add_edges_to_function_graph(function_dict, G, node)
         self.function_graph = G
@@ -561,9 +561,9 @@ class ConstraintCollector:
                     edges = nx.find_cycle(G)
                     G.remove_edges_from(edges)
                    
-                    print 'Function graph has cycle %s' % edges,
+                    print('Function graph has cycle %s' % edges, end=' ')
                 except:
-                    print 'Function graph is not a DAG and does not have a cycle!'
+                    print('Function graph is not a DAG and does not have a cycle!')
                     # GIVE UP AND RETURN UNSORTED 
                     return analysis_unit_dict
             else:
@@ -575,7 +575,7 @@ class ConstraintCollector:
             return analysis_unit_dict
         # WE HAVE A DIRECTED GRAPH WITH NODES, CAN SORT AND ADD NODES TO ORDERED LIST
         function_graph_topo_sort = nx.topological_sort(G)
-        function_graph_topo_sort_reversed = function_graph_topo_sort[::-1]  # REVERSED
+        function_graph_topo_sort_reversed = list(function_graph_topo_sort)[::-1]  # REVERSED
         
         # OPTIONAL DEBUG PRINT
         #print function_graph_topo_sort_reversed
@@ -592,7 +592,7 @@ class ConstraintCollector:
                 pass
         
         # ADD ANY REMAINING FUNCTIONS NOT IN THE TOPO SORT TO THE ORDERED DICT
-        for k in analysis_unit_dict.keys():
+        for k in list(analysis_unit_dict.keys()):
             if k not in return_dict:
                 return_dict[k] = analysis_unit_dict[k]
 
@@ -604,10 +604,10 @@ class ConstraintCollector:
     def debug_print_function_graph(self, analysis_unit_dict):
         if not analysis_unit_dict:
             return
-        for function_dict in analysis_unit_dict.values():
-            print "%s :" % function_dict['name']
+        for function_dict in list(analysis_unit_dict.values()):
+            print("%s :" % function_dict['name'])
             for edge in function_dict['function_graph_edges']:
-                print ' --> %s' % edge.name
+                print(' --> %s' % edge.name)
             
 
     def add_edges_to_function_graph(self, function_dict, G, current_node):

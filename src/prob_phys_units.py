@@ -1,7 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 
-from __future__ import print_function
+
 from datamining2 import TypeMiner
 from constraint_collector import ConstraintCollector
 from constraint_solver import ConstraintSolver
@@ -92,11 +92,11 @@ def main(target_cpp_file, output_file, correction_file, should_print_one_line_su
     if not os.path.exists(dump_filename):
         args = ['cppcheck', '--dump', '-I ../include', target_cpp_file_base_name]
         # CREATE CPPCHECK FILE
-	made_cfg_dir = False
+        made_cfg_dir = False
         if not os.path.exists('cfg'):
             os.makedirs('cfg')
-	    made_cfg_dir = True
-	copyfile(os.path.join(original_directory, os.path.join('DATA', 'std.cfg')), os.path.join(os.path.join(target_cpp_file_dir, 'cfg'), 'std.cfg'))
+        made_cfg_dir = True
+        copyfile(os.path.join(original_directory, os.path.join('DATA', 'std.cfg')), os.path.join(os.path.join(target_cpp_file_dir, 'cfg'), 'std.cfg'))
         cppcheck_process = Popen(' '.join(args),  shell=True)
         cppcheck_process.communicate()
         if cppcheck_process.returncode != 0:
@@ -107,8 +107,8 @@ def main(target_cpp_file, output_file, correction_file, should_print_one_line_su
         if os.path.exists('cfg/std.cfg'):
             try:
                 os.remove('cfg/std.cfg')
-		if made_cfg_dir:
-		    os.rmdir('cfg')
+                if made_cfg_dir:
+                    os.rmdir('cfg')
             except:
                 # eprint('problem removing cfg folder')
                 pass # todo - fail silently for now
@@ -224,7 +224,7 @@ def print_variable_units(a_cppcheck_configuration, var2unitproba, output_file_pa
 
             if (t.variable, name) in var2unitproba:
                 inferred_units = var2unitproba[(t.variable, name)][:3]
-                inferred_units = list(filter(lambda x: x[1] > 0.5, inferred_units))
+                inferred_units = list([x for x in inferred_units if x[1] > 0.5])
                 var_dict[(t.variable.Id, name)] = inferred_units
     
     for (var_id, var_name) in var_dict:

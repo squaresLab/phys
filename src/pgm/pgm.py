@@ -3,8 +3,8 @@
 # Created by Zhaogui Xu on 8/12/16
 
 from os.path import join, dirname
-from StringIO import StringIO
-import dai
+from io import StringIO
+from . import dai
 
 
 class Variable(object):
@@ -169,4 +169,4 @@ class PGMEngine(object):
     #     return [self.query_factor_marginal(i) for i in range(self.factor_graph.nrFactors())]
 
     def query_map(self):
-        return map(int, self.inference.findMaximum())
+        return list(map(int, self.inference.findMaximum()))

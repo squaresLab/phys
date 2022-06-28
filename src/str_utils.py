@@ -112,4 +112,4 @@ def get_jarowinkler_dist(word1, word2):
 
 
 if __name__ == '__main__':
-    print is_abbrev_for_multiple('multi', ['immutable', 'multi', 'dict'])
+    print(is_abbrev_for_multiple('multi', ['immutable', 'multi', 'dict']))

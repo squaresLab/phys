@@ -28,7 +28,7 @@ class ConstraintScoper:
 
 
     def scan_cu_constraints(self):
-        for var, cu_con in con.computed_unit_constraints.items():
+        for var, cu_con in list(con.computed_unit_constraints.items()):
             if len(cu_con) < 2:
                 continue
             (lt, lname, units, isKnown) = cu_con[0]
@@ -100,9 +100,9 @@ class ConstraintScoper:
             
        
     def print_constraint_scoper(self):
-        print "Scope Directory: "
-        print self.scope_dir
-        print "Scope Pairs: "
-        print self.scope_pairs 
+        print("Scope Directory: ")
+        print(self.scope_dir)
+        print("Scope Pairs: ")
+        print(self.scope_pairs) 
                            
 

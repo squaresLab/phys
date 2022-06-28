@@ -34,14 +34,14 @@ class ConstraintSolver:
             #print {v.name: '%.4f' % (1.0 - p) for v, p in pgmvar2proba.iteritems()}
             os.remove(fg_filename)
 
-            for pred, pgmvar in self.pred2pgmvar.iteritems():
+            for pred, pgmvar in self.pred2pgmvar.items():
                 self.pgmvar2pred[pgmvar] = pred
 
             #print '---------------------'
             #print 'Probabilistic Units:'
             #print '---------------------'
    
-            for v, p in pgmvar2proba.iteritems():
+            for v, p in pgmvar2proba.items():
                 if v.name in self.pgmvar2pred:
                     (token, name, u) = self.pgmvar2pred[v.name]
                     #print '%s: %s = %s = %.4f' % (v.name, name, unit, 1.0-p)
@@ -58,7 +58,7 @@ class ConstraintSolver:
             if (var2unitproba[v][0][1] == 0.5):
                 continue
             if self.SHOULD_PRINT_VARIABLE_TYPES:
-                print '%s:\n%s\n' % (v[1], var2unitproba[v])
+                print('%s:\n%s\n' % (v[1], var2unitproba[v]))
 
         con.variable2unitproba = var2unitproba
         #con.reset_constraints()        
@@ -82,7 +82,7 @@ class ConstraintSolver:
         
 
     def process_nm_constraints(self, pgm_player, unit):
-        for var, nm_con in con.naming_constraints.items():
+        for var, nm_con in list(con.naming_constraints.items()):
             (lt, lname, unitprobalist) = nm_con
             var = con.variables.get((lt.variable, lname))
             if var:
@@ -110,7 +110,7 @@ class ConstraintSolver:
                     
 
     def process_cu_constraints(self, pgm_player, unit):
-        for var, cu_con in con.computed_unit_constraints.items():
+        for var, cu_con in list(con.computed_unit_constraints.items()):
             (lt, lname, units, isKnown) = cu_con[0]
             var = con.variables.get((lt.variable, lname))
             if var:
@@ -263,7 +263,7 @@ class ConstraintSolver:
 
 
     def process_ks_constraints(self, pgm_player, unit):
-        for var, ks_con in con.known_symbol_constraints.items():
+        for var, ks_con in list(con.known_symbol_constraints.items()):
             (token, name, units) = ks_con[0]
             var = con.variables.get((token.variable, name))
             if var:

@@ -138,7 +138,7 @@ class SymbolHelper:
     #TODO check which variable token to be returned
     def find_compound_variable_and_name_for_dot_operand(self, token):
         if token.str != '.' and token.str != '[' and token.str != '(':
-            print 'received a non dot token for tokenid:%s str:%s' % (token.Id, token.str)
+            print('received a non dot token for tokenid:%s str:%s' % (token.Id, token.str))
             return (token, token.str)
 
         compound_variable_token = token
@@ -893,7 +893,7 @@ class SymbolHelper:
         return_dict['mol'] = float(units_as_list[8])
         return_dict['candela'] = float(units_as_list[9])
         # FILTER ZEROS
-        return_dict = {k: v for k, v in return_dict.iteritems() if v != 0.0}
+        return_dict = {k: v for k, v in return_dict.items() if v != 0.0}
         return return_dict
 
 

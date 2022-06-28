@@ -202,7 +202,7 @@ class ErrorRechecker:
             else:
                 err_checker.all_errors.append(e)
 
-        print "Error_Rechecker:"                 
+        print("Error_Rechecker:")                 
         err_checker.pretty_print()
         err_checker.print_unit_errors('errors_2.txt')
         self.print_var_units_to_check(err_checker, varlist, 'variable_units_to_check_2.txt')

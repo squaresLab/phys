@@ -326,7 +326,7 @@ class Function:
             self.argumentId[arg.get('nr')] = arg.get('variable')
 
     def setId(self, IdMap):
-        for argnr, argid in self.argumentId.items():
+        for argnr, argid in list(self.argumentId.items()):
             self.argument[argnr] = IdMap.get(argid) #IdMap[argid]
         self.tokenDef = IdMap[self.tokenDefId]
 

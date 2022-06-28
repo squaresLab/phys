@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from pgm import Variable, Factor, FactorGraph, PGMEngine
+from .pgm import Variable, Factor, FactorGraph, PGMEngine
 
 
 class PGMPlayer(object):
@@ -16,7 +16,7 @@ class PGMPlayer(object):
         left = [self.get_var(x) for x in left]
         right = [self.get_var(x) for x in right]
         factor = Factor(vars=left + right,
-                        states=map(lambda x: proba if x else 1 - proba, states),
+                        states=[proba if x else 1 - proba for x in states],
                         comment=comment)
         self.curr_factors.append(factor)
 
@@ -32,7 +32,7 @@ class PGMPlayer(object):
         pgmengine.prepare(self.fg_filename, alg)
         pgmengine.run()
         pgmvar2proba = pgmengine.query_all_var_marginals()
-        return {pv: p0 for pv, (p0, _) in pgmvar2proba.iteritems()}
+        return {pv: p0 for pv, (p0, _) in pgmvar2proba.items()}
 
     def get_var(self, vname):
         try:
@@ -167,7 +167,7 @@ if __name__ == '__main__':
                       proba=0.95,
                       comment='p7 -> p6')
      
-    print {v.name: '%.4f' % (1.0 - p) for v, p in player.compute_marginals().iteritems()}
+    print({v.name: '%.4f' % (1.0 - p) for v, p in player.compute_marginals().items()})
 
 
     player = PGMPlayer()
@@ -195,6 +195,6 @@ if __name__ == '__main__':
                       states=[0, 1],
                       proba=0.95,
                       comment='s = 0.5')
-    print {v.name: '%.4f' % (1.0 - p) for v, p in player.compute_marginals().iteritems()}
+    print({v.name: '%.4f' % (1.0 - p) for v, p in player.compute_marginals().items()})
 
 

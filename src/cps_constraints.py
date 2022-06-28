@@ -99,11 +99,11 @@ def is_only_known_unit_variable(tokenvar, name):
 
 
 def print_known_unit_variables():
-    print "Known Unit Variables:"
-    for var, knownStatus in this.known_unit_variables.items():
+    print("Known Unit Variables:")
+    for var, knownStatus in list(this.known_unit_variables.items()):
         (k, uk) = knownStatus
         if (k) and (not uk):
-            print var
+            print(var)
             
 
 def add_variable(token, name):

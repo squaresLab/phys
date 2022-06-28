@@ -131,13 +131,13 @@ class TreeWalker:
                     #    units = con.flatten_unit_list(units)
 
                     units = con.variable2unitproba[(token_variable, var_name)]
-                    units = filter(lambda (u, p): p > con.unit_prob_threshold, units)
-                    probas = map(lambda (u, p): p, units)
+                    units = [u_p for u_p in units if u_p[1] > con.unit_prob_threshold]
+                    probas = [u_p1[1] for u_p1 in units]
                     probas = list(set(probas))
                     probas = sorted(probas, reverse=True)
                     probas = probas[:n]
-                    units = filter(lambda (u, p): p in probas, units)
-                    units = map(lambda (u, p): u, units)
+                    units = [u_p2 for u_p2 in units if u_p2[1] in probas]
+                    units = [u_p3[0] for u_p3 in units]
                     if con.ENABLE_UNIT_LIST_FLATTENING:
                         units = con.flatten_unit_list(units)
 
@@ -1042,9 +1042,9 @@ class TreeWalker:
                 #print var_name, token.file, token.linenr
                 estimation_dict = self.type_miner.predict_proba(var_name)
                 if estimation_dict:
-                    estimation_list_sorted = sorted(estimation_dict.items(), key=itemgetter(1))
+                    estimation_list_sorted = sorted(list(estimation_dict.items()), key=itemgetter(1))
                     estimation_list_sorted.reverse()
-                    estimation_list_sorted = map(lambda (u, p): (eval(u), p), estimation_list_sorted)
+                    estimation_list_sorted = [(eval(u_p4[0]), u_p4[1]) for u_p4 in estimation_list_sorted]
 
                     est_list = estimation_list_sorted[:3]
                     i = 0
@@ -1091,7 +1091,7 @@ class TreeWalker:
                 #print var_name, token.file, token.linenr
                 estimation_dict = self.vnh.predict_units_for_var_name(var_name, 'lstm_most_common')
                 if estimation_dict:
-                    estimation_list_sorted = sorted(estimation_dict.items(), key=itemgetter(0), reverse=True)
+                    estimation_list_sorted = sorted(list(estimation_dict.items()), key=itemgetter(0), reverse=True)
                     # SWAP ORDER TO MAKE LIST CONSISTET WITH PHYS
                     estimation_list_sorted = [(b,a) for (a,b) in estimation_list_sorted]
 
@@ -1218,7 +1218,7 @@ class TreeWalker:
                     #print fun.name
                     #print fun.argumentId
                     #print fun.argument
-                    for argnr, arg in fun.argument.items():
+                    for argnr, arg in list(fun.argument.items()):
                         if arg == token.astOperand1.variable:
                             break
                     token.astOperand1.scope.function.return_arg_var_nr = eval(argnr)
@@ -1264,7 +1264,7 @@ class TreeWalker:
             for u in new_units:
                 if u in self.my_symbol_helper.dimensionless_units:
                     continue
-                for k, v in u.iteritems():
+                for k, v in u.items():
                     u[k] = v / 2.
 
             # ATTEMPT TO PROPAGATE UNITS ACROSS '('
@@ -1352,7 +1352,7 @@ class TreeWalker:
                     for unit_dict in new_units:
                         if unit_dict in self.my_symbol_helper.dimensionless_units:
                             continue
-                        for k, v in unit_dict.iteritems():
+                        for k, v in unit_dict.items():
                             unit_dict[k] = power_exponent * v
 
                     for u in new_units:
@@ -1482,7 +1482,7 @@ class TreeWalker:
             if token.str in ['/', '/='] and not left_units:
                 # FLIP SIGNS ON NEW UNITS
                 for u in new_units:
-                    for k, v in u.iteritems():
+                    for k, v in u.items():
                         u[k] = -1 * v
             # WEAKEN INFERENCE IF WE'RE MULTIPLYING OR
             # DIVIDING ON CONSTANTS OR UNKNOWN VARIABLES
@@ -1624,7 +1624,7 @@ class TreeWalker:
                     return_dict[unit] = -1 * unit_dict_right[unit]
 
         # FILTER OUT ZEROs - UNITLESS
-        return_dict = {k: v for k, v in return_dict.items() if v != 0}
+        return_dict = {k: v for k, v in list(return_dict.items()) if v != 0}
         return return_dict
       
 
@@ -1832,7 +1832,7 @@ class TreeWalker:
         if token.variable and token.variable.isArgument:
             fun = token.scope.function
 
-            for argnr, arg in fun.argument.items():
+            for argnr, arg in list(fun.argument.items()):
                 if arg == token.variable:
                     break
 

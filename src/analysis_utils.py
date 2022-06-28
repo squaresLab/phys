@@ -22,7 +22,7 @@ def get_vars_from_statement(t):
     """ #type: List[Token] -> List[Token]
     Returns a list of variable tokens from a list of tokens
     """
-    return list(filter(lambda x: x.varId, t))
+    return list([x for x in t if x.varId])
 
 def get_LHS_from_statement(t):
     """ #type: List[Token] -> List[Token]
@@ -44,4 +44,4 @@ def tokens_to_str(t):
     """ #type: List[Token] -> List[str]
     Returns a list of strings extracted from a list of tokens
     """
-    return list(map(lambda x: x.str, t))
+    return list([x.str for x in t])

@@ -71,7 +71,7 @@ class TypeMiner(object):
                             self.var2type[useful_term][unit_type] = 1
                         except KeyError:
                             self.var2type[useful_term] = {unit_type: 1}
-        print ('End... %d %d' % (len(self.vars), len(self.var2type)))
+        print(('End... %d %d' % (len(self.vars), len(self.var2type))))
 
     def _init_suffix_data(self):
         # LOAD VARIABLE SUFFIX AND TYPE DATA
@@ -92,9 +92,9 @@ class TypeMiner(object):
 
         _extract_str_distance = self._extract_str_distance
         var2sim = {v: (1.0 - _extract_str_distance(term, v)) for v in self.vars}
-        var_sims = sorted(var2sim.iteritems(), key=operator.itemgetter(1), reverse=True)
+        var_sims = sorted(iter(var2sim.items()), key=operator.itemgetter(1), reverse=True)
         for var, sim in var_sims:
-            types = sorted(self.var2type[var].iteritems(),
+            types = sorted(iter(self.var2type[var].items()),
                            key=operator.itemgetter(1), reverse=True)
             for t in types:
                 t = t[0]
@@ -107,7 +107,7 @@ class TypeMiner(object):
         
         _extract_suffix_distance = self._extract_suffix_distance
         suffix2sim = {s: (1.0 - _extract_suffix_distance(term, s)) for s in self.suffix2type}
-        suffix_sims = sorted(suffix2sim.iteritems(), key=operator.itemgetter(1), reverse=True)
+        suffix_sims = sorted(iter(suffix2sim.items()), key=operator.itemgetter(1), reverse=True)
         for suffix, sim in suffix_sims:
             t = self.suffix2type[suffix]
             if t not in type2maxsim:
@@ -116,11 +116,11 @@ class TypeMiner(object):
                 type2maxsim[t]['sim2'] = sim
 
         type2sim = {}
-        for t, sim_dict in type2maxsim.items():
+        for t, sim_dict in list(type2maxsim.items()):
             type2sim[t] = VAR_SIM_FACTOR * sim_dict['sim1'] + SUFFIX_SIM_FACTOR * sim_dict['sim2']
 
         type2prob = {}
-        for t, sim in type2sim.items():
+        for t, sim in list(type2sim.items()):
             type2prob[t] = 0.5 + (sim/2.0)
 
         return type2prob
@@ -128,7 +128,7 @@ class TypeMiner(object):
 
     def _get_meaningful_term(self, var_name):
         terms = self._split_var(var_name)
-        terms = filter(lambda x: len(x) > 1, terms)
+        terms = [x for x in terms if len(x) > 1]
         if not terms:
             return ''
         else:
@@ -145,16 +145,16 @@ class TypeMiner(object):
     def _split_var(self, name):
         final_names = []
         # try to remove tail digits first
-        names = map(self._remove_tail_digits, re.split(r'[_|\.]', name))
+        names = list(map(self._remove_tail_digits, re.split(r'[_|\.]', name)))
         for name in names:
             if self._check_if_all_capitals(name):
                 final_names.append(name.lower())
             else:
                 subnames = self._split_by_captials(name)
-                subnames = map(self._remove_tail_digits, subnames)
-                subnames = map(str.lower, subnames)
+                subnames = list(map(self._remove_tail_digits, subnames))
+                subnames = list(map(str.lower, subnames))
                 final_names.extend(subnames)
-        final_names = filter(bool, final_names)
+        final_names = list(filter(bool, final_names))
         return final_names
 
 
@@ -170,7 +170,7 @@ class TypeMiner(object):
 
     @staticmethod
     def _split_by_captials(name):
-        return filter(bool, re.split('([A-Z][^A-Z]*)', name))
+        return list(filter(bool, re.split('([A-Z][^A-Z]*)', name)))
 
 
     @staticmethod
