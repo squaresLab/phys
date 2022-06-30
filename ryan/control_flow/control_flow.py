@@ -70,6 +70,7 @@ def get_functions(cppcheck_config: Configuration) -> Dict[str, Dict]:
                                     "token_start": s.classStart, 
                                     "token_end": s.classEnd, 
                                     "scopeObject":s,
+                                    "scopes": [],
                                     "symbol_table": {},
                                     "function_graph_edges":[],
                                     "function":s.function}
@@ -117,77 +118,80 @@ class ConditionalBlock:
         self.condition_true = None
         self.condition_false = None
 
-def construct_function_cfg_recursive(cur, function_statements: List[Token], function_dict):
-    """Helper for recursively creating CFG"""
-    func_scope_id = function_dict["scopeObject"].Id
+# def construct_function_cfg_recursive(cur, function_statements: List[Token], function_dict):
+#     """Helper for recursively creating CFG"""
+#     func_scope_id = function_dict["scopeObject"].Id
 
-    while function_statements:
-        # print(tokens_to_str(s))
-        s = function_statements.pop(0)
-        if not s:
-            # function_statements.pop(0)
-            continue
+#     while function_statements:
+#         # print(tokens_to_str(s))
+#         s = function_statements.pop(0)
+#         if not s:
+#             # function_statements.pop(0)
+#             continue
 
-        statement_scope = s[0].scope
+#         statement_scope = s[0].scope
 
-        # If block
-        if statement[0].str == "if":
-            opening_paren = statement[0].next
-            assert opening_paren.str == "(", "Invalid if statement"
-            closing_paren = opening_paren.link
-            cur_token = opening_paren.next
+#         # If block
+#         if statement[0].str == "if":
+#             opening_paren = statement[0].next
+#             assert opening_paren.str == "(", "Invalid if statement"
+#             closing_paren = opening_paren.link
+#             cur_token = opening_paren.next
 
-            conditional_tokens = []
-            while cur_token.next and cur_token != closing_paren:
-                conditional_tokens.append(cur_token)
-                cur_token = cur_token.next
+#             conditional_tokens = []
+#             while cur_token.next and cur_token != closing_paren:
+#                 conditional_tokens.append(cur_token)
+#                 cur_token = cur_token.next
 
-            opening_bracket = cur_token.next
-            assert opening_bracket.str == "{", "Invalid if statement"
-            closing_bracket = cloing_bracket.link
+#             opening_bracket = cur_token.next
+#             assert opening_bracket.str == "{", "Invalid if statement"
+#             closing_bracket = cloing_bracket.link
 
-            if_block_statements = []
-            while True:
-                function_statements.pop(0)
-                cur_statement = function_statements[0]
-                bracket_found = False
-                for i in range(len(cur_statement)):
-                    if cur_statement[i] == closing_bracket:
-                        if_block_statements.append(cur_statement[:i])
-                        function_statements[0] = cur_statement[i + 1:]
-                        bracket_found = True
-                        break
+#             if_block_statements = []
+#             while True:
+#                 function_statements.pop(0)
+#                 cur_statement = function_statements[0]
+#                 bracket_found = False
+#                 for i in range(len(cur_statement)):
+#                     if cur_statement[i] == closing_bracket:
+#                         if_block_statements.append(cur_statement[:i])
+#                         function_statements[0] = cur_statement[i + 1:]
+#                         bracket_found = True
+#                         break
 
-                if bracket_found:
-                    break
-                else:
-                    if_block_statements.append(cur_statement)
+#                 if bracket_found:
+#                     break
+#                 else:
+#                     if_block_statements.append(cur_statement)
 
-            conditional_block = ConditionalBlock(conditional_tokens, cur)
-            if cur:
-                cur.next = conditional_block
-                cur = cur.next
-            else:
-                cur = conditional_block
+#             conditional_block = ConditionalBlock(conditional_tokens, cur)
+#             if cur:
+#                 cur.next = conditional_block
+#                 cur = cur.next
+#             else:
+#                 cur = conditional_block
 
-            conditional_block.condition_true = construct_function_cfg_recursive(cur, 
-            if_block_statements, function_dict) 
+#             conditional_block.condition_true = construct_function_cfg_recursive(cur, 
+#             if_block_statements, function_dict) 
             
 
 
-        # Basic block
-        elif statement_scope.Id == func_scope_id:
-            basic_block = BasicBlock(s, cur)
+#         # Basic block
+#         elif statement_scope.Id == func_scope_id:
+#             basic_block = BasicBlock(s, cur)
 
-            if cur:
-                cur.next = basic_block
-                cur = cur.next
-            else:
-                cur = basic_block
-        else : 
-            pass
+#             if cur:
+#                 cur.next = basic_block
+#                 cur = cur.next
+#             else:
+#                 cur = basic_block
+#         else : 
+#             pass
 
-        function_statements.pop(0)
+#         function_statements.pop(0)
+
+def construct_function_cfg_recursive(cur, function_statements, function_dict):
+    pass
 
 def construct_function_cfg(function_dict: Dict) -> EntryBlock:
     """Constructs the CFG object for a single function"""
@@ -209,12 +213,12 @@ if __name__ == "__main__":
     filename = "/home/rewong/phys/data/FrenchVanilla/src/turtlebot_example/src/turtlebot_example_node.cpp.dump"
     d = CppcheckData(filename)
     w = list(get_functions(d.configurations[0]).values())[0]
-    print([tokens_to_str(get_statement_tokens(t)) for t in w["root_tokens"]])
+    print([tokens_to_str([t.astOperand1, t, t.astOperand2]) for t in w["root_tokens"]])
     # print(get_function_statements(w["start_token"], w["end_token"], w["root_tokens"]))
-    z = [tokens_to_str(t) for t in get_function_statements(w["token_start"], w["token_end"], w["root_tokens"])]
+    # z = [tokens_to_str(t) for t in get_function_statements(w["token_start"], w["token_end"], w["root_tokens"])]
     # z = [tokens_to_str(get_statement_tokens(t)) for t in w["root_tokens"]]
-    # for a in z:
-    #     print(a)
+    for a in z:
+        print(a)
     # print(z)
     # y = construct_function_cfg(w)
     # print(tokens_to_str(y.next.next.next.next.next.tokens))
