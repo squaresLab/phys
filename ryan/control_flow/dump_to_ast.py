@@ -12,10 +12,8 @@ class ScopeNode:
         self.parent = None
 
     def remove_by_id(self, scope_id: str) -> None:
-        print(f"ATTEMPTING TO REMOVE: {scope_id}")
         for i in range(len(self.children)):
             if self.children[i].scope_id == scope_id:
-                print("REMOVED")
                 self.children.pop(i)
                 return True
             
@@ -102,6 +100,12 @@ class IfStatement:
         self.condition = condition
         self.condition_false = condition_false
         self.condition_true = condition_true
+
+class WhileStatement:
+    def __init__(self, condition: Token, condition_true: List[Token]):
+        self.type = "while"
+        self.condition = condition
+        self.condition_true = condition_true
         
 
 class FunctionDeclaration:
@@ -131,6 +135,7 @@ class DumpToAST:
             f["function"])
 
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
+            print(tokens_to_str(root_tokens))
             func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
 
@@ -147,10 +152,7 @@ def parse(root_tokens, scope_tree):
         if t.astOperand1 and t.astOperand1.str == "if":
             if_scope = scope_tree.children[0]
             assert if_scope.scope_obj.type == "If"
-            print(if_scope.scope_id)
-            print(f"Before {scope_tree.children}")
             scope_tree.remove_by_id(if_scope.scope_id)
-            print(f"After {scope_tree.children}")
             if_scope_end = if_scope.scope_obj.classEnd
             conditional_root_token = t.astOperand2
 
@@ -174,7 +176,23 @@ def parse(root_tokens, scope_tree):
             condition_false = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
+            
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
+        elif t.astOperand1 and t.astOperand1.str == "while":
+            while_scope = scope_tree.children[0]
+            assert while_scope.scope_obj.type == "While"
+            scope_tree.remove_by_id(while_scope.scope_id)
+            while_scope_end = while_scope.scope_obj.classEnd
+            conditional_root_token = t.astOperand2
+
+            # Get code for true case
+            condition_true_root_tokens = []
+            while root_tokens and root_tokens[0].Id <= while_scope_end.Id:
+                condition_true_root_tokens.append(root_tokens.pop(0))
+                
+            condition_true = parse(condition_true_root_tokens, while_scope)
+
+            blocks.append(WhileStatement(conditional_root_token, condition_true))
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -194,11 +212,16 @@ def print_AST(function_body):
             print_AST(b.condition_true)
             print("IF FALSE:")
             print_AST(b.condition_false)
+        elif b.type == "while":
+            print("WHILE:")
+            print(tokens_to_str(get_statement_tokens(b.condition)))
+            print("IF TRUE:")
+            print_AST(b.condition_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_5.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_8.cpp.dump"
     parsed = DumpToAST.convert(test_path)
-    print([x.scope_obj.type for x in parsed[0].scope_tree.children])
+    # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
     # while cur:
