@@ -11,13 +11,15 @@ class ScopeNode:
         self.children = []
         self.parent = None
 
-    def remove(self, scope_id: str) -> None:
+    def remove_by_id(self, scope_id: str) -> None:
+        print(f"ATTEMPTING TO REMOVE: {scope_id}")
         for i in range(len(self.children)):
             if self.children[i].scope_id == scope_id:
+                print("REMOVED")
                 self.children.pop(i)
                 return True
             
-            res = self.children[i].remove(scope_id)
+            res = self.children[i].remove_by_id(scope_id)
             if res:
                 return True
 
@@ -42,9 +44,9 @@ class ScopeNode:
         if not scope_obj:
             return None
         
+        # print(scope_obj.Id)
         scope_node = ScopeNode(scope_obj)
         scope_children = []
-        print(scope_obj.Id)
         for i in range(len(cppcheck_config.scopes)):
             s = cppcheck_config.scopes[i]
             if s == scope_node.scope_obj:
@@ -53,20 +55,16 @@ class ScopeNode:
             # All Else scopes should have a Try scope directly following that is functionally the same
             if s.type == "Else":
                 s.Id = cppcheck_config.scopes[i + 1].Id
+                cppcheck_config.scopes[i + 1].nestedInId = "-1"
 
             if s.nestedInId == scope_node.scope_id:
                 scope_node_child = ScopeNode.make_scope_tree(cppcheck_config, s)
-                # print("made tree")
-                # while scope_node_child:
-                #     print(scope_node_child.scope_id)
-                #     if scope_node_child.children:
-                #         scope_node_child = scope_node_child.children[0]
-                #     else:
-                #         scope_node_child = scope_node_child.children
                 if scope_node_child:
                     scope_node_child.parent = scope_obj
                     scope_children.append(scope_node_child)
 
+        scope_node.children = scope_children
+        # print(scope_node.scope_id, scope_node.children)
         # cur = scope_node
         # i = 0
         # while cur:
@@ -147,8 +145,12 @@ def parse(root_tokens, scope_tree):
 
         # If block
         if t.astOperand1 and t.astOperand1.str == "if":
-            if_scope = scope_tree.find_by_id(t.scopeId)
-            scope_tree.remove(if_scope)
+            if_scope = scope_tree.children[0]
+            assert if_scope.scope_obj.type == "If"
+            print(if_scope.scope_id)
+            print(f"Before {scope_tree.children}")
+            scope_tree.remove_by_id(if_scope.scope_id)
+            print(f"After {scope_tree.children}")
             if_scope_end = if_scope.scope_obj.classEnd
             conditional_root_token = t.astOperand2
 
@@ -160,18 +162,18 @@ def parse(root_tokens, scope_tree):
             condition_true = parse(condition_true_root_tokens, if_scope)
             
             condition_false_root_tokens = []
+            # print(scope_tree.children[0].scope_obj.type)
             if scope_tree.children and scope_tree.children[0].scope_obj.type == "Else":
                 else_scope = scope_tree.find_by_id(scope_tree.children[0].scope_id)
                 else_scope_end = else_scope.scope_obj.classEnd
 
                 condition_false_root_tokens = []
-                while root_tokens and root_tokens[0].Id <= else_scope_end:
+                while root_tokens and root_tokens[0].Id <= else_scope_end.Id:
                     condition_false_root_tokens.append(root_tokens.pop(0))
-            
+            # print(condition_false_root_tokens)
             condition_false = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
-
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
         # Regular statement
         else:
@@ -186,13 +188,17 @@ def print_AST(function_body):
         if b.type == "block":
             print(tokens_to_str(get_statement_tokens(b.root_token)))
         elif b.type == "if":
+            print("IF:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
+            print("IF TRUE:")
             print_AST(b.condition_true)
+            print("IF FALSE:")
             print_AST(b.condition_false)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_2.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_5.cpp.dump"
     parsed = DumpToAST.convert(test_path)
+    print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
     # while cur:
