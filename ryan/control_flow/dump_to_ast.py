@@ -107,6 +107,11 @@ class WhileStatement:
         self.condition = condition
         self.condition_true = condition_true
         
+class ForStatement:
+    def __init__(self, condition: Token, condition_true: List[Token]):
+        self.type = "for"
+        self.condition = condition
+        self.condition_true = condition_true
 
 class FunctionDeclaration:
     def __init__(self, name, token_start, token_end, scope_obj, scope_tree,
@@ -135,7 +140,6 @@ class DumpToAST:
             f["function"])
 
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
-            print(tokens_to_str(root_tokens))
             func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
 
@@ -178,6 +182,7 @@ def parse(root_tokens, scope_tree):
                 condition_false = parse(condition_false_root_tokens, else_scope)
             
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
+        # While statement
         elif t.astOperand1 and t.astOperand1.str == "while":
             while_scope = scope_tree.children[0]
             assert while_scope.scope_obj.type == "While"
@@ -193,6 +198,22 @@ def parse(root_tokens, scope_tree):
             condition_true = parse(condition_true_root_tokens, while_scope)
 
             blocks.append(WhileStatement(conditional_root_token, condition_true))
+        # For statement
+        elif t.astOperand1 and t.astOperand1.str == "for":
+            for_scope = scope_tree.children[0]
+            assert for_scope.scope_obj.type == "For"
+            scope_tree.remove_by_id(for_scope.scope_id)
+            for_scope_end = for_scope.scope_obj.classEnd
+            conditional_root_token = t.astOperand2
+
+            # Get code for true case
+            condition_true_root_tokens = []
+            while root_tokens and root_tokens[0].Id <= for_scope_end.Id:
+                condition_true_root_tokens.append(root_tokens.pop(0))
+                
+            condition_true = parse(condition_true_root_tokens, for_scope)
+
+            blocks.append(ForStatement(conditional_root_token, condition_true))
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -217,9 +238,14 @@ def print_AST(function_body):
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("IF TRUE:")
             print_AST(b.condition_true)
+        elif b.type == "for":
+            print("FOR:")
+            print(tokens_to_str(get_statement_tokens(b.condition)))
+            print("DO:")
+            print_AST(b.condition_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_8.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_10.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
