@@ -1,3 +1,5 @@
+from __future__ import annotations
+from abc import ABC, abstractmethod
 from cpp_parser import *
 from cpp_utils import *
 from typing import *
@@ -6,12 +8,19 @@ from control_flow import *
 
 class ScopeNode:
     def __init__(self, scope_obj: Scope):
-        self.scope_id = scope_obj.Id
-        self.scope_obj = scope_obj
-        self.children = []
-        self.parent = None
+        """Node for a tree of Scopes"""
+        self.scope_id: str = scope_obj.Id
+        self.scope_obj: Scope = scope_obj
+        self.children: List[ScopeNode] = []
+        self.parent: Union[ScopeNode, None] = None
 
-    def remove_by_id(self, scope_id: str) -> None:
+    def remove_by_id(self, scope_id: str) -> Bool:
+        """Remove subtree where the root has Id == scope_id
+        by scope ID
+
+        Returns:
+            bool : Whether the node was removed
+        """
         for i in range(len(self.children)):
             if self.children[i].scope_id == scope_id:
                 self.children.pop(i)
@@ -23,7 +32,8 @@ class ScopeNode:
 
         return False
 
-    def find_by_id(self, scope_id: str):
+    def find_by_id(self, scope_id: str) -> Union[ScopeNode, None]:
+        """Finds node by scope_id"""
         if scope_id == self.scope_id:
             return self
         
@@ -33,48 +43,45 @@ class ScopeNode:
             if res:
                 return res
 
-    def find_by_obj(self, scope_obj: Scope):
+    def find_by_obj(self, scope_obj: Scope) -> Union[ScopeNode, None]:
+        """Finds node by scope_obj"""
         return self.find_by_id(scope_obj.scope_id)
 
 
     @staticmethod
     def make_scope_tree(cppcheck_config: Configuration, scope_obj: Scope):
+        """Creates a scope tree using scopes in cppcheck_config where the 
+        root is the scope_obj
+        """
         if not scope_obj:
             return None
         
-        # print(scope_obj.Id)
         scope_node = ScopeNode(scope_obj)
         scope_children = []
+        # Find nested children
         for i in range(len(cppcheck_config.scopes)):
             s = cppcheck_config.scopes[i]
             if s == scope_node.scope_obj:
                 continue
-            # print(s.Id, s.nestedInId)
-            # All Else scopes should have a Try scope directly following that is functionally the same
+
+            # Remove try scopes and change the "Else" scope to have the "Try" scope_id
             if s.type == "Else":
                 s.Id = cppcheck_config.scopes[i + 1].Id
                 cppcheck_config.scopes[i + 1].nestedInId = "-1"
 
+            # If a scope is nested inside of the root node (is a child of root)
             if s.nestedInId == scope_node.scope_id:
+                # Recurse
                 scope_node_child = ScopeNode.make_scope_tree(cppcheck_config, s)
                 if scope_node_child:
                     scope_node_child.parent = scope_obj
                     scope_children.append(scope_node_child)
 
         scope_node.children = scope_children
-        # print(scope_node.scope_id, scope_node.children)
-        # cur = scope_node
-        # i = 0
-        # while cur:
-        #     print(cur.scope_id, cur, i)
-        #     if cur.children:
-        #         cur = cur.children[0]
-        #         i += 1
-        #     else:
-        #         cur = cur.children
         return scope_node
 
-    def copy(self):
+    def copy(self) -> ScopeNode:
+        """Creates a deep copy of self"""
         scope_node_copy = ScopeNode(self.scope_obj)
 
         if scope_node_copy.parent:
@@ -87,36 +94,58 @@ class ScopeNode:
 
         return scope_node_copy
 
+class Statement(ABC):
+    @abstractmethod
+    def get_type(self) -> str:
+        return ""
 
-class BlockStatement:
+class BlockStatement(Statement):
     def __init__(self, root_token: Token):
-        self.type = "block"
-        self.root_token = root_token
+        """Class for a single block statement"""
+        self.type: str = "block"
+        self.root_token: Token = root_token
 
-class IfStatement:
+    def get_type(self) -> str:
+        return self.type
+
+class IfStatement(Statement):
     def __init__(self, condition: Token, condition_true: List[Token], 
     condition_false: List[Token]):
-        self.type = "if"
-        self.condition = condition
-        self.condition_false = condition_false
-        self.condition_true = condition_true
+        """Class for an if statement"""
+        self.type: str = "if"
+        self.condition: Token = condition
+        self.condition_false: List[Statement] = condition_false
+        self.condition_true: List[Statement] = condition_true
 
-class WhileStatement:
+    def get_type(self) -> str:
+        return self.type
+
+class WhileStatement(Statement):
     def __init__(self, condition: Token, condition_true: List[Token]):
-        self.type = "while"
-        self.condition = condition
-        self.condition_true = condition_true
+        """Class for a while statement"""
+        self.type: str = "while"
+        self.condition: Token = condition
+        self.condition_true: List[Statement] = condition_true
+
+    def get_type(self) -> str:
+        return self.type
         
 class ForStatement:
     def __init__(self, condition: Token, condition_true: List[Token]):
-        self.type = "for"
-        self.condition = condition
-        self.condition_true = condition_true
+        """Class for a for loop"""
+        self.type: str = "for"
+        self.condition: Token = condition
+        self.condition_true: List[Statement] = condition_true
 
-    def for_to_if(self):
-        initialize_expr = self.condition.astOperand1
-        condition_expr = self.condition.astOperand2.astOperand1
-        update_expr = self.condition.astOperand2.astOperand2
+    def for_to_while(self) -> List[BlockStatement, WhileStatement]:
+        """Desugars for loop into a while loop"""
+
+        # E.g. int i = 0
+        initialize_expr: Token = self.condition.astOperand1
+        # E.g. i < 10
+        condition_expr: Token = self.condition.astOperand2.astOperand1
+        # E.g. i++
+        update_expr: token = self.condition.astOperand2.astOperand2
 
         blocks = []
         blocks.append(BlockStatement(initialize_expr))
@@ -125,18 +154,20 @@ class ForStatement:
         return blocks
 
 class FunctionDeclaration:
-    def __init__(self, name, token_start, token_end, scope_obj, scope_tree,
-    function):
-        self.name = name
-        self.token_start = token_start
-        self.token_end = token_end
-        self.scope_obj = scope_obj
-        self.scope_tree = scope_tree
-        self.function = function
-        self.body = []
+    def __init__(self, name: str, token_start: Token, token_end: Token, scope_obj: Scope, scope_tree: ScopeNode,
+    function: str):
+        """Class for a function"""
+        self.name: str = name
+        self.token_start: Token = token_start
+        self.token_end: Token = token_end
+        self.scope_obj: Scope = scope_obj
+        self.scope_tree: ScopeNode = scope_tree
+        self.function: str = function
+        self.body: List[Statement] = []
 
 class DumpToAST:
     def __init__(self):
+        """Class for parsing an Cppcheck XML dump into an AST tree"""
         pass
 
     @staticmethod
@@ -145,49 +176,61 @@ class DumpToAST:
         cppcheck_config = cpp_check.configurations[0]
 
         function_declaration_objs = []
+        # Loop through all functions in file
         for f in get_functions(cppcheck_config).values():
             func_obj = FunctionDeclaration(f["name"], f["token_start"], f["token_end"], 
             f["scopeObject"], ScopeNode.make_scope_tree(cppcheck_config, f["scopeObject"]),
             f["function"])
 
+            # Get root tokens for all statements inside of function
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
+            # Parse into AST
             func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
 
         return function_declaration_objs
 
 
-def parse(root_tokens, scope_tree):
-    blocks = []
+def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
+    """Parses root tokens into AST Statement objects"""
+    blocks: List[Statement] = []
 
     while root_tokens:
-        t = root_tokens.pop(0)
+        t: Token = root_tokens.pop(0)
 
         # If block
         if t.astOperand1 and t.astOperand1.str == "if":
+            # Grab the scope from scope tree
             if_scope = scope_tree.children[0]
             assert if_scope.scope_obj.type == "If"
+            # Remove scope from tree so it isn't reused
             scope_tree.remove_by_id(if_scope.scope_id)
+            # Find end of scope (denoted by '}')
             if_scope_end = if_scope.scope_obj.classEnd
+            # Grab if statement conditional
             conditional_root_token = t.astOperand2
 
-            # Get code for true case
+            # Get tokens for true case
             condition_true_root_tokens = []
+            # Get tokens that are before the scope end (token Ids are in lexigraphical order)
             while root_tokens and root_tokens[0].Id <= if_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
-                
+
+            # Recursively parse tokens    
             condition_true = parse(condition_true_root_tokens, if_scope)
             
+            # Get tokens for false/else case
             condition_false_root_tokens = []
-            # print(scope_tree.children[0].scope_obj.type)
+            # Check if Else scope exists and directly follows If scope
             if scope_tree.children and scope_tree.children[0].scope_obj.type == "Else":
-                else_scope = scope_tree.find_by_id(scope_tree.children[0].scope_id)
+                else_scope = scope_tree.children[0]
                 else_scope_end = else_scope.scope_obj.classEnd
+                scope_tree.remove_by_id(if_scope.scope_id)
 
                 condition_false_root_tokens = []
                 while root_tokens and root_tokens[0].Id <= else_scope_end.Id:
                     condition_false_root_tokens.append(root_tokens.pop(0))
-            # print(condition_false_root_tokens)
+
             condition_false = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
@@ -195,17 +238,22 @@ def parse(root_tokens, scope_tree):
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
         # While statement
         elif t.astOperand1 and t.astOperand1.str == "while":
+            # Grab while scope from tree
             while_scope = scope_tree.children[0]
             assert while_scope.scope_obj.type == "While"
+            # Remove while scope from tree
             scope_tree.remove_by_id(while_scope.scope_id)
+            # Get end of while scope
             while_scope_end = while_scope.scope_obj.classEnd
+            # Get while conditional
             conditional_root_token = t.astOperand2
 
             # Get code for true case
             condition_true_root_tokens = []
             while root_tokens and root_tokens[0].Id <= while_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
-                
+            
+            # Parse true case
             condition_true = parse(condition_true_root_tokens, while_scope)
 
             blocks.append(WhileStatement(conditional_root_token, condition_true))
@@ -224,7 +272,8 @@ def parse(root_tokens, scope_tree):
                 
             condition_true = parse(condition_true_root_tokens, for_scope)
             for_statement = ForStatement(conditional_root_token, condition_true)
-            desugared_for = for_statement.for_to_if()
+            # Convert for statement into while format
+            desugared_for = for_statement.for_to_while()
             blocks.extend(desugared_for)
         # Regular statement
         else:
@@ -257,7 +306,7 @@ def print_AST(function_body):
             print_AST(b.condition_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_10.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
