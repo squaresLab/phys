@@ -113,6 +113,17 @@ class ForStatement:
         self.condition = condition
         self.condition_true = condition_true
 
+    def for_to_if(self):
+        initialize_expr = self.condition.astOperand1
+        condition_expr = self.condition.astOperand2.astOperand1
+        update_expr = self.condition.astOperand2.astOperand2
+
+        blocks = []
+        blocks.append(BlockStatement(initialize_expr))
+        blocks.append(WhileStatement(condition_expr, self.condition_true + [BlockStatement(update_expr)]))
+
+        return blocks
+
 class FunctionDeclaration:
     def __init__(self, name, token_start, token_end, scope_obj, scope_tree,
     function):
@@ -212,8 +223,9 @@ def parse(root_tokens, scope_tree):
                 condition_true_root_tokens.append(root_tokens.pop(0))
                 
             condition_true = parse(condition_true_root_tokens, for_scope)
-
-            blocks.append(ForStatement(conditional_root_token, condition_true))
+            for_statement = ForStatement(conditional_root_token, condition_true)
+            desugared_for = for_statement.for_to_if()
+            blocks.extend(desugared_for)
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -245,7 +257,7 @@ def print_AST(function_body):
             print_AST(b.condition_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_10.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
