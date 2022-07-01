@@ -17,12 +17,13 @@
 void goal_d(double x_t,double y_t, double t)
 {
 	int vel_x = 0;
-	int ang_z = 0;
-	int err_x = 0;
-	int err_y = err_x + ang_z;
-
-    for (int i = 0; i < 10; i++) {
-        err_x += 1;
-		break;
+    int vel_y = 0;
+	
+    switch (vel_x) {
+    case 1:
+        vel_y = 1;
+    case 2:
+        vel_y = 7;
+        break;
     }
 }

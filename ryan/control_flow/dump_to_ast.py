@@ -184,8 +184,9 @@ class DumpToAST:
 
             # Get root tokens for all statements inside of function
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
+            print([tokens_to_str(get_statement_tokens(t)) for t in root_tokens])
             # Parse into AST
-            func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
+            # func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
 
         return function_declaration_objs
@@ -306,7 +307,7 @@ def print_AST(function_body):
             print_AST(b.condition_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_10.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
@@ -317,7 +318,7 @@ if __name__ == "__main__":
     #     print([z.scope_id for z in x.children])
     #     cur.extend(x.children)
 
-    print_AST(parsed[0].body)
+    # print_AST(parsed[0].body)
     # for b in parsed[0].body:
     #     print("_____")
     #     if b.type == "block":
