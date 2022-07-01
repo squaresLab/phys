@@ -184,9 +184,9 @@ class DumpToAST:
 
             # Get root tokens for all statements inside of function
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
-            print([tokens_to_str(get_statement_tokens(t)) for t in root_tokens])
+            # print([tokens_to_str(get_statement_tokens(t)) for t in root_tokens])
             # Parse into AST
-            # func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
+            func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
 
         return function_declaration_objs
@@ -220,6 +220,20 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             # Recursively parse tokens    
             condition_true = parse(condition_true_root_tokens, if_scope)
             
+            # Check backwards in scope for break/continue
+            break_continue_token = None
+            cur_token = if_scope_end
+            while cur_token and cur_token.scopeId == if_scope_end.scopeId:
+                if cur_token.str in ["break", "continue", "pass"]:
+                    break_continue_token = cur_token
+                    break # Haha get it?
+
+                cur_token = cur_token.previous
+
+            if break_continue_token:
+                # Assumed that break/continue is always at the end of a statement
+                condition_true.append(BlockStatement(break_continue_token))
+
             # Get tokens for false/else case
             condition_false_root_tokens = []
             # Check if Else scope exists and directly follows If scope
@@ -231,6 +245,20 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 condition_false_root_tokens = []
                 while root_tokens and root_tokens[0].Id <= else_scope_end.Id:
                     condition_false_root_tokens.append(root_tokens.pop(0))
+
+                # Check backwards in scope for break/continue
+                break_continue_token = None
+                cur_token = else_scope_end
+                while cur_token and cur_token.scopeId == else_scope_end.scopeId:
+                    if cur_token.str in ["break", "continue", "pass"]:
+                        break_continue_token = cur_token
+                        break # Haha get it?
+
+                    cur_token = cur_token.previous
+
+                if break_continue_token:
+                    # Assumed that break/continue is always at the end of a statement
+                    condition_false.append(BlockStatement(break_continue_token))
 
             condition_false = []
             if condition_false_root_tokens:
@@ -257,6 +285,20 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             # Parse true case
             condition_true = parse(condition_true_root_tokens, while_scope)
 
+            # Check backwards in scope for break/continue
+            break_continue_token = None
+            cur_token = while_scope_end
+            while cur_token and cur_token.scopeId == while_scope_end.scopeId:
+                if cur_token.str in ["break", "continue", "pass"]:
+                    break_continue_token = cur_token
+                    break # Haha get it?
+
+                cur_token = cur_token.previous
+
+            if break_continue_token:
+                # Assumed that break/continue is always at the end of a statement
+                condition_true.append(BlockStatement(break_continue_token))
+
             blocks.append(WhileStatement(conditional_root_token, condition_true))
         # For statement
         elif t.astOperand1 and t.astOperand1.str == "for":
@@ -273,6 +315,21 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 
             condition_true = parse(condition_true_root_tokens, for_scope)
             for_statement = ForStatement(conditional_root_token, condition_true)
+
+            # Check backwards in scope for break/continue
+            break_continue_token = None
+            cur_token = for_scope_end
+            while cur_token and cur_token.scopeId == for_scope_end.scopeId:
+                if cur_token.str in ["break", "continue", "pass"]:
+                    break_continue_token = cur_token
+                    break # Haha get it?
+
+                cur_token = cur_token.previous
+
+            if break_continue_token:
+                # Assumed that break/continue is always at the end of a statement
+                condition_true.append(BlockStatement(break_continue_token))
+
             # Convert for statement into while format
             desugared_for = for_statement.for_to_while()
             blocks.extend(desugared_for)
@@ -318,7 +375,7 @@ if __name__ == "__main__":
     #     print([z.scope_id for z in x.children])
     #     cur.extend(x.children)
 
-    # print_AST(parsed[0].body)
+    print_AST(parsed[0].body)
     # for b in parsed[0].body:
     #     print("_____")
     #     if b.type == "block":
