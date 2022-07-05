@@ -113,9 +113,9 @@ class IfStatement(Statement):
     condition_false: List[Token]):
         """Class for an if statement"""
         self.type: str = "if"
-        self.condition: Token = condition
-        self.condition_false: List[Statement] = condition_false
-        self.condition_true: List[Statement] = condition_true
+        self.condition: Token = condition # Conditional
+        self.condition_false: List[Statement] = condition_false # If block
+        self.condition_true: List[Statement] = condition_true # Else block
 
     def get_type(self) -> str:
         return self.type
@@ -124,8 +124,8 @@ class WhileStatement(Statement):
     def __init__(self, condition: Token, condition_true: List[Token]):
         """Class for a while statement"""
         self.type: str = "while"
-        self.condition: Token = condition
-        self.condition_true: List[Statement] = condition_true
+        self.condition: Token = condition # Conditional
+        self.condition_true: List[Statement] = condition_true # While block
 
     def get_type(self) -> str:
         return self.type
@@ -134,10 +134,10 @@ class ForStatement(Statement):
     def __init__(self, condition: Token, condition_true: List[Token]):
         """Class for a for loop"""
         self.type: str = "for"
-        self.condition: Token = condition
-        self.condition_true: List[Statement] = condition_true
+        self.condition: Token = condition # Conditional
+        self.condition_true: List[Statement] = condition_true # For block
 
-    def for_to_while(self) -> List[BlockStatement, WhileStatement]:
+    def desugar(self) -> List[BlockStatement, WhileStatement]:
         """Desugars for loop into a while loop"""
 
         # E.g. int i = 0
@@ -165,13 +165,54 @@ class SwitchStatment(Statement):
         self.previous = None # Previous node in LL
         self.next = None # Next node in LL
 
-    def get_type():
+    def get_type(self):
         return self.type
 
-class FunctionDeclaration:
+    def _add_breaks(self):
+        """Converts self into switch statements where every node has a break"""
+        # Convert switch statements so every switch has a break
+        cur_switch = self # Last node in LL
+        while cur_switch.next: 
+            cur_switch = cur_switch.next
+
+        cur_switch.has_break = True
+        cur_switch = cur_switch.previous
+        while cur_switch:
+            if not cur_switch.has_break:
+                cur_switch.match_true.extend(cur_switch.next.match_true)
+
+            cur_switch = cur_switch.previous
+
+    def _switch_to_if_else(self) -> IfStatement:
+        """Converts a switch to an if/else. MUST run _add_breaks before"""
+        equals_token = Token(None) # Hopefully this doesn't become a problem
+        equals_token.str = "=="
+        equals_token.astOperand1 = self.switch_expr
+        equals_token.astOperand2 = self.match_expr
+        condition_true = self.match_true[:-1] # Last token is break/continue/pass which should be excluded
+        condition_false = []
+
+        if self.next:
+            if self.next.is_default:
+                condition_false = self.next.match_true
+            else:
+                condition_false = [self.next._switch_to_if_else()]
+
+        if_statement = IfStatement(equals_token, condition_true, condition_false)
+
+        return if_statement
+
+    def desugar(self) -> IfStatement:
+        """Desugars switch into if/else statements"""
+        self._add_breaks()
+        return self._switch_to_if_else()
+
+
+class FunctionDeclaration(Statement):
     def __init__(self, name: str, token_start: Token, token_end: Token, scope_obj: Scope, scope_tree: ScopeNode,
     function: str):
         """Class for a function"""
+        self.type = "function"
         self.name: str = name
         self.token_start: Token = token_start
         self.token_end: Token = token_end
@@ -179,6 +220,9 @@ class FunctionDeclaration:
         self.scope_tree: ScopeNode = scope_tree
         self.function: str = function
         self.body: List[Statement] = []
+    
+    def get_type(self):
+        return self.type
 
 class DumpToAST:
     def __init__(self):
@@ -346,7 +390,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 condition_true.append(BlockStatement(break_continue_token))
 
             # Convert for statement into while format
-            desugared_for = for_statement.for_to_while()
+            desugared_for = for_statement.desugar()
             blocks.extend(desugared_for)
         # Switch statement
         elif t.astOperand1 and t.astOperand1.str == "switch":
@@ -461,7 +505,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     previous.next = switch_block
                     switch_block.previous = previous
             
-            blocks.append(switch_blocks[0])
+            blocks.append(switch_blocks[0].desugar())
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -513,7 +557,7 @@ if __name__ == "__main__":
     #     cur.extend(x.children)
 
     print_AST(parsed[0].body)
-    # print(parsed[0].body[-1].next.next.match_true)
+    # print(parsed[0].body[-1].condition_true[2])
     # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:
     #     print("_____")
