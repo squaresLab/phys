@@ -403,7 +403,8 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     if cur_token.Id >= next_case_token.Id:
                         break
                     elif cur_token.astOperand1:
-                        assert cur_token.astOperand1 != "switch", "can't handle nested switch!"
+                        assert cur_token.astOperand1.str != "switch", "can't handle nested switch!"
+                    
                     case_token_blocks.append(cur_token)
                     switch_root_tokens.pop(0)
 
@@ -496,7 +497,7 @@ def print_AST(function_body):
             print_AST(b.match_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_14.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_15.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
@@ -508,7 +509,7 @@ if __name__ == "__main__":
     #     cur.extend(x.children)
 
     # print_AST(parsed[0].body)
-    print(parsed[0].body[-1].next.next.match_true)
+    # print(parsed[0].body[-1].next.next.match_true)
     # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:
     #     print("_____")
