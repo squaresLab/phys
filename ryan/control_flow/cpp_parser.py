@@ -192,57 +192,58 @@ class Token:
     linenr = None
 
     def __init__(self, element):
-        self.Id = element.get('id')
-        self.str = element.get('str')
-        self.next = None
-        self.previous = None
-        self.scopeId = element.get('scope')
-        self.scope = None
-        type = element.get('type')
-        if type == 'name':
-            self.isName = True
-        elif type == 'number':
-            self.isNumber = True
-            if element.get('isInt'):
-                self.isInt = True
-            elif element.get('isFloat'):
-                self.isFloat = True
-        elif type == 'string':
-            self.isString = True
-            self.strlen = int(element.get('strlen'))
-        elif type == 'char':
-            self.isChar = True
-        elif type == 'op':
-            self.isOp = True
-            if element.get('isArithmeticalOp'):
-                self.isArithmeticalOp = True
-            elif element.get('isAssignmentOp'):
-                self.isAssignmentOp = True
-            elif element.get('isComparisonOp'):
-                self.isComparisonOp = True
-            elif element.get('isLogicalOp'):
-                self.isLogicalOp = True
-        if element.get('unitType'):
-            self.unitType = element.get('unitType')
-        self.linkId = element.get('link')
-        self.link = None
-        self.varId = element.get('varId')
-        self.variableId = element.get('variable')
-        self.variable = None
-        self.functionId = element.get('function')
-        self.function = None
-        self.valuesId = element.get('values')
-        self.values = None
-        self.typeScopeId = element.get('type-scope')
-        self.typeScope = None
-        self.astParentId = element.get('astParent')
-        self.astParent = None
-        self.astOperand1Id = element.get('astOperand1')
-        self.astOperand1 = None
-        self.astOperand2Id = element.get('astOperand2')
-        self.astOperand2 = None
-        self.file = element.get('file')
-        self.linenr = element.get('linenr')
+        if element is not None:
+            self.Id = element.get('id')
+            self.str = element.get('str')
+            self.next = None
+            self.previous = None
+            self.scopeId = element.get('scope')
+            self.scope = None
+            type = element.get('type')
+            if type == 'name':
+                self.isName = True
+            elif type == 'number':
+                self.isNumber = True
+                if element.get('isInt'):
+                    self.isInt = True
+                elif element.get('isFloat'):
+                    self.isFloat = True
+            elif type == 'string':
+                self.isString = True
+                self.strlen = int(element.get('strlen'))
+            elif type == 'char':
+                self.isChar = True
+            elif type == 'op':
+                self.isOp = True
+                if element.get('isArithmeticalOp'):
+                    self.isArithmeticalOp = True
+                elif element.get('isAssignmentOp'):
+                    self.isAssignmentOp = True
+                elif element.get('isComparisonOp'):
+                    self.isComparisonOp = True
+                elif element.get('isLogicalOp'):
+                    self.isLogicalOp = True
+            if element.get('unitType'):
+                self.unitType = element.get('unitType')
+            self.linkId = element.get('link')
+            self.link = None
+            self.varId = element.get('varId')
+            self.variableId = element.get('variable')
+            self.variable = None
+            self.functionId = element.get('function')
+            self.function = None
+            self.valuesId = element.get('values')
+            self.values = None
+            self.typeScopeId = element.get('type-scope')
+            self.typeScope = None
+            self.astParentId = element.get('astParent')
+            self.astParent = None
+            self.astOperand1Id = element.get('astOperand1')
+            self.astOperand1 = None
+            self.astOperand2Id = element.get('astOperand2')
+            self.astOperand2 = None
+            self.file = element.get('file')
+            self.linenr = element.get('linenr')
 
     def setId(self, IdMap):
         self.scope = IdMap[self.scopeId]
