@@ -22,7 +22,7 @@ void goal_d(double x_t,double y_t, double t)
     switch (vel_x) {
     case 1:
         vel_y = 1;
-    case 2:
+    case 2 + 5:
         vel_y = 7;
         break;
     }
