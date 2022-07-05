@@ -97,7 +97,7 @@ class ScopeNode:
 class Statement(ABC):
     @abstractmethod
     def get_type(self) -> str:
-        return ""
+        raise NotImplementedError
 
 class BlockStatement(Statement):
     def __init__(self, root_token: Token):
@@ -130,7 +130,7 @@ class WhileStatement(Statement):
     def get_type(self) -> str:
         return self.type
         
-class ForStatement:
+class ForStatement(Statement):
     def __init__(self, condition: Token, condition_true: List[Token]):
         """Class for a for loop"""
         self.type: str = "for"
@@ -153,9 +153,10 @@ class ForStatement:
 
         return blocks
 
-class SwitchStatment:
+class SwitchStatment(Statement):
     def __init__(self, switch_expr, match_expr: Token, match_true: List[Statement]):
         """Class for switch statements, chained together as a linked list"""
+        self.type = "switch"
         self.switch_expr = switch_expr 
         self.match_expr = match_expr # Case for single switch expression
         self.match_true = match_true # Code executed if switch case matches
@@ -163,6 +164,9 @@ class SwitchStatment:
         self.is_default = False # Whether this is a default case
         self.previous = None # Previous node in LL
         self.next = None # Next node in LL
+
+    def get_type():
+        return self.type
 
 class FunctionDeclaration:
     def __init__(self, name: str, token_start: Token, token_end: Token, scope_obj: Scope, scope_tree: ScopeNode,
@@ -358,13 +362,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get tokens for switch statment
             switch_root_tokens = []
-            while root_tokens and root_tokens[0].Id <= while_scope_end.Id:
+            while root_tokens and root_tokens[0].Id <= switch_scope_end.Id:
                 switch_root_tokens.append(root_tokens.pop(0))
 
             # Get all case/default tokens
             case_default_tokens = [] 
-            cur_token = switch_scope
-            while cur_token and while cur_token.Id <= switch_scope_end.Id:
+            cur_token = t
+            while cur_token and cur_token.Id <= switch_scope_end.Id:
                 if cur_token.str in ["case", "default"]:
                     case_default_tokens.append(cur_token)
                 
@@ -405,12 +409,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 if i == len(case_default_tokens):
                     end_token = switch_scope_end
                 else:
-                    end_token = case_default_tokens[i]
+                    end_token, _, _ = case_default_tokens[i]
                 
-                start_token = case_default_tokens[i - 1]
+                start_token, match_case, case_blocks = case_default_tokens[i - 1]
 
                 cur_token = end_token
-                while cur_token >= start_token:
+                break_continue_token = None
+                while cur_token.Id >= start_token.Id:
                     if cur_token.str in ["break", "continue", "pass"]:
                         break_continue_token = cur_token
                         break # Haha get it?
@@ -419,21 +424,20 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                 if break_continue_token:
                     # Assumed that break/continue is always at the end of a statement
-                    case_token, match_case, case_blocks = case_default_tokens[i - 1]
                     case_blocks.append(BlockStatement(break_continue_token))
-                    case_default_tokens[i - 1] = (case_token, match_case, case_blocks)
+                    case_default_tokens[i - 1] = (start_token, match_case, case_blocks)
 
             # Make switch stmt objects
             switch_blocks = []
-            for i in range(case_default_tokens):
+            for i in range(len(case_default_tokens)):
                 case_token, match_case, case_blocks = case_default_tokens[i]
-                switch_block = SwitchStatment(case_token, match_case, case_blocks)
+                switch_block = SwitchStatment(switch_expr_root_token, match_case, case_blocks)
 
                 if case_token.str == "default":
                     switch_block.is_default = True
                 
-                if case_blocks and case_blocks.type == "block":
-                    if case_blocks.root_token.str in ["break", "continue", "pass"]:
+                if case_blocks and case_blocks[-1].type == "block":
+                    if case_blocks[-1].root_token.str in ["break", "continue", "pass"]:
                         switch_block.has_break = True
                 
                 switch_blocks.append(switch_block)
@@ -446,6 +450,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     previous.next = switch_block
                     switch_block.previous = previous
             
+            blocks.extend(switch_blocks)
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -475,9 +480,12 @@ def print_AST(function_body):
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("DO:")
             print_AST(b.condition_true)
+        elif b.type == "switch":
+            print(f"SWITCH: {b.switch_expr.str} == {b.match_expr.str}")
+            print_AST(b.match_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_11.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
