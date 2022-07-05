@@ -369,11 +369,14 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             case_default_tokens = [] 
             cur_token = t
             while cur_token and cur_token.Id <= switch_scope_end.Id:
+                if cur_token.scopeId != switch_scope.scope_id:
+                    cur_token = cur_token.next
+                    continue
                 if cur_token.str in ["case", "default"]:
                     case_default_tokens.append(cur_token)
                 
                 cur_token = cur_token.next
-            
+
             # Get all condition tokens
             for i in range(len(case_default_tokens)):
                 cur_token = case_default_tokens[i]
@@ -389,17 +392,22 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 case_token, match_case = case_default_tokens[i]
                 case_token_blocks = []
 
+                next_case_token = switch_scope_end
+
+                if i < len(case_default_tokens) - 1:
+                    next_case_token, _ = case_default_tokens[i + 1]
+
                 while switch_root_tokens:
                     cur_token = switch_root_tokens[0]
-                    if cur_token.scopeId != case_token.scopeId: # If out of switch scope
+
+                    if cur_token.Id >= next_case_token.Id:
                         break
-                    elif i < len(case_default_tokens) - 1: # Check that we're still in the right case block
-                        next_case_token, _ = case_default_tokens[i + 1]
-                        if cur_token.Id >= next_case_token.Id:
-                            break
-                    
+                    elif cur_token.astOperand1:
+                        assert cur_token.astOperand1 != "switch", "can't handle nested switch!"
                     case_token_blocks.append(cur_token)
                     switch_root_tokens.pop(0)
+
+                # print([tokens_to_str(get_statement_tokens(x)) for x in case_token_blocks])
 
                 case_default_tokens[i] = (case_token, match_case, parse(case_token_blocks, switch_scope))
             
@@ -450,7 +458,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     previous.next = switch_block
                     switch_block.previous = previous
             
-            blocks.extend(switch_blocks)
+            blocks.append(switch_blocks[0])
         # Regular statement
         else:
             blocks.append(BlockStatement(t))
@@ -481,11 +489,14 @@ def print_AST(function_body):
             print("DO:")
             print_AST(b.condition_true)
         elif b.type == "switch":
-            print(f"SWITCH: {b.switch_expr.str} == {b.match_expr.str}")
+            if b.is_default:
+                print(f"SWITCH: (default = {b.is_default})")
+            else:
+                print(f"SWITCH: {b.switch_expr.str} == {b.match_expr.str} (default = {b.is_default})")
             print_AST(b.match_true)
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_11.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_14.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
@@ -496,7 +507,9 @@ if __name__ == "__main__":
     #     print([z.scope_id for z in x.children])
     #     cur.extend(x.children)
 
-    print_AST(parsed[0].body)
+    # print_AST(parsed[0].body)
+    print(parsed[0].body[-1].next.next.match_true)
+    # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:
     #     print("_____")
     #     if b.type == "block":
