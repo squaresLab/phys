@@ -229,7 +229,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             # Get tokens for true case
             condition_true_root_tokens = []
             # Get tokens that are before the scope end (token Ids are in lexigraphical order)
-            while root_tokens and root_tokens[0].Id <= if_scope_end.Id:
+            while root_tokens and root_tokens[0].Id != if_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
 
             # Recursively parse tokens    
@@ -258,7 +258,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 scope_tree.remove_by_id(if_scope.scope_id)
 
                 condition_false_root_tokens = []
-                while root_tokens and root_tokens[0].Id <= else_scope_end.Id:
+                while root_tokens and root_tokens[0].Id != else_scope_end.Id:
                     condition_false_root_tokens.append(root_tokens.pop(0))
 
                 # Check backwards in scope for break/continue
@@ -294,7 +294,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get code for true case
             condition_true_root_tokens = []
-            while root_tokens and root_tokens[0].Id <= while_scope_end.Id:
+            while root_tokens and root_tokens[0].Id != while_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
             
             # Parse true case
@@ -364,11 +364,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             switch_root_tokens = []
             while root_tokens and root_tokens[0].Id <= switch_scope_end.Id:
                 switch_root_tokens.append(root_tokens.pop(0))
-
+            # print([tokens_to_str(get_statement_tokens(x)) for x in switch_root_tokens])
             # Get all case/default tokens
             case_default_tokens = [] 
             cur_token = t
-            while cur_token and cur_token.Id <= switch_scope_end.Id:
+            while cur_token and cur_token.Id != switch_scope_end.Id:
+                # print(cur_token.str)
+                assert cur_token.str != "switch", "can't handle nested switch!"
                 if cur_token.scopeId != switch_scope.scope_id:
                     cur_token = cur_token.next
                     continue
@@ -376,11 +378,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     case_default_tokens.append(cur_token)
                 
                 cur_token = cur_token.next
+            
+            # print([tokens_to_str(get_statement_tokens(x)) for x in case_default_tokens])
 
             # Get all condition tokens
             for i in range(len(case_default_tokens)):
                 cur_token = case_default_tokens[i]
-
+            
                 match_case = None
                 if cur_token.str == "case":
                     match_case = cur_token.next if cur_token.next else None
@@ -402,8 +406,6 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                     if cur_token.Id >= next_case_token.Id:
                         break
-                    elif cur_token.astOperand1:
-                        assert cur_token.astOperand1.str != "switch", "can't handle nested switch!"
                     
                     case_token_blocks.append(cur_token)
                     switch_root_tokens.pop(0)
@@ -495,9 +497,11 @@ def print_AST(function_body):
             else:
                 print(f"SWITCH: {b.switch_expr.str} == {b.match_expr.str} (default = {b.is_default})")
             print_AST(b.match_true)
+            if b.next:
+                print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_15.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_16.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
@@ -508,7 +512,7 @@ if __name__ == "__main__":
     #     print([z.scope_id for z in x.children])
     #     cur.extend(x.children)
 
-    # print_AST(parsed[0].body)
+    print_AST(parsed[0].body)
     # print(parsed[0].body[-1].next.next.match_true)
     # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:
