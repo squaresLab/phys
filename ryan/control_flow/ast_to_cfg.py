@@ -11,7 +11,7 @@ class CFGNode(ABC):
     previous: Union[Set[CFGNode], None]
 
     @abstractmethod
-    def get_type():
+    def get_type(self):
         raise NotImplementedError
 
 class EntryBlock(CFGNode):
@@ -22,7 +22,7 @@ class EntryBlock(CFGNode):
         self.next = set()
         self.previous = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class ExitBlock(CFGNode):
@@ -33,7 +33,7 @@ class ExitBlock(CFGNode):
         self.next = set()
         self.previous = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class BasicBlock(CFGNode):
@@ -44,7 +44,7 @@ class BasicBlock(CFGNode):
         self.previous = set()
         self.next = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class ConditionalBlock(CFGNode):
@@ -57,7 +57,7 @@ class ConditionalBlock(CFGNode):
         self.previous = set()
         self.next = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class JoinBlock(CFGNode):
@@ -66,7 +66,7 @@ class JoinBlock(CFGNode):
         self.previous = previous
         self.next = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class EmptyBlock(CFGNode):
@@ -75,7 +75,7 @@ class EmptyBlock(CFGNode):
         self.previous = set()
         self.next = set()
 
-    def get_type():
+    def get_type(self):
         return self.type
 
 class ASTToCFG:
@@ -180,72 +180,47 @@ class ASTToCFG:
                 # print(condition_true_end)
                 # print(condition_false_end)
                 
-                # Connect true/false o join
+                # Connect true/false to join
                 condition_true_end.next.add(join_block)
                 join_block.previous.add(condition_true_end)
                 condition_false_end.next.add(join_block)
                 join_block.previous.add(condition_false_end)
-                
-                # if condition_true:
-                #     cond_block.condition_true = condition_true
-                #     condition_true.previous.append(cond_block)
-                #     condition_true_end = traverse_until(condition_true, lambda x: x.next == [])[-1]
-                #     condition_true_end.next.append(join_block)
-                #     join_block.previous.append(condition_true_end)
-                # else:
-                #     cond_block.condition_true = None
-                #     cond_block.next.append(join_block)
-                #     join_block.previous.append(cond_block)
-
-                # if condition_false:
-                #     cond_block.condition_false = condition_false
-                #     condition_false.previous.append(cond_block)
-                #     condition_false_end = traverse_until(condition_false, lambda x: x.next == [])[-1]
-                #     condition_false_end.next.append(join_block)
-                #     join_block.previous.append(condition_false_end)
-                # else:
-                #     cond_block.condition_false = None
-                #     cond_block.next.append(join_block)
-                #     join_block.previous.append(cond_block)
-                
                 cur = join_block
-            # elif stmt.get_type() == "while":
-            #     cond_block = ConditionalBlock(stmt.condition, None, None)
-            #     cur.next.append(cond_block)
-            #     cond_block.previous.append(cur)
-            #     join_block = JoinBlock([])
-                
-            #     # Recursively get true/false nodes
-            #     condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("while", cond_block, join_block)])
-            #     condition_false = ASTToCFG.convert_statements(stmt.condition_false, call_tree + [("while", cond_block, join_block)])
+            elif stmt.get_type() == "while":
+                cond_block = ConditionalBlock(stmt.condition, None, None)
+                cur.next.add(cond_block)
+                cond_block.previous.add(cur)
+                join_block = JoinBlock(set())
 
-            #     if condition_true:
-            #         cond_block.condition_true = condition_true
-            #         condition_true.previous = cond_block
-            #         condition_true.previous.append(cond_block)
-            #         condition_true_end = traverse_until(condition_true, lambda x: x.next == [])[-1]
-            #         condition_true_end.next.append(join_block)
-            #         join_block.previous.append(condition_true_end)
-            #     else:
-            #         cond_block.condition_true = None
-            #         cond_block.next.append(join_block)
-            #         join_block.previous.append(cond_block)
+                # Recursively get true/false nodes
+                condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("while", cond_block, join_block)])
+                condition_false = EmptyBlock()
+                # print("____")
+                # print(condition_true)
+                # print(condition_false)
+                # Connect true/false to conditional
+                cond_block.condition_true = condition_true
+                cond_block.next.add(condition_true)
+                condition_true.previous.add(cond_block)
+                cond_block.condition_false = condition_false
+                cond_block.next.add(condition_false)
+                condition_false.previous.add(cond_block)
 
-            #     if condition_false:
-            #         cond_block.condition_false = condition_false
-            #         condition_false.previous = cond_block
-            #         condition_false.previous.append(cond_block)
-            #         condition_false_end = traverse_until(condition_false, lambda x: x.next == [])[-1]
-            #         condition_false_end.next.append(join_block)
-            #         join_block.previous.append(condition_false_end)
-            #     else:
-            #         cond_block.condition_false = None
-            #         cond_block.next.append(join_block)
-            #         join_block.previous.append(cond_block)
-                    
-            #     cond_block.condition_false.append(condition_false)
+                # Traverse to end of conditionals
+                condition_true_end = traverse_until(condition_true, lambda x: x.next == set())[-1]
+                condition_false_end = traverse_until(condition_false, lambda x: x.next == set())[-1]
+                # print(condition_true_end)
+                # print(condition_false_end)
+
+                # Connect true to conditional
+                condition_true_end.next.add(cond_block)
+                cond_block.previous.add(condition_true_end)
                 
-            #     cur = join_block
+                # Connect false to join
+                condition_false_end.next.add(join_block)
+                join_block.previous.add(condition_false_end)
+
+                cur = join_block
             else:
                 raise Error(f"Unexpected statement: {smt.get_type()}")
 
@@ -312,12 +287,14 @@ def traverse_until(node: CFGNode, stop_condition=lambda x: False) -> List[CFGNod
 
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_4.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_7.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
-    # print(parsed[0].next[0].next[0].next[0].next[0].next)
-    # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop())))
-    # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().previous.pop())))
-    print(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop().next.pop().previous)
+    x = parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().next
+    for i in x:
+        if i.get_type() == "conditional":
+            for j in i.next:
+                print(j.next.pop().next.pop().previous, j.get_type())
+    # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().next)))
 
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
