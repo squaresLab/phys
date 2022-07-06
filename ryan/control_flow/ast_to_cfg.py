@@ -7,8 +7,8 @@ from abc import ABC, abstractmethod
 
 
 class CFGNode(ABC):
-    next: Union[List[CFGNode], None] # IDK if this is how you do abstract attributes
-    previous: Union[List[CFGNode], None]
+    next: Union[Set[CFGNode], None] # IDK if this is how you do abstract attributes
+    previous: Union[Set[CFGNode], None]
 
     @abstractmethod
     def get_type():
@@ -19,19 +19,19 @@ class EntryBlock(CFGNode):
         """Entry block for a function"""
         self.type = "entry"
         self.function_declaration: function_declaration
-        self.next = []
-        self.previous = []
+        self.next = set()
+        self.previous = set()
 
     def get_type():
         return self.type
 
 class ExitBlock(CFGNode):
-    def __init__(self, previous: List[CFGNode]):
+    def __init__(self, previous: Set[CFGNode]):
         """Entry block for a function"""
         self.type = "exit"
         self.function_declaration: function_declaration
-        self.next = []
-        self.previous = []
+        self.next = set()
+        self.previous = set()
 
     def get_type():
         return self.type
@@ -41,8 +41,8 @@ class BasicBlock(CFGNode):
         """Node for a basic block"""
         self.type = "basic"
         self.token = root_token
-        self.previous = []
-        self.next = []
+        self.previous = set()
+        self.next = set()
 
     def get_type():
         return self.type
@@ -54,17 +54,17 @@ class ConditionalBlock(CFGNode):
         self.condition = condition
         self.condition_true: condition_true
         self.condition_false = condition_false
-        self.previous = []
-        self.next = []
+        self.previous = set()
+        self.next = set()
 
     def get_type():
         return self.type
 
 class JoinBlock(CFGNode):
-    def __init__(self, previous: List[CFGNode]):
+    def __init__(self, previous: Set[CFGNode]):
         self.type = "join"
         self.previous = previous
-        self.next = []
+        self.next = set()
 
     def get_type():
         return self.type
@@ -72,8 +72,8 @@ class JoinBlock(CFGNode):
 class EmptyBlock(CFGNode):
     def __init__(self):
         self.type = "empty"
-        self.previous = []
-        self.next = []
+        self.previous = set()
+        self.next = set()
 
     def get_type():
         return self.type
@@ -99,8 +99,8 @@ class ASTToCFG:
             if stmt.get_type() == "block": # Block statement -> BasicBlock
                 # Make basic block, connect to cur, advance cur
                 basic_block = BasicBlock(stmt.root_token)
-                basic_block.previous.append(cur)
-                cur.next.append(basic_block)
+                basic_block.previous.add(cur)
+                cur.next.add(basic_block)
                 cur = basic_block
                 
                 # Walk through AST to check for break/return/continue
@@ -117,8 +117,8 @@ class ASTToCFG:
                         
                         assert last_while, "Attempted to break with no while"
 
-                        cur.next.append(last_while[2])
-                        last_while[2].previous.append(cur)
+                        cur.next.add(last_while[2])
+                        last_while[2].previous.add(cur)
                         return start
                     elif t.str == "return":
                         assert call_tree
@@ -126,8 +126,8 @@ class ASTToCFG:
                         assert block_type == "function", "Attempted to return outside a function"
 
                         # Connect return statement to function exit block
-                        cur.next.append(block_exit)
-                        block_exit.previous.append(cur)
+                        cur.next.add(block_exit)
+                        block_exit.previous.add(cur)
                         return start
                     elif t.str == "continue":
                         assert call_tree
@@ -141,35 +141,35 @@ class ASTToCFG:
                         
                         assert last_while, "Attempted to continue with no while"
 
-                        cur.next.append(last_while[1])
-                        last_while[1].previous.append(cur)
+                        cur.next.add(last_while[1])
+                        last_while[1].previous.add(cur)
                         return start
 
             elif stmt.get_type() == "if":
                 cond_block = ConditionalBlock(stmt.condition, None, None)
-                cur.next.append(cond_block)
-                cond_block.previous.append(cur)
-                join_block = JoinBlock([])
+                cur.next.add(cond_block)
+                cond_block.previous.add(cur)
+                join_block = JoinBlock(set())
 
                 # Recursively get true/false nodes
-                condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("while", cond_block, join_block)])
-                condition_false = ASTToCFG.convert_statements(stmt.condition_false, call_tree + [("while", cond_block, join_block)])
-
+                condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("if", cond_block, join_block)])
+                condition_false = ASTToCFG.convert_statements(stmt.condition_false, call_tree + [("if", cond_block, join_block)])
+                print(condition_true.next)
                 # Connect true/false to conditional
                 cond_block.condition_true = condition_true
-                condition_true.previous.append(cond_block)
+                condition_true.previous.add(cond_block)
                 cond_block.condition_false = condition_false
-                condition_false.previous.append(cond_block)
+                condition_false.previous.add(cond_block)
 
                 # Traverse to end of conditionals
-                condition_true_end = traverse_until(condition_true, lambda x: x.next == [])[-1]
-                condition_false_end = traverse_until(condition_false, lambda x: x.next == [])[-1]
+                condition_true_end = traverse_until(condition_true, lambda x: x.next == set())[-1]
+                condition_false_end = traverse_until(condition_false, lambda x: x.next == set())[-1]
                 
                 # Connect true/false o join
-                condition_true_end.next.append(join_block)
-                join_block.previous.append(condition_true_end)
-                condition_false_end.next.append(join_block)
-                join_block.previous.append(condition_false_end)
+                condition_true_end.next.add(join_block)
+                join_block.previous.add(condition_true_end)
+                condition_false_end.next.add(join_block)
+                join_block.previous.add(condition_false_end)
                 
                 # if condition_true:
                 #     cond_block.condition_true = condition_true
@@ -236,8 +236,8 @@ class ASTToCFG:
 
         if call_tree and len(call_tree) == 1 and call_tree[0][0] == "function": # If we're in the top level function block
             function_exit_block = call_tree[0][2]
-            cur.next.append(function_exit_block)
-            function_exit_block.previous.append(cur)
+            cur.next.add(function_exit_block)
+            function_exit_block.previous.add(cur)
 
         if start.next:
             # try:
@@ -245,7 +245,7 @@ class ASTToCFG:
             # except:
             #     pass
             assert len(start.next) == 1
-            return start.next[0]
+            return start.next.pop()
         
         return EmptyBlock()
 
@@ -261,10 +261,10 @@ class ASTToCFG:
             exit_block = ExitBlock([])
 
             cfg = ASTToCFG.convert_statements(f.body, [(f.get_type(), entry_block, exit_block)])
-            entry_block.next.append(cfg)
+            entry_block.next.add(cfg)
 
             if cfg:
-                cfg.previous.append(entry_block)
+                cfg.previous.add(entry_block)
 
             function_CFG.append(entry_block)
 
@@ -294,10 +294,10 @@ def traverse_until(node: CFGNode, stop_condition=lambda x: False) -> List[CFGNod
 
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_3.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_4.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
     # print(parsed[0].next[0].next[0].next[0].next[0].next)
-    print(tokens_to_str(get_statement_tokens(parsed[0].next[0].next[0].next[0].next[0].next[0].condition_false.token)))
+    print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop())))
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
