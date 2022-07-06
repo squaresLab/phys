@@ -371,7 +371,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             break_continue_token = None
             cur_token = if_scope_end
             while cur_token and cur_token.scopeId == if_scope_end.scopeId:
-                if cur_token.str in ["break", "continue", "pass"]:
+                if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
                     break # Haha get it?
 
@@ -397,7 +397,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 break_continue_token = None
                 cur_token = else_scope_end
                 while cur_token and cur_token.scopeId == else_scope_end.scopeId:
-                    if cur_token.str in ["break", "continue", "pass"]:
+                    if cur_token.str in ["break", "continue"]:
                         break_continue_token = cur_token
                         break # Haha get it?
 
@@ -436,7 +436,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             break_continue_token = None
             cur_token = while_scope_end
             while cur_token and cur_token.scopeId == while_scope_end.scopeId:
-                if cur_token.str in ["break", "continue", "pass"]:
+                if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
                     break # Haha get it?
 
