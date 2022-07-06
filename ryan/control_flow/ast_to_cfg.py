@@ -89,8 +89,8 @@ class ASTToCFG:
         
         call_tree is order of block calls and each item is tuple of the call + start block of call + the exit/join block of that call
         """
-        start = BasicBlock(None) # Sentinel node
-        cur = start # Cur node in graph
+        sentinel = EmptyBlock() # Sentinel node
+        cur = sentinel # Cur node in graph
 
         # print("____")
         # print(statements)
@@ -119,6 +119,9 @@ class ASTToCFG:
 
                         cur.next.add(last_while[2])
                         last_while[2].previous.add(cur)
+
+                        start = sentinel.next.pop()
+                        start.previous.pop()
                         return start
                     elif t.str == "return":
                         assert call_tree
@@ -128,6 +131,9 @@ class ASTToCFG:
                         # Connect return statement to function exit block
                         cur.next.add(block_exit)
                         block_exit.previous.add(cur)
+
+                        start = sentinel.next.pop()
+                        start.previous.pop()
                         return start
                     elif t.str == "continue":
                         assert call_tree
@@ -143,6 +149,9 @@ class ASTToCFG:
 
                         cur.next.add(last_while[1])
                         last_while[1].previous.add(cur)
+
+                        start = sentinel.next.pop()
+                        start.previous.pop()
                         return start
 
             elif stmt.get_type() == "if":
@@ -154,16 +163,22 @@ class ASTToCFG:
                 # Recursively get true/false nodes
                 condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("if", cond_block, join_block)])
                 condition_false = ASTToCFG.convert_statements(stmt.condition_false, call_tree + [("if", cond_block, join_block)])
-                print(condition_true.next)
+                # print("____")
+                # print(condition_true)
+                # print(condition_false)
                 # Connect true/false to conditional
                 cond_block.condition_true = condition_true
+                cond_block.next.add(condition_true)
                 condition_true.previous.add(cond_block)
                 cond_block.condition_false = condition_false
+                cond_block.next.add(condition_false)
                 condition_false.previous.add(cond_block)
 
                 # Traverse to end of conditionals
                 condition_true_end = traverse_until(condition_true, lambda x: x.next == set())[-1]
                 condition_false_end = traverse_until(condition_false, lambda x: x.next == set())[-1]
+                # print(condition_true_end)
+                # print(condition_false_end)
                 
                 # Connect true/false o join
                 condition_true_end.next.add(join_block)
@@ -239,13 +254,16 @@ class ASTToCFG:
             cur.next.add(function_exit_block)
             function_exit_block.previous.add(cur)
 
-        if start.next:
+        if sentinel.next:
             # try:
             #     print(start.next[0].next[0].next[0].next[0].next[0].condition_true)
             # except:
             #     pass
-            assert len(start.next) == 1
-            return start.next.pop()
+            assert len(sentinel.next) == 1
+
+            start = sentinel.next.pop()
+            start.previous.pop()
+            return start
         
         return EmptyBlock()
 
@@ -280,14 +298,14 @@ def traverse_until(node: CFGNode, stop_condition=lambda x: False) -> List[CFGNod
         if stop_condition(path[-1]):
             return path
 
-        for next_node in node.next:
+        for next_node in path[-1].next:
             if next_node in path:
                 continue
 
             res = traverse(path + [next_node])
             if res:
                 return res
-    
+    # print(traverse([node]))
     return traverse([node])
         
 
@@ -297,7 +315,10 @@ if __name__ == "__main__":
     test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_4.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
     # print(parsed[0].next[0].next[0].next[0].next[0].next)
-    print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop())))
+    # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop())))
+    # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().previous.pop())))
+    print(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().condition_false.condition_false.next.pop().next.pop().previous)
+
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
