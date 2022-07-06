@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 from cpp_parser import *
 from cpp_utils import *
 from typing import *
-from control_flow import *
 
 def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
     """ Takes the start and end tokens for a function and finds the root tokens
@@ -361,7 +360,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             # Get tokens for true case
             condition_true_root_tokens = []
             # Get tokens that are before the scope end (token Ids are in lexigraphical order)
-            while root_tokens and root_tokens[0].Id != if_scope_end.Id:
+            while root_tokens and root_tokens[0].scopeId == if_scope.scope_id and root_tokens[0].Id != if_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
 
             # Recursively parse tokens    
@@ -396,7 +395,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 # Check backwards in scope for break/continue
                 break_continue_token = None
                 cur_token = else_scope_end
-                while cur_token and cur_token.scopeId == else_scope_end.scopeId:
+                while cur_token and cur_token.scopeId == else_scope_end.scopeId and cur_token.Id != else_scope_end.Id:
                     if cur_token.str in ["break", "continue"]:
                         break_continue_token = cur_token
                         break # Haha get it?
@@ -426,7 +425,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get code for true case
             condition_true_root_tokens = []
-            while root_tokens and root_tokens[0].Id != while_scope_end.Id:
+            while root_tokens and root_tokens[0].scopeId == while_scope.scope_id and root_tokens[0].Id != while_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
             
             # Parse true case
@@ -457,7 +456,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get code for true case
             condition_true_root_tokens = []
-            while root_tokens and root_tokens[0].Id <= for_scope_end.Id:
+            while root_tokens and root_tokens[0].scopeId == for_scope.scope_id and root_tokens[0].Id != for_scope_end.Id:
                 condition_true_root_tokens.append(root_tokens.pop(0))
                 
             condition_true = parse(condition_true_root_tokens, for_scope)
@@ -494,7 +493,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get tokens for switch statment
             switch_root_tokens = []
-            while root_tokens and root_tokens[0].Id <= switch_scope_end.Id:
+            while root_tokens and root_tokens[0].scopeId == switch_scope.scope_id and root_tokens[0].Id <= switch_scope_end.Id:
                 switch_root_tokens.append(root_tokens.pop(0))
             # print([tokens_to_str(get_statement_tokens(x)) for x in switch_root_tokens])
             # Get all case/default tokens
@@ -633,7 +632,7 @@ def print_AST(function_body):
                 print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_16.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_3.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
