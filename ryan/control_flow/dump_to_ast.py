@@ -224,6 +224,9 @@ class ForStatement(Statement):
         self.condition: Token = condition # Conditional
         self.condition_true: List[Statement] = condition_true # For block
 
+    def get_type(self):
+        return self.type
+
     def desugar(self) -> List[BlockStatement, WhileStatement]:
         """Desugars for loop into a while loop"""
 
@@ -359,10 +362,15 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get tokens for true case
             condition_true_root_tokens = []
-            # Get tokens that are before the scope end (token Ids are in lexigraphical order)
-            while root_tokens and root_tokens[0].scopeId == if_scope.scope_id and root_tokens[0].Id != if_scope_end.Id:
-                condition_true_root_tokens.append(root_tokens.pop(0))
 
+            # Get tokens that are before the scope end
+            cur_token = if_scope.scope_obj.classStart
+            while root_tokens and cur_token.Id != if_scope_end.Id:
+                if cur_token.Id == root_tokens[0].Id:
+                    condition_true_root_tokens.append(root_tokens.pop(0))
+
+                cur_token = cur_token.next
+                
             # Recursively parse tokens    
             condition_true = parse(condition_true_root_tokens, if_scope)
             
@@ -389,8 +397,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 scope_tree.remove_by_id(if_scope.scope_id)
 
                 condition_false_root_tokens = []
-                while root_tokens and root_tokens[0].Id != else_scope_end.Id:
-                    condition_false_root_tokens.append(root_tokens.pop(0))
+
+                cur_token = else_scope.scope_obj.classStart
+                while root_tokens and cur_token.Id != else_scope_end.Id:
+                    if cur_token.Id == root_tokens[0].Id:
+                        condition_false_root_tokens.append(root_tokens.pop(0))
+
+                    cur_token = cur_token.next
 
                 # Check backwards in scope for break/continue
                 break_continue_token = None
@@ -425,8 +438,13 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get code for true case
             condition_true_root_tokens = []
-            while root_tokens and root_tokens[0].scopeId == while_scope.scope_id and root_tokens[0].Id != while_scope_end.Id:
-                condition_true_root_tokens.append(root_tokens.pop(0))
+
+            cur_token = while_scope.scope_obj.classStart
+            while root_tokens and cur_token.Id != while_scope_end.Id:
+                if cur_token.Id == root_tokens[0].Id:
+                    condition_true_root_tokens.append(root_tokens.pop(0))
+
+                cur_token = cur_token.next
             
             # Parse true case
             condition_true = parse(condition_true_root_tokens, while_scope)
@@ -456,8 +474,12 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get code for true case
             condition_true_root_tokens = []
-            while root_tokens and root_tokens[0].scopeId == for_scope.scope_id and root_tokens[0].Id != for_scope_end.Id:
-                condition_true_root_tokens.append(root_tokens.pop(0))
+            cur_token = for_scope.scope_obj.classStart
+            while root_tokens and cur_token.Id != for_scope_end.Id:
+                if cur_token.Id == root_tokens[0].Id:
+                    condition_true_root_tokens.append(root_tokens.pop(0))
+
+                cur_token = cur_token.next
                 
             condition_true = parse(condition_true_root_tokens, for_scope)
             for_statement = ForStatement(conditional_root_token, condition_true)
@@ -493,8 +515,14 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get tokens for switch statment
             switch_root_tokens = []
-            while root_tokens and root_tokens[0].scopeId == switch_scope.scope_id and root_tokens[0].Id <= switch_scope_end.Id:
-                switch_root_tokens.append(root_tokens.pop(0))
+
+            cur_token = switch_scope.scope_obj.classStart
+            while root_tokens and cur_token.Id != switch_scope_end.Id:
+                if cur_token.Id == root_tokens[0].Id:
+                    switch_root_tokens.append(root_tokens.pop(0))
+
+                cur_token = cur_token.next
+
             # print([tokens_to_str(get_statement_tokens(x)) for x in switch_root_tokens])
             # Get all case/default tokens
             case_default_tokens = [] 
@@ -610,13 +638,18 @@ def print_AST(function_body):
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("IF TRUE:")
             print_AST(b.condition_true)
+            print("END TRUE")
             print("IF FALSE:")
             print_AST(b.condition_false)
+            print("END FALSE")
+            print("END IF")
         elif b.type == "while":
             print("WHILE:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("IF TRUE:")
             print_AST(b.condition_true)
+            print("END TRUE")
+            print("END WHILE")
         elif b.type == "for":
             print("FOR:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
@@ -632,8 +665,9 @@ def print_AST(function_body):
                 print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_3.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_11.cpp.dump"
     parsed = DumpToAST.convert(test_path)
+    # print_AST([parsed[0].body[-1]])
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
