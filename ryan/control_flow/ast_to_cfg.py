@@ -82,6 +82,41 @@ class ASTToCFG:
     def __init__(self):
         """Class for converting AST into CFG"""
         pass
+
+    @staticmethod
+    def convert_traverse(node: CFGNode) -> List[CFGNode]:
+        """Traverses nodes of a CFG"""
+        if not node:
+            return None
+
+        # print("____")
+
+        def traverse(path):
+            # print(path)
+            if path[-1].next == set():
+                return path
+
+            for next_node in path[-1].next:
+                if next_node in path:
+                    continue
+
+                skip_node = False
+                if next_node.get_type() == "basic":
+                    # print(tokens_to_str(get_statement_tokens(next_node.token)))
+                    for t in tokens_to_str(get_statement_tokens(next_node.token)):
+                        if t in ["return", "break", "continue"]:
+                            skip_node = True
+                            # print("??")
+                            break
+
+                if skip_node:
+                    continue
+
+                res = traverse(path + [next_node])
+                if res:
+                    return res
+
+        return traverse([node])
     
     @staticmethod
     def convert_statements(statements: List[Statement], call_tree: List[Tuple[str, Statement, Statement]]) -> EntryBlock:
@@ -102,6 +137,8 @@ class ASTToCFG:
                 basic_block.previous.add(cur)
                 cur.next.add(basic_block)
                 cur = basic_block
+
+                # print(tokens_to_str(get_statement_tokens(stmt.root_token)))
                 
                 # Walk through AST to check for break/return/continue
                 for t in get_statement_tokens(stmt.root_token):
@@ -110,7 +147,7 @@ class ASTToCFG:
 
                         # Find where to break out of
                         last_while = None
-                        for i in range(len(call_tree), -1, -1):
+                        for i in range(len(call_tree) - 1, -1, -1):
                             if call_tree[i][0] == "while":
                                 last_while = call_tree[i]
                                 break
@@ -125,7 +162,7 @@ class ASTToCFG:
                         return start
                     elif t.str == "return":
                         assert call_tree
-                        block_type, block_exit = call_tree[0]
+                        block_type, block_start, block_exit = call_tree[0]
                         assert block_type == "function", "Attempted to return outside a function"
 
                         # Connect return statement to function exit block
@@ -140,7 +177,7 @@ class ASTToCFG:
 
                         # Find where to continue to
                         last_while = None
-                        for i in range(len(call_tree), -1, -1):
+                        for i in range(len(call_tree) - 1, -1, -1):
                             if call_tree[i][0] == "while":
                                 last_while = call_tree[i]
                                 break
@@ -163,28 +200,27 @@ class ASTToCFG:
                 # Recursively get true/false nodes
                 condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("if", cond_block, join_block)])
                 condition_false = ASTToCFG.convert_statements(stmt.condition_false, call_tree + [("if", cond_block, join_block)])
-                # print("____")
-                # print(condition_true)
-                # print(condition_false)
-                # Connect true/false to conditional
+
                 cond_block.condition_true = condition_true
                 cond_block.next.add(condition_true)
                 condition_true.previous.add(cond_block)
+
+                condition_true_end = ASTToCFG.convert_traverse(condition_true)
+                if condition_true_end is not None: # is False when breaking/returning
+                    condition_true_end = condition_true_end[-1]
+                    condition_true_end.next.add(join_block)
+                    join_block.previous.add(condition_true_end)
+
                 cond_block.condition_false = condition_false
                 cond_block.next.add(condition_false)
                 condition_false.previous.add(cond_block)
 
-                # Traverse to end of conditionals
-                condition_true_end = traverse_until(condition_true, lambda x: x.next == set())[-1]
-                condition_false_end = traverse_until(condition_false, lambda x: x.next == set())[-1]
-                # print(condition_true_end)
-                # print(condition_false_end)
+                condition_false_end = ASTToCFG.convert_traverse(condition_false)
+                if condition_false_end is not None:                
+                    condition_false_end = condition_false_end[-1]
+                    condition_false_end.next.add(join_block)
+                    join_block.previous.add(condition_false_end)
                 
-                # Connect true/false to join
-                condition_true_end.next.add(join_block)
-                join_block.previous.add(condition_true_end)
-                condition_false_end.next.add(join_block)
-                join_block.previous.add(condition_false_end)
                 cur = join_block
             elif stmt.get_type() == "while":
                 cond_block = ConditionalBlock(stmt.condition, None, None)
@@ -195,9 +231,7 @@ class ASTToCFG:
                 # Recursively get true/false nodes
                 condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("while", cond_block, join_block)])
                 condition_false = EmptyBlock()
-                # print("____")
-                # print(condition_true)
-                # print(condition_false)
+
                 # Connect true/false to conditional
                 cond_block.condition_true = condition_true
                 cond_block.next.add(condition_true)
@@ -207,14 +241,14 @@ class ASTToCFG:
                 condition_false.previous.add(cond_block)
 
                 # Traverse to end of conditionals
-                condition_true_end = traverse_until(condition_true, lambda x: x.next == set())[-1]
-                condition_false_end = traverse_until(condition_false, lambda x: x.next == set())[-1]
-                # print(condition_true_end)
-                # print(condition_false_end)
+                condition_true_end = ASTToCFG.convert_traverse(condition_true)
 
-                # Connect true to conditional
-                condition_true_end.next.add(cond_block)
-                cond_block.previous.add(condition_true_end)
+                if condition_true_end:
+                    condition_true_end = condition_true_end[-1]
+                    condition_true_end.next.add(cond_block)
+                    cond_block.previous.add(condition_true_end)
+
+                condition_false_end = condition_false # End of empty block is just the empty block
                 
                 # Connect false to join
                 condition_false_end.next.add(join_block)
@@ -230,10 +264,6 @@ class ASTToCFG:
             function_exit_block.previous.add(cur)
 
         if sentinel.next:
-            # try:
-            #     print(start.next[0].next[0].next[0].next[0].next[0].condition_true)
-            # except:
-            #     pass
             assert len(sentinel.next) == 1
 
             start = sentinel.next.pop()
@@ -264,36 +294,17 @@ class ASTToCFG:
         return function_CFG
 
 
-def traverse_until(node: CFGNode, stop_condition=lambda x: False) -> List[CFGNode]:
-    """Traverses nodes of a CFG until stop_condition is met"""
-    if not node:
-        return []
-
-    def traverse(path):
-        if stop_condition(path[-1]):
-            return path
-
-        for next_node in path[-1].next:
-            if next_node in path:
-                continue
-
-            res = traverse(path + [next_node])
-            if res:
-                return res
-    # print(traverse([node]))
-    return traverse([node])
-        
-
-
-
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_7.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_17.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
-    x = parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().next
-    for i in x:
-        if i.get_type() == "conditional":
-            for j in i.next:
-                print(j.next.pop().next.pop().previous, j.get_type())
+    x = list(list(parsed[0].next)[0].next)[0].condition_true.condition_false.next.pop().next
+    # y = list(list(list(parsed[0].next)[0].next)[0].condition_false.next)[0]
+    # print(tokens_to_str(get_statement_tokens(x.token)))
+    print(x)
+    # for i in x:
+    #     if i.get_type() == "conditional":
+    #         for j in i.next:
+    #             print(j.next.pop().next.pop().previous, j.get_type())
     # print(tokens_to_str(get_statement_tokens(parsed[0].next.pop().next.pop().next.pop().next.pop().next.pop().next)))
 
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
