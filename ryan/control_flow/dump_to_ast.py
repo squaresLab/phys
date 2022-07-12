@@ -4,14 +4,16 @@ from cpp_parser import *
 from cpp_utils import *
 from typing import *
 
+# typecheck annotations
+
 def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
     """ Takes the start and end tokens for a function and finds the root tokens
     of all statments in the function.
     """
-    root_tokens_set = set()
-    current_token = token_start
+    root_tokens_set: Set[Token] = set()
+    current_token: Union[Token, None] = token_start
     
-    while(current_token != token_end):  #todo: reverse token set exploration to top-down instead of bottom-up
+    while current_token is not None and current_token != token_end:  #todo: reverse token set exploration to top-down instead of bottom-up
         # HAS A PARENT
         if current_token.astParent: 
             token_parent = current_token.astParent
@@ -61,7 +63,7 @@ def get_functions(cppcheck_config: Configuration) -> Dict[str, Dict]:
     """Retrieves function information from Cppcheck Config obj.
     
     """
-    function_dicts = {}
+    function_dicts: Dict[str, Dict] = {}
 
     # FIND FUNCTIONS IN "SCOPES" REGION OF DUMP FILE, START AND END TOKENs
     for s in cppcheck_config.scopes:
@@ -86,7 +88,7 @@ def get_functions(cppcheck_config: Configuration) -> Dict[str, Dict]:
 def get_function_scopes(cppcheck_config: Configuration, function_scope_id: str) -> List[Scope]:
     """Takes a function and returns a list of scopes nested within that function.
     """
-    nested_scopes = []
+    nested_scopes: List[Scope] = []
     for s in cppcheck_config.scopes:
         if s.nestedIn == function_scope_id:
             nested_scopes.append(s)
@@ -101,7 +103,7 @@ class ScopeNode:
         self.children: List[ScopeNode] = []
         self.parent: Union[ScopeNode, None] = None
 
-    def remove_by_id(self, scope_id: str) -> Bool:
+    def remove_by_id(self, scope_id: str) -> bool:
         """Remove subtree where the root has Id == scope_id
         by scope ID
 
@@ -130,9 +132,11 @@ class ScopeNode:
             if res:
                 return res
 
+        return None
+
     def find_by_obj(self, scope_obj: Scope) -> Union[ScopeNode, None]:
         """Finds node by scope_obj"""
-        return self.find_by_id(scope_obj.scope_id)
+        return self.find_by_id(scope_obj.Id)
 
 
     @staticmethod
@@ -143,11 +147,11 @@ class ScopeNode:
         if not scope_obj:
             return None
         
-        scope_node = ScopeNode(scope_obj)
-        scope_children = []
+        scope_node: ScopeNode = ScopeNode(scope_obj)
+        scope_children: List[ScopeNode] = []
         # Find nested children
         for i in range(len(cppcheck_config.scopes)):
-            s = cppcheck_config.scopes[i]
+            s: Scope = cppcheck_config.scopes[i]
             if s == scope_node.scope_obj:
                 continue
 
@@ -171,7 +175,7 @@ class ScopeNode:
         """Creates a deep copy of self"""
         scope_node_copy = ScopeNode(self.scope_obj)
 
-        if scope_node_copy.parent:
+        if scope_node_copy.parent is not None:
             scope_node_copy.parent = self.parent.copy()
         copy_children = []
 
@@ -196,8 +200,8 @@ class BlockStatement(Statement):
         return self.type
 
 class IfStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Token], 
-    condition_false: List[Token]):
+    def __init__(self, condition: Token, condition_true: List[Statement], 
+    condition_false: List[Statement]):
         """Class for an if statement"""
         self.type: str = "if"
         self.condition: Token = condition # Conditional
@@ -208,7 +212,7 @@ class IfStatement(Statement):
         return self.type
 
 class WhileStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Token]):
+    def __init__(self, condition: Token, condition_true: List[Statement]):
         """Class for a while statement"""
         self.type: str = "while"
         self.condition: Token = condition # Conditional
@@ -218,7 +222,7 @@ class WhileStatement(Statement):
         return self.type
         
 class ForStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Token]):
+    def __init__(self, condition: Token, condition_true: List[Statement]):
         """Class for a for loop"""
         self.type: str = "for"
         self.condition: Token = condition # Conditional
@@ -227,7 +231,7 @@ class ForStatement(Statement):
     def get_type(self):
         return self.type
 
-    def desugar(self) -> List[BlockStatement, WhileStatement]:
+    def desugar(self) -> List[Union[BlockStatement, WhileStatement]]:
         """Desugars for loop into a while loop"""
 
         # E.g. int i = 0
@@ -235,7 +239,7 @@ class ForStatement(Statement):
         # E.g. i < 10
         condition_expr: Token = self.condition.astOperand2.astOperand1
         # E.g. i++
-        update_expr: token = self.condition.astOperand2.astOperand2
+        update_expr: Token = self.condition.astOperand2.astOperand2
 
         blocks = []
         blocks.append(BlockStatement(initialize_expr))
@@ -247,21 +251,21 @@ class SwitchStatment(Statement):
     def __init__(self, switch_expr, match_expr: Token, match_true: List[Statement]):
         """Class for switch statements, chained together as a linked list"""
         self.type = "switch"
-        self.switch_expr = switch_expr 
-        self.match_expr = match_expr # Case for single switch expression
-        self.match_true = match_true # Code executed if switch case matches
+        self.switch_expr: Token = switch_expr 
+        self.match_expr: Token = match_expr # Case for single switch expression
+        self.match_true: List[Statement] = match_true # Code executed if switch case matches
         self.has_break = False # Whether case terminates with break
         self.is_default = False # Whether this is a default case
-        self.previous = None # Previous node in LL
-        self.next = None # Next node in LL
+        self.previous: Union[SwitchStatment, None] = None # Previous node in LL
+        self.next: Union[SwitchStatment, None] = None # Next node in LL
 
-    def get_type(self):
+    def get_type(self) -> str:
         return self.type
 
     def _add_breaks(self):
         """Converts self into switch statements where every node has a break"""
         # Convert switch statements so every switch has a break
-        cur_switch = self # Last node in LL
+        cur_switch: SwitchStatment = self # Last node in LL
         while cur_switch.next: 
             cur_switch = cur_switch.next
 
@@ -275,11 +279,11 @@ class SwitchStatment(Statement):
 
     def _switch_to_if_else(self) -> IfStatement:
         """Converts a switch to an if/else. MUST run _add_breaks before"""
-        equals_token = Token(None) # Hopefully this doesn't become a problem
+        equals_token: Token = Token(None) # Hopefully this doesn't become a problem
         equals_token.str = "=="
         equals_token.astOperand1 = self.switch_expr
         equals_token.astOperand2 = self.match_expr
-        condition_true = self.match_true[:-1] # Last token is break/continue/pass which should be excluded
+        condition_true: List[Statement] = self.match_true[:-1] # Last token is break/continue/pass which should be excluded
         condition_false = []
 
         if self.next:
@@ -351,20 +355,20 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
         # If block
         if t.astOperand1 and t.astOperand1.str == "if":
             # Grab the scope from scope tree
-            if_scope = scope_tree.children[0]
-            assert if_scope.scope_obj.type == "If"
+            if_scope: ScopeNode = scope_tree.children[0]
+            assert if_scope.scope_obj.type == "If", f"Expected if scope, got {if_scope.scope_obj.type}"
             # Remove scope from tree so it isn't reused
             scope_tree.remove_by_id(if_scope.scope_id)
             # Find end of scope (denoted by '}')
-            if_scope_end = if_scope.scope_obj.classEnd
+            if_scope_end: Token = if_scope.scope_obj.classEnd
             # Grab if statement conditional
             conditional_root_token = t.astOperand2
 
             # Get tokens for true case
-            condition_true_root_tokens = []
+            condition_true_root_tokens: List[Token] = []
 
             # Get tokens that are before the scope end
-            cur_token = if_scope.scope_obj.classStart
+            cur_token: Token = if_scope.scope_obj.classStart
             while root_tokens and cur_token.Id != if_scope_end.Id:
                 if cur_token.Id == root_tokens[0].Id:
                     condition_true_root_tokens.append(root_tokens.pop(0))
@@ -372,11 +376,11 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 cur_token = cur_token.next
                 
             # Recursively parse tokens    
-            condition_true = parse(condition_true_root_tokens, if_scope)
+            condition_true: List[Statement] = parse(condition_true_root_tokens, if_scope)
             
             # Check backwards in scope for break/continue
             break_continue_token = None
-            cur_token = if_scope_end
+            cur_token: Token = if_scope_end
             while cur_token and cur_token.scopeId == if_scope_end.scopeId:
                 if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
@@ -389,16 +393,16 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 condition_true.append(BlockStatement(break_continue_token))
 
             # Get tokens for false/else case
-            condition_false_root_tokens = []
+            condition_false_root_tokens: List[Token] = []
             # Check if Else scope exists and directly follows If scope
             if scope_tree.children and scope_tree.children[0].scope_obj.type == "Else":
-                else_scope = scope_tree.children[0]
-                else_scope_end = else_scope.scope_obj.classEnd
+                else_scope: ScopeNode = scope_tree.children[0]
+                else_scope_end: Token = else_scope.scope_obj.classEnd
                 scope_tree.remove_by_id(if_scope.scope_id)
 
-                condition_false_root_tokens = []
+                condition_false_root_tokens: List[Token] = []
 
-                cur_token = else_scope.scope_obj.classStart
+                cur_token: Token = else_scope.scope_obj.classStart
                 while root_tokens and cur_token.Id != else_scope_end.Id:
                     if cur_token.Id == root_tokens[0].Id:
                         condition_false_root_tokens.append(root_tokens.pop(0))
@@ -407,7 +411,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                 # Check backwards in scope for break/continue
                 break_continue_token = None
-                cur_token = else_scope_end
+                cur_token: Token = else_scope_end
                 while cur_token and cur_token.scopeId == else_scope_end.scopeId and cur_token.Id != else_scope_end.Id:
                     if cur_token.str in ["break", "continue"]:
                         break_continue_token = cur_token
@@ -419,7 +423,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     # Assumed that break/continue is always at the end of a statement
                     condition_false.append(BlockStatement(break_continue_token))
 
-            condition_false = []
+            condition_false: List[Statment] = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
             
@@ -427,19 +431,19 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
         # While statement
         elif t.astOperand1 and t.astOperand1.str == "while":
             # Grab while scope from tree
-            while_scope = scope_tree.children[0]
-            assert while_scope.scope_obj.type == "While"
+            while_scope: ScopeNode = scope_tree.children[0]
+            assert while_scope.scope_obj.type == "While", f"Expected while scope, got {while_scope.scope_obj.type}"
             # Remove while scope from tree
             scope_tree.remove_by_id(while_scope.scope_id)
             # Get end of while scope
-            while_scope_end = while_scope.scope_obj.classEnd
+            while_scope_end: Token = while_scope.scope_obj.classEnd
             # Get while conditional
             conditional_root_token = t.astOperand2
 
             # Get code for true case
-            condition_true_root_tokens = []
+            condition_true_root_tokens: List[Token] = []
 
-            cur_token = while_scope.scope_obj.classStart
+            cur_token: Token = while_scope.scope_obj.classStart
             while root_tokens and cur_token.Id != while_scope_end.Id:
                 if cur_token.Id == root_tokens[0].Id:
                     condition_true_root_tokens.append(root_tokens.pop(0))
@@ -447,11 +451,11 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 cur_token = cur_token.next
             
             # Parse true case
-            condition_true = parse(condition_true_root_tokens, while_scope)
+            condition_true: List[Statement] = parse(condition_true_root_tokens, while_scope)
 
             # Check backwards in scope for break/continue
             break_continue_token = None
-            cur_token = while_scope_end
+            cur_token: Token = while_scope_end
             while cur_token and cur_token.scopeId == while_scope_end.scopeId:
                 if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
@@ -466,27 +470,27 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             blocks.append(WhileStatement(conditional_root_token, condition_true))
         # For statement
         elif t.astOperand1 and t.astOperand1.str == "for":
-            for_scope = scope_tree.children[0]
-            assert for_scope.scope_obj.type == "For"
+            for_scope: ScopeNode = scope_tree.children[0]
+            assert for_scope.scope_obj.type == "For", f"Expected for scope, got {for_scope.scope_obj.type}"
             scope_tree.remove_by_id(for_scope.scope_id)
-            for_scope_end = for_scope.scope_obj.classEnd
-            conditional_root_token = t.astOperand2
+            for_scope_end: Token = for_scope.scope_obj.classEnd
+            conditional_root_token: Token = t.astOperand2
 
             # Get code for true case
-            condition_true_root_tokens = []
-            cur_token = for_scope.scope_obj.classStart
+            condition_true_root_tokens: List[Token] = []
+            cur_token: Token = for_scope.scope_obj.classStart
             while root_tokens and cur_token.Id != for_scope_end.Id:
                 if cur_token.Id == root_tokens[0].Id:
                     condition_true_root_tokens.append(root_tokens.pop(0))
 
                 cur_token = cur_token.next
                 
-            condition_true = parse(condition_true_root_tokens, for_scope)
+            condition_true: List[Statement] = parse(condition_true_root_tokens, for_scope)
             for_statement = ForStatement(conditional_root_token, condition_true)
 
             # Check backwards in scope for break/continue
             break_continue_token = None
-            cur_token = for_scope_end
+            cur_token: Token = for_scope_end
             while cur_token and cur_token.scopeId == for_scope_end.scopeId:
                 if cur_token.str in ["break", "continue", "pass"]:
                     break_continue_token = cur_token
@@ -504,19 +508,19 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
         # Switch statement
         elif t.astOperand1 and t.astOperand1.str == "switch":
             # Grab swtich scope from tree
-            switch_scope = scope_tree.children[0]
-            assert switch_scope.scope_obj.type == "Switch"
+            switch_scope: ScopeNode = scope_tree.children[0]
+            assert switch_scope.scope_obj.type == "Switch", f"Expected switch scope, got {switch_scope.scope_obj.type}"
             # Remove switch scope from tree
             scope_tree.remove_by_id(switch_scope.scope_id)
             # Get end of switch scope
-            switch_scope_end = switch_scope.scope_obj.classEnd
+            switch_scope_end: Token = switch_scope.scope_obj.classEnd
             # Get while conditional
-            switch_expr_root_token = t.astOperand2
+            switch_expr_root_token: Token = t.astOperand2
 
             # Get tokens for switch statment
-            switch_root_tokens = []
+            switch_root_tokens: List[Statement] = []
 
-            cur_token = switch_scope.scope_obj.classStart
+            cur_token: Token = switch_scope.scope_obj.classStart
             while root_tokens and cur_token.Id != switch_scope_end.Id:
                 if cur_token.Id == root_tokens[0].Id:
                     switch_root_tokens.append(root_tokens.pop(0))
@@ -542,7 +546,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get all condition tokens
             for i in range(len(case_default_tokens)):
-                cur_token = case_default_tokens[i]
+                cur_token: Token = case_default_tokens[i]
             
                 match_case = None
                 if cur_token.str == "case":

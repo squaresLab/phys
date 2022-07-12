@@ -6,9 +6,11 @@ from dump_to_ast import *
 from abc import ABC, abstractmethod
 
 
+# TODO: Create CFG class
+
 class CFGNode(ABC):
     next: Union[Set[CFGNode], None] # IDK if this is how you do abstract attributes
-    previous: Union[Set[CFGNode], None]
+    previous: Union[Set[CFGNode], None] # Empty set instead of None
 
     @abstractmethod
     def get_type(self):
@@ -18,7 +20,7 @@ class EntryBlock(CFGNode):
     def __init__(self, function_declaration: FunctionDeclaration):
         """Entry block for a function"""
         self.type = "entry"
-        self.function_declaration: function_declaration
+        self.function_declaration = function_declaration
         self.next = set()
         self.previous = set()
 
@@ -143,7 +145,7 @@ class ASTToCFG:
                 # Walk through AST to check for break/return/continue
                 for t in get_statement_tokens(stmt.root_token):
                     if t.str == "break":
-                        assert call_tree
+                        assert call_tree, "No call tree"
 
                         # Find where to break out of
                         last_while = None
@@ -161,7 +163,7 @@ class ASTToCFG:
                         start.previous.pop()
                         return start
                     elif t.str == "return":
-                        assert call_tree
+                        assert call_tree, "No call tree"
                         block_type, block_start, block_exit = call_tree[0]
                         assert block_type == "function", "Attempted to return outside a function"
 
@@ -173,7 +175,7 @@ class ASTToCFG:
                         start.previous.pop()
                         return start
                     elif t.str == "continue":
-                        assert call_tree
+                        assert call_tree, "No call tree"
 
                         # Find where to continue to
                         last_while = None
@@ -264,7 +266,7 @@ class ASTToCFG:
             function_exit_block.previous.add(cur)
 
         if sentinel.next:
-            assert len(sentinel.next) == 1
+            assert len(sentinel.next) == 1, "Too many nodes"
 
             start = sentinel.next.pop()
             start.previous.pop()
@@ -295,12 +297,26 @@ class ASTToCFG:
 
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_17.cpp.dump"
-    parsed = ASTToCFG.convert(test_path)
-    x = list(list(parsed[0].next)[0].next)[0].condition_true.condition_false.next.pop().next
+    e_count = 0
+    # test_path = f"/home/rewong/phys/data/romeo_grasper/src/modeledobject.cpp.dump"
+    # parsed = ASTToCFG.convert(test_path)
+    with open("dump_files.txt") as f:
+        for idx, l in enumerate(f.readlines()):
+            print(idx)
+            try:
+                test_path = f"/home/rewong/{l.rstrip()}"
+                parsed = ASTToCFG.convert(test_path)
+            except Exception as e:
+                print(test_path)
+                print(e)
+                e_count += 1
+    
+    print(e_count)
+    # x = parsed[0].next.pop().next.pop().condition_false.next.pop().previous
+    # x = list(list(parsed[0].next)[0].next)[0].condition_true.condition_false.next.pop().next
     # y = list(list(list(parsed[0].next)[0].next)[0].condition_false.next)[0]
-    # print(tokens_to_str(get_statement_tokens(x.token)))
-    print(x)
+    # print(tokens_to_str(get_statement_tokens(x.condition)))
+    # print(x)
     # for i in x:
     #     if i.get_type() == "conditional":
     #         for j in i.next:
