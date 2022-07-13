@@ -4,6 +4,7 @@ from cpp_utils import get_statement_tokens, tokens_to_str
 from dump_to_ast import DumpToAST
 from typing import List, Union, Set
 from abc import ABC, abstractmethod
+from collections import deque
 
 
 # TODO: Create CFG class
@@ -20,6 +21,20 @@ class FunctionCFG:
     def __init__(self, function_declaration: FunctionDeclaration, entry_block: EntryBlock):
         self.function_declaration = function_declaration
         self.entry_block = entry_block
+        self.nodes = set()
+
+        queue = deque()
+        queue.append(entry_block)
+
+        while queue:
+            cur = queue.pop()
+            if cur in self.nodes:
+                pass
+            
+            self.nodes.add(cur)
+
+            for next_node in cur.next:
+                queue.append(next_node)
 
 class EntryBlock(CFGNode):
     def __init__(self, function_declaration: FunctionDeclaration):
