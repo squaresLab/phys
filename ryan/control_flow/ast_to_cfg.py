@@ -16,13 +16,18 @@ class CFGNode(ABC):
     def get_type(self):
         raise NotImplementedError
 
+class FunctionCFG:
+    def __init__(self, function_declaration: FunctionDeclaration, entry_block: EntryBlock):
+        self.function_declaration = function_declaration
+        self.entry_block = entry_block
+
 class EntryBlock(CFGNode):
     def __init__(self, function_declaration: FunctionDeclaration):
         """Entry block for a function"""
         self.type = "entry"
-        self.function_declaration = function_declaration
         self.next = set()
         self.previous = set()
+        self.function_arguments = list(function_declaration.function.argument.values())
 
     def get_type(self):
         return self.type
@@ -276,7 +281,7 @@ class ASTToCFG:
 
 
     @staticmethod
-    def convert(dump_file_path: str) -> List[EntryBlock]:
+    def convert(dump_file_path: str) -> List[FunctionCFG]:
         """Takes a dump file path and creates a CFG for each function"""
         function_declaration_objs = DumpToAST().convert(dump_file_path)
         function_CFG = []
@@ -291,7 +296,7 @@ class ASTToCFG:
             if cfg:
                 cfg.previous.add(entry_block)
 
-            function_CFG.append(entry_block)
+            function_CFG.append(FunctionCFG(f, entry_block))
 
         return function_CFG
 
