@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1205870" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="USE_SIFT_GPU">
+  <tokenlist>
+    <token id="0x1205d60" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="15" str="class" scope="0x1223ee0" type="name"/>
+    <token id="0x1205e10" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="15" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0"/>
+    <token id="0x1205a00" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="16" str="{" scope="0x12242a0" link="0x120cdf0"/>
+    <token id="0x1205ab0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="17" str="public:" scope="0x12242a0" type="name"/>
+    <token id="0x1205c10" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="21" str="~" scope="0x12242a0" type="op"/>
+    <token id="0x1204d10" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="21" str="SiftGPUDescriptorMatcher" scope="0x12242a0" type="name" function="0x1205770" astParent="0x1204dc0"/>
+    <token id="0x1204dc0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="21" str="(" scope="0x12242a0" link="0x1204e70" astOperand1="0x1204d10"/>
+    <token id="0x1204e70" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="21" str=")" scope="0x12242a0" link="0x1204dc0"/>
+    <token id="0x1204f20" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="21" str=";" scope="0x12242a0"/>
+    <token id="0x1204fd0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="26" str="bool" scope="0x12242a0" type="name"/>
+    <token id="0x1205080" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="26" str="init" scope="0x12242a0" type="name" function="0x1205810" astParent="0x1205130"/>
+    <token id="0x1205130" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="26" str="(" scope="0x12242a0" link="0x12051e0" astOperand1="0x1205080"/>
+    <token id="0x12051e0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="26" str=")" scope="0x12242a0" link="0x1205130"/>
+    <token id="0x1205290" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="26" str=";" scope="0x12242a0"/>
+    <token id="0x1205340" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="31" str="bool" scope="0x12242a0" type="name"/>
+    <token id="0x12053f0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="31" str="initialized" scope="0x12242a0" type="name" function="0x12058b0" astParent="0x1209710"/>
+    <token id="0x1209710" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="31" str="(" scope="0x12242a0" link="0x12097c0" astOperand1="0x12053f0"/>
+    <token id="0x12097c0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="31" str=")" scope="0x12242a0" link="0x1209710"/>
+    <token id="0x1209870" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="31" str=";" scope="0x12242a0"/>
+    <token id="0x1209920" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str="static" scope="0x12242a0" type="name"/>
+    <token id="0x12099d0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str="SiftGPUDescriptorMatcher" scope="0x12242a0" type="name" type-scope="0x12242a0" astParent="0x1209a80"/>
+    <token id="0x1209a80" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str="*" scope="0x12242a0" type="op" isArithmeticalOp="True" astOperand1="0x12099d0" astOperand2="0x1209be0"/>
+    <token id="0x1209b30" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str="getInstance" scope="0x12242a0" type="name" function="0x12254a0" astParent="0x1209be0"/>
+    <token id="0x1209be0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str="(" scope="0x12242a0" link="0x1209c90" astParent="0x1209a80" astOperand1="0x1209b30"/>
+    <token id="0x1209c90" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str=")" scope="0x12242a0" link="0x1209be0"/>
+    <token id="0x1209d40" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="36" str=";" scope="0x12242a0"/>
+    <token id="0x1209df0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="bool" scope="0x12242a0" type="name"/>
+    <token id="0x1209ea0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="match" scope="0x12242a0" type="name" function="0x1225540" astParent="0x1209f50"/>
+    <token id="0x1209f50" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="(" scope="0x12242a0" link="0x120c100" astOperand1="0x1209ea0" astOperand2="0x120bce0"/>
+    <token id="0x120a000" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="const" scope="0x12242a0" type="name"/>
+    <token id="0x120a0b0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="std" scope="0x12242a0" type="name" astParent="0x120a160"/>
+    <token id="0x120a160" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="::" scope="0x12242a0" astParent="0x120a4d0" astOperand1="0x120a0b0" astOperand2="0x120a210"/>
+    <token id="0x120a210" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="vector" scope="0x12242a0" type="name" astParent="0x120a160"/>
+    <token id="0x120a2c0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="&lt;" scope="0x12242a0" link="0x120a420"/>
+    <token id="0x120a370" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="float" scope="0x12242a0" type="name"/>
+    <token id="0x120a420" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="&gt;" scope="0x12242a0" link="0x120a2c0"/>
+    <token id="0x120a4d0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="&amp;" scope="0x12242a0" type="op" astParent="0x120a630" astOperand1="0x120a160" astOperand2="0x120a580"/>
+    <token id="0x120a580" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="descriptors1" scope="0x12242a0" type="name" varId="1" astParent="0x120a4d0"/>
+    <token id="0x120a630" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="48" str="," scope="0x12242a0" astParent="0x120ad10" astOperand1="0x120a4d0" astOperand2="0x120abb0"/>
+    <token id="0x120a6e0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="const" scope="0x12242a0" type="name"/>
+    <token id="0x120a790" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="std" scope="0x12242a0" type="name" astParent="0x120a840"/>
+    <token id="0x120a840" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="::" scope="0x12242a0" astParent="0x120abb0" astOperand1="0x120a790" astOperand2="0x120a8f0"/>
+    <token id="0x120a8f0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="vector" scope="0x12242a0" type="name" astParent="0x120a840"/>
+    <token id="0x120a9a0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="&lt;" scope="0x12242a0" link="0x120ab00"/>
+    <token id="0x120aa50" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="float" scope="0x12242a0" type="name"/>
+    <token id="0x120ab00" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="&gt;" scope="0x12242a0" link="0x120a9a0"/>
+    <token id="0x120abb0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="&amp;" scope="0x12242a0" type="op" astParent="0x120a630" astOperand1="0x120a840" astOperand2="0x120ac60"/>
+    <token id="0x120ac60" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="descriptors2" scope="0x12242a0" type="name" varId="2" astParent="0x120abb0"/>
+    <token id="0x120ad10" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="49" str="," scope="0x12242a0" astParent="0x120b4a0" astOperand1="0x120a630" astOperand2="0x120b340"/>
+    <token id="0x120adc0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="std" scope="0x12242a0" type="name" astParent="0x120ae70"/>
+    <token id="0x120ae70" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="::" scope="0x12242a0" astParent="0x120b340" astOperand1="0x120adc0" astOperand2="0x120af20"/>
+    <token id="0x120af20" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="vector" scope="0x12242a0" type="name" astParent="0x120ae70"/>
+    <token id="0x120afd0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="&lt;" scope="0x12242a0" link="0x120b290"/>
+    <token id="0x120b080" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="cv" scope="0x12242a0" type="name"/>
+    <token id="0x120b130" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="::" scope="0x12242a0"/>
+    <token id="0x120b1e0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="DMatch" scope="0x12242a0" type="name"/>
+    <token id="0x120b290" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="&gt;" scope="0x12242a0" link="0x120afd0"/>
+    <token id="0x120b340" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="&amp;" scope="0x12242a0" type="op" astParent="0x120ad10" astOperand1="0x120ae70" astOperand2="0x120b3f0"/>
+    <token id="0x120b3f0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="matches" scope="0x12242a0" type="name" varId="3" astParent="0x120b340"/>
+    <token id="0x120b4a0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="50" str="," scope="0x12242a0" astParent="0x120b8c0" astOperand1="0x120ad10" astOperand2="0x120b760"/>
+    <token id="0x120b550" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="const" scope="0x12242a0" type="name"/>
+    <token id="0x120b600" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="double" scope="0x12242a0" type="name"/>
+    <token id="0x120b6b0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="dist_max" scope="0x12242a0" type="name" varId="4" astParent="0x120b760"/>
+    <token id="0x120b760" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="=" scope="0x12242a0" type="op" isAssignmentOp="True" astParent="0x120b4a0" astOperand1="0x120b6b0" astOperand2="0x120b810"/>
+    <token id="0x120b810" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="0.7" scope="0x12242a0" type="number" isFloat="True" astParent="0x120b760"/>
+    <token id="0x120b8c0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="51" str="," scope="0x12242a0" astParent="0x120bce0" astOperand1="0x120b4a0" astOperand2="0x120bb80"/>
+    <token id="0x120b970" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="const" scope="0x12242a0" type="name"/>
+    <token id="0x120ba20" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="double" scope="0x12242a0" type="name"/>
+    <token id="0x120bad0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="knn_1to2_ratio" scope="0x12242a0" type="name" varId="5" astParent="0x120bb80"/>
+    <token id="0x120bb80" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="=" scope="0x12242a0" type="op" isAssignmentOp="True" astParent="0x120b8c0" astOperand1="0x120bad0" astOperand2="0x120bc30"/>
+    <token id="0x120bc30" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="0.9" scope="0x12242a0" type="number" isFloat="True" astParent="0x120bb80"/>
+    <token id="0x120bce0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="52" str="," scope="0x12242a0" astParent="0x1209f50" astOperand1="0x120b8c0" astOperand2="0x120bfa0"/>
+    <token id="0x120bd90" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str="const" scope="0x12242a0" type="name"/>
+    <token id="0x120be40" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str="int" scope="0x12242a0" type="name"/>
+    <token id="0x120bef0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str="mutual_best_match" scope="0x12242a0" type="name" varId="6" astParent="0x120bfa0"/>
+    <token id="0x120bfa0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str="=" scope="0x12242a0" type="op" isAssignmentOp="True" astParent="0x120bce0" astOperand1="0x120bef0" astOperand2="0x120c050"/>
+    <token id="0x120c050" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str="1" scope="0x12242a0" type="number" isInt="True" values="0x120c058" astParent="0x120bfa0"/>
+    <token id="0x120c100" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str=")" scope="0x12242a0" link="0x1209f50"/>
+    <token id="0x120c1b0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="53" str=";" scope="0x12242a0"/>
+    <token id="0x120c260" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="55" str="protected:" scope="0x12242a0" type="name"/>
+    <token id="0x120c3f0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="59" str="SiftGPUDescriptorMatcher" scope="0x12242a0" type="name" function="0x12255e0" astParent="0x120c4d0"/>
+    <token id="0x120c4d0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="59" str="(" scope="0x12242a0" link="0x120c580" astOperand1="0x120c3f0"/>
+    <token id="0x120c580" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="59" str=")" scope="0x12242a0" link="0x120c4d0"/>
+    <token id="0x120c630" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="59" str=";" scope="0x12242a0"/>
+    <token id="0x120c6e0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="64" str="static" scope="0x12242a0" type="name"/>
+    <token id="0x120c790" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="64" str="SiftGPUDescriptorMatcher" scope="0x12242a0" type="name" type-scope="0x12242a0" astParent="0x120c870"/>
+    <token id="0x120c870" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="64" str="*" scope="0x12242a0" type="op" isArithmeticalOp="True" astOperand1="0x120c790" astOperand2="0x120c920"/>
+    <token id="0x120c920" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="64" str="theInstance" scope="0x12242a0" type="name" varId="7" variable="0x12266c0" astParent="0x120c870"/>
+    <token id="0x120c9d0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="64" str=";" scope="0x12242a0"/>
+    <token id="0x120ca80" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="69" str="static" scope="0x12242a0" type="name"/>
+    <token id="0x120cb30" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="69" str="SiftMatchGPU" scope="0x12242a0" type="name" astParent="0x120cbe0"/>
+    <token id="0x120cbe0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="69" str="*" scope="0x12242a0" type="op" isArithmeticalOp="True" astOperand1="0x120cb30" astOperand2="0x120cc90"/>
+    <token id="0x120cc90" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="69" str="descriptorMatcher" scope="0x12242a0" type="name" varId="8" variable="0x1226730" astParent="0x120cbe0"/>
+    <token id="0x120cd40" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="69" str=";" scope="0x12242a0"/>
+    <token id="0x120cdf0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="70" str="}" scope="0x12242a0" link="0x1205a00"/>
+    <token id="0x120cea0" file="../include/thesis/siftgpu_descriptor_matcher.h" linenr="70" str=";" scope="0x1223ee0"/>
+    <token id="0x120cf80" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120d060"/>
+    <token id="0x120d060" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="*" scope="0x1223ee0" type="op" isArithmeticalOp="True" astParent="0x120d350" astOperand1="0x120cf80" astOperand2="0x120d1f0"/>
+    <token id="0x120d110" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120d1f0"/>
+    <token id="0x120d1f0" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="::" scope="0x1223ee0" astParent="0x120d060" astOperand1="0x120d110" astOperand2="0x120d2a0"/>
+    <token id="0x120d2a0" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="theInstance" scope="0x1223ee0" type="name" varId="7" variable="0x12266c0" astParent="0x120d1f0"/>
+    <token id="0x120d350" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="=" scope="0x1223ee0" type="op" isAssignmentOp="True" astOperand1="0x120d060" astOperand2="0x120d400"/>
+    <token id="0x120d400" file="siftgpu_descriptor_matcher.cpp" linenr="10" str="0" scope="0x1223ee0" type="number" isInt="True" values="0x120d408" astParent="0x120d350"/>
+    <token id="0x120d4b0" file="siftgpu_descriptor_matcher.cpp" linenr="10" str=";" scope="0x1223ee0"/>
+    <token id="0x120d560" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="SiftMatchGPU" scope="0x1223ee0" type="name" astParent="0x120d610"/>
+    <token id="0x120d610" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="*" scope="0x1223ee0" type="op" isArithmeticalOp="True" astParent="0x120d900" astOperand1="0x120d560" astOperand2="0x120d7a0"/>
+    <token id="0x120d6c0" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120d7a0"/>
+    <token id="0x120d7a0" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="::" scope="0x1223ee0" astParent="0x120d610" astOperand1="0x120d6c0" astOperand2="0x120d850"/>
+    <token id="0x120d850" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="descriptorMatcher" scope="0x1223ee0" type="name" varId="8" variable="0x1226730" astParent="0x120d7a0"/>
+    <token id="0x120d900" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="=" scope="0x1223ee0" type="op" isAssignmentOp="True" astOperand1="0x120d610" astOperand2="0x120d9b0"/>
+    <token id="0x120d9b0" file="siftgpu_descriptor_matcher.cpp" linenr="11" str="0" scope="0x1223ee0" type="number" isInt="True" values="0x120d9b8" astParent="0x120d900"/>
+    <token id="0x120da60" file="siftgpu_descriptor_matcher.cpp" linenr="11" str=";" scope="0x1223ee0"/>
+    <token id="0x120db40" file="siftgpu_descriptor_matcher.cpp" linenr="13" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120dc20"/>
+    <token id="0x120dc20" file="siftgpu_descriptor_matcher.cpp" linenr="13" str="::" scope="0x1223ee0" astParent="0x120ddb0" astOperand1="0x120db40" astOperand2="0x120dcd0"/>
+    <token id="0x120dcd0" file="siftgpu_descriptor_matcher.cpp" linenr="13" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" function="0x12255e0" astParent="0x120dc20"/>
+    <token id="0x120ddb0" file="siftgpu_descriptor_matcher.cpp" linenr="13" str="(" scope="0x1223ee0" link="0x120de60" astOperand1="0x120dc20"/>
+    <token id="0x120de60" file="siftgpu_descriptor_matcher.cpp" linenr="13" str=")" scope="0x1223ee0" link="0x120ddb0"/>
+    <token id="0x120df10" file="siftgpu_descriptor_matcher.cpp" linenr="14" str="{" scope="0x1225680" link="0x120eca0"/>
+    <token id="0x120eca0" file="siftgpu_descriptor_matcher.cpp" linenr="16" str="}" scope="0x1225680" link="0x120df10"/>
+    <token id="0x120ed50" file="siftgpu_descriptor_matcher.cpp" linenr="18" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120ee30"/>
+    <token id="0x120ee30" file="siftgpu_descriptor_matcher.cpp" linenr="18" str="::" scope="0x1223ee0" astParent="0x120f070" astOperand1="0x120ed50" astOperand2="0x120ef90"/>
+    <token id="0x120eee0" file="siftgpu_descriptor_matcher.cpp" linenr="18" str="~" scope="0x1223ee0" type="op"/>
+    <token id="0x120ef90" file="siftgpu_descriptor_matcher.cpp" linenr="18" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" function="0x1205770" astParent="0x120ee30"/>
+    <token id="0x120f070" file="siftgpu_descriptor_matcher.cpp" linenr="18" str="(" scope="0x1223ee0" link="0x120f120" astOperand1="0x120ee30"/>
+    <token id="0x120f120" file="siftgpu_descriptor_matcher.cpp" linenr="18" str=")" scope="0x1223ee0" link="0x120f070"/>
+    <token id="0x120f1d0" file="siftgpu_descriptor_matcher.cpp" linenr="19" str="{" scope="0x12257e0" link="0x120f6a0"/>
+    <token id="0x120f280" file="siftgpu_descriptor_matcher.cpp" linenr="21" str="delete" scope="0x12257e0" type="name" astOperand1="0x120f330"/>
+    <token id="0x120f330" file="siftgpu_descriptor_matcher.cpp" linenr="21" str="theInstance" scope="0x12257e0" type="name" varId="7" variable="0x12266c0" astParent="0x120f280"/>
+    <token id="0x120f3e0" file="siftgpu_descriptor_matcher.cpp" linenr="21" str=";" scope="0x12257e0"/>
+    <token id="0x120f490" file="siftgpu_descriptor_matcher.cpp" linenr="23" str="delete" scope="0x12257e0" type="name" astOperand1="0x120f540"/>
+    <token id="0x120f540" file="siftgpu_descriptor_matcher.cpp" linenr="23" str="descriptorMatcher" scope="0x12257e0" type="name" varId="8" variable="0x1226730" astParent="0x120f490"/>
+    <token id="0x120f5f0" file="siftgpu_descriptor_matcher.cpp" linenr="23" str=";" scope="0x12257e0"/>
+    <token id="0x120f6a0" file="siftgpu_descriptor_matcher.cpp" linenr="24" str="}" scope="0x12257e0" link="0x120f1d0"/>
+    <token id="0x120f750" file="siftgpu_descriptor_matcher.cpp" linenr="26" str="bool" scope="0x1223ee0" type="name"/>
+    <token id="0x120f830" file="siftgpu_descriptor_matcher.cpp" linenr="26" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x120f910"/>
+    <token id="0x120f910" file="siftgpu_descriptor_matcher.cpp" linenr="26" str="::" scope="0x1223ee0" astParent="0x120fa70" astOperand1="0x120f830" astOperand2="0x120f9c0"/>
+    <token id="0x120f9c0" file="siftgpu_descriptor_matcher.cpp" linenr="26" str="init" scope="0x1223ee0" type="name" function="0x1205810" astParent="0x120f910"/>
+    <token id="0x120fa70" file="siftgpu_descriptor_matcher.cpp" linenr="26" str="(" scope="0x1223ee0" link="0x120fb20" astOperand1="0x120f910"/>
+    <token id="0x120fb20" file="siftgpu_descriptor_matcher.cpp" linenr="26" str=")" scope="0x1223ee0" link="0x120fa70"/>
+    <token id="0x120fbd0" file="siftgpu_descriptor_matcher.cpp" linenr="27" str="{" scope="0x1225910" link="0x1211900"/>
+    <token id="0x120fc80" file="siftgpu_descriptor_matcher.cpp" linenr="29" str="descriptorMatcher" scope="0x1225910" type="name" varId="8" variable="0x1226730" astParent="0x120fd30"/>
+    <token id="0x120fd30" file="siftgpu_descriptor_matcher.cpp" linenr="29" str="=" scope="0x1225910" type="op" isAssignmentOp="True" astOperand1="0x120fc80" astOperand2="0x120fec0"/>
+    <token id="0x120fde0" file="siftgpu_descriptor_matcher.cpp" linenr="29" str="CreateNewSiftMatchGPU" scope="0x1225910" type="name" astParent="0x120fec0"/>
+    <token id="0x120fec0" file="siftgpu_descriptor_matcher.cpp" linenr="29" str="(" scope="0x1225910" link="0x1210020" astParent="0x120fd30" astOperand1="0x120fde0" astOperand2="0x120ff70"/>
+    <token id="0x120ff70" file="siftgpu_descriptor_matcher.cpp" linenr="29" str="4096" scope="0x1225910" type="number" isInt="True" values="0x120ff78" astParent="0x120fec0"/>
+    <token id="0x1210020" file="siftgpu_descriptor_matcher.cpp" linenr="29" str=")" scope="0x1225910" link="0x120fec0"/>
+    <token id="0x12100d0" file="siftgpu_descriptor_matcher.cpp" linenr="29" str=";" scope="0x1225910"/>
+    <token id="0x1210180" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="if" scope="0x1225910" type="name" astParent="0x1210230"/>
+    <token id="0x1210230" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="(" scope="0x1225910" link="0x12107e0" astOperand1="0x1210180" astOperand2="0x12102e0"/>
+    <token id="0x12102e0" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="!" scope="0x1225910" type="op" isLogicalOp="True" astParent="0x1210230" astOperand1="0x1210680"/>
+    <token id="0x1210390" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="descriptorMatcher" scope="0x1225910" type="name" varId="8" variable="0x1226730" astParent="0x1210470"/>
+    <token id="0x1210470" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="." scope="0x1225910" astParent="0x1210680" astOperand1="0x1210390" astOperand2="0x12105d0"/>
+    <token id="0x12105d0" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="VerifyContextGL" scope="0x1225910" type="name" astParent="0x1210470"/>
+    <token id="0x1210680" file="siftgpu_descriptor_matcher.cpp" linenr="31" str="(" scope="0x1225910" link="0x1210730" astParent="0x12102e0" astOperand1="0x1210470"/>
+    <token id="0x1210730" file="siftgpu_descriptor_matcher.cpp" linenr="31" str=")" scope="0x1225910" link="0x1210680"/>
+    <token id="0x12107e0" file="siftgpu_descriptor_matcher.cpp" linenr="31" str=")" scope="0x1225910" link="0x1210230"/>
+    <token id="0x1210890" file="siftgpu_descriptor_matcher.cpp" linenr="32" str="{" scope="0x1225a40" link="0x12112a0"/>
+    <token id="0x1210940" file="siftgpu_descriptor_matcher.cpp" linenr="34" str="ROS_ERROR" scope="0x1225a40" type="name" astParent="0x12109f0"/>
+    <token id="0x12109f0" file="siftgpu_descriptor_matcher.cpp" linenr="34" str="(" scope="0x1225a40" link="0x1210c70" astOperand1="0x1210940" astOperand2="0x1210b70"/>
+    <token id="0x1210b70" file="siftgpu_descriptor_matcher.cpp" linenr="34" str="&quot;SiftGPU Descriptor Matcher: Can't verify OpenGL context.&quot;" scope="0x1225a40" type="string" strlen="56" values="0x1210b78" astParent="0x12109f0"/>
+    <token id="0x1210c70" file="siftgpu_descriptor_matcher.cpp" linenr="34" str=")" scope="0x1225a40" link="0x12109f0"/>
+    <token id="0x1210d20" file="siftgpu_descriptor_matcher.cpp" linenr="34" str=";" scope="0x1225a40"/>
+    <token id="0x1210dd0" file="siftgpu_descriptor_matcher.cpp" linenr="35" str="descriptorMatcher" scope="0x1225a40" type="name" varId="8" variable="0x1226730" astParent="0x1210e80"/>
+    <token id="0x1210e80" file="siftgpu_descriptor_matcher.cpp" linenr="35" str="=" scope="0x1225a40" type="op" isAssignmentOp="True" astOperand1="0x1210dd0" astOperand2="0x1210f30"/>
+    <token id="0x1210f30" file="siftgpu_descriptor_matcher.cpp" linenr="35" str="0" scope="0x1225a40" type="number" isInt="True" values="0x1210f38" astParent="0x1210e80"/>
+    <token id="0x1210fe0" file="siftgpu_descriptor_matcher.cpp" linenr="35" str=";" scope="0x1225a40"/>
+    <token id="0x1211090" file="siftgpu_descriptor_matcher.cpp" linenr="36" str="return" scope="0x1225a40" type="name" astOperand1="0x1211140"/>
+    <token id="0x1211140" file="siftgpu_descriptor_matcher.cpp" linenr="36" str="false" scope="0x1225a40" type="name" values="0x1211148" astParent="0x1211090"/>
+    <token id="0x12111f0" file="siftgpu_descriptor_matcher.cpp" linenr="36" str=";" scope="0x1225a40"/>
+    <token id="0x12112a0" file="siftgpu_descriptor_matcher.cpp" linenr="37" str="}" scope="0x1225a40" link="0x1210890"/>
+    <token id="0x1211350" file="siftgpu_descriptor_matcher.cpp" linenr="39" str="ROS_INFO" scope="0x1225910" type="name" astParent="0x1211400"/>
+    <token id="0x1211400" file="siftgpu_descriptor_matcher.cpp" linenr="39" str="(" scope="0x1225910" link="0x1211590" astOperand1="0x1211350" astOperand2="0x12114e0"/>
+    <token id="0x12114e0" file="siftgpu_descriptor_matcher.cpp" linenr="39" str="&quot;SiftGPU Descriptor Matcher: Initialized successfully.&quot;" scope="0x1225910" type="string" strlen="53" values="0x12114e8" astParent="0x1211400"/>
+    <token id="0x1211590" file="siftgpu_descriptor_matcher.cpp" linenr="39" str=")" scope="0x1225910" link="0x1211400"/>
+    <token id="0x1211640" file="siftgpu_descriptor_matcher.cpp" linenr="39" str=";" scope="0x1225910"/>
+    <token id="0x12116f0" file="siftgpu_descriptor_matcher.cpp" linenr="40" str="return" scope="0x1225910" type="name" astOperand1="0x12117a0"/>
+    <token id="0x12117a0" file="siftgpu_descriptor_matcher.cpp" linenr="40" str="true" scope="0x1225910" type="name" values="0x12117a8" astParent="0x12116f0"/>
+    <token id="0x1211850" file="siftgpu_descriptor_matcher.cpp" linenr="40" str=";" scope="0x1225910"/>
+    <token id="0x1211900" file="siftgpu_descriptor_matcher.cpp" linenr="41" str="}" scope="0x1225910" link="0x120fbd0"/>
+    <token id="0x12119b0" file="siftgpu_descriptor_matcher.cpp" linenr="43" str="bool" scope="0x1223ee0" type="name"/>
+    <token id="0x1211a60" file="siftgpu_descriptor_matcher.cpp" linenr="43" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x1211b40"/>
+    <token id="0x1211b40" file="siftgpu_descriptor_matcher.cpp" linenr="43" str="::" scope="0x1223ee0" astParent="0x1211ca0" astOperand1="0x1211a60" astOperand2="0x1211bf0"/>
+    <token id="0x1211bf0" file="siftgpu_descriptor_matcher.cpp" linenr="43" str="initialized" scope="0x1223ee0" type="name" function="0x12058b0" astParent="0x1211b40"/>
+    <token id="0x1211ca0" file="siftgpu_descriptor_matcher.cpp" linenr="43" str="(" scope="0x1223ee0" link="0x1211d50" astOperand1="0x1211b40"/>
+    <token id="0x1211d50" file="siftgpu_descriptor_matcher.cpp" linenr="43" str=")" scope="0x1223ee0" link="0x1211ca0"/>
+    <token id="0x1211e00" file="siftgpu_descriptor_matcher.cpp" linenr="44" str="{" scope="0x1225b70" link="0x1212430"/>
+    <token id="0x1211eb0" file="siftgpu_descriptor_matcher.cpp" linenr="45" str="return" scope="0x1225b70" type="name" astOperand1="0x12120c0"/>
+    <token id="0x1211f60" file="siftgpu_descriptor_matcher.cpp" linenr="45" str="(" scope="0x1225b70" link="0x12122d0"/>
+    <token id="0x1212010" file="siftgpu_descriptor_matcher.cpp" linenr="45" str="descriptorMatcher" scope="0x1225b70" type="name" varId="8" variable="0x1226730" astParent="0x12120c0"/>
+    <token id="0x12120c0" file="siftgpu_descriptor_matcher.cpp" linenr="45" str="!=" scope="0x1225b70" type="op" isComparisonOp="True" astParent="0x1211eb0" astOperand1="0x1212010" astOperand2="0x1212220"/>
+    <token id="0x1212220" file="siftgpu_descriptor_matcher.cpp" linenr="45" str="0" scope="0x1225b70" type="number" isInt="True" values="0x1212228" astParent="0x12120c0"/>
+    <token id="0x12122d0" file="siftgpu_descriptor_matcher.cpp" linenr="45" str=")" scope="0x1225b70" link="0x1211f60"/>
+    <token id="0x1212380" file="siftgpu_descriptor_matcher.cpp" linenr="45" str=";" scope="0x1225b70"/>
+    <token id="0x1212430" file="siftgpu_descriptor_matcher.cpp" linenr="46" str="}" scope="0x1225b70" link="0x1211e00"/>
+    <token id="0x1212510" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x12125f0"/>
+    <token id="0x12125f0" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="*" scope="0x1223ee0" type="op" isArithmeticalOp="True" astOperand1="0x1212510" astOperand2="0x12128e0"/>
+    <token id="0x12126a0" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x1212780"/>
+    <token id="0x1212780" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="::" scope="0x1223ee0" astParent="0x12128e0" astOperand1="0x12126a0" astOperand2="0x1212830"/>
+    <token id="0x1212830" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="getInstance" scope="0x1223ee0" type="name" function="0x12254a0" astParent="0x1212780"/>
+    <token id="0x12128e0" file="siftgpu_descriptor_matcher.cpp" linenr="48" str="(" scope="0x1223ee0" link="0x1212990" astParent="0x12125f0" astOperand1="0x1212780"/>
+    <token id="0x1212990" file="siftgpu_descriptor_matcher.cpp" linenr="48" str=")" scope="0x1223ee0" link="0x12128e0"/>
+    <token id="0x1212a40" file="siftgpu_descriptor_matcher.cpp" linenr="49" str="{" scope="0x1225ca0" link="0x1213b30"/>
+    <token id="0x1212af0" file="siftgpu_descriptor_matcher.cpp" linenr="50" str="if" scope="0x1225ca0" type="name" astParent="0x1212ba0"/>
+    <token id="0x1212ba0" file="siftgpu_descriptor_matcher.cpp" linenr="50" str="(" scope="0x1225ca0" link="0x1212e60" astOperand1="0x1212af0" astOperand2="0x1212d00"/>
+    <token id="0x1212c50" file="siftgpu_descriptor_matcher.cpp" linenr="50" str="theInstance" scope="0x1225ca0" type="name" varId="7" variable="0x12266c0" astParent="0x1212d00"/>
+    <token id="0x1212d00" file="siftgpu_descriptor_matcher.cpp" linenr="50" str="==" scope="0x1225ca0" type="op" isComparisonOp="True" astParent="0x1212ba0" astOperand1="0x1212c50" astOperand2="0x1212db0"/>
+    <token id="0x1212db0" file="siftgpu_descriptor_matcher.cpp" linenr="50" str="0" scope="0x1225ca0" type="number" isInt="True" values="0x1212db8" astParent="0x1212d00"/>
+    <token id="0x1212e60" file="siftgpu_descriptor_matcher.cpp" linenr="50" str=")" scope="0x1225ca0" link="0x1212ba0"/>
+    <token id="0x1212f10" file="siftgpu_descriptor_matcher.cpp" linenr="51" str="{" scope="0x1225dd0" link="0x1213870"/>
+    <token id="0x1212fc0" file="siftgpu_descriptor_matcher.cpp" linenr="52" str="ROS_INFO" scope="0x1225dd0" type="name" astParent="0x1213070"/>
+    <token id="0x1213070" file="siftgpu_descriptor_matcher.cpp" linenr="52" str="(" scope="0x1225dd0" link="0x1213210" astOperand1="0x1212fc0" astOperand2="0x1213120"/>
+    <token id="0x1213120" file="siftgpu_descriptor_matcher.cpp" linenr="52" str="&quot;SiftGPU Descriptor Matcher: Creating instance.&quot;" scope="0x1225dd0" type="string" strlen="46" values="0x1213128" astParent="0x1213070"/>
+    <token id="0x1213210" file="siftgpu_descriptor_matcher.cpp" linenr="52" str=")" scope="0x1225dd0" link="0x1213070"/>
+    <token id="0x12132c0" file="siftgpu_descriptor_matcher.cpp" linenr="52" str=";" scope="0x1225dd0"/>
+    <token id="0x1213370" file="siftgpu_descriptor_matcher.cpp" linenr="53" str="theInstance" scope="0x1225dd0" type="name" varId="7" variable="0x12266c0" astParent="0x1213420"/>
+    <token id="0x1213420" file="siftgpu_descriptor_matcher.cpp" linenr="53" str="=" scope="0x1225dd0" type="op" isAssignmentOp="True" astOperand1="0x1213370" astOperand2="0x12134d0"/>
+    <token id="0x12134d0" file="siftgpu_descriptor_matcher.cpp" linenr="53" str="new" scope="0x1225dd0" type="name" astParent="0x1213420" astOperand1="0x1213660"/>
+    <token id="0x1213580" file="siftgpu_descriptor_matcher.cpp" linenr="53" str="SiftGPUDescriptorMatcher" scope="0x1225dd0" type="name" function="0x1205770" astParent="0x1213660"/>
+    <token id="0x1213660" file="siftgpu_descriptor_matcher.cpp" linenr="53" str="(" scope="0x1225dd0" link="0x1213710" astParent="0x12134d0" astOperand1="0x1213580"/>
+    <token id="0x1213710" file="siftgpu_descriptor_matcher.cpp" linenr="53" str=")" scope="0x1225dd0" link="0x1213660"/>
+    <token id="0x12137c0" file="siftgpu_descriptor_matcher.cpp" linenr="53" str=";" scope="0x1225dd0"/>
+    <token id="0x1213870" file="siftgpu_descriptor_matcher.cpp" linenr="54" str="}" scope="0x1225dd0" link="0x1212f10"/>
+    <token id="0x1213920" file="siftgpu_descriptor_matcher.cpp" linenr="55" str="return" scope="0x1225ca0" type="name" astOperand1="0x12139d0"/>
+    <token id="0x12139d0" file="siftgpu_descriptor_matcher.cpp" linenr="55" str="theInstance" scope="0x1225ca0" type="name" varId="7" variable="0x12266c0" astParent="0x1213920"/>
+    <token id="0x1213a80" file="siftgpu_descriptor_matcher.cpp" linenr="55" str=";" scope="0x1225ca0"/>
+    <token id="0x1213b30" file="siftgpu_descriptor_matcher.cpp" linenr="56" str="}" scope="0x1225ca0" link="0x1212a40"/>
+    <token id="0x1213be0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="bool" scope="0x1223ee0" type="name"/>
+    <token id="0x1213c90" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="SiftGPUDescriptorMatcher" scope="0x1223ee0" type="name" type-scope="0x12242a0" astParent="0x1213d70"/>
+    <token id="0x1213d70" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="::" scope="0x1223ee0" astParent="0x1213ed0" astOperand1="0x1213c90" astOperand2="0x1213e20"/>
+    <token id="0x1213e20" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="match" scope="0x1223ee0" type="name" function="0x1225540" astParent="0x1213d70"/>
+    <token id="0x1213ed0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="(" scope="0x1223ee0" link="0x1215c60" astOperand1="0x1213d70" astOperand2="0x12159a0"/>
+    <token id="0x1213f80" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="const" scope="0x1223ee0" type="name"/>
+    <token id="0x1214030" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="std" scope="0x1223ee0" type="name" astParent="0x12140e0"/>
+    <token id="0x12140e0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="::" scope="0x1223ee0" astParent="0x1214450" astOperand1="0x1214030" astOperand2="0x1214190"/>
+    <token id="0x1214190" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="vector" scope="0x1223ee0" type="name" astParent="0x12140e0"/>
+    <token id="0x1214240" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="&lt;" scope="0x1223ee0" link="0x12143a0"/>
+    <token id="0x12142f0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="float" scope="0x1223ee0" type="name"/>
+    <token id="0x12143a0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="&gt;" scope="0x1223ee0" link="0x1214240"/>
+    <token id="0x1214450" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="&amp;" scope="0x1223ee0" type="op" astParent="0x12145b0" astOperand1="0x12140e0" astOperand2="0x1214500"/>
+    <token id="0x1214500" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="descriptors1" scope="0x1223ee0" type="name" varId="9" variable="0x1226b20" astParent="0x1214450"/>
+    <token id="0x12145b0" file="siftgpu_descriptor_matcher.cpp" linenr="58" str="," scope="0x1223ee0" astParent="0x1214c90" astOperand1="0x1214450" astOperand2="0x1214b30"/>
+    <token id="0x1214660" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="const" scope="0x1223ee0" type="name"/>
+    <token id="0x1214710" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="std" scope="0x1223ee0" type="name" astParent="0x12147c0"/>
+    <token id="0x12147c0" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="::" scope="0x1223ee0" astParent="0x1214b30" astOperand1="0x1214710" astOperand2="0x1214870"/>
+    <token id="0x1214870" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="vector" scope="0x1223ee0" type="name" astParent="0x12147c0"/>
+    <token id="0x1214920" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="&lt;" scope="0x1223ee0" link="0x1214a80"/>
+    <token id="0x12149d0" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="float" scope="0x1223ee0" type="name"/>
+    <token id="0x1214a80" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="&gt;" scope="0x1223ee0" link="0x1214920"/>
+    <token id="0x1214b30" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="&amp;" scope="0x1223ee0" type="op" astParent="0x12145b0" astOperand1="0x12147c0" astOperand2="0x1214be0"/>
+    <token id="0x1214be0" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="descriptors2" scope="0x1223ee0" type="name" varId="10" variable="0x1226b90" astParent="0x1214b30"/>
+    <token id="0x1214c90" file="siftgpu_descriptor_matcher.cpp" linenr="59" str="," scope="0x1223ee0" astParent="0x1215420" astOperand1="0x12145b0" astOperand2="0x12152c0"/>
+    <token id="0x1214d40" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="std" scope="0x1223ee0" type="name" astParent="0x1214df0"/>
+    <token id="0x1214df0" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="::" scope="0x1223ee0" astParent="0x12152c0" astOperand1="0x1214d40" astOperand2="0x1214ea0"/>
+    <token id="0x1214ea0" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="vector" scope="0x1223ee0" type="name" astParent="0x1214df0"/>
+    <token id="0x1214f50" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="&lt;" scope="0x1223ee0" link="0x1215210"/>
+    <token id="0x1215000" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="cv" scope="0x1223ee0" type="name"/>
+    <token id="0x12150b0" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="::" scope="0x1223ee0"/>
+    <token id="0x1215160" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="DMatch" scope="0x1223ee0" type="name"/>
+    <token id="0x1215210" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="&gt;" scope="0x1223ee0" link="0x1214f50"/>
+    <token id="0x12152c0" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="&amp;" scope="0x1223ee0" type="op" astParent="0x1214c90" astOperand1="0x1214df0" astOperand2="0x1215370"/>
+    <token id="0x1215370" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="matches" scope="0x1223ee0" type="name" varId="11" variable="0x1226c00" astParent="0x12152c0"/>
+    <token id="0x1215420" file="siftgpu_descriptor_matcher.cpp" linenr="60" str="," scope="0x1223ee0" astParent="0x12156e0" astOperand1="0x1214c90" astOperand2="0x1215630"/>
+    <token id="0x12154d0" file="siftgpu_descriptor_matcher.cpp" linenr="61" str="const" scope="0x1223ee0" type="name"/>
+    <token id="0x1215580" file="siftgpu_descriptor_matcher.cpp" linenr="61" str="double" scope="0x1223ee0" type="name"/>
+    <token id="0x1215630" file="siftgpu_descriptor_matcher.cpp" linenr="61" str="dist_max" scope="0x1223ee0" type="name" varId="12" variable="0x1226c70" astParent="0x1215420"/>
+    <token id="0x12156e0" file="siftgpu_descriptor_matcher.cpp" linenr="61" str="," scope="0x1223ee0" astParent="0x12159a0" astOperand1="0x1215420" astOperand2="0x12158f0"/>
+    <token id="0x1215790" file="siftgpu_descriptor_matcher.cpp" linenr="62" str="const" scope="0x1223ee0" type="name"/>
+    <token id="0x1215840" file="siftgpu_descriptor_matcher.cpp" linenr="62" str="double" scope="0x1223ee0" type="name"/>
+    <token id="0x12158f0" file="siftgpu_descriptor_matcher.cpp" linenr="62" str="knn_1to2_ratio" scope="0x1223ee0" type="name" varId="13" variable="0x1226ce0" astParent="0x12156e0"/>
+    <token id="0x12159a0" file="siftgpu_descriptor_matcher.cpp" linenr="62" str="," scope="0x1223ee0" astParent="0x1213ed0" astOperand1="0x12156e0" astOperand2="0x1215bb0"/>
+    <token id="0x1215a50" file="siftgpu_descriptor_matcher.cpp" linenr="63" str="const" scope="0x1223ee0" type="name"/>
+    <token id="0x1215b00" file="siftgpu_descriptor_matcher.cpp" linenr="63" str="int" scope="0x1223ee0" type="name"/>
+    <token id="0x1215bb0" file="siftgpu_descriptor_matcher.cpp" linenr="63" str="mutual_best_match" scope="0x1223ee0" type="name" varId="14" variable="0x1226d50" astParent="0x12159a0"/>
+    <token id="0x1215c60" file="siftgpu_descriptor_matcher.cpp" linenr="63" str=")" scope="0x1223ee0" link="0x1213ed0"/>
+    <token id="0x1215d10" file="siftgpu_descriptor_matcher.cpp" linenr="64" str="{" scope="0x1225f00" link="0x1223ac0"/>
+    <token id="0x1215dc0" file="siftgpu_descriptor_matcher.cpp" linenr="65" str="matches" scope="0x1225f00" type="name" varId="11" variable="0x1226c00" astParent="0x1215e70"/>
+    <token id="0x1215e70" file="siftgpu_descriptor_matcher.cpp" linenr="65" str="." scope="0x1225f00" astParent="0x1215fd0" astOperand1="0x1215dc0" astOperand2="0x1215f20"/>
+    <token id="0x1215f20" file="siftgpu_descriptor_matcher.cpp" linenr="65" str="clear" scope="0x1225f00" type="name" astParent="0x1215e70"/>
+    <token id="0x1215fd0" file="siftgpu_descriptor_matcher.cpp" linenr="65" str="(" scope="0x1225f00" link="0x1216080" astOperand1="0x1215e70"/>
+    <token id="0x1216080" file="siftgpu_descriptor_matcher.cpp" linenr="65" str=")" scope="0x1225f00" link="0x1215fd0"/>
+    <token id="0x1216130" file="siftgpu_descriptor_matcher.cpp" linenr="65" str=";" scope="0x1225f00"/>
+    <token id="0x12161e0" file="siftgpu_descriptor_matcher.cpp" linenr="67" str="if" scope="0x1225f00" type="name" astParent="0x1216290"/>
+    <token id="0x1216290" file="siftgpu_descriptor_matcher.cpp" linenr="67" str="(" scope="0x1225f00" link="0x1216580" astOperand1="0x12161e0" astOperand2="0x1216420"/>
+    <token id="0x1216340" file="siftgpu_descriptor_matcher.cpp" linenr="67" str="descriptorMatcher" scope="0x1225f00" type="name" varId="8" variable="0x1226730" astParent="0x1216420"/>
+    <token id="0x1216420" file="siftgpu_descriptor_matcher.cpp" linenr="67" str="==" scope="0x1225f00" type="op" isComparisonOp="True" astParent="0x1216290" astOperand1="0x1216340" astOperand2="0x12164d0"/>
+    <token id="0x12164d0" file="siftgpu_descriptor_matcher.cpp" linenr="67" str="0" scope="0x1225f00" type="number" isInt="True" values="0x12164d8" astParent="0x1216420"/>
+    <token id="0x1216580" file="siftgpu_descriptor_matcher.cpp" linenr="67" str=")" scope="0x1225f00" link="0x1216290"/>
+    <token id="0x1216630" file="siftgpu_descriptor_matcher.cpp" linenr="68" str="{" scope="0x1226030" link="0x1216cd0"/>
+    <token id="0x12166e0" file="siftgpu_descriptor_matcher.cpp" linenr="69" str="ROS_WARN" scope="0x1226030" type="name" astParent="0x1216790"/>
+    <token id="0x1216790" file="siftgpu_descriptor_matcher.cpp" linenr="69" str="(" scope="0x1226030" link="0x1216960" astOperand1="0x12166e0" astOperand2="0x1216870"/>
+    <token id="0x1216870" file="siftgpu_descriptor_matcher.cpp" linenr="69" str="&quot;SiftGPU Descriptor Matcher has not been initialized.&quot;" scope="0x1226030" type="string" strlen="52" values="0x1216878" astParent="0x1216790"/>
+    <token id="0x1216960" file="siftgpu_descriptor_matcher.cpp" linenr="69" str=")" scope="0x1226030" link="0x1216790"/>
+    <token id="0x1216a10" file="siftgpu_descriptor_matcher.cpp" linenr="69" str=";" scope="0x1226030"/>
+    <token id="0x1216ac0" file="siftgpu_descriptor_matcher.cpp" linenr="70" str="return" scope="0x1226030" type="name" astOperand1="0x1216b70"/>
+    <token id="0x1216b70" file="siftgpu_descriptor_matcher.cpp" linenr="70" str="false" scope="0x1226030" type="name" values="0x1216b78" astParent="0x1216ac0"/>
+    <token id="0x1216c20" file="siftgpu_descriptor_matcher.cpp" linenr="70" str=";" scope="0x1226030"/>
+    <token id="0x1216cd0" file="siftgpu_descriptor_matcher.cpp" linenr="71" str="}" scope="0x1226030" link="0x1216630"/>
+    <token id="0x1216d80" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="int" scope="0x1225f00" type="name"/>
+    <token id="0x1216e30" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="num1" scope="0x1225f00" type="name" varId="15" variable="0x12267a0"/>
+    <token id="0x1216ee0" file="siftgpu_descriptor_matcher.cpp" linenr="73" str=";" scope="0x1225f00"/>
+    <token id="0x120c310" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="num1" scope="0x1225f00" type="name" varId="15" variable="0x12267a0" astParent="0x1210520"/>
+    <token id="0x1210520" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astOperand1="0x120c310" astOperand2="0x1217300"/>
+    <token id="0x1216f90" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="descriptors1" scope="0x1225f00" type="name" varId="9" variable="0x1226b20" astParent="0x1217040"/>
+    <token id="0x1217040" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="." scope="0x1225f00" astParent="0x12171a0" astOperand1="0x1216f90" astOperand2="0x12170f0"/>
+    <token id="0x12170f0" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="size" scope="0x1225f00" type="name" astParent="0x1217040"/>
+    <token id="0x12171a0" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="(" scope="0x1225f00" link="0x1217250" astParent="0x1217300" astOperand1="0x1217040"/>
+    <token id="0x1217250" file="siftgpu_descriptor_matcher.cpp" linenr="73" str=")" scope="0x1225f00" link="0x12171a0"/>
+    <token id="0x1217300" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="/" scope="0x1225f00" type="op" isArithmeticalOp="True" astParent="0x1210520" astOperand1="0x12171a0" astOperand2="0x12173b0"/>
+    <token id="0x12173b0" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="128" scope="0x1225f00" type="number" isInt="True" values="0x12173b8" astParent="0x1217300"/>
+    <token id="0x1217460" file="siftgpu_descriptor_matcher.cpp" linenr="73" str=";" scope="0x1225f00"/>
+    <token id="0x1212170" file="siftgpu_descriptor_matcher.cpp" linenr="73" str="int" scope="0x1225f00" type="name"/>
+    <token id="0x1217510" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="num2" scope="0x1225f00" type="name" varId="16" variable="0x1226810"/>
+    <token id="0x12175c0" file="siftgpu_descriptor_matcher.cpp" linenr="74" str=";" scope="0x1225f00"/>
+    <token id="0x1217d50" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="num2" scope="0x1225f00" type="name" varId="16" variable="0x1226810" astParent="0x1218880"/>
+    <token id="0x1218880" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astOperand1="0x1217d50" astOperand2="0x12179e0"/>
+    <token id="0x1217670" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="descriptors2" scope="0x1225f00" type="name" varId="10" variable="0x1226b90" astParent="0x1217720"/>
+    <token id="0x1217720" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="." scope="0x1225f00" astParent="0x1217880" astOperand1="0x1217670" astOperand2="0x12177d0"/>
+    <token id="0x12177d0" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="size" scope="0x1225f00" type="name" astParent="0x1217720"/>
+    <token id="0x1217880" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="(" scope="0x1225f00" link="0x1217930" astParent="0x12179e0" astOperand1="0x1217720"/>
+    <token id="0x1217930" file="siftgpu_descriptor_matcher.cpp" linenr="74" str=")" scope="0x1225f00" link="0x1217880"/>
+    <token id="0x12179e0" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="/" scope="0x1225f00" type="op" isArithmeticalOp="True" astParent="0x1218880" astOperand1="0x1217880" astOperand2="0x1217a90"/>
+    <token id="0x1217a90" file="siftgpu_descriptor_matcher.cpp" linenr="74" str="128" scope="0x1225f00" type="number" isInt="True" values="0x1217a98" astParent="0x12179e0"/>
+    <token id="0x1217b40" file="siftgpu_descriptor_matcher.cpp" linenr="74" str=";" scope="0x1225f00"/>
+    <token id="0x1217bf0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="descriptorMatcher" scope="0x1225f00" type="name" varId="8" variable="0x1226730" astParent="0x1217ca0"/>
+    <token id="0x1217ca0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="." scope="0x1225f00" astParent="0x1217eb0" astOperand1="0x1217bf0" astOperand2="0x1217e00"/>
+    <token id="0x1217e00" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="SetDescriptors" scope="0x1225f00" type="name" astParent="0x1217ca0"/>
+    <token id="0x1217eb0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="(" scope="0x1225f00" link="0x1218590" astOperand1="0x1217ca0" astOperand2="0x1218170"/>
+    <token id="0x1217f60" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="0" scope="0x1225f00" type="number" isInt="True" values="0x1217f68" astParent="0x1218010"/>
+    <token id="0x1218010" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="," scope="0x1225f00" astParent="0x1218170" astOperand1="0x1217f60" astOperand2="0x12180c0"/>
+    <token id="0x12180c0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="num1" scope="0x1225f00" type="name" varId="15" variable="0x12267a0" astParent="0x1218010"/>
+    <token id="0x1218170" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="," scope="0x1225f00" astParent="0x1217eb0" astOperand1="0x1218010" astOperand2="0x1218220"/>
+    <token id="0x1218220" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="&amp;" scope="0x1225f00" type="op" astParent="0x1218170" astOperand1="0x1218380"/>
+    <token id="0x12182d0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="descriptors1" scope="0x1225f00" type="name" varId="9" variable="0x1226b20" astParent="0x1218380"/>
+    <token id="0x1218380" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="[" scope="0x1225f00" link="0x12184e0" astParent="0x1218220" astOperand1="0x12182d0" astOperand2="0x1218430"/>
+    <token id="0x1218430" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="0" scope="0x1225f00" type="number" isInt="True" values="0x1218438" astParent="0x1218380"/>
+    <token id="0x12184e0" file="siftgpu_descriptor_matcher.cpp" linenr="76" str="]" scope="0x1225f00" link="0x1218380"/>
+    <token id="0x1218590" file="siftgpu_descriptor_matcher.cpp" linenr="76" str=")" scope="0x1225f00" link="0x1217eb0"/>
+    <token id="0x1218640" file="siftgpu_descriptor_matcher.cpp" linenr="76" str=";" scope="0x1225f00"/>
+    <token id="0x12186f0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="descriptorMatcher" scope="0x1225f00" type="name" varId="8" variable="0x1226730" astParent="0x12187d0"/>
+    <token id="0x12187d0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="." scope="0x1225f00" astParent="0x12189e0" astOperand1="0x12186f0" astOperand2="0x1218930"/>
+    <token id="0x1218930" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="SetDescriptors" scope="0x1225f00" type="name" astParent="0x12187d0"/>
+    <token id="0x12189e0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="(" scope="0x1225f00" link="0x12190c0" astOperand1="0x12187d0" astOperand2="0x1218ca0"/>
+    <token id="0x1218a90" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="1" scope="0x1225f00" type="number" isInt="True" values="0x1218a98" astParent="0x1218b40"/>
+    <token id="0x1218b40" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="," scope="0x1225f00" astParent="0x1218ca0" astOperand1="0x1218a90" astOperand2="0x1218bf0"/>
+    <token id="0x1218bf0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="num2" scope="0x1225f00" type="name" varId="16" variable="0x1226810" astParent="0x1218b40"/>
+    <token id="0x1218ca0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="," scope="0x1225f00" astParent="0x12189e0" astOperand1="0x1218b40" astOperand2="0x1218d50"/>
+    <token id="0x1218d50" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="&amp;" scope="0x1225f00" type="op" astParent="0x1218ca0" astOperand1="0x1218eb0"/>
+    <token id="0x1218e00" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="descriptors2" scope="0x1225f00" type="name" varId="10" variable="0x1226b90" astParent="0x1218eb0"/>
+    <token id="0x1218eb0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="[" scope="0x1225f00" link="0x1219010" astParent="0x1218d50" astOperand1="0x1218e00" astOperand2="0x1218f60"/>
+    <token id="0x1218f60" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="0" scope="0x1225f00" type="number" isInt="True" values="0x1218f68" astParent="0x1218eb0"/>
+    <token id="0x1219010" file="siftgpu_descriptor_matcher.cpp" linenr="77" str="]" scope="0x1225f00" link="0x1218eb0"/>
+    <token id="0x12190c0" file="siftgpu_descriptor_matcher.cpp" linenr="77" str=")" scope="0x1225f00" link="0x12189e0"/>
+    <token id="0x1219170" file="siftgpu_descriptor_matcher.cpp" linenr="77" str=";" scope="0x1225f00"/>
+    <token id="0x1219220" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="int" scope="0x1225f00" type="name" astParent="0x12192d0"/>
+    <token id="0x12192d0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="(" scope="0x1225f00" link="0x12194e0" astParent="0x1219590" astOperand1="0x1219220" astOperand2="0x1219380"/>
+    <token id="0x1219380" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="*" scope="0x1225f00" type="op" isArithmeticalOp="True" astParent="0x12192d0" astOperand1="0x1219430"/>
+    <token id="0x1219430" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="match_buf" scope="0x1225f00" type="name" varId="17" variable="0x1226880" astParent="0x1219380"/>
+    <token id="0x12194e0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str=")" scope="0x1225f00" link="0x12192d0"/>
+    <token id="0x1219590" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="[" scope="0x1225f00" link="0x12196f0" astParent="0x12197a0" astOperand1="0x12192d0" astOperand2="0x1219640"/>
+    <token id="0x1219640" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="2" scope="0x1225f00" type="number" isInt="True" values="0x1219648" astParent="0x1219590"/>
+    <token id="0x12196f0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="]" scope="0x1225f00" link="0x1219590"/>
+    <token id="0x12197a0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astOperand1="0x1219590" astOperand2="0x1219850"/>
+    <token id="0x1219850" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="new" scope="0x1225f00" type="name" astParent="0x12197a0" astOperand1="0x1219bc0"/>
+    <token id="0x1219900" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="int" scope="0x1225f00" type="name" astParent="0x12199b0"/>
+    <token id="0x12199b0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="[" scope="0x1225f00" link="0x1219b10" astParent="0x1219bc0" astOperand1="0x1219900" astOperand2="0x1219a60"/>
+    <token id="0x1219a60" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="num1" scope="0x1225f00" type="name" varId="15" variable="0x12267a0" astParent="0x12199b0"/>
+    <token id="0x1219b10" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="]" scope="0x1225f00" link="0x12199b0"/>
+    <token id="0x1219bc0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="[" scope="0x1225f00" link="0x1219d20" astParent="0x1219850" astOperand1="0x12199b0" astOperand2="0x1219c70"/>
+    <token id="0x1219c70" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="2" scope="0x1225f00" type="number" isInt="True" values="0x1219c78" astParent="0x1219bc0"/>
+    <token id="0x1219d20" file="siftgpu_descriptor_matcher.cpp" linenr="79" str="]" scope="0x1225f00" link="0x1219bc0"/>
+    <token id="0x1219dd0" file="siftgpu_descriptor_matcher.cpp" linenr="79" str=";" scope="0x1225f00"/>
+    <token id="0x1219e80" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="int" scope="0x1225f00" type="name"/>
+    <token id="0x1219f30" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="nof_matches" scope="0x1225f00" type="name" varId="18" variable="0x12268f0"/>
+    <token id="0x1219fe0" file="siftgpu_descriptor_matcher.cpp" linenr="80" str=";" scope="0x1225f00"/>
+    <token id="0x121a220" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="nof_matches" scope="0x1225f00" type="name" varId="18" variable="0x12268f0" astParent="0x1222570"/>
+    <token id="0x1222570" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astOperand1="0x121a220" astOperand2="0x121a380"/>
+    <token id="0x121a090" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="descriptorMatcher" scope="0x1225f00" type="name" varId="8" variable="0x1226730" astParent="0x121a170"/>
+    <token id="0x121a170" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="." scope="0x1225f00" astParent="0x121a380" astOperand1="0x121a090" astOperand2="0x121a2d0"/>
+    <token id="0x121a2d0" file="siftgpu_descriptor_matcher.cpp" linenr="80" str="GetSiftMatch" scope="0x1225f00" type="name" astParent="0x121a170"/>
+    <token id="0x121a380" file="siftgpu_descriptor_matcher.cpp" linenr="81" str="(" scope="0x1225f00" link="0x121aa90" astParent="0x1222570" astOperand1="0x121a170" astOperand2="0x121a900"/>
+    <token id="0x121a430" file="siftgpu_descriptor_matcher.cpp" linenr="82" str="num1" scope="0x1225f00" type="name" varId="15" variable="0x12267a0" astParent="0x121a4e0"/>
+    <token id="0x121a4e0" file="siftgpu_descriptor_matcher.cpp" linenr="82" str="," scope="0x1225f00" astParent="0x121a640" astOperand1="0x121a430" astOperand2="0x121a590"/>
+    <token id="0x121a590" file="siftgpu_descriptor_matcher.cpp" linenr="83" str="match_buf" scope="0x1225f00" type="name" varId="17" variable="0x1226880" astParent="0x121a4e0"/>
+    <token id="0x121a640" file="siftgpu_descriptor_matcher.cpp" linenr="83" str="," scope="0x1225f00" astParent="0x121a7a0" astOperand1="0x121a4e0" astOperand2="0x121a6f0"/>
+    <token id="0x121a6f0" file="siftgpu_descriptor_matcher.cpp" linenr="84" str="dist_max" scope="0x1225f00" type="name" varId="12" variable="0x1226c70" astParent="0x121a640"/>
+    <token id="0x121a7a0" file="siftgpu_descriptor_matcher.cpp" linenr="84" str="," scope="0x1225f00" astParent="0x121a900" astOperand1="0x121a640" astOperand2="0x121a850"/>
+    <token id="0x121a850" file="siftgpu_descriptor_matcher.cpp" linenr="85" str="knn_1to2_ratio" scope="0x1225f00" type="name" varId="13" variable="0x1226ce0" astParent="0x121a7a0"/>
+    <token id="0x121a900" file="siftgpu_descriptor_matcher.cpp" linenr="85" str="," scope="0x1225f00" astParent="0x121a380" astOperand1="0x121a7a0" astOperand2="0x121a9b0"/>
+    <token id="0x121a9b0" file="siftgpu_descriptor_matcher.cpp" linenr="86" str="mutual_best_match" scope="0x1225f00" type="name" varId="14" variable="0x1226d50" astParent="0x121a900"/>
+    <token id="0x121aa90" file="siftgpu_descriptor_matcher.cpp" linenr="87" str=")" scope="0x1225f00" link="0x121a380"/>
+    <token id="0x121ab40" file="siftgpu_descriptor_matcher.cpp" linenr="87" str=";" scope="0x1225f00"/>
+    <token id="0x121abf0" file="siftgpu_descriptor_matcher.cpp" linenr="88" str="ROS_DEBUG" scope="0x1225f00" type="name" astParent="0x121aca0"/>
+    <token id="0x121aca0" file="siftgpu_descriptor_matcher.cpp" linenr="88" str="(" scope="0x1225f00" link="0x121afd0" astOperand1="0x121abf0" astOperand2="0x121ae70"/>
+    <token id="0x121ad80" file="siftgpu_descriptor_matcher.cpp" linenr="88" str="&quot;SiftGPU Descriptor Matcher: #matches found: %i&quot;" scope="0x1225f00" type="string" strlen="46" values="0x121ad88" astParent="0x121ae70"/>
+    <token id="0x121ae70" file="siftgpu_descriptor_matcher.cpp" linenr="88" str="," scope="0x1225f00" astParent="0x121aca0" astOperand1="0x121ad80" astOperand2="0x121af20"/>
+    <token id="0x121af20" file="siftgpu_descriptor_matcher.cpp" linenr="88" str="nof_matches" scope="0x1225f00" type="name" varId="18" variable="0x12268f0" astParent="0x121ae70"/>
+    <token id="0x121afd0" file="siftgpu_descriptor_matcher.cpp" linenr="88" str=")" scope="0x1225f00" link="0x121aca0"/>
+    <token id="0x121b080" file="siftgpu_descriptor_matcher.cpp" linenr="88" str=";" scope="0x1225f00"/>
+    <token id="0x121b130" file="siftgpu_descriptor_matcher.cpp" linenr="90" str="cv" scope="0x1225f00" type="name" astParent="0x121b1e0"/>
+    <token id="0x121b1e0" file="siftgpu_descriptor_matcher.cpp" linenr="90" str="::" scope="0x1225f00" astOperand1="0x121b130" astOperand2="0x121b340"/>
+    <token id="0x121b290" file="siftgpu_descriptor_matcher.cpp" linenr="90" str="DMatch" scope="0x1225f00" type="name"/>
+    <token id="0x121b340" file="siftgpu_descriptor_matcher.cpp" linenr="90" str="match" scope="0x1225f00" type="name" varId="19" variable="0x1226960" astParent="0x121b1e0"/>
+    <token id="0x121b3f0" file="siftgpu_descriptor_matcher.cpp" linenr="90" str=";" scope="0x1225f00"/>
+    <token id="0x121b4a0" file="siftgpu_descriptor_matcher.cpp" linenr="91" str="int" scope="0x1225f00" type="name"/>
+    <token id="0x121b550" file="siftgpu_descriptor_matcher.cpp" linenr="91" str="counter" scope="0x1225f00" type="name" varId="20" variable="0x12269d0"/>
+    <token id="0x121b600" file="siftgpu_descriptor_matcher.cpp" linenr="91" str=";" scope="0x1225f00"/>
+    <token id="0x1224080" file="siftgpu_descriptor_matcher.cpp" linenr="91" str="counter" scope="0x1225f00" type="name" varId="20" variable="0x12269d0" astParent="0x1224130"/>
+    <token id="0x1224130" file="siftgpu_descriptor_matcher.cpp" linenr="91" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astOperand1="0x1224080" astOperand2="0x121b6b0"/>
+    <token id="0x121b6b0" file="siftgpu_descriptor_matcher.cpp" linenr="91" str="0" scope="0x1225f00" type="number" isInt="True" values="0x121b6b8" astParent="0x1224130"/>
+    <token id="0x121b760" file="siftgpu_descriptor_matcher.cpp" linenr="91" str=";" scope="0x1225f00"/>
+    <token id="0x121b810" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="for" scope="0x1225f00" type="name" astParent="0x121b8c0"/>
+    <token id="0x121b8c0" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="(" scope="0x1225f00" link="0x121c100" astOperand1="0x121b810" astOperand2="0x121bc30"/>
+    <token id="0x121b970" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="int" scope="0x1225f00" type="name"/>
+    <token id="0x121ba20" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="i" scope="0x1225f00" type="name" varId="21" variable="0x1224440" astParent="0x121bad0"/>
+    <token id="0x121bad0" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="=" scope="0x1225f00" type="op" isAssignmentOp="True" astParent="0x121bc30" astOperand1="0x121ba20" astOperand2="0x121bb80"/>
+    <token id="0x121bb80" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="0" scope="0x1225f00" type="number" isInt="True" values="0x121bb88" astParent="0x121bad0"/>
+    <token id="0x121bc30" file="siftgpu_descriptor_matcher.cpp" linenr="92" str=";" scope="0x1225f00" astParent="0x121b8c0" astOperand1="0x121bad0" astOperand2="0x121bef0"/>
+    <token id="0x121bce0" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="i" scope="0x1225f00" type="name" varId="21" variable="0x1224440" astParent="0x121bd90"/>
+    <token id="0x121bd90" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="&lt;" scope="0x1225f00" type="op" isComparisonOp="True" astParent="0x121bef0" astOperand1="0x121bce0" astOperand2="0x121be40"/>
+    <token id="0x121be40" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="nof_matches" scope="0x1225f00" type="name" varId="18" variable="0x12268f0" astParent="0x121bd90"/>
+    <token id="0x121bef0" file="siftgpu_descriptor_matcher.cpp" linenr="92" str=";" scope="0x1225f00" astParent="0x121bc30" astOperand1="0x121bd90" astOperand2="0x121c050"/>
+    <token id="0x121bfa0" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="i" scope="0x1225f00" type="name" varId="21" variable="0x1224440" astParent="0x121c050"/>
+    <token id="0x121c050" file="siftgpu_descriptor_matcher.cpp" linenr="92" str="++" scope="0x1225f00" type="op" astParent="0x121bef0" astOperand1="0x121bfa0"/>
+    <token id="0x121c100" file="siftgpu_descriptor_matcher.cpp" linenr="92" str=")" scope="0x1225f00" link="0x121b8c0"/>
+    <token id="0x121c1b0" file="siftgpu_descriptor_matcher.cpp" linenr="93" str="{" scope="0x1226160" link="0x1223490"/>
+    <token id="0x121c260" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x121c310"/>
+    <token id="0x121c310" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="." scope="0x1226160" astParent="0x121c470" astOperand1="0x121c260" astOperand2="0x121c3c0"/>
+    <token id="0x121c3c0" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="queryIdx" scope="0x1226160" type="name" varId="22" astParent="0x121c310"/>
+    <token id="0x121c470" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="=" scope="0x1226160" type="op" isAssignmentOp="True" astOperand1="0x121c310" astOperand2="0x121c7e0"/>
+    <token id="0x121c520" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="match_buf" scope="0x1226160" type="name" varId="17" variable="0x1226880" astParent="0x121c5d0"/>
+    <token id="0x121c5d0" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="[" scope="0x1226160" link="0x121c730" astParent="0x121c7e0" astOperand1="0x121c520" astOperand2="0x121c680"/>
+    <token id="0x121c680" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="i" scope="0x1226160" type="name" varId="21" variable="0x1224440" values="0x121c688" astParent="0x121c5d0"/>
+    <token id="0x121c730" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="]" scope="0x1226160" link="0x121c5d0"/>
+    <token id="0x121c7e0" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="[" scope="0x1226160" link="0x121c940" astParent="0x121c470" astOperand1="0x121c5d0" astOperand2="0x121c890"/>
+    <token id="0x121c890" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="0" scope="0x1226160" type="number" isInt="True" values="0x121c898" astParent="0x121c7e0"/>
+    <token id="0x121c940" file="siftgpu_descriptor_matcher.cpp" linenr="95" str="]" scope="0x1226160" link="0x121c7e0"/>
+    <token id="0x121c9f0" file="siftgpu_descriptor_matcher.cpp" linenr="95" str=";" scope="0x1226160"/>
+    <token id="0x121caa0" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x121cb50"/>
+    <token id="0x121cb50" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="." scope="0x1226160" astParent="0x121ccb0" astOperand1="0x121caa0" astOperand2="0x121cc00"/>
+    <token id="0x121cc00" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="trainIdx" scope="0x1226160" type="name" varId="23" astParent="0x121cb50"/>
+    <token id="0x121ccb0" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="=" scope="0x1226160" type="op" isAssignmentOp="True" astOperand1="0x121cb50" astOperand2="0x121d020"/>
+    <token id="0x121cd60" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="match_buf" scope="0x1226160" type="name" varId="17" variable="0x1226880" astParent="0x121ce10"/>
+    <token id="0x121ce10" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="[" scope="0x1226160" link="0x121cf70" astParent="0x121d020" astOperand1="0x121cd60" astOperand2="0x121cec0"/>
+    <token id="0x121cec0" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="i" scope="0x1226160" type="name" varId="21" variable="0x1224440" values="0x121cec8" astParent="0x121ce10"/>
+    <token id="0x121cf70" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="]" scope="0x1226160" link="0x121ce10"/>
+    <token id="0x121d020" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="[" scope="0x1226160" link="0x121d180" astParent="0x121ccb0" astOperand1="0x121ce10" astOperand2="0x121d0d0"/>
+    <token id="0x121d0d0" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="1" scope="0x1226160" type="number" isInt="True" values="0x121d0d8" astParent="0x121d020"/>
+    <token id="0x121d180" file="siftgpu_descriptor_matcher.cpp" linenr="96" str="]" scope="0x1226160" link="0x121d020"/>
+    <token id="0x121d230" file="siftgpu_descriptor_matcher.cpp" linenr="96" str=";" scope="0x1226160"/>
+    <token id="0x121d2e0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="if" scope="0x1226160" type="name" astParent="0x121d390"/>
+    <token id="0x121d390" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="(" scope="0x1226160" link="0x121dbd0" astOperand1="0x121d2e0" astOperand2="0x121d7b0"/>
+    <token id="0x121d440" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x121d4f0"/>
+    <token id="0x121d4f0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="." scope="0x1226160" astParent="0x121d650" astOperand1="0x121d440" astOperand2="0x121d5a0"/>
+    <token id="0x121d5a0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="queryIdx" scope="0x1226160" type="name" varId="22" astParent="0x121d4f0"/>
+    <token id="0x121d650" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="==" scope="0x1226160" type="op" isComparisonOp="True" astParent="0x121d7b0" astOperand1="0x121d4f0" astOperand2="0x121d700"/>
+    <token id="0x121d700" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="0" scope="0x1226160" type="number" isInt="True" values="0x121d708" astParent="0x121d650"/>
+    <token id="0x121d7b0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="||" scope="0x1226160" type="op" isLogicalOp="True" astParent="0x121d390" astOperand1="0x121d650" astOperand2="0x121da70"/>
+    <token id="0x121d860" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x121d910"/>
+    <token id="0x121d910" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="." scope="0x1226160" astParent="0x121da70" astOperand1="0x121d860" astOperand2="0x121d9c0"/>
+    <token id="0x121d9c0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="trainIdx" scope="0x1226160" type="name" varId="23" astParent="0x121d910"/>
+    <token id="0x121da70" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="==" scope="0x1226160" type="op" isComparisonOp="True" astParent="0x121d7b0" astOperand1="0x121d910" astOperand2="0x121db20"/>
+    <token id="0x121db20" file="siftgpu_descriptor_matcher.cpp" linenr="99" str="0" scope="0x1226160" type="number" isInt="True" values="0x121db28" astParent="0x121da70"/>
+    <token id="0x121dbd0" file="siftgpu_descriptor_matcher.cpp" linenr="99" str=")" scope="0x1226160" link="0x121d390"/>
+    <token id="0x121dc80" file="siftgpu_descriptor_matcher.cpp" linenr="100" str="{" scope="0x1226290" link="0x121df40"/>
+    <token id="0x121dd30" file="siftgpu_descriptor_matcher.cpp" linenr="101" str="counter" scope="0x1226290" type="name" varId="20" variable="0x12269d0" astParent="0x121dde0"/>
+    <token id="0x121dde0" file="siftgpu_descriptor_matcher.cpp" linenr="101" str="++" scope="0x1226290" type="op" astOperand1="0x121dd30"/>
+    <token id="0x121de90" file="siftgpu_descriptor_matcher.cpp" linenr="101" str=";" scope="0x1226290"/>
+    <token id="0x121df40" file="siftgpu_descriptor_matcher.cpp" linenr="102" str="}" scope="0x1226290" link="0x121dc80"/>
+    <token id="0x121dff0" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="if" scope="0x1226160" type="name" astParent="0x121e0a0"/>
+    <token id="0x121e0a0" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="(" scope="0x1226160" link="0x121e6d0" astOperand1="0x121dff0" astOperand2="0x121e200"/>
+    <token id="0x121e150" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="counter" scope="0x1226160" type="name" varId="20" variable="0x12269d0" astParent="0x121e200"/>
+    <token id="0x121e200" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="&gt;" scope="0x1226160" type="op" isComparisonOp="True" astParent="0x121e0a0" astOperand1="0x121e150" astOperand2="0x121e360"/>
+    <token id="0x121e2b0" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="0.5" scope="0x1226160" type="number" isFloat="True" astParent="0x121e360"/>
+    <token id="0x121e360" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="*" scope="0x1226160" type="op" isArithmeticalOp="True" astParent="0x121e200" astOperand1="0x121e2b0" astOperand2="0x121e410"/>
+    <token id="0x121e410" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="(" scope="0x1226160" link="0x121e570" astParent="0x121e360" astOperand1="0x121e620"/>
+    <token id="0x121e4c0" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="double" scope="0x1226160" type="name"/>
+    <token id="0x121e570" file="siftgpu_descriptor_matcher.cpp" linenr="104" str=")" scope="0x1226160" link="0x121e410"/>
+    <token id="0x121e620" file="siftgpu_descriptor_matcher.cpp" linenr="104" str="nof_matches" scope="0x1226160" type="name" varId="18" variable="0x12268f0" astParent="0x121e410"/>
+    <token id="0x121e6d0" file="siftgpu_descriptor_matcher.cpp" linenr="104" str=")" scope="0x1226160" link="0x121e0a0"/>
+    <token id="0x121e780" file="siftgpu_descriptor_matcher.cpp" linenr="105" str="{" scope="0x12263c0" link="0x1220470"/>
+    <token id="0x121e830" file="siftgpu_descriptor_matcher.cpp" linenr="106" str="ROS_DEBUG" scope="0x12263c0" type="name" astParent="0x121e8e0"/>
+    <token id="0x121e8e0" file="siftgpu_descriptor_matcher.cpp" linenr="106" str="(" scope="0x12263c0" link="0x121ea40" astOperand1="0x121e830" astOperand2="0x121e990"/>
+    <token id="0x121e990" file="siftgpu_descriptor_matcher.cpp" linenr="106" str="&quot;SiftGPU Descriptor Matcher: Matches bad due to context error.&quot;" scope="0x12263c0" type="string" strlen="61" values="0x121e998" astParent="0x121e8e0"/>
+    <token id="0x121ea40" file="siftgpu_descriptor_matcher.cpp" linenr="106" str=")" scope="0x12263c0" link="0x121e8e0"/>
+    <token id="0x121eaf0" file="siftgpu_descriptor_matcher.cpp" linenr="106" str=";" scope="0x12263c0"/>
+    <token id="0x121eba0" file="siftgpu_descriptor_matcher.cpp" linenr="107" str="ROS_DEBUG" scope="0x12263c0" type="name" astParent="0x121ec50"/>
+    <token id="0x121ec50" file="siftgpu_descriptor_matcher.cpp" linenr="107" str="(" scope="0x12263c0" link="0x121ef70" astOperand1="0x121eba0" astOperand2="0x121ee10"/>
+    <token id="0x121ed30" file="siftgpu_descriptor_matcher.cpp" linenr="107" str="&quot;Counter:           %i.&quot;" scope="0x12263c0" type="string" strlen="22" values="0x121ed38" astParent="0x121ee10"/>
+    <token id="0x121ee10" file="siftgpu_descriptor_matcher.cpp" linenr="107" str="," scope="0x12263c0" astParent="0x121ec50" astOperand1="0x121ed30" astOperand2="0x121eec0"/>
+    <token id="0x121eec0" file="siftgpu_descriptor_matcher.cpp" linenr="107" str="counter" scope="0x12263c0" type="name" varId="20" variable="0x12269d0" astParent="0x121ee10"/>
+    <token id="0x121ef70" file="siftgpu_descriptor_matcher.cpp" linenr="107" str=")" scope="0x12263c0" link="0x121ec50"/>
+    <token id="0x121f020" file="siftgpu_descriptor_matcher.cpp" linenr="107" str=";" scope="0x12263c0"/>
+    <token id="0x121f0d0" file="siftgpu_descriptor_matcher.cpp" linenr="108" str="ROS_DEBUG" scope="0x12263c0" type="name" astParent="0x121f180"/>
+    <token id="0x121f180" file="siftgpu_descriptor_matcher.cpp" linenr="108" str="(" scope="0x12263c0" link="0x121f470" astOperand1="0x121f0d0" astOperand2="0x121f310"/>
+    <token id="0x121f230" file="siftgpu_descriptor_matcher.cpp" linenr="108" str="&quot;NOF Matches:       %i.&quot;" scope="0x12263c0" type="string" strlen="22" values="0x121f238" astParent="0x121f310"/>
+    <token id="0x121f310" file="siftgpu_descriptor_matcher.cpp" linenr="108" str="," scope="0x12263c0" astParent="0x121f180" astOperand1="0x121f230" astOperand2="0x121f3c0"/>
+    <token id="0x121f3c0" file="siftgpu_descriptor_matcher.cpp" linenr="108" str="nof_matches" scope="0x12263c0" type="name" varId="18" variable="0x12268f0" astParent="0x121f310"/>
+    <token id="0x121f470" file="siftgpu_descriptor_matcher.cpp" linenr="108" str=")" scope="0x12263c0" link="0x121f180"/>
+    <token id="0x121f520" file="siftgpu_descriptor_matcher.cpp" linenr="108" str=";" scope="0x12263c0"/>
+    <token id="0x121f5d0" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="ROS_DEBUG" scope="0x12263c0" type="name" astParent="0x121f680"/>
+    <token id="0x121f680" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="(" scope="0x12263c0" link="0x121fce0" astOperand1="0x121f5d0" astOperand2="0x121f810"/>
+    <token id="0x121f730" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="&quot;0.5 * NOF Matches: %f.&quot;" scope="0x12263c0" type="string" strlen="22" values="0x121f738" astParent="0x121f810"/>
+    <token id="0x121f810" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="," scope="0x12263c0" astParent="0x121f680" astOperand1="0x121f730" astOperand2="0x121f970"/>
+    <token id="0x121f8c0" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="0.5" scope="0x12263c0" type="number" isFloat="True" astParent="0x121f970"/>
+    <token id="0x121f970" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="*" scope="0x12263c0" type="op" isArithmeticalOp="True" astParent="0x121f810" astOperand1="0x121f8c0" astOperand2="0x121fa20"/>
+    <token id="0x121fa20" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="(" scope="0x12263c0" link="0x121fb80" astParent="0x121f970" astOperand1="0x121fc30"/>
+    <token id="0x121fad0" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="double" scope="0x12263c0" type="name"/>
+    <token id="0x121fb80" file="siftgpu_descriptor_matcher.cpp" linenr="109" str=")" scope="0x12263c0" link="0x121fa20"/>
+    <token id="0x121fc30" file="siftgpu_descriptor_matcher.cpp" linenr="109" str="nof_matches" scope="0x12263c0" type="name" varId="18" variable="0x12268f0" astParent="0x121fa20"/>
+    <token id="0x121fce0" file="siftgpu_descriptor_matcher.cpp" linenr="109" str=")" scope="0x12263c0" link="0x121f680"/>
+    <token id="0x121fd90" file="siftgpu_descriptor_matcher.cpp" linenr="109" str=";" scope="0x12263c0"/>
+    <token id="0x121fe40" file="siftgpu_descriptor_matcher.cpp" linenr="110" str="matches" scope="0x12263c0" type="name" varId="11" variable="0x1226c00" astParent="0x121fef0"/>
+    <token id="0x121fef0" file="siftgpu_descriptor_matcher.cpp" linenr="110" str="." scope="0x12263c0" astParent="0x1220050" astOperand1="0x121fe40" astOperand2="0x121ffa0"/>
+    <token id="0x121ffa0" file="siftgpu_descriptor_matcher.cpp" linenr="110" str="clear" scope="0x12263c0" type="name" astParent="0x121fef0"/>
+    <token id="0x1220050" file="siftgpu_descriptor_matcher.cpp" linenr="110" str="(" scope="0x12263c0" link="0x1220100" astOperand1="0x121fef0"/>
+    <token id="0x1220100" file="siftgpu_descriptor_matcher.cpp" linenr="110" str=")" scope="0x12263c0" link="0x1220050"/>
+    <token id="0x12201b0" file="siftgpu_descriptor_matcher.cpp" linenr="110" str=";" scope="0x12263c0"/>
+    <token id="0x1220260" file="siftgpu_descriptor_matcher.cpp" linenr="111" str="return" scope="0x12263c0" type="name" astOperand1="0x1220310"/>
+    <token id="0x1220310" file="siftgpu_descriptor_matcher.cpp" linenr="111" str="false" scope="0x12263c0" type="name" values="0x1220318" astParent="0x1220260"/>
+    <token id="0x12203c0" file="siftgpu_descriptor_matcher.cpp" linenr="111" str=";" scope="0x12263c0"/>
+    <token id="0x1220470" file="siftgpu_descriptor_matcher.cpp" linenr="112" str="}" scope="0x12263c0" link="0x121e780"/>
+    <token id="0x1220520" file="siftgpu_descriptor_matcher.cpp" linenr="114" str="float" scope="0x1226160" type="name"/>
+    <token id="0x12205d0" file="siftgpu_descriptor_matcher.cpp" linenr="114" str="sum" scope="0x1226160" type="name" varId="24" variable="0x1226a40"/>
+    <token id="0x1220680" file="siftgpu_descriptor_matcher.cpp" linenr="114" str=";" scope="0x1226160"/>
+    <token id="0x12241e0" file="siftgpu_descriptor_matcher.cpp" linenr="114" str="sum" scope="0x1226160" type="name" varId="24" variable="0x1226a40" astParent="0x1223bc0"/>
+    <token id="0x1223bc0" file="siftgpu_descriptor_matcher.cpp" linenr="114" str="=" scope="0x1226160" type="op" isAssignmentOp="True" astOperand1="0x12241e0" astOperand2="0x1220730"/>
+    <token id="0x1220730" file="siftgpu_descriptor_matcher.cpp" linenr="114" str="0" scope="0x1226160" type="number" isInt="True" values="0x1220738" astParent="0x1223bc0"/>
+    <token id="0x12207e0" file="siftgpu_descriptor_matcher.cpp" linenr="114" str=";" scope="0x1226160"/>
+    <token id="0x1220890" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="for" scope="0x1226160" type="name" astParent="0x1220940"/>
+    <token id="0x1220940" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="(" scope="0x1226160" link="0x1221180" astOperand1="0x1220890" astOperand2="0x1220cb0"/>
+    <token id="0x12209f0" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="int" scope="0x1226160" type="name"/>
+    <token id="0x1220aa0" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="j" scope="0x1226160" type="name" varId="25" variable="0x1226620" astParent="0x1220b50"/>
+    <token id="0x1220b50" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="=" scope="0x1226160" type="op" isAssignmentOp="True" astParent="0x1220cb0" astOperand1="0x1220aa0" astOperand2="0x1220c00"/>
+    <token id="0x1220c00" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="0" scope="0x1226160" type="number" isInt="True" values="0x1220c08" astParent="0x1220b50"/>
+    <token id="0x1220cb0" file="siftgpu_descriptor_matcher.cpp" linenr="115" str=";" scope="0x1226160" astParent="0x1220940" astOperand1="0x1220b50" astOperand2="0x1220f70"/>
+    <token id="0x1220d60" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="j" scope="0x1226160" type="name" varId="25" variable="0x1226620" astParent="0x1220e10"/>
+    <token id="0x1220e10" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="&lt;" scope="0x1226160" type="op" isComparisonOp="True" astParent="0x1220f70" astOperand1="0x1220d60" astOperand2="0x1220ec0"/>
+    <token id="0x1220ec0" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="128" scope="0x1226160" type="number" isInt="True" values="0x1220ec8" astParent="0x1220e10"/>
+    <token id="0x1220f70" file="siftgpu_descriptor_matcher.cpp" linenr="115" str=";" scope="0x1226160" astParent="0x1220cb0" astOperand1="0x1220e10" astOperand2="0x12210d0"/>
+    <token id="0x1221020" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="j" scope="0x1226160" type="name" varId="25" variable="0x1226620" astParent="0x12210d0"/>
+    <token id="0x12210d0" file="siftgpu_descriptor_matcher.cpp" linenr="115" str="++" scope="0x1226160" type="op" astParent="0x1220f70" astOperand1="0x1221020"/>
+    <token id="0x1221180" file="siftgpu_descriptor_matcher.cpp" linenr="115" str=")" scope="0x1226160" link="0x1220940"/>
+    <token id="0x1221230" file="siftgpu_descriptor_matcher.cpp" linenr="116" str="{" scope="0x12264f0" link="0x12228e0"/>
+    <token id="0x12212e0" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="float" scope="0x12264f0" type="name"/>
+    <token id="0x1221390" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="a" scope="0x12264f0" type="name" varId="26" variable="0x1226ab0"/>
+    <token id="0x1221440" file="siftgpu_descriptor_matcher.cpp" linenr="117" str=";" scope="0x12264f0"/>
+    <token id="0x1223c70" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="a" scope="0x12264f0" type="name" varId="26" variable="0x1226ab0" astParent="0x1223d20"/>
+    <token id="0x1223d20" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="=" scope="0x12264f0" type="op" isAssignmentOp="True" astOperand1="0x1223c70" astOperand2="0x1221bd0"/>
+    <token id="0x12214f0" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="descriptors1" scope="0x12264f0" type="name" varId="9" variable="0x1226b20" astParent="0x12215a0"/>
+    <token id="0x12215a0" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="[" scope="0x12264f0" link="0x1221b20" astParent="0x1221bd0" astOperand1="0x12214f0" astOperand2="0x12219c0"/>
+    <token id="0x1221650" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="match" scope="0x12264f0" type="name" varId="19" variable="0x1226960" astParent="0x1221700"/>
+    <token id="0x1221700" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="." scope="0x12264f0" astParent="0x1221860" astOperand1="0x1221650" astOperand2="0x12217b0"/>
+    <token id="0x12217b0" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="queryIdx" scope="0x12264f0" type="name" varId="22" astParent="0x1221700"/>
+    <token id="0x1221860" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="*" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x12219c0" astOperand1="0x1221700" astOperand2="0x1221910"/>
+    <token id="0x1221910" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="128" scope="0x12264f0" type="number" isInt="True" values="0x1221918" astParent="0x1221860"/>
+    <token id="0x12219c0" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="+" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x12215a0" astOperand1="0x1221860" astOperand2="0x1221a70"/>
+    <token id="0x1221a70" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="j" scope="0x12264f0" type="name" varId="25" variable="0x1226620" values="0x1221a78" astParent="0x12219c0"/>
+    <token id="0x1221b20" file="siftgpu_descriptor_matcher.cpp" linenr="117" str="]" scope="0x12264f0" link="0x12215a0"/>
+    <token id="0x1221bd0" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="-" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x1223d20" astOperand1="0x12215a0" astOperand2="0x1221d30"/>
+    <token id="0x1221c80" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="descriptors2" scope="0x12264f0" type="name" varId="10" variable="0x1226b90" astParent="0x1221d30"/>
+    <token id="0x1221d30" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="[" scope="0x12264f0" link="0x12222b0" astParent="0x1221bd0" astOperand1="0x1221c80" astOperand2="0x1222150"/>
+    <token id="0x1221de0" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="match" scope="0x12264f0" type="name" varId="19" variable="0x1226960" astParent="0x1221e90"/>
+    <token id="0x1221e90" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="." scope="0x12264f0" astParent="0x1221ff0" astOperand1="0x1221de0" astOperand2="0x1221f40"/>
+    <token id="0x1221f40" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="trainIdx" scope="0x12264f0" type="name" varId="23" astParent="0x1221e90"/>
+    <token id="0x1221ff0" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="*" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x1222150" astOperand1="0x1221e90" astOperand2="0x12220a0"/>
+    <token id="0x12220a0" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="128" scope="0x12264f0" type="number" isInt="True" values="0x12220a8" astParent="0x1221ff0"/>
+    <token id="0x1222150" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="+" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x1221d30" astOperand1="0x1221ff0" astOperand2="0x1222200"/>
+    <token id="0x1222200" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="j" scope="0x12264f0" type="name" varId="25" variable="0x1226620" values="0x1222208" astParent="0x1222150"/>
+    <token id="0x12222b0" file="siftgpu_descriptor_matcher.cpp" linenr="118" str="]" scope="0x12264f0" link="0x1221d30"/>
+    <token id="0x1222360" file="siftgpu_descriptor_matcher.cpp" linenr="118" str=";" scope="0x12264f0"/>
+    <token id="0x1222410" file="siftgpu_descriptor_matcher.cpp" linenr="119" str="sum" scope="0x12264f0" type="name" varId="24" variable="0x1226a40" astParent="0x12224c0"/>
+    <token id="0x12224c0" file="siftgpu_descriptor_matcher.cpp" linenr="119" str="+=" scope="0x12264f0" type="op" isAssignmentOp="True" astOperand1="0x1222410" astOperand2="0x12226d0"/>
+    <token id="0x1222620" file="siftgpu_descriptor_matcher.cpp" linenr="119" str="a" scope="0x12264f0" type="name" varId="26" variable="0x1226ab0" astParent="0x12226d0"/>
+    <token id="0x12226d0" file="siftgpu_descriptor_matcher.cpp" linenr="119" str="*" scope="0x12264f0" type="op" isArithmeticalOp="True" astParent="0x12224c0" astOperand1="0x1222620" astOperand2="0x1222780"/>
+    <token id="0x1222780" file="siftgpu_descriptor_matcher.cpp" linenr="119" str="a" scope="0x12264f0" type="name" varId="26" variable="0x1226ab0" astParent="0x12226d0"/>
+    <token id="0x1222830" file="siftgpu_descriptor_matcher.cpp" linenr="119" str=";" scope="0x12264f0"/>
+    <token id="0x12228e0" file="siftgpu_descriptor_matcher.cpp" linenr="120" str="}" scope="0x12264f0" link="0x1221230"/>
+    <token id="0x1222990" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x1222a40"/>
+    <token id="0x1222a40" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="." scope="0x1226160" astParent="0x1222ba0" astOperand1="0x1222990" astOperand2="0x1222af0"/>
+    <token id="0x1222af0" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="distance" scope="0x1226160" type="name" varId="27" astParent="0x1222a40"/>
+    <token id="0x1222ba0" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="=" scope="0x1226160" type="op" isAssignmentOp="True" astOperand1="0x1222a40" astOperand2="0x1222d00"/>
+    <token id="0x1222c50" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="sqrt" scope="0x1226160" type="name" astParent="0x1222d00"/>
+    <token id="0x1222d00" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="(" scope="0x1226160" link="0x1222e60" astParent="0x1222ba0" astOperand1="0x1222c50" astOperand2="0x1222db0"/>
+    <token id="0x1222db0" file="siftgpu_descriptor_matcher.cpp" linenr="121" str="sum" scope="0x1226160" type="name" varId="24" variable="0x1226a40" astParent="0x1222d00"/>
+    <token id="0x1222e60" file="siftgpu_descriptor_matcher.cpp" linenr="121" str=")" scope="0x1226160" link="0x1222d00"/>
+    <token id="0x1222f10" file="siftgpu_descriptor_matcher.cpp" linenr="121" str=";" scope="0x1226160"/>
+    <token id="0x1222fc0" file="siftgpu_descriptor_matcher.cpp" linenr="123" str="matches" scope="0x1226160" type="name" varId="11" variable="0x1226c00" astParent="0x1223070"/>
+    <token id="0x1223070" file="siftgpu_descriptor_matcher.cpp" linenr="123" str="." scope="0x1226160" astParent="0x12231d0" astOperand1="0x1222fc0" astOperand2="0x1223120"/>
+    <token id="0x1223120" file="siftgpu_descriptor_matcher.cpp" linenr="123" str="push_back" scope="0x1226160" type="name" astParent="0x1223070"/>
+    <token id="0x12231d0" file="siftgpu_descriptor_matcher.cpp" linenr="123" str="(" scope="0x1226160" link="0x1223330" astOperand1="0x1223070" astOperand2="0x1223280"/>
+    <token id="0x1223280" file="siftgpu_descriptor_matcher.cpp" linenr="123" str="match" scope="0x1226160" type="name" varId="19" variable="0x1226960" astParent="0x12231d0"/>
+    <token id="0x1223330" file="siftgpu_descriptor_matcher.cpp" linenr="123" str=")" scope="0x1226160" link="0x12231d0"/>
+    <token id="0x12233e0" file="siftgpu_descriptor_matcher.cpp" linenr="123" str=";" scope="0x1226160"/>
+    <token id="0x1223490" file="siftgpu_descriptor_matcher.cpp" linenr="124" str="}" scope="0x1226160" link="0x121c1b0"/>
+    <token id="0x1223540" file="siftgpu_descriptor_matcher.cpp" linenr="126" str="delete" scope="0x1225f00" type="name" astOperand1="0x1223750"/>
+    <token id="0x12235f0" file="siftgpu_descriptor_matcher.cpp" linenr="126" str="[" scope="0x1225f00" link="0x12236a0"/>
+    <token id="0x12236a0" file="siftgpu_descriptor_matcher.cpp" linenr="126" str="]" scope="0x1225f00" link="0x12235f0"/>
+    <token id="0x1223750" file="siftgpu_descriptor_matcher.cpp" linenr="126" str="match_buf" scope="0x1225f00" type="name" varId="17" variable="0x1226880" astParent="0x1223540"/>
+    <token id="0x1223800" file="siftgpu_descriptor_matcher.cpp" linenr="126" str=";" scope="0x1225f00"/>
+    <token id="0x12238b0" file="siftgpu_descriptor_matcher.cpp" linenr="128" str="return" scope="0x1225f00" type="name" astOperand1="0x1223960"/>
+    <token id="0x1223960" file="siftgpu_descriptor_matcher.cpp" linenr="128" str="true" scope="0x1225f00" type="name" values="0x1223968" astParent="0x12238b0"/>
+    <token id="0x1223a10" file="siftgpu_descriptor_matcher.cpp" linenr="128" str=";" scope="0x1225f00"/>
+    <token id="0x1223ac0" file="siftgpu_descriptor_matcher.cpp" linenr="129" str="}" scope="0x1225f00" link="0x1215d10"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1223ee0" type="Global"/>
+    <scope id="0x12242a0" type="Class" className="SiftGPUDescriptorMatcher" classStart="0x1205a00" classEnd="0x120cdf0" nestedIn="0x1223ee0">
+      <functionList>
+        <function id="0x1205770" tokenDef="0x1204d10" name="SiftGPUDescriptorMatcher"/>
+        <function id="0x1205810" tokenDef="0x1205080" name="init"/>
+        <function id="0x12058b0" tokenDef="0x12053f0" name="initialized"/>
+        <function id="0x12254a0" tokenDef="0x1209b30" name="getInstance"/>
+        <function id="0x1225540" tokenDef="0x1209ea0" name="match">
+          <arg nr="1" variable="0x1226b20"/>
+          <arg nr="2" variable="0x1226b90"/>
+          <arg nr="3" variable="0x1226c00"/>
+          <arg nr="4" variable="0x1226c70"/>
+          <arg nr="5" variable="0x1226ce0"/>
+          <arg nr="6" variable="0x1226d50"/>
+        </function>
+        <function id="0x12255e0" tokenDef="0x120c3f0" name="SiftGPUDescriptorMatcher"/>
+      </functionList>
+      <varlist>
+        <var id="0x12266c0"/>
+        <var id="0x1226730"/>
+      </varlist>
+    </scope>
+    <scope id="0x1225680" type="Function" className="SiftGPUDescriptorMatcher" classStart="0x120df10" classEnd="0x120eca0" nestedIn="0x1223ee0" function="0x12255e0"/>
+    <scope id="0x12257e0" type="Function" className="SiftGPUDescriptorMatcher" classStart="0x120f1d0" classEnd="0x120f6a0" nestedIn="0x1223ee0" function="0x1205770"/>
+    <scope id="0x1225910" type="Function" className="init" classStart="0x120fbd0" classEnd="0x1211900" nestedIn="0x1223ee0" function="0x1205810"/>
+    <scope id="0x1225a40" type="If" classStart="0x1210890" classEnd="0x12112a0" nestedIn="0x1225910"/>
+    <scope id="0x1225b70" type="Function" className="initialized" classStart="0x1211e00" classEnd="0x1212430" nestedIn="0x1223ee0" function="0x12058b0"/>
+    <scope id="0x1225ca0" type="Function" className="getInstance" classStart="0x1212a40" classEnd="0x1213b30" nestedIn="0x1223ee0" function="0x12254a0"/>
+    <scope id="0x1225dd0" type="If" classStart="0x1212f10" classEnd="0x1213870" nestedIn="0x1225ca0"/>
+    <scope id="0x1225f00" type="Function" className="match" classStart="0x1215d10" classEnd="0x1223ac0" nestedIn="0x1223ee0" function="0x1225540">
+      <varlist>
+        <var id="0x12267a0"/>
+        <var id="0x1226810"/>
+        <var id="0x1226880"/>
+        <var id="0x12268f0"/>
+        <var id="0x1226960"/>
+        <var id="0x12269d0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1226030" type="If" classStart="0x1216630" classEnd="0x1216cd0" nestedIn="0x1225f00"/>
+    <scope id="0x1226160" type="For" classStart="0x121c1b0" classEnd="0x1223490" nestedIn="0x1225f00">
+      <varlist>
+        <var id="0x1224440"/>
+        <var id="0x1226a40"/>
+      </varlist>
+    </scope>
+    <scope id="0x1226290" type="If" classStart="0x121dc80" classEnd="0x121df40" nestedIn="0x1226160"/>
+    <scope id="0x12263c0" type="If" classStart="0x121e780" classEnd="0x1220470" nestedIn="0x1226160"/>
+    <scope id="0x12264f0" type="For" classStart="0x1221230" classEnd="0x12228e0" nestedIn="0x1226160">
+      <varlist>
+        <var id="0x1226620"/>
+        <var id="0x1226ab0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x12266c0" nameToken="0x120c920" typeStartToken="0x120c790" typeEndToken="0x120c870" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="true"/>
+    <var id="0x1226730" nameToken="0x120cc90" typeStartToken="0x120cb30" typeEndToken="0x120cbe0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="true"/>
+    <var id="0x1226b20" nameToken="0x1214500" typeStartToken="0x1214030" typeEndToken="0x1214450" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1226b90" nameToken="0x1214be0" typeStartToken="0x1214710" typeEndToken="0x1214b30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1226c00" nameToken="0x1215370" typeStartToken="0x1214d40" typeEndToken="0x12152c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1226c70" nameToken="0x1215630" typeStartToken="0x1215580" typeEndToken="0x1215580" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226ce0" nameToken="0x12158f0" typeStartToken="0x1215840" typeEndToken="0x1215840" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226d50" nameToken="0x1215bb0" typeStartToken="0x1215b00" typeEndToken="0x1215b00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x12267a0" nameToken="0x1216e30" typeStartToken="0x1216d80" typeEndToken="0x1216d80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226810" nameToken="0x1217510" typeStartToken="0x1212170" typeEndToken="0x1212170" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226880" nameToken="0x1219430" typeStartToken="0x1219220" typeEndToken="0x1219380" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x12268f0" nameToken="0x1219f30" typeStartToken="0x1219e80" typeEndToken="0x1219e80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226960" nameToken="0x121b340" typeStartToken="0x121b130" typeEndToken="0x121b290" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x12269d0" nameToken="0x121b550" typeStartToken="0x121b4a0" typeEndToken="0x121b4a0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1224440" nameToken="0x121ba20" typeStartToken="0x121b970" typeEndToken="0x121b970" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226a40" nameToken="0x12205d0" typeStartToken="0x1220520" typeEndToken="0x1220520" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226620" nameToken="0x1220aa0" typeStartToken="0x12209f0" typeEndToken="0x12209f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1226ab0" nameToken="0x1221390" typeStartToken="0x12212e0" typeEndToken="0x12212e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x120c058">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x120d408">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x120d9b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x120ff78">
+      <value intvalue="4096" known="true"/>
+    </values>
+    <values id="0x1210b78">
+      <value tokvalue="0x1210b70" known="true"/>
+    </values>
+    <values id="0x1210f38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1211148">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x12114e8">
+      <value tokvalue="0x12114e0" known="true"/>
+    </values>
+    <values id="0x12117a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1212228">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1212db8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1213128">
+      <value tokvalue="0x1213120" known="true"/>
+    </values>
+    <values id="0x12164d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1216878">
+      <value tokvalue="0x1216870" known="true"/>
+    </values>
+    <values id="0x1216b78">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x12173b8">
+      <value intvalue="128" known="true"/>
+    </values>
+    <values id="0x1217a98">
+      <value intvalue="128" known="true"/>
+    </values>
+    <values id="0x1217f68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1218438">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1218a98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1218f68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1219648">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1219c78">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x121ad88">
+      <value tokvalue="0x121ad80" known="true"/>
+    </values>
+    <values id="0x121b6b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x121bb88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x121c688">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x121c898">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x121cec8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x121d0d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x121d708">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x121db28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x121e998">
+      <value tokvalue="0x121e990" known="true"/>
+    </values>
+    <values id="0x121ed38">
+      <value tokvalue="0x121ed30" known="true"/>
+    </values>
+    <values id="0x121f238">
+      <value tokvalue="0x121f230" known="true"/>
+    </values>
+    <values id="0x121f738">
+      <value tokvalue="0x121f730" known="true"/>
+    </values>
+    <values id="0x1220318">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1220738">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1220c08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1220ec8">
+      <value intvalue="128" known="true"/>
+    </values>
+    <values id="0x1221918">
+      <value intvalue="128" known="true"/>
+    </values>
+    <values id="0x1221a78">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="127" possible="true"/>
+    </values>
+    <values id="0x12220a8">
+      <value intvalue="128" known="true"/>
+    </values>
+    <values id="0x1222208">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="127" possible="true"/>
+    </values>
+    <values id="0x1223968">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,604 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x19a4cd0" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x19a4be0" file="GroveTemperatureHumidity.cpp" linenr="18" str="ros" scope="0x19a4a40" type="name" astParent="0x19a1550"/>
+    <token id="0x19a1550" file="GroveTemperatureHumidity.cpp" linenr="18" str="::" scope="0x19a4a40" astOperand1="0x19a4be0" astOperand2="0x19a16f0"/>
+    <token id="0x19a1600" file="GroveTemperatureHumidity.cpp" linenr="18" str="NodeHandle" scope="0x19a4a40" type="name"/>
+    <token id="0x19a16f0" file="GroveTemperatureHumidity.cpp" linenr="18" str="nh" scope="0x19a4a40" type="name" varId="1" variable="0x19af530" astParent="0x19a1550"/>
+    <token id="0x19a17a0" file="GroveTemperatureHumidity.cpp" linenr="18" str=";" scope="0x19a4a40"/>
+    <token id="0x19a10c0" file="GroveTemperatureHumidity.cpp" linenr="20" str="sensor_msgs" scope="0x19a4a40" type="name" astParent="0x19a1170"/>
+    <token id="0x19a1170" file="GroveTemperatureHumidity.cpp" linenr="20" str="::" scope="0x19a4a40" astOperand1="0x19a10c0" astOperand2="0x19a12d0"/>
+    <token id="0x19a1220" file="GroveTemperatureHumidity.cpp" linenr="20" str="Temperature" scope="0x19a4a40" type="name"/>
+    <token id="0x19a12d0" file="GroveTemperatureHumidity.cpp" linenr="20" str="temp_msg" scope="0x19a4a40" type="name" varId="2" variable="0x19af5a0" astParent="0x19a1170"/>
+    <token id="0x19a1380" file="GroveTemperatureHumidity.cpp" linenr="20" str=";" scope="0x19a4a40"/>
+    <token id="0x19a1430" file="GroveTemperatureHumidity.cpp" linenr="21" str="sensor_msgs" scope="0x19a4a40" type="name" astParent="0x19a1a40"/>
+    <token id="0x19a1a40" file="GroveTemperatureHumidity.cpp" linenr="21" str="::" scope="0x19a4a40" astOperand1="0x19a1430" astOperand2="0x19a1ba0"/>
+    <token id="0x19a1af0" file="GroveTemperatureHumidity.cpp" linenr="21" str="RelativeHumidity" scope="0x19a4a40" type="name"/>
+    <token id="0x19a1ba0" file="GroveTemperatureHumidity.cpp" linenr="21" str="humidity_msg" scope="0x19a4a40" type="name" varId="3" variable="0x19af610" astParent="0x19a1a40"/>
+    <token id="0x19a1c50" file="GroveTemperatureHumidity.cpp" linenr="21" str=";" scope="0x19a4a40"/>
+    <token id="0x19a1d00" file="GroveTemperatureHumidity.cpp" linenr="22" str="ros" scope="0x19a4a40" type="name" astParent="0x19a1db0"/>
+    <token id="0x19a1db0" file="GroveTemperatureHumidity.cpp" linenr="22" str="::" scope="0x19a4a40" astParent="0x19a51c0" astOperand1="0x19a1d00" astOperand2="0x19a5110"/>
+    <token id="0x19a1e60" file="GroveTemperatureHumidity.cpp" linenr="22" str="Publisher" scope="0x19a4a40" type="name"/>
+    <token id="0x19a5110" file="GroveTemperatureHumidity.cpp" linenr="22" str="pub_temp" scope="0x19a4a40" type="name" varId="4" variable="0x19af680" astParent="0x19a1db0"/>
+    <token id="0x19a51c0" file="GroveTemperatureHumidity.cpp" linenr="22" str="(" scope="0x19a4a40" link="0x19a5530" astOperand1="0x19a1db0" astOperand2="0x19a5320"/>
+    <token id="0x19a5270" file="GroveTemperatureHumidity.cpp" linenr="22" str="&quot;temperature&quot;" scope="0x19a4a40" type="string" strlen="11" values="0x19a5278" astParent="0x19a5320"/>
+    <token id="0x19a5320" file="GroveTemperatureHumidity.cpp" linenr="22" str="," scope="0x19a4a40" astParent="0x19a51c0" astOperand1="0x19a5270" astOperand2="0x19a53d0"/>
+    <token id="0x19a53d0" file="GroveTemperatureHumidity.cpp" linenr="22" str="&amp;" scope="0x19a4a40" type="op" astParent="0x19a5320" astOperand1="0x19a5480"/>
+    <token id="0x19a5480" file="GroveTemperatureHumidity.cpp" linenr="22" str="temp_msg" scope="0x19a4a40" type="name" varId="2" variable="0x19af5a0" astParent="0x19a53d0"/>
+    <token id="0x19a5530" file="GroveTemperatureHumidity.cpp" linenr="22" str=")" scope="0x19a4a40" link="0x19a51c0"/>
+    <token id="0x19a55e0" file="GroveTemperatureHumidity.cpp" linenr="22" str=";" scope="0x19a4a40"/>
+    <token id="0x19a5690" file="GroveTemperatureHumidity.cpp" linenr="23" str="ros" scope="0x19a4a40" type="name" astParent="0x19a5740"/>
+    <token id="0x19a5740" file="GroveTemperatureHumidity.cpp" linenr="23" str="::" scope="0x19a4a40" astParent="0x19a5950" astOperand1="0x19a5690" astOperand2="0x19a58a0"/>
+    <token id="0x19a57f0" file="GroveTemperatureHumidity.cpp" linenr="23" str="Publisher" scope="0x19a4a40" type="name"/>
+    <token id="0x19a58a0" file="GroveTemperatureHumidity.cpp" linenr="23" str="pub_humidity" scope="0x19a4a40" type="name" varId="5" variable="0x19af6f0" astParent="0x19a5740"/>
+    <token id="0x19a5950" file="GroveTemperatureHumidity.cpp" linenr="23" str="(" scope="0x19a4a40" link="0x19a5cc0" astOperand1="0x19a5740" astOperand2="0x19a5ab0"/>
+    <token id="0x19a5a00" file="GroveTemperatureHumidity.cpp" linenr="23" str="&quot;humidity&quot;" scope="0x19a4a40" type="string" strlen="8" values="0x19a5a08" astParent="0x19a5ab0"/>
+    <token id="0x19a5ab0" file="GroveTemperatureHumidity.cpp" linenr="23" str="," scope="0x19a4a40" astParent="0x19a5950" astOperand1="0x19a5a00" astOperand2="0x19a5b60"/>
+    <token id="0x19a5b60" file="GroveTemperatureHumidity.cpp" linenr="23" str="&amp;" scope="0x19a4a40" type="op" astParent="0x19a5ab0" astOperand1="0x19a5c10"/>
+    <token id="0x19a5c10" file="GroveTemperatureHumidity.cpp" linenr="23" str="humidity_msg" scope="0x19a4a40" type="name" varId="3" variable="0x19af610" astParent="0x19a5b60"/>
+    <token id="0x19a5cc0" file="GroveTemperatureHumidity.cpp" linenr="23" str=")" scope="0x19a4a40" link="0x19a5950"/>
+    <token id="0x19a6130" file="GroveTemperatureHumidity.cpp" linenr="23" str=";" scope="0x19a4a40"/>
+    <token id="0x19a61e0" file="GroveTemperatureHumidity.cpp" linenr="25" str="Timer" scope="0x19a4a40" type="name"/>
+    <token id="0x19a6290" file="GroveTemperatureHumidity.cpp" linenr="25" str="t" scope="0x19a4a40" type="name" varId="6" variable="0x19af760"/>
+    <token id="0x19a6340" file="GroveTemperatureHumidity.cpp" linenr="25" str=";" scope="0x19a4a40"/>
+    <token id="0x19a63f0" file="GroveTemperatureHumidity.cpp" linenr="27" str="DHT" scope="0x19a4a40" type="name"/>
+    <token id="0x19a64a0" file="GroveTemperatureHumidity.cpp" linenr="27" str="sensor" scope="0x19a4a40" type="name" function="0x19addb0" astParent="0x19a6550"/>
+    <token id="0x19a6550" file="GroveTemperatureHumidity.cpp" linenr="27" str="(" scope="0x19a4a40" link="0x19a6810" astOperand1="0x19a64a0" astOperand2="0x19a66b0"/>
+    <token id="0x19a6600" file="GroveTemperatureHumidity.cpp" linenr="27" str="p9" scope="0x19a4a40" type="name" astParent="0x19a66b0"/>
+    <token id="0x19a66b0" file="GroveTemperatureHumidity.cpp" linenr="27" str="," scope="0x19a4a40" astParent="0x19a6550" astOperand1="0x19a6600" astOperand2="0x19a6760"/>
+    <token id="0x19a6760" file="GroveTemperatureHumidity.cpp" linenr="27" str="AM2302" scope="0x19a4a40" type="name" astParent="0x19a66b0"/>
+    <token id="0x19a6810" file="GroveTemperatureHumidity.cpp" linenr="27" str=")" scope="0x19a4a40" link="0x19a6550"/>
+    <token id="0x19a68c0" file="GroveTemperatureHumidity.cpp" linenr="27" str=";" scope="0x19a4a40"/>
+    <token id="0x19a6970" file="GroveTemperatureHumidity.cpp" linenr="36" str="int" scope="0x19a4a40" type="name"/>
+    <token id="0x19a6a20" file="GroveTemperatureHumidity.cpp" linenr="36" str="main" scope="0x19a4a40" type="name" function="0x19ade50" astParent="0x19a6ad0"/>
+    <token id="0x19a6ad0" file="GroveTemperatureHumidity.cpp" linenr="36" str="(" scope="0x19a4a40" link="0x19a6b80" astOperand1="0x19a6a20"/>
+    <token id="0x19a6b80" file="GroveTemperatureHumidity.cpp" linenr="36" str=")" scope="0x19a4a40" link="0x19a6ad0"/>
+    <token id="0x19a6c30" file="GroveTemperatureHumidity.cpp" linenr="37" str="{" scope="0x19adef0" link="0x19adcf0"/>
+    <token id="0x19a6ce0" file="GroveTemperatureHumidity.cpp" linenr="38" str="int" scope="0x19adef0" type="name"/>
+    <token id="0x19a6d90" file="GroveTemperatureHumidity.cpp" linenr="38" str="error" scope="0x19adef0" type="name" varId="7" variable="0x19af7d0"/>
+    <token id="0x19a6e40" file="GroveTemperatureHumidity.cpp" linenr="38" str=";" scope="0x19adef0"/>
+    <token id="0x1994ff0" file="GroveTemperatureHumidity.cpp" linenr="38" str="error" scope="0x19adef0" type="name" varId="7" variable="0x19af7d0" astParent="0x19ae210"/>
+    <token id="0x19ae210" file="GroveTemperatureHumidity.cpp" linenr="38" str="=" scope="0x19adef0" type="op" isAssignmentOp="True" astOperand1="0x1994ff0" astOperand2="0x19a6ef0"/>
+    <token id="0x19a6ef0" file="GroveTemperatureHumidity.cpp" linenr="38" str="0" scope="0x19adef0" type="number" isInt="True" values="0x19a6ef8" astParent="0x19ae210"/>
+    <token id="0x19a6fa0" file="GroveTemperatureHumidity.cpp" linenr="38" str=";" scope="0x19adef0"/>
+    <token id="0x19a7050" file="GroveTemperatureHumidity.cpp" linenr="39" str="t" scope="0x19adef0" type="name" varId="6" variable="0x19af760" astParent="0x19a7100"/>
+    <token id="0x19a7100" file="GroveTemperatureHumidity.cpp" linenr="39" str="." scope="0x19adef0" astParent="0x19a7260" astOperand1="0x19a7050" astOperand2="0x19a71b0"/>
+    <token id="0x19a71b0" file="GroveTemperatureHumidity.cpp" linenr="39" str="start" scope="0x19adef0" type="name" astParent="0x19a7100"/>
+    <token id="0x19a7260" file="GroveTemperatureHumidity.cpp" linenr="39" str="(" scope="0x19adef0" link="0x19a7310" astOperand1="0x19a7100"/>
+    <token id="0x19a7310" file="GroveTemperatureHumidity.cpp" linenr="39" str=")" scope="0x19adef0" link="0x19a7260"/>
+    <token id="0x19a73c0" file="GroveTemperatureHumidity.cpp" linenr="39" str=";" scope="0x19adef0"/>
+    <token id="0x19a7470" file="GroveTemperatureHumidity.cpp" linenr="41" str="nh" scope="0x19adef0" type="name" varId="1" variable="0x19af530" astParent="0x19a7520"/>
+    <token id="0x19a7520" file="GroveTemperatureHumidity.cpp" linenr="41" str="." scope="0x19adef0" astParent="0x19a7680" astOperand1="0x19a7470" astOperand2="0x19a75d0"/>
+    <token id="0x19a75d0" file="GroveTemperatureHumidity.cpp" linenr="41" str="initNode" scope="0x19adef0" type="name" astParent="0x19a7520"/>
+    <token id="0x19a7680" file="GroveTemperatureHumidity.cpp" linenr="41" str="(" scope="0x19adef0" link="0x19a7730" astOperand1="0x19a7520"/>
+    <token id="0x19a7730" file="GroveTemperatureHumidity.cpp" linenr="41" str=")" scope="0x19adef0" link="0x19a7680"/>
+    <token id="0x19a77e0" file="GroveTemperatureHumidity.cpp" linenr="41" str=";" scope="0x19adef0"/>
+    <token id="0x19a7890" file="GroveTemperatureHumidity.cpp" linenr="42" str="nh" scope="0x19adef0" type="name" varId="1" variable="0x19af530" astParent="0x19a7940"/>
+    <token id="0x19a7940" file="GroveTemperatureHumidity.cpp" linenr="42" str="." scope="0x19adef0" astParent="0x19a7aa0" astOperand1="0x19a7890" astOperand2="0x19a79f0"/>
+    <token id="0x19a79f0" file="GroveTemperatureHumidity.cpp" linenr="42" str="advertise" scope="0x19adef0" type="name" astParent="0x19a7940"/>
+    <token id="0x19a7aa0" file="GroveTemperatureHumidity.cpp" linenr="42" str="(" scope="0x19adef0" link="0x19a7c00" astOperand1="0x19a7940" astOperand2="0x19a7b50"/>
+    <token id="0x19a7b50" file="GroveTemperatureHumidity.cpp" linenr="42" str="pub_temp" scope="0x19adef0" type="name" varId="4" variable="0x19af680" astParent="0x19a7aa0"/>
+    <token id="0x19a7c00" file="GroveTemperatureHumidity.cpp" linenr="42" str=")" scope="0x19adef0" link="0x19a7aa0"/>
+    <token id="0x19a7cb0" file="GroveTemperatureHumidity.cpp" linenr="42" str=";" scope="0x19adef0"/>
+    <token id="0x19a7d60" file="GroveTemperatureHumidity.cpp" linenr="43" str="nh" scope="0x19adef0" type="name" varId="1" variable="0x19af530" astParent="0x19a7e10"/>
+    <token id="0x19a7e10" file="GroveTemperatureHumidity.cpp" linenr="43" str="." scope="0x19adef0" astParent="0x19a7f70" astOperand1="0x19a7d60" astOperand2="0x19a7ec0"/>
+    <token id="0x19a7ec0" file="GroveTemperatureHumidity.cpp" linenr="43" str="advertise" scope="0x19adef0" type="name" astParent="0x19a7e10"/>
+    <token id="0x19a7f70" file="GroveTemperatureHumidity.cpp" linenr="43" str="(" scope="0x19adef0" link="0x19a80d0" astOperand1="0x19a7e10" astOperand2="0x19a8020"/>
+    <token id="0x19a8020" file="GroveTemperatureHumidity.cpp" linenr="43" str="pub_humidity" scope="0x19adef0" type="name" varId="5" variable="0x19af6f0" astParent="0x19a7f70"/>
+    <token id="0x19a80d0" file="GroveTemperatureHumidity.cpp" linenr="43" str=")" scope="0x19adef0" link="0x19a7f70"/>
+    <token id="0x19a8180" file="GroveTemperatureHumidity.cpp" linenr="43" str=";" scope="0x19adef0"/>
+    <token id="0x19a8230" file="GroveTemperatureHumidity.cpp" linenr="45" str="long" scope="0x19adef0" type="name"/>
+    <token id="0x19a82e0" file="GroveTemperatureHumidity.cpp" linenr="45" str="publisher_timer" scope="0x19adef0" type="name" varId="8" variable="0x19af840"/>
+    <token id="0x19a8390" file="GroveTemperatureHumidity.cpp" linenr="45" str=";" scope="0x19adef0"/>
+    <token id="0x19ae2c0" file="GroveTemperatureHumidity.cpp" linenr="45" str="publisher_timer" scope="0x19adef0" type="name" varId="8" variable="0x19af840" astParent="0x19ae370"/>
+    <token id="0x19ae370" file="GroveTemperatureHumidity.cpp" linenr="45" str="=" scope="0x19adef0" type="op" isAssignmentOp="True" astOperand1="0x19ae2c0" astOperand2="0x19a8440"/>
+    <token id="0x19a8440" file="GroveTemperatureHumidity.cpp" linenr="45" str="0" scope="0x19adef0" type="number" isInt="True" values="0x19a8448" astParent="0x19ae370"/>
+    <token id="0x19a84f0" file="GroveTemperatureHumidity.cpp" linenr="45" str=";" scope="0x19adef0"/>
+    <token id="0x19a85a0" file="GroveTemperatureHumidity.cpp" linenr="46" str="temp_msg" scope="0x19adef0" type="name" varId="2" variable="0x19af5a0" astParent="0x19a8650"/>
+    <token id="0x19a8650" file="GroveTemperatureHumidity.cpp" linenr="46" str="." scope="0x19adef0" astParent="0x19a87b0" astOperand1="0x19a85a0" astOperand2="0x19a8700"/>
+    <token id="0x19a8700" file="GroveTemperatureHumidity.cpp" linenr="46" str="header" scope="0x19adef0" type="name" varId="9" astParent="0x19a8650"/>
+    <token id="0x19a87b0" file="GroveTemperatureHumidity.cpp" linenr="46" str="." scope="0x19adef0" astParent="0x19a8910" astOperand1="0x19a8650" astOperand2="0x19a8860"/>
+    <token id="0x19a8860" file="GroveTemperatureHumidity.cpp" linenr="46" str="frame_id" scope="0x19adef0" type="name" varId="10" astParent="0x19a87b0"/>
+    <token id="0x19a8910" file="GroveTemperatureHumidity.cpp" linenr="46" str="=" scope="0x19adef0" type="op" isAssignmentOp="True" astOperand1="0x19a87b0" astOperand2="0x19a89c0"/>
+    <token id="0x19a89c0" file="GroveTemperatureHumidity.cpp" linenr="46" str="&quot;/base_link&quot;" scope="0x19adef0" type="string" strlen="10" values="0x19a89c8" astParent="0x19a8910"/>
+    <token id="0x19a8a70" file="GroveTemperatureHumidity.cpp" linenr="46" str=";" scope="0x19adef0"/>
+    <token id="0x19a8b20" file="GroveTemperatureHumidity.cpp" linenr="47" str="humidity_msg" scope="0x19adef0" type="name" varId="3" variable="0x19af610" astParent="0x19a8bd0"/>
+    <token id="0x19a8bd0" file="GroveTemperatureHumidity.cpp" linenr="47" str="." scope="0x19adef0" astParent="0x19a8d30" astOperand1="0x19a8b20" astOperand2="0x19a8c80"/>
+    <token id="0x19a8c80" file="GroveTemperatureHumidity.cpp" linenr="47" str="header" scope="0x19adef0" type="name" varId="11" astParent="0x19a8bd0"/>
+    <token id="0x19a8d30" file="GroveTemperatureHumidity.cpp" linenr="47" str="." scope="0x19adef0" astParent="0x19a8e90" astOperand1="0x19a8bd0" astOperand2="0x19a8de0"/>
+    <token id="0x19a8de0" file="GroveTemperatureHumidity.cpp" linenr="47" str="frame_id" scope="0x19adef0" type="name" varId="12" astParent="0x19a8d30"/>
+    <token id="0x19a8e90" file="GroveTemperatureHumidity.cpp" linenr="47" str="=" scope="0x19adef0" type="op" isAssignmentOp="True" astOperand1="0x19a8d30" astOperand2="0x19a8f40"/>
+    <token id="0x19a8f40" file="GroveTemperatureHumidity.cpp" linenr="47" str="&quot;/base_link&quot;" scope="0x19adef0" type="string" strlen="10" values="0x19a8f48" astParent="0x19a8e90"/>
+    <token id="0x19a8ff0" file="GroveTemperatureHumidity.cpp" linenr="47" str=";" scope="0x19adef0"/>
+    <token id="0x19a90a0" file="GroveTemperatureHumidity.cpp" linenr="49" str="while" scope="0x19adef0" type="name" astParent="0x19a9150"/>
+    <token id="0x19a9150" file="GroveTemperatureHumidity.cpp" linenr="49" str="(" scope="0x19adef0" link="0x19a92b0" astOperand1="0x19a90a0" astOperand2="0x19a9200"/>
+    <token id="0x19a9200" file="GroveTemperatureHumidity.cpp" linenr="49" str="1" scope="0x19adef0" type="number" isInt="True" values="0x19a9208" astParent="0x19a9150"/>
+    <token id="0x19a92b0" file="GroveTemperatureHumidity.cpp" linenr="49" str=")" scope="0x19adef0" link="0x19a9150"/>
+    <token id="0x19a9360" file="GroveTemperatureHumidity.cpp" linenr="50" str="{" scope="0x19ae020" link="0x19adc40"/>
+    <token id="0x19a9410" file="GroveTemperatureHumidity.cpp" linenr="52" str="if" scope="0x19ae020" type="name" astParent="0x19a94c0"/>
+    <token id="0x19a94c0" file="GroveTemperatureHumidity.cpp" linenr="52" str="(" scope="0x19ae020" link="0x19a9a40" astOperand1="0x19a9410" astOperand2="0x19a98e0"/>
+    <token id="0x19a9570" file="GroveTemperatureHumidity.cpp" linenr="52" str="t" scope="0x19ae020" type="name" varId="6" variable="0x19af760" astParent="0x19a9620"/>
+    <token id="0x19a9620" file="GroveTemperatureHumidity.cpp" linenr="52" str="." scope="0x19ae020" astParent="0x19a9780" astOperand1="0x19a9570" astOperand2="0x19a96d0"/>
+    <token id="0x19a96d0" file="GroveTemperatureHumidity.cpp" linenr="52" str="read_ms" scope="0x19ae020" type="name" astParent="0x19a9620"/>
+    <token id="0x19a9780" file="GroveTemperatureHumidity.cpp" linenr="52" str="(" scope="0x19ae020" link="0x19a9830" astParent="0x19a98e0" astOperand1="0x19a9620"/>
+    <token id="0x19a9830" file="GroveTemperatureHumidity.cpp" linenr="52" str=")" scope="0x19ae020" link="0x19a9780"/>
+    <token id="0x19a98e0" file="GroveTemperatureHumidity.cpp" linenr="52" str="&gt;" scope="0x19ae020" type="op" isComparisonOp="True" astParent="0x19a94c0" astOperand1="0x19a9780" astOperand2="0x19a9990"/>
+    <token id="0x19a9990" file="GroveTemperatureHumidity.cpp" linenr="52" str="publisher_timer" scope="0x19ae020" type="name" varId="8" variable="0x19af840" values="0x19a9998" astParent="0x19a98e0"/>
+    <token id="0x19a9a40" file="GroveTemperatureHumidity.cpp" linenr="52" str=")" scope="0x19ae020" link="0x19a94c0"/>
+    <token id="0x19a9af0" file="GroveTemperatureHumidity.cpp" linenr="53" str="{" scope="0x19af2d0" link="0x19ad770"/>
+    <token id="0x19a9ba0" file="GroveTemperatureHumidity.cpp" linenr="54" str="error" scope="0x19af2d0" type="name" varId="7" variable="0x19af7d0" astParent="0x19a9c50"/>
+    <token id="0x19a9c50" file="GroveTemperatureHumidity.cpp" linenr="54" str="=" scope="0x19af2d0" type="op" isAssignmentOp="True" astOperand1="0x19a9ba0" astOperand2="0x19a9f10"/>
+    <token id="0x19a9d00" file="GroveTemperatureHumidity.cpp" linenr="54" str="sensor" scope="0x19af2d0" type="name" astParent="0x19a9db0"/>
+    <token id="0x19a9db0" file="GroveTemperatureHumidity.cpp" linenr="54" str="." scope="0x19af2d0" astParent="0x19a9f10" astOperand1="0x19a9d00" astOperand2="0x19a9e60"/>
+    <token id="0x19a9e60" file="GroveTemperatureHumidity.cpp" linenr="54" str="readData" scope="0x19af2d0" type="name" astParent="0x19a9db0"/>
+    <token id="0x19a9f10" file="GroveTemperatureHumidity.cpp" linenr="54" str="(" scope="0x19af2d0" link="0x19a9fc0" astParent="0x19a9c50" astOperand1="0x19a9db0"/>
+    <token id="0x19a9fc0" file="GroveTemperatureHumidity.cpp" linenr="54" str=")" scope="0x19af2d0" link="0x19a9f10"/>
+    <token id="0x19aa070" file="GroveTemperatureHumidity.cpp" linenr="54" str=";" scope="0x19af2d0"/>
+    <token id="0x19aa120" file="GroveTemperatureHumidity.cpp" linenr="55" str="if" scope="0x19af2d0" type="name" astParent="0x19aa1d0"/>
+    <token id="0x19aa1d0" file="GroveTemperatureHumidity.cpp" linenr="55" str="(" scope="0x19af2d0" link="0x19aa490" astOperand1="0x19aa120" astOperand2="0x19aa330"/>
+    <token id="0x19aa280" file="GroveTemperatureHumidity.cpp" linenr="55" str="0" scope="0x19af2d0" type="number" isInt="True" values="0x19aa288" astParent="0x19aa330"/>
+    <token id="0x19aa330" file="GroveTemperatureHumidity.cpp" linenr="55" str="==" scope="0x19af2d0" type="op" isComparisonOp="True" astParent="0x19aa1d0" astOperand1="0x19aa280" astOperand2="0x19aa3e0"/>
+    <token id="0x19aa3e0" file="GroveTemperatureHumidity.cpp" linenr="55" str="error" scope="0x19af2d0" type="name" varId="7" variable="0x19af7d0" astParent="0x19aa330"/>
+    <token id="0x19aa490" file="GroveTemperatureHumidity.cpp" linenr="55" str=")" scope="0x19af2d0" link="0x19aa1d0"/>
+    <token id="0x19aa540" file="GroveTemperatureHumidity.cpp" linenr="56" str="{" scope="0x19af400" link="0x19acfe0"/>
+    <token id="0x19aa5f0" file="GroveTemperatureHumidity.cpp" linenr="57" str="temp_msg" scope="0x19af400" type="name" varId="2" variable="0x19af5a0" astParent="0x19aa6a0"/>
+    <token id="0x19aa6a0" file="GroveTemperatureHumidity.cpp" linenr="57" str="." scope="0x19af400" astParent="0x19aa800" astOperand1="0x19aa5f0" astOperand2="0x19aa750"/>
+    <token id="0x19aa750" file="GroveTemperatureHumidity.cpp" linenr="57" str="temperature" scope="0x19af400" type="name" varId="13" astParent="0x19aa6a0"/>
+    <token id="0x19aa800" file="GroveTemperatureHumidity.cpp" linenr="57" str="=" scope="0x19af400" type="op" isAssignmentOp="True" astOperand1="0x19aa6a0" astOperand2="0x19aaac0"/>
+    <token id="0x19aa8b0" file="GroveTemperatureHumidity.cpp" linenr="57" str="sensor" scope="0x19af400" type="name" astParent="0x19aa960"/>
+    <token id="0x19aa960" file="GroveTemperatureHumidity.cpp" linenr="57" str="." scope="0x19af400" astParent="0x19aaac0" astOperand1="0x19aa8b0" astOperand2="0x19aaa10"/>
+    <token id="0x19aaa10" file="GroveTemperatureHumidity.cpp" linenr="57" str="ReadTemperature" scope="0x19af400" type="name" astParent="0x19aa960"/>
+    <token id="0x19aaac0" file="GroveTemperatureHumidity.cpp" linenr="57" str="(" scope="0x19af400" link="0x19aac20" astParent="0x19aa800" astOperand1="0x19aa960" astOperand2="0x19aab70"/>
+    <token id="0x19aab70" file="GroveTemperatureHumidity.cpp" linenr="57" str="CELCIUS" scope="0x19af400" type="name" astParent="0x19aaac0"/>
+    <token id="0x19aac20" file="GroveTemperatureHumidity.cpp" linenr="57" str=")" scope="0x19af400" link="0x19aaac0"/>
+    <token id="0x19aacd0" file="GroveTemperatureHumidity.cpp" linenr="57" str=";" scope="0x19af400"/>
+    <token id="0x19aad80" file="GroveTemperatureHumidity.cpp" linenr="58" str="temp_msg" scope="0x19af400" type="name" varId="2" variable="0x19af5a0" astParent="0x19aae30"/>
+    <token id="0x19aae30" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19af400" astParent="0x19aaf90" astOperand1="0x19aad80" astOperand2="0x19aaee0"/>
+    <token id="0x19aaee0" file="GroveTemperatureHumidity.cpp" linenr="58" str="header" scope="0x19af400" type="name" varId="9" astParent="0x19aae30"/>
+    <token id="0x19aaf90" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19af400" astParent="0x19ab0f0" astOperand1="0x19aae30" astOperand2="0x19ab040"/>
+    <token id="0x19ab040" file="GroveTemperatureHumidity.cpp" linenr="58" str="stamp" scope="0x19af400" type="name" varId="14" astParent="0x19aaf90"/>
+    <token id="0x19ab0f0" file="GroveTemperatureHumidity.cpp" linenr="58" str="=" scope="0x19af400" type="op" isAssignmentOp="True" astOperand1="0x19aaf90" astOperand2="0x19ab3b0"/>
+    <token id="0x19ab1a0" file="GroveTemperatureHumidity.cpp" linenr="58" str="nh" scope="0x19af400" type="name" varId="1" variable="0x19af530" astParent="0x19ab250"/>
+    <token id="0x19ab250" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19af400" astParent="0x19ab3b0" astOperand1="0x19ab1a0" astOperand2="0x19ab300"/>
+    <token id="0x19ab300" file="GroveTemperatureHumidity.cpp" linenr="58" str="now" scope="0x19af400" type="name" astParent="0x19ab250"/>
+    <token id="0x19ab3b0" file="GroveTemperatureHumidity.cpp" linenr="58" str="(" scope="0x19af400" link="0x19ab460" astParent="0x19ab0f0" astOperand1="0x19ab250"/>
+    <token id="0x19ab460" file="GroveTemperatureHumidity.cpp" linenr="58" str=")" scope="0x19af400" link="0x19ab3b0"/>
+    <token id="0x19ab510" file="GroveTemperatureHumidity.cpp" linenr="58" str=";" scope="0x19af400"/>
+    <token id="0x19ab5c0" file="GroveTemperatureHumidity.cpp" linenr="59" str="pub_temp" scope="0x19af400" type="name" varId="4" variable="0x19af680" astParent="0x19ab670"/>
+    <token id="0x19ab670" file="GroveTemperatureHumidity.cpp" linenr="59" str="." scope="0x19af400" astParent="0x19ab7d0" astOperand1="0x19ab5c0" astOperand2="0x19ab720"/>
+    <token id="0x19ab720" file="GroveTemperatureHumidity.cpp" linenr="59" str="publish" scope="0x19af400" type="name" astParent="0x19ab670"/>
+    <token id="0x19ab7d0" file="GroveTemperatureHumidity.cpp" linenr="59" str="(" scope="0x19af400" link="0x19ab9e0" astOperand1="0x19ab670" astOperand2="0x19ab880"/>
+    <token id="0x19ab880" file="GroveTemperatureHumidity.cpp" linenr="59" str="&amp;" scope="0x19af400" type="op" astParent="0x19ab7d0" astOperand1="0x19ab930"/>
+    <token id="0x19ab930" file="GroveTemperatureHumidity.cpp" linenr="59" str="temp_msg" scope="0x19af400" type="name" varId="2" variable="0x19af5a0" astParent="0x19ab880"/>
+    <token id="0x19ab9e0" file="GroveTemperatureHumidity.cpp" linenr="59" str=")" scope="0x19af400" link="0x19ab7d0"/>
+    <token id="0x19aba90" file="GroveTemperatureHumidity.cpp" linenr="59" str=";" scope="0x19af400"/>
+    <token id="0x19abb40" file="GroveTemperatureHumidity.cpp" linenr="61" str="humidity_msg" scope="0x19af400" type="name" varId="3" variable="0x19af610" astParent="0x19abbf0"/>
+    <token id="0x19abbf0" file="GroveTemperatureHumidity.cpp" linenr="61" str="." scope="0x19af400" astParent="0x19abd50" astOperand1="0x19abb40" astOperand2="0x19abca0"/>
+    <token id="0x19abca0" file="GroveTemperatureHumidity.cpp" linenr="61" str="relative_humidity" scope="0x19af400" type="name" varId="15" astParent="0x19abbf0"/>
+    <token id="0x19abd50" file="GroveTemperatureHumidity.cpp" linenr="61" str="=" scope="0x19af400" type="op" isAssignmentOp="True" astOperand1="0x19abbf0" astOperand2="0x19ac010"/>
+    <token id="0x19abe00" file="GroveTemperatureHumidity.cpp" linenr="61" str="sensor" scope="0x19af400" type="name" astParent="0x19abeb0"/>
+    <token id="0x19abeb0" file="GroveTemperatureHumidity.cpp" linenr="61" str="." scope="0x19af400" astParent="0x19ac010" astOperand1="0x19abe00" astOperand2="0x19abf60"/>
+    <token id="0x19abf60" file="GroveTemperatureHumidity.cpp" linenr="61" str="ReadHumidity" scope="0x19af400" type="name" astParent="0x19abeb0"/>
+    <token id="0x19ac010" file="GroveTemperatureHumidity.cpp" linenr="61" str="(" scope="0x19af400" link="0x19ac0c0" astParent="0x19abd50" astOperand1="0x19abeb0"/>
+    <token id="0x19ac0c0" file="GroveTemperatureHumidity.cpp" linenr="61" str=")" scope="0x19af400" link="0x19ac010"/>
+    <token id="0x19ac170" file="GroveTemperatureHumidity.cpp" linenr="61" str=";" scope="0x19af400"/>
+    <token id="0x19ac220" file="GroveTemperatureHumidity.cpp" linenr="62" str="humidity_msg" scope="0x19af400" type="name" varId="3" variable="0x19af610" astParent="0x19ac2d0"/>
+    <token id="0x19ac2d0" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19af400" astParent="0x19ac430" astOperand1="0x19ac220" astOperand2="0x19ac380"/>
+    <token id="0x19ac380" file="GroveTemperatureHumidity.cpp" linenr="62" str="header" scope="0x19af400" type="name" varId="11" astParent="0x19ac2d0"/>
+    <token id="0x19ac430" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19af400" astParent="0x19ac590" astOperand1="0x19ac2d0" astOperand2="0x19ac4e0"/>
+    <token id="0x19ac4e0" file="GroveTemperatureHumidity.cpp" linenr="62" str="stamp" scope="0x19af400" type="name" varId="16" astParent="0x19ac430"/>
+    <token id="0x19ac590" file="GroveTemperatureHumidity.cpp" linenr="62" str="=" scope="0x19af400" type="op" isAssignmentOp="True" astOperand1="0x19ac430" astOperand2="0x19ac850"/>
+    <token id="0x19ac640" file="GroveTemperatureHumidity.cpp" linenr="62" str="nh" scope="0x19af400" type="name" varId="1" variable="0x19af530" astParent="0x19ac6f0"/>
+    <token id="0x19ac6f0" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19af400" astParent="0x19ac850" astOperand1="0x19ac640" astOperand2="0x19ac7a0"/>
+    <token id="0x19ac7a0" file="GroveTemperatureHumidity.cpp" linenr="62" str="now" scope="0x19af400" type="name" astParent="0x19ac6f0"/>
+    <token id="0x19ac850" file="GroveTemperatureHumidity.cpp" linenr="62" str="(" scope="0x19af400" link="0x19ac900" astParent="0x19ac590" astOperand1="0x19ac6f0"/>
+    <token id="0x19ac900" file="GroveTemperatureHumidity.cpp" linenr="62" str=")" scope="0x19af400" link="0x19ac850"/>
+    <token id="0x19ac9b0" file="GroveTemperatureHumidity.cpp" linenr="62" str=";" scope="0x19af400"/>
+    <token id="0x19aca60" file="GroveTemperatureHumidity.cpp" linenr="63" str="pub_humidity" scope="0x19af400" type="name" varId="5" variable="0x19af6f0" astParent="0x19acb10"/>
+    <token id="0x19acb10" file="GroveTemperatureHumidity.cpp" linenr="63" str="." scope="0x19af400" astParent="0x19acc70" astOperand1="0x19aca60" astOperand2="0x19acbc0"/>
+    <token id="0x19acbc0" file="GroveTemperatureHumidity.cpp" linenr="63" str="publish" scope="0x19af400" type="name" astParent="0x19acb10"/>
+    <token id="0x19acc70" file="GroveTemperatureHumidity.cpp" linenr="63" str="(" scope="0x19af400" link="0x19ace80" astOperand1="0x19acb10" astOperand2="0x19acd20"/>
+    <token id="0x19acd20" file="GroveTemperatureHumidity.cpp" linenr="63" str="&amp;" scope="0x19af400" type="op" astParent="0x19acc70" astOperand1="0x19acdd0"/>
+    <token id="0x19acdd0" file="GroveTemperatureHumidity.cpp" linenr="63" str="humidity_msg" scope="0x19af400" type="name" varId="3" variable="0x19af610" astParent="0x19acd20"/>
+    <token id="0x19ace80" file="GroveTemperatureHumidity.cpp" linenr="63" str=")" scope="0x19af400" link="0x19acc70"/>
+    <token id="0x19acf30" file="GroveTemperatureHumidity.cpp" linenr="63" str=";" scope="0x19af400"/>
+    <token id="0x19acfe0" file="GroveTemperatureHumidity.cpp" linenr="64" str="}" scope="0x19af400" link="0x19aa540"/>
+    <token id="0x19ad090" file="GroveTemperatureHumidity.cpp" linenr="65" str="publisher_timer" scope="0x19af2d0" type="name" varId="8" variable="0x19af840" astParent="0x19ad140"/>
+    <token id="0x19ad140" file="GroveTemperatureHumidity.cpp" linenr="65" str="=" scope="0x19af2d0" type="op" isAssignmentOp="True" astOperand1="0x19ad090" astOperand2="0x19ad560"/>
+    <token id="0x19ad1f0" file="GroveTemperatureHumidity.cpp" linenr="65" str="t" scope="0x19af2d0" type="name" varId="6" variable="0x19af760" astParent="0x19ad2a0"/>
+    <token id="0x19ad2a0" file="GroveTemperatureHumidity.cpp" linenr="65" str="." scope="0x19af2d0" astParent="0x19ad400" astOperand1="0x19ad1f0" astOperand2="0x19ad350"/>
+    <token id="0x19ad350" file="GroveTemperatureHumidity.cpp" linenr="65" str="read_ms" scope="0x19af2d0" type="name" astParent="0x19ad2a0"/>
+    <token id="0x19ad400" file="GroveTemperatureHumidity.cpp" linenr="65" str="(" scope="0x19af2d0" link="0x19ad4b0" astParent="0x19ad560" astOperand1="0x19ad2a0"/>
+    <token id="0x19ad4b0" file="GroveTemperatureHumidity.cpp" linenr="65" str=")" scope="0x19af2d0" link="0x19ad400"/>
+    <token id="0x19ad560" file="GroveTemperatureHumidity.cpp" linenr="65" str="+" scope="0x19af2d0" type="op" isArithmeticalOp="True" astParent="0x19ad140" astOperand1="0x19ad400" astOperand2="0x19ad610"/>
+    <token id="0x19ad610" file="GroveTemperatureHumidity.cpp" linenr="65" str="1000" scope="0x19af2d0" type="number" isInt="True" values="0x19ad618" astParent="0x19ad560"/>
+    <token id="0x19ad6c0" file="GroveTemperatureHumidity.cpp" linenr="65" str=";" scope="0x19af2d0"/>
+    <token id="0x19ad770" file="GroveTemperatureHumidity.cpp" linenr="66" str="}" scope="0x19af2d0" link="0x19a9af0"/>
+    <token id="0x19ad820" file="GroveTemperatureHumidity.cpp" linenr="67" str="nh" scope="0x19ae020" type="name" varId="1" variable="0x19af530" astParent="0x19ad8d0"/>
+    <token id="0x19ad8d0" file="GroveTemperatureHumidity.cpp" linenr="67" str="." scope="0x19ae020" astParent="0x19ada30" astOperand1="0x19ad820" astOperand2="0x19ad980"/>
+    <token id="0x19ad980" file="GroveTemperatureHumidity.cpp" linenr="67" str="spinOnce" scope="0x19ae020" type="name" astParent="0x19ad8d0"/>
+    <token id="0x19ada30" file="GroveTemperatureHumidity.cpp" linenr="67" str="(" scope="0x19ae020" link="0x19adae0" astOperand1="0x19ad8d0"/>
+    <token id="0x19adae0" file="GroveTemperatureHumidity.cpp" linenr="67" str=")" scope="0x19ae020" link="0x19ada30"/>
+    <token id="0x19adb90" file="GroveTemperatureHumidity.cpp" linenr="67" str=";" scope="0x19ae020"/>
+    <token id="0x19adc40" file="GroveTemperatureHumidity.cpp" linenr="68" str="}" scope="0x19ae020" link="0x19a9360"/>
+    <token id="0x19adcf0" file="GroveTemperatureHumidity.cpp" linenr="69" str="}" scope="0x19adef0" link="0x19a6c30"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x19a4a40" type="Global">
+      <functionList>
+        <function id="0x19addb0" tokenDef="0x19a64a0" name="sensor">
+          <arg nr="1" variable="0x19af8b0"/>
+          <arg nr="2" variable="0x19af920"/>
+        </function>
+        <function id="0x19ade50" tokenDef="0x19a6a20" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x19af530"/>
+        <var id="0x19af5a0"/>
+        <var id="0x19af610"/>
+        <var id="0x19af680"/>
+        <var id="0x19af6f0"/>
+        <var id="0x19af760"/>
+      </varlist>
+    </scope>
+    <scope id="0x19adef0" type="Function" className="main" classStart="0x19a6c30" classEnd="0x19adcf0" nestedIn="0x19a4a40" function="0x19ade50">
+      <varlist>
+        <var id="0x19af7d0"/>
+        <var id="0x19af840"/>
+      </varlist>
+    </scope>
+    <scope id="0x19ae020" type="While" classStart="0x19a9360" classEnd="0x19adc40" nestedIn="0x19adef0"/>
+    <scope id="0x19af2d0" type="If" classStart="0x19a9af0" classEnd="0x19ad770" nestedIn="0x19ae020"/>
+    <scope id="0x19af400" type="If" classStart="0x19aa540" classEnd="0x19acfe0" nestedIn="0x19af2d0"/>
+  </scopes>
+  <variables>
+    <var id="0x19af530" nameToken="0x19a16f0" typeStartToken="0x19a4be0" typeEndToken="0x19a1600" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af5a0" nameToken="0x19a12d0" typeStartToken="0x19a10c0" typeEndToken="0x19a1220" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af610" nameToken="0x19a1ba0" typeStartToken="0x19a1430" typeEndToken="0x19a1af0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af680" nameToken="0x19a5110" typeStartToken="0x19a1d00" typeEndToken="0x19a1e60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af6f0" nameToken="0x19a58a0" typeStartToken="0x19a5690" typeEndToken="0x19a57f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af760" nameToken="0x19a6290" typeStartToken="0x19a61e0" typeEndToken="0x19a61e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af7d0" nameToken="0x19a6d90" typeStartToken="0x19a6ce0" typeEndToken="0x19a6ce0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af840" nameToken="0x19a82e0" typeStartToken="0x19a8230" typeEndToken="0x19a8230" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x19a5278">
+      <value tokvalue="0x19a5270" known="true"/>
+    </values>
+    <values id="0x19a5a08">
+      <value tokvalue="0x19a5a00" known="true"/>
+    </values>
+    <values id="0x19a6ef8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19a8448">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19a89c8">
+      <value tokvalue="0x19a89c0" known="true"/>
+    </values>
+    <values id="0x19a8f48">
+      <value tokvalue="0x19a8f40" known="true"/>
+    </values>
+    <values id="0x19a9208">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19a9998">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x19aa288">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19ad618">
+      <value intvalue="1000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_NUCLEO_F401RE">
+  <tokenlist>
+    <token id="0x19a1ed0" file="GroveTemperatureHumidity.cpp" linenr="18" str="ros" scope="0x19ac310" type="name" astParent="0x19a1a40"/>
+    <token id="0x19a1a40" file="GroveTemperatureHumidity.cpp" linenr="18" str="::" scope="0x19ac310" astOperand1="0x19a1ed0" astOperand2="0x19a1ba0"/>
+    <token id="0x19a1af0" file="GroveTemperatureHumidity.cpp" linenr="18" str="NodeHandle" scope="0x19ac310" type="name"/>
+    <token id="0x19a1ba0" file="GroveTemperatureHumidity.cpp" linenr="18" str="nh" scope="0x19ac310" type="name" varId="1" variable="0x19af610" astParent="0x19a1a40"/>
+    <token id="0x19a1c50" file="GroveTemperatureHumidity.cpp" linenr="18" str=";" scope="0x19ac310"/>
+    <token id="0x19a1d00" file="GroveTemperatureHumidity.cpp" linenr="20" str="sensor_msgs" scope="0x19ac310" type="name" astParent="0x19a1db0"/>
+    <token id="0x19a1db0" file="GroveTemperatureHumidity.cpp" linenr="20" str="::" scope="0x19ac310" astOperand1="0x19a1d00" astOperand2="0x19af790"/>
+    <token id="0x19af6e0" file="GroveTemperatureHumidity.cpp" linenr="20" str="Temperature" scope="0x19ac310" type="name"/>
+    <token id="0x19af790" file="GroveTemperatureHumidity.cpp" linenr="20" str="temp_msg" scope="0x19ac310" type="name" varId="2" variable="0x19af680" astParent="0x19a1db0"/>
+    <token id="0x19af840" file="GroveTemperatureHumidity.cpp" linenr="20" str=";" scope="0x19ac310"/>
+    <token id="0x19af8f0" file="GroveTemperatureHumidity.cpp" linenr="21" str="sensor_msgs" scope="0x19ac310" type="name" astParent="0x19af9a0"/>
+    <token id="0x19af9a0" file="GroveTemperatureHumidity.cpp" linenr="21" str="::" scope="0x19ac310" astOperand1="0x19af8f0" astOperand2="0x19afb00"/>
+    <token id="0x19afa50" file="GroveTemperatureHumidity.cpp" linenr="21" str="RelativeHumidity" scope="0x19ac310" type="name"/>
+    <token id="0x19afb00" file="GroveTemperatureHumidity.cpp" linenr="21" str="humidity_msg" scope="0x19ac310" type="name" varId="3" variable="0x19ad9f0" astParent="0x19af9a0"/>
+    <token id="0x19afbb0" file="GroveTemperatureHumidity.cpp" linenr="21" str=";" scope="0x19ac310"/>
+    <token id="0x19a10c0" file="GroveTemperatureHumidity.cpp" linenr="22" str="ros" scope="0x19ac310" type="name" astParent="0x19a1170"/>
+    <token id="0x19a1170" file="GroveTemperatureHumidity.cpp" linenr="22" str="::" scope="0x19ac310" astParent="0x19a1380" astOperand1="0x19a10c0" astOperand2="0x19a12d0"/>
+    <token id="0x19a1220" file="GroveTemperatureHumidity.cpp" linenr="22" str="Publisher" scope="0x19ac310" type="name"/>
+    <token id="0x19a12d0" file="GroveTemperatureHumidity.cpp" linenr="22" str="pub_temp" scope="0x19ac310" type="name" varId="4" variable="0x19ada60" astParent="0x19a1170"/>
+    <token id="0x19a1380" file="GroveTemperatureHumidity.cpp" linenr="22" str="(" scope="0x19ac310" link="0x19ae2c0" astOperand1="0x19a1170" astOperand2="0x19a14e0"/>
+    <token id="0x19a1430" file="GroveTemperatureHumidity.cpp" linenr="22" str="&quot;temperature&quot;" scope="0x19ac310" type="string" strlen="11" values="0x19a1438" astParent="0x19a14e0"/>
+    <token id="0x19a14e0" file="GroveTemperatureHumidity.cpp" linenr="22" str="," scope="0x19ac310" astParent="0x19a1380" astOperand1="0x19a1430" astOperand2="0x19a1590"/>
+    <token id="0x19a1590" file="GroveTemperatureHumidity.cpp" linenr="22" str="&amp;" scope="0x19ac310" type="op" astParent="0x19a14e0" astOperand1="0x19ae210"/>
+    <token id="0x19ae210" file="GroveTemperatureHumidity.cpp" linenr="22" str="temp_msg" scope="0x19ac310" type="name" varId="2" variable="0x19af680" astParent="0x19a1590"/>
+    <token id="0x19ae2c0" file="GroveTemperatureHumidity.cpp" linenr="22" str=")" scope="0x19ac310" link="0x19a1380"/>
+    <token id="0x19ae370" file="GroveTemperatureHumidity.cpp" linenr="22" str=";" scope="0x19ac310"/>
+    <token id="0x19ae420" file="GroveTemperatureHumidity.cpp" linenr="23" str="ros" scope="0x19ac310" type="name" astParent="0x19ae4d0"/>
+    <token id="0x19ae4d0" file="GroveTemperatureHumidity.cpp" linenr="23" str="::" scope="0x19ac310" astParent="0x19ae6e0" astOperand1="0x19ae420" astOperand2="0x19ae630"/>
+    <token id="0x19ae580" file="GroveTemperatureHumidity.cpp" linenr="23" str="Publisher" scope="0x19ac310" type="name"/>
+    <token id="0x19ae630" file="GroveTemperatureHumidity.cpp" linenr="23" str="pub_humidity" scope="0x19ac310" type="name" varId="5" variable="0x19adad0" astParent="0x19ae4d0"/>
+    <token id="0x19ae6e0" file="GroveTemperatureHumidity.cpp" linenr="23" str="(" scope="0x19ac310" link="0x19aee80" astOperand1="0x19ae4d0" astOperand2="0x19aec70"/>
+    <token id="0x19aebc0" file="GroveTemperatureHumidity.cpp" linenr="23" str="&quot;humidity&quot;" scope="0x19ac310" type="string" strlen="8" values="0x19aebc8" astParent="0x19aec70"/>
+    <token id="0x19aec70" file="GroveTemperatureHumidity.cpp" linenr="23" str="," scope="0x19ac310" astParent="0x19ae6e0" astOperand1="0x19aebc0" astOperand2="0x19aed20"/>
+    <token id="0x19aed20" file="GroveTemperatureHumidity.cpp" linenr="23" str="&amp;" scope="0x19ac310" type="op" astParent="0x19aec70" astOperand1="0x19aedd0"/>
+    <token id="0x19aedd0" file="GroveTemperatureHumidity.cpp" linenr="23" str="humidity_msg" scope="0x19ac310" type="name" varId="3" variable="0x19ad9f0" astParent="0x19aed20"/>
+    <token id="0x19aee80" file="GroveTemperatureHumidity.cpp" linenr="23" str=")" scope="0x19ac310" link="0x19ae6e0"/>
+    <token id="0x19aef30" file="GroveTemperatureHumidity.cpp" linenr="23" str=";" scope="0x19ac310"/>
+    <token id="0x19aefe0" file="GroveTemperatureHumidity.cpp" linenr="25" str="Timer" scope="0x19ac310" type="name"/>
+    <token id="0x19af090" file="GroveTemperatureHumidity.cpp" linenr="25" str="t" scope="0x19ac310" type="name" varId="6" variable="0x19adb40"/>
+    <token id="0x19af140" file="GroveTemperatureHumidity.cpp" linenr="25" str=";" scope="0x19ac310"/>
+    <token id="0x19af1f0" file="GroveTemperatureHumidity.cpp" linenr="29" str="DHT" scope="0x19ac310" type="name"/>
+    <token id="0x19af2a0" file="GroveTemperatureHumidity.cpp" linenr="29" str="sensor" scope="0x19ac310" type="name" function="0x19ac000" astParent="0x19af350"/>
+    <token id="0x19af350" file="GroveTemperatureHumidity.cpp" linenr="29" str="(" scope="0x19ac310" link="0x19a4a30" astOperand1="0x19af2a0" astOperand2="0x19af4b0"/>
+    <token id="0x19af400" file="GroveTemperatureHumidity.cpp" linenr="29" str="D6" scope="0x19ac310" type="name" astParent="0x19af4b0"/>
+    <token id="0x19af4b0" file="GroveTemperatureHumidity.cpp" linenr="29" str="," scope="0x19ac310" astParent="0x19af350" astOperand1="0x19af400" astOperand2="0x19a4980"/>
+    <token id="0x19a4980" file="GroveTemperatureHumidity.cpp" linenr="29" str="AM2302" scope="0x19ac310" type="name" astParent="0x19af4b0"/>
+    <token id="0x19a4a30" file="GroveTemperatureHumidity.cpp" linenr="29" str=")" scope="0x19ac310" link="0x19af350"/>
+    <token id="0x19a4ae0" file="GroveTemperatureHumidity.cpp" linenr="29" str=";" scope="0x19ac310"/>
+    <token id="0x19a4b90" file="GroveTemperatureHumidity.cpp" linenr="36" str="int" scope="0x19ac310" type="name"/>
+    <token id="0x19a4c40" file="GroveTemperatureHumidity.cpp" linenr="36" str="main" scope="0x19ac310" type="name" function="0x19ac0a0" astParent="0x19a4cf0"/>
+    <token id="0x19a4cf0" file="GroveTemperatureHumidity.cpp" linenr="36" str="(" scope="0x19ac310" link="0x19a4da0" astOperand1="0x19a4c40"/>
+    <token id="0x19a4da0" file="GroveTemperatureHumidity.cpp" linenr="36" str=")" scope="0x19ac310" link="0x19a4cf0"/>
+    <token id="0x19a4e50" file="GroveTemperatureHumidity.cpp" linenr="37" str="{" scope="0x19a1700" link="0x19abf40"/>
+    <token id="0x19a4f00" file="GroveTemperatureHumidity.cpp" linenr="38" str="int" scope="0x19a1700" type="name"/>
+    <token id="0x19a4fb0" file="GroveTemperatureHumidity.cpp" linenr="38" str="error" scope="0x19a1700" type="name" varId="7" variable="0x19adbb0"/>
+    <token id="0x19a5060" file="GroveTemperatureHumidity.cpp" linenr="38" str=";" scope="0x19a1700"/>
+    <token id="0x19a22f0" file="GroveTemperatureHumidity.cpp" linenr="38" str="error" scope="0x19a1700" type="name" varId="7" variable="0x19adbb0" astParent="0x19ac4b0"/>
+    <token id="0x19ac4b0" file="GroveTemperatureHumidity.cpp" linenr="38" str="=" scope="0x19a1700" type="op" isAssignmentOp="True" astOperand1="0x19a22f0" astOperand2="0x19a5110"/>
+    <token id="0x19a5110" file="GroveTemperatureHumidity.cpp" linenr="38" str="0" scope="0x19a1700" type="number" isInt="True" values="0x19a5118" astParent="0x19ac4b0"/>
+    <token id="0x19a51c0" file="GroveTemperatureHumidity.cpp" linenr="38" str=";" scope="0x19a1700"/>
+    <token id="0x19a5270" file="GroveTemperatureHumidity.cpp" linenr="39" str="t" scope="0x19a1700" type="name" varId="6" variable="0x19adb40" astParent="0x19a5320"/>
+    <token id="0x19a5320" file="GroveTemperatureHumidity.cpp" linenr="39" str="." scope="0x19a1700" astParent="0x19a5480" astOperand1="0x19a5270" astOperand2="0x19a53d0"/>
+    <token id="0x19a53d0" file="GroveTemperatureHumidity.cpp" linenr="39" str="start" scope="0x19a1700" type="name" astParent="0x19a5320"/>
+    <token id="0x19a5480" file="GroveTemperatureHumidity.cpp" linenr="39" str="(" scope="0x19a1700" link="0x19a5530" astOperand1="0x19a5320"/>
+    <token id="0x19a5530" file="GroveTemperatureHumidity.cpp" linenr="39" str=")" scope="0x19a1700" link="0x19a5480"/>
+    <token id="0x19a55e0" file="GroveTemperatureHumidity.cpp" linenr="39" str=";" scope="0x19a1700"/>
+    <token id="0x19a5690" file="GroveTemperatureHumidity.cpp" linenr="41" str="nh" scope="0x19a1700" type="name" varId="1" variable="0x19af610" astParent="0x19a5740"/>
+    <token id="0x19a5740" file="GroveTemperatureHumidity.cpp" linenr="41" str="." scope="0x19a1700" astParent="0x19a58a0" astOperand1="0x19a5690" astOperand2="0x19a57f0"/>
+    <token id="0x19a57f0" file="GroveTemperatureHumidity.cpp" linenr="41" str="initNode" scope="0x19a1700" type="name" astParent="0x19a5740"/>
+    <token id="0x19a58a0" file="GroveTemperatureHumidity.cpp" linenr="41" str="(" scope="0x19a1700" link="0x19a5950" astOperand1="0x19a5740"/>
+    <token id="0x19a5950" file="GroveTemperatureHumidity.cpp" linenr="41" str=")" scope="0x19a1700" link="0x19a58a0"/>
+    <token id="0x19a5a00" file="GroveTemperatureHumidity.cpp" linenr="41" str=";" scope="0x19a1700"/>
+    <token id="0x19a5ab0" file="GroveTemperatureHumidity.cpp" linenr="42" str="nh" scope="0x19a1700" type="name" varId="1" variable="0x19af610" astParent="0x19a5b60"/>
+    <token id="0x19a5b60" file="GroveTemperatureHumidity.cpp" linenr="42" str="." scope="0x19a1700" astParent="0x19a5cc0" astOperand1="0x19a5ab0" astOperand2="0x19a5c10"/>
+    <token id="0x19a5c10" file="GroveTemperatureHumidity.cpp" linenr="42" str="advertise" scope="0x19a1700" type="name" astParent="0x19a5b60"/>
+    <token id="0x19a5cc0" file="GroveTemperatureHumidity.cpp" linenr="42" str="(" scope="0x19a1700" link="0x19a5e50" astOperand1="0x19a5b60" astOperand2="0x19a5da0"/>
+    <token id="0x19a5da0" file="GroveTemperatureHumidity.cpp" linenr="42" str="pub_temp" scope="0x19a1700" type="name" varId="4" variable="0x19ada60" astParent="0x19a5cc0"/>
+    <token id="0x19a5e50" file="GroveTemperatureHumidity.cpp" linenr="42" str=")" scope="0x19a1700" link="0x19a5cc0"/>
+    <token id="0x19a5f00" file="GroveTemperatureHumidity.cpp" linenr="42" str=";" scope="0x19a1700"/>
+    <token id="0x19a5fb0" file="GroveTemperatureHumidity.cpp" linenr="43" str="nh" scope="0x19a1700" type="name" varId="1" variable="0x19af610" astParent="0x19a6060"/>
+    <token id="0x19a6060" file="GroveTemperatureHumidity.cpp" linenr="43" str="." scope="0x19a1700" astParent="0x19a61c0" astOperand1="0x19a5fb0" astOperand2="0x19a6110"/>
+    <token id="0x19a6110" file="GroveTemperatureHumidity.cpp" linenr="43" str="advertise" scope="0x19a1700" type="name" astParent="0x19a6060"/>
+    <token id="0x19a61c0" file="GroveTemperatureHumidity.cpp" linenr="43" str="(" scope="0x19a1700" link="0x19a6320" astOperand1="0x19a6060" astOperand2="0x19a6270"/>
+    <token id="0x19a6270" file="GroveTemperatureHumidity.cpp" linenr="43" str="pub_humidity" scope="0x19a1700" type="name" varId="5" variable="0x19adad0" astParent="0x19a61c0"/>
+    <token id="0x19a6320" file="GroveTemperatureHumidity.cpp" linenr="43" str=")" scope="0x19a1700" link="0x19a61c0"/>
+    <token id="0x19a63d0" file="GroveTemperatureHumidity.cpp" linenr="43" str=";" scope="0x19a1700"/>
+    <token id="0x19a6480" file="GroveTemperatureHumidity.cpp" linenr="45" str="long" scope="0x19a1700" type="name"/>
+    <token id="0x19a6530" file="GroveTemperatureHumidity.cpp" linenr="45" str="publisher_timer" scope="0x19a1700" type="name" varId="8" variable="0x19adc20"/>
+    <token id="0x19a65e0" file="GroveTemperatureHumidity.cpp" linenr="45" str=";" scope="0x19a1700"/>
+    <token id="0x19ac560" file="GroveTemperatureHumidity.cpp" linenr="45" str="publisher_timer" scope="0x19a1700" type="name" varId="8" variable="0x19adc20" astParent="0x19ac610"/>
+    <token id="0x19ac610" file="GroveTemperatureHumidity.cpp" linenr="45" str="=" scope="0x19a1700" type="op" isAssignmentOp="True" astOperand1="0x19ac560" astOperand2="0x19a6690"/>
+    <token id="0x19a6690" file="GroveTemperatureHumidity.cpp" linenr="45" str="0" scope="0x19a1700" type="number" isInt="True" values="0x19a6698" astParent="0x19ac610"/>
+    <token id="0x19a6740" file="GroveTemperatureHumidity.cpp" linenr="45" str=";" scope="0x19a1700"/>
+    <token id="0x19a67f0" file="GroveTemperatureHumidity.cpp" linenr="46" str="temp_msg" scope="0x19a1700" type="name" varId="2" variable="0x19af680" astParent="0x19a68a0"/>
+    <token id="0x19a68a0" file="GroveTemperatureHumidity.cpp" linenr="46" str="." scope="0x19a1700" astParent="0x19a6a00" astOperand1="0x19a67f0" astOperand2="0x19a6950"/>
+    <token id="0x19a6950" file="GroveTemperatureHumidity.cpp" linenr="46" str="header" scope="0x19a1700" type="name" varId="9" astParent="0x19a68a0"/>
+    <token id="0x19a6a00" file="GroveTemperatureHumidity.cpp" linenr="46" str="." scope="0x19a1700" astParent="0x19a6b60" astOperand1="0x19a68a0" astOperand2="0x19a6ab0"/>
+    <token id="0x19a6ab0" file="GroveTemperatureHumidity.cpp" linenr="46" str="frame_id" scope="0x19a1700" type="name" varId="10" astParent="0x19a6a00"/>
+    <token id="0x19a6b60" file="GroveTemperatureHumidity.cpp" linenr="46" str="=" scope="0x19a1700" type="op" isAssignmentOp="True" astOperand1="0x19a6a00" astOperand2="0x19a6c10"/>
+    <token id="0x19a6c10" file="GroveTemperatureHumidity.cpp" linenr="46" str="&quot;/base_link&quot;" scope="0x19a1700" type="string" strlen="10" values="0x19a6c18" astParent="0x19a6b60"/>
+    <token id="0x19a6cc0" file="GroveTemperatureHumidity.cpp" linenr="46" str=";" scope="0x19a1700"/>
+    <token id="0x19a6d70" file="GroveTemperatureHumidity.cpp" linenr="47" str="humidity_msg" scope="0x19a1700" type="name" varId="3" variable="0x19ad9f0" astParent="0x19a6e20"/>
+    <token id="0x19a6e20" file="GroveTemperatureHumidity.cpp" linenr="47" str="." scope="0x19a1700" astParent="0x19a6f80" astOperand1="0x19a6d70" astOperand2="0x19a6ed0"/>
+    <token id="0x19a6ed0" file="GroveTemperatureHumidity.cpp" linenr="47" str="header" scope="0x19a1700" type="name" varId="11" astParent="0x19a6e20"/>
+    <token id="0x19a6f80" file="GroveTemperatureHumidity.cpp" linenr="47" str="." scope="0x19a1700" astParent="0x19a70e0" astOperand1="0x19a6e20" astOperand2="0x19a7030"/>
+    <token id="0x19a7030" file="GroveTemperatureHumidity.cpp" linenr="47" str="frame_id" scope="0x19a1700" type="name" varId="12" astParent="0x19a6f80"/>
+    <token id="0x19a70e0" file="GroveTemperatureHumidity.cpp" linenr="47" str="=" scope="0x19a1700" type="op" isAssignmentOp="True" astOperand1="0x19a6f80" astOperand2="0x19a7190"/>
+    <token id="0x19a7190" file="GroveTemperatureHumidity.cpp" linenr="47" str="&quot;/base_link&quot;" scope="0x19a1700" type="string" strlen="10" values="0x19a7198" astParent="0x19a70e0"/>
+    <token id="0x19a7240" file="GroveTemperatureHumidity.cpp" linenr="47" str=";" scope="0x19a1700"/>
+    <token id="0x19a72f0" file="GroveTemperatureHumidity.cpp" linenr="49" str="while" scope="0x19a1700" type="name" astParent="0x19a73a0"/>
+    <token id="0x19a73a0" file="GroveTemperatureHumidity.cpp" linenr="49" str="(" scope="0x19a1700" link="0x19a7500" astOperand1="0x19a72f0" astOperand2="0x19a7450"/>
+    <token id="0x19a7450" file="GroveTemperatureHumidity.cpp" linenr="49" str="1" scope="0x19a1700" type="number" isInt="True" values="0x19a7458" astParent="0x19a73a0"/>
+    <token id="0x19a7500" file="GroveTemperatureHumidity.cpp" linenr="49" str=")" scope="0x19a1700" link="0x19a73a0"/>
+    <token id="0x19a75b0" file="GroveTemperatureHumidity.cpp" linenr="50" str="{" scope="0x19ad660" link="0x19abe90"/>
+    <token id="0x19a7660" file="GroveTemperatureHumidity.cpp" linenr="52" str="if" scope="0x19ad660" type="name" astParent="0x19a7710"/>
+    <token id="0x19a7710" file="GroveTemperatureHumidity.cpp" linenr="52" str="(" scope="0x19ad660" link="0x19a7c90" astOperand1="0x19a7660" astOperand2="0x19a7b30"/>
+    <token id="0x19a77c0" file="GroveTemperatureHumidity.cpp" linenr="52" str="t" scope="0x19ad660" type="name" varId="6" variable="0x19adb40" astParent="0x19a7870"/>
+    <token id="0x19a7870" file="GroveTemperatureHumidity.cpp" linenr="52" str="." scope="0x19ad660" astParent="0x19a79d0" astOperand1="0x19a77c0" astOperand2="0x19a7920"/>
+    <token id="0x19a7920" file="GroveTemperatureHumidity.cpp" linenr="52" str="read_ms" scope="0x19ad660" type="name" astParent="0x19a7870"/>
+    <token id="0x19a79d0" file="GroveTemperatureHumidity.cpp" linenr="52" str="(" scope="0x19ad660" link="0x19a7a80" astParent="0x19a7b30" astOperand1="0x19a7870"/>
+    <token id="0x19a7a80" file="GroveTemperatureHumidity.cpp" linenr="52" str=")" scope="0x19ad660" link="0x19a79d0"/>
+    <token id="0x19a7b30" file="GroveTemperatureHumidity.cpp" linenr="52" str="&gt;" scope="0x19ad660" type="op" isComparisonOp="True" astParent="0x19a7710" astOperand1="0x19a79d0" astOperand2="0x19a7be0"/>
+    <token id="0x19a7be0" file="GroveTemperatureHumidity.cpp" linenr="52" str="publisher_timer" scope="0x19ad660" type="name" varId="8" variable="0x19adc20" values="0x19a7be8" astParent="0x19a7b30"/>
+    <token id="0x19a7c90" file="GroveTemperatureHumidity.cpp" linenr="52" str=")" scope="0x19ad660" link="0x19a7710"/>
+    <token id="0x19a7d40" file="GroveTemperatureHumidity.cpp" linenr="53" str="{" scope="0x19ad790" link="0x19ab9c0"/>
+    <token id="0x19a7df0" file="GroveTemperatureHumidity.cpp" linenr="54" str="error" scope="0x19ad790" type="name" varId="7" variable="0x19adbb0" astParent="0x19a7ea0"/>
+    <token id="0x19a7ea0" file="GroveTemperatureHumidity.cpp" linenr="54" str="=" scope="0x19ad790" type="op" isAssignmentOp="True" astOperand1="0x19a7df0" astOperand2="0x19a8160"/>
+    <token id="0x19a7f50" file="GroveTemperatureHumidity.cpp" linenr="54" str="sensor" scope="0x19ad790" type="name" astParent="0x19a8000"/>
+    <token id="0x19a8000" file="GroveTemperatureHumidity.cpp" linenr="54" str="." scope="0x19ad790" astParent="0x19a8160" astOperand1="0x19a7f50" astOperand2="0x19a80b0"/>
+    <token id="0x19a80b0" file="GroveTemperatureHumidity.cpp" linenr="54" str="readData" scope="0x19ad790" type="name" astParent="0x19a8000"/>
+    <token id="0x19a8160" file="GroveTemperatureHumidity.cpp" linenr="54" str="(" scope="0x19ad790" link="0x19a8210" astParent="0x19a7ea0" astOperand1="0x19a8000"/>
+    <token id="0x19a8210" file="GroveTemperatureHumidity.cpp" linenr="54" str=")" scope="0x19ad790" link="0x19a8160"/>
+    <token id="0x19a82c0" file="GroveTemperatureHumidity.cpp" linenr="54" str=";" scope="0x19ad790"/>
+    <token id="0x19a8370" file="GroveTemperatureHumidity.cpp" linenr="55" str="if" scope="0x19ad790" type="name" astParent="0x19a8420"/>
+    <token id="0x19a8420" file="GroveTemperatureHumidity.cpp" linenr="55" str="(" scope="0x19ad790" link="0x19a86e0" astOperand1="0x19a8370" astOperand2="0x19a8580"/>
+    <token id="0x19a84d0" file="GroveTemperatureHumidity.cpp" linenr="55" str="0" scope="0x19ad790" type="number" isInt="True" values="0x19a84d8" astParent="0x19a8580"/>
+    <token id="0x19a8580" file="GroveTemperatureHumidity.cpp" linenr="55" str="==" scope="0x19ad790" type="op" isComparisonOp="True" astParent="0x19a8420" astOperand1="0x19a84d0" astOperand2="0x19a8630"/>
+    <token id="0x19a8630" file="GroveTemperatureHumidity.cpp" linenr="55" str="error" scope="0x19ad790" type="name" varId="7" variable="0x19adbb0" astParent="0x19a8580"/>
+    <token id="0x19a86e0" file="GroveTemperatureHumidity.cpp" linenr="55" str=")" scope="0x19ad790" link="0x19a8420"/>
+    <token id="0x19a8790" file="GroveTemperatureHumidity.cpp" linenr="56" str="{" scope="0x19ad8c0" link="0x19ab230"/>
+    <token id="0x19a8840" file="GroveTemperatureHumidity.cpp" linenr="57" str="temp_msg" scope="0x19ad8c0" type="name" varId="2" variable="0x19af680" astParent="0x19a88f0"/>
+    <token id="0x19a88f0" file="GroveTemperatureHumidity.cpp" linenr="57" str="." scope="0x19ad8c0" astParent="0x19a8a50" astOperand1="0x19a8840" astOperand2="0x19a89a0"/>
+    <token id="0x19a89a0" file="GroveTemperatureHumidity.cpp" linenr="57" str="temperature" scope="0x19ad8c0" type="name" varId="13" astParent="0x19a88f0"/>
+    <token id="0x19a8a50" file="GroveTemperatureHumidity.cpp" linenr="57" str="=" scope="0x19ad8c0" type="op" isAssignmentOp="True" astOperand1="0x19a88f0" astOperand2="0x19a8d10"/>
+    <token id="0x19a8b00" file="GroveTemperatureHumidity.cpp" linenr="57" str="sensor" scope="0x19ad8c0" type="name" astParent="0x19a8bb0"/>
+    <token id="0x19a8bb0" file="GroveTemperatureHumidity.cpp" linenr="57" str="." scope="0x19ad8c0" astParent="0x19a8d10" astOperand1="0x19a8b00" astOperand2="0x19a8c60"/>
+    <token id="0x19a8c60" file="GroveTemperatureHumidity.cpp" linenr="57" str="ReadTemperature" scope="0x19ad8c0" type="name" astParent="0x19a8bb0"/>
+    <token id="0x19a8d10" file="GroveTemperatureHumidity.cpp" linenr="57" str="(" scope="0x19ad8c0" link="0x19a8e70" astParent="0x19a8a50" astOperand1="0x19a8bb0" astOperand2="0x19a8dc0"/>
+    <token id="0x19a8dc0" file="GroveTemperatureHumidity.cpp" linenr="57" str="CELCIUS" scope="0x19ad8c0" type="name" astParent="0x19a8d10"/>
+    <token id="0x19a8e70" file="GroveTemperatureHumidity.cpp" linenr="57" str=")" scope="0x19ad8c0" link="0x19a8d10"/>
+    <token id="0x19a8f20" file="GroveTemperatureHumidity.cpp" linenr="57" str=";" scope="0x19ad8c0"/>
+    <token id="0x19a8fd0" file="GroveTemperatureHumidity.cpp" linenr="58" str="temp_msg" scope="0x19ad8c0" type="name" varId="2" variable="0x19af680" astParent="0x19a9080"/>
+    <token id="0x19a9080" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19ad8c0" astParent="0x19a91e0" astOperand1="0x19a8fd0" astOperand2="0x19a9130"/>
+    <token id="0x19a9130" file="GroveTemperatureHumidity.cpp" linenr="58" str="header" scope="0x19ad8c0" type="name" varId="9" astParent="0x19a9080"/>
+    <token id="0x19a91e0" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19ad8c0" astParent="0x19a9340" astOperand1="0x19a9080" astOperand2="0x19a9290"/>
+    <token id="0x19a9290" file="GroveTemperatureHumidity.cpp" linenr="58" str="stamp" scope="0x19ad8c0" type="name" varId="14" astParent="0x19a91e0"/>
+    <token id="0x19a9340" file="GroveTemperatureHumidity.cpp" linenr="58" str="=" scope="0x19ad8c0" type="op" isAssignmentOp="True" astOperand1="0x19a91e0" astOperand2="0x19a9600"/>
+    <token id="0x19a93f0" file="GroveTemperatureHumidity.cpp" linenr="58" str="nh" scope="0x19ad8c0" type="name" varId="1" variable="0x19af610" astParent="0x19a94a0"/>
+    <token id="0x19a94a0" file="GroveTemperatureHumidity.cpp" linenr="58" str="." scope="0x19ad8c0" astParent="0x19a9600" astOperand1="0x19a93f0" astOperand2="0x19a9550"/>
+    <token id="0x19a9550" file="GroveTemperatureHumidity.cpp" linenr="58" str="now" scope="0x19ad8c0" type="name" astParent="0x19a94a0"/>
+    <token id="0x19a9600" file="GroveTemperatureHumidity.cpp" linenr="58" str="(" scope="0x19ad8c0" link="0x19a96b0" astParent="0x19a9340" astOperand1="0x19a94a0"/>
+    <token id="0x19a96b0" file="GroveTemperatureHumidity.cpp" linenr="58" str=")" scope="0x19ad8c0" link="0x19a9600"/>
+    <token id="0x19a9760" file="GroveTemperatureHumidity.cpp" linenr="58" str=";" scope="0x19ad8c0"/>
+    <token id="0x19a9810" file="GroveTemperatureHumidity.cpp" linenr="59" str="pub_temp" scope="0x19ad8c0" type="name" varId="4" variable="0x19ada60" astParent="0x19a98c0"/>
+    <token id="0x19a98c0" file="GroveTemperatureHumidity.cpp" linenr="59" str="." scope="0x19ad8c0" astParent="0x19a9a20" astOperand1="0x19a9810" astOperand2="0x19a9970"/>
+    <token id="0x19a9970" file="GroveTemperatureHumidity.cpp" linenr="59" str="publish" scope="0x19ad8c0" type="name" astParent="0x19a98c0"/>
+    <token id="0x19a9a20" file="GroveTemperatureHumidity.cpp" linenr="59" str="(" scope="0x19ad8c0" link="0x19a9c30" astOperand1="0x19a98c0" astOperand2="0x19a9ad0"/>
+    <token id="0x19a9ad0" file="GroveTemperatureHumidity.cpp" linenr="59" str="&amp;" scope="0x19ad8c0" type="op" astParent="0x19a9a20" astOperand1="0x19a9b80"/>
+    <token id="0x19a9b80" file="GroveTemperatureHumidity.cpp" linenr="59" str="temp_msg" scope="0x19ad8c0" type="name" varId="2" variable="0x19af680" astParent="0x19a9ad0"/>
+    <token id="0x19a9c30" file="GroveTemperatureHumidity.cpp" linenr="59" str=")" scope="0x19ad8c0" link="0x19a9a20"/>
+    <token id="0x19a9ce0" file="GroveTemperatureHumidity.cpp" linenr="59" str=";" scope="0x19ad8c0"/>
+    <token id="0x19a9d90" file="GroveTemperatureHumidity.cpp" linenr="61" str="humidity_msg" scope="0x19ad8c0" type="name" varId="3" variable="0x19ad9f0" astParent="0x19a9e40"/>
+    <token id="0x19a9e40" file="GroveTemperatureHumidity.cpp" linenr="61" str="." scope="0x19ad8c0" astParent="0x19a9fa0" astOperand1="0x19a9d90" astOperand2="0x19a9ef0"/>
+    <token id="0x19a9ef0" file="GroveTemperatureHumidity.cpp" linenr="61" str="relative_humidity" scope="0x19ad8c0" type="name" varId="15" astParent="0x19a9e40"/>
+    <token id="0x19a9fa0" file="GroveTemperatureHumidity.cpp" linenr="61" str="=" scope="0x19ad8c0" type="op" isAssignmentOp="True" astOperand1="0x19a9e40" astOperand2="0x19aa260"/>
+    <token id="0x19aa050" file="GroveTemperatureHumidity.cpp" linenr="61" str="sensor" scope="0x19ad8c0" type="name" astParent="0x19aa100"/>
+    <token id="0x19aa100" file="GroveTemperatureHumidity.cpp" linenr="61" str="." scope="0x19ad8c0" astParent="0x19aa260" astOperand1="0x19aa050" astOperand2="0x19aa1b0"/>
+    <token id="0x19aa1b0" file="GroveTemperatureHumidity.cpp" linenr="61" str="ReadHumidity" scope="0x19ad8c0" type="name" astParent="0x19aa100"/>
+    <token id="0x19aa260" file="GroveTemperatureHumidity.cpp" linenr="61" str="(" scope="0x19ad8c0" link="0x19aa310" astParent="0x19a9fa0" astOperand1="0x19aa100"/>
+    <token id="0x19aa310" file="GroveTemperatureHumidity.cpp" linenr="61" str=")" scope="0x19ad8c0" link="0x19aa260"/>
+    <token id="0x19aa3c0" file="GroveTemperatureHumidity.cpp" linenr="61" str=";" scope="0x19ad8c0"/>
+    <token id="0x19aa470" file="GroveTemperatureHumidity.cpp" linenr="62" str="humidity_msg" scope="0x19ad8c0" type="name" varId="3" variable="0x19ad9f0" astParent="0x19aa520"/>
+    <token id="0x19aa520" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19ad8c0" astParent="0x19aa680" astOperand1="0x19aa470" astOperand2="0x19aa5d0"/>
+    <token id="0x19aa5d0" file="GroveTemperatureHumidity.cpp" linenr="62" str="header" scope="0x19ad8c0" type="name" varId="11" astParent="0x19aa520"/>
+    <token id="0x19aa680" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19ad8c0" astParent="0x19aa7e0" astOperand1="0x19aa520" astOperand2="0x19aa730"/>
+    <token id="0x19aa730" file="GroveTemperatureHumidity.cpp" linenr="62" str="stamp" scope="0x19ad8c0" type="name" varId="16" astParent="0x19aa680"/>
+    <token id="0x19aa7e0" file="GroveTemperatureHumidity.cpp" linenr="62" str="=" scope="0x19ad8c0" type="op" isAssignmentOp="True" astOperand1="0x19aa680" astOperand2="0x19aaaa0"/>
+    <token id="0x19aa890" file="GroveTemperatureHumidity.cpp" linenr="62" str="nh" scope="0x19ad8c0" type="name" varId="1" variable="0x19af610" astParent="0x19aa940"/>
+    <token id="0x19aa940" file="GroveTemperatureHumidity.cpp" linenr="62" str="." scope="0x19ad8c0" astParent="0x19aaaa0" astOperand1="0x19aa890" astOperand2="0x19aa9f0"/>
+    <token id="0x19aa9f0" file="GroveTemperatureHumidity.cpp" linenr="62" str="now" scope="0x19ad8c0" type="name" astParent="0x19aa940"/>
+    <token id="0x19aaaa0" file="GroveTemperatureHumidity.cpp" linenr="62" str="(" scope="0x19ad8c0" link="0x19aab50" astParent="0x19aa7e0" astOperand1="0x19aa940"/>
+    <token id="0x19aab50" file="GroveTemperatureHumidity.cpp" linenr="62" str=")" scope="0x19ad8c0" link="0x19aaaa0"/>
+    <token id="0x19aac00" file="GroveTemperatureHumidity.cpp" linenr="62" str=";" scope="0x19ad8c0"/>
+    <token id="0x19aacb0" file="GroveTemperatureHumidity.cpp" linenr="63" str="pub_humidity" scope="0x19ad8c0" type="name" varId="5" variable="0x19adad0" astParent="0x19aad60"/>
+    <token id="0x19aad60" file="GroveTemperatureHumidity.cpp" linenr="63" str="." scope="0x19ad8c0" astParent="0x19aaec0" astOperand1="0x19aacb0" astOperand2="0x19aae10"/>
+    <token id="0x19aae10" file="GroveTemperatureHumidity.cpp" linenr="63" str="publish" scope="0x19ad8c0" type="name" astParent="0x19aad60"/>
+    <token id="0x19aaec0" file="GroveTemperatureHumidity.cpp" linenr="63" str="(" scope="0x19ad8c0" link="0x19ab0d0" astOperand1="0x19aad60" astOperand2="0x19aaf70"/>
+    <token id="0x19aaf70" file="GroveTemperatureHumidity.cpp" linenr="63" str="&amp;" scope="0x19ad8c0" type="op" astParent="0x19aaec0" astOperand1="0x19ab020"/>
+    <token id="0x19ab020" file="GroveTemperatureHumidity.cpp" linenr="63" str="humidity_msg" scope="0x19ad8c0" type="name" varId="3" variable="0x19ad9f0" astParent="0x19aaf70"/>
+    <token id="0x19ab0d0" file="GroveTemperatureHumidity.cpp" linenr="63" str=")" scope="0x19ad8c0" link="0x19aaec0"/>
+    <token id="0x19ab180" file="GroveTemperatureHumidity.cpp" linenr="63" str=";" scope="0x19ad8c0"/>
+    <token id="0x19ab230" file="GroveTemperatureHumidity.cpp" linenr="64" str="}" scope="0x19ad8c0" link="0x19a8790"/>
+    <token id="0x19ab2e0" file="GroveTemperatureHumidity.cpp" linenr="65" str="publisher_timer" scope="0x19ad790" type="name" varId="8" variable="0x19adc20" astParent="0x19ab390"/>
+    <token id="0x19ab390" file="GroveTemperatureHumidity.cpp" linenr="65" str="=" scope="0x19ad790" type="op" isAssignmentOp="True" astOperand1="0x19ab2e0" astOperand2="0x19ab7b0"/>
+    <token id="0x19ab440" file="GroveTemperatureHumidity.cpp" linenr="65" str="t" scope="0x19ad790" type="name" varId="6" variable="0x19adb40" astParent="0x19ab4f0"/>
+    <token id="0x19ab4f0" file="GroveTemperatureHumidity.cpp" linenr="65" str="." scope="0x19ad790" astParent="0x19ab650" astOperand1="0x19ab440" astOperand2="0x19ab5a0"/>
+    <token id="0x19ab5a0" file="GroveTemperatureHumidity.cpp" linenr="65" str="read_ms" scope="0x19ad790" type="name" astParent="0x19ab4f0"/>
+    <token id="0x19ab650" file="GroveTemperatureHumidity.cpp" linenr="65" str="(" scope="0x19ad790" link="0x19ab700" astParent="0x19ab7b0" astOperand1="0x19ab4f0"/>
+    <token id="0x19ab700" file="GroveTemperatureHumidity.cpp" linenr="65" str=")" scope="0x19ad790" link="0x19ab650"/>
+    <token id="0x19ab7b0" file="GroveTemperatureHumidity.cpp" linenr="65" str="+" scope="0x19ad790" type="op" isArithmeticalOp="True" astParent="0x19ab390" astOperand1="0x19ab650" astOperand2="0x19ab860"/>
+    <token id="0x19ab860" file="GroveTemperatureHumidity.cpp" linenr="65" str="1000" scope="0x19ad790" type="number" isInt="True" values="0x19ab868" astParent="0x19ab7b0"/>
+    <token id="0x19ab910" file="GroveTemperatureHumidity.cpp" linenr="65" str=";" scope="0x19ad790"/>
+    <token id="0x19ab9c0" file="GroveTemperatureHumidity.cpp" linenr="66" str="}" scope="0x19ad790" link="0x19a7d40"/>
+    <token id="0x19aba70" file="GroveTemperatureHumidity.cpp" linenr="67" str="nh" scope="0x19ad660" type="name" varId="1" variable="0x19af610" astParent="0x19abb20"/>
+    <token id="0x19abb20" file="GroveTemperatureHumidity.cpp" linenr="67" str="." scope="0x19ad660" astParent="0x19abc80" astOperand1="0x19aba70" astOperand2="0x19abbd0"/>
+    <token id="0x19abbd0" file="GroveTemperatureHumidity.cpp" linenr="67" str="spinOnce" scope="0x19ad660" type="name" astParent="0x19abb20"/>
+    <token id="0x19abc80" file="GroveTemperatureHumidity.cpp" linenr="67" str="(" scope="0x19ad660" link="0x19abd30" astOperand1="0x19abb20"/>
+    <token id="0x19abd30" file="GroveTemperatureHumidity.cpp" linenr="67" str=")" scope="0x19ad660" link="0x19abc80"/>
+    <token id="0x19abde0" file="GroveTemperatureHumidity.cpp" linenr="67" str=";" scope="0x19ad660"/>
+    <token id="0x19abe90" file="GroveTemperatureHumidity.cpp" linenr="68" str="}" scope="0x19ad660" link="0x19a75b0"/>
+    <token id="0x19abf40" file="GroveTemperatureHumidity.cpp" linenr="69" str="}" scope="0x19a1700" link="0x19a4e50"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x19ac310" type="Global">
+      <functionList>
+        <function id="0x19ac000" tokenDef="0x19af2a0" name="sensor">
+          <arg nr="1" variable="0x19adc90"/>
+          <arg nr="2" variable="0x19add00"/>
+        </function>
+        <function id="0x19ac0a0" tokenDef="0x19a4c40" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x19af610"/>
+        <var id="0x19af680"/>
+        <var id="0x19ad9f0"/>
+        <var id="0x19ada60"/>
+        <var id="0x19adad0"/>
+        <var id="0x19adb40"/>
+      </varlist>
+    </scope>
+    <scope id="0x19a1700" type="Function" className="main" classStart="0x19a4e50" classEnd="0x19abf40" nestedIn="0x19ac310" function="0x19ac0a0">
+      <varlist>
+        <var id="0x19adbb0"/>
+        <var id="0x19adc20"/>
+      </varlist>
+    </scope>
+    <scope id="0x19ad660" type="While" classStart="0x19a75b0" classEnd="0x19abe90" nestedIn="0x19a1700"/>
+    <scope id="0x19ad790" type="If" classStart="0x19a7d40" classEnd="0x19ab9c0" nestedIn="0x19ad660"/>
+    <scope id="0x19ad8c0" type="If" classStart="0x19a8790" classEnd="0x19ab230" nestedIn="0x19ad790"/>
+  </scopes>
+  <variables>
+    <var id="0x19af610" nameToken="0x19a1ba0" typeStartToken="0x19a1ed0" typeEndToken="0x19a1af0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19af680" nameToken="0x19af790" typeStartToken="0x19a1d00" typeEndToken="0x19af6e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19ad9f0" nameToken="0x19afb00" typeStartToken="0x19af8f0" typeEndToken="0x19afa50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19ada60" nameToken="0x19a12d0" typeStartToken="0x19a10c0" typeEndToken="0x19a1220" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19adad0" nameToken="0x19ae630" typeStartToken="0x19ae420" typeEndToken="0x19ae580" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19adb40" nameToken="0x19af090" typeStartToken="0x19aefe0" typeEndToken="0x19aefe0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19adbb0" nameToken="0x19a4fb0" typeStartToken="0x19a4f00" typeEndToken="0x19a4f00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19adc20" nameToken="0x19a6530" typeStartToken="0x19a6480" typeEndToken="0x19a6480" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x19a1438">
+      <value tokvalue="0x19a1430" known="true"/>
+    </values>
+    <values id="0x19aebc8">
+      <value tokvalue="0x19aebc0" known="true"/>
+    </values>
+    <values id="0x19a5118">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19a6698">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19a6c18">
+      <value tokvalue="0x19a6c10" known="true"/>
+    </values>
+    <values id="0x19a7198">
+      <value tokvalue="0x19a7190" known="true"/>
+    </values>
+    <values id="0x19a7458">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19a7be8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x19a84d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19ab868">
+      <value intvalue="1000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

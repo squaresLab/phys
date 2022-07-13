@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd58690" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0xd550c0" file="Ultrasound.cpp" linenr="12" str="ros" scope="0xd54ec0" type="name" astParent="0xd46420"/>
+    <token id="0xd46420" file="Ultrasound.cpp" linenr="12" str="::" scope="0xd54ec0" astOperand1="0xd550c0" astOperand2="0xd54b90"/>
+    <token id="0xd464d0" file="Ultrasound.cpp" linenr="12" str="NodeHandle" scope="0xd54ec0" type="name"/>
+    <token id="0xd54b90" file="Ultrasound.cpp" linenr="12" str="nh" scope="0xd54ec0" type="name" varId="1" variable="0xd62490" astParent="0xd46420"/>
+    <token id="0xd54c40" file="Ultrasound.cpp" linenr="12" str=";" scope="0xd54ec0"/>
+    <token id="0xd58620" file="Ultrasound.cpp" linenr="14" str="sensor_msgs" scope="0xd54ec0" type="name" astParent="0xd586d0"/>
+    <token id="0xd586d0" file="Ultrasound.cpp" linenr="14" str="::" scope="0xd54ec0" astOperand1="0xd58620" astOperand2="0xd545e0"/>
+    <token id="0xd54530" file="Ultrasound.cpp" linenr="14" str="Range" scope="0xd54ec0" type="name"/>
+    <token id="0xd545e0" file="Ultrasound.cpp" linenr="14" str="range_msg" scope="0xd54ec0" type="name" varId="2" variable="0xd62500" astParent="0xd586d0"/>
+    <token id="0xd54690" file="Ultrasound.cpp" linenr="14" str=";" scope="0xd54ec0"/>
+    <token id="0xd54740" file="Ultrasound.cpp" linenr="15" str="ros" scope="0xd54ec0" type="name" astParent="0xd547f0"/>
+    <token id="0xd547f0" file="Ultrasound.cpp" linenr="15" str="::" scope="0xd54ec0" astParent="0xd54a00" astOperand1="0xd54740" astOperand2="0xd54950"/>
+    <token id="0xd548a0" file="Ultrasound.cpp" linenr="15" str="Publisher" scope="0xd54ec0" type="name"/>
+    <token id="0xd54950" file="Ultrasound.cpp" linenr="15" str="pub_range" scope="0xd54ec0" type="name" varId="3" variable="0xd62570" astParent="0xd547f0"/>
+    <token id="0xd54a00" file="Ultrasound.cpp" linenr="15" str="(" scope="0xd54ec0" link="0xd58af0" astOperand1="0xd547f0" astOperand2="0xd588e0"/>
+    <token id="0xd58830" file="Ultrasound.cpp" linenr="15" str="&quot;/ultrasound&quot;" scope="0xd54ec0" type="string" strlen="11" values="0xd58838" astParent="0xd588e0"/>
+    <token id="0xd588e0" file="Ultrasound.cpp" linenr="15" str="," scope="0xd54ec0" astParent="0xd54a00" astOperand1="0xd58830" astOperand2="0xd58990"/>
+    <token id="0xd58990" file="Ultrasound.cpp" linenr="15" str="&amp;" scope="0xd54ec0" type="op" astParent="0xd588e0" astOperand1="0xd58a40"/>
+    <token id="0xd58a40" file="Ultrasound.cpp" linenr="15" str="range_msg" scope="0xd54ec0" type="name" varId="2" variable="0xd62500" astParent="0xd58990"/>
+    <token id="0xd58af0" file="Ultrasound.cpp" linenr="15" str=")" scope="0xd54ec0" link="0xd54a00"/>
+    <token id="0xd58ba0" file="Ultrasound.cpp" linenr="15" str=";" scope="0xd54ec0"/>
+    <token id="0xd58c50" file="Ultrasound.cpp" linenr="18" str="const" scope="0xd54ec0" type="name"/>
+    <token id="0xd58d00" file="Ultrasound.cpp" linenr="18" str="PinName" scope="0xd54ec0" type="name"/>
+    <token id="0xd58db0" file="Ultrasound.cpp" linenr="18" str="adc_pin" scope="0xd54ec0" type="name" varId="4" variable="0xd625e0" astParent="0xd58e60"/>
+    <token id="0xd58e60" file="Ultrasound.cpp" linenr="18" str="=" scope="0xd54ec0" type="op" isAssignmentOp="True" astOperand1="0xd58db0" astOperand2="0xd57850"/>
+    <token id="0xd57850" file="Ultrasound.cpp" linenr="18" str="p20" scope="0xd54ec0" type="name" astParent="0xd58e60"/>
+    <token id="0xd57900" file="Ultrasound.cpp" linenr="18" str=";" scope="0xd54ec0"/>
+    <token id="0xd579b0" file="Ultrasound.cpp" linenr="25" str="char" scope="0xd54ec0" type="name"/>
+    <token id="0xd57a60" file="Ultrasound.cpp" linenr="25" str="frameid" scope="0xd54ec0" type="name" varId="5" variable="0xd62650" astParent="0xd57b10"/>
+    <token id="0xd57b10" file="Ultrasound.cpp" linenr="25" str="[" scope="0xd54ec0" link="0xd57bc0" astParent="0xd57c70" astOperand1="0xd57a60" astOperand2="0xd60f40"/>
+    <token id="0xd60f40" file="Ultrasound.cpp" linenr="25" str="12" scope="0xd54ec0" type="number" isInt="True" values="0xd60f48" astParent="0xd57b10"/>
+    <token id="0xd57bc0" file="Ultrasound.cpp" linenr="25" str="]" scope="0xd54ec0" link="0xd57b10"/>
+    <token id="0xd57c70" file="Ultrasound.cpp" linenr="25" str="=" scope="0xd54ec0" type="op" isAssignmentOp="True" astOperand1="0xd57b10" astOperand2="0xd57d20"/>
+    <token id="0xd57d20" file="Ultrasound.cpp" linenr="25" str="&quot;/ultrasound&quot;" scope="0xd54ec0" type="string" strlen="11" values="0xd57d28" astParent="0xd57c70"/>
+    <token id="0xd57dd0" file="Ultrasound.cpp" linenr="25" str=";" scope="0xd54ec0"/>
+    <token id="0xd57e80" file="Ultrasound.cpp" linenr="27" str="float" scope="0xd54ec0" type="name"/>
+    <token id="0xd57f30" file="Ultrasound.cpp" linenr="27" str="getRange_Ultrasound" scope="0xd54ec0" type="name" function="0xd54ff0" astParent="0xd57fe0"/>
+    <token id="0xd57fe0" file="Ultrasound.cpp" linenr="27" str="(" scope="0xd54ec0" link="0xd59300" astOperand1="0xd57f30" astOperand2="0xd58140"/>
+    <token id="0xd58090" file="Ultrasound.cpp" linenr="27" str="PinName" scope="0xd54ec0" type="name"/>
+    <token id="0xd58140" file="Ultrasound.cpp" linenr="27" str="pin_num" scope="0xd54ec0" type="name" varId="6" variable="0xd62880" astParent="0xd57fe0"/>
+    <token id="0xd59300" file="Ultrasound.cpp" linenr="27" str=")" scope="0xd54ec0" link="0xd57fe0"/>
+    <token id="0xd593b0" file="Ultrasound.cpp" linenr="27" str="{" scope="0xd61260" link="0xd5b090"/>
+    <token id="0xd59460" file="Ultrasound.cpp" linenr="28" str="int" scope="0xd61260" type="name"/>
+    <token id="0xd59510" file="Ultrasound.cpp" linenr="28" str="val" scope="0xd61260" type="name" varId="7" variable="0xd62730"/>
+    <token id="0xd595c0" file="Ultrasound.cpp" linenr="28" str=";" scope="0xd61260"/>
+    <token id="0xd54110" file="Ultrasound.cpp" linenr="28" str="val" scope="0xd61260" type="name" varId="7" variable="0xd62730" astParent="0xd541c0"/>
+    <token id="0xd541c0" file="Ultrasound.cpp" linenr="28" str="=" scope="0xd61260" type="op" isAssignmentOp="True" astOperand1="0xd54110" astOperand2="0xd59670"/>
+    <token id="0xd59670" file="Ultrasound.cpp" linenr="28" str="0" scope="0xd61260" type="number" isInt="True" values="0xd59678" astParent="0xd541c0"/>
+    <token id="0xd59720" file="Ultrasound.cpp" linenr="28" str=";" scope="0xd61260"/>
+    <token id="0xd597d0" file="Ultrasound.cpp" linenr="29" str="for" scope="0xd61260" type="name" astParent="0xd59880"/>
+    <token id="0xd59880" file="Ultrasound.cpp" linenr="29" str="(" scope="0xd61260" link="0xd5a0c0" astOperand1="0xd597d0" astOperand2="0xd59bf0"/>
+    <token id="0xd59930" file="Ultrasound.cpp" linenr="29" str="int" scope="0xd61260" type="name"/>
+    <token id="0xd599e0" file="Ultrasound.cpp" linenr="29" str="i" scope="0xd61260" type="name" varId="8" variable="0xd61fb0" astParent="0xd59a90"/>
+    <token id="0xd59a90" file="Ultrasound.cpp" linenr="29" str="=" scope="0xd61260" type="op" isAssignmentOp="True" astParent="0xd59bf0" astOperand1="0xd599e0" astOperand2="0xd59b40"/>
+    <token id="0xd59b40" file="Ultrasound.cpp" linenr="29" str="0" scope="0xd61260" type="number" isInt="True" values="0xd59b48" astParent="0xd59a90"/>
+    <token id="0xd59bf0" file="Ultrasound.cpp" linenr="29" str=";" scope="0xd61260" astParent="0xd59880" astOperand1="0xd59a90" astOperand2="0xd59eb0"/>
+    <token id="0xd59ca0" file="Ultrasound.cpp" linenr="29" str="i" scope="0xd61260" type="name" varId="8" variable="0xd61fb0" astParent="0xd59d50"/>
+    <token id="0xd59d50" file="Ultrasound.cpp" linenr="29" str="&lt;" scope="0xd61260" type="op" isComparisonOp="True" astParent="0xd59eb0" astOperand1="0xd59ca0" astOperand2="0xd59e00"/>
+    <token id="0xd59e00" file="Ultrasound.cpp" linenr="29" str="4" scope="0xd61260" type="number" isInt="True" values="0xd59e08" astParent="0xd59d50"/>
+    <token id="0xd59eb0" file="Ultrasound.cpp" linenr="29" str=";" scope="0xd61260" astParent="0xd59bf0" astOperand1="0xd59d50" astOperand2="0xd5a010"/>
+    <token id="0xd59f60" file="Ultrasound.cpp" linenr="29" str="i" scope="0xd61260" type="name" varId="8" variable="0xd61fb0" astParent="0xd5a010"/>
+    <token id="0xd5a010" file="Ultrasound.cpp" linenr="29" str="++" scope="0xd61260" type="op" astParent="0xd59eb0" astOperand1="0xd59f60"/>
+    <token id="0xd5a0c0" file="Ultrasound.cpp" linenr="29" str=")" scope="0xd61260" link="0xd59880"/>
+    <token id="0xd5a2d0" file="Ultrasound.cpp" linenr="29" str="{" scope="0xd61e80" link="0xd5e8f0"/>
+    <token id="0xd5a170" file="Ultrasound.cpp" linenr="29" str="val" scope="0xd61e80" type="name" varId="7" variable="0xd62730" astParent="0xd5a220"/>
+    <token id="0xd5a220" file="Ultrasound.cpp" linenr="29" str="+=" scope="0xd61e80" type="op" isAssignmentOp="True" astOperand1="0xd5a170" astOperand2="0xd5a7a0"/>
+    <token id="0xd5a380" file="Ultrasound.cpp" linenr="29" str="AnalogIn" scope="0xd61e80" type="name" astParent="0xd5a430"/>
+    <token id="0xd5a430" file="Ultrasound.cpp" linenr="29" str="(" scope="0xd61e80" link="0xd5a590" astParent="0xd5a640" astOperand1="0xd5a380" astOperand2="0xd5a4e0"/>
+    <token id="0xd5a4e0" file="Ultrasound.cpp" linenr="29" str="pin_num" scope="0xd61e80" type="name" varId="6" variable="0xd62880" astParent="0xd5a430"/>
+    <token id="0xd5a590" file="Ultrasound.cpp" linenr="29" str=")" scope="0xd61e80" link="0xd5a430"/>
+    <token id="0xd5a640" file="Ultrasound.cpp" linenr="29" str="." scope="0xd61e80" astParent="0xd5a7a0" astOperand1="0xd5a430" astOperand2="0xd5a6f0"/>
+    <token id="0xd5a6f0" file="Ultrasound.cpp" linenr="29" str="read_u16" scope="0xd61e80" type="name" astParent="0xd5a640"/>
+    <token id="0xd5a7a0" file="Ultrasound.cpp" linenr="29" str="(" scope="0xd61e80" link="0xd5a850" astParent="0xd5a220" astOperand1="0xd5a640"/>
+    <token id="0xd5a850" file="Ultrasound.cpp" linenr="29" str=")" scope="0xd61e80" link="0xd5a7a0"/>
+    <token id="0xd5a900" file="Ultrasound.cpp" linenr="29" str=";" scope="0xd61e80"/>
+    <token id="0xd5e8f0" file="Ultrasound.cpp" linenr="29" str="}" scope="0xd61e80" link="0xd5a2d0"/>
+    <token id="0xd5a9b0" file="Ultrasound.cpp" linenr="30" str="float" scope="0xd61260" type="name"/>
+    <token id="0xd5aa60" file="Ultrasound.cpp" linenr="30" str="range" scope="0xd61260" type="name" varId="9" variable="0xd627a0"/>
+    <token id="0xd5ab10" file="Ultrasound.cpp" linenr="30" str=";" scope="0xd61260"/>
+    <token id="0xd60ce0" file="Ultrasound.cpp" linenr="30" str="range" scope="0xd61260" type="name" varId="9" variable="0xd627a0" astParent="0xd60d90"/>
+    <token id="0xd60d90" file="Ultrasound.cpp" linenr="30" str="=" scope="0xd61260" type="op" isAssignmentOp="True" astOperand1="0xd60ce0" astOperand2="0xd5abc0"/>
+    <token id="0xd5abc0" file="Ultrasound.cpp" linenr="30" str="val" scope="0xd61260" type="name" varId="7" variable="0xd62730" astParent="0xd60d90"/>
+    <token id="0xd5ac70" file="Ultrasound.cpp" linenr="30" str=";" scope="0xd61260"/>
+    <token id="0xd5ad20" file="Ultrasound.cpp" linenr="31" str="return" scope="0xd61260" type="name" astOperand1="0xd5ae80"/>
+    <token id="0xd5add0" file="Ultrasound.cpp" linenr="31" str="range" scope="0xd61260" type="name" varId="9" variable="0xd627a0" astParent="0xd5ae80"/>
+    <token id="0xd5ae80" file="Ultrasound.cpp" linenr="31" str="/" scope="0xd61260" type="op" isArithmeticalOp="True" astParent="0xd5ad20" astOperand1="0xd5add0" astOperand2="0xd5af30"/>
+    <token id="0xd5af30" file="Ultrasound.cpp" linenr="31" str="322.519685" scope="0xd61260" type="number" isFloat="True" astParent="0xd5ae80"/>
+    <token id="0xd5afe0" file="Ultrasound.cpp" linenr="31" str=";" scope="0xd61260"/>
+    <token id="0xd5b090" file="Ultrasound.cpp" linenr="32" str="}" scope="0xd61260" link="0xd593b0"/>
+    <token id="0xd5b140" file="Ultrasound.cpp" linenr="34" str="Timer" scope="0xd54ec0" type="name"/>
+    <token id="0xd5b1f0" file="Ultrasound.cpp" linenr="34" str="t" scope="0xd54ec0" type="name" varId="10" variable="0xd626c0"/>
+    <token id="0xd5b2a0" file="Ultrasound.cpp" linenr="34" str=";" scope="0xd54ec0"/>
+    <token id="0xd5b350" file="Ultrasound.cpp" linenr="35" str="int" scope="0xd54ec0" type="name"/>
+    <token id="0xd5b400" file="Ultrasound.cpp" linenr="35" str="main" scope="0xd54ec0" type="name" function="0xd62020" astParent="0xd5b4b0"/>
+    <token id="0xd5b4b0" file="Ultrasound.cpp" linenr="35" str="(" scope="0xd54ec0" link="0xd5b560" astOperand1="0xd5b400"/>
+    <token id="0xd5b560" file="Ultrasound.cpp" linenr="35" str=")" scope="0xd54ec0" link="0xd5b4b0"/>
+    <token id="0xd5b610" file="Ultrasound.cpp" linenr="35" str="{" scope="0xd620c0" link="0xd60c30"/>
+    <token id="0xd5b6c0" file="Ultrasound.cpp" linenr="36" str="t" scope="0xd620c0" type="name" varId="10" variable="0xd626c0" astParent="0xd5b770"/>
+    <token id="0xd5b770" file="Ultrasound.cpp" linenr="36" str="." scope="0xd620c0" astParent="0xd5b8d0" astOperand1="0xd5b6c0" astOperand2="0xd5b820"/>
+    <token id="0xd5b820" file="Ultrasound.cpp" linenr="36" str="start" scope="0xd620c0" type="name" astParent="0xd5b770"/>
+    <token id="0xd5b8d0" file="Ultrasound.cpp" linenr="36" str="(" scope="0xd620c0" link="0xd5b980" astOperand1="0xd5b770"/>
+    <token id="0xd5b980" file="Ultrasound.cpp" linenr="36" str=")" scope="0xd620c0" link="0xd5b8d0"/>
+    <token id="0xd5ba30" file="Ultrasound.cpp" linenr="36" str=";" scope="0xd620c0"/>
+    <token id="0xd5bae0" file="Ultrasound.cpp" linenr="37" str="nh" scope="0xd620c0" type="name" varId="1" variable="0xd62490" astParent="0xd5bb90"/>
+    <token id="0xd5bb90" file="Ultrasound.cpp" linenr="37" str="." scope="0xd620c0" astParent="0xd5bcf0" astOperand1="0xd5bae0" astOperand2="0xd5bc40"/>
+    <token id="0xd5bc40" file="Ultrasound.cpp" linenr="37" str="initNode" scope="0xd620c0" type="name" astParent="0xd5bb90"/>
+    <token id="0xd5bcf0" file="Ultrasound.cpp" linenr="37" str="(" scope="0xd620c0" link="0xd5bda0" astOperand1="0xd5bb90"/>
+    <token id="0xd5bda0" file="Ultrasound.cpp" linenr="37" str=")" scope="0xd620c0" link="0xd5bcf0"/>
+    <token id="0xd5be50" file="Ultrasound.cpp" linenr="37" str=";" scope="0xd620c0"/>
+    <token id="0xd5bf00" file="Ultrasound.cpp" linenr="38" str="nh" scope="0xd620c0" type="name" varId="1" variable="0xd62490" astParent="0xd5bfb0"/>
+    <token id="0xd5bfb0" file="Ultrasound.cpp" linenr="38" str="." scope="0xd620c0" astParent="0xd5c110" astOperand1="0xd5bf00" astOperand2="0xd5c060"/>
+    <token id="0xd5c060" file="Ultrasound.cpp" linenr="38" str="advertise" scope="0xd620c0" type="name" astParent="0xd5bfb0"/>
+    <token id="0xd5c110" file="Ultrasound.cpp" linenr="38" str="(" scope="0xd620c0" link="0xd5c270" astOperand1="0xd5bfb0" astOperand2="0xd5c1c0"/>
+    <token id="0xd5c1c0" file="Ultrasound.cpp" linenr="38" str="pub_range" scope="0xd620c0" type="name" varId="3" variable="0xd62570" astParent="0xd5c110"/>
+    <token id="0xd5c270" file="Ultrasound.cpp" linenr="38" str=")" scope="0xd620c0" link="0xd5c110"/>
+    <token id="0xd5c320" file="Ultrasound.cpp" linenr="38" str=";" scope="0xd620c0"/>
+    <token id="0xd5c3d0" file="Ultrasound.cpp" linenr="40" str="range_msg" scope="0xd620c0" type="name" varId="2" variable="0xd62500" astParent="0xd5c480"/>
+    <token id="0xd5c480" file="Ultrasound.cpp" linenr="40" str="." scope="0xd620c0" astParent="0xd5c5e0" astOperand1="0xd5c3d0" astOperand2="0xd5c530"/>
+    <token id="0xd5c530" file="Ultrasound.cpp" linenr="40" str="radiation_type" scope="0xd620c0" type="name" varId="11" astParent="0xd5c480"/>
+    <token id="0xd5c5e0" file="Ultrasound.cpp" linenr="40" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd5c480" astOperand2="0xd5c8a0"/>
+    <token id="0xd5c690" file="Ultrasound.cpp" linenr="40" str="sensor_msgs" scope="0xd620c0" type="name" astParent="0xd5c740"/>
+    <token id="0xd5c740" file="Ultrasound.cpp" linenr="40" str="::" scope="0xd620c0" astParent="0xd5c8a0" astOperand1="0xd5c690" astOperand2="0xd5c7f0"/>
+    <token id="0xd5c7f0" file="Ultrasound.cpp" linenr="40" str="Range" scope="0xd620c0" type="name" astParent="0xd5c740"/>
+    <token id="0xd5c8a0" file="Ultrasound.cpp" linenr="40" str="::" scope="0xd620c0" astParent="0xd5c5e0" astOperand1="0xd5c740" astOperand2="0xd5c950"/>
+    <token id="0xd5c950" file="Ultrasound.cpp" linenr="40" str="ULTRASOUND" scope="0xd620c0" type="name" astParent="0xd5c8a0"/>
+    <token id="0xd5ca00" file="Ultrasound.cpp" linenr="40" str=";" scope="0xd620c0"/>
+    <token id="0xd5cab0" file="Ultrasound.cpp" linenr="41" str="range_msg" scope="0xd620c0" type="name" varId="2" variable="0xd62500" astParent="0xd5cb60"/>
+    <token id="0xd5cb60" file="Ultrasound.cpp" linenr="41" str="." scope="0xd620c0" astParent="0xd5ccc0" astOperand1="0xd5cab0" astOperand2="0xd5cc10"/>
+    <token id="0xd5cc10" file="Ultrasound.cpp" linenr="41" str="header" scope="0xd620c0" type="name" varId="12" astParent="0xd5cb60"/>
+    <token id="0xd5ccc0" file="Ultrasound.cpp" linenr="41" str="." scope="0xd620c0" astParent="0xd5ce20" astOperand1="0xd5cb60" astOperand2="0xd5cd70"/>
+    <token id="0xd5cd70" file="Ultrasound.cpp" linenr="41" str="frame_id" scope="0xd620c0" type="name" varId="13" astParent="0xd5ccc0"/>
+    <token id="0xd5ce20" file="Ultrasound.cpp" linenr="41" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd5ccc0" astOperand2="0xd5ced0"/>
+    <token id="0xd5ced0" file="Ultrasound.cpp" linenr="41" str="frameid" scope="0xd620c0" type="name" varId="5" variable="0xd62650" astParent="0xd5ce20"/>
+    <token id="0xd5cf80" file="Ultrasound.cpp" linenr="41" str=";" scope="0xd620c0"/>
+    <token id="0xd5d030" file="Ultrasound.cpp" linenr="42" str="range_msg" scope="0xd620c0" type="name" varId="2" variable="0xd62500" astParent="0xd5d0e0"/>
+    <token id="0xd5d0e0" file="Ultrasound.cpp" linenr="42" str="." scope="0xd620c0" astParent="0xd5d240" astOperand1="0xd5d030" astOperand2="0xd5d190"/>
+    <token id="0xd5d190" file="Ultrasound.cpp" linenr="42" str="field_of_view" scope="0xd620c0" type="name" varId="14" astParent="0xd5d0e0"/>
+    <token id="0xd5d240" file="Ultrasound.cpp" linenr="42" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd5d0e0" astOperand2="0xd5d2f0"/>
+    <token id="0xd5d2f0" file="Ultrasound.cpp" linenr="42" str="0.1" scope="0xd620c0" type="number" isFloat="True" astParent="0xd5d240"/>
+    <token id="0xd5d3a0" file="Ultrasound.cpp" linenr="42" str=";" scope="0xd620c0"/>
+    <token id="0xd5d450" file="Ultrasound.cpp" linenr="43" str="range_msg" scope="0xd620c0" type="name" varId="2" variable="0xd62500" astParent="0xd5d500"/>
+    <token id="0xd5d500" file="Ultrasound.cpp" linenr="43" str="." scope="0xd620c0" astParent="0xd5d660" astOperand1="0xd5d450" astOperand2="0xd5d5b0"/>
+    <token id="0xd5d5b0" file="Ultrasound.cpp" linenr="43" str="min_range" scope="0xd620c0" type="name" varId="15" astParent="0xd5d500"/>
+    <token id="0xd5d660" file="Ultrasound.cpp" linenr="43" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd5d500" astOperand2="0xd5d710"/>
+    <token id="0xd5d710" file="Ultrasound.cpp" linenr="43" str="0.0" scope="0xd620c0" type="number" isFloat="True" astParent="0xd5d660"/>
+    <token id="0xd5d7c0" file="Ultrasound.cpp" linenr="43" str=";" scope="0xd620c0"/>
+    <token id="0xd5d870" file="Ultrasound.cpp" linenr="44" str="range_msg" scope="0xd620c0" type="name" varId="2" variable="0xd62500" astParent="0xd5d920"/>
+    <token id="0xd5d920" file="Ultrasound.cpp" linenr="44" str="." scope="0xd620c0" astParent="0xd5da80" astOperand1="0xd5d870" astOperand2="0xd5d9d0"/>
+    <token id="0xd5d9d0" file="Ultrasound.cpp" linenr="44" str="max_range" scope="0xd620c0" type="name" varId="16" astParent="0xd5d920"/>
+    <token id="0xd5da80" file="Ultrasound.cpp" linenr="44" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd5d920" astOperand2="0xd5db30"/>
+    <token id="0xd5db30" file="Ultrasound.cpp" linenr="44" str="6.47" scope="0xd620c0" type="number" isFloat="True" astParent="0xd5da80"/>
+    <token id="0xd5dbe0" file="Ultrasound.cpp" linenr="44" str=";" scope="0xd620c0"/>
+    <token id="0xd5dc90" file="Ultrasound.cpp" linenr="49" str="long" scope="0xd620c0" type="name"/>
+    <token id="0xd5dd40" file="Ultrasound.cpp" linenr="49" str="range_time" scope="0xd620c0" type="name" varId="17" variable="0xd62810"/>
+    <token id="0xd5ddf0" file="Ultrasound.cpp" linenr="49" str=";" scope="0xd620c0"/>
+    <token id="0xd60e40" file="Ultrasound.cpp" linenr="49" str="range_time" scope="0xd620c0" type="name" varId="17" variable="0xd62810" astParent="0xd611a0"/>
+    <token id="0xd611a0" file="Ultrasound.cpp" linenr="49" str="=" scope="0xd620c0" type="op" isAssignmentOp="True" astOperand1="0xd60e40" astOperand2="0xd5dea0"/>
+    <token id="0xd5dea0" file="Ultrasound.cpp" linenr="49" str="0" scope="0xd620c0" type="number" isInt="True" values="0xd5dea8" astParent="0xd611a0"/>
+    <token id="0xd5df50" file="Ultrasound.cpp" linenr="49" str=";" scope="0xd620c0"/>
+    <token id="0xd5e000" file="Ultrasound.cpp" linenr="51" str="while" scope="0xd620c0" type="name" astParent="0xd5e0b0"/>
+    <token id="0xd5e0b0" file="Ultrasound.cpp" linenr="51" str="(" scope="0xd620c0" link="0xd5e210" astOperand1="0xd5e000" astOperand2="0xd5e160"/>
+    <token id="0xd5e160" file="Ultrasound.cpp" linenr="51" str="1" scope="0xd620c0" type="number" isInt="True" values="0xd5e168" astParent="0xd5e0b0"/>
+    <token id="0xd5e210" file="Ultrasound.cpp" linenr="51" str=")" scope="0xd620c0" link="0xd5e0b0"/>
+    <token id="0xd5e2c0" file="Ultrasound.cpp" linenr="51" str="{" scope="0xd621f0" link="0xd60b80"/>
+    <token id="0xd5e370" file="Ultrasound.cpp" linenr="55" str="if" scope="0xd621f0" type="name" astParent="0xd5e420"/>
+    <token id="0xd5e420" file="Ultrasound.cpp" linenr="55" str="(" scope="0xd621f0" link="0xd5ea50" astOperand1="0xd5e370" astOperand2="0xd5e840"/>
+    <token id="0xd5e4d0" file="Ultrasound.cpp" linenr="55" str="t" scope="0xd621f0" type="name" varId="10" variable="0xd626c0" astParent="0xd5e580"/>
+    <token id="0xd5e580" file="Ultrasound.cpp" linenr="55" str="." scope="0xd621f0" astParent="0xd5e6e0" astOperand1="0xd5e4d0" astOperand2="0xd5e630"/>
+    <token id="0xd5e630" file="Ultrasound.cpp" linenr="55" str="read_ms" scope="0xd621f0" type="name" astParent="0xd5e580"/>
+    <token id="0xd5e6e0" file="Ultrasound.cpp" linenr="55" str="(" scope="0xd621f0" link="0xd5e790" astParent="0xd5e840" astOperand1="0xd5e580"/>
+    <token id="0xd5e790" file="Ultrasound.cpp" linenr="55" str=")" scope="0xd621f0" link="0xd5e6e0"/>
+    <token id="0xd5e840" file="Ultrasound.cpp" linenr="55" str="&gt;=" scope="0xd621f0" type="op" isComparisonOp="True" astParent="0xd5e420" astOperand1="0xd5e6e0" astOperand2="0xd5e9a0"/>
+    <token id="0xd5e9a0" file="Ultrasound.cpp" linenr="55" str="range_time" scope="0xd621f0" type="name" varId="17" variable="0xd62810" values="0xd5e9a8" astParent="0xd5e840"/>
+    <token id="0xd5ea50" file="Ultrasound.cpp" linenr="55" str=")" scope="0xd621f0" link="0xd5e420"/>
+    <token id="0xd5eb00" file="Ultrasound.cpp" linenr="55" str="{" scope="0xd62340" link="0xd606b0"/>
+    <token id="0xd5ebb0" file="Ultrasound.cpp" linenr="56" str="range_msg" scope="0xd62340" type="name" varId="2" variable="0xd62500" astParent="0xd5ec60"/>
+    <token id="0xd5ec60" file="Ultrasound.cpp" linenr="56" str="." scope="0xd62340" astParent="0xd5edc0" astOperand1="0xd5ebb0" astOperand2="0xd5ed10"/>
+    <token id="0xd5ed10" file="Ultrasound.cpp" linenr="56" str="range" scope="0xd62340" type="name" varId="18" astParent="0xd5ec60"/>
+    <token id="0xd5edc0" file="Ultrasound.cpp" linenr="56" str="=" scope="0xd62340" type="op" isAssignmentOp="True" astOperand1="0xd5ec60" astOperand2="0xd5ef50"/>
+    <token id="0xd5ee70" file="Ultrasound.cpp" linenr="56" str="getRange_Ultrasound" scope="0xd62340" type="name" function="0xd54ff0" astParent="0xd5ef50"/>
+    <token id="0xd5ef50" file="Ultrasound.cpp" linenr="56" str="(" scope="0xd62340" link="0xd5f0b0" astParent="0xd5edc0" astOperand1="0xd5ee70" astOperand2="0xd5f000"/>
+    <token id="0xd5f000" file="Ultrasound.cpp" linenr="56" str="adc_pin" scope="0xd62340" type="name" varId="4" variable="0xd625e0" astParent="0xd5ef50"/>
+    <token id="0xd5f0b0" file="Ultrasound.cpp" linenr="56" str=")" scope="0xd62340" link="0xd5ef50"/>
+    <token id="0xd5f160" file="Ultrasound.cpp" linenr="56" str=";" scope="0xd62340"/>
+    <token id="0xd5f210" file="Ultrasound.cpp" linenr="57" str="range_msg" scope="0xd62340" type="name" varId="2" variable="0xd62500" astParent="0xd5f2c0"/>
+    <token id="0xd5f2c0" file="Ultrasound.cpp" linenr="57" str="." scope="0xd62340" astParent="0xd5f420" astOperand1="0xd5f210" astOperand2="0xd5f370"/>
+    <token id="0xd5f370" file="Ultrasound.cpp" linenr="57" str="header" scope="0xd62340" type="name" varId="12" astParent="0xd5f2c0"/>
+    <token id="0xd5f420" file="Ultrasound.cpp" linenr="57" str="." scope="0xd62340" astParent="0xd5f580" astOperand1="0xd5f2c0" astOperand2="0xd5f4d0"/>
+    <token id="0xd5f4d0" file="Ultrasound.cpp" linenr="57" str="stamp" scope="0xd62340" type="name" varId="19" astParent="0xd5f420"/>
+    <token id="0xd5f580" file="Ultrasound.cpp" linenr="57" str="=" scope="0xd62340" type="op" isAssignmentOp="True" astOperand1="0xd5f420" astOperand2="0xd5f840"/>
+    <token id="0xd5f630" file="Ultrasound.cpp" linenr="57" str="nh" scope="0xd62340" type="name" varId="1" variable="0xd62490" astParent="0xd5f6e0"/>
+    <token id="0xd5f6e0" file="Ultrasound.cpp" linenr="57" str="." scope="0xd62340" astParent="0xd5f840" astOperand1="0xd5f630" astOperand2="0xd5f790"/>
+    <token id="0xd5f790" file="Ultrasound.cpp" linenr="57" str="now" scope="0xd62340" type="name" astParent="0xd5f6e0"/>
+    <token id="0xd5f840" file="Ultrasound.cpp" linenr="57" str="(" scope="0xd62340" link="0xd5f8f0" astParent="0xd5f580" astOperand1="0xd5f6e0"/>
+    <token id="0xd5f8f0" file="Ultrasound.cpp" linenr="57" str=")" scope="0xd62340" link="0xd5f840"/>
+    <token id="0xd5f9a0" file="Ultrasound.cpp" linenr="57" str=";" scope="0xd62340"/>
+    <token id="0xd5fa50" file="Ultrasound.cpp" linenr="58" str="pub_range" scope="0xd62340" type="name" varId="3" variable="0xd62570" astParent="0xd5fb00"/>
+    <token id="0xd5fb00" file="Ultrasound.cpp" linenr="58" str="." scope="0xd62340" astParent="0xd5fc60" astOperand1="0xd5fa50" astOperand2="0xd5fbb0"/>
+    <token id="0xd5fbb0" file="Ultrasound.cpp" linenr="58" str="publish" scope="0xd62340" type="name" astParent="0xd5fb00"/>
+    <token id="0xd5fc60" file="Ultrasound.cpp" linenr="58" str="(" scope="0xd62340" link="0xd5fe70" astOperand1="0xd5fb00" astOperand2="0xd5fd10"/>
+    <token id="0xd5fd10" file="Ultrasound.cpp" linenr="58" str="&amp;" scope="0xd62340" type="op" astParent="0xd5fc60" astOperand1="0xd5fdc0"/>
+    <token id="0xd5fdc0" file="Ultrasound.cpp" linenr="58" str="range_msg" scope="0xd62340" type="name" varId="2" variable="0xd62500" astParent="0xd5fd10"/>
+    <token id="0xd5fe70" file="Ultrasound.cpp" linenr="58" str=")" scope="0xd62340" link="0xd5fc60"/>
+    <token id="0xd5ff20" file="Ultrasound.cpp" linenr="58" str=";" scope="0xd62340"/>
+    <token id="0xd5ffd0" file="Ultrasound.cpp" linenr="59" str="range_time" scope="0xd62340" type="name" varId="17" variable="0xd62810" astParent="0xd60080"/>
+    <token id="0xd60080" file="Ultrasound.cpp" linenr="59" str="=" scope="0xd62340" type="op" isAssignmentOp="True" astOperand1="0xd5ffd0" astOperand2="0xd604a0"/>
+    <token id="0xd60130" file="Ultrasound.cpp" linenr="59" str="t" scope="0xd62340" type="name" varId="10" variable="0xd626c0" astParent="0xd601e0"/>
+    <token id="0xd601e0" file="Ultrasound.cpp" linenr="59" str="." scope="0xd62340" astParent="0xd60340" astOperand1="0xd60130" astOperand2="0xd60290"/>
+    <token id="0xd60290" file="Ultrasound.cpp" linenr="59" str="read_ms" scope="0xd62340" type="name" astParent="0xd601e0"/>
+    <token id="0xd60340" file="Ultrasound.cpp" linenr="59" str="(" scope="0xd62340" link="0xd603f0" astParent="0xd604a0" astOperand1="0xd601e0"/>
+    <token id="0xd603f0" file="Ultrasound.cpp" linenr="59" str=")" scope="0xd62340" link="0xd60340"/>
+    <token id="0xd604a0" file="Ultrasound.cpp" linenr="59" str="+" scope="0xd62340" type="op" isArithmeticalOp="True" astParent="0xd60080" astOperand1="0xd60340" astOperand2="0xd60550"/>
+    <token id="0xd60550" file="Ultrasound.cpp" linenr="59" str="50" scope="0xd62340" type="number" isInt="True" values="0xd60558" astParent="0xd604a0"/>
+    <token id="0xd60600" file="Ultrasound.cpp" linenr="59" str=";" scope="0xd62340"/>
+    <token id="0xd606b0" file="Ultrasound.cpp" linenr="60" str="}" scope="0xd62340" link="0xd5eb00"/>
+    <token id="0xd60760" file="Ultrasound.cpp" linenr="62" str="nh" scope="0xd621f0" type="name" varId="1" variable="0xd62490" astParent="0xd60810"/>
+    <token id="0xd60810" file="Ultrasound.cpp" linenr="62" str="." scope="0xd621f0" astParent="0xd60970" astOperand1="0xd60760" astOperand2="0xd608c0"/>
+    <token id="0xd608c0" file="Ultrasound.cpp" linenr="62" str="spinOnce" scope="0xd621f0" type="name" astParent="0xd60810"/>
+    <token id="0xd60970" file="Ultrasound.cpp" linenr="62" str="(" scope="0xd621f0" link="0xd60a20" astOperand1="0xd60810"/>
+    <token id="0xd60a20" file="Ultrasound.cpp" linenr="62" str=")" scope="0xd621f0" link="0xd60970"/>
+    <token id="0xd60ad0" file="Ultrasound.cpp" linenr="62" str=";" scope="0xd621f0"/>
+    <token id="0xd60b80" file="Ultrasound.cpp" linenr="63" str="}" scope="0xd621f0" link="0xd5e2c0"/>
+    <token id="0xd60c30" file="Ultrasound.cpp" linenr="64" str="}" scope="0xd620c0" link="0xd5b610"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd54ec0" type="Global">
+      <functionList>
+        <function id="0xd54ff0" tokenDef="0xd57f30" name="getRange_Ultrasound">
+          <arg nr="1" variable="0xd62880"/>
+        </function>
+        <function id="0xd62020" tokenDef="0xd5b400" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0xd62490"/>
+        <var id="0xd62500"/>
+        <var id="0xd62570"/>
+        <var id="0xd625e0"/>
+        <var id="0xd62650"/>
+        <var id="0xd626c0"/>
+      </varlist>
+    </scope>
+    <scope id="0xd61260" type="Function" className="getRange_Ultrasound" classStart="0xd593b0" classEnd="0xd5b090" nestedIn="0xd54ec0" function="0xd54ff0">
+      <varlist>
+        <var id="0xd62730"/>
+        <var id="0xd627a0"/>
+      </varlist>
+    </scope>
+    <scope id="0xd61e80" type="For" classStart="0xd5a2d0" classEnd="0xd5e8f0" nestedIn="0xd61260">
+      <varlist>
+        <var id="0xd61fb0"/>
+      </varlist>
+    </scope>
+    <scope id="0xd620c0" type="Function" className="main" classStart="0xd5b610" classEnd="0xd60c30" nestedIn="0xd54ec0" function="0xd62020">
+      <varlist>
+        <var id="0xd62810"/>
+      </varlist>
+    </scope>
+    <scope id="0xd621f0" type="While" classStart="0xd5e2c0" classEnd="0xd60b80" nestedIn="0xd620c0"/>
+    <scope id="0xd62340" type="If" classStart="0xd5eb00" classEnd="0xd606b0" nestedIn="0xd621f0"/>
+  </scopes>
+  <variables>
+    <var id="0xd62490" nameToken="0xd54b90" typeStartToken="0xd550c0" typeEndToken="0xd464d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62500" nameToken="0xd545e0" typeStartToken="0xd58620" typeEndToken="0xd54530" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62570" nameToken="0xd54950" typeStartToken="0xd54740" typeEndToken="0xd548a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd625e0" nameToken="0xd58db0" typeStartToken="0xd58d00" typeEndToken="0xd58d00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62650" nameToken="0xd57a60" typeStartToken="0xd579b0" typeEndToken="0xd579b0" isArgument="false" isArray="true" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62880" nameToken="0xd58140" typeStartToken="0xd58090" typeEndToken="0xd58090" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62730" nameToken="0xd59510" typeStartToken="0xd59460" typeEndToken="0xd59460" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd61fb0" nameToken="0xd599e0" typeStartToken="0xd59930" typeEndToken="0xd59930" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd627a0" nameToken="0xd5aa60" typeStartToken="0xd5a9b0" typeEndToken="0xd5a9b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd626c0" nameToken="0xd5b1f0" typeStartToken="0xd5b140" typeEndToken="0xd5b140" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd62810" nameToken="0xd5dd40" typeStartToken="0xd5dc90" typeEndToken="0xd5dc90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xd58838">
+      <value tokvalue="0xd58830" known="true"/>
+    </values>
+    <values id="0xd60f48">
+      <value intvalue="12" known="true"/>
+    </values>
+    <values id="0xd57d28">
+      <value tokvalue="0xd57d20" known="true"/>
+    </values>
+    <values id="0xd59678">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd59b48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd59e08">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xd5dea8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd5e168">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xd5e9a8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0xd60558">
+      <value intvalue="50" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

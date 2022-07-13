@@ -16,6 +16,7 @@
 
 void goal_d(double x_t,double y_t, double t)
 {
+	int vel_y;
 	int vel_x = 0;
 	int ang_z = 0;
 	int err_x = 0;

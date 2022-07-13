@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x100f4f0" file="test_robot_control.cpp" linenr="5" str="int" scope="0x1023170" type="name"/>
+    <token id="0x1020120" file="test_robot_control.cpp" linenr="5" str="main" scope="0x1023170" type="name" function="0x10232a0" astParent="0x10201d0"/>
+    <token id="0x10201d0" file="test_robot_control.cpp" linenr="5" str="(" scope="0x1023170" link="0x101fa40" astOperand1="0x1020120" astOperand2="0x101fd30"/>
+    <token id="0x1020280" file="test_robot_control.cpp" linenr="5" str="int" scope="0x1023170" type="name"/>
+    <token id="0x101fc80" file="test_robot_control.cpp" linenr="5" str="argc" scope="0x1023170" type="name" varId="1" variable="0x1023750" astParent="0x101fd30"/>
+    <token id="0x101fd30" file="test_robot_control.cpp" linenr="5" str="," scope="0x1023170" astParent="0x10201d0" astOperand1="0x101fc80" astOperand2="0x101fe90"/>
+    <token id="0x101fde0" file="test_robot_control.cpp" linenr="5" str="char" scope="0x1023170" type="name" astParent="0x101fe90"/>
+    <token id="0x101fe90" file="test_robot_control.cpp" linenr="5" str="*" scope="0x1023170" type="op" isArithmeticalOp="True" astParent="0x101fd30" astOperand1="0x101fde0" astOperand2="0x101f8e0"/>
+    <token id="0x101f8e0" file="test_robot_control.cpp" linenr="5" str="*" scope="0x1023170" type="op" isArithmeticalOp="True" astParent="0x101fe90" astOperand1="0x101f990"/>
+    <token id="0x101f990" file="test_robot_control.cpp" linenr="5" str="argv" scope="0x1023170" type="name" varId="2" variable="0x10237c0" astParent="0x101f8e0"/>
+    <token id="0x101fa40" file="test_robot_control.cpp" linenr="5" str=")" scope="0x1023170" link="0x10201d0"/>
+    <token id="0x101faf0" file="test_robot_control.cpp" linenr="6" str="{" scope="0x10233d0" link="0x10230b0"/>
+    <token id="0x1020500" file="test_robot_control.cpp" linenr="7" str="ros" scope="0x10233d0" type="name" astParent="0x10205b0"/>
+    <token id="0x10205b0" file="test_robot_control.cpp" linenr="7" str="::" scope="0x10233d0" astOperand1="0x1020500" astOperand2="0x1020710"/>
+    <token id="0x1020660" file="test_robot_control.cpp" linenr="7" str="NodeHandle" scope="0x10233d0" type="name"/>
+    <token id="0x1020710" file="test_robot_control.cpp" linenr="7" str="nh" scope="0x10233d0" type="name" varId="3" variable="0x101d4d0" astParent="0x10205b0"/>
+    <token id="0x10207c0" file="test_robot_control.cpp" linenr="7" str=";" scope="0x10233d0"/>
+    <token id="0x1020870" file="test_robot_control.cpp" linenr="8" str="ros" scope="0x10233d0" type="name" astParent="0x1020920"/>
+    <token id="0x1020920" file="test_robot_control.cpp" linenr="8" str="::" scope="0x10233d0" astOperand1="0x1020870" astOperand2="0x1020a80"/>
+    <token id="0x10209d0" file="test_robot_control.cpp" linenr="8" str="Publisher" scope="0x10233d0" type="name"/>
+    <token id="0x1020a80" file="test_robot_control.cpp" linenr="8" str="pub" scope="0x10233d0" type="name" varId="4" variable="0x1023500" astParent="0x1020920"/>
+    <token id="0x1020b30" file="test_robot_control.cpp" linenr="8" str=";" scope="0x10233d0"/>
+    <token id="0x1020be0" file="test_robot_control.cpp" linenr="9" str="geometry_msgs" scope="0x10233d0" type="name" astParent="0x1020c90"/>
+    <token id="0x1020c90" file="test_robot_control.cpp" linenr="9" str="::" scope="0x10233d0" astOperand1="0x1020be0" astOperand2="0x1020df0"/>
+    <token id="0x1020d40" file="test_robot_control.cpp" linenr="9" str="Twist" scope="0x10233d0" type="name"/>
+    <token id="0x1020df0" file="test_robot_control.cpp" linenr="9" str="cmdvel" scope="0x10233d0" type="name" varId="5" variable="0x1023570" astParent="0x1020c90"/>
+    <token id="0x1020ea0" file="test_robot_control.cpp" linenr="9" str=";" scope="0x10233d0"/>
+    <token id="0x1020f50" file="test_robot_control.cpp" linenr="10" str="pub" scope="0x10233d0" type="name" varId="4" variable="0x1023500" astParent="0x1021000"/>
+    <token id="0x1021000" file="test_robot_control.cpp" linenr="10" str="=" scope="0x10233d0" type="op" isAssignmentOp="True" astOperand1="0x1020f50" astOperand2="0x1021630"/>
+    <token id="0x10210b0" file="test_robot_control.cpp" linenr="10" str="nh" scope="0x10233d0" type="name" varId="3" variable="0x101d4d0" astParent="0x1021160"/>
+    <token id="0x1021160" file="test_robot_control.cpp" linenr="10" str="." scope="0x10233d0" astParent="0x1021630" astOperand1="0x10210b0" astOperand2="0x1021210"/>
+    <token id="0x1021210" file="test_robot_control.cpp" linenr="10" str="advertise" scope="0x10233d0" type="name" astParent="0x1021160"/>
+    <token id="0x10212c0" file="test_robot_control.cpp" linenr="10" str="&lt;" scope="0x10233d0" link="0x1021580"/>
+    <token id="0x1021370" file="test_robot_control.cpp" linenr="10" str="geometry_msgs" scope="0x10233d0" type="name"/>
+    <token id="0x1021420" file="test_robot_control.cpp" linenr="10" str="::" scope="0x10233d0"/>
+    <token id="0x10214d0" file="test_robot_control.cpp" linenr="10" str="Twist" scope="0x10233d0" type="name"/>
+    <token id="0x1021580" file="test_robot_control.cpp" linenr="10" str="&gt;" scope="0x10233d0" link="0x10212c0"/>
+    <token id="0x1021630" file="test_robot_control.cpp" linenr="10" str="(" scope="0x10233d0" link="0x1021920" astParent="0x1021000" astOperand1="0x1021160" astOperand2="0x10217c0"/>
+    <token id="0x10216e0" file="test_robot_control.cpp" linenr="10" str="&quot;/RosAria/cmd_vel&quot;" scope="0x10233d0" type="string" strlen="16" values="0x10216e8" astParent="0x10217c0"/>
+    <token id="0x10217c0" file="test_robot_control.cpp" linenr="10" str="," scope="0x10233d0" astParent="0x1021630" astOperand1="0x10216e0" astOperand2="0x1021870"/>
+    <token id="0x1021870" file="test_robot_control.cpp" linenr="10" str="1" scope="0x10233d0" type="number" isInt="True" values="0x1021878" astParent="0x10217c0"/>
+    <token id="0x1021920" file="test_robot_control.cpp" linenr="10" str=")" scope="0x10233d0" link="0x1021630"/>
+    <token id="0x10219d0" file="test_robot_control.cpp" linenr="10" str=";" scope="0x10233d0"/>
+    <token id="0x1021a80" file="test_robot_control.cpp" linenr="13" str="cmdvel" scope="0x10233d0" type="name" varId="5" variable="0x1023570" astParent="0x1021b30"/>
+    <token id="0x1021b30" file="test_robot_control.cpp" linenr="13" str="." scope="0x10233d0" astParent="0x1021c90" astOperand1="0x1021a80" astOperand2="0x1021be0"/>
+    <token id="0x1021be0" file="test_robot_control.cpp" linenr="13" str="angular" scope="0x10233d0" type="name" varId="6" astParent="0x1021b30"/>
+    <token id="0x1021c90" file="test_robot_control.cpp" linenr="13" str="." scope="0x10233d0" astParent="0x1021df0" astOperand1="0x1021b30" astOperand2="0x1021d40"/>
+    <token id="0x1021d40" file="test_robot_control.cpp" linenr="13" str="z" scope="0x10233d0" type="name" varId="7" astParent="0x1021c90"/>
+    <token id="0x1021df0" file="test_robot_control.cpp" linenr="13" str="=" scope="0x10233d0" type="op" isAssignmentOp="True" astOperand1="0x1021c90" astOperand2="0x1021ea0"/>
+    <token id="0x1021ea0" file="test_robot_control.cpp" linenr="13" str="10" scope="0x10233d0" type="number" isInt="True" values="0x1021ea8" astParent="0x1021df0"/>
+    <token id="0x1021f50" file="test_robot_control.cpp" linenr="13" str=";" scope="0x10233d0"/>
+    <token id="0x1022000" file="test_robot_control.cpp" linenr="14" str="printf" scope="0x10233d0" type="name" astParent="0x10220b0"/>
+    <token id="0x10220b0" file="test_robot_control.cpp" linenr="14" str="(" scope="0x10233d0" link="0x1022a80" astOperand1="0x1022000" astOperand2="0x1022660"/>
+    <token id="0x1022160" file="test_robot_control.cpp" linenr="14" str="&quot;sending...[%f, %f]\n&quot;" scope="0x10233d0" type="string" strlen="19" values="0x1022168" astParent="0x1022240"/>
+    <token id="0x1022240" file="test_robot_control.cpp" linenr="14" str="," scope="0x10233d0" astParent="0x1022660" astOperand1="0x1022160" astOperand2="0x1022500"/>
+    <token id="0x10222f0" file="test_robot_control.cpp" linenr="14" str="cmdvel" scope="0x10233d0" type="name" varId="5" variable="0x1023570" astParent="0x10223a0"/>
+    <token id="0x10223a0" file="test_robot_control.cpp" linenr="14" str="." scope="0x10233d0" astParent="0x1022500" astOperand1="0x10222f0" astOperand2="0x1022450"/>
+    <token id="0x1022450" file="test_robot_control.cpp" linenr="14" str="linear" scope="0x10233d0" type="name" varId="8" astParent="0x10223a0"/>
+    <token id="0x1022500" file="test_robot_control.cpp" linenr="14" str="." scope="0x10233d0" astParent="0x1022240" astOperand1="0x10223a0" astOperand2="0x10225b0"/>
+    <token id="0x10225b0" file="test_robot_control.cpp" linenr="14" str="x" scope="0x10233d0" type="name" varId="9" astParent="0x1022500"/>
+    <token id="0x1022660" file="test_robot_control.cpp" linenr="14" str="," scope="0x10233d0" astParent="0x10220b0" astOperand1="0x1022240" astOperand2="0x1022920"/>
+    <token id="0x1022710" file="test_robot_control.cpp" linenr="14" str="cmdvel" scope="0x10233d0" type="name" varId="5" variable="0x1023570" astParent="0x10227c0"/>
+    <token id="0x10227c0" file="test_robot_control.cpp" linenr="14" str="." scope="0x10233d0" astParent="0x1022920" astOperand1="0x1022710" astOperand2="0x1022870"/>
+    <token id="0x1022870" file="test_robot_control.cpp" linenr="14" str="angular" scope="0x10233d0" type="name" varId="6" astParent="0x10227c0"/>
+    <token id="0x1022920" file="test_robot_control.cpp" linenr="14" str="." scope="0x10233d0" astParent="0x1022660" astOperand1="0x10227c0" astOperand2="0x10229d0"/>
+    <token id="0x10229d0" file="test_robot_control.cpp" linenr="14" str="z" scope="0x10233d0" type="name" varId="7" astParent="0x1022920"/>
+    <token id="0x1022a80" file="test_robot_control.cpp" linenr="14" str=")" scope="0x10233d0" link="0x10220b0"/>
+    <token id="0x1022b30" file="test_robot_control.cpp" linenr="14" str=";" scope="0x10233d0"/>
+    <token id="0x1022be0" file="test_robot_control.cpp" linenr="15" str="pub" scope="0x10233d0" type="name" varId="4" variable="0x1023500" astParent="0x1022c90"/>
+    <token id="0x1022c90" file="test_robot_control.cpp" linenr="15" str="." scope="0x10233d0" astParent="0x1022df0" astOperand1="0x1022be0" astOperand2="0x1022d40"/>
+    <token id="0x1022d40" file="test_robot_control.cpp" linenr="15" str="publish" scope="0x10233d0" type="name" astParent="0x1022c90"/>
+    <token id="0x1022df0" file="test_robot_control.cpp" linenr="15" str="(" scope="0x10233d0" link="0x1022f50" astOperand1="0x1022c90" astOperand2="0x1022ea0"/>
+    <token id="0x1022ea0" file="test_robot_control.cpp" linenr="15" str="cmdvel" scope="0x10233d0" type="name" varId="5" variable="0x1023570" astParent="0x1022df0"/>
+    <token id="0x1022f50" file="test_robot_control.cpp" linenr="15" str=")" scope="0x10233d0" link="0x1022df0"/>
+    <token id="0x1023000" file="test_robot_control.cpp" linenr="15" str=";" scope="0x10233d0"/>
+    <token id="0x10230b0" file="test_robot_control.cpp" linenr="16" str="}" scope="0x10233d0" link="0x101faf0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1023170" type="Global">
+      <functionList>
+        <function id="0x10232a0" tokenDef="0x1020120" name="main">
+          <arg nr="1" variable="0x1023750"/>
+          <arg nr="2" variable="0x10237c0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x10233d0" type="Function" className="main" classStart="0x101faf0" classEnd="0x10230b0" nestedIn="0x1023170" function="0x10232a0">
+      <varlist>
+        <var id="0x101d4d0"/>
+        <var id="0x1023500"/>
+        <var id="0x1023570"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1023750" nameToken="0x101fc80" typeStartToken="0x1020280" typeEndToken="0x1020280" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10237c0" nameToken="0x101f990" typeStartToken="0x101fde0" typeEndToken="0x101f8e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x101d4d0" nameToken="0x1020710" typeStartToken="0x1020500" typeEndToken="0x1020660" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1023500" nameToken="0x1020a80" typeStartToken="0x1020870" typeEndToken="0x10209d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1023570" nameToken="0x1020df0" typeStartToken="0x1020be0" typeEndToken="0x1020d40" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x10216e8">
+      <value tokvalue="0x10216e0" known="true"/>
+    </values>
+    <values id="0x1021878">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1021ea8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x1022168">
+      <value tokvalue="0x1022160" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

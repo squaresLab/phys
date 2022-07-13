@@ -1,0 +1,1426 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1d2f8a0" file="../include/base_local_planner/trajectory.h" linenr="39" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d2f950" file="../include/base_local_planner/trajectory.h" linenr="39" str="base_local_planner" scope="0x1d62be0" type="name" astParent="0x1d2fa00"/>
+    <token id="0x1d2fa00" file="../include/base_local_planner/trajectory.h" linenr="39" str="{" scope="0x1d62be0" link="0x1d3bc90" astOperand1="0x1d2f950" astOperand2="0x1d2fc10"/>
+    <token id="0x1d2fab0" file="../include/base_local_planner/trajectory.h" linenr="44" str="class" scope="0x1d62be0" type="name"/>
+    <token id="0x1d2fc10" file="../include/base_local_planner/trajectory.h" linenr="44" str="Trajectory" scope="0x1d62be0" type="name" astParent="0x1d2fa00"/>
+    <token id="0x1d2fcc0" file="../include/base_local_planner/trajectory.h" linenr="44" str="{" scope="0x1d62670" link="0x1d3bb30"/>
+    <token id="0x1d2fd70" file="../include/base_local_planner/trajectory.h" linenr="45" str="public:" scope="0x1d62670" type="name"/>
+    <token id="0x1d2fed0" file="../include/base_local_planner/trajectory.h" linenr="49" str="Trajectory" scope="0x1d62670" type="name" function="0x1d627a0" astParent="0x1d2ff80"/>
+    <token id="0x1d2ff80" file="../include/base_local_planner/trajectory.h" linenr="49" str="(" scope="0x1d62670" link="0x1d30030" astOperand1="0x1d2fed0"/>
+    <token id="0x1d30030" file="../include/base_local_planner/trajectory.h" linenr="49" str=")" scope="0x1d62670" link="0x1d2ff80"/>
+    <token id="0x1d300e0" file="../include/base_local_planner/trajectory.h" linenr="49" str=";" scope="0x1d62670"/>
+    <token id="0x1d30190" file="../include/base_local_planner/trajectory.h" linenr="58" str="Trajectory" scope="0x1d62670" type="name" function="0x1d62a00" astParent="0x1d30240"/>
+    <token id="0x1d30240" file="../include/base_local_planner/trajectory.h" linenr="58" str="(" scope="0x1d62670" link="0x1d351a0" astOperand1="0x1d30190" astOperand2="0x1d34ee0"/>
+    <token id="0x1d302f0" file="../include/base_local_planner/trajectory.h" linenr="58" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d303a0" file="../include/base_local_planner/trajectory.h" linenr="58" str="xv" scope="0x1d62670" type="name" varId="1" variable="0x1d68ca0" astParent="0x1d30450"/>
+    <token id="0x1d30450" file="../include/base_local_planner/trajectory.h" linenr="58" str="," scope="0x1d62670" astParent="0x1d30660" astOperand1="0x1d303a0" astOperand2="0x1d305b0"/>
+    <token id="0x1d30500" file="../include/base_local_planner/trajectory.h" linenr="58" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d305b0" file="../include/base_local_planner/trajectory.h" linenr="58" str="yv" scope="0x1d62670" type="name" varId="2" variable="0x1d68d10" astParent="0x1d30450"/>
+    <token id="0x1d30660" file="../include/base_local_planner/trajectory.h" linenr="58" str="," scope="0x1d62670" astParent="0x1d34cd0" astOperand1="0x1d30450" astOperand2="0x1d34c20"/>
+    <token id="0x1d34b70" file="../include/base_local_planner/trajectory.h" linenr="58" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d34c20" file="../include/base_local_planner/trajectory.h" linenr="58" str="thetav" scope="0x1d62670" type="name" varId="3" variable="0x1d68d80" astParent="0x1d30660"/>
+    <token id="0x1d34cd0" file="../include/base_local_planner/trajectory.h" linenr="58" str="," scope="0x1d62670" astParent="0x1d34ee0" astOperand1="0x1d30660" astOperand2="0x1d34e30"/>
+    <token id="0x1d34d80" file="../include/base_local_planner/trajectory.h" linenr="58" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d34e30" file="../include/base_local_planner/trajectory.h" linenr="58" str="time_delta" scope="0x1d62670" type="name" varId="4" variable="0x1d68df0" astParent="0x1d34cd0"/>
+    <token id="0x1d34ee0" file="../include/base_local_planner/trajectory.h" linenr="58" str="," scope="0x1d62670" astParent="0x1d30240" astOperand1="0x1d34cd0" astOperand2="0x1d350f0"/>
+    <token id="0x1d34f90" file="../include/base_local_planner/trajectory.h" linenr="58" str="int" scope="0x1d62670" type="name"/>
+    <token id="0x1d350f0" file="../include/base_local_planner/trajectory.h" linenr="58" str="num_pts" scope="0x1d62670" type="name" varId="5" variable="0x1d68e60" astParent="0x1d34ee0"/>
+    <token id="0x1d351a0" file="../include/base_local_planner/trajectory.h" linenr="58" str=")" scope="0x1d62670" link="0x1d30240"/>
+    <token id="0x1d35250" file="../include/base_local_planner/trajectory.h" linenr="58" str=";" scope="0x1d62670"/>
+    <token id="0x1d35300" file="../include/base_local_planner/trajectory.h" linenr="60" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d353b0" file="../include/base_local_planner/trajectory.h" linenr="60" str="xv_" scope="0x1d62670" type="name" varId="6" variable="0x1d68010"/>
+    <token id="0x1d35460" file="../include/base_local_planner/trajectory.h" linenr="60" str=";" scope="0x1d62670"/>
+    <token id="0x1d2fe20" file="../include/base_local_planner/trajectory.h" linenr="60" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d35510" file="../include/base_local_planner/trajectory.h" linenr="60" str="yv_" scope="0x1d62670" type="name" varId="7" variable="0x1d68080"/>
+    <token id="0x1d355c0" file="../include/base_local_planner/trajectory.h" linenr="60" str=";" scope="0x1d62670"/>
+    <token id="0x1d393a0" file="../include/base_local_planner/trajectory.h" linenr="60" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d35670" file="../include/base_local_planner/trajectory.h" linenr="60" str="thetav_" scope="0x1d62670" type="name" varId="8" variable="0x1d680f0"/>
+    <token id="0x1d35720" file="../include/base_local_planner/trajectory.h" linenr="60" str=";" scope="0x1d62670"/>
+    <token id="0x1d357d0" file="../include/base_local_planner/trajectory.h" linenr="62" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d35880" file="../include/base_local_planner/trajectory.h" linenr="62" str="cost_" scope="0x1d62670" type="name" varId="9" variable="0x1d68160"/>
+    <token id="0x1d35930" file="../include/base_local_planner/trajectory.h" linenr="62" str=";" scope="0x1d62670"/>
+    <token id="0x1d359e0" file="../include/base_local_planner/trajectory.h" linenr="64" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d35a90" file="../include/base_local_planner/trajectory.h" linenr="64" str="time_delta_" scope="0x1d62670" type="name" varId="10" variable="0x1d681d0"/>
+    <token id="0x1d35b40" file="../include/base_local_planner/trajectory.h" linenr="64" str=";" scope="0x1d62670"/>
+    <token id="0x1d35bf0" file="../include/base_local_planner/trajectory.h" linenr="73" str="void" scope="0x1d62670" type="name"/>
+    <token id="0x1d35ca0" file="../include/base_local_planner/trajectory.h" linenr="73" str="getPoint" scope="0x1d62670" type="name" function="0x1d63dd0" astParent="0x1d35d50"/>
+    <token id="0x1d35d50" file="../include/base_local_planner/trajectory.h" linenr="73" str="(" scope="0x1d62670" link="0x1d36850" astOperand1="0x1d35ca0" astOperand2="0x1d36590"/>
+    <token id="0x1d35e00" file="../include/base_local_planner/trajectory.h" linenr="73" str="int" scope="0x1d62670" type="name"/>
+    <token id="0x1d35f60" file="../include/base_local_planner/trajectory.h" linenr="73" str="index" scope="0x1d62670" type="name" varId="11" variable="0x1d68ed0" astParent="0x1d36010"/>
+    <token id="0x1d36010" file="../include/base_local_planner/trajectory.h" linenr="73" str="," scope="0x1d62670" astParent="0x1d362d0" astOperand1="0x1d35f60" astOperand2="0x1d36170"/>
+    <token id="0x1d360c0" file="../include/base_local_planner/trajectory.h" linenr="73" str="double" scope="0x1d62670" type="name" astParent="0x1d36170"/>
+    <token id="0x1d36170" file="../include/base_local_planner/trajectory.h" linenr="73" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d36010" astOperand1="0x1d360c0" astOperand2="0x1d36220"/>
+    <token id="0x1d36220" file="../include/base_local_planner/trajectory.h" linenr="73" str="x" scope="0x1d62670" type="name" varId="12" variable="0x1d68f40" astParent="0x1d36170"/>
+    <token id="0x1d362d0" file="../include/base_local_planner/trajectory.h" linenr="73" str="," scope="0x1d62670" astParent="0x1d36590" astOperand1="0x1d36010" astOperand2="0x1d36430"/>
+    <token id="0x1d36380" file="../include/base_local_planner/trajectory.h" linenr="73" str="double" scope="0x1d62670" type="name" astParent="0x1d36430"/>
+    <token id="0x1d36430" file="../include/base_local_planner/trajectory.h" linenr="73" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d362d0" astOperand1="0x1d36380" astOperand2="0x1d364e0"/>
+    <token id="0x1d364e0" file="../include/base_local_planner/trajectory.h" linenr="73" str="y" scope="0x1d62670" type="name" varId="13" variable="0x1d68fb0" astParent="0x1d36430"/>
+    <token id="0x1d36590" file="../include/base_local_planner/trajectory.h" linenr="73" str="," scope="0x1d62670" astParent="0x1d35d50" astOperand1="0x1d362d0" astOperand2="0x1d366f0"/>
+    <token id="0x1d36640" file="../include/base_local_planner/trajectory.h" linenr="73" str="double" scope="0x1d62670" type="name" astParent="0x1d366f0"/>
+    <token id="0x1d366f0" file="../include/base_local_planner/trajectory.h" linenr="73" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d36590" astOperand1="0x1d36640" astOperand2="0x1d367a0"/>
+    <token id="0x1d367a0" file="../include/base_local_planner/trajectory.h" linenr="73" str="th" scope="0x1d62670" type="name" varId="14" variable="0x1d69020" astParent="0x1d366f0"/>
+    <token id="0x1d36850" file="../include/base_local_planner/trajectory.h" linenr="73" str=")" scope="0x1d62670" link="0x1d35d50"/>
+    <token id="0x1d36900" file="../include/base_local_planner/trajectory.h" linenr="73" str="const" scope="0x1d62670" type="name"/>
+    <token id="0x1d369b0" file="../include/base_local_planner/trajectory.h" linenr="73" str=";" scope="0x1d62670"/>
+    <token id="0x1d36a60" file="../include/base_local_planner/trajectory.h" linenr="82" str="void" scope="0x1d62670" type="name"/>
+    <token id="0x1d36b10" file="../include/base_local_planner/trajectory.h" linenr="82" str="setPoint" scope="0x1d62670" type="name" function="0x1d63e70" astParent="0x1d36bc0"/>
+    <token id="0x1d36bc0" file="../include/base_local_planner/trajectory.h" linenr="82" str="(" scope="0x1d62670" link="0x1d374b0" astOperand1="0x1d36b10" astOperand2="0x1d372a0"/>
+    <token id="0x1d36c70" file="../include/base_local_planner/trajectory.h" linenr="82" str="int" scope="0x1d62670" type="name"/>
+    <token id="0x1d36dd0" file="../include/base_local_planner/trajectory.h" linenr="82" str="index" scope="0x1d62670" type="name" varId="15" variable="0x1d69090" astParent="0x1d36e80"/>
+    <token id="0x1d36e80" file="../include/base_local_planner/trajectory.h" linenr="82" str="," scope="0x1d62670" astParent="0x1d37090" astOperand1="0x1d36dd0" astOperand2="0x1d36fe0"/>
+    <token id="0x1d36f30" file="../include/base_local_planner/trajectory.h" linenr="82" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d36fe0" file="../include/base_local_planner/trajectory.h" linenr="82" str="x" scope="0x1d62670" type="name" varId="16" variable="0x1d69100" astParent="0x1d36e80"/>
+    <token id="0x1d37090" file="../include/base_local_planner/trajectory.h" linenr="82" str="," scope="0x1d62670" astParent="0x1d372a0" astOperand1="0x1d36e80" astOperand2="0x1d371f0"/>
+    <token id="0x1d37140" file="../include/base_local_planner/trajectory.h" linenr="82" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d371f0" file="../include/base_local_planner/trajectory.h" linenr="82" str="y" scope="0x1d62670" type="name" varId="17" variable="0x1d69170" astParent="0x1d37090"/>
+    <token id="0x1d372a0" file="../include/base_local_planner/trajectory.h" linenr="82" str="," scope="0x1d62670" astParent="0x1d36bc0" astOperand1="0x1d37090" astOperand2="0x1d37400"/>
+    <token id="0x1d37350" file="../include/base_local_planner/trajectory.h" linenr="82" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d37400" file="../include/base_local_planner/trajectory.h" linenr="82" str="th" scope="0x1d62670" type="name" varId="18" variable="0x1d691e0" astParent="0x1d372a0"/>
+    <token id="0x1d374b0" file="../include/base_local_planner/trajectory.h" linenr="82" str=")" scope="0x1d62670" link="0x1d36bc0"/>
+    <token id="0x1d37560" file="../include/base_local_planner/trajectory.h" linenr="82" str=";" scope="0x1d62670"/>
+    <token id="0x1d37610" file="../include/base_local_planner/trajectory.h" linenr="90" str="void" scope="0x1d62670" type="name"/>
+    <token id="0x1d376c0" file="../include/base_local_planner/trajectory.h" linenr="90" str="addPoint" scope="0x1d62670" type="name" function="0x1d63f10" astParent="0x1d37770"/>
+    <token id="0x1d37770" file="../include/base_local_planner/trajectory.h" linenr="90" str="(" scope="0x1d62670" link="0x1d37da0" astOperand1="0x1d376c0" astOperand2="0x1d37b90"/>
+    <token id="0x1d37820" file="../include/base_local_planner/trajectory.h" linenr="90" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d378d0" file="../include/base_local_planner/trajectory.h" linenr="90" str="x" scope="0x1d62670" type="name" varId="19" variable="0x1d69250" astParent="0x1d37980"/>
+    <token id="0x1d37980" file="../include/base_local_planner/trajectory.h" linenr="90" str="," scope="0x1d62670" astParent="0x1d37b90" astOperand1="0x1d378d0" astOperand2="0x1d37ae0"/>
+    <token id="0x1d37a30" file="../include/base_local_planner/trajectory.h" linenr="90" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d37ae0" file="../include/base_local_planner/trajectory.h" linenr="90" str="y" scope="0x1d62670" type="name" varId="20" variable="0x1d692c0" astParent="0x1d37980"/>
+    <token id="0x1d37b90" file="../include/base_local_planner/trajectory.h" linenr="90" str="," scope="0x1d62670" astParent="0x1d37770" astOperand1="0x1d37980" astOperand2="0x1d37cf0"/>
+    <token id="0x1d37c40" file="../include/base_local_planner/trajectory.h" linenr="90" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d37cf0" file="../include/base_local_planner/trajectory.h" linenr="90" str="th" scope="0x1d62670" type="name" varId="21" variable="0x1d69330" astParent="0x1d37b90"/>
+    <token id="0x1d37da0" file="../include/base_local_planner/trajectory.h" linenr="90" str=")" scope="0x1d62670" link="0x1d37770"/>
+    <token id="0x1d37e50" file="../include/base_local_planner/trajectory.h" linenr="90" str=";" scope="0x1d62670"/>
+    <token id="0x1d37f00" file="../include/base_local_planner/trajectory.h" linenr="98" str="void" scope="0x1d62670" type="name"/>
+    <token id="0x1d37fb0" file="../include/base_local_planner/trajectory.h" linenr="98" str="getEndpoint" scope="0x1d62670" type="name" function="0x1d63fb0" astParent="0x1d38060"/>
+    <token id="0x1d38060" file="../include/base_local_planner/trajectory.h" linenr="98" str="(" scope="0x1d62670" link="0x1d388a0" astOperand1="0x1d37fb0" astOperand2="0x1d385e0"/>
+    <token id="0x1d38110" file="../include/base_local_planner/trajectory.h" linenr="98" str="double" scope="0x1d62670" type="name" astParent="0x1d381c0"/>
+    <token id="0x1d381c0" file="../include/base_local_planner/trajectory.h" linenr="98" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d38320" astOperand1="0x1d38110" astOperand2="0x1d38270"/>
+    <token id="0x1d38270" file="../include/base_local_planner/trajectory.h" linenr="98" str="x" scope="0x1d62670" type="name" varId="22" variable="0x1d693a0" astParent="0x1d381c0"/>
+    <token id="0x1d38320" file="../include/base_local_planner/trajectory.h" linenr="98" str="," scope="0x1d62670" astParent="0x1d385e0" astOperand1="0x1d381c0" astOperand2="0x1d38480"/>
+    <token id="0x1d383d0" file="../include/base_local_planner/trajectory.h" linenr="98" str="double" scope="0x1d62670" type="name" astParent="0x1d38480"/>
+    <token id="0x1d38480" file="../include/base_local_planner/trajectory.h" linenr="98" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d38320" astOperand1="0x1d383d0" astOperand2="0x1d38530"/>
+    <token id="0x1d38530" file="../include/base_local_planner/trajectory.h" linenr="98" str="y" scope="0x1d62670" type="name" varId="23" variable="0x1d69410" astParent="0x1d38480"/>
+    <token id="0x1d385e0" file="../include/base_local_planner/trajectory.h" linenr="98" str="," scope="0x1d62670" astParent="0x1d38060" astOperand1="0x1d38320" astOperand2="0x1d38740"/>
+    <token id="0x1d38690" file="../include/base_local_planner/trajectory.h" linenr="98" str="double" scope="0x1d62670" type="name" astParent="0x1d38740"/>
+    <token id="0x1d38740" file="../include/base_local_planner/trajectory.h" linenr="98" str="&amp;" scope="0x1d62670" type="op" astParent="0x1d385e0" astOperand1="0x1d38690" astOperand2="0x1d387f0"/>
+    <token id="0x1d387f0" file="../include/base_local_planner/trajectory.h" linenr="98" str="th" scope="0x1d62670" type="name" varId="24" variable="0x1d69480" astParent="0x1d38740"/>
+    <token id="0x1d388a0" file="../include/base_local_planner/trajectory.h" linenr="98" str=")" scope="0x1d62670" link="0x1d38060"/>
+    <token id="0x1d38950" file="../include/base_local_planner/trajectory.h" linenr="98" str="const" scope="0x1d62670" type="name"/>
+    <token id="0x1d38a00" file="../include/base_local_planner/trajectory.h" linenr="98" str=";" scope="0x1d62670"/>
+    <token id="0x1d38ab0" file="../include/base_local_planner/trajectory.h" linenr="103" str="void" scope="0x1d62670" type="name"/>
+    <token id="0x1d38b60" file="../include/base_local_planner/trajectory.h" linenr="103" str="resetPoints" scope="0x1d62670" type="name" function="0x1d64050" astParent="0x1d38c10"/>
+    <token id="0x1d38c10" file="../include/base_local_planner/trajectory.h" linenr="103" str="(" scope="0x1d62670" link="0x1d38cc0" astOperand1="0x1d38b60"/>
+    <token id="0x1d38cc0" file="../include/base_local_planner/trajectory.h" linenr="103" str=")" scope="0x1d62670" link="0x1d38c10"/>
+    <token id="0x1d38d70" file="../include/base_local_planner/trajectory.h" linenr="103" str=";" scope="0x1d62670"/>
+    <token id="0x1d38e20" file="../include/base_local_planner/trajectory.h" linenr="109" str="int" scope="0x1d62670" type="name"/>
+    <token id="0x1d38f80" file="../include/base_local_planner/trajectory.h" linenr="109" str="getPointsSize" scope="0x1d62670" type="name" function="0x1d640f0" astParent="0x1d39030"/>
+    <token id="0x1d39030" file="../include/base_local_planner/trajectory.h" linenr="109" str="(" scope="0x1d62670" link="0x1d390e0" astOperand1="0x1d38f80"/>
+    <token id="0x1d390e0" file="../include/base_local_planner/trajectory.h" linenr="109" str=")" scope="0x1d62670" link="0x1d39030"/>
+    <token id="0x1d39190" file="../include/base_local_planner/trajectory.h" linenr="109" str="const" scope="0x1d62670" type="name"/>
+    <token id="0x1d39240" file="../include/base_local_planner/trajectory.h" linenr="109" str=";" scope="0x1d62670"/>
+    <token id="0x1d392f0" file="../include/base_local_planner/trajectory.h" linenr="111" str="private:" scope="0x1d62670" type="name"/>
+    <token id="0x1d39450" file="../include/base_local_planner/trajectory.h" linenr="112" str="std" scope="0x1d62670" type="name" astParent="0x1d39500"/>
+    <token id="0x1d39500" file="../include/base_local_planner/trajectory.h" linenr="112" str="::" scope="0x1d62670" astOperand1="0x1d39450" astOperand2="0x1d395b0"/>
+    <token id="0x1d395b0" file="../include/base_local_planner/trajectory.h" linenr="112" str="vector" scope="0x1d62670" type="name" astParent="0x1d39500"/>
+    <token id="0x1d39660" file="../include/base_local_planner/trajectory.h" linenr="112" str="&lt;" scope="0x1d62670" link="0x1d397c0"/>
+    <token id="0x1d39710" file="../include/base_local_planner/trajectory.h" linenr="112" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d397c0" file="../include/base_local_planner/trajectory.h" linenr="112" str="&gt;" scope="0x1d62670" link="0x1d39660"/>
+    <token id="0x1d39870" file="../include/base_local_planner/trajectory.h" linenr="112" str="x_pts_" scope="0x1d62670" type="name" varId="25" variable="0x1d68240"/>
+    <token id="0x1d39920" file="../include/base_local_planner/trajectory.h" linenr="112" str=";" scope="0x1d62670"/>
+    <token id="0x1d399d0" file="../include/base_local_planner/trajectory.h" linenr="113" str="std" scope="0x1d62670" type="name" astParent="0x1d39a80"/>
+    <token id="0x1d39a80" file="../include/base_local_planner/trajectory.h" linenr="113" str="::" scope="0x1d62670" astOperand1="0x1d399d0" astOperand2="0x1d39b30"/>
+    <token id="0x1d39b30" file="../include/base_local_planner/trajectory.h" linenr="113" str="vector" scope="0x1d62670" type="name" astParent="0x1d39a80"/>
+    <token id="0x1d39be0" file="../include/base_local_planner/trajectory.h" linenr="113" str="&lt;" scope="0x1d62670" link="0x1d39d40"/>
+    <token id="0x1d39c90" file="../include/base_local_planner/trajectory.h" linenr="113" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d39d40" file="../include/base_local_planner/trajectory.h" linenr="113" str="&gt;" scope="0x1d62670" link="0x1d39be0"/>
+    <token id="0x1d39df0" file="../include/base_local_planner/trajectory.h" linenr="113" str="y_pts_" scope="0x1d62670" type="name" varId="26" variable="0x1d682b0"/>
+    <token id="0x1d39ea0" file="../include/base_local_planner/trajectory.h" linenr="113" str=";" scope="0x1d62670"/>
+    <token id="0x1d39f50" file="../include/base_local_planner/trajectory.h" linenr="114" str="std" scope="0x1d62670" type="name" astParent="0x1d3a000"/>
+    <token id="0x1d3a000" file="../include/base_local_planner/trajectory.h" linenr="114" str="::" scope="0x1d62670" astOperand1="0x1d39f50" astOperand2="0x1d3a0b0"/>
+    <token id="0x1d3a0b0" file="../include/base_local_planner/trajectory.h" linenr="114" str="vector" scope="0x1d62670" type="name" astParent="0x1d3a000"/>
+    <token id="0x1d3a160" file="../include/base_local_planner/trajectory.h" linenr="114" str="&lt;" scope="0x1d62670" link="0x1d3a2c0"/>
+    <token id="0x1d3a210" file="../include/base_local_planner/trajectory.h" linenr="114" str="double" scope="0x1d62670" type="name"/>
+    <token id="0x1d3a2c0" file="../include/base_local_planner/trajectory.h" linenr="114" str="&gt;" scope="0x1d62670" link="0x1d3a160"/>
+    <token id="0x1d3a370" file="../include/base_local_planner/trajectory.h" linenr="114" str="th_pts_" scope="0x1d62670" type="name" varId="27" variable="0x1d68320"/>
+    <token id="0x1d3ba80" file="../include/base_local_planner/trajectory.h" linenr="114" str=";" scope="0x1d62670"/>
+    <token id="0x1d3bb30" file="../include/base_local_planner/trajectory.h" linenr="116" str="}" scope="0x1d62670" link="0x1d2fcc0"/>
+    <token id="0x1d3bbe0" file="../include/base_local_planner/trajectory.h" linenr="116" str=";" scope="0x1d62be0"/>
+    <token id="0x1d3bc90" file="../include/base_local_planner/trajectory.h" linenr="117" str="}" scope="0x1d62be0" link="0x1d2fa00"/>
+    <token id="0x1d3bd40" file="../include/base_local_planner/trajectory.h" linenr="117" str=";" scope="0x1d62be0"/>
+    <token id="0x1d3be20" file="../include/base_local_planner/trajectory_cost_function.h" linenr="43" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3bed0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="43" str="base_local_planner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3bf80" file="../include/base_local_planner/trajectory_cost_function.h" linenr="43" str="{" scope="0x1d62be0" link="0x1d3f450"/>
+    <token id="0x1d3c030" file="../include/base_local_planner/trajectory_cost_function.h" linenr="52" str="class" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3c0e0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="52" str="TrajectoryCostFunction" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3c1c0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="52" str="{" scope="0x1d64190" link="0x1d3f2f0"/>
+    <token id="0x1d3c270" file="../include/base_local_planner/trajectory_cost_function.h" linenr="53" str="public:" scope="0x1d64190" type="name"/>
+    <token id="0x1d3c3d0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="virtual" scope="0x1d64190" type="name"/>
+    <token id="0x1d3c480" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="bool" scope="0x1d64190" type="name"/>
+    <token id="0x1d3c530" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="prepare" scope="0x1d64190" type="name" function="0x1d64330" astParent="0x1d3c5e0"/>
+    <token id="0x1d3c5e0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="(" scope="0x1d64190" link="0x1d3c690" astParent="0x1d3c740" astOperand1="0x1d3c530"/>
+    <token id="0x1d3c690" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str=")" scope="0x1d64190" link="0x1d3c5e0"/>
+    <token id="0x1d3c740" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="=" scope="0x1d64190" type="op" isAssignmentOp="True" astOperand1="0x1d3c5e0" astOperand2="0x1d3c7f0"/>
+    <token id="0x1d3c7f0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str="0" scope="0x1d64190" type="number" isInt="True" values="0x1d3c7f8" astParent="0x1d3c740"/>
+    <token id="0x1d3c8a0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="60" str=";" scope="0x1d64190"/>
+    <token id="0x1d3c950" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="virtual" scope="0x1d64190" type="name"/>
+    <token id="0x1d3ca00" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="double" scope="0x1d64190" type="name"/>
+    <token id="0x1d3cab0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="scoreTrajectory" scope="0x1d64190" type="name" function="0x1d643d0" astParent="0x1d3cb60"/>
+    <token id="0x1d3cb60" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="(" scope="0x1d64190" link="0x1d3ce20" astParent="0x1d3ced0" astOperand1="0x1d3cab0" astOperand2="0x1d3ccc0"/>
+    <token id="0x1d3cc10" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="Trajectory" scope="0x1d64190" type="name" type-scope="0x1d62670" astParent="0x1d3ccc0"/>
+    <token id="0x1d3ccc0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="&amp;" scope="0x1d64190" type="op" astParent="0x1d3cb60" astOperand1="0x1d3cc10" astOperand2="0x1d3cd70"/>
+    <token id="0x1d3cd70" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="traj" scope="0x1d64190" type="name" varId="28" variable="0x1d694f0" astParent="0x1d3ccc0"/>
+    <token id="0x1d3ce20" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str=")" scope="0x1d64190" link="0x1d3cb60"/>
+    <token id="0x1d3ced0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="=" scope="0x1d64190" type="op" isAssignmentOp="True" astOperand1="0x1d3cb60" astOperand2="0x1d3cf80"/>
+    <token id="0x1d3cf80" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str="0" scope="0x1d64190" type="number" isInt="True" values="0x1d3cf88" astParent="0x1d3ced0"/>
+    <token id="0x1d3d030" file="../include/base_local_planner/trajectory_cost_function.h" linenr="65" str=";" scope="0x1d64190"/>
+    <token id="0x1d3d0e0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="67" str="double" scope="0x1d64190" type="name"/>
+    <token id="0x1d3d190" file="../include/base_local_planner/trajectory_cost_function.h" linenr="67" str="getScale" scope="0x1d64190" type="name" function="0x1d64470" astParent="0x1d3d240"/>
+    <token id="0x1d3d240" file="../include/base_local_planner/trajectory_cost_function.h" linenr="67" str="(" scope="0x1d64190" link="0x1d3d2f0" astOperand1="0x1d3d190"/>
+    <token id="0x1d3d2f0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="67" str=")" scope="0x1d64190" link="0x1d3d240"/>
+    <token id="0x1d3d3a0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="67" str="{" scope="0x1d64510" link="0x1d3d660"/>
+    <token id="0x1d3d450" file="../include/base_local_planner/trajectory_cost_function.h" linenr="68" str="return" scope="0x1d64510" type="name" astOperand1="0x1d3d500"/>
+    <token id="0x1d3d500" file="../include/base_local_planner/trajectory_cost_function.h" linenr="68" str="scale_" scope="0x1d64510" type="name" varId="31" variable="0x1d68390" astParent="0x1d3d450"/>
+    <token id="0x1d3d5b0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="68" str=";" scope="0x1d64510"/>
+    <token id="0x1d3d660" file="../include/base_local_planner/trajectory_cost_function.h" linenr="69" str="}" scope="0x1d64510" link="0x1d3d3a0"/>
+    <token id="0x1d3d710" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="void" scope="0x1d64190" type="name"/>
+    <token id="0x1d3d7c0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="setScale" scope="0x1d64190" type="name" function="0x1d64640" astParent="0x1d3d870"/>
+    <token id="0x1d3d870" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="(" scope="0x1d64190" link="0x1d3da80" astOperand1="0x1d3d7c0" astOperand2="0x1d3d9d0"/>
+    <token id="0x1d3d920" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="double" scope="0x1d64190" type="name"/>
+    <token id="0x1d3d9d0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="scale" scope="0x1d64190" type="name" varId="29" variable="0x1d69560" astParent="0x1d3d870"/>
+    <token id="0x1d3da80" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str=")" scope="0x1d64190" link="0x1d3d870"/>
+    <token id="0x1d3db30" file="../include/base_local_planner/trajectory_cost_function.h" linenr="71" str="{" scope="0x1d646e0" link="0x1d3dea0"/>
+    <token id="0x1d3dbe0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="72" str="scale_" scope="0x1d646e0" type="name" varId="31" variable="0x1d68390" astParent="0x1d3dc90"/>
+    <token id="0x1d3dc90" file="../include/base_local_planner/trajectory_cost_function.h" linenr="72" str="=" scope="0x1d646e0" type="op" isAssignmentOp="True" astOperand1="0x1d3dbe0" astOperand2="0x1d3dd40"/>
+    <token id="0x1d3dd40" file="../include/base_local_planner/trajectory_cost_function.h" linenr="72" str="scale" scope="0x1d646e0" type="name" varId="29" variable="0x1d69560" astParent="0x1d3dc90"/>
+    <token id="0x1d3ddf0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="72" str=";" scope="0x1d646e0"/>
+    <token id="0x1d3dea0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="73" str="}" scope="0x1d646e0" link="0x1d3db30"/>
+    <token id="0x1d3df50" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="virtual" scope="0x1d64190" type="name"/>
+    <token id="0x1d3e000" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="~" scope="0x1d64190" type="op"/>
+    <token id="0x1d3e0b0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="TrajectoryCostFunction" scope="0x1d64190" type="name" function="0x1d64810" astParent="0x1d3e190"/>
+    <token id="0x1d3e190" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="(" scope="0x1d64190" link="0x1d3e240" astOperand1="0x1d3e0b0"/>
+    <token id="0x1d3e240" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str=")" scope="0x1d64190" link="0x1d3e190"/>
+    <token id="0x1d3e2f0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="{" scope="0x1d648b0" link="0x1d3e3a0"/>
+    <token id="0x1d3e3a0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="75" str="}" scope="0x1d648b0" link="0x1d3e2f0"/>
+    <token id="0x1d3e450" file="../include/base_local_planner/trajectory_cost_function.h" linenr="77" str="protected:" scope="0x1d64190" type="name"/>
+    <token id="0x1d3e5b0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="TrajectoryCostFunction" scope="0x1d64190" type="name" function="0x1d649e0" astParent="0x1d3e690"/>
+    <token id="0x1d3e690" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="(" scope="0x1d64190" link="0x1d3ea00" astParent="0x1d3eab0" astOperand1="0x1d3e5b0" astOperand2="0x1d3e8a0"/>
+    <token id="0x1d3e740" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="double" scope="0x1d64190" type="name"/>
+    <token id="0x1d3e7f0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="scale" scope="0x1d64190" type="name" varId="30" variable="0x1d695d0" astParent="0x1d3e8a0"/>
+    <token id="0x1d3e8a0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="=" scope="0x1d64190" type="op" isAssignmentOp="True" astParent="0x1d3e690" astOperand1="0x1d3e7f0" astOperand2="0x1d3e950"/>
+    <token id="0x1d3e950" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="1.0" scope="0x1d64190" type="number" isFloat="True" astParent="0x1d3e8a0"/>
+    <token id="0x1d3ea00" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str=")" scope="0x1d64190" link="0x1d3e690"/>
+    <token id="0x1d3eab0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str=":" scope="0x1d64190" astOperand1="0x1d3e690" astOperand2="0x1d3ec10"/>
+    <token id="0x1d3eb60" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="scale_" scope="0x1d64190" type="name" varId="31" variable="0x1d68390" astParent="0x1d3ec10"/>
+    <token id="0x1d3ec10" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="(" scope="0x1d64190" link="0x1d3ed70" astParent="0x1d3eab0" astOperand1="0x1d3eb60" astOperand2="0x1d3ecc0"/>
+    <token id="0x1d3ecc0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="scale" scope="0x1d64190" type="name" varId="30" variable="0x1d695d0" astParent="0x1d3ec10"/>
+    <token id="0x1d3ed70" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str=")" scope="0x1d64190" link="0x1d3ec10"/>
+    <token id="0x1d3ee20" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="{" scope="0x1d64a80" link="0x1d3eed0"/>
+    <token id="0x1d3eed0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="78" str="}" scope="0x1d64a80" link="0x1d3ee20"/>
+    <token id="0x1d3ef80" file="../include/base_local_planner/trajectory_cost_function.h" linenr="80" str="private:" scope="0x1d64190" type="name"/>
+    <token id="0x1d3f0e0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="81" str="double" scope="0x1d64190" type="name"/>
+    <token id="0x1d3f190" file="../include/base_local_planner/trajectory_cost_function.h" linenr="81" str="scale_" scope="0x1d64190" type="name" varId="31" variable="0x1d68390"/>
+    <token id="0x1d3f240" file="../include/base_local_planner/trajectory_cost_function.h" linenr="81" str=";" scope="0x1d64190"/>
+    <token id="0x1d3f2f0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="82" str="}" scope="0x1d64190" link="0x1d3c1c0"/>
+    <token id="0x1d3f3a0" file="../include/base_local_planner/trajectory_cost_function.h" linenr="82" str=";" scope="0x1d62be0"/>
+    <token id="0x1d3f450" file="../include/base_local_planner/trajectory_cost_function.h" linenr="84" str="}" scope="0x1d62be0" link="0x1d3bf80"/>
+    <token id="0x1d3f6d0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="43" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3f780" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="43" str="base_local_planner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3f830" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="43" str="{" scope="0x1d62be0" link="0x1d415a0"/>
+    <token id="0x1d3f930" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="49" str="class" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3fa10" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="49" str="TrajectorySampleGenerator" scope="0x1d62be0" type="name"/>
+    <token id="0x1d3faf0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="49" str="{" scope="0x1d64bb0" link="0x1d41440"/>
+    <token id="0x1d3fba0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="50" str="public:" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d3fd00" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="virtual" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d3fdb0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="bool" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d3fe60" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="hasMoreTrajectories" scope="0x1d64bb0" type="name" function="0x1d64d50" astParent="0x1d3ff10"/>
+    <token id="0x1d3ff10" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="(" scope="0x1d64bb0" link="0x1d3ffc0" astParent="0x1d40070" astOperand1="0x1d3fe60"/>
+    <token id="0x1d3ffc0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str=")" scope="0x1d64bb0" link="0x1d3ff10"/>
+    <token id="0x1d40070" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="=" scope="0x1d64bb0" type="op" isAssignmentOp="True" astOperand1="0x1d3ff10" astOperand2="0x1d40120"/>
+    <token id="0x1d40120" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str="0" scope="0x1d64bb0" type="number" isInt="True" values="0x1d40128" astParent="0x1d40070"/>
+    <token id="0x1d401d0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="55" str=";" scope="0x1d64bb0"/>
+    <token id="0x1d40280" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="virtual" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d40330" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="bool" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d403e0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="nextTrajectory" scope="0x1d64bb0" type="name" function="0x1d64df0" astParent="0x1d40490"/>
+    <token id="0x1d40490" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="(" scope="0x1d64bb0" link="0x1d40750" astParent="0x1d40800" astOperand1="0x1d403e0" astOperand2="0x1d405f0"/>
+    <token id="0x1d40540" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="Trajectory" scope="0x1d64bb0" type="name" type-scope="0x1d62670" astParent="0x1d405f0"/>
+    <token id="0x1d405f0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="&amp;" scope="0x1d64bb0" type="op" astParent="0x1d40490" astOperand1="0x1d40540" astOperand2="0x1d406a0"/>
+    <token id="0x1d406a0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="traj" scope="0x1d64bb0" type="name" varId="32" variable="0x1d69640" astParent="0x1d405f0"/>
+    <token id="0x1d40750" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str=")" scope="0x1d64bb0" link="0x1d40490"/>
+    <token id="0x1d40800" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="=" scope="0x1d64bb0" type="op" isAssignmentOp="True" astOperand1="0x1d40490" astOperand2="0x1d408b0"/>
+    <token id="0x1d408b0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str="0" scope="0x1d64bb0" type="number" isInt="True" values="0x1d408b8" astParent="0x1d40800"/>
+    <token id="0x1d40960" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="60" str=";" scope="0x1d64bb0"/>
+    <token id="0x1d40a10" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="virtual" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d40ac0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="~" scope="0x1d64bb0" type="op"/>
+    <token id="0x1d40ba0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="TrajectorySampleGenerator" scope="0x1d64bb0" type="name" function="0x1d64e90" astParent="0x1d40c80"/>
+    <token id="0x1d40c80" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="(" scope="0x1d64bb0" link="0x1d40d30" astOperand1="0x1d40ba0"/>
+    <token id="0x1d40d30" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str=")" scope="0x1d64bb0" link="0x1d40c80"/>
+    <token id="0x1d40de0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="{" scope="0x1d64f90" link="0x1d40e90"/>
+    <token id="0x1d40e90" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="65" str="}" scope="0x1d64f90" link="0x1d40de0"/>
+    <token id="0x1d40f40" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="67" str="protected:" scope="0x1d64bb0" type="name"/>
+    <token id="0x1d410a0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="68" str="TrajectorySampleGenerator" scope="0x1d64bb0" type="name" function="0x1d650c0" astParent="0x1d41180"/>
+    <token id="0x1d41180" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="68" str="(" scope="0x1d64bb0" link="0x1d41230" astOperand1="0x1d410a0"/>
+    <token id="0x1d41230" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="68" str=")" scope="0x1d64bb0" link="0x1d41180"/>
+    <token id="0x1d412e0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="68" str="{" scope="0x1d651c0" link="0x1d41390"/>
+    <token id="0x1d41390" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="68" str="}" scope="0x1d651c0" link="0x1d412e0"/>
+    <token id="0x1d41440" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="70" str="}" scope="0x1d64bb0" link="0x1d3faf0"/>
+    <token id="0x1d414f0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="70" str=";" scope="0x1d62be0"/>
+    <token id="0x1d415a0" file="../include/base_local_planner/trajectory_sample_generator.h" linenr="72" str="}" scope="0x1d62be0" link="0x1d3f830"/>
+    <token id="0x1d41650" file="../include/base_local_planner/trajectory_search.h" linenr="43" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d41700" file="../include/base_local_planner/trajectory_search.h" linenr="43" str="base_local_planner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d417b0" file="../include/base_local_planner/trajectory_search.h" linenr="43" str="{" scope="0x1d62be0" link="0x1d43550"/>
+    <token id="0x1d41860" file="../include/base_local_planner/trajectory_search.h" linenr="49" str="class" scope="0x1d62be0" type="name"/>
+    <token id="0x1d41910" file="../include/base_local_planner/trajectory_search.h" linenr="49" str="TrajectorySearch" scope="0x1d62be0" type="name"/>
+    <token id="0x1d419f0" file="../include/base_local_planner/trajectory_search.h" linenr="49" str="{" scope="0x1d65320" link="0x1d433f0"/>
+    <token id="0x1d41aa0" file="../include/base_local_planner/trajectory_search.h" linenr="50" str="public:" scope="0x1d65320" type="name"/>
+    <token id="0x1d41c00" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="virtual" scope="0x1d65320" type="name"/>
+    <token id="0x1d41cb0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="bool" scope="0x1d65320" type="name"/>
+    <token id="0x1d41d60" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="findBestTrajectory" scope="0x1d65320" type="name" function="0x1d654c0" astParent="0x1d41e40"/>
+    <token id="0x1d41e40" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="(" scope="0x1d65320" link="0x1d42730" astParent="0x1d427e0" astOperand1="0x1d41d60" astOperand2="0x1d42100"/>
+    <token id="0x1d41ef0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="Trajectory" scope="0x1d65320" type="name" type-scope="0x1d62670" astParent="0x1d41fa0"/>
+    <token id="0x1d41fa0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="&amp;" scope="0x1d65320" type="op" astParent="0x1d42100" astOperand1="0x1d41ef0" astOperand2="0x1d42050"/>
+    <token id="0x1d42050" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="traj" scope="0x1d65320" type="name" varId="33" variable="0x1d696b0" astParent="0x1d41fa0"/>
+    <token id="0x1d42100" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="," scope="0x1d65320" astParent="0x1d41e40" astOperand1="0x1d41fa0" astOperand2="0x1d425d0"/>
+    <token id="0x1d421b0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="std" scope="0x1d65320" type="name" astParent="0x1d42260"/>
+    <token id="0x1d42260" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="::" scope="0x1d65320" astParent="0x1d425d0" astOperand1="0x1d421b0" astOperand2="0x1d42310"/>
+    <token id="0x1d42310" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="vector" scope="0x1d65320" type="name" astParent="0x1d42260"/>
+    <token id="0x1d423c0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="&lt;" scope="0x1d65320" link="0x1d42520"/>
+    <token id="0x1d42470" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="Trajectory" scope="0x1d65320" type="name" type-scope="0x1d62670"/>
+    <token id="0x1d42520" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="&gt;" scope="0x1d65320" link="0x1d423c0"/>
+    <token id="0x1d425d0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="*" scope="0x1d65320" type="op" isArithmeticalOp="True" astParent="0x1d42100" astOperand1="0x1d42260" astOperand2="0x1d42680"/>
+    <token id="0x1d42680" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="all_explored" scope="0x1d65320" type="name" varId="34" variable="0x1d69720" astParent="0x1d425d0"/>
+    <token id="0x1d42730" file="../include/base_local_planner/trajectory_search.h" linenr="59" str=")" scope="0x1d65320" link="0x1d41e40"/>
+    <token id="0x1d427e0" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="=" scope="0x1d65320" type="op" isAssignmentOp="True" astOperand1="0x1d41e40" astOperand2="0x1d42890"/>
+    <token id="0x1d42890" file="../include/base_local_planner/trajectory_search.h" linenr="59" str="0" scope="0x1d65320" type="number" isInt="True" values="0x1d42898" astParent="0x1d427e0"/>
+    <token id="0x1d42940" file="../include/base_local_planner/trajectory_search.h" linenr="59" str=";" scope="0x1d65320"/>
+    <token id="0x1d429f0" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="virtual" scope="0x1d65320" type="name"/>
+    <token id="0x1d42aa0" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="~" scope="0x1d65320" type="op"/>
+    <token id="0x1d42b50" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="TrajectorySearch" scope="0x1d65320" type="name" function="0x1d65560" astParent="0x1d42c30"/>
+    <token id="0x1d42c30" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="(" scope="0x1d65320" link="0x1d42ce0" astOperand1="0x1d42b50"/>
+    <token id="0x1d42ce0" file="../include/base_local_planner/trajectory_search.h" linenr="61" str=")" scope="0x1d65320" link="0x1d42c30"/>
+    <token id="0x1d42d90" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="{" scope="0x1d65630" link="0x1d42e40"/>
+    <token id="0x1d42e40" file="../include/base_local_planner/trajectory_search.h" linenr="61" str="}" scope="0x1d65630" link="0x1d42d90"/>
+    <token id="0x1d42ef0" file="../include/base_local_planner/trajectory_search.h" linenr="63" str="protected:" scope="0x1d65320" type="name"/>
+    <token id="0x1d43050" file="../include/base_local_planner/trajectory_search.h" linenr="64" str="TrajectorySearch" scope="0x1d65320" type="name" function="0x1d65760" astParent="0x1d43130"/>
+    <token id="0x1d43130" file="../include/base_local_planner/trajectory_search.h" linenr="64" str="(" scope="0x1d65320" link="0x1d431e0" astOperand1="0x1d43050"/>
+    <token id="0x1d431e0" file="../include/base_local_planner/trajectory_search.h" linenr="64" str=")" scope="0x1d65320" link="0x1d43130"/>
+    <token id="0x1d43290" file="../include/base_local_planner/trajectory_search.h" linenr="64" str="{" scope="0x1d65830" link="0x1d43340"/>
+    <token id="0x1d43340" file="../include/base_local_planner/trajectory_search.h" linenr="64" str="}" scope="0x1d65830" link="0x1d43290"/>
+    <token id="0x1d433f0" file="../include/base_local_planner/trajectory_search.h" linenr="66" str="}" scope="0x1d65320" link="0x1d419f0"/>
+    <token id="0x1d434a0" file="../include/base_local_planner/trajectory_search.h" linenr="66" str=";" scope="0x1d62be0"/>
+    <token id="0x1d43550" file="../include/base_local_planner/trajectory_search.h" linenr="69" str="}" scope="0x1d62be0" link="0x1d417b0"/>
+    <token id="0x1d43600" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="47" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d436b0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="47" str="base_local_planner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d43790" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="47" str="{" scope="0x1d62be0" link="0x1d481d0"/>
+    <token id="0x1d43840" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="class" scope="0x1d62be0" type="name"/>
+    <token id="0x1d43920" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="SimpleScoredSamplingPlanner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d43a00" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str=":" scope="0x1d62be0"/>
+    <token id="0x1d43ab0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="public" scope="0x1d62be0" type="name"/>
+    <token id="0x1d43b60" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="base_local_planner" scope="0x1d62be0" type="name" astParent="0x1d43c10"/>
+    <token id="0x1d43c10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="::" scope="0x1d62be0" astOperand1="0x1d43b60" astOperand2="0x1d43cc0"/>
+    <token id="0x1d43cc0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="TrajectorySearch" scope="0x1d62be0" type="name" type-scope="0x1d65320" astParent="0x1d43c10"/>
+    <token id="0x1d43da0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="58" str="{" scope="0x1d65990" link="0x1d48070"/>
+    <token id="0x1d43e50" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="59" str="public:" scope="0x1d65990" type="name"/>
+    <token id="0x1d43fb0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str="~" scope="0x1d65990" type="op"/>
+    <token id="0x1d44090" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str="SimpleScoredSamplingPlanner" scope="0x1d65990" type="name" function="0x1d65bc0" astParent="0x1d44170"/>
+    <token id="0x1d44170" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str="(" scope="0x1d65990" link="0x1d44220" astOperand1="0x1d44090"/>
+    <token id="0x1d44220" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str=")" scope="0x1d65990" link="0x1d44170"/>
+    <token id="0x1d442d0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str="{" scope="0x1d65c90" link="0x1d44380"/>
+    <token id="0x1d44380" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="61" str="}" scope="0x1d65c90" link="0x1d442d0"/>
+    <token id="0x1d44430" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="63" str="SimpleScoredSamplingPlanner" scope="0x1d65990" type="name" function="0x1d65de0" astParent="0x1d44510"/>
+    <token id="0x1d44510" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="63" str="(" scope="0x1d65990" link="0x1d445c0" astOperand1="0x1d44430"/>
+    <token id="0x1d445c0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="63" str=")" scope="0x1d65990" link="0x1d44510"/>
+    <token id="0x1d44670" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="63" str="{" scope="0x1d65ee0" link="0x1d44720"/>
+    <token id="0x1d44720" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="63" str="}" scope="0x1d65ee0" link="0x1d44670"/>
+    <token id="0x1d447d0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="SimpleScoredSamplingPlanner" scope="0x1d65990" type="name" function="0x1d66030" astParent="0x1d448b0"/>
+    <token id="0x1d448b0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="(" scope="0x1d65990" link="0x1d45a10" astOperand1="0x1d447d0" astOperand2="0x1d44a10"/>
+    <token id="0x1d44960" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="std" scope="0x1d65990" type="name" astParent="0x1d44a10"/>
+    <token id="0x1d44a10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="::" scope="0x1d65990" astParent="0x1d448b0" astOperand1="0x1d44960" astOperand2="0x1d44ac0"/>
+    <token id="0x1d44ac0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="vector" scope="0x1d65990" type="name" astParent="0x1d44a10"/>
+    <token id="0x1d44b70" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="&lt;" scope="0x1d65990" link="0x1d44db0"/>
+    <token id="0x1d44c20" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="TrajectorySampleGenerator" scope="0x1d65990" type="name" type-scope="0x1d64bb0"/>
+    <token id="0x1d44d00" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="*" scope="0x1d65990" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d44db0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="&gt;" scope="0x1d65990" link="0x1d44b70"/>
+    <token id="0x1d44e60" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="gen_list" scope="0x1d65990" type="name" varId="35"/>
+    <token id="0x1d44f10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="," scope="0x1d65990"/>
+    <token id="0x1d44fc0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="std" scope="0x1d65990" type="name"/>
+    <token id="0x1d45070" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="::" scope="0x1d65990"/>
+    <token id="0x1d45120" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="vector" scope="0x1d65990" type="name"/>
+    <token id="0x1d451d0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="&lt;" scope="0x1d65990" link="0x1d453e0"/>
+    <token id="0x1d45280" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="TrajectoryCostFunction" scope="0x1d65990" type="name" type-scope="0x1d64190"/>
+    <token id="0x1d45330" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="*" scope="0x1d65990" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d453e0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="&gt;" scope="0x1d65990" link="0x1d451d0"/>
+    <token id="0x1d45490" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="&amp;" scope="0x1d65990" type="op"/>
+    <token id="0x1d45540" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="critics" scope="0x1d65990" type="name" varId="36"/>
+    <token id="0x1d455f0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="," scope="0x1d65990"/>
+    <token id="0x1d456a0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="int" scope="0x1d65990" type="name"/>
+    <token id="0x1d45750" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="max_samples" scope="0x1d65990" type="name" varId="37"/>
+    <token id="0x1d45800" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="=" scope="0x1d65990" type="op" isAssignmentOp="True"/>
+    <token id="0x1d45960" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str="-1" scope="0x1d65990" type="number" isInt="True" values="0x1d45968"/>
+    <token id="0x1d45a10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str=")" scope="0x1d65990" link="0x1d448b0"/>
+    <token id="0x1d45ac0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="74" str=";" scope="0x1d65990"/>
+    <token id="0x1d45b70" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="double" scope="0x1d65990" type="name"/>
+    <token id="0x1d45c20" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="scoreTrajectory" scope="0x1d65990" type="name" function="0x1d66100" astParent="0x1d45cd0"/>
+    <token id="0x1d45cd0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="(" scope="0x1d65990" link="0x1d461a0" astOperand1="0x1d45c20" astOperand2="0x1d45f90"/>
+    <token id="0x1d45d80" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="Trajectory" scope="0x1d65990" type="name" type-scope="0x1d62670" astParent="0x1d45e30"/>
+    <token id="0x1d45e30" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="&amp;" scope="0x1d65990" type="op" astParent="0x1d45f90" astOperand1="0x1d45d80" astOperand2="0x1d45ee0"/>
+    <token id="0x1d45ee0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="traj" scope="0x1d65990" type="name" varId="38" astParent="0x1d45e30"/>
+    <token id="0x1d45f90" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="," scope="0x1d65990" astParent="0x1d45cd0" astOperand1="0x1d45e30" astOperand2="0x1d460f0"/>
+    <token id="0x1d46040" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="double" scope="0x1d65990" type="name"/>
+    <token id="0x1d460f0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str="best_traj_cost" scope="0x1d65990" type="name" varId="39" astParent="0x1d45f90"/>
+    <token id="0x1d461a0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str=")" scope="0x1d65990" link="0x1d45cd0"/>
+    <token id="0x1d46250" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="81" str=";" scope="0x1d65990"/>
+    <token id="0x1d46300" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="bool" scope="0x1d65990" type="name"/>
+    <token id="0x1d463b0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="findBestTrajectory" scope="0x1d65990" type="name" function="0x1d661a0" astParent="0x1d46490"/>
+    <token id="0x1d46490" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="(" scope="0x1d65990" link="0x1d46ee0" astOperand1="0x1d463b0" astOperand2="0x1d46750"/>
+    <token id="0x1d46540" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="Trajectory" scope="0x1d65990" type="name" type-scope="0x1d62670" astParent="0x1d465f0"/>
+    <token id="0x1d465f0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="&amp;" scope="0x1d65990" type="op" astParent="0x1d46750" astOperand1="0x1d46540" astOperand2="0x1d466a0"/>
+    <token id="0x1d466a0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="traj" scope="0x1d65990" type="name" varId="40" astParent="0x1d465f0"/>
+    <token id="0x1d46750" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="," scope="0x1d65990" astParent="0x1d46490" astOperand1="0x1d465f0" astOperand2="0x1d46d80"/>
+    <token id="0x1d46800" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="std" scope="0x1d65990" type="name" astParent="0x1d468b0"/>
+    <token id="0x1d468b0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="::" scope="0x1d65990" astParent="0x1d46c20" astOperand1="0x1d46800" astOperand2="0x1d46960"/>
+    <token id="0x1d46960" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="vector" scope="0x1d65990" type="name" astParent="0x1d468b0"/>
+    <token id="0x1d46a10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="&lt;" scope="0x1d65990" link="0x1d46b70"/>
+    <token id="0x1d46ac0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="Trajectory" scope="0x1d65990" type="name" type-scope="0x1d62670"/>
+    <token id="0x1d46b70" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="&gt;" scope="0x1d65990" link="0x1d46a10"/>
+    <token id="0x1d46c20" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="*" scope="0x1d65990" type="op" isArithmeticalOp="True" astParent="0x1d46d80" astOperand1="0x1d468b0" astOperand2="0x1d46cd0"/>
+    <token id="0x1d46cd0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="all_explored" scope="0x1d65990" type="name" varId="41" astParent="0x1d46c20"/>
+    <token id="0x1d46d80" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="=" scope="0x1d65990" type="op" isAssignmentOp="True" astParent="0x1d46750" astOperand1="0x1d46c20" astOperand2="0x1d46e30"/>
+    <token id="0x1d46e30" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str="0" scope="0x1d65990" type="number" isInt="True" values="0x1d46e38" astParent="0x1d46d80"/>
+    <token id="0x1d46ee0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str=")" scope="0x1d65990" link="0x1d46490"/>
+    <token id="0x1d46f90" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="94" str=";" scope="0x1d65990"/>
+    <token id="0x1d47040" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="97" str="private:" scope="0x1d65990" type="name"/>
+    <token id="0x1d471a0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="std" scope="0x1d65990" type="name" astParent="0x1d47250"/>
+    <token id="0x1d47250" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="::" scope="0x1d65990" astOperand1="0x1d471a0" astOperand2="0x1d47300"/>
+    <token id="0x1d47300" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="vector" scope="0x1d65990" type="name" astParent="0x1d47250"/>
+    <token id="0x1d473b0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="&lt;" scope="0x1d65990" link="0x1d47620"/>
+    <token id="0x1d47490" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="TrajectorySampleGenerator" scope="0x1d65990" type="name" type-scope="0x1d64bb0"/>
+    <token id="0x1d47570" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="*" scope="0x1d65990" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d47620" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="&gt;" scope="0x1d65990" link="0x1d473b0"/>
+    <token id="0x1d476d0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str="gen_list_" scope="0x1d65990" type="name" varId="42" variable="0x1d68400"/>
+    <token id="0x1d47780" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="98" str=";" scope="0x1d65990"/>
+    <token id="0x1d47830" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="std" scope="0x1d65990" type="name" astParent="0x1d478e0"/>
+    <token id="0x1d478e0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="::" scope="0x1d65990" astOperand1="0x1d47830" astOperand2="0x1d47990"/>
+    <token id="0x1d47990" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="vector" scope="0x1d65990" type="name" astParent="0x1d478e0"/>
+    <token id="0x1d47a40" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="&lt;" scope="0x1d65990" link="0x1d47c50"/>
+    <token id="0x1d47af0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="TrajectoryCostFunction" scope="0x1d65990" type="name" type-scope="0x1d64190"/>
+    <token id="0x1d47ba0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="*" scope="0x1d65990" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d47c50" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="&gt;" scope="0x1d65990" link="0x1d47a40"/>
+    <token id="0x1d47d00" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str="critics_" scope="0x1d65990" type="name" varId="43" variable="0x1d68470"/>
+    <token id="0x1d47db0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="99" str=";" scope="0x1d65990"/>
+    <token id="0x1d47e60" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="101" str="int" scope="0x1d65990" type="name"/>
+    <token id="0x1d47f10" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="101" str="max_samples_" scope="0x1d65990" type="name" varId="44" variable="0x1d684e0"/>
+    <token id="0x1d47fc0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="101" str=";" scope="0x1d65990"/>
+    <token id="0x1d48070" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="102" str="}" scope="0x1d65990" link="0x1d43da0"/>
+    <token id="0x1d48120" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="102" str=";" scope="0x1d62be0"/>
+    <token id="0x1d481d0" file="../include/base_local_planner/simple_scored_sampling_planner.h" linenr="107" str="}" scope="0x1d62be0" link="0x1d43790"/>
+    <token id="0x1d48280" file="simple_scored_sampling_planner.cpp" linenr="42" str="namespace" scope="0x1d62be0" type="name"/>
+    <token id="0x1d48330" file="simple_scored_sampling_planner.cpp" linenr="42" str="base_local_planner" scope="0x1d62be0" type="name"/>
+    <token id="0x1d48410" file="simple_scored_sampling_planner.cpp" linenr="42" str="{" scope="0x1d628d0" link="0x1d62560"/>
+    <token id="0x1d484f0" file="simple_scored_sampling_planner.cpp" linenr="44" str="SimpleScoredSamplingPlanner" scope="0x1d628d0" type="name" type-scope="0x1d65990" astParent="0x1d485d0"/>
+    <token id="0x1d485d0" file="simple_scored_sampling_planner.cpp" linenr="44" str="::" scope="0x1d628d0" astParent="0x1d48760" astOperand1="0x1d484f0" astOperand2="0x1d48680"/>
+    <token id="0x1d48680" file="simple_scored_sampling_planner.cpp" linenr="44" str="SimpleScoredSamplingPlanner" scope="0x1d628d0" type="name" function="0x1d66030" astParent="0x1d485d0"/>
+    <token id="0x1d48760" file="simple_scored_sampling_planner.cpp" linenr="44" str="(" scope="0x1d628d0" link="0x1d496b0" astOperand1="0x1d485d0" astOperand2="0x1d488c0"/>
+    <token id="0x1d48810" file="simple_scored_sampling_planner.cpp" linenr="44" str="std" scope="0x1d628d0" type="name" astParent="0x1d488c0"/>
+    <token id="0x1d488c0" file="simple_scored_sampling_planner.cpp" linenr="44" str="::" scope="0x1d628d0" astParent="0x1d48760" astOperand1="0x1d48810" astOperand2="0x1d48970"/>
+    <token id="0x1d48970" file="simple_scored_sampling_planner.cpp" linenr="44" str="vector" scope="0x1d628d0" type="name" astParent="0x1d488c0"/>
+    <token id="0x1d48a20" file="simple_scored_sampling_planner.cpp" linenr="44" str="&lt;" scope="0x1d628d0" link="0x1d48c60"/>
+    <token id="0x1d48ad0" file="simple_scored_sampling_planner.cpp" linenr="44" str="TrajectorySampleGenerator" scope="0x1d628d0" type="name" type-scope="0x1d64bb0"/>
+    <token id="0x1d48bb0" file="simple_scored_sampling_planner.cpp" linenr="44" str="*" scope="0x1d628d0" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d48c60" file="simple_scored_sampling_planner.cpp" linenr="44" str="&gt;" scope="0x1d628d0" link="0x1d48a20"/>
+    <token id="0x1d48d10" file="simple_scored_sampling_planner.cpp" linenr="44" str="gen_list" scope="0x1d628d0" type="name" varId="45" variable="0x1d69790"/>
+    <token id="0x1d48dc0" file="simple_scored_sampling_planner.cpp" linenr="44" str="," scope="0x1d628d0"/>
+    <token id="0x1d48e70" file="simple_scored_sampling_planner.cpp" linenr="44" str="std" scope="0x1d628d0" type="name"/>
+    <token id="0x1d48f20" file="simple_scored_sampling_planner.cpp" linenr="44" str="::" scope="0x1d628d0"/>
+    <token id="0x1d48fd0" file="simple_scored_sampling_planner.cpp" linenr="44" str="vector" scope="0x1d628d0" type="name"/>
+    <token id="0x1d49080" file="simple_scored_sampling_planner.cpp" linenr="44" str="&lt;" scope="0x1d628d0" link="0x1d49290"/>
+    <token id="0x1d49130" file="simple_scored_sampling_planner.cpp" linenr="44" str="TrajectoryCostFunction" scope="0x1d628d0" type="name" type-scope="0x1d64190"/>
+    <token id="0x1d491e0" file="simple_scored_sampling_planner.cpp" linenr="44" str="*" scope="0x1d628d0" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d49290" file="simple_scored_sampling_planner.cpp" linenr="44" str="&gt;" scope="0x1d628d0" link="0x1d49080"/>
+    <token id="0x1d49340" file="simple_scored_sampling_planner.cpp" linenr="44" str="&amp;" scope="0x1d628d0" type="op"/>
+    <token id="0x1d493f0" file="simple_scored_sampling_planner.cpp" linenr="44" str="critics" scope="0x1d628d0" type="name" varId="46" variable="0x1d69800"/>
+    <token id="0x1d494a0" file="simple_scored_sampling_planner.cpp" linenr="44" str="," scope="0x1d628d0"/>
+    <token id="0x1d49550" file="simple_scored_sampling_planner.cpp" linenr="44" str="int" scope="0x1d628d0" type="name"/>
+    <token id="0x1d49600" file="simple_scored_sampling_planner.cpp" linenr="44" str="max_samples" scope="0x1d628d0" type="name" varId="47" variable="0x1d69870"/>
+    <token id="0x1d496b0" file="simple_scored_sampling_planner.cpp" linenr="44" str=")" scope="0x1d628d0" link="0x1d48760"/>
+    <token id="0x1d49760" file="simple_scored_sampling_planner.cpp" linenr="44" str="{" scope="0x1d66290" link="0x1d4a050"/>
+    <token id="0x1d49810" file="simple_scored_sampling_planner.cpp" linenr="45" str="max_samples_" scope="0x1d66290" type="name" varId="44" variable="0x1d684e0" astParent="0x1d498c0"/>
+    <token id="0x1d498c0" file="simple_scored_sampling_planner.cpp" linenr="45" str="=" scope="0x1d66290" type="op" isAssignmentOp="True" astOperand1="0x1d49810" astOperand2="0x1d49970"/>
+    <token id="0x1d49970" file="simple_scored_sampling_planner.cpp" linenr="45" str="max_samples" scope="0x1d66290" type="name" varId="47" variable="0x1d69870" astParent="0x1d498c0"/>
+    <token id="0x1d49a20" file="simple_scored_sampling_planner.cpp" linenr="45" str=";" scope="0x1d66290"/>
+    <token id="0x1d49ad0" file="simple_scored_sampling_planner.cpp" linenr="46" str="gen_list_" scope="0x1d66290" type="name" varId="42" variable="0x1d68400" astParent="0x1d49b80"/>
+    <token id="0x1d49b80" file="simple_scored_sampling_planner.cpp" linenr="46" str="=" scope="0x1d66290" type="op" isAssignmentOp="True" astOperand1="0x1d49ad0" astOperand2="0x1d49c30"/>
+    <token id="0x1d49c30" file="simple_scored_sampling_planner.cpp" linenr="46" str="gen_list" scope="0x1d66290" type="name" varId="45" variable="0x1d69790" astParent="0x1d49b80"/>
+    <token id="0x1d49ce0" file="simple_scored_sampling_planner.cpp" linenr="46" str=";" scope="0x1d66290"/>
+    <token id="0x1d49d90" file="simple_scored_sampling_planner.cpp" linenr="47" str="critics_" scope="0x1d66290" type="name" varId="43" variable="0x1d68470" astParent="0x1d49e40"/>
+    <token id="0x1d49e40" file="simple_scored_sampling_planner.cpp" linenr="47" str="=" scope="0x1d66290" type="op" isAssignmentOp="True" astOperand1="0x1d49d90" astOperand2="0x1d49ef0"/>
+    <token id="0x1d49ef0" file="simple_scored_sampling_planner.cpp" linenr="47" str="critics" scope="0x1d66290" type="name" varId="46" variable="0x1d69800" astParent="0x1d49e40"/>
+    <token id="0x1d49fa0" file="simple_scored_sampling_planner.cpp" linenr="47" str=";" scope="0x1d66290"/>
+    <token id="0x1d4a050" file="simple_scored_sampling_planner.cpp" linenr="48" str="}" scope="0x1d66290" link="0x1d49760"/>
+    <token id="0x1d4a100" file="simple_scored_sampling_planner.cpp" linenr="50" str="double" scope="0x1d628d0" type="name"/>
+    <token id="0x1d4a1e0" file="simple_scored_sampling_planner.cpp" linenr="50" str="SimpleScoredSamplingPlanner" scope="0x1d628d0" type="name" type-scope="0x1d65990" astParent="0x1d4a2c0"/>
+    <token id="0x1d4a2c0" file="simple_scored_sampling_planner.cpp" linenr="50" str="::" scope="0x1d628d0" astParent="0x1d4a420" astOperand1="0x1d4a1e0" astOperand2="0x1d4a370"/>
+    <token id="0x1d4a370" file="simple_scored_sampling_planner.cpp" linenr="50" str="scoreTrajectory" scope="0x1d628d0" type="name" function="0x1d66100" astParent="0x1d4a2c0"/>
+    <token id="0x1d4a420" file="simple_scored_sampling_planner.cpp" linenr="50" str="(" scope="0x1d628d0" link="0x1d4a8f0" astOperand1="0x1d4a2c0" astOperand2="0x1d4a6e0"/>
+    <token id="0x1d4a4d0" file="simple_scored_sampling_planner.cpp" linenr="50" str="Trajectory" scope="0x1d628d0" type="name" type-scope="0x1d62670" astParent="0x1d4a580"/>
+    <token id="0x1d4a580" file="simple_scored_sampling_planner.cpp" linenr="50" str="&amp;" scope="0x1d628d0" type="op" astParent="0x1d4a6e0" astOperand1="0x1d4a4d0" astOperand2="0x1d4a630"/>
+    <token id="0x1d4a630" file="simple_scored_sampling_planner.cpp" linenr="50" str="traj" scope="0x1d628d0" type="name" varId="48" variable="0x1d698e0" astParent="0x1d4a580"/>
+    <token id="0x1d4a6e0" file="simple_scored_sampling_planner.cpp" linenr="50" str="," scope="0x1d628d0" astParent="0x1d4a420" astOperand1="0x1d4a580" astOperand2="0x1d4a840"/>
+    <token id="0x1d4a790" file="simple_scored_sampling_planner.cpp" linenr="50" str="double" scope="0x1d628d0" type="name"/>
+    <token id="0x1d4a840" file="simple_scored_sampling_planner.cpp" linenr="50" str="best_traj_cost" scope="0x1d628d0" type="name" varId="49" variable="0x1d69950" astParent="0x1d4a6e0"/>
+    <token id="0x1d4a8f0" file="simple_scored_sampling_planner.cpp" linenr="50" str=")" scope="0x1d628d0" link="0x1d4a420"/>
+    <token id="0x1d4a9a0" file="simple_scored_sampling_planner.cpp" linenr="50" str="{" scope="0x1d663e0" link="0x1d518f0"/>
+    <token id="0x1d4aa50" file="simple_scored_sampling_planner.cpp" linenr="51" str="double" scope="0x1d663e0" type="name"/>
+    <token id="0x1d4ab00" file="simple_scored_sampling_planner.cpp" linenr="51" str="traj_cost" scope="0x1d663e0" type="name" varId="50" variable="0x1d68550"/>
+    <token id="0x1d4abb0" file="simple_scored_sampling_planner.cpp" linenr="51" str=";" scope="0x1d663e0"/>
+    <token id="0x1d3c320" file="simple_scored_sampling_planner.cpp" linenr="51" str="traj_cost" scope="0x1d663e0" type="name" varId="50" variable="0x1d68550" astParent="0x1d3e500"/>
+    <token id="0x1d3e500" file="simple_scored_sampling_planner.cpp" linenr="51" str="=" scope="0x1d663e0" type="op" isAssignmentOp="True" astOperand1="0x1d3c320" astOperand2="0x1d4ac60"/>
+    <token id="0x1d4ac60" file="simple_scored_sampling_planner.cpp" linenr="51" str="0" scope="0x1d663e0" type="number" isInt="True" values="0x1d4ac68" astParent="0x1d3e500"/>
+    <token id="0x1d4ad10" file="simple_scored_sampling_planner.cpp" linenr="51" str=";" scope="0x1d663e0"/>
+    <token id="0x1d4adc0" file="simple_scored_sampling_planner.cpp" linenr="52" str="int" scope="0x1d663e0" type="name"/>
+    <token id="0x1d4ae70" file="simple_scored_sampling_planner.cpp" linenr="52" str="gen_id" scope="0x1d663e0" type="name" varId="51" variable="0x1d685c0"/>
+    <token id="0x1d4af20" file="simple_scored_sampling_planner.cpp" linenr="52" str=";" scope="0x1d663e0"/>
+    <token id="0x1d3f030" file="simple_scored_sampling_planner.cpp" linenr="52" str="gen_id" scope="0x1d663e0" type="name" varId="51" variable="0x1d685c0" astParent="0x1d3fc50"/>
+    <token id="0x1d3fc50" file="simple_scored_sampling_planner.cpp" linenr="52" str="=" scope="0x1d663e0" type="op" isAssignmentOp="True" astOperand1="0x1d3f030" astOperand2="0x1d4afd0"/>
+    <token id="0x1d4afd0" file="simple_scored_sampling_planner.cpp" linenr="52" str="0" scope="0x1d663e0" type="number" isInt="True" values="0x1d4afd8" astParent="0x1d3fc50"/>
+    <token id="0x1d4b080" file="simple_scored_sampling_planner.cpp" linenr="52" str=";" scope="0x1d663e0"/>
+    <token id="0x1d4b130" file="simple_scored_sampling_planner.cpp" linenr="53" str="for" scope="0x1d663e0" type="name" astParent="0x1d4b1e0"/>
+    <token id="0x1d4b1e0" file="simple_scored_sampling_planner.cpp" linenr="53" str="(" scope="0x1d663e0" link="0x1d4c5d0" astOperand1="0x1d4b130" astOperand2="0x1d4bd90"/>
+    <token id="0x1d4b290" file="simple_scored_sampling_planner.cpp" linenr="53" str="std" scope="0x1d663e0" type="name" astParent="0x1d4b340"/>
+    <token id="0x1d4b340" file="simple_scored_sampling_planner.cpp" linenr="53" str="::" scope="0x1d663e0" astParent="0x1d4b760" astOperand1="0x1d4b290" astOperand2="0x1d4b3f0"/>
+    <token id="0x1d4b3f0" file="simple_scored_sampling_planner.cpp" linenr="53" str="vector" scope="0x1d663e0" type="name" astParent="0x1d4b340"/>
+    <token id="0x1d4b4a0" file="simple_scored_sampling_planner.cpp" linenr="53" str="&lt;" scope="0x1d663e0" link="0x1d4b6b0"/>
+    <token id="0x1d4b550" file="simple_scored_sampling_planner.cpp" linenr="53" str="TrajectoryCostFunction" scope="0x1d663e0" type="name" type-scope="0x1d64190"/>
+    <token id="0x1d4b600" file="simple_scored_sampling_planner.cpp" linenr="53" str="*" scope="0x1d663e0" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d4b6b0" file="simple_scored_sampling_planner.cpp" linenr="53" str="&gt;" scope="0x1d663e0" link="0x1d4b4a0"/>
+    <token id="0x1d4b760" file="simple_scored_sampling_planner.cpp" linenr="53" str="::" scope="0x1d663e0" astParent="0x1d4b970" astOperand1="0x1d4b340" astOperand2="0x1d4b8c0"/>
+    <token id="0x1d4b810" file="simple_scored_sampling_planner.cpp" linenr="53" str="iterator" scope="0x1d663e0" type="name"/>
+    <token id="0x1d4b8c0" file="simple_scored_sampling_planner.cpp" linenr="53" str="score_function" scope="0x1d663e0" type="name" varId="52" variable="0x1d66680" astParent="0x1d4b760"/>
+    <token id="0x1d4b970" file="simple_scored_sampling_planner.cpp" linenr="53" str="=" scope="0x1d663e0" type="op" isAssignmentOp="True" astParent="0x1d4bd90" astOperand1="0x1d4b760" astOperand2="0x1d4bc30"/>
+    <token id="0x1d4ba20" file="simple_scored_sampling_planner.cpp" linenr="53" str="critics_" scope="0x1d663e0" type="name" varId="43" variable="0x1d68470" astParent="0x1d4bad0"/>
+    <token id="0x1d4bad0" file="simple_scored_sampling_planner.cpp" linenr="53" str="." scope="0x1d663e0" astParent="0x1d4bc30" astOperand1="0x1d4ba20" astOperand2="0x1d4bb80"/>
+    <token id="0x1d4bb80" file="simple_scored_sampling_planner.cpp" linenr="53" str="begin" scope="0x1d663e0" type="name" astParent="0x1d4bad0"/>
+    <token id="0x1d4bc30" file="simple_scored_sampling_planner.cpp" linenr="53" str="(" scope="0x1d663e0" link="0x1d4bce0" astParent="0x1d4b970" astOperand1="0x1d4bad0"/>
+    <token id="0x1d4bce0" file="simple_scored_sampling_planner.cpp" linenr="53" str=")" scope="0x1d663e0" link="0x1d4bc30"/>
+    <token id="0x1d4bd90" file="simple_scored_sampling_planner.cpp" linenr="53" str=";" scope="0x1d663e0" astParent="0x1d4b1e0" astOperand1="0x1d4b970" astOperand2="0x1d4c3c0"/>
+    <token id="0x1d4be40" file="simple_scored_sampling_planner.cpp" linenr="53" str="score_function" scope="0x1d663e0" type="name" varId="52" variable="0x1d66680" astParent="0x1d4bef0"/>
+    <token id="0x1d4bef0" file="simple_scored_sampling_planner.cpp" linenr="53" str="!=" scope="0x1d663e0" type="op" isComparisonOp="True" astParent="0x1d4c3c0" astOperand1="0x1d4be40" astOperand2="0x1d4c260"/>
+    <token id="0x1d4c050" file="simple_scored_sampling_planner.cpp" linenr="53" str="critics_" scope="0x1d663e0" type="name" varId="43" variable="0x1d68470" astParent="0x1d4c100"/>
+    <token id="0x1d4c100" file="simple_scored_sampling_planner.cpp" linenr="53" str="." scope="0x1d663e0" astParent="0x1d4c260" astOperand1="0x1d4c050" astOperand2="0x1d4c1b0"/>
+    <token id="0x1d4c1b0" file="simple_scored_sampling_planner.cpp" linenr="53" str="end" scope="0x1d663e0" type="name" astParent="0x1d4c100"/>
+    <token id="0x1d4c260" file="simple_scored_sampling_planner.cpp" linenr="53" str="(" scope="0x1d663e0" link="0x1d4c310" astParent="0x1d4bef0" astOperand1="0x1d4c100"/>
+    <token id="0x1d4c310" file="simple_scored_sampling_planner.cpp" linenr="53" str=")" scope="0x1d663e0" link="0x1d4c260"/>
+    <token id="0x1d4c3c0" file="simple_scored_sampling_planner.cpp" linenr="53" str=";" scope="0x1d663e0" astParent="0x1d4bd90" astOperand1="0x1d4bef0" astOperand2="0x1d4c470"/>
+    <token id="0x1d4c470" file="simple_scored_sampling_planner.cpp" linenr="53" str="++" scope="0x1d663e0" type="op" astParent="0x1d4c3c0" astOperand1="0x1d4c520"/>
+    <token id="0x1d4c520" file="simple_scored_sampling_planner.cpp" linenr="53" str="score_function" scope="0x1d663e0" type="name" varId="52" variable="0x1d66680" astParent="0x1d4c470"/>
+    <token id="0x1d4c5d0" file="simple_scored_sampling_planner.cpp" linenr="53" str=")" scope="0x1d663e0" link="0x1d4b1e0"/>
+    <token id="0x1d4c680" file="simple_scored_sampling_planner.cpp" linenr="53" str="{" scope="0x1d66530" link="0x1d51630"/>
+    <token id="0x1d4c730" file="simple_scored_sampling_planner.cpp" linenr="54" str="TrajectoryCostFunction" scope="0x1d66530" type="name" type-scope="0x1d64190" astParent="0x1d4c810"/>
+    <token id="0x1d4c810" file="simple_scored_sampling_planner.cpp" linenr="54" str="*" scope="0x1d66530" type="op" isArithmeticalOp="True" astOperand1="0x1d4c730" astOperand2="0x1d4c8c0"/>
+    <token id="0x1d4c8c0" file="simple_scored_sampling_planner.cpp" linenr="54" str="score_function_p" scope="0x1d66530" type="name" varId="53" variable="0x1d68650" astParent="0x1d4c810"/>
+    <token id="0x1d4c9a0" file="simple_scored_sampling_planner.cpp" linenr="54" str=";" scope="0x1d66530"/>
+    <token id="0x1d40ff0" file="simple_scored_sampling_planner.cpp" linenr="54" str="score_function_p" scope="0x1d66530" type="name" varId="53" variable="0x1d68650" astParent="0x1d41b50"/>
+    <token id="0x1d41b50" file="simple_scored_sampling_planner.cpp" linenr="54" str="=" scope="0x1d66530" type="op" isAssignmentOp="True" astOperand1="0x1d40ff0" astOperand2="0x1d4ca50"/>
+    <token id="0x1d4ca50" file="simple_scored_sampling_planner.cpp" linenr="54" str="*" scope="0x1d66530" type="op" isArithmeticalOp="True" astParent="0x1d41b50" astOperand1="0x1d4cb00"/>
+    <token id="0x1d4cb00" file="simple_scored_sampling_planner.cpp" linenr="54" str="score_function" scope="0x1d66530" type="name" varId="52" variable="0x1d66680" astParent="0x1d4ca50"/>
+    <token id="0x1d4cbb0" file="simple_scored_sampling_planner.cpp" linenr="54" str=";" scope="0x1d66530"/>
+    <token id="0x1d4cc60" file="simple_scored_sampling_planner.cpp" linenr="55" str="if" scope="0x1d66530" type="name" astParent="0x1d4cd10"/>
+    <token id="0x1d4cd10" file="simple_scored_sampling_planner.cpp" linenr="55" str="(" scope="0x1d66530" link="0x1d4d370" astOperand1="0x1d4cc60" astOperand2="0x1d4d210"/>
+    <token id="0x1d4cdc0" file="simple_scored_sampling_planner.cpp" linenr="55" str="score_function_p" scope="0x1d66530" type="name" varId="53" variable="0x1d68650" astParent="0x1d4cea0"/>
+    <token id="0x1d4cea0" file="simple_scored_sampling_planner.cpp" linenr="55" str="." scope="0x1d66530" astParent="0x1d4d0b0" astOperand1="0x1d4cdc0" astOperand2="0x1d4d000"/>
+    <token id="0x1d4d000" file="simple_scored_sampling_planner.cpp" linenr="55" str="getScale" scope="0x1d66530" type="name" function="0x1d64470" astParent="0x1d4cea0"/>
+    <token id="0x1d4d0b0" file="simple_scored_sampling_planner.cpp" linenr="55" str="(" scope="0x1d66530" link="0x1d4d160" astParent="0x1d4d210" astOperand1="0x1d4cea0"/>
+    <token id="0x1d4d160" file="simple_scored_sampling_planner.cpp" linenr="55" str=")" scope="0x1d66530" link="0x1d4d0b0"/>
+    <token id="0x1d4d210" file="simple_scored_sampling_planner.cpp" linenr="55" str="==" scope="0x1d66530" type="op" isComparisonOp="True" astParent="0x1d4cd10" astOperand1="0x1d4d0b0" astOperand2="0x1d4d2c0"/>
+    <token id="0x1d4d2c0" file="simple_scored_sampling_planner.cpp" linenr="55" str="0" scope="0x1d66530" type="number" isInt="True" values="0x1d4d2c8" astParent="0x1d4d210"/>
+    <token id="0x1d4d370" file="simple_scored_sampling_planner.cpp" linenr="55" str=")" scope="0x1d66530" link="0x1d4cd10"/>
+    <token id="0x1d4d420" file="simple_scored_sampling_planner.cpp" linenr="55" str="{" scope="0x1d666f0" link="0x1d4d630"/>
+    <token id="0x1d4d4d0" file="simple_scored_sampling_planner.cpp" linenr="56" str="continue" scope="0x1d666f0" type="name"/>
+    <token id="0x1d4d580" file="simple_scored_sampling_planner.cpp" linenr="56" str=";" scope="0x1d666f0"/>
+    <token id="0x1d4d630" file="simple_scored_sampling_planner.cpp" linenr="57" str="}" scope="0x1d666f0" link="0x1d4d420"/>
+    <token id="0x1d4d6e0" file="simple_scored_sampling_planner.cpp" linenr="58" str="double" scope="0x1d66530" type="name"/>
+    <token id="0x1d4d790" file="simple_scored_sampling_planner.cpp" linenr="58" str="cost" scope="0x1d66530" type="name" varId="54" variable="0x1d686c0"/>
+    <token id="0x1d4d840" file="simple_scored_sampling_planner.cpp" linenr="58" str=";" scope="0x1d66530"/>
+    <token id="0x1d42fa0" file="simple_scored_sampling_planner.cpp" linenr="58" str="cost" scope="0x1d66530" type="name" varId="54" variable="0x1d686c0" astParent="0x1d43f00"/>
+    <token id="0x1d43f00" file="simple_scored_sampling_planner.cpp" linenr="58" str="=" scope="0x1d66530" type="op" isAssignmentOp="True" astOperand1="0x1d42fa0" astOperand2="0x1d4dbe0"/>
+    <token id="0x1d4d8f0" file="simple_scored_sampling_planner.cpp" linenr="58" str="score_function_p" scope="0x1d66530" type="name" varId="53" variable="0x1d68650" astParent="0x1d4d9d0"/>
+    <token id="0x1d4d9d0" file="simple_scored_sampling_planner.cpp" linenr="58" str="." scope="0x1d66530" astParent="0x1d4dbe0" astOperand1="0x1d4d8f0" astOperand2="0x1d4db30"/>
+    <token id="0x1d4db30" file="simple_scored_sampling_planner.cpp" linenr="58" str="scoreTrajectory" scope="0x1d66530" type="name" function="0x1d643d0" astParent="0x1d4d9d0"/>
+    <token id="0x1d4dbe0" file="simple_scored_sampling_planner.cpp" linenr="58" str="(" scope="0x1d66530" link="0x1d4dd40" astParent="0x1d43f00" astOperand1="0x1d4d9d0" astOperand2="0x1d4dc90"/>
+    <token id="0x1d4dc90" file="simple_scored_sampling_planner.cpp" linenr="58" str="traj" scope="0x1d66530" type="name" varId="48" variable="0x1d698e0" astParent="0x1d4dbe0"/>
+    <token id="0x1d4dd40" file="simple_scored_sampling_planner.cpp" linenr="58" str=")" scope="0x1d66530" link="0x1d4dbe0"/>
+    <token id="0x1d4ddf0" file="simple_scored_sampling_planner.cpp" linenr="58" str=";" scope="0x1d66530"/>
+    <token id="0x1d4dea0" file="simple_scored_sampling_planner.cpp" linenr="59" str="if" scope="0x1d66530" type="name" astParent="0x1d4df50"/>
+    <token id="0x1d4df50" file="simple_scored_sampling_planner.cpp" linenr="59" str="(" scope="0x1d66530" link="0x1d4e210" astOperand1="0x1d4dea0" astOperand2="0x1d4e0b0"/>
+    <token id="0x1d4e000" file="simple_scored_sampling_planner.cpp" linenr="59" str="cost" scope="0x1d66530" type="name" varId="54" variable="0x1d686c0" astParent="0x1d4e0b0"/>
+    <token id="0x1d4e0b0" file="simple_scored_sampling_planner.cpp" linenr="59" str="&lt;" scope="0x1d66530" type="op" isComparisonOp="True" astParent="0x1d4df50" astOperand1="0x1d4e000" astOperand2="0x1d4e160"/>
+    <token id="0x1d4e160" file="simple_scored_sampling_planner.cpp" linenr="59" str="0" scope="0x1d66530" type="number" isInt="True" values="0x1d4e168" astParent="0x1d4e0b0"/>
+    <token id="0x1d4e210" file="simple_scored_sampling_planner.cpp" linenr="59" str=")" scope="0x1d66530" link="0x1d4df50"/>
+    <token id="0x1d4e2c0" file="simple_scored_sampling_planner.cpp" linenr="59" str="{" scope="0x1d66840" link="0x1d4f690"/>
+    <token id="0x1d4e370" file="simple_scored_sampling_planner.cpp" linenr="60" str="ROS_DEBUG" scope="0x1d66840" type="name" astParent="0x1d4e420"/>
+    <token id="0x1d4e420" file="simple_scored_sampling_planner.cpp" linenr="60" str="(" scope="0x1d66840" link="0x1d4f110" astOperand1="0x1d4e370" astOperand2="0x1d4efb0"/>
+    <token id="0x1d4e500" file="simple_scored_sampling_planner.cpp" linenr="60" str="&quot;Velocity %.3lf, %.3lf, %.3lf discarded by cost function  %d with cost: %f&quot;" scope="0x1d66840" type="string" strlen="73" values="0x1d4e508" astParent="0x1d4e610"/>
+    <token id="0x1d4e610" file="simple_scored_sampling_planner.cpp" linenr="60" str="," scope="0x1d66840" astParent="0x1d4e8d0" astOperand1="0x1d4e500" astOperand2="0x1d4e770"/>
+    <token id="0x1d4e6c0" file="simple_scored_sampling_planner.cpp" linenr="60" str="traj" scope="0x1d66840" type="name" varId="48" variable="0x1d698e0" astParent="0x1d4e770"/>
+    <token id="0x1d4e770" file="simple_scored_sampling_planner.cpp" linenr="60" str="." scope="0x1d66840" astParent="0x1d4e610" astOperand1="0x1d4e6c0" astOperand2="0x1d4e820"/>
+    <token id="0x1d4e820" file="simple_scored_sampling_planner.cpp" linenr="60" str="xv_" scope="0x1d66840" type="name" varId="55" variable="0x1d68010" astParent="0x1d4e770"/>
+    <token id="0x1d4e8d0" file="simple_scored_sampling_planner.cpp" linenr="60" str="," scope="0x1d66840" astParent="0x1d4eb90" astOperand1="0x1d4e610" astOperand2="0x1d4ea30"/>
+    <token id="0x1d4e980" file="simple_scored_sampling_planner.cpp" linenr="60" str="traj" scope="0x1d66840" type="name" varId="48" variable="0x1d698e0" astParent="0x1d4ea30"/>
+    <token id="0x1d4ea30" file="simple_scored_sampling_planner.cpp" linenr="60" str="." scope="0x1d66840" astParent="0x1d4e8d0" astOperand1="0x1d4e980" astOperand2="0x1d4eae0"/>
+    <token id="0x1d4eae0" file="simple_scored_sampling_planner.cpp" linenr="60" str="yv_" scope="0x1d66840" type="name" varId="56" variable="0x1d68080" astParent="0x1d4ea30"/>
+    <token id="0x1d4eb90" file="simple_scored_sampling_planner.cpp" linenr="60" str="," scope="0x1d66840" astParent="0x1d4ee50" astOperand1="0x1d4e8d0" astOperand2="0x1d4ecf0"/>
+    <token id="0x1d4ec40" file="simple_scored_sampling_planner.cpp" linenr="60" str="traj" scope="0x1d66840" type="name" varId="48" variable="0x1d698e0" astParent="0x1d4ecf0"/>
+    <token id="0x1d4ecf0" file="simple_scored_sampling_planner.cpp" linenr="60" str="." scope="0x1d66840" astParent="0x1d4eb90" astOperand1="0x1d4ec40" astOperand2="0x1d4eda0"/>
+    <token id="0x1d4eda0" file="simple_scored_sampling_planner.cpp" linenr="60" str="thetav_" scope="0x1d66840" type="name" varId="57" variable="0x1d680f0" astParent="0x1d4ecf0"/>
+    <token id="0x1d4ee50" file="simple_scored_sampling_planner.cpp" linenr="60" str="," scope="0x1d66840" astParent="0x1d4efb0" astOperand1="0x1d4eb90" astOperand2="0x1d4ef00"/>
+    <token id="0x1d4ef00" file="simple_scored_sampling_planner.cpp" linenr="60" str="gen_id" scope="0x1d66840" type="name" varId="51" variable="0x1d685c0" astParent="0x1d4ee50"/>
+    <token id="0x1d4efb0" file="simple_scored_sampling_planner.cpp" linenr="60" str="," scope="0x1d66840" astParent="0x1d4e420" astOperand1="0x1d4ee50" astOperand2="0x1d4f060"/>
+    <token id="0x1d4f060" file="simple_scored_sampling_planner.cpp" linenr="60" str="cost" scope="0x1d66840" type="name" varId="54" variable="0x1d686c0" astParent="0x1d4efb0"/>
+    <token id="0x1d4f110" file="simple_scored_sampling_planner.cpp" linenr="60" str=")" scope="0x1d66840" link="0x1d4e420"/>
+    <token id="0x1d4f1c0" file="simple_scored_sampling_planner.cpp" linenr="60" str=";" scope="0x1d66840"/>
+    <token id="0x1d4f270" file="simple_scored_sampling_planner.cpp" linenr="61" str="traj_cost" scope="0x1d66840" type="name" varId="50" variable="0x1d68550" astParent="0x1d4f320"/>
+    <token id="0x1d4f320" file="simple_scored_sampling_planner.cpp" linenr="61" str="=" scope="0x1d66840" type="op" isAssignmentOp="True" astOperand1="0x1d4f270" astOperand2="0x1d4f3d0"/>
+    <token id="0x1d4f3d0" file="simple_scored_sampling_planner.cpp" linenr="61" str="cost" scope="0x1d66840" type="name" varId="54" variable="0x1d686c0" astParent="0x1d4f320"/>
+    <token id="0x1d4f480" file="simple_scored_sampling_planner.cpp" linenr="61" str=";" scope="0x1d66840"/>
+    <token id="0x1d4f530" file="simple_scored_sampling_planner.cpp" linenr="62" str="break" scope="0x1d66840" type="name"/>
+    <token id="0x1d4f5e0" file="simple_scored_sampling_planner.cpp" linenr="62" str=";" scope="0x1d66840"/>
+    <token id="0x1d4f690" file="simple_scored_sampling_planner.cpp" linenr="63" str="}" scope="0x1d66840" link="0x1d4e2c0"/>
+    <token id="0x1d4f740" file="simple_scored_sampling_planner.cpp" linenr="64" str="if" scope="0x1d66530" type="name" astParent="0x1d4f7f0"/>
+    <token id="0x1d4f7f0" file="simple_scored_sampling_planner.cpp" linenr="64" str="(" scope="0x1d66530" link="0x1d4fb60" astOperand1="0x1d4f740" astOperand2="0x1d4f950"/>
+    <token id="0x1d4f8a0" file="simple_scored_sampling_planner.cpp" linenr="64" str="cost" scope="0x1d66530" type="name" varId="54" variable="0x1d686c0" values="0x1d4f8a8" astParent="0x1d4f950"/>
+    <token id="0x1d4f950" file="simple_scored_sampling_planner.cpp" linenr="64" str="!=" scope="0x1d66530" type="op" isComparisonOp="True" values="0x1d4f958" astParent="0x1d4f7f0" astOperand1="0x1d4f8a0" astOperand2="0x1d4fab0"/>
+    <token id="0x1d4fab0" file="simple_scored_sampling_planner.cpp" linenr="64" str="0" scope="0x1d66530" type="number" isInt="True" values="0x1d4fab8" astParent="0x1d4f950"/>
+    <token id="0x1d4fb60" file="simple_scored_sampling_planner.cpp" linenr="64" str=")" scope="0x1d66530" link="0x1d4f7f0"/>
+    <token id="0x1d4fc10" file="simple_scored_sampling_planner.cpp" linenr="64" str="{" scope="0x1d66990" link="0x1d503a0"/>
+    <token id="0x1d4fcc0" file="simple_scored_sampling_planner.cpp" linenr="65" str="cost" scope="0x1d66990" type="name" varId="54" variable="0x1d686c0" astParent="0x1d4fd70"/>
+    <token id="0x1d4fd70" file="simple_scored_sampling_planner.cpp" linenr="65" str="*=" scope="0x1d66990" type="op" isAssignmentOp="True" astOperand1="0x1d4fcc0" astOperand2="0x1d50190"/>
+    <token id="0x1d4fed0" file="simple_scored_sampling_planner.cpp" linenr="65" str="score_function_p" scope="0x1d66990" type="name" varId="53" variable="0x1d68650" astParent="0x1d4ff80"/>
+    <token id="0x1d4ff80" file="simple_scored_sampling_planner.cpp" linenr="65" str="." scope="0x1d66990" astParent="0x1d50190" astOperand1="0x1d4fed0" astOperand2="0x1d500e0"/>
+    <token id="0x1d500e0" file="simple_scored_sampling_planner.cpp" linenr="65" str="getScale" scope="0x1d66990" type="name" function="0x1d64470" astParent="0x1d4ff80"/>
+    <token id="0x1d50190" file="simple_scored_sampling_planner.cpp" linenr="65" str="(" scope="0x1d66990" link="0x1d50240" astParent="0x1d4fd70" astOperand1="0x1d4ff80"/>
+    <token id="0x1d50240" file="simple_scored_sampling_planner.cpp" linenr="65" str=")" scope="0x1d66990" link="0x1d50190"/>
+    <token id="0x1d502f0" file="simple_scored_sampling_planner.cpp" linenr="65" str=";" scope="0x1d66990"/>
+    <token id="0x1d503a0" file="simple_scored_sampling_planner.cpp" linenr="66" str="}" scope="0x1d66990" link="0x1d4fc10"/>
+    <token id="0x1d50450" file="simple_scored_sampling_planner.cpp" linenr="67" str="traj_cost" scope="0x1d66530" type="name" varId="50" variable="0x1d68550" astParent="0x1d50500"/>
+    <token id="0x1d50500" file="simple_scored_sampling_planner.cpp" linenr="67" str="+=" scope="0x1d66530" type="op" isAssignmentOp="True" astOperand1="0x1d50450" astOperand2="0x1d50660"/>
+    <token id="0x1d50660" file="simple_scored_sampling_planner.cpp" linenr="67" str="cost" scope="0x1d66530" type="name" varId="54" variable="0x1d686c0" values="0x1d50668" astParent="0x1d50500"/>
+    <token id="0x1d50710" file="simple_scored_sampling_planner.cpp" linenr="67" str=";" scope="0x1d66530"/>
+    <token id="0x1d507c0" file="simple_scored_sampling_planner.cpp" linenr="68" str="if" scope="0x1d66530" type="name" astParent="0x1d50870"/>
+    <token id="0x1d50870" file="simple_scored_sampling_planner.cpp" linenr="68" str="(" scope="0x1d66530" link="0x1d50b30" astOperand1="0x1d507c0" astOperand2="0x1d509d0"/>
+    <token id="0x1d50920" file="simple_scored_sampling_planner.cpp" linenr="68" str="best_traj_cost" scope="0x1d66530" type="name" varId="49" variable="0x1d69950" astParent="0x1d509d0"/>
+    <token id="0x1d509d0" file="simple_scored_sampling_planner.cpp" linenr="68" str="&gt;" scope="0x1d66530" type="op" isComparisonOp="True" astParent="0x1d50870" astOperand1="0x1d50920" astOperand2="0x1d50a80"/>
+    <token id="0x1d50a80" file="simple_scored_sampling_planner.cpp" linenr="68" str="0" scope="0x1d66530" type="number" isInt="True" values="0x1d50a88" astParent="0x1d509d0"/>
+    <token id="0x1d50b30" file="simple_scored_sampling_planner.cpp" linenr="68" str=")" scope="0x1d66530" link="0x1d50870"/>
+    <token id="0x1d50be0" file="simple_scored_sampling_planner.cpp" linenr="68" str="{" scope="0x1d66ae0" link="0x1d51370"/>
+    <token id="0x1d50c90" file="simple_scored_sampling_planner.cpp" linenr="70" str="if" scope="0x1d66ae0" type="name" astParent="0x1d50d40"/>
+    <token id="0x1d50d40" file="simple_scored_sampling_planner.cpp" linenr="70" str="(" scope="0x1d66ae0" link="0x1d51000" astOperand1="0x1d50c90" astOperand2="0x1d50ea0"/>
+    <token id="0x1d50df0" file="simple_scored_sampling_planner.cpp" linenr="70" str="traj_cost" scope="0x1d66ae0" type="name" varId="50" variable="0x1d68550" astParent="0x1d50ea0"/>
+    <token id="0x1d50ea0" file="simple_scored_sampling_planner.cpp" linenr="70" str="&gt;" scope="0x1d66ae0" type="op" isComparisonOp="True" astParent="0x1d50d40" astOperand1="0x1d50df0" astOperand2="0x1d50f50"/>
+    <token id="0x1d50f50" file="simple_scored_sampling_planner.cpp" linenr="70" str="best_traj_cost" scope="0x1d66ae0" type="name" varId="49" variable="0x1d69950" astParent="0x1d50ea0"/>
+    <token id="0x1d51000" file="simple_scored_sampling_planner.cpp" linenr="70" str=")" scope="0x1d66ae0" link="0x1d50d40"/>
+    <token id="0x1d510b0" file="simple_scored_sampling_planner.cpp" linenr="70" str="{" scope="0x1d66c30" link="0x1d512c0"/>
+    <token id="0x1d51160" file="simple_scored_sampling_planner.cpp" linenr="71" str="break" scope="0x1d66c30" type="name"/>
+    <token id="0x1d51210" file="simple_scored_sampling_planner.cpp" linenr="71" str=";" scope="0x1d66c30"/>
+    <token id="0x1d512c0" file="simple_scored_sampling_planner.cpp" linenr="72" str="}" scope="0x1d66c30" link="0x1d510b0"/>
+    <token id="0x1d51370" file="simple_scored_sampling_planner.cpp" linenr="73" str="}" scope="0x1d66ae0" link="0x1d50be0"/>
+    <token id="0x1d51420" file="simple_scored_sampling_planner.cpp" linenr="74" str="gen_id" scope="0x1d66530" type="name" varId="51" variable="0x1d685c0" astParent="0x1d514d0"/>
+    <token id="0x1d514d0" file="simple_scored_sampling_planner.cpp" linenr="74" str="++" scope="0x1d66530" type="op" astOperand1="0x1d51420"/>
+    <token id="0x1d51580" file="simple_scored_sampling_planner.cpp" linenr="74" str=";" scope="0x1d66530"/>
+    <token id="0x1d51630" file="simple_scored_sampling_planner.cpp" linenr="75" str="}" scope="0x1d66530" link="0x1d4c680"/>
+    <token id="0x1d516e0" file="simple_scored_sampling_planner.cpp" linenr="78" str="return" scope="0x1d663e0" type="name" astOperand1="0x1d51790"/>
+    <token id="0x1d51790" file="simple_scored_sampling_planner.cpp" linenr="78" str="traj_cost" scope="0x1d663e0" type="name" varId="50" variable="0x1d68550" astParent="0x1d516e0"/>
+    <token id="0x1d51840" file="simple_scored_sampling_planner.cpp" linenr="78" str=";" scope="0x1d663e0"/>
+    <token id="0x1d518f0" file="simple_scored_sampling_planner.cpp" linenr="79" str="}" scope="0x1d663e0" link="0x1d4a9a0"/>
+    <token id="0x1d519a0" file="simple_scored_sampling_planner.cpp" linenr="81" str="bool" scope="0x1d628d0" type="name"/>
+    <token id="0x1d51a80" file="simple_scored_sampling_planner.cpp" linenr="81" str="SimpleScoredSamplingPlanner" scope="0x1d628d0" type="name" type-scope="0x1d65990" astParent="0x1d51b60"/>
+    <token id="0x1d51b60" file="simple_scored_sampling_planner.cpp" linenr="81" str="::" scope="0x1d628d0" astParent="0x1d51cc0" astOperand1="0x1d51a80" astOperand2="0x1d51c10"/>
+    <token id="0x1d51c10" file="simple_scored_sampling_planner.cpp" linenr="81" str="findBestTrajectory" scope="0x1d628d0" type="name" function="0x1d661a0" astParent="0x1d51b60"/>
+    <token id="0x1d51cc0" file="simple_scored_sampling_planner.cpp" linenr="81" str="(" scope="0x1d628d0" link="0x1d525b0" astOperand1="0x1d51b60" astOperand2="0x1d51f80"/>
+    <token id="0x1d51d70" file="simple_scored_sampling_planner.cpp" linenr="81" str="Trajectory" scope="0x1d628d0" type="name" type-scope="0x1d62670" astParent="0x1d51e20"/>
+    <token id="0x1d51e20" file="simple_scored_sampling_planner.cpp" linenr="81" str="&amp;" scope="0x1d628d0" type="op" astParent="0x1d51f80" astOperand1="0x1d51d70" astOperand2="0x1d51ed0"/>
+    <token id="0x1d51ed0" file="simple_scored_sampling_planner.cpp" linenr="81" str="traj" scope="0x1d628d0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d51e20"/>
+    <token id="0x1d51f80" file="simple_scored_sampling_planner.cpp" linenr="81" str="," scope="0x1d628d0" astParent="0x1d51cc0" astOperand1="0x1d51e20" astOperand2="0x1d52450"/>
+    <token id="0x1d52030" file="simple_scored_sampling_planner.cpp" linenr="81" str="std" scope="0x1d628d0" type="name" astParent="0x1d520e0"/>
+    <token id="0x1d520e0" file="simple_scored_sampling_planner.cpp" linenr="81" str="::" scope="0x1d628d0" astParent="0x1d52450" astOperand1="0x1d52030" astOperand2="0x1d52190"/>
+    <token id="0x1d52190" file="simple_scored_sampling_planner.cpp" linenr="81" str="vector" scope="0x1d628d0" type="name" astParent="0x1d520e0"/>
+    <token id="0x1d52240" file="simple_scored_sampling_planner.cpp" linenr="81" str="&lt;" scope="0x1d628d0" link="0x1d523a0"/>
+    <token id="0x1d522f0" file="simple_scored_sampling_planner.cpp" linenr="81" str="Trajectory" scope="0x1d628d0" type="name" type-scope="0x1d62670"/>
+    <token id="0x1d523a0" file="simple_scored_sampling_planner.cpp" linenr="81" str="&gt;" scope="0x1d628d0" link="0x1d52240"/>
+    <token id="0x1d52450" file="simple_scored_sampling_planner.cpp" linenr="81" str="*" scope="0x1d628d0" type="op" isArithmeticalOp="True" astParent="0x1d51f80" astOperand1="0x1d520e0" astOperand2="0x1d52500"/>
+    <token id="0x1d52500" file="simple_scored_sampling_planner.cpp" linenr="81" str="all_explored" scope="0x1d628d0" type="name" varId="59" variable="0x1d69a30" astParent="0x1d52450"/>
+    <token id="0x1d525b0" file="simple_scored_sampling_planner.cpp" linenr="81" str=")" scope="0x1d628d0" link="0x1d51cc0"/>
+    <token id="0x1d52660" file="simple_scored_sampling_planner.cpp" linenr="81" str="{" scope="0x1d66db0" link="0x1d624b0"/>
+    <token id="0x1d52710" file="simple_scored_sampling_planner.cpp" linenr="82" str="Trajectory" scope="0x1d66db0" type="name" type-scope="0x1d62670"/>
+    <token id="0x1d527c0" file="simple_scored_sampling_planner.cpp" linenr="82" str="loop_traj" scope="0x1d66db0" type="name" varId="60" variable="0x1d68730"/>
+    <token id="0x1d52870" file="simple_scored_sampling_planner.cpp" linenr="82" str=";" scope="0x1d66db0"/>
+    <token id="0x1d52920" file="simple_scored_sampling_planner.cpp" linenr="83" str="Trajectory" scope="0x1d66db0" type="name" type-scope="0x1d62670"/>
+    <token id="0x1d529d0" file="simple_scored_sampling_planner.cpp" linenr="83" str="best_traj" scope="0x1d66db0" type="name" varId="61" variable="0x1d687a0"/>
+    <token id="0x1d52a80" file="simple_scored_sampling_planner.cpp" linenr="83" str=";" scope="0x1d66db0"/>
+    <token id="0x1d52b30" file="simple_scored_sampling_planner.cpp" linenr="84" str="double" scope="0x1d66db0" type="name"/>
+    <token id="0x1d52be0" file="simple_scored_sampling_planner.cpp" linenr="84" str="loop_traj_cost" scope="0x1d66db0" type="name" varId="62" variable="0x1d68810"/>
+    <token id="0x1d52c90" file="simple_scored_sampling_planner.cpp" linenr="84" str=";" scope="0x1d66db0"/>
+    <token id="0x1d470f0" file="simple_scored_sampling_planner.cpp" linenr="84" str="double" scope="0x1d66db0" type="name"/>
+    <token id="0x1d52d40" file="simple_scored_sampling_planner.cpp" linenr="84" str="best_traj_cost" scope="0x1d66db0" type="name" varId="63" variable="0x1d68880"/>
+    <token id="0x1d52df0" file="simple_scored_sampling_planner.cpp" linenr="84" str=";" scope="0x1d66db0"/>
+    <token id="0x1d4bfa0" file="simple_scored_sampling_planner.cpp" linenr="84" str="best_traj_cost" scope="0x1d66db0" type="name" varId="63" variable="0x1d68880" astParent="0x1d4cf50"/>
+    <token id="0x1d4cf50" file="simple_scored_sampling_planner.cpp" linenr="84" str="=" scope="0x1d66db0" type="op" isAssignmentOp="True" astOperand1="0x1d4bfa0" astOperand2="0x1d52f50"/>
+    <token id="0x1d52f50" file="simple_scored_sampling_planner.cpp" linenr="84" str="-1" scope="0x1d66db0" type="number" isInt="True" values="0x1d52f58" astParent="0x1d4cf50"/>
+    <token id="0x1d53000" file="simple_scored_sampling_planner.cpp" linenr="84" str=";" scope="0x1d66db0"/>
+    <token id="0x1d530b0" file="simple_scored_sampling_planner.cpp" linenr="85" str="bool" scope="0x1d66db0" type="name"/>
+    <token id="0x1d53160" file="simple_scored_sampling_planner.cpp" linenr="85" str="gen_success" scope="0x1d66db0" type="name" varId="64" variable="0x1d688f0"/>
+    <token id="0x1d53210" file="simple_scored_sampling_planner.cpp" linenr="85" str=";" scope="0x1d66db0"/>
+    <token id="0x1d532c0" file="simple_scored_sampling_planner.cpp" linenr="86" str="int" scope="0x1d66db0" type="name"/>
+    <token id="0x1d53370" file="simple_scored_sampling_planner.cpp" linenr="86" str="count" scope="0x1d66db0" type="name" varId="65" variable="0x1d68960"/>
+    <token id="0x1d53420" file="simple_scored_sampling_planner.cpp" linenr="86" str=";" scope="0x1d66db0"/>
+    <token id="0x1d4da80" file="simple_scored_sampling_planner.cpp" linenr="86" str="int" scope="0x1d66db0" type="name"/>
+    <token id="0x1d534d0" file="simple_scored_sampling_planner.cpp" linenr="86" str="count_valid" scope="0x1d66db0" type="name" varId="66" variable="0x1d689d0"/>
+    <token id="0x1d53580" file="simple_scored_sampling_planner.cpp" linenr="86" str=";" scope="0x1d66db0"/>
+    <token id="0x1d53630" file="simple_scored_sampling_planner.cpp" linenr="87" str="for" scope="0x1d66db0" type="name" astParent="0x1d536e0"/>
+    <token id="0x1d536e0" file="simple_scored_sampling_planner.cpp" linenr="87" str="(" scope="0x1d66db0" link="0x1d54b00" astOperand1="0x1d53630" astOperand2="0x1d542c0"/>
+    <token id="0x1d53790" file="simple_scored_sampling_planner.cpp" linenr="87" str="std" scope="0x1d66db0" type="name" astParent="0x1d53840"/>
+    <token id="0x1d53840" file="simple_scored_sampling_planner.cpp" linenr="87" str="::" scope="0x1d66db0" astParent="0x1d53c90" astOperand1="0x1d53790" astOperand2="0x1d538f0"/>
+    <token id="0x1d538f0" file="simple_scored_sampling_planner.cpp" linenr="87" str="vector" scope="0x1d66db0" type="name" astParent="0x1d53840"/>
+    <token id="0x1d539a0" file="simple_scored_sampling_planner.cpp" linenr="87" str="&lt;" scope="0x1d66db0" link="0x1d53be0"/>
+    <token id="0x1d53a50" file="simple_scored_sampling_planner.cpp" linenr="87" str="TrajectoryCostFunction" scope="0x1d66db0" type="name" type-scope="0x1d64190"/>
+    <token id="0x1d53b30" file="simple_scored_sampling_planner.cpp" linenr="87" str="*" scope="0x1d66db0" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d53be0" file="simple_scored_sampling_planner.cpp" linenr="87" str="&gt;" scope="0x1d66db0" link="0x1d539a0"/>
+    <token id="0x1d53c90" file="simple_scored_sampling_planner.cpp" linenr="87" str="::" scope="0x1d66db0" astParent="0x1d53ea0" astOperand1="0x1d53840" astOperand2="0x1d53df0"/>
+    <token id="0x1d53d40" file="simple_scored_sampling_planner.cpp" linenr="87" str="iterator" scope="0x1d66db0" type="name"/>
+    <token id="0x1d53df0" file="simple_scored_sampling_planner.cpp" linenr="87" str="loop_critic" scope="0x1d66db0" type="name" varId="67" variable="0x1d67050" astParent="0x1d53c90"/>
+    <token id="0x1d53ea0" file="simple_scored_sampling_planner.cpp" linenr="87" str="=" scope="0x1d66db0" type="op" isAssignmentOp="True" astParent="0x1d542c0" astOperand1="0x1d53c90" astOperand2="0x1d54160"/>
+    <token id="0x1d53f50" file="simple_scored_sampling_planner.cpp" linenr="87" str="critics_" scope="0x1d66db0" type="name" varId="43" variable="0x1d68470" astParent="0x1d54000"/>
+    <token id="0x1d54000" file="simple_scored_sampling_planner.cpp" linenr="87" str="." scope="0x1d66db0" astParent="0x1d54160" astOperand1="0x1d53f50" astOperand2="0x1d540b0"/>
+    <token id="0x1d540b0" file="simple_scored_sampling_planner.cpp" linenr="87" str="begin" scope="0x1d66db0" type="name" astParent="0x1d54000"/>
+    <token id="0x1d54160" file="simple_scored_sampling_planner.cpp" linenr="87" str="(" scope="0x1d66db0" link="0x1d54210" astParent="0x1d53ea0" astOperand1="0x1d54000"/>
+    <token id="0x1d54210" file="simple_scored_sampling_planner.cpp" linenr="87" str=")" scope="0x1d66db0" link="0x1d54160"/>
+    <token id="0x1d542c0" file="simple_scored_sampling_planner.cpp" linenr="87" str=";" scope="0x1d66db0" astParent="0x1d536e0" astOperand1="0x1d53ea0" astOperand2="0x1d548f0"/>
+    <token id="0x1d54370" file="simple_scored_sampling_planner.cpp" linenr="87" str="loop_critic" scope="0x1d66db0" type="name" varId="67" variable="0x1d67050" astParent="0x1d54420"/>
+    <token id="0x1d54420" file="simple_scored_sampling_planner.cpp" linenr="87" str="!=" scope="0x1d66db0" type="op" isComparisonOp="True" astParent="0x1d548f0" astOperand1="0x1d54370" astOperand2="0x1d54790"/>
+    <token id="0x1d54580" file="simple_scored_sampling_planner.cpp" linenr="87" str="critics_" scope="0x1d66db0" type="name" varId="43" variable="0x1d68470" astParent="0x1d54630"/>
+    <token id="0x1d54630" file="simple_scored_sampling_planner.cpp" linenr="87" str="." scope="0x1d66db0" astParent="0x1d54790" astOperand1="0x1d54580" astOperand2="0x1d546e0"/>
+    <token id="0x1d546e0" file="simple_scored_sampling_planner.cpp" linenr="87" str="end" scope="0x1d66db0" type="name" astParent="0x1d54630"/>
+    <token id="0x1d54790" file="simple_scored_sampling_planner.cpp" linenr="87" str="(" scope="0x1d66db0" link="0x1d54840" astParent="0x1d54420" astOperand1="0x1d54630"/>
+    <token id="0x1d54840" file="simple_scored_sampling_planner.cpp" linenr="87" str=")" scope="0x1d66db0" link="0x1d54790"/>
+    <token id="0x1d548f0" file="simple_scored_sampling_planner.cpp" linenr="87" str=";" scope="0x1d66db0" astParent="0x1d542c0" astOperand1="0x1d54420" astOperand2="0x1d549a0"/>
+    <token id="0x1d549a0" file="simple_scored_sampling_planner.cpp" linenr="87" str="++" scope="0x1d66db0" type="op" astParent="0x1d548f0" astOperand1="0x1d54a50"/>
+    <token id="0x1d54a50" file="simple_scored_sampling_planner.cpp" linenr="87" str="loop_critic" scope="0x1d66db0" type="name" varId="67" variable="0x1d67050" astParent="0x1d549a0"/>
+    <token id="0x1d54b00" file="simple_scored_sampling_planner.cpp" linenr="87" str=")" scope="0x1d66db0" link="0x1d536e0"/>
+    <token id="0x1d54bb0" file="simple_scored_sampling_planner.cpp" linenr="87" str="{" scope="0x1d66f00" link="0x1d56030"/>
+    <token id="0x1d54c60" file="simple_scored_sampling_planner.cpp" linenr="88" str="TrajectoryCostFunction" scope="0x1d66f00" type="name" type-scope="0x1d64190" astParent="0x1d54d40"/>
+    <token id="0x1d54d40" file="simple_scored_sampling_planner.cpp" linenr="88" str="*" scope="0x1d66f00" type="op" isArithmeticalOp="True" astOperand1="0x1d54c60" astOperand2="0x1d54df0"/>
+    <token id="0x1d54df0" file="simple_scored_sampling_planner.cpp" linenr="88" str="loop_critic_p" scope="0x1d66f00" type="name" varId="68" variable="0x1d68a40" astParent="0x1d54d40"/>
+    <token id="0x1d54ea0" file="simple_scored_sampling_planner.cpp" linenr="88" str=";" scope="0x1d66f00"/>
+    <token id="0x1d4fa00" file="simple_scored_sampling_planner.cpp" linenr="88" str="loop_critic_p" scope="0x1d66f00" type="name" varId="68" variable="0x1d68a40" astParent="0x1d4fe20"/>
+    <token id="0x1d4fe20" file="simple_scored_sampling_planner.cpp" linenr="88" str="=" scope="0x1d66f00" type="op" isAssignmentOp="True" astOperand1="0x1d4fa00" astOperand2="0x1d54f50"/>
+    <token id="0x1d54f50" file="simple_scored_sampling_planner.cpp" linenr="88" str="*" scope="0x1d66f00" type="op" isArithmeticalOp="True" astParent="0x1d4fe20" astOperand1="0x1d55000"/>
+    <token id="0x1d55000" file="simple_scored_sampling_planner.cpp" linenr="88" str="loop_critic" scope="0x1d66f00" type="name" varId="67" variable="0x1d67050" astParent="0x1d54f50"/>
+    <token id="0x1d550b0" file="simple_scored_sampling_planner.cpp" linenr="88" str=";" scope="0x1d66f00"/>
+    <token id="0x1d55160" file="simple_scored_sampling_planner.cpp" linenr="89" str="if" scope="0x1d66f00" type="name" astParent="0x1d55210"/>
+    <token id="0x1d55210" file="simple_scored_sampling_planner.cpp" linenr="89" str="(" scope="0x1d66f00" link="0x1d55840" astOperand1="0x1d55160" astOperand2="0x1d556e0"/>
+    <token id="0x1d552c0" file="simple_scored_sampling_planner.cpp" linenr="89" str="loop_critic_p" scope="0x1d66f00" type="name" varId="68" variable="0x1d68a40" astParent="0x1d55370"/>
+    <token id="0x1d55370" file="simple_scored_sampling_planner.cpp" linenr="89" str="." scope="0x1d66f00" astParent="0x1d55580" astOperand1="0x1d552c0" astOperand2="0x1d554d0"/>
+    <token id="0x1d554d0" file="simple_scored_sampling_planner.cpp" linenr="89" str="prepare" scope="0x1d66f00" type="name" function="0x1d64330" astParent="0x1d55370"/>
+    <token id="0x1d55580" file="simple_scored_sampling_planner.cpp" linenr="89" str="(" scope="0x1d66f00" link="0x1d55630" astParent="0x1d556e0" astOperand1="0x1d55370"/>
+    <token id="0x1d55630" file="simple_scored_sampling_planner.cpp" linenr="89" str=")" scope="0x1d66f00" link="0x1d55580"/>
+    <token id="0x1d556e0" file="simple_scored_sampling_planner.cpp" linenr="89" str="==" scope="0x1d66f00" type="op" isComparisonOp="True" astParent="0x1d55210" astOperand1="0x1d55580" astOperand2="0x1d55790"/>
+    <token id="0x1d55790" file="simple_scored_sampling_planner.cpp" linenr="89" str="false" scope="0x1d66f00" type="name" values="0x1d55798" astParent="0x1d556e0"/>
+    <token id="0x1d55840" file="simple_scored_sampling_planner.cpp" linenr="89" str=")" scope="0x1d66f00" link="0x1d55210"/>
+    <token id="0x1d558f0" file="simple_scored_sampling_planner.cpp" linenr="89" str="{" scope="0x1d670c0" link="0x1d55f80"/>
+    <token id="0x1d559a0" file="simple_scored_sampling_planner.cpp" linenr="90" str="ROS_WARN" scope="0x1d670c0" type="name" astParent="0x1d55a50"/>
+    <token id="0x1d55a50" file="simple_scored_sampling_planner.cpp" linenr="90" str="(" scope="0x1d670c0" link="0x1d55c10" astOperand1="0x1d559a0" astOperand2="0x1d55b30"/>
+    <token id="0x1d55b30" file="simple_scored_sampling_planner.cpp" linenr="90" str="&quot;A scoring function failed to prepare&quot;" scope="0x1d670c0" type="string" strlen="36" values="0x1d55b38" astParent="0x1d55a50"/>
+    <token id="0x1d55c10" file="simple_scored_sampling_planner.cpp" linenr="90" str=")" scope="0x1d670c0" link="0x1d55a50"/>
+    <token id="0x1d55cc0" file="simple_scored_sampling_planner.cpp" linenr="90" str=";" scope="0x1d670c0"/>
+    <token id="0x1d55d70" file="simple_scored_sampling_planner.cpp" linenr="91" str="return" scope="0x1d670c0" type="name" astOperand1="0x1d55e20"/>
+    <token id="0x1d55e20" file="simple_scored_sampling_planner.cpp" linenr="91" str="false" scope="0x1d670c0" type="name" values="0x1d55e28" astParent="0x1d55d70"/>
+    <token id="0x1d55ed0" file="simple_scored_sampling_planner.cpp" linenr="91" str=";" scope="0x1d670c0"/>
+    <token id="0x1d55f80" file="simple_scored_sampling_planner.cpp" linenr="92" str="}" scope="0x1d670c0" link="0x1d558f0"/>
+    <token id="0x1d56030" file="simple_scored_sampling_planner.cpp" linenr="93" str="}" scope="0x1d66f00" link="0x1d54bb0"/>
+    <token id="0x1d560e0" file="simple_scored_sampling_planner.cpp" linenr="95" str="for" scope="0x1d66db0" type="name" astParent="0x1d56190"/>
+    <token id="0x1d56190" file="simple_scored_sampling_planner.cpp" linenr="95" str="(" scope="0x1d66db0" link="0x1d575b0" astOperand1="0x1d560e0" astOperand2="0x1d56d70"/>
+    <token id="0x1d56240" file="simple_scored_sampling_planner.cpp" linenr="95" str="std" scope="0x1d66db0" type="name" astParent="0x1d562f0"/>
+    <token id="0x1d562f0" file="simple_scored_sampling_planner.cpp" linenr="95" str="::" scope="0x1d66db0" astParent="0x1d56740" astOperand1="0x1d56240" astOperand2="0x1d563a0"/>
+    <token id="0x1d563a0" file="simple_scored_sampling_planner.cpp" linenr="95" str="vector" scope="0x1d66db0" type="name" astParent="0x1d562f0"/>
+    <token id="0x1d56450" file="simple_scored_sampling_planner.cpp" linenr="95" str="&lt;" scope="0x1d66db0" link="0x1d56690"/>
+    <token id="0x1d56500" file="simple_scored_sampling_planner.cpp" linenr="95" str="TrajectorySampleGenerator" scope="0x1d66db0" type="name" type-scope="0x1d64bb0"/>
+    <token id="0x1d565e0" file="simple_scored_sampling_planner.cpp" linenr="95" str="*" scope="0x1d66db0" type="op" isArithmeticalOp="True"/>
+    <token id="0x1d56690" file="simple_scored_sampling_planner.cpp" linenr="95" str="&gt;" scope="0x1d66db0" link="0x1d56450"/>
+    <token id="0x1d56740" file="simple_scored_sampling_planner.cpp" linenr="95" str="::" scope="0x1d66db0" astParent="0x1d56950" astOperand1="0x1d562f0" astOperand2="0x1d568a0"/>
+    <token id="0x1d567f0" file="simple_scored_sampling_planner.cpp" linenr="95" str="iterator" scope="0x1d66db0" type="name"/>
+    <token id="0x1d568a0" file="simple_scored_sampling_planner.cpp" linenr="95" str="loop_gen" scope="0x1d66db0" type="name" varId="69" variable="0x1d67360" astParent="0x1d56740"/>
+    <token id="0x1d56950" file="simple_scored_sampling_planner.cpp" linenr="95" str="=" scope="0x1d66db0" type="op" isAssignmentOp="True" astParent="0x1d56d70" astOperand1="0x1d56740" astOperand2="0x1d56c10"/>
+    <token id="0x1d56a00" file="simple_scored_sampling_planner.cpp" linenr="95" str="gen_list_" scope="0x1d66db0" type="name" varId="42" variable="0x1d68400" astParent="0x1d56ab0"/>
+    <token id="0x1d56ab0" file="simple_scored_sampling_planner.cpp" linenr="95" str="." scope="0x1d66db0" astParent="0x1d56c10" astOperand1="0x1d56a00" astOperand2="0x1d56b60"/>
+    <token id="0x1d56b60" file="simple_scored_sampling_planner.cpp" linenr="95" str="begin" scope="0x1d66db0" type="name" astParent="0x1d56ab0"/>
+    <token id="0x1d56c10" file="simple_scored_sampling_planner.cpp" linenr="95" str="(" scope="0x1d66db0" link="0x1d56cc0" astParent="0x1d56950" astOperand1="0x1d56ab0"/>
+    <token id="0x1d56cc0" file="simple_scored_sampling_planner.cpp" linenr="95" str=")" scope="0x1d66db0" link="0x1d56c10"/>
+    <token id="0x1d56d70" file="simple_scored_sampling_planner.cpp" linenr="95" str=";" scope="0x1d66db0" astParent="0x1d56190" astOperand1="0x1d56950" astOperand2="0x1d573a0"/>
+    <token id="0x1d56e20" file="simple_scored_sampling_planner.cpp" linenr="95" str="loop_gen" scope="0x1d66db0" type="name" varId="69" variable="0x1d67360" astParent="0x1d56ed0"/>
+    <token id="0x1d56ed0" file="simple_scored_sampling_planner.cpp" linenr="95" str="!=" scope="0x1d66db0" type="op" isComparisonOp="True" astParent="0x1d573a0" astOperand1="0x1d56e20" astOperand2="0x1d57240"/>
+    <token id="0x1d57030" file="simple_scored_sampling_planner.cpp" linenr="95" str="gen_list_" scope="0x1d66db0" type="name" varId="42" variable="0x1d68400" astParent="0x1d570e0"/>
+    <token id="0x1d570e0" file="simple_scored_sampling_planner.cpp" linenr="95" str="." scope="0x1d66db0" astParent="0x1d57240" astOperand1="0x1d57030" astOperand2="0x1d57190"/>
+    <token id="0x1d57190" file="simple_scored_sampling_planner.cpp" linenr="95" str="end" scope="0x1d66db0" type="name" astParent="0x1d570e0"/>
+    <token id="0x1d57240" file="simple_scored_sampling_planner.cpp" linenr="95" str="(" scope="0x1d66db0" link="0x1d572f0" astParent="0x1d56ed0" astOperand1="0x1d570e0"/>
+    <token id="0x1d572f0" file="simple_scored_sampling_planner.cpp" linenr="95" str=")" scope="0x1d66db0" link="0x1d57240"/>
+    <token id="0x1d573a0" file="simple_scored_sampling_planner.cpp" linenr="95" str=";" scope="0x1d66db0" astParent="0x1d56d70" astOperand1="0x1d56ed0" astOperand2="0x1d57450"/>
+    <token id="0x1d57450" file="simple_scored_sampling_planner.cpp" linenr="95" str="++" scope="0x1d66db0" type="op" astParent="0x1d573a0" astOperand1="0x1d57500"/>
+    <token id="0x1d57500" file="simple_scored_sampling_planner.cpp" linenr="95" str="loop_gen" scope="0x1d66db0" type="name" varId="69" variable="0x1d67360" astParent="0x1d57450"/>
+    <token id="0x1d575b0" file="simple_scored_sampling_planner.cpp" linenr="95" str=")" scope="0x1d66db0" link="0x1d56190"/>
+    <token id="0x1d57660" file="simple_scored_sampling_planner.cpp" linenr="95" str="{" scope="0x1d67210" link="0x1d61fe0"/>
+    <token id="0x1d57710" file="simple_scored_sampling_planner.cpp" linenr="96" str="count" scope="0x1d67210" type="name" varId="65" variable="0x1d68960" astParent="0x1d577c0"/>
+    <token id="0x1d577c0" file="simple_scored_sampling_planner.cpp" linenr="96" str="=" scope="0x1d67210" type="op" isAssignmentOp="True" astOperand1="0x1d57710" astOperand2="0x1d57870"/>
+    <token id="0x1d57870" file="simple_scored_sampling_planner.cpp" linenr="96" str="0" scope="0x1d67210" type="number" isInt="True" values="0x1d57878" astParent="0x1d577c0"/>
+    <token id="0x1d57920" file="simple_scored_sampling_planner.cpp" linenr="96" str=";" scope="0x1d67210"/>
+    <token id="0x1d579d0" file="simple_scored_sampling_planner.cpp" linenr="97" str="count_valid" scope="0x1d67210" type="name" varId="66" variable="0x1d689d0" astParent="0x1d57a80"/>
+    <token id="0x1d57a80" file="simple_scored_sampling_planner.cpp" linenr="97" str="=" scope="0x1d67210" type="op" isAssignmentOp="True" astOperand1="0x1d579d0" astOperand2="0x1d57b30"/>
+    <token id="0x1d57b30" file="simple_scored_sampling_planner.cpp" linenr="97" str="0" scope="0x1d67210" type="number" isInt="True" values="0x1d57b38" astParent="0x1d57a80"/>
+    <token id="0x1d57be0" file="simple_scored_sampling_planner.cpp" linenr="97" str=";" scope="0x1d67210"/>
+    <token id="0x1d57c90" file="simple_scored_sampling_planner.cpp" linenr="98" str="TrajectorySampleGenerator" scope="0x1d67210" type="name" type-scope="0x1d64bb0" astParent="0x1d57d70"/>
+    <token id="0x1d57d70" file="simple_scored_sampling_planner.cpp" linenr="98" str="*" scope="0x1d67210" type="op" isArithmeticalOp="True" astOperand1="0x1d57c90" astOperand2="0x1d57e20"/>
+    <token id="0x1d57e20" file="simple_scored_sampling_planner.cpp" linenr="98" str="gen_" scope="0x1d67210" type="name" varId="70" variable="0x1d68ae0" astParent="0x1d57d70"/>
+    <token id="0x1d57ed0" file="simple_scored_sampling_planner.cpp" linenr="98" str=";" scope="0x1d67210"/>
+    <token id="0x1d50030" file="simple_scored_sampling_planner.cpp" linenr="98" str="gen_" scope="0x1d67210" type="name" varId="70" variable="0x1d68ae0" astParent="0x1d505b0"/>
+    <token id="0x1d505b0" file="simple_scored_sampling_planner.cpp" linenr="98" str="=" scope="0x1d67210" type="op" isAssignmentOp="True" astOperand1="0x1d50030" astOperand2="0x1d57f80"/>
+    <token id="0x1d57f80" file="simple_scored_sampling_planner.cpp" linenr="98" str="*" scope="0x1d67210" type="op" isArithmeticalOp="True" astParent="0x1d505b0" astOperand1="0x1d58030"/>
+    <token id="0x1d58030" file="simple_scored_sampling_planner.cpp" linenr="98" str="loop_gen" scope="0x1d67210" type="name" varId="69" variable="0x1d67360" astParent="0x1d57f80"/>
+    <token id="0x1d580e0" file="simple_scored_sampling_planner.cpp" linenr="98" str=";" scope="0x1d67210"/>
+    <token id="0x1d58190" file="simple_scored_sampling_planner.cpp" linenr="99" str="while" scope="0x1d67210" type="name" astParent="0x1d58240"/>
+    <token id="0x1d58240" file="simple_scored_sampling_planner.cpp" linenr="99" str="(" scope="0x1d67210" link="0x1d58710" astOperand1="0x1d58190" astOperand2="0x1d585b0"/>
+    <token id="0x1d582f0" file="simple_scored_sampling_planner.cpp" linenr="99" str="gen_" scope="0x1d67210" type="name" varId="70" variable="0x1d68ae0" astParent="0x1d583a0"/>
+    <token id="0x1d583a0" file="simple_scored_sampling_planner.cpp" linenr="99" str="." scope="0x1d67210" astParent="0x1d585b0" astOperand1="0x1d582f0" astOperand2="0x1d58500"/>
+    <token id="0x1d58500" file="simple_scored_sampling_planner.cpp" linenr="99" str="hasMoreTrajectories" scope="0x1d67210" type="name" function="0x1d64d50" astParent="0x1d583a0"/>
+    <token id="0x1d585b0" file="simple_scored_sampling_planner.cpp" linenr="99" str="(" scope="0x1d67210" link="0x1d58660" astParent="0x1d58240" astOperand1="0x1d583a0"/>
+    <token id="0x1d58660" file="simple_scored_sampling_planner.cpp" linenr="99" str=")" scope="0x1d67210" link="0x1d585b0"/>
+    <token id="0x1d58710" file="simple_scored_sampling_planner.cpp" linenr="99" str=")" scope="0x1d67210" link="0x1d58240"/>
+    <token id="0x1d587c0" file="simple_scored_sampling_planner.cpp" linenr="99" str="{" scope="0x1d673d0" link="0x1d5ce90"/>
+    <token id="0x1d58870" file="simple_scored_sampling_planner.cpp" linenr="100" str="gen_success" scope="0x1d673d0" type="name" varId="64" variable="0x1d688f0" astParent="0x1d58920"/>
+    <token id="0x1d58920" file="simple_scored_sampling_planner.cpp" linenr="100" str="=" scope="0x1d673d0" type="op" isAssignmentOp="True" astOperand1="0x1d58870" astOperand2="0x1d58c90"/>
+    <token id="0x1d589d0" file="simple_scored_sampling_planner.cpp" linenr="100" str="gen_" scope="0x1d673d0" type="name" varId="70" variable="0x1d68ae0" astParent="0x1d58a80"/>
+    <token id="0x1d58a80" file="simple_scored_sampling_planner.cpp" linenr="100" str="." scope="0x1d673d0" astParent="0x1d58c90" astOperand1="0x1d589d0" astOperand2="0x1d58be0"/>
+    <token id="0x1d58be0" file="simple_scored_sampling_planner.cpp" linenr="100" str="nextTrajectory" scope="0x1d673d0" type="name" function="0x1d64df0" astParent="0x1d58a80"/>
+    <token id="0x1d58c90" file="simple_scored_sampling_planner.cpp" linenr="100" str="(" scope="0x1d673d0" link="0x1d58df0" astParent="0x1d58920" astOperand1="0x1d58a80" astOperand2="0x1d58d40"/>
+    <token id="0x1d58d40" file="simple_scored_sampling_planner.cpp" linenr="100" str="loop_traj" scope="0x1d673d0" type="name" varId="60" variable="0x1d68730" astParent="0x1d58c90"/>
+    <token id="0x1d58df0" file="simple_scored_sampling_planner.cpp" linenr="100" str=")" scope="0x1d673d0" link="0x1d58c90"/>
+    <token id="0x1d58ea0" file="simple_scored_sampling_planner.cpp" linenr="100" str=";" scope="0x1d673d0"/>
+    <token id="0x1d58f50" file="simple_scored_sampling_planner.cpp" linenr="101" str="if" scope="0x1d673d0" type="name" astParent="0x1d59000"/>
+    <token id="0x1d59000" file="simple_scored_sampling_planner.cpp" linenr="101" str="(" scope="0x1d673d0" link="0x1d592c0" astOperand1="0x1d58f50" astOperand2="0x1d59160"/>
+    <token id="0x1d590b0" file="simple_scored_sampling_planner.cpp" linenr="101" str="gen_success" scope="0x1d673d0" type="name" varId="64" variable="0x1d688f0" astParent="0x1d59160"/>
+    <token id="0x1d59160" file="simple_scored_sampling_planner.cpp" linenr="101" str="==" scope="0x1d673d0" type="op" isComparisonOp="True" astParent="0x1d59000" astOperand1="0x1d590b0" astOperand2="0x1d59210"/>
+    <token id="0x1d59210" file="simple_scored_sampling_planner.cpp" linenr="101" str="false" scope="0x1d673d0" type="name" values="0x1d59218" astParent="0x1d59160"/>
+    <token id="0x1d592c0" file="simple_scored_sampling_planner.cpp" linenr="101" str=")" scope="0x1d673d0" link="0x1d59000"/>
+    <token id="0x1d59370" file="simple_scored_sampling_planner.cpp" linenr="101" str="{" scope="0x1d67520" link="0x1d59580"/>
+    <token id="0x1d59420" file="simple_scored_sampling_planner.cpp" linenr="103" str="continue" scope="0x1d67520" type="name"/>
+    <token id="0x1d594d0" file="simple_scored_sampling_planner.cpp" linenr="103" str=";" scope="0x1d67520"/>
+    <token id="0x1d59580" file="simple_scored_sampling_planner.cpp" linenr="104" str="}" scope="0x1d67520" link="0x1d59370"/>
+    <token id="0x1d59630" file="simple_scored_sampling_planner.cpp" linenr="105" str="loop_traj_cost" scope="0x1d673d0" type="name" varId="62" variable="0x1d68810" astParent="0x1d596e0"/>
+    <token id="0x1d596e0" file="simple_scored_sampling_planner.cpp" linenr="105" str="=" scope="0x1d673d0" type="op" isAssignmentOp="True" astOperand1="0x1d59630" astOperand2="0x1d59840"/>
+    <token id="0x1d59790" file="simple_scored_sampling_planner.cpp" linenr="105" str="scoreTrajectory" scope="0x1d673d0" type="name" function="0x1d66100" astParent="0x1d59840"/>
+    <token id="0x1d59840" file="simple_scored_sampling_planner.cpp" linenr="105" str="(" scope="0x1d673d0" link="0x1d59b00" astParent="0x1d596e0" astOperand1="0x1d59790" astOperand2="0x1d599a0"/>
+    <token id="0x1d598f0" file="simple_scored_sampling_planner.cpp" linenr="105" str="loop_traj" scope="0x1d673d0" type="name" varId="60" variable="0x1d68730" astParent="0x1d599a0"/>
+    <token id="0x1d599a0" file="simple_scored_sampling_planner.cpp" linenr="105" str="," scope="0x1d673d0" astParent="0x1d59840" astOperand1="0x1d598f0" astOperand2="0x1d59a50"/>
+    <token id="0x1d59a50" file="simple_scored_sampling_planner.cpp" linenr="105" str="best_traj_cost" scope="0x1d673d0" type="name" varId="63" variable="0x1d68880" astParent="0x1d599a0"/>
+    <token id="0x1d59b00" file="simple_scored_sampling_planner.cpp" linenr="105" str=")" scope="0x1d673d0" link="0x1d59840"/>
+    <token id="0x1d59bb0" file="simple_scored_sampling_planner.cpp" linenr="105" str=";" scope="0x1d673d0"/>
+    <token id="0x1d59c60" file="simple_scored_sampling_planner.cpp" linenr="106" str="if" scope="0x1d673d0" type="name" astParent="0x1d59d10"/>
+    <token id="0x1d59d10" file="simple_scored_sampling_planner.cpp" linenr="106" str="(" scope="0x1d673d0" link="0x1d5a080" astOperand1="0x1d59c60" astOperand2="0x1d59e70"/>
+    <token id="0x1d59dc0" file="simple_scored_sampling_planner.cpp" linenr="106" str="all_explored" scope="0x1d673d0" type="name" varId="59" variable="0x1d69a30" values="0x1d59dc8" astParent="0x1d59e70"/>
+    <token id="0x1d59e70" file="simple_scored_sampling_planner.cpp" linenr="106" str="!=" scope="0x1d673d0" type="op" isComparisonOp="True" values="0x1d59e78" astParent="0x1d59d10" astOperand1="0x1d59dc0" astOperand2="0x1d59fd0"/>
+    <token id="0x1d59fd0" file="simple_scored_sampling_planner.cpp" linenr="106" str="0" scope="0x1d673d0" type="number" isInt="True" values="0x1d59fd8" astParent="0x1d59e70"/>
+    <token id="0x1d5a080" file="simple_scored_sampling_planner.cpp" linenr="106" str=")" scope="0x1d673d0" link="0x1d59d10"/>
+    <token id="0x1d5a130" file="simple_scored_sampling_planner.cpp" linenr="106" str="{" scope="0x1d67670" link="0x1d5ab80"/>
+    <token id="0x1d5a1e0" file="simple_scored_sampling_planner.cpp" linenr="107" str="loop_traj" scope="0x1d67670" type="name" varId="60" variable="0x1d68730" astParent="0x1d5a290"/>
+    <token id="0x1d5a290" file="simple_scored_sampling_planner.cpp" linenr="107" str="." scope="0x1d67670" astParent="0x1d5a3f0" astOperand1="0x1d5a1e0" astOperand2="0x1d5a340"/>
+    <token id="0x1d5a340" file="simple_scored_sampling_planner.cpp" linenr="107" str="cost_" scope="0x1d67670" type="name" varId="71" variable="0x1d68160" astParent="0x1d5a290"/>
+    <token id="0x1d5a3f0" file="simple_scored_sampling_planner.cpp" linenr="107" str="=" scope="0x1d67670" type="op" isAssignmentOp="True" astOperand1="0x1d5a290" astOperand2="0x1d5a4a0"/>
+    <token id="0x1d5a4a0" file="simple_scored_sampling_planner.cpp" linenr="107" str="loop_traj_cost" scope="0x1d67670" type="name" varId="62" variable="0x1d68810" astParent="0x1d5a3f0"/>
+    <token id="0x1d5a550" file="simple_scored_sampling_planner.cpp" linenr="107" str=";" scope="0x1d67670"/>
+    <token id="0x1d5a600" file="simple_scored_sampling_planner.cpp" linenr="108" str="all_explored" scope="0x1d67670" type="name" varId="59" variable="0x1d69a30" astParent="0x1d5a6b0"/>
+    <token id="0x1d5a6b0" file="simple_scored_sampling_planner.cpp" linenr="108" str="." scope="0x1d67670" astParent="0x1d5a8c0" astOperand1="0x1d5a600" astOperand2="0x1d5a810"/>
+    <token id="0x1d5a810" file="simple_scored_sampling_planner.cpp" linenr="108" str="push_back" scope="0x1d67670" type="name" astParent="0x1d5a6b0"/>
+    <token id="0x1d5a8c0" file="simple_scored_sampling_planner.cpp" linenr="108" str="(" scope="0x1d67670" link="0x1d5aa20" astOperand1="0x1d5a6b0" astOperand2="0x1d5a970"/>
+    <token id="0x1d5a970" file="simple_scored_sampling_planner.cpp" linenr="108" str="loop_traj" scope="0x1d67670" type="name" varId="60" variable="0x1d68730" astParent="0x1d5a8c0"/>
+    <token id="0x1d5aa20" file="simple_scored_sampling_planner.cpp" linenr="108" str=")" scope="0x1d67670" link="0x1d5a8c0"/>
+    <token id="0x1d5aad0" file="simple_scored_sampling_planner.cpp" linenr="108" str=";" scope="0x1d67670"/>
+    <token id="0x1d5ab80" file="simple_scored_sampling_planner.cpp" linenr="109" str="}" scope="0x1d67670" link="0x1d5a130"/>
+    <token id="0x1d5ac30" file="simple_scored_sampling_planner.cpp" linenr="111" str="if" scope="0x1d673d0" type="name" astParent="0x1d5ace0"/>
+    <token id="0x1d5ace0" file="simple_scored_sampling_planner.cpp" linenr="111" str="(" scope="0x1d673d0" link="0x1d5b050" astOperand1="0x1d5ac30" astOperand2="0x1d5ae40"/>
+    <token id="0x1d5ad90" file="simple_scored_sampling_planner.cpp" linenr="111" str="loop_traj_cost" scope="0x1d673d0" type="name" varId="62" variable="0x1d68810" values="0x1d5ad98" astParent="0x1d5ae40"/>
+    <token id="0x1d5ae40" file="simple_scored_sampling_planner.cpp" linenr="111" str="&gt;=" scope="0x1d673d0" type="op" isComparisonOp="True" values="0x1d5ae48" astParent="0x1d5ace0" astOperand1="0x1d5ad90" astOperand2="0x1d5afa0"/>
+    <token id="0x1d5afa0" file="simple_scored_sampling_planner.cpp" linenr="111" str="0" scope="0x1d673d0" type="number" isInt="True" values="0x1d5afa8" astParent="0x1d5ae40"/>
+    <token id="0x1d5b050" file="simple_scored_sampling_planner.cpp" linenr="111" str=")" scope="0x1d673d0" link="0x1d5ace0"/>
+    <token id="0x1d5b100" file="simple_scored_sampling_planner.cpp" linenr="111" str="{" scope="0x1d677c0" link="0x1d5c180"/>
+    <token id="0x1d5b1b0" file="simple_scored_sampling_planner.cpp" linenr="112" str="count_valid" scope="0x1d677c0" type="name" varId="66" variable="0x1d689d0" astParent="0x1d5b260"/>
+    <token id="0x1d5b260" file="simple_scored_sampling_planner.cpp" linenr="112" str="++" scope="0x1d677c0" type="op" astOperand1="0x1d5b1b0"/>
+    <token id="0x1d5b310" file="simple_scored_sampling_planner.cpp" linenr="112" str=";" scope="0x1d677c0"/>
+    <token id="0x1d5b3c0" file="simple_scored_sampling_planner.cpp" linenr="113" str="if" scope="0x1d677c0" type="name" astParent="0x1d5b470"/>
+    <token id="0x1d5b470" file="simple_scored_sampling_planner.cpp" linenr="113" str="(" scope="0x1d677c0" link="0x1d5b9f0" astOperand1="0x1d5b3c0" astOperand2="0x1d5b730"/>
+    <token id="0x1d5b520" file="simple_scored_sampling_planner.cpp" linenr="113" str="best_traj_cost" scope="0x1d677c0" type="name" varId="63" variable="0x1d68880" astParent="0x1d5b5d0"/>
+    <token id="0x1d5b5d0" file="simple_scored_sampling_planner.cpp" linenr="113" str="&lt;" scope="0x1d677c0" type="op" isComparisonOp="True" astParent="0x1d5b730" astOperand1="0x1d5b520" astOperand2="0x1d5b680"/>
+    <token id="0x1d5b680" file="simple_scored_sampling_planner.cpp" linenr="113" str="0" scope="0x1d677c0" type="number" isInt="True" values="0x1d5b688" astParent="0x1d5b5d0"/>
+    <token id="0x1d5b730" file="simple_scored_sampling_planner.cpp" linenr="113" str="||" scope="0x1d677c0" type="op" isLogicalOp="True" astParent="0x1d5b470" astOperand1="0x1d5b5d0" astOperand2="0x1d5b890"/>
+    <token id="0x1d5b7e0" file="simple_scored_sampling_planner.cpp" linenr="113" str="loop_traj_cost" scope="0x1d677c0" type="name" varId="62" variable="0x1d68810" astParent="0x1d5b890"/>
+    <token id="0x1d5b890" file="simple_scored_sampling_planner.cpp" linenr="113" str="&lt;" scope="0x1d677c0" type="op" isComparisonOp="True" astParent="0x1d5b730" astOperand1="0x1d5b7e0" astOperand2="0x1d5b940"/>
+    <token id="0x1d5b940" file="simple_scored_sampling_planner.cpp" linenr="113" str="best_traj_cost" scope="0x1d677c0" type="name" varId="63" variable="0x1d68880" astParent="0x1d5b890"/>
+    <token id="0x1d5b9f0" file="simple_scored_sampling_planner.cpp" linenr="113" str=")" scope="0x1d677c0" link="0x1d5b470"/>
+    <token id="0x1d5baa0" file="simple_scored_sampling_planner.cpp" linenr="113" str="{" scope="0x1d67910" link="0x1d5c0d0"/>
+    <token id="0x1d5bb50" file="simple_scored_sampling_planner.cpp" linenr="114" str="best_traj_cost" scope="0x1d67910" type="name" varId="63" variable="0x1d68880" astParent="0x1d5bc00"/>
+    <token id="0x1d5bc00" file="simple_scored_sampling_planner.cpp" linenr="114" str="=" scope="0x1d67910" type="op" isAssignmentOp="True" astOperand1="0x1d5bb50" astOperand2="0x1d5bcb0"/>
+    <token id="0x1d5bcb0" file="simple_scored_sampling_planner.cpp" linenr="114" str="loop_traj_cost" scope="0x1d67910" type="name" varId="62" variable="0x1d68810" values="0x1d5bcb8" astParent="0x1d5bc00"/>
+    <token id="0x1d5bd60" file="simple_scored_sampling_planner.cpp" linenr="114" str=";" scope="0x1d67910"/>
+    <token id="0x1d5be10" file="simple_scored_sampling_planner.cpp" linenr="115" str="best_traj" scope="0x1d67910" type="name" varId="61" variable="0x1d687a0" astParent="0x1d5bec0"/>
+    <token id="0x1d5bec0" file="simple_scored_sampling_planner.cpp" linenr="115" str="=" scope="0x1d67910" type="op" isAssignmentOp="True" astOperand1="0x1d5be10" astOperand2="0x1d5bf70"/>
+    <token id="0x1d5bf70" file="simple_scored_sampling_planner.cpp" linenr="115" str="loop_traj" scope="0x1d67910" type="name" varId="60" variable="0x1d68730" astParent="0x1d5bec0"/>
+    <token id="0x1d5c020" file="simple_scored_sampling_planner.cpp" linenr="115" str=";" scope="0x1d67910"/>
+    <token id="0x1d5c0d0" file="simple_scored_sampling_planner.cpp" linenr="116" str="}" scope="0x1d67910" link="0x1d5baa0"/>
+    <token id="0x1d5c180" file="simple_scored_sampling_planner.cpp" linenr="117" str="}" scope="0x1d677c0" link="0x1d5b100"/>
+    <token id="0x1d5c230" file="simple_scored_sampling_planner.cpp" linenr="118" str="count" scope="0x1d673d0" type="name" varId="65" variable="0x1d68960" astParent="0x1d5c2e0"/>
+    <token id="0x1d5c2e0" file="simple_scored_sampling_planner.cpp" linenr="118" str="++" scope="0x1d673d0" type="op" astOperand1="0x1d5c230"/>
+    <token id="0x1d5c390" file="simple_scored_sampling_planner.cpp" linenr="118" str=";" scope="0x1d673d0"/>
+    <token id="0x1d5c440" file="simple_scored_sampling_planner.cpp" linenr="119" str="if" scope="0x1d673d0" type="name" astParent="0x1d5c4f0"/>
+    <token id="0x1d5c4f0" file="simple_scored_sampling_planner.cpp" linenr="119" str="(" scope="0x1d673d0" link="0x1d5cb20" astOperand1="0x1d5c440" astOperand2="0x1d5c7b0"/>
+    <token id="0x1d5c5a0" file="simple_scored_sampling_planner.cpp" linenr="119" str="max_samples_" scope="0x1d673d0" type="name" varId="44" variable="0x1d684e0" astParent="0x1d5c650"/>
+    <token id="0x1d5c650" file="simple_scored_sampling_planner.cpp" linenr="119" str="&gt;" scope="0x1d673d0" type="op" isComparisonOp="True" astParent="0x1d5c7b0" astOperand1="0x1d5c5a0" astOperand2="0x1d5c700"/>
+    <token id="0x1d5c700" file="simple_scored_sampling_planner.cpp" linenr="119" str="0" scope="0x1d673d0" type="number" isInt="True" values="0x1d5c708" astParent="0x1d5c650"/>
+    <token id="0x1d5c7b0" file="simple_scored_sampling_planner.cpp" linenr="119" str="&amp;&amp;" scope="0x1d673d0" type="op" isLogicalOp="True" astParent="0x1d5c4f0" astOperand1="0x1d5c650" astOperand2="0x1d5c910"/>
+    <token id="0x1d5c860" file="simple_scored_sampling_planner.cpp" linenr="119" str="count" scope="0x1d673d0" type="name" varId="65" variable="0x1d68960" astParent="0x1d5c910"/>
+    <token id="0x1d5c910" file="simple_scored_sampling_planner.cpp" linenr="119" str="&gt;=" scope="0x1d673d0" type="op" isComparisonOp="True" astParent="0x1d5c7b0" astOperand1="0x1d5c860" astOperand2="0x1d5ca70"/>
+    <token id="0x1d5ca70" file="simple_scored_sampling_planner.cpp" linenr="119" str="max_samples_" scope="0x1d673d0" type="name" varId="44" variable="0x1d684e0" astParent="0x1d5c910"/>
+    <token id="0x1d5cb20" file="simple_scored_sampling_planner.cpp" linenr="119" str=")" scope="0x1d673d0" link="0x1d5c4f0"/>
+    <token id="0x1d5cbd0" file="simple_scored_sampling_planner.cpp" linenr="119" str="{" scope="0x1d67a60" link="0x1d5cde0"/>
+    <token id="0x1d5cc80" file="simple_scored_sampling_planner.cpp" linenr="120" str="break" scope="0x1d67a60" type="name"/>
+    <token id="0x1d5cd30" file="simple_scored_sampling_planner.cpp" linenr="120" str=";" scope="0x1d67a60"/>
+    <token id="0x1d5cde0" file="simple_scored_sampling_planner.cpp" linenr="121" str="}" scope="0x1d67a60" link="0x1d5cbd0"/>
+    <token id="0x1d5ce90" file="simple_scored_sampling_planner.cpp" linenr="122" str="}" scope="0x1d673d0" link="0x1d587c0"/>
+    <token id="0x1d5cf40" file="simple_scored_sampling_planner.cpp" linenr="123" str="if" scope="0x1d67210" type="name" astParent="0x1d5cff0"/>
+    <token id="0x1d5cff0" file="simple_scored_sampling_planner.cpp" linenr="123" str="(" scope="0x1d67210" link="0x1d5d360" astOperand1="0x1d5cf40" astOperand2="0x1d5d150"/>
+    <token id="0x1d5d0a0" file="simple_scored_sampling_planner.cpp" linenr="123" str="best_traj_cost" scope="0x1d67210" type="name" varId="63" variable="0x1d68880" values="0x1d5d0a8" astParent="0x1d5d150"/>
+    <token id="0x1d5d150" file="simple_scored_sampling_planner.cpp" linenr="123" str="&gt;=" scope="0x1d67210" type="op" isComparisonOp="True" values="0x1d5d158" astParent="0x1d5cff0" astOperand1="0x1d5d0a0" astOperand2="0x1d5d2b0"/>
+    <token id="0x1d5d2b0" file="simple_scored_sampling_planner.cpp" linenr="123" str="0" scope="0x1d67210" type="number" isInt="True" values="0x1d5d2b8" astParent="0x1d5d150"/>
+    <token id="0x1d5d360" file="simple_scored_sampling_planner.cpp" linenr="123" str=")" scope="0x1d67210" link="0x1d5cff0"/>
+    <token id="0x1d5d410" file="simple_scored_sampling_planner.cpp" linenr="123" str="{" scope="0x1d67bb0" link="0x1d61140"/>
+    <token id="0x1d5d4c0" file="simple_scored_sampling_planner.cpp" linenr="124" str="traj" scope="0x1d67bb0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d5d570"/>
+    <token id="0x1d5d570" file="simple_scored_sampling_planner.cpp" linenr="124" str="." scope="0x1d67bb0" astParent="0x1d5d6d0" astOperand1="0x1d5d4c0" astOperand2="0x1d5d620"/>
+    <token id="0x1d5d620" file="simple_scored_sampling_planner.cpp" linenr="124" str="xv_" scope="0x1d67bb0" type="name" varId="72" variable="0x1d68010" astParent="0x1d5d570"/>
+    <token id="0x1d5d6d0" file="simple_scored_sampling_planner.cpp" linenr="124" str="=" scope="0x1d67bb0" type="op" isAssignmentOp="True" astOperand1="0x1d5d570" astOperand2="0x1d5d830"/>
+    <token id="0x1d5d780" file="simple_scored_sampling_planner.cpp" linenr="124" str="best_traj" scope="0x1d67bb0" type="name" varId="61" variable="0x1d687a0" astParent="0x1d5d830"/>
+    <token id="0x1d5d830" file="simple_scored_sampling_planner.cpp" linenr="124" str="." scope="0x1d67bb0" astParent="0x1d5d6d0" astOperand1="0x1d5d780" astOperand2="0x1d5d8e0"/>
+    <token id="0x1d5d8e0" file="simple_scored_sampling_planner.cpp" linenr="124" str="xv_" scope="0x1d67bb0" type="name" varId="73" variable="0x1d68010" astParent="0x1d5d830"/>
+    <token id="0x1d5d990" file="simple_scored_sampling_planner.cpp" linenr="124" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5da40" file="simple_scored_sampling_planner.cpp" linenr="125" str="traj" scope="0x1d67bb0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d5daf0"/>
+    <token id="0x1d5daf0" file="simple_scored_sampling_planner.cpp" linenr="125" str="." scope="0x1d67bb0" astParent="0x1d5dc50" astOperand1="0x1d5da40" astOperand2="0x1d5dba0"/>
+    <token id="0x1d5dba0" file="simple_scored_sampling_planner.cpp" linenr="125" str="yv_" scope="0x1d67bb0" type="name" varId="74" variable="0x1d68080" astParent="0x1d5daf0"/>
+    <token id="0x1d5dc50" file="simple_scored_sampling_planner.cpp" linenr="125" str="=" scope="0x1d67bb0" type="op" isAssignmentOp="True" astOperand1="0x1d5daf0" astOperand2="0x1d5ddb0"/>
+    <token id="0x1d5dd00" file="simple_scored_sampling_planner.cpp" linenr="125" str="best_traj" scope="0x1d67bb0" type="name" varId="61" variable="0x1d687a0" astParent="0x1d5ddb0"/>
+    <token id="0x1d5ddb0" file="simple_scored_sampling_planner.cpp" linenr="125" str="." scope="0x1d67bb0" astParent="0x1d5dc50" astOperand1="0x1d5dd00" astOperand2="0x1d5de60"/>
+    <token id="0x1d5de60" file="simple_scored_sampling_planner.cpp" linenr="125" str="yv_" scope="0x1d67bb0" type="name" varId="75" variable="0x1d68080" astParent="0x1d5ddb0"/>
+    <token id="0x1d5df10" file="simple_scored_sampling_planner.cpp" linenr="125" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5dfc0" file="simple_scored_sampling_planner.cpp" linenr="126" str="traj" scope="0x1d67bb0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d5e070"/>
+    <token id="0x1d5e070" file="simple_scored_sampling_planner.cpp" linenr="126" str="." scope="0x1d67bb0" astParent="0x1d5e1d0" astOperand1="0x1d5dfc0" astOperand2="0x1d5e120"/>
+    <token id="0x1d5e120" file="simple_scored_sampling_planner.cpp" linenr="126" str="thetav_" scope="0x1d67bb0" type="name" varId="76" variable="0x1d680f0" astParent="0x1d5e070"/>
+    <token id="0x1d5e1d0" file="simple_scored_sampling_planner.cpp" linenr="126" str="=" scope="0x1d67bb0" type="op" isAssignmentOp="True" astOperand1="0x1d5e070" astOperand2="0x1d5e330"/>
+    <token id="0x1d5e280" file="simple_scored_sampling_planner.cpp" linenr="126" str="best_traj" scope="0x1d67bb0" type="name" varId="61" variable="0x1d687a0" astParent="0x1d5e330"/>
+    <token id="0x1d5e330" file="simple_scored_sampling_planner.cpp" linenr="126" str="." scope="0x1d67bb0" astParent="0x1d5e1d0" astOperand1="0x1d5e280" astOperand2="0x1d5e3e0"/>
+    <token id="0x1d5e3e0" file="simple_scored_sampling_planner.cpp" linenr="126" str="thetav_" scope="0x1d67bb0" type="name" varId="77" variable="0x1d680f0" astParent="0x1d5e330"/>
+    <token id="0x1d5e490" file="simple_scored_sampling_planner.cpp" linenr="126" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5e540" file="simple_scored_sampling_planner.cpp" linenr="127" str="traj" scope="0x1d67bb0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d5e5f0"/>
+    <token id="0x1d5e5f0" file="simple_scored_sampling_planner.cpp" linenr="127" str="." scope="0x1d67bb0" astParent="0x1d5e750" astOperand1="0x1d5e540" astOperand2="0x1d5e6a0"/>
+    <token id="0x1d5e6a0" file="simple_scored_sampling_planner.cpp" linenr="127" str="cost_" scope="0x1d67bb0" type="name" varId="78" variable="0x1d68160" astParent="0x1d5e5f0"/>
+    <token id="0x1d5e750" file="simple_scored_sampling_planner.cpp" linenr="127" str="=" scope="0x1d67bb0" type="op" isAssignmentOp="True" astOperand1="0x1d5e5f0" astOperand2="0x1d5e800"/>
+    <token id="0x1d5e800" file="simple_scored_sampling_planner.cpp" linenr="127" str="best_traj_cost" scope="0x1d67bb0" type="name" varId="63" variable="0x1d68880" values="0x1d5e808" astParent="0x1d5e750"/>
+    <token id="0x1d5e8b0" file="simple_scored_sampling_planner.cpp" linenr="127" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5e960" file="simple_scored_sampling_planner.cpp" linenr="128" str="traj" scope="0x1d67bb0" type="name" varId="58" variable="0x1d699c0" astParent="0x1d5ea10"/>
+    <token id="0x1d5ea10" file="simple_scored_sampling_planner.cpp" linenr="128" str="." scope="0x1d67bb0" astParent="0x1d5eb70" astOperand1="0x1d5e960" astOperand2="0x1d5eac0"/>
+    <token id="0x1d5eac0" file="simple_scored_sampling_planner.cpp" linenr="128" str="resetPoints" scope="0x1d67bb0" type="name" function="0x1d64050" astParent="0x1d5ea10"/>
+    <token id="0x1d5eb70" file="simple_scored_sampling_planner.cpp" linenr="128" str="(" scope="0x1d67bb0" link="0x1d5ec20" astOperand1="0x1d5ea10"/>
+    <token id="0x1d5ec20" file="simple_scored_sampling_planner.cpp" linenr="128" str=")" scope="0x1d67bb0" link="0x1d5eb70"/>
+    <token id="0x1d5ecd0" file="simple_scored_sampling_planner.cpp" linenr="128" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5ed80" file="simple_scored_sampling_planner.cpp" linenr="129" str="double" scope="0x1d67bb0" type="name"/>
+    <token id="0x1d5ee30" file="simple_scored_sampling_planner.cpp" linenr="129" str="px" scope="0x1d67bb0" type="name" varId="79" variable="0x1d68b50"/>
+    <token id="0x1d5eee0" file="simple_scored_sampling_planner.cpp" linenr="129" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d544d0" file="simple_scored_sampling_planner.cpp" linenr="129" str="double" scope="0x1d67bb0" type="name"/>
+    <token id="0x1d5ef90" file="simple_scored_sampling_planner.cpp" linenr="129" str="py" scope="0x1d67bb0" type="name" varId="80" variable="0x1d68bc0"/>
+    <token id="0x1d5f040" file="simple_scored_sampling_planner.cpp" linenr="129" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d55420" file="simple_scored_sampling_planner.cpp" linenr="129" str="double" scope="0x1d67bb0" type="name"/>
+    <token id="0x1d5f0f0" file="simple_scored_sampling_planner.cpp" linenr="129" str="pth" scope="0x1d67bb0" type="name" varId="81" variable="0x1d68c30"/>
+    <token id="0x1d5f1a0" file="simple_scored_sampling_planner.cpp" linenr="129" str=";" scope="0x1d67bb0"/>
+    <token id="0x1d5f250" file="simple_scored_sampling_planner.cpp" linenr="130" str="for" scope="0x1d67bb0" type="name" astParent="0x1d5f300"/>
+    <token id="0x1d5f300" file="simple_scored_sampling_planner.cpp" linenr="130" str="(" scope="0x1d67bb0" link="0x1d5feb0" astOperand1="0x1d5f250" astOperand2="0x1d5f720"/>
+    <token id="0x1d5f3b0" file="simple_scored_sampling_planner.cpp" linenr="130" str="int" scope="0x1d67bb0" type="name"/>
+    <token id="0x1d5f510" file="simple_scored_sampling_planner.cpp" linenr="130" str="i" scope="0x1d67bb0" type="name" varId="82" variable="0x1d67e50" astParent="0x1d5f5c0"/>
+    <token id="0x1d5f5c0" file="simple_scored_sampling_planner.cpp" linenr="130" str="=" scope="0x1d67bb0" type="op" isAssignmentOp="True" astParent="0x1d5f720" astOperand1="0x1d5f510" astOperand2="0x1d5f670"/>
+    <token id="0x1d5f670" file="simple_scored_sampling_planner.cpp" linenr="130" str="0" scope="0x1d67bb0" type="number" isInt="True" values="0x1d5f678" astParent="0x1d5f5c0"/>
+    <token id="0x1d5f720" file="simple_scored_sampling_planner.cpp" linenr="130" str=";" scope="0x1d67bb0" astParent="0x1d5f300" astOperand1="0x1d5f5c0" astOperand2="0x1d5fca0"/>
+    <token id="0x1d5f7d0" file="simple_scored_sampling_planner.cpp" linenr="130" str="i" scope="0x1d67bb0" type="name" varId="82" variable="0x1d67e50" astParent="0x1d5f880"/>
+    <token id="0x1d5f880" file="simple_scored_sampling_planner.cpp" linenr="130" str="&lt;" scope="0x1d67bb0" type="op" isComparisonOp="True" astParent="0x1d5fca0" astOperand1="0x1d5f7d0" astOperand2="0x1d5fb40"/>
+    <token id="0x1d5f930" file="simple_scored_sampling_planner.cpp" linenr="130" str="best_traj" scope="0x1d67bb0" type="name" varId="61" variable="0x1d687a0" astParent="0x1d5f9e0"/>
+    <token id="0x1d5f9e0" file="simple_scored_sampling_planner.cpp" linenr="130" str="." scope="0x1d67bb0" astParent="0x1d5fb40" astOperand1="0x1d5f930" astOperand2="0x1d5fa90"/>
+    <token id="0x1d5fa90" file="simple_scored_sampling_planner.cpp" linenr="130" str="getPointsSize" scope="0x1d67bb0" type="name" function="0x1d640f0" astParent="0x1d5f9e0"/>
+    <token id="0x1d5fb40" file="simple_scored_sampling_planner.cpp" linenr="130" str="(" scope="0x1d67bb0" link="0x1d5fbf0" astParent="0x1d5f880" astOperand1="0x1d5f9e0"/>
+    <token id="0x1d5fbf0" file="simple_scored_sampling_planner.cpp" linenr="130" str=")" scope="0x1d67bb0" link="0x1d5fb40"/>
+    <token id="0x1d5fca0" file="simple_scored_sampling_planner.cpp" linenr="130" str=";" scope="0x1d67bb0" astParent="0x1d5f720" astOperand1="0x1d5f880" astOperand2="0x1d5fe00"/>
+    <token id="0x1d5fd50" file="simple_scored_sampling_planner.cpp" linenr="130" str="i" scope="0x1d67bb0" type="name" varId="82" variable="0x1d67e50" astParent="0x1d5fe00"/>
+    <token id="0x1d5fe00" file="simple_scored_sampling_planner.cpp" linenr="130" str="++" scope="0x1d67bb0" type="op" astParent="0x1d5fca0" astOperand1="0x1d5fd50"/>
+    <token id="0x1d5feb0" file="simple_scored_sampling_planner.cpp" linenr="130" str=")" scope="0x1d67bb0" link="0x1d5f300"/>
+    <token id="0x1d5ff60" file="simple_scored_sampling_planner.cpp" linenr="130" str="{" scope="0x1d67d00" link="0x1d61090"/>
+    <token id="0x1d60010" file="simple_scored_sampling_planner.cpp" linenr="131" str="best_traj" scope="0x1d67d00" type="name" varId="61" variable="0x1d687a0" astParent="0x1d600c0"/>
+    <token id="0x1d600c0" file="simple_scored_sampling_planner.cpp" linenr="131" str="." scope="0x1d67d00" astParent="0x1d60220" astOperand1="0x1d60010" astOperand2="0x1d60170"/>
+    <token id="0x1d60170" file="simple_scored_sampling_planner.cpp" linenr="131" str="getPoint" scope="0x1d67d00" type="name" function="0x1d63dd0" astParent="0x1d600c0"/>
+    <token id="0x1d60220" file="simple_scored_sampling_planner.cpp" linenr="131" str="(" scope="0x1d67d00" link="0x1d607a0" astOperand1="0x1d600c0" astOperand2="0x1d60640"/>
+    <token id="0x1d602d0" file="simple_scored_sampling_planner.cpp" linenr="131" str="i" scope="0x1d67d00" type="name" varId="82" variable="0x1d67e50" values="0x1d602d8" astParent="0x1d60380"/>
+    <token id="0x1d60380" file="simple_scored_sampling_planner.cpp" linenr="131" str="," scope="0x1d67d00" astParent="0x1d604e0" astOperand1="0x1d602d0" astOperand2="0x1d60430"/>
+    <token id="0x1d60430" file="simple_scored_sampling_planner.cpp" linenr="131" str="px" scope="0x1d67d00" type="name" varId="79" variable="0x1d68b50" astParent="0x1d60380"/>
+    <token id="0x1d604e0" file="simple_scored_sampling_planner.cpp" linenr="131" str="," scope="0x1d67d00" astParent="0x1d60640" astOperand1="0x1d60380" astOperand2="0x1d60590"/>
+    <token id="0x1d60590" file="simple_scored_sampling_planner.cpp" linenr="131" str="py" scope="0x1d67d00" type="name" varId="80" variable="0x1d68bc0" astParent="0x1d604e0"/>
+    <token id="0x1d60640" file="simple_scored_sampling_planner.cpp" linenr="131" str="," scope="0x1d67d00" astParent="0x1d60220" astOperand1="0x1d604e0" astOperand2="0x1d606f0"/>
+    <token id="0x1d606f0" file="simple_scored_sampling_planner.cpp" linenr="131" str="pth" scope="0x1d67d00" type="name" varId="81" variable="0x1d68c30" astParent="0x1d60640"/>
+    <token id="0x1d607a0" file="simple_scored_sampling_planner.cpp" linenr="131" str=")" scope="0x1d67d00" link="0x1d60220"/>
+    <token id="0x1d60850" file="simple_scored_sampling_planner.cpp" linenr="131" str=";" scope="0x1d67d00"/>
+    <token id="0x1d60900" file="simple_scored_sampling_planner.cpp" linenr="132" str="traj" scope="0x1d67d00" type="name" varId="58" variable="0x1d699c0" astParent="0x1d609b0"/>
+    <token id="0x1d609b0" file="simple_scored_sampling_planner.cpp" linenr="132" str="." scope="0x1d67d00" astParent="0x1d60b10" astOperand1="0x1d60900" astOperand2="0x1d60a60"/>
+    <token id="0x1d60a60" file="simple_scored_sampling_planner.cpp" linenr="132" str="addPoint" scope="0x1d67d00" type="name" function="0x1d63f10" astParent="0x1d609b0"/>
+    <token id="0x1d60b10" file="simple_scored_sampling_planner.cpp" linenr="132" str="(" scope="0x1d67d00" link="0x1d60f30" astOperand1="0x1d609b0" astOperand2="0x1d60dd0"/>
+    <token id="0x1d60bc0" file="simple_scored_sampling_planner.cpp" linenr="132" str="px" scope="0x1d67d00" type="name" varId="79" variable="0x1d68b50" astParent="0x1d60c70"/>
+    <token id="0x1d60c70" file="simple_scored_sampling_planner.cpp" linenr="132" str="," scope="0x1d67d00" astParent="0x1d60dd0" astOperand1="0x1d60bc0" astOperand2="0x1d60d20"/>
+    <token id="0x1d60d20" file="simple_scored_sampling_planner.cpp" linenr="132" str="py" scope="0x1d67d00" type="name" varId="80" variable="0x1d68bc0" astParent="0x1d60c70"/>
+    <token id="0x1d60dd0" file="simple_scored_sampling_planner.cpp" linenr="132" str="," scope="0x1d67d00" astParent="0x1d60b10" astOperand1="0x1d60c70" astOperand2="0x1d60e80"/>
+    <token id="0x1d60e80" file="simple_scored_sampling_planner.cpp" linenr="132" str="pth" scope="0x1d67d00" type="name" varId="81" variable="0x1d68c30" astParent="0x1d60dd0"/>
+    <token id="0x1d60f30" file="simple_scored_sampling_planner.cpp" linenr="132" str=")" scope="0x1d67d00" link="0x1d60b10"/>
+    <token id="0x1d60fe0" file="simple_scored_sampling_planner.cpp" linenr="132" str=";" scope="0x1d67d00"/>
+    <token id="0x1d61090" file="simple_scored_sampling_planner.cpp" linenr="133" str="}" scope="0x1d67d00" link="0x1d5ff60"/>
+    <token id="0x1d61140" file="simple_scored_sampling_planner.cpp" linenr="134" str="}" scope="0x1d67bb0" link="0x1d5d410"/>
+    <token id="0x1d611f0" file="simple_scored_sampling_planner.cpp" linenr="135" str="ROS_DEBUG" scope="0x1d67210" type="name" astParent="0x1d612a0"/>
+    <token id="0x1d612a0" file="simple_scored_sampling_planner.cpp" linenr="135" str="(" scope="0x1d67210" link="0x1d616f0" astOperand1="0x1d611f0" astOperand2="0x1d61590"/>
+    <token id="0x1d61380" file="simple_scored_sampling_planner.cpp" linenr="135" str="&quot;Evaluated %d trajectories, found %d valid&quot;" scope="0x1d67210" type="string" strlen="41" values="0x1d61388" astParent="0x1d61430"/>
+    <token id="0x1d61430" file="simple_scored_sampling_planner.cpp" linenr="135" str="," scope="0x1d67210" astParent="0x1d61590" astOperand1="0x1d61380" astOperand2="0x1d614e0"/>
+    <token id="0x1d614e0" file="simple_scored_sampling_planner.cpp" linenr="135" str="count" scope="0x1d67210" type="name" varId="65" variable="0x1d68960" astParent="0x1d61430"/>
+    <token id="0x1d61590" file="simple_scored_sampling_planner.cpp" linenr="135" str="," scope="0x1d67210" astParent="0x1d612a0" astOperand1="0x1d61430" astOperand2="0x1d61640"/>
+    <token id="0x1d61640" file="simple_scored_sampling_planner.cpp" linenr="135" str="count_valid" scope="0x1d67210" type="name" varId="66" variable="0x1d689d0" astParent="0x1d61590"/>
+    <token id="0x1d616f0" file="simple_scored_sampling_planner.cpp" linenr="135" str=")" scope="0x1d67210" link="0x1d612a0"/>
+    <token id="0x1d617a0" file="simple_scored_sampling_planner.cpp" linenr="135" str=";" scope="0x1d67210"/>
+    <token id="0x1d61850" file="simple_scored_sampling_planner.cpp" linenr="136" str="if" scope="0x1d67210" type="name" astParent="0x1d61900"/>
+    <token id="0x1d61900" file="simple_scored_sampling_planner.cpp" linenr="136" str="(" scope="0x1d67210" link="0x1d61c70" astOperand1="0x1d61850" astOperand2="0x1d61a60"/>
+    <token id="0x1d619b0" file="simple_scored_sampling_planner.cpp" linenr="136" str="best_traj_cost" scope="0x1d67210" type="name" varId="63" variable="0x1d68880" values="0x1d619b8" astParent="0x1d61a60"/>
+    <token id="0x1d61a60" file="simple_scored_sampling_planner.cpp" linenr="136" str="&gt;=" scope="0x1d67210" type="op" isComparisonOp="True" values="0x1d61a68" astParent="0x1d61900" astOperand1="0x1d619b0" astOperand2="0x1d61bc0"/>
+    <token id="0x1d61bc0" file="simple_scored_sampling_planner.cpp" linenr="136" str="0" scope="0x1d67210" type="number" isInt="True" values="0x1d61bc8" astParent="0x1d61a60"/>
+    <token id="0x1d61c70" file="simple_scored_sampling_planner.cpp" linenr="136" str=")" scope="0x1d67210" link="0x1d61900"/>
+    <token id="0x1d61d20" file="simple_scored_sampling_planner.cpp" linenr="136" str="{" scope="0x1d67ec0" link="0x1d61f30"/>
+    <token id="0x1d61dd0" file="simple_scored_sampling_planner.cpp" linenr="138" str="break" scope="0x1d67ec0" type="name"/>
+    <token id="0x1d61e80" file="simple_scored_sampling_planner.cpp" linenr="138" str=";" scope="0x1d67ec0"/>
+    <token id="0x1d61f30" file="simple_scored_sampling_planner.cpp" linenr="139" str="}" scope="0x1d67ec0" link="0x1d61d20"/>
+    <token id="0x1d61fe0" file="simple_scored_sampling_planner.cpp" linenr="140" str="}" scope="0x1d67210" link="0x1d57660"/>
+    <token id="0x1d62090" file="simple_scored_sampling_planner.cpp" linenr="141" str="return" scope="0x1d66db0" type="name" astOperand1="0x1d621f0"/>
+    <token id="0x1d62140" file="simple_scored_sampling_planner.cpp" linenr="141" str="best_traj_cost" scope="0x1d66db0" type="name" varId="63" variable="0x1d68880" values="0x1d62148" astParent="0x1d621f0"/>
+    <token id="0x1d621f0" file="simple_scored_sampling_planner.cpp" linenr="141" str="&gt;=" scope="0x1d66db0" type="op" isComparisonOp="True" values="0x1d621f8" astParent="0x1d62090" astOperand1="0x1d62140" astOperand2="0x1d62350"/>
+    <token id="0x1d62350" file="simple_scored_sampling_planner.cpp" linenr="141" str="0" scope="0x1d66db0" type="number" isInt="True" values="0x1d62358" astParent="0x1d621f0"/>
+    <token id="0x1d62400" file="simple_scored_sampling_planner.cpp" linenr="141" str=";" scope="0x1d66db0"/>
+    <token id="0x1d624b0" file="simple_scored_sampling_planner.cpp" linenr="142" str="}" scope="0x1d66db0" link="0x1d52660"/>
+    <token id="0x1d62560" file="simple_scored_sampling_planner.cpp" linenr="145" str="}" scope="0x1d628d0" link="0x1d48410"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1d62be0" type="Global"/>
+    <scope id="0x1d628d0" type="Namespace" className="base_local_planner" classStart="0x1d48410" classEnd="0x1d62560" nestedIn="0x1d62be0"/>
+    <scope id="0x1d62670" type="Class" className="Trajectory" classStart="0x1d2fcc0" classEnd="0x1d3bb30" nestedIn="0x1d628d0">
+      <functionList>
+        <function id="0x1d627a0" tokenDef="0x1d2fed0" name="Trajectory"/>
+        <function id="0x1d62a00" tokenDef="0x1d30190" name="Trajectory">
+          <arg nr="1" variable="0x1d68ca0"/>
+          <arg nr="2" variable="0x1d68d10"/>
+          <arg nr="3" variable="0x1d68d80"/>
+          <arg nr="4" variable="0x1d68df0"/>
+          <arg nr="5" variable="0x1d68e60"/>
+        </function>
+        <function id="0x1d63dd0" tokenDef="0x1d35ca0" name="getPoint">
+          <arg nr="1" variable="0x1d68ed0"/>
+          <arg nr="2" variable="0x1d68f40"/>
+          <arg nr="3" variable="0x1d68fb0"/>
+          <arg nr="4" variable="0x1d69020"/>
+        </function>
+        <function id="0x1d63e70" tokenDef="0x1d36b10" name="setPoint">
+          <arg nr="1" variable="0x1d69090"/>
+          <arg nr="2" variable="0x1d69100"/>
+          <arg nr="3" variable="0x1d69170"/>
+          <arg nr="4" variable="0x1d691e0"/>
+        </function>
+        <function id="0x1d63f10" tokenDef="0x1d376c0" name="addPoint">
+          <arg nr="1" variable="0x1d69250"/>
+          <arg nr="2" variable="0x1d692c0"/>
+          <arg nr="3" variable="0x1d69330"/>
+        </function>
+        <function id="0x1d63fb0" tokenDef="0x1d37fb0" name="getEndpoint">
+          <arg nr="1" variable="0x1d693a0"/>
+          <arg nr="2" variable="0x1d69410"/>
+          <arg nr="3" variable="0x1d69480"/>
+        </function>
+        <function id="0x1d64050" tokenDef="0x1d38b60" name="resetPoints"/>
+        <function id="0x1d640f0" tokenDef="0x1d38f80" name="getPointsSize"/>
+      </functionList>
+      <varlist>
+        <var id="0x1d68010"/>
+        <var id="0x1d68080"/>
+        <var id="0x1d680f0"/>
+        <var id="0x1d68160"/>
+        <var id="0x1d681d0"/>
+        <var id="0x1d68240"/>
+        <var id="0x1d682b0"/>
+        <var id="0x1d68320"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d64190" type="Class" className="TrajectoryCostFunction" classStart="0x1d3c1c0" classEnd="0x1d3f2f0" nestedIn="0x1d628d0">
+      <functionList>
+        <function id="0x1d64330" tokenDef="0x1d3c530" name="prepare"/>
+        <function id="0x1d643d0" tokenDef="0x1d3cab0" name="scoreTrajectory">
+          <arg nr="1" variable="0x1d694f0"/>
+        </function>
+        <function id="0x1d64470" tokenDef="0x1d3d190" name="getScale"/>
+        <function id="0x1d64640" tokenDef="0x1d3d7c0" name="setScale">
+          <arg nr="1" variable="0x1d69560"/>
+        </function>
+        <function id="0x1d64810" tokenDef="0x1d3e0b0" name="TrajectoryCostFunction"/>
+        <function id="0x1d649e0" tokenDef="0x1d3e5b0" name="TrajectoryCostFunction">
+          <arg nr="1" variable="0x1d695d0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x1d68390"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d64510" type="Function" className="getScale" classStart="0x1d3d3a0" classEnd="0x1d3d660" nestedIn="0x1d64190" function="0x1d64470"/>
+    <scope id="0x1d646e0" type="Function" className="setScale" classStart="0x1d3db30" classEnd="0x1d3dea0" nestedIn="0x1d64190" function="0x1d64640"/>
+    <scope id="0x1d648b0" type="Function" className="TrajectoryCostFunction" classStart="0x1d3e2f0" classEnd="0x1d3e3a0" nestedIn="0x1d64190" function="0x1d64810"/>
+    <scope id="0x1d64a80" type="Function" className="TrajectoryCostFunction" classStart="0x1d3ee20" classEnd="0x1d3eed0" nestedIn="0x1d64190" function="0x1d649e0"/>
+    <scope id="0x1d64bb0" type="Class" className="TrajectorySampleGenerator" classStart="0x1d3faf0" classEnd="0x1d41440" nestedIn="0x1d628d0">
+      <functionList>
+        <function id="0x1d64d50" tokenDef="0x1d3fe60" name="hasMoreTrajectories"/>
+        <function id="0x1d64df0" tokenDef="0x1d403e0" name="nextTrajectory">
+          <arg nr="1" variable="0x1d69640"/>
+        </function>
+        <function id="0x1d64e90" tokenDef="0x1d40ba0" name="TrajectorySampleGenerator"/>
+        <function id="0x1d650c0" tokenDef="0x1d410a0" name="TrajectorySampleGenerator"/>
+      </functionList>
+    </scope>
+    <scope id="0x1d64f90" type="Function" className="TrajectorySampleGenerator" classStart="0x1d40de0" classEnd="0x1d40e90" nestedIn="0x1d64bb0" function="0x1d64e90"/>
+    <scope id="0x1d651c0" type="Function" className="TrajectorySampleGenerator" classStart="0x1d412e0" classEnd="0x1d41390" nestedIn="0x1d64bb0" function="0x1d650c0"/>
+    <scope id="0x1d65320" type="Class" className="TrajectorySearch" classStart="0x1d419f0" classEnd="0x1d433f0" nestedIn="0x1d628d0">
+      <functionList>
+        <function id="0x1d654c0" tokenDef="0x1d41d60" name="findBestTrajectory">
+          <arg nr="1" variable="0x1d696b0"/>
+          <arg nr="2" variable="0x1d69720"/>
+        </function>
+        <function id="0x1d65560" tokenDef="0x1d42b50" name="TrajectorySearch"/>
+        <function id="0x1d65760" tokenDef="0x1d43050" name="TrajectorySearch"/>
+      </functionList>
+    </scope>
+    <scope id="0x1d65630" type="Function" className="TrajectorySearch" classStart="0x1d42d90" classEnd="0x1d42e40" nestedIn="0x1d65320" function="0x1d65560"/>
+    <scope id="0x1d65830" type="Function" className="TrajectorySearch" classStart="0x1d43290" classEnd="0x1d43340" nestedIn="0x1d65320" function="0x1d65760"/>
+    <scope id="0x1d65990" type="Class" className="SimpleScoredSamplingPlanner" classStart="0x1d43da0" classEnd="0x1d48070" nestedIn="0x1d628d0">
+      <functionList>
+        <function id="0x1d65bc0" tokenDef="0x1d44090" name="SimpleScoredSamplingPlanner"/>
+        <function id="0x1d65de0" tokenDef="0x1d44430" name="SimpleScoredSamplingPlanner"/>
+        <function id="0x1d66030" tokenDef="0x1d447d0" name="SimpleScoredSamplingPlanner">
+          <arg nr="1" variable="0x1d69790"/>
+          <arg nr="2" variable="0x1d69800"/>
+          <arg nr="3" variable="0x1d69870"/>
+        </function>
+        <function id="0x1d66100" tokenDef="0x1d45c20" name="scoreTrajectory">
+          <arg nr="1" variable="0x1d698e0"/>
+          <arg nr="2" variable="0x1d69950"/>
+        </function>
+        <function id="0x1d661a0" tokenDef="0x1d463b0" name="findBestTrajectory">
+          <arg nr="1" variable="0x1d699c0"/>
+          <arg nr="2" variable="0x1d69a30"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x1d68400"/>
+        <var id="0x1d68470"/>
+        <var id="0x1d684e0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d65c90" type="Function" className="SimpleScoredSamplingPlanner" classStart="0x1d442d0" classEnd="0x1d44380" nestedIn="0x1d65990" function="0x1d65bc0"/>
+    <scope id="0x1d65ee0" type="Function" className="SimpleScoredSamplingPlanner" classStart="0x1d44670" classEnd="0x1d44720" nestedIn="0x1d65990" function="0x1d65de0"/>
+    <scope id="0x1d66290" type="Function" className="SimpleScoredSamplingPlanner" classStart="0x1d49760" classEnd="0x1d4a050" nestedIn="0x1d628d0" function="0x1d66030"/>
+    <scope id="0x1d663e0" type="Function" className="scoreTrajectory" classStart="0x1d4a9a0" classEnd="0x1d518f0" nestedIn="0x1d628d0" function="0x1d66100">
+      <varlist>
+        <var id="0x1d68550"/>
+        <var id="0x1d685c0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d66530" type="For" classStart="0x1d4c680" classEnd="0x1d51630" nestedIn="0x1d663e0">
+      <varlist>
+        <var id="0x1d66680"/>
+        <var id="0x1d68650"/>
+        <var id="0x1d686c0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d666f0" type="If" classStart="0x1d4d420" classEnd="0x1d4d630" nestedIn="0x1d66530"/>
+    <scope id="0x1d66840" type="If" classStart="0x1d4e2c0" classEnd="0x1d4f690" nestedIn="0x1d66530"/>
+    <scope id="0x1d66990" type="If" classStart="0x1d4fc10" classEnd="0x1d503a0" nestedIn="0x1d66530"/>
+    <scope id="0x1d66ae0" type="If" classStart="0x1d50be0" classEnd="0x1d51370" nestedIn="0x1d66530"/>
+    <scope id="0x1d66c30" type="If" classStart="0x1d510b0" classEnd="0x1d512c0" nestedIn="0x1d66ae0"/>
+    <scope id="0x1d66db0" type="Function" className="findBestTrajectory" classStart="0x1d52660" classEnd="0x1d624b0" nestedIn="0x1d628d0" function="0x1d661a0">
+      <varlist>
+        <var id="0x1d68730"/>
+        <var id="0x1d687a0"/>
+        <var id="0x1d68810"/>
+        <var id="0x1d68880"/>
+        <var id="0x1d688f0"/>
+        <var id="0x1d68960"/>
+        <var id="0x1d689d0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d66f00" type="For" classStart="0x1d54bb0" classEnd="0x1d56030" nestedIn="0x1d66db0">
+      <varlist>
+        <var id="0x1d67050"/>
+        <var id="0x1d68a40"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d670c0" type="If" classStart="0x1d558f0" classEnd="0x1d55f80" nestedIn="0x1d66f00"/>
+    <scope id="0x1d67210" type="For" classStart="0x1d57660" classEnd="0x1d61fe0" nestedIn="0x1d66db0">
+      <varlist>
+        <var id="0x1d67360"/>
+        <var id="0x1d68ae0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d673d0" type="While" classStart="0x1d587c0" classEnd="0x1d5ce90" nestedIn="0x1d67210"/>
+    <scope id="0x1d67520" type="If" classStart="0x1d59370" classEnd="0x1d59580" nestedIn="0x1d673d0"/>
+    <scope id="0x1d67670" type="If" classStart="0x1d5a130" classEnd="0x1d5ab80" nestedIn="0x1d673d0"/>
+    <scope id="0x1d677c0" type="If" classStart="0x1d5b100" classEnd="0x1d5c180" nestedIn="0x1d673d0"/>
+    <scope id="0x1d67910" type="If" classStart="0x1d5baa0" classEnd="0x1d5c0d0" nestedIn="0x1d677c0"/>
+    <scope id="0x1d67a60" type="If" classStart="0x1d5cbd0" classEnd="0x1d5cde0" nestedIn="0x1d673d0"/>
+    <scope id="0x1d67bb0" type="If" classStart="0x1d5d410" classEnd="0x1d61140" nestedIn="0x1d67210">
+      <varlist>
+        <var id="0x1d68b50"/>
+        <var id="0x1d68bc0"/>
+        <var id="0x1d68c30"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d67d00" type="For" classStart="0x1d5ff60" classEnd="0x1d61090" nestedIn="0x1d67bb0">
+      <varlist>
+        <var id="0x1d67e50"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d67ec0" type="If" classStart="0x1d61d20" classEnd="0x1d61f30" nestedIn="0x1d67210"/>
+  </scopes>
+  <variables>
+    <var id="0x1d68ca0" nameToken="0x1d303a0" typeStartToken="0x1d302f0" typeEndToken="0x1d302f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68d10" nameToken="0x1d305b0" typeStartToken="0x1d30500" typeEndToken="0x1d30500" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68d80" nameToken="0x1d34c20" typeStartToken="0x1d34b70" typeEndToken="0x1d34b70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68df0" nameToken="0x1d34e30" typeStartToken="0x1d34d80" typeEndToken="0x1d34d80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68e60" nameToken="0x1d350f0" typeStartToken="0x1d34f90" typeEndToken="0x1d34f90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68010" nameToken="0x1d353b0" typeStartToken="0x1d35300" typeEndToken="0x1d35300" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68080" nameToken="0x1d35510" typeStartToken="0x1d2fe20" typeEndToken="0x1d2fe20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d680f0" nameToken="0x1d35670" typeStartToken="0x1d393a0" typeEndToken="0x1d393a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68160" nameToken="0x1d35880" typeStartToken="0x1d357d0" typeEndToken="0x1d357d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d681d0" nameToken="0x1d35a90" typeStartToken="0x1d359e0" typeEndToken="0x1d359e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68ed0" nameToken="0x1d35f60" typeStartToken="0x1d35e00" typeEndToken="0x1d35e00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68f40" nameToken="0x1d36220" typeStartToken="0x1d360c0" typeEndToken="0x1d36170" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d68fb0" nameToken="0x1d364e0" typeStartToken="0x1d36380" typeEndToken="0x1d36430" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69020" nameToken="0x1d367a0" typeStartToken="0x1d36640" typeEndToken="0x1d366f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69090" nameToken="0x1d36dd0" typeStartToken="0x1d36c70" typeEndToken="0x1d36c70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69100" nameToken="0x1d36fe0" typeStartToken="0x1d36f30" typeEndToken="0x1d36f30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69170" nameToken="0x1d371f0" typeStartToken="0x1d37140" typeEndToken="0x1d37140" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d691e0" nameToken="0x1d37400" typeStartToken="0x1d37350" typeEndToken="0x1d37350" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69250" nameToken="0x1d378d0" typeStartToken="0x1d37820" typeEndToken="0x1d37820" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d692c0" nameToken="0x1d37ae0" typeStartToken="0x1d37a30" typeEndToken="0x1d37a30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69330" nameToken="0x1d37cf0" typeStartToken="0x1d37c40" typeEndToken="0x1d37c40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d693a0" nameToken="0x1d38270" typeStartToken="0x1d38110" typeEndToken="0x1d381c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69410" nameToken="0x1d38530" typeStartToken="0x1d383d0" typeEndToken="0x1d38480" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69480" nameToken="0x1d387f0" typeStartToken="0x1d38690" typeEndToken="0x1d38740" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d68240" nameToken="0x1d39870" typeStartToken="0x1d39450" typeEndToken="0x1d397c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d682b0" nameToken="0x1d39df0" typeStartToken="0x1d399d0" typeEndToken="0x1d39d40" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68320" nameToken="0x1d3a370" typeStartToken="0x1d39f50" typeEndToken="0x1d3a2c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d694f0" nameToken="0x1d3cd70" typeStartToken="0x1d3cc10" typeEndToken="0x1d3ccc0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69560" nameToken="0x1d3d9d0" typeStartToken="0x1d3d920" typeEndToken="0x1d3d920" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d695d0" nameToken="0x1d3e7f0" typeStartToken="0x1d3e740" typeEndToken="0x1d3e740" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68390" nameToken="0x1d3f190" typeStartToken="0x1d3f0e0" typeEndToken="0x1d3f0e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69640" nameToken="0x1d406a0" typeStartToken="0x1d40540" typeEndToken="0x1d405f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d696b0" nameToken="0x1d42050" typeStartToken="0x1d41ef0" typeEndToken="0x1d41fa0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69720" nameToken="0x1d42680" typeStartToken="0x1d421b0" typeEndToken="0x1d425d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d68400" nameToken="0x1d476d0" typeStartToken="0x1d471a0" typeEndToken="0x1d47620" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68470" nameToken="0x1d47d00" typeStartToken="0x1d47830" typeEndToken="0x1d47c50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d684e0" nameToken="0x1d47f10" typeStartToken="0x1d47e60" typeEndToken="0x1d47e60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69790" nameToken="0x1d48d10" typeStartToken="0x1d48810" typeEndToken="0x1d48c60" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d69800" nameToken="0x1d493f0" typeStartToken="0x1d48e70" typeEndToken="0x1d49340" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69870" nameToken="0x1d49600" typeStartToken="0x1d49550" typeEndToken="0x1d49550" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d698e0" nameToken="0x1d4a630" typeStartToken="0x1d4a4d0" typeEndToken="0x1d4a580" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69950" nameToken="0x1d4a840" typeStartToken="0x1d4a790" typeEndToken="0x1d4a790" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68550" nameToken="0x1d4ab00" typeStartToken="0x1d4aa50" typeEndToken="0x1d4aa50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d685c0" nameToken="0x1d4ae70" typeStartToken="0x1d4adc0" typeEndToken="0x1d4adc0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d66680" nameToken="0x1d4b8c0" typeStartToken="0x1d4b290" typeEndToken="0x1d4b810" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68650" nameToken="0x1d4c8c0" typeStartToken="0x1d4c730" typeEndToken="0x1d4c810" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d686c0" nameToken="0x1d4d790" typeStartToken="0x1d4d6e0" typeEndToken="0x1d4d6e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68010" nameToken="0x1d353b0" typeStartToken="0x1d35300" typeEndToken="0x1d35300" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68080" nameToken="0x1d35510" typeStartToken="0x1d2fe20" typeEndToken="0x1d2fe20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d680f0" nameToken="0x1d35670" typeStartToken="0x1d393a0" typeEndToken="0x1d393a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d699c0" nameToken="0x1d51ed0" typeStartToken="0x1d51d70" typeEndToken="0x1d51e20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d69a30" nameToken="0x1d52500" typeStartToken="0x1d52030" typeEndToken="0x1d52450" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d68730" nameToken="0x1d527c0" typeStartToken="0x1d52710" typeEndToken="0x1d52710" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d687a0" nameToken="0x1d529d0" typeStartToken="0x1d52920" typeEndToken="0x1d52920" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68810" nameToken="0x1d52be0" typeStartToken="0x1d52b30" typeEndToken="0x1d52b30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68880" nameToken="0x1d52d40" typeStartToken="0x1d470f0" typeEndToken="0x1d470f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d688f0" nameToken="0x1d53160" typeStartToken="0x1d530b0" typeEndToken="0x1d530b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68960" nameToken="0x1d53370" typeStartToken="0x1d532c0" typeEndToken="0x1d532c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d689d0" nameToken="0x1d534d0" typeStartToken="0x1d4da80" typeEndToken="0x1d4da80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d67050" nameToken="0x1d53df0" typeStartToken="0x1d53790" typeEndToken="0x1d53d40" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68a40" nameToken="0x1d54df0" typeStartToken="0x1d54c60" typeEndToken="0x1d54d40" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d67360" nameToken="0x1d568a0" typeStartToken="0x1d56240" typeEndToken="0x1d567f0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68ae0" nameToken="0x1d57e20" typeStartToken="0x1d57c90" typeEndToken="0x1d57d70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d68160" nameToken="0x1d35880" typeStartToken="0x1d357d0" typeEndToken="0x1d357d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68010" nameToken="0x1d353b0" typeStartToken="0x1d35300" typeEndToken="0x1d35300" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68010" nameToken="0x1d353b0" typeStartToken="0x1d35300" typeEndToken="0x1d35300" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68080" nameToken="0x1d35510" typeStartToken="0x1d2fe20" typeEndToken="0x1d2fe20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68080" nameToken="0x1d35510" typeStartToken="0x1d2fe20" typeEndToken="0x1d2fe20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d680f0" nameToken="0x1d35670" typeStartToken="0x1d393a0" typeEndToken="0x1d393a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d680f0" nameToken="0x1d35670" typeStartToken="0x1d393a0" typeEndToken="0x1d393a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68160" nameToken="0x1d35880" typeStartToken="0x1d357d0" typeEndToken="0x1d357d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68b50" nameToken="0x1d5ee30" typeStartToken="0x1d5ed80" typeEndToken="0x1d5ed80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68bc0" nameToken="0x1d5ef90" typeStartToken="0x1d544d0" typeEndToken="0x1d544d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d68c30" nameToken="0x1d5f0f0" typeStartToken="0x1d55420" typeEndToken="0x1d55420" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d67e50" nameToken="0x1d5f510" typeStartToken="0x1d5f3b0" typeEndToken="0x1d5f3b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1d3c7f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d3cf88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d40128">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d408b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d42898">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d45968">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x1d46e38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d4ac68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d4afd8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d4d2c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d4e168">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d4e508">
+      <value tokvalue="0x1d4e500" known="true"/>
+    </values>
+    <values id="0x1d4f8a8">
+      <value intvalue="0" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x1d4f958">
+      <value intvalue="0" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x1d4fab8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d50668">
+      <value intvalue="0" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x1d50a88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d52f58">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x1d55798">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d55b38">
+      <value tokvalue="0x1d55b30" known="true"/>
+    </values>
+    <values id="0x1d55e28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d57878">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d57b38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d59218">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d59dc8">
+      <value intvalue="0" condition-line="106" possible="true"/>
+    </values>
+    <values id="0x1d59e78">
+      <value intvalue="0" condition-line="106" possible="true"/>
+    </values>
+    <values id="0x1d59fd8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5ad98">
+      <value intvalue="0" condition-line="111" possible="true"/>
+    </values>
+    <values id="0x1d5ae48">
+      <value intvalue="1" condition-line="111" possible="true"/>
+    </values>
+    <values id="0x1d5afa8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5b688">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5bcb8">
+      <value intvalue="0" condition-line="111" possible="true"/>
+    </values>
+    <values id="0x1d5c708">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5d0a8">
+      <value intvalue="0" condition-line="123" possible="true"/>
+    </values>
+    <values id="0x1d5d158">
+      <value intvalue="1" condition-line="123" possible="true"/>
+    </values>
+    <values id="0x1d5d2b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5e808">
+      <value intvalue="0" condition-line="123" possible="true"/>
+    </values>
+    <values id="0x1d5f678">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d602d8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1d61388">
+      <value tokvalue="0x1d61380" known="true"/>
+    </values>
+    <values id="0x1d619b8">
+      <value intvalue="0" condition-line="136" possible="true"/>
+    </values>
+    <values id="0x1d61a68">
+      <value intvalue="1" condition-line="136" possible="true"/>
+    </values>
+    <values id="0x1d61bc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d62148">
+      <value intvalue="0" condition-line="141" possible="true"/>
+    </values>
+    <values id="0x1d621f8">
+      <value intvalue="1" condition-line="141" possible="true"/>
+    </values>
+    <values id="0x1d62358">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0xf9c270" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0xf9c290" file="ServoControl.cpp" linenr="17" str="ros" scope="0xf9c170" type="name" astParent="0xf9b300"/>
+    <token id="0xf9b300" file="ServoControl.cpp" linenr="17" str="::" scope="0xf9c170" astOperand1="0xf9c290" astOperand2="0xf980c0"/>
+    <token id="0xf9b3b0" file="ServoControl.cpp" linenr="17" str="NodeHandle" scope="0xf9c170" type="name"/>
+    <token id="0xf980c0" file="ServoControl.cpp" linenr="17" str="nh" scope="0xf9c170" type="name" varId="1" variable="0xf9bf60" astParent="0xf9b300"/>
+    <token id="0xf98170" file="ServoControl.cpp" linenr="17" str=";" scope="0xf9c170"/>
+    <token id="0xf98220" file="ServoControl.cpp" linenr="20" str="Servo" scope="0xf9c170" type="name"/>
+    <token id="0xf98760" file="ServoControl.cpp" linenr="20" str="servo" scope="0xf9c170" type="name" function="0xf8a4d0" astParent="0xf98810"/>
+    <token id="0xf98810" file="ServoControl.cpp" linenr="20" str="(" scope="0xf9c170" link="0xf98970" astOperand1="0xf98760" astOperand2="0xf988c0"/>
+    <token id="0xf988c0" file="ServoControl.cpp" linenr="20" str="p21" scope="0xf9c170" type="name" astParent="0xf98810"/>
+    <token id="0xf98970" file="ServoControl.cpp" linenr="20" str=")" scope="0xf9c170" link="0xf98810"/>
+    <token id="0xf98a20" file="ServoControl.cpp" linenr="20" str=";" scope="0xf9c170"/>
+    <token id="0xf9b790" file="ServoControl.cpp" linenr="26" str="DigitalOut" scope="0xf9c170" type="name"/>
+    <token id="0xf9b840" file="ServoControl.cpp" linenr="26" str="myled" scope="0xf9c170" type="name" function="0xf98510" astParent="0xf9b8f0"/>
+    <token id="0xf9b8f0" file="ServoControl.cpp" linenr="26" str="(" scope="0xf9c170" link="0xf9ba50" astOperand1="0xf9b840" astOperand2="0xf9b9a0"/>
+    <token id="0xf9b9a0" file="ServoControl.cpp" linenr="26" str="LED1" scope="0xf9c170" type="name" astParent="0xf9b8f0"/>
+    <token id="0xf9ba50" file="ServoControl.cpp" linenr="26" str=")" scope="0xf9c170" link="0xf9b8f0"/>
+    <token id="0xf9bb00" file="ServoControl.cpp" linenr="26" str=";" scope="0xf9c170"/>
+    <token id="0xf9bbb0" file="ServoControl.cpp" linenr="28" str="void" scope="0xf9c170" type="name"/>
+    <token id="0xf9bc60" file="ServoControl.cpp" linenr="28" str="servo_cb" scope="0xf9c170" type="name" function="0xf985b0" astParent="0xf9bd10"/>
+    <token id="0xf9bd10" file="ServoControl.cpp" linenr="28" str="(" scope="0xf9c170" link="0xf9c830" astOperand1="0xf9bc60" astOperand2="0xf9c6d0"/>
+    <token id="0xf9c410" file="ServoControl.cpp" linenr="28" str="const" scope="0xf9c170" type="name"/>
+    <token id="0xf9c4c0" file="ServoControl.cpp" linenr="28" str="std_msgs" scope="0xf9c170" type="name" astParent="0xf9c570"/>
+    <token id="0xf9c570" file="ServoControl.cpp" linenr="28" str="::" scope="0xf9c170" astParent="0xf9c6d0" astOperand1="0xf9c4c0" astOperand2="0xf9c620"/>
+    <token id="0xf9c620" file="ServoControl.cpp" linenr="28" str="UInt16" scope="0xf9c170" type="name" astParent="0xf9c570"/>
+    <token id="0xf9c6d0" file="ServoControl.cpp" linenr="28" str="&amp;" scope="0xf9c170" type="op" astParent="0xf9bd10" astOperand1="0xf9c570" astOperand2="0xf9c780"/>
+    <token id="0xf9c780" file="ServoControl.cpp" linenr="28" str="cmd_msg" scope="0xf9c170" type="name" varId="2" variable="0xf9f930" astParent="0xf9c6d0"/>
+    <token id="0xf9c830" file="ServoControl.cpp" linenr="28" str=")" scope="0xf9c170" link="0xf9bd10"/>
+    <token id="0xf9c8e0" file="ServoControl.cpp" linenr="28" str="{" scope="0xf9b470" link="0xf9d330"/>
+    <token id="0xf9c990" file="ServoControl.cpp" linenr="29" str="servo" scope="0xf9b470" type="name" astParent="0xf9ca40"/>
+    <token id="0xf9ca40" file="ServoControl.cpp" linenr="29" str="." scope="0xf9b470" astParent="0xf9cba0" astOperand1="0xf9c990" astOperand2="0xf9caf0"/>
+    <token id="0xf9caf0" file="ServoControl.cpp" linenr="29" str="position" scope="0xf9b470" type="name" astParent="0xf9ca40"/>
+    <token id="0xf9cba0" file="ServoControl.cpp" linenr="29" str="(" scope="0xf9b470" link="0xf9ce60" astOperand1="0xf9ca40" astOperand2="0xf9cd00"/>
+    <token id="0xf9cc50" file="ServoControl.cpp" linenr="29" str="cmd_msg" scope="0xf9b470" type="name" varId="2" variable="0xf9f930" astParent="0xf9cd00"/>
+    <token id="0xf9cd00" file="ServoControl.cpp" linenr="29" str="." scope="0xf9b470" astParent="0xf9cba0" astOperand1="0xf9cc50" astOperand2="0xf9cdb0"/>
+    <token id="0xf9cdb0" file="ServoControl.cpp" linenr="29" str="data" scope="0xf9b470" type="name" varId="3" astParent="0xf9cd00"/>
+    <token id="0xf9ce60" file="ServoControl.cpp" linenr="29" str=")" scope="0xf9b470" link="0xf9cba0"/>
+    <token id="0xf9cf10" file="ServoControl.cpp" linenr="29" str=";" scope="0xf9b470"/>
+    <token id="0xf9cfc0" file="ServoControl.cpp" linenr="30" str="myled" scope="0xf9b470" type="name" astParent="0xf9d070"/>
+    <token id="0xf9d070" file="ServoControl.cpp" linenr="30" str="=" scope="0xf9b470" type="op" isAssignmentOp="True" astOperand1="0xf9cfc0" astOperand2="0xf9d120"/>
+    <token id="0xf9d120" file="ServoControl.cpp" linenr="30" str="!" scope="0xf9b470" type="op" isLogicalOp="True" astParent="0xf9d070" astOperand1="0xf9d1d0"/>
+    <token id="0xf9d1d0" file="ServoControl.cpp" linenr="30" str="myled" scope="0xf9b470" type="name" astParent="0xf9d120"/>
+    <token id="0xf9d280" file="ServoControl.cpp" linenr="30" str=";" scope="0xf9b470"/>
+    <token id="0xf9d330" file="ServoControl.cpp" linenr="31" str="}" scope="0xf9b470" link="0xf9c8e0"/>
+    <token id="0xf9d3e0" file="ServoControl.cpp" linenr="34" str="ros" scope="0xf9c170" type="name" astParent="0xf9d490"/>
+    <token id="0xf9d490" file="ServoControl.cpp" linenr="34" str="::" scope="0xf9c170" astOperand1="0xf9d3e0" astOperand2="0xf9d540"/>
+    <token id="0xf9d540" file="ServoControl.cpp" linenr="34" str="Subscriber" scope="0xf9c170" type="name" astParent="0xf9d490"/>
+    <token id="0xf9d5f0" file="ServoControl.cpp" linenr="34" str="&lt;" scope="0xf9c170" link="0xf9d8b0"/>
+    <token id="0xf9d6a0" file="ServoControl.cpp" linenr="34" str="std_msgs" scope="0xf9c170" type="name"/>
+    <token id="0xf9d750" file="ServoControl.cpp" linenr="34" str="::" scope="0xf9c170"/>
+    <token id="0xf9d800" file="ServoControl.cpp" linenr="34" str="UInt16" scope="0xf9c170" type="name"/>
+    <token id="0xf9d8b0" file="ServoControl.cpp" linenr="34" str="&gt;" scope="0xf9c170" link="0xf9d5f0"/>
+    <token id="0xf9d960" file="ServoControl.cpp" linenr="34" str="sub" scope="0xf9c170" type="name" varId="4" variable="0xf8c2b0" astParent="0xf9da10"/>
+    <token id="0xf9da10" file="ServoControl.cpp" linenr="34" str="(" scope="0xf9c170" link="0xf9dcd0" astOperand1="0xf9d960" astOperand2="0xf9db70"/>
+    <token id="0xf9dac0" file="ServoControl.cpp" linenr="34" str="&quot;servo&quot;" scope="0xf9c170" type="string" strlen="5" values="0xf9dac8" astParent="0xf9db70"/>
+    <token id="0xf9db70" file="ServoControl.cpp" linenr="34" str="," scope="0xf9c170" astParent="0xf9da10" astOperand1="0xf9dac0" astOperand2="0xf9dc20"/>
+    <token id="0xf9dc20" file="ServoControl.cpp" linenr="34" str="servo_cb" scope="0xf9c170" type="name" astParent="0xf9db70"/>
+    <token id="0xf9dcd0" file="ServoControl.cpp" linenr="34" str=")" scope="0xf9c170" link="0xf9da10"/>
+    <token id="0xf9dd80" file="ServoControl.cpp" linenr="34" str=";" scope="0xf9c170"/>
+    <token id="0xf9de30" file="ServoControl.cpp" linenr="36" str="int" scope="0xf9c170" type="name"/>
+    <token id="0xf9dee0" file="ServoControl.cpp" linenr="36" str="main" scope="0xf9c170" type="name" function="0xf9b5a0" astParent="0xf9df90"/>
+    <token id="0xf9df90" file="ServoControl.cpp" linenr="36" str="(" scope="0xf9c170" link="0xf9e040" astOperand1="0xf9dee0"/>
+    <token id="0xf9e040" file="ServoControl.cpp" linenr="36" str=")" scope="0xf9c170" link="0xf9df90"/>
+    <token id="0xf9e0f0" file="ServoControl.cpp" linenr="36" str="{" scope="0xf9b640" link="0xf9f640"/>
+    <token id="0xf9e1a0" file="ServoControl.cpp" linenr="38" str="nh" scope="0xf9b640" type="name" varId="1" variable="0xf9bf60" astParent="0xf9e250"/>
+    <token id="0xf9e250" file="ServoControl.cpp" linenr="38" str="." scope="0xf9b640" astParent="0xf9e3b0" astOperand1="0xf9e1a0" astOperand2="0xf9e300"/>
+    <token id="0xf9e300" file="ServoControl.cpp" linenr="38" str="initNode" scope="0xf9b640" type="name" astParent="0xf9e250"/>
+    <token id="0xf9e3b0" file="ServoControl.cpp" linenr="38" str="(" scope="0xf9b640" link="0xf9e460" astOperand1="0xf9e250"/>
+    <token id="0xf9e460" file="ServoControl.cpp" linenr="38" str=")" scope="0xf9b640" link="0xf9e3b0"/>
+    <token id="0xf9e510" file="ServoControl.cpp" linenr="38" str=";" scope="0xf9b640"/>
+    <token id="0xf9e5c0" file="ServoControl.cpp" linenr="39" str="nh" scope="0xf9b640" type="name" varId="1" variable="0xf9bf60" astParent="0xf9e670"/>
+    <token id="0xf9e670" file="ServoControl.cpp" linenr="39" str="." scope="0xf9b640" astParent="0xf9e7d0" astOperand1="0xf9e5c0" astOperand2="0xf9e720"/>
+    <token id="0xf9e720" file="ServoControl.cpp" linenr="39" str="subscribe" scope="0xf9b640" type="name" astParent="0xf9e670"/>
+    <token id="0xf9e7d0" file="ServoControl.cpp" linenr="39" str="(" scope="0xf9b640" link="0xf9e930" astOperand1="0xf9e670" astOperand2="0xf9e880"/>
+    <token id="0xf9e880" file="ServoControl.cpp" linenr="39" str="sub" scope="0xf9b640" type="name" varId="4" variable="0xf8c2b0" astParent="0xf9e7d0"/>
+    <token id="0xf9e930" file="ServoControl.cpp" linenr="39" str=")" scope="0xf9b640" link="0xf9e7d0"/>
+    <token id="0xf9e9e0" file="ServoControl.cpp" linenr="39" str=";" scope="0xf9b640"/>
+    <token id="0xf9ea90" file="ServoControl.cpp" linenr="41" str="while" scope="0xf9b640" type="name" astParent="0xf9eb40"/>
+    <token id="0xf9eb40" file="ServoControl.cpp" linenr="41" str="(" scope="0xf9b640" link="0xf9eca0" astOperand1="0xf9ea90" astOperand2="0xf9ebf0"/>
+    <token id="0xf9ebf0" file="ServoControl.cpp" linenr="41" str="1" scope="0xf9b640" type="number" isInt="True" values="0xf9ebf8" astParent="0xf9eb40"/>
+    <token id="0xf9eca0" file="ServoControl.cpp" linenr="41" str=")" scope="0xf9b640" link="0xf9eb40"/>
+    <token id="0xf9ed50" file="ServoControl.cpp" linenr="41" str="{" scope="0xf9f700" link="0xf9f590"/>
+    <token id="0xf9ee00" file="ServoControl.cpp" linenr="42" str="nh" scope="0xf9f700" type="name" varId="1" variable="0xf9bf60" astParent="0xf9eeb0"/>
+    <token id="0xf9eeb0" file="ServoControl.cpp" linenr="42" str="." scope="0xf9f700" astParent="0xf9f010" astOperand1="0xf9ee00" astOperand2="0xf9ef60"/>
+    <token id="0xf9ef60" file="ServoControl.cpp" linenr="42" str="spinOnce" scope="0xf9f700" type="name" astParent="0xf9eeb0"/>
+    <token id="0xf9f010" file="ServoControl.cpp" linenr="42" str="(" scope="0xf9f700" link="0xf9f0c0" astOperand1="0xf9eeb0"/>
+    <token id="0xf9f0c0" file="ServoControl.cpp" linenr="42" str=")" scope="0xf9f700" link="0xf9f010"/>
+    <token id="0xf9f170" file="ServoControl.cpp" linenr="42" str=";" scope="0xf9f700"/>
+    <token id="0xf9f220" file="ServoControl.cpp" linenr="43" str="wait_ms" scope="0xf9f700" type="name" astParent="0xf9f2d0"/>
+    <token id="0xf9f2d0" file="ServoControl.cpp" linenr="43" str="(" scope="0xf9f700" link="0xf9f430" astOperand1="0xf9f220" astOperand2="0xf9f380"/>
+    <token id="0xf9f380" file="ServoControl.cpp" linenr="43" str="1" scope="0xf9f700" type="number" isInt="True" values="0xf9f388" astParent="0xf9f2d0"/>
+    <token id="0xf9f430" file="ServoControl.cpp" linenr="43" str=")" scope="0xf9f700" link="0xf9f2d0"/>
+    <token id="0xf9f4e0" file="ServoControl.cpp" linenr="43" str=";" scope="0xf9f700"/>
+    <token id="0xf9f590" file="ServoControl.cpp" linenr="44" str="}" scope="0xf9f700" link="0xf9ed50"/>
+    <token id="0xf9f640" file="ServoControl.cpp" linenr="45" str="}" scope="0xf9b640" link="0xf9e0f0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xf9c170" type="Global">
+      <functionList>
+        <function id="0xf8a4d0" tokenDef="0xf98760" name="servo">
+          <arg nr="1" variable="0xf9f850"/>
+        </function>
+        <function id="0xf98510" tokenDef="0xf9b840" name="myled">
+          <arg nr="1" variable="0xf9f8c0"/>
+        </function>
+        <function id="0xf985b0" tokenDef="0xf9bc60" name="servo_cb">
+          <arg nr="1" variable="0xf9f930"/>
+        </function>
+        <function id="0xf9b5a0" tokenDef="0xf9dee0" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0xf9bf60"/>
+        <var id="0xf8c2b0"/>
+      </varlist>
+    </scope>
+    <scope id="0xf9b470" type="Function" className="servo_cb" classStart="0xf9c8e0" classEnd="0xf9d330" nestedIn="0xf9c170" function="0xf985b0"/>
+    <scope id="0xf9b640" type="Function" className="main" classStart="0xf9e0f0" classEnd="0xf9f640" nestedIn="0xf9c170" function="0xf9b5a0"/>
+    <scope id="0xf9f700" type="While" classStart="0xf9ed50" classEnd="0xf9f590" nestedIn="0xf9b640"/>
+  </scopes>
+  <variables>
+    <var id="0xf9bf60" nameToken="0xf980c0" typeStartToken="0xf9c290" typeEndToken="0xf9b3b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf9f930" nameToken="0xf9c780" typeStartToken="0xf9c4c0" typeEndToken="0xf9c6d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xf8c2b0" nameToken="0xf9d960" typeStartToken="0xf9d3e0" typeEndToken="0xf9d8b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xf9dac8">
+      <value tokvalue="0xf9dac0" known="true"/>
+    </values>
+    <values id="0xf9ebf8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xf9f388">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0xda54e0" file="ardrone_keyboard.cpp" linenr="32" str="int" scope="0xdcc0f0" type="name"/>
+    <token id="0xdb3e10" file="ardrone_keyboard.cpp" linenr="32" str="getch" scope="0xdcc0f0" type="name" function="0xdcc220" astParent="0xdb3ec0"/>
+    <token id="0xdb3ec0" file="ardrone_keyboard.cpp" linenr="32" str="(" scope="0xdcc0f0" link="0xdb3f70" astOperand1="0xdb3e10"/>
+    <token id="0xdb3f70" file="ardrone_keyboard.cpp" linenr="32" str=")" scope="0xdcc0f0" link="0xdb3ec0"/>
+    <token id="0xdb4020" file="ardrone_keyboard.cpp" linenr="33" str="{" scope="0xdcc2c0" link="0xdb97d0"/>
+    <token id="0xdb40d0" file="ardrone_keyboard.cpp" linenr="34" str="static" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb4180" file="ardrone_keyboard.cpp" linenr="34" str="struct" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb4230" file="ardrone_keyboard.cpp" linenr="34" str="termios" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb42e0" file="ardrone_keyboard.cpp" linenr="34" str="oldt" scope="0xdcc2c0" type="name" varId="1" variable="0xdcd410"/>
+    <token id="0xdb4390" file="ardrone_keyboard.cpp" linenr="34" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb7830" file="ardrone_keyboard.cpp" linenr="34" str="static" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb3a20" file="ardrone_keyboard.cpp" linenr="34" str="struct" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb3ad0" file="ardrone_keyboard.cpp" linenr="34" str="termios" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb4440" file="ardrone_keyboard.cpp" linenr="34" str="newt" scope="0xdcc2c0" type="name" varId="2" variable="0xdcd480"/>
+    <token id="0xdb44f0" file="ardrone_keyboard.cpp" linenr="34" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb45a0" file="ardrone_keyboard.cpp" linenr="35" str="tcgetattr" scope="0xdcc2c0" type="name" astParent="0xdb6de0"/>
+    <token id="0xdb6de0" file="ardrone_keyboard.cpp" linenr="35" str="(" scope="0xdcc2c0" link="0xdb7150" astOperand1="0xdb45a0" astOperand2="0xdb6f40"/>
+    <token id="0xdb6e90" file="ardrone_keyboard.cpp" linenr="35" str="STDIN_FILENO" scope="0xdcc2c0" type="name" astParent="0xdb6f40"/>
+    <token id="0xdb6f40" file="ardrone_keyboard.cpp" linenr="35" str="," scope="0xdcc2c0" astParent="0xdb6de0" astOperand1="0xdb6e90" astOperand2="0xdb6ff0"/>
+    <token id="0xdb6ff0" file="ardrone_keyboard.cpp" linenr="35" str="&amp;" scope="0xdcc2c0" type="op" astParent="0xdb6f40" astOperand1="0xdb70a0"/>
+    <token id="0xdb70a0" file="ardrone_keyboard.cpp" linenr="35" str="oldt" scope="0xdcc2c0" type="name" varId="1" variable="0xdcd410" astParent="0xdb6ff0"/>
+    <token id="0xdb7150" file="ardrone_keyboard.cpp" linenr="35" str=")" scope="0xdcc2c0" link="0xdb6de0"/>
+    <token id="0xdb7200" file="ardrone_keyboard.cpp" linenr="35" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb72b0" file="ardrone_keyboard.cpp" linenr="36" str="newt" scope="0xdcc2c0" type="name" varId="2" variable="0xdcd480" astParent="0xdb7360"/>
+    <token id="0xdb7360" file="ardrone_keyboard.cpp" linenr="36" str="=" scope="0xdcc2c0" type="op" isAssignmentOp="True" astOperand1="0xdb72b0" astOperand2="0xdb7410"/>
+    <token id="0xdb7410" file="ardrone_keyboard.cpp" linenr="36" str="oldt" scope="0xdcc2c0" type="name" varId="1" variable="0xdcd410" astParent="0xdb7360"/>
+    <token id="0xdb74c0" file="ardrone_keyboard.cpp" linenr="36" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb7570" file="ardrone_keyboard.cpp" linenr="37" str="newt" scope="0xdcc2c0" type="name" varId="2" variable="0xdcd480" astParent="0xdb7620"/>
+    <token id="0xdb7620" file="ardrone_keyboard.cpp" linenr="37" str="." scope="0xdcc2c0" astParent="0xdb7780" astOperand1="0xdb7570" astOperand2="0xdb76d0"/>
+    <token id="0xdb76d0" file="ardrone_keyboard.cpp" linenr="37" str="c_lflag" scope="0xdcc2c0" type="name" varId="3" astParent="0xdb7620"/>
+    <token id="0xdb7780" file="ardrone_keyboard.cpp" linenr="37" str="&amp;=" scope="0xdcc2c0" type="op" isAssignmentOp="True" astOperand1="0xdb7620" astOperand2="0xdb78e0"/>
+    <token id="0xdb78e0" file="ardrone_keyboard.cpp" linenr="37" str="~" scope="0xdcc2c0" type="op" astParent="0xdb7780" astOperand1="0xdb7a40"/>
+    <token id="0xdb7990" file="ardrone_keyboard.cpp" linenr="37" str="(" scope="0xdcc2c0" link="0xdb7af0"/>
+    <token id="0xdb7a40" file="ardrone_keyboard.cpp" linenr="37" str="ICANON" scope="0xdcc2c0" type="name" astParent="0xdb78e0"/>
+    <token id="0xdb7af0" file="ardrone_keyboard.cpp" linenr="37" str=")" scope="0xdcc2c0" link="0xdb7990"/>
+    <token id="0xdb7ba0" file="ardrone_keyboard.cpp" linenr="37" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb7c50" file="ardrone_keyboard.cpp" linenr="38" str="tcsetattr" scope="0xdcc2c0" type="name" astParent="0xdb7d00"/>
+    <token id="0xdb7d00" file="ardrone_keyboard.cpp" linenr="38" str="(" scope="0xdcc2c0" link="0xdb81d0" astOperand1="0xdb7c50" astOperand2="0xdb7fc0"/>
+    <token id="0xdb7db0" file="ardrone_keyboard.cpp" linenr="38" str="STDIN_FILENO" scope="0xdcc2c0" type="name" astParent="0xdb7e60"/>
+    <token id="0xdb7e60" file="ardrone_keyboard.cpp" linenr="38" str="," scope="0xdcc2c0" astParent="0xdb7fc0" astOperand1="0xdb7db0" astOperand2="0xdb7f10"/>
+    <token id="0xdb7f10" file="ardrone_keyboard.cpp" linenr="38" str="TCSANOW" scope="0xdcc2c0" type="name" astParent="0xdb7e60"/>
+    <token id="0xdb7fc0" file="ardrone_keyboard.cpp" linenr="38" str="," scope="0xdcc2c0" astParent="0xdb7d00" astOperand1="0xdb7e60" astOperand2="0xdb8070"/>
+    <token id="0xdb8070" file="ardrone_keyboard.cpp" linenr="38" str="&amp;" scope="0xdcc2c0" type="op" astParent="0xdb7fc0" astOperand1="0xdb8120"/>
+    <token id="0xdb8120" file="ardrone_keyboard.cpp" linenr="38" str="newt" scope="0xdcc2c0" type="name" varId="2" variable="0xdcd480" astParent="0xdb8070"/>
+    <token id="0xdb81d0" file="ardrone_keyboard.cpp" linenr="38" str=")" scope="0xdcc2c0" link="0xdb7d00"/>
+    <token id="0xdb8280" file="ardrone_keyboard.cpp" linenr="38" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb8330" file="ardrone_keyboard.cpp" linenr="40" str="int" scope="0xdcc2c0" type="name"/>
+    <token id="0xdb83e0" file="ardrone_keyboard.cpp" linenr="40" str="c" scope="0xdcc2c0" type="name" varId="4" variable="0xdcd4f0"/>
+    <token id="0xdb8490" file="ardrone_keyboard.cpp" linenr="40" str=";" scope="0xdcc2c0"/>
+    <token id="0xdcb280" file="ardrone_keyboard.cpp" linenr="40" str="c" scope="0xdcc2c0" type="name" varId="4" variable="0xdcd4f0" astParent="0xdcb330"/>
+    <token id="0xdcb330" file="ardrone_keyboard.cpp" linenr="40" str="=" scope="0xdcc2c0" type="op" isAssignmentOp="True" astOperand1="0xdcb280" astOperand2="0xdb85f0"/>
+    <token id="0xdb8540" file="ardrone_keyboard.cpp" linenr="40" str="getchar" scope="0xdcc2c0" type="name" astParent="0xdb85f0"/>
+    <token id="0xdb85f0" file="ardrone_keyboard.cpp" linenr="40" str="(" scope="0xdcc2c0" link="0xdb86a0" astParent="0xdcb330" astOperand1="0xdb8540"/>
+    <token id="0xdb86a0" file="ardrone_keyboard.cpp" linenr="40" str=")" scope="0xdcc2c0" link="0xdb85f0"/>
+    <token id="0xdb8750" file="ardrone_keyboard.cpp" linenr="40" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb8800" file="ardrone_keyboard.cpp" linenr="42" str="tcsetattr" scope="0xdcc2c0" type="name" astParent="0xdb88b0"/>
+    <token id="0xdb88b0" file="ardrone_keyboard.cpp" linenr="42" str="(" scope="0xdcc2c0" link="0xdb8d80" astOperand1="0xdb8800" astOperand2="0xdb8b70"/>
+    <token id="0xdb8960" file="ardrone_keyboard.cpp" linenr="42" str="STDIN_FILENO" scope="0xdcc2c0" type="name" astParent="0xdb8a10"/>
+    <token id="0xdb8a10" file="ardrone_keyboard.cpp" linenr="42" str="," scope="0xdcc2c0" astParent="0xdb8b70" astOperand1="0xdb8960" astOperand2="0xdb8ac0"/>
+    <token id="0xdb8ac0" file="ardrone_keyboard.cpp" linenr="42" str="TCSANOW" scope="0xdcc2c0" type="name" astParent="0xdb8a10"/>
+    <token id="0xdb8b70" file="ardrone_keyboard.cpp" linenr="42" str="," scope="0xdcc2c0" astParent="0xdb88b0" astOperand1="0xdb8a10" astOperand2="0xdb8c20"/>
+    <token id="0xdb8c20" file="ardrone_keyboard.cpp" linenr="42" str="&amp;" scope="0xdcc2c0" type="op" astParent="0xdb8b70" astOperand1="0xdb8cd0"/>
+    <token id="0xdb8cd0" file="ardrone_keyboard.cpp" linenr="42" str="oldt" scope="0xdcc2c0" type="name" varId="1" variable="0xdcd410" astParent="0xdb8c20"/>
+    <token id="0xdb8d80" file="ardrone_keyboard.cpp" linenr="42" str=")" scope="0xdcc2c0" link="0xdb88b0"/>
+    <token id="0xdb8e30" file="ardrone_keyboard.cpp" linenr="42" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb95c0" file="ardrone_keyboard.cpp" linenr="43" str="return" scope="0xdcc2c0" type="name" astOperand1="0xdb9670"/>
+    <token id="0xdb9670" file="ardrone_keyboard.cpp" linenr="43" str="c" scope="0xdcc2c0" type="name" varId="4" variable="0xdcd4f0" astParent="0xdb95c0"/>
+    <token id="0xdb9720" file="ardrone_keyboard.cpp" linenr="43" str=";" scope="0xdcc2c0"/>
+    <token id="0xdb97d0" file="ardrone_keyboard.cpp" linenr="44" str="}" scope="0xdcc2c0" link="0xdb4020"/>
+    <token id="0xdb9880" file="ardrone_keyboard.cpp" linenr="46" str="int" scope="0xdcc0f0" type="name"/>
+    <token id="0xdb9930" file="ardrone_keyboard.cpp" linenr="46" str="main" scope="0xdcc0f0" type="name" function="0xdcc3f0" astParent="0xdb99e0"/>
+    <token id="0xdb99e0" file="ardrone_keyboard.cpp" linenr="46" str="(" scope="0xdcc0f0" link="0xdb9f60" astOperand1="0xdb9930" astOperand2="0xdb9bf0"/>
+    <token id="0xdb9a90" file="ardrone_keyboard.cpp" linenr="46" str="int" scope="0xdcc0f0" type="name"/>
+    <token id="0xdb9b40" file="ardrone_keyboard.cpp" linenr="46" str="argc" scope="0xdcc0f0" type="name" varId="5" variable="0xdcda30" astParent="0xdb9bf0"/>
+    <token id="0xdb9bf0" file="ardrone_keyboard.cpp" linenr="46" str="," scope="0xdcc0f0" astParent="0xdb99e0" astOperand1="0xdb9b40" astOperand2="0xdb9d50"/>
+    <token id="0xdb9ca0" file="ardrone_keyboard.cpp" linenr="46" str="char" scope="0xdcc0f0" type="name" astParent="0xdb9d50"/>
+    <token id="0xdb9d50" file="ardrone_keyboard.cpp" linenr="46" str="*" scope="0xdcc0f0" type="op" isArithmeticalOp="True" astParent="0xdb9bf0" astOperand1="0xdb9ca0" astOperand2="0xdb9e00"/>
+    <token id="0xdb9e00" file="ardrone_keyboard.cpp" linenr="46" str="*" scope="0xdcc0f0" type="op" isArithmeticalOp="True" astParent="0xdb9d50" astOperand1="0xdb9eb0"/>
+    <token id="0xdb9eb0" file="ardrone_keyboard.cpp" linenr="46" str="argv" scope="0xdcc0f0" type="name" varId="6" variable="0xdcdaa0" astParent="0xdb9e00"/>
+    <token id="0xdb9f60" file="ardrone_keyboard.cpp" linenr="46" str=")" scope="0xdcc0f0" link="0xdb99e0"/>
+    <token id="0xdba010" file="ardrone_keyboard.cpp" linenr="47" str="{" scope="0xdcc490" link="0xdcaf70"/>
+    <token id="0xdba0c0" file="ardrone_keyboard.cpp" linenr="48" str="ros" scope="0xdcc490" type="name" astParent="0xdba170"/>
+    <token id="0xdba170" file="ardrone_keyboard.cpp" linenr="48" str="::" scope="0xdcc490" astParent="0xdba2d0" astOperand1="0xdba0c0" astOperand2="0xdba220"/>
+    <token id="0xdba220" file="ardrone_keyboard.cpp" linenr="48" str="init" scope="0xdcc490" type="name" astParent="0xdba170"/>
+    <token id="0xdba2d0" file="ardrone_keyboard.cpp" linenr="48" str="(" scope="0xdcc490" link="0xdba6f0" astOperand1="0xdba170" astOperand2="0xdba590"/>
+    <token id="0xdba380" file="ardrone_keyboard.cpp" linenr="48" str="argc" scope="0xdcc490" type="name" varId="5" variable="0xdcda30" astParent="0xdba430"/>
+    <token id="0xdba430" file="ardrone_keyboard.cpp" linenr="48" str="," scope="0xdcc490" astParent="0xdba590" astOperand1="0xdba380" astOperand2="0xdba4e0"/>
+    <token id="0xdba4e0" file="ardrone_keyboard.cpp" linenr="48" str="argv" scope="0xdcc490" type="name" varId="6" variable="0xdcdaa0" astParent="0xdba430"/>
+    <token id="0xdba590" file="ardrone_keyboard.cpp" linenr="48" str="," scope="0xdcc490" astParent="0xdba2d0" astOperand1="0xdba430" astOperand2="0xdba640"/>
+    <token id="0xdba640" file="ardrone_keyboard.cpp" linenr="48" str="&quot;robotsTeleop&quot;" scope="0xdcc490" type="string" strlen="12" values="0xdba648" astParent="0xdba590"/>
+    <token id="0xdba6f0" file="ardrone_keyboard.cpp" linenr="48" str=")" scope="0xdcc490" link="0xdba2d0"/>
+    <token id="0xdba7a0" file="ardrone_keyboard.cpp" linenr="48" str=";" scope="0xdcc490"/>
+    <token id="0xdba850" file="ardrone_keyboard.cpp" linenr="49" str="ros" scope="0xdcc490" type="name" astParent="0xdba900"/>
+    <token id="0xdba900" file="ardrone_keyboard.cpp" linenr="49" str="::" scope="0xdcc490" astOperand1="0xdba850" astOperand2="0xdbaa60"/>
+    <token id="0xdba9b0" file="ardrone_keyboard.cpp" linenr="49" str="NodeHandle" scope="0xdcc490" type="name"/>
+    <token id="0xdbaa60" file="ardrone_keyboard.cpp" linenr="49" str="nh_" scope="0xdcc490" type="name" varId="7" variable="0xdcd560" astParent="0xdba900"/>
+    <token id="0xdbab10" file="ardrone_keyboard.cpp" linenr="49" str=";" scope="0xdcc490"/>
+    <token id="0xdbabc0" file="ardrone_keyboard.cpp" linenr="50" str="std_srvs" scope="0xdcc490" type="name" astParent="0xdbac70"/>
+    <token id="0xdbac70" file="ardrone_keyboard.cpp" linenr="50" str="::" scope="0xdcc490" astOperand1="0xdbabc0" astOperand2="0xdbadd0"/>
+    <token id="0xdbad20" file="ardrone_keyboard.cpp" linenr="50" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbadd0" file="ardrone_keyboard.cpp" linenr="50" str="empty" scope="0xdcc490" type="name" varId="8" variable="0xdcd5d0" astParent="0xdbac70"/>
+    <token id="0xdbae80" file="ardrone_keyboard.cpp" linenr="50" str=";" scope="0xdcc490"/>
+    <token id="0xdbaf30" file="ardrone_keyboard.cpp" linenr="51" str="std_msgs" scope="0xdcc490" type="name" astParent="0xdbafe0"/>
+    <token id="0xdbafe0" file="ardrone_keyboard.cpp" linenr="51" str="::" scope="0xdcc490" astOperand1="0xdbaf30" astOperand2="0xdbb140"/>
+    <token id="0xdbb090" file="ardrone_keyboard.cpp" linenr="51" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbb140" file="ardrone_keyboard.cpp" linenr="51" str="msg" scope="0xdcc490" type="name" varId="9" variable="0xdcd640" astParent="0xdbafe0"/>
+    <token id="0xdbb1f0" file="ardrone_keyboard.cpp" linenr="51" str=";" scope="0xdcc490"/>
+    <token id="0xdbb2a0" file="ardrone_keyboard.cpp" linenr="53" str="ros" scope="0xdcc490" type="name" astParent="0xdbb350"/>
+    <token id="0xdbb350" file="ardrone_keyboard.cpp" linenr="53" str="::" scope="0xdcc490" astOperand1="0xdbb2a0" astOperand2="0xdbb4b0"/>
+    <token id="0xdbb400" file="ardrone_keyboard.cpp" linenr="53" str="Publisher" scope="0xdcc490" type="name"/>
+    <token id="0xdbb4b0" file="ardrone_keyboard.cpp" linenr="53" str="take_off_pub" scope="0xdcc490" type="name" varId="10" variable="0xdcd6b0" astParent="0xdbb350"/>
+    <token id="0xdbb560" file="ardrone_keyboard.cpp" linenr="53" str=";" scope="0xdcc490"/>
+    <token id="0xdcb3e0" file="ardrone_keyboard.cpp" linenr="53" str="take_off_pub" scope="0xdcc490" type="name" varId="10" variable="0xdcd6b0" astParent="0xdcb740"/>
+    <token id="0xdcb740" file="ardrone_keyboard.cpp" linenr="53" str="=" scope="0xdcc490" type="op" isAssignmentOp="True" astOperand1="0xdcb3e0" astOperand2="0xdbbb90"/>
+    <token id="0xdbb610" file="ardrone_keyboard.cpp" linenr="53" str="nh_" scope="0xdcc490" type="name" varId="7" variable="0xdcd560" astParent="0xdbb6c0"/>
+    <token id="0xdbb6c0" file="ardrone_keyboard.cpp" linenr="53" str="." scope="0xdcc490" astParent="0xdbbb90" astOperand1="0xdbb610" astOperand2="0xdbb770"/>
+    <token id="0xdbb770" file="ardrone_keyboard.cpp" linenr="53" str="advertise" scope="0xdcc490" type="name" astParent="0xdbb6c0"/>
+    <token id="0xdbb820" file="ardrone_keyboard.cpp" linenr="53" str="&lt;" scope="0xdcc490" link="0xdbbae0"/>
+    <token id="0xdbb8d0" file="ardrone_keyboard.cpp" linenr="53" str="std_msgs" scope="0xdcc490" type="name"/>
+    <token id="0xdbb980" file="ardrone_keyboard.cpp" linenr="53" str="::" scope="0xdcc490"/>
+    <token id="0xdbba30" file="ardrone_keyboard.cpp" linenr="53" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbbae0" file="ardrone_keyboard.cpp" linenr="53" str="&gt;" scope="0xdcc490" link="0xdbb820"/>
+    <token id="0xdbbb90" file="ardrone_keyboard.cpp" linenr="53" str="(" scope="0xdcc490" link="0xdbbe80" astParent="0xdcb740" astOperand1="0xdbb6c0" astOperand2="0xdbbd20"/>
+    <token id="0xdbbc40" file="ardrone_keyboard.cpp" linenr="53" str="&quot;/ardrone/takeoff&quot;" scope="0xdcc490" type="string" strlen="16" values="0xdbbc48" astParent="0xdbbd20"/>
+    <token id="0xdbbd20" file="ardrone_keyboard.cpp" linenr="53" str="," scope="0xdcc490" astParent="0xdbbb90" astOperand1="0xdbbc40" astOperand2="0xdbbdd0"/>
+    <token id="0xdbbdd0" file="ardrone_keyboard.cpp" linenr="53" str="1" scope="0xdcc490" type="number" isInt="True" values="0xdbbdd8" astParent="0xdbbd20"/>
+    <token id="0xdbbe80" file="ardrone_keyboard.cpp" linenr="53" str=")" scope="0xdcc490" link="0xdbbb90"/>
+    <token id="0xdbbf30" file="ardrone_keyboard.cpp" linenr="53" str=";" scope="0xdcc490"/>
+    <token id="0xdbbfe0" file="ardrone_keyboard.cpp" linenr="54" str="ros" scope="0xdcc490" type="name" astParent="0xdbc090"/>
+    <token id="0xdbc090" file="ardrone_keyboard.cpp" linenr="54" str="::" scope="0xdcc490" astOperand1="0xdbbfe0" astOperand2="0xdbc1f0"/>
+    <token id="0xdbc140" file="ardrone_keyboard.cpp" linenr="54" str="Publisher" scope="0xdcc490" type="name"/>
+    <token id="0xdbc1f0" file="ardrone_keyboard.cpp" linenr="54" str="land_pub" scope="0xdcc490" type="name" varId="11" variable="0xdcd720" astParent="0xdbc090"/>
+    <token id="0xdbc2a0" file="ardrone_keyboard.cpp" linenr="54" str=";" scope="0xdcc490"/>
+    <token id="0xdcb7f0" file="ardrone_keyboard.cpp" linenr="54" str="land_pub" scope="0xdcc490" type="name" varId="11" variable="0xdcd720" astParent="0xdcb8a0"/>
+    <token id="0xdcb8a0" file="ardrone_keyboard.cpp" linenr="54" str="=" scope="0xdcc490" type="op" isAssignmentOp="True" astOperand1="0xdcb7f0" astOperand2="0xdbc8d0"/>
+    <token id="0xdbc350" file="ardrone_keyboard.cpp" linenr="54" str="nh_" scope="0xdcc490" type="name" varId="7" variable="0xdcd560" astParent="0xdbc400"/>
+    <token id="0xdbc400" file="ardrone_keyboard.cpp" linenr="54" str="." scope="0xdcc490" astParent="0xdbc8d0" astOperand1="0xdbc350" astOperand2="0xdbc4b0"/>
+    <token id="0xdbc4b0" file="ardrone_keyboard.cpp" linenr="54" str="advertise" scope="0xdcc490" type="name" astParent="0xdbc400"/>
+    <token id="0xdbc560" file="ardrone_keyboard.cpp" linenr="54" str="&lt;" scope="0xdcc490" link="0xdbc820"/>
+    <token id="0xdbc610" file="ardrone_keyboard.cpp" linenr="54" str="std_msgs" scope="0xdcc490" type="name"/>
+    <token id="0xdbc6c0" file="ardrone_keyboard.cpp" linenr="54" str="::" scope="0xdcc490"/>
+    <token id="0xdbc770" file="ardrone_keyboard.cpp" linenr="54" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbc820" file="ardrone_keyboard.cpp" linenr="54" str="&gt;" scope="0xdcc490" link="0xdbc560"/>
+    <token id="0xdbc8d0" file="ardrone_keyboard.cpp" linenr="54" str="(" scope="0xdcc490" link="0xdbcb90" astParent="0xdcb8a0" astOperand1="0xdbc400" astOperand2="0xdbca30"/>
+    <token id="0xdbc980" file="ardrone_keyboard.cpp" linenr="54" str="&quot;/ardrone/land&quot;" scope="0xdcc490" type="string" strlen="13" values="0xdbc988" astParent="0xdbca30"/>
+    <token id="0xdbca30" file="ardrone_keyboard.cpp" linenr="54" str="," scope="0xdcc490" astParent="0xdbc8d0" astOperand1="0xdbc980" astOperand2="0xdbcae0"/>
+    <token id="0xdbcae0" file="ardrone_keyboard.cpp" linenr="54" str="1" scope="0xdcc490" type="number" isInt="True" values="0xdbcae8" astParent="0xdbca30"/>
+    <token id="0xdbcb90" file="ardrone_keyboard.cpp" linenr="54" str=")" scope="0xdcc490" link="0xdbc8d0"/>
+    <token id="0xdbcc40" file="ardrone_keyboard.cpp" linenr="54" str=";" scope="0xdcc490"/>
+    <token id="0xdbccf0" file="ardrone_keyboard.cpp" linenr="55" str="ros" scope="0xdcc490" type="name" astParent="0xdbcda0"/>
+    <token id="0xdbcda0" file="ardrone_keyboard.cpp" linenr="55" str="::" scope="0xdcc490" astOperand1="0xdbccf0" astOperand2="0xdbcf00"/>
+    <token id="0xdbce50" file="ardrone_keyboard.cpp" linenr="55" str="Publisher" scope="0xdcc490" type="name"/>
+    <token id="0xdbcf00" file="ardrone_keyboard.cpp" linenr="55" str="eme_pub" scope="0xdcc490" type="name" varId="12" variable="0xdcd790" astParent="0xdbcda0"/>
+    <token id="0xdbcfb0" file="ardrone_keyboard.cpp" linenr="55" str=";" scope="0xdcc490"/>
+    <token id="0xdcb4e0" file="ardrone_keyboard.cpp" linenr="55" str="eme_pub" scope="0xdcc490" type="name" varId="12" variable="0xdcd790" astParent="0xdcb590"/>
+    <token id="0xdcb590" file="ardrone_keyboard.cpp" linenr="55" str="=" scope="0xdcc490" type="op" isAssignmentOp="True" astOperand1="0xdcb4e0" astOperand2="0xdbd5e0"/>
+    <token id="0xdbd060" file="ardrone_keyboard.cpp" linenr="55" str="nh_" scope="0xdcc490" type="name" varId="7" variable="0xdcd560" astParent="0xdbd110"/>
+    <token id="0xdbd110" file="ardrone_keyboard.cpp" linenr="55" str="." scope="0xdcc490" astParent="0xdbd5e0" astOperand1="0xdbd060" astOperand2="0xdbd1c0"/>
+    <token id="0xdbd1c0" file="ardrone_keyboard.cpp" linenr="55" str="advertise" scope="0xdcc490" type="name" astParent="0xdbd110"/>
+    <token id="0xdbd270" file="ardrone_keyboard.cpp" linenr="55" str="&lt;" scope="0xdcc490" link="0xdbd530"/>
+    <token id="0xdbd320" file="ardrone_keyboard.cpp" linenr="55" str="std_msgs" scope="0xdcc490" type="name"/>
+    <token id="0xdbd3d0" file="ardrone_keyboard.cpp" linenr="55" str="::" scope="0xdcc490"/>
+    <token id="0xdbd480" file="ardrone_keyboard.cpp" linenr="55" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbd530" file="ardrone_keyboard.cpp" linenr="55" str="&gt;" scope="0xdcc490" link="0xdbd270"/>
+    <token id="0xdbd5e0" file="ardrone_keyboard.cpp" linenr="55" str="(" scope="0xdcc490" link="0xdbd8a0" astParent="0xdcb590" astOperand1="0xdbd110" astOperand2="0xdbd740"/>
+    <token id="0xdbd690" file="ardrone_keyboard.cpp" linenr="55" str="&quot;ardrone/reset&quot;" scope="0xdcc490" type="string" strlen="13" values="0xdbd698" astParent="0xdbd740"/>
+    <token id="0xdbd740" file="ardrone_keyboard.cpp" linenr="55" str="," scope="0xdcc490" astParent="0xdbd5e0" astOperand1="0xdbd690" astOperand2="0xdbd7f0"/>
+    <token id="0xdbd7f0" file="ardrone_keyboard.cpp" linenr="55" str="1" scope="0xdcc490" type="number" isInt="True" values="0xdbd7f8" astParent="0xdbd740"/>
+    <token id="0xdbd8a0" file="ardrone_keyboard.cpp" linenr="55" str=")" scope="0xdcc490" link="0xdbd5e0"/>
+    <token id="0xdbd950" file="ardrone_keyboard.cpp" linenr="55" str=";" scope="0xdcc490"/>
+    <token id="0xdbda00" file="ardrone_keyboard.cpp" linenr="56" str="ros" scope="0xdcc490" type="name" astParent="0xdbdab0"/>
+    <token id="0xdbdab0" file="ardrone_keyboard.cpp" linenr="56" str="::" scope="0xdcc490" astOperand1="0xdbda00" astOperand2="0xdbdc10"/>
+    <token id="0xdbdb60" file="ardrone_keyboard.cpp" linenr="56" str="ServiceClient" scope="0xdcc490" type="name"/>
+    <token id="0xdbdc10" file="ardrone_keyboard.cpp" linenr="56" str="flat_trim_client" scope="0xdcc490" type="name" varId="13" variable="0xdcd800" astParent="0xdbdab0"/>
+    <token id="0xdbdcf0" file="ardrone_keyboard.cpp" linenr="56" str=";" scope="0xdcc490"/>
+    <token id="0xdcb640" file="ardrone_keyboard.cpp" linenr="56" str="flat_trim_client" scope="0xdcc490" type="name" varId="13" variable="0xdcd800" astParent="0xdcb950"/>
+    <token id="0xdcb950" file="ardrone_keyboard.cpp" linenr="56" str="=" scope="0xdcc490" type="op" isAssignmentOp="True" astOperand1="0xdcb640" astOperand2="0xdbe320"/>
+    <token id="0xdbdda0" file="ardrone_keyboard.cpp" linenr="56" str="nh_" scope="0xdcc490" type="name" varId="7" variable="0xdcd560" astParent="0xdbde50"/>
+    <token id="0xdbde50" file="ardrone_keyboard.cpp" linenr="56" str="." scope="0xdcc490" astParent="0xdbe320" astOperand1="0xdbdda0" astOperand2="0xdbdf00"/>
+    <token id="0xdbdf00" file="ardrone_keyboard.cpp" linenr="56" str="serviceClient" scope="0xdcc490" type="name" astParent="0xdbde50"/>
+    <token id="0xdbdfb0" file="ardrone_keyboard.cpp" linenr="56" str="&lt;" scope="0xdcc490" link="0xdbe270"/>
+    <token id="0xdbe060" file="ardrone_keyboard.cpp" linenr="56" str="std_srvs" scope="0xdcc490" type="name"/>
+    <token id="0xdbe110" file="ardrone_keyboard.cpp" linenr="56" str="::" scope="0xdcc490"/>
+    <token id="0xdbe1c0" file="ardrone_keyboard.cpp" linenr="56" str="Empty" scope="0xdcc490" type="name"/>
+    <token id="0xdbe270" file="ardrone_keyboard.cpp" linenr="56" str="&gt;" scope="0xdcc490" link="0xdbdfb0"/>
+    <token id="0xdbe320" file="ardrone_keyboard.cpp" linenr="56" str="(" scope="0xdcc490" link="0xdbe4e0" astParent="0xdcb950" astOperand1="0xdbde50" astOperand2="0xdbe400"/>
+    <token id="0xdbe400" file="ardrone_keyboard.cpp" linenr="56" str="&quot;/ardrone/flattrim&quot;" scope="0xdcc490" type="string" strlen="17" values="0xdbe408" astParent="0xdbe320"/>
+    <token id="0xdbe4e0" file="ardrone_keyboard.cpp" linenr="56" str=")" scope="0xdcc490" link="0xdbe320"/>
+    <token id="0xdbe590" file="ardrone_keyboard.cpp" linenr="56" str=";" scope="0xdcc490"/>
+    <token id="0xdbe640" file="ardrone_keyboard.cpp" linenr="57" str="while" scope="0xdcc490" type="name" astParent="0xdbe6f0"/>
+    <token id="0xdbe6f0" file="ardrone_keyboard.cpp" linenr="57" str="(" scope="0xdcc490" link="0xdbeb10" astOperand1="0xdbe640" astOperand2="0xdbe9b0"/>
+    <token id="0xdbe7a0" file="ardrone_keyboard.cpp" linenr="57" str="ros" scope="0xdcc490" type="name" astParent="0xdbe850"/>
+    <token id="0xdbe850" file="ardrone_keyboard.cpp" linenr="57" str="::" scope="0xdcc490" astParent="0xdbe9b0" astOperand1="0xdbe7a0" astOperand2="0xdbe900"/>
+    <token id="0xdbe900" file="ardrone_keyboard.cpp" linenr="57" str="ok" scope="0xdcc490" type="name" astParent="0xdbe850"/>
+    <token id="0xdbe9b0" file="ardrone_keyboard.cpp" linenr="57" str="(" scope="0xdcc490" link="0xdbea60" astParent="0xdbe6f0" astOperand1="0xdbe850"/>
+    <token id="0xdbea60" file="ardrone_keyboard.cpp" linenr="57" str=")" scope="0xdcc490" link="0xdbe9b0"/>
+    <token id="0xdbeb10" file="ardrone_keyboard.cpp" linenr="57" str=")" scope="0xdcc490" link="0xdbe6f0"/>
+    <token id="0xdbebc0" file="ardrone_keyboard.cpp" linenr="58" str="{" scope="0xdcc5e0" link="0xdcaec0"/>
+    <token id="0xdbec70" file="ardrone_keyboard.cpp" linenr="59" str="int" scope="0xdcc5e0" type="name"/>
+    <token id="0xdbed20" file="ardrone_keyboard.cpp" linenr="59" str="c" scope="0xdcc5e0" type="name" varId="14" variable="0xdcd870"/>
+    <token id="0xdbedd0" file="ardrone_keyboard.cpp" linenr="59" str=";" scope="0xdcc5e0"/>
+    <token id="0xdcba00" file="ardrone_keyboard.cpp" linenr="59" str="c" scope="0xdcc5e0" type="name" varId="14" variable="0xdcd870" astParent="0xdcbab0"/>
+    <token id="0xdcbab0" file="ardrone_keyboard.cpp" linenr="59" str="=" scope="0xdcc5e0" type="op" isAssignmentOp="True" astOperand1="0xdcba00" astOperand2="0xdbef30"/>
+    <token id="0xdbee80" file="ardrone_keyboard.cpp" linenr="59" str="getch" scope="0xdcc5e0" type="name" function="0xdcc220" astParent="0xdbef30"/>
+    <token id="0xdbef30" file="ardrone_keyboard.cpp" linenr="59" str="(" scope="0xdcc5e0" link="0xdbefe0" astParent="0xdcbab0" astOperand1="0xdbee80"/>
+    <token id="0xdbefe0" file="ardrone_keyboard.cpp" linenr="59" str=")" scope="0xdcc5e0" link="0xdbef30"/>
+    <token id="0xdbf090" file="ardrone_keyboard.cpp" linenr="59" str=";" scope="0xdcc5e0"/>
+    <token id="0xdbf140" file="ardrone_keyboard.cpp" linenr="60" str="if" scope="0xdcc5e0" type="name" astParent="0xdbf1f0"/>
+    <token id="0xdbf1f0" file="ardrone_keyboard.cpp" linenr="60" str="(" scope="0xdcc5e0" link="0xdbf770" astOperand1="0xdbf140" astOperand2="0xdbf4b0"/>
+    <token id="0xdbf2a0" file="ardrone_keyboard.cpp" linenr="60" str="c" scope="0xdcc5e0" type="name" varId="14" variable="0xdcd870" astParent="0xdbf350"/>
+    <token id="0xdbf350" file="ardrone_keyboard.cpp" linenr="60" str="==" scope="0xdcc5e0" type="op" isComparisonOp="True" astParent="0xdbf4b0" astOperand1="0xdbf2a0" astOperand2="0xdbf400"/>
+    <token id="0xdbf400" file="ardrone_keyboard.cpp" linenr="60" str="'t'" scope="0xdcc5e0" type="char" values="0xdbf408" astParent="0xdbf350"/>
+    <token id="0xdbf4b0" file="ardrone_keyboard.cpp" linenr="60" str="||" scope="0xdcc5e0" type="op" isLogicalOp="True" astParent="0xdbf1f0" astOperand1="0xdbf350" astOperand2="0xdbf610"/>
+    <token id="0xdbf560" file="ardrone_keyboard.cpp" linenr="60" str="c" scope="0xdcc5e0" type="name" varId="14" variable="0xdcd870" astParent="0xdbf610"/>
+    <token id="0xdbf610" file="ardrone_keyboard.cpp" linenr="60" str="==" scope="0xdcc5e0" type="op" isComparisonOp="True" astParent="0xdbf4b0" astOperand1="0xdbf560" astOperand2="0xdbf6c0"/>
+    <token id="0xdbf6c0" file="ardrone_keyboard.cpp" linenr="60" str="'T'" scope="0xdcc5e0" type="char" values="0xdbf6c8" astParent="0xdbf610"/>
+    <token id="0xdbf770" file="ardrone_keyboard.cpp" linenr="60" str=")" scope="0xdcc5e0" link="0xdbf1f0"/>
+    <token id="0xdbf820" file="ardrone_keyboard.cpp" linenr="61" str="{" scope="0xdcc730" link="0xdc3980"/>
+    <token id="0xdbf8d0" file="ardrone_keyboard.cpp" linenr="62" str="std" scope="0xdcc730" type="name" astParent="0xdbf980"/>
+    <token id="0xdbf980" file="ardrone_keyboard.cpp" linenr="62" str="::" scope="0xdcc730" astParent="0xdbfae0" astOperand1="0xdbf8d0" astOperand2="0xdbfa30"/>
+    <token id="0xdbfa30" file="ardrone_keyboard.cpp" linenr="62" str="cout" scope="0xdcc730" type="name" astParent="0xdbf980"/>
+    <token id="0xdbfae0" file="ardrone_keyboard.cpp" linenr="62" str="&lt;&lt;" scope="0xdcc730" type="op" isArithmeticalOp="True" astParent="0xdbfc40" astOperand1="0xdbf980" astOperand2="0xdbfb90"/>
+    <token id="0xdbfb90" file="ardrone_keyboard.cpp" linenr="62" str="&quot;takeoff&quot;" scope="0xdcc730" type="string" strlen="7" values="0xdbfb98" astParent="0xdbfae0"/>
+    <token id="0xdbfc40" file="ardrone_keyboard.cpp" linenr="62" str="&lt;&lt;" scope="0xdcc730" type="op" isArithmeticalOp="True" astOperand1="0xdbfae0" astOperand2="0xdbfda0"/>
+    <token id="0xdbfcf0" file="ardrone_keyboard.cpp" linenr="62" str="std" scope="0xdcc730" type="name" astParent="0xdbfda0"/>
+    <token id="0xdbfda0" file="ardrone_keyboard.cpp" linenr="62" str="::" scope="0xdcc730" astParent="0xdbfc40" astOperand1="0xdbfcf0" astOperand2="0xdbfe50"/>
+    <token id="0xdbfe50" file="ardrone_keyboard.cpp" linenr="62" str="endl" scope="0xdcc730" type="name" astParent="0xdbfda0"/>
+    <token id="0xdbff00" file="ardrone_keyboard.cpp" linenr="62" str=";" scope="0xdcc730"/>
+    <token id="0xdbffb0" file="ardrone_keyboard.cpp" linenr="63" str="double" scope="0xdcc730" type="name"/>
+    <token id="0xdc0060" file="ardrone_keyboard.cpp" linenr="63" str="time_start" scope="0xdcc730" type="name" varId="15" variable="0xdcd8e0"/>
+    <token id="0xdc0110" file="ardrone_keyboard.cpp" linenr="63" str=";" scope="0xdcc730"/>
+    <token id="0xdcbb60" file="ardrone_keyboard.cpp" linenr="63" str="time_start" scope="0xdcc730" type="name" varId="15" variable="0xdcd8e0" astParent="0xdcbc10"/>
+    <token id="0xdcbc10" file="ardrone_keyboard.cpp" linenr="63" str="=" scope="0xdcc730" type="op" isAssignmentOp="True" astOperand1="0xdcbb60" astOperand2="0xdc01c0"/>
+    <token id="0xdc01c0" file="ardrone_keyboard.cpp" linenr="63" str="(" scope="0xdcc730" link="0xdc0320" astParent="0xdcbc10" astOperand1="0xdc0a00"/>
+    <token id="0xdc0270" file="ardrone_keyboard.cpp" linenr="63" str="double" scope="0xdcc730" type="name"/>
+    <token id="0xdc0320" file="ardrone_keyboard.cpp" linenr="63" str=")" scope="0xdcc730" link="0xdc01c0"/>
+    <token id="0xdc03d0" file="ardrone_keyboard.cpp" linenr="63" str="ros" scope="0xdcc730" type="name" astParent="0xdc0480"/>
+    <token id="0xdc0480" file="ardrone_keyboard.cpp" linenr="63" str="::" scope="0xdcc730" astParent="0xdc05e0" astOperand1="0xdc03d0" astOperand2="0xdc0530"/>
+    <token id="0xdc0530" file="ardrone_keyboard.cpp" linenr="63" str="Time" scope="0xdcc730" type="name" astParent="0xdc0480"/>
+    <token id="0xdc05e0" file="ardrone_keyboard.cpp" linenr="63" str="::" scope="0xdcc730" astParent="0xdc0740" astOperand1="0xdc0480" astOperand2="0xdc0690"/>
+    <token id="0xdc0690" file="ardrone_keyboard.cpp" linenr="63" str="now" scope="0xdcc730" type="name" astParent="0xdc05e0"/>
+    <token id="0xdc0740" file="ardrone_keyboard.cpp" linenr="63" str="(" scope="0xdcc730" link="0xdc07f0" astParent="0xdc08a0" astOperand1="0xdc05e0"/>
+    <token id="0xdc07f0" file="ardrone_keyboard.cpp" linenr="63" str=")" scope="0xdcc730" link="0xdc0740"/>
+    <token id="0xdc08a0" file="ardrone_keyboard.cpp" linenr="63" str="." scope="0xdcc730" astParent="0xdc0a00" astOperand1="0xdc0740" astOperand2="0xdc0950"/>
+    <token id="0xdc0950" file="ardrone_keyboard.cpp" linenr="63" str="toSec" scope="0xdcc730" type="name" astParent="0xdc08a0"/>
+    <token id="0xdc0a00" file="ardrone_keyboard.cpp" linenr="63" str="(" scope="0xdcc730" link="0xdc0ab0" astParent="0xdc01c0" astOperand1="0xdc08a0"/>
+    <token id="0xdc0ab0" file="ardrone_keyboard.cpp" linenr="63" str=")" scope="0xdcc730" link="0xdc0a00"/>
+    <token id="0xdc0b60" file="ardrone_keyboard.cpp" linenr="63" str=";" scope="0xdcc730"/>
+    <token id="0xdc0c10" file="ardrone_keyboard.cpp" linenr="65" str="flat_trim_client" scope="0xdcc730" type="name" varId="13" variable="0xdcd800" astParent="0xdc0cc0"/>
+    <token id="0xdc0cc0" file="ardrone_keyboard.cpp" linenr="65" str="." scope="0xdcc730" astParent="0xdc0e20" astOperand1="0xdc0c10" astOperand2="0xdc0d70"/>
+    <token id="0xdc0d70" file="ardrone_keyboard.cpp" linenr="65" str="call" scope="0xdcc730" type="name" astParent="0xdc0cc0"/>
+    <token id="0xdc0e20" file="ardrone_keyboard.cpp" linenr="65" str="(" scope="0xdcc730" link="0xdc0f80" astOperand1="0xdc0cc0" astOperand2="0xdc0ed0"/>
+    <token id="0xdc0ed0" file="ardrone_keyboard.cpp" linenr="65" str="empty" scope="0xdcc730" type="name" varId="8" variable="0xdcd5d0" astParent="0xdc0e20"/>
+    <token id="0xdc0f80" file="ardrone_keyboard.cpp" linenr="65" str=")" scope="0xdcc730" link="0xdc0e20"/>
+    <token id="0xdc1030" file="ardrone_keyboard.cpp" linenr="65" str=";" scope="0xdcc730"/>
+    <token id="0xdc10e0" file="ardrone_keyboard.cpp" linenr="66" str="flat_trim_client" scope="0xdcc730" type="name" varId="13" variable="0xdcd800" astParent="0xdc11c0"/>
+    <token id="0xdc11c0" file="ardrone_keyboard.cpp" linenr="66" str="." scope="0xdcc730" astParent="0xdc1320" astOperand1="0xdc10e0" astOperand2="0xdc1270"/>
+    <token id="0xdc1270" file="ardrone_keyboard.cpp" linenr="66" str="call" scope="0xdcc730" type="name" astParent="0xdc11c0"/>
+    <token id="0xdc1320" file="ardrone_keyboard.cpp" linenr="66" str="(" scope="0xdcc730" link="0xdc1480" astOperand1="0xdc11c0" astOperand2="0xdc13d0"/>
+    <token id="0xdc13d0" file="ardrone_keyboard.cpp" linenr="66" str="empty" scope="0xdcc730" type="name" varId="8" variable="0xdcd5d0" astParent="0xdc1320"/>
+    <token id="0xdc1480" file="ardrone_keyboard.cpp" linenr="66" str=")" scope="0xdcc730" link="0xdc1320"/>
+    <token id="0xdc1530" file="ardrone_keyboard.cpp" linenr="66" str=";" scope="0xdcc730"/>
+    <token id="0xdc15e0" file="ardrone_keyboard.cpp" linenr="67" str="while" scope="0xdcc730" type="name" astParent="0xdc1690"/>
+    <token id="0xdc1690" file="ardrone_keyboard.cpp" linenr="67" str="(" scope="0xdcc730" link="0xdc23a0" astOperand1="0xdc15e0" astOperand2="0xdc20e0"/>
+    <token id="0xdc1740" file="ardrone_keyboard.cpp" linenr="67" str="(" scope="0xdcc730" link="0xdc18a0" astParent="0xdc20e0" astOperand1="0xdc1f80"/>
+    <token id="0xdc17f0" file="ardrone_keyboard.cpp" linenr="67" str="double" scope="0xdcc730" type="name"/>
+    <token id="0xdc18a0" file="ardrone_keyboard.cpp" linenr="67" str=")" scope="0xdcc730" link="0xdc1740"/>
+    <token id="0xdc1950" file="ardrone_keyboard.cpp" linenr="67" str="ros" scope="0xdcc730" type="name" astParent="0xdc1a00"/>
+    <token id="0xdc1a00" file="ardrone_keyboard.cpp" linenr="67" str="::" scope="0xdcc730" astParent="0xdc1b60" astOperand1="0xdc1950" astOperand2="0xdc1ab0"/>
+    <token id="0xdc1ab0" file="ardrone_keyboard.cpp" linenr="67" str="Time" scope="0xdcc730" type="name" astParent="0xdc1a00"/>
+    <token id="0xdc1b60" file="ardrone_keyboard.cpp" linenr="67" str="::" scope="0xdcc730" astParent="0xdc1cc0" astOperand1="0xdc1a00" astOperand2="0xdc1c10"/>
+    <token id="0xdc1c10" file="ardrone_keyboard.cpp" linenr="67" str="now" scope="0xdcc730" type="name" astParent="0xdc1b60"/>
+    <token id="0xdc1cc0" file="ardrone_keyboard.cpp" linenr="67" str="(" scope="0xdcc730" link="0xdc1d70" astParent="0xdc1e20" astOperand1="0xdc1b60"/>
+    <token id="0xdc1d70" file="ardrone_keyboard.cpp" linenr="67" str=")" scope="0xdcc730" link="0xdc1cc0"/>
+    <token id="0xdc1e20" file="ardrone_keyboard.cpp" linenr="67" str="." scope="0xdcc730" astParent="0xdc1f80" astOperand1="0xdc1cc0" astOperand2="0xdc1ed0"/>
+    <token id="0xdc1ed0" file="ardrone_keyboard.cpp" linenr="67" str="toSec" scope="0xdcc730" type="name" astParent="0xdc1e20"/>
+    <token id="0xdc1f80" file="ardrone_keyboard.cpp" linenr="67" str="(" scope="0xdcc730" link="0xdc2030" astParent="0xdc1740" astOperand1="0xdc1e20"/>
+    <token id="0xdc2030" file="ardrone_keyboard.cpp" linenr="67" str=")" scope="0xdcc730" link="0xdc1f80"/>
+    <token id="0xdc20e0" file="ardrone_keyboard.cpp" linenr="67" str="&lt;" scope="0xdcc730" type="op" isComparisonOp="True" astParent="0xdc1690" astOperand1="0xdc1740" astOperand2="0xdc2240"/>
+    <token id="0xdc2190" file="ardrone_keyboard.cpp" linenr="67" str="time_start" scope="0xdcc730" type="name" varId="15" variable="0xdcd8e0" astParent="0xdc2240"/>
+    <token id="0xdc2240" file="ardrone_keyboard.cpp" linenr="67" str="+" scope="0xdcc730" type="op" isArithmeticalOp="True" astParent="0xdc20e0" astOperand1="0xdc2190" astOperand2="0xdc22f0"/>
+    <token id="0xdc22f0" file="ardrone_keyboard.cpp" linenr="67" str="5.0" scope="0xdcc730" type="number" isFloat="True" astParent="0xdc2240"/>
+    <token id="0xdc23a0" file="ardrone_keyboard.cpp" linenr="67" str=")" scope="0xdcc730" link="0xdc1690"/>
+    <token id="0xdc2450" file="ardrone_keyboard.cpp" linenr="68" str="{" scope="0xdcc880" link="0xdc3530"/>
+    <token id="0xdc2500" file="ardrone_keyboard.cpp" linenr="69" str="std" scope="0xdcc880" type="name" astParent="0xdc25b0"/>
+    <token id="0xdc25b0" file="ardrone_keyboard.cpp" linenr="69" str="::" scope="0xdcc880" astParent="0xdc2710" astOperand1="0xdc2500" astOperand2="0xdc2660"/>
+    <token id="0xdc2660" file="ardrone_keyboard.cpp" linenr="69" str="cout" scope="0xdcc880" type="name" astParent="0xdc25b0"/>
+    <token id="0xdc2710" file="ardrone_keyboard.cpp" linenr="69" str="&lt;&lt;" scope="0xdcc880" type="op" isArithmeticalOp="True" astParent="0xdc28d0" astOperand1="0xdc25b0" astOperand2="0xdc27f0"/>
+    <token id="0xdc27f0" file="ardrone_keyboard.cpp" linenr="69" str="&quot;Inside while loop&quot;" scope="0xdcc880" type="string" strlen="17" values="0xdc27f8" astParent="0xdc2710"/>
+    <token id="0xdc28d0" file="ardrone_keyboard.cpp" linenr="69" str="&lt;&lt;" scope="0xdcc880" type="op" isArithmeticalOp="True" astOperand1="0xdc2710" astOperand2="0xdc2a30"/>
+    <token id="0xdc2980" file="ardrone_keyboard.cpp" linenr="69" str="std" scope="0xdcc880" type="name" astParent="0xdc2a30"/>
+    <token id="0xdc2a30" file="ardrone_keyboard.cpp" linenr="69" str="::" scope="0xdcc880" astParent="0xdc28d0" astOperand1="0xdc2980" astOperand2="0xdc2ae0"/>
+    <token id="0xdc2ae0" file="ardrone_keyboard.cpp" linenr="69" str="endl" scope="0xdcc880" type="name" astParent="0xdc2a30"/>
+    <token id="0xdc2b90" file="ardrone_keyboard.cpp" linenr="69" str=";" scope="0xdcc880"/>
+    <token id="0xdc2c40" file="ardrone_keyboard.cpp" linenr="70" str="take_off_pub" scope="0xdcc880" type="name" varId="10" variable="0xdcd6b0" astParent="0xdc2cf0"/>
+    <token id="0xdc2cf0" file="ardrone_keyboard.cpp" linenr="70" str="." scope="0xdcc880" astParent="0xdc2e50" astOperand1="0xdc2c40" astOperand2="0xdc2da0"/>
+    <token id="0xdc2da0" file="ardrone_keyboard.cpp" linenr="70" str="publish" scope="0xdcc880" type="name" astParent="0xdc2cf0"/>
+    <token id="0xdc2e50" file="ardrone_keyboard.cpp" linenr="70" str="(" scope="0xdcc880" link="0xdc2fb0" astOperand1="0xdc2cf0" astOperand2="0xdc2f00"/>
+    <token id="0xdc2f00" file="ardrone_keyboard.cpp" linenr="70" str="msg" scope="0xdcc880" type="name" varId="9" variable="0xdcd640" astParent="0xdc2e50"/>
+    <token id="0xdc2fb0" file="ardrone_keyboard.cpp" linenr="70" str=")" scope="0xdcc880" link="0xdc2e50"/>
+    <token id="0xdc3060" file="ardrone_keyboard.cpp" linenr="70" str=";" scope="0xdcc880"/>
+    <token id="0xdc3110" file="ardrone_keyboard.cpp" linenr="71" str="ros" scope="0xdcc880" type="name" astParent="0xdc31c0"/>
+    <token id="0xdc31c0" file="ardrone_keyboard.cpp" linenr="71" str="::" scope="0xdcc880" astParent="0xdc3320" astOperand1="0xdc3110" astOperand2="0xdc3270"/>
+    <token id="0xdc3270" file="ardrone_keyboard.cpp" linenr="71" str="spinOnce" scope="0xdcc880" type="name" astParent="0xdc31c0"/>
+    <token id="0xdc3320" file="ardrone_keyboard.cpp" linenr="71" str="(" scope="0xdcc880" link="0xdc33d0" astOperand1="0xdc31c0"/>
+    <token id="0xdc33d0" file="ardrone_keyboard.cpp" linenr="71" str=")" scope="0xdcc880" link="0xdc3320"/>
+    <token id="0xdc3480" file="ardrone_keyboard.cpp" linenr="71" str=";" scope="0xdcc880"/>
+    <token id="0xdc3530" file="ardrone_keyboard.cpp" linenr="72" str="}" scope="0xdcc880" link="0xdc2450"/>
+    <token id="0xdc35e0" file="ardrone_keyboard.cpp" linenr="73" str="ROS_INFO" scope="0xdcc730" type="name" astParent="0xdc3690"/>
+    <token id="0xdc3690" file="ardrone_keyboard.cpp" linenr="73" str="(" scope="0xdcc730" link="0xdc3820" astOperand1="0xdc35e0" astOperand2="0xdc3740"/>
+    <token id="0xdc3740" file="ardrone_keyboard.cpp" linenr="73" str="&quot;ARdrone launched&quot;" scope="0xdcc730" type="string" strlen="16" values="0xdc3748" astParent="0xdc3690"/>
+    <token id="0xdc3820" file="ardrone_keyboard.cpp" linenr="73" str=")" scope="0xdcc730" link="0xdc3690"/>
+    <token id="0xdc38d0" file="ardrone_keyboard.cpp" linenr="73" str=";" scope="0xdcc730"/>
+    <token id="0xdc3980" file="ardrone_keyboard.cpp" linenr="75" str="}" scope="0xdcc730" link="0xdbf820"/>
+    <token id="0xdc3a30" file="ardrone_keyboard.cpp" linenr="77" str="else" scope="0xdcc5e0" type="name"/>
+    <token id="0xdcb020" file="ardrone_keyboard.cpp" linenr="77" str="{" scope="0xdccb00" link="0xdcb0d0"/>
+    <token id="0xdc3ae0" file="ardrone_keyboard.cpp" linenr="77" str="if" scope="0xdccb00" type="name" astParent="0xdc3b90"/>
+    <token id="0xdc3b90" file="ardrone_keyboard.cpp" linenr="77" str="(" scope="0xdccb00" link="0xdc4110" astOperand1="0xdc3ae0" astOperand2="0xdc3e50"/>
+    <token id="0xdc3c40" file="ardrone_keyboard.cpp" linenr="77" str="c" scope="0xdccb00" type="name" varId="14" variable="0xdcd870" astParent="0xdc3cf0"/>
+    <token id="0xdc3cf0" file="ardrone_keyboard.cpp" linenr="77" str="==" scope="0xdccb00" type="op" isComparisonOp="True" astParent="0xdc3e50" astOperand1="0xdc3c40" astOperand2="0xdc3da0"/>
+    <token id="0xdc3da0" file="ardrone_keyboard.cpp" linenr="77" str="'l'" scope="0xdccb00" type="char" values="0xdc3da8" astParent="0xdc3cf0"/>
+    <token id="0xdc3e50" file="ardrone_keyboard.cpp" linenr="77" str="||" scope="0xdccb00" type="op" isLogicalOp="True" astParent="0xdc3b90" astOperand1="0xdc3cf0" astOperand2="0xdc3fb0"/>
+    <token id="0xdc3f00" file="ardrone_keyboard.cpp" linenr="77" str="c" scope="0xdccb00" type="name" varId="14" variable="0xdcd870" astParent="0xdc3fb0"/>
+    <token id="0xdc3fb0" file="ardrone_keyboard.cpp" linenr="77" str="==" scope="0xdccb00" type="op" isComparisonOp="True" astParent="0xdc3e50" astOperand1="0xdc3f00" astOperand2="0xdc4060"/>
+    <token id="0xdc4060" file="ardrone_keyboard.cpp" linenr="77" str="'L'" scope="0xdccb00" type="char" values="0xdc4068" astParent="0xdc3fb0"/>
+    <token id="0xdc4110" file="ardrone_keyboard.cpp" linenr="77" str=")" scope="0xdccb00" link="0xdc3b90"/>
+    <token id="0xdc41c0" file="ardrone_keyboard.cpp" linenr="78" str="{" scope="0xdccc50" link="0xdc7580"/>
+    <token id="0xdc4270" file="ardrone_keyboard.cpp" linenr="79" str="std" scope="0xdccc50" type="name" astParent="0xdc4320"/>
+    <token id="0xdc4320" file="ardrone_keyboard.cpp" linenr="79" str="::" scope="0xdccc50" astParent="0xdc4480" astOperand1="0xdc4270" astOperand2="0xdc43d0"/>
+    <token id="0xdc43d0" file="ardrone_keyboard.cpp" linenr="79" str="cout" scope="0xdccc50" type="name" astParent="0xdc4320"/>
+    <token id="0xdc4480" file="ardrone_keyboard.cpp" linenr="79" str="&lt;&lt;" scope="0xdccc50" type="op" isArithmeticalOp="True" astParent="0xdc45e0" astOperand1="0xdc4320" astOperand2="0xdc4530"/>
+    <token id="0xdc4530" file="ardrone_keyboard.cpp" linenr="79" str="&quot;land&quot;" scope="0xdccc50" type="string" strlen="4" values="0xdc4538" astParent="0xdc4480"/>
+    <token id="0xdc45e0" file="ardrone_keyboard.cpp" linenr="79" str="&lt;&lt;" scope="0xdccc50" type="op" isArithmeticalOp="True" astOperand1="0xdc4480" astOperand2="0xdc4740"/>
+    <token id="0xdc4690" file="ardrone_keyboard.cpp" linenr="79" str="std" scope="0xdccc50" type="name" astParent="0xdc4740"/>
+    <token id="0xdc4740" file="ardrone_keyboard.cpp" linenr="79" str="::" scope="0xdccc50" astParent="0xdc45e0" astOperand1="0xdc4690" astOperand2="0xdc47f0"/>
+    <token id="0xdc47f0" file="ardrone_keyboard.cpp" linenr="79" str="endl" scope="0xdccc50" type="name" astParent="0xdc4740"/>
+    <token id="0xdc48a0" file="ardrone_keyboard.cpp" linenr="79" str=";" scope="0xdccc50"/>
+    <token id="0xdc4950" file="ardrone_keyboard.cpp" linenr="81" str="double" scope="0xdccc50" type="name"/>
+    <token id="0xdc4a00" file="ardrone_keyboard.cpp" linenr="81" str="time_start" scope="0xdccc50" type="name" varId="16" variable="0xdcd950"/>
+    <token id="0xdc4ab0" file="ardrone_keyboard.cpp" linenr="81" str=";" scope="0xdccc50"/>
+    <token id="0xdcbcc0" file="ardrone_keyboard.cpp" linenr="81" str="time_start" scope="0xdccc50" type="name" varId="16" variable="0xdcd950" astParent="0xdcbd70"/>
+    <token id="0xdcbd70" file="ardrone_keyboard.cpp" linenr="81" str="=" scope="0xdccc50" type="op" isAssignmentOp="True" astOperand1="0xdcbcc0" astOperand2="0xdc4b60"/>
+    <token id="0xdc4b60" file="ardrone_keyboard.cpp" linenr="81" str="(" scope="0xdccc50" link="0xdc4cc0" astParent="0xdcbd70" astOperand1="0xdc53a0"/>
+    <token id="0xdc4c10" file="ardrone_keyboard.cpp" linenr="81" str="double" scope="0xdccc50" type="name"/>
+    <token id="0xdc4cc0" file="ardrone_keyboard.cpp" linenr="81" str=")" scope="0xdccc50" link="0xdc4b60"/>
+    <token id="0xdc4d70" file="ardrone_keyboard.cpp" linenr="81" str="ros" scope="0xdccc50" type="name" astParent="0xdc4e20"/>
+    <token id="0xdc4e20" file="ardrone_keyboard.cpp" linenr="81" str="::" scope="0xdccc50" astParent="0xdc4f80" astOperand1="0xdc4d70" astOperand2="0xdc4ed0"/>
+    <token id="0xdc4ed0" file="ardrone_keyboard.cpp" linenr="81" str="Time" scope="0xdccc50" type="name" astParent="0xdc4e20"/>
+    <token id="0xdc4f80" file="ardrone_keyboard.cpp" linenr="81" str="::" scope="0xdccc50" astParent="0xdc50e0" astOperand1="0xdc4e20" astOperand2="0xdc5030"/>
+    <token id="0xdc5030" file="ardrone_keyboard.cpp" linenr="81" str="now" scope="0xdccc50" type="name" astParent="0xdc4f80"/>
+    <token id="0xdc50e0" file="ardrone_keyboard.cpp" linenr="81" str="(" scope="0xdccc50" link="0xdc5190" astParent="0xdc5240" astOperand1="0xdc4f80"/>
+    <token id="0xdc5190" file="ardrone_keyboard.cpp" linenr="81" str=")" scope="0xdccc50" link="0xdc50e0"/>
+    <token id="0xdc5240" file="ardrone_keyboard.cpp" linenr="81" str="." scope="0xdccc50" astParent="0xdc53a0" astOperand1="0xdc50e0" astOperand2="0xdc52f0"/>
+    <token id="0xdc52f0" file="ardrone_keyboard.cpp" linenr="81" str="toSec" scope="0xdccc50" type="name" astParent="0xdc5240"/>
+    <token id="0xdc53a0" file="ardrone_keyboard.cpp" linenr="81" str="(" scope="0xdccc50" link="0xdc5450" astParent="0xdc4b60" astOperand1="0xdc5240"/>
+    <token id="0xdc5450" file="ardrone_keyboard.cpp" linenr="81" str=")" scope="0xdccc50" link="0xdc53a0"/>
+    <token id="0xdc5500" file="ardrone_keyboard.cpp" linenr="81" str=";" scope="0xdccc50"/>
+    <token id="0xdc55b0" file="ardrone_keyboard.cpp" linenr="82" str="while" scope="0xdccc50" type="name" astParent="0xdc5660"/>
+    <token id="0xdc5660" file="ardrone_keyboard.cpp" linenr="82" str="(" scope="0xdccc50" link="0xdc6370" astOperand1="0xdc55b0" astOperand2="0xdc60b0"/>
+    <token id="0xdc5710" file="ardrone_keyboard.cpp" linenr="82" str="(" scope="0xdccc50" link="0xdc5870" astParent="0xdc60b0" astOperand1="0xdc5f50"/>
+    <token id="0xdc57c0" file="ardrone_keyboard.cpp" linenr="82" str="double" scope="0xdccc50" type="name"/>
+    <token id="0xdc5870" file="ardrone_keyboard.cpp" linenr="82" str=")" scope="0xdccc50" link="0xdc5710"/>
+    <token id="0xdc5920" file="ardrone_keyboard.cpp" linenr="82" str="ros" scope="0xdccc50" type="name" astParent="0xdc59d0"/>
+    <token id="0xdc59d0" file="ardrone_keyboard.cpp" linenr="82" str="::" scope="0xdccc50" astParent="0xdc5b30" astOperand1="0xdc5920" astOperand2="0xdc5a80"/>
+    <token id="0xdc5a80" file="ardrone_keyboard.cpp" linenr="82" str="Time" scope="0xdccc50" type="name" astParent="0xdc59d0"/>
+    <token id="0xdc5b30" file="ardrone_keyboard.cpp" linenr="82" str="::" scope="0xdccc50" astParent="0xdc5c90" astOperand1="0xdc59d0" astOperand2="0xdc5be0"/>
+    <token id="0xdc5be0" file="ardrone_keyboard.cpp" linenr="82" str="now" scope="0xdccc50" type="name" astParent="0xdc5b30"/>
+    <token id="0xdc5c90" file="ardrone_keyboard.cpp" linenr="82" str="(" scope="0xdccc50" link="0xdc5d40" astParent="0xdc5df0" astOperand1="0xdc5b30"/>
+    <token id="0xdc5d40" file="ardrone_keyboard.cpp" linenr="82" str=")" scope="0xdccc50" link="0xdc5c90"/>
+    <token id="0xdc5df0" file="ardrone_keyboard.cpp" linenr="82" str="." scope="0xdccc50" astParent="0xdc5f50" astOperand1="0xdc5c90" astOperand2="0xdc5ea0"/>
+    <token id="0xdc5ea0" file="ardrone_keyboard.cpp" linenr="82" str="toSec" scope="0xdccc50" type="name" astParent="0xdc5df0"/>
+    <token id="0xdc5f50" file="ardrone_keyboard.cpp" linenr="82" str="(" scope="0xdccc50" link="0xdc6000" astParent="0xdc5710" astOperand1="0xdc5df0"/>
+    <token id="0xdc6000" file="ardrone_keyboard.cpp" linenr="82" str=")" scope="0xdccc50" link="0xdc5f50"/>
+    <token id="0xdc60b0" file="ardrone_keyboard.cpp" linenr="82" str="&lt;" scope="0xdccc50" type="op" isComparisonOp="True" astParent="0xdc5660" astOperand1="0xdc5710" astOperand2="0xdc6210"/>
+    <token id="0xdc6160" file="ardrone_keyboard.cpp" linenr="82" str="time_start" scope="0xdccc50" type="name" varId="16" variable="0xdcd950" astParent="0xdc6210"/>
+    <token id="0xdc6210" file="ardrone_keyboard.cpp" linenr="82" str="+" scope="0xdccc50" type="op" isArithmeticalOp="True" astParent="0xdc60b0" astOperand1="0xdc6160" astOperand2="0xdc62c0"/>
+    <token id="0xdc62c0" file="ardrone_keyboard.cpp" linenr="82" str="5.0" scope="0xdccc50" type="number" isFloat="True" astParent="0xdc6210"/>
+    <token id="0xdc6370" file="ardrone_keyboard.cpp" linenr="82" str=")" scope="0xdccc50" link="0xdc5660"/>
+    <token id="0xdc6420" file="ardrone_keyboard.cpp" linenr="83" str="{" scope="0xdccda0" link="0xdc6dc0"/>
+    <token id="0xdc64d0" file="ardrone_keyboard.cpp" linenr="84" str="land_pub" scope="0xdccda0" type="name" varId="11" variable="0xdcd720" astParent="0xdc6580"/>
+    <token id="0xdc6580" file="ardrone_keyboard.cpp" linenr="84" str="." scope="0xdccda0" astParent="0xdc66e0" astOperand1="0xdc64d0" astOperand2="0xdc6630"/>
+    <token id="0xdc6630" file="ardrone_keyboard.cpp" linenr="84" str="publish" scope="0xdccda0" type="name" astParent="0xdc6580"/>
+    <token id="0xdc66e0" file="ardrone_keyboard.cpp" linenr="84" str="(" scope="0xdccda0" link="0xdc6840" astOperand1="0xdc6580" astOperand2="0xdc6790"/>
+    <token id="0xdc6790" file="ardrone_keyboard.cpp" linenr="84" str="msg" scope="0xdccda0" type="name" varId="9" variable="0xdcd640" astParent="0xdc66e0"/>
+    <token id="0xdc6840" file="ardrone_keyboard.cpp" linenr="84" str=")" scope="0xdccda0" link="0xdc66e0"/>
+    <token id="0xdc68f0" file="ardrone_keyboard.cpp" linenr="84" str=";" scope="0xdccda0"/>
+    <token id="0xdc69a0" file="ardrone_keyboard.cpp" linenr="85" str="ros" scope="0xdccda0" type="name" astParent="0xdc6a50"/>
+    <token id="0xdc6a50" file="ardrone_keyboard.cpp" linenr="85" str="::" scope="0xdccda0" astParent="0xdc6bb0" astOperand1="0xdc69a0" astOperand2="0xdc6b00"/>
+    <token id="0xdc6b00" file="ardrone_keyboard.cpp" linenr="85" str="spinOnce" scope="0xdccda0" type="name" astParent="0xdc6a50"/>
+    <token id="0xdc6bb0" file="ardrone_keyboard.cpp" linenr="85" str="(" scope="0xdccda0" link="0xdc6c60" astOperand1="0xdc6a50"/>
+    <token id="0xdc6c60" file="ardrone_keyboard.cpp" linenr="85" str=")" scope="0xdccda0" link="0xdc6bb0"/>
+    <token id="0xdc6d10" file="ardrone_keyboard.cpp" linenr="85" str=";" scope="0xdccda0"/>
+    <token id="0xdc6dc0" file="ardrone_keyboard.cpp" linenr="87" str="}" scope="0xdccda0" link="0xdc6420"/>
+    <token id="0xdc6e70" file="ardrone_keyboard.cpp" linenr="88" str="ROS_INFO" scope="0xdccc50" type="name" astParent="0xdc6f20"/>
+    <token id="0xdc6f20" file="ardrone_keyboard.cpp" linenr="88" str="(" scope="0xdccc50" link="0xdc70b0" astOperand1="0xdc6e70" astOperand2="0xdc6fd0"/>
+    <token id="0xdc6fd0" file="ardrone_keyboard.cpp" linenr="88" str="&quot;ARdrone landed&quot;" scope="0xdccc50" type="string" strlen="14" values="0xdc6fd8" astParent="0xdc6f20"/>
+    <token id="0xdc70b0" file="ardrone_keyboard.cpp" linenr="88" str=")" scope="0xdccc50" link="0xdc6f20"/>
+    <token id="0xdc7160" file="ardrone_keyboard.cpp" linenr="88" str=";" scope="0xdccc50"/>
+    <token id="0xdc7210" file="ardrone_keyboard.cpp" linenr="89" str="exit" scope="0xdccc50" type="name" astParent="0xdc72c0"/>
+    <token id="0xdc72c0" file="ardrone_keyboard.cpp" linenr="89" str="(" scope="0xdccc50" link="0xdc7420" astOperand1="0xdc7210" astOperand2="0xdc7370"/>
+    <token id="0xdc7370" file="ardrone_keyboard.cpp" linenr="89" str="0" scope="0xdccc50" type="number" isInt="True" values="0xdc7378" astParent="0xdc72c0"/>
+    <token id="0xdc7420" file="ardrone_keyboard.cpp" linenr="89" str=")" scope="0xdccc50" link="0xdc72c0"/>
+    <token id="0xdc74d0" file="ardrone_keyboard.cpp" linenr="89" str=";" scope="0xdccc50"/>
+    <token id="0xdc7580" file="ardrone_keyboard.cpp" linenr="90" str="}" scope="0xdccc50" link="0xdc41c0"/>
+    <token id="0xdc7630" file="ardrone_keyboard.cpp" linenr="91" str="else" scope="0xdccb00" type="name"/>
+    <token id="0xdcbf80" file="ardrone_keyboard.cpp" linenr="91" str="{" scope="0xdcd020" link="0xdcc030"/>
+    <token id="0xdc76e0" file="ardrone_keyboard.cpp" linenr="91" str="if" scope="0xdcd020" type="name" astParent="0xdc7790"/>
+    <token id="0xdc7790" file="ardrone_keyboard.cpp" linenr="91" str="(" scope="0xdcd020" link="0xdc7d10" astOperand1="0xdc76e0" astOperand2="0xdc7a50"/>
+    <token id="0xdc7840" file="ardrone_keyboard.cpp" linenr="91" str="c" scope="0xdcd020" type="name" varId="14" variable="0xdcd870" astParent="0xdc78f0"/>
+    <token id="0xdc78f0" file="ardrone_keyboard.cpp" linenr="91" str="==" scope="0xdcd020" type="op" isComparisonOp="True" astParent="0xdc7a50" astOperand1="0xdc7840" astOperand2="0xdc79a0"/>
+    <token id="0xdc79a0" file="ardrone_keyboard.cpp" linenr="91" str="'r'" scope="0xdcd020" type="char" values="0xdc79a8" astParent="0xdc78f0"/>
+    <token id="0xdc7a50" file="ardrone_keyboard.cpp" linenr="91" str="||" scope="0xdcd020" type="op" isLogicalOp="True" astParent="0xdc7790" astOperand1="0xdc78f0" astOperand2="0xdc7bb0"/>
+    <token id="0xdc7b00" file="ardrone_keyboard.cpp" linenr="91" str="c" scope="0xdcd020" type="name" varId="14" variable="0xdcd870" astParent="0xdc7bb0"/>
+    <token id="0xdc7bb0" file="ardrone_keyboard.cpp" linenr="91" str="==" scope="0xdcd020" type="op" isComparisonOp="True" astParent="0xdc7a50" astOperand1="0xdc7b00" astOperand2="0xdc7c60"/>
+    <token id="0xdc7c60" file="ardrone_keyboard.cpp" linenr="91" str="'R'" scope="0xdcd020" type="char" values="0xdc7c68" astParent="0xdc7bb0"/>
+    <token id="0xdc7d10" file="ardrone_keyboard.cpp" linenr="91" str=")" scope="0xdcd020" link="0xdc7790"/>
+    <token id="0xdc7dc0" file="ardrone_keyboard.cpp" linenr="92" str="{" scope="0xdcd170" link="0xdcae10"/>
+    <token id="0xdc7e70" file="ardrone_keyboard.cpp" linenr="93" str="std" scope="0xdcd170" type="name" astParent="0xdc7f20"/>
+    <token id="0xdc7f20" file="ardrone_keyboard.cpp" linenr="93" str="::" scope="0xdcd170" astParent="0xdc8080" astOperand1="0xdc7e70" astOperand2="0xdc7fd0"/>
+    <token id="0xdc7fd0" file="ardrone_keyboard.cpp" linenr="93" str="cout" scope="0xdcd170" type="name" astParent="0xdc7f20"/>
+    <token id="0xdc8080" file="ardrone_keyboard.cpp" linenr="93" str="&lt;&lt;" scope="0xdcd170" type="op" isArithmeticalOp="True" astParent="0xdc81e0" astOperand1="0xdc7f20" astOperand2="0xdc8130"/>
+    <token id="0xdc8130" file="ardrone_keyboard.cpp" linenr="93" str="&quot;emergency&quot;" scope="0xdcd170" type="string" strlen="9" values="0xdc8138" astParent="0xdc8080"/>
+    <token id="0xdc81e0" file="ardrone_keyboard.cpp" linenr="93" str="&lt;&lt;" scope="0xdcd170" type="op" isArithmeticalOp="True" astOperand1="0xdc8080" astOperand2="0xdc8340"/>
+    <token id="0xdc8290" file="ardrone_keyboard.cpp" linenr="93" str="std" scope="0xdcd170" type="name" astParent="0xdc8340"/>
+    <token id="0xdc8340" file="ardrone_keyboard.cpp" linenr="93" str="::" scope="0xdcd170" astParent="0xdc81e0" astOperand1="0xdc8290" astOperand2="0xdc83f0"/>
+    <token id="0xdc83f0" file="ardrone_keyboard.cpp" linenr="93" str="endl" scope="0xdcd170" type="name" astParent="0xdc8340"/>
+    <token id="0xdc84a0" file="ardrone_keyboard.cpp" linenr="93" str=";" scope="0xdcd170"/>
+    <token id="0xdc8550" file="ardrone_keyboard.cpp" linenr="95" str="double" scope="0xdcd170" type="name"/>
+    <token id="0xdc8600" file="ardrone_keyboard.cpp" linenr="95" str="time_start" scope="0xdcd170" type="name" varId="17" variable="0xdcd9c0"/>
+    <token id="0xdc86b0" file="ardrone_keyboard.cpp" linenr="95" str=";" scope="0xdcd170"/>
+    <token id="0xdcbe20" file="ardrone_keyboard.cpp" linenr="95" str="time_start" scope="0xdcd170" type="name" varId="17" variable="0xdcd9c0" astParent="0xdcbed0"/>
+    <token id="0xdcbed0" file="ardrone_keyboard.cpp" linenr="95" str="=" scope="0xdcd170" type="op" isAssignmentOp="True" astOperand1="0xdcbe20" astOperand2="0xdc8760"/>
+    <token id="0xdc8760" file="ardrone_keyboard.cpp" linenr="95" str="(" scope="0xdcd170" link="0xdc88c0" astParent="0xdcbed0" astOperand1="0xdc8fa0"/>
+    <token id="0xdc8810" file="ardrone_keyboard.cpp" linenr="95" str="double" scope="0xdcd170" type="name"/>
+    <token id="0xdc88c0" file="ardrone_keyboard.cpp" linenr="95" str=")" scope="0xdcd170" link="0xdc8760"/>
+    <token id="0xdc8970" file="ardrone_keyboard.cpp" linenr="95" str="ros" scope="0xdcd170" type="name" astParent="0xdc8a20"/>
+    <token id="0xdc8a20" file="ardrone_keyboard.cpp" linenr="95" str="::" scope="0xdcd170" astParent="0xdc8b80" astOperand1="0xdc8970" astOperand2="0xdc8ad0"/>
+    <token id="0xdc8ad0" file="ardrone_keyboard.cpp" linenr="95" str="Time" scope="0xdcd170" type="name" astParent="0xdc8a20"/>
+    <token id="0xdc8b80" file="ardrone_keyboard.cpp" linenr="95" str="::" scope="0xdcd170" astParent="0xdc8ce0" astOperand1="0xdc8a20" astOperand2="0xdc8c30"/>
+    <token id="0xdc8c30" file="ardrone_keyboard.cpp" linenr="95" str="now" scope="0xdcd170" type="name" astParent="0xdc8b80"/>
+    <token id="0xdc8ce0" file="ardrone_keyboard.cpp" linenr="95" str="(" scope="0xdcd170" link="0xdc8d90" astParent="0xdc8e40" astOperand1="0xdc8b80"/>
+    <token id="0xdc8d90" file="ardrone_keyboard.cpp" linenr="95" str=")" scope="0xdcd170" link="0xdc8ce0"/>
+    <token id="0xdc8e40" file="ardrone_keyboard.cpp" linenr="95" str="." scope="0xdcd170" astParent="0xdc8fa0" astOperand1="0xdc8ce0" astOperand2="0xdc8ef0"/>
+    <token id="0xdc8ef0" file="ardrone_keyboard.cpp" linenr="95" str="toSec" scope="0xdcd170" type="name" astParent="0xdc8e40"/>
+    <token id="0xdc8fa0" file="ardrone_keyboard.cpp" linenr="95" str="(" scope="0xdcd170" link="0xdc9050" astParent="0xdc8760" astOperand1="0xdc8e40"/>
+    <token id="0xdc9050" file="ardrone_keyboard.cpp" linenr="95" str=")" scope="0xdcd170" link="0xdc8fa0"/>
+    <token id="0xdc9100" file="ardrone_keyboard.cpp" linenr="95" str=";" scope="0xdcd170"/>
+    <token id="0xdc91b0" file="ardrone_keyboard.cpp" linenr="96" str="while" scope="0xdcd170" type="name" astParent="0xdc9260"/>
+    <token id="0xdc9260" file="ardrone_keyboard.cpp" linenr="96" str="(" scope="0xdcd170" link="0xdc9f70" astOperand1="0xdc91b0" astOperand2="0xdc9cb0"/>
+    <token id="0xdc9310" file="ardrone_keyboard.cpp" linenr="96" str="(" scope="0xdcd170" link="0xdc9470" astParent="0xdc9cb0" astOperand1="0xdc9b50"/>
+    <token id="0xdc93c0" file="ardrone_keyboard.cpp" linenr="96" str="double" scope="0xdcd170" type="name"/>
+    <token id="0xdc9470" file="ardrone_keyboard.cpp" linenr="96" str=")" scope="0xdcd170" link="0xdc9310"/>
+    <token id="0xdc9520" file="ardrone_keyboard.cpp" linenr="96" str="ros" scope="0xdcd170" type="name" astParent="0xdc95d0"/>
+    <token id="0xdc95d0" file="ardrone_keyboard.cpp" linenr="96" str="::" scope="0xdcd170" astParent="0xdc9730" astOperand1="0xdc9520" astOperand2="0xdc9680"/>
+    <token id="0xdc9680" file="ardrone_keyboard.cpp" linenr="96" str="Time" scope="0xdcd170" type="name" astParent="0xdc95d0"/>
+    <token id="0xdc9730" file="ardrone_keyboard.cpp" linenr="96" str="::" scope="0xdcd170" astParent="0xdc9890" astOperand1="0xdc95d0" astOperand2="0xdc97e0"/>
+    <token id="0xdc97e0" file="ardrone_keyboard.cpp" linenr="96" str="now" scope="0xdcd170" type="name" astParent="0xdc9730"/>
+    <token id="0xdc9890" file="ardrone_keyboard.cpp" linenr="96" str="(" scope="0xdcd170" link="0xdc9940" astParent="0xdc99f0" astOperand1="0xdc9730"/>
+    <token id="0xdc9940" file="ardrone_keyboard.cpp" linenr="96" str=")" scope="0xdcd170" link="0xdc9890"/>
+    <token id="0xdc99f0" file="ardrone_keyboard.cpp" linenr="96" str="." scope="0xdcd170" astParent="0xdc9b50" astOperand1="0xdc9890" astOperand2="0xdc9aa0"/>
+    <token id="0xdc9aa0" file="ardrone_keyboard.cpp" linenr="96" str="toSec" scope="0xdcd170" type="name" astParent="0xdc99f0"/>
+    <token id="0xdc9b50" file="ardrone_keyboard.cpp" linenr="96" str="(" scope="0xdcd170" link="0xdc9c00" astParent="0xdc9310" astOperand1="0xdc99f0"/>
+    <token id="0xdc9c00" file="ardrone_keyboard.cpp" linenr="96" str=")" scope="0xdcd170" link="0xdc9b50"/>
+    <token id="0xdc9cb0" file="ardrone_keyboard.cpp" linenr="96" str="&lt;" scope="0xdcd170" type="op" isComparisonOp="True" astParent="0xdc9260" astOperand1="0xdc9310" astOperand2="0xdc9e10"/>
+    <token id="0xdc9d60" file="ardrone_keyboard.cpp" linenr="96" str="time_start" scope="0xdcd170" type="name" varId="17" variable="0xdcd9c0" astParent="0xdc9e10"/>
+    <token id="0xdc9e10" file="ardrone_keyboard.cpp" linenr="96" str="+" scope="0xdcd170" type="op" isArithmeticalOp="True" astParent="0xdc9cb0" astOperand1="0xdc9d60" astOperand2="0xdc9ec0"/>
+    <token id="0xdc9ec0" file="ardrone_keyboard.cpp" linenr="96" str="1.0" scope="0xdcd170" type="number" isFloat="True" astParent="0xdc9e10"/>
+    <token id="0xdc9f70" file="ardrone_keyboard.cpp" linenr="96" str=")" scope="0xdcd170" link="0xdc9260"/>
+    <token id="0xdca020" file="ardrone_keyboard.cpp" linenr="97" str="{" scope="0xdcd2c0" link="0xdca9c0"/>
+    <token id="0xdca0d0" file="ardrone_keyboard.cpp" linenr="98" str="eme_pub" scope="0xdcd2c0" type="name" varId="12" variable="0xdcd790" astParent="0xdca180"/>
+    <token id="0xdca180" file="ardrone_keyboard.cpp" linenr="98" str="." scope="0xdcd2c0" astParent="0xdca2e0" astOperand1="0xdca0d0" astOperand2="0xdca230"/>
+    <token id="0xdca230" file="ardrone_keyboard.cpp" linenr="98" str="publish" scope="0xdcd2c0" type="name" astParent="0xdca180"/>
+    <token id="0xdca2e0" file="ardrone_keyboard.cpp" linenr="98" str="(" scope="0xdcd2c0" link="0xdca440" astOperand1="0xdca180" astOperand2="0xdca390"/>
+    <token id="0xdca390" file="ardrone_keyboard.cpp" linenr="98" str="msg" scope="0xdcd2c0" type="name" varId="9" variable="0xdcd640" astParent="0xdca2e0"/>
+    <token id="0xdca440" file="ardrone_keyboard.cpp" linenr="98" str=")" scope="0xdcd2c0" link="0xdca2e0"/>
+    <token id="0xdca4f0" file="ardrone_keyboard.cpp" linenr="98" str=";" scope="0xdcd2c0"/>
+    <token id="0xdca5a0" file="ardrone_keyboard.cpp" linenr="99" str="ros" scope="0xdcd2c0" type="name" astParent="0xdca650"/>
+    <token id="0xdca650" file="ardrone_keyboard.cpp" linenr="99" str="::" scope="0xdcd2c0" astParent="0xdca7b0" astOperand1="0xdca5a0" astOperand2="0xdca700"/>
+    <token id="0xdca700" file="ardrone_keyboard.cpp" linenr="99" str="spinOnce" scope="0xdcd2c0" type="name" astParent="0xdca650"/>
+    <token id="0xdca7b0" file="ardrone_keyboard.cpp" linenr="99" str="(" scope="0xdcd2c0" link="0xdca860" astOperand1="0xdca650"/>
+    <token id="0xdca860" file="ardrone_keyboard.cpp" linenr="99" str=")" scope="0xdcd2c0" link="0xdca7b0"/>
+    <token id="0xdca910" file="ardrone_keyboard.cpp" linenr="99" str=";" scope="0xdcd2c0"/>
+    <token id="0xdca9c0" file="ardrone_keyboard.cpp" linenr="100" str="}" scope="0xdcd2c0" link="0xdca020"/>
+    <token id="0xdcaa70" file="ardrone_keyboard.cpp" linenr="101" str="ROS_INFO" scope="0xdcd170" type="name" astParent="0xdcab20"/>
+    <token id="0xdcab20" file="ardrone_keyboard.cpp" linenr="101" str="(" scope="0xdcd170" link="0xdcacb0" astOperand1="0xdcaa70" astOperand2="0xdcabd0"/>
+    <token id="0xdcabd0" file="ardrone_keyboard.cpp" linenr="101" str="&quot;ARdrone switch&quot;" scope="0xdcd170" type="string" strlen="14" values="0xdcabd8" astParent="0xdcab20"/>
+    <token id="0xdcacb0" file="ardrone_keyboard.cpp" linenr="101" str=")" scope="0xdcd170" link="0xdcab20"/>
+    <token id="0xdcad60" file="ardrone_keyboard.cpp" linenr="101" str=";" scope="0xdcd170"/>
+    <token id="0xdcae10" file="ardrone_keyboard.cpp" linenr="102" str="}" scope="0xdcd170" link="0xdc7dc0"/>
+    <token id="0xdcc030" file="ardrone_keyboard.cpp" linenr="102" str="}" scope="0xdcd020" link="0xdcbf80"/>
+    <token id="0xdcb0d0" file="ardrone_keyboard.cpp" linenr="102" str="}" scope="0xdccb00" link="0xdcb020"/>
+    <token id="0xdcaec0" file="ardrone_keyboard.cpp" linenr="103" str="}" scope="0xdcc5e0" link="0xdbebc0"/>
+    <token id="0xdcaf70" file="ardrone_keyboard.cpp" linenr="105" str="}" scope="0xdcc490" link="0xdba010"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xdcc0f0" type="Global">
+      <functionList>
+        <function id="0xdcc220" tokenDef="0xdb3e10" name="getch"/>
+        <function id="0xdcc3f0" tokenDef="0xdb9930" name="main">
+          <arg nr="1" variable="0xdcda30"/>
+          <arg nr="2" variable="0xdcdaa0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xdcc2c0" type="Function" className="getch" classStart="0xdb4020" classEnd="0xdb97d0" nestedIn="0xdcc0f0" function="0xdcc220">
+      <varlist>
+        <var id="0xdcd410"/>
+        <var id="0xdcd480"/>
+        <var id="0xdcd4f0"/>
+      </varlist>
+    </scope>
+    <scope id="0xdcc490" type="Function" className="main" classStart="0xdba010" classEnd="0xdcaf70" nestedIn="0xdcc0f0" function="0xdcc3f0">
+      <varlist>
+        <var id="0xdcd560"/>
+        <var id="0xdcd5d0"/>
+        <var id="0xdcd640"/>
+        <var id="0xdcd6b0"/>
+        <var id="0xdcd720"/>
+        <var id="0xdcd790"/>
+        <var id="0xdcd800"/>
+      </varlist>
+    </scope>
+    <scope id="0xdcc5e0" type="While" classStart="0xdbebc0" classEnd="0xdcaec0" nestedIn="0xdcc490">
+      <varlist>
+        <var id="0xdcd870"/>
+      </varlist>
+    </scope>
+    <scope id="0xdcc730" type="If" classStart="0xdbf820" classEnd="0xdc3980" nestedIn="0xdcc5e0">
+      <varlist>
+        <var id="0xdcd8e0"/>
+      </varlist>
+    </scope>
+    <scope id="0xdcc880" type="While" classStart="0xdc2450" classEnd="0xdc3530" nestedIn="0xdcc730"/>
+    <scope id="0xdcc9d0" type="Else" classStart="0xdcb020" classEnd="0xdcb0d0" nestedIn="0xdcc5e0"/>
+    <scope id="0xdccb00" type="Try" classStart="0xdcb020" classEnd="0xdcb0d0" nestedIn="0xdcc5e0"/>
+    <scope id="0xdccc50" type="If" classStart="0xdc41c0" classEnd="0xdc7580" nestedIn="0xdccb00">
+      <varlist>
+        <var id="0xdcd950"/>
+      </varlist>
+    </scope>
+    <scope id="0xdccda0" type="While" classStart="0xdc6420" classEnd="0xdc6dc0" nestedIn="0xdccc50"/>
+    <scope id="0xdccef0" type="Else" classStart="0xdcbf80" classEnd="0xdcc030" nestedIn="0xdccb00"/>
+    <scope id="0xdcd020" type="Try" classStart="0xdcbf80" classEnd="0xdcc030" nestedIn="0xdccb00"/>
+    <scope id="0xdcd170" type="If" classStart="0xdc7dc0" classEnd="0xdcae10" nestedIn="0xdcd020">
+      <varlist>
+        <var id="0xdcd9c0"/>
+      </varlist>
+    </scope>
+    <scope id="0xdcd2c0" type="While" classStart="0xdca020" classEnd="0xdca9c0" nestedIn="0xdcd170"/>
+  </scopes>
+  <variables>
+    <var id="0xdcd410" nameToken="0xdb42e0" typeStartToken="0xdb4180" typeEndToken="0xdb4230" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="0xdcd480" nameToken="0xdb4440" typeStartToken="0xdb3a20" typeEndToken="0xdb3ad0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="0xdcd4f0" nameToken="0xdb83e0" typeStartToken="0xdb8330" typeEndToken="0xdb8330" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcda30" nameToken="0xdb9b40" typeStartToken="0xdb9a90" typeEndToken="0xdb9a90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcdaa0" nameToken="0xdb9eb0" typeStartToken="0xdb9ca0" typeEndToken="0xdb9e00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xdcd560" nameToken="0xdbaa60" typeStartToken="0xdba850" typeEndToken="0xdba9b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd5d0" nameToken="0xdbadd0" typeStartToken="0xdbabc0" typeEndToken="0xdbad20" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd640" nameToken="0xdbb140" typeStartToken="0xdbaf30" typeEndToken="0xdbb090" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd6b0" nameToken="0xdbb4b0" typeStartToken="0xdbb2a0" typeEndToken="0xdbb400" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd720" nameToken="0xdbc1f0" typeStartToken="0xdbbfe0" typeEndToken="0xdbc140" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd790" nameToken="0xdbcf00" typeStartToken="0xdbccf0" typeEndToken="0xdbce50" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd800" nameToken="0xdbdc10" typeStartToken="0xdbda00" typeEndToken="0xdbdb60" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd870" nameToken="0xdbed20" typeStartToken="0xdbec70" typeEndToken="0xdbec70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd8e0" nameToken="0xdc0060" typeStartToken="0xdbffb0" typeEndToken="0xdbffb0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd950" nameToken="0xdc4a00" typeStartToken="0xdc4950" typeEndToken="0xdc4950" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdcd9c0" nameToken="0xdc8600" typeStartToken="0xdc8550" typeEndToken="0xdc8550" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xdba648">
+      <value tokvalue="0xdba640" known="true"/>
+    </values>
+    <values id="0xdbbc48">
+      <value tokvalue="0xdbbc40" known="true"/>
+    </values>
+    <values id="0xdbbdd8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdbc988">
+      <value tokvalue="0xdbc980" known="true"/>
+    </values>
+    <values id="0xdbcae8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdbd698">
+      <value tokvalue="0xdbd690" known="true"/>
+    </values>
+    <values id="0xdbd7f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdbe408">
+      <value tokvalue="0xdbe400" known="true"/>
+    </values>
+    <values id="0xdbf408">
+      <value intvalue="116" known="true"/>
+    </values>
+    <values id="0xdbf6c8">
+      <value intvalue="84" known="true"/>
+    </values>
+    <values id="0xdbfb98">
+      <value tokvalue="0xdbfb90" known="true"/>
+    </values>
+    <values id="0xdc27f8">
+      <value tokvalue="0xdc27f0" known="true"/>
+    </values>
+    <values id="0xdc3748">
+      <value tokvalue="0xdc3740" known="true"/>
+    </values>
+    <values id="0xdc3da8">
+      <value intvalue="108" known="true"/>
+    </values>
+    <values id="0xdc4068">
+      <value intvalue="76" known="true"/>
+    </values>
+    <values id="0xdc4538">
+      <value tokvalue="0xdc4530" known="true"/>
+    </values>
+    <values id="0xdc6fd8">
+      <value tokvalue="0xdc6fd0" known="true"/>
+    </values>
+    <values id="0xdc7378">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdc79a8">
+      <value intvalue="114" known="true"/>
+    </values>
+    <values id="0xdc7c68">
+      <value intvalue="82" known="true"/>
+    </values>
+    <values id="0xdc8138">
+      <value tokvalue="0xdc8130" known="true"/>
+    </values>
+    <values id="0xdcabd8">
+      <value tokvalue="0xdcabd0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

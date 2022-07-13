@@ -1,0 +1,1533 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0xdb61a0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="13" str="class" scope="0xde8640" type="name"/>
+    <token id="0xdb6250" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="13" str="WaypointNavigator" scope="0xde8640" type="name" type-scope="0xde8770"/>
+    <token id="0xdb6300" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="14" str="{" scope="0xde8770" link="0xdb9470"/>
+    <token id="0xdb63b0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="15" str="public:" scope="0xde8770" type="name"/>
+    <token id="0xdb65b0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="WaypointNavigator" scope="0xde8770" type="name" function="0xdb2d40" astParent="0xdb6660"/>
+    <token id="0xdb6660" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="(" scope="0xde8770" link="0xdb69d0" astOperand1="0xdb65b0" astOperand2="0xdb67c0"/>
+    <token id="0xdb6710" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="ros" scope="0xde8770" type="name" astParent="0xdb67c0"/>
+    <token id="0xdb67c0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="::" scope="0xde8770" astParent="0xdb6660" astOperand1="0xdb6710" astOperand2="0xdb6920"/>
+    <token id="0xdb6870" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="NodeHandle" scope="0xde8770" type="name"/>
+    <token id="0xdb6920" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str="nh" scope="0xde8770" type="name" varId="1" astParent="0xdb67c0"/>
+    <token id="0xdb69d0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str=")" scope="0xde8770" link="0xdb6660"/>
+    <token id="0xdb6a80" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="16" str=";" scope="0xde8770"/>
+    <token id="0xdb6b30" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="18" str="private:" scope="0xde8770" type="name"/>
+    <token id="0xdb6c90" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="19" str="ros" scope="0xde8770" type="name" astParent="0xdb6d40"/>
+    <token id="0xdb6d40" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="19" str="::" scope="0xde8770" astOperand1="0xdb6c90" astOperand2="0xdb6ea0"/>
+    <token id="0xdb6df0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="19" str="NodeHandle" scope="0xde8770" type="name"/>
+    <token id="0xdb6ea0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="19" str="n_" scope="0xde8770" type="name" varId="2" variable="0xdeb470" astParent="0xdb6d40"/>
+    <token id="0xdb6f50" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="19" str=";" scope="0xde8770"/>
+    <token id="0xdb7000" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="20" str="ros" scope="0xde8770" type="name" astParent="0xdb70b0"/>
+    <token id="0xdb70b0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="20" str="::" scope="0xde8770" astOperand1="0xdb7000" astOperand2="0xdb7210"/>
+    <token id="0xdb7160" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="20" str="Publisher" scope="0xde8770" type="name"/>
+    <token id="0xdb7210" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="20" str="cmd_vel_pub_" scope="0xde8770" type="name" varId="3" variable="0xdeb4e0" astParent="0xdb70b0"/>
+    <token id="0xdb72c0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="20" str=";" scope="0xde8770"/>
+    <token id="0xdb7370" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="21" str="ros" scope="0xde8770" type="name" astParent="0xdb7420"/>
+    <token id="0xdb7420" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="21" str="::" scope="0xde8770" astOperand1="0xdb7370" astOperand2="0xdb7580"/>
+    <token id="0xdb74d0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="21" str="Subscriber" scope="0xde8770" type="name"/>
+    <token id="0xdb7580" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="21" str="odom_sub_" scope="0xde8770" type="name" varId="4" variable="0xdeb550" astParent="0xdb7420"/>
+    <token id="0xdb7630" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="21" str=";" scope="0xde8770"/>
+    <token id="0xdb76e0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="std" scope="0xde8770" type="name" astParent="0xdb7790"/>
+    <token id="0xdb7790" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="::" scope="0xde8770" astOperand1="0xdb76e0" astOperand2="0xdb7840"/>
+    <token id="0xdb7840" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="vector" scope="0xde8770" type="name" astParent="0xdb7790"/>
+    <token id="0xdb78f0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="&lt;" scope="0xde8770" link="0xdb7bb0"/>
+    <token id="0xdb79a0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="geometry_msgs" scope="0xde8770" type="name"/>
+    <token id="0xdb7a50" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="::" scope="0xde8770"/>
+    <token id="0xdb7b00" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="Point" scope="0xde8770" type="name"/>
+    <token id="0xdb7bb0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="&gt;" scope="0xde8770" link="0xdb78f0"/>
+    <token id="0xdb7c60" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str="waypoints_" scope="0xde8770" type="name" varId="5" variable="0xdeb5c0"/>
+    <token id="0xdb7d10" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="23" str=";" scope="0xde8770"/>
+    <token id="0xdb7dc0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str="double" scope="0xde8770" type="name"/>
+    <token id="0xdb7e70" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str="lin_vel_" scope="0xde8770" type="name" varId="6" variable="0xdeb630"/>
+    <token id="0xdb7f20" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str=";" scope="0xde8770"/>
+    <token id="0xdda430" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str="double" scope="0xde8770" type="name"/>
+    <token id="0xdb7fd0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str="look_ahead_" scope="0xde8770" type="name" varId="7" variable="0xdeb6a0"/>
+    <token id="0xdb8080" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="24" str=";" scope="0xde8770"/>
+    <token id="0xdb8130" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str="int" scope="0xde8770" type="name"/>
+    <token id="0xdb81e0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str="next_waypoint_" scope="0xde8770" type="name" varId="8" variable="0xdeb710"/>
+    <token id="0xdb8290" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str=";" scope="0xde8770"/>
+    <token id="0xdda7a0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str="int" scope="0xde8770" type="name"/>
+    <token id="0xdb8340" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str="last_waypoint_" scope="0xde8770" type="name" varId="9" variable="0xdeb780"/>
+    <token id="0xdb83f0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="25" str=";" scope="0xde8770"/>
+    <token id="0xdb84a0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="void" scope="0xde8770" type="name"/>
+    <token id="0xdb8550" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="cb_odom" scope="0xde8770" type="name" function="0xde88e0" astParent="0xdb8600"/>
+    <token id="0xdb8600" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="(" scope="0xde8770" link="0xdb8970" astOperand1="0xdb8550" astOperand2="0xdb8760"/>
+    <token id="0xdb86b0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="nav_msgs" scope="0xde8770" type="name" astParent="0xdb8760"/>
+    <token id="0xdb8760" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="::" scope="0xde8770" astParent="0xdb8600" astOperand1="0xdb86b0" astOperand2="0xdb88c0"/>
+    <token id="0xdb8810" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="Odometry" scope="0xde8770" type="name"/>
+    <token id="0xdb88c0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str="msg" scope="0xde8770" type="name" varId="10" astParent="0xdb8760"/>
+    <token id="0xdb8970" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str=")" scope="0xde8770" link="0xdb8600"/>
+    <token id="0xdb8a20" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="27" str=";" scope="0xde8770"/>
+    <token id="0xdb8ad0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="double" scope="0xde8770" type="name"/>
+    <token id="0xdb8b80" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="distance" scope="0xde8770" type="name" function="0xde8980" astParent="0xdb8c30"/>
+    <token id="0xdb8c30" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="(" scope="0xde8770" link="0xdb9310" astOperand1="0xdb8b80" astOperand2="0xdb8fa0"/>
+    <token id="0xdb8ce0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="geometry_msgs" scope="0xde8770" type="name" astParent="0xdb8d90"/>
+    <token id="0xdb8d90" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="::" scope="0xde8770" astParent="0xdb8fa0" astOperand1="0xdb8ce0" astOperand2="0xdb8ef0"/>
+    <token id="0xdb8e40" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="Point" scope="0xde8770" type="name"/>
+    <token id="0xdb8ef0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="p1" scope="0xde8770" type="name" varId="11" astParent="0xdb8d90"/>
+    <token id="0xdb8fa0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="," scope="0xde8770" astParent="0xdb8c30" astOperand1="0xdb8d90" astOperand2="0xdb9100"/>
+    <token id="0xdb9050" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="geometry_msgs" scope="0xde8770" type="name" astParent="0xdb9100"/>
+    <token id="0xdb9100" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="::" scope="0xde8770" astParent="0xdb8fa0" astOperand1="0xdb9050" astOperand2="0xdb9260"/>
+    <token id="0xdb91b0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="Point" scope="0xde8770" type="name"/>
+    <token id="0xdb9260" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str="p2" scope="0xde8770" type="name" varId="12" astParent="0xdb9100"/>
+    <token id="0xdb9310" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str=")" scope="0xde8770" link="0xdb8c30"/>
+    <token id="0xdb93c0" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="28" str=";" scope="0xde8770"/>
+    <token id="0xdb9470" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="29" str="}" scope="0xde8770" link="0xdb6300"/>
+    <token id="0xdb9520" file="../include/ml_follow_pioneer/waypoint_navigator.h" linenr="29" str=";" scope="0xde8640"/>
+    <token id="0xdb95d0" file="waypoint_navigator.cpp" linenr="3" str="WaypointNavigator" scope="0xde8640" type="name" type-scope="0xde8770" astParent="0xdb96b0"/>
+    <token id="0xdb96b0" file="waypoint_navigator.cpp" linenr="3" str="::" scope="0xde8640" astParent="0xdb9840" astOperand1="0xdb95d0" astOperand2="0xdb9760"/>
+    <token id="0xdb9760" file="waypoint_navigator.cpp" linenr="3" str="WaypointNavigator" scope="0xde8640" type="name" function="0xdb2d40" astParent="0xdb96b0"/>
+    <token id="0xdb9840" file="waypoint_navigator.cpp" linenr="3" str="(" scope="0xde8640" link="0xdb9bb0" astOperand1="0xdb96b0" astOperand2="0xdb99a0"/>
+    <token id="0xdb98f0" file="waypoint_navigator.cpp" linenr="3" str="ros" scope="0xde8640" type="name" astParent="0xdb99a0"/>
+    <token id="0xdb99a0" file="waypoint_navigator.cpp" linenr="3" str="::" scope="0xde8640" astParent="0xdb9840" astOperand1="0xdb98f0" astOperand2="0xdb9b00"/>
+    <token id="0xdb9a50" file="waypoint_navigator.cpp" linenr="3" str="NodeHandle" scope="0xde8640" type="name"/>
+    <token id="0xdb9b00" file="waypoint_navigator.cpp" linenr="3" str="nh" scope="0xde8640" type="name" varId="13" variable="0xdec300" astParent="0xdb99a0"/>
+    <token id="0xdb9bb0" file="waypoint_navigator.cpp" linenr="3" str=")" scope="0xde8640" link="0xdb9840"/>
+    <token id="0xdb9c60" file="waypoint_navigator.cpp" linenr="4" str="{" scope="0xde8a50" link="0xdc5b80"/>
+    <token id="0xdb9d10" file="waypoint_navigator.cpp" linenr="5" str="n_" scope="0xde8a50" type="name" varId="2" variable="0xdeb470" astParent="0xdb9dc0"/>
+    <token id="0xdb9dc0" file="waypoint_navigator.cpp" linenr="5" str="=" scope="0xde8a50" type="op" isAssignmentOp="True" astOperand1="0xdb9d10" astOperand2="0xdb9e70"/>
+    <token id="0xdb9e70" file="waypoint_navigator.cpp" linenr="5" str="nh" scope="0xde8a50" type="name" varId="13" variable="0xdec300" astParent="0xdb9dc0"/>
+    <token id="0xdb9f20" file="waypoint_navigator.cpp" linenr="5" str=";" scope="0xde8a50"/>
+    <token id="0xdb9fd0" file="waypoint_navigator.cpp" linenr="6" str="ros" scope="0xde8a50" type="name" astParent="0xdba080"/>
+    <token id="0xdba080" file="waypoint_navigator.cpp" linenr="6" str="::" scope="0xde8a50" astParent="0xdba290" astOperand1="0xdb9fd0" astOperand2="0xdba1e0"/>
+    <token id="0xdba130" file="waypoint_navigator.cpp" linenr="6" str="NodeHandle" scope="0xde8a50" type="name"/>
+    <token id="0xdba1e0" file="waypoint_navigator.cpp" linenr="6" str="n_private" scope="0xde8a50" type="name" varId="14" variable="0xdeb7f0" astParent="0xdba080"/>
+    <token id="0xdba290" file="waypoint_navigator.cpp" linenr="6" str="(" scope="0xde8a50" link="0xdba3f0" astOperand1="0xdba080" astOperand2="0xdba340"/>
+    <token id="0xdba340" file="waypoint_navigator.cpp" linenr="6" str="&quot;x&quot;" scope="0xde8a50" type="string" strlen="1" values="0xdba348" astParent="0xdba290"/>
+    <token id="0xdba3f0" file="waypoint_navigator.cpp" linenr="6" str=")" scope="0xde8a50" link="0xdba290"/>
+    <token id="0xdba4a0" file="waypoint_navigator.cpp" linenr="6" str=";" scope="0xde8a50"/>
+    <token id="0xdba550" file="waypoint_navigator.cpp" linenr="8" str="if" scope="0xde8a50" type="name" astParent="0xdba600"/>
+    <token id="0xdba600" file="waypoint_navigator.cpp" linenr="8" str="(" scope="0xde8a50" link="0xdbaad0" astOperand1="0xdba550" astOperand2="0xdba8c0"/>
+    <token id="0xdba6b0" file="waypoint_navigator.cpp" linenr="8" str="n_private" scope="0xde8a50" type="name" varId="14" variable="0xdeb7f0" astParent="0xdba760"/>
+    <token id="0xdba760" file="waypoint_navigator.cpp" linenr="8" str="." scope="0xde8a50" astParent="0xdba8c0" astOperand1="0xdba6b0" astOperand2="0xdba810"/>
+    <token id="0xdba810" file="waypoint_navigator.cpp" linenr="8" str="hasParam" scope="0xde8a50" type="name" astParent="0xdba760"/>
+    <token id="0xdba8c0" file="waypoint_navigator.cpp" linenr="8" str="(" scope="0xde8a50" link="0xdbaa20" astParent="0xdba600" astOperand1="0xdba760" astOperand2="0xdba970"/>
+    <token id="0xdba970" file="waypoint_navigator.cpp" linenr="8" str="&quot;waypoints&quot;" scope="0xde8a50" type="string" strlen="9" values="0xdba978" astParent="0xdba8c0"/>
+    <token id="0xdbaa20" file="waypoint_navigator.cpp" linenr="8" str=")" scope="0xde8a50" link="0xdba8c0"/>
+    <token id="0xdbaad0" file="waypoint_navigator.cpp" linenr="8" str=")" scope="0xde8a50" link="0xdba600"/>
+    <token id="0xdbab80" file="waypoint_navigator.cpp" linenr="9" str="{" scope="0xde8ba0" link="0xdc25b0"/>
+    <token id="0xdbac30" file="waypoint_navigator.cpp" linenr="10" str="XmlRpc" scope="0xde8ba0" type="name" astParent="0xdbace0"/>
+    <token id="0xdbace0" file="waypoint_navigator.cpp" linenr="10" str="::" scope="0xde8ba0" astOperand1="0xdbac30" astOperand2="0xdbae40"/>
+    <token id="0xdbad90" file="waypoint_navigator.cpp" linenr="10" str="XmlRpcValue" scope="0xde8ba0" type="name"/>
+    <token id="0xdbae40" file="waypoint_navigator.cpp" linenr="10" str="waypoints" scope="0xde8ba0" type="name" varId="15" variable="0xdeb860" astParent="0xdbace0"/>
+    <token id="0xdbaef0" file="waypoint_navigator.cpp" linenr="10" str=";" scope="0xde8ba0"/>
+    <token id="0xdbafa0" file="waypoint_navigator.cpp" linenr="11" str="n_private" scope="0xde8ba0" type="name" varId="14" variable="0xdeb7f0" astParent="0xdbb050"/>
+    <token id="0xdbb050" file="waypoint_navigator.cpp" linenr="11" str="." scope="0xde8ba0" astParent="0xdbb1b0" astOperand1="0xdbafa0" astOperand2="0xdbb100"/>
+    <token id="0xdbb100" file="waypoint_navigator.cpp" linenr="11" str="getParam" scope="0xde8ba0" type="name" astParent="0xdbb050"/>
+    <token id="0xdbb1b0" file="waypoint_navigator.cpp" linenr="11" str="(" scope="0xde8ba0" link="0xdbb470" astOperand1="0xdbb050" astOperand2="0xdbb310"/>
+    <token id="0xdbb260" file="waypoint_navigator.cpp" linenr="11" str="&quot;waypoints&quot;" scope="0xde8ba0" type="string" strlen="9" values="0xdbb268" astParent="0xdbb310"/>
+    <token id="0xdbb310" file="waypoint_navigator.cpp" linenr="11" str="," scope="0xde8ba0" astParent="0xdbb1b0" astOperand1="0xdbb260" astOperand2="0xdbb3c0"/>
+    <token id="0xdbb3c0" file="waypoint_navigator.cpp" linenr="11" str="waypoints" scope="0xde8ba0" type="name" varId="15" variable="0xdeb860" astParent="0xdbb310"/>
+    <token id="0xdbb470" file="waypoint_navigator.cpp" linenr="11" str=")" scope="0xde8ba0" link="0xdbb1b0"/>
+    <token id="0xdbb520" file="waypoint_navigator.cpp" linenr="11" str=";" scope="0xde8ba0"/>
+    <token id="0xdbb5d0" file="waypoint_navigator.cpp" linenr="12" str="if" scope="0xde8ba0" type="name" astParent="0xdbb680"/>
+    <token id="0xdbb680" file="waypoint_navigator.cpp" linenr="12" str="(" scope="0xde8ba0" link="0xdbceb0" astOperand1="0xdbb5d0" astOperand2="0xdbc9e0"/>
+    <token id="0xdbc670" file="waypoint_navigator.cpp" linenr="12" str="waypoints" scope="0xde8ba0" type="name" varId="15" variable="0xdeb860" astParent="0xdbc720"/>
+    <token id="0xdbc720" file="waypoint_navigator.cpp" linenr="12" str="." scope="0xde8ba0" astParent="0xdbc880" astOperand1="0xdbc670" astOperand2="0xdbc7d0"/>
+    <token id="0xdbc7d0" file="waypoint_navigator.cpp" linenr="12" str="getType" scope="0xde8ba0" type="name" astParent="0xdbc720"/>
+    <token id="0xdbc880" file="waypoint_navigator.cpp" linenr="12" str="(" scope="0xde8ba0" link="0xdbc930" astParent="0xdbc9e0" astOperand1="0xdbc720"/>
+    <token id="0xdbc930" file="waypoint_navigator.cpp" linenr="12" str=")" scope="0xde8ba0" link="0xdbc880"/>
+    <token id="0xdbc9e0" file="waypoint_navigator.cpp" linenr="12" str="!=" scope="0xde8ba0" type="op" isComparisonOp="True" astParent="0xdbb680" astOperand1="0xdbc880" astOperand2="0xdbcd50"/>
+    <token id="0xdbcb40" file="waypoint_navigator.cpp" linenr="12" str="XmlRpc" scope="0xde8ba0" type="name" astParent="0xdbcbf0"/>
+    <token id="0xdbcbf0" file="waypoint_navigator.cpp" linenr="12" str="::" scope="0xde8ba0" astParent="0xdbcd50" astOperand1="0xdbcb40" astOperand2="0xdbcca0"/>
+    <token id="0xdbcca0" file="waypoint_navigator.cpp" linenr="12" str="XmlRpcValue" scope="0xde8ba0" type="name" astParent="0xdbcbf0"/>
+    <token id="0xdbcd50" file="waypoint_navigator.cpp" linenr="12" str="::" scope="0xde8ba0" astParent="0xdbc9e0" astOperand1="0xdbcbf0" astOperand2="0xdbce00"/>
+    <token id="0xdbce00" file="waypoint_navigator.cpp" linenr="12" str="TypeArray" scope="0xde8ba0" type="name" astParent="0xdbcd50"/>
+    <token id="0xdbceb0" file="waypoint_navigator.cpp" linenr="12" str=")" scope="0xde8ba0" link="0xdbb680"/>
+    <token id="0xdbcf60" file="waypoint_navigator.cpp" linenr="13" str="{" scope="0xde8cf0" link="0xdbd770"/>
+    <token id="0xdbd010" file="waypoint_navigator.cpp" linenr="14" str="ROS_FATAL" scope="0xde8cf0" type="name" astParent="0xdbd0c0"/>
+    <token id="0xdbd0c0" file="waypoint_navigator.cpp" linenr="14" str="(" scope="0xde8cf0" link="0xdbd2a0" astOperand1="0xdbd010" astOperand2="0xdbd1f0"/>
+    <token id="0xdbd1f0" file="waypoint_navigator.cpp" linenr="14" str="&quot;Error reading waypoints: Not an array.&quot;" scope="0xde8cf0" type="string" strlen="38" values="0xdbd1f8" astParent="0xdbd0c0"/>
+    <token id="0xdbd2a0" file="waypoint_navigator.cpp" linenr="14" str=")" scope="0xde8cf0" link="0xdbd0c0"/>
+    <token id="0xdbd350" file="waypoint_navigator.cpp" linenr="14" str=";" scope="0xde8cf0"/>
+    <token id="0xdbd400" file="waypoint_navigator.cpp" linenr="15" str="exit" scope="0xde8cf0" type="name" astParent="0xdbd4b0"/>
+    <token id="0xdbd4b0" file="waypoint_navigator.cpp" linenr="15" str="(" scope="0xde8cf0" link="0xdbd610" astOperand1="0xdbd400" astOperand2="0xdbd560"/>
+    <token id="0xdbd560" file="waypoint_navigator.cpp" linenr="15" str="0" scope="0xde8cf0" type="number" isInt="True" values="0xdbd568" astParent="0xdbd4b0"/>
+    <token id="0xdbd610" file="waypoint_navigator.cpp" linenr="15" str=")" scope="0xde8cf0" link="0xdbd4b0"/>
+    <token id="0xdbd6c0" file="waypoint_navigator.cpp" linenr="15" str=";" scope="0xde8cf0"/>
+    <token id="0xdbd770" file="waypoint_navigator.cpp" linenr="16" str="}" scope="0xde8cf0" link="0xdbcf60"/>
+    <token id="0xdbd820" file="waypoint_navigator.cpp" linenr="18" str="int" scope="0xde8ba0" type="name"/>
+    <token id="0xdbd8d0" file="waypoint_navigator.cpp" linenr="18" str="size" scope="0xde8ba0" type="name" varId="16" variable="0xdeb8d0"/>
+    <token id="0xdbd980" file="waypoint_navigator.cpp" linenr="18" str=";" scope="0xde8ba0"/>
+    <token id="0xdbda30" file="waypoint_navigator.cpp" linenr="19" str="try" scope="0xde8ba0" type="name"/>
+    <token id="0xdbdae0" file="waypoint_navigator.cpp" linenr="20" str="{" scope="0xde8e40" link="0xdbe110"/>
+    <token id="0xdbdb90" file="waypoint_navigator.cpp" linenr="21" str="size" scope="0xde8e40" type="name" varId="16" variable="0xdeb8d0" astParent="0xdbdc40"/>
+    <token id="0xdbdc40" file="waypoint_navigator.cpp" linenr="21" str="=" scope="0xde8e40" type="op" isAssignmentOp="True" astOperand1="0xdbdb90" astOperand2="0xdbdf00"/>
+    <token id="0xdbdcf0" file="waypoint_navigator.cpp" linenr="21" str="waypoints" scope="0xde8e40" type="name" varId="15" variable="0xdeb860" astParent="0xdbdda0"/>
+    <token id="0xdbdda0" file="waypoint_navigator.cpp" linenr="21" str="." scope="0xde8e40" astParent="0xdbdf00" astOperand1="0xdbdcf0" astOperand2="0xdbde50"/>
+    <token id="0xdbde50" file="waypoint_navigator.cpp" linenr="21" str="size" scope="0xde8e40" type="name" astParent="0xdbdda0"/>
+    <token id="0xdbdf00" file="waypoint_navigator.cpp" linenr="21" str="(" scope="0xde8e40" link="0xdbdfb0" astParent="0xdbdc40" astOperand1="0xdbdda0"/>
+    <token id="0xdbdfb0" file="waypoint_navigator.cpp" linenr="21" str=")" scope="0xde8e40" link="0xdbdf00"/>
+    <token id="0xdbe060" file="waypoint_navigator.cpp" linenr="21" str=";" scope="0xde8e40"/>
+    <token id="0xdbe110" file="waypoint_navigator.cpp" linenr="22" str="}" scope="0xde8e40" link="0xdbdae0"/>
+    <token id="0xdbe1c0" file="waypoint_navigator.cpp" linenr="23" str="catch" scope="0xde8ba0" type="name" astParent="0xdbe270"/>
+    <token id="0xdbe270" file="waypoint_navigator.cpp" linenr="23" str="(" scope="0xde8ba0" link="0xdbe690" astOperand1="0xdbe1c0" astOperand2="0xdbe480"/>
+    <token id="0xdbe320" file="waypoint_navigator.cpp" linenr="23" str="const" scope="0xde8ba0" type="name"/>
+    <token id="0xdbe3d0" file="waypoint_navigator.cpp" linenr="23" str="XmlRpc" scope="0xde8ba0" type="name" astParent="0xdbe480"/>
+    <token id="0xdbe480" file="waypoint_navigator.cpp" linenr="23" str="::" scope="0xde8ba0" astParent="0xdbe270" astOperand1="0xdbe3d0" astOperand2="0xdbe5e0"/>
+    <token id="0xdbe530" file="waypoint_navigator.cpp" linenr="23" str="XmlRpcException" scope="0xde8ba0" type="name"/>
+    <token id="0xdbe5e0" file="waypoint_navigator.cpp" linenr="23" str="e" scope="0xde8ba0" type="name" varId="17" variable="0xde9140" astParent="0xdbe480"/>
+    <token id="0xdbe690" file="waypoint_navigator.cpp" linenr="23" str=")" scope="0xde8ba0" link="0xdbe270"/>
+    <token id="0xdbe740" file="waypoint_navigator.cpp" linenr="24" str="{" scope="0xde8f90" link="0xdbef30"/>
+    <token id="0xdbe7f0" file="waypoint_navigator.cpp" linenr="25" str="ROS_INFO" scope="0xde8f90" type="name" astParent="0xdbe8a0"/>
+    <token id="0xdbe8a0" file="waypoint_navigator.cpp" linenr="25" str="(" scope="0xde8f90" link="0xdbea60" astOperand1="0xdbe7f0" astOperand2="0xdbe980"/>
+    <token id="0xdbe980" file="waypoint_navigator.cpp" linenr="25" str="&quot;No table available, exiting.&quot;" scope="0xde8f90" type="string" strlen="28" values="0xdbe988" astParent="0xdbe8a0"/>
+    <token id="0xdbea60" file="waypoint_navigator.cpp" linenr="25" str=")" scope="0xde8f90" link="0xdbe8a0"/>
+    <token id="0xdbeb10" file="waypoint_navigator.cpp" linenr="25" str=";" scope="0xde8f90"/>
+    <token id="0xdbebc0" file="waypoint_navigator.cpp" linenr="26" str="exit" scope="0xde8f90" type="name" astParent="0xdbec70"/>
+    <token id="0xdbec70" file="waypoint_navigator.cpp" linenr="26" str="(" scope="0xde8f90" link="0xdbedd0" astOperand1="0xdbebc0" astOperand2="0xdbed20"/>
+    <token id="0xdbed20" file="waypoint_navigator.cpp" linenr="26" str="0" scope="0xde8f90" type="number" isInt="True" values="0xdbed28" astParent="0xdbec70"/>
+    <token id="0xdbedd0" file="waypoint_navigator.cpp" linenr="26" str=")" scope="0xde8f90" link="0xdbec70"/>
+    <token id="0xdbee80" file="waypoint_navigator.cpp" linenr="26" str=";" scope="0xde8f90"/>
+    <token id="0xdbef30" file="waypoint_navigator.cpp" linenr="27" str="}" scope="0xde8f90" link="0xdbe740"/>
+    <token id="0xdbefe0" file="waypoint_navigator.cpp" linenr="28" str="ROS_INFO" scope="0xde8ba0" type="name" astParent="0xdbf090"/>
+    <token id="0xdbf090" file="waypoint_navigator.cpp" linenr="28" str="(" scope="0xde8ba0" link="0xdbf1f0" astOperand1="0xdbefe0" astOperand2="0xdbf140"/>
+    <token id="0xdbf140" file="waypoint_navigator.cpp" linenr="28" str="&quot;Starting array.&quot;" scope="0xde8ba0" type="string" strlen="15" values="0xdbf148" astParent="0xdbf090"/>
+    <token id="0xdbf1f0" file="waypoint_navigator.cpp" linenr="28" str=")" scope="0xde8ba0" link="0xdbf090"/>
+    <token id="0xdbf2a0" file="waypoint_navigator.cpp" linenr="28" str=";" scope="0xde8ba0"/>
+    <token id="0xdbf350" file="waypoint_navigator.cpp" linenr="30" str="for" scope="0xde8ba0" type="name" astParent="0xdbf400"/>
+    <token id="0xdbf400" file="waypoint_navigator.cpp" linenr="30" str="(" scope="0xde8ba0" link="0xdbfda0" astOperand1="0xdbf350" astOperand2="0xdbf770"/>
+    <token id="0xdbf4b0" file="waypoint_navigator.cpp" linenr="30" str="int" scope="0xde8ba0" type="name"/>
+    <token id="0xdbf560" file="waypoint_navigator.cpp" linenr="30" str="i" scope="0xde8ba0" type="name" varId="18" variable="0xde9300" astParent="0xdbf610"/>
+    <token id="0xdbf610" file="waypoint_navigator.cpp" linenr="30" str="=" scope="0xde8ba0" type="op" isAssignmentOp="True" astParent="0xdbf770" astOperand1="0xdbf560" astOperand2="0xdbf6c0"/>
+    <token id="0xdbf6c0" file="waypoint_navigator.cpp" linenr="30" str="0" scope="0xde8ba0" type="number" isInt="True" values="0xdbf6c8" astParent="0xdbf610"/>
+    <token id="0xdbf770" file="waypoint_navigator.cpp" linenr="30" str=";" scope="0xde8ba0" astParent="0xdbf400" astOperand1="0xdbf610" astOperand2="0xdbfa30"/>
+    <token id="0xdbf820" file="waypoint_navigator.cpp" linenr="30" str="i" scope="0xde8ba0" type="name" varId="18" variable="0xde9300" astParent="0xdbf8d0"/>
+    <token id="0xdbf8d0" file="waypoint_navigator.cpp" linenr="30" str="&lt;" scope="0xde8ba0" type="op" isComparisonOp="True" astParent="0xdbfa30" astOperand1="0xdbf820" astOperand2="0xdbf980"/>
+    <token id="0xdbf980" file="waypoint_navigator.cpp" linenr="30" str="size" scope="0xde8ba0" type="name" varId="16" variable="0xdeb8d0" astParent="0xdbf8d0"/>
+    <token id="0xdbfa30" file="waypoint_navigator.cpp" linenr="30" str=";" scope="0xde8ba0" astParent="0xdbf770" astOperand1="0xdbf8d0" astOperand2="0xdbfb90"/>
+    <token id="0xdbfae0" file="waypoint_navigator.cpp" linenr="30" str="i" scope="0xde8ba0" type="name" varId="18" variable="0xde9300" astParent="0xdbfb90"/>
+    <token id="0xdbfb90" file="waypoint_navigator.cpp" linenr="30" str="+=" scope="0xde8ba0" type="op" isAssignmentOp="True" astParent="0xdbfa30" astOperand1="0xdbfae0" astOperand2="0xdbfcf0"/>
+    <token id="0xdbfcf0" file="waypoint_navigator.cpp" linenr="30" str="2" scope="0xde8ba0" type="number" isInt="True" values="0xdbfcf8" astParent="0xdbfb90"/>
+    <token id="0xdbfda0" file="waypoint_navigator.cpp" linenr="30" str=")" scope="0xde8ba0" link="0xdbf400"/>
+    <token id="0xdbfe50" file="waypoint_navigator.cpp" linenr="31" str="{" scope="0xde91b0" link="0xdc2500"/>
+    <token id="0xdbff00" file="waypoint_navigator.cpp" linenr="32" str="geometry_msgs" scope="0xde91b0" type="name" astParent="0xdbffb0"/>
+    <token id="0xdbffb0" file="waypoint_navigator.cpp" linenr="32" str="::" scope="0xde91b0" astOperand1="0xdbff00" astOperand2="0xdc0110"/>
+    <token id="0xdc0060" file="waypoint_navigator.cpp" linenr="32" str="Point" scope="0xde91b0" type="name"/>
+    <token id="0xdc0110" file="waypoint_navigator.cpp" linenr="32" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdbffb0"/>
+    <token id="0xdc01c0" file="waypoint_navigator.cpp" linenr="32" str=";" scope="0xde91b0"/>
+    <token id="0xdc0270" file="waypoint_navigator.cpp" linenr="33" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc0320"/>
+    <token id="0xdc0320" file="waypoint_navigator.cpp" linenr="33" str="." scope="0xde91b0" astParent="0xdc0480" astOperand1="0xdc0270" astOperand2="0xdc03d0"/>
+    <token id="0xdc03d0" file="waypoint_navigator.cpp" linenr="33" str="x" scope="0xde91b0" type="name" varId="20" astParent="0xdc0320"/>
+    <token id="0xdc0480" file="waypoint_navigator.cpp" linenr="33" str="=" scope="0xde91b0" type="op" isAssignmentOp="True" astOperand1="0xdc0320" astOperand2="0xdc05e0"/>
+    <token id="0xdc0530" file="waypoint_navigator.cpp" linenr="33" str="waypoints" scope="0xde91b0" type="name" varId="15" variable="0xdeb860" astParent="0xdc05e0"/>
+    <token id="0xdc05e0" file="waypoint_navigator.cpp" linenr="33" str="[" scope="0xde91b0" link="0xdc0740" astParent="0xdc0480" astOperand1="0xdc0530" astOperand2="0xdc0690"/>
+    <token id="0xdc0690" file="waypoint_navigator.cpp" linenr="33" str="i" scope="0xde91b0" type="name" varId="18" variable="0xde9300" values="0xdc0698" astParent="0xdc05e0"/>
+    <token id="0xdc0740" file="waypoint_navigator.cpp" linenr="33" str="]" scope="0xde91b0" link="0xdc05e0"/>
+    <token id="0xdc07f0" file="waypoint_navigator.cpp" linenr="33" str=";" scope="0xde91b0"/>
+    <token id="0xdc08a0" file="waypoint_navigator.cpp" linenr="33" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc0950"/>
+    <token id="0xdc0950" file="waypoint_navigator.cpp" linenr="33" str="." scope="0xde91b0" astParent="0xdc0ab0" astOperand1="0xdc08a0" astOperand2="0xdc0a00"/>
+    <token id="0xdc0a00" file="waypoint_navigator.cpp" linenr="33" str="y" scope="0xde91b0" type="name" varId="21" astParent="0xdc0950"/>
+    <token id="0xdc0ab0" file="waypoint_navigator.cpp" linenr="33" str="=" scope="0xde91b0" type="op" isAssignmentOp="True" astOperand1="0xdc0950" astOperand2="0xdc0c10"/>
+    <token id="0xdc0b60" file="waypoint_navigator.cpp" linenr="33" str="waypoints" scope="0xde91b0" type="name" varId="15" variable="0xdeb860" astParent="0xdc0c10"/>
+    <token id="0xdc0c10" file="waypoint_navigator.cpp" linenr="33" str="[" scope="0xde91b0" link="0xdc0ed0" astParent="0xdc0ab0" astOperand1="0xdc0b60" astOperand2="0xdc0d70"/>
+    <token id="0xdc0cc0" file="waypoint_navigator.cpp" linenr="33" str="i" scope="0xde91b0" type="name" varId="18" variable="0xde9300" values="0xdc0cc8" astParent="0xdc0d70"/>
+    <token id="0xdc0d70" file="waypoint_navigator.cpp" linenr="33" str="+" scope="0xde91b0" type="op" isArithmeticalOp="True" values="0xdc0d78" astParent="0xdc0c10" astOperand1="0xdc0cc0" astOperand2="0xdc0e20"/>
+    <token id="0xdc0e20" file="waypoint_navigator.cpp" linenr="33" str="1" scope="0xde91b0" type="number" isInt="True" values="0xdc0e28" astParent="0xdc0d70"/>
+    <token id="0xdc0ed0" file="waypoint_navigator.cpp" linenr="33" str="]" scope="0xde91b0" link="0xdc0c10"/>
+    <token id="0xdc0f80" file="waypoint_navigator.cpp" linenr="33" str=";" scope="0xde91b0"/>
+    <token id="0xdc1030" file="waypoint_navigator.cpp" linenr="33" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc10e0"/>
+    <token id="0xdc10e0" file="waypoint_navigator.cpp" linenr="33" str="." scope="0xde91b0" astParent="0xdc1240" astOperand1="0xdc1030" astOperand2="0xdc1190"/>
+    <token id="0xdc1190" file="waypoint_navigator.cpp" linenr="33" str="z" scope="0xde91b0" type="name" varId="22" astParent="0xdc10e0"/>
+    <token id="0xdc1240" file="waypoint_navigator.cpp" linenr="33" str="=" scope="0xde91b0" type="op" isAssignmentOp="True" astOperand1="0xdc10e0" astOperand2="0xdc12f0"/>
+    <token id="0xdc12f0" file="waypoint_navigator.cpp" linenr="33" str="0" scope="0xde91b0" type="number" isInt="True" values="0xdc12f8" astParent="0xdc1240"/>
+    <token id="0xdc13a0" file="waypoint_navigator.cpp" linenr="33" str=";" scope="0xde91b0"/>
+    <token id="0xdc1450" file="waypoint_navigator.cpp" linenr="34" str="waypoints_" scope="0xde91b0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdc1500"/>
+    <token id="0xdc1500" file="waypoint_navigator.cpp" linenr="34" str="." scope="0xde91b0" astParent="0xdc1660" astOperand1="0xdc1450" astOperand2="0xdc15b0"/>
+    <token id="0xdc15b0" file="waypoint_navigator.cpp" linenr="34" str="push_back" scope="0xde91b0" type="name" astParent="0xdc1500"/>
+    <token id="0xdc1660" file="waypoint_navigator.cpp" linenr="34" str="(" scope="0xde91b0" link="0xdc17c0" astOperand1="0xdc1500" astOperand2="0xdc1710"/>
+    <token id="0xdc1710" file="waypoint_navigator.cpp" linenr="34" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc1660"/>
+    <token id="0xdc17c0" file="waypoint_navigator.cpp" linenr="34" str=")" scope="0xde91b0" link="0xdc1660"/>
+    <token id="0xdc1870" file="waypoint_navigator.cpp" linenr="34" str=";" scope="0xde91b0"/>
+    <token id="0xdc1920" file="waypoint_navigator.cpp" linenr="35" str="ROS_INFO" scope="0xde91b0" type="name" astParent="0xdc19d0"/>
+    <token id="0xdc19d0" file="waypoint_navigator.cpp" linenr="35" str="(" scope="0xde91b0" link="0xdc23a0" astOperand1="0xdc1920" astOperand2="0xdc20e0"/>
+    <token id="0xdc1a80" file="waypoint_navigator.cpp" linenr="35" str="&quot;X: %f, Y: %f, Z: %f&quot;" scope="0xde91b0" type="string" strlen="19" values="0xdc1a88" astParent="0xdc1b60"/>
+    <token id="0xdc1b60" file="waypoint_navigator.cpp" linenr="35" str="," scope="0xde91b0" astParent="0xdc1e20" astOperand1="0xdc1a80" astOperand2="0xdc1cc0"/>
+    <token id="0xdc1c10" file="waypoint_navigator.cpp" linenr="35" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc1cc0"/>
+    <token id="0xdc1cc0" file="waypoint_navigator.cpp" linenr="35" str="." scope="0xde91b0" astParent="0xdc1b60" astOperand1="0xdc1c10" astOperand2="0xdc1d70"/>
+    <token id="0xdc1d70" file="waypoint_navigator.cpp" linenr="35" str="x" scope="0xde91b0" type="name" varId="20" astParent="0xdc1cc0"/>
+    <token id="0xdc1e20" file="waypoint_navigator.cpp" linenr="35" str="," scope="0xde91b0" astParent="0xdc20e0" astOperand1="0xdc1b60" astOperand2="0xdc1f80"/>
+    <token id="0xdc1ed0" file="waypoint_navigator.cpp" linenr="35" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc1f80"/>
+    <token id="0xdc1f80" file="waypoint_navigator.cpp" linenr="35" str="." scope="0xde91b0" astParent="0xdc1e20" astOperand1="0xdc1ed0" astOperand2="0xdc2030"/>
+    <token id="0xdc2030" file="waypoint_navigator.cpp" linenr="35" str="y" scope="0xde91b0" type="name" varId="21" astParent="0xdc1f80"/>
+    <token id="0xdc20e0" file="waypoint_navigator.cpp" linenr="35" str="," scope="0xde91b0" astParent="0xdc19d0" astOperand1="0xdc1e20" astOperand2="0xdc2240"/>
+    <token id="0xdc2190" file="waypoint_navigator.cpp" linenr="35" str="pt" scope="0xde91b0" type="name" varId="19" variable="0xdeb940" astParent="0xdc2240"/>
+    <token id="0xdc2240" file="waypoint_navigator.cpp" linenr="35" str="." scope="0xde91b0" astParent="0xdc20e0" astOperand1="0xdc2190" astOperand2="0xdc22f0"/>
+    <token id="0xdc22f0" file="waypoint_navigator.cpp" linenr="35" str="z" scope="0xde91b0" type="name" varId="22" astParent="0xdc2240"/>
+    <token id="0xdc23a0" file="waypoint_navigator.cpp" linenr="35" str=")" scope="0xde91b0" link="0xdc19d0"/>
+    <token id="0xdc2450" file="waypoint_navigator.cpp" linenr="35" str=";" scope="0xde91b0"/>
+    <token id="0xdc2500" file="waypoint_navigator.cpp" linenr="36" str="}" scope="0xde91b0" link="0xdbfe50"/>
+    <token id="0xdc25b0" file="waypoint_navigator.cpp" linenr="37" str="}" scope="0xde8ba0" link="0xdbab80"/>
+    <token id="0xdc2660" file="waypoint_navigator.cpp" linenr="38" str="else" scope="0xde8a50" type="name"/>
+    <token id="0xdc2710" file="waypoint_navigator.cpp" linenr="39" str="{" scope="0xde94a0" link="0xdc2b60"/>
+    <token id="0xdc27c0" file="waypoint_navigator.cpp" linenr="40" str="ROS_FATAL" scope="0xde94a0" type="name" astParent="0xdc2870"/>
+    <token id="0xdc2870" file="waypoint_navigator.cpp" linenr="40" str="(" scope="0xde94a0" link="0xdc2a00" astOperand1="0xdc27c0" astOperand2="0xdc2920"/>
+    <token id="0xdc2920" file="waypoint_navigator.cpp" linenr="40" str="&quot;Need to have the waypoints parameter.&quot;" scope="0xde94a0" type="string" strlen="37" values="0xdc2928" astParent="0xdc2870"/>
+    <token id="0xdc2a00" file="waypoint_navigator.cpp" linenr="40" str=")" scope="0xde94a0" link="0xdc2870"/>
+    <token id="0xdc2ab0" file="waypoint_navigator.cpp" linenr="40" str=";" scope="0xde94a0"/>
+    <token id="0xdc2b60" file="waypoint_navigator.cpp" linenr="41" str="}" scope="0xde94a0" link="0xdc2710"/>
+    <token id="0xdc2c10" file="waypoint_navigator.cpp" linenr="43" str="n_private" scope="0xde8a50" type="name" varId="14" variable="0xdeb7f0" astParent="0xdc2cc0"/>
+    <token id="0xdc2cc0" file="waypoint_navigator.cpp" linenr="43" str="." scope="0xde8a50" astParent="0xdc2e20" astOperand1="0xdc2c10" astOperand2="0xdc2d70"/>
+    <token id="0xdc2d70" file="waypoint_navigator.cpp" linenr="43" str="param" scope="0xde8a50" type="name" astParent="0xdc2cc0"/>
+    <token id="0xdc2e20" file="waypoint_navigator.cpp" linenr="43" str="(" scope="0xde8a50" link="0xdc3240" astOperand1="0xdc2cc0" astOperand2="0xdc30e0"/>
+    <token id="0xdc2ed0" file="waypoint_navigator.cpp" linenr="43" str="&quot;lin_vel&quot;" scope="0xde8a50" type="string" strlen="7" values="0xdc2ed8" astParent="0xdc2f80"/>
+    <token id="0xdc2f80" file="waypoint_navigator.cpp" linenr="43" str="," scope="0xde8a50" astParent="0xdc30e0" astOperand1="0xdc2ed0" astOperand2="0xdc3030"/>
+    <token id="0xdc3030" file="waypoint_navigator.cpp" linenr="43" str="lin_vel_" scope="0xde8a50" type="name" varId="6" variable="0xdeb630" astParent="0xdc2f80"/>
+    <token id="0xdc30e0" file="waypoint_navigator.cpp" linenr="43" str="," scope="0xde8a50" astParent="0xdc2e20" astOperand1="0xdc2f80" astOperand2="0xdc3190"/>
+    <token id="0xdc3190" file="waypoint_navigator.cpp" linenr="43" str="0.5" scope="0xde8a50" type="number" isFloat="True" astParent="0xdc30e0"/>
+    <token id="0xdc3240" file="waypoint_navigator.cpp" linenr="43" str=")" scope="0xde8a50" link="0xdc2e20"/>
+    <token id="0xdc32f0" file="waypoint_navigator.cpp" linenr="43" str=";" scope="0xde8a50"/>
+    <token id="0xdc33a0" file="waypoint_navigator.cpp" linenr="44" str="n_private" scope="0xde8a50" type="name" varId="14" variable="0xdeb7f0" astParent="0xdc3450"/>
+    <token id="0xdc3450" file="waypoint_navigator.cpp" linenr="44" str="." scope="0xde8a50" astParent="0xdc35b0" astOperand1="0xdc33a0" astOperand2="0xdc3500"/>
+    <token id="0xdc3500" file="waypoint_navigator.cpp" linenr="44" str="param" scope="0xde8a50" type="name" astParent="0xdc3450"/>
+    <token id="0xdc35b0" file="waypoint_navigator.cpp" linenr="44" str="(" scope="0xde8a50" link="0xdc39d0" astOperand1="0xdc3450" astOperand2="0xdc3870"/>
+    <token id="0xdc3660" file="waypoint_navigator.cpp" linenr="44" str="&quot;look_ahead&quot;" scope="0xde8a50" type="string" strlen="10" values="0xdc3668" astParent="0xdc3710"/>
+    <token id="0xdc3710" file="waypoint_navigator.cpp" linenr="44" str="," scope="0xde8a50" astParent="0xdc3870" astOperand1="0xdc3660" astOperand2="0xdc37c0"/>
+    <token id="0xdc37c0" file="waypoint_navigator.cpp" linenr="44" str="look_ahead_" scope="0xde8a50" type="name" varId="7" variable="0xdeb6a0" astParent="0xdc3710"/>
+    <token id="0xdc3870" file="waypoint_navigator.cpp" linenr="44" str="," scope="0xde8a50" astParent="0xdc35b0" astOperand1="0xdc3710" astOperand2="0xdc3920"/>
+    <token id="0xdc3920" file="waypoint_navigator.cpp" linenr="44" str="1.0" scope="0xde8a50" type="number" isFloat="True" astParent="0xdc3870"/>
+    <token id="0xdc39d0" file="waypoint_navigator.cpp" linenr="44" str=")" scope="0xde8a50" link="0xdc35b0"/>
+    <token id="0xdc3a80" file="waypoint_navigator.cpp" linenr="44" str=";" scope="0xde8a50"/>
+    <token id="0xdc3b30" file="waypoint_navigator.cpp" linenr="46" str="next_waypoint_" scope="0xde8a50" type="name" varId="8" variable="0xdeb710" astParent="0xdc3be0"/>
+    <token id="0xdc3be0" file="waypoint_navigator.cpp" linenr="46" str="=" scope="0xde8a50" type="op" isAssignmentOp="True" astOperand1="0xdc3b30" astOperand2="0xdc3c90"/>
+    <token id="0xdc3c90" file="waypoint_navigator.cpp" linenr="46" str="1" scope="0xde8a50" type="number" isInt="True" values="0xdc3c98" astParent="0xdc3be0"/>
+    <token id="0xdc3d40" file="waypoint_navigator.cpp" linenr="46" str=";" scope="0xde8a50"/>
+    <token id="0xdc3df0" file="waypoint_navigator.cpp" linenr="47" str="last_waypoint_" scope="0xde8a50" type="name" varId="9" variable="0xdeb780" astParent="0xdc3ea0"/>
+    <token id="0xdc3ea0" file="waypoint_navigator.cpp" linenr="47" str="=" scope="0xde8a50" type="op" isAssignmentOp="True" astOperand1="0xdc3df0" astOperand2="0xdc3f50"/>
+    <token id="0xdc3f50" file="waypoint_navigator.cpp" linenr="47" str="0" scope="0xde8a50" type="number" isInt="True" values="0xdc3f58" astParent="0xdc3ea0"/>
+    <token id="0xdc4000" file="waypoint_navigator.cpp" linenr="47" str=";" scope="0xde8a50"/>
+    <token id="0xdc40b0" file="waypoint_navigator.cpp" linenr="49" str="cmd_vel_pub_" scope="0xde8a50" type="name" varId="3" variable="0xdeb4e0" astParent="0xdc4160"/>
+    <token id="0xdc4160" file="waypoint_navigator.cpp" linenr="49" str="=" scope="0xde8a50" type="op" isAssignmentOp="True" astOperand1="0xdc40b0" astOperand2="0xdc4790"/>
+    <token id="0xdc4210" file="waypoint_navigator.cpp" linenr="49" str="n_" scope="0xde8a50" type="name" varId="2" variable="0xdeb470" astParent="0xdc42c0"/>
+    <token id="0xdc42c0" file="waypoint_navigator.cpp" linenr="49" str="." scope="0xde8a50" astParent="0xdc4790" astOperand1="0xdc4210" astOperand2="0xdc4370"/>
+    <token id="0xdc4370" file="waypoint_navigator.cpp" linenr="49" str="advertise" scope="0xde8a50" type="name" astParent="0xdc42c0"/>
+    <token id="0xdc4420" file="waypoint_navigator.cpp" linenr="49" str="&lt;" scope="0xde8a50" link="0xdc46e0"/>
+    <token id="0xdc44d0" file="waypoint_navigator.cpp" linenr="49" str="geometry_msgs" scope="0xde8a50" type="name"/>
+    <token id="0xdc4580" file="waypoint_navigator.cpp" linenr="49" str="::" scope="0xde8a50"/>
+    <token id="0xdc4630" file="waypoint_navigator.cpp" linenr="49" str="Twist" scope="0xde8a50" type="name"/>
+    <token id="0xdc46e0" file="waypoint_navigator.cpp" linenr="49" str="&gt;" scope="0xde8a50" link="0xdc4420"/>
+    <token id="0xdc4790" file="waypoint_navigator.cpp" linenr="49" str="(" scope="0xde8a50" link="0xdc4a50" astParent="0xdc4160" astOperand1="0xdc42c0" astOperand2="0xdc48f0"/>
+    <token id="0xdc4840" file="waypoint_navigator.cpp" linenr="49" str="&quot;/cmd_vel&quot;" scope="0xde8a50" type="string" strlen="8" values="0xdc4848" astParent="0xdc48f0"/>
+    <token id="0xdc48f0" file="waypoint_navigator.cpp" linenr="49" str="," scope="0xde8a50" astParent="0xdc4790" astOperand1="0xdc4840" astOperand2="0xdc49a0"/>
+    <token id="0xdc49a0" file="waypoint_navigator.cpp" linenr="49" str="1" scope="0xde8a50" type="number" isInt="True" values="0xdc49a8" astParent="0xdc48f0"/>
+    <token id="0xdc4a50" file="waypoint_navigator.cpp" linenr="49" str=")" scope="0xde8a50" link="0xdc4790"/>
+    <token id="0xdc4b00" file="waypoint_navigator.cpp" linenr="49" str=";" scope="0xde8a50"/>
+    <token id="0xdc4bb0" file="waypoint_navigator.cpp" linenr="50" str="odom_sub_" scope="0xde8a50" type="name" varId="4" variable="0xdeb550" astParent="0xdc4c60"/>
+    <token id="0xdc4c60" file="waypoint_navigator.cpp" linenr="50" str="=" scope="0xde8a50" type="op" isAssignmentOp="True" astOperand1="0xdc4bb0" astOperand2="0xdc5290"/>
+    <token id="0xdc4d10" file="waypoint_navigator.cpp" linenr="50" str="n_" scope="0xde8a50" type="name" varId="2" variable="0xdeb470" astParent="0xdc4dc0"/>
+    <token id="0xdc4dc0" file="waypoint_navigator.cpp" linenr="50" str="." scope="0xde8a50" astParent="0xdc5290" astOperand1="0xdc4d10" astOperand2="0xdc4e70"/>
+    <token id="0xdc4e70" file="waypoint_navigator.cpp" linenr="50" str="subscribe" scope="0xde8a50" type="name" astParent="0xdc4dc0"/>
+    <token id="0xdc4f20" file="waypoint_navigator.cpp" linenr="50" str="&lt;" scope="0xde8a50" link="0xdc51e0"/>
+    <token id="0xdc4fd0" file="waypoint_navigator.cpp" linenr="50" str="nav_msgs" scope="0xde8a50" type="name"/>
+    <token id="0xdc5080" file="waypoint_navigator.cpp" linenr="50" str="::" scope="0xde8a50"/>
+    <token id="0xdc5130" file="waypoint_navigator.cpp" linenr="50" str="Odometry" scope="0xde8a50" type="name"/>
+    <token id="0xdc51e0" file="waypoint_navigator.cpp" linenr="50" str="&gt;" scope="0xde8a50" link="0xdc4f20"/>
+    <token id="0xdc5290" file="waypoint_navigator.cpp" linenr="50" str="(" scope="0xde8a50" link="0xdc5a20" astParent="0xdc4c60" astOperand1="0xdc4dc0" astOperand2="0xdc58c0"/>
+    <token id="0xdc5340" file="waypoint_navigator.cpp" linenr="50" str="&quot;/odom&quot;" scope="0xde8a50" type="string" strlen="5" values="0xdc5348" astParent="0xdc53f0"/>
+    <token id="0xdc53f0" file="waypoint_navigator.cpp" linenr="50" str="," scope="0xde8a50" astParent="0xdc5550" astOperand1="0xdc5340" astOperand2="0xdc54a0"/>
+    <token id="0xdc54a0" file="waypoint_navigator.cpp" linenr="50" str="1" scope="0xde8a50" type="number" isInt="True" values="0xdc54a8" astParent="0xdc53f0"/>
+    <token id="0xdc5550" file="waypoint_navigator.cpp" linenr="50" str="," scope="0xde8a50" astParent="0xdc58c0" astOperand1="0xdc53f0" astOperand2="0xdc5600"/>
+    <token id="0xdc5600" file="waypoint_navigator.cpp" linenr="50" str="&amp;" scope="0xde8a50" type="op" astParent="0xdc5550" astOperand1="0xdc5760"/>
+    <token id="0xdc56b0" file="waypoint_navigator.cpp" linenr="50" str="WaypointNavigator" scope="0xde8a50" type="name" type-scope="0xde8770" astParent="0xdc5760"/>
+    <token id="0xdc5760" file="waypoint_navigator.cpp" linenr="50" str="::" scope="0xde8a50" astParent="0xdc5600" astOperand1="0xdc56b0" astOperand2="0xdc5810"/>
+    <token id="0xdc5810" file="waypoint_navigator.cpp" linenr="50" str="cb_odom" scope="0xde8a50" type="name" astParent="0xdc5760"/>
+    <token id="0xdc58c0" file="waypoint_navigator.cpp" linenr="50" str="," scope="0xde8a50" astParent="0xdc5290" astOperand1="0xdc5550" astOperand2="0xdc5970"/>
+    <token id="0xdc5970" file="waypoint_navigator.cpp" linenr="50" str="this" scope="0xde8a50" type="name" astParent="0xdc58c0"/>
+    <token id="0xdc5a20" file="waypoint_navigator.cpp" linenr="50" str=")" scope="0xde8a50" link="0xdc5290"/>
+    <token id="0xdc5ad0" file="waypoint_navigator.cpp" linenr="50" str=";" scope="0xde8a50"/>
+    <token id="0xdc5b80" file="waypoint_navigator.cpp" linenr="52" str="}" scope="0xde8a50" link="0xdb9c60"/>
+    <token id="0xdc5c30" file="waypoint_navigator.cpp" linenr="54" str="void" scope="0xde8640" type="name"/>
+    <token id="0xdc5ce0" file="waypoint_navigator.cpp" linenr="54" str="WaypointNavigator" scope="0xde8640" type="name" type-scope="0xde8770" astParent="0xdc5dc0"/>
+    <token id="0xdc5dc0" file="waypoint_navigator.cpp" linenr="54" str="::" scope="0xde8640" astParent="0xdc5f20" astOperand1="0xdc5ce0" astOperand2="0xdc5e70"/>
+    <token id="0xdc5e70" file="waypoint_navigator.cpp" linenr="54" str="cb_odom" scope="0xde8640" type="name" function="0xde88e0" astParent="0xdc5dc0"/>
+    <token id="0xdc5f20" file="waypoint_navigator.cpp" linenr="54" str="(" scope="0xde8640" link="0xdc6290" astOperand1="0xdc5dc0" astOperand2="0xdc6080"/>
+    <token id="0xdc5fd0" file="waypoint_navigator.cpp" linenr="54" str="nav_msgs" scope="0xde8640" type="name" astParent="0xdc6080"/>
+    <token id="0xdc6080" file="waypoint_navigator.cpp" linenr="54" str="::" scope="0xde8640" astParent="0xdc5f20" astOperand1="0xdc5fd0" astOperand2="0xdc61e0"/>
+    <token id="0xdc6130" file="waypoint_navigator.cpp" linenr="54" str="Odometry" scope="0xde8640" type="name"/>
+    <token id="0xdc61e0" file="waypoint_navigator.cpp" linenr="54" str="msg" scope="0xde8640" type="name" varId="23" variable="0xdec370" astParent="0xdc6080"/>
+    <token id="0xdc6290" file="waypoint_navigator.cpp" linenr="54" str=")" scope="0xde8640" link="0xdc5f20"/>
+    <token id="0xdc6340" file="waypoint_navigator.cpp" linenr="55" str="{" scope="0xde95f0" link="0xde3540"/>
+    <token id="0xdc63f0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc64a0" file="waypoint_navigator.cpp" linenr="56" str="a" scope="0xde95f0" type="name" varId="24" variable="0xdeb9b0"/>
+    <token id="0xdc6550" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde1440" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6600" file="waypoint_navigator.cpp" linenr="56" str="b" scope="0xde95f0" type="name" varId="25" variable="0xdeba20"/>
+    <token id="0xdc66b0" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde1de0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6760" file="waypoint_navigator.cpp" linenr="56" str="c" scope="0xde95f0" type="name" varId="26" variable="0xdeba90"/>
+    <token id="0xdc6810" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xdb64c0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc68c0" file="waypoint_navigator.cpp" linenr="56" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00"/>
+    <token id="0xdc6970" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xdb2bd0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6a20" file="waypoint_navigator.cpp" linenr="56" str="x2" scope="0xde95f0" type="name" varId="28" variable="0xdebb70"/>
+    <token id="0xdc6ad0" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xdb2c80" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6b80" file="waypoint_navigator.cpp" linenr="56" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0"/>
+    <token id="0xdc6c30" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde77d0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6ce0" file="waypoint_navigator.cpp" linenr="56" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50"/>
+    <token id="0xdc6d90" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7880" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6e40" file="waypoint_navigator.cpp" linenr="56" str="y2" scope="0xde95f0" type="name" varId="31" variable="0xdebcc0"/>
+    <token id="0xdc6ef0" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7930" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc6fa0" file="waypoint_navigator.cpp" linenr="56" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30"/>
+    <token id="0xdc7050" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7c90" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc7100" file="waypoint_navigator.cpp" linenr="56" str="theta" scope="0xde95f0" type="name" varId="33" variable="0xdebda0"/>
+    <token id="0xdc71b0" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7d40" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc7260" file="waypoint_navigator.cpp" linenr="56" str="exp" scope="0xde95f0" type="name" varId="34" variable="0xdebe10"/>
+    <token id="0xdc7310" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7df0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc73c0" file="waypoint_navigator.cpp" linenr="56" str="u1" scope="0xde95f0" type="name" varId="35" variable="0xdebe80"/>
+    <token id="0xdc7470" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7a30" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc7520" file="waypoint_navigator.cpp" linenr="56" str="u2" scope="0xde95f0" type="name" varId="36" variable="0xdebef0"/>
+    <token id="0xdc75d0" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xde7ae0" file="waypoint_navigator.cpp" linenr="56" str="double" scope="0xde95f0" type="name"/>
+    <token id="0xdc7680" file="waypoint_navigator.cpp" linenr="56" str="theta_err" scope="0xde95f0" type="name" varId="37" variable="0xdebf60"/>
+    <token id="0xdc7730" file="waypoint_navigator.cpp" linenr="56" str=";" scope="0xde95f0"/>
+    <token id="0xdc77e0" file="waypoint_navigator.cpp" linenr="57" str="geometry_msgs" scope="0xde95f0" type="name" astParent="0xdc7890"/>
+    <token id="0xdc7890" file="waypoint_navigator.cpp" linenr="57" str="::" scope="0xde95f0" astOperand1="0xdc77e0" astOperand2="0xdc79f0"/>
+    <token id="0xdc7940" file="waypoint_navigator.cpp" linenr="57" str="Point" scope="0xde95f0" type="name"/>
+    <token id="0xdc79f0" file="waypoint_navigator.cpp" linenr="57" str="p1" scope="0xde95f0" type="name" varId="38" variable="0xdebfd0" astParent="0xdc7890"/>
+    <token id="0xdc7aa0" file="waypoint_navigator.cpp" linenr="57" str=";" scope="0xde95f0"/>
+    <token id="0xde7b90" file="waypoint_navigator.cpp" linenr="57" str="geometry_msgs" scope="0xde95f0" type="name" astParent="0xde80b0"/>
+    <token id="0xde80b0" file="waypoint_navigator.cpp" linenr="57" str="::" scope="0xde95f0" astOperand1="0xde7b90" astOperand2="0xdc7b50"/>
+    <token id="0xde8160" file="waypoint_navigator.cpp" linenr="57" str="Point" scope="0xde95f0" type="name"/>
+    <token id="0xdc7b50" file="waypoint_navigator.cpp" linenr="57" str="p2" scope="0xde95f0" type="name" varId="39" variable="0xdec040" astParent="0xde80b0"/>
+    <token id="0xdc7c00" file="waypoint_navigator.cpp" linenr="57" str=";" scope="0xde95f0"/>
+    <token id="0xdc7cb0" file="waypoint_navigator.cpp" linenr="58" str="geometry_msgs" scope="0xde95f0" type="name" astParent="0xdc7d60"/>
+    <token id="0xdc7d60" file="waypoint_navigator.cpp" linenr="58" str="::" scope="0xde95f0" astOperand1="0xdc7cb0" astOperand2="0xdc7ec0"/>
+    <token id="0xdc7e10" file="waypoint_navigator.cpp" linenr="58" str="Twist" scope="0xde95f0" type="name"/>
+    <token id="0xdc7ec0" file="waypoint_navigator.cpp" linenr="58" str="vel_msg" scope="0xde95f0" type="name" varId="40" variable="0xdec0b0" astParent="0xdc7d60"/>
+    <token id="0xdc7f70" file="waypoint_navigator.cpp" linenr="58" str=";" scope="0xde95f0"/>
+    <token id="0xdc8020" file="waypoint_navigator.cpp" linenr="61" str="while" scope="0xde95f0" type="name" astParent="0xdc80d0"/>
+    <token id="0xdc80d0" file="waypoint_navigator.cpp" linenr="61" str="(" scope="0xde95f0" link="0xdc8d30" astOperand1="0xdc8020" astOperand2="0xdc8bd0"/>
+    <token id="0xdc8180" file="waypoint_navigator.cpp" linenr="61" str="distance" scope="0xde95f0" type="name" function="0xde8980" astParent="0xdc8230"/>
+    <token id="0xdc8230" file="waypoint_navigator.cpp" linenr="61" str="(" scope="0xde95f0" link="0xdc8b20" astParent="0xdc8bd0" astOperand1="0xdc8180" astOperand2="0xdc87b0"/>
+    <token id="0xdc82e0" file="waypoint_navigator.cpp" linenr="61" str="msg" scope="0xde95f0" type="name" varId="23" variable="0xdec370" astParent="0xdc8390"/>
+    <token id="0xdc8390" file="waypoint_navigator.cpp" linenr="61" str="." scope="0xde95f0" astParent="0xdc84f0" astOperand1="0xdc82e0" astOperand2="0xdc8440"/>
+    <token id="0xdc8440" file="waypoint_navigator.cpp" linenr="61" str="pose" scope="0xde95f0" type="name" varId="41" astParent="0xdc8390"/>
+    <token id="0xdc84f0" file="waypoint_navigator.cpp" linenr="61" str="." scope="0xde95f0" astParent="0xdc8650" astOperand1="0xdc8390" astOperand2="0xdc85a0"/>
+    <token id="0xdc85a0" file="waypoint_navigator.cpp" linenr="61" str="pose" scope="0xde95f0" type="name" varId="42" astParent="0xdc84f0"/>
+    <token id="0xdc8650" file="waypoint_navigator.cpp" linenr="61" str="." scope="0xde95f0" astParent="0xdc87b0" astOperand1="0xdc84f0" astOperand2="0xdc8700"/>
+    <token id="0xdc8700" file="waypoint_navigator.cpp" linenr="61" str="position" scope="0xde95f0" type="name" varId="43" astParent="0xdc8650"/>
+    <token id="0xdc87b0" file="waypoint_navigator.cpp" linenr="61" str="," scope="0xde95f0" astParent="0xdc8230" astOperand1="0xdc8650" astOperand2="0xdc8910"/>
+    <token id="0xdc8860" file="waypoint_navigator.cpp" linenr="61" str="waypoints_" scope="0xde95f0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdc8910"/>
+    <token id="0xdc8910" file="waypoint_navigator.cpp" linenr="61" str="[" scope="0xde95f0" link="0xdc8a70" astParent="0xdc87b0" astOperand1="0xdc8860" astOperand2="0xdc89c0"/>
+    <token id="0xdc89c0" file="waypoint_navigator.cpp" linenr="61" str="next_waypoint_" scope="0xde95f0" type="name" varId="8" variable="0xdeb710" astParent="0xdc8910"/>
+    <token id="0xdc8a70" file="waypoint_navigator.cpp" linenr="61" str="]" scope="0xde95f0" link="0xdc8910"/>
+    <token id="0xdc8b20" file="waypoint_navigator.cpp" linenr="61" str=")" scope="0xde95f0" link="0xdc8230"/>
+    <token id="0xdc8bd0" file="waypoint_navigator.cpp" linenr="61" str="&lt;" scope="0xde95f0" type="op" isComparisonOp="True" astParent="0xdc80d0" astOperand1="0xdc8230" astOperand2="0xdc8c80"/>
+    <token id="0xdc8c80" file="waypoint_navigator.cpp" linenr="61" str="look_ahead_" scope="0xde95f0" type="name" varId="7" variable="0xdeb6a0" astParent="0xdc8bd0"/>
+    <token id="0xdc8d30" file="waypoint_navigator.cpp" linenr="61" str=")" scope="0xde95f0" link="0xdc80d0"/>
+    <token id="0xdc8de0" file="waypoint_navigator.cpp" linenr="62" str="{" scope="0xde9740" link="0xdc9db0"/>
+    <token id="0xdc8e90" file="waypoint_navigator.cpp" linenr="64" str="last_waypoint_" scope="0xde9740" type="name" varId="9" variable="0xdeb780" astParent="0xdc8f40"/>
+    <token id="0xdc8f40" file="waypoint_navigator.cpp" linenr="64" str="=" scope="0xde9740" type="op" isAssignmentOp="True" astOperand1="0xdc8e90" astOperand2="0xdc8ff0"/>
+    <token id="0xdc8ff0" file="waypoint_navigator.cpp" linenr="64" str="next_waypoint_" scope="0xde9740" type="name" varId="8" variable="0xdeb710" astParent="0xdc8f40"/>
+    <token id="0xdc90a0" file="waypoint_navigator.cpp" linenr="64" str=";" scope="0xde9740"/>
+    <token id="0xdc9150" file="waypoint_navigator.cpp" linenr="65" str="next_waypoint_" scope="0xde9740" type="name" varId="8" variable="0xdeb710" astParent="0xdc9200"/>
+    <token id="0xdc9200" file="waypoint_navigator.cpp" linenr="65" str="++" scope="0xde9740" type="op" astOperand1="0xdc9150"/>
+    <token id="0xdc92b0" file="waypoint_navigator.cpp" linenr="65" str=";" scope="0xde9740"/>
+    <token id="0xdc9360" file="waypoint_navigator.cpp" linenr="66" str="if" scope="0xde9740" type="name" astParent="0xdc9410"/>
+    <token id="0xdc9410" file="waypoint_navigator.cpp" linenr="66" str="(" scope="0xde9740" link="0xdc9a40" astOperand1="0xdc9360" astOperand2="0xdc9570"/>
+    <token id="0xdc94c0" file="waypoint_navigator.cpp" linenr="66" str="next_waypoint_" scope="0xde9740" type="name" varId="8" variable="0xdeb710" astParent="0xdc9570"/>
+    <token id="0xdc9570" file="waypoint_navigator.cpp" linenr="66" str="&gt;=" scope="0xde9740" type="op" isComparisonOp="True" astParent="0xdc9410" astOperand1="0xdc94c0" astOperand2="0xdc98e0"/>
+    <token id="0xdc96d0" file="waypoint_navigator.cpp" linenr="66" str="waypoints_" scope="0xde9740" type="name" varId="5" variable="0xdeb5c0" astParent="0xdc9780"/>
+    <token id="0xdc9780" file="waypoint_navigator.cpp" linenr="66" str="." scope="0xde9740" astParent="0xdc98e0" astOperand1="0xdc96d0" astOperand2="0xdc9830"/>
+    <token id="0xdc9830" file="waypoint_navigator.cpp" linenr="66" str="size" scope="0xde9740" type="name" astParent="0xdc9780"/>
+    <token id="0xdc98e0" file="waypoint_navigator.cpp" linenr="66" str="(" scope="0xde9740" link="0xdc9990" astParent="0xdc9570" astOperand1="0xdc9780"/>
+    <token id="0xdc9990" file="waypoint_navigator.cpp" linenr="66" str=")" scope="0xde9740" link="0xdc98e0"/>
+    <token id="0xdc9a40" file="waypoint_navigator.cpp" linenr="66" str=")" scope="0xde9740" link="0xdc9410"/>
+    <token id="0xdb6be0" file="waypoint_navigator.cpp" linenr="66" str="{" scope="0xde9890" link="0xdbca90"/>
+    <token id="0xdc9af0" file="waypoint_navigator.cpp" linenr="67" str="next_waypoint_" scope="0xde9890" type="name" varId="8" variable="0xdeb710" astParent="0xdc9ba0"/>
+    <token id="0xdc9ba0" file="waypoint_navigator.cpp" linenr="67" str="=" scope="0xde9890" type="op" isAssignmentOp="True" astOperand1="0xdc9af0" astOperand2="0xdc9c50"/>
+    <token id="0xdc9c50" file="waypoint_navigator.cpp" linenr="67" str="0" scope="0xde9890" type="number" isInt="True" values="0xdc9c58" astParent="0xdc9ba0"/>
+    <token id="0xdc9d00" file="waypoint_navigator.cpp" linenr="67" str=";" scope="0xde9890"/>
+    <token id="0xdbca90" file="waypoint_navigator.cpp" linenr="67" str="}" scope="0xde9890" link="0xdb6be0"/>
+    <token id="0xdc9db0" file="waypoint_navigator.cpp" linenr="68" str="}" scope="0xde9740" link="0xdc8de0"/>
+    <token id="0xdc9e60" file="waypoint_navigator.cpp" linenr="71" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdc9f10"/>
+    <token id="0xdc9f10" file="waypoint_navigator.cpp" linenr="71" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdc9e60" astOperand2="0xdca280"/>
+    <token id="0xdc9fc0" file="waypoint_navigator.cpp" linenr="71" str="waypoints_" scope="0xde95f0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdca070"/>
+    <token id="0xdca070" file="waypoint_navigator.cpp" linenr="71" str="[" scope="0xde95f0" link="0xdca1d0" astParent="0xdca280" astOperand1="0xdc9fc0" astOperand2="0xdca120"/>
+    <token id="0xdca120" file="waypoint_navigator.cpp" linenr="71" str="next_waypoint_" scope="0xde95f0" type="name" varId="8" variable="0xdeb710" astParent="0xdca070"/>
+    <token id="0xdca1d0" file="waypoint_navigator.cpp" linenr="71" str="]" scope="0xde95f0" link="0xdca070"/>
+    <token id="0xdca280" file="waypoint_navigator.cpp" linenr="71" str="." scope="0xde95f0" astParent="0xdc9f10" astOperand1="0xdca070" astOperand2="0xdca330"/>
+    <token id="0xdca330" file="waypoint_navigator.cpp" linenr="71" str="x" scope="0xde95f0" type="name" astParent="0xdca280"/>
+    <token id="0xdca3e0" file="waypoint_navigator.cpp" linenr="71" str=";" scope="0xde95f0"/>
+    <token id="0xdca490" file="waypoint_navigator.cpp" linenr="72" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdca540"/>
+    <token id="0xdca540" file="waypoint_navigator.cpp" linenr="72" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdca490" astOperand2="0xdca8b0"/>
+    <token id="0xdca5f0" file="waypoint_navigator.cpp" linenr="72" str="waypoints_" scope="0xde95f0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdca6a0"/>
+    <token id="0xdca6a0" file="waypoint_navigator.cpp" linenr="72" str="[" scope="0xde95f0" link="0xdca800" astParent="0xdca8b0" astOperand1="0xdca5f0" astOperand2="0xdca750"/>
+    <token id="0xdca750" file="waypoint_navigator.cpp" linenr="72" str="next_waypoint_" scope="0xde95f0" type="name" varId="8" variable="0xdeb710" astParent="0xdca6a0"/>
+    <token id="0xdca800" file="waypoint_navigator.cpp" linenr="72" str="]" scope="0xde95f0" link="0xdca6a0"/>
+    <token id="0xdca8b0" file="waypoint_navigator.cpp" linenr="72" str="." scope="0xde95f0" astParent="0xdca540" astOperand1="0xdca6a0" astOperand2="0xdca960"/>
+    <token id="0xdca960" file="waypoint_navigator.cpp" linenr="72" str="y" scope="0xde95f0" type="name" astParent="0xdca8b0"/>
+    <token id="0xdcaa10" file="waypoint_navigator.cpp" linenr="72" str=";" scope="0xde95f0"/>
+    <token id="0xdcaac0" file="waypoint_navigator.cpp" linenr="73" str="x2" scope="0xde95f0" type="name" varId="28" variable="0xdebb70" astParent="0xdcab70"/>
+    <token id="0xdcab70" file="waypoint_navigator.cpp" linenr="73" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcaac0" astOperand2="0xdcaee0"/>
+    <token id="0xdcac20" file="waypoint_navigator.cpp" linenr="73" str="waypoints_" scope="0xde95f0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdcacd0"/>
+    <token id="0xdcacd0" file="waypoint_navigator.cpp" linenr="73" str="[" scope="0xde95f0" link="0xdcae30" astParent="0xdcaee0" astOperand1="0xdcac20" astOperand2="0xdcad80"/>
+    <token id="0xdcad80" file="waypoint_navigator.cpp" linenr="73" str="last_waypoint_" scope="0xde95f0" type="name" varId="9" variable="0xdeb780" astParent="0xdcacd0"/>
+    <token id="0xdcae30" file="waypoint_navigator.cpp" linenr="73" str="]" scope="0xde95f0" link="0xdcacd0"/>
+    <token id="0xdcaee0" file="waypoint_navigator.cpp" linenr="73" str="." scope="0xde95f0" astParent="0xdcab70" astOperand1="0xdcacd0" astOperand2="0xdcaf90"/>
+    <token id="0xdcaf90" file="waypoint_navigator.cpp" linenr="73" str="x" scope="0xde95f0" type="name" astParent="0xdcaee0"/>
+    <token id="0xdcb040" file="waypoint_navigator.cpp" linenr="73" str=";" scope="0xde95f0"/>
+    <token id="0xdcb0f0" file="waypoint_navigator.cpp" linenr="74" str="y2" scope="0xde95f0" type="name" varId="31" variable="0xdebcc0" astParent="0xdcb1a0"/>
+    <token id="0xdcb1a0" file="waypoint_navigator.cpp" linenr="74" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcb0f0" astOperand2="0xdcb510"/>
+    <token id="0xdcb250" file="waypoint_navigator.cpp" linenr="74" str="waypoints_" scope="0xde95f0" type="name" varId="5" variable="0xdeb5c0" astParent="0xdcb300"/>
+    <token id="0xdcb300" file="waypoint_navigator.cpp" linenr="74" str="[" scope="0xde95f0" link="0xdcb460" astParent="0xdcb510" astOperand1="0xdcb250" astOperand2="0xdcb3b0"/>
+    <token id="0xdcb3b0" file="waypoint_navigator.cpp" linenr="74" str="last_waypoint_" scope="0xde95f0" type="name" varId="9" variable="0xdeb780" astParent="0xdcb300"/>
+    <token id="0xdcb460" file="waypoint_navigator.cpp" linenr="74" str="]" scope="0xde95f0" link="0xdcb300"/>
+    <token id="0xdcb510" file="waypoint_navigator.cpp" linenr="74" str="." scope="0xde95f0" astParent="0xdcb1a0" astOperand1="0xdcb300" astOperand2="0xdcb5c0"/>
+    <token id="0xdcb5c0" file="waypoint_navigator.cpp" linenr="74" str="y" scope="0xde95f0" type="name" astParent="0xdcb510"/>
+    <token id="0xdcb670" file="waypoint_navigator.cpp" linenr="74" str=";" scope="0xde95f0"/>
+    <token id="0xdcb720" file="waypoint_navigator.cpp" linenr="75" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xdcb7d0"/>
+    <token id="0xdcb7d0" file="waypoint_navigator.cpp" linenr="75" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcb720" astOperand2="0xdcbd50"/>
+    <token id="0xdcb880" file="waypoint_navigator.cpp" linenr="75" str="msg" scope="0xde95f0" type="name" varId="23" variable="0xdec370" astParent="0xdcb930"/>
+    <token id="0xdcb930" file="waypoint_navigator.cpp" linenr="75" str="." scope="0xde95f0" astParent="0xdcba90" astOperand1="0xdcb880" astOperand2="0xdcb9e0"/>
+    <token id="0xdcb9e0" file="waypoint_navigator.cpp" linenr="75" str="pose" scope="0xde95f0" type="name" varId="41" astParent="0xdcb930"/>
+    <token id="0xdcba90" file="waypoint_navigator.cpp" linenr="75" str="." scope="0xde95f0" astParent="0xdcbbf0" astOperand1="0xdcb930" astOperand2="0xdcbb40"/>
+    <token id="0xdcbb40" file="waypoint_navigator.cpp" linenr="75" str="pose" scope="0xde95f0" type="name" varId="42" astParent="0xdcba90"/>
+    <token id="0xdcbbf0" file="waypoint_navigator.cpp" linenr="75" str="." scope="0xde95f0" astParent="0xdcbd50" astOperand1="0xdcba90" astOperand2="0xdcbca0"/>
+    <token id="0xdcbca0" file="waypoint_navigator.cpp" linenr="75" str="position" scope="0xde95f0" type="name" varId="43" astParent="0xdcbbf0"/>
+    <token id="0xdcbd50" file="waypoint_navigator.cpp" linenr="75" str="." scope="0xde95f0" astParent="0xdcb7d0" astOperand1="0xdcbbf0" astOperand2="0xdcbe00"/>
+    <token id="0xdcbe00" file="waypoint_navigator.cpp" linenr="75" str="x" scope="0xde95f0" type="name" varId="44" astParent="0xdcbd50"/>
+    <token id="0xdcbeb0" file="waypoint_navigator.cpp" linenr="75" str=";" scope="0xde95f0"/>
+    <token id="0xdcbf60" file="waypoint_navigator.cpp" linenr="76" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xdcc010"/>
+    <token id="0xdcc010" file="waypoint_navigator.cpp" linenr="76" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcbf60" astOperand2="0xdcc590"/>
+    <token id="0xdcc0c0" file="waypoint_navigator.cpp" linenr="76" str="msg" scope="0xde95f0" type="name" varId="23" variable="0xdec370" astParent="0xdcc170"/>
+    <token id="0xdcc170" file="waypoint_navigator.cpp" linenr="76" str="." scope="0xde95f0" astParent="0xdcc2d0" astOperand1="0xdcc0c0" astOperand2="0xdcc220"/>
+    <token id="0xdcc220" file="waypoint_navigator.cpp" linenr="76" str="pose" scope="0xde95f0" type="name" varId="41" astParent="0xdcc170"/>
+    <token id="0xdcc2d0" file="waypoint_navigator.cpp" linenr="76" str="." scope="0xde95f0" astParent="0xdcc430" astOperand1="0xdcc170" astOperand2="0xdcc380"/>
+    <token id="0xdcc380" file="waypoint_navigator.cpp" linenr="76" str="pose" scope="0xde95f0" type="name" varId="42" astParent="0xdcc2d0"/>
+    <token id="0xdcc430" file="waypoint_navigator.cpp" linenr="76" str="." scope="0xde95f0" astParent="0xdcc590" astOperand1="0xdcc2d0" astOperand2="0xdcc4e0"/>
+    <token id="0xdcc4e0" file="waypoint_navigator.cpp" linenr="76" str="position" scope="0xde95f0" type="name" varId="43" astParent="0xdcc430"/>
+    <token id="0xdcc590" file="waypoint_navigator.cpp" linenr="76" str="." scope="0xde95f0" astParent="0xdcc010" astOperand1="0xdcc430" astOperand2="0xdcc640"/>
+    <token id="0xdcc640" file="waypoint_navigator.cpp" linenr="76" str="y" scope="0xde95f0" type="name" varId="45" astParent="0xdcc590"/>
+    <token id="0xdcc6f0" file="waypoint_navigator.cpp" linenr="76" str=";" scope="0xde95f0"/>
+    <token id="0xdcc7a0" file="waypoint_navigator.cpp" linenr="77" str="theta" scope="0xde95f0" type="name" varId="33" variable="0xdebda0" astParent="0xdcc850"/>
+    <token id="0xdcc850" file="waypoint_navigator.cpp" linenr="77" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcc7a0" astOperand2="0xdccb10"/>
+    <token id="0xdcc900" file="waypoint_navigator.cpp" linenr="77" str="tf" scope="0xde95f0" type="name" astParent="0xdcc9b0"/>
+    <token id="0xdcc9b0" file="waypoint_navigator.cpp" linenr="77" str="::" scope="0xde95f0" astParent="0xdccb10" astOperand1="0xdcc900" astOperand2="0xdcca60"/>
+    <token id="0xdcca60" file="waypoint_navigator.cpp" linenr="77" str="getYaw" scope="0xde95f0" type="name" astParent="0xdcc9b0"/>
+    <token id="0xdccb10" file="waypoint_navigator.cpp" linenr="77" str="(" scope="0xde95f0" link="0xdcd090" astParent="0xdcc850" astOperand1="0xdcc9b0" astOperand2="0xdccf30"/>
+    <token id="0xdccbc0" file="waypoint_navigator.cpp" linenr="77" str="msg" scope="0xde95f0" type="name" varId="23" variable="0xdec370" astParent="0xdccc70"/>
+    <token id="0xdccc70" file="waypoint_navigator.cpp" linenr="77" str="." scope="0xde95f0" astParent="0xdccdd0" astOperand1="0xdccbc0" astOperand2="0xdccd20"/>
+    <token id="0xdccd20" file="waypoint_navigator.cpp" linenr="77" str="pose" scope="0xde95f0" type="name" varId="41" astParent="0xdccc70"/>
+    <token id="0xdccdd0" file="waypoint_navigator.cpp" linenr="77" str="." scope="0xde95f0" astParent="0xdccf30" astOperand1="0xdccc70" astOperand2="0xdcce80"/>
+    <token id="0xdcce80" file="waypoint_navigator.cpp" linenr="77" str="pose" scope="0xde95f0" type="name" varId="42" astParent="0xdccdd0"/>
+    <token id="0xdccf30" file="waypoint_navigator.cpp" linenr="77" str="." scope="0xde95f0" astParent="0xdccb10" astOperand1="0xdccdd0" astOperand2="0xdccfe0"/>
+    <token id="0xdccfe0" file="waypoint_navigator.cpp" linenr="77" str="orientation" scope="0xde95f0" type="name" varId="46" astParent="0xdccf30"/>
+    <token id="0xdcd090" file="waypoint_navigator.cpp" linenr="77" str=")" scope="0xde95f0" link="0xdccb10"/>
+    <token id="0xdcd140" file="waypoint_navigator.cpp" linenr="77" str=";" scope="0xde95f0"/>
+    <token id="0xdcd1f0" file="waypoint_navigator.cpp" linenr="79" str="a" scope="0xde95f0" type="name" varId="24" variable="0xdeb9b0" astParent="0xdcd2a0"/>
+    <token id="0xdcd2a0" file="waypoint_navigator.cpp" linenr="79" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcd1f0" astOperand2="0xdcdae0"/>
+    <token id="0xdcd350" file="waypoint_navigator.cpp" linenr="79" str="(" scope="0xde95f0" link="0xdcd610"/>
+    <token id="0xdcd400" file="waypoint_navigator.cpp" linenr="79" str="x2" scope="0xde95f0" type="name" varId="28" variable="0xdebb70" astParent="0xdcd4b0"/>
+    <token id="0xdcd4b0" file="waypoint_navigator.cpp" linenr="79" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcd6c0" astOperand1="0xdcd400" astOperand2="0xdcd560"/>
+    <token id="0xdcd560" file="waypoint_navigator.cpp" linenr="79" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdcd4b0"/>
+    <token id="0xdcd610" file="waypoint_navigator.cpp" linenr="79" str=")" scope="0xde95f0" link="0xdcd350"/>
+    <token id="0xdcd6c0" file="waypoint_navigator.cpp" linenr="79" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcdae0" astOperand1="0xdcd4b0" astOperand2="0xdcd8d0"/>
+    <token id="0xdcd770" file="waypoint_navigator.cpp" linenr="79" str="(" scope="0xde95f0" link="0xdcda30"/>
+    <token id="0xdcd820" file="waypoint_navigator.cpp" linenr="79" str="x2" scope="0xde95f0" type="name" varId="28" variable="0xdebb70" astParent="0xdcd8d0"/>
+    <token id="0xdcd8d0" file="waypoint_navigator.cpp" linenr="79" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcd6c0" astOperand1="0xdcd820" astOperand2="0xdcd980"/>
+    <token id="0xdcd980" file="waypoint_navigator.cpp" linenr="79" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdcd8d0"/>
+    <token id="0xdcda30" file="waypoint_navigator.cpp" linenr="79" str=")" scope="0xde95f0" link="0xdcd770"/>
+    <token id="0xdcdae0" file="waypoint_navigator.cpp" linenr="79" str="+" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcd2a0" astOperand1="0xdcd6c0" astOperand2="0xdcdf00"/>
+    <token id="0xdcdb90" file="waypoint_navigator.cpp" linenr="79" str="(" scope="0xde95f0" link="0xdcde50"/>
+    <token id="0xdcdc40" file="waypoint_navigator.cpp" linenr="79" str="y2" scope="0xde95f0" type="name" varId="31" variable="0xdebcc0" astParent="0xdcdcf0"/>
+    <token id="0xdcdcf0" file="waypoint_navigator.cpp" linenr="79" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcdf00" astOperand1="0xdcdc40" astOperand2="0xdcdda0"/>
+    <token id="0xdcdda0" file="waypoint_navigator.cpp" linenr="79" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdcdcf0"/>
+    <token id="0xdcde50" file="waypoint_navigator.cpp" linenr="79" str=")" scope="0xde95f0" link="0xdcdb90"/>
+    <token id="0xdcdf00" file="waypoint_navigator.cpp" linenr="79" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcdae0" astOperand1="0xdcdcf0" astOperand2="0xdce110"/>
+    <token id="0xdcdfb0" file="waypoint_navigator.cpp" linenr="79" str="(" scope="0xde95f0" link="0xdce270"/>
+    <token id="0xdce060" file="waypoint_navigator.cpp" linenr="79" str="y2" scope="0xde95f0" type="name" varId="31" variable="0xdebcc0" astParent="0xdce110"/>
+    <token id="0xdce110" file="waypoint_navigator.cpp" linenr="79" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcdf00" astOperand1="0xdce060" astOperand2="0xdce1c0"/>
+    <token id="0xdce1c0" file="waypoint_navigator.cpp" linenr="79" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdce110"/>
+    <token id="0xdce270" file="waypoint_navigator.cpp" linenr="79" str=")" scope="0xde95f0" link="0xdcdfb0"/>
+    <token id="0xdce320" file="waypoint_navigator.cpp" linenr="79" str=";" scope="0xde95f0"/>
+    <token id="0xdce3d0" file="waypoint_navigator.cpp" linenr="80" str="b" scope="0xde95f0" type="name" varId="25" variable="0xdeba20" astParent="0xdce480"/>
+    <token id="0xdce480" file="waypoint_navigator.cpp" linenr="80" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdce3d0" astOperand2="0xdce5e0"/>
+    <token id="0xdce530" file="waypoint_navigator.cpp" linenr="80" str="2" scope="0xde95f0" type="number" isInt="True" values="0xdce538" astParent="0xdce5e0"/>
+    <token id="0xdce5e0" file="waypoint_navigator.cpp" linenr="80" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdce480" astOperand1="0xdce530" astOperand2="0xdceed0"/>
+    <token id="0xdce690" file="waypoint_navigator.cpp" linenr="80" str="(" scope="0xde95f0" link="0xdcf710"/>
+    <token id="0xdce740" file="waypoint_navigator.cpp" linenr="80" str="(" scope="0xde95f0" link="0xdcea00"/>
+    <token id="0xdce7f0" file="waypoint_navigator.cpp" linenr="80" str="x2" scope="0xde95f0" type="name" varId="28" variable="0xdebb70" astParent="0xdce8a0"/>
+    <token id="0xdce8a0" file="waypoint_navigator.cpp" linenr="80" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdceab0" astOperand1="0xdce7f0" astOperand2="0xdce950"/>
+    <token id="0xdce950" file="waypoint_navigator.cpp" linenr="80" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdce8a0"/>
+    <token id="0xdcea00" file="waypoint_navigator.cpp" linenr="80" str=")" scope="0xde95f0" link="0xdce740"/>
+    <token id="0xdceab0" file="waypoint_navigator.cpp" linenr="80" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdceed0" astOperand1="0xdce8a0" astOperand2="0xdcecc0"/>
+    <token id="0xdceb60" file="waypoint_navigator.cpp" linenr="80" str="(" scope="0xde95f0" link="0xdcee20"/>
+    <token id="0xdcec10" file="waypoint_navigator.cpp" linenr="80" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdcecc0"/>
+    <token id="0xdcecc0" file="waypoint_navigator.cpp" linenr="80" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdceab0" astOperand1="0xdcec10" astOperand2="0xdced70"/>
+    <token id="0xdced70" file="waypoint_navigator.cpp" linenr="80" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xdcecc0"/>
+    <token id="0xdcee20" file="waypoint_navigator.cpp" linenr="80" str=")" scope="0xde95f0" link="0xdceb60"/>
+    <token id="0xdceed0" file="waypoint_navigator.cpp" linenr="80" str="+" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdce5e0" astOperand1="0xdceab0" astOperand2="0xdcf2f0"/>
+    <token id="0xdcef80" file="waypoint_navigator.cpp" linenr="80" str="(" scope="0xde95f0" link="0xdcf240"/>
+    <token id="0xdcf030" file="waypoint_navigator.cpp" linenr="80" str="y2" scope="0xde95f0" type="name" varId="31" variable="0xdebcc0" astParent="0xdcf0e0"/>
+    <token id="0xdcf0e0" file="waypoint_navigator.cpp" linenr="80" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcf2f0" astOperand1="0xdcf030" astOperand2="0xdcf190"/>
+    <token id="0xdcf190" file="waypoint_navigator.cpp" linenr="80" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdcf0e0"/>
+    <token id="0xdcf240" file="waypoint_navigator.cpp" linenr="80" str=")" scope="0xde95f0" link="0xdcef80"/>
+    <token id="0xdcf2f0" file="waypoint_navigator.cpp" linenr="80" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdceed0" astOperand1="0xdcf0e0" astOperand2="0xdcf500"/>
+    <token id="0xdcf3a0" file="waypoint_navigator.cpp" linenr="80" str="(" scope="0xde95f0" link="0xdcf660"/>
+    <token id="0xdcf450" file="waypoint_navigator.cpp" linenr="80" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdcf500"/>
+    <token id="0xdcf500" file="waypoint_navigator.cpp" linenr="80" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcf2f0" astOperand1="0xdcf450" astOperand2="0xdcf5b0"/>
+    <token id="0xdcf5b0" file="waypoint_navigator.cpp" linenr="80" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xdcf500"/>
+    <token id="0xdcf660" file="waypoint_navigator.cpp" linenr="80" str=")" scope="0xde95f0" link="0xdcf3a0"/>
+    <token id="0xdcf710" file="waypoint_navigator.cpp" linenr="80" str=")" scope="0xde95f0" link="0xdce690"/>
+    <token id="0xdcf7c0" file="waypoint_navigator.cpp" linenr="80" str=";" scope="0xde95f0"/>
+    <token id="0xdcf870" file="waypoint_navigator.cpp" linenr="81" str="c" scope="0xde95f0" type="name" varId="26" variable="0xdeba90" astParent="0xdcf920"/>
+    <token id="0xdcf920" file="waypoint_navigator.cpp" linenr="81" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdcf870" astOperand2="0xdd0b00"/>
+    <token id="0xdcf9d0" file="waypoint_navigator.cpp" linenr="81" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdcfa80"/>
+    <token id="0xdcfa80" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcfbe0" astOperand1="0xdcf9d0" astOperand2="0xdcfb30"/>
+    <token id="0xdcfb30" file="waypoint_navigator.cpp" linenr="81" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdcfa80"/>
+    <token id="0xdcfbe0" file="waypoint_navigator.cpp" linenr="81" str="+" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcfea0" astOperand1="0xdcfa80" astOperand2="0xdcfd40"/>
+    <token id="0xdcfc90" file="waypoint_navigator.cpp" linenr="81" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xdcfd40"/>
+    <token id="0xdcfd40" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcfbe0" astOperand1="0xdcfc90" astOperand2="0xdcfdf0"/>
+    <token id="0xdcfdf0" file="waypoint_navigator.cpp" linenr="81" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xdcfd40"/>
+    <token id="0xdcfea0" file="waypoint_navigator.cpp" linenr="81" str="+" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0160" astOperand1="0xdcfbe0" astOperand2="0xdd0000"/>
+    <token id="0xdcff50" file="waypoint_navigator.cpp" linenr="81" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdd0000"/>
+    <token id="0xdd0000" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcfea0" astOperand1="0xdcff50" astOperand2="0xdd00b0"/>
+    <token id="0xdd00b0" file="waypoint_navigator.cpp" linenr="81" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdd0000"/>
+    <token id="0xdd0160" file="waypoint_navigator.cpp" linenr="81" str="+" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0420" astOperand1="0xdcfea0" astOperand2="0xdd02c0"/>
+    <token id="0xdd0210" file="waypoint_navigator.cpp" linenr="81" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xdd02c0"/>
+    <token id="0xdd02c0" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0160" astOperand1="0xdd0210" astOperand2="0xdd0370"/>
+    <token id="0xdd0370" file="waypoint_navigator.cpp" linenr="81" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xdd02c0"/>
+    <token id="0xdd0420" file="waypoint_navigator.cpp" linenr="81" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd06e0" astOperand1="0xdd0160" astOperand2="0xdd0580"/>
+    <token id="0xdd04d0" file="waypoint_navigator.cpp" linenr="81" str="look_ahead_" scope="0xde95f0" type="name" varId="7" variable="0xdeb6a0" astParent="0xdd0580"/>
+    <token id="0xdd0580" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0420" astOperand1="0xdd04d0" astOperand2="0xdd0630"/>
+    <token id="0xdd0630" file="waypoint_navigator.cpp" linenr="81" str="look_ahead_" scope="0xde95f0" type="name" varId="7" variable="0xdeb6a0" astParent="0xdd0580"/>
+    <token id="0xdd06e0" file="waypoint_navigator.cpp" linenr="81" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0b00" astOperand1="0xdd0420" astOperand2="0xdd09a0"/>
+    <token id="0xdd0790" file="waypoint_navigator.cpp" linenr="81" str="2" scope="0xde95f0" type="number" isInt="True" values="0xdd0798" astParent="0xdd0840"/>
+    <token id="0xdd0840" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd09a0" astOperand1="0xdd0790" astOperand2="0xdd08f0"/>
+    <token id="0xdd08f0" file="waypoint_navigator.cpp" linenr="81" str="x1" scope="0xde95f0" type="name" varId="27" variable="0xdebb00" astParent="0xdd0840"/>
+    <token id="0xdd09a0" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd06e0" astOperand1="0xdd0840" astOperand2="0xdd0a50"/>
+    <token id="0xdd0a50" file="waypoint_navigator.cpp" linenr="81" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xdd09a0"/>
+    <token id="0xdd0b00" file="waypoint_navigator.cpp" linenr="81" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdcf920" astOperand1="0xdd06e0" astOperand2="0xdd0dc0"/>
+    <token id="0xdd0bb0" file="waypoint_navigator.cpp" linenr="81" str="2" scope="0xde95f0" type="number" isInt="True" values="0xdd0bb8" astParent="0xdd0c60"/>
+    <token id="0xdd0c60" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0dc0" astOperand1="0xdd0bb0" astOperand2="0xdd0d10"/>
+    <token id="0xdd0d10" file="waypoint_navigator.cpp" linenr="81" str="y1" scope="0xde95f0" type="name" varId="30" variable="0xdebc50" astParent="0xdd0c60"/>
+    <token id="0xdd0dc0" file="waypoint_navigator.cpp" linenr="81" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd0b00" astOperand1="0xdd0c60" astOperand2="0xdd0e70"/>
+    <token id="0xdd0e70" file="waypoint_navigator.cpp" linenr="81" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xdd0dc0"/>
+    <token id="0xdd0f20" file="waypoint_navigator.cpp" linenr="81" str=";" scope="0xde95f0"/>
+    <token id="0xdd0fd0" file="waypoint_navigator.cpp" linenr="83" str="exp" scope="0xde95f0" type="name" varId="34" variable="0xdebe10" astParent="0xdd1080"/>
+    <token id="0xdd1080" file="waypoint_navigator.cpp" linenr="83" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xdd0fd0" astOperand2="0xdd1340"/>
+    <token id="0xdd1130" file="waypoint_navigator.cpp" linenr="83" str="b" scope="0xde95f0" type="name" varId="25" variable="0xdeba20" astParent="0xdd11e0"/>
+    <token id="0xdd11e0" file="waypoint_navigator.cpp" linenr="83" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd1340" astOperand1="0xdd1130" astOperand2="0xdd1290"/>
+    <token id="0xdd1290" file="waypoint_navigator.cpp" linenr="83" str="b" scope="0xde95f0" type="name" varId="25" variable="0xdeba20" astParent="0xdd11e0"/>
+    <token id="0xdd1340" file="waypoint_navigator.cpp" linenr="83" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd1080" astOperand1="0xdd11e0" astOperand2="0xdd1600"/>
+    <token id="0xdd13f0" file="waypoint_navigator.cpp" linenr="83" str="4" scope="0xde95f0" type="number" isInt="True" values="0xdd13f8" astParent="0xdd14a0"/>
+    <token id="0xdd14a0" file="waypoint_navigator.cpp" linenr="83" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd1600" astOperand1="0xdd13f0" astOperand2="0xdd1550"/>
+    <token id="0xdd1550" file="waypoint_navigator.cpp" linenr="83" str="a" scope="0xde95f0" type="name" varId="24" variable="0xdeb9b0" astParent="0xdd14a0"/>
+    <token id="0xdd1600" file="waypoint_navigator.cpp" linenr="83" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xdd1340" astOperand1="0xdd14a0" astOperand2="0xdd16b0"/>
+    <token id="0xdd16b0" file="waypoint_navigator.cpp" linenr="83" str="c" scope="0xde95f0" type="name" varId="26" variable="0xdeba90" astParent="0xdd1600"/>
+    <token id="0xdd1760" file="waypoint_navigator.cpp" linenr="83" str=";" scope="0xde95f0"/>
+    <token id="0xdd1810" file="waypoint_navigator.cpp" linenr="85" str="if" scope="0xde95f0" type="name" astParent="0xdd18c0"/>
+    <token id="0xdd18c0" file="waypoint_navigator.cpp" linenr="85" str="(" scope="0xde95f0" link="0xdd1b80" astOperand1="0xdd1810" astOperand2="0xdd1a20"/>
+    <token id="0xdd1970" file="waypoint_navigator.cpp" linenr="85" str="exp" scope="0xde95f0" type="name" varId="34" variable="0xdebe10" values="0xdd1978" astParent="0xdd1a20"/>
+    <token id="0xdd1a20" file="waypoint_navigator.cpp" linenr="85" str="&lt;" scope="0xde95f0" type="op" isComparisonOp="True" values="0xdd1a28" astParent="0xdd18c0" astOperand1="0xdd1970" astOperand2="0xdd1ad0"/>
+    <token id="0xdd1ad0" file="waypoint_navigator.cpp" linenr="85" str="0" scope="0xde95f0" type="number" isInt="True" values="0xdd1ad8" astParent="0xdd1a20"/>
+    <token id="0xdd1b80" file="waypoint_navigator.cpp" linenr="85" str=")" scope="0xde95f0" link="0xdd18c0"/>
+    <token id="0xdd1c30" file="waypoint_navigator.cpp" linenr="86" str="{" scope="0xde99e0" link="0xdd2920"/>
+    <token id="0xdd1ce0" file="waypoint_navigator.cpp" linenr="87" str="p1" scope="0xde99e0" type="name" varId="38" variable="0xdebfd0" astParent="0xdd1d90"/>
+    <token id="0xdd1d90" file="waypoint_navigator.cpp" linenr="87" str="." scope="0xde99e0" astParent="0xdd1ef0" astOperand1="0xdd1ce0" astOperand2="0xdd1e40"/>
+    <token id="0xdd1e40" file="waypoint_navigator.cpp" linenr="87" str="x" scope="0xde99e0" type="name" varId="47" astParent="0xdd1d90"/>
+    <token id="0xdd1ef0" file="waypoint_navigator.cpp" linenr="87" str="=" scope="0xde99e0" type="op" isAssignmentOp="True" astOperand1="0xdd1d90" astOperand2="0xdd1fa0"/>
+    <token id="0xdd1fa0" file="waypoint_navigator.cpp" linenr="87" str="x1" scope="0xde99e0" type="name" varId="27" variable="0xdebb00" astParent="0xdd1ef0"/>
+    <token id="0xdd2050" file="waypoint_navigator.cpp" linenr="87" str=";" scope="0xde99e0"/>
+    <token id="0xdd2100" file="waypoint_navigator.cpp" linenr="88" str="p1" scope="0xde99e0" type="name" varId="38" variable="0xdebfd0" astParent="0xdd21b0"/>
+    <token id="0xdd21b0" file="waypoint_navigator.cpp" linenr="88" str="." scope="0xde99e0" astParent="0xdd2310" astOperand1="0xdd2100" astOperand2="0xdd2260"/>
+    <token id="0xdd2260" file="waypoint_navigator.cpp" linenr="88" str="y" scope="0xde99e0" type="name" varId="48" astParent="0xdd21b0"/>
+    <token id="0xdd2310" file="waypoint_navigator.cpp" linenr="88" str="=" scope="0xde99e0" type="op" isAssignmentOp="True" astOperand1="0xdd21b0" astOperand2="0xdd23c0"/>
+    <token id="0xdd23c0" file="waypoint_navigator.cpp" linenr="88" str="y1" scope="0xde99e0" type="name" varId="30" variable="0xdebc50" astParent="0xdd2310"/>
+    <token id="0xdd2470" file="waypoint_navigator.cpp" linenr="88" str=";" scope="0xde99e0"/>
+    <token id="0xdd2520" file="waypoint_navigator.cpp" linenr="89" str="ROS_INFO" scope="0xde99e0" type="name" astParent="0xdd25d0"/>
+    <token id="0xdd25d0" file="waypoint_navigator.cpp" linenr="89" str="(" scope="0xde99e0" link="0xdd27c0" astOperand1="0xdd2520" astOperand2="0xdd26e0"/>
+    <token id="0xdd26e0" file="waypoint_navigator.cpp" linenr="89" str="&quot;OUTSIDE AND NO INTERSECTION&quot;" scope="0xde99e0" type="string" strlen="27" values="0xdd26e8" astParent="0xdd25d0"/>
+    <token id="0xdd27c0" file="waypoint_navigator.cpp" linenr="89" str=")" scope="0xde99e0" link="0xdd25d0"/>
+    <token id="0xdd2870" file="waypoint_navigator.cpp" linenr="89" str=";" scope="0xde99e0"/>
+    <token id="0xdd2920" file="waypoint_navigator.cpp" linenr="90" str="}" scope="0xde99e0" link="0xdd1c30"/>
+    <token id="0xdd29d0" file="waypoint_navigator.cpp" linenr="92" str="else" scope="0xde95f0" type="name"/>
+    <token id="0xde7ea0" file="waypoint_navigator.cpp" linenr="92" str="{" scope="0xde9c60" link="0xde7f50"/>
+    <token id="0xdd2a80" file="waypoint_navigator.cpp" linenr="92" str="if" scope="0xde9c60" type="name" astParent="0xdd2b30"/>
+    <token id="0xdd2b30" file="waypoint_navigator.cpp" linenr="92" str="(" scope="0xde9c60" link="0xdd2df0" astOperand1="0xdd2a80" astOperand2="0xdd2c90"/>
+    <token id="0xdd2be0" file="waypoint_navigator.cpp" linenr="92" str="exp" scope="0xde9c60" type="name" varId="34" variable="0xdebe10" values="0xdd2be8" astParent="0xdd2c90"/>
+    <token id="0xdd2c90" file="waypoint_navigator.cpp" linenr="92" str="==" scope="0xde9c60" type="op" isComparisonOp="True" values="0xdd2c98" astParent="0xdd2b30" astOperand1="0xdd2be0" astOperand2="0xdd2d40"/>
+    <token id="0xdd2d40" file="waypoint_navigator.cpp" linenr="92" str="0" scope="0xde9c60" type="number" isInt="True" values="0xdd2d48" astParent="0xdd2c90"/>
+    <token id="0xdd2df0" file="waypoint_navigator.cpp" linenr="92" str=")" scope="0xde9c60" link="0xdd2b30"/>
+    <token id="0xdd2ea0" file="waypoint_navigator.cpp" linenr="93" str="{" scope="0xde9db0" link="0xdd4d90"/>
+    <token id="0xdd2f50" file="waypoint_navigator.cpp" linenr="94" str="u1" scope="0xde9db0" type="name" varId="35" variable="0xdebe80" astParent="0xdd3000"/>
+    <token id="0xdd3000" file="waypoint_navigator.cpp" linenr="94" str="=" scope="0xde9db0" type="op" isAssignmentOp="True" astOperand1="0xdd2f50" astOperand2="0xdd3210"/>
+    <token id="0xdd30b0" file="waypoint_navigator.cpp" linenr="94" str="-" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd3210" astOperand1="0xdd3160"/>
+    <token id="0xdd3160" file="waypoint_navigator.cpp" linenr="94" str="b" scope="0xde9db0" type="name" varId="25" variable="0xdeba20" astParent="0xdd30b0"/>
+    <token id="0xdd3210" file="waypoint_navigator.cpp" linenr="94" str="/" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd3000" astOperand1="0xdd30b0" astOperand2="0xdd3420"/>
+    <token id="0xdd32c0" file="waypoint_navigator.cpp" linenr="94" str="(" scope="0xde9db0" link="0xdd3580"/>
+    <token id="0xdd3370" file="waypoint_navigator.cpp" linenr="94" str="2" scope="0xde9db0" type="number" isInt="True" values="0xdd3378" astParent="0xdd3420"/>
+    <token id="0xdd3420" file="waypoint_navigator.cpp" linenr="94" str="*" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd3210" astOperand1="0xdd3370" astOperand2="0xdd34d0"/>
+    <token id="0xdd34d0" file="waypoint_navigator.cpp" linenr="94" str="a" scope="0xde9db0" type="name" varId="24" variable="0xdeb9b0" astParent="0xdd3420"/>
+    <token id="0xdd3580" file="waypoint_navigator.cpp" linenr="94" str=")" scope="0xde9db0" link="0xdd32c0"/>
+    <token id="0xdd3630" file="waypoint_navigator.cpp" linenr="94" str=";" scope="0xde9db0"/>
+    <token id="0xdd36e0" file="waypoint_navigator.cpp" linenr="95" str="p1" scope="0xde9db0" type="name" varId="38" variable="0xdebfd0" astParent="0xdd3790"/>
+    <token id="0xdd3790" file="waypoint_navigator.cpp" linenr="95" str="." scope="0xde9db0" astParent="0xdd38f0" astOperand1="0xdd36e0" astOperand2="0xdd3840"/>
+    <token id="0xdd3840" file="waypoint_navigator.cpp" linenr="95" str="x" scope="0xde9db0" type="name" varId="47" astParent="0xdd3790"/>
+    <token id="0xdd38f0" file="waypoint_navigator.cpp" linenr="95" str="=" scope="0xde9db0" type="op" isAssignmentOp="True" astOperand1="0xdd3790" astOperand2="0xdd3a50"/>
+    <token id="0xdd39a0" file="waypoint_navigator.cpp" linenr="95" str="x1" scope="0xde9db0" type="name" varId="27" variable="0xdebb00" astParent="0xdd3a50"/>
+    <token id="0xdd3a50" file="waypoint_navigator.cpp" linenr="95" str="+" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd38f0" astOperand1="0xdd39a0" astOperand2="0xdd3bb0"/>
+    <token id="0xdd3b00" file="waypoint_navigator.cpp" linenr="95" str="u1" scope="0xde9db0" type="name" varId="35" variable="0xdebe80" astParent="0xdd3bb0"/>
+    <token id="0xdd3bb0" file="waypoint_navigator.cpp" linenr="95" str="*" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd3a50" astOperand1="0xdd3b00" astOperand2="0xdd3dc0"/>
+    <token id="0xdd3c60" file="waypoint_navigator.cpp" linenr="95" str="(" scope="0xde9db0" link="0xdd3f20"/>
+    <token id="0xdd3d10" file="waypoint_navigator.cpp" linenr="95" str="x2" scope="0xde9db0" type="name" varId="28" variable="0xdebb70" astParent="0xdd3dc0"/>
+    <token id="0xdd3dc0" file="waypoint_navigator.cpp" linenr="95" str="-" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd3bb0" astOperand1="0xdd3d10" astOperand2="0xdd3e70"/>
+    <token id="0xdd3e70" file="waypoint_navigator.cpp" linenr="95" str="x1" scope="0xde9db0" type="name" varId="27" variable="0xdebb00" astParent="0xdd3dc0"/>
+    <token id="0xdd3f20" file="waypoint_navigator.cpp" linenr="95" str=")" scope="0xde9db0" link="0xdd3c60"/>
+    <token id="0xdd3fd0" file="waypoint_navigator.cpp" linenr="95" str=";" scope="0xde9db0"/>
+    <token id="0xdd4080" file="waypoint_navigator.cpp" linenr="96" str="p1" scope="0xde9db0" type="name" varId="38" variable="0xdebfd0" astParent="0xdd4130"/>
+    <token id="0xdd4130" file="waypoint_navigator.cpp" linenr="96" str="." scope="0xde9db0" astParent="0xdd4290" astOperand1="0xdd4080" astOperand2="0xdd41e0"/>
+    <token id="0xdd41e0" file="waypoint_navigator.cpp" linenr="96" str="y" scope="0xde9db0" type="name" varId="48" astParent="0xdd4130"/>
+    <token id="0xdd4290" file="waypoint_navigator.cpp" linenr="96" str="=" scope="0xde9db0" type="op" isAssignmentOp="True" astOperand1="0xdd4130" astOperand2="0xdd43f0"/>
+    <token id="0xdd4340" file="waypoint_navigator.cpp" linenr="96" str="y1" scope="0xde9db0" type="name" varId="30" variable="0xdebc50" astParent="0xdd43f0"/>
+    <token id="0xdd43f0" file="waypoint_navigator.cpp" linenr="96" str="+" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd4290" astOperand1="0xdd4340" astOperand2="0xdd4550"/>
+    <token id="0xdd44a0" file="waypoint_navigator.cpp" linenr="96" str="u1" scope="0xde9db0" type="name" varId="35" variable="0xdebe80" astParent="0xdd4550"/>
+    <token id="0xdd4550" file="waypoint_navigator.cpp" linenr="96" str="*" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd43f0" astOperand1="0xdd44a0" astOperand2="0xdd4760"/>
+    <token id="0xdd4600" file="waypoint_navigator.cpp" linenr="96" str="(" scope="0xde9db0" link="0xdd48c0"/>
+    <token id="0xdd46b0" file="waypoint_navigator.cpp" linenr="96" str="y2" scope="0xde9db0" type="name" varId="31" variable="0xdebcc0" astParent="0xdd4760"/>
+    <token id="0xdd4760" file="waypoint_navigator.cpp" linenr="96" str="-" scope="0xde9db0" type="op" isArithmeticalOp="True" astParent="0xdd4550" astOperand1="0xdd46b0" astOperand2="0xdd4810"/>
+    <token id="0xdd4810" file="waypoint_navigator.cpp" linenr="96" str="y1" scope="0xde9db0" type="name" varId="30" variable="0xdebc50" astParent="0xdd4760"/>
+    <token id="0xdd48c0" file="waypoint_navigator.cpp" linenr="96" str=")" scope="0xde9db0" link="0xdd4600"/>
+    <token id="0xdd4970" file="waypoint_navigator.cpp" linenr="96" str=";" scope="0xde9db0"/>
+    <token id="0xdd4a20" file="waypoint_navigator.cpp" linenr="97" str="ROS_INFO" scope="0xde9db0" type="name" astParent="0xdd4ad0"/>
+    <token id="0xdd4ad0" file="waypoint_navigator.cpp" linenr="97" str="(" scope="0xde9db0" link="0xdd4c30" astOperand1="0xdd4a20" astOperand2="0xdd4b80"/>
+    <token id="0xdd4b80" file="waypoint_navigator.cpp" linenr="97" str="&quot;TANGENT&quot;" scope="0xde9db0" type="string" strlen="7" values="0xdd4b88" astParent="0xdd4ad0"/>
+    <token id="0xdd4c30" file="waypoint_navigator.cpp" linenr="97" str=")" scope="0xde9db0" link="0xdd4ad0"/>
+    <token id="0xdd4ce0" file="waypoint_navigator.cpp" linenr="97" str=";" scope="0xde9db0"/>
+    <token id="0xdd4d90" file="waypoint_navigator.cpp" linenr="98" str="}" scope="0xde9db0" link="0xdd2ea0"/>
+    <token id="0xdd4e40" file="waypoint_navigator.cpp" linenr="99" str="else" scope="0xde9c60" type="name"/>
+    <token id="0xdd4ef0" file="waypoint_navigator.cpp" linenr="100" str="{" scope="0xdea030" link="0xde0100"/>
+    <token id="0xdd4fa0" file="waypoint_navigator.cpp" linenr="101" str="u1" scope="0xdea030" type="name" varId="35" variable="0xdebe80" astParent="0xdd5050"/>
+    <token id="0xdd5050" file="waypoint_navigator.cpp" linenr="101" str="=" scope="0xdea030" type="op" isAssignmentOp="True" astOperand1="0xdd4fa0" astOperand2="0xdd5730"/>
+    <token id="0xdd5100" file="waypoint_navigator.cpp" linenr="101" str="(" scope="0xdea030" link="0xdd5680"/>
+    <token id="0xdd51b0" file="waypoint_navigator.cpp" linenr="101" str="-" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5310" astOperand1="0xdd5260"/>
+    <token id="0xdd5260" file="waypoint_navigator.cpp" linenr="101" str="b" scope="0xdea030" type="name" varId="25" variable="0xdeba20" astParent="0xdd51b0"/>
+    <token id="0xdd5310" file="waypoint_navigator.cpp" linenr="101" str="+" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5730" astOperand1="0xdd51b0" astOperand2="0xdd5470"/>
+    <token id="0xdd53c0" file="waypoint_navigator.cpp" linenr="101" str="sqrt" scope="0xdea030" type="name" astParent="0xdd5470"/>
+    <token id="0xdd5470" file="waypoint_navigator.cpp" linenr="101" str="(" scope="0xdea030" link="0xdd55d0" astParent="0xdd5310" astOperand1="0xdd53c0" astOperand2="0xdd5520"/>
+    <token id="0xdd5520" file="waypoint_navigator.cpp" linenr="101" str="exp" scope="0xdea030" type="name" varId="34" variable="0xdebe10" astParent="0xdd5470"/>
+    <token id="0xdd55d0" file="waypoint_navigator.cpp" linenr="101" str=")" scope="0xdea030" link="0xdd5470"/>
+    <token id="0xdd5680" file="waypoint_navigator.cpp" linenr="101" str=")" scope="0xdea030" link="0xdd5100"/>
+    <token id="0xdd5730" file="waypoint_navigator.cpp" linenr="101" str="/" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5050" astOperand1="0xdd5310" astOperand2="0xdd5940"/>
+    <token id="0xdd57e0" file="waypoint_navigator.cpp" linenr="101" str="(" scope="0xdea030" link="0xdd5aa0"/>
+    <token id="0xdd5890" file="waypoint_navigator.cpp" linenr="101" str="2" scope="0xdea030" type="number" isInt="True" values="0xdd5898" astParent="0xdd5940"/>
+    <token id="0xdd5940" file="waypoint_navigator.cpp" linenr="101" str="*" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5730" astOperand1="0xdd5890" astOperand2="0xdd59f0"/>
+    <token id="0xdd59f0" file="waypoint_navigator.cpp" linenr="101" str="a" scope="0xdea030" type="name" varId="24" variable="0xdeb9b0" astParent="0xdd5940"/>
+    <token id="0xdd5aa0" file="waypoint_navigator.cpp" linenr="101" str=")" scope="0xdea030" link="0xdd57e0"/>
+    <token id="0xdd5b50" file="waypoint_navigator.cpp" linenr="101" str=";" scope="0xdea030"/>
+    <token id="0xdd5c00" file="waypoint_navigator.cpp" linenr="102" str="u2" scope="0xdea030" type="name" varId="36" variable="0xdebef0" astParent="0xdd5cb0"/>
+    <token id="0xdd5cb0" file="waypoint_navigator.cpp" linenr="102" str="=" scope="0xdea030" type="op" isAssignmentOp="True" astOperand1="0xdd5c00" astOperand2="0xdd6390"/>
+    <token id="0xdd5d60" file="waypoint_navigator.cpp" linenr="102" str="(" scope="0xdea030" link="0xdd62e0"/>
+    <token id="0xdd5e10" file="waypoint_navigator.cpp" linenr="102" str="-" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5f70" astOperand1="0xdd5ec0"/>
+    <token id="0xdd5ec0" file="waypoint_navigator.cpp" linenr="102" str="b" scope="0xdea030" type="name" varId="25" variable="0xdeba20" astParent="0xdd5e10"/>
+    <token id="0xdd5f70" file="waypoint_navigator.cpp" linenr="102" str="-" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd6390" astOperand1="0xdd5e10" astOperand2="0xdd60d0"/>
+    <token id="0xdd6020" file="waypoint_navigator.cpp" linenr="102" str="sqrt" scope="0xdea030" type="name" astParent="0xdd60d0"/>
+    <token id="0xdd60d0" file="waypoint_navigator.cpp" linenr="102" str="(" scope="0xdea030" link="0xdd6230" astParent="0xdd5f70" astOperand1="0xdd6020" astOperand2="0xdd6180"/>
+    <token id="0xdd6180" file="waypoint_navigator.cpp" linenr="102" str="exp" scope="0xdea030" type="name" varId="34" variable="0xdebe10" astParent="0xdd60d0"/>
+    <token id="0xdd6230" file="waypoint_navigator.cpp" linenr="102" str=")" scope="0xdea030" link="0xdd60d0"/>
+    <token id="0xdd62e0" file="waypoint_navigator.cpp" linenr="102" str=")" scope="0xdea030" link="0xdd5d60"/>
+    <token id="0xdd6390" file="waypoint_navigator.cpp" linenr="102" str="/" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd5cb0" astOperand1="0xdd5f70" astOperand2="0xdd65a0"/>
+    <token id="0xdd6440" file="waypoint_navigator.cpp" linenr="102" str="(" scope="0xdea030" link="0xdd6700"/>
+    <token id="0xdd64f0" file="waypoint_navigator.cpp" linenr="102" str="2" scope="0xdea030" type="number" isInt="True" values="0xdd64f8" astParent="0xdd65a0"/>
+    <token id="0xdd65a0" file="waypoint_navigator.cpp" linenr="102" str="*" scope="0xdea030" type="op" isArithmeticalOp="True" astParent="0xdd6390" astOperand1="0xdd64f0" astOperand2="0xdd6650"/>
+    <token id="0xdd6650" file="waypoint_navigator.cpp" linenr="102" str="a" scope="0xdea030" type="name" varId="24" variable="0xdeb9b0" astParent="0xdd65a0"/>
+    <token id="0xdd6700" file="waypoint_navigator.cpp" linenr="102" str=")" scope="0xdea030" link="0xdd6440"/>
+    <token id="0xdd67b0" file="waypoint_navigator.cpp" linenr="102" str=";" scope="0xdea030"/>
+    <token id="0xdd6860" file="waypoint_navigator.cpp" linenr="105" str="if" scope="0xdea030" type="name" astParent="0xdd6910"/>
+    <token id="0xdd6910" file="waypoint_navigator.cpp" linenr="105" str="(" scope="0xdea030" link="0xdd76d0" astOperand1="0xdd6860" astOperand2="0xdd6ff0"/>
+    <token id="0xdd69c0" file="waypoint_navigator.cpp" linenr="105" str="(" scope="0xdea030" link="0xdd6f40"/>
+    <token id="0xdd6a70" file="waypoint_navigator.cpp" linenr="105" str="u1" scope="0xdea030" type="name" varId="35" variable="0xdebe80" values="0xdd6a78" astParent="0xdd6b20"/>
+    <token id="0xdd6b20" file="waypoint_navigator.cpp" linenr="105" str="&gt;" scope="0xdea030" type="op" isComparisonOp="True" values="0xdd6b28" astParent="0xdd6c80" astOperand1="0xdd6a70" astOperand2="0xdd6bd0"/>
+    <token id="0xdd6bd0" file="waypoint_navigator.cpp" linenr="105" str="1" scope="0xdea030" type="number" isInt="True" values="0xdd6bd8" astParent="0xdd6b20"/>
+    <token id="0xdd6c80" file="waypoint_navigator.cpp" linenr="105" str="&amp;&amp;" scope="0xdea030" type="op" isLogicalOp="True" astParent="0xdd6ff0" astOperand1="0xdd6b20" astOperand2="0xdd6de0"/>
+    <token id="0xdd6d30" file="waypoint_navigator.cpp" linenr="105" str="u2" scope="0xdea030" type="name" varId="36" variable="0xdebef0" astParent="0xdd6de0"/>
+    <token id="0xdd6de0" file="waypoint_navigator.cpp" linenr="105" str="&lt;" scope="0xdea030" type="op" isComparisonOp="True" astParent="0xdd6c80" astOperand1="0xdd6d30" astOperand2="0xdd6e90"/>
+    <token id="0xdd6e90" file="waypoint_navigator.cpp" linenr="105" str="0" scope="0xdea030" type="number" isInt="True" values="0xdd6e98" astParent="0xdd6de0"/>
+    <token id="0xdd6f40" file="waypoint_navigator.cpp" linenr="105" str=")" scope="0xdea030" link="0xdd69c0"/>
+    <token id="0xdd6ff0" file="waypoint_navigator.cpp" linenr="105" str="||" scope="0xdea030" type="op" isLogicalOp="True" astParent="0xdd6910" astOperand1="0xdd6c80" astOperand2="0xdd7360"/>
+    <token id="0xdd70a0" file="waypoint_navigator.cpp" linenr="105" str="(" scope="0xdea030" link="0xdd7620"/>
+    <token id="0xdd7150" file="waypoint_navigator.cpp" linenr="105" str="u1" scope="0xdea030" type="name" varId="35" variable="0xdebe80" astParent="0xdd7200"/>
+    <token id="0xdd7200" file="waypoint_navigator.cpp" linenr="105" str="&lt;" scope="0xdea030" type="op" isComparisonOp="True" astParent="0xdd7360" astOperand1="0xdd7150" astOperand2="0xdd72b0"/>
+    <token id="0xdd72b0" file="waypoint_navigator.cpp" linenr="105" str="0" scope="0xdea030" type="number" isInt="True" values="0xdd72b8" astParent="0xdd7200"/>
+    <token id="0xdd7360" file="waypoint_navigator.cpp" linenr="105" str="&amp;&amp;" scope="0xdea030" type="op" isLogicalOp="True" astParent="0xdd6ff0" astOperand1="0xdd7200" astOperand2="0xdd74c0"/>
+    <token id="0xdd7410" file="waypoint_navigator.cpp" linenr="105" str="u2" scope="0xdea030" type="name" varId="36" variable="0xdebef0" astParent="0xdd74c0"/>
+    <token id="0xdd74c0" file="waypoint_navigator.cpp" linenr="105" str="&gt;" scope="0xdea030" type="op" isComparisonOp="True" astParent="0xdd7360" astOperand1="0xdd7410" astOperand2="0xdd7570"/>
+    <token id="0xdd7570" file="waypoint_navigator.cpp" linenr="105" str="1" scope="0xdea030" type="number" isInt="True" values="0xdd7578" astParent="0xdd74c0"/>
+    <token id="0xdd7620" file="waypoint_navigator.cpp" linenr="105" str=")" scope="0xdea030" link="0xdd70a0"/>
+    <token id="0xdd76d0" file="waypoint_navigator.cpp" linenr="105" str=")" scope="0xdea030" link="0xdd6910"/>
+    <token id="0xdd7780" file="waypoint_navigator.cpp" linenr="106" str="{" scope="0xdea180" link="0xdd7ba0"/>
+    <token id="0xdd7830" file="waypoint_navigator.cpp" linenr="107" str="ROS_INFO" scope="0xdea180" type="name" astParent="0xdd78e0"/>
+    <token id="0xdd78e0" file="waypoint_navigator.cpp" linenr="107" str="(" scope="0xdea180" link="0xdd7a40" astOperand1="0xdd7830" astOperand2="0xdd7990"/>
+    <token id="0xdd7990" file="waypoint_navigator.cpp" linenr="107" str="&quot;No intersection but inside the circle&quot;" scope="0xdea180" type="string" strlen="37" values="0xdd7998" astParent="0xdd78e0"/>
+    <token id="0xdd7a40" file="waypoint_navigator.cpp" linenr="107" str=")" scope="0xdea180" link="0xdd78e0"/>
+    <token id="0xdd7af0" file="waypoint_navigator.cpp" linenr="107" str=";" scope="0xdea180"/>
+    <token id="0xdd7ba0" file="waypoint_navigator.cpp" linenr="108" str="}" scope="0xdea180" link="0xdd7780"/>
+    <token id="0xdd7c50" file="waypoint_navigator.cpp" linenr="110" str="else" scope="0xdea030" type="name"/>
+    <token id="0xde8370" file="waypoint_navigator.cpp" linenr="110" str="{" scope="0xdea400" link="0xde8420"/>
+    <token id="0xdd7d00" file="waypoint_navigator.cpp" linenr="110" str="if" scope="0xdea400" type="name" astParent="0xdd7db0"/>
+    <token id="0xdd7db0" file="waypoint_navigator.cpp" linenr="110" str="(" scope="0xdea400" link="0xdd8b70" astOperand1="0xdd7d00" astOperand2="0xdd8490"/>
+    <token id="0xdd7e60" file="waypoint_navigator.cpp" linenr="110" str="u1" scope="0xdea400" type="name" varId="35" variable="0xdebe80" values="0xdd7e68" astParent="0xdd7f10"/>
+    <token id="0xdd7f10" file="waypoint_navigator.cpp" linenr="110" str="&gt;=" scope="0xdea400" type="op" isComparisonOp="True" values="0xdd7f18" astParent="0xdd8120" astOperand1="0xdd7e60" astOperand2="0xdd8070"/>
+    <token id="0xdd8070" file="waypoint_navigator.cpp" linenr="110" str="0" scope="0xdea400" type="number" isInt="True" values="0xdd8078" astParent="0xdd7f10"/>
+    <token id="0xdd8120" file="waypoint_navigator.cpp" linenr="110" str="&amp;&amp;" scope="0xdea400" type="op" isLogicalOp="True" astParent="0xdd8490" astOperand1="0xdd7f10" astOperand2="0xdd8280"/>
+    <token id="0xdd81d0" file="waypoint_navigator.cpp" linenr="110" str="u1" scope="0xdea400" type="name" varId="35" variable="0xdebe80" values="0xdd81d8" astParent="0xdd8280"/>
+    <token id="0xdd8280" file="waypoint_navigator.cpp" linenr="110" str="&lt;=" scope="0xdea400" type="op" isComparisonOp="True" values="0xdd8288" astParent="0xdd8120" astOperand1="0xdd81d0" astOperand2="0xdd83e0"/>
+    <token id="0xdd83e0" file="waypoint_navigator.cpp" linenr="110" str="1" scope="0xdea400" type="number" isInt="True" values="0xdd83e8" astParent="0xdd8280"/>
+    <token id="0xdd8490" file="waypoint_navigator.cpp" linenr="110" str="&amp;&amp;" scope="0xdea400" type="op" isLogicalOp="True" astParent="0xdd7db0" astOperand1="0xdd8120" astOperand2="0xdd8800"/>
+    <token id="0xdd8540" file="waypoint_navigator.cpp" linenr="110" str="(" scope="0xdea400" link="0xdd8ac0"/>
+    <token id="0xdd85f0" file="waypoint_navigator.cpp" linenr="110" str="u2" scope="0xdea400" type="name" varId="36" variable="0xdebef0" astParent="0xdd86a0"/>
+    <token id="0xdd86a0" file="waypoint_navigator.cpp" linenr="110" str="&gt;" scope="0xdea400" type="op" isComparisonOp="True" astParent="0xdd8800" astOperand1="0xdd85f0" astOperand2="0xdd8750"/>
+    <token id="0xdd8750" file="waypoint_navigator.cpp" linenr="110" str="1" scope="0xdea400" type="number" isInt="True" values="0xdd8758" astParent="0xdd86a0"/>
+    <token id="0xdd8800" file="waypoint_navigator.cpp" linenr="110" str="||" scope="0xdea400" type="op" isLogicalOp="True" astParent="0xdd8490" astOperand1="0xdd86a0" astOperand2="0xdd8960"/>
+    <token id="0xdd88b0" file="waypoint_navigator.cpp" linenr="110" str="u2" scope="0xdea400" type="name" varId="36" variable="0xdebef0" astParent="0xdd8960"/>
+    <token id="0xdd8960" file="waypoint_navigator.cpp" linenr="110" str="&lt;" scope="0xdea400" type="op" isComparisonOp="True" astParent="0xdd8800" astOperand1="0xdd88b0" astOperand2="0xdd8a10"/>
+    <token id="0xdd8a10" file="waypoint_navigator.cpp" linenr="110" str="0" scope="0xdea400" type="number" isInt="True" values="0xdd8a18" astParent="0xdd8960"/>
+    <token id="0xdd8ac0" file="waypoint_navigator.cpp" linenr="110" str=")" scope="0xdea400" link="0xdd8540"/>
+    <token id="0xdd8b70" file="waypoint_navigator.cpp" linenr="110" str=")" scope="0xdea400" link="0xdd7db0"/>
+    <token id="0xdd8c20" file="waypoint_navigator.cpp" linenr="111" str="{" scope="0xdea550" link="0xdda010"/>
+    <token id="0xdd8cd0" file="waypoint_navigator.cpp" linenr="112" str="p1" scope="0xdea550" type="name" varId="38" variable="0xdebfd0" astParent="0xdd8d80"/>
+    <token id="0xdd8d80" file="waypoint_navigator.cpp" linenr="112" str="." scope="0xdea550" astParent="0xdd8ee0" astOperand1="0xdd8cd0" astOperand2="0xdd8e30"/>
+    <token id="0xdd8e30" file="waypoint_navigator.cpp" linenr="112" str="x" scope="0xdea550" type="name" varId="47" astParent="0xdd8d80"/>
+    <token id="0xdd8ee0" file="waypoint_navigator.cpp" linenr="112" str="=" scope="0xdea550" type="op" isAssignmentOp="True" astOperand1="0xdd8d80" astOperand2="0xdd9040"/>
+    <token id="0xdd8f90" file="waypoint_navigator.cpp" linenr="112" str="x1" scope="0xdea550" type="name" varId="27" variable="0xdebb00" astParent="0xdd9040"/>
+    <token id="0xdd9040" file="waypoint_navigator.cpp" linenr="112" str="+" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd8ee0" astOperand1="0xdd8f90" astOperand2="0xdd91a0"/>
+    <token id="0xdd90f0" file="waypoint_navigator.cpp" linenr="112" str="u1" scope="0xdea550" type="name" varId="35" variable="0xdebe80" values="0xdd90f8" astParent="0xdd91a0"/>
+    <token id="0xdd91a0" file="waypoint_navigator.cpp" linenr="112" str="*" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd9040" astOperand1="0xdd90f0" astOperand2="0xdd93b0"/>
+    <token id="0xdd9250" file="waypoint_navigator.cpp" linenr="112" str="(" scope="0xdea550" link="0xdd9510"/>
+    <token id="0xdd9300" file="waypoint_navigator.cpp" linenr="112" str="x2" scope="0xdea550" type="name" varId="28" variable="0xdebb70" astParent="0xdd93b0"/>
+    <token id="0xdd93b0" file="waypoint_navigator.cpp" linenr="112" str="-" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd91a0" astOperand1="0xdd9300" astOperand2="0xdd9460"/>
+    <token id="0xdd9460" file="waypoint_navigator.cpp" linenr="112" str="x1" scope="0xdea550" type="name" varId="27" variable="0xdebb00" astParent="0xdd93b0"/>
+    <token id="0xdd9510" file="waypoint_navigator.cpp" linenr="112" str=")" scope="0xdea550" link="0xdd9250"/>
+    <token id="0xdd95c0" file="waypoint_navigator.cpp" linenr="112" str=";" scope="0xdea550"/>
+    <token id="0xdd9670" file="waypoint_navigator.cpp" linenr="113" str="p1" scope="0xdea550" type="name" varId="38" variable="0xdebfd0" astParent="0xdd9720"/>
+    <token id="0xdd9720" file="waypoint_navigator.cpp" linenr="113" str="." scope="0xdea550" astParent="0xdd9880" astOperand1="0xdd9670" astOperand2="0xdd97d0"/>
+    <token id="0xdd97d0" file="waypoint_navigator.cpp" linenr="113" str="y" scope="0xdea550" type="name" varId="48" astParent="0xdd9720"/>
+    <token id="0xdd9880" file="waypoint_navigator.cpp" linenr="113" str="=" scope="0xdea550" type="op" isAssignmentOp="True" astOperand1="0xdd9720" astOperand2="0xdd99e0"/>
+    <token id="0xdd9930" file="waypoint_navigator.cpp" linenr="113" str="y1" scope="0xdea550" type="name" varId="30" variable="0xdebc50" astParent="0xdd99e0"/>
+    <token id="0xdd99e0" file="waypoint_navigator.cpp" linenr="113" str="+" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd9880" astOperand1="0xdd9930" astOperand2="0xdd9b40"/>
+    <token id="0xdd9a90" file="waypoint_navigator.cpp" linenr="113" str="u1" scope="0xdea550" type="name" varId="35" variable="0xdebe80" values="0xdd9a98" astParent="0xdd9b40"/>
+    <token id="0xdd9b40" file="waypoint_navigator.cpp" linenr="113" str="*" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd99e0" astOperand1="0xdd9a90" astOperand2="0xdd9d50"/>
+    <token id="0xdd9bf0" file="waypoint_navigator.cpp" linenr="113" str="(" scope="0xdea550" link="0xdd9eb0"/>
+    <token id="0xdd9ca0" file="waypoint_navigator.cpp" linenr="113" str="y2" scope="0xdea550" type="name" varId="31" variable="0xdebcc0" astParent="0xdd9d50"/>
+    <token id="0xdd9d50" file="waypoint_navigator.cpp" linenr="113" str="-" scope="0xdea550" type="op" isArithmeticalOp="True" astParent="0xdd9b40" astOperand1="0xdd9ca0" astOperand2="0xdd9e00"/>
+    <token id="0xdd9e00" file="waypoint_navigator.cpp" linenr="113" str="y1" scope="0xdea550" type="name" varId="30" variable="0xdebc50" astParent="0xdd9d50"/>
+    <token id="0xdd9eb0" file="waypoint_navigator.cpp" linenr="113" str=")" scope="0xdea550" link="0xdd9bf0"/>
+    <token id="0xdd9f60" file="waypoint_navigator.cpp" linenr="113" str=";" scope="0xdea550"/>
+    <token id="0xdda010" file="waypoint_navigator.cpp" linenr="114" str="}" scope="0xdea550" link="0xdd8c20"/>
+    <token id="0xdda0c0" file="waypoint_navigator.cpp" linenr="115" str="else" scope="0xdea400" type="name"/>
+    <token id="0xde84d0" file="waypoint_navigator.cpp" linenr="115" str="{" scope="0xdea7d0" link="0xde8580"/>
+    <token id="0xdda170" file="waypoint_navigator.cpp" linenr="115" str="if" scope="0xdea7d0" type="name" astParent="0xdda220"/>
+    <token id="0xdda220" file="waypoint_navigator.cpp" linenr="115" str="(" scope="0xdea7d0" link="0xddafe0" astOperand1="0xdda170" astOperand2="0xdda900"/>
+    <token id="0xdda2d0" file="waypoint_navigator.cpp" linenr="115" str="u2" scope="0xdea7d0" type="name" varId="36" variable="0xdebef0" values="0xdda2d8" astParent="0xdda380"/>
+    <token id="0xdda380" file="waypoint_navigator.cpp" linenr="115" str="&gt;=" scope="0xdea7d0" type="op" isComparisonOp="True" values="0xdda388" astParent="0xdda590" astOperand1="0xdda2d0" astOperand2="0xdda4e0"/>
+    <token id="0xdda4e0" file="waypoint_navigator.cpp" linenr="115" str="0" scope="0xdea7d0" type="number" isInt="True" values="0xdda4e8" astParent="0xdda380"/>
+    <token id="0xdda590" file="waypoint_navigator.cpp" linenr="115" str="&amp;&amp;" scope="0xdea7d0" type="op" isLogicalOp="True" astParent="0xdda900" astOperand1="0xdda380" astOperand2="0xdda6f0"/>
+    <token id="0xdda640" file="waypoint_navigator.cpp" linenr="115" str="u2" scope="0xdea7d0" type="name" varId="36" variable="0xdebef0" values="0xdda648" astParent="0xdda6f0"/>
+    <token id="0xdda6f0" file="waypoint_navigator.cpp" linenr="115" str="&lt;=" scope="0xdea7d0" type="op" isComparisonOp="True" values="0xdda6f8" astParent="0xdda590" astOperand1="0xdda640" astOperand2="0xdda850"/>
+    <token id="0xdda850" file="waypoint_navigator.cpp" linenr="115" str="1" scope="0xdea7d0" type="number" isInt="True" values="0xdda858" astParent="0xdda6f0"/>
+    <token id="0xdda900" file="waypoint_navigator.cpp" linenr="115" str="&amp;&amp;" scope="0xdea7d0" type="op" isLogicalOp="True" astParent="0xdda220" astOperand1="0xdda590" astOperand2="0xddac70"/>
+    <token id="0xdda9b0" file="waypoint_navigator.cpp" linenr="115" str="(" scope="0xdea7d0" link="0xddaf30"/>
+    <token id="0xddaa60" file="waypoint_navigator.cpp" linenr="115" str="u1" scope="0xdea7d0" type="name" varId="35" variable="0xdebe80" astParent="0xddab10"/>
+    <token id="0xddab10" file="waypoint_navigator.cpp" linenr="115" str="&gt;" scope="0xdea7d0" type="op" isComparisonOp="True" astParent="0xddac70" astOperand1="0xddaa60" astOperand2="0xddabc0"/>
+    <token id="0xddabc0" file="waypoint_navigator.cpp" linenr="115" str="1" scope="0xdea7d0" type="number" isInt="True" values="0xddabc8" astParent="0xddab10"/>
+    <token id="0xddac70" file="waypoint_navigator.cpp" linenr="115" str="||" scope="0xdea7d0" type="op" isLogicalOp="True" astParent="0xdda900" astOperand1="0xddab10" astOperand2="0xddadd0"/>
+    <token id="0xddad20" file="waypoint_navigator.cpp" linenr="115" str="u1" scope="0xdea7d0" type="name" varId="35" variable="0xdebe80" astParent="0xddadd0"/>
+    <token id="0xddadd0" file="waypoint_navigator.cpp" linenr="115" str="&lt;" scope="0xdea7d0" type="op" isComparisonOp="True" astParent="0xddac70" astOperand1="0xddad20" astOperand2="0xddae80"/>
+    <token id="0xddae80" file="waypoint_navigator.cpp" linenr="115" str="0" scope="0xdea7d0" type="number" isInt="True" values="0xddae88" astParent="0xddadd0"/>
+    <token id="0xddaf30" file="waypoint_navigator.cpp" linenr="115" str=")" scope="0xdea7d0" link="0xdda9b0"/>
+    <token id="0xddafe0" file="waypoint_navigator.cpp" linenr="115" str=")" scope="0xdea7d0" link="0xdda220"/>
+    <token id="0xddb090" file="waypoint_navigator.cpp" linenr="116" str="{" scope="0xdea920" link="0xddc480"/>
+    <token id="0xddb140" file="waypoint_navigator.cpp" linenr="117" str="p1" scope="0xdea920" type="name" varId="38" variable="0xdebfd0" astParent="0xddb1f0"/>
+    <token id="0xddb1f0" file="waypoint_navigator.cpp" linenr="117" str="." scope="0xdea920" astParent="0xddb350" astOperand1="0xddb140" astOperand2="0xddb2a0"/>
+    <token id="0xddb2a0" file="waypoint_navigator.cpp" linenr="117" str="x" scope="0xdea920" type="name" varId="47" astParent="0xddb1f0"/>
+    <token id="0xddb350" file="waypoint_navigator.cpp" linenr="117" str="=" scope="0xdea920" type="op" isAssignmentOp="True" astOperand1="0xddb1f0" astOperand2="0xddb4b0"/>
+    <token id="0xddb400" file="waypoint_navigator.cpp" linenr="117" str="x1" scope="0xdea920" type="name" varId="27" variable="0xdebb00" astParent="0xddb4b0"/>
+    <token id="0xddb4b0" file="waypoint_navigator.cpp" linenr="117" str="+" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddb350" astOperand1="0xddb400" astOperand2="0xddb610"/>
+    <token id="0xddb560" file="waypoint_navigator.cpp" linenr="117" str="u2" scope="0xdea920" type="name" varId="36" variable="0xdebef0" values="0xddb568" astParent="0xddb610"/>
+    <token id="0xddb610" file="waypoint_navigator.cpp" linenr="117" str="*" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddb4b0" astOperand1="0xddb560" astOperand2="0xddb820"/>
+    <token id="0xddb6c0" file="waypoint_navigator.cpp" linenr="117" str="(" scope="0xdea920" link="0xddb980"/>
+    <token id="0xddb770" file="waypoint_navigator.cpp" linenr="117" str="x2" scope="0xdea920" type="name" varId="28" variable="0xdebb70" astParent="0xddb820"/>
+    <token id="0xddb820" file="waypoint_navigator.cpp" linenr="117" str="-" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddb610" astOperand1="0xddb770" astOperand2="0xddb8d0"/>
+    <token id="0xddb8d0" file="waypoint_navigator.cpp" linenr="117" str="x1" scope="0xdea920" type="name" varId="27" variable="0xdebb00" astParent="0xddb820"/>
+    <token id="0xddb980" file="waypoint_navigator.cpp" linenr="117" str=")" scope="0xdea920" link="0xddb6c0"/>
+    <token id="0xddba30" file="waypoint_navigator.cpp" linenr="117" str=";" scope="0xdea920"/>
+    <token id="0xddbae0" file="waypoint_navigator.cpp" linenr="118" str="p1" scope="0xdea920" type="name" varId="38" variable="0xdebfd0" astParent="0xddbb90"/>
+    <token id="0xddbb90" file="waypoint_navigator.cpp" linenr="118" str="." scope="0xdea920" astParent="0xddbcf0" astOperand1="0xddbae0" astOperand2="0xddbc40"/>
+    <token id="0xddbc40" file="waypoint_navigator.cpp" linenr="118" str="y" scope="0xdea920" type="name" varId="48" astParent="0xddbb90"/>
+    <token id="0xddbcf0" file="waypoint_navigator.cpp" linenr="118" str="=" scope="0xdea920" type="op" isAssignmentOp="True" astOperand1="0xddbb90" astOperand2="0xddbe50"/>
+    <token id="0xddbda0" file="waypoint_navigator.cpp" linenr="118" str="y1" scope="0xdea920" type="name" varId="30" variable="0xdebc50" astParent="0xddbe50"/>
+    <token id="0xddbe50" file="waypoint_navigator.cpp" linenr="118" str="+" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddbcf0" astOperand1="0xddbda0" astOperand2="0xddbfb0"/>
+    <token id="0xddbf00" file="waypoint_navigator.cpp" linenr="118" str="u2" scope="0xdea920" type="name" varId="36" variable="0xdebef0" values="0xddbf08" astParent="0xddbfb0"/>
+    <token id="0xddbfb0" file="waypoint_navigator.cpp" linenr="118" str="*" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddbe50" astOperand1="0xddbf00" astOperand2="0xddc1c0"/>
+    <token id="0xddc060" file="waypoint_navigator.cpp" linenr="118" str="(" scope="0xdea920" link="0xddc320"/>
+    <token id="0xddc110" file="waypoint_navigator.cpp" linenr="118" str="y2" scope="0xdea920" type="name" varId="31" variable="0xdebcc0" astParent="0xddc1c0"/>
+    <token id="0xddc1c0" file="waypoint_navigator.cpp" linenr="118" str="-" scope="0xdea920" type="op" isArithmeticalOp="True" astParent="0xddbfb0" astOperand1="0xddc110" astOperand2="0xddc270"/>
+    <token id="0xddc270" file="waypoint_navigator.cpp" linenr="118" str="y1" scope="0xdea920" type="name" varId="30" variable="0xdebc50" astParent="0xddc1c0"/>
+    <token id="0xddc320" file="waypoint_navigator.cpp" linenr="118" str=")" scope="0xdea920" link="0xddc060"/>
+    <token id="0xddc3d0" file="waypoint_navigator.cpp" linenr="118" str=";" scope="0xdea920"/>
+    <token id="0xddc480" file="waypoint_navigator.cpp" linenr="119" str="}" scope="0xdea920" link="0xddb090"/>
+    <token id="0xddc530" file="waypoint_navigator.cpp" linenr="121" str="else" scope="0xdea7d0" type="name"/>
+    <token id="0xddc5e0" file="waypoint_navigator.cpp" linenr="122" str="{" scope="0xdeaba0" link="0xde0050"/>
+    <token id="0xddc690" file="waypoint_navigator.cpp" linenr="123" str="p1" scope="0xdeaba0" type="name" varId="38" variable="0xdebfd0" astParent="0xddc740"/>
+    <token id="0xddc740" file="waypoint_navigator.cpp" linenr="123" str="." scope="0xdeaba0" astParent="0xddc8a0" astOperand1="0xddc690" astOperand2="0xddc7f0"/>
+    <token id="0xddc7f0" file="waypoint_navigator.cpp" linenr="123" str="x" scope="0xdeaba0" type="name" varId="47" astParent="0xddc740"/>
+    <token id="0xddc8a0" file="waypoint_navigator.cpp" linenr="123" str="=" scope="0xdeaba0" type="op" isAssignmentOp="True" astOperand1="0xddc740" astOperand2="0xddca00"/>
+    <token id="0xddc950" file="waypoint_navigator.cpp" linenr="123" str="x1" scope="0xdeaba0" type="name" varId="27" variable="0xdebb00" astParent="0xddca00"/>
+    <token id="0xddca00" file="waypoint_navigator.cpp" linenr="123" str="+" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddc8a0" astOperand1="0xddc950" astOperand2="0xddcb60"/>
+    <token id="0xddcab0" file="waypoint_navigator.cpp" linenr="123" str="u1" scope="0xdeaba0" type="name" varId="35" variable="0xdebe80" astParent="0xddcb60"/>
+    <token id="0xddcb60" file="waypoint_navigator.cpp" linenr="123" str="*" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddca00" astOperand1="0xddcab0" astOperand2="0xddcd70"/>
+    <token id="0xddcc10" file="waypoint_navigator.cpp" linenr="123" str="(" scope="0xdeaba0" link="0xddced0"/>
+    <token id="0xddccc0" file="waypoint_navigator.cpp" linenr="123" str="x2" scope="0xdeaba0" type="name" varId="28" variable="0xdebb70" astParent="0xddcd70"/>
+    <token id="0xddcd70" file="waypoint_navigator.cpp" linenr="123" str="-" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddcb60" astOperand1="0xddccc0" astOperand2="0xddce20"/>
+    <token id="0xddce20" file="waypoint_navigator.cpp" linenr="123" str="x1" scope="0xdeaba0" type="name" varId="27" variable="0xdebb00" astParent="0xddcd70"/>
+    <token id="0xddced0" file="waypoint_navigator.cpp" linenr="123" str=")" scope="0xdeaba0" link="0xddcc10"/>
+    <token id="0xddcf80" file="waypoint_navigator.cpp" linenr="123" str=";" scope="0xdeaba0"/>
+    <token id="0xddd030" file="waypoint_navigator.cpp" linenr="124" str="p1" scope="0xdeaba0" type="name" varId="38" variable="0xdebfd0" astParent="0xddd0e0"/>
+    <token id="0xddd0e0" file="waypoint_navigator.cpp" linenr="124" str="." scope="0xdeaba0" astParent="0xddd240" astOperand1="0xddd030" astOperand2="0xddd190"/>
+    <token id="0xddd190" file="waypoint_navigator.cpp" linenr="124" str="y" scope="0xdeaba0" type="name" varId="48" astParent="0xddd0e0"/>
+    <token id="0xddd240" file="waypoint_navigator.cpp" linenr="124" str="=" scope="0xdeaba0" type="op" isAssignmentOp="True" astOperand1="0xddd0e0" astOperand2="0xddd3a0"/>
+    <token id="0xddd2f0" file="waypoint_navigator.cpp" linenr="124" str="y1" scope="0xdeaba0" type="name" varId="30" variable="0xdebc50" astParent="0xddd3a0"/>
+    <token id="0xddd3a0" file="waypoint_navigator.cpp" linenr="124" str="+" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddd240" astOperand1="0xddd2f0" astOperand2="0xddd500"/>
+    <token id="0xddd450" file="waypoint_navigator.cpp" linenr="124" str="u1" scope="0xdeaba0" type="name" varId="35" variable="0xdebe80" astParent="0xddd500"/>
+    <token id="0xddd500" file="waypoint_navigator.cpp" linenr="124" str="*" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddd3a0" astOperand1="0xddd450" astOperand2="0xddd710"/>
+    <token id="0xddd5b0" file="waypoint_navigator.cpp" linenr="124" str="(" scope="0xdeaba0" link="0xddd870"/>
+    <token id="0xddd660" file="waypoint_navigator.cpp" linenr="124" str="y2" scope="0xdeaba0" type="name" varId="31" variable="0xdebcc0" astParent="0xddd710"/>
+    <token id="0xddd710" file="waypoint_navigator.cpp" linenr="124" str="-" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xddd500" astOperand1="0xddd660" astOperand2="0xddd7c0"/>
+    <token id="0xddd7c0" file="waypoint_navigator.cpp" linenr="124" str="y1" scope="0xdeaba0" type="name" varId="30" variable="0xdebc50" astParent="0xddd710"/>
+    <token id="0xddd870" file="waypoint_navigator.cpp" linenr="124" str=")" scope="0xdeaba0" link="0xddd5b0"/>
+    <token id="0xddd920" file="waypoint_navigator.cpp" linenr="124" str=";" scope="0xdeaba0"/>
+    <token id="0xddd9d0" file="waypoint_navigator.cpp" linenr="125" str="p2" scope="0xdeaba0" type="name" varId="39" variable="0xdec040" astParent="0xddda80"/>
+    <token id="0xddda80" file="waypoint_navigator.cpp" linenr="125" str="." scope="0xdeaba0" astParent="0xdddbe0" astOperand1="0xddd9d0" astOperand2="0xdddb30"/>
+    <token id="0xdddb30" file="waypoint_navigator.cpp" linenr="125" str="x" scope="0xdeaba0" type="name" varId="49" astParent="0xddda80"/>
+    <token id="0xdddbe0" file="waypoint_navigator.cpp" linenr="125" str="=" scope="0xdeaba0" type="op" isAssignmentOp="True" astOperand1="0xddda80" astOperand2="0xdddd40"/>
+    <token id="0xdddc90" file="waypoint_navigator.cpp" linenr="125" str="x1" scope="0xdeaba0" type="name" varId="27" variable="0xdebb00" astParent="0xdddd40"/>
+    <token id="0xdddd40" file="waypoint_navigator.cpp" linenr="125" str="+" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdddbe0" astOperand1="0xdddc90" astOperand2="0xdddea0"/>
+    <token id="0xddddf0" file="waypoint_navigator.cpp" linenr="125" str="u2" scope="0xdeaba0" type="name" varId="36" variable="0xdebef0" astParent="0xdddea0"/>
+    <token id="0xdddea0" file="waypoint_navigator.cpp" linenr="125" str="*" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdddd40" astOperand1="0xddddf0" astOperand2="0xdde0b0"/>
+    <token id="0xdddf50" file="waypoint_navigator.cpp" linenr="125" str="(" scope="0xdeaba0" link="0xdde210"/>
+    <token id="0xdde000" file="waypoint_navigator.cpp" linenr="125" str="x2" scope="0xdeaba0" type="name" varId="28" variable="0xdebb70" astParent="0xdde0b0"/>
+    <token id="0xdde0b0" file="waypoint_navigator.cpp" linenr="125" str="-" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdddea0" astOperand1="0xdde000" astOperand2="0xdde160"/>
+    <token id="0xdde160" file="waypoint_navigator.cpp" linenr="125" str="x1" scope="0xdeaba0" type="name" varId="27" variable="0xdebb00" astParent="0xdde0b0"/>
+    <token id="0xdde210" file="waypoint_navigator.cpp" linenr="125" str=")" scope="0xdeaba0" link="0xdddf50"/>
+    <token id="0xdde2c0" file="waypoint_navigator.cpp" linenr="125" str=";" scope="0xdeaba0"/>
+    <token id="0xdde370" file="waypoint_navigator.cpp" linenr="126" str="p2" scope="0xdeaba0" type="name" varId="39" variable="0xdec040" astParent="0xdde420"/>
+    <token id="0xdde420" file="waypoint_navigator.cpp" linenr="126" str="." scope="0xdeaba0" astParent="0xdde580" astOperand1="0xdde370" astOperand2="0xdde4d0"/>
+    <token id="0xdde4d0" file="waypoint_navigator.cpp" linenr="126" str="y" scope="0xdeaba0" type="name" varId="50" astParent="0xdde420"/>
+    <token id="0xdde580" file="waypoint_navigator.cpp" linenr="126" str="=" scope="0xdeaba0" type="op" isAssignmentOp="True" astOperand1="0xdde420" astOperand2="0xdde6e0"/>
+    <token id="0xdde630" file="waypoint_navigator.cpp" linenr="126" str="y1" scope="0xdeaba0" type="name" varId="30" variable="0xdebc50" astParent="0xdde6e0"/>
+    <token id="0xdde6e0" file="waypoint_navigator.cpp" linenr="126" str="+" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdde580" astOperand1="0xdde630" astOperand2="0xdde840"/>
+    <token id="0xdde790" file="waypoint_navigator.cpp" linenr="126" str="u2" scope="0xdeaba0" type="name" varId="36" variable="0xdebef0" astParent="0xdde840"/>
+    <token id="0xdde840" file="waypoint_navigator.cpp" linenr="126" str="*" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdde6e0" astOperand1="0xdde790" astOperand2="0xddea50"/>
+    <token id="0xdde8f0" file="waypoint_navigator.cpp" linenr="126" str="(" scope="0xdeaba0" link="0xddebb0"/>
+    <token id="0xdde9a0" file="waypoint_navigator.cpp" linenr="126" str="y2" scope="0xdeaba0" type="name" varId="31" variable="0xdebcc0" astParent="0xddea50"/>
+    <token id="0xddea50" file="waypoint_navigator.cpp" linenr="126" str="-" scope="0xdeaba0" type="op" isArithmeticalOp="True" astParent="0xdde840" astOperand1="0xdde9a0" astOperand2="0xddeb00"/>
+    <token id="0xddeb00" file="waypoint_navigator.cpp" linenr="126" str="y1" scope="0xdeaba0" type="name" varId="30" variable="0xdebc50" astParent="0xddea50"/>
+    <token id="0xddebb0" file="waypoint_navigator.cpp" linenr="126" str=")" scope="0xdeaba0" link="0xdde8f0"/>
+    <token id="0xddec60" file="waypoint_navigator.cpp" linenr="126" str=";" scope="0xdeaba0"/>
+    <token id="0xdded10" file="waypoint_navigator.cpp" linenr="128" str="if" scope="0xdeaba0" type="name" astParent="0xddedc0"/>
+    <token id="0xddedc0" file="waypoint_navigator.cpp" linenr="128" str="(" scope="0xdeaba0" link="0xddfb80" astOperand1="0xdded10" astOperand2="0xddf4a0"/>
+    <token id="0xddee70" file="waypoint_navigator.cpp" linenr="128" str="distance" scope="0xdeaba0" type="name" function="0xde8980" astParent="0xddef20"/>
+    <token id="0xddef20" file="waypoint_navigator.cpp" linenr="128" str="(" scope="0xdeaba0" link="0xddf3f0" astParent="0xddf4a0" astOperand1="0xddee70" astOperand2="0xddf080"/>
+    <token id="0xddefd0" file="waypoint_navigator.cpp" linenr="128" str="p1" scope="0xdeaba0" type="name" varId="38" variable="0xdebfd0" astParent="0xddf080"/>
+    <token id="0xddf080" file="waypoint_navigator.cpp" linenr="128" str="," scope="0xdeaba0" astParent="0xddef20" astOperand1="0xddefd0" astOperand2="0xddf1e0"/>
+    <token id="0xddf130" file="waypoint_navigator.cpp" linenr="128" str="waypoints_" scope="0xdeaba0" type="name" varId="5" variable="0xdeb5c0" astParent="0xddf1e0"/>
+    <token id="0xddf1e0" file="waypoint_navigator.cpp" linenr="128" str="[" scope="0xdeaba0" link="0xddf340" astParent="0xddf080" astOperand1="0xddf130" astOperand2="0xddf290"/>
+    <token id="0xddf290" file="waypoint_navigator.cpp" linenr="128" str="next_waypoint_" scope="0xdeaba0" type="name" varId="8" variable="0xdeb710" astParent="0xddf1e0"/>
+    <token id="0xddf340" file="waypoint_navigator.cpp" linenr="128" str="]" scope="0xdeaba0" link="0xddf1e0"/>
+    <token id="0xddf3f0" file="waypoint_navigator.cpp" linenr="128" str=")" scope="0xdeaba0" link="0xddef20"/>
+    <token id="0xddf4a0" file="waypoint_navigator.cpp" linenr="128" str="&gt;" scope="0xdeaba0" type="op" isComparisonOp="True" astParent="0xddedc0" astOperand1="0xddef20" astOperand2="0xddf600"/>
+    <token id="0xddf550" file="waypoint_navigator.cpp" linenr="128" str="distance" scope="0xdeaba0" type="name" function="0xde8980" astParent="0xddf600"/>
+    <token id="0xddf600" file="waypoint_navigator.cpp" linenr="128" str="(" scope="0xdeaba0" link="0xddfad0" astParent="0xddf4a0" astOperand1="0xddf550" astOperand2="0xddf760"/>
+    <token id="0xddf6b0" file="waypoint_navigator.cpp" linenr="128" str="p2" scope="0xdeaba0" type="name" varId="39" variable="0xdec040" astParent="0xddf760"/>
+    <token id="0xddf760" file="waypoint_navigator.cpp" linenr="128" str="," scope="0xdeaba0" astParent="0xddf600" astOperand1="0xddf6b0" astOperand2="0xddf8c0"/>
+    <token id="0xddf810" file="waypoint_navigator.cpp" linenr="128" str="waypoints_" scope="0xdeaba0" type="name" varId="5" variable="0xdeb5c0" astParent="0xddf8c0"/>
+    <token id="0xddf8c0" file="waypoint_navigator.cpp" linenr="128" str="[" scope="0xdeaba0" link="0xddfa20" astParent="0xddf760" astOperand1="0xddf810" astOperand2="0xddf970"/>
+    <token id="0xddf970" file="waypoint_navigator.cpp" linenr="128" str="next_waypoint_" scope="0xdeaba0" type="name" varId="8" variable="0xdeb710" astParent="0xddf8c0"/>
+    <token id="0xddfa20" file="waypoint_navigator.cpp" linenr="128" str="]" scope="0xdeaba0" link="0xddf8c0"/>
+    <token id="0xddfad0" file="waypoint_navigator.cpp" linenr="128" str=")" scope="0xdeaba0" link="0xddf600"/>
+    <token id="0xddfb80" file="waypoint_navigator.cpp" linenr="128" str=")" scope="0xdeaba0" link="0xddedc0"/>
+    <token id="0xddfc30" file="waypoint_navigator.cpp" linenr="129" str="{" scope="0xdeacf0" link="0xddffa0"/>
+    <token id="0xddfce0" file="waypoint_navigator.cpp" linenr="130" str="p1" scope="0xdeacf0" type="name" varId="38" variable="0xdebfd0" astParent="0xddfd90"/>
+    <token id="0xddfd90" file="waypoint_navigator.cpp" linenr="130" str="=" scope="0xdeacf0" type="op" isAssignmentOp="True" astOperand1="0xddfce0" astOperand2="0xddfe40"/>
+    <token id="0xddfe40" file="waypoint_navigator.cpp" linenr="130" str="p2" scope="0xdeacf0" type="name" varId="39" variable="0xdec040" astParent="0xddfd90"/>
+    <token id="0xddfef0" file="waypoint_navigator.cpp" linenr="130" str=";" scope="0xdeacf0"/>
+    <token id="0xddffa0" file="waypoint_navigator.cpp" linenr="131" str="}" scope="0xdeacf0" link="0xddfc30"/>
+    <token id="0xde0050" file="waypoint_navigator.cpp" linenr="132" str="}" scope="0xdeaba0" link="0xddc5e0"/>
+    <token id="0xde8580" file="waypoint_navigator.cpp" linenr="132" str="}" scope="0xdea7d0" link="0xde84d0"/>
+    <token id="0xde8420" file="waypoint_navigator.cpp" linenr="132" str="}" scope="0xdea400" link="0xde8370"/>
+    <token id="0xde0100" file="waypoint_navigator.cpp" linenr="133" str="}" scope="0xdea030" link="0xdd4ef0"/>
+    <token id="0xde7f50" file="waypoint_navigator.cpp" linenr="133" str="}" scope="0xde9c60" link="0xde7ea0"/>
+    <token id="0xde01b0" file="waypoint_navigator.cpp" linenr="139" str="theta_err" scope="0xde95f0" type="name" varId="37" variable="0xdebf60" astParent="0xde0260"/>
+    <token id="0xde0260" file="waypoint_navigator.cpp" linenr="139" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xde01b0" astOperand2="0xde0cb0"/>
+    <token id="0xde0310" file="waypoint_navigator.cpp" linenr="139" str="atan2" scope="0xde95f0" type="name" astParent="0xde03c0"/>
+    <token id="0xde03c0" file="waypoint_navigator.cpp" linenr="139" str="(" scope="0xde95f0" link="0xde0c00" astParent="0xde0cb0" astOperand1="0xde0310" astOperand2="0xde07e0"/>
+    <token id="0xde0470" file="waypoint_navigator.cpp" linenr="139" str="p1" scope="0xde95f0" type="name" varId="38" variable="0xdebfd0" astParent="0xde0520"/>
+    <token id="0xde0520" file="waypoint_navigator.cpp" linenr="139" str="." scope="0xde95f0" astParent="0xde0680" astOperand1="0xde0470" astOperand2="0xde05d0"/>
+    <token id="0xde05d0" file="waypoint_navigator.cpp" linenr="139" str="y" scope="0xde95f0" type="name" varId="48" astParent="0xde0520"/>
+    <token id="0xde0680" file="waypoint_navigator.cpp" linenr="139" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde07e0" astOperand1="0xde0520" astOperand2="0xde0730"/>
+    <token id="0xde0730" file="waypoint_navigator.cpp" linenr="139" str="yc" scope="0xde95f0" type="name" varId="32" variable="0xdebd30" astParent="0xde0680"/>
+    <token id="0xde07e0" file="waypoint_navigator.cpp" linenr="139" str="," scope="0xde95f0" astParent="0xde03c0" astOperand1="0xde0680" astOperand2="0xde0aa0"/>
+    <token id="0xde0890" file="waypoint_navigator.cpp" linenr="139" str="p1" scope="0xde95f0" type="name" varId="38" variable="0xdebfd0" astParent="0xde0940"/>
+    <token id="0xde0940" file="waypoint_navigator.cpp" linenr="139" str="." scope="0xde95f0" astParent="0xde0aa0" astOperand1="0xde0890" astOperand2="0xde09f0"/>
+    <token id="0xde09f0" file="waypoint_navigator.cpp" linenr="139" str="x" scope="0xde95f0" type="name" varId="47" astParent="0xde0940"/>
+    <token id="0xde0aa0" file="waypoint_navigator.cpp" linenr="139" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde07e0" astOperand1="0xde0940" astOperand2="0xde0b50"/>
+    <token id="0xde0b50" file="waypoint_navigator.cpp" linenr="139" str="xc" scope="0xde95f0" type="name" varId="29" variable="0xdebbe0" astParent="0xde0aa0"/>
+    <token id="0xde0c00" file="waypoint_navigator.cpp" linenr="139" str=")" scope="0xde95f0" link="0xde03c0"/>
+    <token id="0xde0cb0" file="waypoint_navigator.cpp" linenr="139" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde0260" astOperand1="0xde03c0" astOperand2="0xde0d60"/>
+    <token id="0xde0d60" file="waypoint_navigator.cpp" linenr="139" str="theta" scope="0xde95f0" type="name" varId="33" variable="0xdebda0" astParent="0xde0cb0"/>
+    <token id="0xde0e10" file="waypoint_navigator.cpp" linenr="139" str=";" scope="0xde95f0"/>
+    <token id="0xde0ec0" file="waypoint_navigator.cpp" linenr="140" str="while" scope="0xde95f0" type="name" astParent="0xde0f70"/>
+    <token id="0xde0f70" file="waypoint_navigator.cpp" linenr="140" str="(" scope="0xde95f0" link="0xde1230" astOperand1="0xde0ec0" astOperand2="0xde10d0"/>
+    <token id="0xde1020" file="waypoint_navigator.cpp" linenr="140" str="theta_err" scope="0xde95f0" type="name" varId="37" variable="0xdebf60" astParent="0xde10d0"/>
+    <token id="0xde10d0" file="waypoint_navigator.cpp" linenr="140" str="&gt;" scope="0xde95f0" type="op" isComparisonOp="True" astParent="0xde0f70" astOperand1="0xde1020" astOperand2="0xde1180"/>
+    <token id="0xde1180" file="waypoint_navigator.cpp" linenr="140" str="M_PI" scope="0xde95f0" type="name" astParent="0xde10d0"/>
+    <token id="0xde1230" file="waypoint_navigator.cpp" linenr="140" str=")" scope="0xde95f0" link="0xde0f70"/>
+    <token id="0xdbfc40" file="waypoint_navigator.cpp" linenr="140" str="{" scope="0xdeae40" link="0xdc9620"/>
+    <token id="0xde12e0" file="waypoint_navigator.cpp" linenr="141" str="theta_err" scope="0xdeae40" type="name" varId="37" variable="0xdebf60" astParent="0xde1390"/>
+    <token id="0xde1390" file="waypoint_navigator.cpp" linenr="141" str="-=" scope="0xdeae40" type="op" isAssignmentOp="True" astOperand1="0xde12e0" astOperand2="0xde15a0"/>
+    <token id="0xde14f0" file="waypoint_navigator.cpp" linenr="141" str="2" scope="0xdeae40" type="number" isInt="True" values="0xde14f8" astParent="0xde15a0"/>
+    <token id="0xde15a0" file="waypoint_navigator.cpp" linenr="141" str="*" scope="0xdeae40" type="op" isArithmeticalOp="True" astParent="0xde1390" astOperand1="0xde14f0" astOperand2="0xde1650"/>
+    <token id="0xde1650" file="waypoint_navigator.cpp" linenr="141" str="M_PI" scope="0xdeae40" type="name" astParent="0xde15a0"/>
+    <token id="0xde1700" file="waypoint_navigator.cpp" linenr="141" str=";" scope="0xdeae40"/>
+    <token id="0xdc9620" file="waypoint_navigator.cpp" linenr="141" str="}" scope="0xdeae40" link="0xdbfc40"/>
+    <token id="0xde17b0" file="waypoint_navigator.cpp" linenr="142" str="while" scope="0xde95f0" type="name" astParent="0xde1860"/>
+    <token id="0xde1860" file="waypoint_navigator.cpp" linenr="142" str="(" scope="0xde95f0" link="0xde1bd0" astOperand1="0xde17b0" astOperand2="0xde19c0"/>
+    <token id="0xde1910" file="waypoint_navigator.cpp" linenr="142" str="theta_err" scope="0xde95f0" type="name" varId="37" variable="0xdebf60" astParent="0xde19c0"/>
+    <token id="0xde19c0" file="waypoint_navigator.cpp" linenr="142" str="&lt;" scope="0xde95f0" type="op" isComparisonOp="True" astParent="0xde1860" astOperand1="0xde1910" astOperand2="0xde1a70"/>
+    <token id="0xde1a70" file="waypoint_navigator.cpp" linenr="142" str="-" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde19c0" astOperand1="0xde1b20"/>
+    <token id="0xde1b20" file="waypoint_navigator.cpp" linenr="142" str="M_PI" scope="0xde95f0" type="name" astParent="0xde1a70"/>
+    <token id="0xde1bd0" file="waypoint_navigator.cpp" linenr="142" str=")" scope="0xde95f0" link="0xde1860"/>
+    <token id="0xdd7fc0" file="waypoint_navigator.cpp" linenr="142" str="{" scope="0xdeaf90" link="0xdd8330"/>
+    <token id="0xde1c80" file="waypoint_navigator.cpp" linenr="143" str="theta_err" scope="0xdeaf90" type="name" varId="37" variable="0xdebf60" astParent="0xde1d30"/>
+    <token id="0xde1d30" file="waypoint_navigator.cpp" linenr="143" str="+=" scope="0xdeaf90" type="op" isAssignmentOp="True" astOperand1="0xde1c80" astOperand2="0xde1f40"/>
+    <token id="0xde1e90" file="waypoint_navigator.cpp" linenr="143" str="2" scope="0xdeaf90" type="number" isInt="True" values="0xde1e98" astParent="0xde1f40"/>
+    <token id="0xde1f40" file="waypoint_navigator.cpp" linenr="143" str="*" scope="0xdeaf90" type="op" isArithmeticalOp="True" astParent="0xde1d30" astOperand1="0xde1e90" astOperand2="0xde1ff0"/>
+    <token id="0xde1ff0" file="waypoint_navigator.cpp" linenr="143" str="M_PI" scope="0xdeaf90" type="name" astParent="0xde1f40"/>
+    <token id="0xde20a0" file="waypoint_navigator.cpp" linenr="143" str=";" scope="0xdeaf90"/>
+    <token id="0xdd8330" file="waypoint_navigator.cpp" linenr="143" str="}" scope="0xdeaf90" link="0xdd7fc0"/>
+    <token id="0xde2150" file="waypoint_navigator.cpp" linenr="145" str="vel_msg" scope="0xde95f0" type="name" varId="40" variable="0xdec0b0" astParent="0xde2200"/>
+    <token id="0xde2200" file="waypoint_navigator.cpp" linenr="145" str="." scope="0xde95f0" astParent="0xde2360" astOperand1="0xde2150" astOperand2="0xde22b0"/>
+    <token id="0xde22b0" file="waypoint_navigator.cpp" linenr="145" str="linear" scope="0xde95f0" type="name" varId="51" astParent="0xde2200"/>
+    <token id="0xde2360" file="waypoint_navigator.cpp" linenr="145" str="." scope="0xde95f0" astParent="0xde24c0" astOperand1="0xde2200" astOperand2="0xde2410"/>
+    <token id="0xde2410" file="waypoint_navigator.cpp" linenr="145" str="x" scope="0xde95f0" type="name" varId="52" astParent="0xde2360"/>
+    <token id="0xde24c0" file="waypoint_navigator.cpp" linenr="145" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xde2360" astOperand2="0xde2570"/>
+    <token id="0xde2570" file="waypoint_navigator.cpp" linenr="145" str="lin_vel_" scope="0xde95f0" type="name" varId="6" variable="0xdeb630" astParent="0xde24c0"/>
+    <token id="0xde2620" file="waypoint_navigator.cpp" linenr="145" str=";" scope="0xde95f0"/>
+    <token id="0xde26d0" file="waypoint_navigator.cpp" linenr="146" str="vel_msg" scope="0xde95f0" type="name" varId="40" variable="0xdec0b0" astParent="0xde2780"/>
+    <token id="0xde2780" file="waypoint_navigator.cpp" linenr="146" str="." scope="0xde95f0" astParent="0xde28e0" astOperand1="0xde26d0" astOperand2="0xde2830"/>
+    <token id="0xde2830" file="waypoint_navigator.cpp" linenr="146" str="angular" scope="0xde95f0" type="name" varId="53" astParent="0xde2780"/>
+    <token id="0xde28e0" file="waypoint_navigator.cpp" linenr="146" str="." scope="0xde95f0" astParent="0xde2a40" astOperand1="0xde2780" astOperand2="0xde2990"/>
+    <token id="0xde2990" file="waypoint_navigator.cpp" linenr="146" str="z" scope="0xde95f0" type="name" varId="54" astParent="0xde28e0"/>
+    <token id="0xde2a40" file="waypoint_navigator.cpp" linenr="146" str="=" scope="0xde95f0" type="op" isAssignmentOp="True" astOperand1="0xde28e0" astOperand2="0xde2e60"/>
+    <token id="0xde2af0" file="waypoint_navigator.cpp" linenr="146" str="lin_vel_" scope="0xde95f0" type="name" varId="6" variable="0xdeb630" astParent="0xde2ba0"/>
+    <token id="0xde2ba0" file="waypoint_navigator.cpp" linenr="146" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde2d00" astOperand1="0xde2af0" astOperand2="0xde2c50"/>
+    <token id="0xde2c50" file="waypoint_navigator.cpp" linenr="146" str="2" scope="0xde95f0" type="number" isInt="True" values="0xde2c58" astParent="0xde2ba0"/>
+    <token id="0xde2d00" file="waypoint_navigator.cpp" linenr="146" str="*" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde2e60" astOperand1="0xde2ba0" astOperand2="0xde2db0"/>
+    <token id="0xde2db0" file="waypoint_navigator.cpp" linenr="146" str="theta_err" scope="0xde95f0" type="name" varId="37" variable="0xdebf60" astParent="0xde2d00"/>
+    <token id="0xde2e60" file="waypoint_navigator.cpp" linenr="146" str="/" scope="0xde95f0" type="op" isArithmeticalOp="True" astParent="0xde2a40" astOperand1="0xde2d00" astOperand2="0xde2f10"/>
+    <token id="0xde2f10" file="waypoint_navigator.cpp" linenr="146" str="look_ahead_" scope="0xde95f0" type="name" varId="7" variable="0xdeb6a0" astParent="0xde2e60"/>
+    <token id="0xde2fc0" file="waypoint_navigator.cpp" linenr="146" str=";" scope="0xde95f0"/>
+    <token id="0xde3070" file="waypoint_navigator.cpp" linenr="147" str="cmd_vel_pub_" scope="0xde95f0" type="name" varId="3" variable="0xdeb4e0" astParent="0xde3120"/>
+    <token id="0xde3120" file="waypoint_navigator.cpp" linenr="147" str="." scope="0xde95f0" astParent="0xde3280" astOperand1="0xde3070" astOperand2="0xde31d0"/>
+    <token id="0xde31d0" file="waypoint_navigator.cpp" linenr="147" str="publish" scope="0xde95f0" type="name" astParent="0xde3120"/>
+    <token id="0xde3280" file="waypoint_navigator.cpp" linenr="147" str="(" scope="0xde95f0" link="0xde33e0" astOperand1="0xde3120" astOperand2="0xde3330"/>
+    <token id="0xde3330" file="waypoint_navigator.cpp" linenr="147" str="vel_msg" scope="0xde95f0" type="name" varId="40" variable="0xdec0b0" astParent="0xde3280"/>
+    <token id="0xde33e0" file="waypoint_navigator.cpp" linenr="147" str=")" scope="0xde95f0" link="0xde3280"/>
+    <token id="0xde3490" file="waypoint_navigator.cpp" linenr="147" str=";" scope="0xde95f0"/>
+    <token id="0xde3540" file="waypoint_navigator.cpp" linenr="148" str="}" scope="0xde95f0" link="0xdc6340"/>
+    <token id="0xde35f0" file="waypoint_navigator.cpp" linenr="150" str="double" scope="0xde8640" type="name"/>
+    <token id="0xde36a0" file="waypoint_navigator.cpp" linenr="150" str="WaypointNavigator" scope="0xde8640" type="name" type-scope="0xde8770" astParent="0xde3750"/>
+    <token id="0xde3750" file="waypoint_navigator.cpp" linenr="150" str="::" scope="0xde8640" astParent="0xde38b0" astOperand1="0xde36a0" astOperand2="0xde3800"/>
+    <token id="0xde3800" file="waypoint_navigator.cpp" linenr="150" str="distance" scope="0xde8640" type="name" function="0xde8980" astParent="0xde3750"/>
+    <token id="0xde38b0" file="waypoint_navigator.cpp" linenr="150" str="(" scope="0xde8640" link="0xde3f90" astOperand1="0xde3750" astOperand2="0xde3c20"/>
+    <token id="0xde3960" file="waypoint_navigator.cpp" linenr="150" str="geometry_msgs" scope="0xde8640" type="name" astParent="0xde3a10"/>
+    <token id="0xde3a10" file="waypoint_navigator.cpp" linenr="150" str="::" scope="0xde8640" astParent="0xde3c20" astOperand1="0xde3960" astOperand2="0xde3b70"/>
+    <token id="0xde3ac0" file="waypoint_navigator.cpp" linenr="150" str="Point" scope="0xde8640" type="name"/>
+    <token id="0xde3b70" file="waypoint_navigator.cpp" linenr="150" str="p1" scope="0xde8640" type="name" varId="55" variable="0xdec3e0" astParent="0xde3a10"/>
+    <token id="0xde3c20" file="waypoint_navigator.cpp" linenr="150" str="," scope="0xde8640" astParent="0xde38b0" astOperand1="0xde3a10" astOperand2="0xde3d80"/>
+    <token id="0xde3cd0" file="waypoint_navigator.cpp" linenr="150" str="geometry_msgs" scope="0xde8640" type="name" astParent="0xde3d80"/>
+    <token id="0xde3d80" file="waypoint_navigator.cpp" linenr="150" str="::" scope="0xde8640" astParent="0xde3c20" astOperand1="0xde3cd0" astOperand2="0xde3ee0"/>
+    <token id="0xde3e30" file="waypoint_navigator.cpp" linenr="150" str="Point" scope="0xde8640" type="name"/>
+    <token id="0xde3ee0" file="waypoint_navigator.cpp" linenr="150" str="p2" scope="0xde8640" type="name" varId="56" variable="0xdec450" astParent="0xde3d80"/>
+    <token id="0xde3f90" file="waypoint_navigator.cpp" linenr="150" str=")" scope="0xde8640" link="0xde38b0"/>
+    <token id="0xde4040" file="waypoint_navigator.cpp" linenr="151" str="{" scope="0xdeb0e0" link="0xde5590"/>
+    <token id="0xde40f0" file="waypoint_navigator.cpp" linenr="152" str="return" scope="0xdeb0e0" type="name" astOperand1="0xde4250"/>
+    <token id="0xde41a0" file="waypoint_navigator.cpp" linenr="152" str="sqrt" scope="0xdeb0e0" type="name" astParent="0xde4250"/>
+    <token id="0xde4250" file="waypoint_navigator.cpp" linenr="152" str="(" scope="0xdeb0e0" link="0xde5430" astParent="0xde40f0" astOperand1="0xde41a0" astOperand2="0xde4b40"/>
+    <token id="0xde4300" file="waypoint_navigator.cpp" linenr="152" str="pow" scope="0xdeb0e0" type="name" astParent="0xde43b0"/>
+    <token id="0xde43b0" file="waypoint_navigator.cpp" linenr="152" str="(" scope="0xdeb0e0" link="0xde4a90" astParent="0xde4b40" astOperand1="0xde4300" astOperand2="0xde4930"/>
+    <token id="0xde4460" file="waypoint_navigator.cpp" linenr="152" str="p1" scope="0xdeb0e0" type="name" varId="55" variable="0xdec3e0" astParent="0xde4510"/>
+    <token id="0xde4510" file="waypoint_navigator.cpp" linenr="152" str="." scope="0xdeb0e0" astParent="0xde4670" astOperand1="0xde4460" astOperand2="0xde45c0"/>
+    <token id="0xde45c0" file="waypoint_navigator.cpp" linenr="152" str="x" scope="0xdeb0e0" type="name" varId="57" astParent="0xde4510"/>
+    <token id="0xde4670" file="waypoint_navigator.cpp" linenr="152" str="-" scope="0xdeb0e0" type="op" isArithmeticalOp="True" astParent="0xde4930" astOperand1="0xde4510" astOperand2="0xde47d0"/>
+    <token id="0xde4720" file="waypoint_navigator.cpp" linenr="152" str="p2" scope="0xdeb0e0" type="name" varId="56" variable="0xdec450" astParent="0xde47d0"/>
+    <token id="0xde47d0" file="waypoint_navigator.cpp" linenr="152" str="." scope="0xdeb0e0" astParent="0xde4670" astOperand1="0xde4720" astOperand2="0xde4880"/>
+    <token id="0xde4880" file="waypoint_navigator.cpp" linenr="152" str="x" scope="0xdeb0e0" type="name" varId="58" astParent="0xde47d0"/>
+    <token id="0xde4930" file="waypoint_navigator.cpp" linenr="152" str="," scope="0xdeb0e0" astParent="0xde43b0" astOperand1="0xde4670" astOperand2="0xde49e0"/>
+    <token id="0xde49e0" file="waypoint_navigator.cpp" linenr="152" str="2" scope="0xdeb0e0" type="number" isInt="True" values="0xde49e8" astParent="0xde4930"/>
+    <token id="0xde4a90" file="waypoint_navigator.cpp" linenr="152" str=")" scope="0xdeb0e0" link="0xde43b0"/>
+    <token id="0xde4b40" file="waypoint_navigator.cpp" linenr="152" str="+" scope="0xdeb0e0" type="op" isArithmeticalOp="True" astParent="0xde4250" astOperand1="0xde43b0" astOperand2="0xde4ca0"/>
+    <token id="0xde4bf0" file="waypoint_navigator.cpp" linenr="152" str="pow" scope="0xdeb0e0" type="name" astParent="0xde4ca0"/>
+    <token id="0xde4ca0" file="waypoint_navigator.cpp" linenr="152" str="(" scope="0xdeb0e0" link="0xde5380" astParent="0xde4b40" astOperand1="0xde4bf0" astOperand2="0xde5220"/>
+    <token id="0xde4d50" file="waypoint_navigator.cpp" linenr="152" str="p1" scope="0xdeb0e0" type="name" varId="55" variable="0xdec3e0" astParent="0xde4e00"/>
+    <token id="0xde4e00" file="waypoint_navigator.cpp" linenr="152" str="." scope="0xdeb0e0" astParent="0xde4f60" astOperand1="0xde4d50" astOperand2="0xde4eb0"/>
+    <token id="0xde4eb0" file="waypoint_navigator.cpp" linenr="152" str="y" scope="0xdeb0e0" type="name" varId="59" astParent="0xde4e00"/>
+    <token id="0xde4f60" file="waypoint_navigator.cpp" linenr="152" str="-" scope="0xdeb0e0" type="op" isArithmeticalOp="True" astParent="0xde5220" astOperand1="0xde4e00" astOperand2="0xde50c0"/>
+    <token id="0xde5010" file="waypoint_navigator.cpp" linenr="152" str="p2" scope="0xdeb0e0" type="name" varId="56" variable="0xdec450" astParent="0xde50c0"/>
+    <token id="0xde50c0" file="waypoint_navigator.cpp" linenr="152" str="." scope="0xdeb0e0" astParent="0xde4f60" astOperand1="0xde5010" astOperand2="0xde5170"/>
+    <token id="0xde5170" file="waypoint_navigator.cpp" linenr="152" str="y" scope="0xdeb0e0" type="name" varId="60" astParent="0xde50c0"/>
+    <token id="0xde5220" file="waypoint_navigator.cpp" linenr="152" str="," scope="0xdeb0e0" astParent="0xde4ca0" astOperand1="0xde4f60" astOperand2="0xde52d0"/>
+    <token id="0xde52d0" file="waypoint_navigator.cpp" linenr="152" str="2" scope="0xdeb0e0" type="number" isInt="True" values="0xde52d8" astParent="0xde5220"/>
+    <token id="0xde5380" file="waypoint_navigator.cpp" linenr="152" str=")" scope="0xdeb0e0" link="0xde4ca0"/>
+    <token id="0xde5430" file="waypoint_navigator.cpp" linenr="152" str=")" scope="0xdeb0e0" link="0xde4250"/>
+    <token id="0xde54e0" file="waypoint_navigator.cpp" linenr="152" str=";" scope="0xdeb0e0"/>
+    <token id="0xde5590" file="waypoint_navigator.cpp" linenr="153" str="}" scope="0xdeb0e0" link="0xde4040"/>
+    <token id="0xde5640" file="waypoint_navigator.cpp" linenr="155" str="int" scope="0xde8640" type="name"/>
+    <token id="0xde56f0" file="waypoint_navigator.cpp" linenr="155" str="main" scope="0xde8640" type="name" function="0xdeb230" astParent="0xde57a0"/>
+    <token id="0xde57a0" file="waypoint_navigator.cpp" linenr="155" str="(" scope="0xde8640" link="0xde5d20" astOperand1="0xde56f0" astOperand2="0xde59b0"/>
+    <token id="0xde5850" file="waypoint_navigator.cpp" linenr="155" str="int" scope="0xde8640" type="name"/>
+    <token id="0xde5900" file="waypoint_navigator.cpp" linenr="155" str="argc" scope="0xde8640" type="name" varId="61" variable="0xdec220" astParent="0xde59b0"/>
+    <token id="0xde59b0" file="waypoint_navigator.cpp" linenr="155" str="," scope="0xde8640" astParent="0xde57a0" astOperand1="0xde5900" astOperand2="0xde5b10"/>
+    <token id="0xde5a60" file="waypoint_navigator.cpp" linenr="155" str="char" scope="0xde8640" type="name" astParent="0xde5b10"/>
+    <token id="0xde5b10" file="waypoint_navigator.cpp" linenr="155" str="*" scope="0xde8640" type="op" isArithmeticalOp="True" astParent="0xde59b0" astOperand1="0xde5a60" astOperand2="0xde5bc0"/>
+    <token id="0xde5bc0" file="waypoint_navigator.cpp" linenr="155" str="*" scope="0xde8640" type="op" isArithmeticalOp="True" astParent="0xde5b10" astOperand1="0xde5c70"/>
+    <token id="0xde5c70" file="waypoint_navigator.cpp" linenr="155" str="argv" scope="0xde8640" type="name" varId="62" variable="0xdec290" astParent="0xde5bc0"/>
+    <token id="0xde5d20" file="waypoint_navigator.cpp" linenr="155" str=")" scope="0xde8640" link="0xde57a0"/>
+    <token id="0xde5dd0" file="waypoint_navigator.cpp" linenr="156" str="{" scope="0xdeb320" link="0xde7720"/>
+    <token id="0xde5e80" file="waypoint_navigator.cpp" linenr="157" str="ros" scope="0xdeb320" type="name" astParent="0xde5f30"/>
+    <token id="0xde5f30" file="waypoint_navigator.cpp" linenr="157" str="::" scope="0xdeb320" astParent="0xde6090" astOperand1="0xde5e80" astOperand2="0xde5fe0"/>
+    <token id="0xde5fe0" file="waypoint_navigator.cpp" linenr="157" str="init" scope="0xdeb320" type="name" astParent="0xde5f30"/>
+    <token id="0xde6090" file="waypoint_navigator.cpp" linenr="157" str="(" scope="0xdeb320" link="0xde6510" astOperand1="0xde5f30" astOperand2="0xde6350"/>
+    <token id="0xde6140" file="waypoint_navigator.cpp" linenr="157" str="argc" scope="0xdeb320" type="name" varId="61" variable="0xdec220" astParent="0xde61f0"/>
+    <token id="0xde61f0" file="waypoint_navigator.cpp" linenr="157" str="," scope="0xdeb320" astParent="0xde6350" astOperand1="0xde6140" astOperand2="0xde62a0"/>
+    <token id="0xde62a0" file="waypoint_navigator.cpp" linenr="157" str="argv" scope="0xdeb320" type="name" varId="62" variable="0xdec290" astParent="0xde61f0"/>
+    <token id="0xde6350" file="waypoint_navigator.cpp" linenr="157" str="," scope="0xdeb320" astParent="0xde6090" astOperand1="0xde61f0" astOperand2="0xde6430"/>
+    <token id="0xde6430" file="waypoint_navigator.cpp" linenr="157" str="&quot;waypoint_navigator&quot;" scope="0xdeb320" type="string" strlen="18" values="0xde6438" astParent="0xde6350"/>
+    <token id="0xde6510" file="waypoint_navigator.cpp" linenr="157" str=")" scope="0xdeb320" link="0xde6090"/>
+    <token id="0xde65c0" file="waypoint_navigator.cpp" linenr="157" str=";" scope="0xdeb320"/>
+    <token id="0xde6670" file="waypoint_navigator.cpp" linenr="158" str="ros" scope="0xdeb320" type="name" astParent="0xde6720"/>
+    <token id="0xde6720" file="waypoint_navigator.cpp" linenr="158" str="::" scope="0xdeb320" astOperand1="0xde6670" astOperand2="0xde6880"/>
+    <token id="0xde67d0" file="waypoint_navigator.cpp" linenr="158" str="NodeHandle" scope="0xdeb320" type="name"/>
+    <token id="0xde6880" file="waypoint_navigator.cpp" linenr="158" str="n" scope="0xdeb320" type="name" varId="63" variable="0xdec120" astParent="0xde6720"/>
+    <token id="0xde6930" file="waypoint_navigator.cpp" linenr="158" str=";" scope="0xdeb320"/>
+    <token id="0xde69e0" file="waypoint_navigator.cpp" linenr="160" str="WaypointNavigator" scope="0xdeb320" type="name" type-scope="0xde8770" astParent="0xde6a90"/>
+    <token id="0xde6a90" file="waypoint_navigator.cpp" linenr="160" str="*" scope="0xdeb320" type="op" isArithmeticalOp="True" astOperand1="0xde69e0" astOperand2="0xde6b40"/>
+    <token id="0xde6b40" file="waypoint_navigator.cpp" linenr="160" str="wn" scope="0xdeb320" type="name" varId="64" variable="0xdec1b0" astParent="0xde6a90"/>
+    <token id="0xde6bf0" file="waypoint_navigator.cpp" linenr="160" str=";" scope="0xdeb320"/>
+    <token id="0xde8210" file="waypoint_navigator.cpp" linenr="160" str="wn" scope="0xdeb320" type="name" varId="64" variable="0xdec1b0" astParent="0xde82c0"/>
+    <token id="0xde82c0" file="waypoint_navigator.cpp" linenr="160" str="=" scope="0xdeb320" type="op" isAssignmentOp="True" astOperand1="0xde8210" astOperand2="0xde6ca0"/>
+    <token id="0xde6ca0" file="waypoint_navigator.cpp" linenr="160" str="new" scope="0xdeb320" type="name" astParent="0xde82c0" astOperand1="0xde6e30"/>
+    <token id="0xde6d50" file="waypoint_navigator.cpp" linenr="160" str="WaypointNavigator" scope="0xdeb320" type="name" type-scope="0xde8770" astParent="0xde6e30"/>
+    <token id="0xde6e30" file="waypoint_navigator.cpp" linenr="160" str="(" scope="0xdeb320" link="0xde6f90" astParent="0xde6ca0" astOperand1="0xde6d50" astOperand2="0xde6ee0"/>
+    <token id="0xde6ee0" file="waypoint_navigator.cpp" linenr="160" str="n" scope="0xdeb320" type="name" varId="63" variable="0xdec120" astParent="0xde6e30"/>
+    <token id="0xde6f90" file="waypoint_navigator.cpp" linenr="160" str=")" scope="0xdeb320" link="0xde6e30"/>
+    <token id="0xde7040" file="waypoint_navigator.cpp" linenr="160" str=";" scope="0xdeb320"/>
+    <token id="0xde70f0" file="waypoint_navigator.cpp" linenr="161" str="ros" scope="0xdeb320" type="name" astParent="0xde71a0"/>
+    <token id="0xde71a0" file="waypoint_navigator.cpp" linenr="161" str="::" scope="0xdeb320" astParent="0xde7300" astOperand1="0xde70f0" astOperand2="0xde7250"/>
+    <token id="0xde7250" file="waypoint_navigator.cpp" linenr="161" str="spin" scope="0xdeb320" type="name" astParent="0xde71a0"/>
+    <token id="0xde7300" file="waypoint_navigator.cpp" linenr="161" str="(" scope="0xdeb320" link="0xde73b0" astOperand1="0xde71a0"/>
+    <token id="0xde73b0" file="waypoint_navigator.cpp" linenr="161" str=")" scope="0xdeb320" link="0xde7300"/>
+    <token id="0xde7460" file="waypoint_navigator.cpp" linenr="161" str=";" scope="0xdeb320"/>
+    <token id="0xde7510" file="waypoint_navigator.cpp" linenr="163" str="return" scope="0xdeb320" type="name" astOperand1="0xde75c0"/>
+    <token id="0xde75c0" file="waypoint_navigator.cpp" linenr="163" str="0" scope="0xdeb320" type="number" isInt="True" values="0xde75c8" astParent="0xde7510"/>
+    <token id="0xde7670" file="waypoint_navigator.cpp" linenr="163" str=";" scope="0xdeb320"/>
+    <token id="0xde7720" file="waypoint_navigator.cpp" linenr="164" str="}" scope="0xdeb320" link="0xde5dd0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xde8640" type="Global">
+      <functionList>
+        <function id="0xdeb230" tokenDef="0xde56f0" name="main">
+          <arg nr="1" variable="0xdec220"/>
+          <arg nr="2" variable="0xdec290"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xde8770" type="Class" className="WaypointNavigator" classStart="0xdb6300" classEnd="0xdb9470" nestedIn="0xde8640">
+      <functionList>
+        <function id="0xdb2d40" tokenDef="0xdb65b0" name="WaypointNavigator">
+          <arg nr="1" variable="0xdec300"/>
+        </function>
+        <function id="0xde88e0" tokenDef="0xdb8550" name="cb_odom">
+          <arg nr="1" variable="0xdec370"/>
+        </function>
+        <function id="0xde8980" tokenDef="0xdb8b80" name="distance">
+          <arg nr="1" variable="0xdec3e0"/>
+          <arg nr="2" variable="0xdec450"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0xdeb470"/>
+        <var id="0xdeb4e0"/>
+        <var id="0xdeb550"/>
+        <var id="0xdeb5c0"/>
+        <var id="0xdeb630"/>
+        <var id="0xdeb6a0"/>
+        <var id="0xdeb710"/>
+        <var id="0xdeb780"/>
+      </varlist>
+    </scope>
+    <scope id="0xde8a50" type="Function" className="WaypointNavigator" classStart="0xdb9c60" classEnd="0xdc5b80" nestedIn="0xde8640" function="0xdb2d40">
+      <varlist>
+        <var id="0xdeb7f0"/>
+      </varlist>
+    </scope>
+    <scope id="0xde8ba0" type="If" classStart="0xdbab80" classEnd="0xdc25b0" nestedIn="0xde8a50">
+      <varlist>
+        <var id="0xdeb860"/>
+        <var id="0xdeb8d0"/>
+      </varlist>
+    </scope>
+    <scope id="0xde8cf0" type="If" classStart="0xdbcf60" classEnd="0xdbd770" nestedIn="0xde8ba0"/>
+    <scope id="0xde8e40" type="Try" classStart="0xdbdae0" classEnd="0xdbe110" nestedIn="0xde8ba0"/>
+    <scope id="0xde8f90" type="Catch" classStart="0xdbe740" classEnd="0xdbef30" nestedIn="0xde8ba0">
+      <varlist>
+        <var id="0xde9140"/>
+      </varlist>
+    </scope>
+    <scope id="0xde91b0" type="For" classStart="0xdbfe50" classEnd="0xdc2500" nestedIn="0xde8ba0">
+      <varlist>
+        <var id="0xde9300"/>
+        <var id="0xdeb940"/>
+      </varlist>
+    </scope>
+    <scope id="0xde9370" type="Else" classStart="0xdc2710" classEnd="0xdc2b60" nestedIn="0xde8a50"/>
+    <scope id="0xde94a0" type="Try" classStart="0xdc2710" classEnd="0xdc2b60" nestedIn="0xde8a50"/>
+    <scope id="0xde95f0" type="Function" className="cb_odom" classStart="0xdc6340" classEnd="0xde3540" nestedIn="0xde8640" function="0xde88e0">
+      <varlist>
+        <var id="0xdeb9b0"/>
+        <var id="0xdeba20"/>
+        <var id="0xdeba90"/>
+        <var id="0xdebb00"/>
+        <var id="0xdebb70"/>
+        <var id="0xdebbe0"/>
+        <var id="0xdebc50"/>
+        <var id="0xdebcc0"/>
+        <var id="0xdebd30"/>
+        <var id="0xdebda0"/>
+        <var id="0xdebe10"/>
+        <var id="0xdebe80"/>
+        <var id="0xdebef0"/>
+        <var id="0xdebf60"/>
+        <var id="0xdebfd0"/>
+        <var id="0xdec040"/>
+        <var id="0xdec0b0"/>
+      </varlist>
+    </scope>
+    <scope id="0xde9740" type="While" classStart="0xdc8de0" classEnd="0xdc9db0" nestedIn="0xde95f0"/>
+    <scope id="0xde9890" type="If" classStart="0xdb6be0" classEnd="0xdbca90" nestedIn="0xde9740"/>
+    <scope id="0xde99e0" type="If" classStart="0xdd1c30" classEnd="0xdd2920" nestedIn="0xde95f0"/>
+    <scope id="0xde9b30" type="Else" classStart="0xde7ea0" classEnd="0xde7f50" nestedIn="0xde95f0"/>
+    <scope id="0xde9c60" type="Try" classStart="0xde7ea0" classEnd="0xde7f50" nestedIn="0xde95f0"/>
+    <scope id="0xde9db0" type="If" classStart="0xdd2ea0" classEnd="0xdd4d90" nestedIn="0xde9c60"/>
+    <scope id="0xde9f00" type="Else" classStart="0xdd4ef0" classEnd="0xde0100" nestedIn="0xde9c60"/>
+    <scope id="0xdea030" type="Try" classStart="0xdd4ef0" classEnd="0xde0100" nestedIn="0xde9c60"/>
+    <scope id="0xdea180" type="If" classStart="0xdd7780" classEnd="0xdd7ba0" nestedIn="0xdea030"/>
+    <scope id="0xdea2d0" type="Else" classStart="0xde8370" classEnd="0xde8420" nestedIn="0xdea030"/>
+    <scope id="0xdea400" type="Try" classStart="0xde8370" classEnd="0xde8420" nestedIn="0xdea030"/>
+    <scope id="0xdea550" type="If" classStart="0xdd8c20" classEnd="0xdda010" nestedIn="0xdea400"/>
+    <scope id="0xdea6a0" type="Else" classStart="0xde84d0" classEnd="0xde8580" nestedIn="0xdea400"/>
+    <scope id="0xdea7d0" type="Try" classStart="0xde84d0" classEnd="0xde8580" nestedIn="0xdea400"/>
+    <scope id="0xdea920" type="If" classStart="0xddb090" classEnd="0xddc480" nestedIn="0xdea7d0"/>
+    <scope id="0xdeaa70" type="Else" classStart="0xddc5e0" classEnd="0xde0050" nestedIn="0xdea7d0"/>
+    <scope id="0xdeaba0" type="Try" classStart="0xddc5e0" classEnd="0xde0050" nestedIn="0xdea7d0"/>
+    <scope id="0xdeacf0" type="If" classStart="0xddfc30" classEnd="0xddffa0" nestedIn="0xdeaba0"/>
+    <scope id="0xdeae40" type="While" classStart="0xdbfc40" classEnd="0xdc9620" nestedIn="0xde95f0"/>
+    <scope id="0xdeaf90" type="While" classStart="0xdd7fc0" classEnd="0xdd8330" nestedIn="0xde95f0"/>
+    <scope id="0xdeb0e0" type="Function" className="distance" classStart="0xde4040" classEnd="0xde5590" nestedIn="0xde8640" function="0xde8980"/>
+    <scope id="0xdeb320" type="Function" className="main" classStart="0xde5dd0" classEnd="0xde7720" nestedIn="0xde8640" function="0xdeb230">
+      <varlist>
+        <var id="0xdec120"/>
+        <var id="0xdec1b0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xdeb470" nameToken="0xdb6ea0" typeStartToken="0xdb6c90" typeEndToken="0xdb6df0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb4e0" nameToken="0xdb7210" typeStartToken="0xdb7000" typeEndToken="0xdb7160" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb550" nameToken="0xdb7580" typeStartToken="0xdb7370" typeEndToken="0xdb74d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb5c0" nameToken="0xdb7c60" typeStartToken="0xdb76e0" typeEndToken="0xdb7bb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb630" nameToken="0xdb7e70" typeStartToken="0xdb7dc0" typeEndToken="0xdb7dc0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb6a0" nameToken="0xdb7fd0" typeStartToken="0xdda430" typeEndToken="0xdda430" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb710" nameToken="0xdb81e0" typeStartToken="0xdb8130" typeEndToken="0xdb8130" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb780" nameToken="0xdb8340" typeStartToken="0xdda7a0" typeEndToken="0xdda7a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec300" nameToken="0xdb9b00" typeStartToken="0xdb98f0" typeEndToken="0xdb9a50" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb7f0" nameToken="0xdba1e0" typeStartToken="0xdb9fd0" typeEndToken="0xdba130" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb860" nameToken="0xdbae40" typeStartToken="0xdbac30" typeEndToken="0xdbad90" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb8d0" nameToken="0xdbd8d0" typeStartToken="0xdbd820" typeEndToken="0xdbd820" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xde9140" nameToken="0xdbe5e0" typeStartToken="0xdbe3d0" typeEndToken="0xdbe530" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xde9300" nameToken="0xdbf560" typeStartToken="0xdbf4b0" typeEndToken="0xdbf4b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb940" nameToken="0xdc0110" typeStartToken="0xdbff00" typeEndToken="0xdc0060" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec370" nameToken="0xdc61e0" typeStartToken="0xdc5fd0" typeEndToken="0xdc6130" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeb9b0" nameToken="0xdc64a0" typeStartToken="0xdc63f0" typeEndToken="0xdc63f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeba20" nameToken="0xdc6600" typeStartToken="0xde1440" typeEndToken="0xde1440" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdeba90" nameToken="0xdc6760" typeStartToken="0xde1de0" typeEndToken="0xde1de0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebb00" nameToken="0xdc68c0" typeStartToken="0xdb64c0" typeEndToken="0xdb64c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebb70" nameToken="0xdc6a20" typeStartToken="0xdb2bd0" typeEndToken="0xdb2bd0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebbe0" nameToken="0xdc6b80" typeStartToken="0xdb2c80" typeEndToken="0xdb2c80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebc50" nameToken="0xdc6ce0" typeStartToken="0xde77d0" typeEndToken="0xde77d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebcc0" nameToken="0xdc6e40" typeStartToken="0xde7880" typeEndToken="0xde7880" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebd30" nameToken="0xdc6fa0" typeStartToken="0xde7930" typeEndToken="0xde7930" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebda0" nameToken="0xdc7100" typeStartToken="0xde7c90" typeEndToken="0xde7c90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebe10" nameToken="0xdc7260" typeStartToken="0xde7d40" typeEndToken="0xde7d40" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebe80" nameToken="0xdc73c0" typeStartToken="0xde7df0" typeEndToken="0xde7df0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebef0" nameToken="0xdc7520" typeStartToken="0xde7a30" typeEndToken="0xde7a30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebf60" nameToken="0xdc7680" typeStartToken="0xde7ae0" typeEndToken="0xde7ae0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdebfd0" nameToken="0xdc79f0" typeStartToken="0xdc77e0" typeEndToken="0xdc7940" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec040" nameToken="0xdc7b50" typeStartToken="0xde7b90" typeEndToken="0xde8160" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec0b0" nameToken="0xdc7ec0" typeStartToken="0xdc7cb0" typeEndToken="0xdc7e10" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec3e0" nameToken="0xde3b70" typeStartToken="0xde3960" typeEndToken="0xde3ac0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec450" nameToken="0xde3ee0" typeStartToken="0xde3cd0" typeEndToken="0xde3e30" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec220" nameToken="0xde5900" typeStartToken="0xde5850" typeEndToken="0xde5850" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec290" nameToken="0xde5c70" typeStartToken="0xde5a60" typeEndToken="0xde5bc0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xdec120" nameToken="0xde6880" typeStartToken="0xde6670" typeEndToken="0xde67d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xdec1b0" nameToken="0xde6b40" typeStartToken="0xde69e0" typeEndToken="0xde6a90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xdba348">
+      <value tokvalue="0xdba340" known="true"/>
+    </values>
+    <values id="0xdba978">
+      <value tokvalue="0xdba970" known="true"/>
+    </values>
+    <values id="0xdbb268">
+      <value tokvalue="0xdbb260" known="true"/>
+    </values>
+    <values id="0xdbd1f8">
+      <value tokvalue="0xdbd1f0" known="true"/>
+    </values>
+    <values id="0xdbd568">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdbe988">
+      <value tokvalue="0xdbe980" known="true"/>
+    </values>
+    <values id="0xdbed28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdbf148">
+      <value tokvalue="0xdbf140" known="true"/>
+    </values>
+    <values id="0xdbf6c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdbfcf8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdc0698">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0xdc0cc8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0xdc0d78">
+      <value intvalue="1" possible="true"/>
+    </values>
+    <values id="0xdc0e28">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdc12f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdc1a88">
+      <value tokvalue="0xdc1a80" known="true"/>
+    </values>
+    <values id="0xdc2928">
+      <value tokvalue="0xdc2920" known="true"/>
+    </values>
+    <values id="0xdc2ed8">
+      <value tokvalue="0xdc2ed0" known="true"/>
+    </values>
+    <values id="0xdc3668">
+      <value tokvalue="0xdc3660" known="true"/>
+    </values>
+    <values id="0xdc3c98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdc3f58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdc4848">
+      <value tokvalue="0xdc4840" known="true"/>
+    </values>
+    <values id="0xdc49a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdc5348">
+      <value tokvalue="0xdc5340" known="true"/>
+    </values>
+    <values id="0xdc54a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdc9c58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdce538">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd0798">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd0bb8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd13f8">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xdd1978">
+      <value intvalue="0" condition-line="92" possible="true"/>
+    </values>
+    <values id="0xdd1a28">
+      <value intvalue="0" condition-line="92" possible="true"/>
+    </values>
+    <values id="0xdd1ad8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd26e8">
+      <value tokvalue="0xdd26e0" known="true"/>
+    </values>
+    <values id="0xdd2be8">
+      <value intvalue="0" condition-line="92" possible="true"/>
+    </values>
+    <values id="0xdd2c98">
+      <value intvalue="1" condition-line="92" possible="true"/>
+    </values>
+    <values id="0xdd2d48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd3378">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd4b88">
+      <value tokvalue="0xdd4b80" known="true"/>
+    </values>
+    <values id="0xdd5898">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd64f8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xdd6a78">
+      <value intvalue="0" condition-line="110" possible="true"/>
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd6b28">
+      <value intvalue="0" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd6bd8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdd6e98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd72b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd7578">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdd7998">
+      <value tokvalue="0xdd7990" known="true"/>
+    </values>
+    <values id="0xdd7e68">
+      <value intvalue="0" condition-line="110" possible="true"/>
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd7f18">
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd8078">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd81d8">
+      <value intvalue="0" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd8288">
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd83e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdd8758">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xdd8a18">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdd90f8">
+      <value intvalue="0" condition-line="110" possible="true"/>
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdd9a98">
+      <value intvalue="0" condition-line="110" possible="true"/>
+      <value intvalue="1" condition-line="110" possible="true"/>
+    </values>
+    <values id="0xdda2d8">
+      <value intvalue="0" condition-line="115" possible="true"/>
+      <value intvalue="1" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xdda388">
+      <value intvalue="1" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xdda4e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xdda648">
+      <value intvalue="0" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xdda6f8">
+      <value intvalue="1" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xdda858">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xddabc8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xddae88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xddb568">
+      <value intvalue="0" condition-line="115" possible="true"/>
+      <value intvalue="1" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xddbf08">
+      <value intvalue="0" condition-line="115" possible="true"/>
+      <value intvalue="1" condition-line="115" possible="true"/>
+    </values>
+    <values id="0xde14f8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xde1e98">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xde2c58">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xde49e8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xde52d8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xde6438">
+      <value tokvalue="0xde6430" known="true"/>
+    </values>
+    <values id="0xde75c8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

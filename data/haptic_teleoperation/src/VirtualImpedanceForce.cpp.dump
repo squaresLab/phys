@@ -1,0 +1,1278 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x14ad220" file="../include/haptic_teleoperation/ForceField.h" linenr="52" str="using" scope="0x14b0700" type="name"/>
+    <token id="0x14b0ae0" file="../include/haptic_teleoperation/ForceField.h" linenr="52" str="namespace" scope="0x14b0700" type="name"/>
+    <token id="0x14b0b90" file="../include/haptic_teleoperation/ForceField.h" linenr="52" str="cv" scope="0x14b0700" type="name"/>
+    <token id="0x14b0c40" file="../include/haptic_teleoperation/ForceField.h" linenr="52" str=";" scope="0x14b0700"/>
+    <token id="0x14b0d30" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str="const" scope="0x14b0700" type="name"/>
+    <token id="0x14b0de0" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str="double" scope="0x14b0700" type="name"/>
+    <token id="0x14b0e90" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str="PI" scope="0x14b0700" type="name" varId="1" variable="0x14de290" astParent="0x14b0f40"/>
+    <token id="0x14b0f40" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str="=" scope="0x14b0700" type="op" isAssignmentOp="True" astOperand1="0x14b0e90" astOperand2="0x14b0ff0"/>
+    <token id="0x14b0ff0" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str="3.14159265359" scope="0x14b0700" type="number" isFloat="True" astParent="0x14b0f40"/>
+    <token id="0x14b10a0" file="../include/haptic_teleoperation/ForceField.h" linenr="54" str=";" scope="0x14b0700"/>
+    <token id="0x14b1150" file="../include/haptic_teleoperation/ForceField.h" linenr="55" str="class" scope="0x14b0700" type="name"/>
+    <token id="0x14b1200" file="../include/haptic_teleoperation/ForceField.h" linenr="55" str="ForceField" scope="0x14b0700" type="name" type-scope="0x14da870"/>
+    <token id="0x14b26e0" file="../include/haptic_teleoperation/ForceField.h" linenr="56" str="{" scope="0x14da870" link="0x14c8430"/>
+    <token id="0x14b2790" file="../include/haptic_teleoperation/ForceField.h" linenr="57" str="public:" scope="0x14da870" type="name"/>
+    <token id="0x14b28f0" file="../include/haptic_teleoperation/ForceField.h" linenr="63" str="ros" scope="0x14da870" type="name" astParent="0x14b29a0"/>
+    <token id="0x14b29a0" file="../include/haptic_teleoperation/ForceField.h" linenr="63" str="::" scope="0x14da870" astOperand1="0x14b28f0" astOperand2="0x14b2b00"/>
+    <token id="0x14b2a50" file="../include/haptic_teleoperation/ForceField.h" linenr="63" str="Subscriber" scope="0x14da870" type="name"/>
+    <token id="0x14b2b00" file="../include/haptic_teleoperation/ForceField.h" linenr="63" str="laser_sub" scope="0x14da870" type="name" varId="2" variable="0x14de300" astParent="0x14b29a0"/>
+    <token id="0x14b2bb0" file="../include/haptic_teleoperation/ForceField.h" linenr="63" str=";" scope="0x14da870"/>
+    <token id="0x14b2c60" file="../include/haptic_teleoperation/ForceField.h" linenr="64" str="ros" scope="0x14da870" type="name" astParent="0x14b2d10"/>
+    <token id="0x14b2d10" file="../include/haptic_teleoperation/ForceField.h" linenr="64" str="::" scope="0x14da870" astOperand1="0x14b2c60" astOperand2="0x14b2e70"/>
+    <token id="0x14b2dc0" file="../include/haptic_teleoperation/ForceField.h" linenr="64" str="Subscriber" scope="0x14da870" type="name"/>
+    <token id="0x14b2e70" file="../include/haptic_teleoperation/ForceField.h" linenr="64" str="slave_pose_sub" scope="0x14da870" type="name" varId="3" variable="0x14de370" astParent="0x14b2d10"/>
+    <token id="0x14b2f20" file="../include/haptic_teleoperation/ForceField.h" linenr="64" str=";" scope="0x14da870"/>
+    <token id="0x14b2fd0" file="../include/haptic_teleoperation/ForceField.h" linenr="65" str="ros" scope="0x14da870" type="name" astParent="0x14b3080"/>
+    <token id="0x14b3080" file="../include/haptic_teleoperation/ForceField.h" linenr="65" str="::" scope="0x14da870" astOperand1="0x14b2fd0" astOperand2="0x14b31e0"/>
+    <token id="0x14b3130" file="../include/haptic_teleoperation/ForceField.h" linenr="65" str="Publisher" scope="0x14da870" type="name"/>
+    <token id="0x14b31e0" file="../include/haptic_teleoperation/ForceField.h" linenr="65" str="virtual_force_pub" scope="0x14da870" type="name" varId="4" variable="0x14de3e0" astParent="0x14b3080"/>
+    <token id="0x14b3290" file="../include/haptic_teleoperation/ForceField.h" linenr="65" str=";" scope="0x14da870"/>
+    <token id="0x14b3340" file="../include/haptic_teleoperation/ForceField.h" linenr="66" str="ros" scope="0x14da870" type="name" astParent="0x14b33f0"/>
+    <token id="0x14b33f0" file="../include/haptic_teleoperation/ForceField.h" linenr="66" str="::" scope="0x14da870" astOperand1="0x14b3340" astOperand2="0x14b3550"/>
+    <token id="0x14b34a0" file="../include/haptic_teleoperation/ForceField.h" linenr="66" str="Publisher" scope="0x14da870" type="name"/>
+    <token id="0x14b3550" file="../include/haptic_teleoperation/ForceField.h" linenr="66" str="laser_pub" scope="0x14da870" type="name" varId="5" variable="0x14de450" astParent="0x14b33f0"/>
+    <token id="0x14b3600" file="../include/haptic_teleoperation/ForceField.h" linenr="66" str=";" scope="0x14da870"/>
+    <token id="0x14b36b0" file="../include/haptic_teleoperation/ForceField.h" linenr="67" str="ros" scope="0x14da870" type="name" astParent="0x14b3760"/>
+    <token id="0x14b3760" file="../include/haptic_teleoperation/ForceField.h" linenr="67" str="::" scope="0x14da870" astOperand1="0x14b36b0" astOperand2="0x14b38c0"/>
+    <token id="0x14b3810" file="../include/haptic_teleoperation/ForceField.h" linenr="67" str="Publisher" scope="0x14da870" type="name"/>
+    <token id="0x14b38c0" file="../include/haptic_teleoperation/ForceField.h" linenr="67" str="visualization_markers_pub" scope="0x14da870" type="name" varId="6" variable="0x14de4c0" astParent="0x14b3760"/>
+    <token id="0x14b3970" file="../include/haptic_teleoperation/ForceField.h" linenr="67" str=";" scope="0x14da870"/>
+    <token id="0x14b3a20" file="../include/haptic_teleoperation/ForceField.h" linenr="70" str="laser_geometry" scope="0x14da870" type="name" astParent="0x14b3ad0"/>
+    <token id="0x14b3ad0" file="../include/haptic_teleoperation/ForceField.h" linenr="70" str="::" scope="0x14da870" astOperand1="0x14b3a20" astOperand2="0x14b3c30"/>
+    <token id="0x14b3b80" file="../include/haptic_teleoperation/ForceField.h" linenr="70" str="LaserProjection" scope="0x14da870" type="name"/>
+    <token id="0x14b3c30" file="../include/haptic_teleoperation/ForceField.h" linenr="70" str="projector_" scope="0x14da870" type="name" varId="7" variable="0x14de590" astParent="0x14b3ad0"/>
+    <token id="0x14b3ce0" file="../include/haptic_teleoperation/ForceField.h" linenr="70" str=";" scope="0x14da870"/>
+    <token id="0x14b3d90" file="../include/haptic_teleoperation/ForceField.h" linenr="71" str="tf" scope="0x14da870" type="name" astParent="0x14b3e40"/>
+    <token id="0x14b3e40" file="../include/haptic_teleoperation/ForceField.h" linenr="71" str="::" scope="0x14da870" astOperand1="0x14b3d90" astOperand2="0x14b3fa0"/>
+    <token id="0x14b3ef0" file="../include/haptic_teleoperation/ForceField.h" linenr="71" str="TransformListener" scope="0x14da870" type="name"/>
+    <token id="0x14b3fa0" file="../include/haptic_teleoperation/ForceField.h" linenr="71" str="listener_" scope="0x14da870" type="name" varId="8" variable="0x14de600" astParent="0x14b3e40"/>
+    <token id="0x14b4050" file="../include/haptic_teleoperation/ForceField.h" linenr="71" str=";" scope="0x14da870"/>
+    <token id="0x14b4100" file="../include/haptic_teleoperation/ForceField.h" linenr="74" str="Eigen" scope="0x14da870" type="name" astParent="0x14b41b0"/>
+    <token id="0x14b41b0" file="../include/haptic_teleoperation/ForceField.h" linenr="74" str="::" scope="0x14da870" astOperand1="0x14b4100" astOperand2="0x14b4310"/>
+    <token id="0x14b4260" file="../include/haptic_teleoperation/ForceField.h" linenr="74" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14b4310" file="../include/haptic_teleoperation/ForceField.h" linenr="74" str="resulting_force" scope="0x14da870" type="name" varId="9" variable="0x14de670" astParent="0x14b41b0"/>
+    <token id="0x14b43c0" file="../include/haptic_teleoperation/ForceField.h" linenr="74" str=";" scope="0x14da870"/>
+    <token id="0x14b4470" file="../include/haptic_teleoperation/ForceField.h" linenr="75" str="Eigen" scope="0x14da870" type="name" astParent="0x14b4520"/>
+    <token id="0x14b4520" file="../include/haptic_teleoperation/ForceField.h" linenr="75" str="::" scope="0x14da870" astOperand1="0x14b4470" astOperand2="0x14b4680"/>
+    <token id="0x14b45d0" file="../include/haptic_teleoperation/ForceField.h" linenr="75" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14b4680" file="../include/haptic_teleoperation/ForceField.h" linenr="75" str="pre_resulting_force" scope="0x14da870" type="name" varId="10" variable="0x14de6e0" astParent="0x14b4520"/>
+    <token id="0x14b4760" file="../include/haptic_teleoperation/ForceField.h" linenr="75" str=";" scope="0x14da870"/>
+    <token id="0x14b4810" file="../include/haptic_teleoperation/ForceField.h" linenr="77" str="geometry_msgs" scope="0x14da870" type="name" astParent="0x14b48c0"/>
+    <token id="0x14b48c0" file="../include/haptic_teleoperation/ForceField.h" linenr="77" str="::" scope="0x14da870" astOperand1="0x14b4810" astOperand2="0x14b4a20"/>
+    <token id="0x14b4970" file="../include/haptic_teleoperation/ForceField.h" linenr="77" str="PoseStamped" scope="0x14da870" type="name"/>
+    <token id="0x14b4a20" file="../include/haptic_teleoperation/ForceField.h" linenr="77" str="msg" scope="0x14da870" type="name" varId="11" variable="0x14de750" astParent="0x14b48c0"/>
+    <token id="0x14b4ad0" file="../include/haptic_teleoperation/ForceField.h" linenr="77" str=";" scope="0x14da870"/>
+    <token id="0x14b4b80" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14b4c30" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="roll" scope="0x14da870" type="name" varId="12" variable="0x14de7c0"/>
+    <token id="0x14b4ce0" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str=";" scope="0x14da870"/>
+    <token id="0x14b2840" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14b4d90" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="pitch" scope="0x14da870" type="name" varId="13" variable="0x14de830"/>
+    <token id="0x14b4e40" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str=";" scope="0x14da870"/>
+    <token id="0x14c7510" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14b4ef0" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str="yaw" scope="0x14da870" type="name" varId="14" variable="0x14de8a0"/>
+    <token id="0x14b4fa0" file="../include/haptic_teleoperation/ForceField.h" linenr="81" str=";" scope="0x14da870"/>
+    <token id="0x14b5050" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14b5100" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str="poseQ" scope="0x14da870" type="name" varId="15" variable="0x14de910" astParent="0x14b51b0"/>
+    <token id="0x14b51b0" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str="[" scope="0x14da870" link="0x14b5310" astOperand1="0x14b5100" astOperand2="0x14b5260"/>
+    <token id="0x14b5260" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str="4" scope="0x14da870" type="number" isInt="True" values="0x14b5268" astParent="0x14b51b0"/>
+    <token id="0x14b5310" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str="]" scope="0x14da870" link="0x14b51b0"/>
+    <token id="0x14b53c0" file="../include/haptic_teleoperation/ForceField.h" linenr="83" str=";" scope="0x14da870"/>
+    <token id="0x14b5470" file="../include/haptic_teleoperation/ForceField.h" linenr="84" str="Eigen" scope="0x14da870" type="name" astParent="0x14b5520"/>
+    <token id="0x14b5520" file="../include/haptic_teleoperation/ForceField.h" linenr="84" str="::" scope="0x14da870" astOperand1="0x14b5470" astOperand2="0x14b5680"/>
+    <token id="0x14b55d0" file="../include/haptic_teleoperation/ForceField.h" linenr="84" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14b5680" file="../include/haptic_teleoperation/ForceField.h" linenr="84" str="PreRobotPose" scope="0x14da870" type="name" varId="16" variable="0x14de980" astParent="0x14b5520"/>
+    <token id="0x14b5730" file="../include/haptic_teleoperation/ForceField.h" linenr="84" str=";" scope="0x14da870"/>
+    <token id="0x14b57e0" file="../include/haptic_teleoperation/ForceField.h" linenr="85" str="Eigen" scope="0x14da870" type="name" astParent="0x14b5890"/>
+    <token id="0x14b5890" file="../include/haptic_teleoperation/ForceField.h" linenr="85" str="::" scope="0x14da870" astOperand1="0x14b57e0" astOperand2="0x14b59f0"/>
+    <token id="0x14b5940" file="../include/haptic_teleoperation/ForceField.h" linenr="85" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14b59f0" file="../include/haptic_teleoperation/ForceField.h" linenr="85" str="CurrentRobotPose" scope="0x14da870" type="name" varId="17" variable="0x14de9f0" astParent="0x14b5890"/>
+    <token id="0x14b5ad0" file="../include/haptic_teleoperation/ForceField.h" linenr="85" str=";" scope="0x14da870"/>
+    <token id="0x14b5b80" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="ForceField" scope="0x14da870" type="name" function="0x14daa10" astParent="0x14b5c30"/>
+    <token id="0x14b5c30" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="(" scope="0x14da870" link="0x14b5ce0" astOperand1="0x14b5b80"/>
+    <token id="0x14b5ce0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str=")" scope="0x14da870" link="0x14b5c30"/>
+    <token id="0x14b5d90" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="{" scope="0x14daab0" link="0x14b65b0"/>
+    <token id="0x14b5e40" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="std" scope="0x14daab0" type="name" astParent="0x14b5ef0"/>
+    <token id="0x14b5ef0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="::" scope="0x14daab0" astParent="0x14b6050" astOperand1="0x14b5e40" astOperand2="0x14b5fa0"/>
+    <token id="0x14b5fa0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="cout" scope="0x14daab0" type="name" astParent="0x14b5ef0"/>
+    <token id="0x14b6050" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="&lt;&lt;" scope="0x14daab0" type="op" isArithmeticalOp="True" astParent="0x14b6240" astOperand1="0x14b5ef0" astOperand2="0x14b6160"/>
+    <token id="0x14b6160" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="&quot;default parent constructor&quot;" scope="0x14daab0" type="string" strlen="26" values="0x14b6168" astParent="0x14b6050"/>
+    <token id="0x14b6240" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="&lt;&lt;" scope="0x14daab0" type="op" isArithmeticalOp="True" astOperand1="0x14b6050" astOperand2="0x14b63a0"/>
+    <token id="0x14b62f0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="std" scope="0x14daab0" type="name" astParent="0x14b63a0"/>
+    <token id="0x14b63a0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="::" scope="0x14daab0" astParent="0x14b6240" astOperand1="0x14b62f0" astOperand2="0x14b6450"/>
+    <token id="0x14b6450" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="endl" scope="0x14daab0" type="name" astParent="0x14b63a0"/>
+    <token id="0x14b6500" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str=";" scope="0x14daab0"/>
+    <token id="0x14b65b0" file="../include/haptic_teleoperation/ForceField.h" linenr="96" str="}" scope="0x14daab0" link="0x14b5d90"/>
+    <token id="0x14b6660" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str="~" scope="0x14da870" type="op" astOperand1="0x14b67c0"/>
+    <token id="0x14b6710" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str="ForceField" scope="0x14da870" type="name" function="0x14dabe0" astParent="0x14b67c0"/>
+    <token id="0x14b67c0" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str="(" scope="0x14da870" link="0x14b6870" astParent="0x14b6660" astOperand1="0x14b6710"/>
+    <token id="0x14b6870" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str=")" scope="0x14da870" link="0x14b67c0"/>
+    <token id="0x14b6920" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str="{" scope="0x14dc520" link="0x14b69d0"/>
+    <token id="0x14b69d0" file="../include/haptic_teleoperation/ForceField.h" linenr="97" str="}" scope="0x14dc520" link="0x14b6920"/>
+    <token id="0x14b6a80" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="ForceField" scope="0x14da870" type="name" function="0x14dc650" astParent="0x14b6b30"/>
+    <token id="0x14b6b30" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="(" scope="0x14da870" link="0x14b6f50" astOperand1="0x14b6a80" astOperand2="0x14b6df0"/>
+    <token id="0x14b6be0" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="ros" scope="0x14da870" type="name" astParent="0x14b6c90"/>
+    <token id="0x14b6c90" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="::" scope="0x14da870" astParent="0x14b6df0" astOperand1="0x14b6be0" astOperand2="0x14b6d40"/>
+    <token id="0x14b6d40" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="NodeHandle" scope="0x14da870" type="name" astParent="0x14b6c90"/>
+    <token id="0x14b6df0" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="&amp;" scope="0x14da870" type="op" astParent="0x14b6b30" astOperand1="0x14b6c90" astOperand2="0x14b6ea0"/>
+    <token id="0x14b6ea0" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str="n_" scope="0x14da870" type="name" varId="18" variable="0x14defa0" astParent="0x14b6df0"/>
+    <token id="0x14b6f50" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str=")" scope="0x14da870" link="0x14b6b30"/>
+    <token id="0x14b7000" file="../include/haptic_teleoperation/ForceField.h" linenr="98" str=";" scope="0x14da870"/>
+    <token id="0x14b70b0" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14b7160" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="computeForceField" scope="0x14da870" type="name" function="0x14dc6f0" astParent="0x14b7210"/>
+    <token id="0x14b7210" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="(" scope="0x14da870" link="0x14b8770" astOperand1="0x14b7160" astOperand2="0x14b85e0"/>
+    <token id="0x14b72c0" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="sensor_msgs" scope="0x14da870" type="name" astParent="0x14b8480"/>
+    <token id="0x14b8480" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="::" scope="0x14da870" astParent="0x14b85e0" astOperand1="0x14b72c0" astOperand2="0x14b8530"/>
+    <token id="0x14b8530" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="PointCloud" scope="0x14da870" type="name" astParent="0x14b8480"/>
+    <token id="0x14b85e0" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="&amp;" scope="0x14da870" type="op" astParent="0x14b7210" astOperand1="0x14b8480" astOperand2="0x14b8690"/>
+    <token id="0x14b8690" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str="obstacles_positions_current" scope="0x14da870" type="name" varId="19" variable="0x14df010" astParent="0x14b85e0"/>
+    <token id="0x14b8770" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str=")" scope="0x14da870" link="0x14b7210"/>
+    <token id="0x14b8820" file="../include/haptic_teleoperation/ForceField.h" linenr="101" str=";" scope="0x14da870"/>
+    <token id="0x14b88d0" file="../include/haptic_teleoperation/ForceField.h" linenr="102" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14b8980" file="../include/haptic_teleoperation/ForceField.h" linenr="102" str="feedbackMaster" scope="0x14da870" type="name" function="0x14dc790" astParent="0x14b8a30"/>
+    <token id="0x14b8a30" file="../include/haptic_teleoperation/ForceField.h" linenr="102" str="(" scope="0x14da870" link="0x14b8ae0" astOperand1="0x14b8980"/>
+    <token id="0x14b8ae0" file="../include/haptic_teleoperation/ForceField.h" linenr="102" str=")" scope="0x14da870" link="0x14b8a30"/>
+    <token id="0x14b8b90" file="../include/haptic_teleoperation/ForceField.h" linenr="102" str=";" scope="0x14da870"/>
+    <token id="0x14b8c40" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14b8cf0" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="laserCallback" scope="0x14da870" type="name" function="0x14dc830" astParent="0x14b8da0"/>
+    <token id="0x14b8da0" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="(" scope="0x14da870" link="0x14b93d0" astOperand1="0x14b8cf0" astOperand2="0x14b9270"/>
+    <token id="0x14b8e50" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14b8f00" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="sensor_msgs" scope="0x14da870" type="name" astParent="0x14b8fb0"/>
+    <token id="0x14b8fb0" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="::" scope="0x14da870" astParent="0x14b9110" astOperand1="0x14b8f00" astOperand2="0x14b9060"/>
+    <token id="0x14b9060" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="LaserScan" scope="0x14da870" type="name" astParent="0x14b8fb0"/>
+    <token id="0x14b9110" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="::" scope="0x14da870" astParent="0x14b9270" astOperand1="0x14b8fb0" astOperand2="0x14b91c0"/>
+    <token id="0x14b91c0" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="ConstPtr" scope="0x14da870" type="name" astParent="0x14b9110"/>
+    <token id="0x14b9270" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="&amp;" scope="0x14da870" type="op" astParent="0x14b8da0" astOperand1="0x14b9110" astOperand2="0x14b9320"/>
+    <token id="0x14b9320" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str="laser_scan" scope="0x14da870" type="name" varId="20" variable="0x14df080" astParent="0x14b9270"/>
+    <token id="0x14b93d0" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str=")" scope="0x14da870" link="0x14b8da0"/>
+    <token id="0x14b9480" file="../include/haptic_teleoperation/ForceField.h" linenr="105" str=";" scope="0x14da870"/>
+    <token id="0x14b9530" file="../include/haptic_teleoperation/ForceField.h" linenr="106" str="&lt;&lt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14b95e0"/>
+    <token id="0x14b95e0" file="../include/haptic_teleoperation/ForceField.h" linenr="106" str="&lt;&lt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14b9690" astOperand2="0x14b9530"/>
+    <token id="0x14b9690" file="../include/haptic_teleoperation/ForceField.h" linenr="106" str="&lt;&lt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14b9740" astOperand2="0x14b95e0"/>
+    <token id="0x14b9740" file="../include/haptic_teleoperation/ForceField.h" linenr="106" str="&lt;" scope="0x14da870" type="op" isComparisonOp="True" astOperand1="0x14b9690" astOperand2="0x14b9a00"/>
+    <token id="0x14b97f0" file="../include/haptic_teleoperation/ForceField.h" linenr="106" str="HEAD" scope="0x14da870" type="name"/>
+    <token id="0x14b98a0" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14b9950" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="pose2Callback" scope="0x14da870" type="name" astParent="0x14b9a00"/>
+    <token id="0x14b9a00" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="(" scope="0x14da870" link="0x14ba030" astParent="0x14b9740" astOperand1="0x14b9950" astOperand2="0x14b9ed0"/>
+    <token id="0x14b9ab0" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14b9b60" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="nav_msgs" scope="0x14da870" type="name" astParent="0x14b9c10"/>
+    <token id="0x14b9c10" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="::" scope="0x14da870" astParent="0x14b9d70" astOperand1="0x14b9b60" astOperand2="0x14b9cc0"/>
+    <token id="0x14b9cc0" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="Odometry" scope="0x14da870" type="name" astParent="0x14b9c10"/>
+    <token id="0x14b9d70" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="::" scope="0x14da870" astParent="0x14b9ed0" astOperand1="0x14b9c10" astOperand2="0x14b9e20"/>
+    <token id="0x14b9e20" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="ConstPtr" scope="0x14da870" type="name" astParent="0x14b9d70"/>
+    <token id="0x14b9ed0" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="&amp;" scope="0x14da870" type="op" astParent="0x14b9a00" astOperand1="0x14b9d70" astOperand2="0x14b9f80"/>
+    <token id="0x14b9f80" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str="robot_velocity" scope="0x14da870" type="name" varId="21" astParent="0x14b9ed0"/>
+    <token id="0x14ba030" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str=")" scope="0x14da870" link="0x14b9a00"/>
+    <token id="0x14ba0e0" file="../include/haptic_teleoperation/ForceField.h" linenr="107" str=";" scope="0x14da870"/>
+    <token id="0x14ba190" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14ba240" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="poseCallback" scope="0x14da870" type="name" function="0x14dc8d0" astParent="0x14ba2f0"/>
+    <token id="0x14ba2f0" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="(" scope="0x14da870" link="0x14ba920" astOperand1="0x14ba240" astOperand2="0x14ba7c0"/>
+    <token id="0x14ba3a0" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14ba450" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="geometry_msgs" scope="0x14da870" type="name" astParent="0x14ba500"/>
+    <token id="0x14ba500" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="::" scope="0x14da870" astParent="0x14ba660" astOperand1="0x14ba450" astOperand2="0x14ba5b0"/>
+    <token id="0x14ba5b0" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="PoseStamped" scope="0x14da870" type="name" astParent="0x14ba500"/>
+    <token id="0x14ba660" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="::" scope="0x14da870" astParent="0x14ba7c0" astOperand1="0x14ba500" astOperand2="0x14ba710"/>
+    <token id="0x14ba710" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="ConstPtr" scope="0x14da870" type="name" astParent="0x14ba660"/>
+    <token id="0x14ba7c0" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="&amp;" scope="0x14da870" type="op" astParent="0x14ba2f0" astOperand1="0x14ba660" astOperand2="0x14ba870"/>
+    <token id="0x14ba870" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str="robot_velocity" scope="0x14da870" type="name" varId="22" variable="0x14df0f0" astParent="0x14ba7c0"/>
+    <token id="0x14ba920" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str=")" scope="0x14da870" link="0x14ba2f0"/>
+    <token id="0x14ba9d0" file="../include/haptic_teleoperation/ForceField.h" linenr="108" str=";" scope="0x14da870"/>
+    <token id="0x14baa80" file="../include/haptic_teleoperation/ForceField.h" linenr="109" str="==" scope="0x14da870" type="op" isComparisonOp="True" astParent="0x14bab30"/>
+    <token id="0x14bab30" file="../include/haptic_teleoperation/ForceField.h" linenr="109" str="==" scope="0x14da870" type="op" isComparisonOp="True" astParent="0x14babe0" astOperand2="0x14baa80"/>
+    <token id="0x14babe0" file="../include/haptic_teleoperation/ForceField.h" linenr="109" str="==" scope="0x14da870" type="op" isComparisonOp="True" astParent="0x14bac90" astOperand2="0x14bab30"/>
+    <token id="0x14bac90" file="../include/haptic_teleoperation/ForceField.h" linenr="109" str="=" scope="0x14da870" type="op" isAssignmentOp="True" astOperand1="0x14babe0" astOperand2="0x14baea0"/>
+    <token id="0x14bad40" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14badf0" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="poseCallback" scope="0x14da870" type="name" function="0x14dc8d0" astParent="0x14baea0"/>
+    <token id="0x14baea0" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="(" scope="0x14da870" link="0x14bb4d0" astParent="0x14bac90" astOperand1="0x14badf0" astOperand2="0x14bb370"/>
+    <token id="0x14baf50" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14bb000" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="nav_msgs" scope="0x14da870" type="name" astParent="0x14bb0b0"/>
+    <token id="0x14bb0b0" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="::" scope="0x14da870" astParent="0x14bb210" astOperand1="0x14bb000" astOperand2="0x14bb160"/>
+    <token id="0x14bb160" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="Odometry" scope="0x14da870" type="name" astParent="0x14bb0b0"/>
+    <token id="0x14bb210" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="::" scope="0x14da870" astParent="0x14bb370" astOperand1="0x14bb0b0" astOperand2="0x14bb2c0"/>
+    <token id="0x14bb2c0" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="ConstPtr" scope="0x14da870" type="name" astParent="0x14bb210"/>
+    <token id="0x14bb370" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="&amp;" scope="0x14da870" type="op" astParent="0x14baea0" astOperand1="0x14bb210" astOperand2="0x14bb420"/>
+    <token id="0x14bb420" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str="robot_velocity" scope="0x14da870" type="name" varId="23" astParent="0x14bb370"/>
+    <token id="0x14bb4d0" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str=")" scope="0x14da870" link="0x14baea0"/>
+    <token id="0x14bb580" file="../include/haptic_teleoperation/ForceField.h" linenr="110" str=";" scope="0x14da870"/>
+    <token id="0x14bb630" file="../include/haptic_teleoperation/ForceField.h" linenr="112" str="&gt;&gt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14bb6e0"/>
+    <token id="0x14bb6e0" file="../include/haptic_teleoperation/ForceField.h" linenr="112" str="&gt;&gt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14bb790" astOperand2="0x14bb630"/>
+    <token id="0x14bb790" file="../include/haptic_teleoperation/ForceField.h" linenr="112" str="&gt;&gt;" scope="0x14da870" type="op" isArithmeticalOp="True" astParent="0x14bb840" astOperand2="0x14bb6e0"/>
+    <token id="0x14bb840" file="../include/haptic_teleoperation/ForceField.h" linenr="112" str="&gt;" scope="0x14da870" type="op" isComparisonOp="True" astOperand1="0x14bb790" astOperand2="0x14bbb00"/>
+    <token id="0x14bb8f0" file="../include/haptic_teleoperation/ForceField.h" linenr="112" str="880f690c69a4b559264f4910d84b4859e17aa6d3" scope="0x14da870" type="number" astParent="0x14bbb00"/>
+    <token id="0x14bb9a0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14bba50" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="visualization_fun" scope="0x14da870" type="name"/>
+    <token id="0x14bbb00" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="(" scope="0x14da870" link="0x14bcc30" astParent="0x14bb840" astOperand1="0x14bb8f0" astOperand2="0x14bbc60"/>
+    <token id="0x14bbbb0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="std" scope="0x14da870" type="name" astParent="0x14bbc60"/>
+    <token id="0x14bbc60" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="::" scope="0x14da870" astParent="0x14bbb00" astOperand1="0x14bbbb0" astOperand2="0x14bbd10"/>
+    <token id="0x14bbd10" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="vector" scope="0x14da870" type="name" astParent="0x14bbc60"/>
+    <token id="0x14bbdc0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="&lt;" scope="0x14da870" link="0x14bc080"/>
+    <token id="0x14bbe70" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Eigen" scope="0x14da870" type="name"/>
+    <token id="0x14bbf20" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="::" scope="0x14da870"/>
+    <token id="0x14bbfd0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14bc080" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="&gt;" scope="0x14da870" link="0x14bbdc0"/>
+    <token id="0x14bc130" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="forces" scope="0x14da870" type="name" varId="24"/>
+    <token id="0x14bc1e0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="," scope="0x14da870"/>
+    <token id="0x14bc290" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Eigen" scope="0x14da870" type="name"/>
+    <token id="0x14bc340" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="::" scope="0x14da870"/>
+    <token id="0x14bc3f0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14bc4a0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="resulting_f" scope="0x14da870" type="name" varId="25"/>
+    <token id="0x14bc550" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="," scope="0x14da870"/>
+    <token id="0x14bc600" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="std" scope="0x14da870" type="name"/>
+    <token id="0x14bc6b0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="::" scope="0x14da870"/>
+    <token id="0x14bc760" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="vector" scope="0x14da870" type="name"/>
+    <token id="0x14bc810" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="&lt;" scope="0x14da870" link="0x14bcad0"/>
+    <token id="0x14bc8c0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Eigen" scope="0x14da870" type="name"/>
+    <token id="0x14bc970" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="::" scope="0x14da870"/>
+    <token id="0x14bca20" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14bcad0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="&gt;" scope="0x14da870" link="0x14bc810"/>
+    <token id="0x14bcb80" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str="obstacles" scope="0x14da870" type="name" varId="26"/>
+    <token id="0x14bcc30" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str=")" scope="0x14da870" link="0x14bbb00"/>
+    <token id="0x14bcce0" file="../include/haptic_teleoperation/ForceField.h" linenr="116" str=";" scope="0x14da870"/>
+    <token id="0x14bcd90" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="visualization_msgs" scope="0x14da870" type="name" astParent="0x14bce40"/>
+    <token id="0x14bce40" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="::" scope="0x14da870" astParent="0x14bd050" astOperand1="0x14bcd90" astOperand2="0x14bcfa0"/>
+    <token id="0x14bcef0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="Marker" scope="0x14da870" type="name"/>
+    <token id="0x14bcfa0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="rviz_arrow" scope="0x14da870" type="name" function="0x14dc970" astParent="0x14bce40"/>
+    <token id="0x14bd050" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="(" scope="0x14da870" link="0x14bdf70" astOperand1="0x14bce40" astOperand2="0x14bdc00"/>
+    <token id="0x14bd100" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14bd1b0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="Eigen" scope="0x14da870" type="name" astParent="0x14bd260"/>
+    <token id="0x14bd260" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="::" scope="0x14da870" astParent="0x14bd3c0" astOperand1="0x14bd1b0" astOperand2="0x14bd310"/>
+    <token id="0x14bd310" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="Vector3d" scope="0x14da870" type="name" astParent="0x14bd260"/>
+    <token id="0x14bd3c0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="&amp;" scope="0x14da870" type="op" astParent="0x14bd520" astOperand1="0x14bd260" astOperand2="0x14bd470"/>
+    <token id="0x14bd470" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="arrow" scope="0x14da870" type="name" varId="27" variable="0x14df160" astParent="0x14bd3c0"/>
+    <token id="0x14bd520" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="," scope="0x14da870" astParent="0x14bd9f0" astOperand1="0x14bd3c0" astOperand2="0x14bd890"/>
+    <token id="0x14bd5d0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14bd680" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="geometry_msgs" scope="0x14da870" type="name" astParent="0x14bd730"/>
+    <token id="0x14bd730" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="::" scope="0x14da870" astParent="0x14bd890" astOperand1="0x14bd680" astOperand2="0x14bd7e0"/>
+    <token id="0x14bd7e0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="Point32" scope="0x14da870" type="name" astParent="0x14bd730"/>
+    <token id="0x14bd890" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="&amp;" scope="0x14da870" type="op" astParent="0x14bd520" astOperand1="0x14bd730" astOperand2="0x14bd940"/>
+    <token id="0x14bd940" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="arrow_origin" scope="0x14da870" type="name" varId="28" variable="0x14df1d0" astParent="0x14bd890"/>
+    <token id="0x14bd9f0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="," scope="0x14da870" astParent="0x14bdc00" astOperand1="0x14bd520" astOperand2="0x14bdb50"/>
+    <token id="0x14bdaa0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="int" scope="0x14da870" type="name"/>
+    <token id="0x14bdb50" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="id" scope="0x14da870" type="name" varId="29" variable="0x14df240" astParent="0x14bd9f0"/>
+    <token id="0x14bdc00" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="," scope="0x14da870" astParent="0x14bd050" astOperand1="0x14bd9f0" astOperand2="0x14bdd60"/>
+    <token id="0x14bdcb0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="std" scope="0x14da870" type="name" astParent="0x14bdd60"/>
+    <token id="0x14bdd60" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="::" scope="0x14da870" astParent="0x14bdc00" astOperand1="0x14bdcb0" astOperand2="0x14bdec0"/>
+    <token id="0x14bde10" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="string" scope="0x14da870" type="name"/>
+    <token id="0x14bdec0" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str="name_space" scope="0x14da870" type="name" varId="30" variable="0x14df2b0" astParent="0x14bdd60"/>
+    <token id="0x14bdf70" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str=")" scope="0x14da870" link="0x14bd050"/>
+    <token id="0x14be020" file="../include/haptic_teleoperation/ForceField.h" linenr="120" str=";" scope="0x14da870"/>
+    <token id="0x14be0d0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="visualization_msgs" scope="0x14da870" type="name" astParent="0x14be1b0"/>
+    <token id="0x14be1b0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870" astParent="0x14be3c0" astOperand1="0x14be0d0" astOperand2="0x14be310"/>
+    <token id="0x14be260" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="MarkerArray" scope="0x14da870" type="name"/>
+    <token id="0x14be310" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="rviz_arrows" scope="0x14da870" type="name" function="0x14dca10" astParent="0x14be1b0"/>
+    <token id="0x14be3c0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="(" scope="0x14da870" link="0x14bf7b0" astOperand1="0x14be1b0" astOperand2="0x14bf440"/>
+    <token id="0x14be470" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14be520" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="std" scope="0x14da870" type="name" astParent="0x14be5d0"/>
+    <token id="0x14be5d0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870" astParent="0x14beaa0" astOperand1="0x14be520" astOperand2="0x14be680"/>
+    <token id="0x14be680" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="vector" scope="0x14da870" type="name" astParent="0x14be5d0"/>
+    <token id="0x14be730" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&lt;" scope="0x14da870" link="0x14be9f0"/>
+    <token id="0x14be7e0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="Eigen" scope="0x14da870" type="name"/>
+    <token id="0x14be890" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870"/>
+    <token id="0x14be940" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14be9f0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&gt;" scope="0x14da870" link="0x14be730"/>
+    <token id="0x14beaa0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&amp;" scope="0x14da870" type="op" astParent="0x14bec00" astOperand1="0x14be5d0" astOperand2="0x14beb50"/>
+    <token id="0x14beb50" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="arrows" scope="0x14da870" type="name" varId="31" variable="0x14df320" astParent="0x14beaa0"/>
+    <token id="0x14bec00" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="," scope="0x14da870" astParent="0x14bf440" astOperand1="0x14beaa0" astOperand2="0x14bf2e0"/>
+    <token id="0x14becb0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="const" scope="0x14da870" type="name"/>
+    <token id="0x14bed60" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="std" scope="0x14da870" type="name" astParent="0x14bee10"/>
+    <token id="0x14bee10" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870" astParent="0x14bf2e0" astOperand1="0x14bed60" astOperand2="0x14beec0"/>
+    <token id="0x14beec0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="vector" scope="0x14da870" type="name" astParent="0x14bee10"/>
+    <token id="0x14bef70" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&lt;" scope="0x14da870" link="0x14bf230"/>
+    <token id="0x14bf020" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="Eigen" scope="0x14da870" type="name"/>
+    <token id="0x14bf0d0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870"/>
+    <token id="0x14bf180" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14bf230" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&gt;" scope="0x14da870" link="0x14bef70"/>
+    <token id="0x14bf2e0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="&amp;" scope="0x14da870" type="op" astParent="0x14bec00" astOperand1="0x14bee10" astOperand2="0x14bf390"/>
+    <token id="0x14bf390" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="arrows_origins" scope="0x14da870" type="name" varId="32" variable="0x14df390" astParent="0x14bf2e0"/>
+    <token id="0x14bf440" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="," scope="0x14da870" astParent="0x14be3c0" astOperand1="0x14bec00" astOperand2="0x14bf5a0"/>
+    <token id="0x14bf4f0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="std" scope="0x14da870" type="name" astParent="0x14bf5a0"/>
+    <token id="0x14bf5a0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="::" scope="0x14da870" astParent="0x14bf440" astOperand1="0x14bf4f0" astOperand2="0x14bf700"/>
+    <token id="0x14bf650" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="string" scope="0x14da870" type="name"/>
+    <token id="0x14bf700" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str="name_space" scope="0x14da870" type="name" varId="33" variable="0x14df400" astParent="0x14bf5a0"/>
+    <token id="0x14bf7b0" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str=")" scope="0x14da870" link="0x14be3c0"/>
+    <token id="0x14bf860" file="../include/haptic_teleoperation/ForceField.h" linenr="121" str=";" scope="0x14da870"/>
+    <token id="0x14bf910" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14bf9c0" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str="runTestPrf" scope="0x14da870" type="name" function="0x14dcab0" astParent="0x14bfa70"/>
+    <token id="0x14bfa70" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str="(" scope="0x14da870" link="0x14bfc80" astOperand1="0x14bf9c0" astOperand2="0x14bfbd0"/>
+    <token id="0x14bfb20" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str="string" scope="0x14da870" type="name"/>
+    <token id="0x14bfbd0" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str="namOftest" scope="0x14da870" type="name" varId="34" variable="0x14df470" astParent="0x14bfa70"/>
+    <token id="0x14bfc80" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str=")" scope="0x14da870" link="0x14bfa70"/>
+    <token id="0x14bfd30" file="../include/haptic_teleoperation/ForceField.h" linenr="123" str=";" scope="0x14da870"/>
+    <token id="0x14bfde0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="String" scope="0x14da870" type="name"/>
+    <token id="0x14bfe90" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="testName" scope="0x14da870" type="name" function="0x14dcb50" astParent="0x14bff40"/>
+    <token id="0x14bff40" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="(" scope="0x14da870" link="0x14c0ba0" astOperand1="0x14bfe90" astOperand2="0x14c0990"/>
+    <token id="0x14bfff0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c00a0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="dmin" scope="0x14da870" type="name" varId="35" variable="0x14df4e0" astParent="0x14c0150"/>
+    <token id="0x14c0150" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="," scope="0x14da870" astParent="0x14c0360" astOperand1="0x14c00a0" astOperand2="0x14c02b0"/>
+    <token id="0x14c0200" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c02b0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="amax" scope="0x14da870" type="name" varId="36" variable="0x14df550" astParent="0x14c0150"/>
+    <token id="0x14c0360" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="," scope="0x14da870" astParent="0x14c0570" astOperand1="0x14c0150" astOperand2="0x14c04c0"/>
+    <token id="0x14c0410" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c04c0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="rpz" scope="0x14da870" type="name" varId="37" variable="0x14df5c0" astParent="0x14c0360"/>
+    <token id="0x14c0570" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="," scope="0x14da870" astParent="0x14c0780" astOperand1="0x14c0360" astOperand2="0x14c06d0"/>
+    <token id="0x14c0620" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c06d0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="tahead" scope="0x14da870" type="name" varId="38" variable="0x14df630" astParent="0x14c0570"/>
+    <token id="0x14c0780" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="," scope="0x14da870" astParent="0x14c0990" astOperand1="0x14c0570" astOperand2="0x14c08e0"/>
+    <token id="0x14c0830" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="int" scope="0x14da870" type="name"/>
+    <token id="0x14c08e0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="numberOftest" scope="0x14da870" type="name" varId="39" variable="0x14df6a0" astParent="0x14c0780"/>
+    <token id="0x14c0990" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="," scope="0x14da870" astParent="0x14bff40" astOperand1="0x14c0780" astOperand2="0x14c0af0"/>
+    <token id="0x14c0a40" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c0af0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str="vel" scope="0x14da870" type="name" varId="40" variable="0x14df710" astParent="0x14c0990"/>
+    <token id="0x14c0ba0" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str=")" scope="0x14da870" link="0x14bff40"/>
+    <token id="0x14c0c50" file="../include/haptic_teleoperation/ForceField.h" linenr="124" str=";" scope="0x14da870"/>
+    <token id="0x14c0d00" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14c0db0" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="runTestSamplePrf" scope="0x14da870" type="name" function="0x14dcbf0" astParent="0x14c0e90"/>
+    <token id="0x14c0e90" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="(" scope="0x14da870" link="0x14c12b0" astOperand1="0x14c0db0" astOperand2="0x14c1150"/>
+    <token id="0x14c0f40" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="sensor_msgs" scope="0x14da870" type="name" astParent="0x14c0ff0"/>
+    <token id="0x14c0ff0" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="::" scope="0x14da870" astParent="0x14c1150" astOperand1="0x14c0f40" astOperand2="0x14c10a0"/>
+    <token id="0x14c10a0" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="PointCloud" scope="0x14da870" type="name" astParent="0x14c0ff0"/>
+    <token id="0x14c1150" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="&amp;" scope="0x14da870" type="op" astParent="0x14c0e90" astOperand1="0x14c0ff0" astOperand2="0x14c1200"/>
+    <token id="0x14c1200" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str="array" scope="0x14da870" type="name" varId="41" variable="0x14df780" astParent="0x14c1150"/>
+    <token id="0x14c12b0" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str=")" scope="0x14da870" link="0x14c0e90"/>
+    <token id="0x14c1360" file="../include/haptic_teleoperation/ForceField.h" linenr="126" str=";" scope="0x14da870"/>
+    <token id="0x14c1410" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14c14c0" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="runTestObstacles" scope="0x14da870" type="name" function="0x14dcc90" astParent="0x14c15a0"/>
+    <token id="0x14c15a0" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="(" scope="0x14da870" link="0x14c19c0" astOperand1="0x14c14c0" astOperand2="0x14c1860"/>
+    <token id="0x14c1650" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="sensor_msgs" scope="0x14da870" type="name" astParent="0x14c1700"/>
+    <token id="0x14c1700" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="::" scope="0x14da870" astParent="0x14c1860" astOperand1="0x14c1650" astOperand2="0x14c17b0"/>
+    <token id="0x14c17b0" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="PointCloud" scope="0x14da870" type="name" astParent="0x14c1700"/>
+    <token id="0x14c1860" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="&amp;" scope="0x14da870" type="op" astParent="0x14c15a0" astOperand1="0x14c1700" astOperand2="0x14c1910"/>
+    <token id="0x14c1910" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str="array" scope="0x14da870" type="name" varId="42" variable="0x14df7f0" astParent="0x14c1860"/>
+    <token id="0x14c19c0" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str=")" scope="0x14da870" link="0x14c15a0"/>
+    <token id="0x14c1a70" file="../include/haptic_teleoperation/ForceField.h" linenr="127" str=";" scope="0x14da870"/>
+    <token id="0x14c1b20" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14c1bd0" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str="runTestBrf" scope="0x14da870" type="name" function="0x14dcd30" astParent="0x14c1c80"/>
+    <token id="0x14c1c80" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str="(" scope="0x14da870" link="0x14c1e90" astOperand1="0x14c1bd0" astOperand2="0x14c1de0"/>
+    <token id="0x14c1d30" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str="string" scope="0x14da870" type="name"/>
+    <token id="0x14c1de0" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str="namOftest" scope="0x14da870" type="name" varId="43" variable="0x14df860" astParent="0x14c1c80"/>
+    <token id="0x14c1e90" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str=")" scope="0x14da870" link="0x14c1c80"/>
+    <token id="0x14c1f40" file="../include/haptic_teleoperation/ForceField.h" linenr="129" str=";" scope="0x14da870"/>
+    <token id="0x14c1ff0" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="String" scope="0x14da870" type="name"/>
+    <token id="0x14c20a0" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="testNameBRF" scope="0x14da870" type="name" function="0x14dcdd0" astParent="0x14c2150"/>
+    <token id="0x14c2150" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="(" scope="0x14da870" link="0x14c2570" astOperand1="0x14c20a0" astOperand2="0x14c2360"/>
+    <token id="0x14c2200" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c22b0" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="gain" scope="0x14da870" type="name" varId="44" variable="0x14df8d0" astParent="0x14c2360"/>
+    <token id="0x14c2360" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="," scope="0x14da870" astParent="0x14c2150" astOperand1="0x14c22b0" astOperand2="0x14c24c0"/>
+    <token id="0x14c2410" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c24c0" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str="x" scope="0x14da870" type="name" varId="45" variable="0x14df940" astParent="0x14c2360"/>
+    <token id="0x14c2570" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str=")" scope="0x14da870" link="0x14c2150"/>
+    <token id="0x14c2620" file="../include/haptic_teleoperation/ForceField.h" linenr="130" str=";" scope="0x14da870"/>
+    <token id="0x14c26d0" file="../include/haptic_teleoperation/ForceField.h" linenr="132" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14c2780" file="../include/haptic_teleoperation/ForceField.h" linenr="132" str="runTestVirtualImpedance" scope="0x14da870" type="name" function="0x14dce70" astParent="0x14c2860"/>
+    <token id="0x14c2860" file="../include/haptic_teleoperation/ForceField.h" linenr="132" str="(" scope="0x14da870" link="0x14c2910" astOperand1="0x14c2780"/>
+    <token id="0x14c2910" file="../include/haptic_teleoperation/ForceField.h" linenr="132" str=")" scope="0x14da870" link="0x14c2860"/>
+    <token id="0x14c29c0" file="../include/haptic_teleoperation/ForceField.h" linenr="132" str=";" scope="0x14da870"/>
+    <token id="0x14c2a70" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="virtual" scope="0x14da870" type="name"/>
+    <token id="0x14c2b20" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="Eigen" scope="0x14da870" type="name" astParent="0x14c2bd0"/>
+    <token id="0x14c2bd0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="::" scope="0x14da870" astParent="0x14c2de0" astOperand1="0x14c2b20" astOperand2="0x14c2d30"/>
+    <token id="0x14c2c80" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14c2d30" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="getForcePoint" scope="0x14da870" type="name" function="0x14dcf10" astParent="0x14c2bd0"/>
+    <token id="0x14c2de0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="(" scope="0x14da870" link="0x14c3570" astOperand1="0x14c2bd0" astOperand2="0x14c3200"/>
+    <token id="0x14c2e90" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="geometry_msgs" scope="0x14da870" type="name" astParent="0x14c2f40"/>
+    <token id="0x14c2f40" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="::" scope="0x14da870" astParent="0x14c30a0" astOperand1="0x14c2e90" astOperand2="0x14c2ff0"/>
+    <token id="0x14c2ff0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="Point32" scope="0x14da870" type="name" astParent="0x14c2f40"/>
+    <token id="0x14c30a0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="&amp;" scope="0x14da870" type="op" astParent="0x14c3200" astOperand1="0x14c2f40" astOperand2="0x14c3150"/>
+    <token id="0x14c3150" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="c_current" scope="0x14da870" type="name" varId="46" variable="0x14df9b0" astParent="0x14c30a0"/>
+    <token id="0x14c3200" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="," scope="0x14da870" astParent="0x14c2de0" astOperand1="0x14c30a0" astOperand2="0x14c3360"/>
+    <token id="0x14c32b0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="Eigen" scope="0x14da870" type="name" astParent="0x14c3360"/>
+    <token id="0x14c3360" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="::" scope="0x14da870" astParent="0x14c3200" astOperand1="0x14c32b0" astOperand2="0x14c34c0"/>
+    <token id="0x14c3410" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14c34c0" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str="robot_velocity" scope="0x14da870" type="name" varId="47" variable="0x14dfa20" astParent="0x14c3360"/>
+    <token id="0x14c3570" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str=")" scope="0x14da870" link="0x14c2de0"/>
+    <token id="0x14c3620" file="../include/haptic_teleoperation/ForceField.h" linenr="136" str=";" scope="0x14da870"/>
+    <token id="0x14c36d0" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c3780" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="distanse" scope="0x14da870" type="name" function="0x14dcfb0" astParent="0x14c3830"/>
+    <token id="0x14c3830" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="(" scope="0x14da870" link="0x14c3e60" astOperand1="0x14c3780" astOperand2="0x14c3c50"/>
+    <token id="0x14c38e0" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c3990" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="x" scope="0x14da870" type="name" varId="48" variable="0x14dfa90" astParent="0x14c3a40"/>
+    <token id="0x14c3a40" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="," scope="0x14da870" astParent="0x14c3c50" astOperand1="0x14c3990" astOperand2="0x14c3ba0"/>
+    <token id="0x14c3af0" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c3ba0" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="y" scope="0x14da870" type="name" varId="49" variable="0x14dfb00" astParent="0x14c3a40"/>
+    <token id="0x14c3c50" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="," scope="0x14da870" astParent="0x14c3830" astOperand1="0x14c3a40" astOperand2="0x14c3db0"/>
+    <token id="0x14c3d00" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="double" scope="0x14da870" type="name"/>
+    <token id="0x14c3db0" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str="z" scope="0x14da870" type="name" varId="50" variable="0x14dfb70" astParent="0x14c3c50"/>
+    <token id="0x14c3e60" file="../include/haptic_teleoperation/ForceField.h" linenr="138" str=")" scope="0x14da870" link="0x14c3830"/>
+    <token id="0x14c3f10" file="../include/haptic_teleoperation/ForceField.h" linenr="139" str="{" scope="0x14dd050" link="0x14c5040"/>
+    <token id="0x14c3fc0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="sqrt" scope="0x14dd050" type="name" astParent="0x14c4070"/>
+    <token id="0x14c4070" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="(" scope="0x14dd050" link="0x14c4ee0" astOperand1="0x14c3fc0" astOperand2="0x14c4a10"/>
+    <token id="0x14c4120" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="pow" scope="0x14dd050" type="name" astParent="0x14c41d0"/>
+    <token id="0x14c41d0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="(" scope="0x14dd050" link="0x14c4490" astParent="0x14c4540" astOperand1="0x14c4120" astOperand2="0x14c4330"/>
+    <token id="0x14c4280" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="x" scope="0x14dd050" type="name" varId="48" variable="0x14dfa90" astParent="0x14c4330"/>
+    <token id="0x14c4330" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="," scope="0x14dd050" astParent="0x14c41d0" astOperand1="0x14c4280" astOperand2="0x14c43e0"/>
+    <token id="0x14c43e0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="2" scope="0x14dd050" type="number" isInt="True" values="0x14c43e8" astParent="0x14c4330"/>
+    <token id="0x14c4490" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str=")" scope="0x14dd050" link="0x14c41d0"/>
+    <token id="0x14c4540" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="+" scope="0x14dd050" type="op" isArithmeticalOp="True" astParent="0x14c4a10" astOperand1="0x14c41d0" astOperand2="0x14c46a0"/>
+    <token id="0x14c45f0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="pow" scope="0x14dd050" type="name" astParent="0x14c46a0"/>
+    <token id="0x14c46a0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="(" scope="0x14dd050" link="0x14c4960" astParent="0x14c4540" astOperand1="0x14c45f0" astOperand2="0x14c4800"/>
+    <token id="0x14c4750" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="y" scope="0x14dd050" type="name" varId="49" variable="0x14dfb00" astParent="0x14c4800"/>
+    <token id="0x14c4800" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="," scope="0x14dd050" astParent="0x14c46a0" astOperand1="0x14c4750" astOperand2="0x14c48b0"/>
+    <token id="0x14c48b0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="2" scope="0x14dd050" type="number" isInt="True" values="0x14c48b8" astParent="0x14c4800"/>
+    <token id="0x14c4960" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str=")" scope="0x14dd050" link="0x14c46a0"/>
+    <token id="0x14c4a10" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="+" scope="0x14dd050" type="op" isArithmeticalOp="True" astParent="0x14c4070" astOperand1="0x14c4540" astOperand2="0x14c4b70"/>
+    <token id="0x14c4ac0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="pow" scope="0x14dd050" type="name" astParent="0x14c4b70"/>
+    <token id="0x14c4b70" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="(" scope="0x14dd050" link="0x14c4e30" astParent="0x14c4a10" astOperand1="0x14c4ac0" astOperand2="0x14c4cd0"/>
+    <token id="0x14c4c20" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="z" scope="0x14dd050" type="name" varId="50" variable="0x14dfb70" astParent="0x14c4cd0"/>
+    <token id="0x14c4cd0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="," scope="0x14dd050" astParent="0x14c4b70" astOperand1="0x14c4c20" astOperand2="0x14c4d80"/>
+    <token id="0x14c4d80" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str="2" scope="0x14dd050" type="number" isInt="True" values="0x14c4d88" astParent="0x14c4cd0"/>
+    <token id="0x14c4e30" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str=")" scope="0x14dd050" link="0x14c4b70"/>
+    <token id="0x14c4ee0" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str=")" scope="0x14dd050" link="0x14c4070"/>
+    <token id="0x14c4f90" file="../include/haptic_teleoperation/ForceField.h" linenr="140" str=";" scope="0x14dd050"/>
+    <token id="0x14c5040" file="../include/haptic_teleoperation/ForceField.h" linenr="141" str="}" scope="0x14dd050" link="0x14c3f10"/>
+    <token id="0x14c50f0" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="void" scope="0x14da870" type="name"/>
+    <token id="0x14c51a0" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="setRobotVelocity" scope="0x14da870" type="name" function="0x14dd180" astParent="0x14c5280"/>
+    <token id="0x14c5280" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="(" scope="0x14da870" link="0x14c55f0" astOperand1="0x14c51a0" astOperand2="0x14c53e0"/>
+    <token id="0x14c5330" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="Eigen" scope="0x14da870" type="name" astParent="0x14c53e0"/>
+    <token id="0x14c53e0" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="::" scope="0x14da870" astParent="0x14c5280" astOperand1="0x14c5330" astOperand2="0x14c5540"/>
+    <token id="0x14c5490" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14c5540" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str="robotVel" scope="0x14da870" type="name" varId="51" variable="0x14dfbe0" astParent="0x14c53e0"/>
+    <token id="0x14c55f0" file="../include/haptic_teleoperation/ForceField.h" linenr="143" str=")" scope="0x14da870" link="0x14c5280"/>
+    <token id="0x14c56a0" file="../include/haptic_teleoperation/ForceField.h" linenr="144" str="{" scope="0x14dd220" link="0x14c6bf0"/>
+    <token id="0x14c5750" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="robotVelocity" scope="0x14dd220" type="name" varId="54" variable="0x14deb40" astParent="0x14c5800"/>
+    <token id="0x14c5800" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="(" scope="0x14dd220" link="0x14c5960" astParent="0x14c5a10" astOperand1="0x14c5750" astOperand2="0x14c58b0"/>
+    <token id="0x14c58b0" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="0" scope="0x14dd220" type="number" isInt="True" values="0x14c58b8" astParent="0x14c5800"/>
+    <token id="0x14c5960" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str=")" scope="0x14dd220" link="0x14c5800"/>
+    <token id="0x14c5a10" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="=" scope="0x14dd220" type="op" isAssignmentOp="True" astOperand1="0x14c5800" astOperand2="0x14c5b70"/>
+    <token id="0x14c5ac0" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="robotVel" scope="0x14dd220" type="name" varId="51" variable="0x14dfbe0" astParent="0x14c5b70"/>
+    <token id="0x14c5b70" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="(" scope="0x14dd220" link="0x14c5cd0" astParent="0x14c5a10" astOperand1="0x14c5ac0" astOperand2="0x14c5c20"/>
+    <token id="0x14c5c20" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str="0" scope="0x14dd220" type="number" isInt="True" values="0x14c5c28" astParent="0x14c5b70"/>
+    <token id="0x14c5cd0" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str=")" scope="0x14dd220" link="0x14c5b70"/>
+    <token id="0x14c5d80" file="../include/haptic_teleoperation/ForceField.h" linenr="145" str=";" scope="0x14dd220"/>
+    <token id="0x14c5e30" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="robotVelocity" scope="0x14dd220" type="name" varId="54" variable="0x14deb40" astParent="0x14c5ee0"/>
+    <token id="0x14c5ee0" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="(" scope="0x14dd220" link="0x14c6040" astParent="0x14c60f0" astOperand1="0x14c5e30" astOperand2="0x14c5f90"/>
+    <token id="0x14c5f90" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="1" scope="0x14dd220" type="number" isInt="True" values="0x14c5f98" astParent="0x14c5ee0"/>
+    <token id="0x14c6040" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str=")" scope="0x14dd220" link="0x14c5ee0"/>
+    <token id="0x14c60f0" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="=" scope="0x14dd220" type="op" isAssignmentOp="True" astOperand1="0x14c5ee0" astOperand2="0x14c6250"/>
+    <token id="0x14c61a0" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="robotVel" scope="0x14dd220" type="name" varId="51" variable="0x14dfbe0" astParent="0x14c6250"/>
+    <token id="0x14c6250" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="(" scope="0x14dd220" link="0x14c63b0" astParent="0x14c60f0" astOperand1="0x14c61a0" astOperand2="0x14c6300"/>
+    <token id="0x14c6300" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str="1" scope="0x14dd220" type="number" isInt="True" values="0x14c6308" astParent="0x14c6250"/>
+    <token id="0x14c63b0" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str=")" scope="0x14dd220" link="0x14c6250"/>
+    <token id="0x14c6460" file="../include/haptic_teleoperation/ForceField.h" linenr="146" str=";" scope="0x14dd220"/>
+    <token id="0x14c6510" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="robotVelocity" scope="0x14dd220" type="name" varId="54" variable="0x14deb40" astParent="0x14c65c0"/>
+    <token id="0x14c65c0" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="(" scope="0x14dd220" link="0x14c6720" astParent="0x14c67d0" astOperand1="0x14c6510" astOperand2="0x14c6670"/>
+    <token id="0x14c6670" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="2" scope="0x14dd220" type="number" isInt="True" values="0x14c6678" astParent="0x14c65c0"/>
+    <token id="0x14c6720" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str=")" scope="0x14dd220" link="0x14c65c0"/>
+    <token id="0x14c67d0" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="=" scope="0x14dd220" type="op" isAssignmentOp="True" astOperand1="0x14c65c0" astOperand2="0x14c6930"/>
+    <token id="0x14c6880" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="robotVel" scope="0x14dd220" type="name" varId="51" variable="0x14dfbe0" astParent="0x14c6930"/>
+    <token id="0x14c6930" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="(" scope="0x14dd220" link="0x14c6a90" astParent="0x14c67d0" astOperand1="0x14c6880" astOperand2="0x14c69e0"/>
+    <token id="0x14c69e0" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str="2" scope="0x14dd220" type="number" isInt="True" values="0x14c69e8" astParent="0x14c6930"/>
+    <token id="0x14c6a90" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str=")" scope="0x14dd220" link="0x14c6930"/>
+    <token id="0x14c6b40" file="../include/haptic_teleoperation/ForceField.h" linenr="147" str=";" scope="0x14dd220"/>
+    <token id="0x14c6bf0" file="../include/haptic_teleoperation/ForceField.h" linenr="148" str="}" scope="0x14dd220" link="0x14c56a0"/>
+    <token id="0x14c6ca0" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str="Eigen" scope="0x14da870" type="name" astParent="0x14c6d50"/>
+    <token id="0x14c6d50" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str="::" scope="0x14da870" astParent="0x14c6f90" astOperand1="0x14c6ca0" astOperand2="0x14c6eb0"/>
+    <token id="0x14c6e00" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14c6eb0" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str="getRobotVelocity" scope="0x14da870" type="name" function="0x14dd350" astParent="0x14c6d50"/>
+    <token id="0x14c6f90" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str="(" scope="0x14da870" link="0x14c7040" astOperand1="0x14c6d50"/>
+    <token id="0x14c7040" file="../include/haptic_teleoperation/ForceField.h" linenr="152" str=")" scope="0x14da870" link="0x14c6f90"/>
+    <token id="0x14c70f0" file="../include/haptic_teleoperation/ForceField.h" linenr="153" str="{" scope="0x14dd3f0" link="0x14c73b0"/>
+    <token id="0x14c71a0" file="../include/haptic_teleoperation/ForceField.h" linenr="154" str="return" scope="0x14dd3f0" type="name" astOperand1="0x14c7250"/>
+    <token id="0x14c7250" file="../include/haptic_teleoperation/ForceField.h" linenr="154" str="robotVelocity" scope="0x14dd3f0" type="name" varId="54" variable="0x14deb40" astParent="0x14c71a0"/>
+    <token id="0x14c7300" file="../include/haptic_teleoperation/ForceField.h" linenr="154" str=";" scope="0x14dd3f0"/>
+    <token id="0x14c73b0" file="../include/haptic_teleoperation/ForceField.h" linenr="155" str="}" scope="0x14dd3f0" link="0x14c70f0"/>
+    <token id="0x14c7460" file="../include/haptic_teleoperation/ForceField.h" linenr="158" str="protected:" scope="0x14da870" type="name"/>
+    <token id="0x14c75c0" file="../include/haptic_teleoperation/ForceField.h" linenr="159" str="ros" scope="0x14da870" type="name" astParent="0x14c7670"/>
+    <token id="0x14c7670" file="../include/haptic_teleoperation/ForceField.h" linenr="159" str="::" scope="0x14da870" astOperand1="0x14c75c0" astOperand2="0x14c77d0"/>
+    <token id="0x14c7720" file="../include/haptic_teleoperation/ForceField.h" linenr="159" str="NodeHandle" scope="0x14da870" type="name"/>
+    <token id="0x14c77d0" file="../include/haptic_teleoperation/ForceField.h" linenr="159" str="n" scope="0x14da870" type="name" varId="52" variable="0x14dea60" astParent="0x14c7670"/>
+    <token id="0x14c7880" file="../include/haptic_teleoperation/ForceField.h" linenr="159" str=";" scope="0x14da870"/>
+    <token id="0x14c7930" file="../include/haptic_teleoperation/ForceField.h" linenr="160" str="ros" scope="0x14da870" type="name" astParent="0x14c79e0"/>
+    <token id="0x14c79e0" file="../include/haptic_teleoperation/ForceField.h" linenr="160" str="::" scope="0x14da870" astOperand1="0x14c7930" astOperand2="0x14c7b40"/>
+    <token id="0x14c7a90" file="../include/haptic_teleoperation/ForceField.h" linenr="160" str="NodeHandle" scope="0x14da870" type="name"/>
+    <token id="0x14c7b40" file="../include/haptic_teleoperation/ForceField.h" linenr="160" str="n_priv" scope="0x14da870" type="name" varId="53" variable="0x14dead0" astParent="0x14c79e0"/>
+    <token id="0x14c7bf0" file="../include/haptic_teleoperation/ForceField.h" linenr="160" str=";" scope="0x14da870"/>
+    <token id="0x14c7ca0" file="../include/haptic_teleoperation/ForceField.h" linenr="161" str="Eigen" scope="0x14da870" type="name" astParent="0x14c7d50"/>
+    <token id="0x14c7d50" file="../include/haptic_teleoperation/ForceField.h" linenr="161" str="::" scope="0x14da870" astOperand1="0x14c7ca0" astOperand2="0x14c7eb0"/>
+    <token id="0x14c7e00" file="../include/haptic_teleoperation/ForceField.h" linenr="161" str="Vector3d" scope="0x14da870" type="name"/>
+    <token id="0x14c7eb0" file="../include/haptic_teleoperation/ForceField.h" linenr="161" str="robotVelocity" scope="0x14da870" type="name" varId="54" variable="0x14deb40" astParent="0x14c7d50"/>
+    <token id="0x14c7f60" file="../include/haptic_teleoperation/ForceField.h" linenr="161" str=";" scope="0x14da870"/>
+    <token id="0x14c8010" file="../include/haptic_teleoperation/ForceField.h" linenr="163" str="bool" scope="0x14da870" type="name"/>
+    <token id="0x14c80c0" file="../include/haptic_teleoperation/ForceField.h" linenr="163" str="init_flag" scope="0x14da870" type="name" varId="55" variable="0x14debb0"/>
+    <token id="0x14c8170" file="../include/haptic_teleoperation/ForceField.h" linenr="163" str=";" scope="0x14da870"/>
+    <token id="0x14c8220" file="../include/haptic_teleoperation/ForceField.h" linenr="164" str="bool" scope="0x14da870" type="name"/>
+    <token id="0x14c82d0" file="../include/haptic_teleoperation/ForceField.h" linenr="164" str="init_flag_pose" scope="0x14da870" type="name" varId="56" variable="0x14dec20"/>
+    <token id="0x14c8380" file="../include/haptic_teleoperation/ForceField.h" linenr="164" str=";" scope="0x14da870"/>
+    <token id="0x14c8430" file="../include/haptic_teleoperation/ForceField.h" linenr="168" str="}" scope="0x14da870" link="0x14b26e0"/>
+    <token id="0x14c84e0" file="../include/haptic_teleoperation/ForceField.h" linenr="168" str=";" scope="0x14b0700"/>
+    <token id="0x14c8590" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="9" str="class" scope="0x14b0700" type="name"/>
+    <token id="0x14c8640" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="9" str="VirtualImpedanceForce" scope="0x14b0700" type="name" type-scope="0x14dd550"/>
+    <token id="0x14c8720" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="9" str=":" scope="0x14b0700"/>
+    <token id="0x14c87d0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="9" str="public" scope="0x14b0700" type="name"/>
+    <token id="0x14c8880" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="9" str="ForceField" scope="0x14b0700" type="name" type-scope="0x14da870"/>
+    <token id="0x14c8930" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="10" str="{" scope="0x14dd550" link="0x14cb990"/>
+    <token id="0x14c89e0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="11" str="public:" scope="0x14dd550" type="name"/>
+    <token id="0x14c8b40" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="VirtualImpedanceForce" scope="0x14dd550" type="name" function="0x14dd730" astParent="0x14c8c20"/>
+    <token id="0x14c8c20" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="(" scope="0x14dd550" link="0x14c9720" astOperand1="0x14c8b40" astOperand2="0x14c93b0"/>
+    <token id="0x14c8cd0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="ros" scope="0x14dd550" type="name" astParent="0x14c8d80"/>
+    <token id="0x14c8d80" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="::" scope="0x14dd550" astParent="0x14c8ee0" astOperand1="0x14c8cd0" astOperand2="0x14c8e30"/>
+    <token id="0x14c8e30" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="NodeHandle" scope="0x14dd550" type="name" astParent="0x14c8d80"/>
+    <token id="0x14c8ee0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="&amp;" scope="0x14dd550" type="op" astParent="0x14c9040" astOperand1="0x14c8d80" astOperand2="0x14c8f90"/>
+    <token id="0x14c8f90" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="n_" scope="0x14dd550" type="name" varId="57" astParent="0x14c8ee0"/>
+    <token id="0x14c9040" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="," scope="0x14dd550" astParent="0x14c93b0" astOperand1="0x14c8ee0" astOperand2="0x14c91a0"/>
+    <token id="0x14c90f0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="Eigen" scope="0x14dd550" type="name" astParent="0x14c91a0"/>
+    <token id="0x14c91a0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="::" scope="0x14dd550" astParent="0x14c9040" astOperand1="0x14c90f0" astOperand2="0x14c9300"/>
+    <token id="0x14c9250" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="Vector3d" scope="0x14dd550" type="name"/>
+    <token id="0x14c9300" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="kp" scope="0x14dd550" type="name" varId="58" astParent="0x14c91a0"/>
+    <token id="0x14c93b0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="," scope="0x14dd550" astParent="0x14c8c20" astOperand1="0x14c9040" astOperand2="0x14c9510"/>
+    <token id="0x14c9460" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="Eigen" scope="0x14dd550" type="name" astParent="0x14c9510"/>
+    <token id="0x14c9510" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="::" scope="0x14dd550" astParent="0x14c93b0" astOperand1="0x14c9460" astOperand2="0x14c9670"/>
+    <token id="0x14c95c0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="Vector3d" scope="0x14dd550" type="name"/>
+    <token id="0x14c9670" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str="kd" scope="0x14dd550" type="name" varId="59" astParent="0x14c9510"/>
+    <token id="0x14c9720" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str=")" scope="0x14dd550" link="0x14c8c20"/>
+    <token id="0x14c97d0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="12" str=";" scope="0x14dd550"/>
+    <token id="0x14c9880" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="VirtualImpedanceForce" scope="0x14dd550" type="name" function="0x14dd7d0" astParent="0x14c9960"/>
+    <token id="0x14c9960" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="(" scope="0x14dd550" link="0x14c9a10" astOperand1="0x14c9880"/>
+    <token id="0x14c9a10" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str=")" scope="0x14dd550" link="0x14c9960"/>
+    <token id="0x14c9ac0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="{" scope="0x14dd8a0" link="0x14ca2e0"/>
+    <token id="0x14c9b70" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="std" scope="0x14dd8a0" type="name" astParent="0x14c9c20"/>
+    <token id="0x14c9c20" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="::" scope="0x14dd8a0" astParent="0x14c9d80" astOperand1="0x14c9b70" astOperand2="0x14c9cd0"/>
+    <token id="0x14c9cd0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="cout" scope="0x14dd8a0" type="name" astParent="0x14c9c20"/>
+    <token id="0x14c9d80" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="&lt;&lt;" scope="0x14dd8a0" type="op" isArithmeticalOp="True" astParent="0x14c9f70" astOperand1="0x14c9c20" astOperand2="0x14c9e90"/>
+    <token id="0x14c9e90" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="&quot;default child constructor&quot;" scope="0x14dd8a0" type="string" strlen="25" values="0x14c9e98" astParent="0x14c9d80"/>
+    <token id="0x14c9f70" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="&lt;&lt;" scope="0x14dd8a0" type="op" isArithmeticalOp="True" astOperand1="0x14c9d80" astOperand2="0x14ca0d0"/>
+    <token id="0x14ca020" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="std" scope="0x14dd8a0" type="name" astParent="0x14ca0d0"/>
+    <token id="0x14ca0d0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="::" scope="0x14dd8a0" astParent="0x14c9f70" astOperand1="0x14ca020" astOperand2="0x14ca180"/>
+    <token id="0x14ca180" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="endl" scope="0x14dd8a0" type="name" astParent="0x14ca0d0"/>
+    <token id="0x14ca230" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str=";" scope="0x14dd8a0"/>
+    <token id="0x14ca2e0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="13" str="}" scope="0x14dd8a0" link="0x14c9ac0"/>
+    <token id="0x14ca390" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str="~" scope="0x14dd550" type="op" astOperand1="0x14ca4f0"/>
+    <token id="0x14ca440" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str="VirtualImpedanceForce" scope="0x14dd550" type="name" function="0x14dd9d0" astParent="0x14ca4f0"/>
+    <token id="0x14ca4f0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str="(" scope="0x14dd550" link="0x14ca5a0" astParent="0x14ca390" astOperand1="0x14ca440"/>
+    <token id="0x14ca5a0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str=")" scope="0x14dd550" link="0x14ca4f0"/>
+    <token id="0x14ca650" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str="{" scope="0x14ddaa0" link="0x14ca700"/>
+    <token id="0x14ca700" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="14" str="}" scope="0x14ddaa0" link="0x14ca650"/>
+    <token id="0x14ca7b0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="Eigen" scope="0x14dd550" type="name" astParent="0x14ca860"/>
+    <token id="0x14ca860" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="::" scope="0x14dd550" astParent="0x14caa70" astOperand1="0x14ca7b0" astOperand2="0x14ca9c0"/>
+    <token id="0x14ca910" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="Vector3d" scope="0x14dd550" type="name"/>
+    <token id="0x14ca9c0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="getForcePoint" scope="0x14dd550" type="name" function="0x14ddbd0" astParent="0x14ca860"/>
+    <token id="0x14caa70" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="(" scope="0x14dd550" link="0x14cb200" astOperand1="0x14ca860" astOperand2="0x14cae90"/>
+    <token id="0x14cab20" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="geometry_msgs" scope="0x14dd550" type="name" astParent="0x14cabd0"/>
+    <token id="0x14cabd0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="::" scope="0x14dd550" astParent="0x14cad30" astOperand1="0x14cab20" astOperand2="0x14cac80"/>
+    <token id="0x14cac80" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="Point32" scope="0x14dd550" type="name" astParent="0x14cabd0"/>
+    <token id="0x14cad30" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="&amp;" scope="0x14dd550" type="op" astParent="0x14cae90" astOperand1="0x14cabd0" astOperand2="0x14cade0"/>
+    <token id="0x14cade0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="c_current" scope="0x14dd550" type="name" varId="60" astParent="0x14cad30"/>
+    <token id="0x14cae90" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="," scope="0x14dd550" astParent="0x14caa70" astOperand1="0x14cad30" astOperand2="0x14caff0"/>
+    <token id="0x14caf40" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="Eigen" scope="0x14dd550" type="name" astParent="0x14caff0"/>
+    <token id="0x14caff0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="::" scope="0x14dd550" astParent="0x14cae90" astOperand1="0x14caf40" astOperand2="0x14cb150"/>
+    <token id="0x14cb0a0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="Vector3d" scope="0x14dd550" type="name"/>
+    <token id="0x14cb150" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str="robot_vel" scope="0x14dd550" type="name" varId="61" astParent="0x14caff0"/>
+    <token id="0x14cb200" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str=")" scope="0x14dd550" link="0x14caa70"/>
+    <token id="0x14cb2b0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="15" str=";" scope="0x14dd550"/>
+    <token id="0x14cb360" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="18" str="private:" scope="0x14dd550" type="name"/>
+    <token id="0x14cb4c0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="Eigen" scope="0x14dd550" type="name" astParent="0x14cb570"/>
+    <token id="0x14cb570" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="::" scope="0x14dd550" astOperand1="0x14cb4c0" astOperand2="0x14cb6d0"/>
+    <token id="0x14cb620" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="Matrix3d" scope="0x14dd550" type="name"/>
+    <token id="0x14cb6d0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="kp_mat" scope="0x14dd550" type="name" varId="62" variable="0x14dec90" astParent="0x14cb570"/>
+    <token id="0x14cb780" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str=";" scope="0x14dd550"/>
+    <token id="0x14c8a90" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="Eigen" scope="0x14dd550" type="name" astParent="0x14cb410"/>
+    <token id="0x14cb410" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="::" scope="0x14dd550" astOperand1="0x14c8a90" astOperand2="0x14cb830"/>
+    <token id="0x14da650" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="Matrix3d" scope="0x14dd550" type="name"/>
+    <token id="0x14cb830" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str="kd_mat" scope="0x14dd550" type="name" varId="63" variable="0x14ded00" astParent="0x14cb410"/>
+    <token id="0x14cb8e0" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="19" str=";" scope="0x14dd550"/>
+    <token id="0x14cb990" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="22" str="}" scope="0x14dd550" link="0x14c8930"/>
+    <token id="0x14cba40" file="../include/haptic_teleoperation/VirtualImpedanceForce.h" linenr="22" str=";" scope="0x14b0700"/>
+    <token id="0x14cbaf0" file="VirtualImpedanceForce.cpp" linenr="3" str="VirtualImpedanceForce" scope="0x14b0700" type="name" type-scope="0x14dd550" astParent="0x14cbba0"/>
+    <token id="0x14cbba0" file="VirtualImpedanceForce.cpp" linenr="3" str="::" scope="0x14b0700" astParent="0x14cbd30" astOperand1="0x14cbaf0" astOperand2="0x14cbc50"/>
+    <token id="0x14cbc50" file="VirtualImpedanceForce.cpp" linenr="3" str="VirtualImpedanceForce" scope="0x14b0700" type="name" function="0x14dd730" astParent="0x14cbba0"/>
+    <token id="0x14cbd30" file="VirtualImpedanceForce.cpp" linenr="3" str="(" scope="0x14b0700" link="0x14cc830" astParent="0x14cc8e0" astOperand1="0x14cbba0" astOperand2="0x14cc4c0"/>
+    <token id="0x14cbde0" file="VirtualImpedanceForce.cpp" linenr="3" str="ros" scope="0x14b0700" type="name" astParent="0x14cbe90"/>
+    <token id="0x14cbe90" file="VirtualImpedanceForce.cpp" linenr="3" str="::" scope="0x14b0700" astParent="0x14cbff0" astOperand1="0x14cbde0" astOperand2="0x14cbf40"/>
+    <token id="0x14cbf40" file="VirtualImpedanceForce.cpp" linenr="3" str="NodeHandle" scope="0x14b0700" type="name" astParent="0x14cbe90"/>
+    <token id="0x14cbff0" file="VirtualImpedanceForce.cpp" linenr="3" str="&amp;" scope="0x14b0700" type="op" astParent="0x14cc150" astOperand1="0x14cbe90" astOperand2="0x14cc0a0"/>
+    <token id="0x14cc0a0" file="VirtualImpedanceForce.cpp" linenr="3" str="n_" scope="0x14b0700" type="name" varId="64" variable="0x14dfc50" astParent="0x14cbff0"/>
+    <token id="0x14cc150" file="VirtualImpedanceForce.cpp" linenr="3" str="," scope="0x14b0700" astParent="0x14cc4c0" astOperand1="0x14cbff0" astOperand2="0x14cc2b0"/>
+    <token id="0x14cc200" file="VirtualImpedanceForce.cpp" linenr="3" str="Eigen" scope="0x14b0700" type="name" astParent="0x14cc2b0"/>
+    <token id="0x14cc2b0" file="VirtualImpedanceForce.cpp" linenr="3" str="::" scope="0x14b0700" astParent="0x14cc150" astOperand1="0x14cc200" astOperand2="0x14cc410"/>
+    <token id="0x14cc360" file="VirtualImpedanceForce.cpp" linenr="3" str="Vector3d" scope="0x14b0700" type="name"/>
+    <token id="0x14cc410" file="VirtualImpedanceForce.cpp" linenr="3" str="kp" scope="0x14b0700" type="name" varId="65" variable="0x14dfcc0" astParent="0x14cc2b0"/>
+    <token id="0x14cc4c0" file="VirtualImpedanceForce.cpp" linenr="3" str="," scope="0x14b0700" astParent="0x14cbd30" astOperand1="0x14cc150" astOperand2="0x14cc620"/>
+    <token id="0x14cc570" file="VirtualImpedanceForce.cpp" linenr="3" str="Eigen" scope="0x14b0700" type="name" astParent="0x14cc620"/>
+    <token id="0x14cc620" file="VirtualImpedanceForce.cpp" linenr="3" str="::" scope="0x14b0700" astParent="0x14cc4c0" astOperand1="0x14cc570" astOperand2="0x14cc780"/>
+    <token id="0x14cc6d0" file="VirtualImpedanceForce.cpp" linenr="3" str="Vector3d" scope="0x14b0700" type="name"/>
+    <token id="0x14cc780" file="VirtualImpedanceForce.cpp" linenr="3" str="kd" scope="0x14b0700" type="name" varId="66" variable="0x14dfd30" astParent="0x14cc620"/>
+    <token id="0x14cc830" file="VirtualImpedanceForce.cpp" linenr="3" str=")" scope="0x14b0700" link="0x14cbd30"/>
+    <token id="0x14cc8e0" file="VirtualImpedanceForce.cpp" linenr="3" str=":" scope="0x14b0700" astOperand1="0x14cbd30" astOperand2="0x14cca40"/>
+    <token id="0x14cc990" file="VirtualImpedanceForce.cpp" linenr="3" str="ForceField" scope="0x14b0700" type="name" type-scope="0x14da870" astParent="0x14cca40"/>
+    <token id="0x14cca40" file="VirtualImpedanceForce.cpp" linenr="3" str="(" scope="0x14b0700" link="0x14ccba0" astParent="0x14cc8e0" astOperand1="0x14cc990" astOperand2="0x14ccaf0"/>
+    <token id="0x14ccaf0" file="VirtualImpedanceForce.cpp" linenr="3" str="n_" scope="0x14b0700" type="name" varId="64" variable="0x14dfc50" astParent="0x14cca40"/>
+    <token id="0x14ccba0" file="VirtualImpedanceForce.cpp" linenr="3" str=")" scope="0x14b0700" link="0x14cca40"/>
+    <token id="0x14ccc50" file="VirtualImpedanceForce.cpp" linenr="4" str="{" scope="0x14ddca0" link="0x14d0040"/>
+    <token id="0x14ccd00" file="VirtualImpedanceForce.cpp" linenr="5" str="kp_mat" scope="0x14ddca0" type="name" varId="62" variable="0x14dec90" astParent="0x14ccdb0"/>
+    <token id="0x14ccdb0" file="VirtualImpedanceForce.cpp" linenr="5" str="&lt;&lt;" scope="0x14ddca0" type="op" isArithmeticalOp="True" astParent="0x14cd1d0" astOperand1="0x14ccd00" astOperand2="0x14cd070"/>
+    <token id="0x14cce60" file="VirtualImpedanceForce.cpp" linenr="5" str="kp" scope="0x14ddca0" type="name" varId="65" variable="0x14dfcc0" astParent="0x14ccf10"/>
+    <token id="0x14ccf10" file="VirtualImpedanceForce.cpp" linenr="5" str="." scope="0x14ddca0" astParent="0x14cd070" astOperand1="0x14cce60" astOperand2="0x14ccfc0"/>
+    <token id="0x14ccfc0" file="VirtualImpedanceForce.cpp" linenr="5" str="x" scope="0x14ddca0" type="name" astParent="0x14ccf10"/>
+    <token id="0x14cd070" file="VirtualImpedanceForce.cpp" linenr="5" str="(" scope="0x14ddca0" link="0x14cd120" astParent="0x14ccdb0" astOperand1="0x14ccf10"/>
+    <token id="0x14cd120" file="VirtualImpedanceForce.cpp" linenr="5" str=")" scope="0x14ddca0" link="0x14cd070"/>
+    <token id="0x14cd1d0" file="VirtualImpedanceForce.cpp" linenr="5" str="," scope="0x14ddca0" astParent="0x14cd330" astOperand1="0x14ccdb0" astOperand2="0x14cd280"/>
+    <token id="0x14cd280" file="VirtualImpedanceForce.cpp" linenr="5" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cd288" astParent="0x14cd1d0"/>
+    <token id="0x14cd330" file="VirtualImpedanceForce.cpp" linenr="5" str="," scope="0x14ddca0" astParent="0x14cd490" astOperand1="0x14cd1d0" astOperand2="0x14cd3e0"/>
+    <token id="0x14cd3e0" file="VirtualImpedanceForce.cpp" linenr="5" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cd3e8" astParent="0x14cd330"/>
+    <token id="0x14cd490" file="VirtualImpedanceForce.cpp" linenr="5" str="," scope="0x14ddca0" astParent="0x14cd5f0" astOperand1="0x14cd330" astOperand2="0x14cd540"/>
+    <token id="0x14cd540" file="VirtualImpedanceForce.cpp" linenr="6" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cd548" astParent="0x14cd490"/>
+    <token id="0x14cd5f0" file="VirtualImpedanceForce.cpp" linenr="6" str="," scope="0x14ddca0" astParent="0x14cda10" astOperand1="0x14cd490" astOperand2="0x14cd8b0"/>
+    <token id="0x14cd6a0" file="VirtualImpedanceForce.cpp" linenr="6" str="kp" scope="0x14ddca0" type="name" varId="65" variable="0x14dfcc0" astParent="0x14cd750"/>
+    <token id="0x14cd750" file="VirtualImpedanceForce.cpp" linenr="6" str="." scope="0x14ddca0" astParent="0x14cd8b0" astOperand1="0x14cd6a0" astOperand2="0x14cd800"/>
+    <token id="0x14cd800" file="VirtualImpedanceForce.cpp" linenr="6" str="y" scope="0x14ddca0" type="name" astParent="0x14cd750"/>
+    <token id="0x14cd8b0" file="VirtualImpedanceForce.cpp" linenr="6" str="(" scope="0x14ddca0" link="0x14cd960" astParent="0x14cd5f0" astOperand1="0x14cd750"/>
+    <token id="0x14cd960" file="VirtualImpedanceForce.cpp" linenr="6" str=")" scope="0x14ddca0" link="0x14cd8b0"/>
+    <token id="0x14cda10" file="VirtualImpedanceForce.cpp" linenr="6" str="," scope="0x14ddca0" astParent="0x14cdb70" astOperand1="0x14cd5f0" astOperand2="0x14cdac0"/>
+    <token id="0x14cdac0" file="VirtualImpedanceForce.cpp" linenr="6" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cdac8" astParent="0x14cda10"/>
+    <token id="0x14cdb70" file="VirtualImpedanceForce.cpp" linenr="6" str="," scope="0x14ddca0" astParent="0x14cdcd0" astOperand1="0x14cda10" astOperand2="0x14cdc20"/>
+    <token id="0x14cdc20" file="VirtualImpedanceForce.cpp" linenr="7" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cdc28" astParent="0x14cdb70"/>
+    <token id="0x14cdcd0" file="VirtualImpedanceForce.cpp" linenr="7" str="," scope="0x14ddca0" astParent="0x14cde30" astOperand1="0x14cdb70" astOperand2="0x14cdd80"/>
+    <token id="0x14cdd80" file="VirtualImpedanceForce.cpp" linenr="7" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cdd88" astParent="0x14cdcd0"/>
+    <token id="0x14cde30" file="VirtualImpedanceForce.cpp" linenr="7" str="," scope="0x14ddca0" astOperand1="0x14cdcd0" astOperand2="0x14ce0f0"/>
+    <token id="0x14cdee0" file="VirtualImpedanceForce.cpp" linenr="7" str="kp" scope="0x14ddca0" type="name" varId="65" variable="0x14dfcc0" astParent="0x14cdf90"/>
+    <token id="0x14cdf90" file="VirtualImpedanceForce.cpp" linenr="7" str="." scope="0x14ddca0" astParent="0x14ce0f0" astOperand1="0x14cdee0" astOperand2="0x14ce040"/>
+    <token id="0x14ce040" file="VirtualImpedanceForce.cpp" linenr="7" str="z" scope="0x14ddca0" type="name" astParent="0x14cdf90"/>
+    <token id="0x14ce0f0" file="VirtualImpedanceForce.cpp" linenr="7" str="(" scope="0x14ddca0" link="0x14ce1a0" astParent="0x14cde30" astOperand1="0x14cdf90"/>
+    <token id="0x14ce1a0" file="VirtualImpedanceForce.cpp" linenr="7" str=")" scope="0x14ddca0" link="0x14ce0f0"/>
+    <token id="0x14ce250" file="VirtualImpedanceForce.cpp" linenr="7" str=";" scope="0x14ddca0"/>
+    <token id="0x14ce300" file="VirtualImpedanceForce.cpp" linenr="8" str="kd_mat" scope="0x14ddca0" type="name" varId="63" variable="0x14ded00" astParent="0x14ce3b0"/>
+    <token id="0x14ce3b0" file="VirtualImpedanceForce.cpp" linenr="8" str="&lt;&lt;" scope="0x14ddca0" type="op" isArithmeticalOp="True" astParent="0x14ce7d0" astOperand1="0x14ce300" astOperand2="0x14ce670"/>
+    <token id="0x14ce460" file="VirtualImpedanceForce.cpp" linenr="8" str="kd" scope="0x14ddca0" type="name" varId="66" variable="0x14dfd30" astParent="0x14ce510"/>
+    <token id="0x14ce510" file="VirtualImpedanceForce.cpp" linenr="8" str="." scope="0x14ddca0" astParent="0x14ce670" astOperand1="0x14ce460" astOperand2="0x14ce5c0"/>
+    <token id="0x14ce5c0" file="VirtualImpedanceForce.cpp" linenr="8" str="x" scope="0x14ddca0" type="name" astParent="0x14ce510"/>
+    <token id="0x14ce670" file="VirtualImpedanceForce.cpp" linenr="8" str="(" scope="0x14ddca0" link="0x14ce720" astParent="0x14ce3b0" astOperand1="0x14ce510"/>
+    <token id="0x14ce720" file="VirtualImpedanceForce.cpp" linenr="8" str=")" scope="0x14ddca0" link="0x14ce670"/>
+    <token id="0x14ce7d0" file="VirtualImpedanceForce.cpp" linenr="8" str="," scope="0x14ddca0" astParent="0x14ce930" astOperand1="0x14ce3b0" astOperand2="0x14ce880"/>
+    <token id="0x14ce880" file="VirtualImpedanceForce.cpp" linenr="8" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14ce888" astParent="0x14ce7d0"/>
+    <token id="0x14ce930" file="VirtualImpedanceForce.cpp" linenr="8" str="," scope="0x14ddca0" astParent="0x14cea90" astOperand1="0x14ce7d0" astOperand2="0x14ce9e0"/>
+    <token id="0x14ce9e0" file="VirtualImpedanceForce.cpp" linenr="8" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14ce9e8" astParent="0x14ce930"/>
+    <token id="0x14cea90" file="VirtualImpedanceForce.cpp" linenr="8" str="," scope="0x14ddca0" astParent="0x14cebf0" astOperand1="0x14ce930" astOperand2="0x14ceb40"/>
+    <token id="0x14ceb40" file="VirtualImpedanceForce.cpp" linenr="9" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14ceb48" astParent="0x14cea90"/>
+    <token id="0x14cebf0" file="VirtualImpedanceForce.cpp" linenr="9" str="," scope="0x14ddca0" astParent="0x14cf010" astOperand1="0x14cea90" astOperand2="0x14ceeb0"/>
+    <token id="0x14ceca0" file="VirtualImpedanceForce.cpp" linenr="9" str="kd" scope="0x14ddca0" type="name" varId="66" variable="0x14dfd30" astParent="0x14ced50"/>
+    <token id="0x14ced50" file="VirtualImpedanceForce.cpp" linenr="9" str="." scope="0x14ddca0" astParent="0x14ceeb0" astOperand1="0x14ceca0" astOperand2="0x14cee00"/>
+    <token id="0x14cee00" file="VirtualImpedanceForce.cpp" linenr="9" str="y" scope="0x14ddca0" type="name" astParent="0x14ced50"/>
+    <token id="0x14ceeb0" file="VirtualImpedanceForce.cpp" linenr="9" str="(" scope="0x14ddca0" link="0x14cef60" astParent="0x14cebf0" astOperand1="0x14ced50"/>
+    <token id="0x14cef60" file="VirtualImpedanceForce.cpp" linenr="9" str=")" scope="0x14ddca0" link="0x14ceeb0"/>
+    <token id="0x14cf010" file="VirtualImpedanceForce.cpp" linenr="9" str="," scope="0x14ddca0" astParent="0x14cf170" astOperand1="0x14cebf0" astOperand2="0x14cf0c0"/>
+    <token id="0x14cf0c0" file="VirtualImpedanceForce.cpp" linenr="9" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cf0c8" astParent="0x14cf010"/>
+    <token id="0x14cf170" file="VirtualImpedanceForce.cpp" linenr="9" str="," scope="0x14ddca0" astParent="0x14cf2d0" astOperand1="0x14cf010" astOperand2="0x14cf220"/>
+    <token id="0x14cf220" file="VirtualImpedanceForce.cpp" linenr="10" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cf228" astParent="0x14cf170"/>
+    <token id="0x14cf2d0" file="VirtualImpedanceForce.cpp" linenr="10" str="," scope="0x14ddca0" astParent="0x14cf430" astOperand1="0x14cf170" astOperand2="0x14cf380"/>
+    <token id="0x14cf380" file="VirtualImpedanceForce.cpp" linenr="10" str="0" scope="0x14ddca0" type="number" isInt="True" values="0x14cf388" astParent="0x14cf2d0"/>
+    <token id="0x14cf430" file="VirtualImpedanceForce.cpp" linenr="10" str="," scope="0x14ddca0" astOperand1="0x14cf2d0" astOperand2="0x14cf6f0"/>
+    <token id="0x14cf4e0" file="VirtualImpedanceForce.cpp" linenr="10" str="kd" scope="0x14ddca0" type="name" varId="66" variable="0x14dfd30" astParent="0x14cf590"/>
+    <token id="0x14cf590" file="VirtualImpedanceForce.cpp" linenr="10" str="." scope="0x14ddca0" astParent="0x14cf6f0" astOperand1="0x14cf4e0" astOperand2="0x14cf640"/>
+    <token id="0x14cf640" file="VirtualImpedanceForce.cpp" linenr="10" str="z" scope="0x14ddca0" type="name" astParent="0x14cf590"/>
+    <token id="0x14cf6f0" file="VirtualImpedanceForce.cpp" linenr="10" str="(" scope="0x14ddca0" link="0x14cf7a0" astParent="0x14cf430" astOperand1="0x14cf590"/>
+    <token id="0x14cf7a0" file="VirtualImpedanceForce.cpp" linenr="10" str=")" scope="0x14ddca0" link="0x14cf6f0"/>
+    <token id="0x14cf850" file="VirtualImpedanceForce.cpp" linenr="10" str=";" scope="0x14ddca0"/>
+    <token id="0x14cf900" file="VirtualImpedanceForce.cpp" linenr="11" str="std" scope="0x14ddca0" type="name" astParent="0x14cf9b0"/>
+    <token id="0x14cf9b0" file="VirtualImpedanceForce.cpp" linenr="11" str="::" scope="0x14ddca0" astParent="0x14cfb10" astOperand1="0x14cf900" astOperand2="0x14cfa60"/>
+    <token id="0x14cfa60" file="VirtualImpedanceForce.cpp" linenr="11" str="cout" scope="0x14ddca0" type="name" astParent="0x14cf9b0"/>
+    <token id="0x14cfb10" file="VirtualImpedanceForce.cpp" linenr="11" str="&lt;&lt;" scope="0x14ddca0" type="op" isArithmeticalOp="True" astParent="0x14cfcd0" astOperand1="0x14cf9b0" astOperand2="0x14cfbf0"/>
+    <token id="0x14cfbf0" file="VirtualImpedanceForce.cpp" linenr="11" str="&quot;child constructor&quot;" scope="0x14ddca0" type="string" strlen="17" values="0x14cfbf8" astParent="0x14cfb10"/>
+    <token id="0x14cfcd0" file="VirtualImpedanceForce.cpp" linenr="11" str="&lt;&lt;" scope="0x14ddca0" type="op" isArithmeticalOp="True" astOperand1="0x14cfb10" astOperand2="0x14cfe30"/>
+    <token id="0x14cfd80" file="VirtualImpedanceForce.cpp" linenr="11" str="std" scope="0x14ddca0" type="name" astParent="0x14cfe30"/>
+    <token id="0x14cfe30" file="VirtualImpedanceForce.cpp" linenr="11" str="::" scope="0x14ddca0" astParent="0x14cfcd0" astOperand1="0x14cfd80" astOperand2="0x14cfee0"/>
+    <token id="0x14cfee0" file="VirtualImpedanceForce.cpp" linenr="11" str="endl" scope="0x14ddca0" type="name" astParent="0x14cfe30"/>
+    <token id="0x14cff90" file="VirtualImpedanceForce.cpp" linenr="11" str=";" scope="0x14ddca0"/>
+    <token id="0x14d0040" file="VirtualImpedanceForce.cpp" linenr="12" str="}" scope="0x14ddca0" link="0x14ccc50"/>
+    <token id="0x14d00f0" file="VirtualImpedanceForce.cpp" linenr="14" str="Eigen" scope="0x14b0700" type="name" astParent="0x14d01a0"/>
+    <token id="0x14d01a0" file="VirtualImpedanceForce.cpp" linenr="14" str="::" scope="0x14b0700" astParent="0x14d03b0" astOperand1="0x14d00f0" astOperand2="0x14d0300"/>
+    <token id="0x14d0250" file="VirtualImpedanceForce.cpp" linenr="14" str="Vector3d" scope="0x14b0700" type="name"/>
+    <token id="0x14d0300" file="VirtualImpedanceForce.cpp" linenr="14" str="VirtualImpedanceForce" scope="0x14b0700" type="name" type-scope="0x14dd550" astParent="0x14d01a0"/>
+    <token id="0x14d03b0" file="VirtualImpedanceForce.cpp" linenr="14" str="::" scope="0x14b0700" astParent="0x14d0510" astOperand1="0x14d01a0" astOperand2="0x14d0460"/>
+    <token id="0x14d0460" file="VirtualImpedanceForce.cpp" linenr="14" str="getForcePoint" scope="0x14b0700" type="name" function="0x14ddbd0" astParent="0x14d03b0"/>
+    <token id="0x14d0510" file="VirtualImpedanceForce.cpp" linenr="14" str="(" scope="0x14b0700" link="0x14d0ca0" astOperand1="0x14d03b0" astOperand2="0x14d0930"/>
+    <token id="0x14d05c0" file="VirtualImpedanceForce.cpp" linenr="14" str="geometry_msgs" scope="0x14b0700" type="name" astParent="0x14d0670"/>
+    <token id="0x14d0670" file="VirtualImpedanceForce.cpp" linenr="14" str="::" scope="0x14b0700" astParent="0x14d07d0" astOperand1="0x14d05c0" astOperand2="0x14d0720"/>
+    <token id="0x14d0720" file="VirtualImpedanceForce.cpp" linenr="14" str="Point32" scope="0x14b0700" type="name" astParent="0x14d0670"/>
+    <token id="0x14d07d0" file="VirtualImpedanceForce.cpp" linenr="14" str="&amp;" scope="0x14b0700" type="op" astParent="0x14d0930" astOperand1="0x14d0670" astOperand2="0x14d0880"/>
+    <token id="0x14d0880" file="VirtualImpedanceForce.cpp" linenr="14" str="c_current" scope="0x14b0700" type="name" varId="67" variable="0x14dfda0" astParent="0x14d07d0"/>
+    <token id="0x14d0930" file="VirtualImpedanceForce.cpp" linenr="14" str="," scope="0x14b0700" astParent="0x14d0510" astOperand1="0x14d07d0" astOperand2="0x14d0a90"/>
+    <token id="0x14d09e0" file="VirtualImpedanceForce.cpp" linenr="14" str="Eigen" scope="0x14b0700" type="name" astParent="0x14d0a90"/>
+    <token id="0x14d0a90" file="VirtualImpedanceForce.cpp" linenr="14" str="::" scope="0x14b0700" astParent="0x14d0930" astOperand1="0x14d09e0" astOperand2="0x14d0bf0"/>
+    <token id="0x14d0b40" file="VirtualImpedanceForce.cpp" linenr="14" str="Vector3d" scope="0x14b0700" type="name"/>
+    <token id="0x14d0bf0" file="VirtualImpedanceForce.cpp" linenr="14" str="robot_vel" scope="0x14b0700" type="name" varId="68" variable="0x14dfe10" astParent="0x14d0a90"/>
+    <token id="0x14d0ca0" file="VirtualImpedanceForce.cpp" linenr="14" str=")" scope="0x14b0700" link="0x14d0510"/>
+    <token id="0x14d0d50" file="VirtualImpedanceForce.cpp" linenr="14" str="{" scope="0x14dddd0" link="0x14da0e0"/>
+    <token id="0x14d0e00" file="VirtualImpedanceForce.cpp" linenr="15" str="double" scope="0x14dddd0" type="name"/>
+    <token id="0x14d0eb0" file="VirtualImpedanceForce.cpp" linenr="15" str="ro" scope="0x14dddd0" type="name" varId="69" variable="0x14ded70"/>
+    <token id="0x14d0f60" file="VirtualImpedanceForce.cpp" linenr="15" str=";" scope="0x14dddd0"/>
+    <token id="0x14da700" file="VirtualImpedanceForce.cpp" linenr="15" str="ro" scope="0x14dddd0" type="name" varId="69" variable="0x14ded70" astParent="0x14da7b0"/>
+    <token id="0x14da7b0" file="VirtualImpedanceForce.cpp" linenr="15" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14da700" astOperand2="0x14d1010"/>
+    <token id="0x14d1010" file="VirtualImpedanceForce.cpp" linenr="15" str="3.0" scope="0x14dddd0" type="number" isFloat="True" astParent="0x14da7b0"/>
+    <token id="0x14d10c0" file="VirtualImpedanceForce.cpp" linenr="15" str=";" scope="0x14dddd0"/>
+    <token id="0x14d1170" file="VirtualImpedanceForce.cpp" linenr="16" str="Eigen" scope="0x14dddd0" type="name" astParent="0x14d1220"/>
+    <token id="0x14d1220" file="VirtualImpedanceForce.cpp" linenr="16" str="::" scope="0x14dddd0" astParent="0x14d1430" astOperand1="0x14d1170" astOperand2="0x14d1380"/>
+    <token id="0x14d12d0" file="VirtualImpedanceForce.cpp" linenr="16" str="Vector3d" scope="0x14dddd0" type="name"/>
+    <token id="0x14d1380" file="VirtualImpedanceForce.cpp" linenr="16" str="obsVector" scope="0x14dddd0" type="name" varId="70" variable="0x14dede0" astParent="0x14d1220"/>
+    <token id="0x14d1430" file="VirtualImpedanceForce.cpp" linenr="16" str="(" scope="0x14dddd0" link="0x14d1850" astOperand1="0x14d1220" astOperand2="0x14d16f0"/>
+    <token id="0x14d14e0" file="VirtualImpedanceForce.cpp" linenr="16" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d14e8" astParent="0x14d1590"/>
+    <token id="0x14d1590" file="VirtualImpedanceForce.cpp" linenr="16" str="," scope="0x14dddd0" astParent="0x14d16f0" astOperand1="0x14d14e0" astOperand2="0x14d1640"/>
+    <token id="0x14d1640" file="VirtualImpedanceForce.cpp" linenr="16" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d1648" astParent="0x14d1590"/>
+    <token id="0x14d16f0" file="VirtualImpedanceForce.cpp" linenr="16" str="," scope="0x14dddd0" astParent="0x14d1430" astOperand1="0x14d1590" astOperand2="0x14d17a0"/>
+    <token id="0x14d17a0" file="VirtualImpedanceForce.cpp" linenr="16" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d17a8" astParent="0x14d16f0"/>
+    <token id="0x14d1850" file="VirtualImpedanceForce.cpp" linenr="16" str=")" scope="0x14dddd0" link="0x14d1430"/>
+    <token id="0x14d1900" file="VirtualImpedanceForce.cpp" linenr="16" str=";" scope="0x14dddd0"/>
+    <token id="0x14d19b0" file="VirtualImpedanceForce.cpp" linenr="23" str="obsVector" scope="0x14dddd0" type="name" varId="70" variable="0x14dede0" astParent="0x14d1a60"/>
+    <token id="0x14d1a60" file="VirtualImpedanceForce.cpp" linenr="23" str="(" scope="0x14dddd0" link="0x14d1bc0" astParent="0x14d1c70" astOperand1="0x14d19b0" astOperand2="0x14d1b10"/>
+    <token id="0x14d1b10" file="VirtualImpedanceForce.cpp" linenr="23" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d1b18" astParent="0x14d1a60"/>
+    <token id="0x14d1bc0" file="VirtualImpedanceForce.cpp" linenr="23" str=")" scope="0x14dddd0" link="0x14d1a60"/>
+    <token id="0x14d1c70" file="VirtualImpedanceForce.cpp" linenr="23" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14d1a60" astOperand2="0x14d2010"/>
+    <token id="0x14d1d20" file="VirtualImpedanceForce.cpp" linenr="23" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d1e00"/>
+    <token id="0x14d1e00" file="VirtualImpedanceForce.cpp" linenr="23" str="(" scope="0x14dddd0" link="0x14d1f60" astParent="0x14d2010" astOperand1="0x14d1d20" astOperand2="0x14d1eb0"/>
+    <token id="0x14d1eb0" file="VirtualImpedanceForce.cpp" linenr="23" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d1eb8" astParent="0x14d1e00"/>
+    <token id="0x14d1f60" file="VirtualImpedanceForce.cpp" linenr="23" str=")" scope="0x14dddd0" link="0x14d1e00"/>
+    <token id="0x14d2010" file="VirtualImpedanceForce.cpp" linenr="23" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d1c70" astOperand1="0x14d1e00" astOperand2="0x14d2170"/>
+    <token id="0x14d20c0" file="VirtualImpedanceForce.cpp" linenr="23" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d2170"/>
+    <token id="0x14d2170" file="VirtualImpedanceForce.cpp" linenr="23" str="." scope="0x14dddd0" astParent="0x14d2010" astOperand1="0x14d20c0" astOperand2="0x14d2220"/>
+    <token id="0x14d2220" file="VirtualImpedanceForce.cpp" linenr="23" str="x" scope="0x14dddd0" type="name" varId="71" astParent="0x14d2170"/>
+    <token id="0x14d22d0" file="VirtualImpedanceForce.cpp" linenr="23" str=";" scope="0x14dddd0"/>
+    <token id="0x14d2380" file="VirtualImpedanceForce.cpp" linenr="24" str="obsVector" scope="0x14dddd0" type="name" varId="70" variable="0x14dede0" astParent="0x14d2430"/>
+    <token id="0x14d2430" file="VirtualImpedanceForce.cpp" linenr="24" str="(" scope="0x14dddd0" link="0x14d2590" astParent="0x14d2640" astOperand1="0x14d2380" astOperand2="0x14d24e0"/>
+    <token id="0x14d24e0" file="VirtualImpedanceForce.cpp" linenr="24" str="1" scope="0x14dddd0" type="number" isInt="True" values="0x14d24e8" astParent="0x14d2430"/>
+    <token id="0x14d2590" file="VirtualImpedanceForce.cpp" linenr="24" str=")" scope="0x14dddd0" link="0x14d2430"/>
+    <token id="0x14d2640" file="VirtualImpedanceForce.cpp" linenr="24" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14d2430" astOperand2="0x14d29e0"/>
+    <token id="0x14d26f0" file="VirtualImpedanceForce.cpp" linenr="24" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d27d0"/>
+    <token id="0x14d27d0" file="VirtualImpedanceForce.cpp" linenr="24" str="(" scope="0x14dddd0" link="0x14d2930" astParent="0x14d29e0" astOperand1="0x14d26f0" astOperand2="0x14d2880"/>
+    <token id="0x14d2880" file="VirtualImpedanceForce.cpp" linenr="24" str="1" scope="0x14dddd0" type="number" isInt="True" values="0x14d2888" astParent="0x14d27d0"/>
+    <token id="0x14d2930" file="VirtualImpedanceForce.cpp" linenr="24" str=")" scope="0x14dddd0" link="0x14d27d0"/>
+    <token id="0x14d29e0" file="VirtualImpedanceForce.cpp" linenr="24" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d2640" astOperand1="0x14d27d0" astOperand2="0x14d2b40"/>
+    <token id="0x14d2a90" file="VirtualImpedanceForce.cpp" linenr="24" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d2b40"/>
+    <token id="0x14d2b40" file="VirtualImpedanceForce.cpp" linenr="24" str="." scope="0x14dddd0" astParent="0x14d29e0" astOperand1="0x14d2a90" astOperand2="0x14d2bf0"/>
+    <token id="0x14d2bf0" file="VirtualImpedanceForce.cpp" linenr="24" str="y" scope="0x14dddd0" type="name" varId="72" astParent="0x14d2b40"/>
+    <token id="0x14d2ca0" file="VirtualImpedanceForce.cpp" linenr="24" str=";" scope="0x14dddd0"/>
+    <token id="0x14d2d50" file="VirtualImpedanceForce.cpp" linenr="25" str="obsVector" scope="0x14dddd0" type="name" varId="70" variable="0x14dede0" astParent="0x14d2e00"/>
+    <token id="0x14d2e00" file="VirtualImpedanceForce.cpp" linenr="25" str="(" scope="0x14dddd0" link="0x14d2f60" astParent="0x14d3010" astOperand1="0x14d2d50" astOperand2="0x14d2eb0"/>
+    <token id="0x14d2eb0" file="VirtualImpedanceForce.cpp" linenr="25" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d2eb8" astParent="0x14d2e00"/>
+    <token id="0x14d2f60" file="VirtualImpedanceForce.cpp" linenr="25" str=")" scope="0x14dddd0" link="0x14d2e00"/>
+    <token id="0x14d3010" file="VirtualImpedanceForce.cpp" linenr="25" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14d2e00" astOperand2="0x14d33b0"/>
+    <token id="0x14d30c0" file="VirtualImpedanceForce.cpp" linenr="25" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d31a0"/>
+    <token id="0x14d31a0" file="VirtualImpedanceForce.cpp" linenr="25" str="(" scope="0x14dddd0" link="0x14d3300" astParent="0x14d33b0" astOperand1="0x14d30c0" astOperand2="0x14d3250"/>
+    <token id="0x14d3250" file="VirtualImpedanceForce.cpp" linenr="25" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d3258" astParent="0x14d31a0"/>
+    <token id="0x14d3300" file="VirtualImpedanceForce.cpp" linenr="25" str=")" scope="0x14dddd0" link="0x14d31a0"/>
+    <token id="0x14d33b0" file="VirtualImpedanceForce.cpp" linenr="25" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d3010" astOperand1="0x14d31a0" astOperand2="0x14d3510"/>
+    <token id="0x14d3460" file="VirtualImpedanceForce.cpp" linenr="25" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d3510"/>
+    <token id="0x14d3510" file="VirtualImpedanceForce.cpp" linenr="25" str="." scope="0x14dddd0" astParent="0x14d33b0" astOperand1="0x14d3460" astOperand2="0x14d35c0"/>
+    <token id="0x14d35c0" file="VirtualImpedanceForce.cpp" linenr="25" str="z" scope="0x14dddd0" type="name" varId="73" astParent="0x14d3510"/>
+    <token id="0x14d3670" file="VirtualImpedanceForce.cpp" linenr="25" str=";" scope="0x14dddd0"/>
+    <token id="0x14d3720" file="VirtualImpedanceForce.cpp" linenr="26" str="double" scope="0x14dddd0" type="name"/>
+    <token id="0x14d37d0" file="VirtualImpedanceForce.cpp" linenr="26" str="obsMag" scope="0x14dddd0" type="name" varId="74" variable="0x14dee50"/>
+    <token id="0x14d3880" file="VirtualImpedanceForce.cpp" linenr="26" str=";" scope="0x14dddd0"/>
+    <token id="0x14da1e0" file="VirtualImpedanceForce.cpp" linenr="26" str="obsMag" scope="0x14dddd0" type="name" varId="74" variable="0x14dee50" astParent="0x14da290"/>
+    <token id="0x14da290" file="VirtualImpedanceForce.cpp" linenr="26" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14da1e0" astOperand2="0x14d39e0"/>
+    <token id="0x14d3930" file="VirtualImpedanceForce.cpp" linenr="26" str="sqrt" scope="0x14dddd0" type="name" astParent="0x14d39e0"/>
+    <token id="0x14d39e0" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d5750" astParent="0x14da290" astOperand1="0x14d3930" astOperand2="0x14d4d80"/>
+    <token id="0x14d3a90" file="VirtualImpedanceForce.cpp" linenr="26" str="pow" scope="0x14dddd0" type="name" astParent="0x14d3b40"/>
+    <token id="0x14d3b40" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d4300" astParent="0x14d43b0" astOperand1="0x14d3a90" astOperand2="0x14d41a0"/>
+    <token id="0x14d3bf0" file="VirtualImpedanceForce.cpp" linenr="26" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d3ca0"/>
+    <token id="0x14d3ca0" file="VirtualImpedanceForce.cpp" linenr="26" str="." scope="0x14dddd0" astParent="0x14d3e00" astOperand1="0x14d3bf0" astOperand2="0x14d3d50"/>
+    <token id="0x14d3d50" file="VirtualImpedanceForce.cpp" linenr="26" str="x" scope="0x14dddd0" type="name" varId="71" astParent="0x14d3ca0"/>
+    <token id="0x14d3e00" file="VirtualImpedanceForce.cpp" linenr="26" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d41a0" astOperand1="0x14d3ca0" astOperand2="0x14d3f90"/>
+    <token id="0x14d3eb0" file="VirtualImpedanceForce.cpp" linenr="26" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d3f90"/>
+    <token id="0x14d3f90" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d40f0" astParent="0x14d3e00" astOperand1="0x14d3eb0" astOperand2="0x14d4040"/>
+    <token id="0x14d4040" file="VirtualImpedanceForce.cpp" linenr="26" str="0" scope="0x14dddd0" type="number" isInt="True" values="0x14d4048" astParent="0x14d3f90"/>
+    <token id="0x14d40f0" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d3f90"/>
+    <token id="0x14d41a0" file="VirtualImpedanceForce.cpp" linenr="26" str="," scope="0x14dddd0" astParent="0x14d3b40" astOperand1="0x14d3e00" astOperand2="0x14d4250"/>
+    <token id="0x14d4250" file="VirtualImpedanceForce.cpp" linenr="26" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d4258" astParent="0x14d41a0"/>
+    <token id="0x14d4300" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d3b40"/>
+    <token id="0x14d43b0" file="VirtualImpedanceForce.cpp" linenr="26" str="+" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d4d80" astOperand1="0x14d3b40" astOperand2="0x14d4510"/>
+    <token id="0x14d4460" file="VirtualImpedanceForce.cpp" linenr="26" str="pow" scope="0x14dddd0" type="name" astParent="0x14d4510"/>
+    <token id="0x14d4510" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d4cd0" astParent="0x14d43b0" astOperand1="0x14d4460" astOperand2="0x14d4b70"/>
+    <token id="0x14d45c0" file="VirtualImpedanceForce.cpp" linenr="26" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d4670"/>
+    <token id="0x14d4670" file="VirtualImpedanceForce.cpp" linenr="26" str="." scope="0x14dddd0" astParent="0x14d47d0" astOperand1="0x14d45c0" astOperand2="0x14d4720"/>
+    <token id="0x14d4720" file="VirtualImpedanceForce.cpp" linenr="26" str="y" scope="0x14dddd0" type="name" varId="72" astParent="0x14d4670"/>
+    <token id="0x14d47d0" file="VirtualImpedanceForce.cpp" linenr="26" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d4b70" astOperand1="0x14d4670" astOperand2="0x14d4960"/>
+    <token id="0x14d4880" file="VirtualImpedanceForce.cpp" linenr="26" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d4960"/>
+    <token id="0x14d4960" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d4ac0" astParent="0x14d47d0" astOperand1="0x14d4880" astOperand2="0x14d4a10"/>
+    <token id="0x14d4a10" file="VirtualImpedanceForce.cpp" linenr="26" str="1" scope="0x14dddd0" type="number" isInt="True" values="0x14d4a18" astParent="0x14d4960"/>
+    <token id="0x14d4ac0" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d4960"/>
+    <token id="0x14d4b70" file="VirtualImpedanceForce.cpp" linenr="26" str="," scope="0x14dddd0" astParent="0x14d4510" astOperand1="0x14d47d0" astOperand2="0x14d4c20"/>
+    <token id="0x14d4c20" file="VirtualImpedanceForce.cpp" linenr="26" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d4c28" astParent="0x14d4b70"/>
+    <token id="0x14d4cd0" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d4510"/>
+    <token id="0x14d4d80" file="VirtualImpedanceForce.cpp" linenr="26" str="+" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d39e0" astOperand1="0x14d43b0" astOperand2="0x14d4ee0"/>
+    <token id="0x14d4e30" file="VirtualImpedanceForce.cpp" linenr="26" str="pow" scope="0x14dddd0" type="name" astParent="0x14d4ee0"/>
+    <token id="0x14d4ee0" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d56a0" astParent="0x14d4d80" astOperand1="0x14d4e30" astOperand2="0x14d5540"/>
+    <token id="0x14d4f90" file="VirtualImpedanceForce.cpp" linenr="26" str="c_current" scope="0x14dddd0" type="name" varId="67" variable="0x14dfda0" astParent="0x14d5040"/>
+    <token id="0x14d5040" file="VirtualImpedanceForce.cpp" linenr="26" str="." scope="0x14dddd0" astParent="0x14d51a0" astOperand1="0x14d4f90" astOperand2="0x14d50f0"/>
+    <token id="0x14d50f0" file="VirtualImpedanceForce.cpp" linenr="26" str="z" scope="0x14dddd0" type="name" varId="73" astParent="0x14d5040"/>
+    <token id="0x14d51a0" file="VirtualImpedanceForce.cpp" linenr="26" str="-" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14d5540" astOperand1="0x14d5040" astOperand2="0x14d5330"/>
+    <token id="0x14d5250" file="VirtualImpedanceForce.cpp" linenr="26" str="CurrentRobotPose" scope="0x14dddd0" type="name" varId="17" variable="0x14de9f0" astParent="0x14d5330"/>
+    <token id="0x14d5330" file="VirtualImpedanceForce.cpp" linenr="26" str="(" scope="0x14dddd0" link="0x14d5490" astParent="0x14d51a0" astOperand1="0x14d5250" astOperand2="0x14d53e0"/>
+    <token id="0x14d53e0" file="VirtualImpedanceForce.cpp" linenr="26" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d53e8" astParent="0x14d5330"/>
+    <token id="0x14d5490" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d5330"/>
+    <token id="0x14d5540" file="VirtualImpedanceForce.cpp" linenr="26" str="," scope="0x14dddd0" astParent="0x14d4ee0" astOperand1="0x14d51a0" astOperand2="0x14d55f0"/>
+    <token id="0x14d55f0" file="VirtualImpedanceForce.cpp" linenr="26" str="2" scope="0x14dddd0" type="number" isInt="True" values="0x14d55f8" astParent="0x14d5540"/>
+    <token id="0x14d56a0" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d4ee0"/>
+    <token id="0x14d5750" file="VirtualImpedanceForce.cpp" linenr="26" str=")" scope="0x14dddd0" link="0x14d39e0"/>
+    <token id="0x14d5800" file="VirtualImpedanceForce.cpp" linenr="26" str=";" scope="0x14dddd0"/>
+    <token id="0x14d58b0" file="VirtualImpedanceForce.cpp" linenr="27" str="Eigen" scope="0x14dddd0" type="name" astParent="0x14d5960"/>
+    <token id="0x14d5960" file="VirtualImpedanceForce.cpp" linenr="27" str="::" scope="0x14dddd0" astOperand1="0x14d58b0" astOperand2="0x14d5ac0"/>
+    <token id="0x14d5a10" file="VirtualImpedanceForce.cpp" linenr="27" str="Vector3d" scope="0x14dddd0" type="name"/>
+    <token id="0x14d5ac0" file="VirtualImpedanceForce.cpp" linenr="27" str="obsVecNorm" scope="0x14dddd0" type="name" varId="75" variable="0x14deec0" astParent="0x14d5960"/>
+    <token id="0x14d5b70" file="VirtualImpedanceForce.cpp" linenr="27" str=";" scope="0x14dddd0"/>
+    <token id="0x14da340" file="VirtualImpedanceForce.cpp" linenr="27" str="obsVecNorm" scope="0x14dddd0" type="name" varId="75" variable="0x14deec0" astParent="0x14da3f0"/>
+    <token id="0x14da3f0" file="VirtualImpedanceForce.cpp" linenr="27" str="=" scope="0x14dddd0" type="op" isAssignmentOp="True" astOperand1="0x14da340" astOperand2="0x14d5cd0"/>
+    <token id="0x14d5c20" file="VirtualImpedanceForce.cpp" linenr="27" str="obsVector" scope="0x14dddd0" type="name" varId="70" variable="0x14dede0" astParent="0x14d5cd0"/>
+    <token id="0x14d5cd0" file="VirtualImpedanceForce.cpp" linenr="27" str="/" scope="0x14dddd0" type="op" isArithmeticalOp="True" astParent="0x14da3f0" astOperand1="0x14d5c20" astOperand2="0x14d5d80"/>
+    <token id="0x14d5d80" file="VirtualImpedanceForce.cpp" linenr="27" str="obsMag" scope="0x14dddd0" type="name" varId="74" variable="0x14dee50" astParent="0x14d5cd0"/>
+    <token id="0x14d5e30" file="VirtualImpedanceForce.cpp" linenr="27" str=";" scope="0x14dddd0"/>
+    <token id="0x14d5ee0" file="VirtualImpedanceForce.cpp" linenr="29" str="if" scope="0x14dddd0" type="name" astParent="0x14d5f90"/>
+    <token id="0x14d5f90" file="VirtualImpedanceForce.cpp" linenr="29" str="(" scope="0x14dddd0" link="0x14d6250" astOperand1="0x14d5ee0" astOperand2="0x14d60f0"/>
+    <token id="0x14d6040" file="VirtualImpedanceForce.cpp" linenr="29" str="obsMag" scope="0x14dddd0" type="name" varId="74" variable="0x14dee50" astParent="0x14d60f0"/>
+    <token id="0x14d60f0" file="VirtualImpedanceForce.cpp" linenr="29" str="&lt;" scope="0x14dddd0" type="op" isComparisonOp="True" astParent="0x14d5f90" astOperand1="0x14d6040" astOperand2="0x14d61a0"/>
+    <token id="0x14d61a0" file="VirtualImpedanceForce.cpp" linenr="29" str="ro" scope="0x14dddd0" type="name" varId="69" variable="0x14ded70" astParent="0x14d60f0"/>
+    <token id="0x14d6250" file="VirtualImpedanceForce.cpp" linenr="29" str=")" scope="0x14dddd0" link="0x14d5f90"/>
+    <token id="0x14d6300" file="VirtualImpedanceForce.cpp" linenr="30" str="{" scope="0x14ddf00" link="0x14d95e0"/>
+    <token id="0x14d63b0" file="VirtualImpedanceForce.cpp" linenr="31" str="Eigen" scope="0x14ddf00" type="name" astParent="0x14d6460"/>
+    <token id="0x14d6460" file="VirtualImpedanceForce.cpp" linenr="31" str="::" scope="0x14ddf00" astOperand1="0x14d63b0" astOperand2="0x14d65c0"/>
+    <token id="0x14d6510" file="VirtualImpedanceForce.cpp" linenr="31" str="Vector3d" scope="0x14ddf00" type="name"/>
+    <token id="0x14d65c0" file="VirtualImpedanceForce.cpp" linenr="31" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14d6460"/>
+    <token id="0x14d6670" file="VirtualImpedanceForce.cpp" linenr="31" str=";" scope="0x14ddf00"/>
+    <token id="0x14d67d0" file="VirtualImpedanceForce.cpp" linenr="31" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14da4a0"/>
+    <token id="0x14da4a0" file="VirtualImpedanceForce.cpp" linenr="31" str="=" scope="0x14ddf00" type="op" isAssignmentOp="True" astOperand1="0x14d67d0" astOperand2="0x14d7220"/>
+    <token id="0x14d6720" file="VirtualImpedanceForce.cpp" linenr="31" str="(" scope="0x14ddf00" link="0x14d7170"/>
+    <token id="0x14d6880" file="VirtualImpedanceForce.cpp" linenr="31" str="-1" scope="0x14ddf00" type="number" isInt="True" values="0x14d6888" astParent="0x14d6930"/>
+    <token id="0x14d6930" file="VirtualImpedanceForce.cpp" linenr="31" str="*" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d6a90" astOperand1="0x14d6880" astOperand2="0x14d69e0"/>
+    <token id="0x14d69e0" file="VirtualImpedanceForce.cpp" linenr="31" str="kp_mat" scope="0x14ddf00" type="name" varId="62" variable="0x14dec90" astParent="0x14d6930"/>
+    <token id="0x14d6a90" file="VirtualImpedanceForce.cpp" linenr="31" str="*" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d7220" astOperand1="0x14d6930" astOperand2="0x14d6f60"/>
+    <token id="0x14d6b40" file="VirtualImpedanceForce.cpp" linenr="31" str="(" scope="0x14ddf00" link="0x14d70c0"/>
+    <token id="0x14d6bf0" file="VirtualImpedanceForce.cpp" linenr="31" str="(" scope="0x14ddf00" link="0x14d6eb0"/>
+    <token id="0x14d6ca0" file="VirtualImpedanceForce.cpp" linenr="31" str="ro" scope="0x14ddf00" type="name" varId="69" variable="0x14ded70" astParent="0x14d6d50"/>
+    <token id="0x14d6d50" file="VirtualImpedanceForce.cpp" linenr="31" str="-" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d6f60" astOperand1="0x14d6ca0" astOperand2="0x14d6e00"/>
+    <token id="0x14d6e00" file="VirtualImpedanceForce.cpp" linenr="31" str="obsMag" scope="0x14ddf00" type="name" varId="74" variable="0x14dee50" astParent="0x14d6d50"/>
+    <token id="0x14d6eb0" file="VirtualImpedanceForce.cpp" linenr="31" str=")" scope="0x14ddf00" link="0x14d6bf0"/>
+    <token id="0x14d6f60" file="VirtualImpedanceForce.cpp" linenr="31" str="*" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d6a90" astOperand1="0x14d6d50" astOperand2="0x14d7010"/>
+    <token id="0x14d7010" file="VirtualImpedanceForce.cpp" linenr="31" str="obsVecNorm" scope="0x14ddf00" type="name" varId="75" variable="0x14deec0" astParent="0x14d6f60"/>
+    <token id="0x14d70c0" file="VirtualImpedanceForce.cpp" linenr="31" str=")" scope="0x14ddf00" link="0x14d6b40"/>
+    <token id="0x14d7170" file="VirtualImpedanceForce.cpp" linenr="31" str=")" scope="0x14ddf00" link="0x14d6720"/>
+    <token id="0x14d7220" file="VirtualImpedanceForce.cpp" linenr="31" str="/" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14da4a0" astOperand1="0x14d6a90" astOperand2="0x14d72d0"/>
+    <token id="0x14d72d0" file="VirtualImpedanceForce.cpp" linenr="31" str="3" scope="0x14ddf00" type="number" isInt="True" values="0x14d72d8" astParent="0x14d7220"/>
+    <token id="0x14d7380" file="VirtualImpedanceForce.cpp" linenr="31" str=";" scope="0x14ddf00"/>
+    <token id="0x14d7430" file="VirtualImpedanceForce.cpp" linenr="32" str="std" scope="0x14ddf00" type="name" astParent="0x14d74e0"/>
+    <token id="0x14d74e0" file="VirtualImpedanceForce.cpp" linenr="32" str="::" scope="0x14ddf00" astParent="0x14d7640" astOperand1="0x14d7430" astOperand2="0x14d7590"/>
+    <token id="0x14d7590" file="VirtualImpedanceForce.cpp" linenr="32" str="cout" scope="0x14ddf00" type="name" astParent="0x14d74e0"/>
+    <token id="0x14d7640" file="VirtualImpedanceForce.cpp" linenr="32" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d77a0" astOperand1="0x14d74e0" astOperand2="0x14d76f0"/>
+    <token id="0x14d76f0" file="VirtualImpedanceForce.cpp" linenr="32" str="&quot;f on x&quot;" scope="0x14ddf00" type="string" strlen="6" values="0x14d76f8" astParent="0x14d7640"/>
+    <token id="0x14d77a0" file="VirtualImpedanceForce.cpp" linenr="32" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d7b10" astOperand1="0x14d7640" astOperand2="0x14d7900"/>
+    <token id="0x14d7850" file="VirtualImpedanceForce.cpp" linenr="32" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14d7900"/>
+    <token id="0x14d7900" file="VirtualImpedanceForce.cpp" linenr="32" str="(" scope="0x14ddf00" link="0x14d7a60" astParent="0x14d77a0" astOperand1="0x14d7850" astOperand2="0x14d79b0"/>
+    <token id="0x14d79b0" file="VirtualImpedanceForce.cpp" linenr="32" str="0" scope="0x14ddf00" type="number" isInt="True" values="0x14d79b8" astParent="0x14d7900"/>
+    <token id="0x14d7a60" file="VirtualImpedanceForce.cpp" linenr="32" str=")" scope="0x14ddf00" link="0x14d7900"/>
+    <token id="0x14d7b10" file="VirtualImpedanceForce.cpp" linenr="32" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astOperand1="0x14d77a0" astOperand2="0x14d7c70"/>
+    <token id="0x14d7bc0" file="VirtualImpedanceForce.cpp" linenr="32" str="std" scope="0x14ddf00" type="name" astParent="0x14d7c70"/>
+    <token id="0x14d7c70" file="VirtualImpedanceForce.cpp" linenr="32" str="::" scope="0x14ddf00" astParent="0x14d7b10" astOperand1="0x14d7bc0" astOperand2="0x14d7d20"/>
+    <token id="0x14d7d20" file="VirtualImpedanceForce.cpp" linenr="32" str="endl" scope="0x14ddf00" type="name" astParent="0x14d7c70"/>
+    <token id="0x14d7dd0" file="VirtualImpedanceForce.cpp" linenr="32" str=";" scope="0x14ddf00"/>
+    <token id="0x14d7e80" file="VirtualImpedanceForce.cpp" linenr="33" str="std" scope="0x14ddf00" type="name" astParent="0x14d7f30"/>
+    <token id="0x14d7f30" file="VirtualImpedanceForce.cpp" linenr="33" str="::" scope="0x14ddf00" astParent="0x14d8090" astOperand1="0x14d7e80" astOperand2="0x14d7fe0"/>
+    <token id="0x14d7fe0" file="VirtualImpedanceForce.cpp" linenr="33" str="cout" scope="0x14ddf00" type="name" astParent="0x14d7f30"/>
+    <token id="0x14d8090" file="VirtualImpedanceForce.cpp" linenr="33" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d81f0" astOperand1="0x14d7f30" astOperand2="0x14d8140"/>
+    <token id="0x14d8140" file="VirtualImpedanceForce.cpp" linenr="33" str="&quot;f on y  &quot;" scope="0x14ddf00" type="string" strlen="8" values="0x14d8148" astParent="0x14d8090"/>
+    <token id="0x14d81f0" file="VirtualImpedanceForce.cpp" linenr="33" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d8560" astOperand1="0x14d8090" astOperand2="0x14d8350"/>
+    <token id="0x14d82a0" file="VirtualImpedanceForce.cpp" linenr="33" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14d8350"/>
+    <token id="0x14d8350" file="VirtualImpedanceForce.cpp" linenr="33" str="(" scope="0x14ddf00" link="0x14d84b0" astParent="0x14d81f0" astOperand1="0x14d82a0" astOperand2="0x14d8400"/>
+    <token id="0x14d8400" file="VirtualImpedanceForce.cpp" linenr="33" str="1" scope="0x14ddf00" type="number" isInt="True" values="0x14d8408" astParent="0x14d8350"/>
+    <token id="0x14d84b0" file="VirtualImpedanceForce.cpp" linenr="33" str=")" scope="0x14ddf00" link="0x14d8350"/>
+    <token id="0x14d8560" file="VirtualImpedanceForce.cpp" linenr="33" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astOperand1="0x14d81f0" astOperand2="0x14d86c0"/>
+    <token id="0x14d8610" file="VirtualImpedanceForce.cpp" linenr="33" str="std" scope="0x14ddf00" type="name" astParent="0x14d86c0"/>
+    <token id="0x14d86c0" file="VirtualImpedanceForce.cpp" linenr="33" str="::" scope="0x14ddf00" astParent="0x14d8560" astOperand1="0x14d8610" astOperand2="0x14d8770"/>
+    <token id="0x14d8770" file="VirtualImpedanceForce.cpp" linenr="33" str="endl" scope="0x14ddf00" type="name" astParent="0x14d86c0"/>
+    <token id="0x14d8820" file="VirtualImpedanceForce.cpp" linenr="33" str=";" scope="0x14ddf00"/>
+    <token id="0x14d88d0" file="VirtualImpedanceForce.cpp" linenr="34" str="std" scope="0x14ddf00" type="name" astParent="0x14d8980"/>
+    <token id="0x14d8980" file="VirtualImpedanceForce.cpp" linenr="34" str="::" scope="0x14ddf00" astParent="0x14d8ae0" astOperand1="0x14d88d0" astOperand2="0x14d8a30"/>
+    <token id="0x14d8a30" file="VirtualImpedanceForce.cpp" linenr="34" str="cout" scope="0x14ddf00" type="name" astParent="0x14d8980"/>
+    <token id="0x14d8ae0" file="VirtualImpedanceForce.cpp" linenr="34" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d8c40" astOperand1="0x14d8980" astOperand2="0x14d8b90"/>
+    <token id="0x14d8b90" file="VirtualImpedanceForce.cpp" linenr="34" str="&quot;f on z  &quot;" scope="0x14ddf00" type="string" strlen="8" values="0x14d8b98" astParent="0x14d8ae0"/>
+    <token id="0x14d8c40" file="VirtualImpedanceForce.cpp" linenr="34" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d8fb0" astOperand1="0x14d8ae0" astOperand2="0x14d8da0"/>
+    <token id="0x14d8cf0" file="VirtualImpedanceForce.cpp" linenr="34" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14d8da0"/>
+    <token id="0x14d8da0" file="VirtualImpedanceForce.cpp" linenr="34" str="(" scope="0x14ddf00" link="0x14d8f00" astParent="0x14d8c40" astOperand1="0x14d8cf0" astOperand2="0x14d8e50"/>
+    <token id="0x14d8e50" file="VirtualImpedanceForce.cpp" linenr="34" str="2" scope="0x14ddf00" type="number" isInt="True" values="0x14d8e58" astParent="0x14d8da0"/>
+    <token id="0x14d8f00" file="VirtualImpedanceForce.cpp" linenr="34" str=")" scope="0x14ddf00" link="0x14d8da0"/>
+    <token id="0x14d8fb0" file="VirtualImpedanceForce.cpp" linenr="34" str="&lt;&lt;" scope="0x14ddf00" type="op" isArithmeticalOp="True" astOperand1="0x14d8c40" astOperand2="0x14d9110"/>
+    <token id="0x14d9060" file="VirtualImpedanceForce.cpp" linenr="34" str="std" scope="0x14ddf00" type="name" astParent="0x14d9110"/>
+    <token id="0x14d9110" file="VirtualImpedanceForce.cpp" linenr="34" str="::" scope="0x14ddf00" astParent="0x14d8fb0" astOperand1="0x14d9060" astOperand2="0x14d91c0"/>
+    <token id="0x14d91c0" file="VirtualImpedanceForce.cpp" linenr="34" str="endl" scope="0x14ddf00" type="name" astParent="0x14d9110"/>
+    <token id="0x14d9270" file="VirtualImpedanceForce.cpp" linenr="34" str=";" scope="0x14ddf00"/>
+    <token id="0x14d9320" file="VirtualImpedanceForce.cpp" linenr="35" str="return" scope="0x14ddf00" type="name" astOperand1="0x14d93d0"/>
+    <token id="0x14d93d0" file="VirtualImpedanceForce.cpp" linenr="35" str="-" scope="0x14ddf00" type="op" isArithmeticalOp="True" astParent="0x14d9320" astOperand1="0x14d9480"/>
+    <token id="0x14d9480" file="VirtualImpedanceForce.cpp" linenr="35" str="f" scope="0x14ddf00" type="name" varId="76" variable="0x14def30" astParent="0x14d93d0"/>
+    <token id="0x14d9530" file="VirtualImpedanceForce.cpp" linenr="35" str=";" scope="0x14ddf00"/>
+    <token id="0x14d95e0" file="VirtualImpedanceForce.cpp" linenr="36" str="}" scope="0x14ddf00" link="0x14d6300"/>
+    <token id="0x14d9690" file="VirtualImpedanceForce.cpp" linenr="37" str="else" scope="0x14dddd0" type="name"/>
+    <token id="0x14d9740" file="VirtualImpedanceForce.cpp" linenr="38" str="{" scope="0x14de160" link="0x14da030"/>
+    <token id="0x14d97f0" file="VirtualImpedanceForce.cpp" linenr="39" str="return" scope="0x14de160" type="name" astOperand1="0x14d9ab0"/>
+    <token id="0x14d98a0" file="VirtualImpedanceForce.cpp" linenr="39" str="Eigen" scope="0x14de160" type="name" astParent="0x14d9950"/>
+    <token id="0x14d9950" file="VirtualImpedanceForce.cpp" linenr="39" str="::" scope="0x14de160" astParent="0x14d9ab0" astOperand1="0x14d98a0" astOperand2="0x14d9a00"/>
+    <token id="0x14d9a00" file="VirtualImpedanceForce.cpp" linenr="39" str="Vector3d" scope="0x14de160" type="name" astParent="0x14d9950"/>
+    <token id="0x14d9ab0" file="VirtualImpedanceForce.cpp" linenr="39" str="(" scope="0x14de160" link="0x14d9ed0" astParent="0x14d97f0" astOperand1="0x14d9950" astOperand2="0x14d9d70"/>
+    <token id="0x14d9b60" file="VirtualImpedanceForce.cpp" linenr="39" str="0" scope="0x14de160" type="number" isInt="True" values="0x14d9b68" astParent="0x14d9c10"/>
+    <token id="0x14d9c10" file="VirtualImpedanceForce.cpp" linenr="39" str="," scope="0x14de160" astParent="0x14d9d70" astOperand1="0x14d9b60" astOperand2="0x14d9cc0"/>
+    <token id="0x14d9cc0" file="VirtualImpedanceForce.cpp" linenr="39" str="0" scope="0x14de160" type="number" isInt="True" values="0x14d9cc8" astParent="0x14d9c10"/>
+    <token id="0x14d9d70" file="VirtualImpedanceForce.cpp" linenr="39" str="," scope="0x14de160" astParent="0x14d9ab0" astOperand1="0x14d9c10" astOperand2="0x14d9e20"/>
+    <token id="0x14d9e20" file="VirtualImpedanceForce.cpp" linenr="39" str="0" scope="0x14de160" type="number" isInt="True" values="0x14d9e28" astParent="0x14d9d70"/>
+    <token id="0x14d9ed0" file="VirtualImpedanceForce.cpp" linenr="39" str=")" scope="0x14de160" link="0x14d9ab0"/>
+    <token id="0x14d9f80" file="VirtualImpedanceForce.cpp" linenr="39" str=";" scope="0x14de160"/>
+    <token id="0x14da030" file="VirtualImpedanceForce.cpp" linenr="40" str="}" scope="0x14de160" link="0x14d9740"/>
+    <token id="0x14da0e0" file="VirtualImpedanceForce.cpp" linenr="42" str="}" scope="0x14dddd0" link="0x14d0d50"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x14b0700" type="Global">
+      <varlist>
+        <var id="0x14de290"/>
+      </varlist>
+    </scope>
+    <scope id="0x14da870" type="Class" className="ForceField" classStart="0x14b26e0" classEnd="0x14c8430" nestedIn="0x14b0700">
+      <functionList>
+        <function id="0x14daa10" tokenDef="0x14b5b80" name="ForceField"/>
+        <function id="0x14dabe0" tokenDef="0x14b6710" name="ForceField"/>
+        <function id="0x14dc650" tokenDef="0x14b6a80" name="ForceField">
+          <arg nr="1" variable="0x14defa0"/>
+        </function>
+        <function id="0x14dc6f0" tokenDef="0x14b7160" name="computeForceField">
+          <arg nr="1" variable="0x14df010"/>
+        </function>
+        <function id="0x14dc790" tokenDef="0x14b8980" name="feedbackMaster"/>
+        <function id="0x14dc830" tokenDef="0x14b8cf0" name="laserCallback">
+          <arg nr="1" variable="0x14df080"/>
+        </function>
+        <function id="0x14dc8d0" tokenDef="0x14ba240" name="poseCallback">
+          <arg nr="1" variable="0x14df0f0"/>
+        </function>
+        <function id="0x14dc970" tokenDef="0x14bcfa0" name="rviz_arrow">
+          <arg nr="1" variable="0x14df160"/>
+          <arg nr="2" variable="0x14df1d0"/>
+          <arg nr="3" variable="0x14df240"/>
+          <arg nr="4" variable="0x14df2b0"/>
+        </function>
+        <function id="0x14dca10" tokenDef="0x14be310" name="rviz_arrows">
+          <arg nr="1" variable="0x14df320"/>
+          <arg nr="2" variable="0x14df390"/>
+          <arg nr="3" variable="0x14df400"/>
+        </function>
+        <function id="0x14dcab0" tokenDef="0x14bf9c0" name="runTestPrf">
+          <arg nr="1" variable="0x14df470"/>
+        </function>
+        <function id="0x14dcb50" tokenDef="0x14bfe90" name="testName">
+          <arg nr="1" variable="0x14df4e0"/>
+          <arg nr="2" variable="0x14df550"/>
+          <arg nr="3" variable="0x14df5c0"/>
+          <arg nr="4" variable="0x14df630"/>
+          <arg nr="5" variable="0x14df6a0"/>
+          <arg nr="6" variable="0x14df710"/>
+        </function>
+        <function id="0x14dcbf0" tokenDef="0x14c0db0" name="runTestSamplePrf">
+          <arg nr="1" variable="0x14df780"/>
+        </function>
+        <function id="0x14dcc90" tokenDef="0x14c14c0" name="runTestObstacles">
+          <arg nr="1" variable="0x14df7f0"/>
+        </function>
+        <function id="0x14dcd30" tokenDef="0x14c1bd0" name="runTestBrf">
+          <arg nr="1" variable="0x14df860"/>
+        </function>
+        <function id="0x14dcdd0" tokenDef="0x14c20a0" name="testNameBRF">
+          <arg nr="1" variable="0x14df8d0"/>
+          <arg nr="2" variable="0x14df940"/>
+        </function>
+        <function id="0x14dce70" tokenDef="0x14c2780" name="runTestVirtualImpedance"/>
+        <function id="0x14dcf10" tokenDef="0x14c2d30" name="getForcePoint">
+          <arg nr="1" variable="0x14df9b0"/>
+          <arg nr="2" variable="0x14dfa20"/>
+        </function>
+        <function id="0x14dcfb0" tokenDef="0x14c3780" name="distanse">
+          <arg nr="1" variable="0x14dfa90"/>
+          <arg nr="2" variable="0x14dfb00"/>
+          <arg nr="3" variable="0x14dfb70"/>
+        </function>
+        <function id="0x14dd180" tokenDef="0x14c51a0" name="setRobotVelocity">
+          <arg nr="1" variable="0x14dfbe0"/>
+        </function>
+        <function id="0x14dd350" tokenDef="0x14c6eb0" name="getRobotVelocity"/>
+      </functionList>
+      <varlist>
+        <var id="0x14de300"/>
+        <var id="0x14de370"/>
+        <var id="0x14de3e0"/>
+        <var id="0x14de450"/>
+        <var id="0x14de4c0"/>
+        <var id="0x14de590"/>
+        <var id="0x14de600"/>
+        <var id="0x14de670"/>
+        <var id="0x14de6e0"/>
+        <var id="0x14de750"/>
+        <var id="0x14de7c0"/>
+        <var id="0x14de830"/>
+        <var id="0x14de8a0"/>
+        <var id="0x14de910"/>
+        <var id="0x14de980"/>
+        <var id="0x14de9f0"/>
+        <var id="0x14dea60"/>
+        <var id="0x14dead0"/>
+        <var id="0x14deb40"/>
+        <var id="0x14debb0"/>
+        <var id="0x14dec20"/>
+      </varlist>
+    </scope>
+    <scope id="0x14daab0" type="Function" className="ForceField" classStart="0x14b5d90" classEnd="0x14b65b0" nestedIn="0x14da870" function="0x14daa10"/>
+    <scope id="0x14dc520" type="Function" className="ForceField" classStart="0x14b6920" classEnd="0x14b69d0" nestedIn="0x14da870" function="0x14dabe0"/>
+    <scope id="0x14dd050" type="Function" className="distanse" classStart="0x14c3f10" classEnd="0x14c5040" nestedIn="0x14da870" function="0x14dcfb0"/>
+    <scope id="0x14dd220" type="Function" className="setRobotVelocity" classStart="0x14c56a0" classEnd="0x14c6bf0" nestedIn="0x14da870" function="0x14dd180"/>
+    <scope id="0x14dd3f0" type="Function" className="getRobotVelocity" classStart="0x14c70f0" classEnd="0x14c73b0" nestedIn="0x14da870" function="0x14dd350"/>
+    <scope id="0x14dd550" type="Class" className="VirtualImpedanceForce" classStart="0x14c8930" classEnd="0x14cb990" nestedIn="0x14b0700">
+      <functionList>
+        <function id="0x14dd730" tokenDef="0x14c8b40" name="VirtualImpedanceForce">
+          <arg nr="1" variable="0x14dfc50"/>
+          <arg nr="2" variable="0x14dfcc0"/>
+          <arg nr="3" variable="0x14dfd30"/>
+        </function>
+        <function id="0x14dd7d0" tokenDef="0x14c9880" name="VirtualImpedanceForce"/>
+        <function id="0x14dd9d0" tokenDef="0x14ca440" name="VirtualImpedanceForce"/>
+        <function id="0x14ddbd0" tokenDef="0x14ca9c0" name="getForcePoint">
+          <arg nr="1" variable="0x14dfda0"/>
+          <arg nr="2" variable="0x14dfe10"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x14dec90"/>
+        <var id="0x14ded00"/>
+      </varlist>
+    </scope>
+    <scope id="0x14dd8a0" type="Function" className="VirtualImpedanceForce" classStart="0x14c9ac0" classEnd="0x14ca2e0" nestedIn="0x14dd550" function="0x14dd7d0"/>
+    <scope id="0x14ddaa0" type="Function" className="VirtualImpedanceForce" classStart="0x14ca650" classEnd="0x14ca700" nestedIn="0x14dd550" function="0x14dd9d0"/>
+    <scope id="0x14ddca0" type="Function" className="VirtualImpedanceForce" classStart="0x14ccc50" classEnd="0x14d0040" nestedIn="0x14b0700" function="0x14dd730"/>
+    <scope id="0x14dddd0" type="Function" className="getForcePoint" classStart="0x14d0d50" classEnd="0x14da0e0" nestedIn="0x14b0700" function="0x14ddbd0">
+      <varlist>
+        <var id="0x14ded70"/>
+        <var id="0x14dede0"/>
+        <var id="0x14dee50"/>
+        <var id="0x14deec0"/>
+      </varlist>
+    </scope>
+    <scope id="0x14ddf00" type="If" classStart="0x14d6300" classEnd="0x14d95e0" nestedIn="0x14dddd0">
+      <varlist>
+        <var id="0x14def30"/>
+      </varlist>
+    </scope>
+    <scope id="0x14de030" type="Else" classStart="0x14d9740" classEnd="0x14da030" nestedIn="0x14dddd0"/>
+    <scope id="0x14de160" type="Try" classStart="0x14d9740" classEnd="0x14da030" nestedIn="0x14dddd0"/>
+  </scopes>
+  <variables>
+    <var id="0x14de290" nameToken="0x14b0e90" typeStartToken="0x14b0de0" typeEndToken="0x14b0de0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de300" nameToken="0x14b2b00" typeStartToken="0x14b28f0" typeEndToken="0x14b2a50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de370" nameToken="0x14b2e70" typeStartToken="0x14b2c60" typeEndToken="0x14b2dc0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de3e0" nameToken="0x14b31e0" typeStartToken="0x14b2fd0" typeEndToken="0x14b3130" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de450" nameToken="0x14b3550" typeStartToken="0x14b3340" typeEndToken="0x14b34a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de4c0" nameToken="0x14b38c0" typeStartToken="0x14b36b0" typeEndToken="0x14b3810" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de590" nameToken="0x14b3c30" typeStartToken="0x14b3a20" typeEndToken="0x14b3b80" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de600" nameToken="0x14b3fa0" typeStartToken="0x14b3d90" typeEndToken="0x14b3ef0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de670" nameToken="0x14b4310" typeStartToken="0x14b4100" typeEndToken="0x14b4260" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de6e0" nameToken="0x14b4680" typeStartToken="0x14b4470" typeEndToken="0x14b45d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de750" nameToken="0x14b4a20" typeStartToken="0x14b4810" typeEndToken="0x14b4970" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de7c0" nameToken="0x14b4c30" typeStartToken="0x14b4b80" typeEndToken="0x14b4b80" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de830" nameToken="0x14b4d90" typeStartToken="0x14b2840" typeEndToken="0x14b2840" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de8a0" nameToken="0x14b4ef0" typeStartToken="0x14c7510" typeEndToken="0x14c7510" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de910" nameToken="0x14b5100" typeStartToken="0x14b5050" typeEndToken="0x14b5050" isArgument="false" isArray="true" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de980" nameToken="0x14b5680" typeStartToken="0x14b5470" typeEndToken="0x14b55d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14de9f0" nameToken="0x14b59f0" typeStartToken="0x14b57e0" typeEndToken="0x14b5940" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14defa0" nameToken="0x14b6ea0" typeStartToken="0x14b6be0" typeEndToken="0x14b6df0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df010" nameToken="0x14b8690" typeStartToken="0x14b72c0" typeEndToken="0x14b85e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df080" nameToken="0x14b9320" typeStartToken="0x14b8f00" typeEndToken="0x14b9270" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df0f0" nameToken="0x14ba870" typeStartToken="0x14ba450" typeEndToken="0x14ba7c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df160" nameToken="0x14bd470" typeStartToken="0x14bd1b0" typeEndToken="0x14bd3c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df1d0" nameToken="0x14bd940" typeStartToken="0x14bd680" typeEndToken="0x14bd890" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df240" nameToken="0x14bdb50" typeStartToken="0x14bdaa0" typeEndToken="0x14bdaa0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df2b0" nameToken="0x14bdec0" typeStartToken="0x14bdcb0" typeEndToken="0x14bde10" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df320" nameToken="0x14beb50" typeStartToken="0x14be520" typeEndToken="0x14beaa0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df390" nameToken="0x14bf390" typeStartToken="0x14bed60" typeEndToken="0x14bf2e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df400" nameToken="0x14bf700" typeStartToken="0x14bf4f0" typeEndToken="0x14bf650" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df470" nameToken="0x14bfbd0" typeStartToken="0x14bfb20" typeEndToken="0x14bfb20" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df4e0" nameToken="0x14c00a0" typeStartToken="0x14bfff0" typeEndToken="0x14bfff0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df550" nameToken="0x14c02b0" typeStartToken="0x14c0200" typeEndToken="0x14c0200" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df5c0" nameToken="0x14c04c0" typeStartToken="0x14c0410" typeEndToken="0x14c0410" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df630" nameToken="0x14c06d0" typeStartToken="0x14c0620" typeEndToken="0x14c0620" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df6a0" nameToken="0x14c08e0" typeStartToken="0x14c0830" typeEndToken="0x14c0830" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df710" nameToken="0x14c0af0" typeStartToken="0x14c0a40" typeEndToken="0x14c0a40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df780" nameToken="0x14c1200" typeStartToken="0x14c0f40" typeEndToken="0x14c1150" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df7f0" nameToken="0x14c1910" typeStartToken="0x14c1650" typeEndToken="0x14c1860" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14df860" nameToken="0x14c1de0" typeStartToken="0x14c1d30" typeEndToken="0x14c1d30" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df8d0" nameToken="0x14c22b0" typeStartToken="0x14c2200" typeEndToken="0x14c2200" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df940" nameToken="0x14c24c0" typeStartToken="0x14c2410" typeEndToken="0x14c2410" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14df9b0" nameToken="0x14c3150" typeStartToken="0x14c2e90" typeEndToken="0x14c30a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14dfa20" nameToken="0x14c34c0" typeStartToken="0x14c32b0" typeEndToken="0x14c3410" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfa90" nameToken="0x14c3990" typeStartToken="0x14c38e0" typeEndToken="0x14c38e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfb00" nameToken="0x14c3ba0" typeStartToken="0x14c3af0" typeEndToken="0x14c3af0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfb70" nameToken="0x14c3db0" typeStartToken="0x14c3d00" typeEndToken="0x14c3d00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfbe0" nameToken="0x14c5540" typeStartToken="0x14c5330" typeEndToken="0x14c5490" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dea60" nameToken="0x14c77d0" typeStartToken="0x14c75c0" typeEndToken="0x14c7720" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dead0" nameToken="0x14c7b40" typeStartToken="0x14c7930" typeEndToken="0x14c7a90" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14deb40" nameToken="0x14c7eb0" typeStartToken="0x14c7ca0" typeEndToken="0x14c7e00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14debb0" nameToken="0x14c80c0" typeStartToken="0x14c8010" typeEndToken="0x14c8010" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dec20" nameToken="0x14c82d0" typeStartToken="0x14c8220" typeEndToken="0x14c8220" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dec90" nameToken="0x14cb6d0" typeStartToken="0x14cb4c0" typeEndToken="0x14cb620" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14ded00" nameToken="0x14cb830" typeStartToken="0x14c8a90" typeEndToken="0x14da650" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfc50" nameToken="0x14cc0a0" typeStartToken="0x14cbde0" typeEndToken="0x14cbff0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14dfcc0" nameToken="0x14cc410" typeStartToken="0x14cc200" typeEndToken="0x14cc360" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfd30" nameToken="0x14cc780" typeStartToken="0x14cc570" typeEndToken="0x14cc6d0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dfda0" nameToken="0x14d0880" typeStartToken="0x14d05c0" typeEndToken="0x14d07d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x14dfe10" nameToken="0x14d0bf0" typeStartToken="0x14d09e0" typeEndToken="0x14d0b40" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14ded70" nameToken="0x14d0eb0" typeStartToken="0x14d0e00" typeEndToken="0x14d0e00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dede0" nameToken="0x14d1380" typeStartToken="0x14d1170" typeEndToken="0x14d12d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14dee50" nameToken="0x14d37d0" typeStartToken="0x14d3720" typeEndToken="0x14d3720" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14deec0" nameToken="0x14d5ac0" typeStartToken="0x14d58b0" typeEndToken="0x14d5a10" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x14def30" nameToken="0x14d65c0" typeStartToken="0x14d63b0" typeEndToken="0x14d6510" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x14b5268">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x14b6168">
+      <value tokvalue="0x14b6160" known="true"/>
+    </values>
+    <values id="0x14c43e8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14c48b8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14c4d88">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14c58b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14c5c28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14c5f98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14c6308">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14c6678">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14c69e8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14c9e98">
+      <value tokvalue="0x14c9e90" known="true"/>
+    </values>
+    <values id="0x14cd288">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cd3e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cd548">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cdac8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cdc28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cdd88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14ce888">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14ce9e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14ceb48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cf0c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cf228">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cf388">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14cfbf8">
+      <value tokvalue="0x14cfbf0" known="true"/>
+    </values>
+    <values id="0x14d14e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d1648">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d17a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d1b18">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d1eb8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d24e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14d2888">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14d2eb8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d3258">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d4048">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d4258">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d4a18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14d4c28">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d53e8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d55f8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d6888">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x14d72d8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x14d76f8">
+      <value tokvalue="0x14d76f0" known="true"/>
+    </values>
+    <values id="0x14d79b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d8148">
+      <value tokvalue="0x14d8140" known="true"/>
+    </values>
+    <values id="0x14d8408">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x14d8b98">
+      <value tokvalue="0x14d8b90" known="true"/>
+    </values>
+    <values id="0x14d8e58">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x14d9b68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d9cc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x14d9e28">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

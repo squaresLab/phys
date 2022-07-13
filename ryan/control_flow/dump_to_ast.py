@@ -1,10 +1,9 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
-from cpp_parser import *
-from cpp_utils import *
-from typing import *
+from cpp_parser import CppcheckData, Token, Scope
+from cpp_utils import get_statement_tokens, tokens_to_str
+from typing import List, Union, Set, Dict
 
-# typecheck annotations
 
 def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
     """ Takes the start and end tokens for a function and finds the root tokens

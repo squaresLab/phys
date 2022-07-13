@@ -1,0 +1,844 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x146a420" file="converter.cpp" linenr="46" str="class" scope="0x14787c0" type="name"/>
+    <token id="0x14789f0" file="converter.cpp" linenr="46" str="PointCloudConverter" scope="0x14787c0" type="name" type-scope="0x14996d0"/>
+    <token id="0x1478ad0" file="converter.cpp" linenr="47" str="{" scope="0x14996d0" link="0x1496dc0"/>
+    <token id="0x1478b80" file="converter.cpp" linenr="48" str="private:" scope="0x14996d0" type="name"/>
+    <token id="0x1478ce0" file="converter.cpp" linenr="49" str="boost" scope="0x14996d0" type="name" astParent="0x1478d90"/>
+    <token id="0x1478d90" file="converter.cpp" linenr="49" str="::" scope="0x14996d0" astOperand1="0x1478ce0" astOperand2="0x147ca20"/>
+    <token id="0x147c970" file="converter.cpp" linenr="49" str="mutex" scope="0x14996d0" type="name"/>
+    <token id="0x147ca20" file="converter.cpp" linenr="49" str="m_mutex_" scope="0x14996d0" type="name" varId="1" variable="0x149ae10" astParent="0x1478d90"/>
+    <token id="0x147cad0" file="converter.cpp" linenr="49" str=";" scope="0x14996d0"/>
+    <token id="0x147cb80" file="converter.cpp" linenr="51" str="ros" scope="0x14996d0" type="name" astParent="0x147cc30"/>
+    <token id="0x147cc30" file="converter.cpp" linenr="51" str="::" scope="0x14996d0" astOperand1="0x147cb80" astOperand2="0x147cd90"/>
+    <token id="0x147cce0" file="converter.cpp" linenr="51" str="NodeHandle" scope="0x14996d0" type="name"/>
+    <token id="0x147cd90" file="converter.cpp" linenr="51" str="nh_" scope="0x14996d0" type="name" varId="2" variable="0x149ae80" astParent="0x147cc30"/>
+    <token id="0x147ce40" file="converter.cpp" linenr="51" str=";" scope="0x14996d0"/>
+    <token id="0x147cef0" file="converter.cpp" linenr="52" str="ros" scope="0x14996d0" type="name" astParent="0x147cfa0"/>
+    <token id="0x147cfa0" file="converter.cpp" linenr="52" str="::" scope="0x14996d0" astOperand1="0x147cef0" astOperand2="0x147d100"/>
+    <token id="0x147d050" file="converter.cpp" linenr="52" str="Subscriber" scope="0x14996d0" type="name"/>
+    <token id="0x147d100" file="converter.cpp" linenr="52" str="sub_points_" scope="0x14996d0" type="name" varId="3" variable="0x149aef0" astParent="0x147cfa0"/>
+    <token id="0x147d1b0" file="converter.cpp" linenr="52" str=";" scope="0x14996d0"/>
+    <token id="0x148cd80" file="converter.cpp" linenr="52" str="ros" scope="0x14996d0" type="name" astParent="0x148d6f0"/>
+    <token id="0x148d6f0" file="converter.cpp" linenr="52" str="::" scope="0x14996d0" astOperand1="0x148cd80" astOperand2="0x147d260"/>
+    <token id="0x148da60" file="converter.cpp" linenr="52" str="Subscriber" scope="0x14996d0" type="name"/>
+    <token id="0x147d260" file="converter.cpp" linenr="52" str="sub_points2_" scope="0x14996d0" type="name" varId="4" variable="0x149af60" astParent="0x148d6f0"/>
+    <token id="0x147d310" file="converter.cpp" linenr="52" str=";" scope="0x14996d0"/>
+    <token id="0x147d3c0" file="converter.cpp" linenr="53" str="ros" scope="0x14996d0" type="name" astParent="0x147d470"/>
+    <token id="0x147d470" file="converter.cpp" linenr="53" str="::" scope="0x14996d0" astOperand1="0x147d3c0" astOperand2="0x147d5d0"/>
+    <token id="0x147d520" file="converter.cpp" linenr="53" str="Publisher" scope="0x14996d0" type="name"/>
+    <token id="0x147d5d0" file="converter.cpp" linenr="53" str="pub_points_" scope="0x14996d0" type="name" varId="5" variable="0x149afd0" astParent="0x147d470"/>
+    <token id="0x147d680" file="converter.cpp" linenr="53" str=";" scope="0x14996d0"/>
+    <token id="0x1492460" file="converter.cpp" linenr="53" str="ros" scope="0x14996d0" type="name" astParent="0x1492fe0"/>
+    <token id="0x1492fe0" file="converter.cpp" linenr="53" str="::" scope="0x14996d0" astOperand1="0x1492460" astOperand2="0x147d730"/>
+    <token id="0x1485e70" file="converter.cpp" linenr="53" str="Publisher" scope="0x14996d0" type="name"/>
+    <token id="0x147d730" file="converter.cpp" linenr="53" str="pub_points2_" scope="0x14996d0" type="name" varId="6" variable="0x149b040" astParent="0x1492fe0"/>
+    <token id="0x147d7e0" file="converter.cpp" linenr="53" str=";" scope="0x14996d0"/>
+    <token id="0x147d890" file="converter.cpp" linenr="55" str="int" scope="0x14996d0" type="name"/>
+    <token id="0x147d940" file="converter.cpp" linenr="55" str="queue_size_" scope="0x14996d0" type="name" varId="7" variable="0x149b0b0"/>
+    <token id="0x147d9f0" file="converter.cpp" linenr="55" str=";" scope="0x14996d0"/>
+    <token id="0x1498d90" file="converter.cpp" linenr="56" str="std" scope="0x14996d0" type="name" astParent="0x1498e40"/>
+    <token id="0x1498e40" file="converter.cpp" linenr="56" str="::" scope="0x14996d0" astOperand1="0x1498d90" astOperand2="0x147db50"/>
+    <token id="0x147daa0" file="converter.cpp" linenr="56" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x147db50" file="converter.cpp" linenr="56" str="points_in_" scope="0x14996d0" type="name" varId="8" variable="0x149b120" astParent="0x1498e40"/>
+    <token id="0x147dc00" file="converter.cpp" linenr="56" str=";" scope="0x14996d0"/>
+    <token id="0x1499250" file="converter.cpp" linenr="56" str="std" scope="0x14996d0" type="name" astParent="0x1499300"/>
+    <token id="0x1499300" file="converter.cpp" linenr="56" str="::" scope="0x14996d0" astOperand1="0x1499250" astOperand2="0x147dcb0"/>
+    <token id="0x1489620" file="converter.cpp" linenr="56" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x147dcb0" file="converter.cpp" linenr="56" str="points2_in_" scope="0x14996d0" type="name" varId="9" variable="0x149b190" astParent="0x1499300"/>
+    <token id="0x147dd60" file="converter.cpp" linenr="56" str=";" scope="0x14996d0"/>
+    <token id="0x14993b0" file="converter.cpp" linenr="56" str="std" scope="0x14996d0" type="name" astParent="0x1498ff0"/>
+    <token id="0x1498ff0" file="converter.cpp" linenr="56" str="::" scope="0x14996d0" astOperand1="0x14993b0" astOperand2="0x147de10"/>
+    <token id="0x14783e0" file="converter.cpp" linenr="56" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x147de10" file="converter.cpp" linenr="56" str="points_out_" scope="0x14996d0" type="name" varId="10" variable="0x149b200" astParent="0x1498ff0"/>
+    <token id="0x147dec0" file="converter.cpp" linenr="56" str=";" scope="0x14996d0"/>
+    <token id="0x14990a0" file="converter.cpp" linenr="56" str="std" scope="0x14996d0" type="name" astParent="0x1499150"/>
+    <token id="0x1499150" file="converter.cpp" linenr="56" str="::" scope="0x14996d0" astOperand1="0x14990a0" astOperand2="0x147df70"/>
+    <token id="0x14994b0" file="converter.cpp" linenr="56" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x147df70" file="converter.cpp" linenr="56" str="points2_out_" scope="0x14996d0" type="name" varId="11" variable="0x149b270" astParent="0x1499150"/>
+    <token id="0x147e020" file="converter.cpp" linenr="56" str=";" scope="0x14996d0"/>
+    <token id="0x147e0d0" file="converter.cpp" linenr="58" str="public:" scope="0x14996d0" type="name"/>
+    <token id="0x147e230" file="converter.cpp" linenr="59" str="PointCloudConverter" scope="0x14996d0" type="name" function="0x1499870" astParent="0x147e310"/>
+    <token id="0x147e310" file="converter.cpp" linenr="59" str="(" scope="0x14996d0" link="0x147e3c0" astParent="0x147e470" astOperand1="0x147e230"/>
+    <token id="0x147e3c0" file="converter.cpp" linenr="59" str=")" scope="0x14996d0" link="0x147e310"/>
+    <token id="0x147e470" file="converter.cpp" linenr="59" str=":" scope="0x14996d0" astParent="0x147e7e0" astOperand1="0x147e310" astOperand2="0x147e5d0"/>
+    <token id="0x147e520" file="converter.cpp" linenr="59" str="nh_" scope="0x14996d0" type="name" varId="2" variable="0x149ae80" astParent="0x147e5d0"/>
+    <token id="0x147e5d0" file="converter.cpp" linenr="59" str="(" scope="0x14996d0" link="0x147e730" astParent="0x147e470" astOperand1="0x147e520" astOperand2="0x147e680"/>
+    <token id="0x147e680" file="converter.cpp" linenr="59" str="&quot;x&quot;" scope="0x14996d0" type="string" strlen="1" values="0x147e688" astParent="0x147e5d0"/>
+    <token id="0x147e730" file="converter.cpp" linenr="59" str=")" scope="0x14996d0" link="0x147e5d0"/>
+    <token id="0x147e7e0" file="converter.cpp" linenr="59" str="," scope="0x14996d0" astParent="0x147eb50" astOperand1="0x147e470" astOperand2="0x147e940"/>
+    <token id="0x147e890" file="converter.cpp" linenr="59" str="queue_size_" scope="0x14996d0" type="name" varId="7" variable="0x149b0b0" astParent="0x147e940"/>
+    <token id="0x147e940" file="converter.cpp" linenr="59" str="(" scope="0x14996d0" link="0x147eaa0" astParent="0x147e7e0" astOperand1="0x147e890" astOperand2="0x147e9f0"/>
+    <token id="0x147e9f0" file="converter.cpp" linenr="59" str="100" scope="0x14996d0" type="number" isInt="True" values="0x147e9f8" astParent="0x147e940"/>
+    <token id="0x147eaa0" file="converter.cpp" linenr="59" str=")" scope="0x14996d0" link="0x147e940"/>
+    <token id="0x147eb50" file="converter.cpp" linenr="59" str="," scope="0x14996d0" astParent="0x147eec0" astOperand1="0x147e7e0" astOperand2="0x147ecb0"/>
+    <token id="0x147ec00" file="converter.cpp" linenr="60" str="points_in_" scope="0x14996d0" type="name" varId="8" variable="0x149b120" astParent="0x147ecb0"/>
+    <token id="0x147ecb0" file="converter.cpp" linenr="60" str="(" scope="0x14996d0" link="0x147ee10" astParent="0x147eb50" astOperand1="0x147ec00" astOperand2="0x147ed60"/>
+    <token id="0x147ed60" file="converter.cpp" linenr="60" str="&quot;/points_in&quot;" scope="0x14996d0" type="string" strlen="10" values="0x147ed68" astParent="0x147ecb0"/>
+    <token id="0x147ee10" file="converter.cpp" linenr="60" str=")" scope="0x14996d0" link="0x147ecb0"/>
+    <token id="0x147eec0" file="converter.cpp" linenr="60" str="," scope="0x14996d0" astParent="0x147f230" astOperand1="0x147eb50" astOperand2="0x147f020"/>
+    <token id="0x147ef70" file="converter.cpp" linenr="60" str="points2_in_" scope="0x14996d0" type="name" varId="9" variable="0x149b190" astParent="0x147f020"/>
+    <token id="0x147f020" file="converter.cpp" linenr="60" str="(" scope="0x14996d0" link="0x147f180" astParent="0x147eec0" astOperand1="0x147ef70" astOperand2="0x147f0d0"/>
+    <token id="0x147f0d0" file="converter.cpp" linenr="60" str="&quot;/points2_in&quot;" scope="0x14996d0" type="string" strlen="11" values="0x147f0d8" astParent="0x147f020"/>
+    <token id="0x147f180" file="converter.cpp" linenr="60" str=")" scope="0x14996d0" link="0x147f020"/>
+    <token id="0x147f230" file="converter.cpp" linenr="60" str="," scope="0x14996d0" astParent="0x147f5a0" astOperand1="0x147eec0" astOperand2="0x147f390"/>
+    <token id="0x147f2e0" file="converter.cpp" linenr="61" str="points_out_" scope="0x14996d0" type="name" varId="10" variable="0x149b200" astParent="0x147f390"/>
+    <token id="0x147f390" file="converter.cpp" linenr="61" str="(" scope="0x14996d0" link="0x147f4f0" astParent="0x147f230" astOperand1="0x147f2e0" astOperand2="0x147f440"/>
+    <token id="0x147f440" file="converter.cpp" linenr="61" str="&quot;/points_out&quot;" scope="0x14996d0" type="string" strlen="11" values="0x147f448" astParent="0x147f390"/>
+    <token id="0x147f4f0" file="converter.cpp" linenr="61" str=")" scope="0x14996d0" link="0x147f390"/>
+    <token id="0x147f5a0" file="converter.cpp" linenr="61" str="," scope="0x14996d0" astOperand1="0x147f230" astOperand2="0x147f700"/>
+    <token id="0x147f650" file="converter.cpp" linenr="61" str="points2_out_" scope="0x14996d0" type="name" varId="11" variable="0x149b270" astParent="0x147f700"/>
+    <token id="0x147f700" file="converter.cpp" linenr="61" str="(" scope="0x14996d0" link="0x147f860" astParent="0x147f5a0" astOperand1="0x147f650" astOperand2="0x147f7b0"/>
+    <token id="0x147f7b0" file="converter.cpp" linenr="61" str="&quot;/points2_out&quot;" scope="0x14996d0" type="string" strlen="12" values="0x147f7b8" astParent="0x147f700"/>
+    <token id="0x147f860" file="converter.cpp" linenr="61" str=")" scope="0x14996d0" link="0x147f700"/>
+    <token id="0x147f910" file="converter.cpp" linenr="62" str="{" scope="0x1499960" link="0x1485d10"/>
+    <token id="0x147f9c0" file="converter.cpp" linenr="64" str="sub_points_" scope="0x1499960" type="name" varId="3" variable="0x149aef0" astParent="0x147fa70"/>
+    <token id="0x147fa70" file="converter.cpp" linenr="64" str="=" scope="0x1499960" type="op" isAssignmentOp="True" astOperand1="0x147f9c0" astOperand2="0x147fd30"/>
+    <token id="0x147fb20" file="converter.cpp" linenr="64" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x147fbd0"/>
+    <token id="0x147fbd0" file="converter.cpp" linenr="64" str="." scope="0x1499960" astParent="0x147fd30" astOperand1="0x147fb20" astOperand2="0x147fc80"/>
+    <token id="0x147fc80" file="converter.cpp" linenr="64" str="subscribe" scope="0x1499960" type="name" astParent="0x147fbd0"/>
+    <token id="0x147fd30" file="converter.cpp" linenr="64" str="(" scope="0x1499960" link="0x14804f0" astParent="0x147fa70" astOperand1="0x147fbd0" astOperand2="0x1480390"/>
+    <token id="0x147fde0" file="converter.cpp" linenr="64" str="points_in_" scope="0x1499960" type="name" varId="8" variable="0x149b120" astParent="0x147fe90"/>
+    <token id="0x147fe90" file="converter.cpp" linenr="64" str="," scope="0x1499960" astParent="0x147fff0" astOperand1="0x147fde0" astOperand2="0x147ff40"/>
+    <token id="0x147ff40" file="converter.cpp" linenr="64" str="queue_size_" scope="0x1499960" type="name" varId="7" variable="0x149b0b0" astParent="0x147fe90"/>
+    <token id="0x147fff0" file="converter.cpp" linenr="64" str="," scope="0x1499960" astParent="0x1480390" astOperand1="0x147fe90" astOperand2="0x14800a0"/>
+    <token id="0x14800a0" file="converter.cpp" linenr="64" str="&amp;" scope="0x1499960" type="op" astParent="0x147fff0" astOperand1="0x1480230"/>
+    <token id="0x1480150" file="converter.cpp" linenr="64" str="PointCloudConverter" scope="0x1499960" type="name" type-scope="0x14996d0" astParent="0x1480230"/>
+    <token id="0x1480230" file="converter.cpp" linenr="64" str="::" scope="0x1499960" astParent="0x14800a0" astOperand1="0x1480150" astOperand2="0x14802e0"/>
+    <token id="0x14802e0" file="converter.cpp" linenr="64" str="cloud_cb_points" scope="0x1499960" type="name" astParent="0x1480230"/>
+    <token id="0x1480390" file="converter.cpp" linenr="64" str="," scope="0x1499960" astParent="0x147fd30" astOperand1="0x147fff0" astOperand2="0x1480440"/>
+    <token id="0x1480440" file="converter.cpp" linenr="64" str="this" scope="0x1499960" type="name" astParent="0x1480390"/>
+    <token id="0x14804f0" file="converter.cpp" linenr="64" str=")" scope="0x1499960" link="0x147fd30"/>
+    <token id="0x14805a0" file="converter.cpp" linenr="64" str=";" scope="0x1499960"/>
+    <token id="0x1480650" file="converter.cpp" linenr="65" str="sub_points2_" scope="0x1499960" type="name" varId="4" variable="0x149af60" astParent="0x1480700"/>
+    <token id="0x1480700" file="converter.cpp" linenr="65" str="=" scope="0x1499960" type="op" isAssignmentOp="True" astOperand1="0x1480650" astOperand2="0x14809c0"/>
+    <token id="0x14807b0" file="converter.cpp" linenr="65" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1480860"/>
+    <token id="0x1480860" file="converter.cpp" linenr="65" str="." scope="0x1499960" astParent="0x14809c0" astOperand1="0x14807b0" astOperand2="0x1480910"/>
+    <token id="0x1480910" file="converter.cpp" linenr="65" str="subscribe" scope="0x1499960" type="name" astParent="0x1480860"/>
+    <token id="0x14809c0" file="converter.cpp" linenr="65" str="(" scope="0x1499960" link="0x14811b0" astParent="0x1480700" astOperand1="0x1480860" astOperand2="0x1481050"/>
+    <token id="0x1480a70" file="converter.cpp" linenr="65" str="points2_in_" scope="0x1499960" type="name" varId="9" variable="0x149b190" astParent="0x1480b20"/>
+    <token id="0x1480b20" file="converter.cpp" linenr="65" str="," scope="0x1499960" astParent="0x1480c80" astOperand1="0x1480a70" astOperand2="0x1480bd0"/>
+    <token id="0x1480bd0" file="converter.cpp" linenr="65" str="queue_size_" scope="0x1499960" type="name" varId="7" variable="0x149b0b0" astParent="0x1480b20"/>
+    <token id="0x1480c80" file="converter.cpp" linenr="65" str="," scope="0x1499960" astParent="0x1481050" astOperand1="0x1480b20" astOperand2="0x1480d30"/>
+    <token id="0x1480d30" file="converter.cpp" linenr="65" str="&amp;" scope="0x1499960" type="op" astParent="0x1480c80" astOperand1="0x1480ec0"/>
+    <token id="0x1480de0" file="converter.cpp" linenr="65" str="PointCloudConverter" scope="0x1499960" type="name" type-scope="0x14996d0" astParent="0x1480ec0"/>
+    <token id="0x1480ec0" file="converter.cpp" linenr="65" str="::" scope="0x1499960" astParent="0x1480d30" astOperand1="0x1480de0" astOperand2="0x1480f70"/>
+    <token id="0x1480f70" file="converter.cpp" linenr="65" str="cloud_cb_points2" scope="0x1499960" type="name" astParent="0x1480ec0"/>
+    <token id="0x1481050" file="converter.cpp" linenr="65" str="," scope="0x1499960" astParent="0x14809c0" astOperand1="0x1480c80" astOperand2="0x1481100"/>
+    <token id="0x1481100" file="converter.cpp" linenr="65" str="this" scope="0x1499960" type="name" astParent="0x1481050"/>
+    <token id="0x14811b0" file="converter.cpp" linenr="65" str=")" scope="0x1499960" link="0x14809c0"/>
+    <token id="0x1481260" file="converter.cpp" linenr="65" str=";" scope="0x1499960"/>
+    <token id="0x1481310" file="converter.cpp" linenr="66" str="pub_points_" scope="0x1499960" type="name" varId="5" variable="0x149afd0" astParent="0x14813c0"/>
+    <token id="0x14813c0" file="converter.cpp" linenr="66" str="=" scope="0x1499960" type="op" isAssignmentOp="True" astOperand1="0x1481310" astOperand2="0x1482730"/>
+    <token id="0x1481470" file="converter.cpp" linenr="66" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1481520"/>
+    <token id="0x1481520" file="converter.cpp" linenr="66" str="." scope="0x1499960" astParent="0x1482730" astOperand1="0x1481470" astOperand2="0x14815d0"/>
+    <token id="0x14815d0" file="converter.cpp" linenr="66" str="advertise" scope="0x1499960" type="name" astParent="0x1481520"/>
+    <token id="0x1481680" file="converter.cpp" linenr="66" str="&lt;" scope="0x1499960" link="0x1482680"/>
+    <token id="0x1481730" file="converter.cpp" linenr="66" str="sensor_msgs" scope="0x1499960" type="name"/>
+    <token id="0x1482520" file="converter.cpp" linenr="66" str="::" scope="0x1499960"/>
+    <token id="0x14825d0" file="converter.cpp" linenr="66" str="PointCloud" scope="0x1499960" type="name"/>
+    <token id="0x1482680" file="converter.cpp" linenr="66" str="&gt;" scope="0x1499960" link="0x1481680"/>
+    <token id="0x1482730" file="converter.cpp" linenr="66" str="(" scope="0x1499960" link="0x14829f0" astParent="0x14813c0" astOperand1="0x1481520" astOperand2="0x1482890"/>
+    <token id="0x14827e0" file="converter.cpp" linenr="66" str="points_out_" scope="0x1499960" type="name" varId="10" variable="0x149b200" astParent="0x1482890"/>
+    <token id="0x1482890" file="converter.cpp" linenr="66" str="," scope="0x1499960" astParent="0x1482730" astOperand1="0x14827e0" astOperand2="0x1482940"/>
+    <token id="0x1482940" file="converter.cpp" linenr="66" str="queue_size_" scope="0x1499960" type="name" varId="7" variable="0x149b0b0" astParent="0x1482890"/>
+    <token id="0x14829f0" file="converter.cpp" linenr="66" str=")" scope="0x1499960" link="0x1482730"/>
+    <token id="0x1482aa0" file="converter.cpp" linenr="66" str=";" scope="0x1499960"/>
+    <token id="0x1482b50" file="converter.cpp" linenr="67" str="pub_points2_" scope="0x1499960" type="name" varId="6" variable="0x149b040" astParent="0x1482c00"/>
+    <token id="0x1482c00" file="converter.cpp" linenr="67" str="=" scope="0x1499960" type="op" isAssignmentOp="True" astOperand1="0x1482b50" astOperand2="0x1483230"/>
+    <token id="0x1482cb0" file="converter.cpp" linenr="67" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1482d60"/>
+    <token id="0x1482d60" file="converter.cpp" linenr="67" str="." scope="0x1499960" astParent="0x1483230" astOperand1="0x1482cb0" astOperand2="0x1482e10"/>
+    <token id="0x1482e10" file="converter.cpp" linenr="67" str="advertise" scope="0x1499960" type="name" astParent="0x1482d60"/>
+    <token id="0x1482ec0" file="converter.cpp" linenr="67" str="&lt;" scope="0x1499960" link="0x1483180"/>
+    <token id="0x1482f70" file="converter.cpp" linenr="67" str="sensor_msgs" scope="0x1499960" type="name"/>
+    <token id="0x1483020" file="converter.cpp" linenr="67" str="::" scope="0x1499960"/>
+    <token id="0x14830d0" file="converter.cpp" linenr="67" str="PointCloud2" scope="0x1499960" type="name"/>
+    <token id="0x1483180" file="converter.cpp" linenr="67" str="&gt;" scope="0x1499960" link="0x1482ec0"/>
+    <token id="0x1483230" file="converter.cpp" linenr="67" str="(" scope="0x1499960" link="0x14834f0" astParent="0x1482c00" astOperand1="0x1482d60" astOperand2="0x1483390"/>
+    <token id="0x14832e0" file="converter.cpp" linenr="67" str="points2_out_" scope="0x1499960" type="name" varId="11" variable="0x149b270" astParent="0x1483390"/>
+    <token id="0x1483390" file="converter.cpp" linenr="67" str="," scope="0x1499960" astParent="0x1483230" astOperand1="0x14832e0" astOperand2="0x1483440"/>
+    <token id="0x1483440" file="converter.cpp" linenr="67" str="queue_size_" scope="0x1499960" type="name" varId="7" variable="0x149b0b0" astParent="0x1483390"/>
+    <token id="0x14834f0" file="converter.cpp" linenr="67" str=")" scope="0x1499960" link="0x1483230"/>
+    <token id="0x14835a0" file="converter.cpp" linenr="67" str=";" scope="0x1499960"/>
+    <token id="0x1483650" file="converter.cpp" linenr="68" str="ROS_INFO" scope="0x1499960" type="name" astParent="0x1483700"/>
+    <token id="0x1483700" file="converter.cpp" linenr="68" str="(" scope="0x1499960" link="0x14848b0" astOperand1="0x1483650" astOperand2="0x1484120"/>
+    <token id="0x1483870" file="converter.cpp" linenr="68" str="&quot;PointCloudConverter initialized to transform from PointCloud (%s) to PointCloud2 (%s).&quot;" scope="0x1499960" type="string" strlen="86" values="0x1483878" astParent="0x1483990"/>
+    <token id="0x1483990" file="converter.cpp" linenr="68" str="," scope="0x1499960" astParent="0x1484120" astOperand1="0x1483870" astOperand2="0x1483fc0"/>
+    <token id="0x1483a40" file="converter.cpp" linenr="68" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1483af0"/>
+    <token id="0x1483af0" file="converter.cpp" linenr="68" str="." scope="0x1499960" astParent="0x1483c50" astOperand1="0x1483a40" astOperand2="0x1483ba0"/>
+    <token id="0x1483ba0" file="converter.cpp" linenr="68" str="resolveName" scope="0x1499960" type="name" astParent="0x1483af0"/>
+    <token id="0x1483c50" file="converter.cpp" linenr="68" str="(" scope="0x1499960" link="0x1483db0" astParent="0x1483e60" astOperand1="0x1483af0" astOperand2="0x1483d00"/>
+    <token id="0x1483d00" file="converter.cpp" linenr="68" str="points_in_" scope="0x1499960" type="name" varId="8" variable="0x149b120" astParent="0x1483c50"/>
+    <token id="0x1483db0" file="converter.cpp" linenr="68" str=")" scope="0x1499960" link="0x1483c50"/>
+    <token id="0x1483e60" file="converter.cpp" linenr="68" str="." scope="0x1499960" astParent="0x1483fc0" astOperand1="0x1483c50" astOperand2="0x1483f10"/>
+    <token id="0x1483f10" file="converter.cpp" linenr="68" str="c_str" scope="0x1499960" type="name" astParent="0x1483e60"/>
+    <token id="0x1483fc0" file="converter.cpp" linenr="68" str="(" scope="0x1499960" link="0x1484070" astParent="0x1483990" astOperand1="0x1483e60"/>
+    <token id="0x1484070" file="converter.cpp" linenr="68" str=")" scope="0x1499960" link="0x1483fc0"/>
+    <token id="0x1484120" file="converter.cpp" linenr="68" str="," scope="0x1499960" astParent="0x1483700" astOperand1="0x1483990" astOperand2="0x1484750"/>
+    <token id="0x14841d0" file="converter.cpp" linenr="68" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1484280"/>
+    <token id="0x1484280" file="converter.cpp" linenr="68" str="." scope="0x1499960" astParent="0x14843e0" astOperand1="0x14841d0" astOperand2="0x1484330"/>
+    <token id="0x1484330" file="converter.cpp" linenr="68" str="resolveName" scope="0x1499960" type="name" astParent="0x1484280"/>
+    <token id="0x14843e0" file="converter.cpp" linenr="68" str="(" scope="0x1499960" link="0x1484540" astParent="0x14845f0" astOperand1="0x1484280" astOperand2="0x1484490"/>
+    <token id="0x1484490" file="converter.cpp" linenr="68" str="points2_out_" scope="0x1499960" type="name" varId="11" variable="0x149b270" astParent="0x14843e0"/>
+    <token id="0x1484540" file="converter.cpp" linenr="68" str=")" scope="0x1499960" link="0x14843e0"/>
+    <token id="0x14845f0" file="converter.cpp" linenr="68" str="." scope="0x1499960" astParent="0x1484750" astOperand1="0x14843e0" astOperand2="0x14846a0"/>
+    <token id="0x14846a0" file="converter.cpp" linenr="68" str="c_str" scope="0x1499960" type="name" astParent="0x14845f0"/>
+    <token id="0x1484750" file="converter.cpp" linenr="68" str="(" scope="0x1499960" link="0x1484800" astParent="0x1484120" astOperand1="0x14845f0"/>
+    <token id="0x1484800" file="converter.cpp" linenr="68" str=")" scope="0x1499960" link="0x1484750"/>
+    <token id="0x14848b0" file="converter.cpp" linenr="68" str=")" scope="0x1499960" link="0x1483700"/>
+    <token id="0x1484960" file="converter.cpp" linenr="68" str=";" scope="0x1499960"/>
+    <token id="0x1484a10" file="converter.cpp" linenr="69" str="ROS_INFO" scope="0x1499960" type="name" astParent="0x1484ac0"/>
+    <token id="0x1484ac0" file="converter.cpp" linenr="69" str="(" scope="0x1499960" link="0x1485bb0" astOperand1="0x1484a10" astOperand2="0x1485420"/>
+    <token id="0x1484b70" file="converter.cpp" linenr="69" str="&quot;PointCloudConverter initialized to transform from PointCloud2 (%s) to PointCloud (%s).&quot;" scope="0x1499960" type="string" strlen="86" values="0x1484b78" astParent="0x1484c90"/>
+    <token id="0x1484c90" file="converter.cpp" linenr="69" str="," scope="0x1499960" astParent="0x1485420" astOperand1="0x1484b70" astOperand2="0x14852c0"/>
+    <token id="0x1484d40" file="converter.cpp" linenr="69" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1484df0"/>
+    <token id="0x1484df0" file="converter.cpp" linenr="69" str="." scope="0x1499960" astParent="0x1484f50" astOperand1="0x1484d40" astOperand2="0x1484ea0"/>
+    <token id="0x1484ea0" file="converter.cpp" linenr="69" str="resolveName" scope="0x1499960" type="name" astParent="0x1484df0"/>
+    <token id="0x1484f50" file="converter.cpp" linenr="69" str="(" scope="0x1499960" link="0x14850b0" astParent="0x1485160" astOperand1="0x1484df0" astOperand2="0x1485000"/>
+    <token id="0x1485000" file="converter.cpp" linenr="69" str="points2_in_" scope="0x1499960" type="name" varId="9" variable="0x149b190" astParent="0x1484f50"/>
+    <token id="0x14850b0" file="converter.cpp" linenr="69" str=")" scope="0x1499960" link="0x1484f50"/>
+    <token id="0x1485160" file="converter.cpp" linenr="69" str="." scope="0x1499960" astParent="0x14852c0" astOperand1="0x1484f50" astOperand2="0x1485210"/>
+    <token id="0x1485210" file="converter.cpp" linenr="69" str="c_str" scope="0x1499960" type="name" astParent="0x1485160"/>
+    <token id="0x14852c0" file="converter.cpp" linenr="69" str="(" scope="0x1499960" link="0x1485370" astParent="0x1484c90" astOperand1="0x1485160"/>
+    <token id="0x1485370" file="converter.cpp" linenr="69" str=")" scope="0x1499960" link="0x14852c0"/>
+    <token id="0x1485420" file="converter.cpp" linenr="69" str="," scope="0x1499960" astParent="0x1484ac0" astOperand1="0x1484c90" astOperand2="0x1485a50"/>
+    <token id="0x14854d0" file="converter.cpp" linenr="69" str="nh_" scope="0x1499960" type="name" varId="2" variable="0x149ae80" astParent="0x1485580"/>
+    <token id="0x1485580" file="converter.cpp" linenr="69" str="." scope="0x1499960" astParent="0x14856e0" astOperand1="0x14854d0" astOperand2="0x1485630"/>
+    <token id="0x1485630" file="converter.cpp" linenr="69" str="resolveName" scope="0x1499960" type="name" astParent="0x1485580"/>
+    <token id="0x14856e0" file="converter.cpp" linenr="69" str="(" scope="0x1499960" link="0x1485840" astParent="0x14858f0" astOperand1="0x1485580" astOperand2="0x1485790"/>
+    <token id="0x1485790" file="converter.cpp" linenr="69" str="points_out_" scope="0x1499960" type="name" varId="10" variable="0x149b200" astParent="0x14856e0"/>
+    <token id="0x1485840" file="converter.cpp" linenr="69" str=")" scope="0x1499960" link="0x14856e0"/>
+    <token id="0x14858f0" file="converter.cpp" linenr="69" str="." scope="0x1499960" astParent="0x1485a50" astOperand1="0x14856e0" astOperand2="0x14859a0"/>
+    <token id="0x14859a0" file="converter.cpp" linenr="69" str="c_str" scope="0x1499960" type="name" astParent="0x14858f0"/>
+    <token id="0x1485a50" file="converter.cpp" linenr="69" str="(" scope="0x1499960" link="0x1485b00" astParent="0x1485420" astOperand1="0x14858f0"/>
+    <token id="0x1485b00" file="converter.cpp" linenr="69" str=")" scope="0x1499960" link="0x1485a50"/>
+    <token id="0x1485bb0" file="converter.cpp" linenr="69" str=")" scope="0x1499960" link="0x1484ac0"/>
+    <token id="0x1485c60" file="converter.cpp" linenr="69" str=";" scope="0x1499960"/>
+    <token id="0x1485d10" file="converter.cpp" linenr="70" str="}" scope="0x1499960" link="0x147f910"/>
+    <token id="0x1485dc0" file="converter.cpp" linenr="73" str="std" scope="0x14996d0" type="name" astParent="0x1485f20"/>
+    <token id="0x1485f20" file="converter.cpp" linenr="73" str="::" scope="0x14996d0" astParent="0x1486130" astOperand1="0x1485dc0" astOperand2="0x1486080"/>
+    <token id="0x1485fd0" file="converter.cpp" linenr="73" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x1486080" file="converter.cpp" linenr="74" str="getFieldsList" scope="0x14996d0" type="name" function="0x1499ab0" astParent="0x1485f20"/>
+    <token id="0x1486130" file="converter.cpp" linenr="74" str="(" scope="0x14996d0" link="0x1486600" astOperand1="0x1485f20" astOperand2="0x14864a0"/>
+    <token id="0x14861e0" file="converter.cpp" linenr="74" str="const" scope="0x14996d0" type="name"/>
+    <token id="0x1486290" file="converter.cpp" linenr="74" str="sensor_msgs" scope="0x14996d0" type="name" astParent="0x1486340"/>
+    <token id="0x1486340" file="converter.cpp" linenr="74" str="::" scope="0x14996d0" astParent="0x14864a0" astOperand1="0x1486290" astOperand2="0x14863f0"/>
+    <token id="0x14863f0" file="converter.cpp" linenr="74" str="PointCloud2" scope="0x14996d0" type="name" astParent="0x1486340"/>
+    <token id="0x14864a0" file="converter.cpp" linenr="74" str="&amp;" scope="0x14996d0" type="op" astParent="0x1486130" astOperand1="0x1486340" astOperand2="0x1486550"/>
+    <token id="0x1486550" file="converter.cpp" linenr="74" str="cloud" scope="0x14996d0" type="name" varId="12" variable="0x149b640" astParent="0x14864a0"/>
+    <token id="0x1486600" file="converter.cpp" linenr="74" str=")" scope="0x14996d0" link="0x1486130"/>
+    <token id="0x14866b0" file="converter.cpp" linenr="75" str="{" scope="0x1499b50" link="0x14894c0"/>
+    <token id="0x1486760" file="converter.cpp" linenr="76" str="std" scope="0x1499b50" type="name" astParent="0x1486810"/>
+    <token id="0x1486810" file="converter.cpp" linenr="76" str="::" scope="0x1499b50" astOperand1="0x1486760" astOperand2="0x1486970"/>
+    <token id="0x14868c0" file="converter.cpp" linenr="76" str="string" scope="0x1499b50" type="name"/>
+    <token id="0x1486970" file="converter.cpp" linenr="76" str="result" scope="0x1499b50" type="name" varId="13" variable="0x149b2e0" astParent="0x1486810"/>
+    <token id="0x1486a20" file="converter.cpp" linenr="76" str=";" scope="0x1499b50"/>
+    <token id="0x1486ad0" file="converter.cpp" linenr="77" str="for" scope="0x1499b50" type="name" astParent="0x1486b80"/>
+    <token id="0x1486b80" file="converter.cpp" linenr="77" str="(" scope="0x1499b50" link="0x1487940" astOperand1="0x1486ad0" astOperand2="0x1486ef0"/>
+    <token id="0x1486c30" file="converter.cpp" linenr="77" str="long" scope="0x1499b50" type="name"/>
+    <token id="0x1486ce0" file="converter.cpp" linenr="77" str="i" scope="0x1499b50" type="name" varId="14" variable="0x1499df0" astParent="0x1486d90"/>
+    <token id="0x1486d90" file="converter.cpp" linenr="77" str="=" scope="0x1499b50" type="op" isAssignmentOp="True" astParent="0x1486ef0" astOperand1="0x1486ce0" astOperand2="0x1486e40"/>
+    <token id="0x1486e40" file="converter.cpp" linenr="77" str="0" scope="0x1499b50" type="number" isInt="True" values="0x1486e48" astParent="0x1486d90"/>
+    <token id="0x1486ef0" file="converter.cpp" linenr="77" str=";" scope="0x1499b50" astParent="0x1486b80" astOperand1="0x1486d90" astOperand2="0x1487730"/>
+    <token id="0x1486fa0" file="converter.cpp" linenr="77" str="i" scope="0x1499b50" type="name" varId="14" variable="0x1499df0" astParent="0x1487050"/>
+    <token id="0x1487050" file="converter.cpp" linenr="77" str="&lt;" scope="0x1499b50" type="op" isComparisonOp="True" astParent="0x1487730" astOperand1="0x1486fa0" astOperand2="0x14875d0"/>
+    <token id="0x1487100" file="converter.cpp" linenr="77" str="cloud" scope="0x1499b50" type="name" varId="12" variable="0x149b640" astParent="0x14871b0"/>
+    <token id="0x14871b0" file="converter.cpp" linenr="77" str="." scope="0x1499b50" astParent="0x1487310" astOperand1="0x1487100" astOperand2="0x1487260"/>
+    <token id="0x1487260" file="converter.cpp" linenr="77" str="fields" scope="0x1499b50" type="name" varId="15" astParent="0x14871b0"/>
+    <token id="0x1487310" file="converter.cpp" linenr="77" str="." scope="0x1499b50" astParent="0x1487470" astOperand1="0x14871b0" astOperand2="0x14873c0"/>
+    <token id="0x14873c0" file="converter.cpp" linenr="77" str="size" scope="0x1499b50" type="name" astParent="0x1487310"/>
+    <token id="0x1487470" file="converter.cpp" linenr="77" str="(" scope="0x1499b50" link="0x1487520" astParent="0x14875d0" astOperand1="0x1487310"/>
+    <token id="0x1487520" file="converter.cpp" linenr="77" str=")" scope="0x1499b50" link="0x1487470"/>
+    <token id="0x14875d0" file="converter.cpp" linenr="77" str="-" scope="0x1499b50" type="op" isArithmeticalOp="True" astParent="0x1487050" astOperand1="0x1487470" astOperand2="0x1487680"/>
+    <token id="0x1487680" file="converter.cpp" linenr="77" str="1" scope="0x1499b50" type="number" isInt="True" values="0x1487688" astParent="0x14875d0"/>
+    <token id="0x1487730" file="converter.cpp" linenr="77" str=";" scope="0x1499b50" astParent="0x1486ef0" astOperand1="0x1487050" astOperand2="0x14877e0"/>
+    <token id="0x14877e0" file="converter.cpp" linenr="77" str="++" scope="0x1499b50" type="op" astParent="0x1487730" astOperand1="0x1487890"/>
+    <token id="0x1487890" file="converter.cpp" linenr="77" str="i" scope="0x1499b50" type="name" varId="14" variable="0x1499df0" astParent="0x14877e0"/>
+    <token id="0x1487940" file="converter.cpp" linenr="77" str=")" scope="0x1499b50" link="0x1486b80"/>
+    <token id="0x1478c30" file="converter.cpp" linenr="77" str="{" scope="0x1499ca0" link="0x147e180"/>
+    <token id="0x14879f0" file="converter.cpp" linenr="78" str="result" scope="0x1499ca0" type="name" varId="13" variable="0x149b2e0" astParent="0x1487aa0"/>
+    <token id="0x1487aa0" file="converter.cpp" linenr="78" str="+=" scope="0x1499ca0" type="op" isAssignmentOp="True" astOperand1="0x14879f0" astOperand2="0x1488180"/>
+    <token id="0x1487c00" file="converter.cpp" linenr="78" str="cloud" scope="0x1499ca0" type="name" varId="12" variable="0x149b640" astParent="0x1487cb0"/>
+    <token id="0x1487cb0" file="converter.cpp" linenr="78" str="." scope="0x1499ca0" astParent="0x1487e10" astOperand1="0x1487c00" astOperand2="0x1487d60"/>
+    <token id="0x1487d60" file="converter.cpp" linenr="78" str="fields" scope="0x1499ca0" type="name" varId="15" astParent="0x1487cb0"/>
+    <token id="0x1487e10" file="converter.cpp" linenr="78" str="[" scope="0x1499ca0" link="0x1487f70" astParent="0x1488020" astOperand1="0x1487cb0" astOperand2="0x1487ec0"/>
+    <token id="0x1487ec0" file="converter.cpp" linenr="78" str="i" scope="0x1499ca0" type="name" varId="14" variable="0x1499df0" values="0x1487ec8" astParent="0x1487e10"/>
+    <token id="0x1487f70" file="converter.cpp" linenr="78" str="]" scope="0x1499ca0" link="0x1487e10"/>
+    <token id="0x1488020" file="converter.cpp" linenr="78" str="." scope="0x1499ca0" astParent="0x1488180" astOperand1="0x1487e10" astOperand2="0x14880d0"/>
+    <token id="0x14880d0" file="converter.cpp" linenr="78" str="name" scope="0x1499ca0" type="name" astParent="0x1488020"/>
+    <token id="0x1488180" file="converter.cpp" linenr="78" str="+" scope="0x1499ca0" type="op" isArithmeticalOp="True" astParent="0x1487aa0" astOperand1="0x1488020" astOperand2="0x1488230"/>
+    <token id="0x1488230" file="converter.cpp" linenr="78" str="&quot; &quot;" scope="0x1499ca0" type="string" strlen="1" values="0x1488238" astParent="0x1488180"/>
+    <token id="0x14882e0" file="converter.cpp" linenr="78" str=";" scope="0x1499ca0"/>
+    <token id="0x147e180" file="converter.cpp" linenr="78" str="}" scope="0x1499ca0" link="0x1478c30"/>
+    <token id="0x1488390" file="converter.cpp" linenr="79" str="result" scope="0x1499b50" type="name" varId="13" variable="0x149b2e0" astParent="0x1488440"/>
+    <token id="0x1488440" file="converter.cpp" linenr="79" str="+=" scope="0x1499b50" type="op" isAssignmentOp="True" astOperand1="0x1488390" astOperand2="0x1488f40"/>
+    <token id="0x14885a0" file="converter.cpp" linenr="79" str="cloud" scope="0x1499b50" type="name" varId="12" variable="0x149b640" astParent="0x1488650"/>
+    <token id="0x1488650" file="converter.cpp" linenr="79" str="." scope="0x1499b50" astParent="0x14887b0" astOperand1="0x14885a0" astOperand2="0x1488700"/>
+    <token id="0x1488700" file="converter.cpp" linenr="79" str="fields" scope="0x1499b50" type="name" varId="15" astParent="0x1488650"/>
+    <token id="0x14887b0" file="converter.cpp" linenr="79" str="[" scope="0x1499b50" link="0x1488e90" astParent="0x1488f40" astOperand1="0x1488650" astOperand2="0x1488d30"/>
+    <token id="0x1488860" file="converter.cpp" linenr="79" str="cloud" scope="0x1499b50" type="name" varId="12" variable="0x149b640" astParent="0x1488910"/>
+    <token id="0x1488910" file="converter.cpp" linenr="79" str="." scope="0x1499b50" astParent="0x1488a70" astOperand1="0x1488860" astOperand2="0x14889c0"/>
+    <token id="0x14889c0" file="converter.cpp" linenr="79" str="fields" scope="0x1499b50" type="name" varId="15" astParent="0x1488910"/>
+    <token id="0x1488a70" file="converter.cpp" linenr="79" str="." scope="0x1499b50" astParent="0x1488bd0" astOperand1="0x1488910" astOperand2="0x1488b20"/>
+    <token id="0x1488b20" file="converter.cpp" linenr="79" str="size" scope="0x1499b50" type="name" astParent="0x1488a70"/>
+    <token id="0x1488bd0" file="converter.cpp" linenr="79" str="(" scope="0x1499b50" link="0x1488c80" astParent="0x1488d30" astOperand1="0x1488a70"/>
+    <token id="0x1488c80" file="converter.cpp" linenr="79" str=")" scope="0x1499b50" link="0x1488bd0"/>
+    <token id="0x1488d30" file="converter.cpp" linenr="79" str="-" scope="0x1499b50" type="op" isArithmeticalOp="True" astParent="0x14887b0" astOperand1="0x1488bd0" astOperand2="0x1488de0"/>
+    <token id="0x1488de0" file="converter.cpp" linenr="79" str="1" scope="0x1499b50" type="number" isInt="True" values="0x1488de8" astParent="0x1488d30"/>
+    <token id="0x1488e90" file="converter.cpp" linenr="79" str="]" scope="0x1499b50" link="0x14887b0"/>
+    <token id="0x1488f40" file="converter.cpp" linenr="79" str="." scope="0x1499b50" astParent="0x1488440" astOperand1="0x14887b0" astOperand2="0x1488ff0"/>
+    <token id="0x1488ff0" file="converter.cpp" linenr="79" str="name" scope="0x1499b50" type="name" astParent="0x1488f40"/>
+    <token id="0x14890a0" file="converter.cpp" linenr="79" str=";" scope="0x1499b50"/>
+    <token id="0x1489150" file="converter.cpp" linenr="80" str="return" scope="0x1499b50" type="name" astOperand1="0x14892b0"/>
+    <token id="0x1489200" file="converter.cpp" linenr="80" str="(" scope="0x1499b50" link="0x1489360"/>
+    <token id="0x14892b0" file="converter.cpp" linenr="80" str="result" scope="0x1499b50" type="name" varId="13" variable="0x149b2e0" astParent="0x1489150"/>
+    <token id="0x1489360" file="converter.cpp" linenr="80" str=")" scope="0x1499b50" link="0x1489200"/>
+    <token id="0x1489410" file="converter.cpp" linenr="80" str=";" scope="0x1499b50"/>
+    <token id="0x14894c0" file="converter.cpp" linenr="81" str="}" scope="0x1499b50" link="0x14866b0"/>
+    <token id="0x1489570" file="converter.cpp" linenr="84" str="std" scope="0x14996d0" type="name" astParent="0x14896d0"/>
+    <token id="0x14896d0" file="converter.cpp" linenr="84" str="::" scope="0x14996d0" astParent="0x14898e0" astOperand1="0x1489570" astOperand2="0x1489830"/>
+    <token id="0x1489780" file="converter.cpp" linenr="84" str="string" scope="0x14996d0" type="name"/>
+    <token id="0x1489830" file="converter.cpp" linenr="85" str="getFieldsList" scope="0x14996d0" type="name" function="0x1499e60" astParent="0x14896d0"/>
+    <token id="0x14898e0" file="converter.cpp" linenr="85" str="(" scope="0x14996d0" link="0x1489db0" astOperand1="0x14896d0" astOperand2="0x1489c50"/>
+    <token id="0x1489990" file="converter.cpp" linenr="85" str="const" scope="0x14996d0" type="name"/>
+    <token id="0x1489a40" file="converter.cpp" linenr="85" str="sensor_msgs" scope="0x14996d0" type="name" astParent="0x1489af0"/>
+    <token id="0x1489af0" file="converter.cpp" linenr="85" str="::" scope="0x14996d0" astParent="0x1489c50" astOperand1="0x1489a40" astOperand2="0x1489ba0"/>
+    <token id="0x1489ba0" file="converter.cpp" linenr="85" str="PointCloud" scope="0x14996d0" type="name" astParent="0x1489af0"/>
+    <token id="0x1489c50" file="converter.cpp" linenr="85" str="&amp;" scope="0x14996d0" type="op" astParent="0x14898e0" astOperand1="0x1489af0" astOperand2="0x1489d00"/>
+    <token id="0x1489d00" file="converter.cpp" linenr="85" str="points" scope="0x14996d0" type="name" varId="16" variable="0x149b6b0" astParent="0x1489c50"/>
+    <token id="0x1489db0" file="converter.cpp" linenr="85" str=")" scope="0x14996d0" link="0x14898e0"/>
+    <token id="0x1489e60" file="converter.cpp" linenr="86" str="{" scope="0x1499f00" link="0x148bf60"/>
+    <token id="0x1489f10" file="converter.cpp" linenr="87" str="std" scope="0x1499f00" type="name" astParent="0x1489fc0"/>
+    <token id="0x1489fc0" file="converter.cpp" linenr="87" str="::" scope="0x1499f00" astOperand1="0x1489f10" astOperand2="0x148a120"/>
+    <token id="0x148a070" file="converter.cpp" linenr="87" str="string" scope="0x1499f00" type="name"/>
+    <token id="0x148a120" file="converter.cpp" linenr="87" str="result" scope="0x1499f00" type="name" varId="17" variable="0x149b350" astParent="0x1489fc0"/>
+    <token id="0x148a1d0" file="converter.cpp" linenr="87" str=";" scope="0x1499f00"/>
+    <token id="0x1499560" file="converter.cpp" linenr="87" str="result" scope="0x1499f00" type="name" varId="17" variable="0x149b350" astParent="0x1499610"/>
+    <token id="0x1499610" file="converter.cpp" linenr="87" str="=" scope="0x1499f00" type="op" isAssignmentOp="True" astOperand1="0x1499560" astOperand2="0x148a280"/>
+    <token id="0x148a280" file="converter.cpp" linenr="87" str="&quot;x y z&quot;" scope="0x1499f00" type="string" strlen="5" values="0x148a288" astParent="0x1499610"/>
+    <token id="0x148a330" file="converter.cpp" linenr="87" str=";" scope="0x1499f00"/>
+    <token id="0x148a3e0" file="converter.cpp" linenr="88" str="for" scope="0x1499f00" type="name" astParent="0x148a490"/>
+    <token id="0x148a490" file="converter.cpp" linenr="88" str="(" scope="0x1499f00" link="0x148b0f0" astOperand1="0x148a3e0" astOperand2="0x148a800"/>
+    <token id="0x148a540" file="converter.cpp" linenr="88" str="long" scope="0x1499f00" type="name"/>
+    <token id="0x148a5f0" file="converter.cpp" linenr="88" str="i" scope="0x1499f00" type="name" varId="18" variable="0x149a1a0" astParent="0x148a6a0"/>
+    <token id="0x148a6a0" file="converter.cpp" linenr="88" str="=" scope="0x1499f00" type="op" isAssignmentOp="True" astParent="0x148a800" astOperand1="0x148a5f0" astOperand2="0x148a750"/>
+    <token id="0x148a750" file="converter.cpp" linenr="88" str="0" scope="0x1499f00" type="number" isInt="True" values="0x148a758" astParent="0x148a6a0"/>
+    <token id="0x148a800" file="converter.cpp" linenr="88" str=";" scope="0x1499f00" astParent="0x148a490" astOperand1="0x148a6a0" astOperand2="0x148aee0"/>
+    <token id="0x148a8b0" file="converter.cpp" linenr="88" str="i" scope="0x1499f00" type="name" varId="18" variable="0x149a1a0" astParent="0x148a960"/>
+    <token id="0x148a960" file="converter.cpp" linenr="88" str="&lt;" scope="0x1499f00" type="op" isComparisonOp="True" astParent="0x148aee0" astOperand1="0x148a8b0" astOperand2="0x148ad80"/>
+    <token id="0x148aa10" file="converter.cpp" linenr="88" str="points" scope="0x1499f00" type="name" varId="16" variable="0x149b6b0" astParent="0x148aac0"/>
+    <token id="0x148aac0" file="converter.cpp" linenr="88" str="." scope="0x1499f00" astParent="0x148ac20" astOperand1="0x148aa10" astOperand2="0x148ab70"/>
+    <token id="0x148ab70" file="converter.cpp" linenr="88" str="channels" scope="0x1499f00" type="name" varId="19" astParent="0x148aac0"/>
+    <token id="0x148ac20" file="converter.cpp" linenr="88" str="." scope="0x1499f00" astParent="0x148ad80" astOperand1="0x148aac0" astOperand2="0x148acd0"/>
+    <token id="0x148acd0" file="converter.cpp" linenr="88" str="size" scope="0x1499f00" type="name" astParent="0x148ac20"/>
+    <token id="0x148ad80" file="converter.cpp" linenr="88" str="(" scope="0x1499f00" link="0x148ae30" astParent="0x148a960" astOperand1="0x148ac20"/>
+    <token id="0x148ae30" file="converter.cpp" linenr="88" str=")" scope="0x1499f00" link="0x148ad80"/>
+    <token id="0x148aee0" file="converter.cpp" linenr="88" str=";" scope="0x1499f00" astParent="0x148a800" astOperand1="0x148a960" astOperand2="0x148b040"/>
+    <token id="0x148af90" file="converter.cpp" linenr="88" str="i" scope="0x1499f00" type="name" varId="18" variable="0x149a1a0" astParent="0x148b040"/>
+    <token id="0x148b040" file="converter.cpp" linenr="88" str="++" scope="0x1499f00" type="op" astParent="0x148aee0" astOperand1="0x148af90"/>
+    <token id="0x148b0f0" file="converter.cpp" linenr="88" str=")" scope="0x1499f00" link="0x148a490"/>
+    <token id="0x1487b50" file="converter.cpp" linenr="88" str="{" scope="0x149a050" link="0x14884f0"/>
+    <token id="0x148b1a0" file="converter.cpp" linenr="89" str="result" scope="0x149a050" type="name" varId="17" variable="0x149b350" astParent="0x148b250"/>
+    <token id="0x148b250" file="converter.cpp" linenr="89" str="=" scope="0x149a050" type="op" isAssignmentOp="True" astOperand1="0x148b1a0" astOperand2="0x148b510"/>
+    <token id="0x148b300" file="converter.cpp" linenr="89" str="result" scope="0x149a050" type="name" varId="17" variable="0x149b350" astParent="0x148b3b0"/>
+    <token id="0x148b3b0" file="converter.cpp" linenr="89" str="+" scope="0x149a050" type="op" isArithmeticalOp="True" astParent="0x148b510" astOperand1="0x148b300" astOperand2="0x148b460"/>
+    <token id="0x148b460" file="converter.cpp" linenr="89" str="&quot; &quot;" scope="0x149a050" type="string" strlen="1" values="0x148b468" astParent="0x148b3b0"/>
+    <token id="0x148b510" file="converter.cpp" linenr="89" str="+" scope="0x149a050" type="op" isArithmeticalOp="True" astParent="0x148b250" astOperand1="0x148b3b0" astOperand2="0x148b9e0"/>
+    <token id="0x148b5c0" file="converter.cpp" linenr="89" str="points" scope="0x149a050" type="name" varId="16" variable="0x149b6b0" astParent="0x148b670"/>
+    <token id="0x148b670" file="converter.cpp" linenr="89" str="." scope="0x149a050" astParent="0x148b7d0" astOperand1="0x148b5c0" astOperand2="0x148b720"/>
+    <token id="0x148b720" file="converter.cpp" linenr="89" str="channels" scope="0x149a050" type="name" varId="19" astParent="0x148b670"/>
+    <token id="0x148b7d0" file="converter.cpp" linenr="89" str="[" scope="0x149a050" link="0x148b930" astParent="0x148b9e0" astOperand1="0x148b670" astOperand2="0x148b880"/>
+    <token id="0x148b880" file="converter.cpp" linenr="89" str="i" scope="0x149a050" type="name" varId="18" variable="0x149a1a0" values="0x148b888" astParent="0x148b7d0"/>
+    <token id="0x148b930" file="converter.cpp" linenr="89" str="]" scope="0x149a050" link="0x148b7d0"/>
+    <token id="0x148b9e0" file="converter.cpp" linenr="89" str="." scope="0x149a050" astParent="0x148b510" astOperand1="0x148b7d0" astOperand2="0x148ba90"/>
+    <token id="0x148ba90" file="converter.cpp" linenr="89" str="name" scope="0x149a050" type="name" astParent="0x148b9e0"/>
+    <token id="0x148bb40" file="converter.cpp" linenr="89" str=";" scope="0x149a050"/>
+    <token id="0x14884f0" file="converter.cpp" linenr="89" str="}" scope="0x149a050" link="0x1487b50"/>
+    <token id="0x148bbf0" file="converter.cpp" linenr="90" str="return" scope="0x1499f00" type="name" astOperand1="0x148bd50"/>
+    <token id="0x148bca0" file="converter.cpp" linenr="90" str="(" scope="0x1499f00" link="0x148be00"/>
+    <token id="0x148bd50" file="converter.cpp" linenr="90" str="result" scope="0x1499f00" type="name" varId="17" variable="0x149b350" astParent="0x148bbf0"/>
+    <token id="0x148be00" file="converter.cpp" linenr="90" str=")" scope="0x1499f00" link="0x148bca0"/>
+    <token id="0x148beb0" file="converter.cpp" linenr="90" str=";" scope="0x1499f00"/>
+    <token id="0x148bf60" file="converter.cpp" linenr="91" str="}" scope="0x1499f00" link="0x1489e60"/>
+    <token id="0x148c010" file="converter.cpp" linenr="94" str="void" scope="0x14996d0" type="name"/>
+    <token id="0x148c0c0" file="converter.cpp" linenr="95" str="cloud_cb_points2" scope="0x14996d0" type="name" function="0x149a210" astParent="0x148c170"/>
+    <token id="0x148c170" file="converter.cpp" linenr="95" str="(" scope="0x14996d0" link="0x148c670" astOperand1="0x148c0c0" astOperand2="0x148c510"/>
+    <token id="0x148c220" file="converter.cpp" linenr="95" str="const" scope="0x14996d0" type="name"/>
+    <token id="0x148c2d0" file="converter.cpp" linenr="95" str="sensor_msgs" scope="0x14996d0" type="name" astParent="0x148c380"/>
+    <token id="0x148c380" file="converter.cpp" linenr="95" str="::" scope="0x14996d0" astParent="0x148c510" astOperand1="0x148c2d0" astOperand2="0x148c430"/>
+    <token id="0x148c430" file="converter.cpp" linenr="95" str="PointCloud2ConstPtr" scope="0x14996d0" type="name" astParent="0x148c380"/>
+    <token id="0x148c510" file="converter.cpp" linenr="95" str="&amp;" scope="0x14996d0" type="op" astParent="0x148c170" astOperand1="0x148c380" astOperand2="0x148c5c0"/>
+    <token id="0x148c5c0" file="converter.cpp" linenr="95" str="msg" scope="0x14996d0" type="name" varId="20" variable="0x149b750" astParent="0x148c510"/>
+    <token id="0x148c670" file="converter.cpp" linenr="95" str=")" scope="0x14996d0" link="0x148c170"/>
+    <token id="0x148c720" file="converter.cpp" linenr="96" str="{" scope="0x149a300" link="0x1491670"/>
+    <token id="0x148c7d0" file="converter.cpp" linenr="97" str="if" scope="0x149a300" type="name" astParent="0x148c880"/>
+    <token id="0x148c880" file="converter.cpp" linenr="97" str="(" scope="0x149a300" link="0x148cee0" astOperand1="0x148c7d0" astOperand2="0x148ccd0"/>
+    <token id="0x148c930" file="converter.cpp" linenr="97" str="pub_points_" scope="0x149a300" type="name" varId="5" variable="0x149afd0" astParent="0x148c9e0"/>
+    <token id="0x148c9e0" file="converter.cpp" linenr="97" str="." scope="0x149a300" astParent="0x148cb70" astOperand1="0x148c930" astOperand2="0x148ca90"/>
+    <token id="0x148ca90" file="converter.cpp" linenr="97" str="getNumSubscribers" scope="0x149a300" type="name" astParent="0x148c9e0"/>
+    <token id="0x148cb70" file="converter.cpp" linenr="97" str="(" scope="0x149a300" link="0x148cc20" astParent="0x148ccd0" astOperand1="0x148c9e0"/>
+    <token id="0x148cc20" file="converter.cpp" linenr="97" str=")" scope="0x149a300" link="0x148cb70"/>
+    <token id="0x148ccd0" file="converter.cpp" linenr="97" str="&lt;=" scope="0x149a300" type="op" isComparisonOp="True" astParent="0x148c880" astOperand1="0x148cb70" astOperand2="0x148ce30"/>
+    <token id="0x148ce30" file="converter.cpp" linenr="97" str="0" scope="0x149a300" type="number" isInt="True" values="0x148ce38" astParent="0x148ccd0"/>
+    <token id="0x148cee0" file="converter.cpp" linenr="97" str=")" scope="0x149a300" link="0x148c880"/>
+    <token id="0x148cf90" file="converter.cpp" linenr="98" str="{" scope="0x149a450" link="0x148d1a0"/>
+    <token id="0x148d040" file="converter.cpp" linenr="100" str="return" scope="0x149a450" type="name"/>
+    <token id="0x148d0f0" file="converter.cpp" linenr="100" str=";" scope="0x149a450"/>
+    <token id="0x148d1a0" file="converter.cpp" linenr="101" str="}" scope="0x149a450" link="0x148cf90"/>
+    <token id="0x148d250" file="converter.cpp" linenr="103" str="ROS_DEBUG" scope="0x149a300" type="name" astParent="0x148d300"/>
+    <token id="0x148d300" file="converter.cpp" linenr="103" str="(" scope="0x149a300" link="0x148ea30" astOperand1="0x148d250" astOperand2="0x148e2a0"/>
+    <token id="0x148d3e0" file="converter.cpp" linenr="103" str="&quot;[point_cloud_converter] Got a PointCloud2 with %d points (%s) on %s.&quot;" scope="0x149a300" type="string" strlen="68" values="0x148d3e8" astParent="0x148d4e0"/>
+    <token id="0x148d4e0" file="converter.cpp" linenr="103" str="," scope="0x149a300" astParent="0x148dbc0" astOperand1="0x148d3e0" astOperand2="0x148d850"/>
+    <token id="0x148d590" file="converter.cpp" linenr="103" str="msg" scope="0x149a300" type="name" varId="20" variable="0x149b750" astParent="0x148d640"/>
+    <token id="0x148d640" file="converter.cpp" linenr="103" str="." scope="0x149a300" astParent="0x148d850" astOperand1="0x148d590" astOperand2="0x148d7a0"/>
+    <token id="0x148d7a0" file="converter.cpp" linenr="103" str="width" scope="0x149a300" type="name" varId="21" astParent="0x148d640"/>
+    <token id="0x148d850" file="converter.cpp" linenr="103" str="*" scope="0x149a300" type="op" isArithmeticalOp="True" astParent="0x148d4e0" astOperand1="0x148d640" astOperand2="0x148d9b0"/>
+    <token id="0x148d900" file="converter.cpp" linenr="103" str="msg" scope="0x149a300" type="name" varId="20" variable="0x149b750" astParent="0x148d9b0"/>
+    <token id="0x148d9b0" file="converter.cpp" linenr="103" str="." scope="0x149a300" astParent="0x148d850" astOperand1="0x148d900" astOperand2="0x148db10"/>
+    <token id="0x148db10" file="converter.cpp" linenr="103" str="height" scope="0x149a300" type="name" varId="22" astParent="0x148d9b0"/>
+    <token id="0x148dbc0" file="converter.cpp" linenr="103" str="," scope="0x149a300" astParent="0x148e2a0" astOperand1="0x148d4e0" astOperand2="0x148e140"/>
+    <token id="0x148dc70" file="converter.cpp" linenr="103" str="getFieldsList" scope="0x149a300" type="name" function="0x1499ab0" astParent="0x148dd20"/>
+    <token id="0x148dd20" file="converter.cpp" linenr="103" str="(" scope="0x149a300" link="0x148df30" astParent="0x148dfe0" astOperand1="0x148dc70" astOperand2="0x148ddd0"/>
+    <token id="0x148ddd0" file="converter.cpp" linenr="103" str="*" scope="0x149a300" type="op" isArithmeticalOp="True" astParent="0x148dd20" astOperand1="0x148de80"/>
+    <token id="0x148de80" file="converter.cpp" linenr="103" str="msg" scope="0x149a300" type="name" varId="20" variable="0x149b750" astParent="0x148ddd0"/>
+    <token id="0x148df30" file="converter.cpp" linenr="103" str=")" scope="0x149a300" link="0x148dd20"/>
+    <token id="0x148dfe0" file="converter.cpp" linenr="103" str="." scope="0x149a300" astParent="0x148e140" astOperand1="0x148dd20" astOperand2="0x148e090"/>
+    <token id="0x148e090" file="converter.cpp" linenr="103" str="c_str" scope="0x149a300" type="name" astParent="0x148dfe0"/>
+    <token id="0x148e140" file="converter.cpp" linenr="103" str="(" scope="0x149a300" link="0x148e1f0" astParent="0x148dbc0" astOperand1="0x148dfe0"/>
+    <token id="0x148e1f0" file="converter.cpp" linenr="103" str=")" scope="0x149a300" link="0x148e140"/>
+    <token id="0x148e2a0" file="converter.cpp" linenr="103" str="," scope="0x149a300" astParent="0x148d300" astOperand1="0x148dbc0" astOperand2="0x148e8d0"/>
+    <token id="0x148e350" file="converter.cpp" linenr="103" str="nh_" scope="0x149a300" type="name" varId="2" variable="0x149ae80" astParent="0x148e400"/>
+    <token id="0x148e400" file="converter.cpp" linenr="103" str="." scope="0x149a300" astParent="0x148e560" astOperand1="0x148e350" astOperand2="0x148e4b0"/>
+    <token id="0x148e4b0" file="converter.cpp" linenr="103" str="resolveName" scope="0x149a300" type="name" astParent="0x148e400"/>
+    <token id="0x148e560" file="converter.cpp" linenr="103" str="(" scope="0x149a300" link="0x148e6c0" astParent="0x148e770" astOperand1="0x148e400" astOperand2="0x148e610"/>
+    <token id="0x148e610" file="converter.cpp" linenr="103" str="points2_in_" scope="0x149a300" type="name" varId="9" variable="0x149b190" astParent="0x148e560"/>
+    <token id="0x148e6c0" file="converter.cpp" linenr="103" str=")" scope="0x149a300" link="0x148e560"/>
+    <token id="0x148e770" file="converter.cpp" linenr="103" str="." scope="0x149a300" astParent="0x148e8d0" astOperand1="0x148e560" astOperand2="0x148e820"/>
+    <token id="0x148e820" file="converter.cpp" linenr="103" str="c_str" scope="0x149a300" type="name" astParent="0x148e770"/>
+    <token id="0x148e8d0" file="converter.cpp" linenr="103" str="(" scope="0x149a300" link="0x148e980" astParent="0x148e2a0" astOperand1="0x148e770"/>
+    <token id="0x148e980" file="converter.cpp" linenr="103" str=")" scope="0x149a300" link="0x148e8d0"/>
+    <token id="0x148ea30" file="converter.cpp" linenr="103" str=")" scope="0x149a300" link="0x148d300"/>
+    <token id="0x148eae0" file="converter.cpp" linenr="103" str=";" scope="0x149a300"/>
+    <token id="0x148eb90" file="converter.cpp" linenr="105" str="sensor_msgs" scope="0x149a300" type="name" astParent="0x148ec40"/>
+    <token id="0x148ec40" file="converter.cpp" linenr="105" str="::" scope="0x149a300" astOperand1="0x148eb90" astOperand2="0x148eda0"/>
+    <token id="0x148ecf0" file="converter.cpp" linenr="105" str="PointCloud" scope="0x149a300" type="name"/>
+    <token id="0x148eda0" file="converter.cpp" linenr="105" str="output" scope="0x149a300" type="name" varId="23" variable="0x149b3f0" astParent="0x148ec40"/>
+    <token id="0x148ee50" file="converter.cpp" linenr="105" str=";" scope="0x149a300"/>
+    <token id="0x148ef00" file="converter.cpp" linenr="107" str="if" scope="0x149a300" type="name" astParent="0x148efb0"/>
+    <token id="0x148efb0" file="converter.cpp" linenr="107" str="(" scope="0x149a300" link="0x148f770" astOperand1="0x148ef00" astOperand2="0x148f060"/>
+    <token id="0x148f060" file="converter.cpp" linenr="107" str="!" scope="0x149a300" type="op" isLogicalOp="True" astParent="0x148efb0" astOperand1="0x148f350"/>
+    <token id="0x148f110" file="converter.cpp" linenr="107" str="sensor_msgs" scope="0x149a300" type="name" astParent="0x148f1c0"/>
+    <token id="0x148f1c0" file="converter.cpp" linenr="107" str="::" scope="0x149a300" astParent="0x148f350" astOperand1="0x148f110" astOperand2="0x148f270"/>
+    <token id="0x148f270" file="converter.cpp" linenr="107" str="convertPointCloud2ToPointCloud" scope="0x149a300" type="name" astParent="0x148f1c0"/>
+    <token id="0x148f350" file="converter.cpp" linenr="107" str="(" scope="0x149a300" link="0x148f6c0" astParent="0x148f060" astOperand1="0x148f1c0" astOperand2="0x148f560"/>
+    <token id="0x148f400" file="converter.cpp" linenr="107" str="*" scope="0x149a300" type="op" isArithmeticalOp="True" astParent="0x148f560" astOperand1="0x148f4b0"/>
+    <token id="0x148f4b0" file="converter.cpp" linenr="107" str="msg" scope="0x149a300" type="name" varId="20" variable="0x149b750" astParent="0x148f400"/>
+    <token id="0x148f560" file="converter.cpp" linenr="107" str="," scope="0x149a300" astParent="0x148f350" astOperand1="0x148f400" astOperand2="0x148f610"/>
+    <token id="0x148f610" file="converter.cpp" linenr="107" str="output" scope="0x149a300" type="name" varId="23" variable="0x149b3f0" astParent="0x148f560"/>
+    <token id="0x148f6c0" file="converter.cpp" linenr="107" str=")" scope="0x149a300" link="0x148f350"/>
+    <token id="0x148f770" file="converter.cpp" linenr="107" str=")" scope="0x149a300" link="0x148efb0"/>
+    <token id="0x148f820" file="converter.cpp" linenr="108" str="{" scope="0x149a5a0" link="0x148fe10"/>
+    <token id="0x148f8d0" file="converter.cpp" linenr="109" str="ROS_ERROR" scope="0x149a5a0" type="name" astParent="0x148f980"/>
+    <token id="0x148f980" file="converter.cpp" linenr="109" str="(" scope="0x149a5a0" link="0x148fb50" astOperand1="0x148f8d0" astOperand2="0x148fa30"/>
+    <token id="0x148fa30" file="converter.cpp" linenr="109" str="&quot;[point_cloud_converter] Conversion from sensor_msgs::PointCloud2 to sensor_msgs::PointCloud failed!&quot;" scope="0x149a5a0" type="string" strlen="99" values="0x148fa38" astParent="0x148f980"/>
+    <token id="0x148fb50" file="converter.cpp" linenr="109" str=")" scope="0x149a5a0" link="0x148f980"/>
+    <token id="0x148fc00" file="converter.cpp" linenr="109" str=";" scope="0x149a5a0"/>
+    <token id="0x148fcb0" file="converter.cpp" linenr="110" str="return" scope="0x149a5a0" type="name"/>
+    <token id="0x148fd60" file="converter.cpp" linenr="110" str=";" scope="0x149a5a0"/>
+    <token id="0x148fe10" file="converter.cpp" linenr="111" str="}" scope="0x149a5a0" link="0x148f820"/>
+    <token id="0x148fec0" file="converter.cpp" linenr="112" str="ROS_DEBUG" scope="0x149a300" type="name" astParent="0x148ff70"/>
+    <token id="0x148ff70" file="converter.cpp" linenr="112" str="(" scope="0x149a300" link="0x1491040" astOperand1="0x148fec0" astOperand2="0x14908b0"/>
+    <token id="0x1490020" file="converter.cpp" linenr="112" str="&quot;[point_cloud_converter] Publishing a PointCloud with %d points on %s.&quot;" scope="0x149a300" type="string" strlen="69" values="0x1490028" astParent="0x1490120"/>
+    <token id="0x1490120" file="converter.cpp" linenr="112" str="," scope="0x149a300" astParent="0x14908b0" astOperand1="0x1490020" astOperand2="0x14901d0"/>
+    <token id="0x14901d0" file="converter.cpp" linenr="112" str="(" scope="0x149a300" link="0x1490330" astParent="0x1490120" astOperand1="0x1490750"/>
+    <token id="0x1490280" file="converter.cpp" linenr="112" str="int" scope="0x149a300" type="name"/>
+    <token id="0x1490330" file="converter.cpp" linenr="112" str=")" scope="0x149a300" link="0x14901d0"/>
+    <token id="0x14903e0" file="converter.cpp" linenr="112" str="output" scope="0x149a300" type="name" varId="23" variable="0x149b3f0" astParent="0x1490490"/>
+    <token id="0x1490490" file="converter.cpp" linenr="112" str="." scope="0x149a300" astParent="0x14905f0" astOperand1="0x14903e0" astOperand2="0x1490540"/>
+    <token id="0x1490540" file="converter.cpp" linenr="112" str="points" scope="0x149a300" type="name" varId="24" astParent="0x1490490"/>
+    <token id="0x14905f0" file="converter.cpp" linenr="112" str="." scope="0x149a300" astParent="0x1490750" astOperand1="0x1490490" astOperand2="0x14906a0"/>
+    <token id="0x14906a0" file="converter.cpp" linenr="112" str="size" scope="0x149a300" type="name" astParent="0x14905f0"/>
+    <token id="0x1490750" file="converter.cpp" linenr="112" str="(" scope="0x149a300" link="0x1490800" astParent="0x14901d0" astOperand1="0x14905f0"/>
+    <token id="0x1490800" file="converter.cpp" linenr="112" str=")" scope="0x149a300" link="0x1490750"/>
+    <token id="0x14908b0" file="converter.cpp" linenr="112" str="," scope="0x149a300" astParent="0x148ff70" astOperand1="0x1490120" astOperand2="0x1490ee0"/>
+    <token id="0x1490960" file="converter.cpp" linenr="112" str="nh_" scope="0x149a300" type="name" varId="2" variable="0x149ae80" astParent="0x1490a10"/>
+    <token id="0x1490a10" file="converter.cpp" linenr="112" str="." scope="0x149a300" astParent="0x1490b70" astOperand1="0x1490960" astOperand2="0x1490ac0"/>
+    <token id="0x1490ac0" file="converter.cpp" linenr="112" str="resolveName" scope="0x149a300" type="name" astParent="0x1490a10"/>
+    <token id="0x1490b70" file="converter.cpp" linenr="112" str="(" scope="0x149a300" link="0x1490cd0" astParent="0x1490d80" astOperand1="0x1490a10" astOperand2="0x1490c20"/>
+    <token id="0x1490c20" file="converter.cpp" linenr="112" str="points_out_" scope="0x149a300" type="name" varId="10" variable="0x149b200" astParent="0x1490b70"/>
+    <token id="0x1490cd0" file="converter.cpp" linenr="112" str=")" scope="0x149a300" link="0x1490b70"/>
+    <token id="0x1490d80" file="converter.cpp" linenr="112" str="." scope="0x149a300" astParent="0x1490ee0" astOperand1="0x1490b70" astOperand2="0x1490e30"/>
+    <token id="0x1490e30" file="converter.cpp" linenr="112" str="c_str" scope="0x149a300" type="name" astParent="0x1490d80"/>
+    <token id="0x1490ee0" file="converter.cpp" linenr="112" str="(" scope="0x149a300" link="0x1490f90" astParent="0x14908b0" astOperand1="0x1490d80"/>
+    <token id="0x1490f90" file="converter.cpp" linenr="112" str=")" scope="0x149a300" link="0x1490ee0"/>
+    <token id="0x1491040" file="converter.cpp" linenr="112" str=")" scope="0x149a300" link="0x148ff70"/>
+    <token id="0x14910f0" file="converter.cpp" linenr="112" str=";" scope="0x149a300"/>
+    <token id="0x14911a0" file="converter.cpp" linenr="113" str="pub_points_" scope="0x149a300" type="name" varId="5" variable="0x149afd0" astParent="0x1491250"/>
+    <token id="0x1491250" file="converter.cpp" linenr="113" str="." scope="0x149a300" astParent="0x14913b0" astOperand1="0x14911a0" astOperand2="0x1491300"/>
+    <token id="0x1491300" file="converter.cpp" linenr="113" str="publish" scope="0x149a300" type="name" astParent="0x1491250"/>
+    <token id="0x14913b0" file="converter.cpp" linenr="113" str="(" scope="0x149a300" link="0x1491510" astOperand1="0x1491250" astOperand2="0x1491460"/>
+    <token id="0x1491460" file="converter.cpp" linenr="113" str="output" scope="0x149a300" type="name" varId="23" variable="0x149b3f0" astParent="0x14913b0"/>
+    <token id="0x1491510" file="converter.cpp" linenr="113" str=")" scope="0x149a300" link="0x14913b0"/>
+    <token id="0x14915c0" file="converter.cpp" linenr="113" str=";" scope="0x149a300"/>
+    <token id="0x1491670" file="converter.cpp" linenr="114" str="}" scope="0x149a300" link="0x148c720"/>
+    <token id="0x1491720" file="converter.cpp" linenr="117" str="void" scope="0x14996d0" type="name"/>
+    <token id="0x14917d0" file="converter.cpp" linenr="118" str="cloud_cb_points" scope="0x14996d0" type="name" function="0x149a6f0" astParent="0x1491880"/>
+    <token id="0x1491880" file="converter.cpp" linenr="118" str="(" scope="0x14996d0" link="0x1491d50" astOperand1="0x14917d0" astOperand2="0x1491bf0"/>
+    <token id="0x1491930" file="converter.cpp" linenr="118" str="const" scope="0x14996d0" type="name"/>
+    <token id="0x14919e0" file="converter.cpp" linenr="118" str="sensor_msgs" scope="0x14996d0" type="name" astParent="0x1491a90"/>
+    <token id="0x1491a90" file="converter.cpp" linenr="118" str="::" scope="0x14996d0" astParent="0x1491bf0" astOperand1="0x14919e0" astOperand2="0x1491b40"/>
+    <token id="0x1491b40" file="converter.cpp" linenr="118" str="PointCloudConstPtr" scope="0x14996d0" type="name" astParent="0x1491a90"/>
+    <token id="0x1491bf0" file="converter.cpp" linenr="118" str="&amp;" scope="0x14996d0" type="op" astParent="0x1491880" astOperand1="0x1491a90" astOperand2="0x1491ca0"/>
+    <token id="0x1491ca0" file="converter.cpp" linenr="118" str="msg" scope="0x14996d0" type="name" varId="25" variable="0x149b7c0" astParent="0x1491bf0"/>
+    <token id="0x1491d50" file="converter.cpp" linenr="118" str=")" scope="0x14996d0" link="0x1491880"/>
+    <token id="0x1491e00" file="converter.cpp" linenr="119" str="{" scope="0x149a7e0" link="0x1496d10"/>
+    <token id="0x1491eb0" file="converter.cpp" linenr="120" str="if" scope="0x149a7e0" type="name" astParent="0x1491f60"/>
+    <token id="0x1491f60" file="converter.cpp" linenr="120" str="(" scope="0x149a7e0" link="0x14925c0" astOperand1="0x1491eb0" astOperand2="0x14923b0"/>
+    <token id="0x1492010" file="converter.cpp" linenr="120" str="pub_points2_" scope="0x149a7e0" type="name" varId="6" variable="0x149b040" astParent="0x14920c0"/>
+    <token id="0x14920c0" file="converter.cpp" linenr="120" str="." scope="0x149a7e0" astParent="0x1492250" astOperand1="0x1492010" astOperand2="0x1492170"/>
+    <token id="0x1492170" file="converter.cpp" linenr="120" str="getNumSubscribers" scope="0x149a7e0" type="name" astParent="0x14920c0"/>
+    <token id="0x1492250" file="converter.cpp" linenr="120" str="(" scope="0x149a7e0" link="0x1492300" astParent="0x14923b0" astOperand1="0x14920c0"/>
+    <token id="0x1492300" file="converter.cpp" linenr="120" str=")" scope="0x149a7e0" link="0x1492250"/>
+    <token id="0x14923b0" file="converter.cpp" linenr="120" str="&lt;=" scope="0x149a7e0" type="op" isComparisonOp="True" astParent="0x1491f60" astOperand1="0x1492250" astOperand2="0x1492510"/>
+    <token id="0x1492510" file="converter.cpp" linenr="120" str="0" scope="0x149a7e0" type="number" isInt="True" values="0x1492518" astParent="0x14923b0"/>
+    <token id="0x14925c0" file="converter.cpp" linenr="120" str=")" scope="0x149a7e0" link="0x1491f60"/>
+    <token id="0x1492670" file="converter.cpp" linenr="121" str="{" scope="0x149a930" link="0x1492880"/>
+    <token id="0x1492720" file="converter.cpp" linenr="123" str="return" scope="0x149a930" type="name"/>
+    <token id="0x14927d0" file="converter.cpp" linenr="123" str=";" scope="0x149a930"/>
+    <token id="0x1492880" file="converter.cpp" linenr="124" str="}" scope="0x149a930" link="0x1492670"/>
+    <token id="0x1492930" file="converter.cpp" linenr="126" str="ROS_DEBUG" scope="0x149a7e0" type="name" astParent="0x14929e0"/>
+    <token id="0x14929e0" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1494270" astOperand1="0x1492930" astOperand2="0x1493ae0"/>
+    <token id="0x1492ac0" file="converter.cpp" linenr="126" str="&quot;[point_cloud_converter] Got a PointCloud with %d points (%s) on %s.&quot;" scope="0x149a7e0" type="string" strlen="67" values="0x1492ac8" astParent="0x1492bc0"/>
+    <token id="0x1492bc0" file="converter.cpp" linenr="126" str="," scope="0x149a7e0" astParent="0x1493400" astOperand1="0x1492ac0" astOperand2="0x1492c70"/>
+    <token id="0x1492c70" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1492dd0" astParent="0x1492bc0" astOperand1="0x14932a0"/>
+    <token id="0x1492d20" file="converter.cpp" linenr="126" str="int" scope="0x149a7e0" type="name"/>
+    <token id="0x1492dd0" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x1492c70"/>
+    <token id="0x1492e80" file="converter.cpp" linenr="126" str="msg" scope="0x149a7e0" type="name" varId="25" variable="0x149b7c0" astParent="0x1492f30"/>
+    <token id="0x1492f30" file="converter.cpp" linenr="126" str="." scope="0x149a7e0" astParent="0x1493140" astOperand1="0x1492e80" astOperand2="0x1493090"/>
+    <token id="0x1493090" file="converter.cpp" linenr="126" str="points" scope="0x149a7e0" type="name" varId="26" astParent="0x1492f30"/>
+    <token id="0x1493140" file="converter.cpp" linenr="126" str="." scope="0x149a7e0" astParent="0x14932a0" astOperand1="0x1492f30" astOperand2="0x14931f0"/>
+    <token id="0x14931f0" file="converter.cpp" linenr="126" str="size" scope="0x149a7e0" type="name" astParent="0x1493140"/>
+    <token id="0x14932a0" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1493350" astParent="0x1492c70" astOperand1="0x1493140"/>
+    <token id="0x1493350" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x14932a0"/>
+    <token id="0x1493400" file="converter.cpp" linenr="126" str="," scope="0x149a7e0" astParent="0x1493ae0" astOperand1="0x1492bc0" astOperand2="0x1493980"/>
+    <token id="0x14934b0" file="converter.cpp" linenr="126" str="getFieldsList" scope="0x149a7e0" type="name" function="0x1499ab0" astParent="0x1493560"/>
+    <token id="0x1493560" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1493770" astParent="0x1493820" astOperand1="0x14934b0" astOperand2="0x1493610"/>
+    <token id="0x1493610" file="converter.cpp" linenr="126" str="*" scope="0x149a7e0" type="op" isArithmeticalOp="True" astParent="0x1493560" astOperand1="0x14936c0"/>
+    <token id="0x14936c0" file="converter.cpp" linenr="126" str="msg" scope="0x149a7e0" type="name" varId="25" variable="0x149b7c0" astParent="0x1493610"/>
+    <token id="0x1493770" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x1493560"/>
+    <token id="0x1493820" file="converter.cpp" linenr="126" str="." scope="0x149a7e0" astParent="0x1493980" astOperand1="0x1493560" astOperand2="0x14938d0"/>
+    <token id="0x14938d0" file="converter.cpp" linenr="126" str="c_str" scope="0x149a7e0" type="name" astParent="0x1493820"/>
+    <token id="0x1493980" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1493a30" astParent="0x1493400" astOperand1="0x1493820"/>
+    <token id="0x1493a30" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x1493980"/>
+    <token id="0x1493ae0" file="converter.cpp" linenr="126" str="," scope="0x149a7e0" astParent="0x14929e0" astOperand1="0x1493400" astOperand2="0x1494110"/>
+    <token id="0x1493b90" file="converter.cpp" linenr="126" str="nh_" scope="0x149a7e0" type="name" varId="2" variable="0x149ae80" astParent="0x1493c40"/>
+    <token id="0x1493c40" file="converter.cpp" linenr="126" str="." scope="0x149a7e0" astParent="0x1493da0" astOperand1="0x1493b90" astOperand2="0x1493cf0"/>
+    <token id="0x1493cf0" file="converter.cpp" linenr="126" str="resolveName" scope="0x149a7e0" type="name" astParent="0x1493c40"/>
+    <token id="0x1493da0" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x1493f00" astParent="0x1493fb0" astOperand1="0x1493c40" astOperand2="0x1493e50"/>
+    <token id="0x1493e50" file="converter.cpp" linenr="126" str="points_in_" scope="0x149a7e0" type="name" varId="8" variable="0x149b120" astParent="0x1493da0"/>
+    <token id="0x1493f00" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x1493da0"/>
+    <token id="0x1493fb0" file="converter.cpp" linenr="126" str="." scope="0x149a7e0" astParent="0x1494110" astOperand1="0x1493da0" astOperand2="0x1494060"/>
+    <token id="0x1494060" file="converter.cpp" linenr="126" str="c_str" scope="0x149a7e0" type="name" astParent="0x1493fb0"/>
+    <token id="0x1494110" file="converter.cpp" linenr="126" str="(" scope="0x149a7e0" link="0x14941c0" astParent="0x1493ae0" astOperand1="0x1493fb0"/>
+    <token id="0x14941c0" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x1494110"/>
+    <token id="0x1494270" file="converter.cpp" linenr="126" str=")" scope="0x149a7e0" link="0x14929e0"/>
+    <token id="0x1494320" file="converter.cpp" linenr="126" str=";" scope="0x149a7e0"/>
+    <token id="0x14943d0" file="converter.cpp" linenr="128" str="sensor_msgs" scope="0x149a7e0" type="name" astParent="0x1494480"/>
+    <token id="0x1494480" file="converter.cpp" linenr="128" str="::" scope="0x149a7e0" astOperand1="0x14943d0" astOperand2="0x14945e0"/>
+    <token id="0x1494530" file="converter.cpp" linenr="128" str="PointCloud2" scope="0x149a7e0" type="name"/>
+    <token id="0x14945e0" file="converter.cpp" linenr="128" str="output" scope="0x149a7e0" type="name" varId="27" variable="0x149b460" astParent="0x1494480"/>
+    <token id="0x1494690" file="converter.cpp" linenr="128" str=";" scope="0x149a7e0"/>
+    <token id="0x1494740" file="converter.cpp" linenr="130" str="if" scope="0x149a7e0" type="name" astParent="0x14947f0"/>
+    <token id="0x14947f0" file="converter.cpp" linenr="130" str="(" scope="0x149a7e0" link="0x1494fb0" astOperand1="0x1494740" astOperand2="0x14948a0"/>
+    <token id="0x14948a0" file="converter.cpp" linenr="130" str="!" scope="0x149a7e0" type="op" isLogicalOp="True" astParent="0x14947f0" astOperand1="0x1494b90"/>
+    <token id="0x1494950" file="converter.cpp" linenr="130" str="sensor_msgs" scope="0x149a7e0" type="name" astParent="0x1494a00"/>
+    <token id="0x1494a00" file="converter.cpp" linenr="130" str="::" scope="0x149a7e0" astParent="0x1494b90" astOperand1="0x1494950" astOperand2="0x1494ab0"/>
+    <token id="0x1494ab0" file="converter.cpp" linenr="130" str="convertPointCloudToPointCloud2" scope="0x149a7e0" type="name" astParent="0x1494a00"/>
+    <token id="0x1494b90" file="converter.cpp" linenr="130" str="(" scope="0x149a7e0" link="0x1494f00" astParent="0x14948a0" astOperand1="0x1494a00" astOperand2="0x1494da0"/>
+    <token id="0x1494c40" file="converter.cpp" linenr="130" str="*" scope="0x149a7e0" type="op" isArithmeticalOp="True" astParent="0x1494da0" astOperand1="0x1494cf0"/>
+    <token id="0x1494cf0" file="converter.cpp" linenr="130" str="msg" scope="0x149a7e0" type="name" varId="25" variable="0x149b7c0" astParent="0x1494c40"/>
+    <token id="0x1494da0" file="converter.cpp" linenr="130" str="," scope="0x149a7e0" astParent="0x1494b90" astOperand1="0x1494c40" astOperand2="0x1494e50"/>
+    <token id="0x1494e50" file="converter.cpp" linenr="130" str="output" scope="0x149a7e0" type="name" varId="27" variable="0x149b460" astParent="0x1494da0"/>
+    <token id="0x1494f00" file="converter.cpp" linenr="130" str=")" scope="0x149a7e0" link="0x1494b90"/>
+    <token id="0x1494fb0" file="converter.cpp" linenr="130" str=")" scope="0x149a7e0" link="0x14947f0"/>
+    <token id="0x1495060" file="converter.cpp" linenr="131" str="{" scope="0x149aa80" link="0x1495650"/>
+    <token id="0x1495110" file="converter.cpp" linenr="132" str="ROS_ERROR" scope="0x149aa80" type="name" astParent="0x14951c0"/>
+    <token id="0x14951c0" file="converter.cpp" linenr="132" str="(" scope="0x149aa80" link="0x1495390" astOperand1="0x1495110" astOperand2="0x1495270"/>
+    <token id="0x1495270" file="converter.cpp" linenr="132" str="&quot;[point_cloud_converter] Conversion from sensor_msgs::PointCloud to sensor_msgs::PointCloud2 failed!&quot;" scope="0x149aa80" type="string" strlen="99" values="0x1495278" astParent="0x14951c0"/>
+    <token id="0x1495390" file="converter.cpp" linenr="132" str=")" scope="0x149aa80" link="0x14951c0"/>
+    <token id="0x1495440" file="converter.cpp" linenr="132" str=";" scope="0x149aa80"/>
+    <token id="0x14954f0" file="converter.cpp" linenr="133" str="return" scope="0x149aa80" type="name"/>
+    <token id="0x14955a0" file="converter.cpp" linenr="133" str=";" scope="0x149aa80"/>
+    <token id="0x1495650" file="converter.cpp" linenr="134" str="}" scope="0x149aa80" link="0x1495060"/>
+    <token id="0x1495700" file="converter.cpp" linenr="135" str="ROS_DEBUG" scope="0x149a7e0" type="name" astParent="0x14957b0"/>
+    <token id="0x14957b0" file="converter.cpp" linenr="135" str="(" scope="0x149a7e0" link="0x14966e0" astOperand1="0x1495700" astOperand2="0x1495f50"/>
+    <token id="0x14958c0" file="converter.cpp" linenr="135" str="&quot;[point_cloud_converter] Publishing a PointCloud2 with %d points on %s.&quot;" scope="0x149a7e0" type="string" strlen="70" values="0x14958c8" astParent="0x14959d0"/>
+    <token id="0x14959d0" file="converter.cpp" linenr="135" str="," scope="0x149a7e0" astParent="0x1495f50" astOperand1="0x14958c0" astOperand2="0x1495c90"/>
+    <token id="0x1495a80" file="converter.cpp" linenr="135" str="output" scope="0x149a7e0" type="name" varId="27" variable="0x149b460" astParent="0x1495b30"/>
+    <token id="0x1495b30" file="converter.cpp" linenr="135" str="." scope="0x149a7e0" astParent="0x1495c90" astOperand1="0x1495a80" astOperand2="0x1495be0"/>
+    <token id="0x1495be0" file="converter.cpp" linenr="135" str="height" scope="0x149a7e0" type="name" varId="28" astParent="0x1495b30"/>
+    <token id="0x1495c90" file="converter.cpp" linenr="135" str="*" scope="0x149a7e0" type="op" isArithmeticalOp="True" astParent="0x14959d0" astOperand1="0x1495b30" astOperand2="0x1495df0"/>
+    <token id="0x1495d40" file="converter.cpp" linenr="135" str="output" scope="0x149a7e0" type="name" varId="27" variable="0x149b460" astParent="0x1495df0"/>
+    <token id="0x1495df0" file="converter.cpp" linenr="135" str="." scope="0x149a7e0" astParent="0x1495c90" astOperand1="0x1495d40" astOperand2="0x1495ea0"/>
+    <token id="0x1495ea0" file="converter.cpp" linenr="135" str="width" scope="0x149a7e0" type="name" varId="29" astParent="0x1495df0"/>
+    <token id="0x1495f50" file="converter.cpp" linenr="135" str="," scope="0x149a7e0" astParent="0x14957b0" astOperand1="0x14959d0" astOperand2="0x1496580"/>
+    <token id="0x1496000" file="converter.cpp" linenr="135" str="nh_" scope="0x149a7e0" type="name" varId="2" variable="0x149ae80" astParent="0x14960b0"/>
+    <token id="0x14960b0" file="converter.cpp" linenr="135" str="." scope="0x149a7e0" astParent="0x1496210" astOperand1="0x1496000" astOperand2="0x1496160"/>
+    <token id="0x1496160" file="converter.cpp" linenr="135" str="resolveName" scope="0x149a7e0" type="name" astParent="0x14960b0"/>
+    <token id="0x1496210" file="converter.cpp" linenr="135" str="(" scope="0x149a7e0" link="0x1496370" astParent="0x1496420" astOperand1="0x14960b0" astOperand2="0x14962c0"/>
+    <token id="0x14962c0" file="converter.cpp" linenr="135" str="points2_out_" scope="0x149a7e0" type="name" varId="11" variable="0x149b270" astParent="0x1496210"/>
+    <token id="0x1496370" file="converter.cpp" linenr="135" str=")" scope="0x149a7e0" link="0x1496210"/>
+    <token id="0x1496420" file="converter.cpp" linenr="135" str="." scope="0x149a7e0" astParent="0x1496580" astOperand1="0x1496210" astOperand2="0x14964d0"/>
+    <token id="0x14964d0" file="converter.cpp" linenr="135" str="c_str" scope="0x149a7e0" type="name" astParent="0x1496420"/>
+    <token id="0x1496580" file="converter.cpp" linenr="135" str="(" scope="0x149a7e0" link="0x1496630" astParent="0x1495f50" astOperand1="0x1496420"/>
+    <token id="0x1496630" file="converter.cpp" linenr="135" str=")" scope="0x149a7e0" link="0x1496580"/>
+    <token id="0x14966e0" file="converter.cpp" linenr="135" str=")" scope="0x149a7e0" link="0x14957b0"/>
+    <token id="0x1496790" file="converter.cpp" linenr="135" str=";" scope="0x149a7e0"/>
+    <token id="0x1496840" file="converter.cpp" linenr="136" str="pub_points2_" scope="0x149a7e0" type="name" varId="6" variable="0x149b040" astParent="0x14968f0"/>
+    <token id="0x14968f0" file="converter.cpp" linenr="136" str="." scope="0x149a7e0" astParent="0x1496a50" astOperand1="0x1496840" astOperand2="0x14969a0"/>
+    <token id="0x14969a0" file="converter.cpp" linenr="136" str="publish" scope="0x149a7e0" type="name" astParent="0x14968f0"/>
+    <token id="0x1496a50" file="converter.cpp" linenr="136" str="(" scope="0x149a7e0" link="0x1496bb0" astOperand1="0x14968f0" astOperand2="0x1496b00"/>
+    <token id="0x1496b00" file="converter.cpp" linenr="136" str="output" scope="0x149a7e0" type="name" varId="27" variable="0x149b460" astParent="0x1496a50"/>
+    <token id="0x1496bb0" file="converter.cpp" linenr="136" str=")" scope="0x149a7e0" link="0x1496a50"/>
+    <token id="0x1496c60" file="converter.cpp" linenr="136" str=";" scope="0x149a7e0"/>
+    <token id="0x1496d10" file="converter.cpp" linenr="137" str="}" scope="0x149a7e0" link="0x1491e00"/>
+    <token id="0x1496dc0" file="converter.cpp" linenr="139" str="}" scope="0x14996d0" link="0x1478ad0"/>
+    <token id="0x1496e70" file="converter.cpp" linenr="139" str=";" scope="0x14787c0"/>
+    <token id="0x1496f20" file="converter.cpp" linenr="142" str="int" scope="0x14787c0" type="name"/>
+    <token id="0x1496fd0" file="converter.cpp" linenr="143" str="main" scope="0x14787c0" type="name" function="0x149abd0" astParent="0x1497080"/>
+    <token id="0x1497080" file="converter.cpp" linenr="143" str="(" scope="0x14787c0" link="0x1497600" astOperand1="0x1496fd0" astOperand2="0x1497290"/>
+    <token id="0x1497130" file="converter.cpp" linenr="143" str="int" scope="0x14787c0" type="name"/>
+    <token id="0x14971e0" file="converter.cpp" linenr="143" str="argc" scope="0x14787c0" type="name" varId="30" variable="0x149b560" astParent="0x1497290"/>
+    <token id="0x1497290" file="converter.cpp" linenr="143" str="," scope="0x14787c0" astParent="0x1497080" astOperand1="0x14971e0" astOperand2="0x14973f0"/>
+    <token id="0x1497340" file="converter.cpp" linenr="143" str="char" scope="0x14787c0" type="name" astParent="0x14973f0"/>
+    <token id="0x14973f0" file="converter.cpp" linenr="143" str="*" scope="0x14787c0" type="op" isArithmeticalOp="True" astParent="0x1497290" astOperand1="0x1497340" astOperand2="0x14974a0"/>
+    <token id="0x14974a0" file="converter.cpp" linenr="143" str="*" scope="0x14787c0" type="op" isArithmeticalOp="True" astParent="0x14973f0" astOperand1="0x1497550"/>
+    <token id="0x1497550" file="converter.cpp" linenr="143" str="argv" scope="0x14787c0" type="name" varId="31" variable="0x149b5d0" astParent="0x14974a0"/>
+    <token id="0x1497600" file="converter.cpp" linenr="143" str=")" scope="0x14787c0" link="0x1497080"/>
+    <token id="0x14976b0" file="converter.cpp" linenr="144" str="{" scope="0x149acc0" link="0x1498ce0"/>
+    <token id="0x1497760" file="converter.cpp" linenr="146" str="ros" scope="0x149acc0" type="name" astParent="0x1497810"/>
+    <token id="0x1497810" file="converter.cpp" linenr="146" str="::" scope="0x149acc0" astParent="0x1497970" astOperand1="0x1497760" astOperand2="0x14978c0"/>
+    <token id="0x14978c0" file="converter.cpp" linenr="146" str="init" scope="0x149acc0" type="name" astParent="0x1497810"/>
+    <token id="0x1497970" file="converter.cpp" linenr="146" str="(" scope="0x149acc0" link="0x14981e0" astOperand1="0x1497810" astOperand2="0x1497dc0"/>
+    <token id="0x1497a20" file="converter.cpp" linenr="146" str="argc" scope="0x149acc0" type="name" varId="30" variable="0x149b560" astParent="0x1497ad0"/>
+    <token id="0x1497ad0" file="converter.cpp" linenr="146" str="," scope="0x149acc0" astParent="0x1497c30" astOperand1="0x1497a20" astOperand2="0x1497b80"/>
+    <token id="0x1497b80" file="converter.cpp" linenr="146" str="argv" scope="0x149acc0" type="name" varId="31" variable="0x149b5d0" astParent="0x1497ad0"/>
+    <token id="0x1497c30" file="converter.cpp" linenr="146" str="," scope="0x149acc0" astParent="0x1497dc0" astOperand1="0x1497ad0" astOperand2="0x1497ce0"/>
+    <token id="0x1497ce0" file="converter.cpp" linenr="146" str="&quot;point_cloud_converter&quot;" scope="0x149acc0" type="string" strlen="21" values="0x1497ce8" astParent="0x1497c30"/>
+    <token id="0x1497dc0" file="converter.cpp" linenr="146" str="," scope="0x149acc0" astParent="0x1497970" astOperand1="0x1497c30" astOperand2="0x1498080"/>
+    <token id="0x1497e70" file="converter.cpp" linenr="146" str="ros" scope="0x149acc0" type="name" astParent="0x1497f20"/>
+    <token id="0x1497f20" file="converter.cpp" linenr="146" str="::" scope="0x149acc0" astParent="0x1498080" astOperand1="0x1497e70" astOperand2="0x1497fd0"/>
+    <token id="0x1497fd0" file="converter.cpp" linenr="146" str="init_options" scope="0x149acc0" type="name" astParent="0x1497f20"/>
+    <token id="0x1498080" file="converter.cpp" linenr="146" str="::" scope="0x149acc0" astParent="0x1497dc0" astOperand1="0x1497f20" astOperand2="0x1498130"/>
+    <token id="0x1498130" file="converter.cpp" linenr="146" str="AnonymousName" scope="0x149acc0" type="name" astParent="0x1498080"/>
+    <token id="0x14981e0" file="converter.cpp" linenr="146" str=")" scope="0x149acc0" link="0x1497970"/>
+    <token id="0x1498290" file="converter.cpp" linenr="146" str=";" scope="0x149acc0"/>
+    <token id="0x1498340" file="converter.cpp" linenr="148" str="PointCloudConverter" scope="0x149acc0" type="name" type-scope="0x14996d0"/>
+    <token id="0x14983f0" file="converter.cpp" linenr="148" str="p" scope="0x149acc0" type="name" varId="32" variable="0x149b4f0"/>
+    <token id="0x14984a0" file="converter.cpp" linenr="148" str=";" scope="0x149acc0"/>
+    <token id="0x1498550" file="converter.cpp" linenr="149" str="ros" scope="0x149acc0" type="name" astParent="0x1498600"/>
+    <token id="0x1498600" file="converter.cpp" linenr="149" str="::" scope="0x149acc0" astParent="0x1498760" astOperand1="0x1498550" astOperand2="0x14986b0"/>
+    <token id="0x14986b0" file="converter.cpp" linenr="149" str="spin" scope="0x149acc0" type="name" astParent="0x1498600"/>
+    <token id="0x1498760" file="converter.cpp" linenr="149" str="(" scope="0x149acc0" link="0x1498810" astOperand1="0x1498600"/>
+    <token id="0x1498810" file="converter.cpp" linenr="149" str=")" scope="0x149acc0" link="0x1498760"/>
+    <token id="0x14988c0" file="converter.cpp" linenr="149" str=";" scope="0x149acc0"/>
+    <token id="0x1498970" file="converter.cpp" linenr="151" str="return" scope="0x149acc0" type="name" astOperand1="0x1498ad0"/>
+    <token id="0x1498a20" file="converter.cpp" linenr="151" str="(" scope="0x149acc0" link="0x1498b80"/>
+    <token id="0x1498ad0" file="converter.cpp" linenr="151" str="0" scope="0x149acc0" type="number" isInt="True" values="0x1498ad8" astParent="0x1498970"/>
+    <token id="0x1498b80" file="converter.cpp" linenr="151" str=")" scope="0x149acc0" link="0x1498a20"/>
+    <token id="0x1498c30" file="converter.cpp" linenr="151" str=";" scope="0x149acc0"/>
+    <token id="0x1498ce0" file="converter.cpp" linenr="152" str="}" scope="0x149acc0" link="0x14976b0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x14787c0" type="Global">
+      <functionList>
+        <function id="0x149abd0" tokenDef="0x1496fd0" name="main">
+          <arg nr="1" variable="0x149b560"/>
+          <arg nr="2" variable="0x149b5d0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x14996d0" type="Class" className="PointCloudConverter" classStart="0x1478ad0" classEnd="0x1496dc0" nestedIn="0x14787c0">
+      <functionList>
+        <function id="0x1499870" tokenDef="0x147e230" name="PointCloudConverter"/>
+        <function id="0x1499ab0" tokenDef="0x1486080" name="getFieldsList">
+          <arg nr="1" variable="0x149b640"/>
+        </function>
+        <function id="0x1499e60" tokenDef="0x1489830" name="getFieldsList">
+          <arg nr="1" variable="0x149b6b0"/>
+        </function>
+        <function id="0x149a210" tokenDef="0x148c0c0" name="cloud_cb_points2">
+          <arg nr="1" variable="0x149b750"/>
+        </function>
+        <function id="0x149a6f0" tokenDef="0x14917d0" name="cloud_cb_points">
+          <arg nr="1" variable="0x149b7c0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x149ae10"/>
+        <var id="0x149ae80"/>
+        <var id="0x149aef0"/>
+        <var id="0x149af60"/>
+        <var id="0x149afd0"/>
+        <var id="0x149b040"/>
+        <var id="0x149b0b0"/>
+        <var id="0x149b120"/>
+        <var id="0x149b190"/>
+        <var id="0x149b200"/>
+        <var id="0x149b270"/>
+      </varlist>
+    </scope>
+    <scope id="0x1499960" type="Function" className="PointCloudConverter" classStart="0x147f910" classEnd="0x1485d10" nestedIn="0x14996d0" function="0x1499870"/>
+    <scope id="0x1499b50" type="Function" className="getFieldsList" classStart="0x14866b0" classEnd="0x14894c0" nestedIn="0x14996d0" function="0x1499ab0">
+      <varlist>
+        <var id="0x149b2e0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1499ca0" type="For" classStart="0x1478c30" classEnd="0x147e180" nestedIn="0x1499b50">
+      <varlist>
+        <var id="0x1499df0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1499f00" type="Function" className="getFieldsList" classStart="0x1489e60" classEnd="0x148bf60" nestedIn="0x14996d0" function="0x1499e60">
+      <varlist>
+        <var id="0x149b350"/>
+      </varlist>
+    </scope>
+    <scope id="0x149a050" type="For" classStart="0x1487b50" classEnd="0x14884f0" nestedIn="0x1499f00">
+      <varlist>
+        <var id="0x149a1a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x149a300" type="Function" className="cloud_cb_points2" classStart="0x148c720" classEnd="0x1491670" nestedIn="0x14996d0" function="0x149a210">
+      <varlist>
+        <var id="0x149b3f0"/>
+      </varlist>
+    </scope>
+    <scope id="0x149a450" type="If" classStart="0x148cf90" classEnd="0x148d1a0" nestedIn="0x149a300"/>
+    <scope id="0x149a5a0" type="If" classStart="0x148f820" classEnd="0x148fe10" nestedIn="0x149a300"/>
+    <scope id="0x149a7e0" type="Function" className="cloud_cb_points" classStart="0x1491e00" classEnd="0x1496d10" nestedIn="0x14996d0" function="0x149a6f0">
+      <varlist>
+        <var id="0x149b460"/>
+      </varlist>
+    </scope>
+    <scope id="0x149a930" type="If" classStart="0x1492670" classEnd="0x1492880" nestedIn="0x149a7e0"/>
+    <scope id="0x149aa80" type="If" classStart="0x1495060" classEnd="0x1495650" nestedIn="0x149a7e0"/>
+    <scope id="0x149acc0" type="Function" className="main" classStart="0x14976b0" classEnd="0x1498ce0" nestedIn="0x14787c0" function="0x149abd0">
+      <varlist>
+        <var id="0x149b4f0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x149ae10" nameToken="0x147ca20" typeStartToken="0x1478ce0" typeEndToken="0x147c970" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149ae80" nameToken="0x147cd90" typeStartToken="0x147cb80" typeEndToken="0x147cce0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149aef0" nameToken="0x147d100" typeStartToken="0x147cef0" typeEndToken="0x147d050" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149af60" nameToken="0x147d260" typeStartToken="0x148cd80" typeEndToken="0x148da60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149afd0" nameToken="0x147d5d0" typeStartToken="0x147d3c0" typeEndToken="0x147d520" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b040" nameToken="0x147d730" typeStartToken="0x1492460" typeEndToken="0x1485e70" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b0b0" nameToken="0x147d940" typeStartToken="0x147d890" typeEndToken="0x147d890" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b120" nameToken="0x147db50" typeStartToken="0x1498d90" typeEndToken="0x147daa0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b190" nameToken="0x147dcb0" typeStartToken="0x1499250" typeEndToken="0x1489620" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b200" nameToken="0x147de10" typeStartToken="0x14993b0" typeEndToken="0x14783e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b270" nameToken="0x147df70" typeStartToken="0x14990a0" typeEndToken="0x14994b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b640" nameToken="0x1486550" typeStartToken="0x1486290" typeEndToken="0x14864a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x149b2e0" nameToken="0x1486970" typeStartToken="0x1486760" typeEndToken="0x14868c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1499df0" nameToken="0x1486ce0" typeStartToken="0x1486c30" typeEndToken="0x1486c30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b6b0" nameToken="0x1489d00" typeStartToken="0x1489a40" typeEndToken="0x1489c50" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x149b350" nameToken="0x148a120" typeStartToken="0x1489f10" typeEndToken="0x148a070" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149a1a0" nameToken="0x148a5f0" typeStartToken="0x148a540" typeEndToken="0x148a540" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b750" nameToken="0x148c5c0" typeStartToken="0x148c2d0" typeEndToken="0x148c510" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x149b3f0" nameToken="0x148eda0" typeStartToken="0x148eb90" typeEndToken="0x148ecf0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b7c0" nameToken="0x1491ca0" typeStartToken="0x14919e0" typeEndToken="0x1491bf0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x149b460" nameToken="0x14945e0" typeStartToken="0x14943d0" typeEndToken="0x1494530" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b560" nameToken="0x14971e0" typeStartToken="0x1497130" typeEndToken="0x1497130" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x149b5d0" nameToken="0x1497550" typeStartToken="0x1497340" typeEndToken="0x14974a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x149b4f0" nameToken="0x14983f0" typeStartToken="0x1498340" typeEndToken="0x1498340" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x147e688">
+      <value tokvalue="0x147e680" known="true"/>
+    </values>
+    <values id="0x147e9f8">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x147ed68">
+      <value tokvalue="0x147ed60" known="true"/>
+    </values>
+    <values id="0x147f0d8">
+      <value tokvalue="0x147f0d0" known="true"/>
+    </values>
+    <values id="0x147f448">
+      <value tokvalue="0x147f440" known="true"/>
+    </values>
+    <values id="0x147f7b8">
+      <value tokvalue="0x147f7b0" known="true"/>
+    </values>
+    <values id="0x1483878">
+      <value tokvalue="0x1483870" known="true"/>
+    </values>
+    <values id="0x1484b78">
+      <value tokvalue="0x1484b70" known="true"/>
+    </values>
+    <values id="0x1486e48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1487688">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1487ec8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1488238">
+      <value tokvalue="0x1488230" known="true"/>
+    </values>
+    <values id="0x1488de8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x148a288">
+      <value tokvalue="0x148a280" known="true"/>
+    </values>
+    <values id="0x148a758">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x148b468">
+      <value tokvalue="0x148b460" known="true"/>
+    </values>
+    <values id="0x148b888">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x148ce38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x148d3e8">
+      <value tokvalue="0x148d3e0" known="true"/>
+    </values>
+    <values id="0x148fa38">
+      <value tokvalue="0x148fa30" known="true"/>
+    </values>
+    <values id="0x1490028">
+      <value tokvalue="0x1490020" known="true"/>
+    </values>
+    <values id="0x1492518">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1492ac8">
+      <value tokvalue="0x1492ac0" known="true"/>
+    </values>
+    <values id="0x1495278">
+      <value tokvalue="0x1495270" known="true"/>
+    </values>
+    <values id="0x14958c8">
+      <value tokvalue="0x14958c0" known="true"/>
+    </values>
+    <values id="0x1497ce8">
+      <value tokvalue="0x1497ce0" known="true"/>
+    </values>
+    <values id="0x1498ad8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

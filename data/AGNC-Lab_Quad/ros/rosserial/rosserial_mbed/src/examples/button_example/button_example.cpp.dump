@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1da7ad0" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_KL25Z">
+  <tokenlist>
+    <token id="0x1da46a0" file="button_example.cpp" linenr="12" str="PinName" scope="0x1da4180" type="name"/>
+    <token id="0x1d96490" file="button_example.cpp" linenr="12" str="button" scope="0x1da4180" type="name" varId="1" variable="0x1db0bf0"/>
+    <token id="0x1da47d0" file="button_example.cpp" linenr="12" str=";" scope="0x1da4180"/>
+    <token id="0x1dac230" file="button_example.cpp" linenr="12" str="button" scope="0x1da4180" type="name" varId="1" variable="0x1db0bf0" astParent="0x1da5230"/>
+    <token id="0x1da5230" file="button_example.cpp" linenr="12" str="=" scope="0x1da4180" type="op" isAssignmentOp="True" astOperand1="0x1dac230" astOperand2="0x1da4880"/>
+    <token id="0x1da4880" file="button_example.cpp" linenr="12" str="D10" scope="0x1da4180" type="name" astParent="0x1da5230"/>
+    <token id="0x1da5320" file="button_example.cpp" linenr="12" str=";" scope="0x1da4180"/>
+    <token id="0x1da53d0" file="button_example.cpp" linenr="19" str="ros" scope="0x1da4180" type="name" astParent="0x1da5480"/>
+    <token id="0x1da5480" file="button_example.cpp" linenr="19" str="::" scope="0x1da4180" astOperand1="0x1da53d0" astOperand2="0x1da55e0"/>
+    <token id="0x1da5530" file="button_example.cpp" linenr="19" str="NodeHandle" scope="0x1da4180" type="name"/>
+    <token id="0x1da55e0" file="button_example.cpp" linenr="19" str="nh" scope="0x1da4180" type="name" varId="2" variable="0x1db0c60" astParent="0x1da5480"/>
+    <token id="0x1da5690" file="button_example.cpp" linenr="19" str=";" scope="0x1da4180"/>
+    <token id="0x1da79e0" file="button_example.cpp" linenr="21" str="std_msgs" scope="0x1da4180" type="name" astParent="0x1da7a90"/>
+    <token id="0x1da7a90" file="button_example.cpp" linenr="21" str="::" scope="0x1da4180" astOperand1="0x1da79e0" astOperand2="0x1da7bf0"/>
+    <token id="0x1da7b40" file="button_example.cpp" linenr="21" str="Bool" scope="0x1da4180" type="name"/>
+    <token id="0x1da7bf0" file="button_example.cpp" linenr="21" str="pushed_msg" scope="0x1da4180" type="name" varId="3" variable="0x1db0cd0" astParent="0x1da7a90"/>
+    <token id="0x1da7ca0" file="button_example.cpp" linenr="21" str=";" scope="0x1da4180"/>
+    <token id="0x1da7d50" file="button_example.cpp" linenr="22" str="ros" scope="0x1da4180" type="name" astParent="0x1da7e00"/>
+    <token id="0x1da7e00" file="button_example.cpp" linenr="22" str="::" scope="0x1da4180" astParent="0x1da8010" astOperand1="0x1da7d50" astOperand2="0x1da7f60"/>
+    <token id="0x1da7eb0" file="button_example.cpp" linenr="22" str="Publisher" scope="0x1da4180" type="name"/>
+    <token id="0x1da7f60" file="button_example.cpp" linenr="22" str="pub_button" scope="0x1da4180" type="name" varId="4" variable="0x1db0d40" astParent="0x1da7e00"/>
+    <token id="0x1da8010" file="button_example.cpp" linenr="22" str="(" scope="0x1da4180" link="0x1da8380" astOperand1="0x1da7e00" astOperand2="0x1da8170"/>
+    <token id="0x1da80c0" file="button_example.cpp" linenr="22" str="&quot;pushed&quot;" scope="0x1da4180" type="string" strlen="6" values="0x1da80c8" astParent="0x1da8170"/>
+    <token id="0x1da8170" file="button_example.cpp" linenr="22" str="," scope="0x1da4180" astParent="0x1da8010" astOperand1="0x1da80c0" astOperand2="0x1da8220"/>
+    <token id="0x1da8220" file="button_example.cpp" linenr="22" str="&amp;" scope="0x1da4180" type="op" astParent="0x1da8170" astOperand1="0x1da82d0"/>
+    <token id="0x1da82d0" file="button_example.cpp" linenr="22" str="pushed_msg" scope="0x1da4180" type="name" varId="3" variable="0x1db0cd0" astParent="0x1da8220"/>
+    <token id="0x1da8380" file="button_example.cpp" linenr="22" str=")" scope="0x1da4180" link="0x1da8010"/>
+    <token id="0x1da8430" file="button_example.cpp" linenr="22" str=";" scope="0x1da4180"/>
+    <token id="0x1da84e0" file="button_example.cpp" linenr="24" str="DigitalIn" scope="0x1da4180" type="name"/>
+    <token id="0x1da8590" file="button_example.cpp" linenr="24" str="button_pin" scope="0x1da4180" type="name" varId="5" variable="0x1db0db0" astParent="0x1da8640"/>
+    <token id="0x1da8640" file="button_example.cpp" linenr="24" str="(" scope="0x1da4180" link="0x1da87a0" astOperand1="0x1da8590" astOperand2="0x1da86f0"/>
+    <token id="0x1da86f0" file="button_example.cpp" linenr="24" str="button" scope="0x1da4180" type="name" varId="1" variable="0x1db0bf0" astParent="0x1da8640"/>
+    <token id="0x1da87a0" file="button_example.cpp" linenr="24" str=")" scope="0x1da4180" link="0x1da8640"/>
+    <token id="0x1da8850" file="button_example.cpp" linenr="24" str=";" scope="0x1da4180"/>
+    <token id="0x1da8900" file="button_example.cpp" linenr="25" str="DigitalOut" scope="0x1da4180" type="name"/>
+    <token id="0x1da89b0" file="button_example.cpp" linenr="25" str="led_pin" scope="0x1da4180" type="name" function="0x1daf990" astParent="0x1da8a60"/>
+    <token id="0x1da8a60" file="button_example.cpp" linenr="25" str="(" scope="0x1da4180" link="0x1da8f50" astOperand1="0x1da89b0" astOperand2="0x1da8b10"/>
+    <token id="0x1da8b10" file="button_example.cpp" linenr="25" str="LED1" scope="0x1da4180" type="name" astParent="0x1da8a60"/>
+    <token id="0x1da8f50" file="button_example.cpp" linenr="25" str=")" scope="0x1da4180" link="0x1da8a60"/>
+    <token id="0x1da9000" file="button_example.cpp" linenr="25" str=";" scope="0x1da4180"/>
+    <token id="0x1da90b0" file="button_example.cpp" linenr="27" str="bool" scope="0x1da4180" type="name"/>
+    <token id="0x1da9160" file="button_example.cpp" linenr="27" str="last_reading" scope="0x1da4180" type="name" varId="6" variable="0x1db0e20"/>
+    <token id="0x1da9210" file="button_example.cpp" linenr="27" str=";" scope="0x1da4180"/>
+    <token id="0x1da92c0" file="button_example.cpp" linenr="28" str="long" scope="0x1da4180" type="name"/>
+    <token id="0x1da9370" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1da4180" type="name" varId="7" variable="0x1db0e90"/>
+    <token id="0x1da9420" file="button_example.cpp" linenr="28" str=";" scope="0x1da4180"/>
+    <token id="0x1daf2b0" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1da4180" type="name" varId="7" variable="0x1db0e90" astParent="0x1daf360"/>
+    <token id="0x1daf360" file="button_example.cpp" linenr="28" str="=" scope="0x1da4180" type="op" isAssignmentOp="True" astOperand1="0x1daf2b0" astOperand2="0x1da94d0"/>
+    <token id="0x1da94d0" file="button_example.cpp" linenr="28" str="0" scope="0x1da4180" type="number" isInt="True" values="0x1da94d8" astParent="0x1daf360"/>
+    <token id="0x1da9580" file="button_example.cpp" linenr="28" str=";" scope="0x1da4180"/>
+    <token id="0x1da9630" file="button_example.cpp" linenr="29" str="long" scope="0x1da4180" type="name"/>
+    <token id="0x1da96e0" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1da4180" type="name" varId="8" variable="0x1db0f00"/>
+    <token id="0x1da9790" file="button_example.cpp" linenr="29" str=";" scope="0x1da4180"/>
+    <token id="0x1daf410" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1da4180" type="name" varId="8" variable="0x1db0f00" astParent="0x1daf770"/>
+    <token id="0x1daf770" file="button_example.cpp" linenr="29" str="=" scope="0x1da4180" type="op" isAssignmentOp="True" astOperand1="0x1daf410" astOperand2="0x1da9840"/>
+    <token id="0x1da9840" file="button_example.cpp" linenr="29" str="50" scope="0x1da4180" type="number" isInt="True" values="0x1da9848" astParent="0x1daf770"/>
+    <token id="0x1da98f0" file="button_example.cpp" linenr="29" str=";" scope="0x1da4180"/>
+    <token id="0x1da99a0" file="button_example.cpp" linenr="30" str="bool" scope="0x1da4180" type="name"/>
+    <token id="0x1da9a50" file="button_example.cpp" linenr="30" str="published" scope="0x1da4180" type="name" varId="9" variable="0x1db0f70"/>
+    <token id="0x1da9b00" file="button_example.cpp" linenr="30" str=";" scope="0x1da4180"/>
+    <token id="0x1daf820" file="button_example.cpp" linenr="30" str="published" scope="0x1da4180" type="name" varId="9" variable="0x1db0f70" astParent="0x1daf8d0"/>
+    <token id="0x1daf8d0" file="button_example.cpp" linenr="30" str="=" scope="0x1da4180" type="op" isAssignmentOp="True" astOperand1="0x1daf820" astOperand2="0x1da9bb0"/>
+    <token id="0x1da9bb0" file="button_example.cpp" linenr="30" str="true" scope="0x1da4180" type="name" values="0x1da9bb8" astParent="0x1daf8d0"/>
+    <token id="0x1da9c60" file="button_example.cpp" linenr="30" str=";" scope="0x1da4180"/>
+    <token id="0x1da9d10" file="button_example.cpp" linenr="32" str="Timer" scope="0x1da4180" type="name"/>
+    <token id="0x1da9dc0" file="button_example.cpp" linenr="32" str="t" scope="0x1da4180" type="name" varId="10" variable="0x1db0fe0"/>
+    <token id="0x1da9e70" file="button_example.cpp" linenr="32" str=";" scope="0x1da4180"/>
+    <token id="0x1da9f20" file="button_example.cpp" linenr="33" str="int" scope="0x1da4180" type="name"/>
+    <token id="0x1da9fd0" file="button_example.cpp" linenr="33" str="main" scope="0x1da4180" type="name" function="0x1dafa30" astParent="0x1daa080"/>
+    <token id="0x1daa080" file="button_example.cpp" linenr="33" str="(" scope="0x1da4180" link="0x1daa130" astOperand1="0x1da9fd0"/>
+    <token id="0x1daa130" file="button_example.cpp" linenr="33" str=")" scope="0x1da4180" link="0x1daa080"/>
+    <token id="0x1daa1e0" file="button_example.cpp" linenr="33" str="{" scope="0x1dafad0" link="0x1daf200"/>
+    <token id="0x1daa290" file="button_example.cpp" linenr="34" str="t" scope="0x1dafad0" type="name" varId="10" variable="0x1db0fe0" astParent="0x1daa340"/>
+    <token id="0x1daa340" file="button_example.cpp" linenr="34" str="." scope="0x1dafad0" astParent="0x1daa4a0" astOperand1="0x1daa290" astOperand2="0x1daa3f0"/>
+    <token id="0x1daa3f0" file="button_example.cpp" linenr="34" str="start" scope="0x1dafad0" type="name" astParent="0x1daa340"/>
+    <token id="0x1daa4a0" file="button_example.cpp" linenr="34" str="(" scope="0x1dafad0" link="0x1daa550" astOperand1="0x1daa340"/>
+    <token id="0x1daa550" file="button_example.cpp" linenr="34" str=")" scope="0x1dafad0" link="0x1daa4a0"/>
+    <token id="0x1daa600" file="button_example.cpp" linenr="34" str=";" scope="0x1dafad0"/>
+    <token id="0x1daa6b0" file="button_example.cpp" linenr="35" str="nh" scope="0x1dafad0" type="name" varId="2" variable="0x1db0c60" astParent="0x1daa760"/>
+    <token id="0x1daa760" file="button_example.cpp" linenr="35" str="." scope="0x1dafad0" astParent="0x1daa8c0" astOperand1="0x1daa6b0" astOperand2="0x1daa810"/>
+    <token id="0x1daa810" file="button_example.cpp" linenr="35" str="initNode" scope="0x1dafad0" type="name" astParent="0x1daa760"/>
+    <token id="0x1daa8c0" file="button_example.cpp" linenr="35" str="(" scope="0x1dafad0" link="0x1daa970" astOperand1="0x1daa760"/>
+    <token id="0x1daa970" file="button_example.cpp" linenr="35" str=")" scope="0x1dafad0" link="0x1daa8c0"/>
+    <token id="0x1daaa20" file="button_example.cpp" linenr="35" str=";" scope="0x1dafad0"/>
+    <token id="0x1daaad0" file="button_example.cpp" linenr="36" str="nh" scope="0x1dafad0" type="name" varId="2" variable="0x1db0c60" astParent="0x1daab80"/>
+    <token id="0x1daab80" file="button_example.cpp" linenr="36" str="." scope="0x1dafad0" astParent="0x1daace0" astOperand1="0x1daaad0" astOperand2="0x1daac30"/>
+    <token id="0x1daac30" file="button_example.cpp" linenr="36" str="advertise" scope="0x1dafad0" type="name" astParent="0x1daab80"/>
+    <token id="0x1daace0" file="button_example.cpp" linenr="36" str="(" scope="0x1dafad0" link="0x1daae40" astOperand1="0x1daab80" astOperand2="0x1daad90"/>
+    <token id="0x1daad90" file="button_example.cpp" linenr="36" str="pub_button" scope="0x1dafad0" type="name" varId="4" variable="0x1db0d40" astParent="0x1daace0"/>
+    <token id="0x1daae40" file="button_example.cpp" linenr="36" str=")" scope="0x1dafad0" link="0x1daace0"/>
+    <token id="0x1daaef0" file="button_example.cpp" linenr="36" str=";" scope="0x1dafad0"/>
+    <token id="0x1daafa0" file="button_example.cpp" linenr="39" str="button_pin" scope="0x1dafad0" type="name" varId="5" variable="0x1db0db0" astParent="0x1dab050"/>
+    <token id="0x1dab050" file="button_example.cpp" linenr="39" str="." scope="0x1dafad0" astParent="0x1dab1b0" astOperand1="0x1daafa0" astOperand2="0x1dab100"/>
+    <token id="0x1dab100" file="button_example.cpp" linenr="39" str="mode" scope="0x1dafad0" type="name" astParent="0x1dab050"/>
+    <token id="0x1dab1b0" file="button_example.cpp" linenr="39" str="(" scope="0x1dafad0" link="0x1dab310" astOperand1="0x1dab050" astOperand2="0x1dab260"/>
+    <token id="0x1dab260" file="button_example.cpp" linenr="39" str="PullUp" scope="0x1dafad0" type="name" astParent="0x1dab1b0"/>
+    <token id="0x1dab310" file="button_example.cpp" linenr="39" str=")" scope="0x1dafad0" link="0x1dab1b0"/>
+    <token id="0x1dab3c0" file="button_example.cpp" linenr="39" str=";" scope="0x1dafad0"/>
+    <token id="0x1dab470" file="button_example.cpp" linenr="42" str="last_reading" scope="0x1dafad0" type="name" varId="6" variable="0x1db0e20" astParent="0x1dab520"/>
+    <token id="0x1dab520" file="button_example.cpp" linenr="42" str="=" scope="0x1dafad0" type="op" isAssignmentOp="True" astOperand1="0x1dab470" astOperand2="0x1dab5d0"/>
+    <token id="0x1dab5d0" file="button_example.cpp" linenr="42" str="!" scope="0x1dafad0" type="op" isLogicalOp="True" astParent="0x1dab520" astOperand1="0x1dab680"/>
+    <token id="0x1dab680" file="button_example.cpp" linenr="42" str="button_pin" scope="0x1dafad0" type="name" varId="5" variable="0x1db0db0" astParent="0x1dab5d0"/>
+    <token id="0x1dab730" file="button_example.cpp" linenr="42" str=";" scope="0x1dafad0"/>
+    <token id="0x1dab7e0" file="button_example.cpp" linenr="44" str="while" scope="0x1dafad0" type="name" astParent="0x1dab890"/>
+    <token id="0x1dab890" file="button_example.cpp" linenr="44" str="(" scope="0x1dafad0" link="0x1dab9f0" astOperand1="0x1dab7e0" astOperand2="0x1dab940"/>
+    <token id="0x1dab940" file="button_example.cpp" linenr="44" str="1" scope="0x1dafad0" type="number" isInt="True" values="0x1dab948" astParent="0x1dab890"/>
+    <token id="0x1dab9f0" file="button_example.cpp" linenr="44" str=")" scope="0x1dafad0" link="0x1dab890"/>
+    <token id="0x1dabaa0" file="button_example.cpp" linenr="44" str="{" scope="0x1dafc00" link="0x1daf150"/>
+    <token id="0x1dabb50" file="button_example.cpp" linenr="45" str="bool" scope="0x1dafc00" type="name"/>
+    <token id="0x1dabc00" file="button_example.cpp" linenr="45" str="reading" scope="0x1dafc00" type="name" varId="11" variable="0x1db1050"/>
+    <token id="0x1dabcb0" file="button_example.cpp" linenr="45" str=";" scope="0x1dafc00"/>
+    <token id="0x1daf510" file="button_example.cpp" linenr="45" str="reading" scope="0x1dafc00" type="name" varId="11" variable="0x1db1050" astParent="0x1daf5c0"/>
+    <token id="0x1daf5c0" file="button_example.cpp" linenr="45" str="=" scope="0x1dafc00" type="op" isAssignmentOp="True" astOperand1="0x1daf510" astOperand2="0x1dabd60"/>
+    <token id="0x1dabd60" file="button_example.cpp" linenr="45" str="!" scope="0x1dafc00" type="op" isLogicalOp="True" astParent="0x1daf5c0" astOperand1="0x1dabe10"/>
+    <token id="0x1dabe10" file="button_example.cpp" linenr="45" str="button_pin" scope="0x1dafc00" type="name" varId="5" variable="0x1db0db0" astParent="0x1dabd60"/>
+    <token id="0x1dabec0" file="button_example.cpp" linenr="45" str=";" scope="0x1dafc00"/>
+    <token id="0x1dabf70" file="button_example.cpp" linenr="47" str="if" scope="0x1dafc00" type="name" astParent="0x1dac020"/>
+    <token id="0x1dac020" file="button_example.cpp" linenr="47" str="(" scope="0x1dafc00" link="0x1dac390" astOperand1="0x1dabf70" astOperand2="0x1dac180"/>
+    <token id="0x1dac0d0" file="button_example.cpp" linenr="47" str="last_reading" scope="0x1dafc00" type="name" varId="6" variable="0x1db0e20" astParent="0x1dac180"/>
+    <token id="0x1dac180" file="button_example.cpp" linenr="47" str="!=" scope="0x1dafc00" type="op" isComparisonOp="True" astParent="0x1dac020" astOperand1="0x1dac0d0" astOperand2="0x1dac2e0"/>
+    <token id="0x1dac2e0" file="button_example.cpp" linenr="47" str="reading" scope="0x1dafc00" type="name" varId="11" variable="0x1db1050" astParent="0x1dac180"/>
+    <token id="0x1dac390" file="button_example.cpp" linenr="47" str=")" scope="0x1dafc00" link="0x1dac020"/>
+    <token id="0x1dac440" file="button_example.cpp" linenr="47" str="{" scope="0x1db0990" link="0x1dacd60"/>
+    <token id="0x1dac4f0" file="button_example.cpp" linenr="48" str="last_debounce_time" scope="0x1db0990" type="name" varId="7" variable="0x1db0e90" astParent="0x1dac5d0"/>
+    <token id="0x1dac5d0" file="button_example.cpp" linenr="48" str="=" scope="0x1db0990" type="op" isAssignmentOp="True" astOperand1="0x1dac4f0" astOperand2="0x1dac890"/>
+    <token id="0x1dac680" file="button_example.cpp" linenr="48" str="t" scope="0x1db0990" type="name" varId="10" variable="0x1db0fe0" astParent="0x1dac730"/>
+    <token id="0x1dac730" file="button_example.cpp" linenr="48" str="." scope="0x1db0990" astParent="0x1dac890" astOperand1="0x1dac680" astOperand2="0x1dac7e0"/>
+    <token id="0x1dac7e0" file="button_example.cpp" linenr="48" str="read_ms" scope="0x1db0990" type="name" astParent="0x1dac730"/>
+    <token id="0x1dac890" file="button_example.cpp" linenr="48" str="(" scope="0x1db0990" link="0x1dac940" astParent="0x1dac5d0" astOperand1="0x1dac730"/>
+    <token id="0x1dac940" file="button_example.cpp" linenr="48" str=")" scope="0x1db0990" link="0x1dac890"/>
+    <token id="0x1dac9f0" file="button_example.cpp" linenr="48" str=";" scope="0x1db0990"/>
+    <token id="0x1dacaa0" file="button_example.cpp" linenr="49" str="published" scope="0x1db0990" type="name" varId="9" variable="0x1db0f70" astParent="0x1dacb50"/>
+    <token id="0x1dacb50" file="button_example.cpp" linenr="49" str="=" scope="0x1db0990" type="op" isAssignmentOp="True" astOperand1="0x1dacaa0" astOperand2="0x1dacc00"/>
+    <token id="0x1dacc00" file="button_example.cpp" linenr="49" str="false" scope="0x1db0990" type="name" values="0x1dacc08" astParent="0x1dacb50"/>
+    <token id="0x1daccb0" file="button_example.cpp" linenr="49" str=";" scope="0x1db0990"/>
+    <token id="0x1dacd60" file="button_example.cpp" linenr="50" str="}" scope="0x1db0990" link="0x1dac440"/>
+    <token id="0x1dace10" file="button_example.cpp" linenr="53" str="if" scope="0x1dafc00" type="name" astParent="0x1dacec0"/>
+    <token id="0x1dacec0" file="button_example.cpp" linenr="53" str="(" scope="0x1dafc00" link="0x1dad940" astOperand1="0x1dace10" astOperand2="0x1dad0d0"/>
+    <token id="0x1dacf70" file="button_example.cpp" linenr="53" str="!" scope="0x1dafc00" type="op" isLogicalOp="True" astParent="0x1dad0d0" astOperand1="0x1dad020"/>
+    <token id="0x1dad020" file="button_example.cpp" linenr="53" str="published" scope="0x1dafc00" type="name" varId="9" variable="0x1db0f70" astParent="0x1dacf70"/>
+    <token id="0x1dad0d0" file="button_example.cpp" linenr="53" str="&amp;&amp;" scope="0x1dafc00" type="op" isLogicalOp="True" astParent="0x1dacec0" astOperand1="0x1dacf70" astOperand2="0x1dad7e0"/>
+    <token id="0x1dad180" file="button_example.cpp" linenr="53" str="(" scope="0x1dafc00" link="0x1dad730"/>
+    <token id="0x1dad230" file="button_example.cpp" linenr="53" str="t" scope="0x1dafc00" type="name" varId="10" variable="0x1db0fe0" astParent="0x1dad2e0"/>
+    <token id="0x1dad2e0" file="button_example.cpp" linenr="53" str="." scope="0x1dafc00" astParent="0x1dad440" astOperand1="0x1dad230" astOperand2="0x1dad390"/>
+    <token id="0x1dad390" file="button_example.cpp" linenr="53" str="read_ms" scope="0x1dafc00" type="name" astParent="0x1dad2e0"/>
+    <token id="0x1dad440" file="button_example.cpp" linenr="53" str="(" scope="0x1dafc00" link="0x1dad4f0" astParent="0x1dad5a0" astOperand1="0x1dad2e0"/>
+    <token id="0x1dad4f0" file="button_example.cpp" linenr="53" str=")" scope="0x1dafc00" link="0x1dad440"/>
+    <token id="0x1dad5a0" file="button_example.cpp" linenr="53" str="-" scope="0x1dafc00" type="op" isArithmeticalOp="True" astParent="0x1dad7e0" astOperand1="0x1dad440" astOperand2="0x1dad650"/>
+    <token id="0x1dad650" file="button_example.cpp" linenr="53" str="last_debounce_time" scope="0x1dafc00" type="name" varId="7" variable="0x1db0e90" astParent="0x1dad5a0"/>
+    <token id="0x1dad730" file="button_example.cpp" linenr="53" str=")" scope="0x1dafc00" link="0x1dad180"/>
+    <token id="0x1dad7e0" file="button_example.cpp" linenr="53" str="&gt;" scope="0x1dafc00" type="op" isComparisonOp="True" astParent="0x1dad0d0" astOperand1="0x1dad5a0" astOperand2="0x1dad890"/>
+    <token id="0x1dad890" file="button_example.cpp" linenr="53" str="debounce_delay" scope="0x1dafc00" type="name" varId="8" variable="0x1db0f00" astParent="0x1dad7e0"/>
+    <token id="0x1dad940" file="button_example.cpp" linenr="53" str=")" scope="0x1dafc00" link="0x1dacec0"/>
+    <token id="0x1dad9f0" file="button_example.cpp" linenr="53" str="{" scope="0x1db0ac0" link="0x1dae9c0"/>
+    <token id="0x1dadaa0" file="button_example.cpp" linenr="54" str="led_pin" scope="0x1db0ac0" type="name" astParent="0x1dadb50"/>
+    <token id="0x1dadb50" file="button_example.cpp" linenr="54" str="=" scope="0x1db0ac0" type="op" isAssignmentOp="True" astOperand1="0x1dadaa0" astOperand2="0x1dadc00"/>
+    <token id="0x1dadc00" file="button_example.cpp" linenr="54" str="reading" scope="0x1db0ac0" type="name" varId="11" variable="0x1db1050" astParent="0x1dadb50"/>
+    <token id="0x1dadcb0" file="button_example.cpp" linenr="54" str=";" scope="0x1db0ac0"/>
+    <token id="0x1dadd60" file="button_example.cpp" linenr="55" str="pushed_msg" scope="0x1db0ac0" type="name" varId="3" variable="0x1db0cd0" astParent="0x1dade10"/>
+    <token id="0x1dade10" file="button_example.cpp" linenr="55" str="." scope="0x1db0ac0" astParent="0x1dadf70" astOperand1="0x1dadd60" astOperand2="0x1dadec0"/>
+    <token id="0x1dadec0" file="button_example.cpp" linenr="55" str="data" scope="0x1db0ac0" type="name" varId="12" astParent="0x1dade10"/>
+    <token id="0x1dadf70" file="button_example.cpp" linenr="55" str="=" scope="0x1db0ac0" type="op" isAssignmentOp="True" astOperand1="0x1dade10" astOperand2="0x1dae020"/>
+    <token id="0x1dae020" file="button_example.cpp" linenr="55" str="reading" scope="0x1db0ac0" type="name" varId="11" variable="0x1db1050" astParent="0x1dadf70"/>
+    <token id="0x1dae0d0" file="button_example.cpp" linenr="55" str=";" scope="0x1db0ac0"/>
+    <token id="0x1dae180" file="button_example.cpp" linenr="56" str="pub_button" scope="0x1db0ac0" type="name" varId="4" variable="0x1db0d40" astParent="0x1dae230"/>
+    <token id="0x1dae230" file="button_example.cpp" linenr="56" str="." scope="0x1db0ac0" astParent="0x1dae390" astOperand1="0x1dae180" astOperand2="0x1dae2e0"/>
+    <token id="0x1dae2e0" file="button_example.cpp" linenr="56" str="publish" scope="0x1db0ac0" type="name" astParent="0x1dae230"/>
+    <token id="0x1dae390" file="button_example.cpp" linenr="56" str="(" scope="0x1db0ac0" link="0x1dae5a0" astOperand1="0x1dae230" astOperand2="0x1dae440"/>
+    <token id="0x1dae440" file="button_example.cpp" linenr="56" str="&amp;" scope="0x1db0ac0" type="op" astParent="0x1dae390" astOperand1="0x1dae4f0"/>
+    <token id="0x1dae4f0" file="button_example.cpp" linenr="56" str="pushed_msg" scope="0x1db0ac0" type="name" varId="3" variable="0x1db0cd0" astParent="0x1dae440"/>
+    <token id="0x1dae5a0" file="button_example.cpp" linenr="56" str=")" scope="0x1db0ac0" link="0x1dae390"/>
+    <token id="0x1dae650" file="button_example.cpp" linenr="56" str=";" scope="0x1db0ac0"/>
+    <token id="0x1dae700" file="button_example.cpp" linenr="57" str="published" scope="0x1db0ac0" type="name" varId="9" variable="0x1db0f70" astParent="0x1dae7b0"/>
+    <token id="0x1dae7b0" file="button_example.cpp" linenr="57" str="=" scope="0x1db0ac0" type="op" isAssignmentOp="True" astOperand1="0x1dae700" astOperand2="0x1dae860"/>
+    <token id="0x1dae860" file="button_example.cpp" linenr="57" str="true" scope="0x1db0ac0" type="name" values="0x1dae868" astParent="0x1dae7b0"/>
+    <token id="0x1dae910" file="button_example.cpp" linenr="57" str=";" scope="0x1db0ac0"/>
+    <token id="0x1dae9c0" file="button_example.cpp" linenr="58" str="}" scope="0x1db0ac0" link="0x1dad9f0"/>
+    <token id="0x1daea70" file="button_example.cpp" linenr="60" str="last_reading" scope="0x1dafc00" type="name" varId="6" variable="0x1db0e20" astParent="0x1daeb20"/>
+    <token id="0x1daeb20" file="button_example.cpp" linenr="60" str="=" scope="0x1dafc00" type="op" isAssignmentOp="True" astOperand1="0x1daea70" astOperand2="0x1daebd0"/>
+    <token id="0x1daebd0" file="button_example.cpp" linenr="60" str="reading" scope="0x1dafc00" type="name" varId="11" variable="0x1db1050" astParent="0x1daeb20"/>
+    <token id="0x1daec80" file="button_example.cpp" linenr="60" str=";" scope="0x1dafc00"/>
+    <token id="0x1daed30" file="button_example.cpp" linenr="62" str="nh" scope="0x1dafc00" type="name" varId="2" variable="0x1db0c60" astParent="0x1daede0"/>
+    <token id="0x1daede0" file="button_example.cpp" linenr="62" str="." scope="0x1dafc00" astParent="0x1daef40" astOperand1="0x1daed30" astOperand2="0x1daee90"/>
+    <token id="0x1daee90" file="button_example.cpp" linenr="62" str="spinOnce" scope="0x1dafc00" type="name" astParent="0x1daede0"/>
+    <token id="0x1daef40" file="button_example.cpp" linenr="62" str="(" scope="0x1dafc00" link="0x1daeff0" astOperand1="0x1daede0"/>
+    <token id="0x1daeff0" file="button_example.cpp" linenr="62" str=")" scope="0x1dafc00" link="0x1daef40"/>
+    <token id="0x1daf0a0" file="button_example.cpp" linenr="62" str=";" scope="0x1dafc00"/>
+    <token id="0x1daf150" file="button_example.cpp" linenr="63" str="}" scope="0x1dafc00" link="0x1dabaa0"/>
+    <token id="0x1daf200" file="button_example.cpp" linenr="64" str="}" scope="0x1dafad0" link="0x1daa1e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1da4180" type="Global">
+      <functionList>
+        <function id="0x1daf990" tokenDef="0x1da89b0" name="led_pin">
+          <arg nr="1" variable="0x1db10c0"/>
+        </function>
+        <function id="0x1dafa30" tokenDef="0x1da9fd0" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x1db0bf0"/>
+        <var id="0x1db0c60"/>
+        <var id="0x1db0cd0"/>
+        <var id="0x1db0d40"/>
+        <var id="0x1db0db0"/>
+        <var id="0x1db0e20"/>
+        <var id="0x1db0e90"/>
+        <var id="0x1db0f00"/>
+        <var id="0x1db0f70"/>
+        <var id="0x1db0fe0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dafad0" type="Function" className="main" classStart="0x1daa1e0" classEnd="0x1daf200" nestedIn="0x1da4180" function="0x1dafa30"/>
+    <scope id="0x1dafc00" type="While" classStart="0x1dabaa0" classEnd="0x1daf150" nestedIn="0x1dafad0">
+      <varlist>
+        <var id="0x1db1050"/>
+      </varlist>
+    </scope>
+    <scope id="0x1db0990" type="If" classStart="0x1dac440" classEnd="0x1dacd60" nestedIn="0x1dafc00"/>
+    <scope id="0x1db0ac0" type="If" classStart="0x1dad9f0" classEnd="0x1dae9c0" nestedIn="0x1dafc00"/>
+  </scopes>
+  <variables>
+    <var id="0x1db0bf0" nameToken="0x1d96490" typeStartToken="0x1da46a0" typeEndToken="0x1da46a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0c60" nameToken="0x1da55e0" typeStartToken="0x1da53d0" typeEndToken="0x1da5530" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0cd0" nameToken="0x1da7bf0" typeStartToken="0x1da79e0" typeEndToken="0x1da7b40" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0d40" nameToken="0x1da7f60" typeStartToken="0x1da7d50" typeEndToken="0x1da7eb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0db0" nameToken="0x1da8590" typeStartToken="0x1da84e0" typeEndToken="0x1da84e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0e20" nameToken="0x1da9160" typeStartToken="0x1da90b0" typeEndToken="0x1da90b0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0e90" nameToken="0x1da9370" typeStartToken="0x1da92c0" typeEndToken="0x1da92c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0f00" nameToken="0x1da96e0" typeStartToken="0x1da9630" typeEndToken="0x1da9630" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0f70" nameToken="0x1da9a50" typeStartToken="0x1da99a0" typeEndToken="0x1da99a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0fe0" nameToken="0x1da9dc0" typeStartToken="0x1da9d10" typeEndToken="0x1da9d10" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1050" nameToken="0x1dabc00" typeStartToken="0x1dabb50" typeEndToken="0x1dabb50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1da80c8">
+      <value tokvalue="0x1da80c0" known="true"/>
+    </values>
+    <values id="0x1da94d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1da9848">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0x1da9bb8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1dab948">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1dacc08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1dae868">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x1da43a0" file="button_example.cpp" linenr="10" str="PinName" scope="0x1db0a40" type="name"/>
+    <token id="0x1db13e0" file="button_example.cpp" linenr="10" str="button" scope="0x1db0a40" type="name" varId="1" variable="0x1db0c60"/>
+    <token id="0x1d96490" file="button_example.cpp" linenr="10" str=";" scope="0x1db0a40"/>
+    <token id="0x1daa3d0" file="button_example.cpp" linenr="10" str="button" scope="0x1db0a40" type="name" varId="1" variable="0x1db0c60" astParent="0x1da41b0"/>
+    <token id="0x1da41b0" file="button_example.cpp" linenr="10" str="=" scope="0x1db0a40" type="op" isAssignmentOp="True" astOperand1="0x1daa3d0" astOperand2="0x1db0200"/>
+    <token id="0x1db0200" file="button_example.cpp" linenr="10" str="p20" scope="0x1db0a40" type="name" astParent="0x1da41b0"/>
+    <token id="0x1db02b0" file="button_example.cpp" linenr="10" str=";" scope="0x1db0a40"/>
+    <token id="0x1db0360" file="button_example.cpp" linenr="19" str="ros" scope="0x1db0a40" type="name" astParent="0x1db0410"/>
+    <token id="0x1db0410" file="button_example.cpp" linenr="19" str="::" scope="0x1db0a40" astOperand1="0x1db0360" astOperand2="0x1db0cc0"/>
+    <token id="0x1db04c0" file="button_example.cpp" linenr="19" str="NodeHandle" scope="0x1db0a40" type="name"/>
+    <token id="0x1db0cc0" file="button_example.cpp" linenr="19" str="nh" scope="0x1db0a40" type="name" varId="2" variable="0x1db0bf0" astParent="0x1db0410"/>
+    <token id="0x1db0d70" file="button_example.cpp" linenr="19" str=";" scope="0x1db0a40"/>
+    <token id="0x1db0e20" file="button_example.cpp" linenr="21" str="std_msgs" scope="0x1db0a40" type="name" astParent="0x1db0ed0"/>
+    <token id="0x1db0ed0" file="button_example.cpp" linenr="21" str="::" scope="0x1db0a40" astOperand1="0x1db0e20" astOperand2="0x1da4500"/>
+    <token id="0x1db0f80" file="button_example.cpp" linenr="21" str="Bool" scope="0x1db0a40" type="name"/>
+    <token id="0x1da4500" file="button_example.cpp" linenr="21" str="pushed_msg" scope="0x1db0a40" type="name" varId="3" variable="0x1daee30" astParent="0x1db0ed0"/>
+    <token id="0x1da45b0" file="button_example.cpp" linenr="21" str=";" scope="0x1db0a40"/>
+    <token id="0x1da4660" file="button_example.cpp" linenr="22" str="ros" scope="0x1db0a40" type="name" astParent="0x1da4710"/>
+    <token id="0x1da4710" file="button_example.cpp" linenr="22" str="::" scope="0x1db0a40" astParent="0x1da4f20" astOperand1="0x1da4660" astOperand2="0x1da4870"/>
+    <token id="0x1da47c0" file="button_example.cpp" linenr="22" str="Publisher" scope="0x1db0a40" type="name"/>
+    <token id="0x1da4870" file="button_example.cpp" linenr="22" str="pub_button" scope="0x1db0a40" type="name" varId="4" variable="0x1daeea0" astParent="0x1da4710"/>
+    <token id="0x1da4f20" file="button_example.cpp" linenr="22" str="(" scope="0x1db0a40" link="0x1da5290" astOperand1="0x1da4710" astOperand2="0x1da5080"/>
+    <token id="0x1da4fd0" file="button_example.cpp" linenr="22" str="&quot;pushed&quot;" scope="0x1db0a40" type="string" strlen="6" values="0x1da4fd8" astParent="0x1da5080"/>
+    <token id="0x1da5080" file="button_example.cpp" linenr="22" str="," scope="0x1db0a40" astParent="0x1da4f20" astOperand1="0x1da4fd0" astOperand2="0x1da5130"/>
+    <token id="0x1da5130" file="button_example.cpp" linenr="22" str="&amp;" scope="0x1db0a40" type="op" astParent="0x1da5080" astOperand1="0x1da51e0"/>
+    <token id="0x1da51e0" file="button_example.cpp" linenr="22" str="pushed_msg" scope="0x1db0a40" type="name" varId="3" variable="0x1daee30" astParent="0x1da5130"/>
+    <token id="0x1da5290" file="button_example.cpp" linenr="22" str=")" scope="0x1db0a40" link="0x1da4f20"/>
+    <token id="0x1da5340" file="button_example.cpp" linenr="22" str=";" scope="0x1db0a40"/>
+    <token id="0x1da53f0" file="button_example.cpp" linenr="24" str="DigitalIn" scope="0x1db0a40" type="name"/>
+    <token id="0x1da54a0" file="button_example.cpp" linenr="24" str="button_pin" scope="0x1db0a40" type="name" varId="5" variable="0x1daef10" astParent="0x1da5550"/>
+    <token id="0x1da5550" file="button_example.cpp" linenr="24" str="(" scope="0x1db0a40" link="0x1da56b0" astOperand1="0x1da54a0" astOperand2="0x1da5600"/>
+    <token id="0x1da5600" file="button_example.cpp" linenr="24" str="button" scope="0x1db0a40" type="name" varId="1" variable="0x1db0c60" astParent="0x1da5550"/>
+    <token id="0x1da56b0" file="button_example.cpp" linenr="24" str=")" scope="0x1db0a40" link="0x1da5550"/>
+    <token id="0x1daf510" file="button_example.cpp" linenr="24" str=";" scope="0x1db0a40"/>
+    <token id="0x1daf5c0" file="button_example.cpp" linenr="25" str="DigitalOut" scope="0x1db0a40" type="name"/>
+    <token id="0x1daf670" file="button_example.cpp" linenr="25" str="led_pin" scope="0x1db0a40" type="name" function="0x1dadb80" astParent="0x1daf720"/>
+    <token id="0x1daf720" file="button_example.cpp" linenr="25" str="(" scope="0x1db0a40" link="0x1daf880" astOperand1="0x1daf670" astOperand2="0x1daf7d0"/>
+    <token id="0x1daf7d0" file="button_example.cpp" linenr="25" str="LED1" scope="0x1db0a40" type="name" astParent="0x1daf720"/>
+    <token id="0x1daf880" file="button_example.cpp" linenr="25" str=")" scope="0x1db0a40" link="0x1daf720"/>
+    <token id="0x1daf930" file="button_example.cpp" linenr="25" str=";" scope="0x1db0a40"/>
+    <token id="0x1daf9e0" file="button_example.cpp" linenr="27" str="bool" scope="0x1db0a40" type="name"/>
+    <token id="0x1dafa90" file="button_example.cpp" linenr="27" str="last_reading" scope="0x1db0a40" type="name" varId="6" variable="0x1daef80"/>
+    <token id="0x1dafb40" file="button_example.cpp" linenr="27" str=";" scope="0x1db0a40"/>
+    <token id="0x1dafbf0" file="button_example.cpp" linenr="28" str="long" scope="0x1db0a40" type="name"/>
+    <token id="0x1dafca0" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1db0a40" type="name" varId="7" variable="0x1daeff0"/>
+    <token id="0x1dafd50" file="button_example.cpp" linenr="28" str=";" scope="0x1db0a40"/>
+    <token id="0x1dad450" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1db0a40" type="name" varId="7" variable="0x1daeff0" astParent="0x1dad500"/>
+    <token id="0x1dad500" file="button_example.cpp" linenr="28" str="=" scope="0x1db0a40" type="op" isAssignmentOp="True" astOperand1="0x1dad450" astOperand2="0x1dafe00"/>
+    <token id="0x1dafe00" file="button_example.cpp" linenr="28" str="0" scope="0x1db0a40" type="number" isInt="True" values="0x1dafe08" astParent="0x1dad500"/>
+    <token id="0x1dafeb0" file="button_example.cpp" linenr="28" str=";" scope="0x1db0a40"/>
+    <token id="0x1daff60" file="button_example.cpp" linenr="29" str="long" scope="0x1db0a40" type="name"/>
+    <token id="0x1db0010" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1db0a40" type="name" varId="8" variable="0x1daf060"/>
+    <token id="0x1db00c0" file="button_example.cpp" linenr="29" str=";" scope="0x1db0a40"/>
+    <token id="0x1dad5b0" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1db0a40" type="name" varId="8" variable="0x1daf060" astParent="0x1dad910"/>
+    <token id="0x1dad910" file="button_example.cpp" linenr="29" str="=" scope="0x1db0a40" type="op" isAssignmentOp="True" astOperand1="0x1dad5b0" astOperand2="0x1da79e0"/>
+    <token id="0x1da79e0" file="button_example.cpp" linenr="29" str="50" scope="0x1db0a40" type="number" isInt="True" values="0x1da79e8" astParent="0x1dad910"/>
+    <token id="0x1da7a90" file="button_example.cpp" linenr="29" str=";" scope="0x1db0a40"/>
+    <token id="0x1da7b40" file="button_example.cpp" linenr="30" str="bool" scope="0x1db0a40" type="name"/>
+    <token id="0x1da7bf0" file="button_example.cpp" linenr="30" str="published" scope="0x1db0a40" type="name" varId="9" variable="0x1daf0d0"/>
+    <token id="0x1da7ca0" file="button_example.cpp" linenr="30" str=";" scope="0x1db0a40"/>
+    <token id="0x1dad9c0" file="button_example.cpp" linenr="30" str="published" scope="0x1db0a40" type="name" varId="9" variable="0x1daf0d0" astParent="0x1dada70"/>
+    <token id="0x1dada70" file="button_example.cpp" linenr="30" str="=" scope="0x1db0a40" type="op" isAssignmentOp="True" astOperand1="0x1dad9c0" astOperand2="0x1da7d50"/>
+    <token id="0x1da7d50" file="button_example.cpp" linenr="30" str="true" scope="0x1db0a40" type="name" values="0x1da7d58" astParent="0x1dada70"/>
+    <token id="0x1da7e00" file="button_example.cpp" linenr="30" str=";" scope="0x1db0a40"/>
+    <token id="0x1da7eb0" file="button_example.cpp" linenr="32" str="Timer" scope="0x1db0a40" type="name"/>
+    <token id="0x1da7f60" file="button_example.cpp" linenr="32" str="t" scope="0x1db0a40" type="name" varId="10" variable="0x1daf140"/>
+    <token id="0x1da8010" file="button_example.cpp" linenr="32" str=";" scope="0x1db0a40"/>
+    <token id="0x1da80c0" file="button_example.cpp" linenr="33" str="int" scope="0x1db0a40" type="name"/>
+    <token id="0x1da8170" file="button_example.cpp" linenr="33" str="main" scope="0x1db0a40" type="name" function="0x1dadc20" astParent="0x1da8220"/>
+    <token id="0x1da8220" file="button_example.cpp" linenr="33" str="(" scope="0x1db0a40" link="0x1da82d0" astOperand1="0x1da8170"/>
+    <token id="0x1da82d0" file="button_example.cpp" linenr="33" str=")" scope="0x1db0a40" link="0x1da8220"/>
+    <token id="0x1da8380" file="button_example.cpp" linenr="33" str="{" scope="0x1dadcc0" link="0x1dad3a0"/>
+    <token id="0x1da8430" file="button_example.cpp" linenr="34" str="t" scope="0x1dadcc0" type="name" varId="10" variable="0x1daf140" astParent="0x1da84e0"/>
+    <token id="0x1da84e0" file="button_example.cpp" linenr="34" str="." scope="0x1dadcc0" astParent="0x1da8640" astOperand1="0x1da8430" astOperand2="0x1da8590"/>
+    <token id="0x1da8590" file="button_example.cpp" linenr="34" str="start" scope="0x1dadcc0" type="name" astParent="0x1da84e0"/>
+    <token id="0x1da8640" file="button_example.cpp" linenr="34" str="(" scope="0x1dadcc0" link="0x1da86f0" astOperand1="0x1da84e0"/>
+    <token id="0x1da86f0" file="button_example.cpp" linenr="34" str=")" scope="0x1dadcc0" link="0x1da8640"/>
+    <token id="0x1da87a0" file="button_example.cpp" linenr="34" str=";" scope="0x1dadcc0"/>
+    <token id="0x1da8850" file="button_example.cpp" linenr="35" str="nh" scope="0x1dadcc0" type="name" varId="2" variable="0x1db0bf0" astParent="0x1da8900"/>
+    <token id="0x1da8900" file="button_example.cpp" linenr="35" str="." scope="0x1dadcc0" astParent="0x1da8a60" astOperand1="0x1da8850" astOperand2="0x1da89b0"/>
+    <token id="0x1da89b0" file="button_example.cpp" linenr="35" str="initNode" scope="0x1dadcc0" type="name" astParent="0x1da8900"/>
+    <token id="0x1da8a60" file="button_example.cpp" linenr="35" str="(" scope="0x1dadcc0" link="0x1da8b10" astOperand1="0x1da8900"/>
+    <token id="0x1da8b10" file="button_example.cpp" linenr="35" str=")" scope="0x1dadcc0" link="0x1da8a60"/>
+    <token id="0x1da8bc0" file="button_example.cpp" linenr="35" str=";" scope="0x1dadcc0"/>
+    <token id="0x1da8c70" file="button_example.cpp" linenr="36" str="nh" scope="0x1dadcc0" type="name" varId="2" variable="0x1db0bf0" astParent="0x1da8d20"/>
+    <token id="0x1da8d20" file="button_example.cpp" linenr="36" str="." scope="0x1dadcc0" astParent="0x1da8e80" astOperand1="0x1da8c70" astOperand2="0x1da8dd0"/>
+    <token id="0x1da8dd0" file="button_example.cpp" linenr="36" str="advertise" scope="0x1dadcc0" type="name" astParent="0x1da8d20"/>
+    <token id="0x1da8e80" file="button_example.cpp" linenr="36" str="(" scope="0x1dadcc0" link="0x1da8fe0" astOperand1="0x1da8d20" astOperand2="0x1da8f30"/>
+    <token id="0x1da8f30" file="button_example.cpp" linenr="36" str="pub_button" scope="0x1dadcc0" type="name" varId="4" variable="0x1daeea0" astParent="0x1da8e80"/>
+    <token id="0x1da8fe0" file="button_example.cpp" linenr="36" str=")" scope="0x1dadcc0" link="0x1da8e80"/>
+    <token id="0x1da9090" file="button_example.cpp" linenr="36" str=";" scope="0x1dadcc0"/>
+    <token id="0x1da9140" file="button_example.cpp" linenr="39" str="button_pin" scope="0x1dadcc0" type="name" varId="5" variable="0x1daef10" astParent="0x1da91f0"/>
+    <token id="0x1da91f0" file="button_example.cpp" linenr="39" str="." scope="0x1dadcc0" astParent="0x1da9350" astOperand1="0x1da9140" astOperand2="0x1da92a0"/>
+    <token id="0x1da92a0" file="button_example.cpp" linenr="39" str="mode" scope="0x1dadcc0" type="name" astParent="0x1da91f0"/>
+    <token id="0x1da9350" file="button_example.cpp" linenr="39" str="(" scope="0x1dadcc0" link="0x1da94b0" astOperand1="0x1da91f0" astOperand2="0x1da9400"/>
+    <token id="0x1da9400" file="button_example.cpp" linenr="39" str="PullUp" scope="0x1dadcc0" type="name" astParent="0x1da9350"/>
+    <token id="0x1da94b0" file="button_example.cpp" linenr="39" str=")" scope="0x1dadcc0" link="0x1da9350"/>
+    <token id="0x1da9560" file="button_example.cpp" linenr="39" str=";" scope="0x1dadcc0"/>
+    <token id="0x1da9610" file="button_example.cpp" linenr="42" str="last_reading" scope="0x1dadcc0" type="name" varId="6" variable="0x1daef80" astParent="0x1da96c0"/>
+    <token id="0x1da96c0" file="button_example.cpp" linenr="42" str="=" scope="0x1dadcc0" type="op" isAssignmentOp="True" astOperand1="0x1da9610" astOperand2="0x1da9770"/>
+    <token id="0x1da9770" file="button_example.cpp" linenr="42" str="!" scope="0x1dadcc0" type="op" isLogicalOp="True" astParent="0x1da96c0" astOperand1="0x1da9820"/>
+    <token id="0x1da9820" file="button_example.cpp" linenr="42" str="button_pin" scope="0x1dadcc0" type="name" varId="5" variable="0x1daef10" astParent="0x1da9770"/>
+    <token id="0x1da98d0" file="button_example.cpp" linenr="42" str=";" scope="0x1dadcc0"/>
+    <token id="0x1da9980" file="button_example.cpp" linenr="44" str="while" scope="0x1dadcc0" type="name" astParent="0x1da9a30"/>
+    <token id="0x1da9a30" file="button_example.cpp" linenr="44" str="(" scope="0x1dadcc0" link="0x1da9b90" astOperand1="0x1da9980" astOperand2="0x1da9ae0"/>
+    <token id="0x1da9ae0" file="button_example.cpp" linenr="44" str="1" scope="0x1dadcc0" type="number" isInt="True" values="0x1da9ae8" astParent="0x1da9a30"/>
+    <token id="0x1da9b90" file="button_example.cpp" linenr="44" str=")" scope="0x1dadcc0" link="0x1da9a30"/>
+    <token id="0x1da9c40" file="button_example.cpp" linenr="44" str="{" scope="0x1daddf0" link="0x1dad2f0"/>
+    <token id="0x1da9cf0" file="button_example.cpp" linenr="45" str="bool" scope="0x1daddf0" type="name"/>
+    <token id="0x1da9da0" file="button_example.cpp" linenr="45" str="reading" scope="0x1daddf0" type="name" varId="11" variable="0x1daf1b0"/>
+    <token id="0x1da9e50" file="button_example.cpp" linenr="45" str=";" scope="0x1daddf0"/>
+    <token id="0x1dad6b0" file="button_example.cpp" linenr="45" str="reading" scope="0x1daddf0" type="name" varId="11" variable="0x1daf1b0" astParent="0x1dad760"/>
+    <token id="0x1dad760" file="button_example.cpp" linenr="45" str="=" scope="0x1daddf0" type="op" isAssignmentOp="True" astOperand1="0x1dad6b0" astOperand2="0x1da9f00"/>
+    <token id="0x1da9f00" file="button_example.cpp" linenr="45" str="!" scope="0x1daddf0" type="op" isLogicalOp="True" astParent="0x1dad760" astOperand1="0x1da9fb0"/>
+    <token id="0x1da9fb0" file="button_example.cpp" linenr="45" str="button_pin" scope="0x1daddf0" type="name" varId="5" variable="0x1daef10" astParent="0x1da9f00"/>
+    <token id="0x1daa060" file="button_example.cpp" linenr="45" str=";" scope="0x1daddf0"/>
+    <token id="0x1daa110" file="button_example.cpp" linenr="47" str="if" scope="0x1daddf0" type="name" astParent="0x1daa1c0"/>
+    <token id="0x1daa1c0" file="button_example.cpp" linenr="47" str="(" scope="0x1daddf0" link="0x1daa530" astOperand1="0x1daa110" astOperand2="0x1daa320"/>
+    <token id="0x1daa270" file="button_example.cpp" linenr="47" str="last_reading" scope="0x1daddf0" type="name" varId="6" variable="0x1daef80" astParent="0x1daa320"/>
+    <token id="0x1daa320" file="button_example.cpp" linenr="47" str="!=" scope="0x1daddf0" type="op" isComparisonOp="True" astParent="0x1daa1c0" astOperand1="0x1daa270" astOperand2="0x1daa480"/>
+    <token id="0x1daa480" file="button_example.cpp" linenr="47" str="reading" scope="0x1daddf0" type="name" varId="11" variable="0x1daf1b0" astParent="0x1daa320"/>
+    <token id="0x1daa530" file="button_example.cpp" linenr="47" str=")" scope="0x1daddf0" link="0x1daa1c0"/>
+    <token id="0x1daa5e0" file="button_example.cpp" linenr="47" str="{" scope="0x1daebd0" link="0x1daaf00"/>
+    <token id="0x1daa690" file="button_example.cpp" linenr="48" str="last_debounce_time" scope="0x1daebd0" type="name" varId="7" variable="0x1daeff0" astParent="0x1daa770"/>
+    <token id="0x1daa770" file="button_example.cpp" linenr="48" str="=" scope="0x1daebd0" type="op" isAssignmentOp="True" astOperand1="0x1daa690" astOperand2="0x1daaa30"/>
+    <token id="0x1daa820" file="button_example.cpp" linenr="48" str="t" scope="0x1daebd0" type="name" varId="10" variable="0x1daf140" astParent="0x1daa8d0"/>
+    <token id="0x1daa8d0" file="button_example.cpp" linenr="48" str="." scope="0x1daebd0" astParent="0x1daaa30" astOperand1="0x1daa820" astOperand2="0x1daa980"/>
+    <token id="0x1daa980" file="button_example.cpp" linenr="48" str="read_ms" scope="0x1daebd0" type="name" astParent="0x1daa8d0"/>
+    <token id="0x1daaa30" file="button_example.cpp" linenr="48" str="(" scope="0x1daebd0" link="0x1daaae0" astParent="0x1daa770" astOperand1="0x1daa8d0"/>
+    <token id="0x1daaae0" file="button_example.cpp" linenr="48" str=")" scope="0x1daebd0" link="0x1daaa30"/>
+    <token id="0x1daab90" file="button_example.cpp" linenr="48" str=";" scope="0x1daebd0"/>
+    <token id="0x1daac40" file="button_example.cpp" linenr="49" str="published" scope="0x1daebd0" type="name" varId="9" variable="0x1daf0d0" astParent="0x1daacf0"/>
+    <token id="0x1daacf0" file="button_example.cpp" linenr="49" str="=" scope="0x1daebd0" type="op" isAssignmentOp="True" astOperand1="0x1daac40" astOperand2="0x1daada0"/>
+    <token id="0x1daada0" file="button_example.cpp" linenr="49" str="false" scope="0x1daebd0" type="name" values="0x1daada8" astParent="0x1daacf0"/>
+    <token id="0x1daae50" file="button_example.cpp" linenr="49" str=";" scope="0x1daebd0"/>
+    <token id="0x1daaf00" file="button_example.cpp" linenr="50" str="}" scope="0x1daebd0" link="0x1daa5e0"/>
+    <token id="0x1daafb0" file="button_example.cpp" linenr="53" str="if" scope="0x1daddf0" type="name" astParent="0x1dab060"/>
+    <token id="0x1dab060" file="button_example.cpp" linenr="53" str="(" scope="0x1daddf0" link="0x1dabae0" astOperand1="0x1daafb0" astOperand2="0x1dab270"/>
+    <token id="0x1dab110" file="button_example.cpp" linenr="53" str="!" scope="0x1daddf0" type="op" isLogicalOp="True" astParent="0x1dab270" astOperand1="0x1dab1c0"/>
+    <token id="0x1dab1c0" file="button_example.cpp" linenr="53" str="published" scope="0x1daddf0" type="name" varId="9" variable="0x1daf0d0" astParent="0x1dab110"/>
+    <token id="0x1dab270" file="button_example.cpp" linenr="53" str="&amp;&amp;" scope="0x1daddf0" type="op" isLogicalOp="True" astParent="0x1dab060" astOperand1="0x1dab110" astOperand2="0x1dab980"/>
+    <token id="0x1dab320" file="button_example.cpp" linenr="53" str="(" scope="0x1daddf0" link="0x1dab8d0"/>
+    <token id="0x1dab3d0" file="button_example.cpp" linenr="53" str="t" scope="0x1daddf0" type="name" varId="10" variable="0x1daf140" astParent="0x1dab480"/>
+    <token id="0x1dab480" file="button_example.cpp" linenr="53" str="." scope="0x1daddf0" astParent="0x1dab5e0" astOperand1="0x1dab3d0" astOperand2="0x1dab530"/>
+    <token id="0x1dab530" file="button_example.cpp" linenr="53" str="read_ms" scope="0x1daddf0" type="name" astParent="0x1dab480"/>
+    <token id="0x1dab5e0" file="button_example.cpp" linenr="53" str="(" scope="0x1daddf0" link="0x1dab690" astParent="0x1dab740" astOperand1="0x1dab480"/>
+    <token id="0x1dab690" file="button_example.cpp" linenr="53" str=")" scope="0x1daddf0" link="0x1dab5e0"/>
+    <token id="0x1dab740" file="button_example.cpp" linenr="53" str="-" scope="0x1daddf0" type="op" isArithmeticalOp="True" astParent="0x1dab980" astOperand1="0x1dab5e0" astOperand2="0x1dab7f0"/>
+    <token id="0x1dab7f0" file="button_example.cpp" linenr="53" str="last_debounce_time" scope="0x1daddf0" type="name" varId="7" variable="0x1daeff0" astParent="0x1dab740"/>
+    <token id="0x1dab8d0" file="button_example.cpp" linenr="53" str=")" scope="0x1daddf0" link="0x1dab320"/>
+    <token id="0x1dab980" file="button_example.cpp" linenr="53" str="&gt;" scope="0x1daddf0" type="op" isComparisonOp="True" astParent="0x1dab270" astOperand1="0x1dab740" astOperand2="0x1daba30"/>
+    <token id="0x1daba30" file="button_example.cpp" linenr="53" str="debounce_delay" scope="0x1daddf0" type="name" varId="8" variable="0x1daf060" astParent="0x1dab980"/>
+    <token id="0x1dabae0" file="button_example.cpp" linenr="53" str=")" scope="0x1daddf0" link="0x1dab060"/>
+    <token id="0x1dabb90" file="button_example.cpp" linenr="53" str="{" scope="0x1daed00" link="0x1dacb60"/>
+    <token id="0x1dabc40" file="button_example.cpp" linenr="54" str="led_pin" scope="0x1daed00" type="name" astParent="0x1dabcf0"/>
+    <token id="0x1dabcf0" file="button_example.cpp" linenr="54" str="=" scope="0x1daed00" type="op" isAssignmentOp="True" astOperand1="0x1dabc40" astOperand2="0x1dabda0"/>
+    <token id="0x1dabda0" file="button_example.cpp" linenr="54" str="reading" scope="0x1daed00" type="name" varId="11" variable="0x1daf1b0" astParent="0x1dabcf0"/>
+    <token id="0x1dabe50" file="button_example.cpp" linenr="54" str=";" scope="0x1daed00"/>
+    <token id="0x1dabf00" file="button_example.cpp" linenr="55" str="pushed_msg" scope="0x1daed00" type="name" varId="3" variable="0x1daee30" astParent="0x1dabfb0"/>
+    <token id="0x1dabfb0" file="button_example.cpp" linenr="55" str="." scope="0x1daed00" astParent="0x1dac110" astOperand1="0x1dabf00" astOperand2="0x1dac060"/>
+    <token id="0x1dac060" file="button_example.cpp" linenr="55" str="data" scope="0x1daed00" type="name" varId="12" astParent="0x1dabfb0"/>
+    <token id="0x1dac110" file="button_example.cpp" linenr="55" str="=" scope="0x1daed00" type="op" isAssignmentOp="True" astOperand1="0x1dabfb0" astOperand2="0x1dac1c0"/>
+    <token id="0x1dac1c0" file="button_example.cpp" linenr="55" str="reading" scope="0x1daed00" type="name" varId="11" variable="0x1daf1b0" astParent="0x1dac110"/>
+    <token id="0x1dac270" file="button_example.cpp" linenr="55" str=";" scope="0x1daed00"/>
+    <token id="0x1dac320" file="button_example.cpp" linenr="56" str="pub_button" scope="0x1daed00" type="name" varId="4" variable="0x1daeea0" astParent="0x1dac3d0"/>
+    <token id="0x1dac3d0" file="button_example.cpp" linenr="56" str="." scope="0x1daed00" astParent="0x1dac530" astOperand1="0x1dac320" astOperand2="0x1dac480"/>
+    <token id="0x1dac480" file="button_example.cpp" linenr="56" str="publish" scope="0x1daed00" type="name" astParent="0x1dac3d0"/>
+    <token id="0x1dac530" file="button_example.cpp" linenr="56" str="(" scope="0x1daed00" link="0x1dac740" astOperand1="0x1dac3d0" astOperand2="0x1dac5e0"/>
+    <token id="0x1dac5e0" file="button_example.cpp" linenr="56" str="&amp;" scope="0x1daed00" type="op" astParent="0x1dac530" astOperand1="0x1dac690"/>
+    <token id="0x1dac690" file="button_example.cpp" linenr="56" str="pushed_msg" scope="0x1daed00" type="name" varId="3" variable="0x1daee30" astParent="0x1dac5e0"/>
+    <token id="0x1dac740" file="button_example.cpp" linenr="56" str=")" scope="0x1daed00" link="0x1dac530"/>
+    <token id="0x1dac7f0" file="button_example.cpp" linenr="56" str=";" scope="0x1daed00"/>
+    <token id="0x1dac8a0" file="button_example.cpp" linenr="57" str="published" scope="0x1daed00" type="name" varId="9" variable="0x1daf0d0" astParent="0x1dac950"/>
+    <token id="0x1dac950" file="button_example.cpp" linenr="57" str="=" scope="0x1daed00" type="op" isAssignmentOp="True" astOperand1="0x1dac8a0" astOperand2="0x1daca00"/>
+    <token id="0x1daca00" file="button_example.cpp" linenr="57" str="true" scope="0x1daed00" type="name" values="0x1daca08" astParent="0x1dac950"/>
+    <token id="0x1dacab0" file="button_example.cpp" linenr="57" str=";" scope="0x1daed00"/>
+    <token id="0x1dacb60" file="button_example.cpp" linenr="58" str="}" scope="0x1daed00" link="0x1dabb90"/>
+    <token id="0x1dacc10" file="button_example.cpp" linenr="60" str="last_reading" scope="0x1daddf0" type="name" varId="6" variable="0x1daef80" astParent="0x1daccc0"/>
+    <token id="0x1daccc0" file="button_example.cpp" linenr="60" str="=" scope="0x1daddf0" type="op" isAssignmentOp="True" astOperand1="0x1dacc10" astOperand2="0x1dacd70"/>
+    <token id="0x1dacd70" file="button_example.cpp" linenr="60" str="reading" scope="0x1daddf0" type="name" varId="11" variable="0x1daf1b0" astParent="0x1daccc0"/>
+    <token id="0x1dace20" file="button_example.cpp" linenr="60" str=";" scope="0x1daddf0"/>
+    <token id="0x1daced0" file="button_example.cpp" linenr="62" str="nh" scope="0x1daddf0" type="name" varId="2" variable="0x1db0bf0" astParent="0x1dacf80"/>
+    <token id="0x1dacf80" file="button_example.cpp" linenr="62" str="." scope="0x1daddf0" astParent="0x1dad0e0" astOperand1="0x1daced0" astOperand2="0x1dad030"/>
+    <token id="0x1dad030" file="button_example.cpp" linenr="62" str="spinOnce" scope="0x1daddf0" type="name" astParent="0x1dacf80"/>
+    <token id="0x1dad0e0" file="button_example.cpp" linenr="62" str="(" scope="0x1daddf0" link="0x1dad190" astOperand1="0x1dacf80"/>
+    <token id="0x1dad190" file="button_example.cpp" linenr="62" str=")" scope="0x1daddf0" link="0x1dad0e0"/>
+    <token id="0x1dad240" file="button_example.cpp" linenr="62" str=";" scope="0x1daddf0"/>
+    <token id="0x1dad2f0" file="button_example.cpp" linenr="63" str="}" scope="0x1daddf0" link="0x1da9c40"/>
+    <token id="0x1dad3a0" file="button_example.cpp" linenr="64" str="}" scope="0x1dadcc0" link="0x1da8380"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1db0a40" type="Global">
+      <functionList>
+        <function id="0x1dadb80" tokenDef="0x1daf670" name="led_pin">
+          <arg nr="1" variable="0x1daf220"/>
+        </function>
+        <function id="0x1dadc20" tokenDef="0x1da8170" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x1db0c60"/>
+        <var id="0x1db0bf0"/>
+        <var id="0x1daee30"/>
+        <var id="0x1daeea0"/>
+        <var id="0x1daef10"/>
+        <var id="0x1daef80"/>
+        <var id="0x1daeff0"/>
+        <var id="0x1daf060"/>
+        <var id="0x1daf0d0"/>
+        <var id="0x1daf140"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dadcc0" type="Function" className="main" classStart="0x1da8380" classEnd="0x1dad3a0" nestedIn="0x1db0a40" function="0x1dadc20"/>
+    <scope id="0x1daddf0" type="While" classStart="0x1da9c40" classEnd="0x1dad2f0" nestedIn="0x1dadcc0">
+      <varlist>
+        <var id="0x1daf1b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1daebd0" type="If" classStart="0x1daa5e0" classEnd="0x1daaf00" nestedIn="0x1daddf0"/>
+    <scope id="0x1daed00" type="If" classStart="0x1dabb90" classEnd="0x1dacb60" nestedIn="0x1daddf0"/>
+  </scopes>
+  <variables>
+    <var id="0x1db0c60" nameToken="0x1db13e0" typeStartToken="0x1da43a0" typeEndToken="0x1da43a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0bf0" nameToken="0x1db0cc0" typeStartToken="0x1db0360" typeEndToken="0x1db04c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daee30" nameToken="0x1da4500" typeStartToken="0x1db0e20" typeEndToken="0x1db0f80" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daeea0" nameToken="0x1da4870" typeStartToken="0x1da4660" typeEndToken="0x1da47c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daef10" nameToken="0x1da54a0" typeStartToken="0x1da53f0" typeEndToken="0x1da53f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daef80" nameToken="0x1dafa90" typeStartToken="0x1daf9e0" typeEndToken="0x1daf9e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daeff0" nameToken="0x1dafca0" typeStartToken="0x1dafbf0" typeEndToken="0x1dafbf0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daf060" nameToken="0x1db0010" typeStartToken="0x1daff60" typeEndToken="0x1daff60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daf0d0" nameToken="0x1da7bf0" typeStartToken="0x1da7b40" typeEndToken="0x1da7b40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daf140" nameToken="0x1da7f60" typeStartToken="0x1da7eb0" typeEndToken="0x1da7eb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1daf1b0" nameToken="0x1da9da0" typeStartToken="0x1da9cf0" typeEndToken="0x1da9cf0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1da4fd8">
+      <value tokvalue="0x1da4fd0" known="true"/>
+    </values>
+    <values id="0x1dafe08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1da79e8">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0x1da7d58">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1da9ae8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1daada8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1daca08">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_NUCLEO_F401RE">
+  <tokenlist>
+    <token id="0x1da5280" file="button_example.cpp" linenr="14" str="PinName" scope="0x1dada80" type="name"/>
+    <token id="0x1db0860" file="button_example.cpp" linenr="14" str="button" scope="0x1dada80" type="name" varId="1" variable="0x1db0ec0"/>
+    <token id="0x1da43a0" file="button_example.cpp" linenr="14" str=";" scope="0x1dada80"/>
+    <token id="0x1daa480" file="button_example.cpp" linenr="14" str="button" scope="0x1dada80" type="name" varId="1" variable="0x1db0ec0" astParent="0x1da4110"/>
+    <token id="0x1da4110" file="button_example.cpp" linenr="14" str="=" scope="0x1dada80" type="op" isAssignmentOp="True" astOperand1="0x1daa480" astOperand2="0x1d96490"/>
+    <token id="0x1d96490" file="button_example.cpp" linenr="14" str="USER_BUTTON" scope="0x1dada80" type="name" astParent="0x1da4110"/>
+    <token id="0x1da5650" file="button_example.cpp" linenr="14" str=";" scope="0x1dada80"/>
+    <token id="0x1da4500" file="button_example.cpp" linenr="19" str="ros" scope="0x1dada80" type="name" astParent="0x1da45b0"/>
+    <token id="0x1da45b0" file="button_example.cpp" linenr="19" str="::" scope="0x1dada80" astOperand1="0x1da4500" astOperand2="0x1da4710"/>
+    <token id="0x1da4660" file="button_example.cpp" linenr="19" str="NodeHandle" scope="0x1dada80" type="name"/>
+    <token id="0x1da4710" file="button_example.cpp" linenr="19" str="nh" scope="0x1dada80" type="name" varId="2" variable="0x1db0f30" astParent="0x1da45b0"/>
+    <token id="0x1da47c0" file="button_example.cpp" linenr="19" str=";" scope="0x1dada80"/>
+    <token id="0x1da4870" file="button_example.cpp" linenr="21" str="std_msgs" scope="0x1dada80" type="name" astParent="0x1daebc0"/>
+    <token id="0x1daebc0" file="button_example.cpp" linenr="21" str="::" scope="0x1dada80" astOperand1="0x1da4870" astOperand2="0x1daed20"/>
+    <token id="0x1daec70" file="button_example.cpp" linenr="21" str="Bool" scope="0x1dada80" type="name"/>
+    <token id="0x1daed20" file="button_example.cpp" linenr="21" str="pushed_msg" scope="0x1dada80" type="name" varId="3" variable="0x1db0fa0" astParent="0x1daebc0"/>
+    <token id="0x1daedd0" file="button_example.cpp" linenr="21" str=";" scope="0x1dada80"/>
+    <token id="0x1daee80" file="button_example.cpp" linenr="22" str="ros" scope="0x1dada80" type="name" astParent="0x1daef30"/>
+    <token id="0x1daef30" file="button_example.cpp" linenr="22" str="::" scope="0x1dada80" astParent="0x1daf140" astOperand1="0x1daee80" astOperand2="0x1daf090"/>
+    <token id="0x1daefe0" file="button_example.cpp" linenr="22" str="Publisher" scope="0x1dada80" type="name"/>
+    <token id="0x1daf090" file="button_example.cpp" linenr="22" str="pub_button" scope="0x1dada80" type="name" varId="4" variable="0x1db1010" astParent="0x1daef30"/>
+    <token id="0x1daf140" file="button_example.cpp" linenr="22" str="(" scope="0x1dada80" link="0x1daf4b0" astOperand1="0x1daef30" astOperand2="0x1daf2a0"/>
+    <token id="0x1daf1f0" file="button_example.cpp" linenr="22" str="&quot;pushed&quot;" scope="0x1dada80" type="string" strlen="6" values="0x1daf1f8" astParent="0x1daf2a0"/>
+    <token id="0x1daf2a0" file="button_example.cpp" linenr="22" str="," scope="0x1dada80" astParent="0x1daf140" astOperand1="0x1daf1f0" astOperand2="0x1daf350"/>
+    <token id="0x1daf350" file="button_example.cpp" linenr="22" str="&amp;" scope="0x1dada80" type="op" astParent="0x1daf2a0" astOperand1="0x1daf400"/>
+    <token id="0x1daf400" file="button_example.cpp" linenr="22" str="pushed_msg" scope="0x1dada80" type="name" varId="3" variable="0x1db0fa0" astParent="0x1daf350"/>
+    <token id="0x1daf4b0" file="button_example.cpp" linenr="22" str=")" scope="0x1dada80" link="0x1daf140"/>
+    <token id="0x1daf560" file="button_example.cpp" linenr="22" str=";" scope="0x1dada80"/>
+    <token id="0x1daf610" file="button_example.cpp" linenr="24" str="DigitalIn" scope="0x1dada80" type="name"/>
+    <token id="0x1daf6c0" file="button_example.cpp" linenr="24" str="button_pin" scope="0x1dada80" type="name" varId="5" variable="0x1db1080" astParent="0x1daf770"/>
+    <token id="0x1daf770" file="button_example.cpp" linenr="24" str="(" scope="0x1dada80" link="0x1daf8d0" astOperand1="0x1daf6c0" astOperand2="0x1daf820"/>
+    <token id="0x1daf820" file="button_example.cpp" linenr="24" str="button" scope="0x1dada80" type="name" varId="1" variable="0x1db0ec0" astParent="0x1daf770"/>
+    <token id="0x1daf8d0" file="button_example.cpp" linenr="24" str=")" scope="0x1dada80" link="0x1daf770"/>
+    <token id="0x1daf980" file="button_example.cpp" linenr="24" str=";" scope="0x1dada80"/>
+    <token id="0x1dafa30" file="button_example.cpp" linenr="25" str="DigitalOut" scope="0x1dada80" type="name"/>
+    <token id="0x1dafae0" file="button_example.cpp" linenr="25" str="led_pin" scope="0x1dada80" type="name" function="0x1dade90" astParent="0x1dafb90"/>
+    <token id="0x1dafb90" file="button_example.cpp" linenr="25" str="(" scope="0x1dada80" link="0x1dafcf0" astOperand1="0x1dafae0" astOperand2="0x1dafc40"/>
+    <token id="0x1dafc40" file="button_example.cpp" linenr="25" str="LED1" scope="0x1dada80" type="name" astParent="0x1dafb90"/>
+    <token id="0x1dafcf0" file="button_example.cpp" linenr="25" str=")" scope="0x1dada80" link="0x1dafb90"/>
+    <token id="0x1dafda0" file="button_example.cpp" linenr="25" str=";" scope="0x1dada80"/>
+    <token id="0x1dafe50" file="button_example.cpp" linenr="27" str="bool" scope="0x1dada80" type="name"/>
+    <token id="0x1daff00" file="button_example.cpp" linenr="27" str="last_reading" scope="0x1dada80" type="name" varId="6" variable="0x1db10f0"/>
+    <token id="0x1daffb0" file="button_example.cpp" linenr="27" str=";" scope="0x1dada80"/>
+    <token id="0x1db0060" file="button_example.cpp" linenr="28" str="long" scope="0x1dada80" type="name"/>
+    <token id="0x1db0110" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1dada80" type="name" varId="7" variable="0x1db1160"/>
+    <token id="0x1db01f0" file="button_example.cpp" linenr="28" str=";" scope="0x1dada80"/>
+    <token id="0x1da41c0" file="button_example.cpp" linenr="28" str="last_debounce_time" scope="0x1dada80" type="name" varId="7" variable="0x1db1160" astParent="0x1dad760"/>
+    <token id="0x1dad760" file="button_example.cpp" linenr="28" str="=" scope="0x1dada80" type="op" isAssignmentOp="True" astOperand1="0x1da41c0" astOperand2="0x1db02a0"/>
+    <token id="0x1db02a0" file="button_example.cpp" linenr="28" str="0" scope="0x1dada80" type="number" isInt="True" values="0x1db02a8" astParent="0x1dad760"/>
+    <token id="0x1db0350" file="button_example.cpp" linenr="28" str=";" scope="0x1dada80"/>
+    <token id="0x1db0400" file="button_example.cpp" linenr="29" str="long" scope="0x1dada80" type="name"/>
+    <token id="0x1db04b0" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1dada80" type="name" varId="8" variable="0x1db11d0"/>
+    <token id="0x1da79e0" file="button_example.cpp" linenr="29" str=";" scope="0x1dada80"/>
+    <token id="0x1dad810" file="button_example.cpp" linenr="29" str="debounce_delay" scope="0x1dada80" type="name" varId="8" variable="0x1db11d0" astParent="0x1dad8c0"/>
+    <token id="0x1dad8c0" file="button_example.cpp" linenr="29" str="=" scope="0x1dada80" type="op" isAssignmentOp="True" astOperand1="0x1dad810" astOperand2="0x1da7a90"/>
+    <token id="0x1da7a90" file="button_example.cpp" linenr="29" str="50" scope="0x1dada80" type="number" isInt="True" values="0x1da7a98" astParent="0x1dad8c0"/>
+    <token id="0x1da7b40" file="button_example.cpp" linenr="29" str=";" scope="0x1dada80"/>
+    <token id="0x1da7bf0" file="button_example.cpp" linenr="30" str="bool" scope="0x1dada80" type="name"/>
+    <token id="0x1da7ca0" file="button_example.cpp" linenr="30" str="published" scope="0x1dada80" type="name" varId="9" variable="0x1db1240"/>
+    <token id="0x1da7d50" file="button_example.cpp" linenr="30" str=";" scope="0x1dada80"/>
+    <token id="0x1dad500" file="button_example.cpp" linenr="30" str="published" scope="0x1dada80" type="name" varId="9" variable="0x1db1240" astParent="0x1dad5b0"/>
+    <token id="0x1dad5b0" file="button_example.cpp" linenr="30" str="=" scope="0x1dada80" type="op" isAssignmentOp="True" astOperand1="0x1dad500" astOperand2="0x1da7e00"/>
+    <token id="0x1da7e00" file="button_example.cpp" linenr="30" str="true" scope="0x1dada80" type="name" values="0x1da7e08" astParent="0x1dad5b0"/>
+    <token id="0x1da7eb0" file="button_example.cpp" linenr="30" str=";" scope="0x1dada80"/>
+    <token id="0x1da7f60" file="button_example.cpp" linenr="32" str="Timer" scope="0x1dada80" type="name"/>
+    <token id="0x1da8010" file="button_example.cpp" linenr="32" str="t" scope="0x1dada80" type="name" varId="10" variable="0x1db12b0"/>
+    <token id="0x1da80c0" file="button_example.cpp" linenr="32" str=";" scope="0x1dada80"/>
+    <token id="0x1da8170" file="button_example.cpp" linenr="33" str="int" scope="0x1dada80" type="name"/>
+    <token id="0x1da8220" file="button_example.cpp" linenr="33" str="main" scope="0x1dada80" type="name" function="0x1dadf30" astParent="0x1da82d0"/>
+    <token id="0x1da82d0" file="button_example.cpp" linenr="33" str="(" scope="0x1dada80" link="0x1da8380" astOperand1="0x1da8220"/>
+    <token id="0x1da8380" file="button_example.cpp" linenr="33" str=")" scope="0x1dada80" link="0x1da82d0"/>
+    <token id="0x1da8430" file="button_example.cpp" linenr="33" str="{" scope="0x1dadfd0" link="0x1dad450"/>
+    <token id="0x1da84e0" file="button_example.cpp" linenr="34" str="t" scope="0x1dadfd0" type="name" varId="10" variable="0x1db12b0" astParent="0x1da8590"/>
+    <token id="0x1da8590" file="button_example.cpp" linenr="34" str="." scope="0x1dadfd0" astParent="0x1da86f0" astOperand1="0x1da84e0" astOperand2="0x1da8640"/>
+    <token id="0x1da8640" file="button_example.cpp" linenr="34" str="start" scope="0x1dadfd0" type="name" astParent="0x1da8590"/>
+    <token id="0x1da86f0" file="button_example.cpp" linenr="34" str="(" scope="0x1dadfd0" link="0x1da87a0" astOperand1="0x1da8590"/>
+    <token id="0x1da87a0" file="button_example.cpp" linenr="34" str=")" scope="0x1dadfd0" link="0x1da86f0"/>
+    <token id="0x1da8850" file="button_example.cpp" linenr="34" str=";" scope="0x1dadfd0"/>
+    <token id="0x1da8900" file="button_example.cpp" linenr="35" str="nh" scope="0x1dadfd0" type="name" varId="2" variable="0x1db0f30" astParent="0x1da89b0"/>
+    <token id="0x1da89b0" file="button_example.cpp" linenr="35" str="." scope="0x1dadfd0" astParent="0x1da8b10" astOperand1="0x1da8900" astOperand2="0x1da8a60"/>
+    <token id="0x1da8a60" file="button_example.cpp" linenr="35" str="initNode" scope="0x1dadfd0" type="name" astParent="0x1da89b0"/>
+    <token id="0x1da8b10" file="button_example.cpp" linenr="35" str="(" scope="0x1dadfd0" link="0x1da8bc0" astOperand1="0x1da89b0"/>
+    <token id="0x1da8bc0" file="button_example.cpp" linenr="35" str=")" scope="0x1dadfd0" link="0x1da8b10"/>
+    <token id="0x1da8c70" file="button_example.cpp" linenr="35" str=";" scope="0x1dadfd0"/>
+    <token id="0x1da8d20" file="button_example.cpp" linenr="36" str="nh" scope="0x1dadfd0" type="name" varId="2" variable="0x1db0f30" astParent="0x1da8dd0"/>
+    <token id="0x1da8dd0" file="button_example.cpp" linenr="36" str="." scope="0x1dadfd0" astParent="0x1da8f30" astOperand1="0x1da8d20" astOperand2="0x1da8e80"/>
+    <token id="0x1da8e80" file="button_example.cpp" linenr="36" str="advertise" scope="0x1dadfd0" type="name" astParent="0x1da8dd0"/>
+    <token id="0x1da8f30" file="button_example.cpp" linenr="36" str="(" scope="0x1dadfd0" link="0x1da9090" astOperand1="0x1da8dd0" astOperand2="0x1da8fe0"/>
+    <token id="0x1da8fe0" file="button_example.cpp" linenr="36" str="pub_button" scope="0x1dadfd0" type="name" varId="4" variable="0x1db1010" astParent="0x1da8f30"/>
+    <token id="0x1da9090" file="button_example.cpp" linenr="36" str=")" scope="0x1dadfd0" link="0x1da8f30"/>
+    <token id="0x1da9140" file="button_example.cpp" linenr="36" str=";" scope="0x1dadfd0"/>
+    <token id="0x1da91f0" file="button_example.cpp" linenr="39" str="button_pin" scope="0x1dadfd0" type="name" varId="5" variable="0x1db1080" astParent="0x1da92a0"/>
+    <token id="0x1da92a0" file="button_example.cpp" linenr="39" str="." scope="0x1dadfd0" astParent="0x1da9400" astOperand1="0x1da91f0" astOperand2="0x1da9350"/>
+    <token id="0x1da9350" file="button_example.cpp" linenr="39" str="mode" scope="0x1dadfd0" type="name" astParent="0x1da92a0"/>
+    <token id="0x1da9400" file="button_example.cpp" linenr="39" str="(" scope="0x1dadfd0" link="0x1da9560" astOperand1="0x1da92a0" astOperand2="0x1da94b0"/>
+    <token id="0x1da94b0" file="button_example.cpp" linenr="39" str="PullUp" scope="0x1dadfd0" type="name" astParent="0x1da9400"/>
+    <token id="0x1da9560" file="button_example.cpp" linenr="39" str=")" scope="0x1dadfd0" link="0x1da9400"/>
+    <token id="0x1da9610" file="button_example.cpp" linenr="39" str=";" scope="0x1dadfd0"/>
+    <token id="0x1da96c0" file="button_example.cpp" linenr="42" str="last_reading" scope="0x1dadfd0" type="name" varId="6" variable="0x1db10f0" astParent="0x1da9770"/>
+    <token id="0x1da9770" file="button_example.cpp" linenr="42" str="=" scope="0x1dadfd0" type="op" isAssignmentOp="True" astOperand1="0x1da96c0" astOperand2="0x1da9820"/>
+    <token id="0x1da9820" file="button_example.cpp" linenr="42" str="!" scope="0x1dadfd0" type="op" isLogicalOp="True" astParent="0x1da9770" astOperand1="0x1da98d0"/>
+    <token id="0x1da98d0" file="button_example.cpp" linenr="42" str="button_pin" scope="0x1dadfd0" type="name" varId="5" variable="0x1db1080" astParent="0x1da9820"/>
+    <token id="0x1da9980" file="button_example.cpp" linenr="42" str=";" scope="0x1dadfd0"/>
+    <token id="0x1da9a30" file="button_example.cpp" linenr="44" str="while" scope="0x1dadfd0" type="name" astParent="0x1da9ae0"/>
+    <token id="0x1da9ae0" file="button_example.cpp" linenr="44" str="(" scope="0x1dadfd0" link="0x1da9c40" astOperand1="0x1da9a30" astOperand2="0x1da9b90"/>
+    <token id="0x1da9b90" file="button_example.cpp" linenr="44" str="1" scope="0x1dadfd0" type="number" isInt="True" values="0x1da9b98" astParent="0x1da9ae0"/>
+    <token id="0x1da9c40" file="button_example.cpp" linenr="44" str=")" scope="0x1dadfd0" link="0x1da9ae0"/>
+    <token id="0x1da9cf0" file="button_example.cpp" linenr="44" str="{" scope="0x1dae100" link="0x1dad3a0"/>
+    <token id="0x1da9da0" file="button_example.cpp" linenr="45" str="bool" scope="0x1dae100" type="name"/>
+    <token id="0x1da9e50" file="button_example.cpp" linenr="45" str="reading" scope="0x1dae100" type="name" varId="11" variable="0x1db1320"/>
+    <token id="0x1da9f00" file="button_example.cpp" linenr="45" str=";" scope="0x1dae100"/>
+    <token id="0x1dad660" file="button_example.cpp" linenr="45" str="reading" scope="0x1dae100" type="name" varId="11" variable="0x1db1320" astParent="0x1dadc20"/>
+    <token id="0x1dadc20" file="button_example.cpp" linenr="45" str="=" scope="0x1dae100" type="op" isAssignmentOp="True" astOperand1="0x1dad660" astOperand2="0x1da9fb0"/>
+    <token id="0x1da9fb0" file="button_example.cpp" linenr="45" str="!" scope="0x1dae100" type="op" isLogicalOp="True" astParent="0x1dadc20" astOperand1="0x1daa060"/>
+    <token id="0x1daa060" file="button_example.cpp" linenr="45" str="button_pin" scope="0x1dae100" type="name" varId="5" variable="0x1db1080" astParent="0x1da9fb0"/>
+    <token id="0x1daa110" file="button_example.cpp" linenr="45" str=";" scope="0x1dae100"/>
+    <token id="0x1daa1c0" file="button_example.cpp" linenr="47" str="if" scope="0x1dae100" type="name" astParent="0x1daa270"/>
+    <token id="0x1daa270" file="button_example.cpp" linenr="47" str="(" scope="0x1dae100" link="0x1daa5e0" astOperand1="0x1daa1c0" astOperand2="0x1daa3d0"/>
+    <token id="0x1daa320" file="button_example.cpp" linenr="47" str="last_reading" scope="0x1dae100" type="name" varId="6" variable="0x1db10f0" astParent="0x1daa3d0"/>
+    <token id="0x1daa3d0" file="button_example.cpp" linenr="47" str="!=" scope="0x1dae100" type="op" isComparisonOp="True" astParent="0x1daa270" astOperand1="0x1daa320" astOperand2="0x1daa530"/>
+    <token id="0x1daa530" file="button_example.cpp" linenr="47" str="reading" scope="0x1dae100" type="name" varId="11" variable="0x1db1320" astParent="0x1daa3d0"/>
+    <token id="0x1daa5e0" file="button_example.cpp" linenr="47" str=")" scope="0x1dae100" link="0x1daa270"/>
+    <token id="0x1daa690" file="button_example.cpp" linenr="47" str="{" scope="0x1db0c60" link="0x1daafb0"/>
+    <token id="0x1daa740" file="button_example.cpp" linenr="48" str="last_debounce_time" scope="0x1db0c60" type="name" varId="7" variable="0x1db1160" astParent="0x1daa820"/>
+    <token id="0x1daa820" file="button_example.cpp" linenr="48" str="=" scope="0x1db0c60" type="op" isAssignmentOp="True" astOperand1="0x1daa740" astOperand2="0x1daaae0"/>
+    <token id="0x1daa8d0" file="button_example.cpp" linenr="48" str="t" scope="0x1db0c60" type="name" varId="10" variable="0x1db12b0" astParent="0x1daa980"/>
+    <token id="0x1daa980" file="button_example.cpp" linenr="48" str="." scope="0x1db0c60" astParent="0x1daaae0" astOperand1="0x1daa8d0" astOperand2="0x1daaa30"/>
+    <token id="0x1daaa30" file="button_example.cpp" linenr="48" str="read_ms" scope="0x1db0c60" type="name" astParent="0x1daa980"/>
+    <token id="0x1daaae0" file="button_example.cpp" linenr="48" str="(" scope="0x1db0c60" link="0x1daab90" astParent="0x1daa820" astOperand1="0x1daa980"/>
+    <token id="0x1daab90" file="button_example.cpp" linenr="48" str=")" scope="0x1db0c60" link="0x1daaae0"/>
+    <token id="0x1daac40" file="button_example.cpp" linenr="48" str=";" scope="0x1db0c60"/>
+    <token id="0x1daacf0" file="button_example.cpp" linenr="49" str="published" scope="0x1db0c60" type="name" varId="9" variable="0x1db1240" astParent="0x1daada0"/>
+    <token id="0x1daada0" file="button_example.cpp" linenr="49" str="=" scope="0x1db0c60" type="op" isAssignmentOp="True" astOperand1="0x1daacf0" astOperand2="0x1daae50"/>
+    <token id="0x1daae50" file="button_example.cpp" linenr="49" str="false" scope="0x1db0c60" type="name" values="0x1daae58" astParent="0x1daada0"/>
+    <token id="0x1daaf00" file="button_example.cpp" linenr="49" str=";" scope="0x1db0c60"/>
+    <token id="0x1daafb0" file="button_example.cpp" linenr="50" str="}" scope="0x1db0c60" link="0x1daa690"/>
+    <token id="0x1dab060" file="button_example.cpp" linenr="53" str="if" scope="0x1dae100" type="name" astParent="0x1dab110"/>
+    <token id="0x1dab110" file="button_example.cpp" linenr="53" str="(" scope="0x1dae100" link="0x1dabb90" astOperand1="0x1dab060" astOperand2="0x1dab320"/>
+    <token id="0x1dab1c0" file="button_example.cpp" linenr="53" str="!" scope="0x1dae100" type="op" isLogicalOp="True" astParent="0x1dab320" astOperand1="0x1dab270"/>
+    <token id="0x1dab270" file="button_example.cpp" linenr="53" str="published" scope="0x1dae100" type="name" varId="9" variable="0x1db1240" astParent="0x1dab1c0"/>
+    <token id="0x1dab320" file="button_example.cpp" linenr="53" str="&amp;&amp;" scope="0x1dae100" type="op" isLogicalOp="True" astParent="0x1dab110" astOperand1="0x1dab1c0" astOperand2="0x1daba30"/>
+    <token id="0x1dab3d0" file="button_example.cpp" linenr="53" str="(" scope="0x1dae100" link="0x1dab980"/>
+    <token id="0x1dab480" file="button_example.cpp" linenr="53" str="t" scope="0x1dae100" type="name" varId="10" variable="0x1db12b0" astParent="0x1dab530"/>
+    <token id="0x1dab530" file="button_example.cpp" linenr="53" str="." scope="0x1dae100" astParent="0x1dab690" astOperand1="0x1dab480" astOperand2="0x1dab5e0"/>
+    <token id="0x1dab5e0" file="button_example.cpp" linenr="53" str="read_ms" scope="0x1dae100" type="name" astParent="0x1dab530"/>
+    <token id="0x1dab690" file="button_example.cpp" linenr="53" str="(" scope="0x1dae100" link="0x1dab740" astParent="0x1dab7f0" astOperand1="0x1dab530"/>
+    <token id="0x1dab740" file="button_example.cpp" linenr="53" str=")" scope="0x1dae100" link="0x1dab690"/>
+    <token id="0x1dab7f0" file="button_example.cpp" linenr="53" str="-" scope="0x1dae100" type="op" isArithmeticalOp="True" astParent="0x1daba30" astOperand1="0x1dab690" astOperand2="0x1dab8a0"/>
+    <token id="0x1dab8a0" file="button_example.cpp" linenr="53" str="last_debounce_time" scope="0x1dae100" type="name" varId="7" variable="0x1db1160" astParent="0x1dab7f0"/>
+    <token id="0x1dab980" file="button_example.cpp" linenr="53" str=")" scope="0x1dae100" link="0x1dab3d0"/>
+    <token id="0x1daba30" file="button_example.cpp" linenr="53" str="&gt;" scope="0x1dae100" type="op" isComparisonOp="True" astParent="0x1dab320" astOperand1="0x1dab7f0" astOperand2="0x1dabae0"/>
+    <token id="0x1dabae0" file="button_example.cpp" linenr="53" str="debounce_delay" scope="0x1dae100" type="name" varId="8" variable="0x1db11d0" astParent="0x1daba30"/>
+    <token id="0x1dabb90" file="button_example.cpp" linenr="53" str=")" scope="0x1dae100" link="0x1dab110"/>
+    <token id="0x1dabc40" file="button_example.cpp" linenr="53" str="{" scope="0x1db0d90" link="0x1dacc10"/>
+    <token id="0x1dabcf0" file="button_example.cpp" linenr="54" str="led_pin" scope="0x1db0d90" type="name" astParent="0x1dabda0"/>
+    <token id="0x1dabda0" file="button_example.cpp" linenr="54" str="=" scope="0x1db0d90" type="op" isAssignmentOp="True" astOperand1="0x1dabcf0" astOperand2="0x1dabe50"/>
+    <token id="0x1dabe50" file="button_example.cpp" linenr="54" str="reading" scope="0x1db0d90" type="name" varId="11" variable="0x1db1320" astParent="0x1dabda0"/>
+    <token id="0x1dabf00" file="button_example.cpp" linenr="54" str=";" scope="0x1db0d90"/>
+    <token id="0x1dabfb0" file="button_example.cpp" linenr="55" str="pushed_msg" scope="0x1db0d90" type="name" varId="3" variable="0x1db0fa0" astParent="0x1dac060"/>
+    <token id="0x1dac060" file="button_example.cpp" linenr="55" str="." scope="0x1db0d90" astParent="0x1dac1c0" astOperand1="0x1dabfb0" astOperand2="0x1dac110"/>
+    <token id="0x1dac110" file="button_example.cpp" linenr="55" str="data" scope="0x1db0d90" type="name" varId="12" astParent="0x1dac060"/>
+    <token id="0x1dac1c0" file="button_example.cpp" linenr="55" str="=" scope="0x1db0d90" type="op" isAssignmentOp="True" astOperand1="0x1dac060" astOperand2="0x1dac270"/>
+    <token id="0x1dac270" file="button_example.cpp" linenr="55" str="reading" scope="0x1db0d90" type="name" varId="11" variable="0x1db1320" astParent="0x1dac1c0"/>
+    <token id="0x1dac320" file="button_example.cpp" linenr="55" str=";" scope="0x1db0d90"/>
+    <token id="0x1dac3d0" file="button_example.cpp" linenr="56" str="pub_button" scope="0x1db0d90" type="name" varId="4" variable="0x1db1010" astParent="0x1dac480"/>
+    <token id="0x1dac480" file="button_example.cpp" linenr="56" str="." scope="0x1db0d90" astParent="0x1dac5e0" astOperand1="0x1dac3d0" astOperand2="0x1dac530"/>
+    <token id="0x1dac530" file="button_example.cpp" linenr="56" str="publish" scope="0x1db0d90" type="name" astParent="0x1dac480"/>
+    <token id="0x1dac5e0" file="button_example.cpp" linenr="56" str="(" scope="0x1db0d90" link="0x1dac7f0" astOperand1="0x1dac480" astOperand2="0x1dac690"/>
+    <token id="0x1dac690" file="button_example.cpp" linenr="56" str="&amp;" scope="0x1db0d90" type="op" astParent="0x1dac5e0" astOperand1="0x1dac740"/>
+    <token id="0x1dac740" file="button_example.cpp" linenr="56" str="pushed_msg" scope="0x1db0d90" type="name" varId="3" variable="0x1db0fa0" astParent="0x1dac690"/>
+    <token id="0x1dac7f0" file="button_example.cpp" linenr="56" str=")" scope="0x1db0d90" link="0x1dac5e0"/>
+    <token id="0x1dac8a0" file="button_example.cpp" linenr="56" str=";" scope="0x1db0d90"/>
+    <token id="0x1dac950" file="button_example.cpp" linenr="57" str="published" scope="0x1db0d90" type="name" varId="9" variable="0x1db1240" astParent="0x1daca00"/>
+    <token id="0x1daca00" file="button_example.cpp" linenr="57" str="=" scope="0x1db0d90" type="op" isAssignmentOp="True" astOperand1="0x1dac950" astOperand2="0x1dacab0"/>
+    <token id="0x1dacab0" file="button_example.cpp" linenr="57" str="true" scope="0x1db0d90" type="name" values="0x1dacab8" astParent="0x1daca00"/>
+    <token id="0x1dacb60" file="button_example.cpp" linenr="57" str=";" scope="0x1db0d90"/>
+    <token id="0x1dacc10" file="button_example.cpp" linenr="58" str="}" scope="0x1db0d90" link="0x1dabc40"/>
+    <token id="0x1daccc0" file="button_example.cpp" linenr="60" str="last_reading" scope="0x1dae100" type="name" varId="6" variable="0x1db10f0" astParent="0x1dacd70"/>
+    <token id="0x1dacd70" file="button_example.cpp" linenr="60" str="=" scope="0x1dae100" type="op" isAssignmentOp="True" astOperand1="0x1daccc0" astOperand2="0x1dace20"/>
+    <token id="0x1dace20" file="button_example.cpp" linenr="60" str="reading" scope="0x1dae100" type="name" varId="11" variable="0x1db1320" astParent="0x1dacd70"/>
+    <token id="0x1daced0" file="button_example.cpp" linenr="60" str=";" scope="0x1dae100"/>
+    <token id="0x1dacf80" file="button_example.cpp" linenr="62" str="nh" scope="0x1dae100" type="name" varId="2" variable="0x1db0f30" astParent="0x1dad030"/>
+    <token id="0x1dad030" file="button_example.cpp" linenr="62" str="." scope="0x1dae100" astParent="0x1dad190" astOperand1="0x1dacf80" astOperand2="0x1dad0e0"/>
+    <token id="0x1dad0e0" file="button_example.cpp" linenr="62" str="spinOnce" scope="0x1dae100" type="name" astParent="0x1dad030"/>
+    <token id="0x1dad190" file="button_example.cpp" linenr="62" str="(" scope="0x1dae100" link="0x1dad240" astOperand1="0x1dad030"/>
+    <token id="0x1dad240" file="button_example.cpp" linenr="62" str=")" scope="0x1dae100" link="0x1dad190"/>
+    <token id="0x1dad2f0" file="button_example.cpp" linenr="62" str=";" scope="0x1dae100"/>
+    <token id="0x1dad3a0" file="button_example.cpp" linenr="63" str="}" scope="0x1dae100" link="0x1da9cf0"/>
+    <token id="0x1dad450" file="button_example.cpp" linenr="64" str="}" scope="0x1dadfd0" link="0x1da8430"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1dada80" type="Global">
+      <functionList>
+        <function id="0x1dade90" tokenDef="0x1dafae0" name="led_pin">
+          <arg nr="1" variable="0x1db1390"/>
+        </function>
+        <function id="0x1dadf30" tokenDef="0x1da8220" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x1db0ec0"/>
+        <var id="0x1db0f30"/>
+        <var id="0x1db0fa0"/>
+        <var id="0x1db1010"/>
+        <var id="0x1db1080"/>
+        <var id="0x1db10f0"/>
+        <var id="0x1db1160"/>
+        <var id="0x1db11d0"/>
+        <var id="0x1db1240"/>
+        <var id="0x1db12b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dadfd0" type="Function" className="main" classStart="0x1da8430" classEnd="0x1dad450" nestedIn="0x1dada80" function="0x1dadf30"/>
+    <scope id="0x1dae100" type="While" classStart="0x1da9cf0" classEnd="0x1dad3a0" nestedIn="0x1dadfd0">
+      <varlist>
+        <var id="0x1db1320"/>
+      </varlist>
+    </scope>
+    <scope id="0x1db0c60" type="If" classStart="0x1daa690" classEnd="0x1daafb0" nestedIn="0x1dae100"/>
+    <scope id="0x1db0d90" type="If" classStart="0x1dabc40" classEnd="0x1dacc10" nestedIn="0x1dae100"/>
+  </scopes>
+  <variables>
+    <var id="0x1db0ec0" nameToken="0x1db0860" typeStartToken="0x1da5280" typeEndToken="0x1da5280" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0f30" nameToken="0x1da4710" typeStartToken="0x1da4500" typeEndToken="0x1da4660" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db0fa0" nameToken="0x1daed20" typeStartToken="0x1da4870" typeEndToken="0x1daec70" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1010" nameToken="0x1daf090" typeStartToken="0x1daee80" typeEndToken="0x1daefe0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1080" nameToken="0x1daf6c0" typeStartToken="0x1daf610" typeEndToken="0x1daf610" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db10f0" nameToken="0x1daff00" typeStartToken="0x1dafe50" typeEndToken="0x1dafe50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1160" nameToken="0x1db0110" typeStartToken="0x1db0060" typeEndToken="0x1db0060" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db11d0" nameToken="0x1db04b0" typeStartToken="0x1db0400" typeEndToken="0x1db0400" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1240" nameToken="0x1da7ca0" typeStartToken="0x1da7bf0" typeEndToken="0x1da7bf0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db12b0" nameToken="0x1da8010" typeStartToken="0x1da7f60" typeEndToken="0x1da7f60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db1320" nameToken="0x1da9e50" typeStartToken="0x1da9da0" typeEndToken="0x1da9da0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1daf1f8">
+      <value tokvalue="0x1daf1f0" known="true"/>
+    </values>
+    <values id="0x1db02a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1da7a98">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0x1da7e08">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1da9b98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1daae58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1dacab8">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

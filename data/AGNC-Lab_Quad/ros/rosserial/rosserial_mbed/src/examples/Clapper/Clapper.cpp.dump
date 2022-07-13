@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0xb77800" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0xb732d0" file="Clapper.cpp" linenr="16" str="PinName" scope="0xb85300" type="name"/>
+    <token id="0xb73380" file="Clapper.cpp" linenr="16" str="mic" scope="0xb85300" type="name" varId="1" variable="0xb86d50"/>
+    <token id="0xb73430" file="Clapper.cpp" linenr="16" str=";" scope="0xb85300"/>
+    <token id="0xb855a0" file="Clapper.cpp" linenr="16" str="mic" scope="0xb85300" type="name" varId="1" variable="0xb86d50" astParent="0xb85650"/>
+    <token id="0xb85650" file="Clapper.cpp" linenr="16" str="=" scope="0xb85300" type="op" isAssignmentOp="True" astOperand1="0xb855a0" astOperand2="0xb66ff0"/>
+    <token id="0xb66ff0" file="Clapper.cpp" linenr="16" str="p20" scope="0xb85300" type="name" astParent="0xb85650"/>
+    <token id="0xb654e0" file="Clapper.cpp" linenr="16" str=";" scope="0xb85300"/>
+    <token id="0xb73500" file="Clapper.cpp" linenr="23" str="ros" scope="0xb85300" type="name" astParent="0xb73fb0"/>
+    <token id="0xb73fb0" file="Clapper.cpp" linenr="23" str="::" scope="0xb85300" astOperand1="0xb73500" astOperand2="0xb74110"/>
+    <token id="0xb74060" file="Clapper.cpp" linenr="23" str="NodeHandle" scope="0xb85300" type="name"/>
+    <token id="0xb74110" file="Clapper.cpp" linenr="23" str="nh" scope="0xb85300" type="name" varId="2" variable="0xb86dc0" astParent="0xb73fb0"/>
+    <token id="0xb741c0" file="Clapper.cpp" linenr="23" str=";" scope="0xb85300"/>
+    <token id="0xb74270" file="Clapper.cpp" linenr="25" str="std_msgs" scope="0xb85300" type="name" astParent="0xb74320"/>
+    <token id="0xb74320" file="Clapper.cpp" linenr="25" str="::" scope="0xb85300" astOperand1="0xb74270" astOperand2="0xb76aa0"/>
+    <token id="0xb769f0" file="Clapper.cpp" linenr="25" str="Empty" scope="0xb85300" type="name"/>
+    <token id="0xb76aa0" file="Clapper.cpp" linenr="25" str="clap_msg" scope="0xb85300" type="name" varId="3" variable="0xb86e30" astParent="0xb74320"/>
+    <token id="0xb76b50" file="Clapper.cpp" linenr="25" str=";" scope="0xb85300"/>
+    <token id="0xb76c00" file="Clapper.cpp" linenr="26" str="ros" scope="0xb85300" type="name" astParent="0xb76cb0"/>
+    <token id="0xb76cb0" file="Clapper.cpp" linenr="26" str="::" scope="0xb85300" astParent="0xb76ec0" astOperand1="0xb76c00" astOperand2="0xb76e10"/>
+    <token id="0xb76d60" file="Clapper.cpp" linenr="26" str="Publisher" scope="0xb85300" type="name"/>
+    <token id="0xb76e10" file="Clapper.cpp" linenr="26" str="p" scope="0xb85300" type="name" varId="4" variable="0xb86ea0" astParent="0xb76cb0"/>
+    <token id="0xb76ec0" file="Clapper.cpp" linenr="26" str="(" scope="0xb85300" link="0xb77230" astOperand1="0xb76cb0" astOperand2="0xb77020"/>
+    <token id="0xb76f70" file="Clapper.cpp" linenr="26" str="&quot;clap&quot;" scope="0xb85300" type="string" strlen="4" values="0xb76f78" astParent="0xb77020"/>
+    <token id="0xb77020" file="Clapper.cpp" linenr="26" str="," scope="0xb85300" astParent="0xb76ec0" astOperand1="0xb76f70" astOperand2="0xb770d0"/>
+    <token id="0xb770d0" file="Clapper.cpp" linenr="26" str="&amp;" scope="0xb85300" type="op" astParent="0xb77020" astOperand1="0xb77180"/>
+    <token id="0xb77180" file="Clapper.cpp" linenr="26" str="clap_msg" scope="0xb85300" type="name" varId="3" variable="0xb86e30" astParent="0xb770d0"/>
+    <token id="0xb77230" file="Clapper.cpp" linenr="26" str=")" scope="0xb85300" link="0xb76ec0"/>
+    <token id="0xb772e0" file="Clapper.cpp" linenr="26" str=";" scope="0xb85300"/>
+    <token id="0xb77c60" file="Clapper.cpp" linenr="29" str="int" scope="0xb85300" type="name"/>
+    <token id="0xb77d10" file="Clapper.cpp" linenr="29" str="clap" scope="0xb85300" type="name" varId="5" variable="0xb86f10"/>
+    <token id="0xb77dc0" file="Clapper.cpp" linenr="29" str=";" scope="0xb85300"/>
+    <token id="0xb77e70" file="Clapper.cpp" linenr="31" str="int" scope="0xb85300" type="name"/>
+    <token id="0xb77f20" file="Clapper.cpp" linenr="31" str="volume_thresh" scope="0xb85300" type="name" varId="6" variable="0xb86f80"/>
+    <token id="0xb77fd0" file="Clapper.cpp" linenr="31" str=";" scope="0xb85300"/>
+    <token id="0xb85700" file="Clapper.cpp" linenr="31" str="volume_thresh" scope="0xb85300" type="name" varId="6" variable="0xb86f80" astParent="0xb850e0"/>
+    <token id="0xb850e0" file="Clapper.cpp" linenr="31" str="=" scope="0xb85300" type="op" isAssignmentOp="True" astOperand1="0xb85700" astOperand2="0xb78080"/>
+    <token id="0xb78080" file="Clapper.cpp" linenr="31" str="200" scope="0xb85300" type="number" isInt="True" values="0xb78088" astParent="0xb850e0"/>
+    <token id="0xb78130" file="Clapper.cpp" linenr="31" str=";" scope="0xb85300"/>
+    <token id="0xb781e0" file="Clapper.cpp" linenr="33" str="AnalogIn" scope="0xb85300" type="name"/>
+    <token id="0xb78290" file="Clapper.cpp" linenr="33" str="mic_pin" scope="0xb85300" type="name" varId="7" variable="0xb86ff0" astParent="0xb78340"/>
+    <token id="0xb78340" file="Clapper.cpp" linenr="33" str="(" scope="0xb85300" link="0xb784a0" astOperand1="0xb78290" astOperand2="0xb783f0"/>
+    <token id="0xb783f0" file="Clapper.cpp" linenr="33" str="mic" scope="0xb85300" type="name" varId="1" variable="0xb86d50" astParent="0xb78340"/>
+    <token id="0xb784a0" file="Clapper.cpp" linenr="33" str=")" scope="0xb85300" link="0xb78340"/>
+    <token id="0xb78550" file="Clapper.cpp" linenr="33" str=";" scope="0xb85300"/>
+    <token id="0xb78600" file="Clapper.cpp" linenr="34" str="int" scope="0xb85300" type="name"/>
+    <token id="0xb786b0" file="Clapper.cpp" linenr="34" str="adc_ave" scope="0xb85300" type="name" varId="8" variable="0xb87060"/>
+    <token id="0xb78760" file="Clapper.cpp" linenr="34" str=";" scope="0xb85300"/>
+    <token id="0xb85190" file="Clapper.cpp" linenr="34" str="adc_ave" scope="0xb85300" type="name" varId="8" variable="0xb87060" astParent="0xb85240"/>
+    <token id="0xb85240" file="Clapper.cpp" linenr="34" str="=" scope="0xb85300" type="op" isAssignmentOp="True" astOperand1="0xb85190" astOperand2="0xb78810"/>
+    <token id="0xb78810" file="Clapper.cpp" linenr="34" str="0" scope="0xb85300" type="number" isInt="True" values="0xb78818" astParent="0xb85240"/>
+    <token id="0xb788c0" file="Clapper.cpp" linenr="34" str=";" scope="0xb85300"/>
+    <token id="0xb78970" file="Clapper.cpp" linenr="36" str="Timer" scope="0xb85300" type="name"/>
+    <token id="0xb78a20" file="Clapper.cpp" linenr="36" str="t" scope="0xb85300" type="name" varId="9" variable="0xb870d0"/>
+    <token id="0xb78ad0" file="Clapper.cpp" linenr="36" str=";" scope="0xb85300"/>
+    <token id="0xb78b80" file="Clapper.cpp" linenr="37" str="int" scope="0xb85300" type="name"/>
+    <token id="0xb78c30" file="Clapper.cpp" linenr="37" str="main" scope="0xb85300" type="name" function="0xb85430" astParent="0xb78ce0"/>
+    <token id="0xb78ce0" file="Clapper.cpp" linenr="37" str="(" scope="0xb85300" link="0xb78d90" astOperand1="0xb78c30"/>
+    <token id="0xb78d90" file="Clapper.cpp" linenr="37" str=")" scope="0xb85300" link="0xb78ce0"/>
+    <token id="0xb79370" file="Clapper.cpp" linenr="37" str="{" scope="0xb77500" link="0xb85030"/>
+    <token id="0xb79420" file="Clapper.cpp" linenr="38" str="t" scope="0xb77500" type="name" varId="9" variable="0xb870d0" astParent="0xb794d0"/>
+    <token id="0xb794d0" file="Clapper.cpp" linenr="38" str="." scope="0xb77500" astParent="0xb79630" astOperand1="0xb79420" astOperand2="0xb79580"/>
+    <token id="0xb79580" file="Clapper.cpp" linenr="38" str="start" scope="0xb77500" type="name" astParent="0xb794d0"/>
+    <token id="0xb79630" file="Clapper.cpp" linenr="38" str="(" scope="0xb77500" link="0xb796e0" astOperand1="0xb794d0"/>
+    <token id="0xb796e0" file="Clapper.cpp" linenr="38" str=")" scope="0xb77500" link="0xb79630"/>
+    <token id="0xb79790" file="Clapper.cpp" linenr="38" str=";" scope="0xb77500"/>
+    <token id="0xb79840" file="Clapper.cpp" linenr="39" str="nh" scope="0xb77500" type="name" varId="2" variable="0xb86dc0" astParent="0xb798f0"/>
+    <token id="0xb798f0" file="Clapper.cpp" linenr="39" str="." scope="0xb77500" astParent="0xb79a50" astOperand1="0xb79840" astOperand2="0xb799a0"/>
+    <token id="0xb799a0" file="Clapper.cpp" linenr="39" str="initNode" scope="0xb77500" type="name" astParent="0xb798f0"/>
+    <token id="0xb79a50" file="Clapper.cpp" linenr="39" str="(" scope="0xb77500" link="0xb79b00" astOperand1="0xb798f0"/>
+    <token id="0xb79b00" file="Clapper.cpp" linenr="39" str=")" scope="0xb77500" link="0xb79a50"/>
+    <token id="0xb79bb0" file="Clapper.cpp" linenr="39" str=";" scope="0xb77500"/>
+    <token id="0xb79c60" file="Clapper.cpp" linenr="41" str="nh" scope="0xb77500" type="name" varId="2" variable="0xb86dc0" astParent="0xb79d10"/>
+    <token id="0xb79d10" file="Clapper.cpp" linenr="41" str="." scope="0xb77500" astParent="0xb79e70" astOperand1="0xb79c60" astOperand2="0xb79dc0"/>
+    <token id="0xb79dc0" file="Clapper.cpp" linenr="41" str="advertise" scope="0xb77500" type="name" astParent="0xb79d10"/>
+    <token id="0xb79e70" file="Clapper.cpp" linenr="41" str="(" scope="0xb77500" link="0xb79fd0" astOperand1="0xb79d10" astOperand2="0xb79f20"/>
+    <token id="0xb79f20" file="Clapper.cpp" linenr="41" str="p" scope="0xb77500" type="name" varId="4" variable="0xb86ea0" astParent="0xb79e70"/>
+    <token id="0xb79fd0" file="Clapper.cpp" linenr="41" str=")" scope="0xb77500" link="0xb79e70"/>
+    <token id="0xb7a080" file="Clapper.cpp" linenr="41" str=";" scope="0xb77500"/>
+    <token id="0xb7a130" file="Clapper.cpp" linenr="44" str="for" scope="0xb77500" type="name" astParent="0xb7a1e0"/>
+    <token id="0xb7a1e0" file="Clapper.cpp" linenr="44" str="(" scope="0xb77500" link="0xb7aa20" astOperand1="0xb7a130" astOperand2="0xb7a550"/>
+    <token id="0xb7a290" file="Clapper.cpp" linenr="44" str="int" scope="0xb77500" type="name"/>
+    <token id="0xb7a340" file="Clapper.cpp" linenr="44" str="i" scope="0xb77500" type="name" varId="10" variable="0xb77760" astParent="0xb7a3f0"/>
+    <token id="0xb7a3f0" file="Clapper.cpp" linenr="44" str="=" scope="0xb77500" type="op" isAssignmentOp="True" astParent="0xb7a550" astOperand1="0xb7a340" astOperand2="0xb7a4a0"/>
+    <token id="0xb7a4a0" file="Clapper.cpp" linenr="44" str="0" scope="0xb77500" type="number" isInt="True" values="0xb7a4a8" astParent="0xb7a3f0"/>
+    <token id="0xb7a550" file="Clapper.cpp" linenr="44" str=";" scope="0xb77500" astParent="0xb7a1e0" astOperand1="0xb7a3f0" astOperand2="0xb7a810"/>
+    <token id="0xb7a600" file="Clapper.cpp" linenr="44" str="i" scope="0xb77500" type="name" varId="10" variable="0xb77760" astParent="0xb7a6b0"/>
+    <token id="0xb7a6b0" file="Clapper.cpp" linenr="44" str="&lt;" scope="0xb77500" type="op" isComparisonOp="True" astParent="0xb7a810" astOperand1="0xb7a600" astOperand2="0xb7a760"/>
+    <token id="0xb7a760" file="Clapper.cpp" linenr="44" str="10" scope="0xb77500" type="number" isInt="True" values="0xb7a768" astParent="0xb7a6b0"/>
+    <token id="0xb7a810" file="Clapper.cpp" linenr="44" str=";" scope="0xb77500" astParent="0xb7a550" astOperand1="0xb7a6b0" astOperand2="0xb7a970"/>
+    <token id="0xb7a8c0" file="Clapper.cpp" linenr="44" str="i" scope="0xb77500" type="name" varId="10" variable="0xb77760" astParent="0xb7a970"/>
+    <token id="0xb7a970" file="Clapper.cpp" linenr="44" str="++" scope="0xb77500" type="op" astParent="0xb7a810" astOperand1="0xb7a8c0"/>
+    <token id="0xb7aa20" file="Clapper.cpp" linenr="44" str=")" scope="0xb77500" link="0xb7a1e0"/>
+    <token id="0xb7ac30" file="Clapper.cpp" linenr="44" str="{" scope="0xb77630" link="0xb7b260"/>
+    <token id="0xb7aad0" file="Clapper.cpp" linenr="44" str="adc_ave" scope="0xb77630" type="name" varId="8" variable="0xb87060" astParent="0xb7ab80"/>
+    <token id="0xb7ab80" file="Clapper.cpp" linenr="44" str="+=" scope="0xb77630" type="op" isAssignmentOp="True" astOperand1="0xb7aad0" astOperand2="0xb7aef0"/>
+    <token id="0xb7ace0" file="Clapper.cpp" linenr="44" str="mic_pin" scope="0xb77630" type="name" varId="7" variable="0xb86ff0" astParent="0xb7ad90"/>
+    <token id="0xb7ad90" file="Clapper.cpp" linenr="44" str="." scope="0xb77630" astParent="0xb7aef0" astOperand1="0xb7ace0" astOperand2="0xb7ae40"/>
+    <token id="0xb7ae40" file="Clapper.cpp" linenr="44" str="read_u16" scope="0xb77630" type="name" astParent="0xb7ad90"/>
+    <token id="0xb7aef0" file="Clapper.cpp" linenr="44" str="(" scope="0xb77630" link="0xb7afa0" astParent="0xb7ab80" astOperand1="0xb7ad90"/>
+    <token id="0xb7afa0" file="Clapper.cpp" linenr="44" str=")" scope="0xb77630" link="0xb7aef0"/>
+    <token id="0xb7b050" file="Clapper.cpp" linenr="44" str=";" scope="0xb77630"/>
+    <token id="0xb7b260" file="Clapper.cpp" linenr="44" str="}" scope="0xb77630" link="0xb7ac30"/>
+    <token id="0xb7b100" file="Clapper.cpp" linenr="45" str="adc_ave" scope="0xb77500" type="name" varId="8" variable="0xb87060" astParent="0xb7b1b0"/>
+    <token id="0xb7b1b0" file="Clapper.cpp" linenr="45" str="/=" scope="0xb77500" type="op" isAssignmentOp="True" astOperand1="0xb7b100" astOperand2="0xb7b310"/>
+    <token id="0xb7b310" file="Clapper.cpp" linenr="45" str="10" scope="0xb77500" type="number" isInt="True" values="0xb7b318" astParent="0xb7b1b0"/>
+    <token id="0xb7b3c0" file="Clapper.cpp" linenr="45" str=";" scope="0xb77500"/>
+    <token id="0xb7b470" file="Clapper.cpp" linenr="47" str="long" scope="0xb77500" type="name"/>
+    <token id="0xb7b520" file="Clapper.cpp" linenr="47" str="event_timer" scope="0xb77500" type="name" varId="11" variable="0xb87140"/>
+    <token id="0xb7b5d0" file="Clapper.cpp" linenr="47" str=";" scope="0xb77500"/>
+    <token id="0xb85a10" file="Clapper.cpp" linenr="47" str="event_timer" scope="0xb77500" type="name" varId="11" variable="0xb87140" astParent="0xb85ac0"/>
+    <token id="0xb85ac0" file="Clapper.cpp" linenr="47" str="=" scope="0xb77500" type="op" isAssignmentOp="True" astOperand1="0xb85a10" astOperand2="0xb7b680"/>
+    <token id="0xb7b680" file="Clapper.cpp" linenr="47" str="0" scope="0xb77500" type="number" isInt="True" values="0xb7b688" astParent="0xb85ac0"/>
+    <token id="0xb7b730" file="Clapper.cpp" linenr="47" str=";" scope="0xb77500"/>
+    <token id="0xb7b7e0" file="Clapper.cpp" linenr="49" str="while" scope="0xb77500" type="name" astParent="0xb7b890"/>
+    <token id="0xb7b890" file="Clapper.cpp" linenr="49" str="(" scope="0xb77500" link="0xb7b9f0" astOperand1="0xb7b7e0" astOperand2="0xb7b940"/>
+    <token id="0xb7b940" file="Clapper.cpp" linenr="49" str="1" scope="0xb77500" type="number" isInt="True" values="0xb7b948" astParent="0xb7b890"/>
+    <token id="0xb7b9f0" file="Clapper.cpp" linenr="49" str=")" scope="0xb77500" link="0xb7b890"/>
+    <token id="0xb7baa0" file="Clapper.cpp" linenr="49" str="{" scope="0xb777d0" link="0xb84f80"/>
+    <token id="0xb7bb50" file="Clapper.cpp" linenr="50" str="int" scope="0xb777d0" type="name"/>
+    <token id="0xb7bc00" file="Clapper.cpp" linenr="50" str="mic_val" scope="0xb777d0" type="name" varId="12" variable="0xb871b0"/>
+    <token id="0xb7bcb0" file="Clapper.cpp" linenr="50" str=";" scope="0xb777d0"/>
+    <token id="0xb85b70" file="Clapper.cpp" linenr="50" str="mic_val" scope="0xb777d0" type="name" varId="12" variable="0xb871b0" astParent="0xb85c20"/>
+    <token id="0xb85c20" file="Clapper.cpp" linenr="50" str="=" scope="0xb777d0" type="op" isAssignmentOp="True" astOperand1="0xb85b70" astOperand2="0xb7bd60"/>
+    <token id="0xb7bd60" file="Clapper.cpp" linenr="50" str="0" scope="0xb777d0" type="number" isInt="True" values="0xb7bd68" astParent="0xb85c20"/>
+    <token id="0xb7be10" file="Clapper.cpp" linenr="50" str=";" scope="0xb777d0"/>
+    <token id="0xb7bec0" file="Clapper.cpp" linenr="51" str="for" scope="0xb777d0" type="name" astParent="0xb7bf70"/>
+    <token id="0xb7bf70" file="Clapper.cpp" linenr="51" str="(" scope="0xb777d0" link="0xb7c7b0" astOperand1="0xb7bec0" astOperand2="0xb7c2e0"/>
+    <token id="0xb7c020" file="Clapper.cpp" linenr="51" str="int" scope="0xb777d0" type="name"/>
+    <token id="0xb7c0d0" file="Clapper.cpp" linenr="51" str="i" scope="0xb777d0" type="name" varId="13" variable="0xb85eb0" astParent="0xb7c180"/>
+    <token id="0xb7c180" file="Clapper.cpp" linenr="51" str="=" scope="0xb777d0" type="op" isAssignmentOp="True" astParent="0xb7c2e0" astOperand1="0xb7c0d0" astOperand2="0xb7c230"/>
+    <token id="0xb7c230" file="Clapper.cpp" linenr="51" str="0" scope="0xb777d0" type="number" isInt="True" values="0xb7c238" astParent="0xb7c180"/>
+    <token id="0xb7c2e0" file="Clapper.cpp" linenr="51" str=";" scope="0xb777d0" astParent="0xb7bf70" astOperand1="0xb7c180" astOperand2="0xb7c5a0"/>
+    <token id="0xb7c390" file="Clapper.cpp" linenr="51" str="i" scope="0xb777d0" type="name" varId="13" variable="0xb85eb0" astParent="0xb7c440"/>
+    <token id="0xb7c440" file="Clapper.cpp" linenr="51" str="&lt;" scope="0xb777d0" type="op" isComparisonOp="True" astParent="0xb7c5a0" astOperand1="0xb7c390" astOperand2="0xb7c4f0"/>
+    <token id="0xb7c4f0" file="Clapper.cpp" linenr="51" str="4" scope="0xb777d0" type="number" isInt="True" values="0xb7c4f8" astParent="0xb7c440"/>
+    <token id="0xb7c5a0" file="Clapper.cpp" linenr="51" str=";" scope="0xb777d0" astParent="0xb7c2e0" astOperand1="0xb7c440" astOperand2="0xb7c700"/>
+    <token id="0xb7c650" file="Clapper.cpp" linenr="51" str="i" scope="0xb777d0" type="name" varId="13" variable="0xb85eb0" astParent="0xb7c700"/>
+    <token id="0xb7c700" file="Clapper.cpp" linenr="51" str="++" scope="0xb777d0" type="op" astParent="0xb7c5a0" astOperand1="0xb7c650"/>
+    <token id="0xb7c7b0" file="Clapper.cpp" linenr="51" str=")" scope="0xb777d0" link="0xb7bf70"/>
+    <token id="0xb7c9c0" file="Clapper.cpp" linenr="51" str="{" scope="0xb85d80" link="0xb747b0"/>
+    <token id="0xb7c860" file="Clapper.cpp" linenr="51" str="mic_val" scope="0xb85d80" type="name" varId="12" variable="0xb871b0" astParent="0xb7c910"/>
+    <token id="0xb7c910" file="Clapper.cpp" linenr="51" str="+=" scope="0xb85d80" type="op" isAssignmentOp="True" astOperand1="0xb7c860" astOperand2="0xb7cc80"/>
+    <token id="0xb7ca70" file="Clapper.cpp" linenr="51" str="mic_pin" scope="0xb85d80" type="name" varId="7" variable="0xb86ff0" astParent="0xb7cb20"/>
+    <token id="0xb7cb20" file="Clapper.cpp" linenr="51" str="." scope="0xb85d80" astParent="0xb7cc80" astOperand1="0xb7ca70" astOperand2="0xb7cbd0"/>
+    <token id="0xb7cbd0" file="Clapper.cpp" linenr="51" str="read_u16" scope="0xb85d80" type="name" astParent="0xb7cb20"/>
+    <token id="0xb7cc80" file="Clapper.cpp" linenr="51" str="(" scope="0xb85d80" link="0xb7cd30" astParent="0xb7c910" astOperand1="0xb7cb20"/>
+    <token id="0xb7cd30" file="Clapper.cpp" linenr="51" str=")" scope="0xb85d80" link="0xb7cc80"/>
+    <token id="0xb7cde0" file="Clapper.cpp" linenr="51" str=";" scope="0xb85d80"/>
+    <token id="0xb747b0" file="Clapper.cpp" linenr="51" str="}" scope="0xb85d80" link="0xb7c9c0"/>
+    <token id="0xb7ce90" file="Clapper.cpp" linenr="53" str="mic_val" scope="0xb777d0" type="name" varId="12" variable="0xb871b0" astParent="0xb7cf40"/>
+    <token id="0xb7cf40" file="Clapper.cpp" linenr="53" str="=" scope="0xb777d0" type="op" isAssignmentOp="True" astOperand1="0xb7ce90" astOperand2="0xb7d200"/>
+    <token id="0xb7cff0" file="Clapper.cpp" linenr="53" str="mic_val" scope="0xb777d0" type="name" varId="12" variable="0xb871b0" astParent="0xb7d0a0"/>
+    <token id="0xb7d0a0" file="Clapper.cpp" linenr="53" str="/" scope="0xb777d0" type="op" isArithmeticalOp="True" astParent="0xb7d200" astOperand1="0xb7cff0" astOperand2="0xb7d150"/>
+    <token id="0xb7d150" file="Clapper.cpp" linenr="53" str="4" scope="0xb777d0" type="number" isInt="True" values="0xb7d158" astParent="0xb7d0a0"/>
+    <token id="0xb7d200" file="Clapper.cpp" linenr="53" str="-" scope="0xb777d0" type="op" isArithmeticalOp="True" astParent="0xb7cf40" astOperand1="0xb7d0a0" astOperand2="0xb7d2b0"/>
+    <token id="0xb7d2b0" file="Clapper.cpp" linenr="53" str="adc_ave" scope="0xb777d0" type="name" varId="8" variable="0xb87060" astParent="0xb7d200"/>
+    <token id="0xb7d360" file="Clapper.cpp" linenr="53" str=";" scope="0xb777d0"/>
+    <token id="0xb7d410" file="Clapper.cpp" linenr="55" str="switch" scope="0xb777d0" type="name" astParent="0xb7d4c0"/>
+    <token id="0xb7d4c0" file="Clapper.cpp" linenr="55" str="(" scope="0xb777d0" link="0xb7d620" astOperand1="0xb7d410" astOperand2="0xb7d570"/>
+    <token id="0xb7d570" file="Clapper.cpp" linenr="55" str="clap" scope="0xb777d0" type="name" varId="5" variable="0xb86f10" astParent="0xb7d4c0"/>
+    <token id="0xb7d620" file="Clapper.cpp" linenr="55" str=")" scope="0xb777d0" link="0xb7d4c0"/>
+    <token id="0xb7d6d0" file="Clapper.cpp" linenr="55" str="{" scope="0xb85f20" link="0xb84ab0"/>
+    <token id="0xb7d780" file="Clapper.cpp" linenr="56" str="case" scope="0xb85f20" type="name"/>
+    <token id="0xb7d830" file="Clapper.cpp" linenr="56" str="0" scope="0xb85f20" type="number" isInt="True" values="0xb7d838"/>
+    <token id="0xb7d8e0" file="Clapper.cpp" linenr="56" str=":" scope="0xb85f20"/>
+    <token id="0xb74860" file="Clapper.cpp" linenr="56" str=";" scope="0xb85f20"/>
+    <token id="0xb7d990" file="Clapper.cpp" linenr="57" str="if" scope="0xb85f20" type="name" astParent="0xb7da40"/>
+    <token id="0xb7da40" file="Clapper.cpp" linenr="57" str="(" scope="0xb85f20" link="0xb7df10" astOperand1="0xb7d990" astOperand2="0xb7ddb0"/>
+    <token id="0xb7daf0" file="Clapper.cpp" linenr="57" str="abs" scope="0xb85f20" type="name" astParent="0xb7dba0"/>
+    <token id="0xb7dba0" file="Clapper.cpp" linenr="57" str="(" scope="0xb85f20" link="0xb7dd00" astParent="0xb7ddb0" astOperand1="0xb7daf0" astOperand2="0xb7dc50"/>
+    <token id="0xb7dc50" file="Clapper.cpp" linenr="57" str="mic_val" scope="0xb85f20" type="name" varId="12" variable="0xb871b0" astParent="0xb7dba0"/>
+    <token id="0xb7dd00" file="Clapper.cpp" linenr="57" str=")" scope="0xb85f20" link="0xb7dba0"/>
+    <token id="0xb7ddb0" file="Clapper.cpp" linenr="57" str="&gt;" scope="0xb85f20" type="op" isComparisonOp="True" astParent="0xb7da40" astOperand1="0xb7dba0" astOperand2="0xb7de60"/>
+    <token id="0xb7de60" file="Clapper.cpp" linenr="57" str="volume_thresh" scope="0xb85f20" type="name" varId="6" variable="0xb86f80" astParent="0xb7ddb0"/>
+    <token id="0xb7df10" file="Clapper.cpp" linenr="57" str=")" scope="0xb85f20" link="0xb7da40"/>
+    <token id="0xb7dfc0" file="Clapper.cpp" linenr="57" str="{" scope="0xb86070" link="0xb7e8e0"/>
+    <token id="0xb7e070" file="Clapper.cpp" linenr="58" str="clap" scope="0xb86070" type="name" varId="5" variable="0xb86f10" astParent="0xb7e120"/>
+    <token id="0xb7e120" file="Clapper.cpp" linenr="58" str="=" scope="0xb86070" type="op" isAssignmentOp="True" astOperand1="0xb7e070" astOperand2="0xb7e1d0"/>
+    <token id="0xb7e1d0" file="Clapper.cpp" linenr="58" str="1" scope="0xb86070" type="number" isInt="True" values="0xb7e1d8" astParent="0xb7e120"/>
+    <token id="0xb7e2b0" file="Clapper.cpp" linenr="58" str=";" scope="0xb86070"/>
+    <token id="0xb7e360" file="Clapper.cpp" linenr="59" str="event_timer" scope="0xb86070" type="name" varId="11" variable="0xb87140" astParent="0xb7e410"/>
+    <token id="0xb7e410" file="Clapper.cpp" linenr="59" str="=" scope="0xb86070" type="op" isAssignmentOp="True" astOperand1="0xb7e360" astOperand2="0xb7e6d0"/>
+    <token id="0xb7e4c0" file="Clapper.cpp" linenr="59" str="t" scope="0xb86070" type="name" varId="9" variable="0xb870d0" astParent="0xb7e570"/>
+    <token id="0xb7e570" file="Clapper.cpp" linenr="59" str="." scope="0xb86070" astParent="0xb7e6d0" astOperand1="0xb7e4c0" astOperand2="0xb7e620"/>
+    <token id="0xb7e620" file="Clapper.cpp" linenr="59" str="read_ms" scope="0xb86070" type="name" astParent="0xb7e570"/>
+    <token id="0xb7e6d0" file="Clapper.cpp" linenr="59" str="(" scope="0xb86070" link="0xb7e780" astParent="0xb7e410" astOperand1="0xb7e570"/>
+    <token id="0xb7e780" file="Clapper.cpp" linenr="59" str=")" scope="0xb86070" link="0xb7e6d0"/>
+    <token id="0xb7e830" file="Clapper.cpp" linenr="59" str=";" scope="0xb86070"/>
+    <token id="0xb7e8e0" file="Clapper.cpp" linenr="60" str="}" scope="0xb86070" link="0xb7dfc0"/>
+    <token id="0xb7e990" file="Clapper.cpp" linenr="61" str="break" scope="0xb85f20" type="name"/>
+    <token id="0xb7ea40" file="Clapper.cpp" linenr="61" str=";" scope="0xb85f20"/>
+    <token id="0xb7eaf0" file="Clapper.cpp" linenr="62" str="case" scope="0xb85f20" type="name"/>
+    <token id="0xb7eba0" file="Clapper.cpp" linenr="62" str="1" scope="0xb85f20" type="number" isInt="True" values="0xb7eba8"/>
+    <token id="0xb7ec80" file="Clapper.cpp" linenr="62" str=":" scope="0xb85f20"/>
+    <token id="0xb85800" file="Clapper.cpp" linenr="62" str=";" scope="0xb85f20"/>
+    <token id="0xb7ed30" file="Clapper.cpp" linenr="63" str="if" scope="0xb85f20" type="name" astParent="0xb7ede0"/>
+    <token id="0xb7ede0" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7fdb0" astOperand1="0xb7ed30" astOperand2="0xb7f410"/>
+    <token id="0xb7ee90" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7f360"/>
+    <token id="0xb7ef40" file="Clapper.cpp" linenr="63" str="abs" scope="0xb85f20" type="name" astParent="0xb7eff0"/>
+    <token id="0xb7eff0" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7f150" astParent="0xb7f200" astOperand1="0xb7ef40" astOperand2="0xb7f0a0"/>
+    <token id="0xb7f0a0" file="Clapper.cpp" linenr="63" str="mic_val" scope="0xb85f20" type="name" varId="12" variable="0xb871b0" astParent="0xb7eff0"/>
+    <token id="0xb7f150" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7eff0"/>
+    <token id="0xb7f200" file="Clapper.cpp" linenr="63" str="&lt;" scope="0xb85f20" type="op" isComparisonOp="True" astParent="0xb7f410" astOperand1="0xb7eff0" astOperand2="0xb7f2b0"/>
+    <token id="0xb7f2b0" file="Clapper.cpp" linenr="63" str="30" scope="0xb85f20" type="number" isInt="True" values="0xb7f2b8" astParent="0xb7f200"/>
+    <token id="0xb7f360" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7ee90"/>
+    <token id="0xb7f410" file="Clapper.cpp" linenr="63" str="&amp;&amp;" scope="0xb85f20" type="op" isLogicalOp="True" astParent="0xb7ede0" astOperand1="0xb7f200" astOperand2="0xb7fba0"/>
+    <token id="0xb7f4c0" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7fd00"/>
+    <token id="0xb7f570" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7faf0"/>
+    <token id="0xb7f620" file="Clapper.cpp" linenr="63" str="t" scope="0xb85f20" type="name" varId="9" variable="0xb870d0" astParent="0xb7f6d0"/>
+    <token id="0xb7f6d0" file="Clapper.cpp" linenr="63" str="." scope="0xb85f20" astParent="0xb7f830" astOperand1="0xb7f620" astOperand2="0xb7f780"/>
+    <token id="0xb7f780" file="Clapper.cpp" linenr="63" str="read_ms" scope="0xb85f20" type="name" astParent="0xb7f6d0"/>
+    <token id="0xb7f830" file="Clapper.cpp" linenr="63" str="(" scope="0xb85f20" link="0xb7f8e0" astParent="0xb7f990" astOperand1="0xb7f6d0"/>
+    <token id="0xb7f8e0" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7f830"/>
+    <token id="0xb7f990" file="Clapper.cpp" linenr="63" str="-" scope="0xb85f20" type="op" isArithmeticalOp="True" astParent="0xb7fba0" astOperand1="0xb7f830" astOperand2="0xb7fa40"/>
+    <token id="0xb7fa40" file="Clapper.cpp" linenr="63" str="event_timer" scope="0xb85f20" type="name" varId="11" variable="0xb87140" astParent="0xb7f990"/>
+    <token id="0xb7faf0" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7f570"/>
+    <token id="0xb7fba0" file="Clapper.cpp" linenr="63" str="&gt;" scope="0xb85f20" type="op" isComparisonOp="True" astParent="0xb7f410" astOperand1="0xb7f990" astOperand2="0xb7fc50"/>
+    <token id="0xb7fc50" file="Clapper.cpp" linenr="63" str="20" scope="0xb85f20" type="number" isInt="True" values="0xb7fc58" astParent="0xb7fba0"/>
+    <token id="0xb7fd00" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7f4c0"/>
+    <token id="0xb7fdb0" file="Clapper.cpp" linenr="63" str=")" scope="0xb85f20" link="0xb7ede0"/>
+    <token id="0xb7fe60" file="Clapper.cpp" linenr="63" str="{" scope="0xb861c0" link="0xb80750"/>
+    <token id="0xb7ff10" file="Clapper.cpp" linenr="64" str="clap" scope="0xb861c0" type="name" varId="5" variable="0xb86f10" astParent="0xb7ffc0"/>
+    <token id="0xb7ffc0" file="Clapper.cpp" linenr="64" str="=" scope="0xb861c0" type="op" isAssignmentOp="True" astOperand1="0xb7ff10" astOperand2="0xb80070"/>
+    <token id="0xb80070" file="Clapper.cpp" linenr="64" str="2" scope="0xb861c0" type="number" isInt="True" values="0xb80078" astParent="0xb7ffc0"/>
+    <token id="0xb80120" file="Clapper.cpp" linenr="64" str=";" scope="0xb861c0"/>
+    <token id="0xb801d0" file="Clapper.cpp" linenr="65" str="event_timer" scope="0xb861c0" type="name" varId="11" variable="0xb87140" astParent="0xb80280"/>
+    <token id="0xb80280" file="Clapper.cpp" linenr="65" str="=" scope="0xb861c0" type="op" isAssignmentOp="True" astOperand1="0xb801d0" astOperand2="0xb80540"/>
+    <token id="0xb80330" file="Clapper.cpp" linenr="65" str="t" scope="0xb861c0" type="name" varId="9" variable="0xb870d0" astParent="0xb803e0"/>
+    <token id="0xb803e0" file="Clapper.cpp" linenr="65" str="." scope="0xb861c0" astParent="0xb80540" astOperand1="0xb80330" astOperand2="0xb80490"/>
+    <token id="0xb80490" file="Clapper.cpp" linenr="65" str="read_ms" scope="0xb861c0" type="name" astParent="0xb803e0"/>
+    <token id="0xb80540" file="Clapper.cpp" linenr="65" str="(" scope="0xb861c0" link="0xb805f0" astParent="0xb80280" astOperand1="0xb803e0"/>
+    <token id="0xb805f0" file="Clapper.cpp" linenr="65" str=")" scope="0xb861c0" link="0xb80540"/>
+    <token id="0xb806a0" file="Clapper.cpp" linenr="65" str=";" scope="0xb861c0"/>
+    <token id="0xb80750" file="Clapper.cpp" linenr="67" str="}" scope="0xb861c0" link="0xb7fe60"/>
+    <token id="0xb80800" file="Clapper.cpp" linenr="68" str="break" scope="0xb85f20" type="name"/>
+    <token id="0xb808b0" file="Clapper.cpp" linenr="68" str=";" scope="0xb85f20"/>
+    <token id="0xb80960" file="Clapper.cpp" linenr="69" str="case" scope="0xb85f20" type="name"/>
+    <token id="0xb80a10" file="Clapper.cpp" linenr="69" str="2" scope="0xb85f20" type="number" isInt="True" values="0xb80a18"/>
+    <token id="0xb80ac0" file="Clapper.cpp" linenr="69" str=":" scope="0xb85f20"/>
+    <token id="0xb858b0" file="Clapper.cpp" linenr="69" str=";" scope="0xb85f20"/>
+    <token id="0xb80b70" file="Clapper.cpp" linenr="71" str="if" scope="0xb85f20" type="name" astParent="0xb80c20"/>
+    <token id="0xb80c20" file="Clapper.cpp" linenr="71" str="(" scope="0xb85f20" link="0xb80ee0" astOperand1="0xb80b70" astOperand2="0xb80d80"/>
+    <token id="0xb80cd0" file="Clapper.cpp" linenr="71" str="mic_val" scope="0xb85f20" type="name" varId="12" variable="0xb871b0" astParent="0xb80d80"/>
+    <token id="0xb80d80" file="Clapper.cpp" linenr="71" str="&gt;" scope="0xb85f20" type="op" isComparisonOp="True" astParent="0xb80c20" astOperand1="0xb80cd0" astOperand2="0xb80e30"/>
+    <token id="0xb80e30" file="Clapper.cpp" linenr="71" str="volume_thresh" scope="0xb85f20" type="name" varId="6" variable="0xb86f80" astParent="0xb80d80"/>
+    <token id="0xb80ee0" file="Clapper.cpp" linenr="71" str=")" scope="0xb85f20" link="0xb80c20"/>
+    <token id="0xb80f90" file="Clapper.cpp" linenr="71" str="{" scope="0xb86310" link="0xb81300"/>
+    <token id="0xb81040" file="Clapper.cpp" linenr="72" str="clap" scope="0xb86310" type="name" varId="5" variable="0xb86f10" astParent="0xb810f0"/>
+    <token id="0xb810f0" file="Clapper.cpp" linenr="72" str="=" scope="0xb86310" type="op" isAssignmentOp="True" astOperand1="0xb81040" astOperand2="0xb811a0"/>
+    <token id="0xb811a0" file="Clapper.cpp" linenr="72" str="0" scope="0xb86310" type="number" isInt="True" values="0xb811a8" astParent="0xb810f0"/>
+    <token id="0xb81250" file="Clapper.cpp" linenr="72" str=";" scope="0xb86310"/>
+    <token id="0xb81300" file="Clapper.cpp" linenr="74" str="}" scope="0xb86310" link="0xb80f90"/>
+    <token id="0xb813b0" file="Clapper.cpp" linenr="74" str="else" scope="0xb85f20" type="name"/>
+    <token id="0xb779a0" file="Clapper.cpp" linenr="74" str="{" scope="0xb86590" link="0xb77a50"/>
+    <token id="0xb81460" file="Clapper.cpp" linenr="74" str="if" scope="0xb86590" type="name" astParent="0xb81510"/>
+    <token id="0xb81510" file="Clapper.cpp" linenr="74" str="(" scope="0xb86590" link="0xb81d50" astOperand1="0xb81460" astOperand2="0xb81bf0"/>
+    <token id="0xb815c0" file="Clapper.cpp" linenr="74" str="(" scope="0xb86590" link="0xb81b40"/>
+    <token id="0xb81670" file="Clapper.cpp" linenr="74" str="t" scope="0xb86590" type="name" varId="9" variable="0xb870d0" astParent="0xb81720"/>
+    <token id="0xb81720" file="Clapper.cpp" linenr="74" str="." scope="0xb86590" astParent="0xb81880" astOperand1="0xb81670" astOperand2="0xb817d0"/>
+    <token id="0xb817d0" file="Clapper.cpp" linenr="74" str="read_ms" scope="0xb86590" type="name" astParent="0xb81720"/>
+    <token id="0xb81880" file="Clapper.cpp" linenr="74" str="(" scope="0xb86590" link="0xb81930" astParent="0xb819e0" astOperand1="0xb81720"/>
+    <token id="0xb81930" file="Clapper.cpp" linenr="74" str=")" scope="0xb86590" link="0xb81880"/>
+    <token id="0xb819e0" file="Clapper.cpp" linenr="74" str="-" scope="0xb86590" type="op" isArithmeticalOp="True" astParent="0xb81bf0" astOperand1="0xb81880" astOperand2="0xb81a90"/>
+    <token id="0xb81a90" file="Clapper.cpp" linenr="74" str="event_timer" scope="0xb86590" type="name" varId="11" variable="0xb87140" astParent="0xb819e0"/>
+    <token id="0xb81b40" file="Clapper.cpp" linenr="74" str=")" scope="0xb86590" link="0xb815c0"/>
+    <token id="0xb81bf0" file="Clapper.cpp" linenr="74" str="&gt;" scope="0xb86590" type="op" isComparisonOp="True" astParent="0xb81510" astOperand1="0xb819e0" astOperand2="0xb81ca0"/>
+    <token id="0xb81ca0" file="Clapper.cpp" linenr="74" str="60" scope="0xb86590" type="number" isInt="True" values="0xb81ca8" astParent="0xb81bf0"/>
+    <token id="0xb81d50" file="Clapper.cpp" linenr="74" str=")" scope="0xb86590" link="0xb81510"/>
+    <token id="0xb81e00" file="Clapper.cpp" linenr="74" str="{" scope="0xb866e0" link="0xb826f0"/>
+    <token id="0xb81eb0" file="Clapper.cpp" linenr="75" str="clap" scope="0xb866e0" type="name" varId="5" variable="0xb86f10" astParent="0xb81f60"/>
+    <token id="0xb81f60" file="Clapper.cpp" linenr="75" str="=" scope="0xb866e0" type="op" isAssignmentOp="True" astOperand1="0xb81eb0" astOperand2="0xb82010"/>
+    <token id="0xb82010" file="Clapper.cpp" linenr="75" str="3" scope="0xb866e0" type="number" isInt="True" values="0xb82018" astParent="0xb81f60"/>
+    <token id="0xb820c0" file="Clapper.cpp" linenr="75" str=";" scope="0xb866e0"/>
+    <token id="0xb82170" file="Clapper.cpp" linenr="76" str="event_timer" scope="0xb866e0" type="name" varId="11" variable="0xb87140" astParent="0xb82220"/>
+    <token id="0xb82220" file="Clapper.cpp" linenr="76" str="=" scope="0xb866e0" type="op" isAssignmentOp="True" astOperand1="0xb82170" astOperand2="0xb824e0"/>
+    <token id="0xb822d0" file="Clapper.cpp" linenr="76" str="t" scope="0xb866e0" type="name" varId="9" variable="0xb870d0" astParent="0xb82380"/>
+    <token id="0xb82380" file="Clapper.cpp" linenr="76" str="." scope="0xb866e0" astParent="0xb824e0" astOperand1="0xb822d0" astOperand2="0xb82430"/>
+    <token id="0xb82430" file="Clapper.cpp" linenr="76" str="read_ms" scope="0xb866e0" type="name" astParent="0xb82380"/>
+    <token id="0xb824e0" file="Clapper.cpp" linenr="76" str="(" scope="0xb866e0" link="0xb82590" astParent="0xb82220" astOperand1="0xb82380"/>
+    <token id="0xb82590" file="Clapper.cpp" linenr="76" str=")" scope="0xb866e0" link="0xb824e0"/>
+    <token id="0xb82640" file="Clapper.cpp" linenr="76" str=";" scope="0xb866e0"/>
+    <token id="0xb826f0" file="Clapper.cpp" linenr="78" str="}" scope="0xb866e0" link="0xb81e00"/>
+    <token id="0xb77a50" file="Clapper.cpp" linenr="78" str="}" scope="0xb86590" link="0xb779a0"/>
+    <token id="0xb827a0" file="Clapper.cpp" linenr="79" str="break" scope="0xb85f20" type="name"/>
+    <token id="0xb82850" file="Clapper.cpp" linenr="79" str=";" scope="0xb85f20"/>
+    <token id="0xb82900" file="Clapper.cpp" linenr="80" str="case" scope="0xb85f20" type="name"/>
+    <token id="0xb829b0" file="Clapper.cpp" linenr="80" str="3" scope="0xb85f20" type="number" isInt="True" values="0xb829b8"/>
+    <token id="0xb82a60" file="Clapper.cpp" linenr="80" str=":" scope="0xb85f20"/>
+    <token id="0xb85960" file="Clapper.cpp" linenr="80" str=";" scope="0xb85f20"/>
+    <token id="0xb82b10" file="Clapper.cpp" linenr="81" str="if" scope="0xb85f20" type="name" astParent="0xb82bc0"/>
+    <token id="0xb82bc0" file="Clapper.cpp" linenr="81" str="(" scope="0xb85f20" link="0xb83090" astOperand1="0xb82b10" astOperand2="0xb82f30"/>
+    <token id="0xb82c70" file="Clapper.cpp" linenr="81" str="abs" scope="0xb85f20" type="name" astParent="0xb82d20"/>
+    <token id="0xb82d20" file="Clapper.cpp" linenr="81" str="(" scope="0xb85f20" link="0xb82e80" astParent="0xb82f30" astOperand1="0xb82c70" astOperand2="0xb82dd0"/>
+    <token id="0xb82dd0" file="Clapper.cpp" linenr="81" str="mic_val" scope="0xb85f20" type="name" varId="12" variable="0xb871b0" astParent="0xb82d20"/>
+    <token id="0xb82e80" file="Clapper.cpp" linenr="81" str=")" scope="0xb85f20" link="0xb82d20"/>
+    <token id="0xb82f30" file="Clapper.cpp" linenr="81" str="&gt;" scope="0xb85f20" type="op" isComparisonOp="True" astParent="0xb82bc0" astOperand1="0xb82d20" astOperand2="0xb82fe0"/>
+    <token id="0xb82fe0" file="Clapper.cpp" linenr="81" str="volume_thresh" scope="0xb85f20" type="name" varId="6" variable="0xb86f80" astParent="0xb82f30"/>
+    <token id="0xb83090" file="Clapper.cpp" linenr="81" str=")" scope="0xb85f20" link="0xb82bc0"/>
+    <token id="0xb83140" file="Clapper.cpp" linenr="81" str="{" scope="0xb86830" link="0xb83a30"/>
+    <token id="0xb831f0" file="Clapper.cpp" linenr="82" str="clap" scope="0xb86830" type="name" varId="5" variable="0xb86f10" astParent="0xb832a0"/>
+    <token id="0xb832a0" file="Clapper.cpp" linenr="82" str="=" scope="0xb86830" type="op" isAssignmentOp="True" astOperand1="0xb831f0" astOperand2="0xb83350"/>
+    <token id="0xb83350" file="Clapper.cpp" linenr="82" str="0" scope="0xb86830" type="number" isInt="True" values="0xb83358" astParent="0xb832a0"/>
+    <token id="0xb83400" file="Clapper.cpp" linenr="82" str=";" scope="0xb86830"/>
+    <token id="0xb834b0" file="Clapper.cpp" linenr="83" str="p" scope="0xb86830" type="name" varId="4" variable="0xb86ea0" astParent="0xb83560"/>
+    <token id="0xb83560" file="Clapper.cpp" linenr="83" str="." scope="0xb86830" astParent="0xb836c0" astOperand1="0xb834b0" astOperand2="0xb83610"/>
+    <token id="0xb83610" file="Clapper.cpp" linenr="83" str="publish" scope="0xb86830" type="name" astParent="0xb83560"/>
+    <token id="0xb836c0" file="Clapper.cpp" linenr="83" str="(" scope="0xb86830" link="0xb838d0" astOperand1="0xb83560" astOperand2="0xb83770"/>
+    <token id="0xb83770" file="Clapper.cpp" linenr="83" str="&amp;" scope="0xb86830" type="op" astParent="0xb836c0" astOperand1="0xb83820"/>
+    <token id="0xb83820" file="Clapper.cpp" linenr="83" str="clap_msg" scope="0xb86830" type="name" varId="3" variable="0xb86e30" astParent="0xb83770"/>
+    <token id="0xb838d0" file="Clapper.cpp" linenr="83" str=")" scope="0xb86830" link="0xb836c0"/>
+    <token id="0xb83980" file="Clapper.cpp" linenr="83" str=";" scope="0xb86830"/>
+    <token id="0xb83a30" file="Clapper.cpp" linenr="84" str="}" scope="0xb86830" link="0xb83140"/>
+    <token id="0xb83ae0" file="Clapper.cpp" linenr="84" str="else" scope="0xb85f20" type="name"/>
+    <token id="0xb77390" file="Clapper.cpp" linenr="84" str="{" scope="0xb86ab0" link="0xb77440"/>
+    <token id="0xb83b90" file="Clapper.cpp" linenr="84" str="if" scope="0xb86ab0" type="name" astParent="0xb83c40"/>
+    <token id="0xb83c40" file="Clapper.cpp" linenr="84" str="(" scope="0xb86ab0" link="0xb84480" astOperand1="0xb83b90" astOperand2="0xb84320"/>
+    <token id="0xb83cf0" file="Clapper.cpp" linenr="84" str="(" scope="0xb86ab0" link="0xb84270"/>
+    <token id="0xb83da0" file="Clapper.cpp" linenr="84" str="t" scope="0xb86ab0" type="name" varId="9" variable="0xb870d0" astParent="0xb83e50"/>
+    <token id="0xb83e50" file="Clapper.cpp" linenr="84" str="." scope="0xb86ab0" astParent="0xb83fb0" astOperand1="0xb83da0" astOperand2="0xb83f00"/>
+    <token id="0xb83f00" file="Clapper.cpp" linenr="84" str="read_ms" scope="0xb86ab0" type="name" astParent="0xb83e50"/>
+    <token id="0xb83fb0" file="Clapper.cpp" linenr="84" str="(" scope="0xb86ab0" link="0xb84060" astParent="0xb84110" astOperand1="0xb83e50"/>
+    <token id="0xb84060" file="Clapper.cpp" linenr="84" str=")" scope="0xb86ab0" link="0xb83fb0"/>
+    <token id="0xb84110" file="Clapper.cpp" linenr="84" str="-" scope="0xb86ab0" type="op" isArithmeticalOp="True" astParent="0xb84320" astOperand1="0xb83fb0" astOperand2="0xb841c0"/>
+    <token id="0xb841c0" file="Clapper.cpp" linenr="84" str="event_timer" scope="0xb86ab0" type="name" varId="11" variable="0xb87140" astParent="0xb84110"/>
+    <token id="0xb84270" file="Clapper.cpp" linenr="84" str=")" scope="0xb86ab0" link="0xb83cf0"/>
+    <token id="0xb84320" file="Clapper.cpp" linenr="84" str="&gt;" scope="0xb86ab0" type="op" isComparisonOp="True" astParent="0xb83c40" astOperand1="0xb84110" astOperand2="0xb843d0"/>
+    <token id="0xb843d0" file="Clapper.cpp" linenr="84" str="200" scope="0xb86ab0" type="number" isInt="True" values="0xb843d8" astParent="0xb84320"/>
+    <token id="0xb84480" file="Clapper.cpp" linenr="84" str=")" scope="0xb86ab0" link="0xb83c40"/>
+    <token id="0xb84530" file="Clapper.cpp" linenr="84" str="{" scope="0xb86c00" link="0xb848a0"/>
+    <token id="0xb845e0" file="Clapper.cpp" linenr="85" str="clap" scope="0xb86c00" type="name" varId="5" variable="0xb86f10" astParent="0xb84690"/>
+    <token id="0xb84690" file="Clapper.cpp" linenr="85" str="=" scope="0xb86c00" type="op" isAssignmentOp="True" astOperand1="0xb845e0" astOperand2="0xb84740"/>
+    <token id="0xb84740" file="Clapper.cpp" linenr="85" str="0" scope="0xb86c00" type="number" isInt="True" values="0xb84748" astParent="0xb84690"/>
+    <token id="0xb847f0" file="Clapper.cpp" linenr="85" str=";" scope="0xb86c00"/>
+    <token id="0xb848a0" file="Clapper.cpp" linenr="86" str="}" scope="0xb86c00" link="0xb84530"/>
+    <token id="0xb77440" file="Clapper.cpp" linenr="86" str="}" scope="0xb86ab0" link="0xb77390"/>
+    <token id="0xb84950" file="Clapper.cpp" linenr="88" str="break" scope="0xb85f20" type="name"/>
+    <token id="0xb84a00" file="Clapper.cpp" linenr="88" str=";" scope="0xb85f20"/>
+    <token id="0xb84ab0" file="Clapper.cpp" linenr="89" str="}" scope="0xb85f20" link="0xb7d6d0"/>
+    <token id="0xb84b60" file="Clapper.cpp" linenr="90" str="nh" scope="0xb777d0" type="name" varId="2" variable="0xb86dc0" astParent="0xb84c10"/>
+    <token id="0xb84c10" file="Clapper.cpp" linenr="90" str="." scope="0xb777d0" astParent="0xb84d70" astOperand1="0xb84b60" astOperand2="0xb84cc0"/>
+    <token id="0xb84cc0" file="Clapper.cpp" linenr="90" str="spinOnce" scope="0xb777d0" type="name" astParent="0xb84c10"/>
+    <token id="0xb84d70" file="Clapper.cpp" linenr="90" str="(" scope="0xb777d0" link="0xb84e20" astOperand1="0xb84c10"/>
+    <token id="0xb84e20" file="Clapper.cpp" linenr="90" str=")" scope="0xb777d0" link="0xb84d70"/>
+    <token id="0xb84ed0" file="Clapper.cpp" linenr="90" str=";" scope="0xb777d0"/>
+    <token id="0xb84f80" file="Clapper.cpp" linenr="91" str="}" scope="0xb777d0" link="0xb7baa0"/>
+    <token id="0xb85030" file="Clapper.cpp" linenr="92" str="}" scope="0xb77500" link="0xb79370"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xb85300" type="Global">
+      <functionList>
+        <function id="0xb85430" tokenDef="0xb78c30" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0xb86d50"/>
+        <var id="0xb86dc0"/>
+        <var id="0xb86e30"/>
+        <var id="0xb86ea0"/>
+        <var id="0xb86f10"/>
+        <var id="0xb86f80"/>
+        <var id="0xb86ff0"/>
+        <var id="0xb87060"/>
+        <var id="0xb870d0"/>
+      </varlist>
+    </scope>
+    <scope id="0xb77500" type="Function" className="main" classStart="0xb79370" classEnd="0xb85030" nestedIn="0xb85300" function="0xb85430">
+      <varlist>
+        <var id="0xb87140"/>
+      </varlist>
+    </scope>
+    <scope id="0xb77630" type="For" classStart="0xb7ac30" classEnd="0xb7b260" nestedIn="0xb77500">
+      <varlist>
+        <var id="0xb77760"/>
+      </varlist>
+    </scope>
+    <scope id="0xb777d0" type="While" classStart="0xb7baa0" classEnd="0xb84f80" nestedIn="0xb77500">
+      <varlist>
+        <var id="0xb871b0"/>
+      </varlist>
+    </scope>
+    <scope id="0xb85d80" type="For" classStart="0xb7c9c0" classEnd="0xb747b0" nestedIn="0xb777d0">
+      <varlist>
+        <var id="0xb85eb0"/>
+      </varlist>
+    </scope>
+    <scope id="0xb85f20" type="Switch" classStart="0xb7d6d0" classEnd="0xb84ab0" nestedIn="0xb777d0"/>
+    <scope id="0xb86070" type="If" classStart="0xb7dfc0" classEnd="0xb7e8e0" nestedIn="0xb85f20"/>
+    <scope id="0xb861c0" type="If" classStart="0xb7fe60" classEnd="0xb80750" nestedIn="0xb85f20"/>
+    <scope id="0xb86310" type="If" classStart="0xb80f90" classEnd="0xb81300" nestedIn="0xb85f20"/>
+    <scope id="0xb86460" type="Else" classStart="0xb779a0" classEnd="0xb77a50" nestedIn="0xb85f20"/>
+    <scope id="0xb86590" type="Try" classStart="0xb779a0" classEnd="0xb77a50" nestedIn="0xb85f20"/>
+    <scope id="0xb866e0" type="If" classStart="0xb81e00" classEnd="0xb826f0" nestedIn="0xb86590"/>
+    <scope id="0xb86830" type="If" classStart="0xb83140" classEnd="0xb83a30" nestedIn="0xb85f20"/>
+    <scope id="0xb86980" type="Else" classStart="0xb77390" classEnd="0xb77440" nestedIn="0xb85f20"/>
+    <scope id="0xb86ab0" type="Try" classStart="0xb77390" classEnd="0xb77440" nestedIn="0xb85f20"/>
+    <scope id="0xb86c00" type="If" classStart="0xb84530" classEnd="0xb848a0" nestedIn="0xb86ab0"/>
+  </scopes>
+  <variables>
+    <var id="0xb86d50" nameToken="0xb73380" typeStartToken="0xb732d0" typeEndToken="0xb732d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86dc0" nameToken="0xb74110" typeStartToken="0xb73500" typeEndToken="0xb74060" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86e30" nameToken="0xb76aa0" typeStartToken="0xb74270" typeEndToken="0xb769f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86ea0" nameToken="0xb76e10" typeStartToken="0xb76c00" typeEndToken="0xb76d60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86f10" nameToken="0xb77d10" typeStartToken="0xb77c60" typeEndToken="0xb77c60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86f80" nameToken="0xb77f20" typeStartToken="0xb77e70" typeEndToken="0xb77e70" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb86ff0" nameToken="0xb78290" typeStartToken="0xb781e0" typeEndToken="0xb781e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb87060" nameToken="0xb786b0" typeStartToken="0xb78600" typeEndToken="0xb78600" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb870d0" nameToken="0xb78a20" typeStartToken="0xb78970" typeEndToken="0xb78970" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb77760" nameToken="0xb7a340" typeStartToken="0xb7a290" typeEndToken="0xb7a290" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb87140" nameToken="0xb7b520" typeStartToken="0xb7b470" typeEndToken="0xb7b470" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb871b0" nameToken="0xb7bc00" typeStartToken="0xb7bb50" typeEndToken="0xb7bb50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xb85eb0" nameToken="0xb7c0d0" typeStartToken="0xb7c020" typeEndToken="0xb7c020" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xb76f78">
+      <value tokvalue="0xb76f70" known="true"/>
+    </values>
+    <values id="0xb78088">
+      <value intvalue="200" known="true"/>
+    </values>
+    <values id="0xb78818">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7a4a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7a768">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0xb7b318">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0xb7b688">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7b948">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xb7bd68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7c238">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7c4f8">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xb7d158">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xb7d838">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb7e1d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xb7eba8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xb7f2b8">
+      <value intvalue="30" known="true"/>
+    </values>
+    <values id="0xb7fc58">
+      <value intvalue="20" known="true"/>
+    </values>
+    <values id="0xb80078">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xb80a18">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xb811a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb81ca8">
+      <value intvalue="60" known="true"/>
+    </values>
+    <values id="0xb82018">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0xb829b8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0xb83358">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xb843d8">
+      <value intvalue="200" known="true"/>
+    </values>
+    <values id="0xb84748">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

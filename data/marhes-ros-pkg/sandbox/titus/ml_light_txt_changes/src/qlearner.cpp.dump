@@ -1,0 +1,1466 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x26750c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="18" str="class" scope="0x26a8d70" type="name"/>
+    <token id="0x26674a0" file="../include/ml_light_txt_changes/qlearner.h" linenr="18" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0"/>
+    <token id="0x267a860" file="../include/ml_light_txt_changes/qlearner.h" linenr="19" str="{" scope="0x26a9df0" link="0x2680670"/>
+    <token id="0x267a910" file="../include/ml_light_txt_changes/qlearner.h" linenr="20" str="public:" scope="0x26a9df0" type="name"/>
+    <token id="0x26778b0" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="QLearner" scope="0x26a9df0" type="name" function="0x26a9f90" astParent="0x2677960"/>
+    <token id="0x2677960" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="(" scope="0x26a9df0" link="0x267ac10" astOperand1="0x26778b0" astOperand2="0x2677ac0"/>
+    <token id="0x2677a10" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="ros" scope="0x26a9df0" type="name" astParent="0x2677ac0"/>
+    <token id="0x2677ac0" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="::" scope="0x26a9df0" astParent="0x2677960" astOperand1="0x2677a10" astOperand2="0x267ab60"/>
+    <token id="0x267aab0" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="NodeHandle" scope="0x26a9df0" type="name"/>
+    <token id="0x267ab60" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str="nh" scope="0x26a9df0" type="name" varId="1" astParent="0x2677ac0"/>
+    <token id="0x267ac10" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str=")" scope="0x26a9df0" link="0x2677960"/>
+    <token id="0x267acc0" file="../include/ml_light_txt_changes/qlearner.h" linenr="21" str=";" scope="0x26a9df0"/>
+    <token id="0x267ad70" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="void" scope="0x26a9df0" type="name"/>
+    <token id="0x267ae20" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="Update" scope="0x26a9df0" type="name" function="0x26aa030" astParent="0x267aed0"/>
+    <token id="0x267aed0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="(" scope="0x26a9df0" link="0x267b710" astOperand1="0x267ae20" astOperand2="0x267b500"/>
+    <token id="0x267af80" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267b030" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="reward" scope="0x26a9df0" type="name" varId="2" astParent="0x267b0e0"/>
+    <token id="0x267b0e0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="," scope="0x26a9df0" astParent="0x267b2f0" astOperand1="0x267b030" astOperand2="0x267b240"/>
+    <token id="0x267b190" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267b240" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="state" scope="0x26a9df0" type="name" varId="3" astParent="0x267b0e0"/>
+    <token id="0x267b2f0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="," scope="0x26a9df0" astParent="0x267b500" astOperand1="0x267b0e0" astOperand2="0x267b450"/>
+    <token id="0x267b3a0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267b450" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="state_p" scope="0x26a9df0" type="name" varId="4" astParent="0x267b2f0"/>
+    <token id="0x267b500" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="," scope="0x26a9df0" astParent="0x267aed0" astOperand1="0x267b2f0" astOperand2="0x267b660"/>
+    <token id="0x267b5b0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267b660" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str="action" scope="0x26a9df0" type="name" varId="5" astParent="0x267b500"/>
+    <token id="0x267b710" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str=")" scope="0x26a9df0" link="0x267aed0"/>
+    <token id="0x267b7c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="22" str=";" scope="0x26a9df0"/>
+    <token id="0x267b870" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267b920" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str="GetAction" scope="0x26a9df0" type="name" function="0x26aa0d0" astParent="0x267b9d0"/>
+    <token id="0x267b9d0" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str="(" scope="0x26a9df0" link="0x267bbe0" astOperand1="0x267b920" astOperand2="0x267bb30"/>
+    <token id="0x267ba80" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267bb30" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str="state" scope="0x26a9df0" type="name" varId="6" astParent="0x267b9d0"/>
+    <token id="0x267bbe0" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str=")" scope="0x26a9df0" link="0x267b9d0"/>
+    <token id="0x267bc90" file="../include/ml_light_txt_changes/qlearner.h" linenr="23" str=";" scope="0x26a9df0"/>
+    <token id="0x267bd40" file="../include/ml_light_txt_changes/qlearner.h" linenr="24" str="void" scope="0x26a9df0" type="name"/>
+    <token id="0x267bdf0" file="../include/ml_light_txt_changes/qlearner.h" linenr="24" str="DecreaseTemp" scope="0x26a9df0" type="name" function="0x26aa170" astParent="0x267bea0"/>
+    <token id="0x267bea0" file="../include/ml_light_txt_changes/qlearner.h" linenr="24" str="(" scope="0x26a9df0" link="0x267c000" astOperand1="0x267bdf0"/>
+    <token id="0x267c000" file="../include/ml_light_txt_changes/qlearner.h" linenr="24" str=")" scope="0x26a9df0" link="0x267bea0"/>
+    <token id="0x267c0b0" file="../include/ml_light_txt_changes/qlearner.h" linenr="24" str=";" scope="0x26a9df0"/>
+    <token id="0x267c160" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str="std" scope="0x26a9df0" type="name" astParent="0x267c210"/>
+    <token id="0x267c210" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str="::" scope="0x26a9df0" astParent="0x267c420" astOperand1="0x267c160" astOperand2="0x267c370"/>
+    <token id="0x267c2c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str="string" scope="0x26a9df0" type="name"/>
+    <token id="0x267c370" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str="PrintTable" scope="0x26a9df0" type="name" function="0x267c4e0" astParent="0x267c210"/>
+    <token id="0x267c420" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str="(" scope="0x26a9df0" link="0x267c580" astOperand1="0x267c210"/>
+    <token id="0x267c580" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str=")" scope="0x26a9df0" link="0x267c420"/>
+    <token id="0x267c630" file="../include/ml_light_txt_changes/qlearner.h" linenr="25" str=";" scope="0x26a9df0"/>
+    <token id="0x267c6e0" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267c790" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="QVal" scope="0x26a9df0" type="name" function="0x267ea00" astParent="0x267c840"/>
+    <token id="0x267c840" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="(" scope="0x26a9df0" link="0x267cc60" astOperand1="0x267c790" astOperand2="0x267ca50"/>
+    <token id="0x267c8f0" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267c9a0" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="state" scope="0x26a9df0" type="name" varId="7" astParent="0x267ca50"/>
+    <token id="0x267ca50" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="," scope="0x26a9df0" astParent="0x267c840" astOperand1="0x267c9a0" astOperand2="0x267cbb0"/>
+    <token id="0x267cb00" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267cbb0" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str="action" scope="0x26a9df0" type="name" varId="8" astParent="0x267ca50"/>
+    <token id="0x267cc60" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str=")" scope="0x26a9df0" link="0x267c840"/>
+    <token id="0x267cd10" file="../include/ml_light_txt_changes/qlearner.h" linenr="26" str=";" scope="0x26a9df0"/>
+    <token id="0x267cdc0" file="../include/ml_light_txt_changes/qlearner.h" linenr="28" str="private:" scope="0x26a9df0" type="name"/>
+    <token id="0x267cf20" file="../include/ml_light_txt_changes/qlearner.h" linenr="29" str="ros" scope="0x26a9df0" type="name" astParent="0x267cfd0"/>
+    <token id="0x267cfd0" file="../include/ml_light_txt_changes/qlearner.h" linenr="29" str="::" scope="0x26a9df0" astOperand1="0x267cf20" astOperand2="0x267d130"/>
+    <token id="0x267d080" file="../include/ml_light_txt_changes/qlearner.h" linenr="29" str="NodeHandle" scope="0x26a9df0" type="name"/>
+    <token id="0x267d130" file="../include/ml_light_txt_changes/qlearner.h" linenr="29" str="n_" scope="0x26a9df0" type="name" varId="9" variable="0x26adc90" astParent="0x267cfd0"/>
+    <token id="0x267d1e0" file="../include/ml_light_txt_changes/qlearner.h" linenr="29" str=";" scope="0x26a9df0"/>
+    <token id="0x267d290" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267d340" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="num_actions_" scope="0x26a9df0" type="name" varId="10" variable="0x26add00"/>
+    <token id="0x267d3f0" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str=";" scope="0x26a9df0"/>
+    <token id="0x267a9c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267d4a0" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="num_states_" scope="0x26a9df0" type="name" varId="11" variable="0x26add70"/>
+    <token id="0x267d550" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str=";" scope="0x26a9df0"/>
+    <token id="0x26774e0" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267d600" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="size_array_" scope="0x26a9df0" type="name" varId="12" variable="0x26adde0"/>
+    <token id="0x267d6b0" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str=";" scope="0x26a9df0"/>
+    <token id="0x26a8b50" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267d760" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str="temp_cnt_" scope="0x26a9df0" type="name" varId="13" variable="0x26ade50"/>
+    <token id="0x267d810" file="../include/ml_light_txt_changes/qlearner.h" linenr="30" str=";" scope="0x26a9df0"/>
+    <token id="0x267d8c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267d970" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="learning_rate_" scope="0x26a9df0" type="name" varId="14" variable="0x26adec0"/>
+    <token id="0x267da20" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str=";" scope="0x26a9df0"/>
+    <token id="0x26a8c00" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267dad0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="discount_factor_" scope="0x26a9df0" type="name" varId="15" variable="0x26adf30"/>
+    <token id="0x267db80" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str=";" scope="0x26a9df0"/>
+    <token id="0x26a8cb0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267dc30" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="temp_const_" scope="0x26a9df0" type="name" varId="16" variable="0x26adfa0"/>
+    <token id="0x267dce0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str=";" scope="0x26a9df0"/>
+    <token id="0x26a88f0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267dd90" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="temp_alpha_" scope="0x26a9df0" type="name" varId="17" variable="0x26ae010"/>
+    <token id="0x267de40" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str=";" scope="0x26a9df0"/>
+    <token id="0x26a89a0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267def0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str="temp_" scope="0x26a9df0" type="name" varId="18" variable="0x26ae080"/>
+    <token id="0x267dfa0" file="../include/ml_light_txt_changes/qlearner.h" linenr="31" str=";" scope="0x26a9df0"/>
+    <token id="0x267e050" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="std" scope="0x26a9df0" type="name" astParent="0x267e100"/>
+    <token id="0x267e100" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="::" scope="0x26a9df0" astOperand1="0x267e050" astOperand2="0x267e1b0"/>
+    <token id="0x267e1b0" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="vector" scope="0x26a9df0" type="name" astParent="0x267e100"/>
+    <token id="0x267e260" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="&lt;" scope="0x26a9df0" link="0x267e3c0"/>
+    <token id="0x267e310" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267e3c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="&gt;" scope="0x26a9df0" link="0x267e260"/>
+    <token id="0x267e470" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str="q_array_" scope="0x26a9df0" type="name" varId="19" variable="0x26ae0f0"/>
+    <token id="0x267e520" file="../include/ml_light_txt_changes/qlearner.h" linenr="32" str=";" scope="0x26a9df0"/>
+    <token id="0x267e5d0" file="../include/ml_light_txt_changes/qlearner.h" linenr="33" str="bool" scope="0x26a9df0" type="name"/>
+    <token id="0x267e680" file="../include/ml_light_txt_changes/qlearner.h" linenr="33" str="learn_" scope="0x26a9df0" type="name" varId="20" variable="0x26ae160"/>
+    <token id="0x267e730" file="../include/ml_light_txt_changes/qlearner.h" linenr="33" str=";" scope="0x26a9df0"/>
+    <token id="0x267e7e0" file="../include/ml_light_txt_changes/qlearner.h" linenr="35" str="void" scope="0x26a9df0" type="name"/>
+    <token id="0x267e890" file="../include/ml_light_txt_changes/qlearner.h" linenr="35" str="Init" scope="0x26a9df0" type="name" function="0x269af30" astParent="0x267e940"/>
+    <token id="0x267e940" file="../include/ml_light_txt_changes/qlearner.h" linenr="35" str="(" scope="0x26a9df0" link="0x267eaa0" astOperand1="0x267e890"/>
+    <token id="0x267eaa0" file="../include/ml_light_txt_changes/qlearner.h" linenr="35" str=")" scope="0x26a9df0" link="0x267e940"/>
+    <token id="0x267eb50" file="../include/ml_light_txt_changes/qlearner.h" linenr="35" str=";" scope="0x26a9df0"/>
+    <token id="0x267ec00" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267ecb0" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str="GetMaxAction" scope="0x26a9df0" type="name" function="0x26a39a0" astParent="0x267ed60"/>
+    <token id="0x267ed60" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str="(" scope="0x26a9df0" link="0x267ef70" astOperand1="0x267ecb0" astOperand2="0x267eec0"/>
+    <token id="0x267ee10" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267eec0" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str="state" scope="0x26a9df0" type="name" varId="21" astParent="0x267ed60"/>
+    <token id="0x267ef70" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str=")" scope="0x26a9df0" link="0x267ed60"/>
+    <token id="0x267f020" file="../include/ml_light_txt_changes/qlearner.h" linenr="36" str=";" scope="0x26a9df0"/>
+    <token id="0x267f0d0" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str="double" scope="0x26a9df0" type="name"/>
+    <token id="0x267f180" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str="GetMaxActionQVal" scope="0x26a9df0" type="name" function="0x26a51b0" astParent="0x267f260"/>
+    <token id="0x267f260" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str="(" scope="0x26a9df0" link="0x267f470" astOperand1="0x267f180" astOperand2="0x267f3c0"/>
+    <token id="0x267f310" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str="int" scope="0x26a9df0" type="name"/>
+    <token id="0x267f3c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str="state" scope="0x26a9df0" type="name" varId="22" astParent="0x267f260"/>
+    <token id="0x267f470" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str=")" scope="0x26a9df0" link="0x267f260"/>
+    <token id="0x26805c0" file="../include/ml_light_txt_changes/qlearner.h" linenr="37" str=";" scope="0x26a9df0"/>
+    <token id="0x2680670" file="../include/ml_light_txt_changes/qlearner.h" linenr="38" str="}" scope="0x26a9df0" link="0x267a860"/>
+    <token id="0x2680720" file="../include/ml_light_txt_changes/qlearner.h" linenr="38" str=";" scope="0x26a8d70"/>
+    <token id="0x26807d0" file="qlearner.cpp" linenr="3" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x2680880"/>
+    <token id="0x2680880" file="qlearner.cpp" linenr="3" str="::" scope="0x26a8d70" astParent="0x26809e0" astOperand1="0x26807d0" astOperand2="0x2680930"/>
+    <token id="0x2680930" file="qlearner.cpp" linenr="3" str="QLearner" scope="0x26a8d70" type="name" function="0x26a9f90" astParent="0x2680880"/>
+    <token id="0x26809e0" file="qlearner.cpp" linenr="3" str="(" scope="0x26a8d70" link="0x2680d50" astOperand1="0x2680880" astOperand2="0x2680b40"/>
+    <token id="0x2680a90" file="qlearner.cpp" linenr="3" str="ros" scope="0x26a8d70" type="name" astParent="0x2680b40"/>
+    <token id="0x2680b40" file="qlearner.cpp" linenr="3" str="::" scope="0x26a8d70" astParent="0x26809e0" astOperand1="0x2680a90" astOperand2="0x2680ca0"/>
+    <token id="0x2680bf0" file="qlearner.cpp" linenr="3" str="NodeHandle" scope="0x26a8d70" type="name"/>
+    <token id="0x2680ca0" file="qlearner.cpp" linenr="3" str="nh" scope="0x26a8d70" type="name" varId="23" variable="0x26aeb00" astParent="0x2680b40"/>
+    <token id="0x2680d50" file="qlearner.cpp" linenr="3" str=")" scope="0x26a8d70" link="0x26809e0"/>
+    <token id="0x2680e00" file="qlearner.cpp" linenr="4" str="{" scope="0x26aabf0" link="0x268f810"/>
+    <token id="0x2680eb0" file="qlearner.cpp" linenr="5" str="n_" scope="0x26aabf0" type="name" varId="9" variable="0x26adc90" astParent="0x2680f60"/>
+    <token id="0x2680f60" file="qlearner.cpp" linenr="5" str="=" scope="0x26aabf0" type="op" isAssignmentOp="True" astOperand1="0x2680eb0" astOperand2="0x2681010"/>
+    <token id="0x2681010" file="qlearner.cpp" linenr="5" str="nh" scope="0x26aabf0" type="name" varId="23" variable="0x26aeb00" astParent="0x2680f60"/>
+    <token id="0x26810c0" file="qlearner.cpp" linenr="5" str=";" scope="0x26aabf0"/>
+    <token id="0x2681170" file="qlearner.cpp" linenr="6" str="ros" scope="0x26aabf0" type="name" astParent="0x2681220"/>
+    <token id="0x2681220" file="qlearner.cpp" linenr="6" str="::" scope="0x26aabf0" astParent="0x2681430" astOperand1="0x2681170" astOperand2="0x2681380"/>
+    <token id="0x26812d0" file="qlearner.cpp" linenr="6" str="NodeHandle" scope="0x26aabf0" type="name"/>
+    <token id="0x2681380" file="qlearner.cpp" linenr="6" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2681220"/>
+    <token id="0x2681430" file="qlearner.cpp" linenr="6" str="(" scope="0x26aabf0" link="0x2681590" astOperand1="0x2681220" astOperand2="0x26814e0"/>
+    <token id="0x26814e0" file="qlearner.cpp" linenr="6" str="&quot;x&quot;" scope="0x26aabf0" type="string" strlen="1" values="0x26814e8" astParent="0x2681430"/>
+    <token id="0x2681590" file="qlearner.cpp" linenr="6" str=")" scope="0x26aabf0" link="0x2681430"/>
+    <token id="0x2681640" file="qlearner.cpp" linenr="6" str=";" scope="0x26aabf0"/>
+    <token id="0x26816f0" file="qlearner.cpp" linenr="7" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x26817a0"/>
+    <token id="0x26817a0" file="qlearner.cpp" linenr="7" str="." scope="0x26aabf0" astParent="0x2681900" astOperand1="0x26816f0" astOperand2="0x2681850"/>
+    <token id="0x2681850" file="qlearner.cpp" linenr="7" str="param" scope="0x26aabf0" type="name" astParent="0x26817a0"/>
+    <token id="0x2681900" file="qlearner.cpp" linenr="7" str="(" scope="0x26aabf0" link="0x2681d20" astOperand1="0x26817a0" astOperand2="0x2681bc0"/>
+    <token id="0x26819b0" file="qlearner.cpp" linenr="7" str="&quot;num_states&quot;" scope="0x26aabf0" type="string" strlen="10" values="0x26819b8" astParent="0x2681a60"/>
+    <token id="0x2681a60" file="qlearner.cpp" linenr="7" str="," scope="0x26aabf0" astParent="0x2681bc0" astOperand1="0x26819b0" astOperand2="0x2681b10"/>
+    <token id="0x2681b10" file="qlearner.cpp" linenr="7" str="num_states_" scope="0x26aabf0" type="name" varId="11" variable="0x26add70" astParent="0x2681a60"/>
+    <token id="0x2681bc0" file="qlearner.cpp" linenr="7" str="," scope="0x26aabf0" astParent="0x2681900" astOperand1="0x2681a60" astOperand2="0x2681c70"/>
+    <token id="0x2681c70" file="qlearner.cpp" linenr="7" str="8" scope="0x26aabf0" type="number" isInt="True" values="0x2681c78" astParent="0x2681bc0"/>
+    <token id="0x2681d20" file="qlearner.cpp" linenr="7" str=")" scope="0x26aabf0" link="0x2681900"/>
+    <token id="0x2681dd0" file="qlearner.cpp" linenr="7" str=";" scope="0x26aabf0"/>
+    <token id="0x2681e80" file="qlearner.cpp" linenr="8" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2681f30"/>
+    <token id="0x2681f30" file="qlearner.cpp" linenr="8" str="." scope="0x26aabf0" astParent="0x2682090" astOperand1="0x2681e80" astOperand2="0x2681fe0"/>
+    <token id="0x2681fe0" file="qlearner.cpp" linenr="8" str="param" scope="0x26aabf0" type="name" astParent="0x2681f30"/>
+    <token id="0x2682090" file="qlearner.cpp" linenr="8" str="(" scope="0x26aabf0" link="0x26824b0" astOperand1="0x2681f30" astOperand2="0x2682350"/>
+    <token id="0x2682140" file="qlearner.cpp" linenr="8" str="&quot;num_actions&quot;" scope="0x26aabf0" type="string" strlen="11" values="0x2682148" astParent="0x26821f0"/>
+    <token id="0x26821f0" file="qlearner.cpp" linenr="8" str="," scope="0x26aabf0" astParent="0x2682350" astOperand1="0x2682140" astOperand2="0x26822a0"/>
+    <token id="0x26822a0" file="qlearner.cpp" linenr="8" str="num_actions_" scope="0x26aabf0" type="name" varId="10" variable="0x26add00" astParent="0x26821f0"/>
+    <token id="0x2682350" file="qlearner.cpp" linenr="8" str="," scope="0x26aabf0" astParent="0x2682090" astOperand1="0x26821f0" astOperand2="0x2682400"/>
+    <token id="0x2682400" file="qlearner.cpp" linenr="8" str="3" scope="0x26aabf0" type="number" isInt="True" values="0x2682408" astParent="0x2682350"/>
+    <token id="0x26824b0" file="qlearner.cpp" linenr="8" str=")" scope="0x26aabf0" link="0x2682090"/>
+    <token id="0x2682560" file="qlearner.cpp" linenr="8" str=";" scope="0x26aabf0"/>
+    <token id="0x2682610" file="qlearner.cpp" linenr="9" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x26826c0"/>
+    <token id="0x26826c0" file="qlearner.cpp" linenr="9" str="." scope="0x26aabf0" astParent="0x2682820" astOperand1="0x2682610" astOperand2="0x2682770"/>
+    <token id="0x2682770" file="qlearner.cpp" linenr="9" str="param" scope="0x26aabf0" type="name" astParent="0x26826c0"/>
+    <token id="0x2682820" file="qlearner.cpp" linenr="9" str="(" scope="0x26aabf0" link="0x2682c40" astOperand1="0x26826c0" astOperand2="0x2682ae0"/>
+    <token id="0x26828d0" file="qlearner.cpp" linenr="9" str="&quot;learning_rate&quot;" scope="0x26aabf0" type="string" strlen="13" values="0x26828d8" astParent="0x2682980"/>
+    <token id="0x2682980" file="qlearner.cpp" linenr="9" str="," scope="0x26aabf0" astParent="0x2682ae0" astOperand1="0x26828d0" astOperand2="0x2682a30"/>
+    <token id="0x2682a30" file="qlearner.cpp" linenr="9" str="learning_rate_" scope="0x26aabf0" type="name" varId="14" variable="0x26adec0" astParent="0x2682980"/>
+    <token id="0x2682ae0" file="qlearner.cpp" linenr="9" str="," scope="0x26aabf0" astParent="0x2682820" astOperand1="0x2682980" astOperand2="0x2682b90"/>
+    <token id="0x2682b90" file="qlearner.cpp" linenr="9" str="0.3" scope="0x26aabf0" type="number" isFloat="True" astParent="0x2682ae0"/>
+    <token id="0x2682c40" file="qlearner.cpp" linenr="9" str=")" scope="0x26aabf0" link="0x2682820"/>
+    <token id="0x2682cf0" file="qlearner.cpp" linenr="9" str=";" scope="0x26aabf0"/>
+    <token id="0x2682da0" file="qlearner.cpp" linenr="10" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2682e50"/>
+    <token id="0x2682e50" file="qlearner.cpp" linenr="10" str="." scope="0x26aabf0" astParent="0x2682fb0" astOperand1="0x2682da0" astOperand2="0x2682f00"/>
+    <token id="0x2682f00" file="qlearner.cpp" linenr="10" str="param" scope="0x26aabf0" type="name" astParent="0x2682e50"/>
+    <token id="0x2682fb0" file="qlearner.cpp" linenr="10" str="(" scope="0x26aabf0" link="0x2683400" astOperand1="0x2682e50" astOperand2="0x26832a0"/>
+    <token id="0x2683060" file="qlearner.cpp" linenr="10" str="&quot;discount_factor&quot;" scope="0x26aabf0" type="string" strlen="15" values="0x2683068" astParent="0x2683140"/>
+    <token id="0x2683140" file="qlearner.cpp" linenr="10" str="," scope="0x26aabf0" astParent="0x26832a0" astOperand1="0x2683060" astOperand2="0x26831f0"/>
+    <token id="0x26831f0" file="qlearner.cpp" linenr="10" str="discount_factor_" scope="0x26aabf0" type="name" varId="15" variable="0x26adf30" astParent="0x2683140"/>
+    <token id="0x26832a0" file="qlearner.cpp" linenr="10" str="," scope="0x26aabf0" astParent="0x2682fb0" astOperand1="0x2683140" astOperand2="0x2683350"/>
+    <token id="0x2683350" file="qlearner.cpp" linenr="10" str="0.5" scope="0x26aabf0" type="number" isFloat="True" astParent="0x26832a0"/>
+    <token id="0x2683400" file="qlearner.cpp" linenr="10" str=")" scope="0x26aabf0" link="0x2682fb0"/>
+    <token id="0x26834b0" file="qlearner.cpp" linenr="10" str=";" scope="0x26aabf0"/>
+    <token id="0x2683560" file="qlearner.cpp" linenr="11" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2683610"/>
+    <token id="0x2683610" file="qlearner.cpp" linenr="11" str="." scope="0x26aabf0" astParent="0x2683770" astOperand1="0x2683560" astOperand2="0x26836c0"/>
+    <token id="0x26836c0" file="qlearner.cpp" linenr="11" str="param" scope="0x26aabf0" type="name" astParent="0x2683610"/>
+    <token id="0x2683770" file="qlearner.cpp" linenr="11" str="(" scope="0x26aabf0" link="0x2683b90" astOperand1="0x2683610" astOperand2="0x2683a30"/>
+    <token id="0x2683820" file="qlearner.cpp" linenr="11" str="&quot;temp_const&quot;" scope="0x26aabf0" type="string" strlen="10" values="0x2683828" astParent="0x26838d0"/>
+    <token id="0x26838d0" file="qlearner.cpp" linenr="11" str="," scope="0x26aabf0" astParent="0x2683a30" astOperand1="0x2683820" astOperand2="0x2683980"/>
+    <token id="0x2683980" file="qlearner.cpp" linenr="11" str="temp_const_" scope="0x26aabf0" type="name" varId="16" variable="0x26adfa0" astParent="0x26838d0"/>
+    <token id="0x2683a30" file="qlearner.cpp" linenr="11" str="," scope="0x26aabf0" astParent="0x2683770" astOperand1="0x26838d0" astOperand2="0x2683ae0"/>
+    <token id="0x2683ae0" file="qlearner.cpp" linenr="11" str="5.0" scope="0x26aabf0" type="number" isFloat="True" astParent="0x2683a30"/>
+    <token id="0x2683b90" file="qlearner.cpp" linenr="11" str=")" scope="0x26aabf0" link="0x2683770"/>
+    <token id="0x2683c40" file="qlearner.cpp" linenr="11" str=";" scope="0x26aabf0"/>
+    <token id="0x2683cf0" file="qlearner.cpp" linenr="12" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2683da0"/>
+    <token id="0x2683da0" file="qlearner.cpp" linenr="12" str="." scope="0x26aabf0" astParent="0x2683f00" astOperand1="0x2683cf0" astOperand2="0x2683e50"/>
+    <token id="0x2683e50" file="qlearner.cpp" linenr="12" str="param" scope="0x26aabf0" type="name" astParent="0x2683da0"/>
+    <token id="0x2683f00" file="qlearner.cpp" linenr="12" str="(" scope="0x26aabf0" link="0x2684320" astOperand1="0x2683da0" astOperand2="0x26841c0"/>
+    <token id="0x2683fb0" file="qlearner.cpp" linenr="12" str="&quot;temp_alpha&quot;" scope="0x26aabf0" type="string" strlen="10" values="0x2683fb8" astParent="0x2684060"/>
+    <token id="0x2684060" file="qlearner.cpp" linenr="12" str="," scope="0x26aabf0" astParent="0x26841c0" astOperand1="0x2683fb0" astOperand2="0x2684110"/>
+    <token id="0x2684110" file="qlearner.cpp" linenr="12" str="temp_alpha_" scope="0x26aabf0" type="name" varId="17" variable="0x26ae010" astParent="0x2684060"/>
+    <token id="0x26841c0" file="qlearner.cpp" linenr="12" str="," scope="0x26aabf0" astParent="0x2683f00" astOperand1="0x2684060" astOperand2="0x2684270"/>
+    <token id="0x2684270" file="qlearner.cpp" linenr="12" str="0.85" scope="0x26aabf0" type="number" isFloat="True" astParent="0x26841c0"/>
+    <token id="0x2684320" file="qlearner.cpp" linenr="12" str=")" scope="0x26aabf0" link="0x2683f00"/>
+    <token id="0x26843d0" file="qlearner.cpp" linenr="12" str=";" scope="0x26aabf0"/>
+    <token id="0x2684480" file="qlearner.cpp" linenr="14" str="temp_cnt_" scope="0x26aabf0" type="name" varId="13" variable="0x26ade50" astParent="0x2684530"/>
+    <token id="0x2684530" file="qlearner.cpp" linenr="14" str="=" scope="0x26aabf0" type="op" isAssignmentOp="True" astOperand1="0x2684480" astOperand2="0x26845e0"/>
+    <token id="0x26845e0" file="qlearner.cpp" linenr="14" str="0" scope="0x26aabf0" type="number" isInt="True" values="0x26845e8" astParent="0x2684530"/>
+    <token id="0x2684690" file="qlearner.cpp" linenr="14" str=";" scope="0x26aabf0"/>
+    <token id="0x2684740" file="qlearner.cpp" linenr="15" str="temp_" scope="0x26aabf0" type="name" varId="18" variable="0x26ae080" astParent="0x26847f0"/>
+    <token id="0x26847f0" file="qlearner.cpp" linenr="15" str="=" scope="0x26aabf0" type="op" isAssignmentOp="True" astOperand1="0x2684740" astOperand2="0x2684950"/>
+    <token id="0x26848a0" file="qlearner.cpp" linenr="15" str="temp_const_" scope="0x26aabf0" type="name" varId="16" variable="0x26adfa0" astParent="0x2684950"/>
+    <token id="0x2684950" file="qlearner.cpp" linenr="15" str="*" scope="0x26aabf0" type="op" isArithmeticalOp="True" astParent="0x26847f0" astOperand1="0x26848a0" astOperand2="0x2684ab0"/>
+    <token id="0x2684a00" file="qlearner.cpp" linenr="15" str="pow" scope="0x26aabf0" type="name" astParent="0x2684ab0"/>
+    <token id="0x2684ab0" file="qlearner.cpp" linenr="15" str="(" scope="0x26aabf0" link="0x2684d70" astParent="0x2684950" astOperand1="0x2684a00" astOperand2="0x2684c10"/>
+    <token id="0x2684b60" file="qlearner.cpp" linenr="15" str="temp_alpha_" scope="0x26aabf0" type="name" varId="17" variable="0x26ae010" astParent="0x2684c10"/>
+    <token id="0x2684c10" file="qlearner.cpp" linenr="15" str="," scope="0x26aabf0" astParent="0x2684ab0" astOperand1="0x2684b60" astOperand2="0x2684cc0"/>
+    <token id="0x2684cc0" file="qlearner.cpp" linenr="15" str="temp_cnt_" scope="0x26aabf0" type="name" varId="13" variable="0x26ade50" astParent="0x2684c10"/>
+    <token id="0x2684d70" file="qlearner.cpp" linenr="15" str=")" scope="0x26aabf0" link="0x2684ab0"/>
+    <token id="0x2684e20" file="qlearner.cpp" linenr="15" str=";" scope="0x26aabf0"/>
+    <token id="0x2684ed0" file="qlearner.cpp" linenr="16" str="size_array_" scope="0x26aabf0" type="name" varId="12" variable="0x26adde0" astParent="0x2684f80"/>
+    <token id="0x2684f80" file="qlearner.cpp" linenr="16" str="=" scope="0x26aabf0" type="op" isAssignmentOp="True" astOperand1="0x2684ed0" astOperand2="0x26850e0"/>
+    <token id="0x2685030" file="qlearner.cpp" linenr="16" str="num_actions_" scope="0x26aabf0" type="name" varId="10" variable="0x26add00" astParent="0x26850e0"/>
+    <token id="0x26850e0" file="qlearner.cpp" linenr="16" str="*" scope="0x26aabf0" type="op" isArithmeticalOp="True" astParent="0x2684f80" astOperand1="0x2685030" astOperand2="0x2685190"/>
+    <token id="0x2685190" file="qlearner.cpp" linenr="16" str="num_states_" scope="0x26aabf0" type="name" varId="11" variable="0x26add70" astParent="0x26850e0"/>
+    <token id="0x2685240" file="qlearner.cpp" linenr="16" str=";" scope="0x26aabf0"/>
+    <token id="0x26852f0" file="qlearner.cpp" linenr="18" str="srand" scope="0x26aabf0" type="name" astParent="0x26853a0"/>
+    <token id="0x26853a0" file="qlearner.cpp" linenr="18" str="(" scope="0x26aabf0" link="0x2685710" astOperand1="0x26852f0" astOperand2="0x2685500"/>
+    <token id="0x2685450" file="qlearner.cpp" linenr="18" str="time" scope="0x26aabf0" type="name" astParent="0x2685500"/>
+    <token id="0x2685500" file="qlearner.cpp" linenr="18" str="(" scope="0x26aabf0" link="0x2685660" astParent="0x26853a0" astOperand1="0x2685450" astOperand2="0x26855b0"/>
+    <token id="0x26855b0" file="qlearner.cpp" linenr="18" str="NULL" scope="0x26aabf0" type="name" astParent="0x2685500"/>
+    <token id="0x2685660" file="qlearner.cpp" linenr="18" str=")" scope="0x26aabf0" link="0x2685500"/>
+    <token id="0x2685710" file="qlearner.cpp" linenr="18" str=")" scope="0x26aabf0" link="0x26853a0"/>
+    <token id="0x26857c0" file="qlearner.cpp" linenr="18" str=";" scope="0x26aabf0"/>
+    <token id="0x2685870" file="qlearner.cpp" linenr="19" str="Init" scope="0x26aabf0" type="name" function="0x269af30" astParent="0x2685920"/>
+    <token id="0x2685920" file="qlearner.cpp" linenr="19" str="(" scope="0x26aabf0" link="0x26859d0" astOperand1="0x2685870"/>
+    <token id="0x26859d0" file="qlearner.cpp" linenr="19" str=")" scope="0x26aabf0" link="0x2685920"/>
+    <token id="0x2685a80" file="qlearner.cpp" linenr="19" str=";" scope="0x26aabf0"/>
+    <token id="0x2685b30" file="qlearner.cpp" linenr="21" str="if" scope="0x26aabf0" type="name" astParent="0x2685be0"/>
+    <token id="0x2685be0" file="qlearner.cpp" linenr="21" str="(" scope="0x26aabf0" link="0x26860b0" astOperand1="0x2685b30" astOperand2="0x2685ea0"/>
+    <token id="0x2685c90" file="qlearner.cpp" linenr="21" str="n_private" scope="0x26aabf0" type="name" varId="24" variable="0x26ae1d0" astParent="0x2685d40"/>
+    <token id="0x2685d40" file="qlearner.cpp" linenr="21" str="." scope="0x26aabf0" astParent="0x2685ea0" astOperand1="0x2685c90" astOperand2="0x2685df0"/>
+    <token id="0x2685df0" file="qlearner.cpp" linenr="21" str="hasParam" scope="0x26aabf0" type="name" astParent="0x2685d40"/>
+    <token id="0x2685ea0" file="qlearner.cpp" linenr="21" str="(" scope="0x26aabf0" link="0x2686000" astParent="0x2685be0" astOperand1="0x2685d40" astOperand2="0x2685f50"/>
+    <token id="0x2685f50" file="qlearner.cpp" linenr="21" str="&quot;qarray&quot;" scope="0x26aabf0" type="string" strlen="6" values="0x2685f58" astParent="0x2685ea0"/>
+    <token id="0x2686000" file="qlearner.cpp" linenr="21" str=")" scope="0x26aabf0" link="0x2685ea0"/>
+    <token id="0x26860b0" file="qlearner.cpp" linenr="21" str=")" scope="0x26aabf0" link="0x2685be0"/>
+    <token id="0x2686160" file="qlearner.cpp" linenr="22" str="{" scope="0x26aad20" link="0x268bb90"/>
+    <token id="0x2686210" file="qlearner.cpp" linenr="23" str="learn_" scope="0x26aad20" type="name" varId="20" variable="0x26ae160" astParent="0x26862c0"/>
+    <token id="0x26862c0" file="qlearner.cpp" linenr="23" str="=" scope="0x26aad20" type="op" isAssignmentOp="True" astOperand1="0x2686210" astOperand2="0x2686370"/>
+    <token id="0x2686370" file="qlearner.cpp" linenr="23" str="false" scope="0x26aad20" type="name" values="0x2686378" astParent="0x26862c0"/>
+    <token id="0x2686420" file="qlearner.cpp" linenr="23" str=";" scope="0x26aad20"/>
+    <token id="0x26864d0" file="qlearner.cpp" linenr="26" str="XmlRpc" scope="0x26aad20" type="name" astParent="0x2686580"/>
+    <token id="0x2686580" file="qlearner.cpp" linenr="26" str="::" scope="0x26aad20" astOperand1="0x26864d0" astOperand2="0x26866e0"/>
+    <token id="0x2686630" file="qlearner.cpp" linenr="26" str="XmlRpcValue" scope="0x26aad20" type="name"/>
+    <token id="0x26866e0" file="qlearner.cpp" linenr="26" str="qtable" scope="0x26aad20" type="name" varId="25" variable="0x26ae240" astParent="0x2686580"/>
+    <token id="0x2686790" file="qlearner.cpp" linenr="26" str=";" scope="0x26aad20"/>
+    <token id="0x2686840" file="qlearner.cpp" linenr="27" str="n_private" scope="0x26aad20" type="name" varId="24" variable="0x26ae1d0" astParent="0x26868f0"/>
+    <token id="0x26868f0" file="qlearner.cpp" linenr="27" str="." scope="0x26aad20" astParent="0x2686a50" astOperand1="0x2686840" astOperand2="0x26869a0"/>
+    <token id="0x26869a0" file="qlearner.cpp" linenr="27" str="getParam" scope="0x26aad20" type="name" astParent="0x26868f0"/>
+    <token id="0x2686a50" file="qlearner.cpp" linenr="27" str="(" scope="0x26aad20" link="0x2686d10" astOperand1="0x26868f0" astOperand2="0x2686bb0"/>
+    <token id="0x2686b00" file="qlearner.cpp" linenr="27" str="&quot;qarray&quot;" scope="0x26aad20" type="string" strlen="6" values="0x2686b08" astParent="0x2686bb0"/>
+    <token id="0x2686bb0" file="qlearner.cpp" linenr="27" str="," scope="0x26aad20" astParent="0x2686a50" astOperand1="0x2686b00" astOperand2="0x2686c60"/>
+    <token id="0x2686c60" file="qlearner.cpp" linenr="27" str="qtable" scope="0x26aad20" type="name" varId="25" variable="0x26ae240" astParent="0x2686bb0"/>
+    <token id="0x2686d10" file="qlearner.cpp" linenr="27" str=")" scope="0x26aad20" link="0x2686a50"/>
+    <token id="0x2686dc0" file="qlearner.cpp" linenr="27" str=";" scope="0x26aad20"/>
+    <token id="0x2686e70" file="qlearner.cpp" linenr="28" str="if" scope="0x26aad20" type="name" astParent="0x2686f20"/>
+    <token id="0x2686f20" file="qlearner.cpp" linenr="28" str="(" scope="0x26aad20" link="0x2687810" astOperand1="0x2686e70" astOperand2="0x2687340"/>
+    <token id="0x2686fd0" file="qlearner.cpp" linenr="28" str="qtable" scope="0x26aad20" type="name" varId="25" variable="0x26ae240" astParent="0x2687080"/>
+    <token id="0x2687080" file="qlearner.cpp" linenr="28" str="." scope="0x26aad20" astParent="0x26871e0" astOperand1="0x2686fd0" astOperand2="0x2687130"/>
+    <token id="0x2687130" file="qlearner.cpp" linenr="28" str="getType" scope="0x26aad20" type="name" astParent="0x2687080"/>
+    <token id="0x26871e0" file="qlearner.cpp" linenr="28" str="(" scope="0x26aad20" link="0x2687290" astParent="0x2687340" astOperand1="0x2687080"/>
+    <token id="0x2687290" file="qlearner.cpp" linenr="28" str=")" scope="0x26aad20" link="0x26871e0"/>
+    <token id="0x2687340" file="qlearner.cpp" linenr="28" str="!=" scope="0x26aad20" type="op" isComparisonOp="True" astParent="0x2686f20" astOperand1="0x26871e0" astOperand2="0x26876b0"/>
+    <token id="0x26874a0" file="qlearner.cpp" linenr="28" str="XmlRpc" scope="0x26aad20" type="name" astParent="0x2687550"/>
+    <token id="0x2687550" file="qlearner.cpp" linenr="28" str="::" scope="0x26aad20" astParent="0x26876b0" astOperand1="0x26874a0" astOperand2="0x2687600"/>
+    <token id="0x2687600" file="qlearner.cpp" linenr="28" str="XmlRpcValue" scope="0x26aad20" type="name" astParent="0x2687550"/>
+    <token id="0x26876b0" file="qlearner.cpp" linenr="28" str="::" scope="0x26aad20" astParent="0x2687340" astOperand1="0x2687550" astOperand2="0x2687760"/>
+    <token id="0x2687760" file="qlearner.cpp" linenr="28" str="TypeArray" scope="0x26aad20" type="name" astParent="0x26876b0"/>
+    <token id="0x2687810" file="qlearner.cpp" linenr="28" str=")" scope="0x26aad20" link="0x2686f20"/>
+    <token id="0x268c270" file="qlearner.cpp" linenr="28" str="{" scope="0x26aae50" link="0x267ce70"/>
+    <token id="0x26878c0" file="qlearner.cpp" linenr="29" str="ROS_ERROR" scope="0x26aae50" type="name" astParent="0x2687970"/>
+    <token id="0x2687970" file="qlearner.cpp" linenr="29" str="(" scope="0x26aae50" link="0x2687b00" astOperand1="0x26878c0" astOperand2="0x2687a50"/>
+    <token id="0x2687a50" file="qlearner.cpp" linenr="29" str="&quot;Error reading footsteps/x from config file.&quot;" scope="0x26aae50" type="string" strlen="43" values="0x2687a58" astParent="0x2687970"/>
+    <token id="0x2687b00" file="qlearner.cpp" linenr="29" str=")" scope="0x26aae50" link="0x2687970"/>
+    <token id="0x2687bb0" file="qlearner.cpp" linenr="29" str=";" scope="0x26aae50"/>
+    <token id="0x267ce70" file="qlearner.cpp" linenr="29" str="}" scope="0x26aae50" link="0x268c270"/>
+    <token id="0x2687c60" file="qlearner.cpp" linenr="31" str="int" scope="0x26aad20" type="name"/>
+    <token id="0x2687d10" file="qlearner.cpp" linenr="31" str="size" scope="0x26aad20" type="name" varId="26" variable="0x26ae2b0"/>
+    <token id="0x2687dc0" file="qlearner.cpp" linenr="31" str=";" scope="0x26aad20"/>
+    <token id="0x2687e70" file="qlearner.cpp" linenr="32" str="try" scope="0x26aad20" type="name"/>
+    <token id="0x2687f20" file="qlearner.cpp" linenr="33" str="{" scope="0x26aaf80" link="0x26898d0"/>
+    <token id="0x2687fd0" file="qlearner.cpp" linenr="34" str="size" scope="0x26aaf80" type="name" varId="26" variable="0x26ae2b0" astParent="0x2688080"/>
+    <token id="0x2688080" file="qlearner.cpp" linenr="34" str="=" scope="0x26aaf80" type="op" isAssignmentOp="True" astOperand1="0x2687fd0" astOperand2="0x2688340"/>
+    <token id="0x2688130" file="qlearner.cpp" linenr="34" str="qtable" scope="0x26aaf80" type="name" varId="25" variable="0x26ae240" astParent="0x26881e0"/>
+    <token id="0x26881e0" file="qlearner.cpp" linenr="34" str="." scope="0x26aaf80" astParent="0x2688340" astOperand1="0x2688130" astOperand2="0x2688290"/>
+    <token id="0x2688290" file="qlearner.cpp" linenr="34" str="size" scope="0x26aaf80" type="name" astParent="0x26881e0"/>
+    <token id="0x2688340" file="qlearner.cpp" linenr="34" str="(" scope="0x26aaf80" link="0x26883f0" astParent="0x2688080" astOperand1="0x26881e0"/>
+    <token id="0x26883f0" file="qlearner.cpp" linenr="34" str=")" scope="0x26aaf80" link="0x2688340"/>
+    <token id="0x26884a0" file="qlearner.cpp" linenr="34" str=";" scope="0x26aaf80"/>
+    <token id="0x2688550" file="qlearner.cpp" linenr="36" str="if" scope="0x26aaf80" type="name" astParent="0x2688600"/>
+    <token id="0x2688600" file="qlearner.cpp" linenr="36" str="(" scope="0x26aaf80" link="0x2688c30" astOperand1="0x2688550" astOperand2="0x2688760"/>
+    <token id="0x26886b0" file="qlearner.cpp" linenr="36" str="size" scope="0x26aaf80" type="name" varId="26" variable="0x26ae2b0" astParent="0x2688760"/>
+    <token id="0x2688760" file="qlearner.cpp" linenr="36" str="!=" scope="0x26aaf80" type="op" isComparisonOp="True" astParent="0x2688600" astOperand1="0x26886b0" astOperand2="0x2688a20"/>
+    <token id="0x26888c0" file="qlearner.cpp" linenr="36" str="(" scope="0x26aaf80" link="0x2688b80"/>
+    <token id="0x2688970" file="qlearner.cpp" linenr="36" str="num_states_" scope="0x26aaf80" type="name" varId="11" variable="0x26add70" astParent="0x2688a20"/>
+    <token id="0x2688a20" file="qlearner.cpp" linenr="36" str="*" scope="0x26aaf80" type="op" isArithmeticalOp="True" astParent="0x2688760" astOperand1="0x2688970" astOperand2="0x2688ad0"/>
+    <token id="0x2688ad0" file="qlearner.cpp" linenr="36" str="num_actions_" scope="0x26aaf80" type="name" varId="10" variable="0x26add00" astParent="0x2688a20"/>
+    <token id="0x2688b80" file="qlearner.cpp" linenr="36" str=")" scope="0x26aaf80" link="0x26888c0"/>
+    <token id="0x2688c30" file="qlearner.cpp" linenr="36" str=")" scope="0x26aaf80" link="0x2688600"/>
+    <token id="0x2688ce0" file="qlearner.cpp" linenr="37" str="{" scope="0x26ab0b0" link="0x2689820"/>
+    <token id="0x2688d90" file="qlearner.cpp" linenr="38" str="ROS_ERROR" scope="0x26ab0b0" type="name" astParent="0x2688e40"/>
+    <token id="0x2688e40" file="qlearner.cpp" linenr="38" str="(" scope="0x26ab0b0" link="0x2689350" astOperand1="0x2688d90" astOperand2="0x2689090"/>
+    <token id="0x2688f80" file="qlearner.cpp" linenr="38" str="&quot;Size of array does not match num_states * num_actions = %d,               exiting.&quot;" scope="0x26ab0b0" type="string" strlen="82" values="0x2688f88" astParent="0x2689090"/>
+    <token id="0x2689090" file="qlearner.cpp" linenr="38" str="," scope="0x26ab0b0" astParent="0x2688e40" astOperand1="0x2688f80" astOperand2="0x26891f0"/>
+    <token id="0x2689140" file="qlearner.cpp" linenr="38" str="num_states_" scope="0x26ab0b0" type="name" varId="11" variable="0x26add70" astParent="0x26891f0"/>
+    <token id="0x26891f0" file="qlearner.cpp" linenr="38" str="*" scope="0x26ab0b0" type="op" isArithmeticalOp="True" astParent="0x2689090" astOperand1="0x2689140" astOperand2="0x26892a0"/>
+    <token id="0x26892a0" file="qlearner.cpp" linenr="38" str="num_actions_" scope="0x26ab0b0" type="name" varId="10" variable="0x26add00" astParent="0x26891f0"/>
+    <token id="0x2689350" file="qlearner.cpp" linenr="38" str=")" scope="0x26ab0b0" link="0x2688e40"/>
+    <token id="0x2689400" file="qlearner.cpp" linenr="38" str=";" scope="0x26ab0b0"/>
+    <token id="0x26894b0" file="qlearner.cpp" linenr="40" str="exit" scope="0x26ab0b0" type="name" astParent="0x2689560"/>
+    <token id="0x2689560" file="qlearner.cpp" linenr="40" str="(" scope="0x26ab0b0" link="0x26896c0" astOperand1="0x26894b0" astOperand2="0x2689610"/>
+    <token id="0x2689610" file="qlearner.cpp" linenr="40" str="0" scope="0x26ab0b0" type="number" isInt="True" values="0x2689618" astParent="0x2689560"/>
+    <token id="0x26896c0" file="qlearner.cpp" linenr="40" str=")" scope="0x26ab0b0" link="0x2689560"/>
+    <token id="0x2689770" file="qlearner.cpp" linenr="40" str=";" scope="0x26ab0b0"/>
+    <token id="0x2689820" file="qlearner.cpp" linenr="41" str="}" scope="0x26ab0b0" link="0x2688ce0"/>
+    <token id="0x26898d0" file="qlearner.cpp" linenr="42" str="}" scope="0x26aaf80" link="0x2687f20"/>
+    <token id="0x2689980" file="qlearner.cpp" linenr="43" str="catch" scope="0x26aad20" type="name" astParent="0x2689a30"/>
+    <token id="0x2689a30" file="qlearner.cpp" linenr="43" str="(" scope="0x26aad20" link="0x2689e50" astOperand1="0x2689980" astOperand2="0x2689c40"/>
+    <token id="0x2689ae0" file="qlearner.cpp" linenr="43" str="const" scope="0x26aad20" type="name"/>
+    <token id="0x2689b90" file="qlearner.cpp" linenr="43" str="XmlRpc" scope="0x26aad20" type="name" astParent="0x2689c40"/>
+    <token id="0x2689c40" file="qlearner.cpp" linenr="43" str="::" scope="0x26aad20" astParent="0x2689a30" astOperand1="0x2689b90" astOperand2="0x2689da0"/>
+    <token id="0x2689cf0" file="qlearner.cpp" linenr="43" str="XmlRpcException" scope="0x26aad20" type="name"/>
+    <token id="0x2689da0" file="qlearner.cpp" linenr="43" str="e" scope="0x26aad20" type="name" varId="27" variable="0x26ab310" astParent="0x2689c40"/>
+    <token id="0x2689e50" file="qlearner.cpp" linenr="43" str=")" scope="0x26aad20" link="0x2689a30"/>
+    <token id="0x2689f00" file="qlearner.cpp" linenr="44" str="{" scope="0x26ab1e0" link="0x268a6f0"/>
+    <token id="0x2689fb0" file="qlearner.cpp" linenr="45" str="ROS_ERROR" scope="0x26ab1e0" type="name" astParent="0x268a060"/>
+    <token id="0x268a060" file="qlearner.cpp" linenr="45" str="(" scope="0x26ab1e0" link="0x268a220" astOperand1="0x2689fb0" astOperand2="0x268a140"/>
+    <token id="0x268a140" file="qlearner.cpp" linenr="45" str="&quot;No table available, exiting.&quot;" scope="0x26ab1e0" type="string" strlen="28" values="0x268a148" astParent="0x268a060"/>
+    <token id="0x268a220" file="qlearner.cpp" linenr="45" str=")" scope="0x26ab1e0" link="0x268a060"/>
+    <token id="0x268a2d0" file="qlearner.cpp" linenr="45" str=";" scope="0x26ab1e0"/>
+    <token id="0x268a380" file="qlearner.cpp" linenr="46" str="exit" scope="0x26ab1e0" type="name" astParent="0x268a430"/>
+    <token id="0x268a430" file="qlearner.cpp" linenr="46" str="(" scope="0x26ab1e0" link="0x268a590" astOperand1="0x268a380" astOperand2="0x268a4e0"/>
+    <token id="0x268a4e0" file="qlearner.cpp" linenr="46" str="0" scope="0x26ab1e0" type="number" isInt="True" values="0x268a4e8" astParent="0x268a430"/>
+    <token id="0x268a590" file="qlearner.cpp" linenr="46" str=")" scope="0x26ab1e0" link="0x268a430"/>
+    <token id="0x268a640" file="qlearner.cpp" linenr="46" str=";" scope="0x26ab1e0"/>
+    <token id="0x268a6f0" file="qlearner.cpp" linenr="47" str="}" scope="0x26ab1e0" link="0x2689f00"/>
+    <token id="0x268a7a0" file="qlearner.cpp" linenr="50" str="for" scope="0x26aad20" type="name" astParent="0x268a850"/>
+    <token id="0x268a850" file="qlearner.cpp" linenr="50" str="(" scope="0x26aad20" link="0x268b090" astOperand1="0x268a7a0" astOperand2="0x268abc0"/>
+    <token id="0x268a900" file="qlearner.cpp" linenr="50" str="int" scope="0x26aad20" type="name"/>
+    <token id="0x268a9b0" file="qlearner.cpp" linenr="50" str="i" scope="0x26aad20" type="name" varId="28" variable="0x26ab4b0" astParent="0x268aa60"/>
+    <token id="0x268aa60" file="qlearner.cpp" linenr="50" str="=" scope="0x26aad20" type="op" isAssignmentOp="True" astParent="0x268abc0" astOperand1="0x268a9b0" astOperand2="0x268ab10"/>
+    <token id="0x268ab10" file="qlearner.cpp" linenr="50" str="0" scope="0x26aad20" type="number" isInt="True" values="0x268ab18" astParent="0x268aa60"/>
+    <token id="0x268abc0" file="qlearner.cpp" linenr="50" str=";" scope="0x26aad20" astParent="0x268a850" astOperand1="0x268aa60" astOperand2="0x268ae80"/>
+    <token id="0x268ac70" file="qlearner.cpp" linenr="50" str="i" scope="0x26aad20" type="name" varId="28" variable="0x26ab4b0" astParent="0x268ad20"/>
+    <token id="0x268ad20" file="qlearner.cpp" linenr="50" str="&lt;" scope="0x26aad20" type="op" isComparisonOp="True" astParent="0x268ae80" astOperand1="0x268ac70" astOperand2="0x268add0"/>
+    <token id="0x268add0" file="qlearner.cpp" linenr="50" str="size" scope="0x26aad20" type="name" varId="26" variable="0x26ae2b0" astParent="0x268ad20"/>
+    <token id="0x268ae80" file="qlearner.cpp" linenr="50" str=";" scope="0x26aad20" astParent="0x268abc0" astOperand1="0x268ad20" astOperand2="0x268afe0"/>
+    <token id="0x268af30" file="qlearner.cpp" linenr="50" str="i" scope="0x26aad20" type="name" varId="28" variable="0x26ab4b0" astParent="0x268afe0"/>
+    <token id="0x268afe0" file="qlearner.cpp" linenr="50" str="++" scope="0x26aad20" type="op" astParent="0x268ae80" astOperand1="0x268af30"/>
+    <token id="0x268b090" file="qlearner.cpp" linenr="50" str=")" scope="0x26aad20" link="0x268a850"/>
+    <token id="0x268b140" file="qlearner.cpp" linenr="51" str="{" scope="0x26ab380" link="0x268bae0"/>
+    <token id="0x268b1f0" file="qlearner.cpp" linenr="52" str="q_array_" scope="0x26ab380" type="name" varId="19" variable="0x26ae0f0" astParent="0x268b2a0"/>
+    <token id="0x268b2a0" file="qlearner.cpp" linenr="52" str="." scope="0x26ab380" astParent="0x268b400" astOperand1="0x268b1f0" astOperand2="0x268b350"/>
+    <token id="0x268b350" file="qlearner.cpp" linenr="52" str="push_back" scope="0x26ab380" type="name" astParent="0x268b2a0"/>
+    <token id="0x268b400" file="qlearner.cpp" linenr="52" str="(" scope="0x26ab380" link="0x268b980" astOperand1="0x268b2a0" astOperand2="0x268b4b0"/>
+    <token id="0x268b4b0" file="qlearner.cpp" linenr="52" str="(" scope="0x26ab380" link="0x268b610" astParent="0x268b400" astOperand1="0x268b770"/>
+    <token id="0x268b560" file="qlearner.cpp" linenr="52" str="double" scope="0x26ab380" type="name"/>
+    <token id="0x268b610" file="qlearner.cpp" linenr="52" str=")" scope="0x26ab380" link="0x268b4b0"/>
+    <token id="0x268b6c0" file="qlearner.cpp" linenr="52" str="qtable" scope="0x26ab380" type="name" varId="25" variable="0x26ae240" astParent="0x268b770"/>
+    <token id="0x268b770" file="qlearner.cpp" linenr="52" str="[" scope="0x26ab380" link="0x268b8d0" astParent="0x268b4b0" astOperand1="0x268b6c0" astOperand2="0x268b820"/>
+    <token id="0x268b820" file="qlearner.cpp" linenr="52" str="i" scope="0x26ab380" type="name" varId="28" variable="0x26ab4b0" values="0x268b828" astParent="0x268b770"/>
+    <token id="0x268b8d0" file="qlearner.cpp" linenr="52" str="]" scope="0x26ab380" link="0x268b770"/>
+    <token id="0x268b980" file="qlearner.cpp" linenr="52" str=")" scope="0x26ab380" link="0x268b400"/>
+    <token id="0x268ba30" file="qlearner.cpp" linenr="52" str=";" scope="0x26ab380"/>
+    <token id="0x268bae0" file="qlearner.cpp" linenr="53" str="}" scope="0x26ab380" link="0x268b140"/>
+    <token id="0x268bb90" file="qlearner.cpp" linenr="54" str="}" scope="0x26aad20" link="0x2686160"/>
+    <token id="0x268bc40" file="qlearner.cpp" linenr="55" str="else" scope="0x26aabf0" type="name"/>
+    <token id="0x268bcf0" file="qlearner.cpp" linenr="56" str="{" scope="0x26ab650" link="0x268ee70"/>
+    <token id="0x268bda0" file="qlearner.cpp" linenr="57" str="learn_" scope="0x26ab650" type="name" varId="20" variable="0x26ae160" astParent="0x268be50"/>
+    <token id="0x268be50" file="qlearner.cpp" linenr="57" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astOperand1="0x268bda0" astOperand2="0x268bf00"/>
+    <token id="0x268bf00" file="qlearner.cpp" linenr="57" str="true" scope="0x26ab650" type="name" values="0x268bf08" astParent="0x268be50"/>
+    <token id="0x268bfb0" file="qlearner.cpp" linenr="57" str=";" scope="0x26ab650"/>
+    <token id="0x268c060" file="qlearner.cpp" linenr="58" str="double" scope="0x26ab650" type="name"/>
+    <token id="0x268c110" file="qlearner.cpp" linenr="58" str="floor" scope="0x26ab650" type="name" varId="29" variable="0x26ae470"/>
+    <token id="0x268c1c0" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x26a8a50" file="qlearner.cpp" linenr="58" str="floor" scope="0x26ab650" type="name" varId="29" variable="0x26ae470" astParent="0x26a8690"/>
+    <token id="0x26a8690" file="qlearner.cpp" linenr="58" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astOperand1="0x26a8a50" astOperand2="0x268c320"/>
+    <token id="0x268c320" file="qlearner.cpp" linenr="58" str="-0.1" scope="0x26ab650" type="number" isFloat="True" astParent="0x26a8690"/>
+    <token id="0x268c3d0" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x26a8740" file="qlearner.cpp" linenr="58" str="double" scope="0x26ab650" type="name"/>
+    <token id="0x268c480" file="qlearner.cpp" linenr="58" str="ceiling" scope="0x26ab650" type="name" varId="30" variable="0x26ae4e0"/>
+    <token id="0x268c530" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x26a87f0" file="qlearner.cpp" linenr="58" str="ceiling" scope="0x26ab650" type="name" varId="30" variable="0x26ae4e0" astParent="0x26a8f70"/>
+    <token id="0x26a8f70" file="qlearner.cpp" linenr="58" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astOperand1="0x26a87f0" astOperand2="0x268c5e0"/>
+    <token id="0x268c5e0" file="qlearner.cpp" linenr="58" str="0.1" scope="0x26ab650" type="number" isFloat="True" astParent="0x26a8f70"/>
+    <token id="0x268c690" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x26a9020" file="qlearner.cpp" linenr="58" str="double" scope="0x26ab650" type="name"/>
+    <token id="0x268c740" file="qlearner.cpp" linenr="58" str="range" scope="0x26ab650" type="name" varId="31" variable="0x26ae550"/>
+    <token id="0x268c7f0" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x26a90d0" file="qlearner.cpp" linenr="58" str="range" scope="0x26ab650" type="name" varId="31" variable="0x26ae550" astParent="0x26a9180"/>
+    <token id="0x26a9180" file="qlearner.cpp" linenr="58" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astOperand1="0x26a90d0" astOperand2="0x268ca00"/>
+    <token id="0x268c8a0" file="qlearner.cpp" linenr="58" str="ceiling" scope="0x26ab650" type="name" varId="30" variable="0x26ae4e0" astParent="0x268ca00"/>
+    <token id="0x268ca00" file="qlearner.cpp" linenr="58" str="-" scope="0x26ab650" type="op" isArithmeticalOp="True" astParent="0x26a9180" astOperand1="0x268c8a0" astOperand2="0x268cab0"/>
+    <token id="0x268cab0" file="qlearner.cpp" linenr="58" str="floor" scope="0x26ab650" type="name" varId="29" variable="0x26ae470" astParent="0x268ca00"/>
+    <token id="0x268cb60" file="qlearner.cpp" linenr="58" str=";" scope="0x26ab650"/>
+    <token id="0x268ccc0" file="qlearner.cpp" linenr="59" str="q_array_" scope="0x26ab650" type="name" varId="19" variable="0x26ae0f0" astParent="0x268cd70"/>
+    <token id="0x268cd70" file="qlearner.cpp" linenr="59" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astOperand1="0x268ccc0" astOperand2="0x268d240"/>
+    <token id="0x268ce20" file="qlearner.cpp" linenr="59" str="std" scope="0x26ab650" type="name" astParent="0x268ced0"/>
+    <token id="0x268ced0" file="qlearner.cpp" linenr="59" str="::" scope="0x26ab650" astParent="0x268d240" astOperand1="0x268ce20" astOperand2="0x268cf80"/>
+    <token id="0x268cf80" file="qlearner.cpp" linenr="59" str="vector" scope="0x26ab650" type="name" astParent="0x268ced0"/>
+    <token id="0x268d030" file="qlearner.cpp" linenr="59" str="&lt;" scope="0x26ab650" link="0x268d190"/>
+    <token id="0x268d0e0" file="qlearner.cpp" linenr="59" str="double" scope="0x26ab650" type="name"/>
+    <token id="0x268d190" file="qlearner.cpp" linenr="59" str="&gt;" scope="0x26ab650" link="0x268d030"/>
+    <token id="0x268d240" file="qlearner.cpp" linenr="59" str="(" scope="0x26ab650" link="0x268d3a0" astParent="0x268cd70" astOperand1="0x268ced0" astOperand2="0x268d2f0"/>
+    <token id="0x268d2f0" file="qlearner.cpp" linenr="59" str="size_array_" scope="0x26ab650" type="name" varId="12" variable="0x26adde0" astParent="0x268d240"/>
+    <token id="0x268d3a0" file="qlearner.cpp" linenr="59" str=")" scope="0x26ab650" link="0x268d240"/>
+    <token id="0x268d450" file="qlearner.cpp" linenr="59" str=";" scope="0x26ab650"/>
+    <token id="0x268d500" file="qlearner.cpp" linenr="60" str="for" scope="0x26ab650" type="name" astParent="0x268d5b0"/>
+    <token id="0x268d5b0" file="qlearner.cpp" linenr="60" str="(" scope="0x26ab650" link="0x268ddf0" astOperand1="0x268d500" astOperand2="0x268d920"/>
+    <token id="0x268d660" file="qlearner.cpp" linenr="60" str="int" scope="0x26ab650" type="name"/>
+    <token id="0x268d710" file="qlearner.cpp" linenr="60" str="i" scope="0x26ab650" type="name" varId="32" variable="0x26ab8b0" astParent="0x268d7c0"/>
+    <token id="0x268d7c0" file="qlearner.cpp" linenr="60" str="=" scope="0x26ab650" type="op" isAssignmentOp="True" astParent="0x268d920" astOperand1="0x268d710" astOperand2="0x268d870"/>
+    <token id="0x268d870" file="qlearner.cpp" linenr="60" str="0" scope="0x26ab650" type="number" isInt="True" values="0x268d878" astParent="0x268d7c0"/>
+    <token id="0x268d920" file="qlearner.cpp" linenr="60" str=";" scope="0x26ab650" astParent="0x268d5b0" astOperand1="0x268d7c0" astOperand2="0x268dbe0"/>
+    <token id="0x268d9d0" file="qlearner.cpp" linenr="60" str="i" scope="0x26ab650" type="name" varId="32" variable="0x26ab8b0" astParent="0x268da80"/>
+    <token id="0x268da80" file="qlearner.cpp" linenr="60" str="&lt;" scope="0x26ab650" type="op" isComparisonOp="True" astParent="0x268dbe0" astOperand1="0x268d9d0" astOperand2="0x268db30"/>
+    <token id="0x268db30" file="qlearner.cpp" linenr="60" str="size_array_" scope="0x26ab650" type="name" varId="12" variable="0x26adde0" astParent="0x268da80"/>
+    <token id="0x268dbe0" file="qlearner.cpp" linenr="60" str=";" scope="0x26ab650" astParent="0x268d920" astOperand1="0x268da80" astOperand2="0x268dd40"/>
+    <token id="0x268dc90" file="qlearner.cpp" linenr="60" str="i" scope="0x26ab650" type="name" varId="32" variable="0x26ab8b0" astParent="0x268dd40"/>
+    <token id="0x268dd40" file="qlearner.cpp" linenr="60" str="++" scope="0x26ab650" type="op" astParent="0x268dbe0" astOperand1="0x268dc90"/>
+    <token id="0x268ddf0" file="qlearner.cpp" linenr="60" str=")" scope="0x26ab650" link="0x268d5b0"/>
+    <token id="0x268dea0" file="qlearner.cpp" linenr="61" str="{" scope="0x26ab780" link="0x268edc0"/>
+    <token id="0x268df50" file="qlearner.cpp" linenr="62" str="q_array_" scope="0x26ab780" type="name" varId="19" variable="0x26ae0f0" astParent="0x268e000"/>
+    <token id="0x268e000" file="qlearner.cpp" linenr="62" str="[" scope="0x26ab780" link="0x268e160" astParent="0x268e210" astOperand1="0x268df50" astOperand2="0x268e0b0"/>
+    <token id="0x268e0b0" file="qlearner.cpp" linenr="62" str="i" scope="0x26ab780" type="name" varId="32" variable="0x26ab8b0" values="0x268e0b8" astParent="0x268e000"/>
+    <token id="0x268e160" file="qlearner.cpp" linenr="62" str="]" scope="0x26ab780" link="0x268e000"/>
+    <token id="0x268e210" file="qlearner.cpp" linenr="62" str="=" scope="0x26ab780" type="op" isAssignmentOp="True" astOperand1="0x268e000" astOperand2="0x268e370"/>
+    <token id="0x268e2c0" file="qlearner.cpp" linenr="62" str="floor" scope="0x26ab780" type="name" varId="29" variable="0x26ae470" astParent="0x268e370"/>
+    <token id="0x268e370" file="qlearner.cpp" linenr="62" str="+" scope="0x26ab780" type="op" isArithmeticalOp="True" astParent="0x268e210" astOperand1="0x268e2c0" astOperand2="0x268e8f0"/>
+    <token id="0x268e420" file="qlearner.cpp" linenr="62" str="(" scope="0x26ab780" link="0x268e840"/>
+    <token id="0x268e4d0" file="qlearner.cpp" linenr="62" str="range" scope="0x26ab780" type="name" varId="31" variable="0x26ae550" astParent="0x268e580"/>
+    <token id="0x268e580" file="qlearner.cpp" linenr="62" str="*" scope="0x26ab780" type="op" isArithmeticalOp="True" astParent="0x268e8f0" astOperand1="0x268e4d0" astOperand2="0x268e6e0"/>
+    <token id="0x268e630" file="qlearner.cpp" linenr="62" str="rand" scope="0x26ab780" type="name" astParent="0x268e6e0"/>
+    <token id="0x268e6e0" file="qlearner.cpp" linenr="62" str="(" scope="0x26ab780" link="0x268e790" astParent="0x268e580" astOperand1="0x268e630"/>
+    <token id="0x268e790" file="qlearner.cpp" linenr="62" str=")" scope="0x26ab780" link="0x268e6e0"/>
+    <token id="0x268e840" file="qlearner.cpp" linenr="62" str=")" scope="0x26ab780" link="0x268e420"/>
+    <token id="0x268e8f0" file="qlearner.cpp" linenr="62" str="/" scope="0x26ab780" type="op" isArithmeticalOp="True" astParent="0x268e370" astOperand1="0x268e580" astOperand2="0x268eb00"/>
+    <token id="0x268e9a0" file="qlearner.cpp" linenr="62" str="(" scope="0x26ab780" link="0x268ec60"/>
+    <token id="0x268ea50" file="qlearner.cpp" linenr="62" str="RAND_MAX" scope="0x26ab780" type="name" astParent="0x268eb00"/>
+    <token id="0x268eb00" file="qlearner.cpp" linenr="62" str="+" scope="0x26ab780" type="op" isArithmeticalOp="True" astParent="0x268e8f0" astOperand1="0x268ea50" astOperand2="0x268ebb0"/>
+    <token id="0x268ebb0" file="qlearner.cpp" linenr="62" str="1.0" scope="0x26ab780" type="number" isFloat="True" astParent="0x268eb00"/>
+    <token id="0x268ec60" file="qlearner.cpp" linenr="62" str=")" scope="0x26ab780" link="0x268e9a0"/>
+    <token id="0x268ed10" file="qlearner.cpp" linenr="62" str=";" scope="0x26ab780"/>
+    <token id="0x268edc0" file="qlearner.cpp" linenr="63" str="}" scope="0x26ab780" link="0x268dea0"/>
+    <token id="0x268ee70" file="qlearner.cpp" linenr="64" str="}" scope="0x26ab650" link="0x268bcf0"/>
+    <token id="0x268ef20" file="qlearner.cpp" linenr="66" str="ROS_INFO" scope="0x26aabf0" type="name" astParent="0x268efd0"/>
+    <token id="0x268efd0" file="qlearner.cpp" linenr="66" str="(" scope="0x26aabf0" link="0x268f6b0" astOperand1="0x268ef20" astOperand2="0x268f130"/>
+    <token id="0x268f080" file="qlearner.cpp" linenr="66" str="&quot;%s&quot;" scope="0x26aabf0" type="string" strlen="2" values="0x268f088" astParent="0x268f130"/>
+    <token id="0x268f130" file="qlearner.cpp" linenr="66" str="," scope="0x26aabf0" astParent="0x268efd0" astOperand1="0x268f080" astOperand2="0x268f550"/>
+    <token id="0x268f1e0" file="qlearner.cpp" linenr="66" str="PrintTable" scope="0x26aabf0" type="name" function="0x267c4e0" astParent="0x268f290"/>
+    <token id="0x268f290" file="qlearner.cpp" linenr="66" str="(" scope="0x26aabf0" link="0x268f340" astParent="0x268f3f0" astOperand1="0x268f1e0"/>
+    <token id="0x268f340" file="qlearner.cpp" linenr="66" str=")" scope="0x26aabf0" link="0x268f290"/>
+    <token id="0x268f3f0" file="qlearner.cpp" linenr="66" str="." scope="0x26aabf0" astParent="0x268f550" astOperand1="0x268f290" astOperand2="0x268f4a0"/>
+    <token id="0x268f4a0" file="qlearner.cpp" linenr="66" str="c_str" scope="0x26aabf0" type="name" astParent="0x268f3f0"/>
+    <token id="0x268f550" file="qlearner.cpp" linenr="66" str="(" scope="0x26aabf0" link="0x268f600" astParent="0x268f130" astOperand1="0x268f3f0"/>
+    <token id="0x268f600" file="qlearner.cpp" linenr="66" str=")" scope="0x26aabf0" link="0x268f550"/>
+    <token id="0x268f6b0" file="qlearner.cpp" linenr="66" str=")" scope="0x26aabf0" link="0x268efd0"/>
+    <token id="0x268f760" file="qlearner.cpp" linenr="66" str=";" scope="0x26aabf0"/>
+    <token id="0x268f810" file="qlearner.cpp" linenr="67" str="}" scope="0x26aabf0" link="0x2680e00"/>
+    <token id="0x268f8c0" file="qlearner.cpp" linenr="69" str="void" scope="0x26a8d70" type="name"/>
+    <token id="0x268f970" file="qlearner.cpp" linenr="69" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x268fa20"/>
+    <token id="0x268fa20" file="qlearner.cpp" linenr="69" str="::" scope="0x26a8d70" astParent="0x268fb80" astOperand1="0x268f970" astOperand2="0x268fad0"/>
+    <token id="0x268fad0" file="qlearner.cpp" linenr="69" str="Update" scope="0x26a8d70" type="name" function="0x26aa030" astParent="0x268fa20"/>
+    <token id="0x268fb80" file="qlearner.cpp" linenr="69" str="(" scope="0x26a8d70" link="0x26903c0" astOperand1="0x268fa20" astOperand2="0x26901b0"/>
+    <token id="0x268fc30" file="qlearner.cpp" linenr="69" str="double" scope="0x26a8d70" type="name"/>
+    <token id="0x268fce0" file="qlearner.cpp" linenr="69" str="reward" scope="0x26a8d70" type="name" varId="33" variable="0x26aeb70" astParent="0x268fd90"/>
+    <token id="0x268fd90" file="qlearner.cpp" linenr="69" str="," scope="0x26a8d70" astParent="0x268ffa0" astOperand1="0x268fce0" astOperand2="0x268fef0"/>
+    <token id="0x268fe40" file="qlearner.cpp" linenr="69" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x268fef0" file="qlearner.cpp" linenr="69" str="state" scope="0x26a8d70" type="name" varId="34" variable="0x26aebe0" astParent="0x268fd90"/>
+    <token id="0x268ffa0" file="qlearner.cpp" linenr="69" str="," scope="0x26a8d70" astParent="0x26901b0" astOperand1="0x268fd90" astOperand2="0x2690100"/>
+    <token id="0x2690050" file="qlearner.cpp" linenr="69" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x2690100" file="qlearner.cpp" linenr="69" str="state_p" scope="0x26a8d70" type="name" varId="35" variable="0x26aec50" astParent="0x268ffa0"/>
+    <token id="0x26901b0" file="qlearner.cpp" linenr="69" str="," scope="0x26a8d70" astParent="0x268fb80" astOperand1="0x268ffa0" astOperand2="0x2690310"/>
+    <token id="0x2690260" file="qlearner.cpp" linenr="69" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x2690310" file="qlearner.cpp" linenr="69" str="action" scope="0x26a8d70" type="name" varId="36" variable="0x26aecc0" astParent="0x26901b0"/>
+    <token id="0x26903c0" file="qlearner.cpp" linenr="69" str=")" scope="0x26a8d70" link="0x268fb80"/>
+    <token id="0x2690470" file="qlearner.cpp" linenr="70" str="{" scope="0x26ab920" link="0x2693990"/>
+    <token id="0x2690520" file="qlearner.cpp" linenr="71" str="if" scope="0x26ab920" type="name" astParent="0x26905d0"/>
+    <token id="0x26905d0" file="qlearner.cpp" linenr="71" str="(" scope="0x26ab920" link="0x2691860" astOperand1="0x2690520" astOperand2="0x26915a0"/>
+    <token id="0x2690680" file="qlearner.cpp" linenr="71" str="state" scope="0x26ab920" type="name" varId="34" variable="0x26aebe0" astParent="0x2690730"/>
+    <token id="0x2690730" file="qlearner.cpp" linenr="71" str="&gt;=" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x2690940" astOperand1="0x2690680" astOperand2="0x2690890"/>
+    <token id="0x2690890" file="qlearner.cpp" linenr="71" str="num_states_" scope="0x26ab920" type="name" varId="11" variable="0x26add70" astParent="0x2690730"/>
+    <token id="0x2690940" file="qlearner.cpp" linenr="71" str="||" scope="0x26ab920" type="op" isLogicalOp="True" astParent="0x2690c00" astOperand1="0x2690730" astOperand2="0x2690aa0"/>
+    <token id="0x26909f0" file="qlearner.cpp" linenr="71" str="state" scope="0x26ab920" type="name" varId="34" variable="0x26aebe0" astParent="0x2690aa0"/>
+    <token id="0x2690aa0" file="qlearner.cpp" linenr="71" str="&lt;" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x2690940" astOperand1="0x26909f0" astOperand2="0x2690b50"/>
+    <token id="0x2690b50" file="qlearner.cpp" linenr="71" str="0" scope="0x26ab920" type="number" isInt="True" values="0x2690b58" astParent="0x2690aa0"/>
+    <token id="0x2690c00" file="qlearner.cpp" linenr="71" str="||" scope="0x26ab920" type="op" isLogicalOp="True" astParent="0x2690f70" astOperand1="0x2690940" astOperand2="0x2690d60"/>
+    <token id="0x2690cb0" file="qlearner.cpp" linenr="72" str="state_p" scope="0x26ab920" type="name" varId="35" variable="0x26aec50" astParent="0x2690d60"/>
+    <token id="0x2690d60" file="qlearner.cpp" linenr="72" str="&gt;=" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x2690c00" astOperand1="0x2690cb0" astOperand2="0x2690ec0"/>
+    <token id="0x2690ec0" file="qlearner.cpp" linenr="72" str="num_states_" scope="0x26ab920" type="name" varId="11" variable="0x26add70" astParent="0x2690d60"/>
+    <token id="0x2690f70" file="qlearner.cpp" linenr="72" str="||" scope="0x26ab920" type="op" isLogicalOp="True" astParent="0x2691230" astOperand1="0x2690c00" astOperand2="0x26910d0"/>
+    <token id="0x2691020" file="qlearner.cpp" linenr="72" str="state_p" scope="0x26ab920" type="name" varId="35" variable="0x26aec50" astParent="0x26910d0"/>
+    <token id="0x26910d0" file="qlearner.cpp" linenr="72" str="&lt;" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x2690f70" astOperand1="0x2691020" astOperand2="0x2691180"/>
+    <token id="0x2691180" file="qlearner.cpp" linenr="72" str="0" scope="0x26ab920" type="number" isInt="True" values="0x2691188" astParent="0x26910d0"/>
+    <token id="0x2691230" file="qlearner.cpp" linenr="72" str="||" scope="0x26ab920" type="op" isLogicalOp="True" astParent="0x26915a0" astOperand1="0x2690f70" astOperand2="0x2691390"/>
+    <token id="0x26912e0" file="qlearner.cpp" linenr="73" str="action" scope="0x26ab920" type="name" varId="36" variable="0x26aecc0" astParent="0x2691390"/>
+    <token id="0x2691390" file="qlearner.cpp" linenr="73" str="&gt;=" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x2691230" astOperand1="0x26912e0" astOperand2="0x26914f0"/>
+    <token id="0x26914f0" file="qlearner.cpp" linenr="73" str="num_actions_" scope="0x26ab920" type="name" varId="10" variable="0x26add00" astParent="0x2691390"/>
+    <token id="0x26915a0" file="qlearner.cpp" linenr="73" str="||" scope="0x26ab920" type="op" isLogicalOp="True" astParent="0x26905d0" astOperand1="0x2691230" astOperand2="0x2691700"/>
+    <token id="0x2691650" file="qlearner.cpp" linenr="73" str="action" scope="0x26ab920" type="name" varId="36" variable="0x26aecc0" astParent="0x2691700"/>
+    <token id="0x2691700" file="qlearner.cpp" linenr="73" str="&lt;" scope="0x26ab920" type="op" isComparisonOp="True" astParent="0x26915a0" astOperand1="0x2691650" astOperand2="0x26917b0"/>
+    <token id="0x26917b0" file="qlearner.cpp" linenr="73" str="0" scope="0x26ab920" type="number" isInt="True" values="0x26917b8" astParent="0x2691700"/>
+    <token id="0x2691860" file="qlearner.cpp" linenr="73" str=")" scope="0x26ab920" link="0x26905d0"/>
+    <token id="0x2691910" file="qlearner.cpp" linenr="74" str="{" scope="0x26aba50" link="0x2691d60"/>
+    <token id="0x26919c0" file="qlearner.cpp" linenr="75" str="ROS_FATAL" scope="0x26aba50" type="name" astParent="0x2691a70"/>
+    <token id="0x2691a70" file="qlearner.cpp" linenr="75" str="(" scope="0x26aba50" link="0x2691c00" astOperand1="0x26919c0" astOperand2="0x2691b20"/>
+    <token id="0x2691b20" file="qlearner.cpp" linenr="75" str="&quot;Update args out of bounds.&quot;" scope="0x26aba50" type="string" strlen="26" values="0x2691b28" astParent="0x2691a70"/>
+    <token id="0x2691c00" file="qlearner.cpp" linenr="75" str=")" scope="0x26aba50" link="0x2691a70"/>
+    <token id="0x2691cb0" file="qlearner.cpp" linenr="75" str=";" scope="0x26aba50"/>
+    <token id="0x2691d60" file="qlearner.cpp" linenr="76" str="}" scope="0x26aba50" link="0x2691910"/>
+    <token id="0x2691e10" file="qlearner.cpp" linenr="79" str="int" scope="0x26ab920" type="name"/>
+    <token id="0x2691ec0" file="qlearner.cpp" linenr="79" str="vector_index" scope="0x26ab920" type="name" varId="37" variable="0x26ae5c0"/>
+    <token id="0x2691f70" file="qlearner.cpp" linenr="79" str=";" scope="0x26ab920"/>
+    <token id="0x26a9230" file="qlearner.cpp" linenr="79" str="vector_index" scope="0x26ab920" type="name" varId="37" variable="0x26ae5c0" astParent="0x26a92e0"/>
+    <token id="0x26a92e0" file="qlearner.cpp" linenr="79" str="=" scope="0x26ab920" type="op" isAssignmentOp="True" astOperand1="0x26a9230" astOperand2="0x2692230"/>
+    <token id="0x2692020" file="qlearner.cpp" linenr="79" str="state" scope="0x26ab920" type="name" varId="34" variable="0x26aebe0" astParent="0x26920d0"/>
+    <token id="0x26920d0" file="qlearner.cpp" linenr="79" str="*" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x2692230" astOperand1="0x2692020" astOperand2="0x2692180"/>
+    <token id="0x2692180" file="qlearner.cpp" linenr="79" str="num_actions_" scope="0x26ab920" type="name" varId="10" variable="0x26add00" astParent="0x26920d0"/>
+    <token id="0x2692230" file="qlearner.cpp" linenr="79" str="+" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x26a92e0" astOperand1="0x26920d0" astOperand2="0x26922e0"/>
+    <token id="0x26922e0" file="qlearner.cpp" linenr="79" str="action" scope="0x26ab920" type="name" varId="36" variable="0x26aecc0" astParent="0x2692230"/>
+    <token id="0x2692390" file="qlearner.cpp" linenr="79" str=";" scope="0x26ab920"/>
+    <token id="0x2692440" file="qlearner.cpp" linenr="80" str="double" scope="0x26ab920" type="name"/>
+    <token id="0x26924f0" file="qlearner.cpp" linenr="80" str="max_future_val" scope="0x26ab920" type="name" varId="38" variable="0x26ae630"/>
+    <token id="0x26925a0" file="qlearner.cpp" linenr="80" str=";" scope="0x26ab920"/>
+    <token id="0x26a9390" file="qlearner.cpp" linenr="80" str="max_future_val" scope="0x26ab920" type="name" varId="38" variable="0x26ae630" astParent="0x26a9440"/>
+    <token id="0x26a9440" file="qlearner.cpp" linenr="80" str="=" scope="0x26ab920" type="op" isAssignmentOp="True" astOperand1="0x26a9390" astOperand2="0x2692700"/>
+    <token id="0x2692650" file="qlearner.cpp" linenr="80" str="GetMaxActionQVal" scope="0x26ab920" type="name" function="0x26a51b0" astParent="0x2692700"/>
+    <token id="0x2692700" file="qlearner.cpp" linenr="80" str="(" scope="0x26ab920" link="0x2692860" astParent="0x26a9440" astOperand1="0x2692650" astOperand2="0x26927b0"/>
+    <token id="0x26927b0" file="qlearner.cpp" linenr="80" str="state_p" scope="0x26ab920" type="name" varId="35" variable="0x26aec50" astParent="0x2692700"/>
+    <token id="0x2692860" file="qlearner.cpp" linenr="80" str=")" scope="0x26ab920" link="0x2692700"/>
+    <token id="0x2692910" file="qlearner.cpp" linenr="80" str=";" scope="0x26ab920"/>
+    <token id="0x26929c0" file="qlearner.cpp" linenr="81" str="q_array_" scope="0x26ab920" type="name" varId="19" variable="0x26ae0f0" astParent="0x2692a70"/>
+    <token id="0x2692a70" file="qlearner.cpp" linenr="81" str="[" scope="0x26ab920" link="0x2692bd0" astParent="0x2692c80" astOperand1="0x26929c0" astOperand2="0x2692b20"/>
+    <token id="0x2692b20" file="qlearner.cpp" linenr="81" str="vector_index" scope="0x26ab920" type="name" varId="37" variable="0x26ae5c0" astParent="0x2692a70"/>
+    <token id="0x2692bd0" file="qlearner.cpp" linenr="81" str="]" scope="0x26ab920" link="0x2692a70"/>
+    <token id="0x2692c80" file="qlearner.cpp" linenr="81" str="+=" scope="0x26ab920" type="op" isAssignmentOp="True" astOperand1="0x2692a70" astOperand2="0x2692e90"/>
+    <token id="0x2692de0" file="qlearner.cpp" linenr="81" str="learning_rate_" scope="0x26ab920" type="name" varId="14" variable="0x26adec0" astParent="0x2692e90"/>
+    <token id="0x2692e90" file="qlearner.cpp" linenr="81" str="*" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x2692c80" astOperand1="0x2692de0" astOperand2="0x2693360"/>
+    <token id="0x2692f40" file="qlearner.cpp" linenr="81" str="(" scope="0x26ab920" link="0x2693830"/>
+    <token id="0x2692ff0" file="qlearner.cpp" linenr="81" str="reward" scope="0x26ab920" type="name" varId="33" variable="0x26aeb70" astParent="0x26930a0"/>
+    <token id="0x26930a0" file="qlearner.cpp" linenr="81" str="+" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x2693360" astOperand1="0x2692ff0" astOperand2="0x2693200"/>
+    <token id="0x2693150" file="qlearner.cpp" linenr="81" str="discount_factor_" scope="0x26ab920" type="name" varId="15" variable="0x26adf30" astParent="0x2693200"/>
+    <token id="0x2693200" file="qlearner.cpp" linenr="81" str="*" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x26930a0" astOperand1="0x2693150" astOperand2="0x26932b0"/>
+    <token id="0x26932b0" file="qlearner.cpp" linenr="82" str="max_future_val" scope="0x26ab920" type="name" varId="38" variable="0x26ae630" astParent="0x2693200"/>
+    <token id="0x2693360" file="qlearner.cpp" linenr="82" str="-" scope="0x26ab920" type="op" isArithmeticalOp="True" astParent="0x2692e90" astOperand1="0x26930a0" astOperand2="0x26934c0"/>
+    <token id="0x2693410" file="qlearner.cpp" linenr="82" str="QVal" scope="0x26ab920" type="name" function="0x267ea00" astParent="0x26934c0"/>
+    <token id="0x26934c0" file="qlearner.cpp" linenr="82" str="(" scope="0x26ab920" link="0x2693780" astParent="0x2693360" astOperand1="0x2693410" astOperand2="0x2693620"/>
+    <token id="0x2693570" file="qlearner.cpp" linenr="82" str="state" scope="0x26ab920" type="name" varId="34" variable="0x26aebe0" astParent="0x2693620"/>
+    <token id="0x2693620" file="qlearner.cpp" linenr="82" str="," scope="0x26ab920" astParent="0x26934c0" astOperand1="0x2693570" astOperand2="0x26936d0"/>
+    <token id="0x26936d0" file="qlearner.cpp" linenr="82" str="action" scope="0x26ab920" type="name" varId="36" variable="0x26aecc0" astParent="0x2693620"/>
+    <token id="0x2693780" file="qlearner.cpp" linenr="82" str=")" scope="0x26ab920" link="0x26934c0"/>
+    <token id="0x2693830" file="qlearner.cpp" linenr="82" str=")" scope="0x26ab920" link="0x2692f40"/>
+    <token id="0x26938e0" file="qlearner.cpp" linenr="82" str=";" scope="0x26ab920"/>
+    <token id="0x2693990" file="qlearner.cpp" linenr="83" str="}" scope="0x26ab920" link="0x2690470"/>
+    <token id="0x2693a40" file="qlearner.cpp" linenr="85" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x2693af0" file="qlearner.cpp" linenr="85" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x2693ba0"/>
+    <token id="0x2693ba0" file="qlearner.cpp" linenr="85" str="::" scope="0x26a8d70" astParent="0x2693d00" astOperand1="0x2693af0" astOperand2="0x2693c50"/>
+    <token id="0x2693c50" file="qlearner.cpp" linenr="85" str="GetAction" scope="0x26a8d70" type="name" function="0x26aa0d0" astParent="0x2693ba0"/>
+    <token id="0x2693d00" file="qlearner.cpp" linenr="85" str="(" scope="0x26a8d70" link="0x2693f10" astOperand1="0x2693ba0" astOperand2="0x2693e60"/>
+    <token id="0x2693db0" file="qlearner.cpp" linenr="85" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x2693e60" file="qlearner.cpp" linenr="85" str="state" scope="0x26a8d70" type="name" varId="39" variable="0x26aed30" astParent="0x2693d00"/>
+    <token id="0x2693f10" file="qlearner.cpp" linenr="85" str=")" scope="0x26a8d70" link="0x2693d00"/>
+    <token id="0x2693fc0" file="qlearner.cpp" linenr="86" str="{" scope="0x26abb80" link="0x269ab00"/>
+    <token id="0x2694070" file="qlearner.cpp" linenr="87" str="int" scope="0x26abb80" type="name"/>
+    <token id="0x2694120" file="qlearner.cpp" linenr="87" str="action" scope="0x26abb80" type="name" varId="40" variable="0x26ae6a0"/>
+    <token id="0x26941d0" file="qlearner.cpp" linenr="87" str=";" scope="0x26abb80"/>
+    <token id="0x26a94f0" file="qlearner.cpp" linenr="87" str="int" scope="0x26abb80" type="name"/>
+    <token id="0x2694280" file="qlearner.cpp" linenr="87" str="i" scope="0x26abb80" type="name" varId="41" variable="0x26ae710"/>
+    <token id="0x2694330" file="qlearner.cpp" linenr="87" str=";" scope="0x26abb80"/>
+    <token id="0x26943e0" file="qlearner.cpp" linenr="88" str="double" scope="0x26abb80" type="name"/>
+    <token id="0x2694490" file="qlearner.cpp" linenr="88" str="probs" scope="0x26abb80" type="name" varId="42" variable="0x26ae780" astParent="0x2694540"/>
+    <token id="0x2694540" file="qlearner.cpp" linenr="88" str="[" scope="0x26abb80" link="0x26946a0" astOperand1="0x2694490" astOperand2="0x26945f0"/>
+    <token id="0x26945f0" file="qlearner.cpp" linenr="88" str="num_actions_" scope="0x26abb80" type="name" varId="10" variable="0x26add00" astParent="0x2694540"/>
+    <token id="0x26946a0" file="qlearner.cpp" linenr="88" str="]" scope="0x26abb80" link="0x2694540"/>
+    <token id="0x2694750" file="qlearner.cpp" linenr="88" str=";" scope="0x26abb80"/>
+    <token id="0x26a95a0" file="qlearner.cpp" linenr="88" str="double" scope="0x26abb80" type="name"/>
+    <token id="0x2694800" file="qlearner.cpp" linenr="88" str="sum" scope="0x26abb80" type="name" varId="43" variable="0x26ae7f0"/>
+    <token id="0x26948b0" file="qlearner.cpp" linenr="88" str=";" scope="0x26abb80"/>
+    <token id="0x26a9650" file="qlearner.cpp" linenr="88" str="sum" scope="0x26abb80" type="name" varId="43" variable="0x26ae7f0" astParent="0x26a9700"/>
+    <token id="0x26a9700" file="qlearner.cpp" linenr="88" str="=" scope="0x26abb80" type="op" isAssignmentOp="True" astOperand1="0x26a9650" astOperand2="0x2694960"/>
+    <token id="0x2694960" file="qlearner.cpp" linenr="88" str="0" scope="0x26abb80" type="number" isInt="True" values="0x2694968" astParent="0x26a9700"/>
+    <token id="0x2694a10" file="qlearner.cpp" linenr="88" str=";" scope="0x26abb80"/>
+    <token id="0x26a97b0" file="qlearner.cpp" linenr="88" str="double" scope="0x26abb80" type="name"/>
+    <token id="0x2694ac0" file="qlearner.cpp" linenr="88" str="r" scope="0x26abb80" type="name" varId="44" variable="0x26ae860"/>
+    <token id="0x2694b70" file="qlearner.cpp" linenr="88" str=";" scope="0x26abb80"/>
+    <token id="0x2694c20" file="qlearner.cpp" linenr="90" str="if" scope="0x26abb80" type="name" astParent="0x2694cd0"/>
+    <token id="0x2694cd0" file="qlearner.cpp" linenr="90" str="(" scope="0x26abb80" link="0x2694e30" astOperand1="0x2694c20" astOperand2="0x2694d80"/>
+    <token id="0x2694d80" file="qlearner.cpp" linenr="90" str="learn_" scope="0x26abb80" type="name" varId="20" variable="0x26ae160" astParent="0x2694cd0"/>
+    <token id="0x2694e30" file="qlearner.cpp" linenr="90" str=")" scope="0x26abb80" link="0x2694cd0"/>
+    <token id="0x2694ee0" file="qlearner.cpp" linenr="91" str="{" scope="0x26abcb0" link="0x269a160"/>
+    <token id="0x2694f90" file="qlearner.cpp" linenr="92" str="for" scope="0x26abcb0" type="name" astParent="0x2695040"/>
+    <token id="0x2695040" file="qlearner.cpp" linenr="92" str="(" scope="0x26abcb0" link="0x26957d0" astOperand1="0x2694f90" astOperand2="0x2695300"/>
+    <token id="0x26950f0" file="qlearner.cpp" linenr="92" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x26951a0"/>
+    <token id="0x26951a0" file="qlearner.cpp" linenr="92" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astParent="0x2695300" astOperand1="0x26950f0" astOperand2="0x2695250"/>
+    <token id="0x2695250" file="qlearner.cpp" linenr="92" str="0" scope="0x26abcb0" type="number" isInt="True" values="0x2695258" astParent="0x26951a0"/>
+    <token id="0x2695300" file="qlearner.cpp" linenr="92" str=";" scope="0x26abcb0" astParent="0x2695040" astOperand1="0x26951a0" astOperand2="0x26955c0"/>
+    <token id="0x26953b0" file="qlearner.cpp" linenr="92" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2695460"/>
+    <token id="0x2695460" file="qlearner.cpp" linenr="92" str="&lt;" scope="0x26abcb0" type="op" isComparisonOp="True" astParent="0x26955c0" astOperand1="0x26953b0" astOperand2="0x2695510"/>
+    <token id="0x2695510" file="qlearner.cpp" linenr="92" str="num_actions_" scope="0x26abcb0" type="name" varId="10" variable="0x26add00" astParent="0x2695460"/>
+    <token id="0x26955c0" file="qlearner.cpp" linenr="92" str=";" scope="0x26abcb0" astParent="0x2695300" astOperand1="0x2695460" astOperand2="0x2695720"/>
+    <token id="0x2695670" file="qlearner.cpp" linenr="92" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2695720"/>
+    <token id="0x2695720" file="qlearner.cpp" linenr="92" str="++" scope="0x26abcb0" type="op" astParent="0x26955c0" astOperand1="0x2695670"/>
+    <token id="0x26957d0" file="qlearner.cpp" linenr="92" str=")" scope="0x26abcb0" link="0x2695040"/>
+    <token id="0x2695880" file="qlearner.cpp" linenr="93" str="{" scope="0x26abde0" link="0x2696a60"/>
+    <token id="0x2695930" file="qlearner.cpp" linenr="94" str="probs" scope="0x26abde0" type="name" varId="42" variable="0x26ae780" astParent="0x26959e0"/>
+    <token id="0x26959e0" file="qlearner.cpp" linenr="94" str="[" scope="0x26abde0" link="0x2695b40" astParent="0x2695bf0" astOperand1="0x2695930" astOperand2="0x2695a90"/>
+    <token id="0x2695a90" file="qlearner.cpp" linenr="94" str="i" scope="0x26abde0" type="name" varId="41" variable="0x26ae710" values="0x2695a98" astParent="0x26959e0"/>
+    <token id="0x2695b40" file="qlearner.cpp" linenr="94" str="]" scope="0x26abde0" link="0x26959e0"/>
+    <token id="0x2695bf0" file="qlearner.cpp" linenr="94" str="=" scope="0x26abde0" type="op" isAssignmentOp="True" astOperand1="0x26959e0" astOperand2="0x2695d50"/>
+    <token id="0x2695ca0" file="qlearner.cpp" linenr="94" str="exp" scope="0x26abde0" type="name" astParent="0x2695d50"/>
+    <token id="0x2695d50" file="qlearner.cpp" linenr="94" str="(" scope="0x26abde0" link="0x2696380" astParent="0x2695bf0" astOperand1="0x2695ca0" astOperand2="0x2696220"/>
+    <token id="0x2695e00" file="qlearner.cpp" linenr="94" str="QVal" scope="0x26abde0" type="name" function="0x267ea00" astParent="0x2695eb0"/>
+    <token id="0x2695eb0" file="qlearner.cpp" linenr="94" str="(" scope="0x26abde0" link="0x2696170" astParent="0x2696220" astOperand1="0x2695e00" astOperand2="0x2696010"/>
+    <token id="0x2695f60" file="qlearner.cpp" linenr="94" str="state" scope="0x26abde0" type="name" varId="39" variable="0x26aed30" astParent="0x2696010"/>
+    <token id="0x2696010" file="qlearner.cpp" linenr="94" str="," scope="0x26abde0" astParent="0x2695eb0" astOperand1="0x2695f60" astOperand2="0x26960c0"/>
+    <token id="0x26960c0" file="qlearner.cpp" linenr="94" str="i" scope="0x26abde0" type="name" varId="41" variable="0x26ae710" values="0x26960c8" astParent="0x2696010"/>
+    <token id="0x2696170" file="qlearner.cpp" linenr="94" str=")" scope="0x26abde0" link="0x2695eb0"/>
+    <token id="0x2696220" file="qlearner.cpp" linenr="94" str="/" scope="0x26abde0" type="op" isArithmeticalOp="True" astParent="0x2695d50" astOperand1="0x2695eb0" astOperand2="0x26962d0"/>
+    <token id="0x26962d0" file="qlearner.cpp" linenr="94" str="temp_" scope="0x26abde0" type="name" varId="18" variable="0x26ae080" astParent="0x2696220"/>
+    <token id="0x2696380" file="qlearner.cpp" linenr="94" str=")" scope="0x26abde0" link="0x2695d50"/>
+    <token id="0x2696430" file="qlearner.cpp" linenr="94" str=";" scope="0x26abde0"/>
+    <token id="0x26964e0" file="qlearner.cpp" linenr="95" str="sum" scope="0x26abde0" type="name" varId="43" variable="0x26ae7f0" astParent="0x2696590"/>
+    <token id="0x2696590" file="qlearner.cpp" linenr="95" str="+=" scope="0x26abde0" type="op" isAssignmentOp="True" astOperand1="0x26964e0" astOperand2="0x26967a0"/>
+    <token id="0x26966f0" file="qlearner.cpp" linenr="95" str="probs" scope="0x26abde0" type="name" varId="42" variable="0x26ae780" astParent="0x26967a0"/>
+    <token id="0x26967a0" file="qlearner.cpp" linenr="95" str="[" scope="0x26abde0" link="0x2696900" astParent="0x2696590" astOperand1="0x26966f0" astOperand2="0x2696850"/>
+    <token id="0x2696850" file="qlearner.cpp" linenr="95" str="i" scope="0x26abde0" type="name" varId="41" variable="0x26ae710" values="0x2696858" astParent="0x26967a0"/>
+    <token id="0x2696900" file="qlearner.cpp" linenr="95" str="]" scope="0x26abde0" link="0x26967a0"/>
+    <token id="0x26969b0" file="qlearner.cpp" linenr="95" str=";" scope="0x26abde0"/>
+    <token id="0x2696a60" file="qlearner.cpp" linenr="96" str="}" scope="0x26abde0" link="0x2695880"/>
+    <token id="0x2696b10" file="qlearner.cpp" linenr="98" str="for" scope="0x26abcb0" type="name" astParent="0x2696bc0"/>
+    <token id="0x2696bc0" file="qlearner.cpp" linenr="98" str="(" scope="0x26abcb0" link="0x2697350" astOperand1="0x2696b10" astOperand2="0x2696e80"/>
+    <token id="0x2696c70" file="qlearner.cpp" linenr="98" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2696d20"/>
+    <token id="0x2696d20" file="qlearner.cpp" linenr="98" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astParent="0x2696e80" astOperand1="0x2696c70" astOperand2="0x2696dd0"/>
+    <token id="0x2696dd0" file="qlearner.cpp" linenr="98" str="0" scope="0x26abcb0" type="number" isInt="True" values="0x2696dd8" astParent="0x2696d20"/>
+    <token id="0x2696e80" file="qlearner.cpp" linenr="98" str=";" scope="0x26abcb0" astParent="0x2696bc0" astOperand1="0x2696d20" astOperand2="0x2697140"/>
+    <token id="0x2696f30" file="qlearner.cpp" linenr="98" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2696fe0"/>
+    <token id="0x2696fe0" file="qlearner.cpp" linenr="98" str="&lt;" scope="0x26abcb0" type="op" isComparisonOp="True" astParent="0x2697140" astOperand1="0x2696f30" astOperand2="0x2697090"/>
+    <token id="0x2697090" file="qlearner.cpp" linenr="98" str="num_actions_" scope="0x26abcb0" type="name" varId="10" variable="0x26add00" astParent="0x2696fe0"/>
+    <token id="0x2697140" file="qlearner.cpp" linenr="98" str=";" scope="0x26abcb0" astParent="0x2696e80" astOperand1="0x2696fe0" astOperand2="0x26972a0"/>
+    <token id="0x26971f0" file="qlearner.cpp" linenr="98" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x26972a0"/>
+    <token id="0x26972a0" file="qlearner.cpp" linenr="98" str="++" scope="0x26abcb0" type="op" astParent="0x2697140" astOperand1="0x26971f0"/>
+    <token id="0x2697350" file="qlearner.cpp" linenr="98" str=")" scope="0x26abcb0" link="0x2696bc0"/>
+    <token id="0x2697400" file="qlearner.cpp" linenr="99" str="{" scope="0x26abf10" link="0x2697cf0"/>
+    <token id="0x26974b0" file="qlearner.cpp" linenr="100" str="probs" scope="0x26abf10" type="name" varId="42" variable="0x26ae780" astParent="0x2697560"/>
+    <token id="0x2697560" file="qlearner.cpp" linenr="100" str="[" scope="0x26abf10" link="0x26976c0" astParent="0x2697770" astOperand1="0x26974b0" astOperand2="0x2697610"/>
+    <token id="0x2697610" file="qlearner.cpp" linenr="100" str="i" scope="0x26abf10" type="name" varId="41" variable="0x26ae710" values="0x2697618" astParent="0x2697560"/>
+    <token id="0x26976c0" file="qlearner.cpp" linenr="100" str="]" scope="0x26abf10" link="0x2697560"/>
+    <token id="0x2697770" file="qlearner.cpp" linenr="100" str="=" scope="0x26abf10" type="op" isAssignmentOp="True" astOperand1="0x2697560" astOperand2="0x2697ae0"/>
+    <token id="0x2697820" file="qlearner.cpp" linenr="100" str="probs" scope="0x26abf10" type="name" varId="42" variable="0x26ae780" astParent="0x26978d0"/>
+    <token id="0x26978d0" file="qlearner.cpp" linenr="100" str="[" scope="0x26abf10" link="0x2697a30" astParent="0x2697ae0" astOperand1="0x2697820" astOperand2="0x2697980"/>
+    <token id="0x2697980" file="qlearner.cpp" linenr="100" str="i" scope="0x26abf10" type="name" varId="41" variable="0x26ae710" values="0x2697988" astParent="0x26978d0"/>
+    <token id="0x2697a30" file="qlearner.cpp" linenr="100" str="]" scope="0x26abf10" link="0x26978d0"/>
+    <token id="0x2697ae0" file="qlearner.cpp" linenr="100" str="/" scope="0x26abf10" type="op" isArithmeticalOp="True" astParent="0x2697770" astOperand1="0x26978d0" astOperand2="0x2697b90"/>
+    <token id="0x2697b90" file="qlearner.cpp" linenr="100" str="sum" scope="0x26abf10" type="name" varId="43" variable="0x26ae7f0" astParent="0x2697ae0"/>
+    <token id="0x2697c40" file="qlearner.cpp" linenr="100" str=";" scope="0x26abf10"/>
+    <token id="0x2697cf0" file="qlearner.cpp" linenr="101" str="}" scope="0x26abf10" link="0x2697400"/>
+    <token id="0x2697da0" file="qlearner.cpp" linenr="103" str="r" scope="0x26abcb0" type="name" varId="44" variable="0x26ae860" astParent="0x2697e50"/>
+    <token id="0x2697e50" file="qlearner.cpp" linenr="103" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astOperand1="0x2697da0" astOperand2="0x2698110"/>
+    <token id="0x2697f00" file="qlearner.cpp" linenr="103" str="rand" scope="0x26abcb0" type="name" astParent="0x2697fb0"/>
+    <token id="0x2697fb0" file="qlearner.cpp" linenr="103" str="(" scope="0x26abcb0" link="0x2698060" astParent="0x2698110" astOperand1="0x2697f00"/>
+    <token id="0x2698060" file="qlearner.cpp" linenr="103" str=")" scope="0x26abcb0" link="0x2697fb0"/>
+    <token id="0x2698110" file="qlearner.cpp" linenr="103" str="/" scope="0x26abcb0" type="op" isArithmeticalOp="True" astParent="0x2697e50" astOperand1="0x2697fb0" astOperand2="0x2698320"/>
+    <token id="0x26981c0" file="qlearner.cpp" linenr="103" str="(" scope="0x26abcb0" link="0x2698480"/>
+    <token id="0x2698270" file="qlearner.cpp" linenr="103" str="RAND_MAX" scope="0x26abcb0" type="name" astParent="0x2698320"/>
+    <token id="0x2698320" file="qlearner.cpp" linenr="103" str="+" scope="0x26abcb0" type="op" isArithmeticalOp="True" astParent="0x2698110" astOperand1="0x2698270" astOperand2="0x26983d0"/>
+    <token id="0x26983d0" file="qlearner.cpp" linenr="103" str="1.0" scope="0x26abcb0" type="number" isFloat="True" astParent="0x2698320"/>
+    <token id="0x2698480" file="qlearner.cpp" linenr="103" str=")" scope="0x26abcb0" link="0x26981c0"/>
+    <token id="0x2698530" file="qlearner.cpp" linenr="103" str=";" scope="0x26abcb0"/>
+    <token id="0x26985e0" file="qlearner.cpp" linenr="104" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2698690"/>
+    <token id="0x2698690" file="qlearner.cpp" linenr="104" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astOperand1="0x26985e0" astOperand2="0x2698740"/>
+    <token id="0x2698740" file="qlearner.cpp" linenr="104" str="0" scope="0x26abcb0" type="number" isInt="True" values="0x2698748" astParent="0x2698690"/>
+    <token id="0x26987f0" file="qlearner.cpp" linenr="104" str=";" scope="0x26abcb0"/>
+    <token id="0x26988a0" file="qlearner.cpp" linenr="105" str="sum" scope="0x26abcb0" type="name" varId="43" variable="0x26ae7f0" astParent="0x2698950"/>
+    <token id="0x2698950" file="qlearner.cpp" linenr="105" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astOperand1="0x26988a0" astOperand2="0x2698a00"/>
+    <token id="0x2698a00" file="qlearner.cpp" linenr="105" str="0" scope="0x26abcb0" type="number" isInt="True" values="0x2698a08" astParent="0x2698950"/>
+    <token id="0x2698ab0" file="qlearner.cpp" linenr="105" str=";" scope="0x26abcb0"/>
+    <token id="0x2698b60" file="qlearner.cpp" linenr="106" str="while" scope="0x26abcb0" type="name" astParent="0x2698c10"/>
+    <token id="0x2698c10" file="qlearner.cpp" linenr="106" str="(" scope="0x26abcb0" link="0x2698ed0" astOperand1="0x2698b60" astOperand2="0x2698d70"/>
+    <token id="0x2698cc0" file="qlearner.cpp" linenr="106" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" values="0x2698cc8" astParent="0x2698d70"/>
+    <token id="0x2698d70" file="qlearner.cpp" linenr="106" str="&lt;" scope="0x26abcb0" type="op" isComparisonOp="True" astParent="0x2698c10" astOperand1="0x2698cc0" astOperand2="0x2698e20"/>
+    <token id="0x2698e20" file="qlearner.cpp" linenr="106" str="num_actions_" scope="0x26abcb0" type="name" varId="10" variable="0x26add00" astParent="0x2698d70"/>
+    <token id="0x2698ed0" file="qlearner.cpp" linenr="106" str=")" scope="0x26abcb0" link="0x2698c10"/>
+    <token id="0x2698f80" file="qlearner.cpp" linenr="107" str="{" scope="0x26ac040" link="0x2699df0"/>
+    <token id="0x2699030" file="qlearner.cpp" linenr="108" str="sum" scope="0x26ac040" type="name" varId="43" variable="0x26ae7f0" astParent="0x26990e0"/>
+    <token id="0x26990e0" file="qlearner.cpp" linenr="108" str="+=" scope="0x26ac040" type="op" isAssignmentOp="True" astOperand1="0x2699030" astOperand2="0x26992f0"/>
+    <token id="0x2699240" file="qlearner.cpp" linenr="108" str="probs" scope="0x26ac040" type="name" varId="42" variable="0x26ae780" astParent="0x26992f0"/>
+    <token id="0x26992f0" file="qlearner.cpp" linenr="108" str="[" scope="0x26ac040" link="0x2699450" astParent="0x26990e0" astOperand1="0x2699240" astOperand2="0x26993a0"/>
+    <token id="0x26993a0" file="qlearner.cpp" linenr="108" str="i" scope="0x26ac040" type="name" varId="41" variable="0x26ae710" astParent="0x26992f0"/>
+    <token id="0x2699450" file="qlearner.cpp" linenr="108" str="]" scope="0x26ac040" link="0x26992f0"/>
+    <token id="0x2699500" file="qlearner.cpp" linenr="108" str=";" scope="0x26ac040"/>
+    <token id="0x26995b0" file="qlearner.cpp" linenr="109" str="if" scope="0x26ac040" type="name" astParent="0x2699660"/>
+    <token id="0x2699660" file="qlearner.cpp" linenr="109" str="(" scope="0x26ac040" link="0x2699920" astOperand1="0x26995b0" astOperand2="0x26997c0"/>
+    <token id="0x2699710" file="qlearner.cpp" linenr="109" str="r" scope="0x26ac040" type="name" varId="44" variable="0x26ae860" astParent="0x26997c0"/>
+    <token id="0x26997c0" file="qlearner.cpp" linenr="109" str="&lt;" scope="0x26ac040" type="op" isComparisonOp="True" astParent="0x2699660" astOperand1="0x2699710" astOperand2="0x2699870"/>
+    <token id="0x2699870" file="qlearner.cpp" linenr="109" str="sum" scope="0x26ac040" type="name" varId="43" variable="0x26ae7f0" astParent="0x26997c0"/>
+    <token id="0x2699920" file="qlearner.cpp" linenr="109" str=")" scope="0x26ac040" link="0x2699660"/>
+    <token id="0x26873f0" file="qlearner.cpp" linenr="109" str="{" scope="0x26ac170" link="0x2688810"/>
+    <token id="0x26999d0" file="qlearner.cpp" linenr="110" str="break" scope="0x26ac170" type="name"/>
+    <token id="0x2699a80" file="qlearner.cpp" linenr="110" str=";" scope="0x26ac170"/>
+    <token id="0x2688810" file="qlearner.cpp" linenr="110" str="}" scope="0x26ac170" link="0x26873f0"/>
+    <token id="0x2699b30" file="qlearner.cpp" linenr="111" str="else" scope="0x26ac040" type="name"/>
+    <token id="0x26907e0" file="qlearner.cpp" linenr="111" str="{" scope="0x26ac3d0" link="0x2690e10"/>
+    <token id="0x2699be0" file="qlearner.cpp" linenr="112" str="i" scope="0x26ac3d0" type="name" varId="41" variable="0x26ae710" astParent="0x2699c90"/>
+    <token id="0x2699c90" file="qlearner.cpp" linenr="112" str="++" scope="0x26ac3d0" type="op" astOperand1="0x2699be0"/>
+    <token id="0x2699d40" file="qlearner.cpp" linenr="112" str=";" scope="0x26ac3d0"/>
+    <token id="0x2690e10" file="qlearner.cpp" linenr="112" str="}" scope="0x26ac3d0" link="0x26907e0"/>
+    <token id="0x2699df0" file="qlearner.cpp" linenr="113" str="}" scope="0x26ac040" link="0x2698f80"/>
+    <token id="0x2699ea0" file="qlearner.cpp" linenr="115" str="action" scope="0x26abcb0" type="name" varId="40" variable="0x26ae6a0" astParent="0x2699f50"/>
+    <token id="0x2699f50" file="qlearner.cpp" linenr="115" str="=" scope="0x26abcb0" type="op" isAssignmentOp="True" astOperand1="0x2699ea0" astOperand2="0x269a000"/>
+    <token id="0x269a000" file="qlearner.cpp" linenr="115" str="i" scope="0x26abcb0" type="name" varId="41" variable="0x26ae710" astParent="0x2699f50"/>
+    <token id="0x269a0b0" file="qlearner.cpp" linenr="115" str=";" scope="0x26abcb0"/>
+    <token id="0x269a160" file="qlearner.cpp" linenr="116" str="}" scope="0x26abcb0" link="0x2694ee0"/>
+    <token id="0x269a210" file="qlearner.cpp" linenr="117" str="else" scope="0x26abb80" type="name"/>
+    <token id="0x269a2c0" file="qlearner.cpp" linenr="118" str="{" scope="0x26ac630" link="0x269a840"/>
+    <token id="0x269a370" file="qlearner.cpp" linenr="119" str="action" scope="0x26ac630" type="name" varId="40" variable="0x26ae6a0" astParent="0x269a420"/>
+    <token id="0x269a420" file="qlearner.cpp" linenr="119" str="=" scope="0x26ac630" type="op" isAssignmentOp="True" astOperand1="0x269a370" astOperand2="0x269a580"/>
+    <token id="0x269a4d0" file="qlearner.cpp" linenr="119" str="GetMaxAction" scope="0x26ac630" type="name" function="0x26a39a0" astParent="0x269a580"/>
+    <token id="0x269a580" file="qlearner.cpp" linenr="119" str="(" scope="0x26ac630" link="0x269a6e0" astParent="0x269a420" astOperand1="0x269a4d0" astOperand2="0x269a630"/>
+    <token id="0x269a630" file="qlearner.cpp" linenr="119" str="state" scope="0x26ac630" type="name" varId="39" variable="0x26aed30" astParent="0x269a580"/>
+    <token id="0x269a6e0" file="qlearner.cpp" linenr="119" str=")" scope="0x26ac630" link="0x269a580"/>
+    <token id="0x269a790" file="qlearner.cpp" linenr="119" str=";" scope="0x26ac630"/>
+    <token id="0x269a840" file="qlearner.cpp" linenr="120" str="}" scope="0x26ac630" link="0x269a2c0"/>
+    <token id="0x269a8f0" file="qlearner.cpp" linenr="122" str="return" scope="0x26abb80" type="name" astOperand1="0x269a9a0"/>
+    <token id="0x269a9a0" file="qlearner.cpp" linenr="122" str="action" scope="0x26abb80" type="name" varId="40" variable="0x26ae6a0" astParent="0x269a8f0"/>
+    <token id="0x269aa50" file="qlearner.cpp" linenr="122" str=";" scope="0x26abb80"/>
+    <token id="0x269ab00" file="qlearner.cpp" linenr="123" str="}" scope="0x26abb80" link="0x2693fc0"/>
+    <token id="0x269abb0" file="qlearner.cpp" linenr="125" str="void" scope="0x26a8d70" type="name"/>
+    <token id="0x269ac60" file="qlearner.cpp" linenr="125" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x269ad10"/>
+    <token id="0x269ad10" file="qlearner.cpp" linenr="125" str="::" scope="0x26a8d70" astParent="0x269ae70" astOperand1="0x269ac60" astOperand2="0x269adc0"/>
+    <token id="0x269adc0" file="qlearner.cpp" linenr="125" str="Init" scope="0x26a8d70" type="name" function="0x269af30" astParent="0x269ad10"/>
+    <token id="0x269ae70" file="qlearner.cpp" linenr="125" str="(" scope="0x26a8d70" link="0x269afd0" astOperand1="0x269ad10"/>
+    <token id="0x269afd0" file="qlearner.cpp" linenr="125" str=")" scope="0x26a8d70" link="0x269ae70"/>
+    <token id="0x269b080" file="qlearner.cpp" linenr="126" str="{" scope="0x26ac760" link="0x269c820"/>
+    <token id="0x269b130" file="qlearner.cpp" linenr="127" str="if" scope="0x26ac760" type="name" astParent="0x269b1e0"/>
+    <token id="0x269b1e0" file="qlearner.cpp" linenr="127" str="(" scope="0x26ac760" link="0x269b810" astOperand1="0x269b130" astOperand2="0x269b4a0"/>
+    <token id="0x269b290" file="qlearner.cpp" linenr="127" str="learning_rate_" scope="0x26ac760" type="name" varId="14" variable="0x26adec0" astParent="0x269b340"/>
+    <token id="0x269b340" file="qlearner.cpp" linenr="127" str="&gt;" scope="0x26ac760" type="op" isComparisonOp="True" astParent="0x269b4a0" astOperand1="0x269b290" astOperand2="0x269b3f0"/>
+    <token id="0x269b3f0" file="qlearner.cpp" linenr="127" str="1" scope="0x26ac760" type="number" isInt="True" values="0x269b3f8" astParent="0x269b340"/>
+    <token id="0x269b4a0" file="qlearner.cpp" linenr="127" str="||" scope="0x26ac760" type="op" isLogicalOp="True" astParent="0x269b1e0" astOperand1="0x269b340" astOperand2="0x269b600"/>
+    <token id="0x269b550" file="qlearner.cpp" linenr="127" str="learning_rate_" scope="0x26ac760" type="name" varId="14" variable="0x26adec0" astParent="0x269b600"/>
+    <token id="0x269b600" file="qlearner.cpp" linenr="127" str="&lt;=" scope="0x26ac760" type="op" isComparisonOp="True" astParent="0x269b4a0" astOperand1="0x269b550" astOperand2="0x269b760"/>
+    <token id="0x269b760" file="qlearner.cpp" linenr="127" str="0" scope="0x26ac760" type="number" isInt="True" values="0x269b768" astParent="0x269b600"/>
+    <token id="0x269b810" file="qlearner.cpp" linenr="127" str=")" scope="0x26ac760" link="0x269b1e0"/>
+    <token id="0x2691440" file="qlearner.cpp" linenr="127" str="{" scope="0x26ac890" link="0x2692d30"/>
+    <token id="0x269b8c0" file="qlearner.cpp" linenr="128" str="ROS_FATAL" scope="0x26ac890" type="name" astParent="0x269b970"/>
+    <token id="0x269b970" file="qlearner.cpp" linenr="128" str="(" scope="0x26ac890" link="0x269bb30" astOperand1="0x269b8c0" astOperand2="0x269ba50"/>
+    <token id="0x269ba50" file="qlearner.cpp" linenr="128" str="&quot;Learning rate is not 0 &lt; lr &lt;= 1.&quot;" scope="0x26ac890" type="string" strlen="33" values="0x269ba58" astParent="0x269b970"/>
+    <token id="0x269bb30" file="qlearner.cpp" linenr="128" str=")" scope="0x26ac890" link="0x269b970"/>
+    <token id="0x269bbe0" file="qlearner.cpp" linenr="128" str=";" scope="0x26ac890"/>
+    <token id="0x2692d30" file="qlearner.cpp" linenr="128" str="}" scope="0x26ac890" link="0x2691440"/>
+    <token id="0x269bc90" file="qlearner.cpp" linenr="130" str="if" scope="0x26ac760" type="name" astParent="0x269bd40"/>
+    <token id="0x269bd40" file="qlearner.cpp" linenr="130" str="(" scope="0x26ac760" link="0x269c3a0" astOperand1="0x269bc90" astOperand2="0x269c0b0"/>
+    <token id="0x269bdf0" file="qlearner.cpp" linenr="130" str="discount_factor_" scope="0x26ac760" type="name" varId="15" variable="0x26adf30" astParent="0x269bea0"/>
+    <token id="0x269bea0" file="qlearner.cpp" linenr="130" str="&gt;=" scope="0x26ac760" type="op" isComparisonOp="True" astParent="0x269c0b0" astOperand1="0x269bdf0" astOperand2="0x269c000"/>
+    <token id="0x269c000" file="qlearner.cpp" linenr="130" str="1" scope="0x26ac760" type="number" isInt="True" values="0x269c008" astParent="0x269bea0"/>
+    <token id="0x269c0b0" file="qlearner.cpp" linenr="130" str="||" scope="0x26ac760" type="op" isLogicalOp="True" astParent="0x269bd40" astOperand1="0x269bea0" astOperand2="0x269c240"/>
+    <token id="0x269c160" file="qlearner.cpp" linenr="130" str="discount_factor_" scope="0x26ac760" type="name" varId="15" variable="0x26adf30" astParent="0x269c240"/>
+    <token id="0x269c240" file="qlearner.cpp" linenr="130" str="&lt;" scope="0x26ac760" type="op" isComparisonOp="True" astParent="0x269c0b0" astOperand1="0x269c160" astOperand2="0x269c2f0"/>
+    <token id="0x269c2f0" file="qlearner.cpp" linenr="130" str="0" scope="0x26ac760" type="number" isInt="True" values="0x269c2f8" astParent="0x269c240"/>
+    <token id="0x269c3a0" file="qlearner.cpp" linenr="130" str=")" scope="0x26ac760" link="0x269bd40"/>
+    <token id="0x2696640" file="qlearner.cpp" linenr="130" str="{" scope="0x26ac9c0" link="0x2699190"/>
+    <token id="0x269c450" file="qlearner.cpp" linenr="131" str="ROS_FATAL" scope="0x26ac9c0" type="name" astParent="0x269c500"/>
+    <token id="0x269c500" file="qlearner.cpp" linenr="131" str="(" scope="0x26ac9c0" link="0x269c6c0" astOperand1="0x269c450" astOperand2="0x269c5e0"/>
+    <token id="0x269c5e0" file="qlearner.cpp" linenr="131" str="&quot;Discount factor is not 0 &lt;= df &lt; 1.&quot;" scope="0x26ac9c0" type="string" strlen="35" values="0x269c5e8" astParent="0x269c500"/>
+    <token id="0x269c6c0" file="qlearner.cpp" linenr="131" str=")" scope="0x26ac9c0" link="0x269c500"/>
+    <token id="0x269c770" file="qlearner.cpp" linenr="131" str=";" scope="0x26ac9c0"/>
+    <token id="0x2699190" file="qlearner.cpp" linenr="131" str="}" scope="0x26ac9c0" link="0x2696640"/>
+    <token id="0x269c820" file="qlearner.cpp" linenr="132" str="}" scope="0x26ac760" link="0x269b080"/>
+    <token id="0x269c8d0" file="qlearner.cpp" linenr="134" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x269c980" file="qlearner.cpp" linenr="134" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x269ca30"/>
+    <token id="0x269ca30" file="qlearner.cpp" linenr="134" str="::" scope="0x26a8d70" astParent="0x269cb90" astOperand1="0x269c980" astOperand2="0x269cae0"/>
+    <token id="0x269cae0" file="qlearner.cpp" linenr="134" str="GetMaxAction" scope="0x26a8d70" type="name" function="0x26a39a0" astParent="0x269ca30"/>
+    <token id="0x269cb90" file="qlearner.cpp" linenr="134" str="(" scope="0x26a8d70" link="0x269cda0" astOperand1="0x269ca30" astOperand2="0x269ccf0"/>
+    <token id="0x269cc40" file="qlearner.cpp" linenr="134" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x269ccf0" file="qlearner.cpp" linenr="134" str="state" scope="0x26a8d70" type="name" varId="45" variable="0x26aee80" astParent="0x269cb90"/>
+    <token id="0x269cda0" file="qlearner.cpp" linenr="134" str=")" scope="0x26a8d70" link="0x269cb90"/>
+    <token id="0x269ce50" file="qlearner.cpp" linenr="135" str="{" scope="0x26acb10" link="0x269f840"/>
+    <token id="0x269cf00" file="qlearner.cpp" linenr="136" str="int" scope="0x26acb10" type="name"/>
+    <token id="0x269cfb0" file="qlearner.cpp" linenr="136" str="maxAction" scope="0x26acb10" type="name" varId="46" variable="0x26ae8d0"/>
+    <token id="0x269d060" file="qlearner.cpp" linenr="136" str=";" scope="0x26acb10"/>
+    <token id="0x26a9860" file="qlearner.cpp" linenr="136" str="maxAction" scope="0x26acb10" type="name" varId="46" variable="0x26ae8d0" astParent="0x26a9910"/>
+    <token id="0x26a9910" file="qlearner.cpp" linenr="136" str="=" scope="0x26acb10" type="op" isAssignmentOp="True" astOperand1="0x26a9860" astOperand2="0x269d110"/>
+    <token id="0x269d110" file="qlearner.cpp" linenr="136" str="0" scope="0x26acb10" type="number" isInt="True" values="0x269d118" astParent="0x26a9910"/>
+    <token id="0x269d1c0" file="qlearner.cpp" linenr="136" str=";" scope="0x26acb10"/>
+    <token id="0x269d270" file="qlearner.cpp" linenr="137" str="double" scope="0x26acb10" type="name"/>
+    <token id="0x269d320" file="qlearner.cpp" linenr="137" str="maxQVal" scope="0x26acb10" type="name" varId="47" variable="0x26ae940"/>
+    <token id="0x269d3d0" file="qlearner.cpp" linenr="137" str=";" scope="0x26acb10"/>
+    <token id="0x26a99c0" file="qlearner.cpp" linenr="137" str="maxQVal" scope="0x26acb10" type="name" varId="47" variable="0x26ae940" astParent="0x26a9a70"/>
+    <token id="0x26a9a70" file="qlearner.cpp" linenr="137" str="=" scope="0x26acb10" type="op" isAssignmentOp="True" astOperand1="0x26a99c0" astOperand2="0x269d530"/>
+    <token id="0x269d480" file="qlearner.cpp" linenr="137" str="QVal" scope="0x26acb10" type="name" function="0x267ea00" astParent="0x269d530"/>
+    <token id="0x269d530" file="qlearner.cpp" linenr="137" str="(" scope="0x26acb10" link="0x269d7f0" astParent="0x26a9a70" astOperand1="0x269d480" astOperand2="0x269d690"/>
+    <token id="0x269d5e0" file="qlearner.cpp" linenr="137" str="state" scope="0x26acb10" type="name" varId="45" variable="0x26aee80" astParent="0x269d690"/>
+    <token id="0x269d690" file="qlearner.cpp" linenr="137" str="," scope="0x26acb10" astParent="0x269d530" astOperand1="0x269d5e0" astOperand2="0x269d740"/>
+    <token id="0x269d740" file="qlearner.cpp" linenr="137" str="0" scope="0x26acb10" type="number" isInt="True" values="0x269d748" astParent="0x269d690"/>
+    <token id="0x269d7f0" file="qlearner.cpp" linenr="137" str=")" scope="0x26acb10" link="0x269d530"/>
+    <token id="0x269d8a0" file="qlearner.cpp" linenr="137" str=";" scope="0x26acb10"/>
+    <token id="0x269d950" file="qlearner.cpp" linenr="139" str="for" scope="0x26acb10" type="name" astParent="0x269da00"/>
+    <token id="0x269da00" file="qlearner.cpp" linenr="139" str="(" scope="0x26acb10" link="0x269e240" astOperand1="0x269d950" astOperand2="0x269dd70"/>
+    <token id="0x269dab0" file="qlearner.cpp" linenr="139" str="int" scope="0x26acb10" type="name"/>
+    <token id="0x269db60" file="qlearner.cpp" linenr="139" str="i" scope="0x26acb10" type="name" varId="48" variable="0x26acdb0" astParent="0x269dc10"/>
+    <token id="0x269dc10" file="qlearner.cpp" linenr="139" str="=" scope="0x26acb10" type="op" isAssignmentOp="True" astParent="0x269dd70" astOperand1="0x269db60" astOperand2="0x269dcc0"/>
+    <token id="0x269dcc0" file="qlearner.cpp" linenr="139" str="1" scope="0x26acb10" type="number" isInt="True" values="0x269dcc8" astParent="0x269dc10"/>
+    <token id="0x269dd70" file="qlearner.cpp" linenr="139" str=";" scope="0x26acb10" astParent="0x269da00" astOperand1="0x269dc10" astOperand2="0x269e030"/>
+    <token id="0x269de20" file="qlearner.cpp" linenr="139" str="i" scope="0x26acb10" type="name" varId="48" variable="0x26acdb0" astParent="0x269ded0"/>
+    <token id="0x269ded0" file="qlearner.cpp" linenr="139" str="&lt;" scope="0x26acb10" type="op" isComparisonOp="True" astParent="0x269e030" astOperand1="0x269de20" astOperand2="0x269df80"/>
+    <token id="0x269df80" file="qlearner.cpp" linenr="139" str="num_actions_" scope="0x26acb10" type="name" varId="10" variable="0x26add00" astParent="0x269ded0"/>
+    <token id="0x269e030" file="qlearner.cpp" linenr="139" str=";" scope="0x26acb10" astParent="0x269dd70" astOperand1="0x269ded0" astOperand2="0x269e190"/>
+    <token id="0x269e0e0" file="qlearner.cpp" linenr="139" str="i" scope="0x26acb10" type="name" varId="48" variable="0x26acdb0" astParent="0x269e190"/>
+    <token id="0x269e190" file="qlearner.cpp" linenr="139" str="++" scope="0x26acb10" type="op" astParent="0x269e030" astOperand1="0x269e0e0"/>
+    <token id="0x269e240" file="qlearner.cpp" linenr="139" str=")" scope="0x26acb10" link="0x269da00"/>
+    <token id="0x269e2f0" file="qlearner.cpp" linenr="140" str="{" scope="0x26acc60" link="0x269f580"/>
+    <token id="0x269e3a0" file="qlearner.cpp" linenr="141" str="if" scope="0x26acc60" type="name" astParent="0x269e450"/>
+    <token id="0x269e450" file="qlearner.cpp" linenr="141" str="(" scope="0x26acc60" link="0x269ea80" astOperand1="0x269e3a0" astOperand2="0x269e5b0"/>
+    <token id="0x269e500" file="qlearner.cpp" linenr="141" str="maxQVal" scope="0x26acc60" type="name" varId="47" variable="0x26ae940" astParent="0x269e5b0"/>
+    <token id="0x269e5b0" file="qlearner.cpp" linenr="141" str="&lt;" scope="0x26acc60" type="op" isComparisonOp="True" astParent="0x269e450" astOperand1="0x269e500" astOperand2="0x269e710"/>
+    <token id="0x269e660" file="qlearner.cpp" linenr="141" str="QVal" scope="0x26acc60" type="name" function="0x267ea00" astParent="0x269e710"/>
+    <token id="0x269e710" file="qlearner.cpp" linenr="141" str="(" scope="0x26acc60" link="0x269e9d0" astParent="0x269e5b0" astOperand1="0x269e660" astOperand2="0x269e870"/>
+    <token id="0x269e7c0" file="qlearner.cpp" linenr="141" str="state" scope="0x26acc60" type="name" varId="45" variable="0x26aee80" astParent="0x269e870"/>
+    <token id="0x269e870" file="qlearner.cpp" linenr="141" str="," scope="0x26acc60" astParent="0x269e710" astOperand1="0x269e7c0" astOperand2="0x269e920"/>
+    <token id="0x269e920" file="qlearner.cpp" linenr="141" str="i" scope="0x26acc60" type="name" varId="48" variable="0x26acdb0" values="0x269e928" astParent="0x269e870"/>
+    <token id="0x269e9d0" file="qlearner.cpp" linenr="141" str=")" scope="0x26acc60" link="0x269e710"/>
+    <token id="0x269ea80" file="qlearner.cpp" linenr="141" str=")" scope="0x26acc60" link="0x269e450"/>
+    <token id="0x269eb30" file="qlearner.cpp" linenr="142" str="{" scope="0x26ace20" link="0x269f4d0"/>
+    <token id="0x269ebe0" file="qlearner.cpp" linenr="143" str="maxQVal" scope="0x26ace20" type="name" varId="47" variable="0x26ae940" astParent="0x269ec90"/>
+    <token id="0x269ec90" file="qlearner.cpp" linenr="143" str="=" scope="0x26ace20" type="op" isAssignmentOp="True" astOperand1="0x269ebe0" astOperand2="0x269edf0"/>
+    <token id="0x269ed40" file="qlearner.cpp" linenr="143" str="QVal" scope="0x26ace20" type="name" function="0x267ea00" astParent="0x269edf0"/>
+    <token id="0x269edf0" file="qlearner.cpp" linenr="143" str="(" scope="0x26ace20" link="0x269f0b0" astParent="0x269ec90" astOperand1="0x269ed40" astOperand2="0x269ef50"/>
+    <token id="0x269eea0" file="qlearner.cpp" linenr="143" str="state" scope="0x26ace20" type="name" varId="45" variable="0x26aee80" astParent="0x269ef50"/>
+    <token id="0x269ef50" file="qlearner.cpp" linenr="143" str="," scope="0x26ace20" astParent="0x269edf0" astOperand1="0x269eea0" astOperand2="0x269f000"/>
+    <token id="0x269f000" file="qlearner.cpp" linenr="143" str="i" scope="0x26ace20" type="name" varId="48" variable="0x26acdb0" astParent="0x269ef50"/>
+    <token id="0x269f0b0" file="qlearner.cpp" linenr="143" str=")" scope="0x26ace20" link="0x269edf0"/>
+    <token id="0x269f160" file="qlearner.cpp" linenr="143" str=";" scope="0x26ace20"/>
+    <token id="0x269f210" file="qlearner.cpp" linenr="144" str="maxAction" scope="0x26ace20" type="name" varId="46" variable="0x26ae8d0" astParent="0x269f2c0"/>
+    <token id="0x269f2c0" file="qlearner.cpp" linenr="144" str="=" scope="0x26ace20" type="op" isAssignmentOp="True" astOperand1="0x269f210" astOperand2="0x269f370"/>
+    <token id="0x269f370" file="qlearner.cpp" linenr="144" str="i" scope="0x26ace20" type="name" varId="48" variable="0x26acdb0" astParent="0x269f2c0"/>
+    <token id="0x269f420" file="qlearner.cpp" linenr="144" str=";" scope="0x26ace20"/>
+    <token id="0x269f4d0" file="qlearner.cpp" linenr="145" str="}" scope="0x26ace20" link="0x269eb30"/>
+    <token id="0x269f580" file="qlearner.cpp" linenr="146" str="}" scope="0x26acc60" link="0x269e2f0"/>
+    <token id="0x269f630" file="qlearner.cpp" linenr="147" str="return" scope="0x26acb10" type="name" astOperand1="0x269f6e0"/>
+    <token id="0x269f6e0" file="qlearner.cpp" linenr="147" str="maxAction" scope="0x26acb10" type="name" varId="46" variable="0x26ae8d0" astParent="0x269f630"/>
+    <token id="0x269f790" file="qlearner.cpp" linenr="147" str=";" scope="0x26acb10"/>
+    <token id="0x269f840" file="qlearner.cpp" linenr="148" str="}" scope="0x26acb10" link="0x269ce50"/>
+    <token id="0x269f8f0" file="qlearner.cpp" linenr="150" str="double" scope="0x26a8d70" type="name"/>
+    <token id="0x269f9a0" file="qlearner.cpp" linenr="150" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x269fa50"/>
+    <token id="0x269fa50" file="qlearner.cpp" linenr="150" str="::" scope="0x26a8d70" astParent="0x269fbb0" astOperand1="0x269f9a0" astOperand2="0x269fb00"/>
+    <token id="0x269fb00" file="qlearner.cpp" linenr="150" str="GetMaxActionQVal" scope="0x26a8d70" type="name" function="0x26a51b0" astParent="0x269fa50"/>
+    <token id="0x269fbb0" file="qlearner.cpp" linenr="150" str="(" scope="0x26a8d70" link="0x269fdc0" astOperand1="0x269fa50" astOperand2="0x269fd10"/>
+    <token id="0x269fc60" file="qlearner.cpp" linenr="150" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x269fd10" file="qlearner.cpp" linenr="150" str="state" scope="0x26a8d70" type="name" varId="49" variable="0x26aeef0" astParent="0x269fbb0"/>
+    <token id="0x269fdc0" file="qlearner.cpp" linenr="150" str=")" scope="0x26a8d70" link="0x269fbb0"/>
+    <token id="0x269fe70" file="qlearner.cpp" linenr="151" str="{" scope="0x26acf70" link="0x26a2230"/>
+    <token id="0x269ff20" file="qlearner.cpp" linenr="152" str="double" scope="0x26acf70" type="name"/>
+    <token id="0x269ffd0" file="qlearner.cpp" linenr="152" str="maxQVal" scope="0x26acf70" type="name" varId="50" variable="0x26ae9b0"/>
+    <token id="0x26a0080" file="qlearner.cpp" linenr="152" str=";" scope="0x26acf70"/>
+    <token id="0x26a9b20" file="qlearner.cpp" linenr="152" str="maxQVal" scope="0x26acf70" type="name" varId="50" variable="0x26ae9b0" astParent="0x26a9bd0"/>
+    <token id="0x26a9bd0" file="qlearner.cpp" linenr="152" str="=" scope="0x26acf70" type="op" isAssignmentOp="True" astOperand1="0x26a9b20" astOperand2="0x26a01e0"/>
+    <token id="0x26a0130" file="qlearner.cpp" linenr="152" str="QVal" scope="0x26acf70" type="name" function="0x267ea00" astParent="0x26a01e0"/>
+    <token id="0x26a01e0" file="qlearner.cpp" linenr="152" str="(" scope="0x26acf70" link="0x26a04a0" astParent="0x26a9bd0" astOperand1="0x26a0130" astOperand2="0x26a0340"/>
+    <token id="0x26a0290" file="qlearner.cpp" linenr="152" str="state" scope="0x26acf70" type="name" varId="49" variable="0x26aeef0" astParent="0x26a0340"/>
+    <token id="0x26a0340" file="qlearner.cpp" linenr="152" str="," scope="0x26acf70" astParent="0x26a01e0" astOperand1="0x26a0290" astOperand2="0x26a03f0"/>
+    <token id="0x26a03f0" file="qlearner.cpp" linenr="152" str="0" scope="0x26acf70" type="number" isInt="True" values="0x26a03f8" astParent="0x26a0340"/>
+    <token id="0x26a04a0" file="qlearner.cpp" linenr="152" str=")" scope="0x26acf70" link="0x26a01e0"/>
+    <token id="0x26a0550" file="qlearner.cpp" linenr="152" str=";" scope="0x26acf70"/>
+    <token id="0x26a0600" file="qlearner.cpp" linenr="154" str="for" scope="0x26acf70" type="name" astParent="0x26a06b0"/>
+    <token id="0x26a06b0" file="qlearner.cpp" linenr="154" str="(" scope="0x26acf70" link="0x26a0ef0" astOperand1="0x26a0600" astOperand2="0x26a0a20"/>
+    <token id="0x26a0760" file="qlearner.cpp" linenr="154" str="int" scope="0x26acf70" type="name"/>
+    <token id="0x26a0810" file="qlearner.cpp" linenr="154" str="i" scope="0x26acf70" type="name" varId="51" variable="0x26ad210" astParent="0x26a08c0"/>
+    <token id="0x26a08c0" file="qlearner.cpp" linenr="154" str="=" scope="0x26acf70" type="op" isAssignmentOp="True" astParent="0x26a0a20" astOperand1="0x26a0810" astOperand2="0x26a0970"/>
+    <token id="0x26a0970" file="qlearner.cpp" linenr="154" str="1" scope="0x26acf70" type="number" isInt="True" values="0x26a0978" astParent="0x26a08c0"/>
+    <token id="0x26a0a20" file="qlearner.cpp" linenr="154" str=";" scope="0x26acf70" astParent="0x26a06b0" astOperand1="0x26a08c0" astOperand2="0x26a0ce0"/>
+    <token id="0x26a0ad0" file="qlearner.cpp" linenr="154" str="i" scope="0x26acf70" type="name" varId="51" variable="0x26ad210" astParent="0x26a0b80"/>
+    <token id="0x26a0b80" file="qlearner.cpp" linenr="154" str="&lt;" scope="0x26acf70" type="op" isComparisonOp="True" astParent="0x26a0ce0" astOperand1="0x26a0ad0" astOperand2="0x26a0c30"/>
+    <token id="0x26a0c30" file="qlearner.cpp" linenr="154" str="num_actions_" scope="0x26acf70" type="name" varId="10" variable="0x26add00" astParent="0x26a0b80"/>
+    <token id="0x26a0ce0" file="qlearner.cpp" linenr="154" str=";" scope="0x26acf70" astParent="0x26a0a20" astOperand1="0x26a0b80" astOperand2="0x26a0e40"/>
+    <token id="0x26a0d90" file="qlearner.cpp" linenr="154" str="i" scope="0x26acf70" type="name" varId="51" variable="0x26ad210" astParent="0x26a0e40"/>
+    <token id="0x26a0e40" file="qlearner.cpp" linenr="154" str="++" scope="0x26acf70" type="op" astParent="0x26a0ce0" astOperand1="0x26a0d90"/>
+    <token id="0x26a0ef0" file="qlearner.cpp" linenr="154" str=")" scope="0x26acf70" link="0x26a06b0"/>
+    <token id="0x26a0fa0" file="qlearner.cpp" linenr="155" str="{" scope="0x26ad0c0" link="0x26a1f70"/>
+    <token id="0x26a1050" file="qlearner.cpp" linenr="156" str="if" scope="0x26ad0c0" type="name" astParent="0x26a1100"/>
+    <token id="0x26a1100" file="qlearner.cpp" linenr="156" str="(" scope="0x26ad0c0" link="0x26a1730" astOperand1="0x26a1050" astOperand2="0x26a1260"/>
+    <token id="0x26a11b0" file="qlearner.cpp" linenr="156" str="maxQVal" scope="0x26ad0c0" type="name" varId="50" variable="0x26ae9b0" astParent="0x26a1260"/>
+    <token id="0x26a1260" file="qlearner.cpp" linenr="156" str="&lt;" scope="0x26ad0c0" type="op" isComparisonOp="True" astParent="0x26a1100" astOperand1="0x26a11b0" astOperand2="0x26a13c0"/>
+    <token id="0x26a1310" file="qlearner.cpp" linenr="156" str="QVal" scope="0x26ad0c0" type="name" function="0x267ea00" astParent="0x26a13c0"/>
+    <token id="0x26a13c0" file="qlearner.cpp" linenr="156" str="(" scope="0x26ad0c0" link="0x26a1680" astParent="0x26a1260" astOperand1="0x26a1310" astOperand2="0x26a1520"/>
+    <token id="0x26a1470" file="qlearner.cpp" linenr="156" str="state" scope="0x26ad0c0" type="name" varId="49" variable="0x26aeef0" astParent="0x26a1520"/>
+    <token id="0x26a1520" file="qlearner.cpp" linenr="156" str="," scope="0x26ad0c0" astParent="0x26a13c0" astOperand1="0x26a1470" astOperand2="0x26a15d0"/>
+    <token id="0x26a15d0" file="qlearner.cpp" linenr="156" str="i" scope="0x26ad0c0" type="name" varId="51" variable="0x26ad210" values="0x26a15d8" astParent="0x26a1520"/>
+    <token id="0x26a1680" file="qlearner.cpp" linenr="156" str=")" scope="0x26ad0c0" link="0x26a13c0"/>
+    <token id="0x26a1730" file="qlearner.cpp" linenr="156" str=")" scope="0x26ad0c0" link="0x26a1100"/>
+    <token id="0x26a17e0" file="qlearner.cpp" linenr="157" str="{" scope="0x26ad280" link="0x26a1ec0"/>
+    <token id="0x26a1890" file="qlearner.cpp" linenr="158" str="maxQVal" scope="0x26ad280" type="name" varId="50" variable="0x26ae9b0" astParent="0x26a1940"/>
+    <token id="0x26a1940" file="qlearner.cpp" linenr="158" str="=" scope="0x26ad280" type="op" isAssignmentOp="True" astOperand1="0x26a1890" astOperand2="0x26a1aa0"/>
+    <token id="0x26a19f0" file="qlearner.cpp" linenr="158" str="QVal" scope="0x26ad280" type="name" function="0x267ea00" astParent="0x26a1aa0"/>
+    <token id="0x26a1aa0" file="qlearner.cpp" linenr="158" str="(" scope="0x26ad280" link="0x26a1d60" astParent="0x26a1940" astOperand1="0x26a19f0" astOperand2="0x26a1c00"/>
+    <token id="0x26a1b50" file="qlearner.cpp" linenr="158" str="state" scope="0x26ad280" type="name" varId="49" variable="0x26aeef0" astParent="0x26a1c00"/>
+    <token id="0x26a1c00" file="qlearner.cpp" linenr="158" str="," scope="0x26ad280" astParent="0x26a1aa0" astOperand1="0x26a1b50" astOperand2="0x26a1cb0"/>
+    <token id="0x26a1cb0" file="qlearner.cpp" linenr="158" str="i" scope="0x26ad280" type="name" varId="51" variable="0x26ad210" astParent="0x26a1c00"/>
+    <token id="0x26a1d60" file="qlearner.cpp" linenr="158" str=")" scope="0x26ad280" link="0x26a1aa0"/>
+    <token id="0x26a1e10" file="qlearner.cpp" linenr="158" str=";" scope="0x26ad280"/>
+    <token id="0x26a1ec0" file="qlearner.cpp" linenr="159" str="}" scope="0x26ad280" link="0x26a17e0"/>
+    <token id="0x26a1f70" file="qlearner.cpp" linenr="160" str="}" scope="0x26ad0c0" link="0x26a0fa0"/>
+    <token id="0x26a2020" file="qlearner.cpp" linenr="161" str="return" scope="0x26acf70" type="name" astOperand1="0x26a20d0"/>
+    <token id="0x26a20d0" file="qlearner.cpp" linenr="161" str="maxQVal" scope="0x26acf70" type="name" varId="50" variable="0x26ae9b0" astParent="0x26a2020"/>
+    <token id="0x26a2180" file="qlearner.cpp" linenr="161" str=";" scope="0x26acf70"/>
+    <token id="0x26a2230" file="qlearner.cpp" linenr="162" str="}" scope="0x26acf70" link="0x269fe70"/>
+    <token id="0x26a22e0" file="qlearner.cpp" linenr="164" str="double" scope="0x26a8d70" type="name"/>
+    <token id="0x26a2390" file="qlearner.cpp" linenr="164" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x26a2440"/>
+    <token id="0x26a2440" file="qlearner.cpp" linenr="164" str="::" scope="0x26a8d70" astParent="0x26a25a0" astOperand1="0x26a2390" astOperand2="0x26a24f0"/>
+    <token id="0x26a24f0" file="qlearner.cpp" linenr="164" str="QVal" scope="0x26a8d70" type="name" function="0x267ea00" astParent="0x26a2440"/>
+    <token id="0x26a25a0" file="qlearner.cpp" linenr="164" str="(" scope="0x26a8d70" link="0x26a29c0" astOperand1="0x26a2440" astOperand2="0x26a27b0"/>
+    <token id="0x26a2650" file="qlearner.cpp" linenr="164" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x26a2700" file="qlearner.cpp" linenr="164" str="state" scope="0x26a8d70" type="name" varId="52" variable="0x26aeda0" astParent="0x26a27b0"/>
+    <token id="0x26a27b0" file="qlearner.cpp" linenr="164" str="," scope="0x26a8d70" astParent="0x26a25a0" astOperand1="0x26a2700" astOperand2="0x26a2910"/>
+    <token id="0x26a2860" file="qlearner.cpp" linenr="164" str="int" scope="0x26a8d70" type="name"/>
+    <token id="0x26a2910" file="qlearner.cpp" linenr="164" str="action" scope="0x26a8d70" type="name" varId="53" variable="0x26aee10" astParent="0x26a27b0"/>
+    <token id="0x26a29c0" file="qlearner.cpp" linenr="164" str=")" scope="0x26a8d70" link="0x26a25a0"/>
+    <token id="0x26a2a70" file="qlearner.cpp" linenr="165" str="{" scope="0x26ad3d0" link="0x26a3570"/>
+    <token id="0x26a2b20" file="qlearner.cpp" linenr="166" str="int" scope="0x26ad3d0" type="name"/>
+    <token id="0x26a2bd0" file="qlearner.cpp" linenr="166" str="vector_index" scope="0x26ad3d0" type="name" varId="54" variable="0x26aea20"/>
+    <token id="0x26a2c80" file="qlearner.cpp" linenr="166" str=";" scope="0x26ad3d0"/>
+    <token id="0x26a9c80" file="qlearner.cpp" linenr="166" str="vector_index" scope="0x26ad3d0" type="name" varId="54" variable="0x26aea20" astParent="0x26a9d30"/>
+    <token id="0x26a9d30" file="qlearner.cpp" linenr="166" str="=" scope="0x26ad3d0" type="op" isAssignmentOp="True" astOperand1="0x26a9c80" astOperand2="0x26a2f40"/>
+    <token id="0x26a2d30" file="qlearner.cpp" linenr="166" str="state" scope="0x26ad3d0" type="name" varId="52" variable="0x26aeda0" astParent="0x26a2de0"/>
+    <token id="0x26a2de0" file="qlearner.cpp" linenr="166" str="*" scope="0x26ad3d0" type="op" isArithmeticalOp="True" astParent="0x26a2f40" astOperand1="0x26a2d30" astOperand2="0x26a2e90"/>
+    <token id="0x26a2e90" file="qlearner.cpp" linenr="166" str="num_actions_" scope="0x26ad3d0" type="name" varId="10" variable="0x26add00" astParent="0x26a2de0"/>
+    <token id="0x26a2f40" file="qlearner.cpp" linenr="166" str="+" scope="0x26ad3d0" type="op" isArithmeticalOp="True" astParent="0x26a9d30" astOperand1="0x26a2de0" astOperand2="0x26a2ff0"/>
+    <token id="0x26a2ff0" file="qlearner.cpp" linenr="166" str="action" scope="0x26ad3d0" type="name" varId="53" variable="0x26aee10" values="0x26a2ff8" astParent="0x26a2f40"/>
+    <token id="0x26a30a0" file="qlearner.cpp" linenr="166" str=";" scope="0x26ad3d0"/>
+    <token id="0x26a3150" file="qlearner.cpp" linenr="167" str="return" scope="0x26ad3d0" type="name" astOperand1="0x26a32b0"/>
+    <token id="0x26a3200" file="qlearner.cpp" linenr="167" str="q_array_" scope="0x26ad3d0" type="name" varId="19" variable="0x26ae0f0" astParent="0x26a32b0"/>
+    <token id="0x26a32b0" file="qlearner.cpp" linenr="167" str="[" scope="0x26ad3d0" link="0x26a3410" astParent="0x26a3150" astOperand1="0x26a3200" astOperand2="0x26a3360"/>
+    <token id="0x26a3360" file="qlearner.cpp" linenr="167" str="vector_index" scope="0x26ad3d0" type="name" varId="54" variable="0x26aea20" astParent="0x26a32b0"/>
+    <token id="0x26a3410" file="qlearner.cpp" linenr="167" str="]" scope="0x26ad3d0" link="0x26a32b0"/>
+    <token id="0x26a34c0" file="qlearner.cpp" linenr="167" str=";" scope="0x26ad3d0"/>
+    <token id="0x26a3570" file="qlearner.cpp" linenr="168" str="}" scope="0x26ad3d0" link="0x26a2a70"/>
+    <token id="0x26a3620" file="qlearner.cpp" linenr="170" str="void" scope="0x26a8d70" type="name"/>
+    <token id="0x26a36d0" file="qlearner.cpp" linenr="170" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x26a3780"/>
+    <token id="0x26a3780" file="qlearner.cpp" linenr="170" str="::" scope="0x26a8d70" astParent="0x26a38e0" astOperand1="0x26a36d0" astOperand2="0x26a3830"/>
+    <token id="0x26a3830" file="qlearner.cpp" linenr="170" str="DecreaseTemp" scope="0x26a8d70" type="name" function="0x26aa170" astParent="0x26a3780"/>
+    <token id="0x26a38e0" file="qlearner.cpp" linenr="170" str="(" scope="0x26a8d70" link="0x26a3a40" astOperand1="0x26a3780"/>
+    <token id="0x26a3a40" file="qlearner.cpp" linenr="170" str=")" scope="0x26a8d70" link="0x26a38e0"/>
+    <token id="0x26a3af0" file="qlearner.cpp" linenr="171" str="{" scope="0x26ad520" link="0x26a4c20"/>
+    <token id="0x26a3ba0" file="qlearner.cpp" linenr="172" str="temp_cnt_" scope="0x26ad520" type="name" varId="13" variable="0x26ade50" astParent="0x26a3c50"/>
+    <token id="0x26a3c50" file="qlearner.cpp" linenr="172" str="++" scope="0x26ad520" type="op" astOperand1="0x26a3ba0"/>
+    <token id="0x26a3d00" file="qlearner.cpp" linenr="172" str=";" scope="0x26ad520"/>
+    <token id="0x26a3db0" file="qlearner.cpp" linenr="173" str="temp_" scope="0x26ad520" type="name" varId="18" variable="0x26ae080" astParent="0x26a3e60"/>
+    <token id="0x26a3e60" file="qlearner.cpp" linenr="173" str="=" scope="0x26ad520" type="op" isAssignmentOp="True" astOperand1="0x26a3db0" astOperand2="0x26a3fc0"/>
+    <token id="0x26a3f10" file="qlearner.cpp" linenr="173" str="temp_const_" scope="0x26ad520" type="name" varId="16" variable="0x26adfa0" astParent="0x26a3fc0"/>
+    <token id="0x26a3fc0" file="qlearner.cpp" linenr="173" str="*" scope="0x26ad520" type="op" isArithmeticalOp="True" astParent="0x26a3e60" astOperand1="0x26a3f10" astOperand2="0x26a4120"/>
+    <token id="0x26a4070" file="qlearner.cpp" linenr="173" str="pow" scope="0x26ad520" type="name" astParent="0x26a4120"/>
+    <token id="0x26a4120" file="qlearner.cpp" linenr="173" str="(" scope="0x26ad520" link="0x26a43e0" astParent="0x26a3fc0" astOperand1="0x26a4070" astOperand2="0x26a4280"/>
+    <token id="0x26a41d0" file="qlearner.cpp" linenr="173" str="temp_alpha_" scope="0x26ad520" type="name" varId="17" variable="0x26ae010" astParent="0x26a4280"/>
+    <token id="0x26a4280" file="qlearner.cpp" linenr="173" str="," scope="0x26ad520" astParent="0x26a4120" astOperand1="0x26a41d0" astOperand2="0x26a4330"/>
+    <token id="0x26a4330" file="qlearner.cpp" linenr="173" str="temp_cnt_" scope="0x26ad520" type="name" varId="13" variable="0x26ade50" astParent="0x26a4280"/>
+    <token id="0x26a43e0" file="qlearner.cpp" linenr="173" str=")" scope="0x26ad520" link="0x26a4120"/>
+    <token id="0x26a4490" file="qlearner.cpp" linenr="173" str=";" scope="0x26ad520"/>
+    <token id="0x26a4540" file="qlearner.cpp" linenr="174" str="if" scope="0x26ad520" type="name" astParent="0x26a45f0"/>
+    <token id="0x26a45f0" file="qlearner.cpp" linenr="174" str="(" scope="0x26ad520" link="0x26a48b0" astOperand1="0x26a4540" astOperand2="0x26a4750"/>
+    <token id="0x26a46a0" file="qlearner.cpp" linenr="174" str="temp_" scope="0x26ad520" type="name" varId="18" variable="0x26ae080" astParent="0x26a4750"/>
+    <token id="0x26a4750" file="qlearner.cpp" linenr="174" str="&lt;" scope="0x26ad520" type="op" isComparisonOp="True" astParent="0x26a45f0" astOperand1="0x26a46a0" astOperand2="0x26a4800"/>
+    <token id="0x26a4800" file="qlearner.cpp" linenr="174" str="0.05" scope="0x26ad520" type="number" isFloat="True" astParent="0x26a4750"/>
+    <token id="0x26a48b0" file="qlearner.cpp" linenr="174" str=")" scope="0x26ad520" link="0x26a45f0"/>
+    <token id="0x269b6b0" file="qlearner.cpp" linenr="174" str="{" scope="0x26ad670" link="0x269bf50"/>
+    <token id="0x26a4960" file="qlearner.cpp" linenr="175" str="temp_" scope="0x26ad670" type="name" varId="18" variable="0x26ae080" astParent="0x26a4a10"/>
+    <token id="0x26a4a10" file="qlearner.cpp" linenr="175" str="=" scope="0x26ad670" type="op" isAssignmentOp="True" astOperand1="0x26a4960" astOperand2="0x26a4ac0"/>
+    <token id="0x26a4ac0" file="qlearner.cpp" linenr="175" str="0.05" scope="0x26ad670" type="number" isFloat="True" astParent="0x26a4a10"/>
+    <token id="0x26a4b70" file="qlearner.cpp" linenr="175" str=";" scope="0x26ad670"/>
+    <token id="0x269bf50" file="qlearner.cpp" linenr="175" str="}" scope="0x26ad670" link="0x269b6b0"/>
+    <token id="0x26a4c20" file="qlearner.cpp" linenr="176" str="}" scope="0x26ad520" link="0x26a3af0"/>
+    <token id="0x26a4cd0" file="qlearner.cpp" linenr="178" str="std" scope="0x26a8d70" type="name" astParent="0x26a4d80"/>
+    <token id="0x26a4d80" file="qlearner.cpp" linenr="178" str="::" scope="0x26a8d70" astParent="0x26a4f90" astOperand1="0x26a4cd0" astOperand2="0x26a4ee0"/>
+    <token id="0x26a4e30" file="qlearner.cpp" linenr="178" str="string" scope="0x26a8d70" type="name"/>
+    <token id="0x26a4ee0" file="qlearner.cpp" linenr="178" str="QLearner" scope="0x26a8d70" type="name" type-scope="0x26a9df0" astParent="0x26a4d80"/>
+    <token id="0x26a4f90" file="qlearner.cpp" linenr="178" str="::" scope="0x26a8d70" astParent="0x26a50f0" astOperand1="0x26a4d80" astOperand2="0x26a5040"/>
+    <token id="0x26a5040" file="qlearner.cpp" linenr="178" str="PrintTable" scope="0x26a8d70" type="name" function="0x267c4e0" astParent="0x26a4f90"/>
+    <token id="0x26a50f0" file="qlearner.cpp" linenr="178" str="(" scope="0x26a8d70" link="0x26a5250" astOperand1="0x26a4f90"/>
+    <token id="0x26a5250" file="qlearner.cpp" linenr="178" str=")" scope="0x26a8d70" link="0x26a50f0"/>
+    <token id="0x26a5300" file="qlearner.cpp" linenr="179" str="{" scope="0x26ad7c0" link="0x26a85e0"/>
+    <token id="0x26a53b0" file="qlearner.cpp" linenr="180" str="std" scope="0x26ad7c0" type="name" astParent="0x26a5460"/>
+    <token id="0x26a5460" file="qlearner.cpp" linenr="180" str="::" scope="0x26ad7c0" astOperand1="0x26a53b0" astOperand2="0x26a55c0"/>
+    <token id="0x26a5510" file="qlearner.cpp" linenr="180" str="string" scope="0x26ad7c0" type="name"/>
+    <token id="0x26a55c0" file="qlearner.cpp" linenr="180" str="s" scope="0x26ad7c0" type="name" varId="55" variable="0x26aea90" astParent="0x26a5460"/>
+    <token id="0x26a5670" file="qlearner.cpp" linenr="180" str=";" scope="0x26ad7c0"/>
+    <token id="0x26a5720" file="qlearner.cpp" linenr="181" str="for" scope="0x26ad7c0" type="name" astParent="0x26a57d0"/>
+    <token id="0x26a57d0" file="qlearner.cpp" linenr="181" str="(" scope="0x26ad7c0" link="0x26a6010" astOperand1="0x26a5720" astOperand2="0x26a5b40"/>
+    <token id="0x26a5880" file="qlearner.cpp" linenr="181" str="int" scope="0x26ad7c0" type="name"/>
+    <token id="0x26a5930" file="qlearner.cpp" linenr="181" str="state" scope="0x26ad7c0" type="name" varId="56" variable="0x26ada60" astParent="0x26a59e0"/>
+    <token id="0x26a59e0" file="qlearner.cpp" linenr="181" str="=" scope="0x26ad7c0" type="op" isAssignmentOp="True" astParent="0x26a5b40" astOperand1="0x26a5930" astOperand2="0x26a5a90"/>
+    <token id="0x26a5a90" file="qlearner.cpp" linenr="181" str="0" scope="0x26ad7c0" type="number" isInt="True" values="0x26a5a98" astParent="0x26a59e0"/>
+    <token id="0x26a5b40" file="qlearner.cpp" linenr="181" str=";" scope="0x26ad7c0" astParent="0x26a57d0" astOperand1="0x26a59e0" astOperand2="0x26a5e00"/>
+    <token id="0x26a5bf0" file="qlearner.cpp" linenr="181" str="state" scope="0x26ad7c0" type="name" varId="56" variable="0x26ada60" astParent="0x26a5ca0"/>
+    <token id="0x26a5ca0" file="qlearner.cpp" linenr="181" str="&lt;" scope="0x26ad7c0" type="op" isComparisonOp="True" astParent="0x26a5e00" astOperand1="0x26a5bf0" astOperand2="0x26a5d50"/>
+    <token id="0x26a5d50" file="qlearner.cpp" linenr="181" str="num_states_" scope="0x26ad7c0" type="name" varId="11" variable="0x26add70" astParent="0x26a5ca0"/>
+    <token id="0x26a5e00" file="qlearner.cpp" linenr="181" str=";" scope="0x26ad7c0" astParent="0x26a5b40" astOperand1="0x26a5ca0" astOperand2="0x26a5f60"/>
+    <token id="0x26a5eb0" file="qlearner.cpp" linenr="181" str="state" scope="0x26ad7c0" type="name" varId="56" variable="0x26ada60" astParent="0x26a5f60"/>
+    <token id="0x26a5f60" file="qlearner.cpp" linenr="181" str="++" scope="0x26ad7c0" type="op" astParent="0x26a5e00" astOperand1="0x26a5eb0"/>
+    <token id="0x26a6010" file="qlearner.cpp" linenr="181" str=")" scope="0x26ad7c0" link="0x26a57d0"/>
+    <token id="0x26a60c0" file="qlearner.cpp" linenr="182" str="{" scope="0x26ad910" link="0x26a8320"/>
+    <token id="0x26a6170" file="qlearner.cpp" linenr="183" str="for" scope="0x26ad910" type="name" astParent="0x26a6220"/>
+    <token id="0x26a6220" file="qlearner.cpp" linenr="183" str="(" scope="0x26ad910" link="0x26a6a60" astOperand1="0x26a6170" astOperand2="0x26a6590"/>
+    <token id="0x26a62d0" file="qlearner.cpp" linenr="183" str="int" scope="0x26ad910" type="name"/>
+    <token id="0x26a6380" file="qlearner.cpp" linenr="183" str="action" scope="0x26ad910" type="name" varId="57" variable="0x26adc20" astParent="0x26a6430"/>
+    <token id="0x26a6430" file="qlearner.cpp" linenr="183" str="=" scope="0x26ad910" type="op" isAssignmentOp="True" astParent="0x26a6590" astOperand1="0x26a6380" astOperand2="0x26a64e0"/>
+    <token id="0x26a64e0" file="qlearner.cpp" linenr="183" str="0" scope="0x26ad910" type="number" isInt="True" values="0x26a64e8" astParent="0x26a6430"/>
+    <token id="0x26a6590" file="qlearner.cpp" linenr="183" str=";" scope="0x26ad910" astParent="0x26a6220" astOperand1="0x26a6430" astOperand2="0x26a6850"/>
+    <token id="0x26a6640" file="qlearner.cpp" linenr="183" str="action" scope="0x26ad910" type="name" varId="57" variable="0x26adc20" astParent="0x26a66f0"/>
+    <token id="0x26a66f0" file="qlearner.cpp" linenr="183" str="&lt;" scope="0x26ad910" type="op" isComparisonOp="True" astParent="0x26a6850" astOperand1="0x26a6640" astOperand2="0x26a67a0"/>
+    <token id="0x26a67a0" file="qlearner.cpp" linenr="183" str="num_actions_" scope="0x26ad910" type="name" varId="10" variable="0x26add00" astParent="0x26a66f0"/>
+    <token id="0x26a6850" file="qlearner.cpp" linenr="183" str=";" scope="0x26ad910" astParent="0x26a6590" astOperand1="0x26a66f0" astOperand2="0x26a69b0"/>
+    <token id="0x26a6900" file="qlearner.cpp" linenr="183" str="action" scope="0x26ad910" type="name" varId="57" variable="0x26adc20" astParent="0x26a69b0"/>
+    <token id="0x26a69b0" file="qlearner.cpp" linenr="183" str="++" scope="0x26ad910" type="op" astParent="0x26a6850" astOperand1="0x26a6900"/>
+    <token id="0x26a6a60" file="qlearner.cpp" linenr="183" str=")" scope="0x26ad910" link="0x26a6220"/>
+    <token id="0x26a6b10" file="qlearner.cpp" linenr="184" str="{" scope="0x26adad0" link="0x26a7da0"/>
+    <token id="0x26a6bc0" file="qlearner.cpp" linenr="185" str="s" scope="0x26adad0" type="name" varId="55" variable="0x26aea90" astParent="0x26a6c70"/>
+    <token id="0x26a6c70" file="qlearner.cpp" linenr="185" str="." scope="0x26adad0" astParent="0x26a6dd0" astOperand1="0x26a6bc0" astOperand2="0x26a6d20"/>
+    <token id="0x26a6d20" file="qlearner.cpp" linenr="185" str="append" scope="0x26adad0" type="name" astParent="0x26a6c70"/>
+    <token id="0x26a6dd0" file="qlearner.cpp" linenr="185" str="(" scope="0x26adad0" link="0x26a7c40" astOperand1="0x26a6c70" astOperand2="0x26a7ae0"/>
+    <token id="0x26a6e80" file="qlearner.cpp" linenr="185" str="boost" scope="0x26adad0" type="name" astParent="0x26a6f30"/>
+    <token id="0x26a6f30" file="qlearner.cpp" linenr="185" str="::" scope="0x26adad0" astParent="0x26a7400" astOperand1="0x26a6e80" astOperand2="0x26a6fe0"/>
+    <token id="0x26a6fe0" file="qlearner.cpp" linenr="185" str="lexical_cast" scope="0x26adad0" type="name" astParent="0x26a6f30"/>
+    <token id="0x26a7090" file="qlearner.cpp" linenr="185" str="&lt;" scope="0x26adad0" link="0x26a7350"/>
+    <token id="0x26a7140" file="qlearner.cpp" linenr="185" str="std" scope="0x26adad0" type="name"/>
+    <token id="0x26a71f0" file="qlearner.cpp" linenr="185" str="::" scope="0x26adad0"/>
+    <token id="0x26a72a0" file="qlearner.cpp" linenr="185" str="string" scope="0x26adad0" type="name"/>
+    <token id="0x26a7350" file="qlearner.cpp" linenr="185" str="&gt;" scope="0x26adad0" link="0x26a7090"/>
+    <token id="0x26a7400" file="qlearner.cpp" linenr="185" str="(" scope="0x26adad0" link="0x26a7a30" astParent="0x26a7ae0" astOperand1="0x26a6f30" astOperand2="0x26a7560"/>
+    <token id="0x26a74b0" file="qlearner.cpp" linenr="185" str="q_array_" scope="0x26adad0" type="name" varId="19" variable="0x26ae0f0" astParent="0x26a7560"/>
+    <token id="0x26a7560" file="qlearner.cpp" linenr="185" str="[" scope="0x26adad0" link="0x26a7980" astParent="0x26a7400" astOperand1="0x26a74b0" astOperand2="0x26a7820"/>
+    <token id="0x26a7610" file="qlearner.cpp" linenr="185" str="state" scope="0x26adad0" type="name" varId="56" variable="0x26ada60" values="0x26a7618" astParent="0x26a76c0"/>
+    <token id="0x26a76c0" file="qlearner.cpp" linenr="185" str="*" scope="0x26adad0" type="op" isArithmeticalOp="True" astParent="0x26a7820" astOperand1="0x26a7610" astOperand2="0x26a7770"/>
+    <token id="0x26a7770" file="qlearner.cpp" linenr="185" str="num_actions_" scope="0x26adad0" type="name" varId="10" variable="0x26add00" astParent="0x26a76c0"/>
+    <token id="0x26a7820" file="qlearner.cpp" linenr="185" str="+" scope="0x26adad0" type="op" isArithmeticalOp="True" astParent="0x26a7560" astOperand1="0x26a76c0" astOperand2="0x26a78d0"/>
+    <token id="0x26a78d0" file="qlearner.cpp" linenr="185" str="action" scope="0x26adad0" type="name" varId="57" variable="0x26adc20" values="0x26a78d8" astParent="0x26a7820"/>
+    <token id="0x26a7980" file="qlearner.cpp" linenr="185" str="]" scope="0x26adad0" link="0x26a7560"/>
+    <token id="0x26a7a30" file="qlearner.cpp" linenr="185" str=")" scope="0x26adad0" link="0x26a7400"/>
+    <token id="0x26a7ae0" file="qlearner.cpp" linenr="185" str="+" scope="0x26adad0" type="op" isArithmeticalOp="True" astParent="0x26a6dd0" astOperand1="0x26a7400" astOperand2="0x26a7b90"/>
+    <token id="0x26a7b90" file="qlearner.cpp" linenr="185" str="&quot;, &quot;" scope="0x26adad0" type="string" strlen="2" values="0x26a7b98" astParent="0x26a7ae0"/>
+    <token id="0x26a7c40" file="qlearner.cpp" linenr="185" str=")" scope="0x26adad0" link="0x26a6dd0"/>
+    <token id="0x26a7cf0" file="qlearner.cpp" linenr="185" str=";" scope="0x26adad0"/>
+    <token id="0x26a7da0" file="qlearner.cpp" linenr="186" str="}" scope="0x26adad0" link="0x26a6b10"/>
+    <token id="0x26a7e50" file="qlearner.cpp" linenr="187" str="s" scope="0x26ad910" type="name" varId="55" variable="0x26aea90" astParent="0x26a7f00"/>
+    <token id="0x26a7f00" file="qlearner.cpp" linenr="187" str="." scope="0x26ad910" astParent="0x26a8060" astOperand1="0x26a7e50" astOperand2="0x26a7fb0"/>
+    <token id="0x26a7fb0" file="qlearner.cpp" linenr="187" str="append" scope="0x26ad910" type="name" astParent="0x26a7f00"/>
+    <token id="0x26a8060" file="qlearner.cpp" linenr="187" str="(" scope="0x26ad910" link="0x26a81c0" astOperand1="0x26a7f00" astOperand2="0x26a8110"/>
+    <token id="0x26a8110" file="qlearner.cpp" linenr="187" str="&quot;\n&quot;" scope="0x26ad910" type="string" strlen="1" values="0x26a8118" astParent="0x26a8060"/>
+    <token id="0x26a81c0" file="qlearner.cpp" linenr="187" str=")" scope="0x26ad910" link="0x26a8060"/>
+    <token id="0x26a8270" file="qlearner.cpp" linenr="187" str=";" scope="0x26ad910"/>
+    <token id="0x26a8320" file="qlearner.cpp" linenr="188" str="}" scope="0x26ad910" link="0x26a60c0"/>
+    <token id="0x26a83d0" file="qlearner.cpp" linenr="190" str="return" scope="0x26ad7c0" type="name" astOperand1="0x26a8480"/>
+    <token id="0x26a8480" file="qlearner.cpp" linenr="190" str="s" scope="0x26ad7c0" type="name" varId="55" variable="0x26aea90" astParent="0x26a83d0"/>
+    <token id="0x26a8530" file="qlearner.cpp" linenr="190" str=";" scope="0x26ad7c0"/>
+    <token id="0x26a85e0" file="qlearner.cpp" linenr="191" str="}" scope="0x26ad7c0" link="0x26a5300"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x26a8d70" type="Global"/>
+    <scope id="0x26a9df0" type="Class" className="QLearner" classStart="0x267a860" classEnd="0x2680670" nestedIn="0x26a8d70">
+      <functionList>
+        <function id="0x26a9f90" tokenDef="0x26778b0" name="QLearner">
+          <arg nr="1" variable="0x26aeb00"/>
+        </function>
+        <function id="0x26aa030" tokenDef="0x267ae20" name="Update">
+          <arg nr="1" variable="0x26aeb70"/>
+          <arg nr="2" variable="0x26aebe0"/>
+          <arg nr="3" variable="0x26aec50"/>
+          <arg nr="4" variable="0x26aecc0"/>
+        </function>
+        <function id="0x26aa0d0" tokenDef="0x267b920" name="GetAction">
+          <arg nr="1" variable="0x26aed30"/>
+        </function>
+        <function id="0x26aa170" tokenDef="0x267bdf0" name="DecreaseTemp"/>
+        <function id="0x267c4e0" tokenDef="0x267c370" name="PrintTable"/>
+        <function id="0x267ea00" tokenDef="0x267c790" name="QVal">
+          <arg nr="1" variable="0x26aeda0"/>
+          <arg nr="2" variable="0x26aee10"/>
+        </function>
+        <function id="0x269af30" tokenDef="0x267e890" name="Init"/>
+        <function id="0x26a39a0" tokenDef="0x267ecb0" name="GetMaxAction">
+          <arg nr="1" variable="0x26aee80"/>
+        </function>
+        <function id="0x26a51b0" tokenDef="0x267f180" name="GetMaxActionQVal">
+          <arg nr="1" variable="0x26aeef0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x26adc90"/>
+        <var id="0x26add00"/>
+        <var id="0x26add70"/>
+        <var id="0x26adde0"/>
+        <var id="0x26ade50"/>
+        <var id="0x26adec0"/>
+        <var id="0x26adf30"/>
+        <var id="0x26adfa0"/>
+        <var id="0x26ae010"/>
+        <var id="0x26ae080"/>
+        <var id="0x26ae0f0"/>
+        <var id="0x26ae160"/>
+      </varlist>
+    </scope>
+    <scope id="0x26aabf0" type="Function" className="QLearner" classStart="0x2680e00" classEnd="0x268f810" nestedIn="0x26a8d70" function="0x26a9f90">
+      <varlist>
+        <var id="0x26ae1d0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26aad20" type="If" classStart="0x2686160" classEnd="0x268bb90" nestedIn="0x26aabf0">
+      <varlist>
+        <var id="0x26ae240"/>
+        <var id="0x26ae2b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26aae50" type="If" classStart="0x268c270" classEnd="0x267ce70" nestedIn="0x26aad20"/>
+    <scope id="0x26aaf80" type="Try" classStart="0x2687f20" classEnd="0x26898d0" nestedIn="0x26aad20"/>
+    <scope id="0x26ab0b0" type="If" classStart="0x2688ce0" classEnd="0x2689820" nestedIn="0x26aaf80"/>
+    <scope id="0x26ab1e0" type="Catch" classStart="0x2689f00" classEnd="0x268a6f0" nestedIn="0x26aad20">
+      <varlist>
+        <var id="0x26ab310"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ab380" type="For" classStart="0x268b140" classEnd="0x268bae0" nestedIn="0x26aad20">
+      <varlist>
+        <var id="0x26ab4b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ab520" type="Else" classStart="0x268bcf0" classEnd="0x268ee70" nestedIn="0x26aabf0">
+      <varlist>
+        <var id="0x26ae320"/>
+        <var id="0x26ae390"/>
+        <var id="0x26ae400"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ab650" type="Try" classStart="0x268bcf0" classEnd="0x268ee70" nestedIn="0x26aabf0">
+      <varlist>
+        <var id="0x26ae470"/>
+        <var id="0x26ae4e0"/>
+        <var id="0x26ae550"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ab780" type="For" classStart="0x268dea0" classEnd="0x268edc0" nestedIn="0x26ab650">
+      <varlist>
+        <var id="0x26ab8b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ab920" type="Function" className="Update" classStart="0x2690470" classEnd="0x2693990" nestedIn="0x26a8d70" function="0x26aa030">
+      <varlist>
+        <var id="0x26ae5c0"/>
+        <var id="0x26ae630"/>
+      </varlist>
+    </scope>
+    <scope id="0x26aba50" type="If" classStart="0x2691910" classEnd="0x2691d60" nestedIn="0x26ab920"/>
+    <scope id="0x26abb80" type="Function" className="GetAction" classStart="0x2693fc0" classEnd="0x269ab00" nestedIn="0x26a8d70" function="0x26aa0d0">
+      <varlist>
+        <var id="0x26ae6a0"/>
+        <var id="0x26ae710"/>
+        <var id="0x26ae780"/>
+        <var id="0x26ae7f0"/>
+        <var id="0x26ae860"/>
+      </varlist>
+    </scope>
+    <scope id="0x26abcb0" type="If" classStart="0x2694ee0" classEnd="0x269a160" nestedIn="0x26abb80"/>
+    <scope id="0x26abde0" type="For" classStart="0x2695880" classEnd="0x2696a60" nestedIn="0x26abcb0"/>
+    <scope id="0x26abf10" type="For" classStart="0x2697400" classEnd="0x2697cf0" nestedIn="0x26abcb0"/>
+    <scope id="0x26ac040" type="While" classStart="0x2698f80" classEnd="0x2699df0" nestedIn="0x26abcb0"/>
+    <scope id="0x26ac170" type="If" classStart="0x26873f0" classEnd="0x2688810" nestedIn="0x26ac040"/>
+    <scope id="0x26ac2a0" type="Else" classStart="0x26907e0" classEnd="0x2690e10" nestedIn="0x26ac040"/>
+    <scope id="0x26ac3d0" type="Try" classStart="0x26907e0" classEnd="0x2690e10" nestedIn="0x26ac040"/>
+    <scope id="0x26ac500" type="Else" classStart="0x269a2c0" classEnd="0x269a840" nestedIn="0x26abb80"/>
+    <scope id="0x26ac630" type="Try" classStart="0x269a2c0" classEnd="0x269a840" nestedIn="0x26abb80"/>
+    <scope id="0x26ac760" type="Function" className="Init" classStart="0x269b080" classEnd="0x269c820" nestedIn="0x26a8d70" function="0x269af30"/>
+    <scope id="0x26ac890" type="If" classStart="0x2691440" classEnd="0x2692d30" nestedIn="0x26ac760"/>
+    <scope id="0x26ac9c0" type="If" classStart="0x2696640" classEnd="0x2699190" nestedIn="0x26ac760"/>
+    <scope id="0x26acb10" type="Function" className="GetMaxAction" classStart="0x269ce50" classEnd="0x269f840" nestedIn="0x26a8d70" function="0x26a39a0">
+      <varlist>
+        <var id="0x26ae8d0"/>
+        <var id="0x26ae940"/>
+      </varlist>
+    </scope>
+    <scope id="0x26acc60" type="For" classStart="0x269e2f0" classEnd="0x269f580" nestedIn="0x26acb10">
+      <varlist>
+        <var id="0x26acdb0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ace20" type="If" classStart="0x269eb30" classEnd="0x269f4d0" nestedIn="0x26acc60"/>
+    <scope id="0x26acf70" type="Function" className="GetMaxActionQVal" classStart="0x269fe70" classEnd="0x26a2230" nestedIn="0x26a8d70" function="0x26a51b0">
+      <varlist>
+        <var id="0x26ae9b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ad0c0" type="For" classStart="0x26a0fa0" classEnd="0x26a1f70" nestedIn="0x26acf70">
+      <varlist>
+        <var id="0x26ad210"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ad280" type="If" classStart="0x26a17e0" classEnd="0x26a1ec0" nestedIn="0x26ad0c0"/>
+    <scope id="0x26ad3d0" type="Function" className="QVal" classStart="0x26a2a70" classEnd="0x26a3570" nestedIn="0x26a8d70" function="0x267ea00">
+      <varlist>
+        <var id="0x26aea20"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ad520" type="Function" className="DecreaseTemp" classStart="0x26a3af0" classEnd="0x26a4c20" nestedIn="0x26a8d70" function="0x26aa170"/>
+    <scope id="0x26ad670" type="If" classStart="0x269b6b0" classEnd="0x269bf50" nestedIn="0x26ad520"/>
+    <scope id="0x26ad7c0" type="Function" className="PrintTable" classStart="0x26a5300" classEnd="0x26a85e0" nestedIn="0x26a8d70" function="0x267c4e0">
+      <varlist>
+        <var id="0x26aea90"/>
+      </varlist>
+    </scope>
+    <scope id="0x26ad910" type="For" classStart="0x26a60c0" classEnd="0x26a8320" nestedIn="0x26ad7c0">
+      <varlist>
+        <var id="0x26ada60"/>
+      </varlist>
+    </scope>
+    <scope id="0x26adad0" type="For" classStart="0x26a6b10" classEnd="0x26a7da0" nestedIn="0x26ad910">
+      <varlist>
+        <var id="0x26adc20"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x26adc90" nameToken="0x267d130" typeStartToken="0x267cf20" typeEndToken="0x267d080" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26add00" nameToken="0x267d340" typeStartToken="0x267d290" typeEndToken="0x267d290" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26add70" nameToken="0x267d4a0" typeStartToken="0x267a9c0" typeEndToken="0x267a9c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26adde0" nameToken="0x267d600" typeStartToken="0x26774e0" typeEndToken="0x26774e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ade50" nameToken="0x267d760" typeStartToken="0x26a8b50" typeEndToken="0x26a8b50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26adec0" nameToken="0x267d970" typeStartToken="0x267d8c0" typeEndToken="0x267d8c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26adf30" nameToken="0x267dad0" typeStartToken="0x26a8c00" typeEndToken="0x26a8c00" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26adfa0" nameToken="0x267dc30" typeStartToken="0x26a8cb0" typeEndToken="0x26a8cb0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae010" nameToken="0x267dd90" typeStartToken="0x26a88f0" typeEndToken="0x26a88f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae080" nameToken="0x267def0" typeStartToken="0x26a89a0" typeEndToken="0x26a89a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae0f0" nameToken="0x267e470" typeStartToken="0x267e050" typeEndToken="0x267e3c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae160" nameToken="0x267e680" typeStartToken="0x267e5d0" typeEndToken="0x267e5d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aeb00" nameToken="0x2680ca0" typeStartToken="0x2680a90" typeEndToken="0x2680bf0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae1d0" nameToken="0x2681380" typeStartToken="0x2681170" typeEndToken="0x26812d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae240" nameToken="0x26866e0" typeStartToken="0x26864d0" typeEndToken="0x2686630" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae2b0" nameToken="0x2687d10" typeStartToken="0x2687c60" typeEndToken="0x2687c60" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ab310" nameToken="0x2689da0" typeStartToken="0x2689b90" typeEndToken="0x2689cf0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ab4b0" nameToken="0x268a9b0" typeStartToken="0x268a900" typeEndToken="0x268a900" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae470" nameToken="0x268c110" typeStartToken="0x268c060" typeEndToken="0x268c060" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae4e0" nameToken="0x268c480" typeStartToken="0x26a8740" typeEndToken="0x26a8740" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae550" nameToken="0x268c740" typeStartToken="0x26a9020" typeEndToken="0x26a9020" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ab8b0" nameToken="0x268d710" typeStartToken="0x268d660" typeEndToken="0x268d660" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aeb70" nameToken="0x268fce0" typeStartToken="0x268fc30" typeEndToken="0x268fc30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aebe0" nameToken="0x268fef0" typeStartToken="0x268fe40" typeEndToken="0x268fe40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aec50" nameToken="0x2690100" typeStartToken="0x2690050" typeEndToken="0x2690050" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aecc0" nameToken="0x2690310" typeStartToken="0x2690260" typeEndToken="0x2690260" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae5c0" nameToken="0x2691ec0" typeStartToken="0x2691e10" typeEndToken="0x2691e10" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae630" nameToken="0x26924f0" typeStartToken="0x2692440" typeEndToken="0x2692440" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aed30" nameToken="0x2693e60" typeStartToken="0x2693db0" typeEndToken="0x2693db0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae6a0" nameToken="0x2694120" typeStartToken="0x2694070" typeEndToken="0x2694070" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae710" nameToken="0x2694280" typeStartToken="0x26a94f0" typeEndToken="0x26a94f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae780" nameToken="0x2694490" typeStartToken="0x26943e0" typeEndToken="0x26943e0" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae7f0" nameToken="0x2694800" typeStartToken="0x26a95a0" typeEndToken="0x26a95a0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae860" nameToken="0x2694ac0" typeStartToken="0x26a97b0" typeEndToken="0x26a97b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aee80" nameToken="0x269ccf0" typeStartToken="0x269cc40" typeEndToken="0x269cc40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae8d0" nameToken="0x269cfb0" typeStartToken="0x269cf00" typeEndToken="0x269cf00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae940" nameToken="0x269d320" typeStartToken="0x269d270" typeEndToken="0x269d270" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26acdb0" nameToken="0x269db60" typeStartToken="0x269dab0" typeEndToken="0x269dab0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aeef0" nameToken="0x269fd10" typeStartToken="0x269fc60" typeEndToken="0x269fc60" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ae9b0" nameToken="0x269ffd0" typeStartToken="0x269ff20" typeEndToken="0x269ff20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ad210" nameToken="0x26a0810" typeStartToken="0x26a0760" typeEndToken="0x26a0760" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aeda0" nameToken="0x26a2700" typeStartToken="0x26a2650" typeEndToken="0x26a2650" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aee10" nameToken="0x26a2910" typeStartToken="0x26a2860" typeEndToken="0x26a2860" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aea20" nameToken="0x26a2bd0" typeStartToken="0x26a2b20" typeEndToken="0x26a2b20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26aea90" nameToken="0x26a55c0" typeStartToken="0x26a53b0" typeEndToken="0x26a5510" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26ada60" nameToken="0x26a5930" typeStartToken="0x26a5880" typeEndToken="0x26a5880" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x26adc20" nameToken="0x26a6380" typeStartToken="0x26a62d0" typeEndToken="0x26a62d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x26814e8">
+      <value tokvalue="0x26814e0" known="true"/>
+    </values>
+    <values id="0x26819b8">
+      <value tokvalue="0x26819b0" known="true"/>
+    </values>
+    <values id="0x2681c78">
+      <value intvalue="8" known="true"/>
+    </values>
+    <values id="0x2682148">
+      <value tokvalue="0x2682140" known="true"/>
+    </values>
+    <values id="0x2682408">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x26828d8">
+      <value tokvalue="0x26828d0" known="true"/>
+    </values>
+    <values id="0x2683068">
+      <value tokvalue="0x2683060" known="true"/>
+    </values>
+    <values id="0x2683828">
+      <value tokvalue="0x2683820" known="true"/>
+    </values>
+    <values id="0x2683fb8">
+      <value tokvalue="0x2683fb0" known="true"/>
+    </values>
+    <values id="0x26845e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2685f58">
+      <value tokvalue="0x2685f50" known="true"/>
+    </values>
+    <values id="0x2686378">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2686b08">
+      <value tokvalue="0x2686b00" known="true"/>
+    </values>
+    <values id="0x2687a58">
+      <value tokvalue="0x2687a50" known="true"/>
+    </values>
+    <values id="0x2688f88">
+      <value tokvalue="0x2688f80" known="true"/>
+    </values>
+    <values id="0x2689618">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x268a148">
+      <value tokvalue="0x268a140" known="true"/>
+    </values>
+    <values id="0x268a4e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x268ab18">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x268b828">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x268bf08">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x268d878">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x268e0b8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x268f088">
+      <value tokvalue="0x268f080" known="true"/>
+    </values>
+    <values id="0x2690b58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2691188">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x26917b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2691b28">
+      <value tokvalue="0x2691b20" known="true"/>
+    </values>
+    <values id="0x2694968">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2695258">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2695a98">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x26960c8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x2696858">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x2696dd8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2697618">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x2697988">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x2698748">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2698a08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2698cc8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x269b3f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x269b768">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x269ba58">
+      <value tokvalue="0x269ba50" known="true"/>
+    </values>
+    <values id="0x269c008">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x269c2f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x269c5e8">
+      <value tokvalue="0x269c5e0" known="true"/>
+    </values>
+    <values id="0x269d118">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x269d748">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x269dcc8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x269e928">
+      <value intvalue="1" possible="true"/>
+    </values>
+    <values id="0x26a03f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x26a0978">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x26a15d8">
+      <value intvalue="1" possible="true"/>
+    </values>
+    <values id="0x26a2ff8">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="1" possible="true"/>
+    </values>
+    <values id="0x26a5a98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x26a64e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x26a7618">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x26a78d8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x26a7b98">
+      <value tokvalue="0x26a7b90" known="true"/>
+    </values>
+    <values id="0x26a8118">
+      <value tokvalue="0x26a8110" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

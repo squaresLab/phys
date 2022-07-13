@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x13a4760" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="COMPILE_TIME_CODE_ROSSERIAL">
+  <tokenlist>
+    <token id="0x13a4e50" file="time_test.cpp" linenr="15" str="ros" scope="0x13a4500" type="name" astParent="0x13a4190"/>
+    <token id="0x13a4190" file="time_test.cpp" linenr="15" str="::" scope="0x13a4500" astOperand1="0x13a4e50" astOperand2="0x13a4a50"/>
+    <token id="0x13a49a0" file="time_test.cpp" linenr="15" str="NodeHandle" scope="0x13a4500" type="name"/>
+    <token id="0x13a4a50" file="time_test.cpp" linenr="15" str="nh" scope="0x13a4500" type="name" varId="1" variable="0x13aa600" astParent="0x13a4190"/>
+    <token id="0x13a4bc0" file="time_test.cpp" linenr="15" str=";" scope="0x13a4500"/>
+    <token id="0x13a4c70" file="time_test.cpp" linenr="17" str="std_msgs" scope="0x13a4500" type="name" astParent="0x13a4d20"/>
+    <token id="0x13a4d20" file="time_test.cpp" linenr="17" str="::" scope="0x13a4500" astOperand1="0x13a4c70" astOperand2="0x13a7550"/>
+    <token id="0x13a74a0" file="time_test.cpp" linenr="17" str="Time" scope="0x13a4500" type="name"/>
+    <token id="0x13a7550" file="time_test.cpp" linenr="17" str="test" scope="0x13a4500" type="name" varId="2" variable="0x13aa670" astParent="0x13a4d20"/>
+    <token id="0x13a7600" file="time_test.cpp" linenr="17" str=";" scope="0x13a4500"/>
+    <token id="0x13a76b0" file="time_test.cpp" linenr="18" str="ros" scope="0x13a4500" type="name" astParent="0x13a7760"/>
+    <token id="0x13a7760" file="time_test.cpp" linenr="18" str="::" scope="0x13a4500" astParent="0x13a7ad0" astOperand1="0x13a76b0" astOperand2="0x13a7a20"/>
+    <token id="0x13a7810" file="time_test.cpp" linenr="18" str="Publisher" scope="0x13a4500" type="name"/>
+    <token id="0x13a7a20" file="time_test.cpp" linenr="18" str="p" scope="0x13a4500" type="name" varId="3" variable="0x13aa990" astParent="0x13a7760"/>
+    <token id="0x13a7ad0" file="time_test.cpp" linenr="18" str="(" scope="0x13a4500" link="0x13a7e40" astOperand1="0x13a7760" astOperand2="0x13a7c30"/>
+    <token id="0x13a7b80" file="time_test.cpp" linenr="18" str="&quot;my_topic&quot;" scope="0x13a4500" type="string" strlen="8" values="0x13a7b88" astParent="0x13a7c30"/>
+    <token id="0x13a7c30" file="time_test.cpp" linenr="18" str="," scope="0x13a4500" astParent="0x13a7ad0" astOperand1="0x13a7b80" astOperand2="0x13a7ce0"/>
+    <token id="0x13a7ce0" file="time_test.cpp" linenr="18" str="&amp;" scope="0x13a4500" type="op" astParent="0x13a7c30" astOperand1="0x13a7d90"/>
+    <token id="0x13a7d90" file="time_test.cpp" linenr="18" str="test" scope="0x13a4500" type="name" varId="2" variable="0x13aa670" astParent="0x13a7ce0"/>
+    <token id="0x13a7e40" file="time_test.cpp" linenr="18" str=")" scope="0x13a4500" link="0x13a7ad0"/>
+    <token id="0x13a7ef0" file="time_test.cpp" linenr="18" str=";" scope="0x13a4500"/>
+    <token id="0x13a7fa0" file="time_test.cpp" linenr="20" str="int" scope="0x13a4500" type="name"/>
+    <token id="0x13a8050" file="time_test.cpp" linenr="20" str="main" scope="0x13a4500" type="name" function="0x13aa730" astParent="0x13a8100"/>
+    <token id="0x13a8100" file="time_test.cpp" linenr="20" str="(" scope="0x13a4500" link="0x13a81b0" astOperand1="0x13a8050"/>
+    <token id="0x13a81b0" file="time_test.cpp" linenr="20" str=")" scope="0x13a4500" link="0x13a8100"/>
+    <token id="0x13a8260" file="time_test.cpp" linenr="20" str="{" scope="0x13aa7d0" link="0x13aa410"/>
+    <token id="0x13a8310" file="time_test.cpp" linenr="21" str="nh" scope="0x13aa7d0" type="name" varId="1" variable="0x13aa600" astParent="0x13a83c0"/>
+    <token id="0x13a83c0" file="time_test.cpp" linenr="21" str="." scope="0x13aa7d0" astParent="0x13a8520" astOperand1="0x13a8310" astOperand2="0x13a8470"/>
+    <token id="0x13a8470" file="time_test.cpp" linenr="21" str="initNode" scope="0x13aa7d0" type="name" astParent="0x13a83c0"/>
+    <token id="0x13a8520" file="time_test.cpp" linenr="21" str="(" scope="0x13aa7d0" link="0x13a85d0" astOperand1="0x13a83c0"/>
+    <token id="0x13a85d0" file="time_test.cpp" linenr="21" str=")" scope="0x13aa7d0" link="0x13a8520"/>
+    <token id="0x13a8680" file="time_test.cpp" linenr="21" str=";" scope="0x13aa7d0"/>
+    <token id="0x13a8730" file="time_test.cpp" linenr="22" str="nh" scope="0x13aa7d0" type="name" varId="1" variable="0x13aa600" astParent="0x13a87e0"/>
+    <token id="0x13a87e0" file="time_test.cpp" linenr="22" str="." scope="0x13aa7d0" astParent="0x13a8940" astOperand1="0x13a8730" astOperand2="0x13a8890"/>
+    <token id="0x13a8890" file="time_test.cpp" linenr="22" str="advertise" scope="0x13aa7d0" type="name" astParent="0x13a87e0"/>
+    <token id="0x13a8940" file="time_test.cpp" linenr="22" str="(" scope="0x13aa7d0" link="0x13a8aa0" astOperand1="0x13a87e0" astOperand2="0x13a89f0"/>
+    <token id="0x13a89f0" file="time_test.cpp" linenr="22" str="p" scope="0x13aa7d0" type="name" varId="3" variable="0x13aa990" astParent="0x13a8940"/>
+    <token id="0x13a8aa0" file="time_test.cpp" linenr="22" str=")" scope="0x13aa7d0" link="0x13a8940"/>
+    <token id="0x13a8b50" file="time_test.cpp" linenr="22" str=";" scope="0x13aa7d0"/>
+    <token id="0x13a8c00" file="time_test.cpp" linenr="24" str="while" scope="0x13aa7d0" type="name" astParent="0x13a8cb0"/>
+    <token id="0x13a8cb0" file="time_test.cpp" linenr="24" str="(" scope="0x13aa7d0" link="0x13a8e10" astOperand1="0x13a8c00" astOperand2="0x13a8d60"/>
+    <token id="0x13a8d60" file="time_test.cpp" linenr="24" str="1" scope="0x13aa7d0" type="number" isInt="True" values="0x13a8d68" astParent="0x13a8cb0"/>
+    <token id="0x13a8e10" file="time_test.cpp" linenr="24" str=")" scope="0x13aa7d0" link="0x13a8cb0"/>
+    <token id="0x13a8ec0" file="time_test.cpp" linenr="24" str="{" scope="0x13aa4d0" link="0x13aa360"/>
+    <token id="0x13a8f70" file="time_test.cpp" linenr="25" str="test" scope="0x13aa4d0" type="name" varId="2" variable="0x13aa670" astParent="0x13a9020"/>
+    <token id="0x13a9020" file="time_test.cpp" linenr="25" str="." scope="0x13aa4d0" astParent="0x13a9180" astOperand1="0x13a8f70" astOperand2="0x13a90d0"/>
+    <token id="0x13a90d0" file="time_test.cpp" linenr="25" str="data" scope="0x13aa4d0" type="name" varId="4" astParent="0x13a9020"/>
+    <token id="0x13a9180" file="time_test.cpp" linenr="25" str="=" scope="0x13aa4d0" type="op" isAssignmentOp="True" astOperand1="0x13a9020" astOperand2="0x13a9440"/>
+    <token id="0x13a9230" file="time_test.cpp" linenr="25" str="nh" scope="0x13aa4d0" type="name" varId="1" variable="0x13aa600" astParent="0x13a92e0"/>
+    <token id="0x13a92e0" file="time_test.cpp" linenr="25" str="." scope="0x13aa4d0" astParent="0x13a9440" astOperand1="0x13a9230" astOperand2="0x13a9390"/>
+    <token id="0x13a9390" file="time_test.cpp" linenr="25" str="now" scope="0x13aa4d0" type="name" astParent="0x13a92e0"/>
+    <token id="0x13a9440" file="time_test.cpp" linenr="25" str="(" scope="0x13aa4d0" link="0x13a94f0" astParent="0x13a9180" astOperand1="0x13a92e0"/>
+    <token id="0x13a94f0" file="time_test.cpp" linenr="25" str=")" scope="0x13aa4d0" link="0x13a9440"/>
+    <token id="0x13a95a0" file="time_test.cpp" linenr="25" str=";" scope="0x13aa4d0"/>
+    <token id="0x13a9650" file="time_test.cpp" linenr="26" str="p" scope="0x13aa4d0" type="name" varId="3" variable="0x13aa990" astParent="0x13a9700"/>
+    <token id="0x13a9700" file="time_test.cpp" linenr="26" str="." scope="0x13aa4d0" astParent="0x13a9860" astOperand1="0x13a9650" astOperand2="0x13a97b0"/>
+    <token id="0x13a97b0" file="time_test.cpp" linenr="26" str="publish" scope="0x13aa4d0" type="name" astParent="0x13a9700"/>
+    <token id="0x13a9860" file="time_test.cpp" linenr="26" str="(" scope="0x13aa4d0" link="0x13a9a70" astOperand1="0x13a9700" astOperand2="0x13a9910"/>
+    <token id="0x13a9910" file="time_test.cpp" linenr="26" str="&amp;" scope="0x13aa4d0" type="op" astParent="0x13a9860" astOperand1="0x13a99c0"/>
+    <token id="0x13a99c0" file="time_test.cpp" linenr="26" str="test" scope="0x13aa4d0" type="name" varId="2" variable="0x13aa670" astParent="0x13a9910"/>
+    <token id="0x13a9a70" file="time_test.cpp" linenr="26" str=")" scope="0x13aa4d0" link="0x13a9860"/>
+    <token id="0x13a9b20" file="time_test.cpp" linenr="26" str=";" scope="0x13aa4d0"/>
+    <token id="0x13a9bd0" file="time_test.cpp" linenr="27" str="nh" scope="0x13aa4d0" type="name" varId="1" variable="0x13aa600" astParent="0x13a9c80"/>
+    <token id="0x13a9c80" file="time_test.cpp" linenr="27" str="." scope="0x13aa4d0" astParent="0x13a9de0" astOperand1="0x13a9bd0" astOperand2="0x13a9d30"/>
+    <token id="0x13a9d30" file="time_test.cpp" linenr="27" str="spinOnce" scope="0x13aa4d0" type="name" astParent="0x13a9c80"/>
+    <token id="0x13a9de0" file="time_test.cpp" linenr="27" str="(" scope="0x13aa4d0" link="0x13a9e90" astOperand1="0x13a9c80"/>
+    <token id="0x13a9e90" file="time_test.cpp" linenr="27" str=")" scope="0x13aa4d0" link="0x13a9de0"/>
+    <token id="0x13a9f40" file="time_test.cpp" linenr="27" str=";" scope="0x13aa4d0"/>
+    <token id="0x13a9ff0" file="time_test.cpp" linenr="28" str="wait_ms" scope="0x13aa4d0" type="name" astParent="0x13aa0a0"/>
+    <token id="0x13aa0a0" file="time_test.cpp" linenr="28" str="(" scope="0x13aa4d0" link="0x13aa200" astOperand1="0x13a9ff0" astOperand2="0x13aa150"/>
+    <token id="0x13aa150" file="time_test.cpp" linenr="28" str="10" scope="0x13aa4d0" type="number" isInt="True" values="0x13aa158" astParent="0x13aa0a0"/>
+    <token id="0x13aa200" file="time_test.cpp" linenr="28" str=")" scope="0x13aa4d0" link="0x13aa0a0"/>
+    <token id="0x13aa2b0" file="time_test.cpp" linenr="28" str=";" scope="0x13aa4d0"/>
+    <token id="0x13aa360" file="time_test.cpp" linenr="29" str="}" scope="0x13aa4d0" link="0x13a8ec0"/>
+    <token id="0x13aa410" file="time_test.cpp" linenr="30" str="}" scope="0x13aa7d0" link="0x13a8260"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x13a4500" type="Global">
+      <functionList>
+        <function id="0x13aa730" tokenDef="0x13a8050" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x13aa600"/>
+        <var id="0x13aa670"/>
+        <var id="0x13aa990"/>
+      </varlist>
+    </scope>
+    <scope id="0x13aa7d0" type="Function" className="main" classStart="0x13a8260" classEnd="0x13aa410" nestedIn="0x13a4500" function="0x13aa730"/>
+    <scope id="0x13aa4d0" type="While" classStart="0x13a8ec0" classEnd="0x13aa360" nestedIn="0x13aa7d0"/>
+  </scopes>
+  <variables>
+    <var id="0x13aa600" nameToken="0x13a4a50" typeStartToken="0x13a4e50" typeEndToken="0x13a49a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x13aa670" nameToken="0x13a7550" typeStartToken="0x13a4c70" typeEndToken="0x13a74a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x13aa990" nameToken="0x13a7a20" typeStartToken="0x13a76b0" typeEndToken="0x13a7810" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x13a7b88">
+      <value tokvalue="0x13a7b80" known="true"/>
+    </values>
+    <values id="0x13a8d68">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x13aa158">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

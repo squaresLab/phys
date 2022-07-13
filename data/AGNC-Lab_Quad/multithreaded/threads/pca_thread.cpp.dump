@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1515420" file="pca_thread.cpp" linenr="7" str="using" scope="0x15391d0" type="name"/>
+    <token id="0x15154d0" file="pca_thread.cpp" linenr="7" str="Eigen" scope="0x15391d0" type="name" astParent="0x1523320"/>
+    <token id="0x1523320" file="pca_thread.cpp" linenr="7" str="::" scope="0x15391d0" astOperand1="0x15154d0" astOperand2="0x15233d0"/>
+    <token id="0x15233d0" file="pca_thread.cpp" linenr="7" str="Matrix" scope="0x15391d0" type="name" astParent="0x1523320"/>
+    <token id="0x1523480" file="pca_thread.cpp" linenr="7" str=";" scope="0x15391d0"/>
+    <token id="0x1523530" file="pca_thread.cpp" linenr="8" str="using" scope="0x15391d0" type="name"/>
+    <token id="0x15235e0" file="pca_thread.cpp" linenr="8" str="namespace" scope="0x15391d0" type="name"/>
+    <token id="0x1523690" file="pca_thread.cpp" linenr="8" str="neosmart" scope="0x15391d0" type="name"/>
+    <token id="0x1523740" file="pca_thread.cpp" linenr="8" str=";" scope="0x15391d0"/>
+    <token id="0x15237f0" file="pca_thread.cpp" linenr="12" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x15238a0" file="pca_thread.cpp" linenr="12" str="pthread_mutex_t" scope="0x15391d0" type="name"/>
+    <token id="0x1523950" file="pca_thread.cpp" linenr="12" str="PCA_Mutex" scope="0x15391d0" type="name" varId="1" variable="0x153a800"/>
+    <token id="0x1523a00" file="pca_thread.cpp" linenr="12" str=";" scope="0x15391d0"/>
+    <token id="0x1523ab0" file="pca_thread.cpp" linenr="13" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1523b60" file="pca_thread.cpp" linenr="13" str="pthread_mutex_t" scope="0x15391d0" type="name"/>
+    <token id="0x1523c40" file="pca_thread.cpp" linenr="13" str="stateMachine_Mutex" scope="0x15391d0" type="name" varId="2" variable="0x153a870"/>
+    <token id="0x1523d20" file="pca_thread.cpp" linenr="13" str=";" scope="0x15391d0"/>
+    <token id="0x1523dd0" file="pca_thread.cpp" linenr="14" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1523e80" file="pca_thread.cpp" linenr="14" str="Matrix" scope="0x15391d0" type="name"/>
+    <token id="0x1523f30" file="pca_thread.cpp" linenr="14" str="&lt;" scope="0x15391d0" link="0x1527770"/>
+    <token id="0x1523fe0" file="pca_thread.cpp" linenr="14" str="float" scope="0x15391d0" type="name"/>
+    <token id="0x1524090" file="pca_thread.cpp" linenr="14" str="," scope="0x15391d0"/>
+    <token id="0x1524140" file="pca_thread.cpp" linenr="14" str="4" scope="0x15391d0" type="number" isInt="True" values="0x1524148"/>
+    <token id="0x15241f0" file="pca_thread.cpp" linenr="14" str="," scope="0x15391d0"/>
+    <token id="0x15276c0" file="pca_thread.cpp" linenr="14" str="1" scope="0x15391d0" type="number" isInt="True" values="0x15276c8"/>
+    <token id="0x1527770" file="pca_thread.cpp" linenr="14" str="&gt;" scope="0x15391d0" link="0x1523f30"/>
+    <token id="0x1527820" file="pca_thread.cpp" linenr="14" str="PCA_Data" scope="0x15391d0" type="name" varId="3" variable="0x153a8e0"/>
+    <token id="0x15278d0" file="pca_thread.cpp" linenr="14" str=";" scope="0x15391d0"/>
+    <token id="0x1527980" file="pca_thread.cpp" linenr="17" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1527a30" file="pca_thread.cpp" linenr="17" str="neosmart_event_t" scope="0x15391d0" type="name"/>
+    <token id="0x1527b10" file="pca_thread.cpp" linenr="17" str="e_Timeout" scope="0x15391d0" type="name" varId="4" variable="0x153a970"/>
+    <token id="0x1527bc0" file="pca_thread.cpp" linenr="17" str=";" scope="0x15391d0"/>
+    <token id="0x1527c70" file="pca_thread.cpp" linenr="18" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1527d20" file="pca_thread.cpp" linenr="18" str="neosmart_event_t" scope="0x15391d0" type="name"/>
+    <token id="0x1527e00" file="pca_thread.cpp" linenr="18" str="e_PCA_trigger" scope="0x15391d0" type="name" varId="5" variable="0x153a9e0"/>
+    <token id="0x1527eb0" file="pca_thread.cpp" linenr="18" str=";" scope="0x15391d0"/>
+    <token id="0x1527f60" file="pca_thread.cpp" linenr="19" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1528010" file="pca_thread.cpp" linenr="19" str="I2C" scope="0x15391d0" type="name"/>
+    <token id="0x15280c0" file="pca_thread.cpp" linenr="19" str="i2c" scope="0x15391d0" type="name" varId="6" variable="0x153aa50"/>
+    <token id="0x1528170" file="pca_thread.cpp" linenr="19" str=";" scope="0x15391d0"/>
+    <token id="0x1528220" file="pca_thread.cpp" linenr="21" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x15282d0" file="pca_thread.cpp" linenr="21" str="int" scope="0x15391d0" type="name"/>
+    <token id="0x1528380" file="pca_thread.cpp" linenr="21" str="threadCount" scope="0x15391d0" type="name" varId="7" variable="0x153aac0"/>
+    <token id="0x1528430" file="pca_thread.cpp" linenr="21" str=";" scope="0x15391d0"/>
+    <token id="0x15284e0" file="pca_thread.cpp" linenr="22" str="extern" scope="0x15391d0" type="name"/>
+    <token id="0x1528590" file="pca_thread.cpp" linenr="22" str="int" scope="0x15391d0" type="name"/>
+    <token id="0x1528640" file="pca_thread.cpp" linenr="22" str="currentState" scope="0x15391d0" type="name" varId="8" variable="0x153ab30"/>
+    <token id="0x15286f0" file="pca_thread.cpp" linenr="22" str=";" scope="0x15391d0"/>
+    <token id="0x15287a0" file="pca_thread.cpp" linenr="25" str="pca9685" scope="0x15391d0" type="name"/>
+    <token id="0x1528850" file="pca_thread.cpp" linenr="25" str="pca" scope="0x15391d0" type="name" varId="9" variable="0x153aba0" astParent="0x1528900"/>
+    <token id="0x1528900" file="pca_thread.cpp" linenr="25" str="(" scope="0x15391d0" link="0x1528b10" astOperand1="0x1528850" astOperand2="0x15289b0"/>
+    <token id="0x15289b0" file="pca_thread.cpp" linenr="25" str="&amp;" scope="0x15391d0" type="op" astParent="0x1528900" astOperand1="0x1528a60"/>
+    <token id="0x1528a60" file="pca_thread.cpp" linenr="25" str="i2c" scope="0x15391d0" type="name" varId="6" variable="0x153aa50" astParent="0x15289b0"/>
+    <token id="0x1528b10" file="pca_thread.cpp" linenr="25" str=")" scope="0x15391d0" link="0x1528900"/>
+    <token id="0x1528bc0" file="pca_thread.cpp" linenr="25" str=";" scope="0x15391d0"/>
+    <token id="0x1528c70" file="pca_thread.cpp" linenr="28" str="void" scope="0x15391d0" type="name" astParent="0x1528d20"/>
+    <token id="0x1528d20" file="pca_thread.cpp" linenr="28" str="*" scope="0x15391d0" type="op" isArithmeticalOp="True" astOperand1="0x1528c70" astOperand2="0x1528e80"/>
+    <token id="0x1528dd0" file="pca_thread.cpp" linenr="28" str="PCA_Timer" scope="0x15391d0" type="name" function="0x15395e0" astParent="0x1528e80"/>
+    <token id="0x1528e80" file="pca_thread.cpp" linenr="28" str="(" scope="0x15391d0" link="0x1529140" astParent="0x1528d20" astOperand1="0x1528dd0" astOperand2="0x1528fe0"/>
+    <token id="0x1528f30" file="pca_thread.cpp" linenr="28" str="void" scope="0x15391d0" type="name" astParent="0x1528fe0"/>
+    <token id="0x1528fe0" file="pca_thread.cpp" linenr="28" str="*" scope="0x15391d0" type="op" isArithmeticalOp="True" astParent="0x1528e80" astOperand1="0x1528f30" astOperand2="0x1529090"/>
+    <token id="0x1529090" file="pca_thread.cpp" linenr="28" str="threadID" scope="0x15391d0" type="name" varId="10" variable="0x153ae40" astParent="0x1528fe0"/>
+    <token id="0x1529140" file="pca_thread.cpp" linenr="28" str=")" scope="0x15391d0" link="0x1528e80"/>
+    <token id="0x15291f0" file="pca_thread.cpp" linenr="28" str="{" scope="0x1539680" link="0x152cd70"/>
+    <token id="0x15292a0" file="pca_thread.cpp" linenr="30" str="printf" scope="0x1539680" type="name" astParent="0x1529350"/>
+    <token id="0x1529350" file="pca_thread.cpp" linenr="30" str="(" scope="0x1539680" link="0x1529c80" astOperand1="0x15292a0" astOperand2="0x1529460"/>
+    <token id="0x1529460" file="pca_thread.cpp" linenr="30" str="&quot;PCA_Timer has started!\n&quot;" scope="0x1539680" type="string" strlen="23" values="0x1529468" astParent="0x1529350"/>
+    <token id="0x1529c80" file="pca_thread.cpp" linenr="30" str=")" scope="0x1539680" link="0x1529350"/>
+    <token id="0x1529d30" file="pca_thread.cpp" linenr="30" str=";" scope="0x1539680"/>
+    <token id="0x1529de0" file="pca_thread.cpp" linenr="31" str="int" scope="0x1539680" type="name"/>
+    <token id="0x1529e90" file="pca_thread.cpp" linenr="31" str="SamplingTime" scope="0x1539680" type="name" varId="11" variable="0x153ac10"/>
+    <token id="0x1529f40" file="pca_thread.cpp" linenr="31" str=";" scope="0x1539680"/>
+    <token id="0x1524cc0" file="pca_thread.cpp" linenr="31" str="SamplingTime" scope="0x1539680" type="name" varId="11" variable="0x153ac10" astParent="0x1524d70"/>
+    <token id="0x1524d70" file="pca_thread.cpp" linenr="31" str="=" scope="0x1539680" type="op" isAssignmentOp="True" astOperand1="0x1524cc0" astOperand2="0x1529ff0"/>
+    <token id="0x1529ff0" file="pca_thread.cpp" linenr="31" str="8" scope="0x1539680" type="number" isInt="True" values="0x1529ff8" astParent="0x1524d70"/>
+    <token id="0x152a0a0" file="pca_thread.cpp" linenr="31" str=";" scope="0x1539680"/>
+    <token id="0x152a150" file="pca_thread.cpp" linenr="32" str="int" scope="0x1539680" type="name"/>
+    <token id="0x152a200" file="pca_thread.cpp" linenr="32" str="localCurrentState" scope="0x1539680" type="name" varId="12" variable="0x153ac80"/>
+    <token id="0x152a2b0" file="pca_thread.cpp" linenr="32" str=";" scope="0x1539680"/>
+    <token id="0x152a360" file="pca_thread.cpp" linenr="35" str="while" scope="0x1539680" type="name" astParent="0x152a410"/>
+    <token id="0x152a410" file="pca_thread.cpp" linenr="35" str="(" scope="0x1539680" link="0x152a570" astOperand1="0x152a360" astOperand2="0x152a4c0"/>
+    <token id="0x152a4c0" file="pca_thread.cpp" linenr="35" str="1" scope="0x1539680" type="number" isInt="True" values="0x152a4c8" astParent="0x152a410"/>
+    <token id="0x152a570" file="pca_thread.cpp" linenr="35" str=")" scope="0x1539680" link="0x152a410"/>
+    <token id="0x152a620" file="pca_thread.cpp" linenr="35" str="{" scope="0x1539840" link="0x152c1e0"/>
+    <token id="0x152a6d0" file="pca_thread.cpp" linenr="36" str="WaitForEvent" scope="0x1539840" type="name" astParent="0x152a780"/>
+    <token id="0x152a780" file="pca_thread.cpp" linenr="36" str="(" scope="0x1539840" link="0x152aa40" astOperand1="0x152a6d0" astOperand2="0x152a8e0"/>
+    <token id="0x152a830" file="pca_thread.cpp" linenr="36" str="e_Timeout" scope="0x1539840" type="name" varId="4" variable="0x153a970" astParent="0x152a8e0"/>
+    <token id="0x152a8e0" file="pca_thread.cpp" linenr="36" str="," scope="0x1539840" astParent="0x152a780" astOperand1="0x152a830" astOperand2="0x152a990"/>
+    <token id="0x152a990" file="pca_thread.cpp" linenr="36" str="SamplingTime" scope="0x1539840" type="name" varId="11" variable="0x153ac10" values="0x152a998" astParent="0x152a8e0"/>
+    <token id="0x152aa40" file="pca_thread.cpp" linenr="36" str=")" scope="0x1539840" link="0x152a780"/>
+    <token id="0x152aaf0" file="pca_thread.cpp" linenr="36" str=";" scope="0x1539840"/>
+    <token id="0x152aba0" file="pca_thread.cpp" linenr="39" str="pthread_mutex_lock" scope="0x1539840" type="name" astParent="0x152ac50"/>
+    <token id="0x152ac50" file="pca_thread.cpp" linenr="39" str="(" scope="0x1539840" link="0x152ae90" astOperand1="0x152aba0" astOperand2="0x152ad00"/>
+    <token id="0x152ad00" file="pca_thread.cpp" linenr="39" str="&amp;" scope="0x1539840" type="op" astParent="0x152ac50" astOperand1="0x152adb0"/>
+    <token id="0x152adb0" file="pca_thread.cpp" linenr="39" str="stateMachine_Mutex" scope="0x1539840" type="name" varId="2" variable="0x153a870" astParent="0x152ad00"/>
+    <token id="0x152ae90" file="pca_thread.cpp" linenr="39" str=")" scope="0x1539840" link="0x152ac50"/>
+    <token id="0x152af40" file="pca_thread.cpp" linenr="39" str=";" scope="0x1539840"/>
+    <token id="0x152aff0" file="pca_thread.cpp" linenr="40" str="localCurrentState" scope="0x1539840" type="name" varId="12" variable="0x153ac80" astParent="0x152b0d0"/>
+    <token id="0x152b0d0" file="pca_thread.cpp" linenr="40" str="=" scope="0x1539840" type="op" isAssignmentOp="True" astOperand1="0x152aff0" astOperand2="0x152b180"/>
+    <token id="0x152b180" file="pca_thread.cpp" linenr="40" str="currentState" scope="0x1539840" type="name" varId="8" variable="0x153ab30" astParent="0x152b0d0"/>
+    <token id="0x152b230" file="pca_thread.cpp" linenr="40" str=";" scope="0x1539840"/>
+    <token id="0x152b2e0" file="pca_thread.cpp" linenr="41" str="pthread_mutex_unlock" scope="0x1539840" type="name" astParent="0x152b3c0"/>
+    <token id="0x152b3c0" file="pca_thread.cpp" linenr="41" str="(" scope="0x1539840" link="0x152b600" astOperand1="0x152b2e0" astOperand2="0x152b470"/>
+    <token id="0x152b470" file="pca_thread.cpp" linenr="41" str="&amp;" scope="0x1539840" type="op" astParent="0x152b3c0" astOperand1="0x152b520"/>
+    <token id="0x152b520" file="pca_thread.cpp" linenr="41" str="stateMachine_Mutex" scope="0x1539840" type="name" varId="2" variable="0x153a870" astParent="0x152b470"/>
+    <token id="0x152b600" file="pca_thread.cpp" linenr="41" str=")" scope="0x1539840" link="0x152b3c0"/>
+    <token id="0x152b6b0" file="pca_thread.cpp" linenr="41" str=";" scope="0x1539840"/>
+    <token id="0x152b760" file="pca_thread.cpp" linenr="44" str="if" scope="0x1539840" type="name" astParent="0x152b810"/>
+    <token id="0x152b810" file="pca_thread.cpp" linenr="44" str="(" scope="0x1539840" link="0x152bb00" astOperand1="0x152b760" astOperand2="0x152b9a0"/>
+    <token id="0x152b8c0" file="pca_thread.cpp" linenr="44" str="localCurrentState" scope="0x1539840" type="name" varId="12" variable="0x153ac80" values="0x152b8c8" astParent="0x152b9a0"/>
+    <token id="0x152b9a0" file="pca_thread.cpp" linenr="44" str="==" scope="0x1539840" type="op" isComparisonOp="True" values="0x152b9a8" astParent="0x152b810" astOperand1="0x152b8c0" astOperand2="0x152ba50"/>
+    <token id="0x152ba50" file="pca_thread.cpp" linenr="44" str="6" scope="0x1539840" type="number" isInt="True" values="0x152ba58" astParent="0x152b9a0"/>
+    <token id="0x152bb00" file="pca_thread.cpp" linenr="44" str=")" scope="0x1539840" link="0x152b810"/>
+    <token id="0x152bbb0" file="pca_thread.cpp" linenr="44" str="{" scope="0x1539ef0" link="0x152bdc0"/>
+    <token id="0x152bc60" file="pca_thread.cpp" linenr="45" str="break" scope="0x1539ef0" type="name"/>
+    <token id="0x152bd10" file="pca_thread.cpp" linenr="45" str=";" scope="0x1539ef0"/>
+    <token id="0x152bdc0" file="pca_thread.cpp" linenr="46" str="}" scope="0x1539ef0" link="0x152bbb0"/>
+    <token id="0x152be70" file="pca_thread.cpp" linenr="48" str="SetEvent" scope="0x1539840" type="name" astParent="0x152bf20"/>
+    <token id="0x152bf20" file="pca_thread.cpp" linenr="48" str="(" scope="0x1539840" link="0x152c080" astOperand1="0x152be70" astOperand2="0x152bfd0"/>
+    <token id="0x152bfd0" file="pca_thread.cpp" linenr="48" str="e_PCA_trigger" scope="0x1539840" type="name" varId="5" variable="0x153a9e0" astParent="0x152bf20"/>
+    <token id="0x152c080" file="pca_thread.cpp" linenr="48" str=")" scope="0x1539840" link="0x152bf20"/>
+    <token id="0x152c130" file="pca_thread.cpp" linenr="48" str=";" scope="0x1539840"/>
+    <token id="0x152c1e0" file="pca_thread.cpp" linenr="49" str="}" scope="0x1539840" link="0x152a620"/>
+    <token id="0x152c290" file="pca_thread.cpp" linenr="51" str="printf" scope="0x1539680" type="name" astParent="0x152c340"/>
+    <token id="0x152c340" file="pca_thread.cpp" linenr="51" str="(" scope="0x1539680" link="0x152c530" astOperand1="0x152c290" astOperand2="0x152c450"/>
+    <token id="0x152c450" file="pca_thread.cpp" linenr="51" str="&quot;PCA_Timer stopping...\n&quot;" scope="0x1539680" type="string" strlen="22" values="0x152c458" astParent="0x152c340"/>
+    <token id="0x152c530" file="pca_thread.cpp" linenr="51" str=")" scope="0x1539680" link="0x152c340"/>
+    <token id="0x152c5e0" file="pca_thread.cpp" linenr="51" str=";" scope="0x1539680"/>
+    <token id="0x152c690" file="pca_thread.cpp" linenr="52" str="threadCount" scope="0x1539680" type="name" varId="7" variable="0x153aac0" astParent="0x152c740"/>
+    <token id="0x152c740" file="pca_thread.cpp" linenr="52" str="-=" scope="0x1539680" type="op" isAssignmentOp="True" astOperand1="0x152c690" astOperand2="0x152c8a0"/>
+    <token id="0x152c8a0" file="pca_thread.cpp" linenr="52" str="1" scope="0x1539680" type="number" isInt="True" values="0x152c8a8" astParent="0x152c740"/>
+    <token id="0x152c950" file="pca_thread.cpp" linenr="52" str=";" scope="0x1539680"/>
+    <token id="0x152ca00" file="pca_thread.cpp" linenr="53" str="pthread_exit" scope="0x1539680" type="name" astParent="0x152cab0"/>
+    <token id="0x152cab0" file="pca_thread.cpp" linenr="53" str="(" scope="0x1539680" link="0x152cc10" astOperand1="0x152ca00" astOperand2="0x152cb60"/>
+    <token id="0x152cb60" file="pca_thread.cpp" linenr="53" str="NULL" scope="0x1539680" type="name" astParent="0x152cab0"/>
+    <token id="0x152cc10" file="pca_thread.cpp" linenr="53" str=")" scope="0x1539680" link="0x152cab0"/>
+    <token id="0x152ccc0" file="pca_thread.cpp" linenr="53" str=";" scope="0x1539680"/>
+    <token id="0x152cd70" file="pca_thread.cpp" linenr="54" str="}" scope="0x1539680" link="0x15291f0"/>
+    <token id="0x152ce20" file="pca_thread.cpp" linenr="56" str="void" scope="0x15391d0" type="name" astParent="0x152ced0"/>
+    <token id="0x152ced0" file="pca_thread.cpp" linenr="56" str="*" scope="0x15391d0" type="op" isArithmeticalOp="True" astOperand1="0x152ce20" astOperand2="0x152d030"/>
+    <token id="0x152cf80" file="pca_thread.cpp" linenr="56" str="PCA_Task" scope="0x15391d0" type="name" function="0x153a020" astParent="0x152d030"/>
+    <token id="0x152d030" file="pca_thread.cpp" linenr="56" str="(" scope="0x15391d0" link="0x152d2f0" astParent="0x152ced0" astOperand1="0x152cf80" astOperand2="0x152d190"/>
+    <token id="0x152d0e0" file="pca_thread.cpp" linenr="56" str="void" scope="0x15391d0" type="name" astParent="0x152d190"/>
+    <token id="0x152d190" file="pca_thread.cpp" linenr="56" str="*" scope="0x15391d0" type="op" isArithmeticalOp="True" astParent="0x152d030" astOperand1="0x152d0e0" astOperand2="0x152d240"/>
+    <token id="0x152d240" file="pca_thread.cpp" linenr="56" str="threadID" scope="0x15391d0" type="name" varId="13" variable="0x153aeb0" astParent="0x152d190"/>
+    <token id="0x152d2f0" file="pca_thread.cpp" linenr="56" str=")" scope="0x15391d0" link="0x152d030"/>
+    <token id="0x152d3a0" file="pca_thread.cpp" linenr="56" str="{" scope="0x153a0c0" link="0x1539060"/>
+    <token id="0x152d450" file="pca_thread.cpp" linenr="57" str="printf" scope="0x153a0c0" type="name" astParent="0x152d500"/>
+    <token id="0x152d500" file="pca_thread.cpp" linenr="57" str="(" scope="0x153a0c0" link="0x152d690" astOperand1="0x152d450" astOperand2="0x152d5b0"/>
+    <token id="0x152d5b0" file="pca_thread.cpp" linenr="57" str="&quot;PCA_Task has started!\n&quot;" scope="0x153a0c0" type="string" strlen="22" values="0x152d5b8" astParent="0x152d500"/>
+    <token id="0x152d690" file="pca_thread.cpp" linenr="57" str=")" scope="0x153a0c0" link="0x152d500"/>
+    <token id="0x152d740" file="pca_thread.cpp" linenr="57" str=";" scope="0x153a0c0"/>
+    <token id="0x152d7f0" file="pca_thread.cpp" linenr="58" str="Matrix" scope="0x153a0c0" type="name"/>
+    <token id="0x152d8a0" file="pca_thread.cpp" linenr="58" str="&lt;" scope="0x153a0c0" link="0x152dcc0"/>
+    <token id="0x152d950" file="pca_thread.cpp" linenr="58" str="float" scope="0x153a0c0" type="name"/>
+    <token id="0x152da00" file="pca_thread.cpp" linenr="58" str="," scope="0x153a0c0"/>
+    <token id="0x152dab0" file="pca_thread.cpp" linenr="58" str="4" scope="0x153a0c0" type="number" isInt="True" values="0x152dab8"/>
+    <token id="0x152db60" file="pca_thread.cpp" linenr="58" str="," scope="0x153a0c0"/>
+    <token id="0x152dc10" file="pca_thread.cpp" linenr="58" str="1" scope="0x153a0c0" type="number" isInt="True" values="0x152dc18"/>
+    <token id="0x152dcc0" file="pca_thread.cpp" linenr="58" str="&gt;" scope="0x153a0c0" link="0x152d8a0"/>
+    <token id="0x152dd70" file="pca_thread.cpp" linenr="58" str="localPCA_Data" scope="0x153a0c0" type="name" varId="14" variable="0x153acf0"/>
+    <token id="0x152de20" file="pca_thread.cpp" linenr="58" str=";" scope="0x153a0c0"/>
+    <token id="0x152ded0" file="pca_thread.cpp" linenr="59" str="int" scope="0x153a0c0" type="name"/>
+    <token id="0x152df80" file="pca_thread.cpp" linenr="59" str="localCurrentState" scope="0x153a0c0" type="name" varId="15" variable="0x153ad60"/>
+    <token id="0x152e030" file="pca_thread.cpp" linenr="59" str=";" scope="0x153a0c0"/>
+    <token id="0x152e0e0" file="pca_thread.cpp" linenr="61" str="WaitForEvent" scope="0x153a0c0" type="name" astParent="0x152e190"/>
+    <token id="0x152e190" file="pca_thread.cpp" linenr="61" str="(" scope="0x153a0c0" link="0x152e500" astOperand1="0x152e0e0" astOperand2="0x152e2f0"/>
+    <token id="0x152e240" file="pca_thread.cpp" linenr="61" str="e_PCA_trigger" scope="0x153a0c0" type="name" varId="5" variable="0x153a9e0" astParent="0x152e2f0"/>
+    <token id="0x152e2f0" file="pca_thread.cpp" linenr="61" str="," scope="0x153a0c0" astParent="0x152e190" astOperand1="0x152e240" astOperand2="0x152e450"/>
+    <token id="0x152e450" file="pca_thread.cpp" linenr="61" str="-1" scope="0x153a0c0" type="number" isInt="True" values="0x152e458" astParent="0x152e2f0"/>
+    <token id="0x152e500" file="pca_thread.cpp" linenr="61" str=")" scope="0x153a0c0" link="0x152e190"/>
+    <token id="0x152e5b0" file="pca_thread.cpp" linenr="61" str=";" scope="0x153a0c0"/>
+    <token id="0x152e660" file="pca_thread.cpp" linenr="63" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x152e710"/>
+    <token id="0x152e710" file="pca_thread.cpp" linenr="63" str="." scope="0x153a0c0" astParent="0x152e870" astOperand1="0x152e660" astOperand2="0x152e7c0"/>
+    <token id="0x152e7c0" file="pca_thread.cpp" linenr="63" str="initialize" scope="0x153a0c0" type="name" astParent="0x152e710"/>
+    <token id="0x152e870" file="pca_thread.cpp" linenr="63" str="(" scope="0x153a0c0" link="0x152e920" astOperand1="0x152e710"/>
+    <token id="0x152e920" file="pca_thread.cpp" linenr="63" str=")" scope="0x153a0c0" link="0x152e870"/>
+    <token id="0x152e9d0" file="pca_thread.cpp" linenr="63" str=";" scope="0x153a0c0"/>
+    <token id="0x152ea80" file="pca_thread.cpp" linenr="64" str="float" scope="0x153a0c0" type="name"/>
+    <token id="0x152eb30" file="pca_thread.cpp" linenr="64" str="freq" scope="0x153a0c0" type="name" varId="16" variable="0x153add0"/>
+    <token id="0x152ebe0" file="pca_thread.cpp" linenr="64" str=";" scope="0x153a0c0"/>
+    <token id="0x1539370" file="pca_thread.cpp" linenr="64" str="freq" scope="0x153a0c0" type="name" varId="16" variable="0x153add0" astParent="0x1539420"/>
+    <token id="0x1539420" file="pca_thread.cpp" linenr="64" str="=" scope="0x153a0c0" type="op" isAssignmentOp="True" astOperand1="0x1539370" astOperand2="0x152ec90"/>
+    <token id="0x152ec90" file="pca_thread.cpp" linenr="64" str="500" scope="0x153a0c0" type="number" isInt="True" values="0x152ec98" astParent="0x1539420"/>
+    <token id="0x152ed40" file="pca_thread.cpp" linenr="64" str=";" scope="0x153a0c0"/>
+    <token id="0x152edf0" file="pca_thread.cpp" linenr="66" str="if" scope="0x153a0c0" type="name" astParent="0x152eea0"/>
+    <token id="0x152eea0" file="pca_thread.cpp" linenr="66" str="(" scope="0x153a0c0" link="0x152f580" astOperand1="0x152edf0" astOperand2="0x152f370"/>
+    <token id="0x152ef50" file="pca_thread.cpp" linenr="66" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x152f000"/>
+    <token id="0x152f000" file="pca_thread.cpp" linenr="66" str="." scope="0x153a0c0" astParent="0x152f160" astOperand1="0x152ef50" astOperand2="0x152f0b0"/>
+    <token id="0x152f0b0" file="pca_thread.cpp" linenr="66" str="pwmFreq" scope="0x153a0c0" type="name" astParent="0x152f000"/>
+    <token id="0x152f160" file="pca_thread.cpp" linenr="66" str="(" scope="0x153a0c0" link="0x152f2c0" astParent="0x152f370" astOperand1="0x152f000" astOperand2="0x152f210"/>
+    <token id="0x152f210" file="pca_thread.cpp" linenr="66" str="freq" scope="0x153a0c0" type="name" varId="16" variable="0x153add0" astParent="0x152f160"/>
+    <token id="0x152f2c0" file="pca_thread.cpp" linenr="66" str=")" scope="0x153a0c0" link="0x152f160"/>
+    <token id="0x152f370" file="pca_thread.cpp" linenr="66" str="!=" scope="0x153a0c0" type="op" isComparisonOp="True" astParent="0x152eea0" astOperand1="0x152f160" astOperand2="0x152f4d0"/>
+    <token id="0x152f4d0" file="pca_thread.cpp" linenr="66" str="1" scope="0x153a0c0" type="number" isInt="True" values="0x152f4d8" astParent="0x152f370"/>
+    <token id="0x152f580" file="pca_thread.cpp" linenr="66" str=")" scope="0x153a0c0" link="0x152eea0"/>
+    <token id="0x152e3a0" file="pca_thread.cpp" linenr="66" str="{" scope="0x153a1f0" link="0x152c7f0"/>
+    <token id="0x152f630" file="pca_thread.cpp" linenr="67" str="printf" scope="0x153a1f0" type="name" astParent="0x152f6e0"/>
+    <token id="0x152f6e0" file="pca_thread.cpp" linenr="67" str="(" scope="0x153a1f0" link="0x152f870" astOperand1="0x152f630" astOperand2="0x152f790"/>
+    <token id="0x152f790" file="pca_thread.cpp" linenr="67" str="&quot;ERROR: setting pwm frequency\n&quot;" scope="0x153a1f0" type="string" strlen="29" values="0x152f798" astParent="0x152f6e0"/>
+    <token id="0x152f870" file="pca_thread.cpp" linenr="67" str=")" scope="0x153a1f0" link="0x152f6e0"/>
+    <token id="0x152f920" file="pca_thread.cpp" linenr="67" str=";" scope="0x153a1f0"/>
+    <token id="0x152c7f0" file="pca_thread.cpp" linenr="67" str="}" scope="0x153a1f0" link="0x152e3a0"/>
+    <token id="0x152f9d0" file="pca_thread.cpp" linenr="68" str="else" scope="0x153a0c0" type="name"/>
+    <token id="0x152f420" file="pca_thread.cpp" linenr="68" str="{" scope="0x153a450" link="0x1538ae0"/>
+    <token id="0x152fa80" file="pca_thread.cpp" linenr="69" str="printf" scope="0x153a450" type="name" astParent="0x152fb30"/>
+    <token id="0x152fb30" file="pca_thread.cpp" linenr="69" str="(" scope="0x153a450" link="0x152fe50" astOperand1="0x152fa80" astOperand2="0x152fcf0"/>
+    <token id="0x152fc10" file="pca_thread.cpp" linenr="69" str="&quot;Frequency set to %f Hz.\n&quot;" scope="0x153a450" type="string" strlen="24" values="0x152fc18" astParent="0x152fcf0"/>
+    <token id="0x152fcf0" file="pca_thread.cpp" linenr="69" str="," scope="0x153a450" astParent="0x152fb30" astOperand1="0x152fc10" astOperand2="0x152fda0"/>
+    <token id="0x152fda0" file="pca_thread.cpp" linenr="69" str="freq" scope="0x153a450" type="name" varId="16" variable="0x153add0" astParent="0x152fcf0"/>
+    <token id="0x152fe50" file="pca_thread.cpp" linenr="69" str=")" scope="0x153a450" link="0x152fb30"/>
+    <token id="0x152ff00" file="pca_thread.cpp" linenr="69" str=";" scope="0x153a450"/>
+    <token id="0x1538ae0" file="pca_thread.cpp" linenr="69" str="}" scope="0x153a450" link="0x152f420"/>
+    <token id="0x152ffb0" file="pca_thread.cpp" linenr="71" str="while" scope="0x153a0c0" type="name" astParent="0x1530060"/>
+    <token id="0x1530060" file="pca_thread.cpp" linenr="71" str="(" scope="0x153a0c0" link="0x15301c0" astOperand1="0x152ffb0" astOperand2="0x1530110"/>
+    <token id="0x1530110" file="pca_thread.cpp" linenr="71" str="1" scope="0x153a0c0" type="number" isInt="True" values="0x1530118" astParent="0x1530060"/>
+    <token id="0x15301c0" file="pca_thread.cpp" linenr="71" str=")" scope="0x153a0c0" link="0x1530060"/>
+    <token id="0x1530270" file="pca_thread.cpp" linenr="71" str="{" scope="0x153a580" link="0x1535770"/>
+    <token id="0x1530320" file="pca_thread.cpp" linenr="73" str="WaitForEvent" scope="0x153a580" type="name" astParent="0x15303d0"/>
+    <token id="0x15303d0" file="pca_thread.cpp" linenr="73" str="(" scope="0x153a580" link="0x1530690" astOperand1="0x1530320" astOperand2="0x1530530"/>
+    <token id="0x1530480" file="pca_thread.cpp" linenr="73" str="e_PCA_trigger" scope="0x153a580" type="name" varId="5" variable="0x153a9e0" astParent="0x1530530"/>
+    <token id="0x1530530" file="pca_thread.cpp" linenr="73" str="," scope="0x153a580" astParent="0x15303d0" astOperand1="0x1530480" astOperand2="0x15305e0"/>
+    <token id="0x15305e0" file="pca_thread.cpp" linenr="73" str="500" scope="0x153a580" type="number" isInt="True" values="0x15305e8" astParent="0x1530530"/>
+    <token id="0x1530690" file="pca_thread.cpp" linenr="73" str=")" scope="0x153a580" link="0x15303d0"/>
+    <token id="0x1530740" file="pca_thread.cpp" linenr="73" str=";" scope="0x153a580"/>
+    <token id="0x15307f0" file="pca_thread.cpp" linenr="76" str="pthread_mutex_lock" scope="0x153a580" type="name" astParent="0x15308a0"/>
+    <token id="0x15308a0" file="pca_thread.cpp" linenr="76" str="(" scope="0x153a580" link="0x1530ab0" astOperand1="0x15307f0" astOperand2="0x1530950"/>
+    <token id="0x1530950" file="pca_thread.cpp" linenr="76" str="&amp;" scope="0x153a580" type="op" astParent="0x15308a0" astOperand1="0x1530a00"/>
+    <token id="0x1530a00" file="pca_thread.cpp" linenr="76" str="stateMachine_Mutex" scope="0x153a580" type="name" varId="2" variable="0x153a870" astParent="0x1530950"/>
+    <token id="0x1530ab0" file="pca_thread.cpp" linenr="76" str=")" scope="0x153a580" link="0x15308a0"/>
+    <token id="0x1530b60" file="pca_thread.cpp" linenr="76" str=";" scope="0x153a580"/>
+    <token id="0x1530c10" file="pca_thread.cpp" linenr="77" str="localCurrentState" scope="0x153a580" type="name" varId="15" variable="0x153ad60" astParent="0x1530cf0"/>
+    <token id="0x1530cf0" file="pca_thread.cpp" linenr="77" str="=" scope="0x153a580" type="op" isAssignmentOp="True" astOperand1="0x1530c10" astOperand2="0x1530da0"/>
+    <token id="0x1530da0" file="pca_thread.cpp" linenr="77" str="currentState" scope="0x153a580" type="name" varId="8" variable="0x153ab30" astParent="0x1530cf0"/>
+    <token id="0x1530e50" file="pca_thread.cpp" linenr="77" str=";" scope="0x153a580"/>
+    <token id="0x1530f00" file="pca_thread.cpp" linenr="78" str="pthread_mutex_unlock" scope="0x153a580" type="name" astParent="0x1530fe0"/>
+    <token id="0x1530fe0" file="pca_thread.cpp" linenr="78" str="(" scope="0x153a580" link="0x1531220" astOperand1="0x1530f00" astOperand2="0x1531090"/>
+    <token id="0x1531090" file="pca_thread.cpp" linenr="78" str="&amp;" scope="0x153a580" type="op" astParent="0x1530fe0" astOperand1="0x1531140"/>
+    <token id="0x1531140" file="pca_thread.cpp" linenr="78" str="stateMachine_Mutex" scope="0x153a580" type="name" varId="2" variable="0x153a870" astParent="0x1531090"/>
+    <token id="0x1531220" file="pca_thread.cpp" linenr="78" str=")" scope="0x153a580" link="0x1530fe0"/>
+    <token id="0x15312d0" file="pca_thread.cpp" linenr="78" str=";" scope="0x153a580"/>
+    <token id="0x1531380" file="pca_thread.cpp" linenr="81" str="if" scope="0x153a580" type="name" astParent="0x1531430"/>
+    <token id="0x1531430" file="pca_thread.cpp" linenr="81" str="(" scope="0x153a580" link="0x1531720" astOperand1="0x1531380" astOperand2="0x15315c0"/>
+    <token id="0x15314e0" file="pca_thread.cpp" linenr="81" str="localCurrentState" scope="0x153a580" type="name" varId="15" variable="0x153ad60" values="0x15314e8" astParent="0x15315c0"/>
+    <token id="0x15315c0" file="pca_thread.cpp" linenr="81" str="==" scope="0x153a580" type="op" isComparisonOp="True" values="0x15315c8" astParent="0x1531430" astOperand1="0x15314e0" astOperand2="0x1531670"/>
+    <token id="0x1531670" file="pca_thread.cpp" linenr="81" str="6" scope="0x153a580" type="number" isInt="True" values="0x1531678" astParent="0x15315c0"/>
+    <token id="0x1531720" file="pca_thread.cpp" linenr="81" str=")" scope="0x153a580" link="0x1531430"/>
+    <token id="0x15317d0" file="pca_thread.cpp" linenr="81" str="{" scope="0x153a6b0" link="0x15319e0"/>
+    <token id="0x1531880" file="pca_thread.cpp" linenr="82" str="break" scope="0x153a6b0" type="name"/>
+    <token id="0x1531930" file="pca_thread.cpp" linenr="82" str=";" scope="0x153a6b0"/>
+    <token id="0x15319e0" file="pca_thread.cpp" linenr="83" str="}" scope="0x153a6b0" link="0x15317d0"/>
+    <token id="0x1531a90" file="pca_thread.cpp" linenr="86" str="pthread_mutex_lock" scope="0x153a580" type="name" astParent="0x1531b70"/>
+    <token id="0x1531b70" file="pca_thread.cpp" linenr="86" str="(" scope="0x153a580" link="0x1531d80" astOperand1="0x1531a90" astOperand2="0x1531c20"/>
+    <token id="0x1531c20" file="pca_thread.cpp" linenr="86" str="&amp;" scope="0x153a580" type="op" astParent="0x1531b70" astOperand1="0x1531cd0"/>
+    <token id="0x1531cd0" file="pca_thread.cpp" linenr="86" str="PCA_Mutex" scope="0x153a580" type="name" varId="1" variable="0x153a800" astParent="0x1531c20"/>
+    <token id="0x1531d80" file="pca_thread.cpp" linenr="86" str=")" scope="0x153a580" link="0x1531b70"/>
+    <token id="0x1531e30" file="pca_thread.cpp" linenr="86" str=";" scope="0x153a580"/>
+    <token id="0x1531ee0" file="pca_thread.cpp" linenr="87" str="localPCA_Data" scope="0x153a580" type="name" varId="14" variable="0x153acf0" astParent="0x1531f90"/>
+    <token id="0x1531f90" file="pca_thread.cpp" linenr="87" str="=" scope="0x153a580" type="op" isAssignmentOp="True" astOperand1="0x1531ee0" astOperand2="0x1532040"/>
+    <token id="0x1532040" file="pca_thread.cpp" linenr="87" str="PCA_Data" scope="0x153a580" type="name" varId="3" variable="0x153a8e0" astParent="0x1531f90"/>
+    <token id="0x15320f0" file="pca_thread.cpp" linenr="87" str=";" scope="0x153a580"/>
+    <token id="0x15321a0" file="pca_thread.cpp" linenr="88" str="pthread_mutex_unlock" scope="0x153a580" type="name" astParent="0x1532280"/>
+    <token id="0x1532280" file="pca_thread.cpp" linenr="88" str="(" scope="0x153a580" link="0x1532490" astOperand1="0x15321a0" astOperand2="0x1532330"/>
+    <token id="0x1532330" file="pca_thread.cpp" linenr="88" str="&amp;" scope="0x153a580" type="op" astParent="0x1532280" astOperand1="0x15323e0"/>
+    <token id="0x15323e0" file="pca_thread.cpp" linenr="88" str="PCA_Mutex" scope="0x153a580" type="name" varId="1" variable="0x153a800" astParent="0x1532330"/>
+    <token id="0x1532490" file="pca_thread.cpp" linenr="88" str=")" scope="0x153a580" link="0x1532280"/>
+    <token id="0x1532540" file="pca_thread.cpp" linenr="88" str=";" scope="0x153a580"/>
+    <token id="0x15325f0" file="pca_thread.cpp" linenr="97" str="pca" scope="0x153a580" type="name" varId="9" variable="0x153aba0" astParent="0x15326a0"/>
+    <token id="0x15326a0" file="pca_thread.cpp" linenr="97" str="." scope="0x153a580" astParent="0x1532800" astOperand1="0x15325f0" astOperand2="0x1532750"/>
+    <token id="0x1532750" file="pca_thread.cpp" linenr="97" str="pwmPulse" scope="0x153a580" type="name" astParent="0x15326a0"/>
+    <token id="0x1532800" file="pca_thread.cpp" linenr="97" str="(" scope="0x153a580" link="0x15330f0" astOperand1="0x15326a0" astOperand2="0x1532ac0"/>
+    <token id="0x15328b0" file="pca_thread.cpp" linenr="97" str="0" scope="0x153a580" type="number" isInt="True" values="0x15328b8" astParent="0x1532960"/>
+    <token id="0x1532960" file="pca_thread.cpp" linenr="97" str="," scope="0x153a580" astParent="0x1532ac0" astOperand1="0x15328b0" astOperand2="0x1532a10"/>
+    <token id="0x1532a10" file="pca_thread.cpp" linenr="97" str="0" scope="0x153a580" type="number" isInt="True" values="0x1532a18" astParent="0x1532960"/>
+    <token id="0x1532ac0" file="pca_thread.cpp" linenr="97" str="," scope="0x153a580" astParent="0x1532800" astOperand1="0x1532960" astOperand2="0x1532f90"/>
+    <token id="0x1532b70" file="pca_thread.cpp" linenr="97" str="localPCA_Data" scope="0x153a580" type="name" varId="14" variable="0x153acf0" astParent="0x1532c20"/>
+    <token id="0x1532c20" file="pca_thread.cpp" linenr="97" str="(" scope="0x153a580" link="0x1532d80" astParent="0x1532e30" astOperand1="0x1532b70" astOperand2="0x1532cd0"/>
+    <token id="0x1532cd0" file="pca_thread.cpp" linenr="97" str="1" scope="0x153a580" type="number" isInt="True" values="0x1532cd8" astParent="0x1532c20"/>
+    <token id="0x1532d80" file="pca_thread.cpp" linenr="97" str=")" scope="0x153a580" link="0x1532c20"/>
+    <token id="0x1532e30" file="pca_thread.cpp" linenr="97" str="*" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1532f90" astOperand1="0x1532c20" astOperand2="0x1532ee0"/>
+    <token id="0x1532ee0" file="pca_thread.cpp" linenr="97" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1532ee8" astParent="0x1532e30"/>
+    <token id="0x1532f90" file="pca_thread.cpp" linenr="97" str="+" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1532ac0" astOperand1="0x1532e30" astOperand2="0x1533040"/>
+    <token id="0x1533040" file="pca_thread.cpp" linenr="97" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1533048" astParent="0x1532f90"/>
+    <token id="0x15330f0" file="pca_thread.cpp" linenr="97" str=")" scope="0x153a580" link="0x1532800"/>
+    <token id="0x15331a0" file="pca_thread.cpp" linenr="97" str=";" scope="0x153a580"/>
+    <token id="0x1533250" file="pca_thread.cpp" linenr="98" str="pca" scope="0x153a580" type="name" varId="9" variable="0x153aba0" astParent="0x1533300"/>
+    <token id="0x1533300" file="pca_thread.cpp" linenr="98" str="." scope="0x153a580" astParent="0x1533460" astOperand1="0x1533250" astOperand2="0x15333b0"/>
+    <token id="0x15333b0" file="pca_thread.cpp" linenr="98" str="pwmPulse" scope="0x153a580" type="name" astParent="0x1533300"/>
+    <token id="0x1533460" file="pca_thread.cpp" linenr="98" str="(" scope="0x153a580" link="0x1533d50" astOperand1="0x1533300" astOperand2="0x1533720"/>
+    <token id="0x1533510" file="pca_thread.cpp" linenr="98" str="1" scope="0x153a580" type="number" isInt="True" values="0x1533518" astParent="0x15335c0"/>
+    <token id="0x15335c0" file="pca_thread.cpp" linenr="98" str="," scope="0x153a580" astParent="0x1533720" astOperand1="0x1533510" astOperand2="0x1533670"/>
+    <token id="0x1533670" file="pca_thread.cpp" linenr="98" str="0" scope="0x153a580" type="number" isInt="True" values="0x1533678" astParent="0x15335c0"/>
+    <token id="0x1533720" file="pca_thread.cpp" linenr="98" str="," scope="0x153a580" astParent="0x1533460" astOperand1="0x15335c0" astOperand2="0x1533bf0"/>
+    <token id="0x15337d0" file="pca_thread.cpp" linenr="98" str="localPCA_Data" scope="0x153a580" type="name" varId="14" variable="0x153acf0" astParent="0x1533880"/>
+    <token id="0x1533880" file="pca_thread.cpp" linenr="98" str="(" scope="0x153a580" link="0x15339e0" astParent="0x1533a90" astOperand1="0x15337d0" astOperand2="0x1533930"/>
+    <token id="0x1533930" file="pca_thread.cpp" linenr="98" str="2" scope="0x153a580" type="number" isInt="True" values="0x1533938" astParent="0x1533880"/>
+    <token id="0x15339e0" file="pca_thread.cpp" linenr="98" str=")" scope="0x153a580" link="0x1533880"/>
+    <token id="0x1533a90" file="pca_thread.cpp" linenr="98" str="*" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1533bf0" astOperand1="0x1533880" astOperand2="0x1533b40"/>
+    <token id="0x1533b40" file="pca_thread.cpp" linenr="98" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1533b48" astParent="0x1533a90"/>
+    <token id="0x1533bf0" file="pca_thread.cpp" linenr="98" str="+" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1533720" astOperand1="0x1533a90" astOperand2="0x1533ca0"/>
+    <token id="0x1533ca0" file="pca_thread.cpp" linenr="98" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1533ca8" astParent="0x1533bf0"/>
+    <token id="0x1533d50" file="pca_thread.cpp" linenr="98" str=")" scope="0x153a580" link="0x1533460"/>
+    <token id="0x1533e00" file="pca_thread.cpp" linenr="98" str=";" scope="0x153a580"/>
+    <token id="0x1533eb0" file="pca_thread.cpp" linenr="99" str="pca" scope="0x153a580" type="name" varId="9" variable="0x153aba0" astParent="0x1533f60"/>
+    <token id="0x1533f60" file="pca_thread.cpp" linenr="99" str="." scope="0x153a580" astParent="0x15340c0" astOperand1="0x1533eb0" astOperand2="0x1534010"/>
+    <token id="0x1534010" file="pca_thread.cpp" linenr="99" str="pwmPulse" scope="0x153a580" type="name" astParent="0x1533f60"/>
+    <token id="0x15340c0" file="pca_thread.cpp" linenr="99" str="(" scope="0x153a580" link="0x15349b0" astOperand1="0x1533f60" astOperand2="0x1534380"/>
+    <token id="0x1534170" file="pca_thread.cpp" linenr="99" str="2" scope="0x153a580" type="number" isInt="True" values="0x1534178" astParent="0x1534220"/>
+    <token id="0x1534220" file="pca_thread.cpp" linenr="99" str="," scope="0x153a580" astParent="0x1534380" astOperand1="0x1534170" astOperand2="0x15342d0"/>
+    <token id="0x15342d0" file="pca_thread.cpp" linenr="99" str="0" scope="0x153a580" type="number" isInt="True" values="0x15342d8" astParent="0x1534220"/>
+    <token id="0x1534380" file="pca_thread.cpp" linenr="99" str="," scope="0x153a580" astParent="0x15340c0" astOperand1="0x1534220" astOperand2="0x1534850"/>
+    <token id="0x1534430" file="pca_thread.cpp" linenr="99" str="localPCA_Data" scope="0x153a580" type="name" varId="14" variable="0x153acf0" astParent="0x15344e0"/>
+    <token id="0x15344e0" file="pca_thread.cpp" linenr="99" str="(" scope="0x153a580" link="0x1534640" astParent="0x15346f0" astOperand1="0x1534430" astOperand2="0x1534590"/>
+    <token id="0x1534590" file="pca_thread.cpp" linenr="99" str="3" scope="0x153a580" type="number" isInt="True" values="0x1534598" astParent="0x15344e0"/>
+    <token id="0x1534640" file="pca_thread.cpp" linenr="99" str=")" scope="0x153a580" link="0x15344e0"/>
+    <token id="0x15346f0" file="pca_thread.cpp" linenr="99" str="*" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1534850" astOperand1="0x15344e0" astOperand2="0x15347a0"/>
+    <token id="0x15347a0" file="pca_thread.cpp" linenr="99" str="2048" scope="0x153a580" type="number" isInt="True" values="0x15347a8" astParent="0x15346f0"/>
+    <token id="0x1534850" file="pca_thread.cpp" linenr="99" str="+" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1534380" astOperand1="0x15346f0" astOperand2="0x1534900"/>
+    <token id="0x1534900" file="pca_thread.cpp" linenr="99" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1534908" astParent="0x1534850"/>
+    <token id="0x15349b0" file="pca_thread.cpp" linenr="99" str=")" scope="0x153a580" link="0x15340c0"/>
+    <token id="0x1534a60" file="pca_thread.cpp" linenr="99" str=";" scope="0x153a580"/>
+    <token id="0x1534b10" file="pca_thread.cpp" linenr="100" str="pca" scope="0x153a580" type="name" varId="9" variable="0x153aba0" astParent="0x1534bc0"/>
+    <token id="0x1534bc0" file="pca_thread.cpp" linenr="100" str="." scope="0x153a580" astParent="0x1534d20" astOperand1="0x1534b10" astOperand2="0x1534c70"/>
+    <token id="0x1534c70" file="pca_thread.cpp" linenr="100" str="pwmPulse" scope="0x153a580" type="name" astParent="0x1534bc0"/>
+    <token id="0x1534d20" file="pca_thread.cpp" linenr="100" str="(" scope="0x153a580" link="0x1535610" astOperand1="0x1534bc0" astOperand2="0x1534fe0"/>
+    <token id="0x1534dd0" file="pca_thread.cpp" linenr="100" str="3" scope="0x153a580" type="number" isInt="True" values="0x1534dd8" astParent="0x1534e80"/>
+    <token id="0x1534e80" file="pca_thread.cpp" linenr="100" str="," scope="0x153a580" astParent="0x1534fe0" astOperand1="0x1534dd0" astOperand2="0x1534f30"/>
+    <token id="0x1534f30" file="pca_thread.cpp" linenr="100" str="0" scope="0x153a580" type="number" isInt="True" values="0x1534f38" astParent="0x1534e80"/>
+    <token id="0x1534fe0" file="pca_thread.cpp" linenr="100" str="," scope="0x153a580" astParent="0x1534d20" astOperand1="0x1534e80" astOperand2="0x15354b0"/>
+    <token id="0x1535090" file="pca_thread.cpp" linenr="100" str="localPCA_Data" scope="0x153a580" type="name" varId="14" variable="0x153acf0" astParent="0x1535140"/>
+    <token id="0x1535140" file="pca_thread.cpp" linenr="100" str="(" scope="0x153a580" link="0x15352a0" astParent="0x1535350" astOperand1="0x1535090" astOperand2="0x15351f0"/>
+    <token id="0x15351f0" file="pca_thread.cpp" linenr="100" str="0" scope="0x153a580" type="number" isInt="True" values="0x15351f8" astParent="0x1535140"/>
+    <token id="0x15352a0" file="pca_thread.cpp" linenr="100" str=")" scope="0x153a580" link="0x1535140"/>
+    <token id="0x1535350" file="pca_thread.cpp" linenr="100" str="*" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x15354b0" astOperand1="0x1535140" astOperand2="0x1535400"/>
+    <token id="0x1535400" file="pca_thread.cpp" linenr="100" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1535408" astParent="0x1535350"/>
+    <token id="0x15354b0" file="pca_thread.cpp" linenr="100" str="+" scope="0x153a580" type="op" isArithmeticalOp="True" astParent="0x1534fe0" astOperand1="0x1535350" astOperand2="0x1535560"/>
+    <token id="0x1535560" file="pca_thread.cpp" linenr="100" str="2048" scope="0x153a580" type="number" isInt="True" values="0x1535568" astParent="0x15354b0"/>
+    <token id="0x1535610" file="pca_thread.cpp" linenr="100" str=")" scope="0x153a580" link="0x1534d20"/>
+    <token id="0x15356c0" file="pca_thread.cpp" linenr="100" str=";" scope="0x153a580"/>
+    <token id="0x1535770" file="pca_thread.cpp" linenr="103" str="}" scope="0x153a580" link="0x1530270"/>
+    <token id="0x1535820" file="pca_thread.cpp" linenr="106" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x15358d0"/>
+    <token id="0x15358d0" file="pca_thread.cpp" linenr="106" str="." scope="0x153a0c0" astParent="0x1535a30" astOperand1="0x1535820" astOperand2="0x1535980"/>
+    <token id="0x1535980" file="pca_thread.cpp" linenr="106" str="pwmPulse" scope="0x153a0c0" type="name" astParent="0x15358d0"/>
+    <token id="0x1535a30" file="pca_thread.cpp" linenr="106" str="(" scope="0x153a0c0" link="0x1536110" astOperand1="0x15358d0" astOperand2="0x1535cf0"/>
+    <token id="0x1535ae0" file="pca_thread.cpp" linenr="106" str="0" scope="0x153a0c0" type="number" isInt="True" values="0x1535ae8" astParent="0x1535b90"/>
+    <token id="0x1535b90" file="pca_thread.cpp" linenr="106" str="," scope="0x153a0c0" astParent="0x1535cf0" astOperand1="0x1535ae0" astOperand2="0x1535c40"/>
+    <token id="0x1535c40" file="pca_thread.cpp" linenr="106" str="0" scope="0x153a0c0" type="number" isInt="True" values="0x1535c48" astParent="0x1535b90"/>
+    <token id="0x1535cf0" file="pca_thread.cpp" linenr="106" str="," scope="0x153a0c0" astParent="0x1535a30" astOperand1="0x1535b90" astOperand2="0x1535da0"/>
+    <token id="0x1535da0" file="pca_thread.cpp" linenr="106" str="2048" scope="0x153a0c0" type="number" isInt="True" values="0x1535da8" astParent="0x1535cf0"/>
+    <token id="0x1536110" file="pca_thread.cpp" linenr="106" str=")" scope="0x153a0c0" link="0x1535a30"/>
+    <token id="0x15361c0" file="pca_thread.cpp" linenr="106" str=";" scope="0x153a0c0"/>
+    <token id="0x1536270" file="pca_thread.cpp" linenr="107" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x1536320"/>
+    <token id="0x1536320" file="pca_thread.cpp" linenr="107" str="." scope="0x153a0c0" astParent="0x1536480" astOperand1="0x1536270" astOperand2="0x15363d0"/>
+    <token id="0x15363d0" file="pca_thread.cpp" linenr="107" str="pwmPulse" scope="0x153a0c0" type="name" astParent="0x1536320"/>
+    <token id="0x1536480" file="pca_thread.cpp" linenr="107" str="(" scope="0x153a0c0" link="0x1536b60" astOperand1="0x1536320" astOperand2="0x1536740"/>
+    <token id="0x1536530" file="pca_thread.cpp" linenr="107" str="1" scope="0x153a0c0" type="number" isInt="True" values="0x1536538" astParent="0x15365e0"/>
+    <token id="0x15365e0" file="pca_thread.cpp" linenr="107" str="," scope="0x153a0c0" astParent="0x1536740" astOperand1="0x1536530" astOperand2="0x1536690"/>
+    <token id="0x1536690" file="pca_thread.cpp" linenr="107" str="0" scope="0x153a0c0" type="number" isInt="True" values="0x1536698" astParent="0x15365e0"/>
+    <token id="0x1536740" file="pca_thread.cpp" linenr="107" str="," scope="0x153a0c0" astParent="0x1536480" astOperand1="0x15365e0" astOperand2="0x15367f0"/>
+    <token id="0x15367f0" file="pca_thread.cpp" linenr="107" str="2048" scope="0x153a0c0" type="number" isInt="True" values="0x15367f8" astParent="0x1536740"/>
+    <token id="0x1536b60" file="pca_thread.cpp" linenr="107" str=")" scope="0x153a0c0" link="0x1536480"/>
+    <token id="0x1536c10" file="pca_thread.cpp" linenr="107" str=";" scope="0x153a0c0"/>
+    <token id="0x1536cc0" file="pca_thread.cpp" linenr="108" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x1536d70"/>
+    <token id="0x1536d70" file="pca_thread.cpp" linenr="108" str="." scope="0x153a0c0" astParent="0x1536ed0" astOperand1="0x1536cc0" astOperand2="0x1536e20"/>
+    <token id="0x1536e20" file="pca_thread.cpp" linenr="108" str="pwmPulse" scope="0x153a0c0" type="name" astParent="0x1536d70"/>
+    <token id="0x1536ed0" file="pca_thread.cpp" linenr="108" str="(" scope="0x153a0c0" link="0x15375b0" astOperand1="0x1536d70" astOperand2="0x1537190"/>
+    <token id="0x1536f80" file="pca_thread.cpp" linenr="108" str="2" scope="0x153a0c0" type="number" isInt="True" values="0x1536f88" astParent="0x1537030"/>
+    <token id="0x1537030" file="pca_thread.cpp" linenr="108" str="," scope="0x153a0c0" astParent="0x1537190" astOperand1="0x1536f80" astOperand2="0x15370e0"/>
+    <token id="0x15370e0" file="pca_thread.cpp" linenr="108" str="0" scope="0x153a0c0" type="number" isInt="True" values="0x15370e8" astParent="0x1537030"/>
+    <token id="0x1537190" file="pca_thread.cpp" linenr="108" str="," scope="0x153a0c0" astParent="0x1536ed0" astOperand1="0x1537030" astOperand2="0x1537240"/>
+    <token id="0x1537240" file="pca_thread.cpp" linenr="108" str="2048" scope="0x153a0c0" type="number" isInt="True" values="0x1537248" astParent="0x1537190"/>
+    <token id="0x15375b0" file="pca_thread.cpp" linenr="108" str=")" scope="0x153a0c0" link="0x1536ed0"/>
+    <token id="0x1537660" file="pca_thread.cpp" linenr="108" str=";" scope="0x153a0c0"/>
+    <token id="0x1537710" file="pca_thread.cpp" linenr="109" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x15377c0"/>
+    <token id="0x15377c0" file="pca_thread.cpp" linenr="109" str="." scope="0x153a0c0" astParent="0x1537920" astOperand1="0x1537710" astOperand2="0x1537870"/>
+    <token id="0x1537870" file="pca_thread.cpp" linenr="109" str="pwmPulse" scope="0x153a0c0" type="name" astParent="0x15377c0"/>
+    <token id="0x1537920" file="pca_thread.cpp" linenr="109" str="(" scope="0x153a0c0" link="0x1538000" astOperand1="0x15377c0" astOperand2="0x1537be0"/>
+    <token id="0x15379d0" file="pca_thread.cpp" linenr="109" str="3" scope="0x153a0c0" type="number" isInt="True" values="0x15379d8" astParent="0x1537a80"/>
+    <token id="0x1537a80" file="pca_thread.cpp" linenr="109" str="," scope="0x153a0c0" astParent="0x1537be0" astOperand1="0x15379d0" astOperand2="0x1537b30"/>
+    <token id="0x1537b30" file="pca_thread.cpp" linenr="109" str="0" scope="0x153a0c0" type="number" isInt="True" values="0x1537b38" astParent="0x1537a80"/>
+    <token id="0x1537be0" file="pca_thread.cpp" linenr="109" str="," scope="0x153a0c0" astParent="0x1537920" astOperand1="0x1537a80" astOperand2="0x1537c90"/>
+    <token id="0x1537c90" file="pca_thread.cpp" linenr="109" str="2048" scope="0x153a0c0" type="number" isInt="True" values="0x1537c98" astParent="0x1537be0"/>
+    <token id="0x1538000" file="pca_thread.cpp" linenr="109" str=")" scope="0x153a0c0" link="0x1537920"/>
+    <token id="0x15380b0" file="pca_thread.cpp" linenr="109" str=";" scope="0x153a0c0"/>
+    <token id="0x1538160" file="pca_thread.cpp" linenr="111" str="pca" scope="0x153a0c0" type="name" varId="9" variable="0x153aba0" astParent="0x1538210"/>
+    <token id="0x1538210" file="pca_thread.cpp" linenr="111" str="." scope="0x153a0c0" astParent="0x1538370" astOperand1="0x1538160" astOperand2="0x15382c0"/>
+    <token id="0x15382c0" file="pca_thread.cpp" linenr="111" str="resetDev" scope="0x153a0c0" type="name" astParent="0x1538210"/>
+    <token id="0x1538370" file="pca_thread.cpp" linenr="111" str="(" scope="0x153a0c0" link="0x1538420" astOperand1="0x1538210"/>
+    <token id="0x1538420" file="pca_thread.cpp" linenr="111" str=")" scope="0x153a0c0" link="0x1538370"/>
+    <token id="0x15384d0" file="pca_thread.cpp" linenr="111" str=";" scope="0x153a0c0"/>
+    <token id="0x1538580" file="pca_thread.cpp" linenr="112" str="printf" scope="0x153a0c0" type="name" astParent="0x1538630"/>
+    <token id="0x1538630" file="pca_thread.cpp" linenr="112" str="(" scope="0x153a0c0" link="0x1538820" astOperand1="0x1538580" astOperand2="0x1538740"/>
+    <token id="0x1538740" file="pca_thread.cpp" linenr="112" str="&quot;PCA_Task stopping...\n&quot;" scope="0x153a0c0" type="string" strlen="21" values="0x1538748" astParent="0x1538630"/>
+    <token id="0x1538820" file="pca_thread.cpp" linenr="112" str=")" scope="0x153a0c0" link="0x1538630"/>
+    <token id="0x15388d0" file="pca_thread.cpp" linenr="112" str=";" scope="0x153a0c0"/>
+    <token id="0x1538980" file="pca_thread.cpp" linenr="113" str="threadCount" scope="0x153a0c0" type="name" varId="7" variable="0x153aac0" astParent="0x1538a30"/>
+    <token id="0x1538a30" file="pca_thread.cpp" linenr="113" str="-=" scope="0x153a0c0" type="op" isAssignmentOp="True" astOperand1="0x1538980" astOperand2="0x1538b90"/>
+    <token id="0x1538b90" file="pca_thread.cpp" linenr="113" str="1" scope="0x153a0c0" type="number" isInt="True" values="0x1538b98" astParent="0x1538a30"/>
+    <token id="0x1538c40" file="pca_thread.cpp" linenr="113" str=";" scope="0x153a0c0"/>
+    <token id="0x1538cf0" file="pca_thread.cpp" linenr="114" str="pthread_exit" scope="0x153a0c0" type="name" astParent="0x1538da0"/>
+    <token id="0x1538da0" file="pca_thread.cpp" linenr="114" str="(" scope="0x153a0c0" link="0x1538f00" astOperand1="0x1538cf0" astOperand2="0x1538e50"/>
+    <token id="0x1538e50" file="pca_thread.cpp" linenr="114" str="NULL" scope="0x153a0c0" type="name" astParent="0x1538da0"/>
+    <token id="0x1538f00" file="pca_thread.cpp" linenr="114" str=")" scope="0x153a0c0" link="0x1538da0"/>
+    <token id="0x1538fb0" file="pca_thread.cpp" linenr="114" str=";" scope="0x153a0c0"/>
+    <token id="0x1539060" file="pca_thread.cpp" linenr="115" str="}" scope="0x153a0c0" link="0x152d3a0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x15391d0" type="Global">
+      <functionList>
+        <function id="0x15395e0" tokenDef="0x1528dd0" name="PCA_Timer">
+          <arg nr="1" variable="0x153ae40"/>
+        </function>
+        <function id="0x153a020" tokenDef="0x152cf80" name="PCA_Task">
+          <arg nr="1" variable="0x153aeb0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x153a800"/>
+        <var id="0x153a870"/>
+        <var id="0x153a8e0"/>
+        <var id="0x153a970"/>
+        <var id="0x153a9e0"/>
+        <var id="0x153aa50"/>
+        <var id="0x153aac0"/>
+        <var id="0x153ab30"/>
+        <var id="0x153aba0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1539680" type="Function" className="PCA_Timer" classStart="0x15291f0" classEnd="0x152cd70" nestedIn="0x15391d0" function="0x15395e0">
+      <varlist>
+        <var id="0x153ac10"/>
+        <var id="0x153ac80"/>
+      </varlist>
+    </scope>
+    <scope id="0x1539840" type="While" classStart="0x152a620" classEnd="0x152c1e0" nestedIn="0x1539680"/>
+    <scope id="0x1539ef0" type="If" classStart="0x152bbb0" classEnd="0x152bdc0" nestedIn="0x1539840"/>
+    <scope id="0x153a0c0" type="Function" className="PCA_Task" classStart="0x152d3a0" classEnd="0x1539060" nestedIn="0x15391d0" function="0x153a020">
+      <varlist>
+        <var id="0x153acf0"/>
+        <var id="0x153ad60"/>
+        <var id="0x153add0"/>
+      </varlist>
+    </scope>
+    <scope id="0x153a1f0" type="If" classStart="0x152e3a0" classEnd="0x152c7f0" nestedIn="0x153a0c0"/>
+    <scope id="0x153a320" type="Else" classStart="0x152f420" classEnd="0x1538ae0" nestedIn="0x153a0c0"/>
+    <scope id="0x153a450" type="Try" classStart="0x152f420" classEnd="0x1538ae0" nestedIn="0x153a0c0"/>
+    <scope id="0x153a580" type="While" classStart="0x1530270" classEnd="0x1535770" nestedIn="0x153a0c0"/>
+    <scope id="0x153a6b0" type="If" classStart="0x15317d0" classEnd="0x15319e0" nestedIn="0x153a580"/>
+  </scopes>
+  <variables>
+    <var id="0x153a800" nameToken="0x1523950" typeStartToken="0x15238a0" typeEndToken="0x15238a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153a870" nameToken="0x1523c40" typeStartToken="0x1523b60" typeEndToken="0x1523b60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153a8e0" nameToken="0x1527820" typeStartToken="0x1523e80" typeEndToken="0x1527770" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153a970" nameToken="0x1527b10" typeStartToken="0x1527a30" typeEndToken="0x1527a30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153a9e0" nameToken="0x1527e00" typeStartToken="0x1527d20" typeEndToken="0x1527d20" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153aa50" nameToken="0x15280c0" typeStartToken="0x1528010" typeEndToken="0x1528010" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153aac0" nameToken="0x1528380" typeStartToken="0x15282d0" typeEndToken="0x15282d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153ab30" nameToken="0x1528640" typeStartToken="0x1528590" typeEndToken="0x1528590" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153aba0" nameToken="0x1528850" typeStartToken="0x15287a0" typeEndToken="0x15287a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153ae40" nameToken="0x1529090" typeStartToken="0x1528f30" typeEndToken="0x1528fe0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x153ac10" nameToken="0x1529e90" typeStartToken="0x1529de0" typeEndToken="0x1529de0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153ac80" nameToken="0x152a200" typeStartToken="0x152a150" typeEndToken="0x152a150" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153aeb0" nameToken="0x152d240" typeStartToken="0x152d0e0" typeEndToken="0x152d190" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x153acf0" nameToken="0x152dd70" typeStartToken="0x152d7f0" typeEndToken="0x152dcc0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153ad60" nameToken="0x152df80" typeStartToken="0x152ded0" typeEndToken="0x152ded0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x153add0" nameToken="0x152eb30" typeStartToken="0x152ea80" typeEndToken="0x152ea80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1524148">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x15276c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1529468">
+      <value tokvalue="0x1529460" known="true"/>
+    </values>
+    <values id="0x1529ff8">
+      <value intvalue="8" known="true"/>
+    </values>
+    <values id="0x152a4c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x152a998">
+      <value intvalue="8" possible="true"/>
+    </values>
+    <values id="0x152b8c8">
+      <value intvalue="6" condition-line="44" possible="true"/>
+    </values>
+    <values id="0x152b9a8">
+      <value intvalue="1" condition-line="44" possible="true"/>
+    </values>
+    <values id="0x152ba58">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x152c458">
+      <value tokvalue="0x152c450" known="true"/>
+    </values>
+    <values id="0x152c8a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x152d5b8">
+      <value tokvalue="0x152d5b0" known="true"/>
+    </values>
+    <values id="0x152dab8">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x152dc18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x152e458">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x152ec98">
+      <value intvalue="500" known="true"/>
+    </values>
+    <values id="0x152f4d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x152f798">
+      <value tokvalue="0x152f790" known="true"/>
+    </values>
+    <values id="0x152fc18">
+      <value tokvalue="0x152fc10" known="true"/>
+    </values>
+    <values id="0x1530118">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x15305e8">
+      <value intvalue="500" known="true"/>
+    </values>
+    <values id="0x15314e8">
+      <value intvalue="6" condition-line="81" possible="true"/>
+    </values>
+    <values id="0x15315c8">
+      <value intvalue="1" condition-line="81" possible="true"/>
+    </values>
+    <values id="0x1531678">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x15328b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1532a18">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1532cd8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1532ee8">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1533048">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1533518">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1533678">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1533938">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1533b48">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1533ca8">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1534178">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x15342d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1534598">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x15347a8">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1534908">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1534dd8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x1534f38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x15351f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1535408">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1535568">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1535ae8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1535c48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1535da8">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1536538">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1536698">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x15367f8">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1536f88">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x15370e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1537248">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x15379d8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x1537b38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1537c98">
+      <value intvalue="2048" known="true"/>
+    </values>
+    <values id="0x1538748">
+      <value tokvalue="0x1538740" known="true"/>
+    </values>
+    <values id="0x1538b98">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

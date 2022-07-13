@@ -1,0 +1,1191 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x251e470" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="void" scope="0x255d5b0" type="name"/>
+    <token id="0x25339f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="convertCVtoEigen" scope="0x255d5b0" type="name" function="0x253f0c0" astParent="0x2533ad0"/>
+    <token id="0x2533ad0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="(" scope="0x255d5b0" link="0x2534b50" astOperand1="0x25339f0" astOperand2="0x2534730"/>
+    <token id="0x2533b80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="cv" scope="0x255d5b0" type="name" astParent="0x2533c30"/>
+    <token id="0x2533c30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x255d5b0" astParent="0x2533d90" astOperand1="0x2533b80" astOperand2="0x2533ce0"/>
+    <token id="0x2533ce0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Mat" scope="0x255d5b0" type="name" astParent="0x2533c30"/>
+    <token id="0x2533d90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x255d5b0" type="op" astParent="0x2533ef0" astOperand1="0x2533c30" astOperand2="0x2533e40"/>
+    <token id="0x2533e40" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="tvec" scope="0x255d5b0" type="name" varId="1" variable="0x255ff60" astParent="0x2533d90"/>
+    <token id="0x2533ef0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x255d5b0" astParent="0x2534310" astOperand1="0x2533d90" astOperand2="0x25341b0"/>
+    <token id="0x2533fa0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="cv" scope="0x255d5b0" type="name" astParent="0x2534050"/>
+    <token id="0x2534050" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x255d5b0" astParent="0x25341b0" astOperand1="0x2533fa0" astOperand2="0x2534100"/>
+    <token id="0x2534100" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Mat" scope="0x255d5b0" type="name" astParent="0x2534050"/>
+    <token id="0x25341b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x255d5b0" type="op" astParent="0x2533ef0" astOperand1="0x2534050" astOperand2="0x2534260"/>
+    <token id="0x2534260" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="R" scope="0x255d5b0" type="name" varId="2" variable="0x255ffd0" astParent="0x25341b0"/>
+    <token id="0x2534310" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x255d5b0" astParent="0x2534730" astOperand1="0x2533ef0" astOperand2="0x25345d0"/>
+    <token id="0x25343c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Eigen" scope="0x255d5b0" type="name" astParent="0x2534470"/>
+    <token id="0x2534470" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x255d5b0" astParent="0x25345d0" astOperand1="0x25343c0" astOperand2="0x2534520"/>
+    <token id="0x2534520" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Vector3f" scope="0x255d5b0" type="name" astParent="0x2534470"/>
+    <token id="0x25345d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x255d5b0" type="op" astParent="0x2534310" astOperand1="0x2534470" astOperand2="0x2534680"/>
+    <token id="0x2534680" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="translation" scope="0x255d5b0" type="name" varId="3" variable="0x2560040" astParent="0x25345d0"/>
+    <token id="0x2534730" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x255d5b0" astParent="0x2533ad0" astOperand1="0x2534310" astOperand2="0x25349f0"/>
+    <token id="0x25347e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Eigen" scope="0x255d5b0" type="name" astParent="0x2534890"/>
+    <token id="0x2534890" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x255d5b0" astParent="0x25349f0" astOperand1="0x25347e0" astOperand2="0x2534940"/>
+    <token id="0x2534940" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Quaternionf" scope="0x255d5b0" type="name" astParent="0x2534890"/>
+    <token id="0x25349f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x255d5b0" type="op" astParent="0x2534730" astOperand1="0x2534890" astOperand2="0x2534aa0"/>
+    <token id="0x2534aa0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="orientation" scope="0x255d5b0" type="name" varId="4" variable="0x25600b0" astParent="0x25349f0"/>
+    <token id="0x2534b50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str=")" scope="0x255d5b0" link="0x2533ad0"/>
+    <token id="0x2534c00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str=";" scope="0x255d5b0"/>
+    <token id="0x2534cb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="29" str="class" scope="0x255d5b0" type="name"/>
+    <token id="0x2534d60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="29" str="PatternDetector" scope="0x255d5b0" type="name" type-scope="0x252e900"/>
+    <token id="0x2534e10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="30" str="{" scope="0x252e900" link="0x253bde0"/>
+    <token id="0x2534ec0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="31" str="public:" scope="0x252e900" type="name"/>
+    <token id="0x2535020" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="PatternDetector" scope="0x252e900" type="name" function="0x252ea70" astParent="0x25350d0"/>
+    <token id="0x25350d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="(" scope="0x252e900" link="0x2535180" astOperand1="0x2535020"/>
+    <token id="0x2535180" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str=")" scope="0x252e900" link="0x25350d0"/>
+    <token id="0x2535230" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="{" scope="0x253fee0" link="0x25352e0"/>
+    <token id="0x25352e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="}" scope="0x253fee0" link="0x2535230"/>
+    <token id="0x2535390" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="static" scope="0x252e900" type="name"/>
+    <token id="0x2535440" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="std" scope="0x252e900" type="name" astParent="0x255d2e0"/>
+    <token id="0x255d2e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x252e900" astOperand1="0x2535440" astOperand2="0x255d390"/>
+    <token id="0x255d390" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="vector" scope="0x252e900" type="name" astParent="0x255d2e0"/>
+    <token id="0x255d440" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="&lt;" scope="0x252e900" link="0x255d9b0"/>
+    <token id="0x255d4f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="cv" scope="0x252e900" type="name"/>
+    <token id="0x255d850" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x252e900"/>
+    <token id="0x255d900" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="Point3f" scope="0x252e900" type="name"/>
+    <token id="0x255d9b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="&gt;" scope="0x252e900" link="0x255d440"/>
+    <token id="0x25354f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="calcChessboardCorners" scope="0x252e900" type="name" function="0x2540010" astParent="0x25355d0"/>
+    <token id="0x25355d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="(" scope="0x252e900" link="0x2536650" astOperand1="0x25354f0" astOperand2="0x2535ec0"/>
+    <token id="0x2535680" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="cv" scope="0x252e900" type="name" astParent="0x2535730"/>
+    <token id="0x2535730" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x252e900" astParent="0x2535940" astOperand1="0x2535680" astOperand2="0x2535890"/>
+    <token id="0x25357e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="Size" scope="0x252e900" type="name"/>
+    <token id="0x2535890" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="boardSize" scope="0x252e900" type="name" varId="5" variable="0x2560200" astParent="0x2535730"/>
+    <token id="0x2535940" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="," scope="0x252e900" astParent="0x2535b50" astOperand1="0x2535730" astOperand2="0x2535aa0"/>
+    <token id="0x25359f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="float" scope="0x252e900" type="name"/>
+    <token id="0x2535aa0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="squareSize" scope="0x252e900" type="name" varId="6" variable="0x2560270" astParent="0x2535940"/>
+    <token id="0x2535b50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="," scope="0x252e900" astParent="0x2535ec0" astOperand1="0x2535940" astOperand2="0x2535d60"/>
+    <token id="0x2535c00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="int" scope="0x252e900" type="name"/>
+    <token id="0x2535cb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="patternType" scope="0x252e900" type="name" varId="7" variable="0x25602e0" astParent="0x2535d60"/>
+    <token id="0x2535d60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="=" scope="0x252e900" type="op" isAssignmentOp="True" astParent="0x2535b50" astOperand1="0x2535cb0" astOperand2="0x2535e10"/>
+    <token id="0x2535e10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="1" scope="0x252e900" type="number" isInt="True" values="0x2535e18" astParent="0x2535d60"/>
+    <token id="0x2535ec0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="," scope="0x252e900" astParent="0x25355d0" astOperand1="0x2535b50" astOperand2="0x2536230"/>
+    <token id="0x2535f70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="cv" scope="0x252e900" type="name" astParent="0x2536020"/>
+    <token id="0x2536020" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="::" scope="0x252e900" astParent="0x2536230" astOperand1="0x2535f70" astOperand2="0x2536180"/>
+    <token id="0x25360d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="Point3f" scope="0x252e900" type="name"/>
+    <token id="0x2536180" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="offset" scope="0x252e900" type="name" varId="8" variable="0x2560350" astParent="0x2536020"/>
+    <token id="0x2536230" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="=" scope="0x252e900" type="op" isAssignmentOp="True" astParent="0x2535ec0" astOperand1="0x2536020" astOperand2="0x25364f0"/>
+    <token id="0x25362e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="cv" scope="0x252e900" type="name" astParent="0x2536390"/>
+    <token id="0x2536390" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="::" scope="0x252e900" astParent="0x25364f0" astOperand1="0x25362e0" astOperand2="0x2536440"/>
+    <token id="0x2536440" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="Point3f" scope="0x252e900" type="name" astParent="0x2536390"/>
+    <token id="0x25364f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="(" scope="0x252e900" link="0x25365a0" astParent="0x2536230" astOperand1="0x2536390"/>
+    <token id="0x25365a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=")" scope="0x252e900" link="0x25364f0"/>
+    <token id="0x2536650" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=")" scope="0x252e900" link="0x25355d0"/>
+    <token id="0x2536700" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=";" scope="0x252e900"/>
+    <token id="0x25367b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="int" scope="0x252e900" type="name"/>
+    <token id="0x2536860" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="detectPattern" scope="0x252e900" type="name" function="0x25400b0" astParent="0x2536910"/>
+    <token id="0x2536910" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="(" scope="0x252e900" link="0x25388c0" astOperand1="0x2536860" astOperand2="0x25384a0"/>
+    <token id="0x25369c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="cv" scope="0x252e900" type="name" astParent="0x2536a70"/>
+    <token id="0x2536a70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x252e900" astParent="0x2536bd0" astOperand1="0x25369c0" astOperand2="0x2536b20"/>
+    <token id="0x2536b20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Mat" scope="0x252e900" type="name" astParent="0x2536a70"/>
+    <token id="0x2536bd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x252e900" type="op" astParent="0x2536d30" astOperand1="0x2536a70" astOperand2="0x2536c80"/>
+    <token id="0x2536c80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="inm" scope="0x252e900" type="name" varId="9" variable="0x25603c0" astParent="0x2536bd0"/>
+    <token id="0x2536d30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="," scope="0x252e900" astParent="0x25384a0" astOperand1="0x2536bd0" astOperand2="0x2538340"/>
+    <token id="0x2536de0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Eigen" scope="0x252e900" type="name" astParent="0x2536e90"/>
+    <token id="0x2536e90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x252e900" astParent="0x2538340" astOperand1="0x2536de0" astOperand2="0x2538290"/>
+    <token id="0x2538290" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Vector3f" scope="0x252e900" type="name" astParent="0x2536e90"/>
+    <token id="0x2538340" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x252e900" type="op" astParent="0x2536d30" astOperand1="0x2536e90" astOperand2="0x25383f0"/>
+    <token id="0x25383f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="translation" scope="0x252e900" type="name" varId="10" variable="0x2560430" astParent="0x2538340"/>
+    <token id="0x25384a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="," scope="0x252e900" astParent="0x2536910" astOperand1="0x2536d30" astOperand2="0x2538760"/>
+    <token id="0x2538550" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Eigen" scope="0x252e900" type="name" astParent="0x2538600"/>
+    <token id="0x2538600" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x252e900" astParent="0x2538760" astOperand1="0x2538550" astOperand2="0x25386b0"/>
+    <token id="0x25386b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Quaternionf" scope="0x252e900" type="name" astParent="0x2538600"/>
+    <token id="0x2538760" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x252e900" type="op" astParent="0x25384a0" astOperand1="0x2538600" astOperand2="0x2538810"/>
+    <token id="0x2538810" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="orientation" scope="0x252e900" type="name" varId="11" variable="0x25604a0" astParent="0x2538760"/>
+    <token id="0x25388c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str=")" scope="0x252e900" link="0x2536910"/>
+    <token id="0x2538970" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str=";" scope="0x252e900"/>
+    <token id="0x2538a20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="void" scope="0x252e900" type="name"/>
+    <token id="0x2538ad0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="setCameraMatrices" scope="0x252e900" type="name" function="0x2540150" astParent="0x2538bb0"/>
+    <token id="0x2538bb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="(" scope="0x252e900" link="0x2539290" astOperand1="0x2538ad0" astOperand2="0x2538f20"/>
+    <token id="0x2538c60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="cv" scope="0x252e900" type="name" astParent="0x2538d10"/>
+    <token id="0x2538d10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="::" scope="0x252e900" astParent="0x2538f20" astOperand1="0x2538c60" astOperand2="0x2538e70"/>
+    <token id="0x2538dc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="Matx33d" scope="0x252e900" type="name"/>
+    <token id="0x2538e70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="K_" scope="0x252e900" type="name" varId="12" variable="0x2560510" astParent="0x2538d10"/>
+    <token id="0x2538f20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="," scope="0x252e900" astParent="0x2538bb0" astOperand1="0x2538d10" astOperand2="0x2539080"/>
+    <token id="0x2538fd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="cv" scope="0x252e900" type="name" astParent="0x2539080"/>
+    <token id="0x2539080" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="::" scope="0x252e900" astParent="0x2538f20" astOperand1="0x2538fd0" astOperand2="0x25391e0"/>
+    <token id="0x2539130" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="Matx33d" scope="0x252e900" type="name"/>
+    <token id="0x25391e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="D_" scope="0x252e900" type="name" varId="13" variable="0x2560580" astParent="0x2539080"/>
+    <token id="0x2539290" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str=")" scope="0x252e900" link="0x2538bb0"/>
+    <token id="0x2539340" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str=";" scope="0x252e900"/>
+    <token id="0x25393f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="void" scope="0x252e900" type="name"/>
+    <token id="0x25394a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="setPattern" scope="0x252e900" type="name" function="0x25401f0" astParent="0x2539550"/>
+    <token id="0x2539550" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="(" scope="0x252e900" link="0x253a470" astOperand1="0x25394a0" astOperand2="0x2539ce0"/>
+    <token id="0x2539600" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="cv" scope="0x252e900" type="name" astParent="0x25396b0"/>
+    <token id="0x25396b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="::" scope="0x252e900" astParent="0x25398c0" astOperand1="0x2539600" astOperand2="0x2539810"/>
+    <token id="0x2539760" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="Size" scope="0x252e900" type="name"/>
+    <token id="0x2539810" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="grid_size_" scope="0x252e900" type="name" varId="14" variable="0x25605f0" astParent="0x25396b0"/>
+    <token id="0x25398c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="," scope="0x252e900" astParent="0x2539ad0" astOperand1="0x25396b0" astOperand2="0x2539a20"/>
+    <token id="0x2539970" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="float" scope="0x252e900" type="name"/>
+    <token id="0x2539a20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="square_size_" scope="0x252e900" type="name" varId="15" variable="0x2560660" astParent="0x25398c0"/>
+    <token id="0x2539ad0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="," scope="0x252e900" astParent="0x2539ce0" astOperand1="0x25398c0" astOperand2="0x2539c30"/>
+    <token id="0x2539b80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="int" scope="0x252e900" type="name"/>
+    <token id="0x2539c30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="pattern_type_" scope="0x252e900" type="name" varId="16" variable="0x25606d0" astParent="0x2539ad0"/>
+    <token id="0x2539ce0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="," scope="0x252e900" astParent="0x2539550" astOperand1="0x2539ad0" astOperand2="0x253a050"/>
+    <token id="0x2539d90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="cv" scope="0x252e900" type="name" astParent="0x2539e40"/>
+    <token id="0x2539e40" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="::" scope="0x252e900" astParent="0x253a050" astOperand1="0x2539d90" astOperand2="0x2539fa0"/>
+    <token id="0x2539ef0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="Point3f" scope="0x252e900" type="name"/>
+    <token id="0x2539fa0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="offset_" scope="0x252e900" type="name" varId="17" variable="0x2560740" astParent="0x2539e40"/>
+    <token id="0x253a050" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="=" scope="0x252e900" type="op" isAssignmentOp="True" astParent="0x2539ce0" astOperand1="0x2539e40" astOperand2="0x253a310"/>
+    <token id="0x253a100" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="cv" scope="0x252e900" type="name" astParent="0x253a1b0"/>
+    <token id="0x253a1b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="::" scope="0x252e900" astParent="0x253a310" astOperand1="0x253a100" astOperand2="0x253a260"/>
+    <token id="0x253a260" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="Point3f" scope="0x252e900" type="name" astParent="0x253a1b0"/>
+    <token id="0x253a310" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="(" scope="0x252e900" link="0x253a3c0" astParent="0x253a050" astOperand1="0x253a1b0"/>
+    <token id="0x253a3c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=")" scope="0x252e900" link="0x253a310"/>
+    <token id="0x253a470" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=")" scope="0x252e900" link="0x2539550"/>
+    <token id="0x253a520" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=";" scope="0x252e900"/>
+    <token id="0x253a5d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="46" str="public:" scope="0x252e900" type="name"/>
+    <token id="0x253a730" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="cv" scope="0x252e900" type="name" astParent="0x253a7e0"/>
+    <token id="0x253a7e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="::" scope="0x252e900" astOperand1="0x253a730" astOperand2="0x253a940"/>
+    <token id="0x253a890" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="Matx33d" scope="0x252e900" type="name"/>
+    <token id="0x253a940" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="K" scope="0x252e900" type="name" varId="18" variable="0x2540290" astParent="0x253a7e0"/>
+    <token id="0x253a9f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str=";" scope="0x252e900"/>
+    <token id="0x253aaa0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="cv" scope="0x252e900" type="name" astParent="0x253ab50"/>
+    <token id="0x253ab50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="::" scope="0x252e900" astOperand1="0x253aaa0" astOperand2="0x253acb0"/>
+    <token id="0x253ac00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="Matx33d" scope="0x252e900" type="name"/>
+    <token id="0x253acb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="D" scope="0x252e900" type="name" varId="19" variable="0x255f1d0" astParent="0x253ab50"/>
+    <token id="0x253ad60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str=";" scope="0x252e900"/>
+    <token id="0x253ae10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x252e900" type="name" astParent="0x253aec0"/>
+    <token id="0x253aec0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x252e900" astOperand1="0x253ae10" astOperand2="0x253b020"/>
+    <token id="0x253af70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x252e900" type="name"/>
+    <token id="0x253b020" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="rvec" scope="0x252e900" type="name" varId="20" variable="0x255f240" astParent="0x253aec0"/>
+    <token id="0x253b0d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x252e900"/>
+    <token id="0x2543290" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x252e900" type="name" astParent="0x254f410"/>
+    <token id="0x254f410" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x252e900" astOperand1="0x2543290" astOperand2="0x253b180"/>
+    <token id="0x2553340" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x252e900" type="name"/>
+    <token id="0x253b180" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="tvec" scope="0x252e900" type="name" varId="21" variable="0x255f2b0" astParent="0x254f410"/>
+    <token id="0x253b230" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x252e900"/>
+    <token id="0x2556000" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x252e900" type="name" astParent="0x2557f50"/>
+    <token id="0x2557f50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x252e900" astOperand1="0x2556000" astOperand2="0x253b2e0"/>
+    <token id="0x252e460" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x252e900" type="name"/>
+    <token id="0x253b2e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="R" scope="0x252e900" type="name" varId="22" variable="0x255f320" astParent="0x2557f50"/>
+    <token id="0x253b390" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x252e900"/>
+    <token id="0x253b440" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str="int" scope="0x252e900" type="name"/>
+    <token id="0x253b4f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str="pattern_type" scope="0x252e900" type="name" varId="23" variable="0x255f390"/>
+    <token id="0x253b5a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str=";" scope="0x252e900"/>
+    <token id="0x253b650" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="cv" scope="0x252e900" type="name" astParent="0x253b700"/>
+    <token id="0x253b700" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="::" scope="0x252e900" astOperand1="0x253b650" astOperand2="0x253b860"/>
+    <token id="0x253b7b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="Size" scope="0x252e900" type="name"/>
+    <token id="0x253b860" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="grid_size" scope="0x252e900" type="name" varId="24" variable="0x255f400" astParent="0x253b700"/>
+    <token id="0x253b910" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str=";" scope="0x252e900"/>
+    <token id="0x253b9c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str="float" scope="0x252e900" type="name"/>
+    <token id="0x253ba70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str="square_size" scope="0x252e900" type="name" varId="25" variable="0x255f470"/>
+    <token id="0x253bb20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str=";" scope="0x252e900"/>
+    <token id="0x253bbd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="std" scope="0x252e900" type="name" astParent="0x255da60"/>
+    <token id="0x255da60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="::" scope="0x252e900" astOperand1="0x253bbd0" astOperand2="0x255db10"/>
+    <token id="0x255db10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="vector" scope="0x252e900" type="name" astParent="0x255da60"/>
+    <token id="0x255dbc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="&lt;" scope="0x252e900" link="0x255de80"/>
+    <token id="0x255dc70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="cv" scope="0x252e900" type="name"/>
+    <token id="0x255dd20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="::" scope="0x252e900"/>
+    <token id="0x255ddd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="Point3f" scope="0x252e900" type="name"/>
+    <token id="0x255de80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="&gt;" scope="0x252e900" link="0x255dbc0"/>
+    <token id="0x253bc80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="ideal_points" scope="0x252e900" type="name" varId="26" variable="0x255f4e0"/>
+    <token id="0x253bd30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str=";" scope="0x252e900"/>
+    <token id="0x253bde0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="57" str="}" scope="0x252e900" link="0x2534e10"/>
+    <token id="0x253be90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="57" str=";" scope="0x255d5b0"/>
+    <token id="0x253bf40" file="find_fiducial_pose.cpp" linenr="52" str="class" scope="0x255d5b0" type="name"/>
+    <token id="0x253bff0" file="find_fiducial_pose.cpp" linenr="52" str="FindFiducialAction" scope="0x255d5b0" type="name" type-scope="0x25325d0"/>
+    <token id="0x253c0d0" file="find_fiducial_pose.cpp" linenr="53" str="{" scope="0x25325d0" link="0x255b0d0"/>
+    <token id="0x253c180" file="find_fiducial_pose.cpp" linenr="54" str="public:" scope="0x25325d0" type="name"/>
+    <token id="0x253c2e0" file="find_fiducial_pose.cpp" linenr="56" str="FindFiducialAction" scope="0x25325d0" type="name" function="0x2532700" astParent="0x253c3c0"/>
+    <token id="0x253c3c0" file="find_fiducial_pose.cpp" linenr="56" str="(" scope="0x25325d0" link="0x253c730" astParent="0x253c7e0" astOperand1="0x253c2e0" astOperand2="0x253c520"/>
+    <token id="0x253c470" file="find_fiducial_pose.cpp" linenr="56" str="std" scope="0x25325d0" type="name" astParent="0x253c520"/>
+    <token id="0x253c520" file="find_fiducial_pose.cpp" linenr="56" str="::" scope="0x25325d0" astParent="0x253c3c0" astOperand1="0x253c470" astOperand2="0x253c680"/>
+    <token id="0x253c5d0" file="find_fiducial_pose.cpp" linenr="56" str="string" scope="0x25325d0" type="name"/>
+    <token id="0x253c680" file="find_fiducial_pose.cpp" linenr="56" str="name" scope="0x25325d0" type="name" varId="27" variable="0x25607b0" astParent="0x253c520"/>
+    <token id="0x253c730" file="find_fiducial_pose.cpp" linenr="56" str=")" scope="0x25325d0" link="0x253c3c0"/>
+    <token id="0x253c7e0" file="find_fiducial_pose.cpp" linenr="56" str=":" scope="0x25325d0" astParent="0x253ce10" astOperand1="0x253c3c0" astOperand2="0x253c940"/>
+    <token id="0x253c890" file="find_fiducial_pose.cpp" linenr="57" str="as_" scope="0x25325d0" type="name" varId="49" variable="0x255f5c0" astParent="0x253c940"/>
+    <token id="0x253c940" file="find_fiducial_pose.cpp" linenr="57" str="(" scope="0x25325d0" link="0x253cd60" astParent="0x253c7e0" astOperand1="0x253c890" astOperand2="0x253cc00"/>
+    <token id="0x253c9f0" file="find_fiducial_pose.cpp" linenr="57" str="nh_" scope="0x25325d0" type="name" varId="48" variable="0x255f550" astParent="0x253caa0"/>
+    <token id="0x253caa0" file="find_fiducial_pose.cpp" linenr="57" str="," scope="0x25325d0" astParent="0x253cc00" astOperand1="0x253c9f0" astOperand2="0x253cb50"/>
+    <token id="0x253cb50" file="find_fiducial_pose.cpp" linenr="57" str="name" scope="0x25325d0" type="name" varId="27" variable="0x25607b0" astParent="0x253caa0"/>
+    <token id="0x253cc00" file="find_fiducial_pose.cpp" linenr="57" str="," scope="0x25325d0" astParent="0x253c940" astOperand1="0x253caa0" astOperand2="0x253ccb0"/>
+    <token id="0x253ccb0" file="find_fiducial_pose.cpp" linenr="57" str="true" scope="0x25325d0" type="name" values="0x253ccb8" astParent="0x253cc00"/>
+    <token id="0x253cd60" file="find_fiducial_pose.cpp" linenr="57" str=")" scope="0x25325d0" link="0x253c940"/>
+    <token id="0x253ce10" file="find_fiducial_pose.cpp" linenr="57" str="," scope="0x25325d0" astParent="0x253d180" astOperand1="0x253c7e0" astOperand2="0x253cf70"/>
+    <token id="0x253cec0" file="find_fiducial_pose.cpp" linenr="58" str="action_name_" scope="0x25325d0" type="name" varId="50" variable="0x255f630" astParent="0x253cf70"/>
+    <token id="0x253cf70" file="find_fiducial_pose.cpp" linenr="58" str="(" scope="0x25325d0" link="0x253d0d0" astParent="0x253ce10" astOperand1="0x253cec0" astOperand2="0x253d020"/>
+    <token id="0x253d020" file="find_fiducial_pose.cpp" linenr="58" str="name" scope="0x25325d0" type="name" varId="27" variable="0x25607b0" astParent="0x253cf70"/>
+    <token id="0x253d0d0" file="find_fiducial_pose.cpp" linenr="58" str=")" scope="0x25325d0" link="0x253cf70"/>
+    <token id="0x253d180" file="find_fiducial_pose.cpp" linenr="58" str="," scope="0x25325d0" astOperand1="0x253ce10" astOperand2="0x253d2e0"/>
+    <token id="0x253d230" file="find_fiducial_pose.cpp" linenr="59" str="it_" scope="0x25325d0" type="name" varId="52" variable="0x255f710" astParent="0x253d2e0"/>
+    <token id="0x253d2e0" file="find_fiducial_pose.cpp" linenr="59" str="(" scope="0x25325d0" link="0x253d440" astParent="0x253d180" astOperand1="0x253d230" astOperand2="0x253d390"/>
+    <token id="0x253d390" file="find_fiducial_pose.cpp" linenr="59" str="nh_" scope="0x25325d0" type="name" varId="48" variable="0x255f550" astParent="0x253d2e0"/>
+    <token id="0x253d440" file="find_fiducial_pose.cpp" linenr="59" str=")" scope="0x25325d0" link="0x253d2e0"/>
+    <token id="0x253d4f0" file="find_fiducial_pose.cpp" linenr="60" str="{" scope="0x25327a0" link="0x253edc0"/>
+    <token id="0x253d5a0" file="find_fiducial_pose.cpp" linenr="62" str="as_" scope="0x25327a0" type="name" varId="49" variable="0x255f5c0" astParent="0x253d650"/>
+    <token id="0x253d650" file="find_fiducial_pose.cpp" linenr="62" str="." scope="0x25327a0" astParent="0x253d7e0" astOperand1="0x253d5a0" astOperand2="0x253d700"/>
+    <token id="0x253d700" file="find_fiducial_pose.cpp" linenr="62" str="registerGoalCallback" scope="0x25327a0" type="name" astParent="0x253d650"/>
+    <token id="0x253d7e0" file="find_fiducial_pose.cpp" linenr="62" str="(" scope="0x25327a0" link="0x253e050" astOperand1="0x253d650" astOperand2="0x253daa0"/>
+    <token id="0x253d890" file="find_fiducial_pose.cpp" linenr="62" str="boost" scope="0x25327a0" type="name" astParent="0x253d940"/>
+    <token id="0x253d940" file="find_fiducial_pose.cpp" linenr="62" str="::" scope="0x25327a0" astParent="0x253daa0" astOperand1="0x253d890" astOperand2="0x253d9f0"/>
+    <token id="0x253d9f0" file="find_fiducial_pose.cpp" linenr="62" str="bind" scope="0x25327a0" type="name" astParent="0x253d940"/>
+    <token id="0x253daa0" file="find_fiducial_pose.cpp" linenr="62" str="(" scope="0x25327a0" link="0x253dfa0" astParent="0x253d7e0" astOperand1="0x253d940" astOperand2="0x253de40"/>
+    <token id="0x253db50" file="find_fiducial_pose.cpp" linenr="62" str="&amp;" scope="0x25327a0" type="op" astParent="0x253de40" astOperand1="0x253dce0"/>
+    <token id="0x253dc00" file="find_fiducial_pose.cpp" linenr="62" str="FindFiducialAction" scope="0x25327a0" type="name" type-scope="0x25325d0" astParent="0x253dce0"/>
+    <token id="0x253dce0" file="find_fiducial_pose.cpp" linenr="62" str="::" scope="0x25327a0" astParent="0x253db50" astOperand1="0x253dc00" astOperand2="0x253dd90"/>
+    <token id="0x253dd90" file="find_fiducial_pose.cpp" linenr="62" str="goalCB" scope="0x25327a0" type="name" astParent="0x253dce0"/>
+    <token id="0x253de40" file="find_fiducial_pose.cpp" linenr="62" str="," scope="0x25327a0" astParent="0x253daa0" astOperand1="0x253db50" astOperand2="0x253def0"/>
+    <token id="0x253def0" file="find_fiducial_pose.cpp" linenr="62" str="this" scope="0x25327a0" type="name" astParent="0x253de40"/>
+    <token id="0x253dfa0" file="find_fiducial_pose.cpp" linenr="62" str=")" scope="0x25327a0" link="0x253daa0"/>
+    <token id="0x253e050" file="find_fiducial_pose.cpp" linenr="62" str=")" scope="0x25327a0" link="0x253d7e0"/>
+    <token id="0x253e100" file="find_fiducial_pose.cpp" linenr="62" str=";" scope="0x25327a0"/>
+    <token id="0x253e1b0" file="find_fiducial_pose.cpp" linenr="63" str="as_" scope="0x25327a0" type="name" varId="49" variable="0x255f5c0" astParent="0x253e260"/>
+    <token id="0x253e260" file="find_fiducial_pose.cpp" linenr="63" str="." scope="0x25327a0" astParent="0x253e3f0" astOperand1="0x253e1b0" astOperand2="0x253e310"/>
+    <token id="0x253e310" file="find_fiducial_pose.cpp" linenr="63" str="registerPreemptCallback" scope="0x25327a0" type="name" astParent="0x253e260"/>
+    <token id="0x253e3f0" file="find_fiducial_pose.cpp" linenr="63" str="(" scope="0x25327a0" link="0x253ec60" astOperand1="0x253e260" astOperand2="0x253e6b0"/>
+    <token id="0x253e4a0" file="find_fiducial_pose.cpp" linenr="63" str="boost" scope="0x25327a0" type="name" astParent="0x253e550"/>
+    <token id="0x253e550" file="find_fiducial_pose.cpp" linenr="63" str="::" scope="0x25327a0" astParent="0x253e6b0" astOperand1="0x253e4a0" astOperand2="0x253e600"/>
+    <token id="0x253e600" file="find_fiducial_pose.cpp" linenr="63" str="bind" scope="0x25327a0" type="name" astParent="0x253e550"/>
+    <token id="0x253e6b0" file="find_fiducial_pose.cpp" linenr="63" str="(" scope="0x25327a0" link="0x253ebb0" astParent="0x253e3f0" astOperand1="0x253e550" astOperand2="0x253ea50"/>
+    <token id="0x253e760" file="find_fiducial_pose.cpp" linenr="63" str="&amp;" scope="0x25327a0" type="op" astParent="0x253ea50" astOperand1="0x253e8f0"/>
+    <token id="0x253e810" file="find_fiducial_pose.cpp" linenr="63" str="FindFiducialAction" scope="0x25327a0" type="name" type-scope="0x25325d0" astParent="0x253e8f0"/>
+    <token id="0x253e8f0" file="find_fiducial_pose.cpp" linenr="63" str="::" scope="0x25327a0" astParent="0x253e760" astOperand1="0x253e810" astOperand2="0x253e9a0"/>
+    <token id="0x253e9a0" file="find_fiducial_pose.cpp" linenr="63" str="preemptCB" scope="0x25327a0" type="name" astParent="0x253e8f0"/>
+    <token id="0x253ea50" file="find_fiducial_pose.cpp" linenr="63" str="," scope="0x25327a0" astParent="0x253e6b0" astOperand1="0x253e760" astOperand2="0x253eb00"/>
+    <token id="0x253eb00" file="find_fiducial_pose.cpp" linenr="63" str="this" scope="0x25327a0" type="name" astParent="0x253ea50"/>
+    <token id="0x253ebb0" file="find_fiducial_pose.cpp" linenr="63" str=")" scope="0x25327a0" link="0x253e6b0"/>
+    <token id="0x253ec60" file="find_fiducial_pose.cpp" linenr="63" str=")" scope="0x25327a0" link="0x253e3f0"/>
+    <token id="0x253ed10" file="find_fiducial_pose.cpp" linenr="63" str=";" scope="0x25327a0"/>
+    <token id="0x253edc0" file="find_fiducial_pose.cpp" linenr="65" str="}" scope="0x25327a0" link="0x253d4f0"/>
+    <token id="0x253ee70" file="find_fiducial_pose.cpp" linenr="67" str="~" scope="0x25325d0" type="op" astOperand1="0x253f000"/>
+    <token id="0x253ef20" file="find_fiducial_pose.cpp" linenr="67" str="FindFiducialAction" scope="0x25325d0" type="name" function="0x25328d0" astParent="0x253f000"/>
+    <token id="0x253f000" file="find_fiducial_pose.cpp" linenr="67" str="(" scope="0x25325d0" link="0x253f160" astParent="0x253ee70" astOperand1="0x253ef20"/>
+    <token id="0x253f160" file="find_fiducial_pose.cpp" linenr="67" str=")" scope="0x25325d0" link="0x253f000"/>
+    <token id="0x253f210" file="find_fiducial_pose.cpp" linenr="68" str="{" scope="0x255df40" link="0x253f2c0"/>
+    <token id="0x253f2c0" file="find_fiducial_pose.cpp" linenr="69" str="}" scope="0x255df40" link="0x253f210"/>
+    <token id="0x253f370" file="find_fiducial_pose.cpp" linenr="71" str="void" scope="0x25325d0" type="name"/>
+    <token id="0x253f420" file="find_fiducial_pose.cpp" linenr="71" str="goalCB" scope="0x25325d0" type="name" function="0x255e070" astParent="0x253f4d0"/>
+    <token id="0x253f4d0" file="find_fiducial_pose.cpp" linenr="71" str="(" scope="0x25325d0" link="0x253f580" astOperand1="0x253f420"/>
+    <token id="0x253f580" file="find_fiducial_pose.cpp" linenr="71" str=")" scope="0x25325d0" link="0x253f4d0"/>
+    <token id="0x253f630" file="find_fiducial_pose.cpp" linenr="72" str="{" scope="0x255e110" link="0x2545bb0"/>
+    <token id="0x253f6e0" file="find_fiducial_pose.cpp" linenr="73" str="ROS_INFO" scope="0x255e110" type="name" astParent="0x253f790"/>
+    <token id="0x253f790" file="find_fiducial_pose.cpp" linenr="73" str="(" scope="0x255e110" link="0x253fd70" astOperand1="0x253f6e0" astOperand2="0x253f950"/>
+    <token id="0x253f870" file="find_fiducial_pose.cpp" linenr="73" str="&quot;%s: Received new goal&quot;" scope="0x255e110" type="string" strlen="21" values="0x253f878" astParent="0x253f950"/>
+    <token id="0x253f950" file="find_fiducial_pose.cpp" linenr="73" str="," scope="0x255e110" astParent="0x253f790" astOperand1="0x253f870" astOperand2="0x253fc10"/>
+    <token id="0x253fa00" file="find_fiducial_pose.cpp" linenr="73" str="action_name_" scope="0x255e110" type="name" varId="50" variable="0x255f630" astParent="0x253fab0"/>
+    <token id="0x253fab0" file="find_fiducial_pose.cpp" linenr="73" str="." scope="0x255e110" astParent="0x253fc10" astOperand1="0x253fa00" astOperand2="0x253fb60"/>
+    <token id="0x253fb60" file="find_fiducial_pose.cpp" linenr="73" str="c_str" scope="0x255e110" type="name" astParent="0x253fab0"/>
+    <token id="0x253fc10" file="find_fiducial_pose.cpp" linenr="73" str="(" scope="0x255e110" link="0x253fcc0" astParent="0x253f950" astOperand1="0x253fab0"/>
+    <token id="0x253fcc0" file="find_fiducial_pose.cpp" linenr="73" str=")" scope="0x255e110" link="0x253fc10"/>
+    <token id="0x253fd70" file="find_fiducial_pose.cpp" linenr="73" str=")" scope="0x255e110" link="0x253f790"/>
+    <token id="0x253fe20" file="find_fiducial_pose.cpp" linenr="73" str=";" scope="0x255e110"/>
+    <token id="0x2540740" file="find_fiducial_pose.cpp" linenr="76" str="boost" scope="0x255e110" type="name" astParent="0x2532a20"/>
+    <token id="0x2532a20" file="find_fiducial_pose.cpp" linenr="76" str="::" scope="0x255e110" astOperand1="0x2540740" astOperand2="0x2532ad0"/>
+    <token id="0x2532ad0" file="find_fiducial_pose.cpp" linenr="76" str="shared_ptr" scope="0x255e110" type="name" astParent="0x2532a20"/>
+    <token id="0x2532b80" file="find_fiducial_pose.cpp" linenr="76" str="&lt;" scope="0x255e110" link="0x2532f20"/>
+    <token id="0x2532c30" file="find_fiducial_pose.cpp" linenr="76" str="const" scope="0x255e110" type="name"/>
+    <token id="0x2532ce0" file="find_fiducial_pose.cpp" linenr="76" str="turtlebot_actions" scope="0x255e110" type="name"/>
+    <token id="0x2532d90" file="find_fiducial_pose.cpp" linenr="76" str="::" scope="0x255e110"/>
+    <token id="0x2532e40" file="find_fiducial_pose.cpp" linenr="76" str="FindFiducialGoal" scope="0x255e110" type="name"/>
+    <token id="0x2532f20" file="find_fiducial_pose.cpp" linenr="76" str="&gt;" scope="0x255e110" link="0x2532b80"/>
+    <token id="0x25407f0" file="find_fiducial_pose.cpp" linenr="76" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00"/>
+    <token id="0x25408a0" file="find_fiducial_pose.cpp" linenr="76" str=";" scope="0x255e110"/>
+    <token id="0x252e510" file="find_fiducial_pose.cpp" linenr="76" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x252e5c0"/>
+    <token id="0x252e5c0" file="find_fiducial_pose.cpp" linenr="76" str="=" scope="0x255e110" type="op" isAssignmentOp="True" astOperand1="0x252e510" astOperand2="0x2540b60"/>
+    <token id="0x2540950" file="find_fiducial_pose.cpp" linenr="76" str="as_" scope="0x255e110" type="name" varId="49" variable="0x255f5c0" astParent="0x2540a00"/>
+    <token id="0x2540a00" file="find_fiducial_pose.cpp" linenr="76" str="." scope="0x255e110" astParent="0x2540b60" astOperand1="0x2540950" astOperand2="0x2540ab0"/>
+    <token id="0x2540ab0" file="find_fiducial_pose.cpp" linenr="76" str="acceptNewGoal" scope="0x255e110" type="name" astParent="0x2540a00"/>
+    <token id="0x2540b60" file="find_fiducial_pose.cpp" linenr="76" str="(" scope="0x255e110" link="0x2540c10" astParent="0x252e5c0" astOperand1="0x2540a00"/>
+    <token id="0x2540c10" file="find_fiducial_pose.cpp" linenr="76" str=")" scope="0x255e110" link="0x2540b60"/>
+    <token id="0x2540cc0" file="find_fiducial_pose.cpp" linenr="76" str=";" scope="0x255e110"/>
+    <token id="0x2540d70" file="find_fiducial_pose.cpp" linenr="78" str="cv" scope="0x255e110" type="name" astParent="0x2540e20"/>
+    <token id="0x2540e20" file="find_fiducial_pose.cpp" linenr="78" str="::" scope="0x255e110" astParent="0x2541030" astOperand1="0x2540d70" astOperand2="0x2540f80"/>
+    <token id="0x2540ed0" file="find_fiducial_pose.cpp" linenr="78" str="Size" scope="0x255e110" type="name"/>
+    <token id="0x2540f80" file="find_fiducial_pose.cpp" linenr="78" str="grid_size" scope="0x255e110" type="name" varId="29" variable="0x255fb70" astParent="0x2540e20"/>
+    <token id="0x2541030" file="find_fiducial_pose.cpp" linenr="78" str="(" scope="0x255e110" link="0x2541710" astOperand1="0x2540e20" astOperand2="0x25413a0"/>
+    <token id="0x25410e0" file="find_fiducial_pose.cpp" linenr="78" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x2541190"/>
+    <token id="0x2541190" file="find_fiducial_pose.cpp" linenr="78" str="." scope="0x255e110" astParent="0x25413a0" astOperand1="0x25410e0" astOperand2="0x25412f0"/>
+    <token id="0x25412f0" file="find_fiducial_pose.cpp" linenr="78" str="pattern_width" scope="0x255e110" type="name" varId="30" astParent="0x2541190"/>
+    <token id="0x25413a0" file="find_fiducial_pose.cpp" linenr="78" str="," scope="0x255e110" astParent="0x2541030" astOperand1="0x2541190" astOperand2="0x2541500"/>
+    <token id="0x2541450" file="find_fiducial_pose.cpp" linenr="78" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x2541500"/>
+    <token id="0x2541500" file="find_fiducial_pose.cpp" linenr="78" str="." scope="0x255e110" astParent="0x25413a0" astOperand1="0x2541450" astOperand2="0x2541660"/>
+    <token id="0x2541660" file="find_fiducial_pose.cpp" linenr="78" str="pattern_height" scope="0x255e110" type="name" varId="31" astParent="0x2541500"/>
+    <token id="0x2541710" file="find_fiducial_pose.cpp" linenr="78" str=")" scope="0x255e110" link="0x2541030"/>
+    <token id="0x25417c0" file="find_fiducial_pose.cpp" linenr="78" str=";" scope="0x255e110"/>
+    <token id="0x2541870" file="find_fiducial_pose.cpp" linenr="79" str="detector_" scope="0x255e110" type="name" varId="51" variable="0x255f6a0" astParent="0x2541920"/>
+    <token id="0x2541920" file="find_fiducial_pose.cpp" linenr="79" str="." scope="0x255e110" astParent="0x2541a80" astOperand1="0x2541870" astOperand2="0x25419d0"/>
+    <token id="0x25419d0" file="find_fiducial_pose.cpp" linenr="79" str="setPattern" scope="0x255e110" type="name" function="0x25401f0" astParent="0x2541920"/>
+    <token id="0x2541a80" file="find_fiducial_pose.cpp" linenr="79" str="(" scope="0x255e110" link="0x25424d0" astOperand1="0x2541920" astOperand2="0x2541f50"/>
+    <token id="0x2541b30" file="find_fiducial_pose.cpp" linenr="79" str="grid_size" scope="0x255e110" type="name" varId="29" variable="0x255fb70" astParent="0x2541be0"/>
+    <token id="0x2541be0" file="find_fiducial_pose.cpp" linenr="79" str="," scope="0x255e110" astParent="0x2541f50" astOperand1="0x2541b30" astOperand2="0x2541d40"/>
+    <token id="0x2541c90" file="find_fiducial_pose.cpp" linenr="79" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x2541d40"/>
+    <token id="0x2541d40" file="find_fiducial_pose.cpp" linenr="79" str="." scope="0x255e110" astParent="0x2541be0" astOperand1="0x2541c90" astOperand2="0x2541ea0"/>
+    <token id="0x2541ea0" file="find_fiducial_pose.cpp" linenr="79" str="pattern_size" scope="0x255e110" type="name" varId="32" astParent="0x2541d40"/>
+    <token id="0x2541f50" file="find_fiducial_pose.cpp" linenr="79" str="," scope="0x255e110" astParent="0x2541a80" astOperand1="0x2541be0" astOperand2="0x25420b0"/>
+    <token id="0x2542000" file="find_fiducial_pose.cpp" linenr="79" str="int" scope="0x255e110" type="name" astParent="0x25420b0"/>
+    <token id="0x25420b0" file="find_fiducial_pose.cpp" linenr="79" str="(" scope="0x255e110" link="0x2542420" astParent="0x2541f50" astOperand1="0x2542000" astOperand2="0x2542210"/>
+    <token id="0x2542160" file="find_fiducial_pose.cpp" linenr="79" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x2542210"/>
+    <token id="0x2542210" file="find_fiducial_pose.cpp" linenr="79" str="." scope="0x255e110" astParent="0x25420b0" astOperand1="0x2542160" astOperand2="0x2542370"/>
+    <token id="0x2542370" file="find_fiducial_pose.cpp" linenr="79" str="pattern_type" scope="0x255e110" type="name" varId="33" astParent="0x2542210"/>
+    <token id="0x2542420" file="find_fiducial_pose.cpp" linenr="79" str=")" scope="0x255e110" link="0x25420b0"/>
+    <token id="0x25424d0" file="find_fiducial_pose.cpp" linenr="79" str=")" scope="0x255e110" link="0x2541a80"/>
+    <token id="0x2542580" file="find_fiducial_pose.cpp" linenr="79" str=";" scope="0x255e110"/>
+    <token id="0x2542630" file="find_fiducial_pose.cpp" linenr="81" str="ros" scope="0x255e110" type="name" astParent="0x25426e0"/>
+    <token id="0x25426e0" file="find_fiducial_pose.cpp" linenr="81" str="::" scope="0x255e110" astParent="0x2542840" astOperand1="0x2542630" astOperand2="0x2542790"/>
+    <token id="0x2542790" file="find_fiducial_pose.cpp" linenr="81" str="Duration" scope="0x255e110" type="name" astParent="0x25426e0"/>
+    <token id="0x2542840" file="find_fiducial_pose.cpp" linenr="81" str="(" scope="0x255e110" link="0x25429a0" astParent="0x2542a50" astOperand1="0x25426e0" astOperand2="0x25428f0"/>
+    <token id="0x25428f0" file="find_fiducial_pose.cpp" linenr="81" str="1.0" scope="0x255e110" type="number" isFloat="True" astParent="0x2542840"/>
+    <token id="0x25429a0" file="find_fiducial_pose.cpp" linenr="81" str=")" scope="0x255e110" link="0x2542840"/>
+    <token id="0x2542a50" file="find_fiducial_pose.cpp" linenr="81" str="." scope="0x255e110" astParent="0x2542bb0" astOperand1="0x2542840" astOperand2="0x2542b00"/>
+    <token id="0x2542b00" file="find_fiducial_pose.cpp" linenr="81" str="sleep" scope="0x255e110" type="name" astParent="0x2542a50"/>
+    <token id="0x2542bb0" file="find_fiducial_pose.cpp" linenr="81" str="(" scope="0x255e110" link="0x2542c60" astOperand1="0x2542a50"/>
+    <token id="0x2542c60" file="find_fiducial_pose.cpp" linenr="81" str=")" scope="0x255e110" link="0x2542bb0"/>
+    <token id="0x2542d10" file="find_fiducial_pose.cpp" linenr="81" str=";" scope="0x255e110"/>
+    <token id="0x2542dc0" file="find_fiducial_pose.cpp" linenr="83" str="std" scope="0x255e110" type="name" astParent="0x2542e70"/>
+    <token id="0x2542e70" file="find_fiducial_pose.cpp" linenr="83" str="::" scope="0x255e110" astOperand1="0x2542dc0" astOperand2="0x2542fd0"/>
+    <token id="0x2542f20" file="find_fiducial_pose.cpp" linenr="83" str="string" scope="0x255e110" type="name"/>
+    <token id="0x2542fd0" file="find_fiducial_pose.cpp" linenr="83" str="image_topic" scope="0x255e110" type="name" varId="34" variable="0x255fbe0" astParent="0x2542e70"/>
+    <token id="0x2543080" file="find_fiducial_pose.cpp" linenr="83" str=";" scope="0x255e110"/>
+    <token id="0x255d180" file="find_fiducial_pose.cpp" linenr="83" str="image_topic" scope="0x255e110" type="name" varId="34" variable="0x255fbe0" astParent="0x255d230"/>
+    <token id="0x255d230" file="find_fiducial_pose.cpp" linenr="83" str="=" scope="0x255e110" type="op" isAssignmentOp="True" astOperand1="0x255d180" astOperand2="0x25433f0"/>
+    <token id="0x2543130" file="find_fiducial_pose.cpp" linenr="83" str="goal" scope="0x255e110" type="name" varId="28" variable="0x255fb00" astParent="0x25431e0"/>
+    <token id="0x25431e0" file="find_fiducial_pose.cpp" linenr="83" str="." scope="0x255e110" astParent="0x25433f0" astOperand1="0x2543130" astOperand2="0x2543340"/>
+    <token id="0x2543340" file="find_fiducial_pose.cpp" linenr="83" str="camera_name" scope="0x255e110" type="name" varId="35" astParent="0x25431e0"/>
+    <token id="0x25433f0" file="find_fiducial_pose.cpp" linenr="83" str="+" scope="0x255e110" type="op" isArithmeticalOp="True" astParent="0x255d230" astOperand1="0x25431e0" astOperand2="0x25434d0"/>
+    <token id="0x25434d0" file="find_fiducial_pose.cpp" linenr="83" str="&quot;/image_rect_mono&quot;" scope="0x255e110" type="string" strlen="16" values="0x25434d8" astParent="0x25433f0"/>
+    <token id="0x25435b0" file="find_fiducial_pose.cpp" linenr="83" str=";" scope="0x255e110"/>
+    <token id="0x2543660" file="find_fiducial_pose.cpp" linenr="84" str="sub_" scope="0x255e110" type="name" varId="53" variable="0x255f780" astParent="0x2543710"/>
+    <token id="0x2543710" file="find_fiducial_pose.cpp" linenr="84" str="=" scope="0x255e110" type="op" isAssignmentOp="True" astOperand1="0x2543660" astOperand2="0x25439d0"/>
+    <token id="0x25437c0" file="find_fiducial_pose.cpp" linenr="84" str="it_" scope="0x255e110" type="name" varId="52" variable="0x255f710" astParent="0x2543870"/>
+    <token id="0x2543870" file="find_fiducial_pose.cpp" linenr="84" str="." scope="0x255e110" astParent="0x25439d0" astOperand1="0x25437c0" astOperand2="0x2543920"/>
+    <token id="0x2543920" file="find_fiducial_pose.cpp" linenr="84" str="subscribeCamera" scope="0x255e110" type="name" astParent="0x2543870"/>
+    <token id="0x25439d0" file="find_fiducial_pose.cpp" linenr="84" str="(" scope="0x255e110" link="0x2544160" astParent="0x2543710" astOperand1="0x2543870" astOperand2="0x2544000"/>
+    <token id="0x2543a80" file="find_fiducial_pose.cpp" linenr="84" str="image_topic" scope="0x255e110" type="name" varId="34" variable="0x255fbe0" astParent="0x2543b30"/>
+    <token id="0x2543b30" file="find_fiducial_pose.cpp" linenr="84" str="," scope="0x255e110" astParent="0x2543c90" astOperand1="0x2543a80" astOperand2="0x2543be0"/>
+    <token id="0x2543be0" file="find_fiducial_pose.cpp" linenr="84" str="1" scope="0x255e110" type="number" isInt="True" values="0x2543be8" astParent="0x2543b30"/>
+    <token id="0x2543c90" file="find_fiducial_pose.cpp" linenr="84" str="," scope="0x255e110" astParent="0x2544000" astOperand1="0x2543b30" astOperand2="0x2543d40"/>
+    <token id="0x2543d40" file="find_fiducial_pose.cpp" linenr="84" str="&amp;" scope="0x255e110" type="op" astParent="0x2543c90" astOperand1="0x2543ea0"/>
+    <token id="0x2543df0" file="find_fiducial_pose.cpp" linenr="84" str="FindFiducialAction" scope="0x255e110" type="name" type-scope="0x25325d0" astParent="0x2543ea0"/>
+    <token id="0x2543ea0" file="find_fiducial_pose.cpp" linenr="84" str="::" scope="0x255e110" astParent="0x2543d40" astOperand1="0x2543df0" astOperand2="0x2543f50"/>
+    <token id="0x2543f50" file="find_fiducial_pose.cpp" linenr="84" str="detectCB" scope="0x255e110" type="name" astParent="0x2543ea0"/>
+    <token id="0x2544000" file="find_fiducial_pose.cpp" linenr="84" str="," scope="0x255e110" astParent="0x25439d0" astOperand1="0x2543c90" astOperand2="0x25440b0"/>
+    <token id="0x25440b0" file="find_fiducial_pose.cpp" linenr="84" str="this" scope="0x255e110" type="name" astParent="0x2544000"/>
+    <token id="0x2544160" file="find_fiducial_pose.cpp" linenr="84" str=")" scope="0x255e110" link="0x25439d0"/>
+    <token id="0x2544210" file="find_fiducial_pose.cpp" linenr="84" str=";" scope="0x255e110"/>
+    <token id="0x25442c0" file="find_fiducial_pose.cpp" linenr="86" str="pub_timer_" scope="0x255e110" type="name" varId="58" variable="0x255f9b0" astParent="0x2544370"/>
+    <token id="0x2544370" file="find_fiducial_pose.cpp" linenr="86" str="=" scope="0x255e110" type="op" isAssignmentOp="True" astOperand1="0x25442c0" astOperand2="0x2544630"/>
+    <token id="0x2544420" file="find_fiducial_pose.cpp" linenr="86" str="nh_" scope="0x255e110" type="name" varId="48" variable="0x255f550" astParent="0x25444d0"/>
+    <token id="0x25444d0" file="find_fiducial_pose.cpp" linenr="86" str="." scope="0x255e110" astParent="0x2544630" astOperand1="0x2544420" astOperand2="0x2544580"/>
+    <token id="0x2544580" file="find_fiducial_pose.cpp" linenr="86" str="createTimer" scope="0x255e110" type="name" astParent="0x25444d0"/>
+    <token id="0x2544630" file="find_fiducial_pose.cpp" linenr="86" str="(" scope="0x255e110" link="0x2545a50" astParent="0x2544370" astOperand1="0x25444d0" astOperand2="0x25458f0"/>
+    <token id="0x25446e0" file="find_fiducial_pose.cpp" linenr="86" str="tf_listener_" scope="0x255e110" type="name" varId="56" variable="0x255f8d0" astParent="0x2544790"/>
+    <token id="0x2544790" file="find_fiducial_pose.cpp" linenr="86" str="." scope="0x255e110" astParent="0x25448f0" astOperand1="0x25446e0" astOperand2="0x2544840"/>
+    <token id="0x2544840" file="find_fiducial_pose.cpp" linenr="86" str="getCacheLength" scope="0x255e110" type="name" astParent="0x2544790"/>
+    <token id="0x25448f0" file="find_fiducial_pose.cpp" linenr="86" str="(" scope="0x255e110" link="0x25449a0" astParent="0x2544a50" astOperand1="0x2544790"/>
+    <token id="0x25449a0" file="find_fiducial_pose.cpp" linenr="86" str=")" scope="0x255e110" link="0x25448f0"/>
+    <token id="0x2544a50" file="find_fiducial_pose.cpp" linenr="86" str="-" scope="0x255e110" type="op" isArithmeticalOp="True" astParent="0x2544f20" astOperand1="0x25448f0" astOperand2="0x2544d10"/>
+    <token id="0x2544b00" file="find_fiducial_pose.cpp" linenr="86" str="ros" scope="0x255e110" type="name" astParent="0x2544bb0"/>
+    <token id="0x2544bb0" file="find_fiducial_pose.cpp" linenr="86" str="::" scope="0x255e110" astParent="0x2544d10" astOperand1="0x2544b00" astOperand2="0x2544c60"/>
+    <token id="0x2544c60" file="find_fiducial_pose.cpp" linenr="86" str="Duration" scope="0x255e110" type="name" astParent="0x2544bb0"/>
+    <token id="0x2544d10" file="find_fiducial_pose.cpp" linenr="86" str="(" scope="0x255e110" link="0x2544e70" astParent="0x2544a50" astOperand1="0x2544bb0" astOperand2="0x2544dc0"/>
+    <token id="0x2544dc0" file="find_fiducial_pose.cpp" linenr="86" str="1.0" scope="0x255e110" type="number" isFloat="True" astParent="0x2544d10"/>
+    <token id="0x2544e70" file="find_fiducial_pose.cpp" linenr="86" str=")" scope="0x255e110" link="0x2544d10"/>
+    <token id="0x2544f20" file="find_fiducial_pose.cpp" linenr="86" str="," scope="0x255e110" astParent="0x25458f0" astOperand1="0x2544a50" astOperand2="0x25451e0"/>
+    <token id="0x2544fd0" file="find_fiducial_pose.cpp" linenr="86" str="boost" scope="0x255e110" type="name" astParent="0x2545080"/>
+    <token id="0x2545080" file="find_fiducial_pose.cpp" linenr="86" str="::" scope="0x255e110" astParent="0x25451e0" astOperand1="0x2544fd0" astOperand2="0x2545130"/>
+    <token id="0x2545130" file="find_fiducial_pose.cpp" linenr="86" str="bind" scope="0x255e110" type="name" astParent="0x2545080"/>
+    <token id="0x25451e0" file="find_fiducial_pose.cpp" linenr="86" str="(" scope="0x255e110" link="0x2545840" astParent="0x2544f20" astOperand1="0x2545080" astOperand2="0x25456e0"/>
+    <token id="0x2545290" file="find_fiducial_pose.cpp" linenr="86" str="&amp;" scope="0x255e110" type="op" astParent="0x2545580" astOperand1="0x2545420"/>
+    <token id="0x2545340" file="find_fiducial_pose.cpp" linenr="86" str="FindFiducialAction" scope="0x255e110" type="name" type-scope="0x25325d0" astParent="0x2545420"/>
+    <token id="0x2545420" file="find_fiducial_pose.cpp" linenr="86" str="::" scope="0x255e110" astParent="0x2545290" astOperand1="0x2545340" astOperand2="0x25454d0"/>
+    <token id="0x25454d0" file="find_fiducial_pose.cpp" linenr="86" str="timeoutCB" scope="0x255e110" type="name" astParent="0x2545420"/>
+    <token id="0x2545580" file="find_fiducial_pose.cpp" linenr="86" str="," scope="0x255e110" astParent="0x25456e0" astOperand1="0x2545290" astOperand2="0x2545630"/>
+    <token id="0x2545630" file="find_fiducial_pose.cpp" linenr="86" str="this" scope="0x255e110" type="name" astParent="0x2545580"/>
+    <token id="0x25456e0" file="find_fiducial_pose.cpp" linenr="86" str="," scope="0x255e110" astParent="0x25451e0" astOperand1="0x2545580" astOperand2="0x2545790"/>
+    <token id="0x2545790" file="find_fiducial_pose.cpp" linenr="86" str="_1" scope="0x255e110" type="name" astParent="0x25456e0"/>
+    <token id="0x2545840" file="find_fiducial_pose.cpp" linenr="86" str=")" scope="0x255e110" link="0x25451e0"/>
+    <token id="0x25458f0" file="find_fiducial_pose.cpp" linenr="86" str="," scope="0x255e110" astParent="0x2544630" astOperand1="0x2544f20" astOperand2="0x25459a0"/>
+    <token id="0x25459a0" file="find_fiducial_pose.cpp" linenr="86" str="true" scope="0x255e110" type="name" values="0x25459a8" astParent="0x25458f0"/>
+    <token id="0x2545a50" file="find_fiducial_pose.cpp" linenr="86" str=")" scope="0x255e110" link="0x2544630"/>
+    <token id="0x2545b00" file="find_fiducial_pose.cpp" linenr="86" str=";" scope="0x255e110"/>
+    <token id="0x2545bb0" file="find_fiducial_pose.cpp" linenr="87" str="}" scope="0x255e110" link="0x253f630"/>
+    <token id="0x2545c60" file="find_fiducial_pose.cpp" linenr="89" str="void" scope="0x25325d0" type="name"/>
+    <token id="0x2545d10" file="find_fiducial_pose.cpp" linenr="89" str="timeoutCB" scope="0x25325d0" type="name" function="0x255e240" astParent="0x2545dc0"/>
+    <token id="0x2545dc0" file="find_fiducial_pose.cpp" linenr="89" str="(" scope="0x25325d0" link="0x2546290" astOperand1="0x2545d10" astOperand2="0x2546130"/>
+    <token id="0x2545e70" file="find_fiducial_pose.cpp" linenr="89" str="const" scope="0x25325d0" type="name"/>
+    <token id="0x2545f20" file="find_fiducial_pose.cpp" linenr="89" str="ros" scope="0x25325d0" type="name" astParent="0x2545fd0"/>
+    <token id="0x2545fd0" file="find_fiducial_pose.cpp" linenr="89" str="::" scope="0x25325d0" astParent="0x2546130" astOperand1="0x2545f20" astOperand2="0x2546080"/>
+    <token id="0x2546080" file="find_fiducial_pose.cpp" linenr="89" str="TimerEvent" scope="0x25325d0" type="name" astParent="0x2545fd0"/>
+    <token id="0x2546130" file="find_fiducial_pose.cpp" linenr="89" str="&amp;" scope="0x25325d0" type="op" astParent="0x2545dc0" astOperand1="0x2545fd0" astOperand2="0x25461e0"/>
+    <token id="0x25461e0" file="find_fiducial_pose.cpp" linenr="89" str="e" scope="0x25325d0" type="name" varId="36" variable="0x2560820" astParent="0x2546130"/>
+    <token id="0x2546290" file="find_fiducial_pose.cpp" linenr="89" str=")" scope="0x25325d0" link="0x2545dc0"/>
+    <token id="0x2546340" file="find_fiducial_pose.cpp" linenr="90" str="{" scope="0x255e2e0" link="0x2548510"/>
+    <token id="0x25463f0" file="find_fiducial_pose.cpp" linenr="91" str="if" scope="0x255e2e0" type="name" astParent="0x25464a0"/>
+    <token id="0x25464a0" file="find_fiducial_pose.cpp" linenr="91" str="(" scope="0x255e2e0" link="0x2546a50" astOperand1="0x25463f0" astOperand2="0x25468f0"/>
+    <token id="0x2546550" file="find_fiducial_pose.cpp" linenr="91" str="sub_" scope="0x255e2e0" type="name" varId="53" variable="0x255f780" astParent="0x2546600"/>
+    <token id="0x2546600" file="find_fiducial_pose.cpp" linenr="91" str="." scope="0x255e2e0" astParent="0x2546790" astOperand1="0x2546550" astOperand2="0x25466b0"/>
+    <token id="0x25466b0" file="find_fiducial_pose.cpp" linenr="91" str="getNumPublishers" scope="0x255e2e0" type="name" astParent="0x2546600"/>
+    <token id="0x2546790" file="find_fiducial_pose.cpp" linenr="91" str="(" scope="0x255e2e0" link="0x2546840" astParent="0x25468f0" astOperand1="0x2546600"/>
+    <token id="0x2546840" file="find_fiducial_pose.cpp" linenr="91" str=")" scope="0x255e2e0" link="0x2546790"/>
+    <token id="0x25468f0" file="find_fiducial_pose.cpp" linenr="91" str="==" scope="0x255e2e0" type="op" isComparisonOp="True" astParent="0x25464a0" astOperand1="0x2546790" astOperand2="0x25469a0"/>
+    <token id="0x25469a0" file="find_fiducial_pose.cpp" linenr="91" str="0" scope="0x255e2e0" type="number" isInt="True" values="0x25469a8" astParent="0x25468f0"/>
+    <token id="0x2546a50" file="find_fiducial_pose.cpp" linenr="91" str=")" scope="0x255e2e0" link="0x25464a0"/>
+    <token id="0x2534f70" file="find_fiducial_pose.cpp" linenr="91" str="{" scope="0x255e410" link="0x253a680"/>
+    <token id="0x2546b00" file="find_fiducial_pose.cpp" linenr="92" str="ROS_INFO" scope="0x255e410" type="name" astParent="0x2546bb0"/>
+    <token id="0x2546bb0" file="find_fiducial_pose.cpp" linenr="92" str="(" scope="0x255e410" link="0x25471e0" astOperand1="0x2546b00" astOperand2="0x2546dc0"/>
+    <token id="0x2546cd0" file="find_fiducial_pose.cpp" linenr="92" str="&quot;%s: Aborted, there are no publishers on goal topic.&quot;" scope="0x255e410" type="string" strlen="51" values="0x2546cd8" astParent="0x2546dc0"/>
+    <token id="0x2546dc0" file="find_fiducial_pose.cpp" linenr="92" str="," scope="0x255e410" astParent="0x2546bb0" astOperand1="0x2546cd0" astOperand2="0x2547080"/>
+    <token id="0x2546e70" file="find_fiducial_pose.cpp" linenr="92" str="action_name_" scope="0x255e410" type="name" varId="50" variable="0x255f630" astParent="0x2546f20"/>
+    <token id="0x2546f20" file="find_fiducial_pose.cpp" linenr="92" str="." scope="0x255e410" astParent="0x2547080" astOperand1="0x2546e70" astOperand2="0x2546fd0"/>
+    <token id="0x2546fd0" file="find_fiducial_pose.cpp" linenr="92" str="c_str" scope="0x255e410" type="name" astParent="0x2546f20"/>
+    <token id="0x2547080" file="find_fiducial_pose.cpp" linenr="92" str="(" scope="0x255e410" link="0x2547130" astParent="0x2546dc0" astOperand1="0x2546f20"/>
+    <token id="0x2547130" file="find_fiducial_pose.cpp" linenr="92" str=")" scope="0x255e410" link="0x2547080"/>
+    <token id="0x25471e0" file="find_fiducial_pose.cpp" linenr="92" str=")" scope="0x255e410" link="0x2546bb0"/>
+    <token id="0x2547290" file="find_fiducial_pose.cpp" linenr="92" str=";" scope="0x255e410"/>
+    <token id="0x253a680" file="find_fiducial_pose.cpp" linenr="92" str="}" scope="0x255e410" link="0x2534f70"/>
+    <token id="0x2547340" file="find_fiducial_pose.cpp" linenr="93" str="else" scope="0x255e2e0" type="name"/>
+    <token id="0x253c230" file="find_fiducial_pose.cpp" linenr="93" str="{" scope="0x255e670" link="0x2541240"/>
+    <token id="0x25473f0" file="find_fiducial_pose.cpp" linenr="94" str="ROS_INFO" scope="0x255e670" type="name" astParent="0x25474a0"/>
+    <token id="0x25474a0" file="find_fiducial_pose.cpp" linenr="94" str="(" scope="0x255e670" link="0x2547b70" astOperand1="0x25473f0" astOperand2="0x2547750"/>
+    <token id="0x2547640" file="find_fiducial_pose.cpp" linenr="94" str="&quot;%s: Aborted, there are publishers on goal topic, but detection took too long.&quot;" scope="0x255e670" type="string" strlen="77" values="0x2547648" astParent="0x2547750"/>
+    <token id="0x2547750" file="find_fiducial_pose.cpp" linenr="94" str="," scope="0x255e670" astParent="0x25474a0" astOperand1="0x2547640" astOperand2="0x2547a10"/>
+    <token id="0x2547800" file="find_fiducial_pose.cpp" linenr="94" str="action_name_" scope="0x255e670" type="name" varId="50" variable="0x255f630" astParent="0x25478b0"/>
+    <token id="0x25478b0" file="find_fiducial_pose.cpp" linenr="94" str="." scope="0x255e670" astParent="0x2547a10" astOperand1="0x2547800" astOperand2="0x2547960"/>
+    <token id="0x2547960" file="find_fiducial_pose.cpp" linenr="94" str="c_str" scope="0x255e670" type="name" astParent="0x25478b0"/>
+    <token id="0x2547a10" file="find_fiducial_pose.cpp" linenr="94" str="(" scope="0x255e670" link="0x2547ac0" astParent="0x2547750" astOperand1="0x25478b0"/>
+    <token id="0x2547ac0" file="find_fiducial_pose.cpp" linenr="94" str=")" scope="0x255e670" link="0x2547a10"/>
+    <token id="0x2547b70" file="find_fiducial_pose.cpp" linenr="94" str=")" scope="0x255e670" link="0x25474a0"/>
+    <token id="0x2547c20" file="find_fiducial_pose.cpp" linenr="94" str=";" scope="0x255e670"/>
+    <token id="0x2541240" file="find_fiducial_pose.cpp" linenr="94" str="}" scope="0x255e670" link="0x253c230"/>
+    <token id="0x2547cd0" file="find_fiducial_pose.cpp" linenr="96" str="sub_" scope="0x255e2e0" type="name" varId="53" variable="0x255f780" astParent="0x2547d80"/>
+    <token id="0x2547d80" file="find_fiducial_pose.cpp" linenr="96" str="." scope="0x255e2e0" astParent="0x2547ee0" astOperand1="0x2547cd0" astOperand2="0x2547e30"/>
+    <token id="0x2547e30" file="find_fiducial_pose.cpp" linenr="96" str="shutdown" scope="0x255e2e0" type="name" astParent="0x2547d80"/>
+    <token id="0x2547ee0" file="find_fiducial_pose.cpp" linenr="96" str="(" scope="0x255e2e0" link="0x2547f90" astOperand1="0x2547d80"/>
+    <token id="0x2547f90" file="find_fiducial_pose.cpp" linenr="96" str=")" scope="0x255e2e0" link="0x2547ee0"/>
+    <token id="0x2548040" file="find_fiducial_pose.cpp" linenr="96" str=";" scope="0x255e2e0"/>
+    <token id="0x25480f0" file="find_fiducial_pose.cpp" linenr="97" str="as_" scope="0x255e2e0" type="name" varId="49" variable="0x255f5c0" astParent="0x25481a0"/>
+    <token id="0x25481a0" file="find_fiducial_pose.cpp" linenr="97" str="." scope="0x255e2e0" astParent="0x2548300" astOperand1="0x25480f0" astOperand2="0x2548250"/>
+    <token id="0x2548250" file="find_fiducial_pose.cpp" linenr="97" str="setAborted" scope="0x255e2e0" type="name" astParent="0x25481a0"/>
+    <token id="0x2548300" file="find_fiducial_pose.cpp" linenr="97" str="(" scope="0x255e2e0" link="0x25483b0" astOperand1="0x25481a0"/>
+    <token id="0x25483b0" file="find_fiducial_pose.cpp" linenr="97" str=")" scope="0x255e2e0" link="0x2548300"/>
+    <token id="0x2548460" file="find_fiducial_pose.cpp" linenr="97" str=";" scope="0x255e2e0"/>
+    <token id="0x2548510" file="find_fiducial_pose.cpp" linenr="98" str="}" scope="0x255e2e0" link="0x2546340"/>
+    <token id="0x25485c0" file="find_fiducial_pose.cpp" linenr="100" str="void" scope="0x25325d0" type="name"/>
+    <token id="0x2548670" file="find_fiducial_pose.cpp" linenr="100" str="preemptCB" scope="0x25325d0" type="name" function="0x255e7a0" astParent="0x2548720"/>
+    <token id="0x2548720" file="find_fiducial_pose.cpp" linenr="100" str="(" scope="0x25325d0" link="0x25487d0" astOperand1="0x2548670"/>
+    <token id="0x25487d0" file="find_fiducial_pose.cpp" linenr="100" str=")" scope="0x25325d0" link="0x2548720"/>
+    <token id="0x2548880" file="find_fiducial_pose.cpp" linenr="101" str="{" scope="0x255e840" link="0x2549d20"/>
+    <token id="0x2548930" file="find_fiducial_pose.cpp" linenr="102" str="ROS_INFO" scope="0x255e840" type="name" astParent="0x25489e0"/>
+    <token id="0x25489e0" file="find_fiducial_pose.cpp" linenr="102" str="(" scope="0x255e840" link="0x2548f60" astOperand1="0x2548930" astOperand2="0x2548b40"/>
+    <token id="0x2548a90" file="find_fiducial_pose.cpp" linenr="102" str="&quot;%s: Preempted&quot;" scope="0x255e840" type="string" strlen="13" values="0x2548a98" astParent="0x2548b40"/>
+    <token id="0x2548b40" file="find_fiducial_pose.cpp" linenr="102" str="," scope="0x255e840" astParent="0x25489e0" astOperand1="0x2548a90" astOperand2="0x2548e00"/>
+    <token id="0x2548bf0" file="find_fiducial_pose.cpp" linenr="102" str="action_name_" scope="0x255e840" type="name" varId="50" variable="0x255f630" astParent="0x2548ca0"/>
+    <token id="0x2548ca0" file="find_fiducial_pose.cpp" linenr="102" str="." scope="0x255e840" astParent="0x2548e00" astOperand1="0x2548bf0" astOperand2="0x2548d50"/>
+    <token id="0x2548d50" file="find_fiducial_pose.cpp" linenr="102" str="c_str" scope="0x255e840" type="name" astParent="0x2548ca0"/>
+    <token id="0x2548e00" file="find_fiducial_pose.cpp" linenr="102" str="(" scope="0x255e840" link="0x2548eb0" astParent="0x2548b40" astOperand1="0x2548ca0"/>
+    <token id="0x2548eb0" file="find_fiducial_pose.cpp" linenr="102" str=")" scope="0x255e840" link="0x2548e00"/>
+    <token id="0x2548f60" file="find_fiducial_pose.cpp" linenr="102" str=")" scope="0x255e840" link="0x25489e0"/>
+    <token id="0x2549010" file="find_fiducial_pose.cpp" linenr="102" str=";" scope="0x255e840"/>
+    <token id="0x25490c0" file="find_fiducial_pose.cpp" linenr="104" str="pub_timer_" scope="0x255e840" type="name" varId="58" variable="0x255f9b0" astParent="0x2549170"/>
+    <token id="0x2549170" file="find_fiducial_pose.cpp" linenr="104" str="." scope="0x255e840" astParent="0x25492d0" astOperand1="0x25490c0" astOperand2="0x2549220"/>
+    <token id="0x2549220" file="find_fiducial_pose.cpp" linenr="104" str="stop" scope="0x255e840" type="name" astParent="0x2549170"/>
+    <token id="0x25492d0" file="find_fiducial_pose.cpp" linenr="104" str="(" scope="0x255e840" link="0x2549380" astOperand1="0x2549170"/>
+    <token id="0x2549380" file="find_fiducial_pose.cpp" linenr="104" str=")" scope="0x255e840" link="0x25492d0"/>
+    <token id="0x2549430" file="find_fiducial_pose.cpp" linenr="104" str=";" scope="0x255e840"/>
+    <token id="0x25494e0" file="find_fiducial_pose.cpp" linenr="105" str="as_" scope="0x255e840" type="name" varId="49" variable="0x255f5c0" astParent="0x2549590"/>
+    <token id="0x2549590" file="find_fiducial_pose.cpp" linenr="105" str="." scope="0x255e840" astParent="0x25496f0" astOperand1="0x25494e0" astOperand2="0x2549640"/>
+    <token id="0x2549640" file="find_fiducial_pose.cpp" linenr="105" str="setPreempted" scope="0x255e840" type="name" astParent="0x2549590"/>
+    <token id="0x25496f0" file="find_fiducial_pose.cpp" linenr="105" str="(" scope="0x255e840" link="0x25497a0" astOperand1="0x2549590"/>
+    <token id="0x25497a0" file="find_fiducial_pose.cpp" linenr="105" str=")" scope="0x255e840" link="0x25496f0"/>
+    <token id="0x2549850" file="find_fiducial_pose.cpp" linenr="105" str=";" scope="0x255e840"/>
+    <token id="0x2549900" file="find_fiducial_pose.cpp" linenr="106" str="sub_" scope="0x255e840" type="name" varId="53" variable="0x255f780" astParent="0x25499b0"/>
+    <token id="0x25499b0" file="find_fiducial_pose.cpp" linenr="106" str="." scope="0x255e840" astParent="0x2549b10" astOperand1="0x2549900" astOperand2="0x2549a60"/>
+    <token id="0x2549a60" file="find_fiducial_pose.cpp" linenr="106" str="shutdown" scope="0x255e840" type="name" astParent="0x25499b0"/>
+    <token id="0x2549b10" file="find_fiducial_pose.cpp" linenr="106" str="(" scope="0x255e840" link="0x2549bc0" astOperand1="0x25499b0"/>
+    <token id="0x2549bc0" file="find_fiducial_pose.cpp" linenr="106" str=")" scope="0x255e840" link="0x2549b10"/>
+    <token id="0x2549c70" file="find_fiducial_pose.cpp" linenr="106" str=";" scope="0x255e840"/>
+    <token id="0x2549d20" file="find_fiducial_pose.cpp" linenr="107" str="}" scope="0x255e840" link="0x2548880"/>
+    <token id="0x2549dd0" file="find_fiducial_pose.cpp" linenr="109" str="void" scope="0x25325d0" type="name"/>
+    <token id="0x2549e80" file="find_fiducial_pose.cpp" linenr="109" str="detectCB" scope="0x25325d0" type="name" function="0x255e970" astParent="0x2549f30"/>
+    <token id="0x2549f30" file="find_fiducial_pose.cpp" linenr="109" str="(" scope="0x25325d0" link="0x254a8d0" astOperand1="0x2549e80" astOperand2="0x254a400"/>
+    <token id="0x2549fe0" file="find_fiducial_pose.cpp" linenr="109" str="const" scope="0x25325d0" type="name"/>
+    <token id="0x254a090" file="find_fiducial_pose.cpp" linenr="109" str="sensor_msgs" scope="0x25325d0" type="name" astParent="0x254a140"/>
+    <token id="0x254a140" file="find_fiducial_pose.cpp" linenr="109" str="::" scope="0x25325d0" astParent="0x254a2a0" astOperand1="0x254a090" astOperand2="0x254a1f0"/>
+    <token id="0x254a1f0" file="find_fiducial_pose.cpp" linenr="109" str="ImageConstPtr" scope="0x25325d0" type="name" astParent="0x254a140"/>
+    <token id="0x254a2a0" file="find_fiducial_pose.cpp" linenr="109" str="&amp;" scope="0x25325d0" type="op" astParent="0x254a400" astOperand1="0x254a140" astOperand2="0x254a350"/>
+    <token id="0x254a350" file="find_fiducial_pose.cpp" linenr="109" str="image_msg" scope="0x25325d0" type="name" varId="37" variable="0x2560890" astParent="0x254a2a0"/>
+    <token id="0x254a400" file="find_fiducial_pose.cpp" linenr="109" str="," scope="0x25325d0" astParent="0x2549f30" astOperand1="0x254a2a0" astOperand2="0x254a770"/>
+    <token id="0x254a4b0" file="find_fiducial_pose.cpp" linenr="109" str="const" scope="0x25325d0" type="name"/>
+    <token id="0x254a560" file="find_fiducial_pose.cpp" linenr="109" str="sensor_msgs" scope="0x25325d0" type="name" astParent="0x254a610"/>
+    <token id="0x254a610" file="find_fiducial_pose.cpp" linenr="109" str="::" scope="0x25325d0" astParent="0x254a770" astOperand1="0x254a560" astOperand2="0x254a6c0"/>
+    <token id="0x254a6c0" file="find_fiducial_pose.cpp" linenr="109" str="CameraInfoConstPtr" scope="0x25325d0" type="name" astParent="0x254a610"/>
+    <token id="0x254a770" file="find_fiducial_pose.cpp" linenr="109" str="&amp;" scope="0x25325d0" type="op" astParent="0x254a400" astOperand1="0x254a610" astOperand2="0x254a820"/>
+    <token id="0x254a820" file="find_fiducial_pose.cpp" linenr="109" str="info_msg" scope="0x25325d0" type="name" varId="38" variable="0x2560900" astParent="0x254a770"/>
+    <token id="0x254a8d0" file="find_fiducial_pose.cpp" linenr="109" str=")" scope="0x25325d0" link="0x2549f30"/>
+    <token id="0x254a980" file="find_fiducial_pose.cpp" linenr="110" str="{" scope="0x255ea10" link="0x2557df0"/>
+    <token id="0x254aa30" file="find_fiducial_pose.cpp" linenr="112" str="if" scope="0x255ea10" type="name" astParent="0x254aae0"/>
+    <token id="0x254aae0" file="find_fiducial_pose.cpp" linenr="112" str="(" scope="0x255ea10" link="0x254afb0" astOperand1="0x254aa30" astOperand2="0x254ab90"/>
+    <token id="0x254ab90" file="find_fiducial_pose.cpp" linenr="112" str="!" scope="0x255ea10" type="op" isLogicalOp="True" astParent="0x254aae0" astOperand1="0x254ae50"/>
+    <token id="0x254ac40" file="find_fiducial_pose.cpp" linenr="112" str="as_" scope="0x255ea10" type="name" varId="49" variable="0x255f5c0" astParent="0x254acf0"/>
+    <token id="0x254acf0" file="find_fiducial_pose.cpp" linenr="112" str="." scope="0x255ea10" astParent="0x254ae50" astOperand1="0x254ac40" astOperand2="0x254ada0"/>
+    <token id="0x254ada0" file="find_fiducial_pose.cpp" linenr="112" str="isActive" scope="0x255ea10" type="name" astParent="0x254acf0"/>
+    <token id="0x254ae50" file="find_fiducial_pose.cpp" linenr="112" str="(" scope="0x255ea10" link="0x254af00" astParent="0x254ab90" astOperand1="0x254acf0"/>
+    <token id="0x254af00" file="find_fiducial_pose.cpp" linenr="112" str=")" scope="0x255ea10" link="0x254ae50"/>
+    <token id="0x254afb0" file="find_fiducial_pose.cpp" linenr="112" str=")" scope="0x255ea10" link="0x254aae0"/>
+    <token id="0x25415b0" file="find_fiducial_pose.cpp" linenr="112" str="{" scope="0x255eb40" link="0x2541df0"/>
+    <token id="0x254b060" file="find_fiducial_pose.cpp" linenr="113" str="return" scope="0x255eb40" type="name"/>
+    <token id="0x254b110" file="find_fiducial_pose.cpp" linenr="113" str=";" scope="0x255eb40"/>
+    <token id="0x2541df0" file="find_fiducial_pose.cpp" linenr="113" str="}" scope="0x255eb40" link="0x25415b0"/>
+    <token id="0x254b1c0" file="find_fiducial_pose.cpp" linenr="115" str="ROS_INFO" scope="0x255ea10" type="name" astParent="0x254b270"/>
+    <token id="0x254b270" file="find_fiducial_pose.cpp" linenr="115" str="(" scope="0x255ea10" link="0x254b860" astOperand1="0x254b1c0" astOperand2="0x254b440"/>
+    <token id="0x254b350" file="find_fiducial_pose.cpp" linenr="115" str="&quot;%s: Received image, performing detection&quot;" scope="0x255ea10" type="string" strlen="40" values="0x254b358" astParent="0x254b440"/>
+    <token id="0x254b440" file="find_fiducial_pose.cpp" linenr="115" str="," scope="0x255ea10" astParent="0x254b270" astOperand1="0x254b350" astOperand2="0x254b700"/>
+    <token id="0x254b4f0" file="find_fiducial_pose.cpp" linenr="115" str="action_name_" scope="0x255ea10" type="name" varId="50" variable="0x255f630" astParent="0x254b5a0"/>
+    <token id="0x254b5a0" file="find_fiducial_pose.cpp" linenr="115" str="." scope="0x255ea10" astParent="0x254b700" astOperand1="0x254b4f0" astOperand2="0x254b650"/>
+    <token id="0x254b650" file="find_fiducial_pose.cpp" linenr="115" str="c_str" scope="0x255ea10" type="name" astParent="0x254b5a0"/>
+    <token id="0x254b700" file="find_fiducial_pose.cpp" linenr="115" str="(" scope="0x255ea10" link="0x254b7b0" astParent="0x254b440" astOperand1="0x254b5a0"/>
+    <token id="0x254b7b0" file="find_fiducial_pose.cpp" linenr="115" str=")" scope="0x255ea10" link="0x254b700"/>
+    <token id="0x254b860" file="find_fiducial_pose.cpp" linenr="115" str=")" scope="0x255ea10" link="0x254b270"/>
+    <token id="0x254b910" file="find_fiducial_pose.cpp" linenr="115" str=";" scope="0x255ea10"/>
+    <token id="0x254b9c0" file="find_fiducial_pose.cpp" linenr="118" str="try" scope="0x255ea10" type="name"/>
+    <token id="0x254ba70" file="find_fiducial_pose.cpp" linenr="119" str="{" scope="0x255ec70" link="0x254c2b0"/>
+    <token id="0x254bb20" file="find_fiducial_pose.cpp" linenr="120" str="img_bridge_" scope="0x255ec70" type="name" varId="54" variable="0x255f7f0" astParent="0x254bbd0"/>
+    <token id="0x254bbd0" file="find_fiducial_pose.cpp" linenr="120" str="=" scope="0x255ec70" type="op" isAssignmentOp="True" astOperand1="0x254bb20" astOperand2="0x254be90"/>
+    <token id="0x254bc80" file="find_fiducial_pose.cpp" linenr="120" str="cv_bridge" scope="0x255ec70" type="name" astParent="0x254bd30"/>
+    <token id="0x254bd30" file="find_fiducial_pose.cpp" linenr="120" str="::" scope="0x255ec70" astParent="0x254be90" astOperand1="0x254bc80" astOperand2="0x254bde0"/>
+    <token id="0x254bde0" file="find_fiducial_pose.cpp" linenr="120" str="toCvCopy" scope="0x255ec70" type="name" astParent="0x254bd30"/>
+    <token id="0x254be90" file="find_fiducial_pose.cpp" linenr="120" str="(" scope="0x255ec70" link="0x254c150" astParent="0x254bbd0" astOperand1="0x254bd30" astOperand2="0x254bff0"/>
+    <token id="0x254bf40" file="find_fiducial_pose.cpp" linenr="120" str="image_msg" scope="0x255ec70" type="name" varId="37" variable="0x2560890" astParent="0x254bff0"/>
+    <token id="0x254bff0" file="find_fiducial_pose.cpp" linenr="120" str="," scope="0x255ec70" astParent="0x254be90" astOperand1="0x254bf40" astOperand2="0x254c0a0"/>
+    <token id="0x254c0a0" file="find_fiducial_pose.cpp" linenr="120" str="&quot;mono8&quot;" scope="0x255ec70" type="string" strlen="5" values="0x254c0a8" astParent="0x254bff0"/>
+    <token id="0x254c150" file="find_fiducial_pose.cpp" linenr="120" str=")" scope="0x255ec70" link="0x254be90"/>
+    <token id="0x254c200" file="find_fiducial_pose.cpp" linenr="120" str=";" scope="0x255ec70"/>
+    <token id="0x254c2b0" file="find_fiducial_pose.cpp" linenr="121" str="}" scope="0x255ec70" link="0x254ba70"/>
+    <token id="0x254c360" file="find_fiducial_pose.cpp" linenr="122" str="catch" scope="0x255ea10" type="name" astParent="0x254c410"/>
+    <token id="0x254c410" file="find_fiducial_pose.cpp" linenr="122" str="(" scope="0x255ea10" link="0x254c830" astOperand1="0x254c360" astOperand2="0x254c6d0"/>
+    <token id="0x254c4c0" file="find_fiducial_pose.cpp" linenr="122" str="cv_bridge" scope="0x255ea10" type="name" astParent="0x254c570"/>
+    <token id="0x254c570" file="find_fiducial_pose.cpp" linenr="122" str="::" scope="0x255ea10" astParent="0x254c6d0" astOperand1="0x254c4c0" astOperand2="0x254c620"/>
+    <token id="0x254c620" file="find_fiducial_pose.cpp" linenr="122" str="Exception" scope="0x255ea10" type="name" astParent="0x254c570"/>
+    <token id="0x254c6d0" file="find_fiducial_pose.cpp" linenr="122" str="&amp;" scope="0x255ea10" type="op" astParent="0x254c410" astOperand1="0x254c570" astOperand2="0x254c780"/>
+    <token id="0x254c780" file="find_fiducial_pose.cpp" linenr="122" str="ex" scope="0x255ea10" type="name" varId="39" variable="0x25405b0" astParent="0x254c6d0"/>
+    <token id="0x254c830" file="find_fiducial_pose.cpp" linenr="122" str=")" scope="0x255ea10" link="0x254c410"/>
+    <token id="0x254c8e0" file="find_fiducial_pose.cpp" linenr="123" str="{" scope="0x255eda0" link="0x254ce90"/>
+    <token id="0x254c990" file="find_fiducial_pose.cpp" linenr="124" str="ROS_ERROR" scope="0x255eda0" type="name" astParent="0x254ca40"/>
+    <token id="0x254ca40" file="find_fiducial_pose.cpp" linenr="124" str="(" scope="0x255eda0" link="0x254cbd0" astOperand1="0x254c990" astOperand2="0x254caf0"/>
+    <token id="0x254caf0" file="find_fiducial_pose.cpp" linenr="124" str="&quot;[calibrate] Failed to convert image&quot;" scope="0x255eda0" type="string" strlen="35" values="0x254caf8" astParent="0x254ca40"/>
+    <token id="0x254cbd0" file="find_fiducial_pose.cpp" linenr="124" str=")" scope="0x255eda0" link="0x254ca40"/>
+    <token id="0x254cc80" file="find_fiducial_pose.cpp" linenr="124" str=";" scope="0x255eda0"/>
+    <token id="0x254cd30" file="find_fiducial_pose.cpp" linenr="125" str="return" scope="0x255eda0" type="name"/>
+    <token id="0x254cde0" file="find_fiducial_pose.cpp" linenr="125" str=";" scope="0x255eda0"/>
+    <token id="0x254ce90" file="find_fiducial_pose.cpp" linenr="126" str="}" scope="0x255eda0" link="0x254c8e0"/>
+    <token id="0x254cf40" file="find_fiducial_pose.cpp" linenr="129" str="ROS_INFO" scope="0x255ea10" type="name" astParent="0x254cff0"/>
+    <token id="0x254cff0" file="find_fiducial_pose.cpp" linenr="129" str="(" scope="0x255ea10" link="0x254d5a0" astOperand1="0x254cf40" astOperand2="0x254d180"/>
+    <token id="0x254d0a0" file="find_fiducial_pose.cpp" linenr="129" str="&quot;%s: created cv::Mat&quot;" scope="0x255ea10" type="string" strlen="19" values="0x254d0a8" astParent="0x254d180"/>
+    <token id="0x254d180" file="find_fiducial_pose.cpp" linenr="129" str="," scope="0x255ea10" astParent="0x254cff0" astOperand1="0x254d0a0" astOperand2="0x254d440"/>
+    <token id="0x254d230" file="find_fiducial_pose.cpp" linenr="129" str="action_name_" scope="0x255ea10" type="name" varId="50" variable="0x255f630" astParent="0x254d2e0"/>
+    <token id="0x254d2e0" file="find_fiducial_pose.cpp" linenr="129" str="." scope="0x255ea10" astParent="0x254d440" astOperand1="0x254d230" astOperand2="0x254d390"/>
+    <token id="0x254d390" file="find_fiducial_pose.cpp" linenr="129" str="c_str" scope="0x255ea10" type="name" astParent="0x254d2e0"/>
+    <token id="0x254d440" file="find_fiducial_pose.cpp" linenr="129" str="(" scope="0x255ea10" link="0x254d4f0" astParent="0x254d180" astOperand1="0x254d2e0"/>
+    <token id="0x254d4f0" file="find_fiducial_pose.cpp" linenr="129" str=")" scope="0x255ea10" link="0x254d440"/>
+    <token id="0x254d5a0" file="find_fiducial_pose.cpp" linenr="129" str=")" scope="0x255ea10" link="0x254cff0"/>
+    <token id="0x254d650" file="find_fiducial_pose.cpp" linenr="129" str=";" scope="0x255ea10"/>
+    <token id="0x254d700" file="find_fiducial_pose.cpp" linenr="130" str="cam_model_" scope="0x255ea10" type="name" varId="55" variable="0x255f860" astParent="0x254d7b0"/>
+    <token id="0x254d7b0" file="find_fiducial_pose.cpp" linenr="130" str="." scope="0x255ea10" astParent="0x254d910" astOperand1="0x254d700" astOperand2="0x254d860"/>
+    <token id="0x254d860" file="find_fiducial_pose.cpp" linenr="130" str="fromCameraInfo" scope="0x255ea10" type="name" astParent="0x254d7b0"/>
+    <token id="0x254d910" file="find_fiducial_pose.cpp" linenr="130" str="(" scope="0x255ea10" link="0x254da70" astOperand1="0x254d7b0" astOperand2="0x254d9c0"/>
+    <token id="0x254d9c0" file="find_fiducial_pose.cpp" linenr="130" str="info_msg" scope="0x255ea10" type="name" varId="38" variable="0x2560900" astParent="0x254d910"/>
+    <token id="0x254da70" file="find_fiducial_pose.cpp" linenr="130" str=")" scope="0x255ea10" link="0x254d910"/>
+    <token id="0x254db20" file="find_fiducial_pose.cpp" linenr="130" str=";" scope="0x255ea10"/>
+    <token id="0x254dbd0" file="find_fiducial_pose.cpp" linenr="131" str="detector_" scope="0x255ea10" type="name" varId="51" variable="0x255f6a0" astParent="0x254dc80"/>
+    <token id="0x254dc80" file="find_fiducial_pose.cpp" linenr="131" str="." scope="0x255ea10" astParent="0x254dde0" astOperand1="0x254dbd0" astOperand2="0x254dd30"/>
+    <token id="0x254dd30" file="find_fiducial_pose.cpp" linenr="131" str="setCameraMatrices" scope="0x255ea10" type="name" function="0x2540150" astParent="0x254dc80"/>
+    <token id="0x254dde0" file="find_fiducial_pose.cpp" linenr="131" str="(" scope="0x255ea10" link="0x254e650" astOperand1="0x254dc80" astOperand2="0x254e200"/>
+    <token id="0x254de90" file="find_fiducial_pose.cpp" linenr="131" str="cam_model_" scope="0x255ea10" type="name" varId="55" variable="0x255f860" astParent="0x254df40"/>
+    <token id="0x254df40" file="find_fiducial_pose.cpp" linenr="131" str="." scope="0x255ea10" astParent="0x254e0a0" astOperand1="0x254de90" astOperand2="0x254dff0"/>
+    <token id="0x254dff0" file="find_fiducial_pose.cpp" linenr="131" str="intrinsicMatrix" scope="0x255ea10" type="name" astParent="0x254df40"/>
+    <token id="0x254e0a0" file="find_fiducial_pose.cpp" linenr="131" str="(" scope="0x255ea10" link="0x254e150" astParent="0x254e200" astOperand1="0x254df40"/>
+    <token id="0x254e150" file="find_fiducial_pose.cpp" linenr="131" str=")" scope="0x255ea10" link="0x254e0a0"/>
+    <token id="0x254e200" file="find_fiducial_pose.cpp" linenr="131" str="," scope="0x255ea10" astParent="0x254dde0" astOperand1="0x254e0a0" astOperand2="0x254e4f0"/>
+    <token id="0x254e2b0" file="find_fiducial_pose.cpp" linenr="131" str="cam_model_" scope="0x255ea10" type="name" varId="55" variable="0x255f860" astParent="0x254e360"/>
+    <token id="0x254e360" file="find_fiducial_pose.cpp" linenr="131" str="." scope="0x255ea10" astParent="0x254e4f0" astOperand1="0x254e2b0" astOperand2="0x254e410"/>
+    <token id="0x254e410" file="find_fiducial_pose.cpp" linenr="131" str="distortionCoeffs" scope="0x255ea10" type="name" astParent="0x254e360"/>
+    <token id="0x254e4f0" file="find_fiducial_pose.cpp" linenr="131" str="(" scope="0x255ea10" link="0x254e5a0" astParent="0x254e200" astOperand1="0x254e360"/>
+    <token id="0x254e5a0" file="find_fiducial_pose.cpp" linenr="131" str=")" scope="0x255ea10" link="0x254e4f0"/>
+    <token id="0x254e650" file="find_fiducial_pose.cpp" linenr="131" str=")" scope="0x255ea10" link="0x254dde0"/>
+    <token id="0x254e700" file="find_fiducial_pose.cpp" linenr="131" str=";" scope="0x255ea10"/>
+    <token id="0x254e7b0" file="find_fiducial_pose.cpp" linenr="133" str="Eigen" scope="0x255ea10" type="name" astParent="0x254e860"/>
+    <token id="0x254e860" file="find_fiducial_pose.cpp" linenr="133" str="::" scope="0x255ea10" astOperand1="0x254e7b0" astOperand2="0x254e9c0"/>
+    <token id="0x254e910" file="find_fiducial_pose.cpp" linenr="133" str="Vector3f" scope="0x255ea10" type="name"/>
+    <token id="0x254e9c0" file="find_fiducial_pose.cpp" linenr="133" str="translation" scope="0x255ea10" type="name" varId="40" variable="0x255fc50" astParent="0x254e860"/>
+    <token id="0x254ea70" file="find_fiducial_pose.cpp" linenr="133" str=";" scope="0x255ea10"/>
+    <token id="0x254eb20" file="find_fiducial_pose.cpp" linenr="134" str="Eigen" scope="0x255ea10" type="name" astParent="0x254ebd0"/>
+    <token id="0x254ebd0" file="find_fiducial_pose.cpp" linenr="134" str="::" scope="0x255ea10" astOperand1="0x254eb20" astOperand2="0x254ed30"/>
+    <token id="0x254ec80" file="find_fiducial_pose.cpp" linenr="134" str="Quaternionf" scope="0x255ea10" type="name"/>
+    <token id="0x254ed30" file="find_fiducial_pose.cpp" linenr="134" str="orientation" scope="0x255ea10" type="name" varId="41" variable="0x255fcc0" astParent="0x254ebd0"/>
+    <token id="0x254ede0" file="find_fiducial_pose.cpp" linenr="134" str=";" scope="0x255ea10"/>
+    <token id="0x254ee90" file="find_fiducial_pose.cpp" linenr="136" str="if" scope="0x255ea10" type="name" astParent="0x254ef40"/>
+    <token id="0x254ef40" file="find_fiducial_pose.cpp" linenr="136" str="(" scope="0x255ea10" link="0x254f8e0" astOperand1="0x254ee90" astOperand2="0x254f200"/>
+    <token id="0x254eff0" file="find_fiducial_pose.cpp" linenr="136" str="detector_" scope="0x255ea10" type="name" varId="51" variable="0x255f6a0" astParent="0x254f0a0"/>
+    <token id="0x254f0a0" file="find_fiducial_pose.cpp" linenr="136" str="." scope="0x255ea10" astParent="0x254f200" astOperand1="0x254eff0" astOperand2="0x254f150"/>
+    <token id="0x254f150" file="find_fiducial_pose.cpp" linenr="136" str="detectPattern" scope="0x255ea10" type="name" function="0x25400b0" astParent="0x254f0a0"/>
+    <token id="0x254f200" file="find_fiducial_pose.cpp" linenr="136" str="(" scope="0x255ea10" link="0x254f830" astParent="0x254ef40" astOperand1="0x254f0a0" astOperand2="0x254f6d0"/>
+    <token id="0x254f2b0" file="find_fiducial_pose.cpp" linenr="136" str="img_bridge_" scope="0x255ea10" type="name" varId="54" variable="0x255f7f0" astParent="0x254f360"/>
+    <token id="0x254f360" file="find_fiducial_pose.cpp" linenr="136" str="." scope="0x255ea10" astParent="0x254f570" astOperand1="0x254f2b0" astOperand2="0x254f4c0"/>
+    <token id="0x254f4c0" file="find_fiducial_pose.cpp" linenr="136" str="image" scope="0x255ea10" type="name" varId="61" astParent="0x254f360"/>
+    <token id="0x254f570" file="find_fiducial_pose.cpp" linenr="136" str="," scope="0x255ea10" astParent="0x254f6d0" astOperand1="0x254f360" astOperand2="0x254f620"/>
+    <token id="0x254f620" file="find_fiducial_pose.cpp" linenr="136" str="translation" scope="0x255ea10" type="name" varId="40" variable="0x255fc50" astParent="0x254f570"/>
+    <token id="0x254f6d0" file="find_fiducial_pose.cpp" linenr="136" str="," scope="0x255ea10" astParent="0x254f200" astOperand1="0x254f570" astOperand2="0x254f780"/>
+    <token id="0x254f780" file="find_fiducial_pose.cpp" linenr="136" str="orientation" scope="0x255ea10" type="name" varId="41" variable="0x255fcc0" astParent="0x254f6d0"/>
+    <token id="0x254f830" file="find_fiducial_pose.cpp" linenr="136" str=")" scope="0x255ea10" link="0x254f200"/>
+    <token id="0x254f8e0" file="find_fiducial_pose.cpp" linenr="136" str=")" scope="0x255ea10" link="0x254ef40"/>
+    <token id="0x254f990" file="find_fiducial_pose.cpp" linenr="137" str="{" scope="0x255eed0" link="0x2557d40"/>
+    <token id="0x254fa40" file="find_fiducial_pose.cpp" linenr="138" str="ROS_INFO" scope="0x255eed0" type="name" astParent="0x254faf0"/>
+    <token id="0x254faf0" file="find_fiducial_pose.cpp" linenr="138" str="(" scope="0x255eed0" link="0x254fcb0" astOperand1="0x254fa40" astOperand2="0x254fbd0"/>
+    <token id="0x254fbd0" file="find_fiducial_pose.cpp" linenr="138" str="&quot;detected fiducial&quot;" scope="0x255eed0" type="string" strlen="17" values="0x254fbd8" astParent="0x254faf0"/>
+    <token id="0x254fcb0" file="find_fiducial_pose.cpp" linenr="138" str=")" scope="0x255eed0" link="0x254faf0"/>
+    <token id="0x254fd60" file="find_fiducial_pose.cpp" linenr="138" str=";" scope="0x255eed0"/>
+    <token id="0x254fe10" file="find_fiducial_pose.cpp" linenr="139" str="tf" scope="0x255eed0" type="name" astParent="0x254fec0"/>
+    <token id="0x254fec0" file="find_fiducial_pose.cpp" linenr="139" str="::" scope="0x255eed0" astOperand1="0x254fe10" astOperand2="0x2550020"/>
+    <token id="0x254ff70" file="find_fiducial_pose.cpp" linenr="139" str="Transform" scope="0x255eed0" type="name"/>
+    <token id="0x2550020" file="find_fiducial_pose.cpp" linenr="139" str="fiducial_transform" scope="0x255eed0" type="name" varId="42" variable="0x255fd30" astParent="0x254fec0"/>
+    <token id="0x25500d0" file="find_fiducial_pose.cpp" linenr="139" str=";" scope="0x255eed0"/>
+    <token id="0x2550180" file="find_fiducial_pose.cpp" linenr="140" str="fiducial_transform" scope="0x255eed0" type="name" varId="42" variable="0x255fd30" astParent="0x2550260"/>
+    <token id="0x2550260" file="find_fiducial_pose.cpp" linenr="140" str="." scope="0x255eed0" astParent="0x25503c0" astOperand1="0x2550180" astOperand2="0x2550310"/>
+    <token id="0x2550310" file="find_fiducial_pose.cpp" linenr="140" str="setOrigin" scope="0x255eed0" type="name" astParent="0x2550260"/>
+    <token id="0x25503c0" file="find_fiducial_pose.cpp" linenr="140" str="(" scope="0x255eed0" link="0x2551390" astOperand1="0x2550260" astOperand2="0x2550680"/>
+    <token id="0x2550470" file="find_fiducial_pose.cpp" linenr="140" str="tf" scope="0x255eed0" type="name" astParent="0x2550520"/>
+    <token id="0x2550520" file="find_fiducial_pose.cpp" linenr="140" str="::" scope="0x255eed0" astParent="0x2550680" astOperand1="0x2550470" astOperand2="0x25505d0"/>
+    <token id="0x25505d0" file="find_fiducial_pose.cpp" linenr="140" str="Vector3" scope="0x255eed0" type="name" astParent="0x2550520"/>
+    <token id="0x2550680" file="find_fiducial_pose.cpp" linenr="140" str="(" scope="0x255eed0" link="0x25512e0" astParent="0x25503c0" astOperand1="0x2550520" astOperand2="0x2550ec0"/>
+    <token id="0x2550730" file="find_fiducial_pose.cpp" linenr="140" str="translation" scope="0x255eed0" type="name" varId="40" variable="0x255fc50" astParent="0x25507e0"/>
+    <token id="0x25507e0" file="find_fiducial_pose.cpp" linenr="140" str="." scope="0x255eed0" astParent="0x2550940" astOperand1="0x2550730" astOperand2="0x2550890"/>
+    <token id="0x2550890" file="find_fiducial_pose.cpp" linenr="140" str="x" scope="0x255eed0" type="name" astParent="0x25507e0"/>
+    <token id="0x2550940" file="find_fiducial_pose.cpp" linenr="140" str="(" scope="0x255eed0" link="0x25509f0" astParent="0x2550aa0" astOperand1="0x25507e0"/>
+    <token id="0x25509f0" file="find_fiducial_pose.cpp" linenr="140" str=")" scope="0x255eed0" link="0x2550940"/>
+    <token id="0x2550aa0" file="find_fiducial_pose.cpp" linenr="140" str="," scope="0x255eed0" astParent="0x2550ec0" astOperand1="0x2550940" astOperand2="0x2550d60"/>
+    <token id="0x2550b50" file="find_fiducial_pose.cpp" linenr="140" str="translation" scope="0x255eed0" type="name" varId="40" variable="0x255fc50" astParent="0x2550c00"/>
+    <token id="0x2550c00" file="find_fiducial_pose.cpp" linenr="140" str="." scope="0x255eed0" astParent="0x2550d60" astOperand1="0x2550b50" astOperand2="0x2550cb0"/>
+    <token id="0x2550cb0" file="find_fiducial_pose.cpp" linenr="140" str="y" scope="0x255eed0" type="name" astParent="0x2550c00"/>
+    <token id="0x2550d60" file="find_fiducial_pose.cpp" linenr="140" str="(" scope="0x255eed0" link="0x2550e10" astParent="0x2550aa0" astOperand1="0x2550c00"/>
+    <token id="0x2550e10" file="find_fiducial_pose.cpp" linenr="140" str=")" scope="0x255eed0" link="0x2550d60"/>
+    <token id="0x2550ec0" file="find_fiducial_pose.cpp" linenr="140" str="," scope="0x255eed0" astParent="0x2550680" astOperand1="0x2550aa0" astOperand2="0x2551180"/>
+    <token id="0x2550f70" file="find_fiducial_pose.cpp" linenr="140" str="translation" scope="0x255eed0" type="name" varId="40" variable="0x255fc50" astParent="0x2551020"/>
+    <token id="0x2551020" file="find_fiducial_pose.cpp" linenr="140" str="." scope="0x255eed0" astParent="0x2551180" astOperand1="0x2550f70" astOperand2="0x25510d0"/>
+    <token id="0x25510d0" file="find_fiducial_pose.cpp" linenr="140" str="z" scope="0x255eed0" type="name" astParent="0x2551020"/>
+    <token id="0x2551180" file="find_fiducial_pose.cpp" linenr="140" str="(" scope="0x255eed0" link="0x2551230" astParent="0x2550ec0" astOperand1="0x2551020"/>
+    <token id="0x2551230" file="find_fiducial_pose.cpp" linenr="140" str=")" scope="0x255eed0" link="0x2551180"/>
+    <token id="0x25512e0" file="find_fiducial_pose.cpp" linenr="140" str=")" scope="0x255eed0" link="0x2550680"/>
+    <token id="0x2551390" file="find_fiducial_pose.cpp" linenr="140" str=")" scope="0x255eed0" link="0x25503c0"/>
+    <token id="0x2551440" file="find_fiducial_pose.cpp" linenr="140" str=";" scope="0x255eed0"/>
+    <token id="0x25514f0" file="find_fiducial_pose.cpp" linenr="141" str="fiducial_transform" scope="0x255eed0" type="name" varId="42" variable="0x255fd30" astParent="0x25515d0"/>
+    <token id="0x25515d0" file="find_fiducial_pose.cpp" linenr="141" str="." scope="0x255eed0" astParent="0x2551730" astOperand1="0x25514f0" astOperand2="0x2551680"/>
+    <token id="0x2551680" file="find_fiducial_pose.cpp" linenr="141" str="setRotation" scope="0x255eed0" type="name" astParent="0x25515d0"/>
+    <token id="0x2551730" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x2552b20" astOperand1="0x25515d0" astOperand2="0x25519f0"/>
+    <token id="0x25517e0" file="find_fiducial_pose.cpp" linenr="141" str="tf" scope="0x255eed0" type="name" astParent="0x2551890"/>
+    <token id="0x2551890" file="find_fiducial_pose.cpp" linenr="141" str="::" scope="0x255eed0" astParent="0x25519f0" astOperand1="0x25517e0" astOperand2="0x2551940"/>
+    <token id="0x2551940" file="find_fiducial_pose.cpp" linenr="141" str="Quaternion" scope="0x255eed0" type="name" astParent="0x2551890"/>
+    <token id="0x25519f0" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x2552a70" astParent="0x2551730" astOperand1="0x2551890" astOperand2="0x2552650"/>
+    <token id="0x2551aa0" file="find_fiducial_pose.cpp" linenr="141" str="orientation" scope="0x255eed0" type="name" varId="41" variable="0x255fcc0" astParent="0x2551b50"/>
+    <token id="0x2551b50" file="find_fiducial_pose.cpp" linenr="141" str="." scope="0x255eed0" astParent="0x2551cb0" astOperand1="0x2551aa0" astOperand2="0x2551c00"/>
+    <token id="0x2551c00" file="find_fiducial_pose.cpp" linenr="141" str="x" scope="0x255eed0" type="name" astParent="0x2551b50"/>
+    <token id="0x2551cb0" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x2551d60" astParent="0x2551e10" astOperand1="0x2551b50"/>
+    <token id="0x2551d60" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x2551cb0"/>
+    <token id="0x2551e10" file="find_fiducial_pose.cpp" linenr="141" str="," scope="0x255eed0" astParent="0x2552230" astOperand1="0x2551cb0" astOperand2="0x25520d0"/>
+    <token id="0x2551ec0" file="find_fiducial_pose.cpp" linenr="141" str="orientation" scope="0x255eed0" type="name" varId="41" variable="0x255fcc0" astParent="0x2551f70"/>
+    <token id="0x2551f70" file="find_fiducial_pose.cpp" linenr="141" str="." scope="0x255eed0" astParent="0x25520d0" astOperand1="0x2551ec0" astOperand2="0x2552020"/>
+    <token id="0x2552020" file="find_fiducial_pose.cpp" linenr="141" str="y" scope="0x255eed0" type="name" astParent="0x2551f70"/>
+    <token id="0x25520d0" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x2552180" astParent="0x2551e10" astOperand1="0x2551f70"/>
+    <token id="0x2552180" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x25520d0"/>
+    <token id="0x2552230" file="find_fiducial_pose.cpp" linenr="141" str="," scope="0x255eed0" astParent="0x2552650" astOperand1="0x2551e10" astOperand2="0x25524f0"/>
+    <token id="0x25522e0" file="find_fiducial_pose.cpp" linenr="141" str="orientation" scope="0x255eed0" type="name" varId="41" variable="0x255fcc0" astParent="0x2552390"/>
+    <token id="0x2552390" file="find_fiducial_pose.cpp" linenr="141" str="." scope="0x255eed0" astParent="0x25524f0" astOperand1="0x25522e0" astOperand2="0x2552440"/>
+    <token id="0x2552440" file="find_fiducial_pose.cpp" linenr="141" str="z" scope="0x255eed0" type="name" astParent="0x2552390"/>
+    <token id="0x25524f0" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x25525a0" astParent="0x2552230" astOperand1="0x2552390"/>
+    <token id="0x25525a0" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x25524f0"/>
+    <token id="0x2552650" file="find_fiducial_pose.cpp" linenr="141" str="," scope="0x255eed0" astParent="0x25519f0" astOperand1="0x2552230" astOperand2="0x2552910"/>
+    <token id="0x2552700" file="find_fiducial_pose.cpp" linenr="141" str="orientation" scope="0x255eed0" type="name" varId="41" variable="0x255fcc0" astParent="0x25527b0"/>
+    <token id="0x25527b0" file="find_fiducial_pose.cpp" linenr="141" str="." scope="0x255eed0" astParent="0x2552910" astOperand1="0x2552700" astOperand2="0x2552860"/>
+    <token id="0x2552860" file="find_fiducial_pose.cpp" linenr="141" str="w" scope="0x255eed0" type="name" astParent="0x25527b0"/>
+    <token id="0x2552910" file="find_fiducial_pose.cpp" linenr="141" str="(" scope="0x255eed0" link="0x25529c0" astParent="0x2552650" astOperand1="0x25527b0"/>
+    <token id="0x25529c0" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x2552910"/>
+    <token id="0x2552a70" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x25519f0"/>
+    <token id="0x2552b20" file="find_fiducial_pose.cpp" linenr="141" str=")" scope="0x255eed0" link="0x2551730"/>
+    <token id="0x2552bd0" file="find_fiducial_pose.cpp" linenr="141" str=";" scope="0x255eed0"/>
+    <token id="0x2552c80" file="find_fiducial_pose.cpp" linenr="143" str="tf" scope="0x255eed0" type="name" astParent="0x2552d30"/>
+    <token id="0x2552d30" file="find_fiducial_pose.cpp" linenr="143" str="::" scope="0x255eed0" astParent="0x2552fd0" astOperand1="0x2552c80" astOperand2="0x2552ef0"/>
+    <token id="0x2552de0" file="find_fiducial_pose.cpp" linenr="143" str="StampedTransform" scope="0x255eed0" type="name"/>
+    <token id="0x2552ef0" file="find_fiducial_pose.cpp" linenr="143" str="fiducial_transform_stamped" scope="0x255eed0" type="name" varId="43" variable="0x255fda0" astParent="0x2552d30"/>
+    <token id="0x2552fd0" file="find_fiducial_pose.cpp" linenr="143" str="(" scope="0x255eed0" link="0x2553be0" astOperand1="0x2552d30" astOperand2="0x2553a20"/>
+    <token id="0x2553080" file="find_fiducial_pose.cpp" linenr="143" str="fiducial_transform" scope="0x255eed0" type="name" varId="42" variable="0x255fd30" astParent="0x2553130"/>
+    <token id="0x2553130" file="find_fiducial_pose.cpp" linenr="143" str="," scope="0x255eed0" astParent="0x2553600" astOperand1="0x2553080" astOperand2="0x25534a0"/>
+    <token id="0x25531e0" file="find_fiducial_pose.cpp" linenr="143" str="image_msg" scope="0x255eed0" type="name" varId="37" variable="0x2560890" astParent="0x2553290"/>
+    <token id="0x2553290" file="find_fiducial_pose.cpp" linenr="143" str="." scope="0x255eed0" astParent="0x25534a0" astOperand1="0x25531e0" astOperand2="0x25533f0"/>
+    <token id="0x25533f0" file="find_fiducial_pose.cpp" linenr="143" str="header" scope="0x255eed0" type="name" varId="44" astParent="0x2553290"/>
+    <token id="0x25534a0" file="find_fiducial_pose.cpp" linenr="143" str="." scope="0x255eed0" astParent="0x2553130" astOperand1="0x2553290" astOperand2="0x2553550"/>
+    <token id="0x2553550" file="find_fiducial_pose.cpp" linenr="143" str="stamp" scope="0x255eed0" type="name" varId="45" astParent="0x25534a0"/>
+    <token id="0x2553600" file="find_fiducial_pose.cpp" linenr="143" str="," scope="0x255eed0" astParent="0x2553a20" astOperand1="0x2553130" astOperand2="0x25538c0"/>
+    <token id="0x25536b0" file="find_fiducial_pose.cpp" linenr="143" str="cam_model_" scope="0x255eed0" type="name" varId="55" variable="0x255f860" astParent="0x2553760"/>
+    <token id="0x2553760" file="find_fiducial_pose.cpp" linenr="143" str="." scope="0x255eed0" astParent="0x25538c0" astOperand1="0x25536b0" astOperand2="0x2553810"/>
+    <token id="0x2553810" file="find_fiducial_pose.cpp" linenr="143" str="tfFrame" scope="0x255eed0" type="name" astParent="0x2553760"/>
+    <token id="0x25538c0" file="find_fiducial_pose.cpp" linenr="143" str="(" scope="0x255eed0" link="0x2553970" astParent="0x2553600" astOperand1="0x2553760"/>
+    <token id="0x2553970" file="find_fiducial_pose.cpp" linenr="143" str=")" scope="0x255eed0" link="0x25538c0"/>
+    <token id="0x2553a20" file="find_fiducial_pose.cpp" linenr="143" str="," scope="0x255eed0" astParent="0x2552fd0" astOperand1="0x2553600" astOperand2="0x2553b00"/>
+    <token id="0x2553b00" file="find_fiducial_pose.cpp" linenr="143" str="&quot;fiducial_frame&quot;" scope="0x255eed0" type="string" strlen="14" values="0x2553b08" astParent="0x2553a20"/>
+    <token id="0x2553be0" file="find_fiducial_pose.cpp" linenr="143" str=")" scope="0x255eed0" link="0x2552fd0"/>
+    <token id="0x2553c90" file="find_fiducial_pose.cpp" linenr="143" str=";" scope="0x255eed0"/>
+    <token id="0x2553d40" file="find_fiducial_pose.cpp" linenr="144" str="tf_broadcaster_" scope="0x255eed0" type="name" varId="57" variable="0x255f940" astParent="0x2553df0"/>
+    <token id="0x2553df0" file="find_fiducial_pose.cpp" linenr="144" str="." scope="0x255eed0" astParent="0x2553f50" astOperand1="0x2553d40" astOperand2="0x2553ea0"/>
+    <token id="0x2553ea0" file="find_fiducial_pose.cpp" linenr="144" str="sendTransform" scope="0x255eed0" type="name" astParent="0x2553df0"/>
+    <token id="0x2553f50" file="find_fiducial_pose.cpp" linenr="144" str="(" scope="0x255eed0" link="0x25540e0" astOperand1="0x2553df0" astOperand2="0x2554000"/>
+    <token id="0x2554000" file="find_fiducial_pose.cpp" linenr="144" str="fiducial_transform_stamped" scope="0x255eed0" type="name" varId="43" variable="0x255fda0" astParent="0x2553f50"/>
+    <token id="0x25540e0" file="find_fiducial_pose.cpp" linenr="144" str=")" scope="0x255eed0" link="0x2553f50"/>
+    <token id="0x2554190" file="find_fiducial_pose.cpp" linenr="144" str=";" scope="0x255eed0"/>
+    <token id="0x2554240" file="find_fiducial_pose.cpp" linenr="146" str="tf" scope="0x255eed0" type="name" astParent="0x25542f0"/>
+    <token id="0x25542f0" file="find_fiducial_pose.cpp" linenr="146" str="::" scope="0x255eed0" astOperand1="0x2554240" astOperand2="0x2554450"/>
+    <token id="0x25543a0" file="find_fiducial_pose.cpp" linenr="146" str="Pose" scope="0x255eed0" type="name"/>
+    <token id="0x2554450" file="find_fiducial_pose.cpp" linenr="146" str="fiducial_pose" scope="0x255eed0" type="name" varId="46" variable="0x255fe10" astParent="0x25542f0"/>
+    <token id="0x2554500" file="find_fiducial_pose.cpp" linenr="146" str=";" scope="0x255eed0"/>
+    <token id="0x25545b0" file="find_fiducial_pose.cpp" linenr="147" str="fiducial_pose" scope="0x255eed0" type="name" varId="46" variable="0x255fe10" astParent="0x2554660"/>
+    <token id="0x2554660" file="find_fiducial_pose.cpp" linenr="147" str="." scope="0x255eed0" astParent="0x25547c0" astOperand1="0x25545b0" astOperand2="0x2554710"/>
+    <token id="0x2554710" file="find_fiducial_pose.cpp" linenr="147" str="setRotation" scope="0x255eed0" type="name" astParent="0x2554660"/>
+    <token id="0x25547c0" file="find_fiducial_pose.cpp" linenr="147" str="(" scope="0x255eed0" link="0x25550b0" astOperand1="0x2554660" astOperand2="0x2554a80"/>
+    <token id="0x2554870" file="find_fiducial_pose.cpp" linenr="147" str="tf" scope="0x255eed0" type="name" astParent="0x2554920"/>
+    <token id="0x2554920" file="find_fiducial_pose.cpp" linenr="147" str="::" scope="0x255eed0" astParent="0x2554a80" astOperand1="0x2554870" astOperand2="0x25549d0"/>
+    <token id="0x25549d0" file="find_fiducial_pose.cpp" linenr="147" str="Quaternion" scope="0x255eed0" type="name" astParent="0x2554920"/>
+    <token id="0x2554a80" file="find_fiducial_pose.cpp" linenr="147" str="(" scope="0x255eed0" link="0x2555000" astParent="0x25547c0" astOperand1="0x2554920" astOperand2="0x2554ea0"/>
+    <token id="0x2554b30" file="find_fiducial_pose.cpp" linenr="147" str="0" scope="0x255eed0" type="number" isInt="True" values="0x2554b38" astParent="0x2554be0"/>
+    <token id="0x2554be0" file="find_fiducial_pose.cpp" linenr="147" str="," scope="0x255eed0" astParent="0x2554d40" astOperand1="0x2554b30" astOperand2="0x2554c90"/>
+    <token id="0x2554c90" file="find_fiducial_pose.cpp" linenr="147" str="0" scope="0x255eed0" type="number" isInt="True" values="0x2554c98" astParent="0x2554be0"/>
+    <token id="0x2554d40" file="find_fiducial_pose.cpp" linenr="147" str="," scope="0x255eed0" astParent="0x2554ea0" astOperand1="0x2554be0" astOperand2="0x2554df0"/>
+    <token id="0x2554df0" file="find_fiducial_pose.cpp" linenr="147" str="0" scope="0x255eed0" type="number" isInt="True" values="0x2554df8" astParent="0x2554d40"/>
+    <token id="0x2554ea0" file="find_fiducial_pose.cpp" linenr="147" str="," scope="0x255eed0" astParent="0x2554a80" astOperand1="0x2554d40" astOperand2="0x2554f50"/>
+    <token id="0x2554f50" file="find_fiducial_pose.cpp" linenr="147" str="1.0" scope="0x255eed0" type="number" isFloat="True" astParent="0x2554ea0"/>
+    <token id="0x2555000" file="find_fiducial_pose.cpp" linenr="147" str=")" scope="0x255eed0" link="0x2554a80"/>
+    <token id="0x25550b0" file="find_fiducial_pose.cpp" linenr="147" str=")" scope="0x255eed0" link="0x25547c0"/>
+    <token id="0x2555160" file="find_fiducial_pose.cpp" linenr="147" str=";" scope="0x255eed0"/>
+    <token id="0x2555210" file="find_fiducial_pose.cpp" linenr="148" str="fiducial_pose" scope="0x255eed0" type="name" varId="46" variable="0x255fe10" astParent="0x25552c0"/>
+    <token id="0x25552c0" file="find_fiducial_pose.cpp" linenr="148" str="=" scope="0x255eed0" type="op" isAssignmentOp="True" astOperand1="0x2555210" astOperand2="0x2555420"/>
+    <token id="0x2555370" file="find_fiducial_pose.cpp" linenr="148" str="fiducial_transform" scope="0x255eed0" type="name" varId="42" variable="0x255fd30" astParent="0x2555420"/>
+    <token id="0x2555420" file="find_fiducial_pose.cpp" linenr="148" str="*" scope="0x255eed0" type="op" isArithmeticalOp="True" astParent="0x25552c0" astOperand1="0x2555370" astOperand2="0x25554d0"/>
+    <token id="0x25554d0" file="find_fiducial_pose.cpp" linenr="148" str="fiducial_pose" scope="0x255eed0" type="name" varId="46" variable="0x255fe10" astParent="0x2555420"/>
+    <token id="0x2555580" file="find_fiducial_pose.cpp" linenr="148" str=";" scope="0x255eed0"/>
+    <token id="0x2555630" file="find_fiducial_pose.cpp" linenr="149" str="tf" scope="0x255eed0" type="name" astParent="0x25556e0"/>
+    <token id="0x25556e0" file="find_fiducial_pose.cpp" linenr="149" str="::" scope="0x255eed0" astOperand1="0x2555630" astOperand2="0x2555790"/>
+    <token id="0x2555790" file="find_fiducial_pose.cpp" linenr="149" str="Stamped" scope="0x255eed0" type="name" astParent="0x25556e0"/>
+    <token id="0x2555840" file="find_fiducial_pose.cpp" linenr="149" str="&lt;" scope="0x255eed0" link="0x2555b00"/>
+    <token id="0x25558f0" file="find_fiducial_pose.cpp" linenr="149" str="tf" scope="0x255eed0" type="name"/>
+    <token id="0x25559a0" file="find_fiducial_pose.cpp" linenr="149" str="::" scope="0x255eed0"/>
+    <token id="0x2555a50" file="find_fiducial_pose.cpp" linenr="149" str="Pose" scope="0x255eed0" type="name"/>
+    <token id="0x2555b00" file="find_fiducial_pose.cpp" linenr="149" str="&gt;" scope="0x255eed0" link="0x2555840"/>
+    <token id="0x2555bb0" file="find_fiducial_pose.cpp" linenr="149" str="fiducial_pose_stamped" scope="0x255eed0" type="name" varId="47" variable="0x255fe80" astParent="0x2555c90"/>
+    <token id="0x2555c90" file="find_fiducial_pose.cpp" linenr="149" str="(" scope="0x255eed0" link="0x25566e0" astOperand1="0x2555bb0" astOperand2="0x25562c0"/>
+    <token id="0x2555d40" file="find_fiducial_pose.cpp" linenr="149" str="fiducial_pose" scope="0x255eed0" type="name" varId="46" variable="0x255fe10" astParent="0x2555df0"/>
+    <token id="0x2555df0" file="find_fiducial_pose.cpp" linenr="149" str="," scope="0x255eed0" astParent="0x25562c0" astOperand1="0x2555d40" astOperand2="0x2556160"/>
+    <token id="0x2555ea0" file="find_fiducial_pose.cpp" linenr="149" str="image_msg" scope="0x255eed0" type="name" varId="37" variable="0x2560890" astParent="0x2555f50"/>
+    <token id="0x2555f50" file="find_fiducial_pose.cpp" linenr="149" str="." scope="0x255eed0" astParent="0x2556160" astOperand1="0x2555ea0" astOperand2="0x25560b0"/>
+    <token id="0x25560b0" file="find_fiducial_pose.cpp" linenr="149" str="header" scope="0x255eed0" type="name" varId="44" astParent="0x2555f50"/>
+    <token id="0x2556160" file="find_fiducial_pose.cpp" linenr="149" str="." scope="0x255eed0" astParent="0x2555df0" astOperand1="0x2555f50" astOperand2="0x2556210"/>
+    <token id="0x2556210" file="find_fiducial_pose.cpp" linenr="149" str="stamp" scope="0x255eed0" type="name" varId="45" astParent="0x2556160"/>
+    <token id="0x25562c0" file="find_fiducial_pose.cpp" linenr="149" str="," scope="0x255eed0" astParent="0x2555c90" astOperand1="0x2555df0" astOperand2="0x2556580"/>
+    <token id="0x2556370" file="find_fiducial_pose.cpp" linenr="149" str="cam_model_" scope="0x255eed0" type="name" varId="55" variable="0x255f860" astParent="0x2556420"/>
+    <token id="0x2556420" file="find_fiducial_pose.cpp" linenr="149" str="." scope="0x255eed0" astParent="0x2556580" astOperand1="0x2556370" astOperand2="0x25564d0"/>
+    <token id="0x25564d0" file="find_fiducial_pose.cpp" linenr="149" str="tfFrame" scope="0x255eed0" type="name" astParent="0x2556420"/>
+    <token id="0x2556580" file="find_fiducial_pose.cpp" linenr="149" str="(" scope="0x255eed0" link="0x2556630" astParent="0x25562c0" astOperand1="0x2556420"/>
+    <token id="0x2556630" file="find_fiducial_pose.cpp" linenr="149" str=")" scope="0x255eed0" link="0x2556580"/>
+    <token id="0x25566e0" file="find_fiducial_pose.cpp" linenr="149" str=")" scope="0x255eed0" link="0x2555c90"/>
+    <token id="0x2556790" file="find_fiducial_pose.cpp" linenr="149" str=";" scope="0x255eed0"/>
+    <token id="0x2556840" file="find_fiducial_pose.cpp" linenr="151" str="tf" scope="0x255eed0" type="name" astParent="0x25568f0"/>
+    <token id="0x25568f0" file="find_fiducial_pose.cpp" linenr="151" str="::" scope="0x255eed0" astParent="0x2556a80" astOperand1="0x2556840" astOperand2="0x25569a0"/>
+    <token id="0x25569a0" file="find_fiducial_pose.cpp" linenr="151" str="poseStampedTFToMsg" scope="0x255eed0" type="name" astParent="0x25568f0"/>
+    <token id="0x2556a80" file="find_fiducial_pose.cpp" linenr="151" str="(" scope="0x255eed0" link="0x2556ed0" astOperand1="0x25568f0" astOperand2="0x2556c10"/>
+    <token id="0x2556b30" file="find_fiducial_pose.cpp" linenr="151" str="fiducial_pose_stamped" scope="0x255eed0" type="name" varId="47" variable="0x255fe80" astParent="0x2556c10"/>
+    <token id="0x2556c10" file="find_fiducial_pose.cpp" linenr="151" str="," scope="0x255eed0" astParent="0x2556a80" astOperand1="0x2556b30" astOperand2="0x2556d70"/>
+    <token id="0x2556cc0" file="find_fiducial_pose.cpp" linenr="151" str="result_" scope="0x255eed0" type="name" varId="60" variable="0x255fa90" astParent="0x2556d70"/>
+    <token id="0x2556d70" file="find_fiducial_pose.cpp" linenr="151" str="." scope="0x255eed0" astParent="0x2556c10" astOperand1="0x2556cc0" astOperand2="0x2556e20"/>
+    <token id="0x2556e20" file="find_fiducial_pose.cpp" linenr="151" str="pose" scope="0x255eed0" type="name" varId="62" astParent="0x2556d70"/>
+    <token id="0x2556ed0" file="find_fiducial_pose.cpp" linenr="151" str=")" scope="0x255eed0" link="0x2556a80"/>
+    <token id="0x2556f80" file="find_fiducial_pose.cpp" linenr="151" str=";" scope="0x255eed0"/>
+    <token id="0x2557030" file="find_fiducial_pose.cpp" linenr="152" str="as_" scope="0x255eed0" type="name" varId="49" variable="0x255f5c0" astParent="0x25570e0"/>
+    <token id="0x25570e0" file="find_fiducial_pose.cpp" linenr="152" str="." scope="0x255eed0" astParent="0x2557240" astOperand1="0x2557030" astOperand2="0x2557190"/>
+    <token id="0x2557190" file="find_fiducial_pose.cpp" linenr="152" str="setSucceeded" scope="0x255eed0" type="name" astParent="0x25570e0"/>
+    <token id="0x2557240" file="find_fiducial_pose.cpp" linenr="152" str="(" scope="0x255eed0" link="0x25573a0" astOperand1="0x25570e0" astOperand2="0x25572f0"/>
+    <token id="0x25572f0" file="find_fiducial_pose.cpp" linenr="152" str="result_" scope="0x255eed0" type="name" varId="60" variable="0x255fa90" astParent="0x2557240"/>
+    <token id="0x25573a0" file="find_fiducial_pose.cpp" linenr="152" str=")" scope="0x255eed0" link="0x2557240"/>
+    <token id="0x2557450" file="find_fiducial_pose.cpp" linenr="152" str=";" scope="0x255eed0"/>
+    <token id="0x2557500" file="find_fiducial_pose.cpp" linenr="153" str="pub_timer_" scope="0x255eed0" type="name" varId="58" variable="0x255f9b0" astParent="0x25575b0"/>
+    <token id="0x25575b0" file="find_fiducial_pose.cpp" linenr="153" str="." scope="0x255eed0" astParent="0x2557710" astOperand1="0x2557500" astOperand2="0x2557660"/>
+    <token id="0x2557660" file="find_fiducial_pose.cpp" linenr="153" str="stop" scope="0x255eed0" type="name" astParent="0x25575b0"/>
+    <token id="0x2557710" file="find_fiducial_pose.cpp" linenr="153" str="(" scope="0x255eed0" link="0x25577c0" astOperand1="0x25575b0"/>
+    <token id="0x25577c0" file="find_fiducial_pose.cpp" linenr="153" str=")" scope="0x255eed0" link="0x2557710"/>
+    <token id="0x2557870" file="find_fiducial_pose.cpp" linenr="153" str=";" scope="0x255eed0"/>
+    <token id="0x2557920" file="find_fiducial_pose.cpp" linenr="154" str="sub_" scope="0x255eed0" type="name" varId="53" variable="0x255f780" astParent="0x25579d0"/>
+    <token id="0x25579d0" file="find_fiducial_pose.cpp" linenr="154" str="." scope="0x255eed0" astParent="0x2557b30" astOperand1="0x2557920" astOperand2="0x2557a80"/>
+    <token id="0x2557a80" file="find_fiducial_pose.cpp" linenr="154" str="shutdown" scope="0x255eed0" type="name" astParent="0x25579d0"/>
+    <token id="0x2557b30" file="find_fiducial_pose.cpp" linenr="154" str="(" scope="0x255eed0" link="0x2557be0" astOperand1="0x25579d0"/>
+    <token id="0x2557be0" file="find_fiducial_pose.cpp" linenr="154" str=")" scope="0x255eed0" link="0x2557b30"/>
+    <token id="0x2557c90" file="find_fiducial_pose.cpp" linenr="154" str=";" scope="0x255eed0"/>
+    <token id="0x2557d40" file="find_fiducial_pose.cpp" linenr="155" str="}" scope="0x255eed0" link="0x254f990"/>
+    <token id="0x2557df0" file="find_fiducial_pose.cpp" linenr="157" str="}" scope="0x255ea10" link="0x254a980"/>
+    <token id="0x2557ea0" file="find_fiducial_pose.cpp" linenr="159" str="protected:" scope="0x25325d0" type="name"/>
+    <token id="0x2558000" file="find_fiducial_pose.cpp" linenr="161" str="ros" scope="0x25325d0" type="name" astParent="0x25580b0"/>
+    <token id="0x25580b0" file="find_fiducial_pose.cpp" linenr="161" str="::" scope="0x25325d0" astOperand1="0x2558000" astOperand2="0x2558210"/>
+    <token id="0x2558160" file="find_fiducial_pose.cpp" linenr="161" str="NodeHandle" scope="0x25325d0" type="name"/>
+    <token id="0x2558210" file="find_fiducial_pose.cpp" linenr="161" str="nh_" scope="0x25325d0" type="name" varId="48" variable="0x255f550" astParent="0x25580b0"/>
+    <token id="0x25582c0" file="find_fiducial_pose.cpp" linenr="161" str=";" scope="0x25325d0"/>
+    <token id="0x2558370" file="find_fiducial_pose.cpp" linenr="162" str="actionlib" scope="0x25325d0" type="name" astParent="0x2558420"/>
+    <token id="0x2558420" file="find_fiducial_pose.cpp" linenr="162" str="::" scope="0x25325d0" astOperand1="0x2558370" astOperand2="0x25584d0"/>
+    <token id="0x25584d0" file="find_fiducial_pose.cpp" linenr="162" str="SimpleActionServer" scope="0x25325d0" type="name" astParent="0x2558420"/>
+    <token id="0x25585b0" file="find_fiducial_pose.cpp" linenr="162" str="&lt;" scope="0x25325d0" link="0x25588d0"/>
+    <token id="0x2558660" file="find_fiducial_pose.cpp" linenr="162" str="turtlebot_actions" scope="0x25325d0" type="name"/>
+    <token id="0x2558740" file="find_fiducial_pose.cpp" linenr="162" str="::" scope="0x25325d0"/>
+    <token id="0x25587f0" file="find_fiducial_pose.cpp" linenr="162" str="FindFiducialAction" scope="0x25325d0" type="name" type-scope="0x25325d0"/>
+    <token id="0x25588d0" file="find_fiducial_pose.cpp" linenr="162" str="&gt;" scope="0x25325d0" link="0x25585b0"/>
+    <token id="0x2558980" file="find_fiducial_pose.cpp" linenr="162" str="as_" scope="0x25325d0" type="name" varId="49" variable="0x255f5c0"/>
+    <token id="0x2558a30" file="find_fiducial_pose.cpp" linenr="162" str=";" scope="0x25325d0"/>
+    <token id="0x2558ae0" file="find_fiducial_pose.cpp" linenr="163" str="std" scope="0x25325d0" type="name" astParent="0x2558b90"/>
+    <token id="0x2558b90" file="find_fiducial_pose.cpp" linenr="163" str="::" scope="0x25325d0" astOperand1="0x2558ae0" astOperand2="0x2558cf0"/>
+    <token id="0x2558c40" file="find_fiducial_pose.cpp" linenr="163" str="string" scope="0x25325d0" type="name"/>
+    <token id="0x2558cf0" file="find_fiducial_pose.cpp" linenr="163" str="action_name_" scope="0x25325d0" type="name" varId="50" variable="0x255f630" astParent="0x2558b90"/>
+    <token id="0x2558da0" file="find_fiducial_pose.cpp" linenr="163" str=";" scope="0x25325d0"/>
+    <token id="0x2558e50" file="find_fiducial_pose.cpp" linenr="164" str="PatternDetector" scope="0x25325d0" type="name" type-scope="0x252e900"/>
+    <token id="0x2558f00" file="find_fiducial_pose.cpp" linenr="164" str="detector_" scope="0x25325d0" type="name" varId="51" variable="0x255f6a0"/>
+    <token id="0x2558fb0" file="find_fiducial_pose.cpp" linenr="164" str=";" scope="0x25325d0"/>
+    <token id="0x2559060" file="find_fiducial_pose.cpp" linenr="166" str="image_transport" scope="0x25325d0" type="name" astParent="0x2559110"/>
+    <token id="0x2559110" file="find_fiducial_pose.cpp" linenr="166" str="::" scope="0x25325d0" astOperand1="0x2559060" astOperand2="0x2559270"/>
+    <token id="0x25591c0" file="find_fiducial_pose.cpp" linenr="166" str="ImageTransport" scope="0x25325d0" type="name"/>
+    <token id="0x2559270" file="find_fiducial_pose.cpp" linenr="166" str="it_" scope="0x25325d0" type="name" varId="52" variable="0x255f710" astParent="0x2559110"/>
+    <token id="0x2559320" file="find_fiducial_pose.cpp" linenr="166" str=";" scope="0x25325d0"/>
+    <token id="0x25593d0" file="find_fiducial_pose.cpp" linenr="167" str="image_transport" scope="0x25325d0" type="name" astParent="0x2559480"/>
+    <token id="0x2559480" file="find_fiducial_pose.cpp" linenr="167" str="::" scope="0x25325d0" astOperand1="0x25593d0" astOperand2="0x2559610"/>
+    <token id="0x2559530" file="find_fiducial_pose.cpp" linenr="167" str="CameraSubscriber" scope="0x25325d0" type="name"/>
+    <token id="0x2559610" file="find_fiducial_pose.cpp" linenr="167" str="sub_" scope="0x25325d0" type="name" varId="53" variable="0x255f780" astParent="0x2559480"/>
+    <token id="0x25596c0" file="find_fiducial_pose.cpp" linenr="167" str=";" scope="0x25325d0"/>
+    <token id="0x2559770" file="find_fiducial_pose.cpp" linenr="168" str="cv_bridge" scope="0x25325d0" type="name" astParent="0x2559820"/>
+    <token id="0x2559820" file="find_fiducial_pose.cpp" linenr="168" str="::" scope="0x25325d0" astOperand1="0x2559770" astOperand2="0x2559980"/>
+    <token id="0x25598d0" file="find_fiducial_pose.cpp" linenr="168" str="CvImagePtr" scope="0x25325d0" type="name"/>
+    <token id="0x2559980" file="find_fiducial_pose.cpp" linenr="168" str="img_bridge_" scope="0x25325d0" type="name" varId="54" variable="0x255f7f0" astParent="0x2559820"/>
+    <token id="0x2559a30" file="find_fiducial_pose.cpp" linenr="168" str=";" scope="0x25325d0"/>
+    <token id="0x2559ae0" file="find_fiducial_pose.cpp" linenr="169" str="image_geometry" scope="0x25325d0" type="name" astParent="0x2559b90"/>
+    <token id="0x2559b90" file="find_fiducial_pose.cpp" linenr="169" str="::" scope="0x25325d0" astOperand1="0x2559ae0" astOperand2="0x2559d20"/>
+    <token id="0x2559c40" file="find_fiducial_pose.cpp" linenr="169" str="PinholeCameraModel" scope="0x25325d0" type="name"/>
+    <token id="0x2559d20" file="find_fiducial_pose.cpp" linenr="169" str="cam_model_" scope="0x25325d0" type="name" varId="55" variable="0x255f860" astParent="0x2559b90"/>
+    <token id="0x2559dd0" file="find_fiducial_pose.cpp" linenr="169" str=";" scope="0x25325d0"/>
+    <token id="0x2559e80" file="find_fiducial_pose.cpp" linenr="171" str="tf" scope="0x25325d0" type="name" astParent="0x2559f30"/>
+    <token id="0x2559f30" file="find_fiducial_pose.cpp" linenr="171" str="::" scope="0x25325d0" astOperand1="0x2559e80" astOperand2="0x255a0c0"/>
+    <token id="0x2559fe0" file="find_fiducial_pose.cpp" linenr="171" str="TransformListener" scope="0x25325d0" type="name"/>
+    <token id="0x255a0c0" file="find_fiducial_pose.cpp" linenr="171" str="tf_listener_" scope="0x25325d0" type="name" varId="56" variable="0x255f8d0" astParent="0x2559f30"/>
+    <token id="0x255a170" file="find_fiducial_pose.cpp" linenr="171" str=";" scope="0x25325d0"/>
+    <token id="0x255a220" file="find_fiducial_pose.cpp" linenr="172" str="tf" scope="0x25325d0" type="name" astParent="0x255a2d0"/>
+    <token id="0x255a2d0" file="find_fiducial_pose.cpp" linenr="172" str="::" scope="0x25325d0" astOperand1="0x255a220" astOperand2="0x255a460"/>
+    <token id="0x255a380" file="find_fiducial_pose.cpp" linenr="172" str="TransformBroadcaster" scope="0x25325d0" type="name"/>
+    <token id="0x255a460" file="find_fiducial_pose.cpp" linenr="172" str="tf_broadcaster_" scope="0x25325d0" type="name" varId="57" variable="0x255f940" astParent="0x255a2d0"/>
+    <token id="0x255a510" file="find_fiducial_pose.cpp" linenr="172" str=";" scope="0x25325d0"/>
+    <token id="0x255a5c0" file="find_fiducial_pose.cpp" linenr="174" str="ros" scope="0x25325d0" type="name" astParent="0x255a670"/>
+    <token id="0x255a670" file="find_fiducial_pose.cpp" linenr="174" str="::" scope="0x25325d0" astOperand1="0x255a5c0" astOperand2="0x255a7d0"/>
+    <token id="0x255a720" file="find_fiducial_pose.cpp" linenr="174" str="Timer" scope="0x25325d0" type="name"/>
+    <token id="0x255a7d0" file="find_fiducial_pose.cpp" linenr="174" str="pub_timer_" scope="0x25325d0" type="name" varId="58" variable="0x255f9b0" astParent="0x255a670"/>
+    <token id="0x255a880" file="find_fiducial_pose.cpp" linenr="174" str=";" scope="0x25325d0"/>
+    <token id="0x255a930" file="find_fiducial_pose.cpp" linenr="177" str="turtlebot_actions" scope="0x25325d0" type="name" astParent="0x255aa10"/>
+    <token id="0x255aa10" file="find_fiducial_pose.cpp" linenr="177" str="::" scope="0x25325d0" astOperand1="0x255a930" astOperand2="0x255aba0"/>
+    <token id="0x255aac0" file="find_fiducial_pose.cpp" linenr="177" str="FindFiducialFeedback" scope="0x25325d0" type="name"/>
+    <token id="0x255aba0" file="find_fiducial_pose.cpp" linenr="177" str="feedback_" scope="0x25325d0" type="name" varId="59" variable="0x255fa20" astParent="0x255aa10"/>
+    <token id="0x255ac50" file="find_fiducial_pose.cpp" linenr="177" str=";" scope="0x25325d0"/>
+    <token id="0x255ad00" file="find_fiducial_pose.cpp" linenr="178" str="turtlebot_actions" scope="0x25325d0" type="name" astParent="0x255ade0"/>
+    <token id="0x255ade0" file="find_fiducial_pose.cpp" linenr="178" str="::" scope="0x25325d0" astOperand1="0x255ad00" astOperand2="0x255af70"/>
+    <token id="0x255ae90" file="find_fiducial_pose.cpp" linenr="178" str="FindFiducialResult" scope="0x25325d0" type="name"/>
+    <token id="0x255af70" file="find_fiducial_pose.cpp" linenr="178" str="result_" scope="0x25325d0" type="name" varId="60" variable="0x255fa90" astParent="0x255ade0"/>
+    <token id="0x255b020" file="find_fiducial_pose.cpp" linenr="178" str=";" scope="0x25325d0"/>
+    <token id="0x255b0d0" file="find_fiducial_pose.cpp" linenr="181" str="}" scope="0x25325d0" link="0x253c0d0"/>
+    <token id="0x255b180" file="find_fiducial_pose.cpp" linenr="181" str=";" scope="0x255d5b0"/>
+    <token id="0x255b230" file="find_fiducial_pose.cpp" linenr="184" str="int" scope="0x255d5b0" type="name"/>
+    <token id="0x255b2e0" file="find_fiducial_pose.cpp" linenr="184" str="main" scope="0x255d5b0" type="name" function="0x255f000" astParent="0x255b390"/>
+    <token id="0x255b390" file="find_fiducial_pose.cpp" linenr="184" str="(" scope="0x255d5b0" link="0x255b910" astOperand1="0x255b2e0" astOperand2="0x255b5a0"/>
+    <token id="0x255b440" file="find_fiducial_pose.cpp" linenr="184" str="int" scope="0x255d5b0" type="name"/>
+    <token id="0x255b4f0" file="find_fiducial_pose.cpp" linenr="184" str="argc" scope="0x255d5b0" type="name" varId="63" variable="0x2560120" astParent="0x255b5a0"/>
+    <token id="0x255b5a0" file="find_fiducial_pose.cpp" linenr="184" str="," scope="0x255d5b0" astParent="0x255b390" astOperand1="0x255b4f0" astOperand2="0x255b700"/>
+    <token id="0x255b650" file="find_fiducial_pose.cpp" linenr="184" str="char" scope="0x255d5b0" type="name" astParent="0x255b700"/>
+    <token id="0x255b700" file="find_fiducial_pose.cpp" linenr="184" str="*" scope="0x255d5b0" type="op" isArithmeticalOp="True" astParent="0x255b5a0" astOperand1="0x255b650" astOperand2="0x255b7b0"/>
+    <token id="0x255b7b0" file="find_fiducial_pose.cpp" linenr="184" str="*" scope="0x255d5b0" type="op" isArithmeticalOp="True" astParent="0x255b700" astOperand1="0x255b860"/>
+    <token id="0x255b860" file="find_fiducial_pose.cpp" linenr="184" str="argv" scope="0x255d5b0" type="name" varId="64" variable="0x2560190" astParent="0x255b7b0"/>
+    <token id="0x255b910" file="find_fiducial_pose.cpp" linenr="184" str=")" scope="0x255d5b0" link="0x255b390"/>
+    <token id="0x255b9c0" file="find_fiducial_pose.cpp" linenr="185" str="{" scope="0x255f0a0" link="0x255d0d0"/>
+    <token id="0x255ba70" file="find_fiducial_pose.cpp" linenr="186" str="ros" scope="0x255f0a0" type="name" astParent="0x255bb20"/>
+    <token id="0x255bb20" file="find_fiducial_pose.cpp" linenr="186" str="::" scope="0x255f0a0" astParent="0x255bc80" astOperand1="0x255ba70" astOperand2="0x255bbd0"/>
+    <token id="0x255bbd0" file="find_fiducial_pose.cpp" linenr="186" str="init" scope="0x255f0a0" type="name" astParent="0x255bb20"/>
+    <token id="0x255bc80" file="find_fiducial_pose.cpp" linenr="186" str="(" scope="0x255f0a0" link="0x255c100" astOperand1="0x255bb20" astOperand2="0x255bf40"/>
+    <token id="0x255bd30" file="find_fiducial_pose.cpp" linenr="186" str="argc" scope="0x255f0a0" type="name" varId="63" variable="0x2560120" astParent="0x255bde0"/>
+    <token id="0x255bde0" file="find_fiducial_pose.cpp" linenr="186" str="," scope="0x255f0a0" astParent="0x255bf40" astOperand1="0x255bd30" astOperand2="0x255be90"/>
+    <token id="0x255be90" file="find_fiducial_pose.cpp" linenr="186" str="argv" scope="0x255f0a0" type="name" varId="64" variable="0x2560190" astParent="0x255bde0"/>
+    <token id="0x255bf40" file="find_fiducial_pose.cpp" linenr="186" str="," scope="0x255f0a0" astParent="0x255bc80" astOperand1="0x255bde0" astOperand2="0x255c020"/>
+    <token id="0x255c020" file="find_fiducial_pose.cpp" linenr="186" str="&quot;find_fiducial_pose&quot;" scope="0x255f0a0" type="string" strlen="18" values="0x255c028" astParent="0x255bf40"/>
+    <token id="0x255c100" file="find_fiducial_pose.cpp" linenr="186" str=")" scope="0x255f0a0" link="0x255bc80"/>
+    <token id="0x255c1b0" file="find_fiducial_pose.cpp" linenr="186" str=";" scope="0x255f0a0"/>
+    <token id="0x255c260" file="find_fiducial_pose.cpp" linenr="188" str="FindFiducialAction" scope="0x255f0a0" type="name" type-scope="0x25325d0"/>
+    <token id="0x255c310" file="find_fiducial_pose.cpp" linenr="188" str="find_fiducial" scope="0x255f0a0" type="name" varId="65" variable="0x255fef0" astParent="0x255c3c0"/>
+    <token id="0x255c3c0" file="find_fiducial_pose.cpp" linenr="188" str="(" scope="0x255f0a0" link="0x255c940" astOperand1="0x255c310" astOperand2="0x255c7e0"/>
+    <token id="0x255c470" file="find_fiducial_pose.cpp" linenr="188" str="ros" scope="0x255f0a0" type="name" astParent="0x255c520"/>
+    <token id="0x255c520" file="find_fiducial_pose.cpp" linenr="188" str="::" scope="0x255f0a0" astParent="0x255c680" astOperand1="0x255c470" astOperand2="0x255c5d0"/>
+    <token id="0x255c5d0" file="find_fiducial_pose.cpp" linenr="188" str="this_node" scope="0x255f0a0" type="name" astParent="0x255c520"/>
+    <token id="0x255c680" file="find_fiducial_pose.cpp" linenr="188" str="::" scope="0x255f0a0" astParent="0x255c7e0" astOperand1="0x255c520" astOperand2="0x255c730"/>
+    <token id="0x255c730" file="find_fiducial_pose.cpp" linenr="188" str="getName" scope="0x255f0a0" type="name" astParent="0x255c680"/>
+    <token id="0x255c7e0" file="find_fiducial_pose.cpp" linenr="188" str="(" scope="0x255f0a0" link="0x255c890" astParent="0x255c3c0" astOperand1="0x255c680"/>
+    <token id="0x255c890" file="find_fiducial_pose.cpp" linenr="188" str=")" scope="0x255f0a0" link="0x255c7e0"/>
+    <token id="0x255c940" file="find_fiducial_pose.cpp" linenr="188" str=")" scope="0x255f0a0" link="0x255c3c0"/>
+    <token id="0x255c9f0" file="find_fiducial_pose.cpp" linenr="188" str=";" scope="0x255f0a0"/>
+    <token id="0x255caa0" file="find_fiducial_pose.cpp" linenr="189" str="ros" scope="0x255f0a0" type="name" astParent="0x255cb50"/>
+    <token id="0x255cb50" file="find_fiducial_pose.cpp" linenr="189" str="::" scope="0x255f0a0" astParent="0x255ccb0" astOperand1="0x255caa0" astOperand2="0x255cc00"/>
+    <token id="0x255cc00" file="find_fiducial_pose.cpp" linenr="189" str="spin" scope="0x255f0a0" type="name" astParent="0x255cb50"/>
+    <token id="0x255ccb0" file="find_fiducial_pose.cpp" linenr="189" str="(" scope="0x255f0a0" link="0x255cd60" astOperand1="0x255cb50"/>
+    <token id="0x255cd60" file="find_fiducial_pose.cpp" linenr="189" str=")" scope="0x255f0a0" link="0x255ccb0"/>
+    <token id="0x255ce10" file="find_fiducial_pose.cpp" linenr="189" str=";" scope="0x255f0a0"/>
+    <token id="0x255cec0" file="find_fiducial_pose.cpp" linenr="191" str="return" scope="0x255f0a0" type="name" astOperand1="0x255cf70"/>
+    <token id="0x255cf70" file="find_fiducial_pose.cpp" linenr="191" str="0" scope="0x255f0a0" type="number" isInt="True" values="0x255cf78" astParent="0x255cec0"/>
+    <token id="0x255d020" file="find_fiducial_pose.cpp" linenr="191" str=";" scope="0x255f0a0"/>
+    <token id="0x255d0d0" file="find_fiducial_pose.cpp" linenr="192" str="}" scope="0x255f0a0" link="0x255b9c0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x255d5b0" type="Global">
+      <functionList>
+        <function id="0x253f0c0" tokenDef="0x25339f0" name="convertCVtoEigen">
+          <arg nr="1" variable="0x255ff60"/>
+          <arg nr="2" variable="0x255ffd0"/>
+          <arg nr="3" variable="0x2560040"/>
+          <arg nr="4" variable="0x25600b0"/>
+        </function>
+        <function id="0x255f000" tokenDef="0x255b2e0" name="main">
+          <arg nr="1" variable="0x2560120"/>
+          <arg nr="2" variable="0x2560190"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x252e900" type="Class" className="PatternDetector" classStart="0x2534e10" classEnd="0x253bde0" nestedIn="0x255d5b0">
+      <functionList>
+        <function id="0x252ea70" tokenDef="0x2535020" name="PatternDetector"/>
+        <function id="0x2540010" tokenDef="0x25354f0" name="calcChessboardCorners">
+          <arg nr="1" variable="0x2560200"/>
+          <arg nr="2" variable="0x2560270"/>
+          <arg nr="3" variable="0x25602e0"/>
+          <arg nr="4" variable="0x2560350"/>
+        </function>
+        <function id="0x25400b0" tokenDef="0x2536860" name="detectPattern">
+          <arg nr="1" variable="0x25603c0"/>
+          <arg nr="2" variable="0x2560430"/>
+          <arg nr="3" variable="0x25604a0"/>
+        </function>
+        <function id="0x2540150" tokenDef="0x2538ad0" name="setCameraMatrices">
+          <arg nr="1" variable="0x2560510"/>
+          <arg nr="2" variable="0x2560580"/>
+        </function>
+        <function id="0x25401f0" tokenDef="0x25394a0" name="setPattern">
+          <arg nr="1" variable="0x25605f0"/>
+          <arg nr="2" variable="0x2560660"/>
+          <arg nr="3" variable="0x25606d0"/>
+          <arg nr="4" variable="0x2560740"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x2540290"/>
+        <var id="0x255f1d0"/>
+        <var id="0x255f240"/>
+        <var id="0x255f2b0"/>
+        <var id="0x255f320"/>
+        <var id="0x255f390"/>
+        <var id="0x255f400"/>
+        <var id="0x255f470"/>
+        <var id="0x255f4e0"/>
+      </varlist>
+    </scope>
+    <scope id="0x253fee0" type="Function" className="PatternDetector" classStart="0x2535230" classEnd="0x25352e0" nestedIn="0x252e900" function="0x252ea70"/>
+    <scope id="0x25325d0" type="Class" className="FindFiducialAction" classStart="0x253c0d0" classEnd="0x255b0d0" nestedIn="0x255d5b0">
+      <functionList>
+        <function id="0x2532700" tokenDef="0x253c2e0" name="FindFiducialAction">
+          <arg nr="1" variable="0x25607b0"/>
+        </function>
+        <function id="0x25328d0" tokenDef="0x253ef20" name="FindFiducialAction"/>
+        <function id="0x255e070" tokenDef="0x253f420" name="goalCB"/>
+        <function id="0x255e240" tokenDef="0x2545d10" name="timeoutCB">
+          <arg nr="1" variable="0x2560820"/>
+        </function>
+        <function id="0x255e7a0" tokenDef="0x2548670" name="preemptCB"/>
+        <function id="0x255e970" tokenDef="0x2549e80" name="detectCB">
+          <arg nr="1" variable="0x2560890"/>
+          <arg nr="2" variable="0x2560900"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x255f550"/>
+        <var id="0x255f5c0"/>
+        <var id="0x255f630"/>
+        <var id="0x255f6a0"/>
+        <var id="0x255f710"/>
+        <var id="0x255f780"/>
+        <var id="0x255f7f0"/>
+        <var id="0x255f860"/>
+        <var id="0x255f8d0"/>
+        <var id="0x255f940"/>
+        <var id="0x255f9b0"/>
+        <var id="0x255fa20"/>
+        <var id="0x255fa90"/>
+      </varlist>
+    </scope>
+    <scope id="0x25327a0" type="Function" className="FindFiducialAction" classStart="0x253d4f0" classEnd="0x253edc0" nestedIn="0x25325d0" function="0x2532700"/>
+    <scope id="0x255df40" type="Function" className="FindFiducialAction" classStart="0x253f210" classEnd="0x253f2c0" nestedIn="0x25325d0" function="0x25328d0"/>
+    <scope id="0x255e110" type="Function" className="goalCB" classStart="0x253f630" classEnd="0x2545bb0" nestedIn="0x25325d0" function="0x255e070">
+      <varlist>
+        <var id="0x255fb00"/>
+        <var id="0x255fb70"/>
+        <var id="0x255fbe0"/>
+      </varlist>
+    </scope>
+    <scope id="0x255e2e0" type="Function" className="timeoutCB" classStart="0x2546340" classEnd="0x2548510" nestedIn="0x25325d0" function="0x255e240"/>
+    <scope id="0x255e410" type="If" classStart="0x2534f70" classEnd="0x253a680" nestedIn="0x255e2e0"/>
+    <scope id="0x255e540" type="Else" classStart="0x253c230" classEnd="0x2541240" nestedIn="0x255e2e0"/>
+    <scope id="0x255e670" type="Try" classStart="0x253c230" classEnd="0x2541240" nestedIn="0x255e2e0"/>
+    <scope id="0x255e840" type="Function" className="preemptCB" classStart="0x2548880" classEnd="0x2549d20" nestedIn="0x25325d0" function="0x255e7a0"/>
+    <scope id="0x255ea10" type="Function" className="detectCB" classStart="0x254a980" classEnd="0x2557df0" nestedIn="0x25325d0" function="0x255e970">
+      <varlist>
+        <var id="0x255fc50"/>
+        <var id="0x255fcc0"/>
+      </varlist>
+    </scope>
+    <scope id="0x255eb40" type="If" classStart="0x25415b0" classEnd="0x2541df0" nestedIn="0x255ea10"/>
+    <scope id="0x255ec70" type="Try" classStart="0x254ba70" classEnd="0x254c2b0" nestedIn="0x255ea10"/>
+    <scope id="0x255eda0" type="Catch" classStart="0x254c8e0" classEnd="0x254ce90" nestedIn="0x255ea10">
+      <varlist>
+        <var id="0x25405b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x255eed0" type="If" classStart="0x254f990" classEnd="0x2557d40" nestedIn="0x255ea10">
+      <varlist>
+        <var id="0x255fd30"/>
+        <var id="0x255fda0"/>
+        <var id="0x255fe10"/>
+        <var id="0x255fe80"/>
+      </varlist>
+    </scope>
+    <scope id="0x255f0a0" type="Function" className="main" classStart="0x255b9c0" classEnd="0x255d0d0" nestedIn="0x255d5b0" function="0x255f000">
+      <varlist>
+        <var id="0x255fef0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x255ff60" nameToken="0x2533e40" typeStartToken="0x2533b80" typeEndToken="0x2533d90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x255ffd0" nameToken="0x2534260" typeStartToken="0x2533fa0" typeEndToken="0x25341b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560040" nameToken="0x2534680" typeStartToken="0x25343c0" typeEndToken="0x25345d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x25600b0" nameToken="0x2534aa0" typeStartToken="0x25347e0" typeEndToken="0x25349f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560200" nameToken="0x2535890" typeStartToken="0x2535680" typeEndToken="0x25357e0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560270" nameToken="0x2535aa0" typeStartToken="0x25359f0" typeEndToken="0x25359f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25602e0" nameToken="0x2535cb0" typeStartToken="0x2535c00" typeEndToken="0x2535c00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560350" nameToken="0x2536180" typeStartToken="0x2535f70" typeEndToken="0x25360d0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25603c0" nameToken="0x2536c80" typeStartToken="0x25369c0" typeEndToken="0x2536bd0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560430" nameToken="0x25383f0" typeStartToken="0x2536de0" typeEndToken="0x2538340" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x25604a0" nameToken="0x2538810" typeStartToken="0x2538550" typeEndToken="0x2538760" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560510" nameToken="0x2538e70" typeStartToken="0x2538c60" typeEndToken="0x2538dc0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560580" nameToken="0x25391e0" typeStartToken="0x2538fd0" typeEndToken="0x2539130" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25605f0" nameToken="0x2539810" typeStartToken="0x2539600" typeEndToken="0x2539760" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560660" nameToken="0x2539a20" typeStartToken="0x2539970" typeEndToken="0x2539970" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25606d0" nameToken="0x2539c30" typeStartToken="0x2539b80" typeEndToken="0x2539b80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560740" nameToken="0x2539fa0" typeStartToken="0x2539d90" typeEndToken="0x2539ef0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2540290" nameToken="0x253a940" typeStartToken="0x253a730" typeEndToken="0x253a890" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f1d0" nameToken="0x253acb0" typeStartToken="0x253aaa0" typeEndToken="0x253ac00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f240" nameToken="0x253b020" typeStartToken="0x253ae10" typeEndToken="0x253af70" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f2b0" nameToken="0x253b180" typeStartToken="0x2543290" typeEndToken="0x2553340" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f320" nameToken="0x253b2e0" typeStartToken="0x2556000" typeEndToken="0x252e460" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f390" nameToken="0x253b4f0" typeStartToken="0x253b440" typeEndToken="0x253b440" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f400" nameToken="0x253b860" typeStartToken="0x253b650" typeEndToken="0x253b7b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f470" nameToken="0x253ba70" typeStartToken="0x253b9c0" typeEndToken="0x253b9c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f4e0" nameToken="0x253bc80" typeStartToken="0x253bbd0" typeEndToken="0x255de80" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25607b0" nameToken="0x253c680" typeStartToken="0x253c470" typeEndToken="0x253c5d0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fb00" nameToken="0x25407f0" typeStartToken="0x2540740" typeEndToken="0x2532f20" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fb70" nameToken="0x2540f80" typeStartToken="0x2540d70" typeEndToken="0x2540ed0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fbe0" nameToken="0x2542fd0" typeStartToken="0x2542dc0" typeEndToken="0x2542f20" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560820" nameToken="0x25461e0" typeStartToken="0x2545f20" typeEndToken="0x2546130" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560890" nameToken="0x254a350" typeStartToken="0x254a090" typeEndToken="0x254a2a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2560900" nameToken="0x254a820" typeStartToken="0x254a560" typeEndToken="0x254a770" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x25405b0" nameToken="0x254c780" typeStartToken="0x254c4c0" typeEndToken="0x254c6d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x255fc50" nameToken="0x254e9c0" typeStartToken="0x254e7b0" typeEndToken="0x254e910" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fcc0" nameToken="0x254ed30" typeStartToken="0x254eb20" typeEndToken="0x254ec80" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fd30" nameToken="0x2550020" typeStartToken="0x254fe10" typeEndToken="0x254ff70" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fda0" nameToken="0x2552ef0" typeStartToken="0x2552c80" typeEndToken="0x2552de0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fe10" nameToken="0x2554450" typeStartToken="0x2554240" typeEndToken="0x25543a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fe80" nameToken="0x2555bb0" typeStartToken="0x2555630" typeEndToken="0x2555b00" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f550" nameToken="0x2558210" typeStartToken="0x2558000" typeEndToken="0x2558160" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f5c0" nameToken="0x2558980" typeStartToken="0x2558370" typeEndToken="0x25588d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f630" nameToken="0x2558cf0" typeStartToken="0x2558ae0" typeEndToken="0x2558c40" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f6a0" nameToken="0x2558f00" typeStartToken="0x2558e50" typeEndToken="0x2558e50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f710" nameToken="0x2559270" typeStartToken="0x2559060" typeEndToken="0x25591c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f780" nameToken="0x2559610" typeStartToken="0x25593d0" typeEndToken="0x2559530" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f7f0" nameToken="0x2559980" typeStartToken="0x2559770" typeEndToken="0x25598d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f860" nameToken="0x2559d20" typeStartToken="0x2559ae0" typeEndToken="0x2559c40" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f8d0" nameToken="0x255a0c0" typeStartToken="0x2559e80" typeEndToken="0x2559fe0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f940" nameToken="0x255a460" typeStartToken="0x255a220" typeEndToken="0x255a380" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255f9b0" nameToken="0x255a7d0" typeStartToken="0x255a5c0" typeEndToken="0x255a720" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fa20" nameToken="0x255aba0" typeStartToken="0x255a930" typeEndToken="0x255aac0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x255fa90" nameToken="0x255af70" typeStartToken="0x255ad00" typeEndToken="0x255ae90" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560120" nameToken="0x255b4f0" typeStartToken="0x255b440" typeEndToken="0x255b440" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2560190" nameToken="0x255b860" typeStartToken="0x255b650" typeEndToken="0x255b7b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x255fef0" nameToken="0x255c310" typeStartToken="0x255c260" typeEndToken="0x255c260" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2535e18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x253ccb8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x253f878">
+      <value tokvalue="0x253f870" known="true"/>
+    </values>
+    <values id="0x25434d8">
+      <value tokvalue="0x25434d0" known="true"/>
+    </values>
+    <values id="0x2543be8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x25459a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x25469a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2546cd8">
+      <value tokvalue="0x2546cd0" known="true"/>
+    </values>
+    <values id="0x2547648">
+      <value tokvalue="0x2547640" known="true"/>
+    </values>
+    <values id="0x2548a98">
+      <value tokvalue="0x2548a90" known="true"/>
+    </values>
+    <values id="0x254b358">
+      <value tokvalue="0x254b350" known="true"/>
+    </values>
+    <values id="0x254c0a8">
+      <value tokvalue="0x254c0a0" known="true"/>
+    </values>
+    <values id="0x254caf8">
+      <value tokvalue="0x254caf0" known="true"/>
+    </values>
+    <values id="0x254d0a8">
+      <value tokvalue="0x254d0a0" known="true"/>
+    </values>
+    <values id="0x254fbd8">
+      <value tokvalue="0x254fbd0" known="true"/>
+    </values>
+    <values id="0x2553b08">
+      <value tokvalue="0x2553b00" known="true"/>
+    </values>
+    <values id="0x2554b38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2554c98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2554df8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x255c028">
+      <value tokvalue="0x255c020" known="true"/>
+    </values>
+    <values id="0x255cf78">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

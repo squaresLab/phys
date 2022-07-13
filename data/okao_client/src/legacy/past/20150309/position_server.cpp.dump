@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x239c420" file="position_server.cpp" linenr="25" str="int" scope="0x23aa330" type="name"/>
+    <token id="0x23adde0" file="position_server.cpp" linenr="25" str="d_id" scope="0x23aa330" type="name" varId="1" variable="0x23cb080"/>
+    <token id="0x23ade90" file="position_server.cpp" linenr="25" str=";" scope="0x23aa330"/>
+    <token id="0x23b3560" file="position_server.cpp" linenr="25" str="d_id" scope="0x23aa330" type="name" varId="1" variable="0x23cb080" astParent="0x23b5920"/>
+    <token id="0x23b5920" file="position_server.cpp" linenr="25" str="=" scope="0x23aa330" type="op" isAssignmentOp="True" astOperand1="0x23b3560" astOperand2="0x23adf40"/>
+    <token id="0x23adf40" file="position_server.cpp" linenr="25" str="0" scope="0x23aa330" type="number" isInt="True" values="0x23adf48" astParent="0x23b5920"/>
+    <token id="0x23adff0" file="position_server.cpp" linenr="25" str=";" scope="0x23aa330"/>
+    <token id="0x23ae0a0" file="position_server.cpp" linenr="26" str="long" scope="0x23aa330" type="name"/>
+    <token id="0x23ae200" file="position_server.cpp" linenr="26" str="now_tracking_id" scope="0x23aa330" type="name" varId="2" variable="0x23cb0f0" astParent="0x23ae2b0"/>
+    <token id="0x23ae2b0" file="position_server.cpp" linenr="26" str="[" scope="0x23aa330" link="0x23ae410" astParent="0x23ae4c0" astOperand1="0x23ae200" astOperand2="0x23ae360"/>
+    <token id="0x23ae360" file="position_server.cpp" linenr="26" str="6" scope="0x23aa330" type="number" isInt="True" values="0x23ae368" astParent="0x23ae2b0"/>
+    <token id="0x23ae410" file="position_server.cpp" linenr="26" str="]" scope="0x23aa330" link="0x23ae2b0"/>
+    <token id="0x23ae4c0" file="position_server.cpp" linenr="26" str="=" scope="0x23aa330" type="op" isAssignmentOp="True" astOperand1="0x23ae2b0" astOperand2="0x23ae570"/>
+    <token id="0x23ae570" file="position_server.cpp" linenr="26" str="{" scope="0x23aa330" link="0x23ae6d0" astParent="0x23ae4c0" astOperand1="0x23ae620"/>
+    <token id="0x23ae620" file="position_server.cpp" linenr="26" str="0" scope="0x23aa330" type="number" isInt="True" values="0x23ae628" astParent="0x23ae570"/>
+    <token id="0x23ae6d0" file="position_server.cpp" linenr="26" str="}" scope="0x23aa330" link="0x23ae570"/>
+    <token id="0x23ae780" file="position_server.cpp" linenr="26" str=";" scope="0x23aa330"/>
+    <token id="0x23ae830" file="position_server.cpp" linenr="28" str="class" scope="0x23aa330" type="name"/>
+    <token id="0x23ae8e0" file="position_server.cpp" linenr="28" str="RecogInfo" scope="0x23aa330" type="name" type-scope="0x23ca2e0"/>
+    <token id="0x23ae990" file="position_server.cpp" linenr="29" str="{" scope="0x23ca2e0" link="0x23c7f20"/>
+    <token id="0x23aea40" file="position_server.cpp" linenr="30" str="private:" scope="0x23ca2e0" type="name"/>
+    <token id="0x23aeba0" file="position_server.cpp" linenr="31" str="ros" scope="0x23ca2e0" type="name" astParent="0x23aec50"/>
+    <token id="0x23aec50" file="position_server.cpp" linenr="31" str="::" scope="0x23ca2e0" astOperand1="0x23aeba0" astOperand2="0x23aedb0"/>
+    <token id="0x23aed00" file="position_server.cpp" linenr="31" str="NodeHandle" scope="0x23ca2e0" type="name"/>
+    <token id="0x23aedb0" file="position_server.cpp" linenr="31" str="nh" scope="0x23ca2e0" type="name" varId="3" variable="0x23cb160" astParent="0x23aec50"/>
+    <token id="0x23aee60" file="position_server.cpp" linenr="31" str=";" scope="0x23ca2e0"/>
+    <token id="0x23aef10" file="position_server.cpp" linenr="32" str="ros" scope="0x23ca2e0" type="name" astParent="0x23aefc0"/>
+    <token id="0x23aefc0" file="position_server.cpp" linenr="32" str="::" scope="0x23ca2e0" astOperand1="0x23aef10" astOperand2="0x23af120"/>
+    <token id="0x23af070" file="position_server.cpp" linenr="32" str="Publisher" scope="0x23ca2e0" type="name"/>
+    <token id="0x23af120" file="position_server.cpp" linenr="32" str="recog_pub_" scope="0x23ca2e0" type="name" varId="4" variable="0x23cb1d0" astParent="0x23aefc0"/>
+    <token id="0x23af1d0" file="position_server.cpp" linenr="32" str=";" scope="0x23ca2e0"/>
+    <token id="0x23af280" file="position_server.cpp" linenr="33" str="ros" scope="0x23ca2e0" type="name" astParent="0x23af330"/>
+    <token id="0x23af330" file="position_server.cpp" linenr="33" str="::" scope="0x23ca2e0" astOperand1="0x23af280" astOperand2="0x23af490"/>
+    <token id="0x23af3e0" file="position_server.cpp" linenr="33" str="Subscriber" scope="0x23ca2e0" type="name"/>
+    <token id="0x23af490" file="position_server.cpp" linenr="33" str="bind_sub_" scope="0x23ca2e0" type="name" varId="5" variable="0x23cb240" astParent="0x23af330"/>
+    <token id="0x23af540" file="position_server.cpp" linenr="33" str=";" scope="0x23ca2e0"/>
+    <token id="0x23c9c00" file="position_server.cpp" linenr="34" str="std" scope="0x23ca2e0" type="name" astParent="0x23c9cb0"/>
+    <token id="0x23c9cb0" file="position_server.cpp" linenr="34" str="::" scope="0x23ca2e0" astOperand1="0x23c9c00" astOperand2="0x23af5f0"/>
+    <token id="0x23af5f0" file="position_server.cpp" linenr="34" str="map" scope="0x23ca2e0" type="name" astParent="0x23c9cb0"/>
+    <token id="0x23af6a0" file="position_server.cpp" linenr="34" str="&lt;" scope="0x23ca2e0" link="0x23af960"/>
+    <token id="0x23af750" file="position_server.cpp" linenr="34" str="long" scope="0x23ca2e0" type="name"/>
+    <token id="0x23af800" file="position_server.cpp" linenr="34" str="," scope="0x23ca2e0"/>
+    <token id="0x23af8b0" file="position_server.cpp" linenr="34" str="int" scope="0x23ca2e0" type="name"/>
+    <token id="0x23af960" file="position_server.cpp" linenr="34" str="&gt;" scope="0x23ca2e0" link="0x23af6a0"/>
+    <token id="0x23afa10" file="position_server.cpp" linenr="34" str="tracking_id_buf" scope="0x23ca2e0" type="name" varId="6" variable="0x23cb2b0"/>
+    <token id="0x23afac0" file="position_server.cpp" linenr="34" str=";" scope="0x23ca2e0"/>
+    <token id="0x23c9e60" file="position_server.cpp" linenr="35" str="std" scope="0x23ca2e0" type="name" astParent="0x23c9f10"/>
+    <token id="0x23c9f10" file="position_server.cpp" linenr="35" str="::" scope="0x23ca2e0" astOperand1="0x23c9e60" astOperand2="0x23afb70"/>
+    <token id="0x23afb70" file="position_server.cpp" linenr="35" str="map" scope="0x23ca2e0" type="name" astParent="0x23c9f10"/>
+    <token id="0x23afc20" file="position_server.cpp" linenr="35" str="&lt;" scope="0x23ca2e0" link="0x23b0250"/>
+    <token id="0x23afcd0" file="position_server.cpp" linenr="35" str="int" scope="0x23ca2e0" type="name"/>
+    <token id="0x23afd80" file="position_server.cpp" linenr="35" str="," scope="0x23ca2e0"/>
+    <token id="0x23c9fc0" file="position_server.cpp" linenr="35" str="std" scope="0x23ca2e0" type="name"/>
+    <token id="0x23ca0c0" file="position_server.cpp" linenr="35" str="::" scope="0x23ca2e0"/>
+    <token id="0x23afe30" file="position_server.cpp" linenr="35" str="map" scope="0x23ca2e0" type="name"/>
+    <token id="0x23afee0" file="position_server.cpp" linenr="35" str="&lt;" scope="0x23ca2e0" link="0x23b01a0"/>
+    <token id="0x23aff90" file="position_server.cpp" linenr="35" str="int" scope="0x23ca2e0" type="name"/>
+    <token id="0x23b0040" file="position_server.cpp" linenr="35" str="," scope="0x23ca2e0"/>
+    <token id="0x23b00f0" file="position_server.cpp" linenr="35" str="int" scope="0x23ca2e0" type="name"/>
+    <token id="0x23b01a0" file="position_server.cpp" linenr="35" str="&gt;" scope="0x23ca2e0" link="0x23afee0"/>
+    <token id="0x23b0250" file="position_server.cpp" linenr="35" str="&gt;" scope="0x23ca2e0" link="0x23afc20"/>
+    <token id="0x23b0300" file="position_server.cpp" linenr="35" str="hist" scope="0x23ca2e0" type="name" varId="7" variable="0x23cb320"/>
+    <token id="0x23b03b0" file="position_server.cpp" linenr="35" str=";" scope="0x23ca2e0"/>
+    <token id="0x23b0460" file="position_server.cpp" linenr="37" str="public:" scope="0x23ca2e0" type="name"/>
+    <token id="0x23b05c0" file="position_server.cpp" linenr="38" str="RecogInfo" scope="0x23ca2e0" type="name" function="0x23bc500" astParent="0x23b0670"/>
+    <token id="0x23b0670" file="position_server.cpp" linenr="38" str="(" scope="0x23ca2e0" link="0x23b0720" astOperand1="0x23b05c0"/>
+    <token id="0x23b0720" file="position_server.cpp" linenr="38" str=")" scope="0x23ca2e0" link="0x23b0670"/>
+    <token id="0x23b07d0" file="position_server.cpp" linenr="39" str="{" scope="0x23c9a60" link="0x23b29b0"/>
+    <token id="0x23b0880" file="position_server.cpp" linenr="40" str="recog_pub_" scope="0x23c9a60" type="name" varId="4" variable="0x23cb1d0" astParent="0x23b0930"/>
+    <token id="0x23b0930" file="position_server.cpp" linenr="40" str="=" scope="0x23c9a60" type="op" isAssignmentOp="True" astOperand1="0x23b0880" astOperand2="0x23b0f60"/>
+    <token id="0x23b09e0" file="position_server.cpp" linenr="40" str="nh" scope="0x23c9a60" type="name" varId="3" variable="0x23cb160" astParent="0x23b0a90"/>
+    <token id="0x23b0a90" file="position_server.cpp" linenr="40" str="." scope="0x23c9a60" astParent="0x23b0f60" astOperand1="0x23b09e0" astOperand2="0x23b0b40"/>
+    <token id="0x23b0b40" file="position_server.cpp" linenr="40" str="advertise" scope="0x23c9a60" type="name" astParent="0x23b0a90"/>
+    <token id="0x23b0bf0" file="position_server.cpp" linenr="40" str="&lt;" scope="0x23c9a60" link="0x23b0eb0"/>
+    <token id="0x23b0ca0" file="position_server.cpp" linenr="40" str="humans_msgs" scope="0x23c9a60" type="name"/>
+    <token id="0x23b0d50" file="position_server.cpp" linenr="40" str="::" scope="0x23c9a60"/>
+    <token id="0x23b0e00" file="position_server.cpp" linenr="40" str="Humans" scope="0x23c9a60" type="name"/>
+    <token id="0x23b0eb0" file="position_server.cpp" linenr="40" str="&gt;" scope="0x23c9a60" link="0x23b0bf0"/>
+    <token id="0x23b0f60" file="position_server.cpp" linenr="40" str="(" scope="0x23c9a60" link="0x23b1bc0" astParent="0x23b0930" astOperand1="0x23b0a90" astOperand2="0x23b1a60"/>
+    <token id="0x23b1980" file="position_server.cpp" linenr="40" str="&quot;/humans/RecogInfo&quot;" scope="0x23c9a60" type="string" strlen="17" values="0x23b1988" astParent="0x23b1a60"/>
+    <token id="0x23b1a60" file="position_server.cpp" linenr="40" str="," scope="0x23c9a60" astParent="0x23b0f60" astOperand1="0x23b1980" astOperand2="0x23b1b10"/>
+    <token id="0x23b1b10" file="position_server.cpp" linenr="40" str="1" scope="0x23c9a60" type="number" isInt="True" values="0x23b1b18" astParent="0x23b1a60"/>
+    <token id="0x23b1bc0" file="position_server.cpp" linenr="40" str=")" scope="0x23c9a60" link="0x23b0f60"/>
+    <token id="0x23b1c70" file="position_server.cpp" linenr="40" str=";" scope="0x23c9a60"/>
+    <token id="0x23b1d20" file="position_server.cpp" linenr="41" str="bind_sub_" scope="0x23c9a60" type="name" varId="5" variable="0x23cb240" astParent="0x23b1dd0"/>
+    <token id="0x23b1dd0" file="position_server.cpp" linenr="41" str="=" scope="0x23c9a60" type="op" isAssignmentOp="True" astOperand1="0x23b1d20" astOperand2="0x23b2090"/>
+    <token id="0x23b1e80" file="position_server.cpp" linenr="41" str="nh" scope="0x23c9a60" type="name" varId="3" variable="0x23cb160" astParent="0x23b1f30"/>
+    <token id="0x23b1f30" file="position_server.cpp" linenr="41" str="." scope="0x23c9a60" astParent="0x23b2090" astOperand1="0x23b1e80" astOperand2="0x23b1fe0"/>
+    <token id="0x23b1fe0" file="position_server.cpp" linenr="41" str="subscribe" scope="0x23c9a60" type="name" astParent="0x23b1f30"/>
+    <token id="0x23b2090" file="position_server.cpp" linenr="41" str="(" scope="0x23c9a60" link="0x23b2850" astParent="0x23b1dd0" astOperand1="0x23b1f30" astOperand2="0x23b26f0"/>
+    <token id="0x23b2140" file="position_server.cpp" linenr="41" str="&quot;/humans/RecogInfo&quot;" scope="0x23c9a60" type="string" strlen="17" values="0x23b2148" astParent="0x23b2220"/>
+    <token id="0x23b2220" file="position_server.cpp" linenr="41" str="," scope="0x23c9a60" astParent="0x23b2380" astOperand1="0x23b2140" astOperand2="0x23b22d0"/>
+    <token id="0x23b22d0" file="position_server.cpp" linenr="41" str="1" scope="0x23c9a60" type="number" isInt="True" values="0x23b22d8" astParent="0x23b2220"/>
+    <token id="0x23b2380" file="position_server.cpp" linenr="41" str="," scope="0x23c9a60" astParent="0x23b26f0" astOperand1="0x23b2220" astOperand2="0x23b2430"/>
+    <token id="0x23b2430" file="position_server.cpp" linenr="41" str="&amp;" scope="0x23c9a60" type="op" astParent="0x23b2380" astOperand1="0x23b2590"/>
+    <token id="0x23b24e0" file="position_server.cpp" linenr="41" str="RecogInfo" scope="0x23c9a60" type="name" type-scope="0x23ca2e0" astParent="0x23b2590"/>
+    <token id="0x23b2590" file="position_server.cpp" linenr="41" str="::" scope="0x23c9a60" astParent="0x23b2430" astOperand1="0x23b24e0" astOperand2="0x23b2640"/>
+    <token id="0x23b2640" file="position_server.cpp" linenr="41" str="callback" scope="0x23c9a60" type="name" astParent="0x23b2590"/>
+    <token id="0x23b26f0" file="position_server.cpp" linenr="41" str="," scope="0x23c9a60" astParent="0x23b2090" astOperand1="0x23b2380" astOperand2="0x23b27a0"/>
+    <token id="0x23b27a0" file="position_server.cpp" linenr="41" str="this" scope="0x23c9a60" type="name" astParent="0x23b26f0"/>
+    <token id="0x23b2850" file="position_server.cpp" linenr="41" str=")" scope="0x23c9a60" link="0x23b2090"/>
+    <token id="0x23b2900" file="position_server.cpp" linenr="41" str=";" scope="0x23c9a60"/>
+    <token id="0x23b29b0" file="position_server.cpp" linenr="42" str="}" scope="0x23c9a60" link="0x23b07d0"/>
+    <token id="0x23b2a60" file="position_server.cpp" linenr="44" str="void" scope="0x23ca2e0" type="name"/>
+    <token id="0x23b2b10" file="position_server.cpp" linenr="44" str="callback" scope="0x23ca2e0" type="name" function="0x23bc3a0" astParent="0x23b2bc0"/>
+    <token id="0x23b2bc0" file="position_server.cpp" linenr="44" str="(" scope="0x23ca2e0" link="0x23b3090" astOperand1="0x23b2b10" astOperand2="0x23b2f30"/>
+    <token id="0x23b2c70" file="position_server.cpp" linenr="44" str="const" scope="0x23ca2e0" type="name"/>
+    <token id="0x23b2d20" file="position_server.cpp" linenr="44" str="humans_msgs" scope="0x23ca2e0" type="name" astParent="0x23b2dd0"/>
+    <token id="0x23b2dd0" file="position_server.cpp" linenr="44" str="::" scope="0x23ca2e0" astParent="0x23b2f30" astOperand1="0x23b2d20" astOperand2="0x23b2e80"/>
+    <token id="0x23b2e80" file="position_server.cpp" linenr="44" str="HumansConstPtr" scope="0x23ca2e0" type="name" astParent="0x23b2dd0"/>
+    <token id="0x23b2f30" file="position_server.cpp" linenr="44" str="&amp;" scope="0x23ca2e0" type="op" astParent="0x23b2bc0" astOperand1="0x23b2dd0" astOperand2="0x23b2fe0"/>
+    <token id="0x23b2fe0" file="position_server.cpp" linenr="44" str="bind" scope="0x23ca2e0" type="name" varId="8" variable="0x23c9b90" astParent="0x23b2f30"/>
+    <token id="0x23b3090" file="position_server.cpp" linenr="44" str=")" scope="0x23ca2e0" link="0x23b2bc0"/>
+    <token id="0x23b3140" file="position_server.cpp" linenr="45" str="{" scope="0x23ca4c0" link="0x23c7e70"/>
+    <token id="0x23b31f0" file="position_server.cpp" linenr="47" str="int" scope="0x23ca4c0" type="name"/>
+    <token id="0x23b32a0" file="position_server.cpp" linenr="47" str="p_num" scope="0x23ca4c0" type="name" varId="9" variable="0x23cb390"/>
+    <token id="0x23b3350" file="position_server.cpp" linenr="47" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b7240" file="position_server.cpp" linenr="47" str="p_num" scope="0x23ca4c0" type="name" varId="9" variable="0x23cb390" astParent="0x23b7ab0"/>
+    <token id="0x23b7ab0" file="position_server.cpp" linenr="47" str="=" scope="0x23ca4c0" type="op" isAssignmentOp="True" astOperand1="0x23b7240" astOperand2="0x23b34b0"/>
+    <token id="0x23b3400" file="position_server.cpp" linenr="47" str="bind" scope="0x23ca4c0" type="name" varId="8" variable="0x23c9b90" astParent="0x23b34b0"/>
+    <token id="0x23b34b0" file="position_server.cpp" linenr="47" str="." scope="0x23ca4c0" astParent="0x23b7ab0" astOperand1="0x23b3400" astOperand2="0x23b3610"/>
+    <token id="0x23b3610" file="position_server.cpp" linenr="47" str="num" scope="0x23ca4c0" type="name" varId="10" astParent="0x23b34b0"/>
+    <token id="0x23b36c0" file="position_server.cpp" linenr="47" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b3770" file="position_server.cpp" linenr="48" str="int" scope="0x23ca4c0" type="name"/>
+    <token id="0x23b3820" file="position_server.cpp" linenr="48" str="maxOkaoId" scope="0x23ca4c0" type="name" varId="11" variable="0x23cb400"/>
+    <token id="0x23b38d0" file="position_server.cpp" linenr="48" str=";" scope="0x23ca4c0"/>
+    <token id="0x23ba760" file="position_server.cpp" linenr="48" str="maxOkaoId" scope="0x23ca4c0" type="name" varId="11" variable="0x23cb400" astParent="0x23bb680"/>
+    <token id="0x23bb680" file="position_server.cpp" linenr="48" str="=" scope="0x23ca4c0" type="op" isAssignmentOp="True" astOperand1="0x23ba760" astOperand2="0x23b3980"/>
+    <token id="0x23b3980" file="position_server.cpp" linenr="48" str="0" scope="0x23ca4c0" type="number" isInt="True" values="0x23b3988" astParent="0x23bb680"/>
+    <token id="0x23b3a30" file="position_server.cpp" linenr="48" str=";" scope="0x23ca4c0"/>
+    <token id="0x23bdfa0" file="position_server.cpp" linenr="48" str="int" scope="0x23ca4c0" type="name"/>
+    <token id="0x23b3ae0" file="position_server.cpp" linenr="48" str="maxHist" scope="0x23ca4c0" type="name" varId="12" variable="0x23cb470"/>
+    <token id="0x23b3b90" file="position_server.cpp" linenr="48" str=";" scope="0x23ca4c0"/>
+    <token id="0x23be680" file="position_server.cpp" linenr="48" str="maxHist" scope="0x23ca4c0" type="name" varId="12" variable="0x23cb470" astParent="0x23bf9c0"/>
+    <token id="0x23bf9c0" file="position_server.cpp" linenr="48" str="=" scope="0x23ca4c0" type="op" isAssignmentOp="True" astOperand1="0x23be680" astOperand2="0x23b3c40"/>
+    <token id="0x23b3c40" file="position_server.cpp" linenr="48" str="0" scope="0x23ca4c0" type="number" isInt="True" values="0x23b3c48" astParent="0x23bf9c0"/>
+    <token id="0x23b3cf0" file="position_server.cpp" linenr="48" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b3da0" file="position_server.cpp" linenr="50" str="humans_msgs" scope="0x23ca4c0" type="name" astParent="0x23b3e50"/>
+    <token id="0x23b3e50" file="position_server.cpp" linenr="50" str="::" scope="0x23ca4c0" astOperand1="0x23b3da0" astOperand2="0x23b3fb0"/>
+    <token id="0x23b3f00" file="position_server.cpp" linenr="50" str="Humans" scope="0x23ca4c0" type="name"/>
+    <token id="0x23b3fb0" file="position_server.cpp" linenr="50" str="recog" scope="0x23ca4c0" type="name" varId="13" variable="0x23cb510" astParent="0x23b3e50"/>
+    <token id="0x23b4060" file="position_server.cpp" linenr="50" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b4110" file="position_server.cpp" linenr="51" str="recog" scope="0x23ca4c0" type="name" varId="13" variable="0x23cb510" astParent="0x23b41c0"/>
+    <token id="0x23b41c0" file="position_server.cpp" linenr="51" str="." scope="0x23ca4c0" astParent="0x23b4320" astOperand1="0x23b4110" astOperand2="0x23b4270"/>
+    <token id="0x23b4270" file="position_server.cpp" linenr="51" str="human" scope="0x23ca4c0" type="name" varId="14" astParent="0x23b41c0"/>
+    <token id="0x23b4320" file="position_server.cpp" linenr="51" str="." scope="0x23ca4c0" astParent="0x23b4480" astOperand1="0x23b41c0" astOperand2="0x23b43d0"/>
+    <token id="0x23b43d0" file="position_server.cpp" linenr="51" str="resize" scope="0x23ca4c0" type="name" astParent="0x23b4320"/>
+    <token id="0x23b4480" file="position_server.cpp" linenr="51" str="(" scope="0x23ca4c0" link="0x23b45e0" astOperand1="0x23b4320" astOperand2="0x23b4530"/>
+    <token id="0x23b4530" file="position_server.cpp" linenr="51" str="p_num" scope="0x23ca4c0" type="name" varId="9" variable="0x23cb390" astParent="0x23b4480"/>
+    <token id="0x23b45e0" file="position_server.cpp" linenr="51" str=")" scope="0x23ca4c0" link="0x23b4480"/>
+    <token id="0x23b4690" file="position_server.cpp" linenr="51" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b4740" file="position_server.cpp" linenr="52" str="recog" scope="0x23ca4c0" type="name" varId="13" variable="0x23cb510" astParent="0x23b47f0"/>
+    <token id="0x23b47f0" file="position_server.cpp" linenr="52" str="." scope="0x23ca4c0" astParent="0x23b4950" astOperand1="0x23b4740" astOperand2="0x23b48a0"/>
+    <token id="0x23b48a0" file="position_server.cpp" linenr="52" str="num" scope="0x23ca4c0" type="name" varId="15" astParent="0x23b47f0"/>
+    <token id="0x23b4950" file="position_server.cpp" linenr="52" str="=" scope="0x23ca4c0" type="op" isAssignmentOp="True" astOperand1="0x23b47f0" astOperand2="0x23b4a00"/>
+    <token id="0x23b4a00" file="position_server.cpp" linenr="52" str="p_num" scope="0x23ca4c0" type="name" varId="9" variable="0x23cb390" astParent="0x23b4950"/>
+    <token id="0x23b4ab0" file="position_server.cpp" linenr="52" str=";" scope="0x23ca4c0"/>
+    <token id="0x23b4b60" file="position_server.cpp" linenr="54" str="for" scope="0x23ca4c0" type="name" astParent="0x23b4c10"/>
+    <token id="0x23b4c10" file="position_server.cpp" linenr="54" str="(" scope="0x23ca4c0" link="0x23b5450" astOperand1="0x23b4b60" astOperand2="0x23b4f80"/>
+    <token id="0x23b4cc0" file="position_server.cpp" linenr="54" str="int" scope="0x23ca4c0" type="name"/>
+    <token id="0x23b4d70" file="position_server.cpp" linenr="54" str="p_i" scope="0x23ca4c0" type="name" varId="16" variable="0x23ca740" astParent="0x23b4e20"/>
+    <token id="0x23b4e20" file="position_server.cpp" linenr="54" str="=" scope="0x23ca4c0" type="op" isAssignmentOp="True" astParent="0x23b4f80" astOperand1="0x23b4d70" astOperand2="0x23b4ed0"/>
+    <token id="0x23b4ed0" file="position_server.cpp" linenr="54" str="0" scope="0x23ca4c0" type="number" isInt="True" values="0x23b4ed8" astParent="0x23b4e20"/>
+    <token id="0x23b4f80" file="position_server.cpp" linenr="54" str=";" scope="0x23ca4c0" astParent="0x23b4c10" astOperand1="0x23b4e20" astOperand2="0x23b5240"/>
+    <token id="0x23b5030" file="position_server.cpp" linenr="54" str="p_i" scope="0x23ca4c0" type="name" varId="16" variable="0x23ca740" astParent="0x23b50e0"/>
+    <token id="0x23b50e0" file="position_server.cpp" linenr="54" str="&lt;" scope="0x23ca4c0" type="op" isComparisonOp="True" astParent="0x23b5240" astOperand1="0x23b5030" astOperand2="0x23b5190"/>
+    <token id="0x23b5190" file="position_server.cpp" linenr="54" str="p_num" scope="0x23ca4c0" type="name" varId="9" variable="0x23cb390" astParent="0x23b50e0"/>
+    <token id="0x23b5240" file="position_server.cpp" linenr="54" str=";" scope="0x23ca4c0" astParent="0x23b4f80" astOperand1="0x23b50e0" astOperand2="0x23b52f0"/>
+    <token id="0x23b52f0" file="position_server.cpp" linenr="54" str="++" scope="0x23ca4c0" type="op" astParent="0x23b5240" astOperand1="0x23b53a0"/>
+    <token id="0x23b53a0" file="position_server.cpp" linenr="54" str="p_i" scope="0x23ca4c0" type="name" varId="16" variable="0x23ca740" astParent="0x23b52f0"/>
+    <token id="0x23b5450" file="position_server.cpp" linenr="54" str=")" scope="0x23ca4c0" link="0x23b4c10"/>
+    <token id="0x23b5500" file="position_server.cpp" linenr="55" str="{" scope="0x23ca5f0" link="0x23c78f0"/>
+    <token id="0x23b55b0" file="position_server.cpp" linenr="56" str="long" scope="0x23ca5f0" type="name"/>
+    <token id="0x23b5660" file="position_server.cpp" linenr="56" str="tracking_id" scope="0x23ca5f0" type="name" varId="17" variable="0x23cb580"/>
+    <token id="0x23b5710" file="position_server.cpp" linenr="56" str=";" scope="0x23ca5f0"/>
+    <token id="0x23c0990" file="position_server.cpp" linenr="56" str="tracking_id" scope="0x23ca5f0" type="name" varId="17" variable="0x23cb580" astParent="0x23c1960"/>
+    <token id="0x23c1960" file="position_server.cpp" linenr="56" str="=" scope="0x23ca5f0" type="op" isAssignmentOp="True" astOperand1="0x23c0990" astOperand2="0x23b5df0"/>
+    <token id="0x23b57c0" file="position_server.cpp" linenr="56" str="bind" scope="0x23ca5f0" type="name" varId="8" variable="0x23c9b90" astParent="0x23b5870"/>
+    <token id="0x23b5870" file="position_server.cpp" linenr="56" str="." scope="0x23ca5f0" astParent="0x23b5a80" astOperand1="0x23b57c0" astOperand2="0x23b59d0"/>
+    <token id="0x23b59d0" file="position_server.cpp" linenr="56" str="human" scope="0x23ca5f0" type="name" varId="18" astParent="0x23b5870"/>
+    <token id="0x23b5a80" file="position_server.cpp" linenr="56" str="[" scope="0x23ca5f0" link="0x23b5be0" astParent="0x23b5c90" astOperand1="0x23b5870" astOperand2="0x23b5b30"/>
+    <token id="0x23b5b30" file="position_server.cpp" linenr="56" str="p_i" scope="0x23ca5f0" type="name" varId="16" variable="0x23ca740" values="0x23b5b38" astParent="0x23b5a80"/>
+    <token id="0x23b5be0" file="position_server.cpp" linenr="56" str="]" scope="0x23ca5f0" link="0x23b5a80"/>
+    <token id="0x23b5c90" file="position_server.cpp" linenr="56" str="." scope="0x23ca5f0" astParent="0x23b5df0" astOperand1="0x23b5a80" astOperand2="0x23b5d40"/>
+    <token id="0x23b5d40" file="position_server.cpp" linenr="56" str="body" scope="0x23ca5f0" type="name" astParent="0x23b5c90"/>
+    <token id="0x23b5df0" file="position_server.cpp" linenr="56" str="." scope="0x23ca5f0" astParent="0x23c1960" astOperand1="0x23b5c90" astOperand2="0x23b5ea0"/>
+    <token id="0x23b5ea0" file="position_server.cpp" linenr="56" str="tracking_id" scope="0x23ca5f0" type="name" astParent="0x23b5df0"/>
+    <token id="0x23b5f50" file="position_server.cpp" linenr="56" str=";" scope="0x23ca5f0"/>
+    <token id="0x23b6000" file="position_server.cpp" linenr="57" str="if" scope="0x23ca5f0" type="name" astParent="0x23b60b0"/>
+    <token id="0x23b60b0" file="position_server.cpp" linenr="57" str="(" scope="0x23ca5f0" link="0x23b6210" astOperand1="0x23b6000" astOperand2="0x23b6160"/>
+    <token id="0x23b6160" file="position_server.cpp" linenr="57" str="tracking_id" scope="0x23ca5f0" type="name" varId="17" variable="0x23cb580" astParent="0x23b60b0"/>
+    <token id="0x23b6210" file="position_server.cpp" linenr="57" str=")" scope="0x23ca5f0" link="0x23b60b0"/>
+    <token id="0x23b62c0" file="position_server.cpp" linenr="58" str="{" scope="0x23ca7b0" link="0x23c7840"/>
+    <token id="0x23ca170" file="position_server.cpp" linenr="59" str="std" scope="0x23ca7b0" type="name" astParent="0x23ca220"/>
+    <token id="0x23ca220" file="position_server.cpp" linenr="59" str="::" scope="0x23ca7b0" astParent="0x23b6790" astOperand1="0x23ca170" astOperand2="0x23b6370"/>
+    <token id="0x23b6370" file="position_server.cpp" linenr="59" str="map" scope="0x23ca7b0" type="name" astParent="0x23ca220"/>
+    <token id="0x23b6420" file="position_server.cpp" linenr="59" str="&lt;" scope="0x23ca7b0" link="0x23b66e0"/>
+    <token id="0x23b64d0" file="position_server.cpp" linenr="59" str="long" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b6580" file="position_server.cpp" linenr="59" str="," scope="0x23ca7b0"/>
+    <token id="0x23b6630" file="position_server.cpp" linenr="59" str="int" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b66e0" file="position_server.cpp" linenr="59" str="&gt;" scope="0x23ca7b0" link="0x23b6420"/>
+    <token id="0x23b6790" file="position_server.cpp" linenr="59" str="::" scope="0x23ca7b0" astOperand1="0x23ca220" astOperand2="0x23b68f0"/>
+    <token id="0x23b6840" file="position_server.cpp" linenr="59" str="iterator" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b68f0" file="position_server.cpp" linenr="59" str="tracking_id_find" scope="0x23ca7b0" type="name" varId="19" variable="0x23cb5f0" astParent="0x23b6790"/>
+    <token id="0x23b69d0" file="position_server.cpp" linenr="59" str=";" scope="0x23ca7b0"/>
+    <token id="0x23aa770" file="position_server.cpp" linenr="59" str="tracking_id_find" scope="0x23ca7b0" type="name" varId="19" variable="0x23cb5f0" astParent="0x23aa820"/>
+    <token id="0x23aa820" file="position_server.cpp" linenr="59" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23aa770" astOperand2="0x23b6c90"/>
+    <token id="0x23b6a80" file="position_server.cpp" linenr="59" str="tracking_id_buf" scope="0x23ca7b0" type="name" varId="6" variable="0x23cb2b0" astParent="0x23b6b30"/>
+    <token id="0x23b6b30" file="position_server.cpp" linenr="59" str="." scope="0x23ca7b0" astParent="0x23b6c90" astOperand1="0x23b6a80" astOperand2="0x23b6be0"/>
+    <token id="0x23b6be0" file="position_server.cpp" linenr="59" str="find" scope="0x23ca7b0" type="name" astParent="0x23b6b30"/>
+    <token id="0x23b6c90" file="position_server.cpp" linenr="59" str="(" scope="0x23ca7b0" link="0x23b6df0" astParent="0x23aa820" astOperand1="0x23b6b30" astOperand2="0x23b6d40"/>
+    <token id="0x23b6d40" file="position_server.cpp" linenr="59" str="tracking_id" scope="0x23ca7b0" type="name" varId="17" variable="0x23cb580" astParent="0x23b6c90"/>
+    <token id="0x23b6df0" file="position_server.cpp" linenr="59" str=")" scope="0x23ca7b0" link="0x23b6c90"/>
+    <token id="0x23b6ea0" file="position_server.cpp" linenr="59" str=";" scope="0x23ca7b0"/>
+    <token id="0x23b6f50" file="position_server.cpp" linenr="60" str="if" scope="0x23ca7b0" type="name" astParent="0x23b7000"/>
+    <token id="0x23b7000" file="position_server.cpp" linenr="60" str="(" scope="0x23ca7b0" link="0x23b7660" astOperand1="0x23b6f50" astOperand2="0x23b7190"/>
+    <token id="0x23b70b0" file="position_server.cpp" linenr="60" str="tracking_id_find" scope="0x23ca7b0" type="name" varId="19" variable="0x23cb5f0" astParent="0x23b7190"/>
+    <token id="0x23b7190" file="position_server.cpp" linenr="60" str="!=" scope="0x23ca7b0" type="op" isComparisonOp="True" astParent="0x23b7000" astOperand1="0x23b70b0" astOperand2="0x23b7500"/>
+    <token id="0x23b72f0" file="position_server.cpp" linenr="60" str="tracking_id_buf" scope="0x23ca7b0" type="name" varId="6" variable="0x23cb2b0" astParent="0x23b73a0"/>
+    <token id="0x23b73a0" file="position_server.cpp" linenr="60" str="." scope="0x23ca7b0" astParent="0x23b7500" astOperand1="0x23b72f0" astOperand2="0x23b7450"/>
+    <token id="0x23b7450" file="position_server.cpp" linenr="60" str="end" scope="0x23ca7b0" type="name" astParent="0x23b73a0"/>
+    <token id="0x23b7500" file="position_server.cpp" linenr="60" str="(" scope="0x23ca7b0" link="0x23b75b0" astParent="0x23b7190" astOperand1="0x23b73a0"/>
+    <token id="0x23b75b0" file="position_server.cpp" linenr="60" str=")" scope="0x23ca7b0" link="0x23b7500"/>
+    <token id="0x23b7660" file="position_server.cpp" linenr="60" str=")" scope="0x23ca7b0" link="0x23b7000"/>
+    <token id="0x23b7710" file="position_server.cpp" linenr="61" str="{" scope="0x23ca900" link="0x23b7cc0"/>
+    <token id="0x23b77c0" file="position_server.cpp" linenr="63" str="d_id" scope="0x23ca900" type="name" varId="1" variable="0x23cb080" astParent="0x23b7870"/>
+    <token id="0x23b7870" file="position_server.cpp" linenr="63" str="=" scope="0x23ca900" type="op" isAssignmentOp="True" astOperand1="0x23b77c0" astOperand2="0x23b7a00"/>
+    <token id="0x23b7920" file="position_server.cpp" linenr="63" str="tracking_id_find" scope="0x23ca900" type="name" varId="19" variable="0x23cb5f0" astParent="0x23b7a00"/>
+    <token id="0x23b7a00" file="position_server.cpp" linenr="63" str="." scope="0x23ca900" astParent="0x23b7870" astOperand1="0x23b7920" astOperand2="0x23b7b60"/>
+    <token id="0x23b7b60" file="position_server.cpp" linenr="63" str="second" scope="0x23ca900" type="name" varId="20" astParent="0x23b7a00"/>
+    <token id="0x23b7c10" file="position_server.cpp" linenr="63" str=";" scope="0x23ca900"/>
+    <token id="0x23b7cc0" file="position_server.cpp" linenr="64" str="}" scope="0x23ca900" link="0x23b7710"/>
+    <token id="0x23b7d70" file="position_server.cpp" linenr="65" str="else" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b7e20" file="position_server.cpp" linenr="66" str="{" scope="0x23cab80" link="0x23b85b0"/>
+    <token id="0x23b7ed0" file="position_server.cpp" linenr="67" str="++" scope="0x23cab80" type="op" astOperand1="0x23b7f80"/>
+    <token id="0x23b7f80" file="position_server.cpp" linenr="67" str="d_id" scope="0x23cab80" type="name" varId="1" variable="0x23cb080" astParent="0x23b7ed0"/>
+    <token id="0x23b8030" file="position_server.cpp" linenr="67" str=";" scope="0x23cab80"/>
+    <token id="0x23b80e0" file="position_server.cpp" linenr="68" str="tracking_id_buf" scope="0x23cab80" type="name" varId="6" variable="0x23cb2b0" astParent="0x23b8190"/>
+    <token id="0x23b8190" file="position_server.cpp" linenr="68" str="[" scope="0x23cab80" link="0x23b82f0" astParent="0x23b83a0" astOperand1="0x23b80e0" astOperand2="0x23b8240"/>
+    <token id="0x23b8240" file="position_server.cpp" linenr="68" str="tracking_id" scope="0x23cab80" type="name" varId="17" variable="0x23cb580" astParent="0x23b8190"/>
+    <token id="0x23b82f0" file="position_server.cpp" linenr="68" str="]" scope="0x23cab80" link="0x23b8190"/>
+    <token id="0x23b83a0" file="position_server.cpp" linenr="68" str="=" scope="0x23cab80" type="op" isAssignmentOp="True" astOperand1="0x23b8190" astOperand2="0x23b8450"/>
+    <token id="0x23b8450" file="position_server.cpp" linenr="68" str="d_id" scope="0x23cab80" type="name" varId="1" variable="0x23cb080" astParent="0x23b83a0"/>
+    <token id="0x23b8500" file="position_server.cpp" linenr="68" str=";" scope="0x23cab80"/>
+    <token id="0x23b85b0" file="position_server.cpp" linenr="69" str="}" scope="0x23cab80" link="0x23b7e20"/>
+    <token id="0x23b8660" file="position_server.cpp" linenr="71" str="now_tracking_id" scope="0x23ca7b0" type="name" varId="2" variable="0x23cb0f0" astParent="0x23b8710"/>
+    <token id="0x23b8710" file="position_server.cpp" linenr="71" str="[" scope="0x23ca7b0" link="0x23b8870" astParent="0x23b8920" astOperand1="0x23b8660" astOperand2="0x23b87c0"/>
+    <token id="0x23b87c0" file="position_server.cpp" linenr="71" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23b87c8" astParent="0x23b8710"/>
+    <token id="0x23b8870" file="position_server.cpp" linenr="71" str="]" scope="0x23ca7b0" link="0x23b8710"/>
+    <token id="0x23b8920" file="position_server.cpp" linenr="71" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23b8710" astOperand2="0x23b89d0"/>
+    <token id="0x23b89d0" file="position_server.cpp" linenr="71" str="tracking_id" scope="0x23ca7b0" type="name" varId="17" variable="0x23cb580" astParent="0x23b8920"/>
+    <token id="0x23b8a80" file="position_server.cpp" linenr="71" str=";" scope="0x23ca7b0"/>
+    <token id="0x23b8b30" file="position_server.cpp" linenr="73" str="int" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b8be0" file="position_server.cpp" linenr="73" str="o_id" scope="0x23ca7b0" type="name" varId="21" variable="0x23cb660" astParent="0x23b8c90"/>
+    <token id="0x23b8c90" file="position_server.cpp" linenr="73" str="[" scope="0x23ca7b0" link="0x23b8df0" astParent="0x23b8ea0" astOperand1="0x23b8be0" astOperand2="0x23b8d40"/>
+    <token id="0x23b8d40" file="position_server.cpp" linenr="73" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23b8d48" astParent="0x23b8c90"/>
+    <token id="0x23b8df0" file="position_server.cpp" linenr="73" str="]" scope="0x23ca7b0" link="0x23b8c90"/>
+    <token id="0x23b8ea0" file="position_server.cpp" linenr="73" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23b8c90" astOperand2="0x23b8f50"/>
+    <token id="0x23b8f50" file="position_server.cpp" linenr="73" str="{" scope="0x23ca7b0" link="0x23b90b0" astParent="0x23b8ea0" astOperand1="0x23b9000"/>
+    <token id="0x23b9000" file="position_server.cpp" linenr="73" str="0" scope="0x23ca7b0" type="number" isInt="True" values="0x23b9008" astParent="0x23b8f50"/>
+    <token id="0x23b90b0" file="position_server.cpp" linenr="73" str="}" scope="0x23ca7b0" link="0x23b8f50"/>
+    <token id="0x23b9160" file="position_server.cpp" linenr="73" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c99a0" file="position_server.cpp" linenr="73" str="int" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b9210" file="position_server.cpp" linenr="73" str="o_conf" scope="0x23ca7b0" type="name" varId="22" variable="0x23cb700" astParent="0x23b92c0"/>
+    <token id="0x23b92c0" file="position_server.cpp" linenr="73" str="[" scope="0x23ca7b0" link="0x23b9420" astParent="0x23b94d0" astOperand1="0x23b9210" astOperand2="0x23b9370"/>
+    <token id="0x23b9370" file="position_server.cpp" linenr="73" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23b9378" astParent="0x23b92c0"/>
+    <token id="0x23b9420" file="position_server.cpp" linenr="73" str="]" scope="0x23ca7b0" link="0x23b92c0"/>
+    <token id="0x23b94d0" file="position_server.cpp" linenr="73" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23b92c0" astOperand2="0x23b9580"/>
+    <token id="0x23b9580" file="position_server.cpp" linenr="73" str="{" scope="0x23ca7b0" link="0x23b96e0" astParent="0x23b94d0" astOperand1="0x23b9630"/>
+    <token id="0x23b9630" file="position_server.cpp" linenr="73" str="0" scope="0x23ca7b0" type="number" isInt="True" values="0x23b9638" astParent="0x23b9580"/>
+    <token id="0x23b96e0" file="position_server.cpp" linenr="73" str="}" scope="0x23ca7b0" link="0x23b9580"/>
+    <token id="0x23b9790" file="position_server.cpp" linenr="73" str=";" scope="0x23ca7b0"/>
+    <token id="0x23b9840" file="position_server.cpp" linenr="74" str="for" scope="0x23ca7b0" type="name" astParent="0x23b98f0"/>
+    <token id="0x23b98f0" file="position_server.cpp" linenr="74" str="(" scope="0x23ca7b0" link="0x23ba130" astOperand1="0x23b9840" astOperand2="0x23b9c60"/>
+    <token id="0x23b99a0" file="position_server.cpp" linenr="74" str="int" scope="0x23ca7b0" type="name"/>
+    <token id="0x23b9a50" file="position_server.cpp" linenr="74" str="i" scope="0x23ca7b0" type="name" varId="23" variable="0x23cae20" astParent="0x23b9b00"/>
+    <token id="0x23b9b00" file="position_server.cpp" linenr="74" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astParent="0x23b9c60" astOperand1="0x23b9a50" astOperand2="0x23b9bb0"/>
+    <token id="0x23b9bb0" file="position_server.cpp" linenr="74" str="0" scope="0x23ca7b0" type="number" isInt="True" values="0x23b9bb8" astParent="0x23b9b00"/>
+    <token id="0x23b9c60" file="position_server.cpp" linenr="74" str=";" scope="0x23ca7b0" astParent="0x23b98f0" astOperand1="0x23b9b00" astOperand2="0x23b9f20"/>
+    <token id="0x23b9d10" file="position_server.cpp" linenr="74" str="i" scope="0x23ca7b0" type="name" varId="23" variable="0x23cae20" astParent="0x23b9dc0"/>
+    <token id="0x23b9dc0" file="position_server.cpp" linenr="74" str="&lt;" scope="0x23ca7b0" type="op" isComparisonOp="True" astParent="0x23b9f20" astOperand1="0x23b9d10" astOperand2="0x23b9e70"/>
+    <token id="0x23b9e70" file="position_server.cpp" linenr="74" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23b9e78" astParent="0x23b9dc0"/>
+    <token id="0x23b9f20" file="position_server.cpp" linenr="74" str=";" scope="0x23ca7b0" astParent="0x23b9c60" astOperand1="0x23b9dc0" astOperand2="0x23b9fd0"/>
+    <token id="0x23b9fd0" file="position_server.cpp" linenr="74" str="++" scope="0x23ca7b0" type="op" astParent="0x23b9f20" astOperand1="0x23ba080"/>
+    <token id="0x23ba080" file="position_server.cpp" linenr="74" str="i" scope="0x23ca7b0" type="name" varId="23" variable="0x23cae20" astParent="0x23b9fd0"/>
+    <token id="0x23ba130" file="position_server.cpp" linenr="74" str=")" scope="0x23ca7b0" link="0x23b98f0"/>
+    <token id="0x23ba1e0" file="position_server.cpp" linenr="75" str="{" scope="0x23cacd0" link="0x23bc0d0"/>
+    <token id="0x23ba290" file="position_server.cpp" linenr="76" str="o_id" scope="0x23cacd0" type="name" varId="21" variable="0x23cb660" astParent="0x23ba340"/>
+    <token id="0x23ba340" file="position_server.cpp" linenr="76" str="[" scope="0x23cacd0" link="0x23ba4a0" astParent="0x23ba550" astOperand1="0x23ba290" astOperand2="0x23ba3f0"/>
+    <token id="0x23ba3f0" file="position_server.cpp" linenr="76" str="i" scope="0x23cacd0" type="name" varId="23" variable="0x23cae20" values="0x23ba3f8" astParent="0x23ba340"/>
+    <token id="0x23ba4a0" file="position_server.cpp" linenr="76" str="]" scope="0x23cacd0" link="0x23ba340"/>
+    <token id="0x23ba550" file="position_server.cpp" linenr="76" str="=" scope="0x23cacd0" type="op" isAssignmentOp="True" astOperand1="0x23ba340" astOperand2="0x23bafa0"/>
+    <token id="0x23ba600" file="position_server.cpp" linenr="76" str="bind" scope="0x23cacd0" type="name" varId="8" variable="0x23c9b90" astParent="0x23ba6b0"/>
+    <token id="0x23ba6b0" file="position_server.cpp" linenr="76" str="." scope="0x23cacd0" astParent="0x23ba8c0" astOperand1="0x23ba600" astOperand2="0x23ba810"/>
+    <token id="0x23ba810" file="position_server.cpp" linenr="76" str="human" scope="0x23cacd0" type="name" varId="18" astParent="0x23ba6b0"/>
+    <token id="0x23ba8c0" file="position_server.cpp" linenr="76" str="[" scope="0x23cacd0" link="0x23baa20" astParent="0x23baad0" astOperand1="0x23ba6b0" astOperand2="0x23ba970"/>
+    <token id="0x23ba970" file="position_server.cpp" linenr="76" str="p_i" scope="0x23cacd0" type="name" varId="16" variable="0x23ca740" values="0x23ba978" astParent="0x23ba8c0"/>
+    <token id="0x23baa20" file="position_server.cpp" linenr="76" str="]" scope="0x23cacd0" link="0x23ba8c0"/>
+    <token id="0x23baad0" file="position_server.cpp" linenr="76" str="." scope="0x23cacd0" astParent="0x23bac30" astOperand1="0x23ba8c0" astOperand2="0x23bab80"/>
+    <token id="0x23bab80" file="position_server.cpp" linenr="76" str="face" scope="0x23cacd0" type="name" astParent="0x23baad0"/>
+    <token id="0x23bac30" file="position_server.cpp" linenr="76" str="." scope="0x23cacd0" astParent="0x23bad90" astOperand1="0x23baad0" astOperand2="0x23bace0"/>
+    <token id="0x23bace0" file="position_server.cpp" linenr="76" str="persons" scope="0x23cacd0" type="name" astParent="0x23bac30"/>
+    <token id="0x23bad90" file="position_server.cpp" linenr="76" str="[" scope="0x23cacd0" link="0x23baef0" astParent="0x23bafa0" astOperand1="0x23bac30" astOperand2="0x23bae40"/>
+    <token id="0x23bae40" file="position_server.cpp" linenr="76" str="i" scope="0x23cacd0" type="name" varId="23" variable="0x23cae20" values="0x23bae48" astParent="0x23bad90"/>
+    <token id="0x23baef0" file="position_server.cpp" linenr="76" str="]" scope="0x23cacd0" link="0x23bad90"/>
+    <token id="0x23bafa0" file="position_server.cpp" linenr="76" str="." scope="0x23cacd0" astParent="0x23ba550" astOperand1="0x23bad90" astOperand2="0x23bb050"/>
+    <token id="0x23bb050" file="position_server.cpp" linenr="76" str="okao_id" scope="0x23cacd0" type="name" astParent="0x23bafa0"/>
+    <token id="0x23bb100" file="position_server.cpp" linenr="76" str=";" scope="0x23cacd0"/>
+    <token id="0x23bb1b0" file="position_server.cpp" linenr="77" str="o_conf" scope="0x23cacd0" type="name" varId="22" variable="0x23cb700" astParent="0x23bb260"/>
+    <token id="0x23bb260" file="position_server.cpp" linenr="77" str="[" scope="0x23cacd0" link="0x23bb3c0" astParent="0x23bb470" astOperand1="0x23bb1b0" astOperand2="0x23bb310"/>
+    <token id="0x23bb310" file="position_server.cpp" linenr="77" str="i" scope="0x23cacd0" type="name" varId="23" variable="0x23cae20" values="0x23bb318" astParent="0x23bb260"/>
+    <token id="0x23bb3c0" file="position_server.cpp" linenr="77" str="]" scope="0x23cacd0" link="0x23bb260"/>
+    <token id="0x23bb470" file="position_server.cpp" linenr="77" str="=" scope="0x23cacd0" type="op" isAssignmentOp="True" astOperand1="0x23bb260" astOperand2="0x23bbec0"/>
+    <token id="0x23bb520" file="position_server.cpp" linenr="77" str="bind" scope="0x23cacd0" type="name" varId="8" variable="0x23c9b90" astParent="0x23bb5d0"/>
+    <token id="0x23bb5d0" file="position_server.cpp" linenr="77" str="." scope="0x23cacd0" astParent="0x23bb7e0" astOperand1="0x23bb520" astOperand2="0x23bb730"/>
+    <token id="0x23bb730" file="position_server.cpp" linenr="77" str="human" scope="0x23cacd0" type="name" varId="18" astParent="0x23bb5d0"/>
+    <token id="0x23bb7e0" file="position_server.cpp" linenr="77" str="[" scope="0x23cacd0" link="0x23bb940" astParent="0x23bb9f0" astOperand1="0x23bb5d0" astOperand2="0x23bb890"/>
+    <token id="0x23bb890" file="position_server.cpp" linenr="77" str="p_i" scope="0x23cacd0" type="name" varId="16" variable="0x23ca740" values="0x23bb898" astParent="0x23bb7e0"/>
+    <token id="0x23bb940" file="position_server.cpp" linenr="77" str="]" scope="0x23cacd0" link="0x23bb7e0"/>
+    <token id="0x23bb9f0" file="position_server.cpp" linenr="77" str="." scope="0x23cacd0" astParent="0x23bbb50" astOperand1="0x23bb7e0" astOperand2="0x23bbaa0"/>
+    <token id="0x23bbaa0" file="position_server.cpp" linenr="77" str="face" scope="0x23cacd0" type="name" astParent="0x23bb9f0"/>
+    <token id="0x23bbb50" file="position_server.cpp" linenr="77" str="." scope="0x23cacd0" astParent="0x23bbcb0" astOperand1="0x23bb9f0" astOperand2="0x23bbc00"/>
+    <token id="0x23bbc00" file="position_server.cpp" linenr="77" str="persons" scope="0x23cacd0" type="name" astParent="0x23bbb50"/>
+    <token id="0x23bbcb0" file="position_server.cpp" linenr="77" str="[" scope="0x23cacd0" link="0x23bbe10" astParent="0x23bbec0" astOperand1="0x23bbb50" astOperand2="0x23bbd60"/>
+    <token id="0x23bbd60" file="position_server.cpp" linenr="77" str="i" scope="0x23cacd0" type="name" varId="23" variable="0x23cae20" values="0x23bbd68" astParent="0x23bbcb0"/>
+    <token id="0x23bbe10" file="position_server.cpp" linenr="77" str="]" scope="0x23cacd0" link="0x23bbcb0"/>
+    <token id="0x23bbec0" file="position_server.cpp" linenr="77" str="." scope="0x23cacd0" astParent="0x23bb470" astOperand1="0x23bbcb0" astOperand2="0x23bbf70"/>
+    <token id="0x23bbf70" file="position_server.cpp" linenr="77" str="conf" scope="0x23cacd0" type="name" astParent="0x23bbec0"/>
+    <token id="0x23bc020" file="position_server.cpp" linenr="77" str=";" scope="0x23cacd0"/>
+    <token id="0x23bc0d0" file="position_server.cpp" linenr="78" str="}" scope="0x23cacd0" link="0x23ba1e0"/>
+    <token id="0x23bc180" file="position_server.cpp" linenr="79" str="histogram" scope="0x23ca7b0" type="name" astParent="0x23bc230"/>
+    <token id="0x23bc230" file="position_server.cpp" linenr="79" str="(" scope="0x23ca7b0" link="0x23bcbd0" astOperand1="0x23bc180" astOperand2="0x23bc9c0"/>
+    <token id="0x23bc2e0" file="position_server.cpp" linenr="79" str="d_id" scope="0x23ca7b0" type="name" varId="1" variable="0x23cb080" astParent="0x23bc440"/>
+    <token id="0x23bc440" file="position_server.cpp" linenr="79" str="," scope="0x23ca7b0" astParent="0x23bc650" astOperand1="0x23bc2e0" astOperand2="0x23bc5a0"/>
+    <token id="0x23bc5a0" file="position_server.cpp" linenr="79" str="o_id" scope="0x23ca7b0" type="name" varId="21" variable="0x23cb660" astParent="0x23bc440"/>
+    <token id="0x23bc650" file="position_server.cpp" linenr="79" str="," scope="0x23ca7b0" astParent="0x23bc7b0" astOperand1="0x23bc440" astOperand2="0x23bc700"/>
+    <token id="0x23bc700" file="position_server.cpp" linenr="79" str="o_conf" scope="0x23ca7b0" type="name" varId="22" variable="0x23cb700" astParent="0x23bc650"/>
+    <token id="0x23bc7b0" file="position_server.cpp" linenr="79" str="," scope="0x23ca7b0" astParent="0x23bc9c0" astOperand1="0x23bc650" astOperand2="0x23bc860"/>
+    <token id="0x23bc860" file="position_server.cpp" linenr="79" str="&amp;" scope="0x23ca7b0" type="op" astParent="0x23bc7b0" astOperand1="0x23bc910"/>
+    <token id="0x23bc910" file="position_server.cpp" linenr="79" str="maxOkaoId" scope="0x23ca7b0" type="name" varId="11" variable="0x23cb400" astParent="0x23bc860"/>
+    <token id="0x23bc9c0" file="position_server.cpp" linenr="79" str="," scope="0x23ca7b0" astParent="0x23bc230" astOperand1="0x23bc7b0" astOperand2="0x23bca70"/>
+    <token id="0x23bca70" file="position_server.cpp" linenr="79" str="&amp;" scope="0x23ca7b0" type="op" astParent="0x23bc9c0" astOperand1="0x23bcb20"/>
+    <token id="0x23bcb20" file="position_server.cpp" linenr="79" str="maxHist" scope="0x23ca7b0" type="name" varId="12" variable="0x23cb470" astParent="0x23bca70"/>
+    <token id="0x23bcbd0" file="position_server.cpp" linenr="79" str=")" scope="0x23ca7b0" link="0x23bc230"/>
+    <token id="0x23bcc80" file="position_server.cpp" linenr="79" str=";" scope="0x23ca7b0"/>
+    <token id="0x23cba20" file="position_server.cpp" linenr="80" str="std" scope="0x23ca7b0" type="name" astParent="0x23cbad0"/>
+    <token id="0x23cbad0" file="position_server.cpp" linenr="80" str="::" scope="0x23ca7b0" astParent="0x23bcde0" astOperand1="0x23cba20" astOperand2="0x23bcd30"/>
+    <token id="0x23bcd30" file="position_server.cpp" linenr="80" str="cout" scope="0x23ca7b0" type="name" astParent="0x23cbad0"/>
+    <token id="0x23bcde0" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bcf40" astOperand1="0x23cbad0" astOperand2="0x23bce90"/>
+    <token id="0x23bce90" file="position_server.cpp" linenr="80" str="&quot;d_id: &quot;" scope="0x23ca7b0" type="string" strlen="6" values="0x23bce98" astParent="0x23bcde0"/>
+    <token id="0x23bcf40" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd0a0" astOperand1="0x23bcde0" astOperand2="0x23bcff0"/>
+    <token id="0x23bcff0" file="position_server.cpp" linenr="80" str="d_id" scope="0x23ca7b0" type="name" varId="1" variable="0x23cb080" astParent="0x23bcf40"/>
+    <token id="0x23bd0a0" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd260" astOperand1="0x23bcf40" astOperand2="0x23bd180"/>
+    <token id="0x23bd180" file="position_server.cpp" linenr="80" str="&quot;, tracking_id: &quot;" scope="0x23ca7b0" type="string" strlen="15" values="0x23bd188" astParent="0x23bd0a0"/>
+    <token id="0x23bd260" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd3c0" astOperand1="0x23bd0a0" astOperand2="0x23bd310"/>
+    <token id="0x23bd310" file="position_server.cpp" linenr="80" str="tracking_id" scope="0x23ca7b0" type="name" varId="17" variable="0x23cb580" astParent="0x23bd260"/>
+    <token id="0x23bd3c0" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd550" astOperand1="0x23bd260" astOperand2="0x23bd470"/>
+    <token id="0x23bd470" file="position_server.cpp" linenr="80" str="&quot; ---&gt; max id: &quot;" scope="0x23ca7b0" type="string" strlen="14" values="0x23bd478" astParent="0x23bd3c0"/>
+    <token id="0x23bd550" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd6b0" astOperand1="0x23bd3c0" astOperand2="0x23bd600"/>
+    <token id="0x23bd600" file="position_server.cpp" linenr="80" str="maxOkaoId" scope="0x23ca7b0" type="name" varId="11" variable="0x23cb400" astParent="0x23bd550"/>
+    <token id="0x23bd6b0" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd810" astOperand1="0x23bd550" astOperand2="0x23bd760"/>
+    <token id="0x23bd760" file="position_server.cpp" linenr="80" str="&quot;, max hist: &quot;" scope="0x23ca7b0" type="string" strlen="12" values="0x23bd768" astParent="0x23bd6b0"/>
+    <token id="0x23bd810" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astParent="0x23bd970" astOperand1="0x23bd6b0" astOperand2="0x23bd8c0"/>
+    <token id="0x23bd8c0" file="position_server.cpp" linenr="80" str="maxHist" scope="0x23ca7b0" type="name" varId="12" variable="0x23cb470" astParent="0x23bd810"/>
+    <token id="0x23bd970" file="position_server.cpp" linenr="80" str="&lt;&lt;" scope="0x23ca7b0" type="op" isArithmeticalOp="True" astOperand1="0x23bd810" astOperand2="0x23cbc30"/>
+    <token id="0x23cbb80" file="position_server.cpp" linenr="80" str="std" scope="0x23ca7b0" type="name" astParent="0x23cbc30"/>
+    <token id="0x23cbc30" file="position_server.cpp" linenr="80" str="::" scope="0x23ca7b0" astParent="0x23bd970" astOperand1="0x23cbb80" astOperand2="0x23bda20"/>
+    <token id="0x23bda20" file="position_server.cpp" linenr="80" str="endl" scope="0x23ca7b0" type="name" astParent="0x23cbc30"/>
+    <token id="0x23bdad0" file="position_server.cpp" linenr="80" str=";" scope="0x23ca7b0"/>
+    <token id="0x23bdb80" file="position_server.cpp" linenr="82" str="MsgToMsg" scope="0x23ca7b0" type="name" astParent="0x23bdc30"/>
+    <token id="0x23bdc30" file="position_server.cpp" linenr="82" str="::" scope="0x23ca7b0" astParent="0x23bdd90" astOperand1="0x23bdb80" astOperand2="0x23bdce0"/>
+    <token id="0x23bdce0" file="position_server.cpp" linenr="82" str="bodyAndFaceToMsg" scope="0x23ca7b0" type="name" astParent="0x23bdc30"/>
+    <token id="0x23bdd90" file="position_server.cpp" linenr="82" str="(" scope="0x23ca7b0" link="0x23bf0d0" astOperand1="0x23bdc30" astOperand2="0x23beb50"/>
+    <token id="0x23bde40" file="position_server.cpp" linenr="82" str="bind" scope="0x23ca7b0" type="name" varId="8" variable="0x23c9b90" astParent="0x23bdef0"/>
+    <token id="0x23bdef0" file="position_server.cpp" linenr="82" str="." scope="0x23ca7b0" astParent="0x23be100" astOperand1="0x23bde40" astOperand2="0x23be050"/>
+    <token id="0x23be050" file="position_server.cpp" linenr="82" str="human" scope="0x23ca7b0" type="name" varId="18" astParent="0x23bdef0"/>
+    <token id="0x23be100" file="position_server.cpp" linenr="82" str="[" scope="0x23ca7b0" link="0x23be260" astParent="0x23be310" astOperand1="0x23bdef0" astOperand2="0x23be1b0"/>
+    <token id="0x23be1b0" file="position_server.cpp" linenr="82" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23be1b8" astParent="0x23be100"/>
+    <token id="0x23be260" file="position_server.cpp" linenr="82" str="]" scope="0x23ca7b0" link="0x23be100"/>
+    <token id="0x23be310" file="position_server.cpp" linenr="82" str="." scope="0x23ca7b0" astParent="0x23be470" astOperand1="0x23be100" astOperand2="0x23be3c0"/>
+    <token id="0x23be3c0" file="position_server.cpp" linenr="82" str="body" scope="0x23ca7b0" type="name" astParent="0x23be310"/>
+    <token id="0x23be470" file="position_server.cpp" linenr="82" str="," scope="0x23ca7b0" astParent="0x23beb50" astOperand1="0x23be310" astOperand2="0x23be9f0"/>
+    <token id="0x23be520" file="position_server.cpp" linenr="82" str="bind" scope="0x23ca7b0" type="name" varId="8" variable="0x23c9b90" astParent="0x23be5d0"/>
+    <token id="0x23be5d0" file="position_server.cpp" linenr="82" str="." scope="0x23ca7b0" astParent="0x23be7e0" astOperand1="0x23be520" astOperand2="0x23be730"/>
+    <token id="0x23be730" file="position_server.cpp" linenr="82" str="human" scope="0x23ca7b0" type="name" varId="18" astParent="0x23be5d0"/>
+    <token id="0x23be7e0" file="position_server.cpp" linenr="82" str="[" scope="0x23ca7b0" link="0x23be940" astParent="0x23be9f0" astOperand1="0x23be5d0" astOperand2="0x23be890"/>
+    <token id="0x23be890" file="position_server.cpp" linenr="82" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23be898" astParent="0x23be7e0"/>
+    <token id="0x23be940" file="position_server.cpp" linenr="82" str="]" scope="0x23ca7b0" link="0x23be7e0"/>
+    <token id="0x23be9f0" file="position_server.cpp" linenr="82" str="." scope="0x23ca7b0" astParent="0x23be470" astOperand1="0x23be7e0" astOperand2="0x23beaa0"/>
+    <token id="0x23beaa0" file="position_server.cpp" linenr="82" str="face" scope="0x23ca7b0" type="name" astParent="0x23be9f0"/>
+    <token id="0x23beb50" file="position_server.cpp" linenr="82" str="," scope="0x23ca7b0" astParent="0x23bdd90" astOperand1="0x23be470" astOperand2="0x23bec00"/>
+    <token id="0x23bec00" file="position_server.cpp" linenr="82" str="&amp;" scope="0x23ca7b0" type="op" astParent="0x23beb50" astOperand1="0x23beec0"/>
+    <token id="0x23becb0" file="position_server.cpp" linenr="82" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23bed60"/>
+    <token id="0x23bed60" file="position_server.cpp" linenr="82" str="." scope="0x23ca7b0" astParent="0x23beec0" astOperand1="0x23becb0" astOperand2="0x23bee10"/>
+    <token id="0x23bee10" file="position_server.cpp" linenr="82" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23bed60"/>
+    <token id="0x23beec0" file="position_server.cpp" linenr="82" str="[" scope="0x23ca7b0" link="0x23bf020" astParent="0x23bec00" astOperand1="0x23bed60" astOperand2="0x23bef70"/>
+    <token id="0x23bef70" file="position_server.cpp" linenr="82" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23bef78" astParent="0x23beec0"/>
+    <token id="0x23bf020" file="position_server.cpp" linenr="82" str="]" scope="0x23ca7b0" link="0x23beec0"/>
+    <token id="0x23bf0d0" file="position_server.cpp" linenr="82" str=")" scope="0x23ca7b0" link="0x23bdd90"/>
+    <token id="0x23bf180" file="position_server.cpp" linenr="82" str=";" scope="0x23ca7b0"/>
+    <token id="0x23bf230" file="position_server.cpp" linenr="84" str="geometry_msgs" scope="0x23ca7b0" type="name" astParent="0x23bf2e0"/>
+    <token id="0x23bf2e0" file="position_server.cpp" linenr="84" str="::" scope="0x23ca7b0" astOperand1="0x23bf230" astOperand2="0x23bf440"/>
+    <token id="0x23bf390" file="position_server.cpp" linenr="84" str="Point" scope="0x23ca7b0" type="name"/>
+    <token id="0x23bf440" file="position_server.cpp" linenr="84" str="h_point" scope="0x23ca7b0" type="name" varId="24" variable="0x23cb7a0" astParent="0x23bf2e0"/>
+    <token id="0x23bf4f0" file="position_server.cpp" linenr="84" str=";" scope="0x23ca7b0"/>
+    <token id="0x23bf5a0" file="position_server.cpp" linenr="85" str="h_point" scope="0x23ca7b0" type="name" varId="24" variable="0x23cb7a0" astParent="0x23bf650"/>
+    <token id="0x23bf650" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23bf7b0" astOperand1="0x23bf5a0" astOperand2="0x23bf700"/>
+    <token id="0x23bf700" file="position_server.cpp" linenr="85" str="x" scope="0x23ca7b0" type="name" varId="25" astParent="0x23bf650"/>
+    <token id="0x23bf7b0" file="position_server.cpp" linenr="85" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23bf650" astOperand2="0x23c0360"/>
+    <token id="0x23bf860" file="position_server.cpp" linenr="85" str="bind" scope="0x23ca7b0" type="name" varId="8" variable="0x23c9b90" astParent="0x23bf910"/>
+    <token id="0x23bf910" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23bfb20" astOperand1="0x23bf860" astOperand2="0x23bfa70"/>
+    <token id="0x23bfa70" file="position_server.cpp" linenr="85" str="human" scope="0x23ca7b0" type="name" varId="18" astParent="0x23bf910"/>
+    <token id="0x23bfb20" file="position_server.cpp" linenr="85" str="[" scope="0x23ca7b0" link="0x23bfc80" astParent="0x23bfd30" astOperand1="0x23bf910" astOperand2="0x23bfbd0"/>
+    <token id="0x23bfbd0" file="position_server.cpp" linenr="85" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23bfbd8" astParent="0x23bfb20"/>
+    <token id="0x23bfc80" file="position_server.cpp" linenr="85" str="]" scope="0x23ca7b0" link="0x23bfb20"/>
+    <token id="0x23bfd30" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23bfe90" astOperand1="0x23bfb20" astOperand2="0x23bfde0"/>
+    <token id="0x23bfde0" file="position_server.cpp" linenr="85" str="body" scope="0x23ca7b0" type="name" astParent="0x23bfd30"/>
+    <token id="0x23bfe90" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23bfff0" astOperand1="0x23bfd30" astOperand2="0x23bff40"/>
+    <token id="0x23bff40" file="position_server.cpp" linenr="85" str="joints" scope="0x23ca7b0" type="name" astParent="0x23bfe90"/>
+    <token id="0x23bfff0" file="position_server.cpp" linenr="85" str="[" scope="0x23ca7b0" link="0x23c0150" astParent="0x23c0200" astOperand1="0x23bfe90" astOperand2="0x23c00a0"/>
+    <token id="0x23c00a0" file="position_server.cpp" linenr="85" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23c00a8" astParent="0x23bfff0"/>
+    <token id="0x23c0150" file="position_server.cpp" linenr="85" str="]" scope="0x23ca7b0" link="0x23bfff0"/>
+    <token id="0x23c0200" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23c0360" astOperand1="0x23bfff0" astOperand2="0x23c02b0"/>
+    <token id="0x23c02b0" file="position_server.cpp" linenr="85" str="position" scope="0x23ca7b0" type="name" astParent="0x23c0200"/>
+    <token id="0x23c0360" file="position_server.cpp" linenr="85" str="." scope="0x23ca7b0" astParent="0x23bf7b0" astOperand1="0x23c0200" astOperand2="0x23c0410"/>
+    <token id="0x23c0410" file="position_server.cpp" linenr="85" str="x" scope="0x23ca7b0" type="name" astParent="0x23c0360"/>
+    <token id="0x23c04c0" file="position_server.cpp" linenr="85" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c0570" file="position_server.cpp" linenr="86" str="h_point" scope="0x23ca7b0" type="name" varId="24" variable="0x23cb7a0" astParent="0x23c0620"/>
+    <token id="0x23c0620" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c0780" astOperand1="0x23c0570" astOperand2="0x23c06d0"/>
+    <token id="0x23c06d0" file="position_server.cpp" linenr="86" str="y" scope="0x23ca7b0" type="name" varId="26" astParent="0x23c0620"/>
+    <token id="0x23c0780" file="position_server.cpp" linenr="86" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c0620" astOperand2="0x23c1330"/>
+    <token id="0x23c0830" file="position_server.cpp" linenr="86" str="bind" scope="0x23ca7b0" type="name" varId="8" variable="0x23c9b90" astParent="0x23c08e0"/>
+    <token id="0x23c08e0" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c0af0" astOperand1="0x23c0830" astOperand2="0x23c0a40"/>
+    <token id="0x23c0a40" file="position_server.cpp" linenr="86" str="human" scope="0x23ca7b0" type="name" varId="18" astParent="0x23c08e0"/>
+    <token id="0x23c0af0" file="position_server.cpp" linenr="86" str="[" scope="0x23ca7b0" link="0x23c0c50" astParent="0x23c0d00" astOperand1="0x23c08e0" astOperand2="0x23c0ba0"/>
+    <token id="0x23c0ba0" file="position_server.cpp" linenr="86" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c0ba8" astParent="0x23c0af0"/>
+    <token id="0x23c0c50" file="position_server.cpp" linenr="86" str="]" scope="0x23ca7b0" link="0x23c0af0"/>
+    <token id="0x23c0d00" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c0e60" astOperand1="0x23c0af0" astOperand2="0x23c0db0"/>
+    <token id="0x23c0db0" file="position_server.cpp" linenr="86" str="body" scope="0x23ca7b0" type="name" astParent="0x23c0d00"/>
+    <token id="0x23c0e60" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c0fc0" astOperand1="0x23c0d00" astOperand2="0x23c0f10"/>
+    <token id="0x23c0f10" file="position_server.cpp" linenr="86" str="joints" scope="0x23ca7b0" type="name" astParent="0x23c0e60"/>
+    <token id="0x23c0fc0" file="position_server.cpp" linenr="86" str="[" scope="0x23ca7b0" link="0x23c1120" astParent="0x23c11d0" astOperand1="0x23c0e60" astOperand2="0x23c1070"/>
+    <token id="0x23c1070" file="position_server.cpp" linenr="86" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23c1078" astParent="0x23c0fc0"/>
+    <token id="0x23c1120" file="position_server.cpp" linenr="86" str="]" scope="0x23ca7b0" link="0x23c0fc0"/>
+    <token id="0x23c11d0" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c1330" astOperand1="0x23c0fc0" astOperand2="0x23c1280"/>
+    <token id="0x23c1280" file="position_server.cpp" linenr="86" str="position" scope="0x23ca7b0" type="name" astParent="0x23c11d0"/>
+    <token id="0x23c1330" file="position_server.cpp" linenr="86" str="." scope="0x23ca7b0" astParent="0x23c0780" astOperand1="0x23c11d0" astOperand2="0x23c13e0"/>
+    <token id="0x23c13e0" file="position_server.cpp" linenr="86" str="y" scope="0x23ca7b0" type="name" astParent="0x23c1330"/>
+    <token id="0x23c1490" file="position_server.cpp" linenr="86" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c1540" file="position_server.cpp" linenr="87" str="h_point" scope="0x23ca7b0" type="name" varId="24" variable="0x23cb7a0" astParent="0x23c15f0"/>
+    <token id="0x23c15f0" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c1750" astOperand1="0x23c1540" astOperand2="0x23c16a0"/>
+    <token id="0x23c16a0" file="position_server.cpp" linenr="87" str="z" scope="0x23ca7b0" type="name" varId="27" astParent="0x23c15f0"/>
+    <token id="0x23c1750" file="position_server.cpp" linenr="87" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c15f0" astOperand2="0x23c2300"/>
+    <token id="0x23c1800" file="position_server.cpp" linenr="87" str="bind" scope="0x23ca7b0" type="name" varId="8" variable="0x23c9b90" astParent="0x23c18b0"/>
+    <token id="0x23c18b0" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c1ac0" astOperand1="0x23c1800" astOperand2="0x23c1a10"/>
+    <token id="0x23c1a10" file="position_server.cpp" linenr="87" str="human" scope="0x23ca7b0" type="name" varId="18" astParent="0x23c18b0"/>
+    <token id="0x23c1ac0" file="position_server.cpp" linenr="87" str="[" scope="0x23ca7b0" link="0x23c1c20" astParent="0x23c1cd0" astOperand1="0x23c18b0" astOperand2="0x23c1b70"/>
+    <token id="0x23c1b70" file="position_server.cpp" linenr="87" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c1b78" astParent="0x23c1ac0"/>
+    <token id="0x23c1c20" file="position_server.cpp" linenr="87" str="]" scope="0x23ca7b0" link="0x23c1ac0"/>
+    <token id="0x23c1cd0" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c1e30" astOperand1="0x23c1ac0" astOperand2="0x23c1d80"/>
+    <token id="0x23c1d80" file="position_server.cpp" linenr="87" str="body" scope="0x23ca7b0" type="name" astParent="0x23c1cd0"/>
+    <token id="0x23c1e30" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c1f90" astOperand1="0x23c1cd0" astOperand2="0x23c1ee0"/>
+    <token id="0x23c1ee0" file="position_server.cpp" linenr="87" str="joints" scope="0x23ca7b0" type="name" astParent="0x23c1e30"/>
+    <token id="0x23c1f90" file="position_server.cpp" linenr="87" str="[" scope="0x23ca7b0" link="0x23c20f0" astParent="0x23c21a0" astOperand1="0x23c1e30" astOperand2="0x23c2040"/>
+    <token id="0x23c2040" file="position_server.cpp" linenr="87" str="3" scope="0x23ca7b0" type="number" isInt="True" values="0x23c2048" astParent="0x23c1f90"/>
+    <token id="0x23c20f0" file="position_server.cpp" linenr="87" str="]" scope="0x23ca7b0" link="0x23c1f90"/>
+    <token id="0x23c21a0" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c2300" astOperand1="0x23c1f90" astOperand2="0x23c2250"/>
+    <token id="0x23c2250" file="position_server.cpp" linenr="87" str="position" scope="0x23ca7b0" type="name" astParent="0x23c21a0"/>
+    <token id="0x23c2300" file="position_server.cpp" linenr="87" str="." scope="0x23ca7b0" astParent="0x23c1750" astOperand1="0x23c21a0" astOperand2="0x23c23b0"/>
+    <token id="0x23c23b0" file="position_server.cpp" linenr="87" str="z" scope="0x23ca7b0" type="name" astParent="0x23c2300"/>
+    <token id="0x23c2460" file="position_server.cpp" linenr="87" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c2510" file="position_server.cpp" linenr="89" str="geometry_msgs" scope="0x23ca7b0" type="name" astParent="0x23c25c0"/>
+    <token id="0x23c25c0" file="position_server.cpp" linenr="89" str="::" scope="0x23ca7b0" astOperand1="0x23c2510" astOperand2="0x23c2720"/>
+    <token id="0x23c2670" file="position_server.cpp" linenr="89" str="PointStamped" scope="0x23ca7b0" type="name"/>
+    <token id="0x23c2720" file="position_server.cpp" linenr="89" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c25c0"/>
+    <token id="0x23c27d0" file="position_server.cpp" linenr="89" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c2880" file="position_server.cpp" linenr="90" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c2930"/>
+    <token id="0x23c2930" file="position_server.cpp" linenr="90" str="." scope="0x23ca7b0" astParent="0x23c2a90" astOperand1="0x23c2880" astOperand2="0x23c29e0"/>
+    <token id="0x23c29e0" file="position_server.cpp" linenr="90" str="header" scope="0x23ca7b0" type="name" varId="29" astParent="0x23c2930"/>
+    <token id="0x23c2a90" file="position_server.cpp" linenr="90" str="." scope="0x23ca7b0" astParent="0x23c2bf0" astOperand1="0x23c2930" astOperand2="0x23c2b40"/>
+    <token id="0x23c2b40" file="position_server.cpp" linenr="90" str="stamp" scope="0x23ca7b0" type="name" varId="30" astParent="0x23c2a90"/>
+    <token id="0x23c2bf0" file="position_server.cpp" linenr="90" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c2a90" astOperand2="0x23c3010"/>
+    <token id="0x23c2ca0" file="position_server.cpp" linenr="90" str="ros" scope="0x23ca7b0" type="name" astParent="0x23c2d50"/>
+    <token id="0x23c2d50" file="position_server.cpp" linenr="90" str="::" scope="0x23ca7b0" astParent="0x23c2eb0" astOperand1="0x23c2ca0" astOperand2="0x23c2e00"/>
+    <token id="0x23c2e00" file="position_server.cpp" linenr="90" str="Time" scope="0x23ca7b0" type="name" astParent="0x23c2d50"/>
+    <token id="0x23c2eb0" file="position_server.cpp" linenr="90" str="::" scope="0x23ca7b0" astParent="0x23c3010" astOperand1="0x23c2d50" astOperand2="0x23c2f60"/>
+    <token id="0x23c2f60" file="position_server.cpp" linenr="90" str="now" scope="0x23ca7b0" type="name" astParent="0x23c2eb0"/>
+    <token id="0x23c3010" file="position_server.cpp" linenr="90" str="(" scope="0x23ca7b0" link="0x23c30c0" astParent="0x23c2bf0" astOperand1="0x23c2eb0"/>
+    <token id="0x23c30c0" file="position_server.cpp" linenr="90" str=")" scope="0x23ca7b0" link="0x23c3010"/>
+    <token id="0x23c3170" file="position_server.cpp" linenr="90" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c3220" file="position_server.cpp" linenr="91" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c32d0"/>
+    <token id="0x23c32d0" file="position_server.cpp" linenr="91" str="." scope="0x23ca7b0" astParent="0x23c3430" astOperand1="0x23c3220" astOperand2="0x23c3380"/>
+    <token id="0x23c3380" file="position_server.cpp" linenr="91" str="header" scope="0x23ca7b0" type="name" varId="29" astParent="0x23c32d0"/>
+    <token id="0x23c3430" file="position_server.cpp" linenr="91" str="." scope="0x23ca7b0" astParent="0x23c3590" astOperand1="0x23c32d0" astOperand2="0x23c34e0"/>
+    <token id="0x23c34e0" file="position_server.cpp" linenr="91" str="frame_id" scope="0x23ca7b0" type="name" varId="31" astParent="0x23c3430"/>
+    <token id="0x23c3590" file="position_server.cpp" linenr="91" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c3430" astOperand2="0x23c3640"/>
+    <token id="0x23c3640" file="position_server.cpp" linenr="91" str="&quot;/map&quot;" scope="0x23ca7b0" type="string" strlen="4" values="0x23c3648" astParent="0x23c3590"/>
+    <token id="0x23c36f0" file="position_server.cpp" linenr="91" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c37a0" file="position_server.cpp" linenr="93" str="MsgToMsg" scope="0x23ca7b0" type="name" astParent="0x23c3850"/>
+    <token id="0x23c3850" file="position_server.cpp" linenr="93" str="::" scope="0x23ca7b0" astParent="0x23c39b0" astOperand1="0x23c37a0" astOperand2="0x23c3900"/>
+    <token id="0x23c3900" file="position_server.cpp" linenr="93" str="transformHead" scope="0x23ca7b0" type="name" astParent="0x23c3850"/>
+    <token id="0x23c39b0" file="position_server.cpp" linenr="93" str="(" scope="0x23ca7b0" link="0x23c3d20" astOperand1="0x23c3850" astOperand2="0x23c3b10"/>
+    <token id="0x23c3a60" file="position_server.cpp" linenr="93" str="h_point" scope="0x23ca7b0" type="name" varId="24" variable="0x23cb7a0" astParent="0x23c3b10"/>
+    <token id="0x23c3b10" file="position_server.cpp" linenr="93" str="," scope="0x23ca7b0" astParent="0x23c39b0" astOperand1="0x23c3a60" astOperand2="0x23c3bc0"/>
+    <token id="0x23c3bc0" file="position_server.cpp" linenr="93" str="&amp;" scope="0x23ca7b0" type="op" astParent="0x23c3b10" astOperand1="0x23c3c70"/>
+    <token id="0x23c3c70" file="position_server.cpp" linenr="93" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c3bc0"/>
+    <token id="0x23c3d20" file="position_server.cpp" linenr="93" str=")" scope="0x23ca7b0" link="0x23c39b0"/>
+    <token id="0x23c3dd0" file="position_server.cpp" linenr="93" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c3e80" file="position_server.cpp" linenr="95" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c3f30"/>
+    <token id="0x23c3f30" file="position_server.cpp" linenr="95" str="." scope="0x23ca7b0" astParent="0x23c4090" astOperand1="0x23c3e80" astOperand2="0x23c3fe0"/>
+    <token id="0x23c3fe0" file="position_server.cpp" linenr="95" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c3f30"/>
+    <token id="0x23c4090" file="position_server.cpp" linenr="95" str="[" scope="0x23ca7b0" link="0x23c41f0" astParent="0x23c42a0" astOperand1="0x23c3f30" astOperand2="0x23c4140"/>
+    <token id="0x23c4140" file="position_server.cpp" linenr="95" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c4148" astParent="0x23c4090"/>
+    <token id="0x23c41f0" file="position_server.cpp" linenr="95" str="]" scope="0x23ca7b0" link="0x23c4090"/>
+    <token id="0x23c42a0" file="position_server.cpp" linenr="95" str="." scope="0x23ca7b0" astParent="0x23c4400" astOperand1="0x23c4090" astOperand2="0x23c4350"/>
+    <token id="0x23c4350" file="position_server.cpp" linenr="95" str="d_id" scope="0x23ca7b0" type="name" astParent="0x23c42a0"/>
+    <token id="0x23c4400" file="position_server.cpp" linenr="95" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c42a0" astOperand2="0x23c44b0"/>
+    <token id="0x23c44b0" file="position_server.cpp" linenr="95" str="d_id" scope="0x23ca7b0" type="name" varId="1" variable="0x23cb080" astParent="0x23c4400"/>
+    <token id="0x23c4560" file="position_server.cpp" linenr="95" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c4610" file="position_server.cpp" linenr="96" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c46c0"/>
+    <token id="0x23c46c0" file="position_server.cpp" linenr="96" str="." scope="0x23ca7b0" astParent="0x23c4820" astOperand1="0x23c4610" astOperand2="0x23c4770"/>
+    <token id="0x23c4770" file="position_server.cpp" linenr="96" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c46c0"/>
+    <token id="0x23c4820" file="position_server.cpp" linenr="96" str="[" scope="0x23ca7b0" link="0x23c4980" astParent="0x23c4a30" astOperand1="0x23c46c0" astOperand2="0x23c48d0"/>
+    <token id="0x23c48d0" file="position_server.cpp" linenr="96" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c48d8" astParent="0x23c4820"/>
+    <token id="0x23c4980" file="position_server.cpp" linenr="96" str="]" scope="0x23ca7b0" link="0x23c4820"/>
+    <token id="0x23c4a30" file="position_server.cpp" linenr="96" str="." scope="0x23ca7b0" astParent="0x23c4b90" astOperand1="0x23c4820" astOperand2="0x23c4ae0"/>
+    <token id="0x23c4ae0" file="position_server.cpp" linenr="96" str="max_okao_id" scope="0x23ca7b0" type="name" astParent="0x23c4a30"/>
+    <token id="0x23c4b90" file="position_server.cpp" linenr="96" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c4a30" astOperand2="0x23c4c40"/>
+    <token id="0x23c4c40" file="position_server.cpp" linenr="96" str="maxOkaoId" scope="0x23ca7b0" type="name" varId="11" variable="0x23cb400" astParent="0x23c4b90"/>
+    <token id="0x23c4cf0" file="position_server.cpp" linenr="96" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c4da0" file="position_server.cpp" linenr="97" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c4e50"/>
+    <token id="0x23c4e50" file="position_server.cpp" linenr="97" str="." scope="0x23ca7b0" astParent="0x23c4fb0" astOperand1="0x23c4da0" astOperand2="0x23c4f00"/>
+    <token id="0x23c4f00" file="position_server.cpp" linenr="97" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c4e50"/>
+    <token id="0x23c4fb0" file="position_server.cpp" linenr="97" str="[" scope="0x23ca7b0" link="0x23c5110" astParent="0x23c51c0" astOperand1="0x23c4e50" astOperand2="0x23c5060"/>
+    <token id="0x23c5060" file="position_server.cpp" linenr="97" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c5068" astParent="0x23c4fb0"/>
+    <token id="0x23c5110" file="position_server.cpp" linenr="97" str="]" scope="0x23ca7b0" link="0x23c4fb0"/>
+    <token id="0x23c51c0" file="position_server.cpp" linenr="97" str="." scope="0x23ca7b0" astParent="0x23c5320" astOperand1="0x23c4fb0" astOperand2="0x23c5270"/>
+    <token id="0x23c5270" file="position_server.cpp" linenr="97" str="max_hist" scope="0x23ca7b0" type="name" astParent="0x23c51c0"/>
+    <token id="0x23c5320" file="position_server.cpp" linenr="97" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c51c0" astOperand2="0x23c53d0"/>
+    <token id="0x23c53d0" file="position_server.cpp" linenr="97" str="maxHist" scope="0x23ca7b0" type="name" varId="12" variable="0x23cb470" astParent="0x23c5320"/>
+    <token id="0x23c5480" file="position_server.cpp" linenr="97" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c5530" file="position_server.cpp" linenr="98" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c55e0"/>
+    <token id="0x23c55e0" file="position_server.cpp" linenr="98" str="." scope="0x23ca7b0" astParent="0x23c5740" astOperand1="0x23c5530" astOperand2="0x23c5690"/>
+    <token id="0x23c5690" file="position_server.cpp" linenr="98" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c55e0"/>
+    <token id="0x23c5740" file="position_server.cpp" linenr="98" str="[" scope="0x23ca7b0" link="0x23c58a0" astParent="0x23c5950" astOperand1="0x23c55e0" astOperand2="0x23c57f0"/>
+    <token id="0x23c57f0" file="position_server.cpp" linenr="98" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c57f8" astParent="0x23c5740"/>
+    <token id="0x23c58a0" file="position_server.cpp" linenr="98" str="]" scope="0x23ca7b0" link="0x23c5740"/>
+    <token id="0x23c5950" file="position_server.cpp" linenr="98" str="." scope="0x23ca7b0" astParent="0x23c5ab0" astOperand1="0x23c5740" astOperand2="0x23c5a00"/>
+    <token id="0x23c5a00" file="position_server.cpp" linenr="98" str="p" scope="0x23ca7b0" type="name" astParent="0x23c5950"/>
+    <token id="0x23c5ab0" file="position_server.cpp" linenr="98" str="." scope="0x23ca7b0" astParent="0x23c5c10" astOperand1="0x23c5950" astOperand2="0x23c5b60"/>
+    <token id="0x23c5b60" file="position_server.cpp" linenr="98" str="x" scope="0x23ca7b0" type="name" astParent="0x23c5ab0"/>
+    <token id="0x23c5c10" file="position_server.cpp" linenr="98" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c5ab0" astOperand2="0x23c5ed0"/>
+    <token id="0x23c5cc0" file="position_server.cpp" linenr="98" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c5d70"/>
+    <token id="0x23c5d70" file="position_server.cpp" linenr="98" str="." scope="0x23ca7b0" astParent="0x23c5ed0" astOperand1="0x23c5cc0" astOperand2="0x23c5e20"/>
+    <token id="0x23c5e20" file="position_server.cpp" linenr="98" str="point" scope="0x23ca7b0" type="name" varId="32" astParent="0x23c5d70"/>
+    <token id="0x23c5ed0" file="position_server.cpp" linenr="98" str="." scope="0x23ca7b0" astParent="0x23c5c10" astOperand1="0x23c5d70" astOperand2="0x23c5f80"/>
+    <token id="0x23c5f80" file="position_server.cpp" linenr="98" str="x" scope="0x23ca7b0" type="name" varId="33" astParent="0x23c5ed0"/>
+    <token id="0x23c6030" file="position_server.cpp" linenr="98" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c60e0" file="position_server.cpp" linenr="99" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c6190"/>
+    <token id="0x23c6190" file="position_server.cpp" linenr="99" str="." scope="0x23ca7b0" astParent="0x23c62f0" astOperand1="0x23c60e0" astOperand2="0x23c6240"/>
+    <token id="0x23c6240" file="position_server.cpp" linenr="99" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c6190"/>
+    <token id="0x23c62f0" file="position_server.cpp" linenr="99" str="[" scope="0x23ca7b0" link="0x23c6450" astParent="0x23c6500" astOperand1="0x23c6190" astOperand2="0x23c63a0"/>
+    <token id="0x23c63a0" file="position_server.cpp" linenr="99" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c63a8" astParent="0x23c62f0"/>
+    <token id="0x23c6450" file="position_server.cpp" linenr="99" str="]" scope="0x23ca7b0" link="0x23c62f0"/>
+    <token id="0x23c6500" file="position_server.cpp" linenr="99" str="." scope="0x23ca7b0" astParent="0x23c6660" astOperand1="0x23c62f0" astOperand2="0x23c65b0"/>
+    <token id="0x23c65b0" file="position_server.cpp" linenr="99" str="p" scope="0x23ca7b0" type="name" astParent="0x23c6500"/>
+    <token id="0x23c6660" file="position_server.cpp" linenr="99" str="." scope="0x23ca7b0" astParent="0x23c67c0" astOperand1="0x23c6500" astOperand2="0x23c6710"/>
+    <token id="0x23c6710" file="position_server.cpp" linenr="99" str="y" scope="0x23ca7b0" type="name" astParent="0x23c6660"/>
+    <token id="0x23c67c0" file="position_server.cpp" linenr="99" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c6660" astOperand2="0x23c6a80"/>
+    <token id="0x23c6870" file="position_server.cpp" linenr="99" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c6920"/>
+    <token id="0x23c6920" file="position_server.cpp" linenr="99" str="." scope="0x23ca7b0" astParent="0x23c6a80" astOperand1="0x23c6870" astOperand2="0x23c69d0"/>
+    <token id="0x23c69d0" file="position_server.cpp" linenr="99" str="point" scope="0x23ca7b0" type="name" varId="32" astParent="0x23c6920"/>
+    <token id="0x23c6a80" file="position_server.cpp" linenr="99" str="." scope="0x23ca7b0" astParent="0x23c67c0" astOperand1="0x23c6920" astOperand2="0x23c6b30"/>
+    <token id="0x23c6b30" file="position_server.cpp" linenr="99" str="y" scope="0x23ca7b0" type="name" varId="34" astParent="0x23c6a80"/>
+    <token id="0x23c6be0" file="position_server.cpp" linenr="99" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c6c90" file="position_server.cpp" linenr="100" str="recog" scope="0x23ca7b0" type="name" varId="13" variable="0x23cb510" astParent="0x23c6d40"/>
+    <token id="0x23c6d40" file="position_server.cpp" linenr="100" str="." scope="0x23ca7b0" astParent="0x23c6ea0" astOperand1="0x23c6c90" astOperand2="0x23c6df0"/>
+    <token id="0x23c6df0" file="position_server.cpp" linenr="100" str="human" scope="0x23ca7b0" type="name" varId="14" astParent="0x23c6d40"/>
+    <token id="0x23c6ea0" file="position_server.cpp" linenr="100" str="[" scope="0x23ca7b0" link="0x23c7000" astParent="0x23c70b0" astOperand1="0x23c6d40" astOperand2="0x23c6f50"/>
+    <token id="0x23c6f50" file="position_server.cpp" linenr="100" str="p_i" scope="0x23ca7b0" type="name" varId="16" variable="0x23ca740" values="0x23c6f58" astParent="0x23c6ea0"/>
+    <token id="0x23c7000" file="position_server.cpp" linenr="100" str="]" scope="0x23ca7b0" link="0x23c6ea0"/>
+    <token id="0x23c70b0" file="position_server.cpp" linenr="100" str="." scope="0x23ca7b0" astParent="0x23c7210" astOperand1="0x23c6ea0" astOperand2="0x23c7160"/>
+    <token id="0x23c7160" file="position_server.cpp" linenr="100" str="p" scope="0x23ca7b0" type="name" astParent="0x23c70b0"/>
+    <token id="0x23c7210" file="position_server.cpp" linenr="100" str="." scope="0x23ca7b0" astParent="0x23c7370" astOperand1="0x23c70b0" astOperand2="0x23c72c0"/>
+    <token id="0x23c72c0" file="position_server.cpp" linenr="100" str="z" scope="0x23ca7b0" type="name" astParent="0x23c7210"/>
+    <token id="0x23c7370" file="position_server.cpp" linenr="100" str="=" scope="0x23ca7b0" type="op" isAssignmentOp="True" astOperand1="0x23c7210" astOperand2="0x23c7630"/>
+    <token id="0x23c7420" file="position_server.cpp" linenr="100" str="pst" scope="0x23ca7b0" type="name" varId="28" variable="0x23cb810" astParent="0x23c74d0"/>
+    <token id="0x23c74d0" file="position_server.cpp" linenr="100" str="." scope="0x23ca7b0" astParent="0x23c7630" astOperand1="0x23c7420" astOperand2="0x23c7580"/>
+    <token id="0x23c7580" file="position_server.cpp" linenr="100" str="point" scope="0x23ca7b0" type="name" varId="32" astParent="0x23c74d0"/>
+    <token id="0x23c7630" file="position_server.cpp" linenr="100" str="." scope="0x23ca7b0" astParent="0x23c7370" astOperand1="0x23c74d0" astOperand2="0x23c76e0"/>
+    <token id="0x23c76e0" file="position_server.cpp" linenr="100" str="z" scope="0x23ca7b0" type="name" varId="35" astParent="0x23c7630"/>
+    <token id="0x23c7790" file="position_server.cpp" linenr="100" str=";" scope="0x23ca7b0"/>
+    <token id="0x23c7840" file="position_server.cpp" linenr="102" str="}" scope="0x23ca7b0" link="0x23b62c0"/>
+    <token id="0x23c78f0" file="position_server.cpp" linenr="103" str="}" scope="0x23ca5f0" link="0x23b5500"/>
+    <token id="0x23c79a0" file="position_server.cpp" linenr="105" str="recog_pub_" scope="0x23ca4c0" type="name" varId="4" variable="0x23cb1d0" astParent="0x23c7a50"/>
+    <token id="0x23c7a50" file="position_server.cpp" linenr="105" str="." scope="0x23ca4c0" astParent="0x23c7bb0" astOperand1="0x23c79a0" astOperand2="0x23c7b00"/>
+    <token id="0x23c7b00" file="position_server.cpp" linenr="105" str="publish" scope="0x23ca4c0" type="name" astParent="0x23c7a50"/>
+    <token id="0x23c7bb0" file="position_server.cpp" linenr="105" str="(" scope="0x23ca4c0" link="0x23c7d10" astOperand1="0x23c7a50" astOperand2="0x23c7c60"/>
+    <token id="0x23c7c60" file="position_server.cpp" linenr="105" str="recog" scope="0x23ca4c0" type="name" varId="13" variable="0x23cb510" astParent="0x23c7bb0"/>
+    <token id="0x23c7d10" file="position_server.cpp" linenr="105" str=")" scope="0x23ca4c0" link="0x23c7bb0"/>
+    <token id="0x23c7dc0" file="position_server.cpp" linenr="105" str=";" scope="0x23ca4c0"/>
+    <token id="0x23c7e70" file="position_server.cpp" linenr="106" str="}" scope="0x23ca4c0" link="0x23b3140"/>
+    <token id="0x23c7f20" file="position_server.cpp" linenr="107" str="}" scope="0x23ca2e0" link="0x23ae990"/>
+    <token id="0x23c7fd0" file="position_server.cpp" linenr="107" str=";" scope="0x23aa330"/>
+    <token id="0x23c8080" file="position_server.cpp" linenr="109" str="int" scope="0x23aa330" type="name"/>
+    <token id="0x23c8130" file="position_server.cpp" linenr="109" str="main" scope="0x23aa330" type="name" function="0x23cae90" astParent="0x23c81e0"/>
+    <token id="0x23c81e0" file="position_server.cpp" linenr="109" str="(" scope="0x23aa330" link="0x23c8760" astOperand1="0x23c8130" astOperand2="0x23c83f0"/>
+    <token id="0x23c8290" file="position_server.cpp" linenr="109" str="int" scope="0x23aa330" type="name"/>
+    <token id="0x23c8340" file="position_server.cpp" linenr="109" str="argc" scope="0x23aa330" type="name" varId="36" variable="0x23cb8f0" astParent="0x23c83f0"/>
+    <token id="0x23c83f0" file="position_server.cpp" linenr="109" str="," scope="0x23aa330" astParent="0x23c81e0" astOperand1="0x23c8340" astOperand2="0x23c8550"/>
+    <token id="0x23c84a0" file="position_server.cpp" linenr="109" str="char" scope="0x23aa330" type="name" astParent="0x23c8550"/>
+    <token id="0x23c8550" file="position_server.cpp" linenr="109" str="*" scope="0x23aa330" type="op" isArithmeticalOp="True" astParent="0x23c83f0" astOperand1="0x23c84a0" astOperand2="0x23c8600"/>
+    <token id="0x23c8600" file="position_server.cpp" linenr="109" str="*" scope="0x23aa330" type="op" isArithmeticalOp="True" astParent="0x23c8550" astOperand1="0x23c86b0"/>
+    <token id="0x23c86b0" file="position_server.cpp" linenr="109" str="argv" scope="0x23aa330" type="name" varId="37" variable="0x23cb960" astParent="0x23c8600"/>
+    <token id="0x23c8760" file="position_server.cpp" linenr="109" str=")" scope="0x23aa330" link="0x23c81e0"/>
+    <token id="0x23c8810" file="position_server.cpp" linenr="110" str="{" scope="0x23caf30" link="0x23c98f0"/>
+    <token id="0x23c88c0" file="position_server.cpp" linenr="111" str="ros" scope="0x23caf30" type="name" astParent="0x23c8970"/>
+    <token id="0x23c8970" file="position_server.cpp" linenr="111" str="::" scope="0x23caf30" astParent="0x23c8ad0" astOperand1="0x23c88c0" astOperand2="0x23c8a20"/>
+    <token id="0x23c8a20" file="position_server.cpp" linenr="111" str="init" scope="0x23caf30" type="name" astParent="0x23c8970"/>
+    <token id="0x23c8ad0" file="position_server.cpp" linenr="111" str="(" scope="0x23caf30" link="0x23c8f50" astOperand1="0x23c8970" astOperand2="0x23c8d90"/>
+    <token id="0x23c8b80" file="position_server.cpp" linenr="111" str="argc" scope="0x23caf30" type="name" varId="36" variable="0x23cb8f0" astParent="0x23c8c30"/>
+    <token id="0x23c8c30" file="position_server.cpp" linenr="111" str="," scope="0x23caf30" astParent="0x23c8d90" astOperand1="0x23c8b80" astOperand2="0x23c8ce0"/>
+    <token id="0x23c8ce0" file="position_server.cpp" linenr="111" str="argv" scope="0x23caf30" type="name" varId="37" variable="0x23cb960" astParent="0x23c8c30"/>
+    <token id="0x23c8d90" file="position_server.cpp" linenr="111" str="," scope="0x23caf30" astParent="0x23c8ad0" astOperand1="0x23c8c30" astOperand2="0x23c8e70"/>
+    <token id="0x23c8e70" file="position_server.cpp" linenr="111" str="&quot;people_recog_info&quot;" scope="0x23caf30" type="string" strlen="17" values="0x23c8e78" astParent="0x23c8d90"/>
+    <token id="0x23c8f50" file="position_server.cpp" linenr="111" str=")" scope="0x23caf30" link="0x23c8ad0"/>
+    <token id="0x23c9000" file="position_server.cpp" linenr="111" str=";" scope="0x23caf30"/>
+    <token id="0x23c90b0" file="position_server.cpp" linenr="112" str="RecogInfo" scope="0x23caf30" type="name" type-scope="0x23ca2e0"/>
+    <token id="0x23c9160" file="position_server.cpp" linenr="112" str="RIObject" scope="0x23caf30" type="name" varId="38" variable="0x23cb880"/>
+    <token id="0x23c9210" file="position_server.cpp" linenr="112" str=";" scope="0x23caf30"/>
+    <token id="0x23c92c0" file="position_server.cpp" linenr="113" str="ros" scope="0x23caf30" type="name" astParent="0x23c9370"/>
+    <token id="0x23c9370" file="position_server.cpp" linenr="113" str="::" scope="0x23caf30" astParent="0x23c94d0" astOperand1="0x23c92c0" astOperand2="0x23c9420"/>
+    <token id="0x23c9420" file="position_server.cpp" linenr="113" str="spin" scope="0x23caf30" type="name" astParent="0x23c9370"/>
+    <token id="0x23c94d0" file="position_server.cpp" linenr="113" str="(" scope="0x23caf30" link="0x23c9580" astOperand1="0x23c9370"/>
+    <token id="0x23c9580" file="position_server.cpp" linenr="113" str=")" scope="0x23caf30" link="0x23c94d0"/>
+    <token id="0x23c9630" file="position_server.cpp" linenr="113" str=";" scope="0x23caf30"/>
+    <token id="0x23c96e0" file="position_server.cpp" linenr="114" str="return" scope="0x23caf30" type="name" astOperand1="0x23c9790"/>
+    <token id="0x23c9790" file="position_server.cpp" linenr="114" str="0" scope="0x23caf30" type="number" isInt="True" values="0x23c9798" astParent="0x23c96e0"/>
+    <token id="0x23c9840" file="position_server.cpp" linenr="114" str=";" scope="0x23caf30"/>
+    <token id="0x23c98f0" file="position_server.cpp" linenr="115" str="}" scope="0x23caf30" link="0x23c8810"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x23aa330" type="Global">
+      <functionList>
+        <function id="0x23cae90" tokenDef="0x23c8130" name="main">
+          <arg nr="1" variable="0x23cb8f0"/>
+          <arg nr="2" variable="0x23cb960"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x23cb080"/>
+        <var id="0x23cb0f0"/>
+      </varlist>
+    </scope>
+    <scope id="0x23ca2e0" type="Class" className="RecogInfo" classStart="0x23ae990" classEnd="0x23c7f20" nestedIn="0x23aa330">
+      <functionList>
+        <function id="0x23bc500" tokenDef="0x23b05c0" name="RecogInfo"/>
+        <function id="0x23bc3a0" tokenDef="0x23b2b10" name="callback">
+          <arg nr="1" variable="0x23c9b90"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x23cb160"/>
+        <var id="0x23cb1d0"/>
+        <var id="0x23cb240"/>
+        <var id="0x23cb2b0"/>
+        <var id="0x23cb320"/>
+      </varlist>
+    </scope>
+    <scope id="0x23c9a60" type="Function" className="RecogInfo" classStart="0x23b07d0" classEnd="0x23b29b0" nestedIn="0x23ca2e0" function="0x23bc500"/>
+    <scope id="0x23ca4c0" type="Function" className="callback" classStart="0x23b3140" classEnd="0x23c7e70" nestedIn="0x23ca2e0" function="0x23bc3a0">
+      <varlist>
+        <var id="0x23cb390"/>
+        <var id="0x23cb400"/>
+        <var id="0x23cb470"/>
+        <var id="0x23cb510"/>
+      </varlist>
+    </scope>
+    <scope id="0x23ca5f0" type="For" classStart="0x23b5500" classEnd="0x23c78f0" nestedIn="0x23ca4c0">
+      <varlist>
+        <var id="0x23ca740"/>
+        <var id="0x23cb580"/>
+      </varlist>
+    </scope>
+    <scope id="0x23ca7b0" type="If" classStart="0x23b62c0" classEnd="0x23c7840" nestedIn="0x23ca5f0">
+      <varlist>
+        <var id="0x23cb5f0"/>
+        <var id="0x23cb660"/>
+        <var id="0x23cb700"/>
+        <var id="0x23cb7a0"/>
+        <var id="0x23cb810"/>
+      </varlist>
+    </scope>
+    <scope id="0x23ca900" type="If" classStart="0x23b7710" classEnd="0x23b7cc0" nestedIn="0x23ca7b0"/>
+    <scope id="0x23caa50" type="Else" classStart="0x23b7e20" classEnd="0x23b85b0" nestedIn="0x23ca7b0"/>
+    <scope id="0x23cab80" type="Try" classStart="0x23b7e20" classEnd="0x23b85b0" nestedIn="0x23ca7b0"/>
+    <scope id="0x23cacd0" type="For" classStart="0x23ba1e0" classEnd="0x23bc0d0" nestedIn="0x23ca7b0">
+      <varlist>
+        <var id="0x23cae20"/>
+      </varlist>
+    </scope>
+    <scope id="0x23caf30" type="Function" className="main" classStart="0x23c8810" classEnd="0x23c98f0" nestedIn="0x23aa330" function="0x23cae90">
+      <varlist>
+        <var id="0x23cb880"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x23cb080" nameToken="0x23adde0" typeStartToken="0x239c420" typeEndToken="0x239c420" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb0f0" nameToken="0x23ae200" typeStartToken="0x23ae0a0" typeEndToken="0x23ae0a0" isArgument="false" isArray="true" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb160" nameToken="0x23aedb0" typeStartToken="0x23aeba0" typeEndToken="0x23aed00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb1d0" nameToken="0x23af120" typeStartToken="0x23aef10" typeEndToken="0x23af070" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb240" nameToken="0x23af490" typeStartToken="0x23af280" typeEndToken="0x23af3e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb2b0" nameToken="0x23afa10" typeStartToken="0x23c9c00" typeEndToken="0x23af960" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb320" nameToken="0x23b0300" typeStartToken="0x23c9e60" typeEndToken="0x23b0250" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23c9b90" nameToken="0x23b2fe0" typeStartToken="0x23b2d20" typeEndToken="0x23b2f30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x23cb390" nameToken="0x23b32a0" typeStartToken="0x23b31f0" typeEndToken="0x23b31f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb400" nameToken="0x23b3820" typeStartToken="0x23b3770" typeEndToken="0x23b3770" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb470" nameToken="0x23b3ae0" typeStartToken="0x23bdfa0" typeEndToken="0x23bdfa0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb510" nameToken="0x23b3fb0" typeStartToken="0x23b3da0" typeEndToken="0x23b3f00" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23ca740" nameToken="0x23b4d70" typeStartToken="0x23b4cc0" typeEndToken="0x23b4cc0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb580" nameToken="0x23b5660" typeStartToken="0x23b55b0" typeEndToken="0x23b55b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb5f0" nameToken="0x23b68f0" typeStartToken="0x23ca170" typeEndToken="0x23b6840" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb660" nameToken="0x23b8be0" typeStartToken="0x23b8b30" typeEndToken="0x23b8b30" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb700" nameToken="0x23b9210" typeStartToken="0x23c99a0" typeEndToken="0x23c99a0" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cae20" nameToken="0x23b9a50" typeStartToken="0x23b99a0" typeEndToken="0x23b99a0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb7a0" nameToken="0x23bf440" typeStartToken="0x23bf230" typeEndToken="0x23bf390" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb810" nameToken="0x23c2720" typeStartToken="0x23c2510" typeEndToken="0x23c2670" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb8f0" nameToken="0x23c8340" typeStartToken="0x23c8290" typeEndToken="0x23c8290" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23cb960" nameToken="0x23c86b0" typeStartToken="0x23c84a0" typeEndToken="0x23c8600" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x23cb880" nameToken="0x23c9160" typeStartToken="0x23c90b0" typeEndToken="0x23c90b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x23adf48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23ae368">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x23ae628">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b1988">
+      <value tokvalue="0x23b1980" known="true"/>
+    </values>
+    <values id="0x23b1b18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x23b2148">
+      <value tokvalue="0x23b2140" known="true"/>
+    </values>
+    <values id="0x23b22d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x23b3988">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b3c48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b4ed8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b5b38">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23b87c8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23b8d48">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23b9008">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b9378">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23b9638">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b9bb8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x23b9e78">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23ba3f8">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="2" possible="true"/>
+    </values>
+    <values id="0x23ba978">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23bae48">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="2" possible="true"/>
+    </values>
+    <values id="0x23bb318">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="2" possible="true"/>
+    </values>
+    <values id="0x23bb898">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23bbd68">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="2" possible="true"/>
+    </values>
+    <values id="0x23bce98">
+      <value tokvalue="0x23bce90" known="true"/>
+    </values>
+    <values id="0x23bd188">
+      <value tokvalue="0x23bd180" known="true"/>
+    </values>
+    <values id="0x23bd478">
+      <value tokvalue="0x23bd470" known="true"/>
+    </values>
+    <values id="0x23bd768">
+      <value tokvalue="0x23bd760" known="true"/>
+    </values>
+    <values id="0x23be1b8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23be898">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23bef78">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23bfbd8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c00a8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23c0ba8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c1078">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23c1b78">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c2048">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x23c3648">
+      <value tokvalue="0x23c3640" known="true"/>
+    </values>
+    <values id="0x23c4148">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c48d8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c5068">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c57f8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c63a8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c6f58">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x23c8e78">
+      <value tokvalue="0x23c8e70" known="true"/>
+    </values>
+    <values id="0x23c9798">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

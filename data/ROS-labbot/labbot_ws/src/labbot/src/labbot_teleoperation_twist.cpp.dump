@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x17dddb0" file="labbot_teleoperation_twist.cpp" linenr="11" str="class" scope="0x17ef600" type="name"/>
+    <token id="0x17e0540" file="labbot_teleoperation_twist.cpp" linenr="11" str="LabbotTeleoperation" scope="0x17ef600" type="name" type-scope="0x17efb70"/>
+    <token id="0x17e05f0" file="labbot_teleoperation_twist.cpp" linenr="12" str="{" scope="0x17efb70" link="0x17e26a0"/>
+    <token id="0x17e06a0" file="labbot_teleoperation_twist.cpp" linenr="13" str="public:" scope="0x17efb70" type="name"/>
+    <token id="0x17e0800" file="labbot_teleoperation_twist.cpp" linenr="14" str="LabbotTeleoperation" scope="0x17efb70" type="name" function="0x17efce0" astParent="0x17e08e0"/>
+    <token id="0x17e08e0" file="labbot_teleoperation_twist.cpp" linenr="14" str="(" scope="0x17efb70" link="0x17e0990" astOperand1="0x17e0800"/>
+    <token id="0x17e0990" file="labbot_teleoperation_twist.cpp" linenr="14" str=")" scope="0x17efb70" link="0x17e08e0"/>
+    <token id="0x17e0a40" file="labbot_teleoperation_twist.cpp" linenr="14" str=";" scope="0x17efb70"/>
+    <token id="0x17e0af0" file="labbot_teleoperation_twist.cpp" linenr="16" str="private:" scope="0x17efb70" type="name"/>
+    <token id="0x17e0c50" file="labbot_teleoperation_twist.cpp" linenr="17" str="void" scope="0x17efb70" type="name"/>
+    <token id="0x17e0d00" file="labbot_teleoperation_twist.cpp" linenr="17" str="CallbackTwist" scope="0x17efb70" type="name" function="0x17efda0" astParent="0x17e0db0"/>
+    <token id="0x17e0db0" file="labbot_teleoperation_twist.cpp" linenr="17" str="(" scope="0x17efb70" link="0x17e13e0" astOperand1="0x17e0d00" astOperand2="0x17e1280"/>
+    <token id="0x17e0e60" file="labbot_teleoperation_twist.cpp" linenr="17" str="const" scope="0x17efb70" type="name"/>
+    <token id="0x17e0f10" file="labbot_teleoperation_twist.cpp" linenr="17" str="geometry_msgs" scope="0x17efb70" type="name" astParent="0x17e0fc0"/>
+    <token id="0x17e0fc0" file="labbot_teleoperation_twist.cpp" linenr="17" str="::" scope="0x17efb70" astParent="0x17e1120" astOperand1="0x17e0f10" astOperand2="0x17e1070"/>
+    <token id="0x17e1070" file="labbot_teleoperation_twist.cpp" linenr="17" str="Twist" scope="0x17efb70" type="name" astParent="0x17e0fc0"/>
+    <token id="0x17e1120" file="labbot_teleoperation_twist.cpp" linenr="17" str="::" scope="0x17efb70" astParent="0x17e1280" astOperand1="0x17e0fc0" astOperand2="0x17e11d0"/>
+    <token id="0x17e11d0" file="labbot_teleoperation_twist.cpp" linenr="17" str="ConstPtr" scope="0x17efb70" type="name" astParent="0x17e1120"/>
+    <token id="0x17e1280" file="labbot_teleoperation_twist.cpp" linenr="17" str="&amp;" scope="0x17efb70" type="op" astParent="0x17e0db0" astOperand1="0x17e1120" astOperand2="0x17e1330"/>
+    <token id="0x17e1330" file="labbot_teleoperation_twist.cpp" linenr="17" str="twist" scope="0x17efb70" type="name" varId="1" astParent="0x17e1280"/>
+    <token id="0x17e13e0" file="labbot_teleoperation_twist.cpp" linenr="17" str=")" scope="0x17efb70" link="0x17e0db0"/>
+    <token id="0x17e1490" file="labbot_teleoperation_twist.cpp" linenr="17" str=";" scope="0x17efb70"/>
+    <token id="0x17e1540" file="labbot_teleoperation_twist.cpp" linenr="19" str="ros" scope="0x17efb70" type="name" astParent="0x17e15f0"/>
+    <token id="0x17e15f0" file="labbot_teleoperation_twist.cpp" linenr="19" str="::" scope="0x17efb70" astOperand1="0x17e1540" astOperand2="0x17e1750"/>
+    <token id="0x17e16a0" file="labbot_teleoperation_twist.cpp" linenr="19" str="NodeHandle" scope="0x17efb70" type="name"/>
+    <token id="0x17e1750" file="labbot_teleoperation_twist.cpp" linenr="19" str="nh" scope="0x17efb70" type="name" varId="2" variable="0x17f0d40" astParent="0x17e15f0"/>
+    <token id="0x17e1800" file="labbot_teleoperation_twist.cpp" linenr="19" str=";" scope="0x17efb70"/>
+    <token id="0x17e18b0" file="labbot_teleoperation_twist.cpp" linenr="20" str="ros" scope="0x17efb70" type="name" astParent="0x17e1960"/>
+    <token id="0x17e1960" file="labbot_teleoperation_twist.cpp" linenr="20" str="::" scope="0x17efb70" astOperand1="0x17e18b0" astOperand2="0x17e1ac0"/>
+    <token id="0x17e1a10" file="labbot_teleoperation_twist.cpp" linenr="20" str="Publisher" scope="0x17efb70" type="name"/>
+    <token id="0x17e1ac0" file="labbot_teleoperation_twist.cpp" linenr="20" str="msgToLabbotPublisher" scope="0x17efb70" type="name" varId="3" variable="0x17f0db0" astParent="0x17e1960"/>
+    <token id="0x17e1ba0" file="labbot_teleoperation_twist.cpp" linenr="20" str=";" scope="0x17efb70"/>
+    <token id="0x17e1c50" file="labbot_teleoperation_twist.cpp" linenr="21" str="ros" scope="0x17efb70" type="name" astParent="0x17e1d00"/>
+    <token id="0x17e1d00" file="labbot_teleoperation_twist.cpp" linenr="21" str="::" scope="0x17efb70" astOperand1="0x17e1c50" astOperand2="0x17e1e60"/>
+    <token id="0x17e1db0" file="labbot_teleoperation_twist.cpp" linenr="21" str="Subscriber" scope="0x17efb70" type="name"/>
+    <token id="0x17e1e60" file="labbot_teleoperation_twist.cpp" linenr="21" str="twistSubscriber" scope="0x17efb70" type="name" varId="4" variable="0x17f0e20" astParent="0x17e1d00"/>
+    <token id="0x17e1f10" file="labbot_teleoperation_twist.cpp" linenr="21" str=";" scope="0x17efb70"/>
+    <token id="0x17e1fc0" file="labbot_teleoperation_twist.cpp" linenr="23" str="float" scope="0x17efb70" type="name"/>
+    <token id="0x17e2070" file="labbot_teleoperation_twist.cpp" linenr="23" str="motorRightScale" scope="0x17efb70" type="name" varId="5" variable="0x17f0e90"/>
+    <token id="0x17e2120" file="labbot_teleoperation_twist.cpp" linenr="23" str=";" scope="0x17efb70"/>
+    <token id="0x17e3980" file="labbot_teleoperation_twist.cpp" linenr="23" str="float" scope="0x17efb70" type="name"/>
+    <token id="0x17e21d0" file="labbot_teleoperation_twist.cpp" linenr="23" str="motorLeftScale" scope="0x17efb70" type="name" varId="6" variable="0x17f0f00"/>
+    <token id="0x17e2280" file="labbot_teleoperation_twist.cpp" linenr="23" str=";" scope="0x17efb70"/>
+    <token id="0x17e2330" file="labbot_teleoperation_twist.cpp" linenr="24" str="float" scope="0x17efb70" type="name"/>
+    <token id="0x17e23e0" file="labbot_teleoperation_twist.cpp" linenr="24" str="motorScale" scope="0x17efb70" type="name" varId="7" variable="0x17f0f70"/>
+    <token id="0x17e2490" file="labbot_teleoperation_twist.cpp" linenr="24" str=";" scope="0x17efb70"/>
+    <token id="0x17e3e50" file="labbot_teleoperation_twist.cpp" linenr="24" str="float" scope="0x17efb70" type="name"/>
+    <token id="0x17e2540" file="labbot_teleoperation_twist.cpp" linenr="24" str="angularScale" scope="0x17efb70" type="name" varId="8" variable="0x17f0fe0"/>
+    <token id="0x17e25f0" file="labbot_teleoperation_twist.cpp" linenr="24" str=";" scope="0x17efb70"/>
+    <token id="0x17e26a0" file="labbot_teleoperation_twist.cpp" linenr="25" str="}" scope="0x17efb70" link="0x17e05f0"/>
+    <token id="0x17e2750" file="labbot_teleoperation_twist.cpp" linenr="25" str=";" scope="0x17ef600"/>
+    <token id="0x17e2800" file="labbot_teleoperation_twist.cpp" linenr="27" str="LabbotTeleoperation" scope="0x17ef600" type="name" type-scope="0x17efb70" astParent="0x17e28e0"/>
+    <token id="0x17e28e0" file="labbot_teleoperation_twist.cpp" linenr="27" str="::" scope="0x17ef600" astParent="0x17e2a70" astOperand1="0x17e2800" astOperand2="0x17e2990"/>
+    <token id="0x17e2990" file="labbot_teleoperation_twist.cpp" linenr="27" str="LabbotTeleoperation" scope="0x17ef600" type="name" function="0x17efce0" astParent="0x17e28e0"/>
+    <token id="0x17e2a70" file="labbot_teleoperation_twist.cpp" linenr="27" str="(" scope="0x17ef600" link="0x17e2b20" astOperand1="0x17e28e0"/>
+    <token id="0x17e2b20" file="labbot_teleoperation_twist.cpp" linenr="27" str=")" scope="0x17ef600" link="0x17e2a70"/>
+    <token id="0x17e2bd0" file="labbot_teleoperation_twist.cpp" linenr="28" str="{" scope="0x17efe70" link="0x17e6a00"/>
+    <token id="0x17e2c80" file="labbot_teleoperation_twist.cpp" linenr="29" str="this" scope="0x17efe70" type="name" astParent="0x17e2d30"/>
+    <token id="0x17e2d30" file="labbot_teleoperation_twist.cpp" linenr="29" str="." scope="0x17efe70" astParent="0x17e3610" astOperand1="0x17e2c80" astOperand2="0x17e3560"/>
+    <token id="0x17e3560" file="labbot_teleoperation_twist.cpp" linenr="29" str="motorRightScale" scope="0x17efe70" type="name" varId="5" variable="0x17f0e90" astParent="0x17e2d30"/>
+    <token id="0x17e3610" file="labbot_teleoperation_twist.cpp" linenr="29" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e2d30" astOperand2="0x17e36c0"/>
+    <token id="0x17e36c0" file="labbot_teleoperation_twist.cpp" linenr="29" str="40.0F" scope="0x17efe70" type="number" isFloat="True" astParent="0x17e3610"/>
+    <token id="0x17e3770" file="labbot_teleoperation_twist.cpp" linenr="29" str=";" scope="0x17efe70"/>
+    <token id="0x17e3820" file="labbot_teleoperation_twist.cpp" linenr="30" str="this" scope="0x17efe70" type="name" astParent="0x17e38d0"/>
+    <token id="0x17e38d0" file="labbot_teleoperation_twist.cpp" linenr="30" str="." scope="0x17efe70" astParent="0x17e3ae0" astOperand1="0x17e3820" astOperand2="0x17e3a30"/>
+    <token id="0x17e3a30" file="labbot_teleoperation_twist.cpp" linenr="30" str="motorLeftScale" scope="0x17efe70" type="name" varId="6" variable="0x17f0f00" astParent="0x17e38d0"/>
+    <token id="0x17e3ae0" file="labbot_teleoperation_twist.cpp" linenr="30" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e38d0" astOperand2="0x17e3b90"/>
+    <token id="0x17e3b90" file="labbot_teleoperation_twist.cpp" linenr="30" str="40.0F" scope="0x17efe70" type="number" isFloat="True" astParent="0x17e3ae0"/>
+    <token id="0x17e3c40" file="labbot_teleoperation_twist.cpp" linenr="30" str=";" scope="0x17efe70"/>
+    <token id="0x17e3cf0" file="labbot_teleoperation_twist.cpp" linenr="32" str="this" scope="0x17efe70" type="name" astParent="0x17e3da0"/>
+    <token id="0x17e3da0" file="labbot_teleoperation_twist.cpp" linenr="32" str="." scope="0x17efe70" astParent="0x17e3fb0" astOperand1="0x17e3cf0" astOperand2="0x17e3f00"/>
+    <token id="0x17e3f00" file="labbot_teleoperation_twist.cpp" linenr="32" str="motorScale" scope="0x17efe70" type="name" varId="7" variable="0x17f0f70" astParent="0x17e3da0"/>
+    <token id="0x17e3fb0" file="labbot_teleoperation_twist.cpp" linenr="32" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e3da0" astOperand2="0x17e4060"/>
+    <token id="0x17e4060" file="labbot_teleoperation_twist.cpp" linenr="32" str="40.0F" scope="0x17efe70" type="number" isFloat="True" astParent="0x17e3fb0"/>
+    <token id="0x17e4110" file="labbot_teleoperation_twist.cpp" linenr="32" str=";" scope="0x17efe70"/>
+    <token id="0x17e41c0" file="labbot_teleoperation_twist.cpp" linenr="33" str="this" scope="0x17efe70" type="name" astParent="0x17e4270"/>
+    <token id="0x17e4270" file="labbot_teleoperation_twist.cpp" linenr="33" str="." scope="0x17efe70" astParent="0x17e4480" astOperand1="0x17e41c0" astOperand2="0x17e43d0"/>
+    <token id="0x17e43d0" file="labbot_teleoperation_twist.cpp" linenr="33" str="angularScale" scope="0x17efe70" type="name" varId="8" variable="0x17f0fe0" astParent="0x17e4270"/>
+    <token id="0x17e4480" file="labbot_teleoperation_twist.cpp" linenr="33" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e4270" astOperand2="0x17e4530"/>
+    <token id="0x17e4530" file="labbot_teleoperation_twist.cpp" linenr="33" str="1.0F" scope="0x17efe70" type="number" isFloat="True" astParent="0x17e4480"/>
+    <token id="0x17e45e0" file="labbot_teleoperation_twist.cpp" linenr="33" str=";" scope="0x17efe70"/>
+    <token id="0x17e4690" file="labbot_teleoperation_twist.cpp" linenr="35" str="this" scope="0x17efe70" type="name" astParent="0x17e4740"/>
+    <token id="0x17e4740" file="labbot_teleoperation_twist.cpp" linenr="35" str="." scope="0x17efe70" astParent="0x17e4980" astOperand1="0x17e4690" astOperand2="0x17e48a0"/>
+    <token id="0x17e48a0" file="labbot_teleoperation_twist.cpp" linenr="35" str="msgToLabbotPublisher" scope="0x17efe70" type="name" varId="3" variable="0x17f0db0" astParent="0x17e4740"/>
+    <token id="0x17e4980" file="labbot_teleoperation_twist.cpp" linenr="35" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e4740" astOperand2="0x17e51c0"/>
+    <token id="0x17e4a30" file="labbot_teleoperation_twist.cpp" linenr="35" str="this" scope="0x17efe70" type="name" astParent="0x17e4ae0"/>
+    <token id="0x17e4ae0" file="labbot_teleoperation_twist.cpp" linenr="35" str="." scope="0x17efe70" astParent="0x17e4cf0" astOperand1="0x17e4a30" astOperand2="0x17e4c40"/>
+    <token id="0x17e4c40" file="labbot_teleoperation_twist.cpp" linenr="35" str="nh" scope="0x17efe70" type="name" varId="2" variable="0x17f0d40" astParent="0x17e4ae0"/>
+    <token id="0x17e4cf0" file="labbot_teleoperation_twist.cpp" linenr="35" str="." scope="0x17efe70" astParent="0x17e51c0" astOperand1="0x17e4ae0" astOperand2="0x17e4da0"/>
+    <token id="0x17e4da0" file="labbot_teleoperation_twist.cpp" linenr="35" str="advertise" scope="0x17efe70" type="name" astParent="0x17e4cf0"/>
+    <token id="0x17e4e50" file="labbot_teleoperation_twist.cpp" linenr="35" str="&lt;" scope="0x17efe70" link="0x17e5110"/>
+    <token id="0x17e4f00" file="labbot_teleoperation_twist.cpp" linenr="35" str="labbot" scope="0x17efe70" type="name"/>
+    <token id="0x17e4fb0" file="labbot_teleoperation_twist.cpp" linenr="35" str="::" scope="0x17efe70"/>
+    <token id="0x17e5060" file="labbot_teleoperation_twist.cpp" linenr="35" str="msgToLabbot" scope="0x17efe70" type="name"/>
+    <token id="0x17e5110" file="labbot_teleoperation_twist.cpp" linenr="35" str="&gt;" scope="0x17efe70" link="0x17e4e50"/>
+    <token id="0x17e51c0" file="labbot_teleoperation_twist.cpp" linenr="35" str="(" scope="0x17efe70" link="0x17e5480" astParent="0x17e4980" astOperand1="0x17e4cf0" astOperand2="0x17e5320"/>
+    <token id="0x17e5270" file="labbot_teleoperation_twist.cpp" linenr="35" str="&quot;toLabbot&quot;" scope="0x17efe70" type="string" strlen="8" values="0x17e5278" astParent="0x17e5320"/>
+    <token id="0x17e5320" file="labbot_teleoperation_twist.cpp" linenr="35" str="," scope="0x17efe70" astParent="0x17e51c0" astOperand1="0x17e5270" astOperand2="0x17e53d0"/>
+    <token id="0x17e53d0" file="labbot_teleoperation_twist.cpp" linenr="35" str="10" scope="0x17efe70" type="number" isInt="True" values="0x17e53d8" astParent="0x17e5320"/>
+    <token id="0x17e5480" file="labbot_teleoperation_twist.cpp" linenr="35" str=")" scope="0x17efe70" link="0x17e51c0"/>
+    <token id="0x17e5530" file="labbot_teleoperation_twist.cpp" linenr="35" str=";" scope="0x17efe70"/>
+    <token id="0x17e55e0" file="labbot_teleoperation_twist.cpp" linenr="36" str="this" scope="0x17efe70" type="name" astParent="0x17e5690"/>
+    <token id="0x17e5690" file="labbot_teleoperation_twist.cpp" linenr="36" str="." scope="0x17efe70" astParent="0x17e58a0" astOperand1="0x17e55e0" astOperand2="0x17e57f0"/>
+    <token id="0x17e57f0" file="labbot_teleoperation_twist.cpp" linenr="36" str="twistSubscriber" scope="0x17efe70" type="name" varId="4" variable="0x17f0e20" astParent="0x17e5690"/>
+    <token id="0x17e58a0" file="labbot_teleoperation_twist.cpp" linenr="36" str="=" scope="0x17efe70" type="op" isAssignmentOp="True" astOperand1="0x17e5690" astOperand2="0x17e60e0"/>
+    <token id="0x17e5950" file="labbot_teleoperation_twist.cpp" linenr="36" str="this" scope="0x17efe70" type="name" astParent="0x17e5a00"/>
+    <token id="0x17e5a00" file="labbot_teleoperation_twist.cpp" linenr="36" str="." scope="0x17efe70" astParent="0x17e5c10" astOperand1="0x17e5950" astOperand2="0x17e5b60"/>
+    <token id="0x17e5b60" file="labbot_teleoperation_twist.cpp" linenr="36" str="nh" scope="0x17efe70" type="name" varId="2" variable="0x17f0d40" astParent="0x17e5a00"/>
+    <token id="0x17e5c10" file="labbot_teleoperation_twist.cpp" linenr="36" str="." scope="0x17efe70" astParent="0x17e60e0" astOperand1="0x17e5a00" astOperand2="0x17e5cc0"/>
+    <token id="0x17e5cc0" file="labbot_teleoperation_twist.cpp" linenr="36" str="subscribe" scope="0x17efe70" type="name" astParent="0x17e5c10"/>
+    <token id="0x17e5d70" file="labbot_teleoperation_twist.cpp" linenr="36" str="&lt;" scope="0x17efe70" link="0x17e6030"/>
+    <token id="0x17e5e20" file="labbot_teleoperation_twist.cpp" linenr="36" str="geometry_msgs" scope="0x17efe70" type="name"/>
+    <token id="0x17e5ed0" file="labbot_teleoperation_twist.cpp" linenr="36" str="::" scope="0x17efe70"/>
+    <token id="0x17e5f80" file="labbot_teleoperation_twist.cpp" linenr="36" str="Twist" scope="0x17efe70" type="name"/>
+    <token id="0x17e6030" file="labbot_teleoperation_twist.cpp" linenr="36" str="&gt;" scope="0x17efe70" link="0x17e5d70"/>
+    <token id="0x17e60e0" file="labbot_teleoperation_twist.cpp" linenr="36" str="(" scope="0x17efe70" link="0x17e68a0" astParent="0x17e58a0" astOperand1="0x17e5c10" astOperand2="0x17e6740"/>
+    <token id="0x17e6190" file="labbot_teleoperation_twist.cpp" linenr="36" str="&quot;Twist&quot;" scope="0x17efe70" type="string" strlen="5" values="0x17e6198" astParent="0x17e6240"/>
+    <token id="0x17e6240" file="labbot_teleoperation_twist.cpp" linenr="36" str="," scope="0x17efe70" astParent="0x17e63a0" astOperand1="0x17e6190" astOperand2="0x17e62f0"/>
+    <token id="0x17e62f0" file="labbot_teleoperation_twist.cpp" linenr="36" str="10" scope="0x17efe70" type="number" isInt="True" values="0x17e62f8" astParent="0x17e6240"/>
+    <token id="0x17e63a0" file="labbot_teleoperation_twist.cpp" linenr="36" str="," scope="0x17efe70" astParent="0x17e6740" astOperand1="0x17e6240" astOperand2="0x17e6450"/>
+    <token id="0x17e6450" file="labbot_teleoperation_twist.cpp" linenr="36" str="&amp;" scope="0x17efe70" type="op" astParent="0x17e63a0" astOperand1="0x17e65e0"/>
+    <token id="0x17e6500" file="labbot_teleoperation_twist.cpp" linenr="36" str="LabbotTeleoperation" scope="0x17efe70" type="name" type-scope="0x17efb70" astParent="0x17e65e0"/>
+    <token id="0x17e65e0" file="labbot_teleoperation_twist.cpp" linenr="36" str="::" scope="0x17efe70" astParent="0x17e6450" astOperand1="0x17e6500" astOperand2="0x17e6690"/>
+    <token id="0x17e6690" file="labbot_teleoperation_twist.cpp" linenr="36" str="CallbackTwist" scope="0x17efe70" type="name" astParent="0x17e65e0"/>
+    <token id="0x17e6740" file="labbot_teleoperation_twist.cpp" linenr="36" str="," scope="0x17efe70" astParent="0x17e60e0" astOperand1="0x17e63a0" astOperand2="0x17e67f0"/>
+    <token id="0x17e67f0" file="labbot_teleoperation_twist.cpp" linenr="36" str="this" scope="0x17efe70" type="name" astParent="0x17e6740"/>
+    <token id="0x17e68a0" file="labbot_teleoperation_twist.cpp" linenr="36" str=")" scope="0x17efe70" link="0x17e60e0"/>
+    <token id="0x17e6950" file="labbot_teleoperation_twist.cpp" linenr="36" str=";" scope="0x17efe70"/>
+    <token id="0x17e6a00" file="labbot_teleoperation_twist.cpp" linenr="37" str="}" scope="0x17efe70" link="0x17e2bd0"/>
+    <token id="0x17e6ab0" file="labbot_teleoperation_twist.cpp" linenr="39" str="void" scope="0x17ef600" type="name"/>
+    <token id="0x17e6b60" file="labbot_teleoperation_twist.cpp" linenr="39" str="LabbotTeleoperation" scope="0x17ef600" type="name" type-scope="0x17efb70" astParent="0x17e6c40"/>
+    <token id="0x17e6c40" file="labbot_teleoperation_twist.cpp" linenr="39" str="::" scope="0x17ef600" astParent="0x17e6da0" astOperand1="0x17e6b60" astOperand2="0x17e6cf0"/>
+    <token id="0x17e6cf0" file="labbot_teleoperation_twist.cpp" linenr="39" str="CallbackTwist" scope="0x17ef600" type="name" function="0x17efda0" astParent="0x17e6c40"/>
+    <token id="0x17e6da0" file="labbot_teleoperation_twist.cpp" linenr="39" str="(" scope="0x17ef600" link="0x17e73d0" astOperand1="0x17e6c40" astOperand2="0x17e7270"/>
+    <token id="0x17e6e50" file="labbot_teleoperation_twist.cpp" linenr="39" str="const" scope="0x17ef600" type="name"/>
+    <token id="0x17e6f00" file="labbot_teleoperation_twist.cpp" linenr="39" str="geometry_msgs" scope="0x17ef600" type="name" astParent="0x17e6fb0"/>
+    <token id="0x17e6fb0" file="labbot_teleoperation_twist.cpp" linenr="39" str="::" scope="0x17ef600" astParent="0x17e7110" astOperand1="0x17e6f00" astOperand2="0x17e7060"/>
+    <token id="0x17e7060" file="labbot_teleoperation_twist.cpp" linenr="39" str="Twist" scope="0x17ef600" type="name" astParent="0x17e6fb0"/>
+    <token id="0x17e7110" file="labbot_teleoperation_twist.cpp" linenr="39" str="::" scope="0x17ef600" astParent="0x17e7270" astOperand1="0x17e6fb0" astOperand2="0x17e71c0"/>
+    <token id="0x17e71c0" file="labbot_teleoperation_twist.cpp" linenr="39" str="ConstPtr" scope="0x17ef600" type="name" astParent="0x17e7110"/>
+    <token id="0x17e7270" file="labbot_teleoperation_twist.cpp" linenr="39" str="&amp;" scope="0x17ef600" type="op" astParent="0x17e6da0" astOperand1="0x17e7110" astOperand2="0x17e7320"/>
+    <token id="0x17e7320" file="labbot_teleoperation_twist.cpp" linenr="39" str="twist" scope="0x17ef600" type="name" varId="9" variable="0x17f1500" astParent="0x17e7270"/>
+    <token id="0x17e73d0" file="labbot_teleoperation_twist.cpp" linenr="39" str=")" scope="0x17ef600" link="0x17e6da0"/>
+    <token id="0x17e7480" file="labbot_teleoperation_twist.cpp" linenr="40" str="{" scope="0x17effc0" link="0x17edb20"/>
+    <token id="0x17e7530" file="labbot_teleoperation_twist.cpp" linenr="42" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e75e0" file="labbot_teleoperation_twist.cpp" linenr="42" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050"/>
+    <token id="0x17e7690" file="labbot_teleoperation_twist.cpp" linenr="42" str=";" scope="0x17effc0"/>
+    <token id="0x17e4320" file="labbot_teleoperation_twist.cpp" linenr="42" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e47f0"/>
+    <token id="0x17e47f0" file="labbot_teleoperation_twist.cpp" linenr="42" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17e4320" astOperand2="0x17e7a00"/>
+    <token id="0x17e7740" file="labbot_teleoperation_twist.cpp" linenr="42" str="twist" scope="0x17effc0" type="name" varId="9" variable="0x17f1500" astParent="0x17e77f0"/>
+    <token id="0x17e77f0" file="labbot_teleoperation_twist.cpp" linenr="42" str="." scope="0x17effc0" astParent="0x17e7a00" astOperand1="0x17e7740" astOperand2="0x17e7950"/>
+    <token id="0x17e7950" file="labbot_teleoperation_twist.cpp" linenr="42" str="linear" scope="0x17effc0" type="name" varId="11" astParent="0x17e77f0"/>
+    <token id="0x17e7a00" file="labbot_teleoperation_twist.cpp" linenr="42" str="." scope="0x17effc0" astParent="0x17e47f0" astOperand1="0x17e77f0" astOperand2="0x17e7ab0"/>
+    <token id="0x17e7ab0" file="labbot_teleoperation_twist.cpp" linenr="42" str="x" scope="0x17effc0" type="name" varId="12" astParent="0x17e7a00"/>
+    <token id="0x17e7b60" file="labbot_teleoperation_twist.cpp" linenr="42" str=";" scope="0x17effc0"/>
+    <token id="0x17e7c10" file="labbot_teleoperation_twist.cpp" linenr="43" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e7cc0" file="labbot_teleoperation_twist.cpp" linenr="43" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0"/>
+    <token id="0x17e7d70" file="labbot_teleoperation_twist.cpp" linenr="43" str=";" scope="0x17effc0"/>
+    <token id="0x17e4b90" file="labbot_teleoperation_twist.cpp" linenr="43" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17e5740"/>
+    <token id="0x17e5740" file="labbot_teleoperation_twist.cpp" linenr="43" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17e4b90" astOperand2="0x17e80e0"/>
+    <token id="0x17e7e20" file="labbot_teleoperation_twist.cpp" linenr="43" str="twist" scope="0x17effc0" type="name" varId="9" variable="0x17f1500" astParent="0x17e7ed0"/>
+    <token id="0x17e7ed0" file="labbot_teleoperation_twist.cpp" linenr="43" str="." scope="0x17effc0" astParent="0x17e80e0" astOperand1="0x17e7e20" astOperand2="0x17e8030"/>
+    <token id="0x17e8030" file="labbot_teleoperation_twist.cpp" linenr="43" str="angular" scope="0x17effc0" type="name" varId="14" astParent="0x17e7ed0"/>
+    <token id="0x17e80e0" file="labbot_teleoperation_twist.cpp" linenr="43" str="." scope="0x17effc0" astParent="0x17e5740" astOperand1="0x17e7ed0" astOperand2="0x17e8190"/>
+    <token id="0x17e8190" file="labbot_teleoperation_twist.cpp" linenr="43" str="z" scope="0x17effc0" type="name" varId="15" astParent="0x17e80e0"/>
+    <token id="0x17e8240" file="labbot_teleoperation_twist.cpp" linenr="43" str=";" scope="0x17effc0"/>
+    <token id="0x17e82f0" file="labbot_teleoperation_twist.cpp" linenr="56" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e83a0" file="labbot_teleoperation_twist.cpp" linenr="56" str="angle" scope="0x17effc0" type="name" varId="16" variable="0x17f1130"/>
+    <token id="0x17e8450" file="labbot_teleoperation_twist.cpp" linenr="56" str=";" scope="0x17effc0"/>
+    <token id="0x17e5ab0" file="labbot_teleoperation_twist.cpp" linenr="56" str="angle" scope="0x17effc0" type="name" varId="16" variable="0x17f1130" astParent="0x17e78a0"/>
+    <token id="0x17e78a0" file="labbot_teleoperation_twist.cpp" linenr="56" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17e5ab0" astOperand2="0x17e85b0"/>
+    <token id="0x17e8500" file="labbot_teleoperation_twist.cpp" linenr="56" str="atan2" scope="0x17effc0" type="name" astParent="0x17e85b0"/>
+    <token id="0x17e85b0" file="labbot_teleoperation_twist.cpp" linenr="56" str="(" scope="0x17effc0" link="0x17e8870" astParent="0x17e78a0" astOperand1="0x17e8500" astOperand2="0x17e8710"/>
+    <token id="0x17e8660" file="labbot_teleoperation_twist.cpp" linenr="56" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17e8710"/>
+    <token id="0x17e8710" file="labbot_teleoperation_twist.cpp" linenr="56" str="," scope="0x17effc0" astParent="0x17e85b0" astOperand1="0x17e8660" astOperand2="0x17e87c0"/>
+    <token id="0x17e87c0" file="labbot_teleoperation_twist.cpp" linenr="56" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e8710"/>
+    <token id="0x17e8870" file="labbot_teleoperation_twist.cpp" linenr="56" str=")" scope="0x17effc0" link="0x17e85b0"/>
+    <token id="0x17e8920" file="labbot_teleoperation_twist.cpp" linenr="56" str=";" scope="0x17effc0"/>
+    <token id="0x17e89d0" file="labbot_teleoperation_twist.cpp" linenr="57" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e8a80" file="labbot_teleoperation_twist.cpp" linenr="57" str="power" scope="0x17effc0" type="name" varId="17" variable="0x17f11a0"/>
+    <token id="0x17e8b30" file="labbot_teleoperation_twist.cpp" linenr="57" str=";" scope="0x17effc0"/>
+    <token id="0x17e7f80" file="labbot_teleoperation_twist.cpp" linenr="57" str="power" scope="0x17effc0" type="name" varId="17" variable="0x17f11a0" astParent="0x17dda50"/>
+    <token id="0x17dda50" file="labbot_teleoperation_twist.cpp" linenr="57" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17e7f80" astOperand2="0x17e8c90"/>
+    <token id="0x17e8be0" file="labbot_teleoperation_twist.cpp" linenr="57" str="sqrt" scope="0x17effc0" type="name" astParent="0x17e8c90"/>
+    <token id="0x17e8c90" file="labbot_teleoperation_twist.cpp" linenr="57" str="(" scope="0x17effc0" link="0x17e9210" astParent="0x17dda50" astOperand1="0x17e8be0" astOperand2="0x17e8f50"/>
+    <token id="0x17e8d40" file="labbot_teleoperation_twist.cpp" linenr="57" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e8df0"/>
+    <token id="0x17e8df0" file="labbot_teleoperation_twist.cpp" linenr="57" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e8f50" astOperand1="0x17e8d40" astOperand2="0x17e8ea0"/>
+    <token id="0x17e8ea0" file="labbot_teleoperation_twist.cpp" linenr="57" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e8df0"/>
+    <token id="0x17e8f50" file="labbot_teleoperation_twist.cpp" linenr="57" str="+" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e8c90" astOperand1="0x17e8df0" astOperand2="0x17e90b0"/>
+    <token id="0x17e9000" file="labbot_teleoperation_twist.cpp" linenr="57" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17e90b0"/>
+    <token id="0x17e90b0" file="labbot_teleoperation_twist.cpp" linenr="57" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e8f50" astOperand1="0x17e9000" astOperand2="0x17e9160"/>
+    <token id="0x17e9160" file="labbot_teleoperation_twist.cpp" linenr="57" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17e90b0"/>
+    <token id="0x17e9210" file="labbot_teleoperation_twist.cpp" linenr="57" str=")" scope="0x17effc0" link="0x17e8c90"/>
+    <token id="0x17e92c0" file="labbot_teleoperation_twist.cpp" linenr="57" str=";" scope="0x17effc0"/>
+    <token id="0x17e9370" file="labbot_teleoperation_twist.cpp" linenr="61" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e9420" file="labbot_teleoperation_twist.cpp" linenr="61" str="motorRightSpeed" scope="0x17effc0" type="name" varId="18" variable="0x17f1210"/>
+    <token id="0x17e94d0" file="labbot_teleoperation_twist.cpp" linenr="61" str=";" scope="0x17effc0"/>
+    <token id="0x17ef7a0" file="labbot_teleoperation_twist.cpp" linenr="61" str="motorRightSpeed" scope="0x17effc0" type="name" varId="18" variable="0x17f1210" astParent="0x17ef850"/>
+    <token id="0x17ef850" file="labbot_teleoperation_twist.cpp" linenr="61" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17ef7a0" astOperand2="0x17e9790"/>
+    <token id="0x17e9580" file="labbot_teleoperation_twist.cpp" linenr="61" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e9630"/>
+    <token id="0x17e9630" file="labbot_teleoperation_twist.cpp" linenr="61" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e9790" astOperand1="0x17e9580" astOperand2="0x17e96e0"/>
+    <token id="0x17e96e0" file="labbot_teleoperation_twist.cpp" linenr="61" str="motorScale" scope="0x17effc0" type="name" varId="7" variable="0x17f0f70" astParent="0x17e9630"/>
+    <token id="0x17e9790" file="labbot_teleoperation_twist.cpp" linenr="61" str="+" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17ef850" astOperand1="0x17e9630" astOperand2="0x17e9a50"/>
+    <token id="0x17e9840" file="labbot_teleoperation_twist.cpp" linenr="61" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17e98f0"/>
+    <token id="0x17e98f0" file="labbot_teleoperation_twist.cpp" linenr="61" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e9a50" astOperand1="0x17e9840" astOperand2="0x17e99a0"/>
+    <token id="0x17e99a0" file="labbot_teleoperation_twist.cpp" linenr="61" str="motorScale" scope="0x17effc0" type="name" varId="7" variable="0x17f0f70" astParent="0x17e98f0"/>
+    <token id="0x17e9a50" file="labbot_teleoperation_twist.cpp" linenr="61" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17e9790" astOperand1="0x17e98f0" astOperand2="0x17e9b00"/>
+    <token id="0x17e9b00" file="labbot_teleoperation_twist.cpp" linenr="61" str="angularScale" scope="0x17effc0" type="name" varId="8" variable="0x17f0fe0" astParent="0x17e9a50"/>
+    <token id="0x17e9bb0" file="labbot_teleoperation_twist.cpp" linenr="61" str=";" scope="0x17effc0"/>
+    <token id="0x17e9c60" file="labbot_teleoperation_twist.cpp" linenr="62" str="float" scope="0x17effc0" type="name"/>
+    <token id="0x17e9d10" file="labbot_teleoperation_twist.cpp" linenr="62" str="motorLeftSpeed" scope="0x17effc0" type="name" varId="19" variable="0x17f1280"/>
+    <token id="0x17e9dc0" file="labbot_teleoperation_twist.cpp" linenr="62" str=";" scope="0x17effc0"/>
+    <token id="0x17ef900" file="labbot_teleoperation_twist.cpp" linenr="62" str="motorLeftSpeed" scope="0x17effc0" type="name" varId="19" variable="0x17f1280" astParent="0x17ef540"/>
+    <token id="0x17ef540" file="labbot_teleoperation_twist.cpp" linenr="62" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17ef900" astOperand2="0x17ea080"/>
+    <token id="0x17e9e70" file="labbot_teleoperation_twist.cpp" linenr="62" str="x" scope="0x17effc0" type="name" varId="10" variable="0x17f1050" astParent="0x17e9f20"/>
+    <token id="0x17e9f20" file="labbot_teleoperation_twist.cpp" linenr="62" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17ea080" astOperand1="0x17e9e70" astOperand2="0x17e9fd0"/>
+    <token id="0x17e9fd0" file="labbot_teleoperation_twist.cpp" linenr="62" str="motorScale" scope="0x17effc0" type="name" varId="7" variable="0x17f0f70" astParent="0x17e9f20"/>
+    <token id="0x17ea080" file="labbot_teleoperation_twist.cpp" linenr="62" str="-" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17ef540" astOperand1="0x17e9f20" astOperand2="0x17ea340"/>
+    <token id="0x17ea130" file="labbot_teleoperation_twist.cpp" linenr="62" str="y" scope="0x17effc0" type="name" varId="13" variable="0x17f10c0" astParent="0x17ea1e0"/>
+    <token id="0x17ea1e0" file="labbot_teleoperation_twist.cpp" linenr="62" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17ea340" astOperand1="0x17ea130" astOperand2="0x17ea290"/>
+    <token id="0x17ea290" file="labbot_teleoperation_twist.cpp" linenr="62" str="motorScale" scope="0x17effc0" type="name" varId="7" variable="0x17f0f70" astParent="0x17ea1e0"/>
+    <token id="0x17ea340" file="labbot_teleoperation_twist.cpp" linenr="62" str="*" scope="0x17effc0" type="op" isArithmeticalOp="True" astParent="0x17ea080" astOperand1="0x17ea1e0" astOperand2="0x17ea3f0"/>
+    <token id="0x17ea3f0" file="labbot_teleoperation_twist.cpp" linenr="62" str="angularScale" scope="0x17effc0" type="name" varId="8" variable="0x17f0fe0" astParent="0x17ea340"/>
+    <token id="0x17ea4a0" file="labbot_teleoperation_twist.cpp" linenr="62" str=";" scope="0x17effc0"/>
+    <token id="0x17ea550" file="labbot_teleoperation_twist.cpp" linenr="65" str="if" scope="0x17effc0" type="name" astParent="0x17ea600"/>
+    <token id="0x17ea600" file="labbot_teleoperation_twist.cpp" linenr="65" str="(" scope="0x17effc0" link="0x17ea8c0" astOperand1="0x17ea550" astOperand2="0x17ea760"/>
+    <token id="0x17ea6b0" file="labbot_teleoperation_twist.cpp" linenr="65" str="motorRightSpeed" scope="0x17effc0" type="name" varId="18" variable="0x17f1210" astParent="0x17ea760"/>
+    <token id="0x17ea760" file="labbot_teleoperation_twist.cpp" linenr="65" str="&gt;" scope="0x17effc0" type="op" isComparisonOp="True" astParent="0x17ea600" astOperand1="0x17ea6b0" astOperand2="0x17ea810"/>
+    <token id="0x17ea810" file="labbot_teleoperation_twist.cpp" linenr="65" str="motorRightScale" scope="0x17effc0" type="name" varId="5" variable="0x17f0e90" astParent="0x17ea760"/>
+    <token id="0x17ea8c0" file="labbot_teleoperation_twist.cpp" linenr="65" str=")" scope="0x17effc0" link="0x17ea600"/>
+    <token id="0x17ea970" file="labbot_teleoperation_twist.cpp" linenr="66" str="{" scope="0x17f0110" link="0x17eace0"/>
+    <token id="0x17eaa20" file="labbot_teleoperation_twist.cpp" linenr="67" str="motorRightSpeed" scope="0x17f0110" type="name" varId="18" variable="0x17f1210" astParent="0x17eaad0"/>
+    <token id="0x17eaad0" file="labbot_teleoperation_twist.cpp" linenr="67" str="=" scope="0x17f0110" type="op" isAssignmentOp="True" astOperand1="0x17eaa20" astOperand2="0x17eab80"/>
+    <token id="0x17eab80" file="labbot_teleoperation_twist.cpp" linenr="67" str="motorRightScale" scope="0x17f0110" type="name" varId="5" variable="0x17f0e90" astParent="0x17eaad0"/>
+    <token id="0x17eac30" file="labbot_teleoperation_twist.cpp" linenr="67" str=";" scope="0x17f0110"/>
+    <token id="0x17eace0" file="labbot_teleoperation_twist.cpp" linenr="68" str="}" scope="0x17f0110" link="0x17ea970"/>
+    <token id="0x17ead90" file="labbot_teleoperation_twist.cpp" linenr="69" str="else" scope="0x17effc0" type="name"/>
+    <token id="0x17ef2e0" file="labbot_teleoperation_twist.cpp" linenr="69" str="{" scope="0x17f0390" link="0x17ef390"/>
+    <token id="0x17eae40" file="labbot_teleoperation_twist.cpp" linenr="69" str="if" scope="0x17f0390" type="name" astParent="0x17eaef0"/>
+    <token id="0x17eaef0" file="labbot_teleoperation_twist.cpp" linenr="69" str="(" scope="0x17f0390" link="0x17eb260" astOperand1="0x17eae40" astOperand2="0x17eb050"/>
+    <token id="0x17eafa0" file="labbot_teleoperation_twist.cpp" linenr="69" str="motorRightSpeed" scope="0x17f0390" type="name" varId="18" variable="0x17f1210" astParent="0x17eb050"/>
+    <token id="0x17eb050" file="labbot_teleoperation_twist.cpp" linenr="69" str="&lt;" scope="0x17f0390" type="op" isComparisonOp="True" astParent="0x17eaef0" astOperand1="0x17eafa0" astOperand2="0x17eb100"/>
+    <token id="0x17eb100" file="labbot_teleoperation_twist.cpp" linenr="69" str="-" scope="0x17f0390" type="op" isArithmeticalOp="True" astParent="0x17eb050" astOperand1="0x17eb1b0"/>
+    <token id="0x17eb1b0" file="labbot_teleoperation_twist.cpp" linenr="69" str="motorRightScale" scope="0x17f0390" type="name" varId="5" variable="0x17f0e90" astParent="0x17eb100"/>
+    <token id="0x17eb260" file="labbot_teleoperation_twist.cpp" linenr="69" str=")" scope="0x17f0390" link="0x17eaef0"/>
+    <token id="0x17eb310" file="labbot_teleoperation_twist.cpp" linenr="70" str="{" scope="0x17f04e0" link="0x17eb730"/>
+    <token id="0x17eb3c0" file="labbot_teleoperation_twist.cpp" linenr="71" str="motorRightSpeed" scope="0x17f04e0" type="name" varId="18" variable="0x17f1210" astParent="0x17eb470"/>
+    <token id="0x17eb470" file="labbot_teleoperation_twist.cpp" linenr="71" str="=" scope="0x17f04e0" type="op" isAssignmentOp="True" astOperand1="0x17eb3c0" astOperand2="0x17eb520"/>
+    <token id="0x17eb520" file="labbot_teleoperation_twist.cpp" linenr="71" str="-" scope="0x17f04e0" type="op" isArithmeticalOp="True" astParent="0x17eb470" astOperand1="0x17eb5d0"/>
+    <token id="0x17eb5d0" file="labbot_teleoperation_twist.cpp" linenr="71" str="motorRightScale" scope="0x17f04e0" type="name" varId="5" variable="0x17f0e90" astParent="0x17eb520"/>
+    <token id="0x17eb680" file="labbot_teleoperation_twist.cpp" linenr="71" str=";" scope="0x17f04e0"/>
+    <token id="0x17eb730" file="labbot_teleoperation_twist.cpp" linenr="72" str="}" scope="0x17f04e0" link="0x17eb310"/>
+    <token id="0x17ef390" file="labbot_teleoperation_twist.cpp" linenr="72" str="}" scope="0x17f0390" link="0x17ef2e0"/>
+    <token id="0x17eb7e0" file="labbot_teleoperation_twist.cpp" linenr="73" str="if" scope="0x17effc0" type="name" astParent="0x17eb890"/>
+    <token id="0x17eb890" file="labbot_teleoperation_twist.cpp" linenr="73" str="(" scope="0x17effc0" link="0x17ebb50" astOperand1="0x17eb7e0" astOperand2="0x17eb9f0"/>
+    <token id="0x17eb940" file="labbot_teleoperation_twist.cpp" linenr="73" str="motorLeftSpeed" scope="0x17effc0" type="name" varId="19" variable="0x17f1280" astParent="0x17eb9f0"/>
+    <token id="0x17eb9f0" file="labbot_teleoperation_twist.cpp" linenr="73" str="&gt;" scope="0x17effc0" type="op" isComparisonOp="True" astParent="0x17eb890" astOperand1="0x17eb940" astOperand2="0x17ebaa0"/>
+    <token id="0x17ebaa0" file="labbot_teleoperation_twist.cpp" linenr="73" str="motorLeftScale" scope="0x17effc0" type="name" varId="6" variable="0x17f0f00" astParent="0x17eb9f0"/>
+    <token id="0x17ebb50" file="labbot_teleoperation_twist.cpp" linenr="73" str=")" scope="0x17effc0" link="0x17eb890"/>
+    <token id="0x17ebc00" file="labbot_teleoperation_twist.cpp" linenr="74" str="{" scope="0x17f0630" link="0x17ebf70"/>
+    <token id="0x17ebcb0" file="labbot_teleoperation_twist.cpp" linenr="75" str="motorLeftSpeed" scope="0x17f0630" type="name" varId="19" variable="0x17f1280" astParent="0x17ebd60"/>
+    <token id="0x17ebd60" file="labbot_teleoperation_twist.cpp" linenr="75" str="=" scope="0x17f0630" type="op" isAssignmentOp="True" astOperand1="0x17ebcb0" astOperand2="0x17ebe10"/>
+    <token id="0x17ebe10" file="labbot_teleoperation_twist.cpp" linenr="75" str="motorLeftScale" scope="0x17f0630" type="name" varId="6" variable="0x17f0f00" astParent="0x17ebd60"/>
+    <token id="0x17ebec0" file="labbot_teleoperation_twist.cpp" linenr="75" str=";" scope="0x17f0630"/>
+    <token id="0x17ebf70" file="labbot_teleoperation_twist.cpp" linenr="76" str="}" scope="0x17f0630" link="0x17ebc00"/>
+    <token id="0x17ec020" file="labbot_teleoperation_twist.cpp" linenr="77" str="else" scope="0x17effc0" type="name"/>
+    <token id="0x17efa00" file="labbot_teleoperation_twist.cpp" linenr="77" str="{" scope="0x17f08b0" link="0x17efab0"/>
+    <token id="0x17ec0d0" file="labbot_teleoperation_twist.cpp" linenr="77" str="if" scope="0x17f08b0" type="name" astParent="0x17ec180"/>
+    <token id="0x17ec180" file="labbot_teleoperation_twist.cpp" linenr="77" str="(" scope="0x17f08b0" link="0x17ec4f0" astOperand1="0x17ec0d0" astOperand2="0x17ec2e0"/>
+    <token id="0x17ec230" file="labbot_teleoperation_twist.cpp" linenr="77" str="motorLeftSpeed" scope="0x17f08b0" type="name" varId="19" variable="0x17f1280" astParent="0x17ec2e0"/>
+    <token id="0x17ec2e0" file="labbot_teleoperation_twist.cpp" linenr="77" str="&lt;" scope="0x17f08b0" type="op" isComparisonOp="True" astParent="0x17ec180" astOperand1="0x17ec230" astOperand2="0x17ec390"/>
+    <token id="0x17ec390" file="labbot_teleoperation_twist.cpp" linenr="77" str="-" scope="0x17f08b0" type="op" isArithmeticalOp="True" astParent="0x17ec2e0" astOperand1="0x17ec440"/>
+    <token id="0x17ec440" file="labbot_teleoperation_twist.cpp" linenr="77" str="motorLeftScale" scope="0x17f08b0" type="name" varId="6" variable="0x17f0f00" astParent="0x17ec390"/>
+    <token id="0x17ec4f0" file="labbot_teleoperation_twist.cpp" linenr="77" str=")" scope="0x17f08b0" link="0x17ec180"/>
+    <token id="0x17ec5a0" file="labbot_teleoperation_twist.cpp" linenr="78" str="{" scope="0x17f0a00" link="0x17ec9c0"/>
+    <token id="0x17ec650" file="labbot_teleoperation_twist.cpp" linenr="79" str="motorLeftSpeed" scope="0x17f0a00" type="name" varId="19" variable="0x17f1280" astParent="0x17ec700"/>
+    <token id="0x17ec700" file="labbot_teleoperation_twist.cpp" linenr="79" str="=" scope="0x17f0a00" type="op" isAssignmentOp="True" astOperand1="0x17ec650" astOperand2="0x17ec7b0"/>
+    <token id="0x17ec7b0" file="labbot_teleoperation_twist.cpp" linenr="79" str="-" scope="0x17f0a00" type="op" isArithmeticalOp="True" astParent="0x17ec700" astOperand1="0x17ec860"/>
+    <token id="0x17ec860" file="labbot_teleoperation_twist.cpp" linenr="79" str="motorLeftScale" scope="0x17f0a00" type="name" varId="6" variable="0x17f0f00" astParent="0x17ec7b0"/>
+    <token id="0x17ec910" file="labbot_teleoperation_twist.cpp" linenr="79" str=";" scope="0x17f0a00"/>
+    <token id="0x17ec9c0" file="labbot_teleoperation_twist.cpp" linenr="80" str="}" scope="0x17f0a00" link="0x17ec5a0"/>
+    <token id="0x17efab0" file="labbot_teleoperation_twist.cpp" linenr="80" str="}" scope="0x17f08b0" link="0x17efa00"/>
+    <token id="0x17eca70" file="labbot_teleoperation_twist.cpp" linenr="83" str="labbot" scope="0x17effc0" type="name" astParent="0x17ecb20"/>
+    <token id="0x17ecb20" file="labbot_teleoperation_twist.cpp" linenr="83" str="::" scope="0x17effc0" astOperand1="0x17eca70" astOperand2="0x17ecc80"/>
+    <token id="0x17ecbd0" file="labbot_teleoperation_twist.cpp" linenr="83" str="msgToLabbot" scope="0x17effc0" type="name"/>
+    <token id="0x17ecc80" file="labbot_teleoperation_twist.cpp" linenr="83" str="msg" scope="0x17effc0" type="name" varId="20" variable="0x17f1320" astParent="0x17ecb20"/>
+    <token id="0x17ecd30" file="labbot_teleoperation_twist.cpp" linenr="83" str=";" scope="0x17effc0"/>
+    <token id="0x17ecde0" file="labbot_teleoperation_twist.cpp" linenr="84" str="msg" scope="0x17effc0" type="name" varId="20" variable="0x17f1320" astParent="0x17ece90"/>
+    <token id="0x17ece90" file="labbot_teleoperation_twist.cpp" linenr="84" str="." scope="0x17effc0" astParent="0x17ecff0" astOperand1="0x17ecde0" astOperand2="0x17ecf40"/>
+    <token id="0x17ecf40" file="labbot_teleoperation_twist.cpp" linenr="84" str="motorRightSpeed" scope="0x17effc0" type="name" varId="21" astParent="0x17ece90"/>
+    <token id="0x17ecff0" file="labbot_teleoperation_twist.cpp" linenr="84" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17ece90" astOperand2="0x17ed0a0"/>
+    <token id="0x17ed0a0" file="labbot_teleoperation_twist.cpp" linenr="84" str="motorRightSpeed" scope="0x17effc0" type="name" varId="18" variable="0x17f1210" astParent="0x17ecff0"/>
+    <token id="0x17ed150" file="labbot_teleoperation_twist.cpp" linenr="84" str=";" scope="0x17effc0"/>
+    <token id="0x17ed200" file="labbot_teleoperation_twist.cpp" linenr="85" str="msg" scope="0x17effc0" type="name" varId="20" variable="0x17f1320" astParent="0x17ed2b0"/>
+    <token id="0x17ed2b0" file="labbot_teleoperation_twist.cpp" linenr="85" str="." scope="0x17effc0" astParent="0x17ed410" astOperand1="0x17ed200" astOperand2="0x17ed360"/>
+    <token id="0x17ed360" file="labbot_teleoperation_twist.cpp" linenr="85" str="motorLeftSpeed" scope="0x17effc0" type="name" varId="22" astParent="0x17ed2b0"/>
+    <token id="0x17ed410" file="labbot_teleoperation_twist.cpp" linenr="85" str="=" scope="0x17effc0" type="op" isAssignmentOp="True" astOperand1="0x17ed2b0" astOperand2="0x17ed4c0"/>
+    <token id="0x17ed4c0" file="labbot_teleoperation_twist.cpp" linenr="85" str="motorLeftSpeed" scope="0x17effc0" type="name" varId="19" variable="0x17f1280" astParent="0x17ed410"/>
+    <token id="0x17ed570" file="labbot_teleoperation_twist.cpp" linenr="85" str=";" scope="0x17effc0"/>
+    <token id="0x17ed620" file="labbot_teleoperation_twist.cpp" linenr="87" str="msgToLabbotPublisher" scope="0x17effc0" type="name" varId="3" variable="0x17f0db0" astParent="0x17ed700"/>
+    <token id="0x17ed700" file="labbot_teleoperation_twist.cpp" linenr="87" str="." scope="0x17effc0" astParent="0x17ed860" astOperand1="0x17ed620" astOperand2="0x17ed7b0"/>
+    <token id="0x17ed7b0" file="labbot_teleoperation_twist.cpp" linenr="87" str="publish" scope="0x17effc0" type="name" astParent="0x17ed700"/>
+    <token id="0x17ed860" file="labbot_teleoperation_twist.cpp" linenr="87" str="(" scope="0x17effc0" link="0x17ed9c0" astOperand1="0x17ed700" astOperand2="0x17ed910"/>
+    <token id="0x17ed910" file="labbot_teleoperation_twist.cpp" linenr="87" str="msg" scope="0x17effc0" type="name" varId="20" variable="0x17f1320" astParent="0x17ed860"/>
+    <token id="0x17ed9c0" file="labbot_teleoperation_twist.cpp" linenr="87" str=")" scope="0x17effc0" link="0x17ed860"/>
+    <token id="0x17eda70" file="labbot_teleoperation_twist.cpp" linenr="87" str=";" scope="0x17effc0"/>
+    <token id="0x17edb20" file="labbot_teleoperation_twist.cpp" linenr="88" str="}" scope="0x17effc0" link="0x17e7480"/>
+    <token id="0x17edbd0" file="labbot_teleoperation_twist.cpp" linenr="90" str="int" scope="0x17ef600" type="name"/>
+    <token id="0x17edc80" file="labbot_teleoperation_twist.cpp" linenr="90" str="main" scope="0x17ef600" type="name" function="0x17f0b50" astParent="0x17edd30"/>
+    <token id="0x17edd30" file="labbot_teleoperation_twist.cpp" linenr="90" str="(" scope="0x17ef600" link="0x17ee2b0" astOperand1="0x17edc80" astOperand2="0x17edf40"/>
+    <token id="0x17edde0" file="labbot_teleoperation_twist.cpp" linenr="90" str="int" scope="0x17ef600" type="name"/>
+    <token id="0x17ede90" file="labbot_teleoperation_twist.cpp" linenr="90" str="argc" scope="0x17ef600" type="name" varId="23" variable="0x17f1420" astParent="0x17edf40"/>
+    <token id="0x17edf40" file="labbot_teleoperation_twist.cpp" linenr="90" str="," scope="0x17ef600" astParent="0x17edd30" astOperand1="0x17ede90" astOperand2="0x17ee0a0"/>
+    <token id="0x17edff0" file="labbot_teleoperation_twist.cpp" linenr="90" str="char" scope="0x17ef600" type="name" astParent="0x17ee0a0"/>
+    <token id="0x17ee0a0" file="labbot_teleoperation_twist.cpp" linenr="90" str="*" scope="0x17ef600" type="op" isArithmeticalOp="True" astParent="0x17edf40" astOperand1="0x17edff0" astOperand2="0x17ee150"/>
+    <token id="0x17ee150" file="labbot_teleoperation_twist.cpp" linenr="90" str="*" scope="0x17ef600" type="op" isArithmeticalOp="True" astParent="0x17ee0a0" astOperand1="0x17ee200"/>
+    <token id="0x17ee200" file="labbot_teleoperation_twist.cpp" linenr="90" str="argv" scope="0x17ef600" type="name" varId="24" variable="0x17f1490" astParent="0x17ee150"/>
+    <token id="0x17ee2b0" file="labbot_teleoperation_twist.cpp" linenr="90" str=")" scope="0x17ef600" link="0x17edd30"/>
+    <token id="0x17ee360" file="labbot_teleoperation_twist.cpp" linenr="91" str="{" scope="0x17f0bf0" link="0x17ef230"/>
+    <token id="0x17ee410" file="labbot_teleoperation_twist.cpp" linenr="92" str="ros" scope="0x17f0bf0" type="name" astParent="0x17ee4c0"/>
+    <token id="0x17ee4c0" file="labbot_teleoperation_twist.cpp" linenr="92" str="::" scope="0x17f0bf0" astParent="0x17ee620" astOperand1="0x17ee410" astOperand2="0x17ee570"/>
+    <token id="0x17ee570" file="labbot_teleoperation_twist.cpp" linenr="92" str="init" scope="0x17f0bf0" type="name" astParent="0x17ee4c0"/>
+    <token id="0x17ee620" file="labbot_teleoperation_twist.cpp" linenr="92" str="(" scope="0x17f0bf0" link="0x17eeaa0" astOperand1="0x17ee4c0" astOperand2="0x17ee8e0"/>
+    <token id="0x17ee6d0" file="labbot_teleoperation_twist.cpp" linenr="92" str="argc" scope="0x17f0bf0" type="name" varId="23" variable="0x17f1420" astParent="0x17ee780"/>
+    <token id="0x17ee780" file="labbot_teleoperation_twist.cpp" linenr="92" str="," scope="0x17f0bf0" astParent="0x17ee8e0" astOperand1="0x17ee6d0" astOperand2="0x17ee830"/>
+    <token id="0x17ee830" file="labbot_teleoperation_twist.cpp" linenr="92" str="argv" scope="0x17f0bf0" type="name" varId="24" variable="0x17f1490" astParent="0x17ee780"/>
+    <token id="0x17ee8e0" file="labbot_teleoperation_twist.cpp" linenr="92" str="," scope="0x17f0bf0" astParent="0x17ee620" astOperand1="0x17ee780" astOperand2="0x17ee9c0"/>
+    <token id="0x17ee9c0" file="labbot_teleoperation_twist.cpp" linenr="92" str="&quot;labbot_teleopeartor_twist_node&quot;" scope="0x17f0bf0" type="string" strlen="30" values="0x17ee9c8" astParent="0x17ee8e0"/>
+    <token id="0x17eeaa0" file="labbot_teleoperation_twist.cpp" linenr="92" str=")" scope="0x17f0bf0" link="0x17ee620"/>
+    <token id="0x17eeb50" file="labbot_teleoperation_twist.cpp" linenr="92" str=";" scope="0x17f0bf0"/>
+    <token id="0x17eec00" file="labbot_teleoperation_twist.cpp" linenr="93" str="LabbotTeleoperation" scope="0x17f0bf0" type="name" type-scope="0x17efb70"/>
+    <token id="0x17eecb0" file="labbot_teleoperation_twist.cpp" linenr="93" str="teleoperator" scope="0x17f0bf0" type="name" varId="25" variable="0x17f13b0"/>
+    <token id="0x17eed60" file="labbot_teleoperation_twist.cpp" linenr="93" str=";" scope="0x17f0bf0"/>
+    <token id="0x17eee10" file="labbot_teleoperation_twist.cpp" linenr="95" str="ros" scope="0x17f0bf0" type="name" astParent="0x17eeec0"/>
+    <token id="0x17eeec0" file="labbot_teleoperation_twist.cpp" linenr="95" str="::" scope="0x17f0bf0" astParent="0x17ef020" astOperand1="0x17eee10" astOperand2="0x17eef70"/>
+    <token id="0x17eef70" file="labbot_teleoperation_twist.cpp" linenr="95" str="spin" scope="0x17f0bf0" type="name" astParent="0x17eeec0"/>
+    <token id="0x17ef020" file="labbot_teleoperation_twist.cpp" linenr="95" str="(" scope="0x17f0bf0" link="0x17ef0d0" astOperand1="0x17eeec0"/>
+    <token id="0x17ef0d0" file="labbot_teleoperation_twist.cpp" linenr="95" str=")" scope="0x17f0bf0" link="0x17ef020"/>
+    <token id="0x17ef180" file="labbot_teleoperation_twist.cpp" linenr="95" str=";" scope="0x17f0bf0"/>
+    <token id="0x17ef230" file="labbot_teleoperation_twist.cpp" linenr="96" str="}" scope="0x17f0bf0" link="0x17ee360"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x17ef600" type="Global">
+      <functionList>
+        <function id="0x17f0b50" tokenDef="0x17edc80" name="main">
+          <arg nr="1" variable="0x17f1420"/>
+          <arg nr="2" variable="0x17f1490"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x17efb70" type="Class" className="LabbotTeleoperation" classStart="0x17e05f0" classEnd="0x17e26a0" nestedIn="0x17ef600">
+      <functionList>
+        <function id="0x17efce0" tokenDef="0x17e0800" name="LabbotTeleoperation"/>
+        <function id="0x17efda0" tokenDef="0x17e0d00" name="CallbackTwist">
+          <arg nr="1" variable="0x17f1500"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x17f0d40"/>
+        <var id="0x17f0db0"/>
+        <var id="0x17f0e20"/>
+        <var id="0x17f0e90"/>
+        <var id="0x17f0f00"/>
+        <var id="0x17f0f70"/>
+        <var id="0x17f0fe0"/>
+      </varlist>
+    </scope>
+    <scope id="0x17efe70" type="Function" className="LabbotTeleoperation" classStart="0x17e2bd0" classEnd="0x17e6a00" nestedIn="0x17ef600" function="0x17efce0"/>
+    <scope id="0x17effc0" type="Function" className="CallbackTwist" classStart="0x17e7480" classEnd="0x17edb20" nestedIn="0x17ef600" function="0x17efda0">
+      <varlist>
+        <var id="0x17f1050"/>
+        <var id="0x17f10c0"/>
+        <var id="0x17f1130"/>
+        <var id="0x17f11a0"/>
+        <var id="0x17f1210"/>
+        <var id="0x17f1280"/>
+        <var id="0x17f1320"/>
+      </varlist>
+    </scope>
+    <scope id="0x17f0110" type="If" classStart="0x17ea970" classEnd="0x17eace0" nestedIn="0x17effc0"/>
+    <scope id="0x17f0260" type="Else" classStart="0x17ef2e0" classEnd="0x17ef390" nestedIn="0x17effc0"/>
+    <scope id="0x17f0390" type="Try" classStart="0x17ef2e0" classEnd="0x17ef390" nestedIn="0x17effc0"/>
+    <scope id="0x17f04e0" type="If" classStart="0x17eb310" classEnd="0x17eb730" nestedIn="0x17f0390"/>
+    <scope id="0x17f0630" type="If" classStart="0x17ebc00" classEnd="0x17ebf70" nestedIn="0x17effc0"/>
+    <scope id="0x17f0780" type="Else" classStart="0x17efa00" classEnd="0x17efab0" nestedIn="0x17effc0"/>
+    <scope id="0x17f08b0" type="Try" classStart="0x17efa00" classEnd="0x17efab0" nestedIn="0x17effc0"/>
+    <scope id="0x17f0a00" type="If" classStart="0x17ec5a0" classEnd="0x17ec9c0" nestedIn="0x17f08b0"/>
+    <scope id="0x17f0bf0" type="Function" className="main" classStart="0x17ee360" classEnd="0x17ef230" nestedIn="0x17ef600" function="0x17f0b50">
+      <varlist>
+        <var id="0x17f13b0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x17f0d40" nameToken="0x17e1750" typeStartToken="0x17e1540" typeEndToken="0x17e16a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0db0" nameToken="0x17e1ac0" typeStartToken="0x17e18b0" typeEndToken="0x17e1a10" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0e20" nameToken="0x17e1e60" typeStartToken="0x17e1c50" typeEndToken="0x17e1db0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0e90" nameToken="0x17e2070" typeStartToken="0x17e1fc0" typeEndToken="0x17e1fc0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0f00" nameToken="0x17e21d0" typeStartToken="0x17e3980" typeEndToken="0x17e3980" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0f70" nameToken="0x17e23e0" typeStartToken="0x17e2330" typeEndToken="0x17e2330" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f0fe0" nameToken="0x17e2540" typeStartToken="0x17e3e50" typeEndToken="0x17e3e50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1500" nameToken="0x17e7320" typeStartToken="0x17e6f00" typeEndToken="0x17e7270" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x17f1050" nameToken="0x17e75e0" typeStartToken="0x17e7530" typeEndToken="0x17e7530" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f10c0" nameToken="0x17e7cc0" typeStartToken="0x17e7c10" typeEndToken="0x17e7c10" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1130" nameToken="0x17e83a0" typeStartToken="0x17e82f0" typeEndToken="0x17e82f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f11a0" nameToken="0x17e8a80" typeStartToken="0x17e89d0" typeEndToken="0x17e89d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1210" nameToken="0x17e9420" typeStartToken="0x17e9370" typeEndToken="0x17e9370" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1280" nameToken="0x17e9d10" typeStartToken="0x17e9c60" typeEndToken="0x17e9c60" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1320" nameToken="0x17ecc80" typeStartToken="0x17eca70" typeEndToken="0x17ecbd0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1420" nameToken="0x17ede90" typeStartToken="0x17edde0" typeEndToken="0x17edde0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x17f1490" nameToken="0x17ee200" typeStartToken="0x17edff0" typeEndToken="0x17ee150" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x17f13b0" nameToken="0x17eecb0" typeStartToken="0x17eec00" typeEndToken="0x17eec00" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x17e5278">
+      <value tokvalue="0x17e5270" known="true"/>
+    </values>
+    <values id="0x17e53d8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x17e6198">
+      <value tokvalue="0x17e6190" known="true"/>
+    </values>
+    <values id="0x17e62f8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x17ee9c8">
+      <value tokvalue="0x17ee9c0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

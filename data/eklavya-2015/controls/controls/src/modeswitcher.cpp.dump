@@ -1,0 +1,1361 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1b604c0" file="modeswitcher.h" linenr="17" str="using" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b732e0" file="modeswitcher.h" linenr="17" str="namespace" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b73390" file="modeswitcher.h" linenr="17" str="ros" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b73440" file="modeswitcher.h" linenr="17" str=";" scope="0x1b79fd0"/>
+    <token id="0x1b734f0" file="modeswitcher.h" linenr="20" str="class" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b735a0" file="modeswitcher.h" linenr="20" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50"/>
+    <token id="0x1b73650" file="modeswitcher.h" linenr="20" str="{" scope="0x1b9ef50" link="0x1b79990"/>
+    <token id="0x1b73700" file="modeswitcher.h" linenr="22" str="private:" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73860" file="modeswitcher.h" linenr="23" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73910" file="modeswitcher.h" linenr="23" str="d" scope="0x1b9ef50" type="name" varId="1" variable="0x1ba1b10"/>
+    <token id="0x1b739c0" file="modeswitcher.h" linenr="23" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b73a70" file="modeswitcher.h" linenr="25" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73b20" file="modeswitcher.h" linenr="25" str="maxalpha" scope="0x1b9ef50" type="name" varId="2" variable="0x1ba1b80"/>
+    <token id="0x1b73bd0" file="modeswitcher.h" linenr="25" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b7ed70" file="modeswitcher.h" linenr="25" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73c80" file="modeswitcher.h" linenr="25" str="minalpha" scope="0x1b9ef50" type="name" varId="3" variable="0x1ba1bf0"/>
+    <token id="0x1b73d30" file="modeswitcher.h" linenr="25" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b73de0" file="modeswitcher.h" linenr="26" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73e90" file="modeswitcher.h" linenr="26" str="w_max" scope="0x1b9ef50" type="name" varId="4" variable="0x1ba1c60"/>
+    <token id="0x1b73f40" file="modeswitcher.h" linenr="26" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b7f500" file="modeswitcher.h" linenr="26" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b73ff0" file="modeswitcher.h" linenr="26" str="w_min" scope="0x1b9ef50" type="name" varId="5" variable="0x1ba1cd0"/>
+    <token id="0x1b740a0" file="modeswitcher.h" linenr="26" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b74150" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b74200"/>
+    <token id="0x1b74200" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b74150" astOperand2="0x1b74360"/>
+    <token id="0x1b742b0" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74360" file="modeswitcher.h" linenr="28" str="Vx_Xbox_lock" scope="0x1b9ef50" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b74200"/>
+    <token id="0x1b74410" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b835a0" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b85540"/>
+    <token id="0x1b85540" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b835a0" astOperand2="0x1b744c0"/>
+    <token id="0x1b87f30" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b744c0" file="modeswitcher.h" linenr="28" str="Vy_Xbox_lock" scope="0x1b9ef50" type="name" varId="7" variable="0x1ba1db0" astParent="0x1b85540"/>
+    <token id="0x1b74570" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b88400" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b8b420"/>
+    <token id="0x1b8b420" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b88400" astOperand2="0x1b74620"/>
+    <token id="0x1b8c290" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74620" file="modeswitcher.h" linenr="28" str="Vz_Xbox_lock" scope="0x1b9ef50" type="name" varId="8" variable="0x1ba1e20" astParent="0x1b8b420"/>
+    <token id="0x1b746d0" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b9ca30" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b6e430"/>
+    <token id="0x1b6e430" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b9ca30" astOperand2="0x1b74780"/>
+    <token id="0x1b9d940" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74780" file="modeswitcher.h" linenr="28" str="Vl_Vr_a_lock" scope="0x1b9ef50" type="name" varId="9" variable="0x1ba1e90" astParent="0x1b6e430"/>
+    <token id="0x1b74830" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b9d9f0" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b9daa0"/>
+    <token id="0x1b9daa0" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b9d9f0" astOperand2="0x1b748e0"/>
+    <token id="0x1b9d4d0" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b748e0" file="modeswitcher.h" linenr="28" str="W_Xbox_lock" scope="0x1b9ef50" type="name" varId="10" variable="0x1ba1f00" astParent="0x1b9daa0"/>
+    <token id="0x1b74990" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b9d580" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b9d630"/>
+    <token id="0x1b9d630" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b9d580" astOperand2="0x1b74a40"/>
+    <token id="0x1b9d6e0" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74a40" file="modeswitcher.h" linenr="28" str="Vx_planner_lock" scope="0x1b9ef50" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b9d630"/>
+    <token id="0x1b74af0" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b76ca0" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b9d790"/>
+    <token id="0x1b9d790" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b76ca0" astOperand2="0x1b74ba0"/>
+    <token id="0x1b9d840" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74ba0" file="modeswitcher.h" linenr="28" str="W_planner_lock" scope="0x1b9ef50" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b9d790"/>
+    <token id="0x1b74c50" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b9db50" file="modeswitcher.h" linenr="28" str="std" scope="0x1b9ef50" type="name" astParent="0x1b9dc00"/>
+    <token id="0x1b9dc00" file="modeswitcher.h" linenr="28" str="::" scope="0x1b9ef50" astOperand1="0x1b9db50" astOperand2="0x1b74d00"/>
+    <token id="0x1b9dcb0" file="modeswitcher.h" linenr="28" str="mutex" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74d00" file="modeswitcher.h" linenr="28" str="xbox_flag_lock" scope="0x1b9ef50" type="name" varId="13" variable="0x1ba2050" astParent="0x1b9dc00"/>
+    <token id="0x1b74db0" file="modeswitcher.h" linenr="28" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b74e60" file="modeswitcher.h" linenr="30" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b74f10" file="modeswitcher.h" linenr="30" str="alpha" scope="0x1b9ef50" type="name" varId="14" variable="0x1ba20c0"/>
+    <token id="0x1b74fc0" file="modeswitcher.h" linenr="30" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75070" file="modeswitcher.h" linenr="32" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75120" file="modeswitcher.h" linenr="32" str="W_xbox" scope="0x1b9ef50" type="name" varId="15" variable="0x1ba2130"/>
+    <token id="0x1b751d0" file="modeswitcher.h" linenr="32" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75280" file="modeswitcher.h" linenr="33" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75330" file="modeswitcher.h" linenr="33" str="Vx_Xbox" scope="0x1b9ef50" type="name" varId="16" variable="0x1ba21a0"/>
+    <token id="0x1b753e0" file="modeswitcher.h" linenr="33" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75490" file="modeswitcher.h" linenr="34" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75540" file="modeswitcher.h" linenr="34" str="Vy_Xbox" scope="0x1b9ef50" type="name" varId="17" variable="0x1ba2210"/>
+    <token id="0x1b755f0" file="modeswitcher.h" linenr="34" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b756a0" file="modeswitcher.h" linenr="35" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75750" file="modeswitcher.h" linenr="35" str="Vz_Xbox" scope="0x1b9ef50" type="name" varId="18" variable="0x1ba2280"/>
+    <token id="0x1b75800" file="modeswitcher.h" linenr="35" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b758b0" file="modeswitcher.h" linenr="37" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75960" file="modeswitcher.h" linenr="37" str="W_Planner" scope="0x1b9ef50" type="name" varId="19" variable="0x1ba22f0"/>
+    <token id="0x1b75a10" file="modeswitcher.h" linenr="37" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75ac0" file="modeswitcher.h" linenr="38" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75b70" file="modeswitcher.h" linenr="38" str="Vx_Planner" scope="0x1b9ef50" type="name" varId="20" variable="0x1ba2360"/>
+    <token id="0x1b75c20" file="modeswitcher.h" linenr="38" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75cd0" file="modeswitcher.h" linenr="41" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75d80" file="modeswitcher.h" linenr="41" str="Vl_a" scope="0x1b9ef50" type="name" varId="21" variable="0x1ba23d0"/>
+    <token id="0x1b75e30" file="modeswitcher.h" linenr="41" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b75ee0" file="modeswitcher.h" linenr="42" str="float" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b75f90" file="modeswitcher.h" linenr="42" str="Vr_a" scope="0x1b9ef50" type="name" varId="22" variable="0x1ba2440"/>
+    <token id="0x1b76040" file="modeswitcher.h" linenr="42" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b760f0" file="modeswitcher.h" linenr="44" str="double" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b761a0" file="modeswitcher.h" linenr="44" str="Max_Xbox_Vx" scope="0x1b9ef50" type="name" varId="23" variable="0x1ba24b0"/>
+    <token id="0x1b76250" file="modeswitcher.h" linenr="44" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b76300" file="modeswitcher.h" linenr="46" str="int" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b763b0" file="modeswitcher.h" linenr="46" str="xboxflag" scope="0x1b9ef50" type="name" varId="24" variable="0x1ba2520"/>
+    <token id="0x1b76460" file="modeswitcher.h" linenr="46" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b76510" file="modeswitcher.h" linenr="48" str="geometry_msgs" scope="0x1b9ef50" type="name" astParent="0x1b765c0"/>
+    <token id="0x1b765c0" file="modeswitcher.h" linenr="48" str="::" scope="0x1b9ef50" astOperand1="0x1b76510" astOperand2="0x1b76720"/>
+    <token id="0x1b76670" file="modeswitcher.h" linenr="48" str="Twist" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b76720" file="modeswitcher.h" linenr="48" str="finaltwist" scope="0x1b9ef50" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b765c0"/>
+    <token id="0x1b767d0" file="modeswitcher.h" linenr="48" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b76880" file="modeswitcher.h" linenr="49" str="std_msgs" scope="0x1b9ef50" type="name" astParent="0x1b76930"/>
+    <token id="0x1b76930" file="modeswitcher.h" linenr="49" str="::" scope="0x1b9ef50" astOperand1="0x1b76880" astOperand2="0x1b76a90"/>
+    <token id="0x1b769e0" file="modeswitcher.h" linenr="49" str="Float64" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b76a90" file="modeswitcher.h" linenr="49" str="finalvt" scope="0x1b9ef50" type="name" varId="26" variable="0x1ba2630" astParent="0x1b76930"/>
+    <token id="0x1b76b40" file="modeswitcher.h" linenr="49" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b76bf0" file="modeswitcher.h" linenr="53" str="public:" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b76d50" file="modeswitcher.h" linenr="55" str="ModeSwitcher" scope="0x1b9ef50" type="name" function="0x1b9f0f0" astParent="0x1b76e00"/>
+    <token id="0x1b76e00" file="modeswitcher.h" linenr="55" str="(" scope="0x1b9ef50" link="0x1b76eb0" astOperand1="0x1b76d50"/>
+    <token id="0x1b76eb0" file="modeswitcher.h" linenr="55" str=")" scope="0x1b9ef50" link="0x1b76e00"/>
+    <token id="0x1b76f60" file="modeswitcher.h" linenr="55" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b77010" file="modeswitcher.h" linenr="57" str="void" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b770c0" file="modeswitcher.h" linenr="57" str="joyCallback" scope="0x1b9ef50" type="name" function="0x1b9f190" astParent="0x1b77170"/>
+    <token id="0x1b77170" file="modeswitcher.h" linenr="57" str="(" scope="0x1b9ef50" link="0x1b777a0" astOperand1="0x1b770c0" astOperand2="0x1b77640"/>
+    <token id="0x1b77220" file="modeswitcher.h" linenr="57" str="const" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b772d0" file="modeswitcher.h" linenr="57" str="sensor_msgs" scope="0x1b9ef50" type="name" astParent="0x1b77380"/>
+    <token id="0x1b77380" file="modeswitcher.h" linenr="57" str="::" scope="0x1b9ef50" astParent="0x1b774e0" astOperand1="0x1b772d0" astOperand2="0x1b77430"/>
+    <token id="0x1b77430" file="modeswitcher.h" linenr="57" str="Joy" scope="0x1b9ef50" type="name" astParent="0x1b77380"/>
+    <token id="0x1b774e0" file="modeswitcher.h" linenr="57" str="::" scope="0x1b9ef50" astParent="0x1b77640" astOperand1="0x1b77380" astOperand2="0x1b77590"/>
+    <token id="0x1b77590" file="modeswitcher.h" linenr="57" str="ConstPtr" scope="0x1b9ef50" type="name" astParent="0x1b774e0"/>
+    <token id="0x1b77640" file="modeswitcher.h" linenr="57" str="&amp;" scope="0x1b9ef50" type="op" astParent="0x1b77170" astOperand1="0x1b774e0" astOperand2="0x1b776f0"/>
+    <token id="0x1b776f0" file="modeswitcher.h" linenr="57" str="joy" scope="0x1b9ef50" type="name" varId="27" astParent="0x1b77640"/>
+    <token id="0x1b777a0" file="modeswitcher.h" linenr="57" str=")" scope="0x1b9ef50" link="0x1b77170"/>
+    <token id="0x1b77850" file="modeswitcher.h" linenr="57" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b77900" file="modeswitcher.h" linenr="59" str="void" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b779b0" file="modeswitcher.h" linenr="59" str="planCallback" scope="0x1b9ef50" type="name" function="0x1b9f230" astParent="0x1b77a60"/>
+    <token id="0x1b77a60" file="modeswitcher.h" linenr="59" str="(" scope="0x1b9ef50" link="0x1b78090" astOperand1="0x1b779b0" astOperand2="0x1b77f30"/>
+    <token id="0x1b77b10" file="modeswitcher.h" linenr="59" str="const" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b77bc0" file="modeswitcher.h" linenr="59" str="geometry_msgs" scope="0x1b9ef50" type="name" astParent="0x1b77c70"/>
+    <token id="0x1b77c70" file="modeswitcher.h" linenr="59" str="::" scope="0x1b9ef50" astParent="0x1b77dd0" astOperand1="0x1b77bc0" astOperand2="0x1b77d20"/>
+    <token id="0x1b77d20" file="modeswitcher.h" linenr="59" str="Twist" scope="0x1b9ef50" type="name" astParent="0x1b77c70"/>
+    <token id="0x1b77dd0" file="modeswitcher.h" linenr="59" str="::" scope="0x1b9ef50" astParent="0x1b77f30" astOperand1="0x1b77c70" astOperand2="0x1b77e80"/>
+    <token id="0x1b77e80" file="modeswitcher.h" linenr="59" str="ConstPtr" scope="0x1b9ef50" type="name" astParent="0x1b77dd0"/>
+    <token id="0x1b77f30" file="modeswitcher.h" linenr="59" str="&amp;" scope="0x1b9ef50" type="op" astParent="0x1b77a60" astOperand1="0x1b77dd0" astOperand2="0x1b77fe0"/>
+    <token id="0x1b77fe0" file="modeswitcher.h" linenr="59" str="pose" scope="0x1b9ef50" type="name" varId="28" astParent="0x1b77f30"/>
+    <token id="0x1b78090" file="modeswitcher.h" linenr="59" str=")" scope="0x1b9ef50" link="0x1b77a60"/>
+    <token id="0x1b78140" file="modeswitcher.h" linenr="59" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b781f0" file="modeswitcher.h" linenr="61" str="void" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b782a0" file="modeswitcher.h" linenr="61" str="publish" scope="0x1b9ef50" type="name" function="0x1b9f2d0" astParent="0x1b78350"/>
+    <token id="0x1b78350" file="modeswitcher.h" linenr="61" str="(" scope="0x1b9ef50" link="0x1b79830" astOperand1="0x1b782a0" astOperand2="0x1b78560"/>
+    <token id="0x1b78400" file="modeswitcher.h" linenr="61" str="int" scope="0x1b9ef50" type="name"/>
+    <token id="0x1b784b0" file="modeswitcher.h" linenr="61" str="argc" scope="0x1b9ef50" type="name" varId="29" astParent="0x1b78560"/>
+    <token id="0x1b78560" file="modeswitcher.h" linenr="61" str="," scope="0x1b9ef50" astParent="0x1b78350" astOperand1="0x1b784b0" astOperand2="0x1b786c0"/>
+    <token id="0x1b78610" file="modeswitcher.h" linenr="61" str="char" scope="0x1b9ef50" type="name" astParent="0x1b786c0"/>
+    <token id="0x1b786c0" file="modeswitcher.h" linenr="61" str="*" scope="0x1b9ef50" type="op" isArithmeticalOp="True" astParent="0x1b78560" astOperand1="0x1b78610" astOperand2="0x1b796d0"/>
+    <token id="0x1b796d0" file="modeswitcher.h" linenr="61" str="*" scope="0x1b9ef50" type="op" isArithmeticalOp="True" astParent="0x1b786c0" astOperand1="0x1b79780"/>
+    <token id="0x1b79780" file="modeswitcher.h" linenr="61" str="argv" scope="0x1b9ef50" type="name" varId="30" astParent="0x1b796d0"/>
+    <token id="0x1b79830" file="modeswitcher.h" linenr="61" str=")" scope="0x1b9ef50" link="0x1b78350"/>
+    <token id="0x1b798e0" file="modeswitcher.h" linenr="61" str=";" scope="0x1b9ef50"/>
+    <token id="0x1b79990" file="modeswitcher.h" linenr="64" str="}" scope="0x1b9ef50" link="0x1b73650"/>
+    <token id="0x1b79a40" file="modeswitcher.h" linenr="64" str=";" scope="0x1b79fd0"/>
+    <token id="0x1b79af0" file="modeswitcher.cpp" linenr="6" str="using" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b79ba0" file="modeswitcher.cpp" linenr="6" str="namespace" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b79c50" file="modeswitcher.cpp" linenr="6" str="ros" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b79d00" file="modeswitcher.cpp" linenr="6" str=";" scope="0x1b79fd0"/>
+    <token id="0x1b79db0" file="modeswitcher.cpp" linenr="9" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50" astParent="0x1b7a120"/>
+    <token id="0x1b7a120" file="modeswitcher.cpp" linenr="9" str="::" scope="0x1b79fd0" astParent="0x1b7a280" astOperand1="0x1b79db0" astOperand2="0x1b7a1d0"/>
+    <token id="0x1b7a1d0" file="modeswitcher.cpp" linenr="9" str="ModeSwitcher" scope="0x1b79fd0" type="name" function="0x1b9f0f0" astParent="0x1b7a120"/>
+    <token id="0x1b7a280" file="modeswitcher.cpp" linenr="9" str="(" scope="0x1b79fd0" link="0x1b7a330" astParent="0x1b7a3e0" astOperand1="0x1b7a120"/>
+    <token id="0x1b7a330" file="modeswitcher.cpp" linenr="9" str=")" scope="0x1b79fd0" link="0x1b7a280"/>
+    <token id="0x1b7a3e0" file="modeswitcher.cpp" linenr="9" str=":" scope="0x1b79fd0" astParent="0x1b7a6a0" astOperand1="0x1b7a280" astOperand2="0x1b7a540"/>
+    <token id="0x1b7a490" file="modeswitcher.cpp" linenr="10" str="Vl_Vr_a_lock" scope="0x1b79fd0" type="name" varId="9" variable="0x1ba1e90" astParent="0x1b7a540"/>
+    <token id="0x1b7a540" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7a5f0" astParent="0x1b7a3e0" astOperand1="0x1b7a490"/>
+    <token id="0x1b7a5f0" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7a540"/>
+    <token id="0x1b7a6a0" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astParent="0x1b7a960" astOperand1="0x1b7a3e0" astOperand2="0x1b7a800"/>
+    <token id="0x1b7a750" file="modeswitcher.cpp" linenr="10" str="finaltwist" scope="0x1b79fd0" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b7a800"/>
+    <token id="0x1b7a800" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7a8b0" astParent="0x1b7a6a0" astOperand1="0x1b7a750"/>
+    <token id="0x1b7a8b0" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7a800"/>
+    <token id="0x1b7a960" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astParent="0x1b7ac20" astOperand1="0x1b7a6a0" astOperand2="0x1b7aac0"/>
+    <token id="0x1b7aa10" file="modeswitcher.cpp" linenr="10" str="Vx_Xbox_lock" scope="0x1b79fd0" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b7aac0"/>
+    <token id="0x1b7aac0" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7ab70" astParent="0x1b7a960" astOperand1="0x1b7aa10"/>
+    <token id="0x1b7ab70" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7aac0"/>
+    <token id="0x1b7ac20" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astParent="0x1b7aee0" astOperand1="0x1b7a960" astOperand2="0x1b7ad80"/>
+    <token id="0x1b7acd0" file="modeswitcher.cpp" linenr="10" str="W_Xbox_lock" scope="0x1b79fd0" type="name" varId="10" variable="0x1ba1f00" astParent="0x1b7ad80"/>
+    <token id="0x1b7ad80" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7ae30" astParent="0x1b7ac20" astOperand1="0x1b7acd0"/>
+    <token id="0x1b7ae30" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7ad80"/>
+    <token id="0x1b7aee0" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astParent="0x1b7b1a0" astOperand1="0x1b7ac20" astOperand2="0x1b7b040"/>
+    <token id="0x1b7af90" file="modeswitcher.cpp" linenr="10" str="Vx_planner_lock" scope="0x1b79fd0" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b7b040"/>
+    <token id="0x1b7b040" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7b0f0" astParent="0x1b7aee0" astOperand1="0x1b7af90"/>
+    <token id="0x1b7b0f0" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7b040"/>
+    <token id="0x1b7b1a0" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astParent="0x1b7b460" astOperand1="0x1b7aee0" astOperand2="0x1b7b300"/>
+    <token id="0x1b7b250" file="modeswitcher.cpp" linenr="10" str="W_planner_lock" scope="0x1b79fd0" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b7b300"/>
+    <token id="0x1b7b300" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7b3b0" astParent="0x1b7b1a0" astOperand1="0x1b7b250"/>
+    <token id="0x1b7b3b0" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7b300"/>
+    <token id="0x1b7b460" file="modeswitcher.cpp" linenr="10" str="," scope="0x1b79fd0" astOperand1="0x1b7b1a0" astOperand2="0x1b7b5c0"/>
+    <token id="0x1b7b510" file="modeswitcher.cpp" linenr="10" str="xbox_flag_lock" scope="0x1b79fd0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b7b5c0"/>
+    <token id="0x1b7b5c0" file="modeswitcher.cpp" linenr="10" str="(" scope="0x1b79fd0" link="0x1b7b670" astParent="0x1b7b460" astOperand1="0x1b7b510"/>
+    <token id="0x1b7b670" file="modeswitcher.cpp" linenr="10" str=")" scope="0x1b79fd0" link="0x1b7b5c0"/>
+    <token id="0x1b7b720" file="modeswitcher.cpp" linenr="11" str="{" scope="0x1b9f3a0" link="0x1b7df00"/>
+    <token id="0x1b7b7d0" file="modeswitcher.cpp" linenr="13" str="d" scope="0x1b9f3a0" type="name" varId="1" variable="0x1ba1b10" astParent="0x1b7b880"/>
+    <token id="0x1b7b880" file="modeswitcher.cpp" linenr="13" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7b7d0" astOperand2="0x1b7b930"/>
+    <token id="0x1b7b930" file="modeswitcher.cpp" linenr="13" str="0.7" scope="0x1b9f3a0" type="number" isFloat="True" astParent="0x1b7b880"/>
+    <token id="0x1b7b9e0" file="modeswitcher.cpp" linenr="13" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7ba90" file="modeswitcher.cpp" linenr="15" str="maxalpha" scope="0x1b9f3a0" type="name" varId="2" variable="0x1ba1b80" astParent="0x1b7bb40"/>
+    <token id="0x1b7bb40" file="modeswitcher.cpp" linenr="15" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7ba90" astOperand2="0x1b7bbf0"/>
+    <token id="0x1b7bbf0" file="modeswitcher.cpp" linenr="15" str="45" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7bbf8" astParent="0x1b7bb40"/>
+    <token id="0x1b7bca0" file="modeswitcher.cpp" linenr="15" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7bd50" file="modeswitcher.cpp" linenr="15" str="minalpha" scope="0x1b9f3a0" type="name" varId="3" variable="0x1ba1bf0" astParent="0x1b7be00"/>
+    <token id="0x1b7be00" file="modeswitcher.cpp" linenr="15" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7bd50" astOperand2="0x1b7bf60"/>
+    <token id="0x1b7bf60" file="modeswitcher.cpp" linenr="15" str="-45" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7bf68" astParent="0x1b7be00"/>
+    <token id="0x1b7c010" file="modeswitcher.cpp" linenr="15" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7c0c0" file="modeswitcher.cpp" linenr="17" str="alpha" scope="0x1b9f3a0" type="name" varId="14" variable="0x1ba20c0" astParent="0x1b7c170"/>
+    <token id="0x1b7c170" file="modeswitcher.cpp" linenr="17" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7c0c0" astOperand2="0x1b7c220"/>
+    <token id="0x1b7c220" file="modeswitcher.cpp" linenr="17" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7c228" astParent="0x1b7c170"/>
+    <token id="0x1b7c2d0" file="modeswitcher.cpp" linenr="17" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7c380" file="modeswitcher.cpp" linenr="19" str="W_xbox" scope="0x1b9f3a0" type="name" varId="15" variable="0x1ba2130" astParent="0x1b7c430"/>
+    <token id="0x1b7c430" file="modeswitcher.cpp" linenr="19" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7c380" astOperand2="0x1b7c4e0"/>
+    <token id="0x1b7c4e0" file="modeswitcher.cpp" linenr="19" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7c4e8" astParent="0x1b7c430"/>
+    <token id="0x1b7c590" file="modeswitcher.cpp" linenr="19" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7c640" file="modeswitcher.cpp" linenr="20" str="Vx_Xbox" scope="0x1b9f3a0" type="name" varId="16" variable="0x1ba21a0" astParent="0x1b7c6f0"/>
+    <token id="0x1b7c6f0" file="modeswitcher.cpp" linenr="20" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7c640" astOperand2="0x1b7c7a0"/>
+    <token id="0x1b7c7a0" file="modeswitcher.cpp" linenr="20" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7c7a8" astParent="0x1b7c6f0"/>
+    <token id="0x1b7c850" file="modeswitcher.cpp" linenr="20" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7c900" file="modeswitcher.cpp" linenr="22" str="W_Planner" scope="0x1b9f3a0" type="name" varId="19" variable="0x1ba22f0" astParent="0x1b7c9b0"/>
+    <token id="0x1b7c9b0" file="modeswitcher.cpp" linenr="22" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7c900" astOperand2="0x1b7ca60"/>
+    <token id="0x1b7ca60" file="modeswitcher.cpp" linenr="22" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7ca68" astParent="0x1b7c9b0"/>
+    <token id="0x1b7cb10" file="modeswitcher.cpp" linenr="22" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7cbc0" file="modeswitcher.cpp" linenr="23" str="Vx_Planner" scope="0x1b9f3a0" type="name" varId="20" variable="0x1ba2360" astParent="0x1b7cc70"/>
+    <token id="0x1b7cc70" file="modeswitcher.cpp" linenr="23" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7cbc0" astOperand2="0x1b7cd20"/>
+    <token id="0x1b7cd20" file="modeswitcher.cpp" linenr="23" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7cd28" astParent="0x1b7cc70"/>
+    <token id="0x1b7cdd0" file="modeswitcher.cpp" linenr="23" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7ce80" file="modeswitcher.cpp" linenr="25" str="xboxflag" scope="0x1b9f3a0" type="name" varId="24" variable="0x1ba2520" astParent="0x1b7cf30"/>
+    <token id="0x1b7cf30" file="modeswitcher.cpp" linenr="25" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7ce80" astOperand2="0x1b7cfe0"/>
+    <token id="0x1b7cfe0" file="modeswitcher.cpp" linenr="25" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7cfe8" astParent="0x1b7cf30"/>
+    <token id="0x1b7d090" file="modeswitcher.cpp" linenr="25" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7d140" file="modeswitcher.cpp" linenr="27" str="Max_Xbox_Vx" scope="0x1b9f3a0" type="name" varId="23" variable="0x1ba24b0" astParent="0x1b7d1f0"/>
+    <token id="0x1b7d1f0" file="modeswitcher.cpp" linenr="27" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7d140" astOperand2="0x1b7d2a0"/>
+    <token id="0x1b7d2a0" file="modeswitcher.cpp" linenr="27" str="2.0" scope="0x1b9f3a0" type="number" isFloat="True" astParent="0x1b7d1f0"/>
+    <token id="0x1b7d350" file="modeswitcher.cpp" linenr="27" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7d400" file="modeswitcher.cpp" linenr="29" str="w_max" scope="0x1b9f3a0" type="name" varId="4" variable="0x1ba1c60" astParent="0x1b7d4b0"/>
+    <token id="0x1b7d4b0" file="modeswitcher.cpp" linenr="29" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7d400" astOperand2="0x1b7d560"/>
+    <token id="0x1b7d560" file="modeswitcher.cpp" linenr="29" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7d568" astParent="0x1b7d4b0"/>
+    <token id="0x1b7d610" file="modeswitcher.cpp" linenr="29" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7d6c0" file="modeswitcher.cpp" linenr="30" str="w_min" scope="0x1b9f3a0" type="name" varId="5" variable="0x1ba1cd0" astParent="0x1b7d770"/>
+    <token id="0x1b7d770" file="modeswitcher.cpp" linenr="30" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7d6c0" astOperand2="0x1b7d820"/>
+    <token id="0x1b7d820" file="modeswitcher.cpp" linenr="30" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7d828" astParent="0x1b7d770"/>
+    <token id="0x1b7d8d0" file="modeswitcher.cpp" linenr="30" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7d980" file="modeswitcher.cpp" linenr="31" str="Vl_a" scope="0x1b9f3a0" type="name" varId="21" variable="0x1ba23d0" astParent="0x1b7da30"/>
+    <token id="0x1b7da30" file="modeswitcher.cpp" linenr="31" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7d980" astOperand2="0x1b7dae0"/>
+    <token id="0x1b7dae0" file="modeswitcher.cpp" linenr="31" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7dae8" astParent="0x1b7da30"/>
+    <token id="0x1b7db90" file="modeswitcher.cpp" linenr="31" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7dc40" file="modeswitcher.cpp" linenr="32" str="Vr_a" scope="0x1b9f3a0" type="name" varId="22" variable="0x1ba2440" astParent="0x1b7dcf0"/>
+    <token id="0x1b7dcf0" file="modeswitcher.cpp" linenr="32" str="=" scope="0x1b9f3a0" type="op" isAssignmentOp="True" astOperand1="0x1b7dc40" astOperand2="0x1b7dda0"/>
+    <token id="0x1b7dda0" file="modeswitcher.cpp" linenr="32" str="0" scope="0x1b9f3a0" type="number" isInt="True" values="0x1b7dda8" astParent="0x1b7dcf0"/>
+    <token id="0x1b7de50" file="modeswitcher.cpp" linenr="32" str=";" scope="0x1b9f3a0"/>
+    <token id="0x1b7df00" file="modeswitcher.cpp" linenr="34" str="}" scope="0x1b9f3a0" link="0x1b7b720"/>
+    <token id="0x1b7dfb0" file="modeswitcher.cpp" linenr="36" str="void" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b7e060" file="modeswitcher.cpp" linenr="36" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50" astParent="0x1b7e110"/>
+    <token id="0x1b7e110" file="modeswitcher.cpp" linenr="36" str="::" scope="0x1b79fd0" astParent="0x1b7e270" astOperand1="0x1b7e060" astOperand2="0x1b7e1c0"/>
+    <token id="0x1b7e1c0" file="modeswitcher.cpp" linenr="36" str="joyCallback" scope="0x1b79fd0" type="name" function="0x1b9f190" astParent="0x1b7e110"/>
+    <token id="0x1b7e270" file="modeswitcher.cpp" linenr="36" str="(" scope="0x1b79fd0" link="0x1b7e8a0" astOperand1="0x1b7e110" astOperand2="0x1b7e740"/>
+    <token id="0x1b7e320" file="modeswitcher.cpp" linenr="36" str="const" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b7e3d0" file="modeswitcher.cpp" linenr="36" str="sensor_msgs" scope="0x1b79fd0" type="name" astParent="0x1b7e480"/>
+    <token id="0x1b7e480" file="modeswitcher.cpp" linenr="36" str="::" scope="0x1b79fd0" astParent="0x1b7e5e0" astOperand1="0x1b7e3d0" astOperand2="0x1b7e530"/>
+    <token id="0x1b7e530" file="modeswitcher.cpp" linenr="36" str="Joy" scope="0x1b79fd0" type="name" astParent="0x1b7e480"/>
+    <token id="0x1b7e5e0" file="modeswitcher.cpp" linenr="36" str="::" scope="0x1b79fd0" astParent="0x1b7e740" astOperand1="0x1b7e480" astOperand2="0x1b7e690"/>
+    <token id="0x1b7e690" file="modeswitcher.cpp" linenr="36" str="ConstPtr" scope="0x1b79fd0" type="name" astParent="0x1b7e5e0"/>
+    <token id="0x1b7e740" file="modeswitcher.cpp" linenr="36" str="&amp;" scope="0x1b79fd0" type="op" astParent="0x1b7e270" astOperand1="0x1b7e5e0" astOperand2="0x1b7e7f0"/>
+    <token id="0x1b7e7f0" file="modeswitcher.cpp" linenr="36" str="joy" scope="0x1b79fd0" type="name" varId="31" variable="0x1ba2da0" astParent="0x1b7e740"/>
+    <token id="0x1b7e8a0" file="modeswitcher.cpp" linenr="36" str=")" scope="0x1b79fd0" link="0x1b7e270"/>
+    <token id="0x1b7e950" file="modeswitcher.cpp" linenr="37" str="{" scope="0x1b9f4d0" link="0x1b86d50"/>
+    <token id="0x1b7ea00" file="modeswitcher.cpp" linenr="41" str="int" scope="0x1b9f4d0" type="name"/>
+    <token id="0x1b7eab0" file="modeswitcher.cpp" linenr="41" str="manual_button" scope="0x1b9f4d0" type="name" varId="32" variable="0x1ba26a0"/>
+    <token id="0x1b7eb60" file="modeswitcher.cpp" linenr="41" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b9dd60" file="modeswitcher.cpp" linenr="41" str="manual_button" scope="0x1b9f4d0" type="name" varId="32" variable="0x1ba26a0" astParent="0x1b9de10"/>
+    <token id="0x1b9de10" file="modeswitcher.cpp" linenr="41" str="=" scope="0x1b9f4d0" type="op" isAssignmentOp="True" astOperand1="0x1b9dd60" astOperand2="0x1b7eed0"/>
+    <token id="0x1b7ec10" file="modeswitcher.cpp" linenr="41" str="joy" scope="0x1b9f4d0" type="name" varId="31" variable="0x1ba2da0" astParent="0x1b7ecc0"/>
+    <token id="0x1b7ecc0" file="modeswitcher.cpp" linenr="41" str="." scope="0x1b9f4d0" astParent="0x1b7eed0" astOperand1="0x1b7ec10" astOperand2="0x1b7ee20"/>
+    <token id="0x1b7ee20" file="modeswitcher.cpp" linenr="41" str="buttons" scope="0x1b9f4d0" type="name" varId="33" astParent="0x1b7ecc0"/>
+    <token id="0x1b7eed0" file="modeswitcher.cpp" linenr="41" str="[" scope="0x1b9f4d0" link="0x1b7f030" astParent="0x1b9de10" astOperand1="0x1b7ecc0" astOperand2="0x1b7ef80"/>
+    <token id="0x1b7ef80" file="modeswitcher.cpp" linenr="41" str="4" scope="0x1b9f4d0" type="number" isInt="True" values="0x1b7ef88" astParent="0x1b7eed0"/>
+    <token id="0x1b7f030" file="modeswitcher.cpp" linenr="41" str="]" scope="0x1b9f4d0" link="0x1b7eed0"/>
+    <token id="0x1b7f0e0" file="modeswitcher.cpp" linenr="41" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b7f190" file="modeswitcher.cpp" linenr="42" str="int" scope="0x1b9f4d0" type="name"/>
+    <token id="0x1b7f240" file="modeswitcher.cpp" linenr="42" str="auto_button" scope="0x1b9f4d0" type="name" varId="34" variable="0x1ba2710"/>
+    <token id="0x1b7f2f0" file="modeswitcher.cpp" linenr="42" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b9dec0" file="modeswitcher.cpp" linenr="42" str="auto_button" scope="0x1b9f4d0" type="name" varId="34" variable="0x1ba2710" astParent="0x1b9df70"/>
+    <token id="0x1b9df70" file="modeswitcher.cpp" linenr="42" str="=" scope="0x1b9f4d0" type="op" isAssignmentOp="True" astOperand1="0x1b9dec0" astOperand2="0x1b7f660"/>
+    <token id="0x1b7f3a0" file="modeswitcher.cpp" linenr="42" str="joy" scope="0x1b9f4d0" type="name" varId="31" variable="0x1ba2da0" astParent="0x1b7f450"/>
+    <token id="0x1b7f450" file="modeswitcher.cpp" linenr="42" str="." scope="0x1b9f4d0" astParent="0x1b7f660" astOperand1="0x1b7f3a0" astOperand2="0x1b7f5b0"/>
+    <token id="0x1b7f5b0" file="modeswitcher.cpp" linenr="42" str="buttons" scope="0x1b9f4d0" type="name" varId="33" astParent="0x1b7f450"/>
+    <token id="0x1b7f660" file="modeswitcher.cpp" linenr="42" str="[" scope="0x1b9f4d0" link="0x1b7f7c0" astParent="0x1b9df70" astOperand1="0x1b7f450" astOperand2="0x1b7f710"/>
+    <token id="0x1b7f710" file="modeswitcher.cpp" linenr="42" str="5" scope="0x1b9f4d0" type="number" isInt="True" values="0x1b7f718" astParent="0x1b7f660"/>
+    <token id="0x1b7f7c0" file="modeswitcher.cpp" linenr="42" str="]" scope="0x1b9f4d0" link="0x1b7f660"/>
+    <token id="0x1b7f870" file="modeswitcher.cpp" linenr="42" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b7f920" file="modeswitcher.cpp" linenr="46" str="if" scope="0x1b9f4d0" type="name" astParent="0x1b7f9d0"/>
+    <token id="0x1b7f9d0" file="modeswitcher.cpp" linenr="46" str="(" scope="0x1b9f4d0" link="0x1b7ff50" astOperand1="0x1b7f920" astOperand2="0x1b7fc90"/>
+    <token id="0x1b7fa80" file="modeswitcher.cpp" linenr="46" str="auto_button" scope="0x1b9f4d0" type="name" varId="34" variable="0x1ba2710" values="0x1b7fa88" astParent="0x1b7fb30"/>
+    <token id="0x1b7fb30" file="modeswitcher.cpp" linenr="46" str="==" scope="0x1b9f4d0" type="op" isComparisonOp="True" values="0x1b7fb38" astParent="0x1b7fc90" astOperand1="0x1b7fa80" astOperand2="0x1b7fbe0"/>
+    <token id="0x1b7fbe0" file="modeswitcher.cpp" linenr="46" str="1" scope="0x1b9f4d0" type="number" isInt="True" values="0x1b7fbe8" astParent="0x1b7fb30"/>
+    <token id="0x1b7fc90" file="modeswitcher.cpp" linenr="46" str="&amp;&amp;" scope="0x1b9f4d0" type="op" isLogicalOp="True" astParent="0x1b7f9d0" astOperand1="0x1b7fb30" astOperand2="0x1b7fdf0"/>
+    <token id="0x1b7fd40" file="modeswitcher.cpp" linenr="46" str="manual_button" scope="0x1b9f4d0" type="name" varId="32" variable="0x1ba26a0" astParent="0x1b7fdf0"/>
+    <token id="0x1b7fdf0" file="modeswitcher.cpp" linenr="46" str="==" scope="0x1b9f4d0" type="op" isComparisonOp="True" astParent="0x1b7fc90" astOperand1="0x1b7fd40" astOperand2="0x1b7fea0"/>
+    <token id="0x1b7fea0" file="modeswitcher.cpp" linenr="46" str="0" scope="0x1b9f4d0" type="number" isInt="True" values="0x1b7fea8" astParent="0x1b7fdf0"/>
+    <token id="0x1b7ff50" file="modeswitcher.cpp" linenr="46" str=")" scope="0x1b9f4d0" link="0x1b7f9d0"/>
+    <token id="0x1b80000" file="modeswitcher.cpp" linenr="47" str="{" scope="0x1b9f720" link="0x1b80d10"/>
+    <token id="0x1b800b0" file="modeswitcher.cpp" linenr="50" str="xbox_flag_lock" scope="0x1b9f720" type="name" varId="13" variable="0x1ba2050" astParent="0x1b80160"/>
+    <token id="0x1b80160" file="modeswitcher.cpp" linenr="50" str="." scope="0x1b9f720" astParent="0x1b802c0" astOperand1="0x1b800b0" astOperand2="0x1b80210"/>
+    <token id="0x1b80210" file="modeswitcher.cpp" linenr="50" str="lock" scope="0x1b9f720" type="name" astParent="0x1b80160"/>
+    <token id="0x1b802c0" file="modeswitcher.cpp" linenr="50" str="(" scope="0x1b9f720" link="0x1b80370" astOperand1="0x1b80160"/>
+    <token id="0x1b80370" file="modeswitcher.cpp" linenr="50" str=")" scope="0x1b9f720" link="0x1b802c0"/>
+    <token id="0x1b80420" file="modeswitcher.cpp" linenr="50" str=";" scope="0x1b9f720"/>
+    <token id="0x1b804d0" file="modeswitcher.cpp" linenr="51" str="xboxflag" scope="0x1b9f720" type="name" varId="24" variable="0x1ba2520" astParent="0x1b80580"/>
+    <token id="0x1b80580" file="modeswitcher.cpp" linenr="51" str="=" scope="0x1b9f720" type="op" isAssignmentOp="True" astOperand1="0x1b804d0" astOperand2="0x1b80630"/>
+    <token id="0x1b80630" file="modeswitcher.cpp" linenr="51" str="0" scope="0x1b9f720" type="number" isInt="True" values="0x1b80638" astParent="0x1b80580"/>
+    <token id="0x1b806e0" file="modeswitcher.cpp" linenr="51" str=";" scope="0x1b9f720"/>
+    <token id="0x1b80790" file="modeswitcher.cpp" linenr="52" str="xbox_flag_lock" scope="0x1b9f720" type="name" varId="13" variable="0x1ba2050" astParent="0x1b80840"/>
+    <token id="0x1b80840" file="modeswitcher.cpp" linenr="52" str="." scope="0x1b9f720" astParent="0x1b809a0" astOperand1="0x1b80790" astOperand2="0x1b808f0"/>
+    <token id="0x1b808f0" file="modeswitcher.cpp" linenr="52" str="unlock" scope="0x1b9f720" type="name" astParent="0x1b80840"/>
+    <token id="0x1b809a0" file="modeswitcher.cpp" linenr="52" str="(" scope="0x1b9f720" link="0x1b80a50" astOperand1="0x1b80840"/>
+    <token id="0x1b80a50" file="modeswitcher.cpp" linenr="52" str=")" scope="0x1b9f720" link="0x1b809a0"/>
+    <token id="0x1b80b00" file="modeswitcher.cpp" linenr="52" str=";" scope="0x1b9f720"/>
+    <token id="0x1b80bb0" file="modeswitcher.cpp" linenr="54" str="return" scope="0x1b9f720" type="name"/>
+    <token id="0x1b80c60" file="modeswitcher.cpp" linenr="54" str=";" scope="0x1b9f720"/>
+    <token id="0x1b80d10" file="modeswitcher.cpp" linenr="55" str="}" scope="0x1b9f720" link="0x1b80000"/>
+    <token id="0x1b80dc0" file="modeswitcher.cpp" linenr="57" str="else" scope="0x1b9f4d0" type="name"/>
+    <token id="0x1b6e780" file="modeswitcher.cpp" linenr="57" str="{" scope="0x1b9f9a0" link="0x1b730d0"/>
+    <token id="0x1b80e70" file="modeswitcher.cpp" linenr="57" str="if" scope="0x1b9f9a0" type="name" astParent="0x1b80f20"/>
+    <token id="0x1b80f20" file="modeswitcher.cpp" linenr="57" str="(" scope="0x1b9f9a0" link="0x1b814a0" astOperand1="0x1b80e70" astOperand2="0x1b811e0"/>
+    <token id="0x1b80fd0" file="modeswitcher.cpp" linenr="57" str="manual_button" scope="0x1b9f9a0" type="name" varId="32" variable="0x1ba26a0" values="0x1b80fd8" astParent="0x1b81080"/>
+    <token id="0x1b81080" file="modeswitcher.cpp" linenr="57" str="==" scope="0x1b9f9a0" type="op" isComparisonOp="True" values="0x1b81088" astParent="0x1b811e0" astOperand1="0x1b80fd0" astOperand2="0x1b81130"/>
+    <token id="0x1b81130" file="modeswitcher.cpp" linenr="57" str="1" scope="0x1b9f9a0" type="number" isInt="True" values="0x1b81138" astParent="0x1b81080"/>
+    <token id="0x1b811e0" file="modeswitcher.cpp" linenr="57" str="&amp;&amp;" scope="0x1b9f9a0" type="op" isLogicalOp="True" astParent="0x1b80f20" astOperand1="0x1b81080" astOperand2="0x1b81340"/>
+    <token id="0x1b81290" file="modeswitcher.cpp" linenr="57" str="auto_button" scope="0x1b9f9a0" type="name" varId="34" variable="0x1ba2710" astParent="0x1b81340"/>
+    <token id="0x1b81340" file="modeswitcher.cpp" linenr="57" str="==" scope="0x1b9f9a0" type="op" isComparisonOp="True" astParent="0x1b811e0" astOperand1="0x1b81290" astOperand2="0x1b813f0"/>
+    <token id="0x1b813f0" file="modeswitcher.cpp" linenr="57" str="0" scope="0x1b9f9a0" type="number" isInt="True" values="0x1b813f8" astParent="0x1b81340"/>
+    <token id="0x1b814a0" file="modeswitcher.cpp" linenr="57" str=")" scope="0x1b9f9a0" link="0x1b80f20"/>
+    <token id="0x1b81550" file="modeswitcher.cpp" linenr="58" str="{" scope="0x1b9faf0" link="0x1b82100"/>
+    <token id="0x1b81600" file="modeswitcher.cpp" linenr="59" str="xbox_flag_lock" scope="0x1b9faf0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b816b0"/>
+    <token id="0x1b816b0" file="modeswitcher.cpp" linenr="59" str="." scope="0x1b9faf0" astParent="0x1b81810" astOperand1="0x1b81600" astOperand2="0x1b81760"/>
+    <token id="0x1b81760" file="modeswitcher.cpp" linenr="59" str="lock" scope="0x1b9faf0" type="name" astParent="0x1b816b0"/>
+    <token id="0x1b81810" file="modeswitcher.cpp" linenr="59" str="(" scope="0x1b9faf0" link="0x1b818c0" astOperand1="0x1b816b0"/>
+    <token id="0x1b818c0" file="modeswitcher.cpp" linenr="59" str=")" scope="0x1b9faf0" link="0x1b81810"/>
+    <token id="0x1b81970" file="modeswitcher.cpp" linenr="59" str=";" scope="0x1b9faf0"/>
+    <token id="0x1b81a20" file="modeswitcher.cpp" linenr="62" str="xboxflag" scope="0x1b9faf0" type="name" varId="24" variable="0x1ba2520" astParent="0x1b81ad0"/>
+    <token id="0x1b81ad0" file="modeswitcher.cpp" linenr="62" str="=" scope="0x1b9faf0" type="op" isAssignmentOp="True" astOperand1="0x1b81a20" astOperand2="0x1b81b80"/>
+    <token id="0x1b81b80" file="modeswitcher.cpp" linenr="62" str="1" scope="0x1b9faf0" type="number" isInt="True" values="0x1b81b88" astParent="0x1b81ad0"/>
+    <token id="0x1b81c30" file="modeswitcher.cpp" linenr="62" str=";" scope="0x1b9faf0"/>
+    <token id="0x1b81ce0" file="modeswitcher.cpp" linenr="63" str="xbox_flag_lock" scope="0x1b9faf0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b81d90"/>
+    <token id="0x1b81d90" file="modeswitcher.cpp" linenr="63" str="." scope="0x1b9faf0" astParent="0x1b81ef0" astOperand1="0x1b81ce0" astOperand2="0x1b81e40"/>
+    <token id="0x1b81e40" file="modeswitcher.cpp" linenr="63" str="unlock" scope="0x1b9faf0" type="name" astParent="0x1b81d90"/>
+    <token id="0x1b81ef0" file="modeswitcher.cpp" linenr="63" str="(" scope="0x1b9faf0" link="0x1b81fa0" astOperand1="0x1b81d90"/>
+    <token id="0x1b81fa0" file="modeswitcher.cpp" linenr="63" str=")" scope="0x1b9faf0" link="0x1b81ef0"/>
+    <token id="0x1b82050" file="modeswitcher.cpp" linenr="63" str=";" scope="0x1b9faf0"/>
+    <token id="0x1b82100" file="modeswitcher.cpp" linenr="66" str="}" scope="0x1b9faf0" link="0x1b81550"/>
+    <token id="0x1b730d0" file="modeswitcher.cpp" linenr="66" str="}" scope="0x1b9f9a0" link="0x1b6e780"/>
+    <token id="0x1b821b0" file="modeswitcher.cpp" linenr="67" str="xbox_flag_lock" scope="0x1b9f4d0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b82260"/>
+    <token id="0x1b82260" file="modeswitcher.cpp" linenr="67" str="." scope="0x1b9f4d0" astParent="0x1b823c0" astOperand1="0x1b821b0" astOperand2="0x1b82310"/>
+    <token id="0x1b82310" file="modeswitcher.cpp" linenr="67" str="lock" scope="0x1b9f4d0" type="name" astParent="0x1b82260"/>
+    <token id="0x1b823c0" file="modeswitcher.cpp" linenr="67" str="(" scope="0x1b9f4d0" link="0x1b82470" astOperand1="0x1b82260"/>
+    <token id="0x1b82470" file="modeswitcher.cpp" linenr="67" str=")" scope="0x1b9f4d0" link="0x1b823c0"/>
+    <token id="0x1b82520" file="modeswitcher.cpp" linenr="67" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b825d0" file="modeswitcher.cpp" linenr="68" str="int" scope="0x1b9f4d0" type="name"/>
+    <token id="0x1b82680" file="modeswitcher.cpp" linenr="68" str="temp_flag1" scope="0x1b9f4d0" type="name" varId="35" variable="0x1ba2780"/>
+    <token id="0x1b82730" file="modeswitcher.cpp" linenr="68" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b9e020" file="modeswitcher.cpp" linenr="68" str="temp_flag1" scope="0x1b9f4d0" type="name" varId="35" variable="0x1ba2780" astParent="0x1b9e0d0"/>
+    <token id="0x1b9e0d0" file="modeswitcher.cpp" linenr="68" str="=" scope="0x1b9f4d0" type="op" isAssignmentOp="True" astOperand1="0x1b9e020" astOperand2="0x1b827e0"/>
+    <token id="0x1b827e0" file="modeswitcher.cpp" linenr="68" str="xboxflag" scope="0x1b9f4d0" type="name" varId="24" variable="0x1ba2520" astParent="0x1b9e0d0"/>
+    <token id="0x1b82890" file="modeswitcher.cpp" linenr="68" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b82940" file="modeswitcher.cpp" linenr="69" str="xbox_flag_lock" scope="0x1b9f4d0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b829f0"/>
+    <token id="0x1b829f0" file="modeswitcher.cpp" linenr="69" str="." scope="0x1b9f4d0" astParent="0x1b82b50" astOperand1="0x1b82940" astOperand2="0x1b82aa0"/>
+    <token id="0x1b82aa0" file="modeswitcher.cpp" linenr="69" str="unlock" scope="0x1b9f4d0" type="name" astParent="0x1b829f0"/>
+    <token id="0x1b82b50" file="modeswitcher.cpp" linenr="69" str="(" scope="0x1b9f4d0" link="0x1b82c00" astOperand1="0x1b829f0"/>
+    <token id="0x1b82c00" file="modeswitcher.cpp" linenr="69" str=")" scope="0x1b9f4d0" link="0x1b82b50"/>
+    <token id="0x1b82cb0" file="modeswitcher.cpp" linenr="69" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b82d60" file="modeswitcher.cpp" linenr="72" str="if" scope="0x1b9f4d0" type="name" astParent="0x1b82e10"/>
+    <token id="0x1b82e10" file="modeswitcher.cpp" linenr="72" str="(" scope="0x1b9f4d0" link="0x1b830d0" astOperand1="0x1b82d60" astOperand2="0x1b82f70"/>
+    <token id="0x1b82ec0" file="modeswitcher.cpp" linenr="72" str="temp_flag1" scope="0x1b9f4d0" type="name" varId="35" variable="0x1ba2780" values="0x1b82ec8" astParent="0x1b82f70"/>
+    <token id="0x1b82f70" file="modeswitcher.cpp" linenr="72" str="==" scope="0x1b9f4d0" type="op" isComparisonOp="True" values="0x1b82f78" astParent="0x1b82e10" astOperand1="0x1b82ec0" astOperand2="0x1b83020"/>
+    <token id="0x1b83020" file="modeswitcher.cpp" linenr="72" str="1" scope="0x1b9f4d0" type="number" isInt="True" values="0x1b83028" astParent="0x1b82f70"/>
+    <token id="0x1b830d0" file="modeswitcher.cpp" linenr="72" str=")" scope="0x1b9f4d0" link="0x1b82e10"/>
+    <token id="0x1b83180" file="modeswitcher.cpp" linenr="72" str="{" scope="0x1b9fc40" link="0x1b86b40"/>
+    <token id="0x1b83230" file="modeswitcher.cpp" linenr="74" str="float" scope="0x1b9fc40" type="name"/>
+    <token id="0x1b832e0" file="modeswitcher.cpp" linenr="74" str="val" scope="0x1b9fc40" type="name" varId="36" variable="0x1ba27f0"/>
+    <token id="0x1b83390" file="modeswitcher.cpp" linenr="74" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b9e180" file="modeswitcher.cpp" linenr="74" str="val" scope="0x1b9fc40" type="name" varId="36" variable="0x1ba27f0" astParent="0x1b9e230"/>
+    <token id="0x1b9e230" file="modeswitcher.cpp" linenr="74" str="=" scope="0x1b9fc40" type="op" isAssignmentOp="True" astOperand1="0x1b9e180" astOperand2="0x1b83700"/>
+    <token id="0x1b83440" file="modeswitcher.cpp" linenr="74" str="joy" scope="0x1b9fc40" type="name" varId="31" variable="0x1ba2da0" astParent="0x1b834f0"/>
+    <token id="0x1b834f0" file="modeswitcher.cpp" linenr="74" str="." scope="0x1b9fc40" astParent="0x1b83700" astOperand1="0x1b83440" astOperand2="0x1b83650"/>
+    <token id="0x1b83650" file="modeswitcher.cpp" linenr="74" str="axes" scope="0x1b9fc40" type="name" varId="37" astParent="0x1b834f0"/>
+    <token id="0x1b83700" file="modeswitcher.cpp" linenr="74" str="[" scope="0x1b9fc40" link="0x1b83860" astParent="0x1b9e230" astOperand1="0x1b834f0" astOperand2="0x1b837b0"/>
+    <token id="0x1b837b0" file="modeswitcher.cpp" linenr="74" str="5" scope="0x1b9fc40" type="number" isInt="True" values="0x1b837b8" astParent="0x1b83700"/>
+    <token id="0x1b83860" file="modeswitcher.cpp" linenr="74" str="]" scope="0x1b9fc40" link="0x1b83700"/>
+    <token id="0x1b83910" file="modeswitcher.cpp" linenr="74" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b839c0" file="modeswitcher.cpp" linenr="76" str="float" scope="0x1b9fc40" type="name"/>
+    <token id="0x1b83a70" file="modeswitcher.cpp" linenr="76" str="rescaled_val" scope="0x1b9fc40" type="name" varId="38" variable="0x1ba2860"/>
+    <token id="0x1b83b20" file="modeswitcher.cpp" linenr="76" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b9e2e0" file="modeswitcher.cpp" linenr="76" str="rescaled_val" scope="0x1b9fc40" type="name" varId="38" variable="0x1ba2860" astParent="0x1b9e390"/>
+    <token id="0x1b9e390" file="modeswitcher.cpp" linenr="76" str="=" scope="0x1b9fc40" type="op" isAssignmentOp="True" astOperand1="0x1b9e2e0" astOperand2="0x1b83c80"/>
+    <token id="0x1b83bd0" file="modeswitcher.cpp" linenr="76" str="1" scope="0x1b9fc40" type="number" isInt="True" values="0x1b83bd8" astParent="0x1b83c80"/>
+    <token id="0x1b83c80" file="modeswitcher.cpp" linenr="76" str="-" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b9e390" astOperand1="0x1b83bd0" astOperand2="0x1b84150"/>
+    <token id="0x1b83d30" file="modeswitcher.cpp" linenr="76" str="(" scope="0x1b9fc40" link="0x1b842b0"/>
+    <token id="0x1b83de0" file="modeswitcher.cpp" linenr="76" str="(" scope="0x1b9fc40" link="0x1b840a0"/>
+    <token id="0x1b83e90" file="modeswitcher.cpp" linenr="76" str="val" scope="0x1b9fc40" type="name" varId="36" variable="0x1ba27f0" astParent="0x1b83f40"/>
+    <token id="0x1b83f40" file="modeswitcher.cpp" linenr="76" str="+" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b84150" astOperand1="0x1b83e90" astOperand2="0x1b83ff0"/>
+    <token id="0x1b83ff0" file="modeswitcher.cpp" linenr="76" str="1.0" scope="0x1b9fc40" type="number" isFloat="True" astParent="0x1b83f40"/>
+    <token id="0x1b840a0" file="modeswitcher.cpp" linenr="76" str=")" scope="0x1b9fc40" link="0x1b83de0"/>
+    <token id="0x1b84150" file="modeswitcher.cpp" linenr="76" str="/" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b83c80" astOperand1="0x1b83f40" astOperand2="0x1b84200"/>
+    <token id="0x1b84200" file="modeswitcher.cpp" linenr="76" str="2" scope="0x1b9fc40" type="number" isInt="True" values="0x1b84208" astParent="0x1b84150"/>
+    <token id="0x1b842b0" file="modeswitcher.cpp" linenr="76" str=")" scope="0x1b9fc40" link="0x1b83d30"/>
+    <token id="0x1b84360" file="modeswitcher.cpp" linenr="76" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b84410" file="modeswitcher.cpp" linenr="78" str="Vx_Xbox_lock" scope="0x1b9fc40" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b844c0"/>
+    <token id="0x1b844c0" file="modeswitcher.cpp" linenr="78" str="." scope="0x1b9fc40" astParent="0x1b84620" astOperand1="0x1b84410" astOperand2="0x1b84570"/>
+    <token id="0x1b84570" file="modeswitcher.cpp" linenr="78" str="lock" scope="0x1b9fc40" type="name" astParent="0x1b844c0"/>
+    <token id="0x1b84620" file="modeswitcher.cpp" linenr="78" str="(" scope="0x1b9fc40" link="0x1b846d0" astOperand1="0x1b844c0"/>
+    <token id="0x1b846d0" file="modeswitcher.cpp" linenr="78" str=")" scope="0x1b9fc40" link="0x1b84620"/>
+    <token id="0x1b84780" file="modeswitcher.cpp" linenr="78" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b84830" file="modeswitcher.cpp" linenr="80" str="Vx_Xbox" scope="0x1b9fc40" type="name" varId="16" variable="0x1ba21a0" astParent="0x1b848e0"/>
+    <token id="0x1b848e0" file="modeswitcher.cpp" linenr="80" str="=" scope="0x1b9fc40" type="op" isAssignmentOp="True" astOperand1="0x1b84830" astOperand2="0x1b84af0"/>
+    <token id="0x1b84990" file="modeswitcher.cpp" linenr="80" str="rescaled_val" scope="0x1b9fc40" type="name" varId="38" variable="0x1ba2860" astParent="0x1b84af0"/>
+    <token id="0x1b84af0" file="modeswitcher.cpp" linenr="80" str="*" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b848e0" astOperand1="0x1b84990" astOperand2="0x1b84ba0"/>
+    <token id="0x1b84ba0" file="modeswitcher.cpp" linenr="80" str="Max_Xbox_Vx" scope="0x1b9fc40" type="name" varId="23" variable="0x1ba24b0" astParent="0x1b84af0"/>
+    <token id="0x1b84c50" file="modeswitcher.cpp" linenr="80" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b84db0" file="modeswitcher.cpp" linenr="82" str="Vx_Xbox_lock" scope="0x1b9fc40" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b84e60"/>
+    <token id="0x1b84e60" file="modeswitcher.cpp" linenr="82" str="." scope="0x1b9fc40" astParent="0x1b84fc0" astOperand1="0x1b84db0" astOperand2="0x1b84f10"/>
+    <token id="0x1b84f10" file="modeswitcher.cpp" linenr="82" str="unlock" scope="0x1b9fc40" type="name" astParent="0x1b84e60"/>
+    <token id="0x1b84fc0" file="modeswitcher.cpp" linenr="82" str="(" scope="0x1b9fc40" link="0x1b85070" astOperand1="0x1b84e60"/>
+    <token id="0x1b85070" file="modeswitcher.cpp" linenr="82" str=")" scope="0x1b9fc40" link="0x1b84fc0"/>
+    <token id="0x1b85120" file="modeswitcher.cpp" linenr="82" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b851d0" file="modeswitcher.cpp" linenr="85" str="float" scope="0x1b9fc40" type="name"/>
+    <token id="0x1b85280" file="modeswitcher.cpp" linenr="85" str="alpha_axes" scope="0x1b9fc40" type="name" varId="39" variable="0x1ba28d0"/>
+    <token id="0x1b85330" file="modeswitcher.cpp" linenr="85" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b9e440" file="modeswitcher.cpp" linenr="85" str="alpha_axes" scope="0x1b9fc40" type="name" varId="39" variable="0x1ba28d0" astParent="0x1b9e4f0"/>
+    <token id="0x1b9e4f0" file="modeswitcher.cpp" linenr="85" str="=" scope="0x1b9fc40" type="op" isAssignmentOp="True" astOperand1="0x1b9e440" astOperand2="0x1b856a0"/>
+    <token id="0x1b853e0" file="modeswitcher.cpp" linenr="85" str="joy" scope="0x1b9fc40" type="name" varId="31" variable="0x1ba2da0" astParent="0x1b85490"/>
+    <token id="0x1b85490" file="modeswitcher.cpp" linenr="85" str="." scope="0x1b9fc40" astParent="0x1b856a0" astOperand1="0x1b853e0" astOperand2="0x1b855f0"/>
+    <token id="0x1b855f0" file="modeswitcher.cpp" linenr="85" str="axes" scope="0x1b9fc40" type="name" varId="37" astParent="0x1b85490"/>
+    <token id="0x1b856a0" file="modeswitcher.cpp" linenr="85" str="[" scope="0x1b9fc40" link="0x1b85800" astParent="0x1b9e4f0" astOperand1="0x1b85490" astOperand2="0x1b85750"/>
+    <token id="0x1b85750" file="modeswitcher.cpp" linenr="85" str="2" scope="0x1b9fc40" type="number" isInt="True" values="0x1b85758" astParent="0x1b856a0"/>
+    <token id="0x1b85800" file="modeswitcher.cpp" linenr="85" str="]" scope="0x1b9fc40" link="0x1b856a0"/>
+    <token id="0x1b858b0" file="modeswitcher.cpp" linenr="85" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b85960" file="modeswitcher.cpp" linenr="87" str="W_xbox" scope="0x1b9fc40" type="name" varId="15" variable="0x1ba2130" astParent="0x1b85a10"/>
+    <token id="0x1b85a10" file="modeswitcher.cpp" linenr="87" str="=" scope="0x1b9fc40" type="op" isAssignmentOp="True" astOperand1="0x1b85960" astOperand2="0x1b85b70"/>
+    <token id="0x1b85ac0" file="modeswitcher.cpp" linenr="87" str="w_max" scope="0x1b9fc40" type="name" varId="4" variable="0x1ba1c60" astParent="0x1b85b70"/>
+    <token id="0x1b85b70" file="modeswitcher.cpp" linenr="87" str="+" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b85a10" astOperand1="0x1b85ac0" astOperand2="0x1b86250"/>
+    <token id="0x1b85c20" file="modeswitcher.cpp" linenr="87" str="(" scope="0x1b9fc40" link="0x1b861a0"/>
+    <token id="0x1b85cd0" file="modeswitcher.cpp" linenr="87" str="(" scope="0x1b9fc40" link="0x1b85f90"/>
+    <token id="0x1b85d80" file="modeswitcher.cpp" linenr="87" str="alpha_axes" scope="0x1b9fc40" type="name" varId="39" variable="0x1ba28d0" astParent="0x1b85e30"/>
+    <token id="0x1b85e30" file="modeswitcher.cpp" linenr="87" str="-" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b86040" astOperand1="0x1b85d80" astOperand2="0x1b85ee0"/>
+    <token id="0x1b85ee0" file="modeswitcher.cpp" linenr="87" str="1" scope="0x1b9fc40" type="number" isInt="True" values="0x1b85ee8" astParent="0x1b85e30"/>
+    <token id="0x1b85f90" file="modeswitcher.cpp" linenr="87" str=")" scope="0x1b9fc40" link="0x1b85cd0"/>
+    <token id="0x1b86040" file="modeswitcher.cpp" linenr="87" str="/" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b86250" astOperand1="0x1b85e30" astOperand2="0x1b860f0"/>
+    <token id="0x1b860f0" file="modeswitcher.cpp" linenr="87" str="2" scope="0x1b9fc40" type="number" isInt="True" values="0x1b860f8" astParent="0x1b86040"/>
+    <token id="0x1b861a0" file="modeswitcher.cpp" linenr="87" str=")" scope="0x1b9fc40" link="0x1b85c20"/>
+    <token id="0x1b86250" file="modeswitcher.cpp" linenr="87" str="*" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b85b70" astOperand1="0x1b86040" astOperand2="0x1b86670"/>
+    <token id="0x1b86300" file="modeswitcher.cpp" linenr="87" str="(" scope="0x1b9fc40" link="0x1b869e0"/>
+    <token id="0x1b863b0" file="modeswitcher.cpp" linenr="87" str="abs" scope="0x1b9fc40" type="name" astParent="0x1b86460"/>
+    <token id="0x1b86460" file="modeswitcher.cpp" linenr="87" str="(" scope="0x1b9fc40" link="0x1b865c0" astParent="0x1b86670" astOperand1="0x1b863b0" astOperand2="0x1b86510"/>
+    <token id="0x1b86510" file="modeswitcher.cpp" linenr="87" str="w_min" scope="0x1b9fc40" type="name" varId="5" variable="0x1ba1cd0" astParent="0x1b86460"/>
+    <token id="0x1b865c0" file="modeswitcher.cpp" linenr="87" str=")" scope="0x1b9fc40" link="0x1b86460"/>
+    <token id="0x1b86670" file="modeswitcher.cpp" linenr="87" str="+" scope="0x1b9fc40" type="op" isArithmeticalOp="True" astParent="0x1b86250" astOperand1="0x1b86460" astOperand2="0x1b867d0"/>
+    <token id="0x1b86720" file="modeswitcher.cpp" linenr="87" str="abs" scope="0x1b9fc40" type="name" astParent="0x1b867d0"/>
+    <token id="0x1b867d0" file="modeswitcher.cpp" linenr="87" str="(" scope="0x1b9fc40" link="0x1b86930" astParent="0x1b86670" astOperand1="0x1b86720" astOperand2="0x1b86880"/>
+    <token id="0x1b86880" file="modeswitcher.cpp" linenr="87" str="w_max" scope="0x1b9fc40" type="name" varId="4" variable="0x1ba1c60" astParent="0x1b867d0"/>
+    <token id="0x1b86930" file="modeswitcher.cpp" linenr="87" str=")" scope="0x1b9fc40" link="0x1b867d0"/>
+    <token id="0x1b869e0" file="modeswitcher.cpp" linenr="87" str=")" scope="0x1b9fc40" link="0x1b86300"/>
+    <token id="0x1b86a90" file="modeswitcher.cpp" linenr="87" str=";" scope="0x1b9fc40"/>
+    <token id="0x1b86b40" file="modeswitcher.cpp" linenr="99" str="}" scope="0x1b9fc40" link="0x1b83180"/>
+    <token id="0x1b86bf0" file="modeswitcher.cpp" linenr="101" str="return" scope="0x1b9f4d0" type="name"/>
+    <token id="0x1b86ca0" file="modeswitcher.cpp" linenr="101" str=";" scope="0x1b9f4d0"/>
+    <token id="0x1b86d50" file="modeswitcher.cpp" linenr="102" str="}" scope="0x1b9f4d0" link="0x1b7e950"/>
+    <token id="0x1b86e00" file="modeswitcher.cpp" linenr="105" str="void" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b86eb0" file="modeswitcher.cpp" linenr="105" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50" astParent="0x1b86f60"/>
+    <token id="0x1b86f60" file="modeswitcher.cpp" linenr="105" str="::" scope="0x1b79fd0" astParent="0x1b870c0" astOperand1="0x1b86eb0" astOperand2="0x1b87010"/>
+    <token id="0x1b87010" file="modeswitcher.cpp" linenr="105" str="encoderCallback" scope="0x1b79fd0" type="name" astParent="0x1b86f60"/>
+    <token id="0x1b870c0" file="modeswitcher.cpp" linenr="105" str="(" scope="0x1b79fd0" link="0x1b876f0" astOperand1="0x1b86f60" astOperand2="0x1b87590"/>
+    <token id="0x1b87170" file="modeswitcher.cpp" linenr="105" str="const" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b87220" file="modeswitcher.cpp" linenr="105" str="controls_msgs" scope="0x1b79fd0" type="name" astParent="0x1b872d0"/>
+    <token id="0x1b872d0" file="modeswitcher.cpp" linenr="105" str="::" scope="0x1b79fd0" astParent="0x1b87430" astOperand1="0x1b87220" astOperand2="0x1b87380"/>
+    <token id="0x1b87380" file="modeswitcher.cpp" linenr="105" str="encoder_msg" scope="0x1b79fd0" type="name" astParent="0x1b872d0"/>
+    <token id="0x1b87430" file="modeswitcher.cpp" linenr="105" str="::" scope="0x1b79fd0" astParent="0x1b87590" astOperand1="0x1b872d0" astOperand2="0x1b874e0"/>
+    <token id="0x1b874e0" file="modeswitcher.cpp" linenr="105" str="ConstPtr" scope="0x1b79fd0" type="name" astParent="0x1b87430"/>
+    <token id="0x1b87590" file="modeswitcher.cpp" linenr="105" str="&amp;" scope="0x1b79fd0" type="op" astParent="0x1b870c0" astOperand1="0x1b87430" astOperand2="0x1b87640"/>
+    <token id="0x1b87640" file="modeswitcher.cpp" linenr="105" str="msg" scope="0x1b79fd0" type="name" varId="40" astParent="0x1b87590"/>
+    <token id="0x1b876f0" file="modeswitcher.cpp" linenr="105" str=")" scope="0x1b79fd0" link="0x1b870c0"/>
+    <token id="0x1b877a0" file="modeswitcher.cpp" linenr="106" str="{" scope="0x1b9fd90" link="0x1b88a30"/>
+    <token id="0x1b87850" file="modeswitcher.cpp" linenr="107" str="Vl_Vr_a_lock" scope="0x1b9fd90" type="name" varId="9" variable="0x1ba1e90" astParent="0x1b87900"/>
+    <token id="0x1b87900" file="modeswitcher.cpp" linenr="107" str="." scope="0x1b9fd90" astParent="0x1b87a60" astOperand1="0x1b87850" astOperand2="0x1b879b0"/>
+    <token id="0x1b879b0" file="modeswitcher.cpp" linenr="107" str="lock" scope="0x1b9fd90" type="name" astParent="0x1b87900"/>
+    <token id="0x1b87a60" file="modeswitcher.cpp" linenr="107" str="(" scope="0x1b9fd90" link="0x1b87b10" astOperand1="0x1b87900"/>
+    <token id="0x1b87b10" file="modeswitcher.cpp" linenr="107" str=")" scope="0x1b9fd90" link="0x1b87a60"/>
+    <token id="0x1b87bc0" file="modeswitcher.cpp" linenr="107" str=";" scope="0x1b9fd90"/>
+    <token id="0x1b87c70" file="modeswitcher.cpp" linenr="108" str="Vl_a" scope="0x1b9fd90" type="name" varId="21" variable="0x1ba23d0" astParent="0x1b87d20"/>
+    <token id="0x1b87d20" file="modeswitcher.cpp" linenr="108" str="=" scope="0x1b9fd90" type="op" isAssignmentOp="True" astOperand1="0x1b87c70" astOperand2="0x1b87e80"/>
+    <token id="0x1b87dd0" file="modeswitcher.cpp" linenr="108" str="msg" scope="0x1b9fd90" type="name" varId="40" astParent="0x1b87e80"/>
+    <token id="0x1b87e80" file="modeswitcher.cpp" linenr="108" str="." scope="0x1b9fd90" astParent="0x1b87d20" astOperand1="0x1b87dd0" astOperand2="0x1b87fe0"/>
+    <token id="0x1b87fe0" file="modeswitcher.cpp" linenr="108" str="left_vel" scope="0x1b9fd90" type="name" varId="41" astParent="0x1b87e80"/>
+    <token id="0x1b88090" file="modeswitcher.cpp" linenr="108" str=";" scope="0x1b9fd90"/>
+    <token id="0x1b88140" file="modeswitcher.cpp" linenr="109" str="Vr_a" scope="0x1b9fd90" type="name" varId="22" variable="0x1ba2440" astParent="0x1b881f0"/>
+    <token id="0x1b881f0" file="modeswitcher.cpp" linenr="109" str="=" scope="0x1b9fd90" type="op" isAssignmentOp="True" astOperand1="0x1b88140" astOperand2="0x1b88350"/>
+    <token id="0x1b882a0" file="modeswitcher.cpp" linenr="109" str="msg" scope="0x1b9fd90" type="name" varId="40" astParent="0x1b88350"/>
+    <token id="0x1b88350" file="modeswitcher.cpp" linenr="109" str="." scope="0x1b9fd90" astParent="0x1b881f0" astOperand1="0x1b882a0" astOperand2="0x1b884b0"/>
+    <token id="0x1b884b0" file="modeswitcher.cpp" linenr="109" str="right_vel" scope="0x1b9fd90" type="name" varId="42" astParent="0x1b88350"/>
+    <token id="0x1b88560" file="modeswitcher.cpp" linenr="109" str=";" scope="0x1b9fd90"/>
+    <token id="0x1b88610" file="modeswitcher.cpp" linenr="110" str="Vl_Vr_a_lock" scope="0x1b9fd90" type="name" varId="9" variable="0x1ba1e90" astParent="0x1b886c0"/>
+    <token id="0x1b886c0" file="modeswitcher.cpp" linenr="110" str="." scope="0x1b9fd90" astParent="0x1b88820" astOperand1="0x1b88610" astOperand2="0x1b88770"/>
+    <token id="0x1b88770" file="modeswitcher.cpp" linenr="110" str="unlock" scope="0x1b9fd90" type="name" astParent="0x1b886c0"/>
+    <token id="0x1b88820" file="modeswitcher.cpp" linenr="110" str="(" scope="0x1b9fd90" link="0x1b888d0" astOperand1="0x1b886c0"/>
+    <token id="0x1b888d0" file="modeswitcher.cpp" linenr="110" str=")" scope="0x1b9fd90" link="0x1b88820"/>
+    <token id="0x1b88980" file="modeswitcher.cpp" linenr="110" str=";" scope="0x1b9fd90"/>
+    <token id="0x1b88a30" file="modeswitcher.cpp" linenr="112" str="}" scope="0x1b9fd90" link="0x1b877a0"/>
+    <token id="0x1b88ae0" file="modeswitcher.cpp" linenr="115" str="void" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b88b90" file="modeswitcher.cpp" linenr="115" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50" astParent="0x1b88c40"/>
+    <token id="0x1b88c40" file="modeswitcher.cpp" linenr="115" str="::" scope="0x1b79fd0" astParent="0x1b88da0" astOperand1="0x1b88b90" astOperand2="0x1b88cf0"/>
+    <token id="0x1b88cf0" file="modeswitcher.cpp" linenr="115" str="planCallback" scope="0x1b79fd0" type="name" function="0x1b9f230" astParent="0x1b88c40"/>
+    <token id="0x1b88da0" file="modeswitcher.cpp" linenr="115" str="(" scope="0x1b79fd0" link="0x1b893d0" astOperand1="0x1b88c40" astOperand2="0x1b89270"/>
+    <token id="0x1b88e50" file="modeswitcher.cpp" linenr="115" str="const" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b88f00" file="modeswitcher.cpp" linenr="115" str="geometry_msgs" scope="0x1b79fd0" type="name" astParent="0x1b88fb0"/>
+    <token id="0x1b88fb0" file="modeswitcher.cpp" linenr="115" str="::" scope="0x1b79fd0" astParent="0x1b89110" astOperand1="0x1b88f00" astOperand2="0x1b89060"/>
+    <token id="0x1b89060" file="modeswitcher.cpp" linenr="115" str="Twist" scope="0x1b79fd0" type="name" astParent="0x1b88fb0"/>
+    <token id="0x1b89110" file="modeswitcher.cpp" linenr="115" str="::" scope="0x1b79fd0" astParent="0x1b89270" astOperand1="0x1b88fb0" astOperand2="0x1b891c0"/>
+    <token id="0x1b891c0" file="modeswitcher.cpp" linenr="115" str="ConstPtr" scope="0x1b79fd0" type="name" astParent="0x1b89110"/>
+    <token id="0x1b89270" file="modeswitcher.cpp" linenr="115" str="&amp;" scope="0x1b79fd0" type="op" astParent="0x1b88da0" astOperand1="0x1b89110" astOperand2="0x1b89320"/>
+    <token id="0x1b89320" file="modeswitcher.cpp" linenr="115" str="pose" scope="0x1b79fd0" type="name" varId="43" variable="0x1ba2e10" astParent="0x1b89270"/>
+    <token id="0x1b893d0" file="modeswitcher.cpp" linenr="115" str=")" scope="0x1b79fd0" link="0x1b88da0"/>
+    <token id="0x1b89480" file="modeswitcher.cpp" linenr="116" str="{" scope="0x1b9fee0" link="0x1b8cc30"/>
+    <token id="0x1b89530" file="modeswitcher.cpp" linenr="117" str="xbox_flag_lock" scope="0x1b9fee0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b895e0"/>
+    <token id="0x1b895e0" file="modeswitcher.cpp" linenr="117" str="." scope="0x1b9fee0" astParent="0x1b89740" astOperand1="0x1b89530" astOperand2="0x1b89690"/>
+    <token id="0x1b89690" file="modeswitcher.cpp" linenr="117" str="lock" scope="0x1b9fee0" type="name" astParent="0x1b895e0"/>
+    <token id="0x1b89740" file="modeswitcher.cpp" linenr="117" str="(" scope="0x1b9fee0" link="0x1b897f0" astOperand1="0x1b895e0"/>
+    <token id="0x1b897f0" file="modeswitcher.cpp" linenr="117" str=")" scope="0x1b9fee0" link="0x1b89740"/>
+    <token id="0x1b898a0" file="modeswitcher.cpp" linenr="117" str=";" scope="0x1b9fee0"/>
+    <token id="0x1b89950" file="modeswitcher.cpp" linenr="118" str="int" scope="0x1b9fee0" type="name"/>
+    <token id="0x1b89a00" file="modeswitcher.cpp" linenr="118" str="temp_flag" scope="0x1b9fee0" type="name" varId="44" variable="0x1ba2940"/>
+    <token id="0x1b89ab0" file="modeswitcher.cpp" linenr="118" str=";" scope="0x1b9fee0"/>
+    <token id="0x1b9e5a0" file="modeswitcher.cpp" linenr="118" str="temp_flag" scope="0x1b9fee0" type="name" varId="44" variable="0x1ba2940" astParent="0x1b9e650"/>
+    <token id="0x1b9e650" file="modeswitcher.cpp" linenr="118" str="=" scope="0x1b9fee0" type="op" isAssignmentOp="True" astOperand1="0x1b9e5a0" astOperand2="0x1b89b60"/>
+    <token id="0x1b89b60" file="modeswitcher.cpp" linenr="118" str="xboxflag" scope="0x1b9fee0" type="name" varId="24" variable="0x1ba2520" astParent="0x1b9e650"/>
+    <token id="0x1b89c10" file="modeswitcher.cpp" linenr="118" str=";" scope="0x1b9fee0"/>
+    <token id="0x1b89cc0" file="modeswitcher.cpp" linenr="119" str="xbox_flag_lock" scope="0x1b9fee0" type="name" varId="13" variable="0x1ba2050" astParent="0x1b89d70"/>
+    <token id="0x1b89d70" file="modeswitcher.cpp" linenr="119" str="." scope="0x1b9fee0" astParent="0x1b89ed0" astOperand1="0x1b89cc0" astOperand2="0x1b89e20"/>
+    <token id="0x1b89e20" file="modeswitcher.cpp" linenr="119" str="unlock" scope="0x1b9fee0" type="name" astParent="0x1b89d70"/>
+    <token id="0x1b89ed0" file="modeswitcher.cpp" linenr="119" str="(" scope="0x1b9fee0" link="0x1b89f80" astOperand1="0x1b89d70"/>
+    <token id="0x1b89f80" file="modeswitcher.cpp" linenr="119" str=")" scope="0x1b9fee0" link="0x1b89ed0"/>
+    <token id="0x1b8a030" file="modeswitcher.cpp" linenr="119" str=";" scope="0x1b9fee0"/>
+    <token id="0x1b8a0e0" file="modeswitcher.cpp" linenr="121" str="if" scope="0x1b9fee0" type="name" astParent="0x1b8a190"/>
+    <token id="0x1b8a190" file="modeswitcher.cpp" linenr="121" str="(" scope="0x1b9fee0" link="0x1b8a450" astOperand1="0x1b8a0e0" astOperand2="0x1b8a2f0"/>
+    <token id="0x1b8a240" file="modeswitcher.cpp" linenr="121" str="temp_flag" scope="0x1b9fee0" type="name" varId="44" variable="0x1ba2940" values="0x1b8a248" astParent="0x1b8a2f0"/>
+    <token id="0x1b8a2f0" file="modeswitcher.cpp" linenr="121" str="==" scope="0x1b9fee0" type="op" isComparisonOp="True" values="0x1b8a2f8" astParent="0x1b8a190" astOperand1="0x1b8a240" astOperand2="0x1b8a3a0"/>
+    <token id="0x1b8a3a0" file="modeswitcher.cpp" linenr="121" str="1" scope="0x1b9fee0" type="number" isInt="True" values="0x1b8a3a8" astParent="0x1b8a2f0"/>
+    <token id="0x1b8a450" file="modeswitcher.cpp" linenr="121" str=")" scope="0x1b9fee0" link="0x1b8a190"/>
+    <token id="0x1b8a500" file="modeswitcher.cpp" linenr="122" str="{" scope="0x1ba0030" link="0x1b8a710"/>
+    <token id="0x1b8a5b0" file="modeswitcher.cpp" linenr="123" str="return" scope="0x1ba0030" type="name"/>
+    <token id="0x1b8a660" file="modeswitcher.cpp" linenr="123" str=";" scope="0x1ba0030"/>
+    <token id="0x1b8a710" file="modeswitcher.cpp" linenr="124" str="}" scope="0x1ba0030" link="0x1b8a500"/>
+    <token id="0x1b8a7c0" file="modeswitcher.cpp" linenr="125" str="else" scope="0x1b9fee0" type="name"/>
+    <token id="0x1b73180" file="modeswitcher.cpp" linenr="125" str="{" scope="0x1ba02b0" link="0x1b73230"/>
+    <token id="0x1b8a870" file="modeswitcher.cpp" linenr="125" str="if" scope="0x1ba02b0" type="name" astParent="0x1b8a920"/>
+    <token id="0x1b8a920" file="modeswitcher.cpp" linenr="125" str="(" scope="0x1ba02b0" link="0x1b8abe0" astOperand1="0x1b8a870" astOperand2="0x1b8aa80"/>
+    <token id="0x1b8a9d0" file="modeswitcher.cpp" linenr="125" str="temp_flag" scope="0x1ba02b0" type="name" varId="44" variable="0x1ba2940" values="0x1b8a9d8" astParent="0x1b8aa80"/>
+    <token id="0x1b8aa80" file="modeswitcher.cpp" linenr="125" str="==" scope="0x1ba02b0" type="op" isComparisonOp="True" values="0x1b8aa88" astParent="0x1b8a920" astOperand1="0x1b8a9d0" astOperand2="0x1b8ab30"/>
+    <token id="0x1b8ab30" file="modeswitcher.cpp" linenr="125" str="0" scope="0x1ba02b0" type="number" isInt="True" values="0x1b8ab38" astParent="0x1b8aa80"/>
+    <token id="0x1b8abe0" file="modeswitcher.cpp" linenr="125" str=")" scope="0x1ba02b0" link="0x1b8a920"/>
+    <token id="0x1b8ac90" file="modeswitcher.cpp" linenr="126" str="{" scope="0x1ba0fc0" link="0x1b8ca20"/>
+    <token id="0x1b8ad40" file="modeswitcher.cpp" linenr="127" str="Vx_planner_lock" scope="0x1ba0fc0" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b8adf0"/>
+    <token id="0x1b8adf0" file="modeswitcher.cpp" linenr="127" str="." scope="0x1ba0fc0" astParent="0x1b8af50" astOperand1="0x1b8ad40" astOperand2="0x1b8aea0"/>
+    <token id="0x1b8aea0" file="modeswitcher.cpp" linenr="127" str="lock" scope="0x1ba0fc0" type="name" astParent="0x1b8adf0"/>
+    <token id="0x1b8af50" file="modeswitcher.cpp" linenr="127" str="(" scope="0x1ba0fc0" link="0x1b8b000" astOperand1="0x1b8adf0"/>
+    <token id="0x1b8b000" file="modeswitcher.cpp" linenr="127" str=")" scope="0x1ba0fc0" link="0x1b8af50"/>
+    <token id="0x1b8b0b0" file="modeswitcher.cpp" linenr="127" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8b160" file="modeswitcher.cpp" linenr="128" str="Vx_Planner" scope="0x1ba0fc0" type="name" varId="20" variable="0x1ba2360" astParent="0x1b8b210"/>
+    <token id="0x1b8b210" file="modeswitcher.cpp" linenr="128" str="=" scope="0x1ba0fc0" type="op" isAssignmentOp="True" astOperand1="0x1b8b160" astOperand2="0x1b8b580"/>
+    <token id="0x1b8b2c0" file="modeswitcher.cpp" linenr="128" str="pose" scope="0x1ba0fc0" type="name" varId="43" variable="0x1ba2e10" astParent="0x1b8b370"/>
+    <token id="0x1b8b370" file="modeswitcher.cpp" linenr="128" str="." scope="0x1ba0fc0" astParent="0x1b8b580" astOperand1="0x1b8b2c0" astOperand2="0x1b8b4d0"/>
+    <token id="0x1b8b4d0" file="modeswitcher.cpp" linenr="128" str="linear" scope="0x1ba0fc0" type="name" varId="45" astParent="0x1b8b370"/>
+    <token id="0x1b8b580" file="modeswitcher.cpp" linenr="128" str="." scope="0x1ba0fc0" astParent="0x1b8b210" astOperand1="0x1b8b370" astOperand2="0x1b8b630"/>
+    <token id="0x1b8b630" file="modeswitcher.cpp" linenr="128" str="x" scope="0x1ba0fc0" type="name" varId="46" astParent="0x1b8b580"/>
+    <token id="0x1b8b6e0" file="modeswitcher.cpp" linenr="128" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8b790" file="modeswitcher.cpp" linenr="129" str="Vx_planner_lock" scope="0x1ba0fc0" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b8b840"/>
+    <token id="0x1b8b840" file="modeswitcher.cpp" linenr="129" str="." scope="0x1ba0fc0" astParent="0x1b8b9a0" astOperand1="0x1b8b790" astOperand2="0x1b8b8f0"/>
+    <token id="0x1b8b8f0" file="modeswitcher.cpp" linenr="129" str="unlock" scope="0x1ba0fc0" type="name" astParent="0x1b8b840"/>
+    <token id="0x1b8b9a0" file="modeswitcher.cpp" linenr="129" str="(" scope="0x1ba0fc0" link="0x1b8ba50" astOperand1="0x1b8b840"/>
+    <token id="0x1b8ba50" file="modeswitcher.cpp" linenr="129" str=")" scope="0x1ba0fc0" link="0x1b8b9a0"/>
+    <token id="0x1b8bb00" file="modeswitcher.cpp" linenr="129" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8bbb0" file="modeswitcher.cpp" linenr="131" str="W_planner_lock" scope="0x1ba0fc0" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b8bc60"/>
+    <token id="0x1b8bc60" file="modeswitcher.cpp" linenr="131" str="." scope="0x1ba0fc0" astParent="0x1b8bdc0" astOperand1="0x1b8bbb0" astOperand2="0x1b8bd10"/>
+    <token id="0x1b8bd10" file="modeswitcher.cpp" linenr="131" str="lock" scope="0x1ba0fc0" type="name" astParent="0x1b8bc60"/>
+    <token id="0x1b8bdc0" file="modeswitcher.cpp" linenr="131" str="(" scope="0x1ba0fc0" link="0x1b8be70" astOperand1="0x1b8bc60"/>
+    <token id="0x1b8be70" file="modeswitcher.cpp" linenr="131" str=")" scope="0x1ba0fc0" link="0x1b8bdc0"/>
+    <token id="0x1b8bf20" file="modeswitcher.cpp" linenr="131" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8bfd0" file="modeswitcher.cpp" linenr="132" str="W_Planner" scope="0x1ba0fc0" type="name" varId="19" variable="0x1ba22f0" astParent="0x1b8c080"/>
+    <token id="0x1b8c080" file="modeswitcher.cpp" linenr="132" str="=" scope="0x1ba0fc0" type="op" isAssignmentOp="True" astOperand1="0x1b8bfd0" astOperand2="0x1b8c3f0"/>
+    <token id="0x1b8c130" file="modeswitcher.cpp" linenr="132" str="pose" scope="0x1ba0fc0" type="name" varId="43" variable="0x1ba2e10" astParent="0x1b8c1e0"/>
+    <token id="0x1b8c1e0" file="modeswitcher.cpp" linenr="132" str="." scope="0x1ba0fc0" astParent="0x1b8c3f0" astOperand1="0x1b8c130" astOperand2="0x1b8c340"/>
+    <token id="0x1b8c340" file="modeswitcher.cpp" linenr="132" str="angular" scope="0x1ba0fc0" type="name" varId="47" astParent="0x1b8c1e0"/>
+    <token id="0x1b8c3f0" file="modeswitcher.cpp" linenr="132" str="." scope="0x1ba0fc0" astParent="0x1b8c080" astOperand1="0x1b8c1e0" astOperand2="0x1b8c4a0"/>
+    <token id="0x1b8c4a0" file="modeswitcher.cpp" linenr="132" str="z" scope="0x1ba0fc0" type="name" varId="48" astParent="0x1b8c3f0"/>
+    <token id="0x1b8c550" file="modeswitcher.cpp" linenr="132" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8c600" file="modeswitcher.cpp" linenr="133" str="W_planner_lock" scope="0x1ba0fc0" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b8c6b0"/>
+    <token id="0x1b8c6b0" file="modeswitcher.cpp" linenr="133" str="." scope="0x1ba0fc0" astParent="0x1b8c810" astOperand1="0x1b8c600" astOperand2="0x1b8c760"/>
+    <token id="0x1b8c760" file="modeswitcher.cpp" linenr="133" str="unlock" scope="0x1ba0fc0" type="name" astParent="0x1b8c6b0"/>
+    <token id="0x1b8c810" file="modeswitcher.cpp" linenr="133" str="(" scope="0x1ba0fc0" link="0x1b8c8c0" astOperand1="0x1b8c6b0"/>
+    <token id="0x1b8c8c0" file="modeswitcher.cpp" linenr="133" str=")" scope="0x1ba0fc0" link="0x1b8c810"/>
+    <token id="0x1b8c970" file="modeswitcher.cpp" linenr="133" str=";" scope="0x1ba0fc0"/>
+    <token id="0x1b8ca20" file="modeswitcher.cpp" linenr="137" str="}" scope="0x1ba0fc0" link="0x1b8ac90"/>
+    <token id="0x1b73230" file="modeswitcher.cpp" linenr="137" str="}" scope="0x1ba02b0" link="0x1b73180"/>
+    <token id="0x1b8cad0" file="modeswitcher.cpp" linenr="138" str="return" scope="0x1b9fee0" type="name"/>
+    <token id="0x1b8cb80" file="modeswitcher.cpp" linenr="138" str=";" scope="0x1b9fee0"/>
+    <token id="0x1b8cc30" file="modeswitcher.cpp" linenr="139" str="}" scope="0x1b9fee0" link="0x1b89480"/>
+    <token id="0x1b8cce0" file="modeswitcher.cpp" linenr="141" str="void" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b8cd90" file="modeswitcher.cpp" linenr="141" str="ModeSwitcher" scope="0x1b79fd0" type="name" type-scope="0x1b9ef50" astParent="0x1b8ce40"/>
+    <token id="0x1b8ce40" file="modeswitcher.cpp" linenr="141" str="::" scope="0x1b79fd0" astParent="0x1b8cfa0" astOperand1="0x1b8cd90" astOperand2="0x1b8cef0"/>
+    <token id="0x1b8cef0" file="modeswitcher.cpp" linenr="141" str="publish" scope="0x1b79fd0" type="name" function="0x1b9f2d0" astParent="0x1b8ce40"/>
+    <token id="0x1b8cfa0" file="modeswitcher.cpp" linenr="141" str="(" scope="0x1b79fd0" link="0x1b8d520" astOperand1="0x1b8ce40" astOperand2="0x1b8d1b0"/>
+    <token id="0x1b8d050" file="modeswitcher.cpp" linenr="141" str="int" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b8d100" file="modeswitcher.cpp" linenr="141" str="argc" scope="0x1b79fd0" type="name" varId="49" variable="0x1ba2e80" astParent="0x1b8d1b0"/>
+    <token id="0x1b8d1b0" file="modeswitcher.cpp" linenr="141" str="," scope="0x1b79fd0" astParent="0x1b8cfa0" astOperand1="0x1b8d100" astOperand2="0x1b8d310"/>
+    <token id="0x1b8d260" file="modeswitcher.cpp" linenr="141" str="char" scope="0x1b79fd0" type="name" astParent="0x1b8d310"/>
+    <token id="0x1b8d310" file="modeswitcher.cpp" linenr="141" str="*" scope="0x1b79fd0" type="op" isArithmeticalOp="True" astParent="0x1b8d1b0" astOperand1="0x1b8d260" astOperand2="0x1b8d3c0"/>
+    <token id="0x1b8d3c0" file="modeswitcher.cpp" linenr="141" str="*" scope="0x1b79fd0" type="op" isArithmeticalOp="True" astParent="0x1b8d310" astOperand1="0x1b8d470"/>
+    <token id="0x1b8d470" file="modeswitcher.cpp" linenr="141" str="argv" scope="0x1b79fd0" type="name" varId="50" variable="0x1ba2ef0" astParent="0x1b8d3c0"/>
+    <token id="0x1b8d520" file="modeswitcher.cpp" linenr="141" str=")" scope="0x1b79fd0" link="0x1b8cfa0"/>
+    <token id="0x1b8d5d0" file="modeswitcher.cpp" linenr="141" str="{" scope="0x1ba1110" link="0x1b9b9b0"/>
+    <token id="0x1b8d680" file="modeswitcher.cpp" linenr="143" str="ros" scope="0x1ba1110" type="name" astParent="0x1b8d730"/>
+    <token id="0x1b8d730" file="modeswitcher.cpp" linenr="143" str="::" scope="0x1ba1110" astParent="0x1b8d890" astOperand1="0x1b8d680" astOperand2="0x1b8d7e0"/>
+    <token id="0x1b8d7e0" file="modeswitcher.cpp" linenr="143" str="init" scope="0x1ba1110" type="name" astParent="0x1b8d730"/>
+    <token id="0x1b8d890" file="modeswitcher.cpp" linenr="143" str="(" scope="0x1ba1110" link="0x1b8dcb0" astOperand1="0x1b8d730" astOperand2="0x1b8db50"/>
+    <token id="0x1b8d940" file="modeswitcher.cpp" linenr="143" str="argc" scope="0x1ba1110" type="name" varId="49" variable="0x1ba2e80" astParent="0x1b8d9f0"/>
+    <token id="0x1b8d9f0" file="modeswitcher.cpp" linenr="143" str="," scope="0x1ba1110" astParent="0x1b8db50" astOperand1="0x1b8d940" astOperand2="0x1b8daa0"/>
+    <token id="0x1b8daa0" file="modeswitcher.cpp" linenr="143" str="argv" scope="0x1ba1110" type="name" varId="50" variable="0x1ba2ef0" astParent="0x1b8d9f0"/>
+    <token id="0x1b8db50" file="modeswitcher.cpp" linenr="143" str="," scope="0x1ba1110" astParent="0x1b8d890" astOperand1="0x1b8d9f0" astOperand2="0x1b8dc00"/>
+    <token id="0x1b8dc00" file="modeswitcher.cpp" linenr="143" str="&quot;modeswitching_node&quot;" scope="0x1ba1110" type="string" strlen="18" values="0x1b8dc08" astParent="0x1b8db50"/>
+    <token id="0x1b8dcb0" file="modeswitcher.cpp" linenr="143" str=")" scope="0x1ba1110" link="0x1b8d890"/>
+    <token id="0x1b8dd60" file="modeswitcher.cpp" linenr="143" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8de10" file="modeswitcher.cpp" linenr="144" str="ros" scope="0x1ba1110" type="name" astParent="0x1b8dec0"/>
+    <token id="0x1b8dec0" file="modeswitcher.cpp" linenr="144" str="::" scope="0x1ba1110" astOperand1="0x1b8de10" astOperand2="0x1b8e020"/>
+    <token id="0x1b8df70" file="modeswitcher.cpp" linenr="144" str="NodeHandle" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8e020" file="modeswitcher.cpp" linenr="144" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b8dec0"/>
+    <token id="0x1b8e0d0" file="modeswitcher.cpp" linenr="144" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8e180" file="modeswitcher.cpp" linenr="145" str="ros" scope="0x1ba1110" type="name" astParent="0x1b8e230"/>
+    <token id="0x1b8e230" file="modeswitcher.cpp" linenr="145" str="::" scope="0x1ba1110" astParent="0x1b8e440" astOperand1="0x1b8e180" astOperand2="0x1b8e390"/>
+    <token id="0x1b8e2e0" file="modeswitcher.cpp" linenr="145" str="Rate" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8e390" file="modeswitcher.cpp" linenr="145" str="loop_rate" scope="0x1ba1110" type="name" varId="52" variable="0x1ba2a20" astParent="0x1b8e230"/>
+    <token id="0x1b8e440" file="modeswitcher.cpp" linenr="145" str="(" scope="0x1ba1110" link="0x1b8e5a0" astOperand1="0x1b8e230" astOperand2="0x1b8e4f0"/>
+    <token id="0x1b8e4f0" file="modeswitcher.cpp" linenr="145" str="10" scope="0x1ba1110" type="number" isInt="True" values="0x1b8e4f8" astParent="0x1b8e440"/>
+    <token id="0x1b8e5a0" file="modeswitcher.cpp" linenr="145" str=")" scope="0x1ba1110" link="0x1b8e440"/>
+    <token id="0x1b8e650" file="modeswitcher.cpp" linenr="145" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8e700" file="modeswitcher.cpp" linenr="147" str="ros" scope="0x1ba1110" type="name" astParent="0x1b8e7b0"/>
+    <token id="0x1b8e7b0" file="modeswitcher.cpp" linenr="147" str="::" scope="0x1ba1110" astOperand1="0x1b8e700" astOperand2="0x1b8e910"/>
+    <token id="0x1b8e860" file="modeswitcher.cpp" linenr="147" str="Subscriber" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8e910" file="modeswitcher.cpp" linenr="147" str="joy_sub" scope="0x1ba1110" type="name" varId="53" variable="0x1ba2a90" astParent="0x1b8e7b0"/>
+    <token id="0x1b8e9c0" file="modeswitcher.cpp" linenr="147" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8ea70" file="modeswitcher.cpp" linenr="148" str="ros" scope="0x1ba1110" type="name" astParent="0x1b8eb20"/>
+    <token id="0x1b8eb20" file="modeswitcher.cpp" linenr="148" str="::" scope="0x1ba1110" astOperand1="0x1b8ea70" astOperand2="0x1b8ec80"/>
+    <token id="0x1b8ebd0" file="modeswitcher.cpp" linenr="148" str="Subscriber" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8ec80" file="modeswitcher.cpp" linenr="148" str="plan_sub" scope="0x1ba1110" type="name" varId="54" variable="0x1ba2b00" astParent="0x1b8eb20"/>
+    <token id="0x1b8ed30" file="modeswitcher.cpp" linenr="148" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8ede0" file="modeswitcher.cpp" linenr="150" str="joy_sub" scope="0x1ba1110" type="name" varId="53" variable="0x1ba2a90" astParent="0x1b8ee90"/>
+    <token id="0x1b8ee90" file="modeswitcher.cpp" linenr="150" str="=" scope="0x1ba1110" type="op" isAssignmentOp="True" astOperand1="0x1b8ede0" astOperand2="0x1b8f4c0"/>
+    <token id="0x1b8ef40" file="modeswitcher.cpp" linenr="150" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b8eff0"/>
+    <token id="0x1b8eff0" file="modeswitcher.cpp" linenr="150" str="." scope="0x1ba1110" astParent="0x1b8f4c0" astOperand1="0x1b8ef40" astOperand2="0x1b8f0a0"/>
+    <token id="0x1b8f0a0" file="modeswitcher.cpp" linenr="150" str="subscribe" scope="0x1ba1110" type="name" astParent="0x1b8eff0"/>
+    <token id="0x1b8f150" file="modeswitcher.cpp" linenr="150" str="&lt;" scope="0x1ba1110" link="0x1b8f410"/>
+    <token id="0x1b8f200" file="modeswitcher.cpp" linenr="150" str="sensor_msgs" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8f2b0" file="modeswitcher.cpp" linenr="150" str="::" scope="0x1ba1110"/>
+    <token id="0x1b8f360" file="modeswitcher.cpp" linenr="150" str="Joy" scope="0x1ba1110" type="name"/>
+    <token id="0x1b8f410" file="modeswitcher.cpp" linenr="150" str="&gt;" scope="0x1ba1110" link="0x1b8f150"/>
+    <token id="0x1b8f4c0" file="modeswitcher.cpp" linenr="150" str="(" scope="0x1ba1110" link="0x1b8fc50" astParent="0x1b8ee90" astOperand1="0x1b8eff0" astOperand2="0x1b8faf0"/>
+    <token id="0x1b8f570" file="modeswitcher.cpp" linenr="150" str="&quot;joy&quot;" scope="0x1ba1110" type="string" strlen="3" values="0x1b8f578" astParent="0x1b8f620"/>
+    <token id="0x1b8f620" file="modeswitcher.cpp" linenr="150" str="," scope="0x1ba1110" astParent="0x1b8f780" astOperand1="0x1b8f570" astOperand2="0x1b8f6d0"/>
+    <token id="0x1b8f6d0" file="modeswitcher.cpp" linenr="150" str="1000" scope="0x1ba1110" type="number" isInt="True" values="0x1b8f6d8" astParent="0x1b8f620"/>
+    <token id="0x1b8f780" file="modeswitcher.cpp" linenr="150" str="," scope="0x1ba1110" astParent="0x1b8faf0" astOperand1="0x1b8f620" astOperand2="0x1b8f830"/>
+    <token id="0x1b8f830" file="modeswitcher.cpp" linenr="150" str="&amp;" scope="0x1ba1110" type="op" astParent="0x1b8f780" astOperand1="0x1b8f990"/>
+    <token id="0x1b8f8e0" file="modeswitcher.cpp" linenr="150" str="ModeSwitcher" scope="0x1ba1110" type="name" type-scope="0x1b9ef50" astParent="0x1b8f990"/>
+    <token id="0x1b8f990" file="modeswitcher.cpp" linenr="150" str="::" scope="0x1ba1110" astParent="0x1b8f830" astOperand1="0x1b8f8e0" astOperand2="0x1b8fa40"/>
+    <token id="0x1b8fa40" file="modeswitcher.cpp" linenr="150" str="joyCallback" scope="0x1ba1110" type="name" astParent="0x1b8f990"/>
+    <token id="0x1b8faf0" file="modeswitcher.cpp" linenr="150" str="," scope="0x1ba1110" astParent="0x1b8f4c0" astOperand1="0x1b8f780" astOperand2="0x1b8fba0"/>
+    <token id="0x1b8fba0" file="modeswitcher.cpp" linenr="150" str="this" scope="0x1ba1110" type="name" astParent="0x1b8faf0"/>
+    <token id="0x1b8fc50" file="modeswitcher.cpp" linenr="150" str=")" scope="0x1ba1110" link="0x1b8f4c0"/>
+    <token id="0x1b8fd00" file="modeswitcher.cpp" linenr="150" str=";" scope="0x1ba1110"/>
+    <token id="0x1b8fdb0" file="modeswitcher.cpp" linenr="151" str="plan_sub" scope="0x1ba1110" type="name" varId="54" variable="0x1ba2b00" astParent="0x1b8fe60"/>
+    <token id="0x1b8fe60" file="modeswitcher.cpp" linenr="151" str="=" scope="0x1ba1110" type="op" isAssignmentOp="True" astOperand1="0x1b8fdb0" astOperand2="0x1b90490"/>
+    <token id="0x1b8ff10" file="modeswitcher.cpp" linenr="151" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b8ffc0"/>
+    <token id="0x1b8ffc0" file="modeswitcher.cpp" linenr="151" str="." scope="0x1ba1110" astParent="0x1b90490" astOperand1="0x1b8ff10" astOperand2="0x1b90070"/>
+    <token id="0x1b90070" file="modeswitcher.cpp" linenr="151" str="subscribe" scope="0x1ba1110" type="name" astParent="0x1b8ffc0"/>
+    <token id="0x1b90120" file="modeswitcher.cpp" linenr="151" str="&lt;" scope="0x1ba1110" link="0x1b903e0"/>
+    <token id="0x1b901d0" file="modeswitcher.cpp" linenr="151" str="geometry_msgs" scope="0x1ba1110" type="name"/>
+    <token id="0x1b90280" file="modeswitcher.cpp" linenr="151" str="::" scope="0x1ba1110"/>
+    <token id="0x1b90330" file="modeswitcher.cpp" linenr="151" str="Twist" scope="0x1ba1110" type="name"/>
+    <token id="0x1b903e0" file="modeswitcher.cpp" linenr="151" str="&gt;" scope="0x1ba1110" link="0x1b90120"/>
+    <token id="0x1b90490" file="modeswitcher.cpp" linenr="151" str="(" scope="0x1ba1110" link="0x1b90c20" astParent="0x1b8fe60" astOperand1="0x1b8ffc0" astOperand2="0x1b90ac0"/>
+    <token id="0x1b90540" file="modeswitcher.cpp" linenr="151" str="&quot;cmd_vel&quot;" scope="0x1ba1110" type="string" strlen="7" values="0x1b90548" astParent="0x1b905f0"/>
+    <token id="0x1b905f0" file="modeswitcher.cpp" linenr="151" str="," scope="0x1ba1110" astParent="0x1b90750" astOperand1="0x1b90540" astOperand2="0x1b906a0"/>
+    <token id="0x1b906a0" file="modeswitcher.cpp" linenr="151" str="1000" scope="0x1ba1110" type="number" isInt="True" values="0x1b906a8" astParent="0x1b905f0"/>
+    <token id="0x1b90750" file="modeswitcher.cpp" linenr="151" str="," scope="0x1ba1110" astParent="0x1b90ac0" astOperand1="0x1b905f0" astOperand2="0x1b90800"/>
+    <token id="0x1b90800" file="modeswitcher.cpp" linenr="151" str="&amp;" scope="0x1ba1110" type="op" astParent="0x1b90750" astOperand1="0x1b90960"/>
+    <token id="0x1b908b0" file="modeswitcher.cpp" linenr="151" str="ModeSwitcher" scope="0x1ba1110" type="name" type-scope="0x1b9ef50" astParent="0x1b90960"/>
+    <token id="0x1b90960" file="modeswitcher.cpp" linenr="151" str="::" scope="0x1ba1110" astParent="0x1b90800" astOperand1="0x1b908b0" astOperand2="0x1b90a10"/>
+    <token id="0x1b90a10" file="modeswitcher.cpp" linenr="151" str="planCallback" scope="0x1ba1110" type="name" astParent="0x1b90960"/>
+    <token id="0x1b90ac0" file="modeswitcher.cpp" linenr="151" str="," scope="0x1ba1110" astParent="0x1b90490" astOperand1="0x1b90750" astOperand2="0x1b90b70"/>
+    <token id="0x1b90b70" file="modeswitcher.cpp" linenr="151" str="this" scope="0x1ba1110" type="name" astParent="0x1b90ac0"/>
+    <token id="0x1b90c20" file="modeswitcher.cpp" linenr="151" str=")" scope="0x1ba1110" link="0x1b90490"/>
+    <token id="0x1b90cd0" file="modeswitcher.cpp" linenr="151" str=";" scope="0x1ba1110"/>
+    <token id="0x1b90d80" file="modeswitcher.cpp" linenr="153" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b90e30"/>
+    <token id="0x1b90e30" file="modeswitcher.cpp" linenr="153" str="." scope="0x1ba1110" astParent="0x1b90f90" astOperand1="0x1b90d80" astOperand2="0x1b90ee0"/>
+    <token id="0x1b90ee0" file="modeswitcher.cpp" linenr="153" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b90e30"/>
+    <token id="0x1b90f90" file="modeswitcher.cpp" linenr="153" str="(" scope="0x1ba1110" link="0x1b912a0" astOperand1="0x1b90e30" astOperand2="0x1b91140"/>
+    <token id="0x1b91090" file="modeswitcher.cpp" linenr="153" str="&quot;/modeswitching_node/maxvelocity&quot;" scope="0x1ba1110" type="string" strlen="31" values="0x1b91098" astParent="0x1b91140"/>
+    <token id="0x1b91140" file="modeswitcher.cpp" linenr="153" str="," scope="0x1ba1110" astParent="0x1b90f90" astOperand1="0x1b91090" astOperand2="0x1b911f0"/>
+    <token id="0x1b911f0" file="modeswitcher.cpp" linenr="153" str="Max_Xbox_Vx" scope="0x1ba1110" type="name" varId="23" variable="0x1ba24b0" astParent="0x1b91140"/>
+    <token id="0x1b912a0" file="modeswitcher.cpp" linenr="153" str=")" scope="0x1ba1110" link="0x1b90f90"/>
+    <token id="0x1b91350" file="modeswitcher.cpp" linenr="153" str=";" scope="0x1ba1110"/>
+    <token id="0x1b91400" file="modeswitcher.cpp" linenr="154" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b914b0"/>
+    <token id="0x1b914b0" file="modeswitcher.cpp" linenr="154" str="." scope="0x1ba1110" astParent="0x1b91610" astOperand1="0x1b91400" astOperand2="0x1b91560"/>
+    <token id="0x1b91560" file="modeswitcher.cpp" linenr="154" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b914b0"/>
+    <token id="0x1b91610" file="modeswitcher.cpp" linenr="154" str="(" scope="0x1ba1110" link="0x1b918d0" astOperand1="0x1b914b0" astOperand2="0x1b91770"/>
+    <token id="0x1b916c0" file="modeswitcher.cpp" linenr="154" str="&quot;d&quot;" scope="0x1ba1110" type="string" strlen="1" values="0x1b916c8" astParent="0x1b91770"/>
+    <token id="0x1b91770" file="modeswitcher.cpp" linenr="154" str="," scope="0x1ba1110" astParent="0x1b91610" astOperand1="0x1b916c0" astOperand2="0x1b91820"/>
+    <token id="0x1b91820" file="modeswitcher.cpp" linenr="154" str="d" scope="0x1ba1110" type="name" varId="1" variable="0x1ba1b10" astParent="0x1b91770"/>
+    <token id="0x1b918d0" file="modeswitcher.cpp" linenr="154" str=")" scope="0x1ba1110" link="0x1b91610"/>
+    <token id="0x1b91980" file="modeswitcher.cpp" linenr="154" str=";" scope="0x1ba1110"/>
+    <token id="0x1b91a30" file="modeswitcher.cpp" linenr="155" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b91ae0"/>
+    <token id="0x1b91ae0" file="modeswitcher.cpp" linenr="155" str="." scope="0x1ba1110" astParent="0x1b91c40" astOperand1="0x1b91a30" astOperand2="0x1b91b90"/>
+    <token id="0x1b91b90" file="modeswitcher.cpp" linenr="155" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b91ae0"/>
+    <token id="0x1b91c40" file="modeswitcher.cpp" linenr="155" str="(" scope="0x1ba1110" link="0x1b91f00" astOperand1="0x1b91ae0" astOperand2="0x1b91da0"/>
+    <token id="0x1b91cf0" file="modeswitcher.cpp" linenr="155" str="&quot;Alpha_Max&quot;" scope="0x1ba1110" type="string" strlen="9" values="0x1b91cf8" astParent="0x1b91da0"/>
+    <token id="0x1b91da0" file="modeswitcher.cpp" linenr="155" str="," scope="0x1ba1110" astParent="0x1b91c40" astOperand1="0x1b91cf0" astOperand2="0x1b91e50"/>
+    <token id="0x1b91e50" file="modeswitcher.cpp" linenr="155" str="maxalpha" scope="0x1ba1110" type="name" varId="2" variable="0x1ba1b80" astParent="0x1b91da0"/>
+    <token id="0x1b91f00" file="modeswitcher.cpp" linenr="155" str=")" scope="0x1ba1110" link="0x1b91c40"/>
+    <token id="0x1b91fb0" file="modeswitcher.cpp" linenr="155" str=";" scope="0x1ba1110"/>
+    <token id="0x1b92060" file="modeswitcher.cpp" linenr="156" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b92110"/>
+    <token id="0x1b92110" file="modeswitcher.cpp" linenr="156" str="." scope="0x1ba1110" astParent="0x1b92270" astOperand1="0x1b92060" astOperand2="0x1b921c0"/>
+    <token id="0x1b921c0" file="modeswitcher.cpp" linenr="156" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b92110"/>
+    <token id="0x1b92270" file="modeswitcher.cpp" linenr="156" str="(" scope="0x1ba1110" link="0x1b92530" astOperand1="0x1b92110" astOperand2="0x1b923d0"/>
+    <token id="0x1b92320" file="modeswitcher.cpp" linenr="156" str="&quot;Alpha_Min&quot;" scope="0x1ba1110" type="string" strlen="9" values="0x1b92328" astParent="0x1b923d0"/>
+    <token id="0x1b923d0" file="modeswitcher.cpp" linenr="156" str="," scope="0x1ba1110" astParent="0x1b92270" astOperand1="0x1b92320" astOperand2="0x1b92480"/>
+    <token id="0x1b92480" file="modeswitcher.cpp" linenr="156" str="minalpha" scope="0x1ba1110" type="name" varId="3" variable="0x1ba1bf0" astParent="0x1b923d0"/>
+    <token id="0x1b92530" file="modeswitcher.cpp" linenr="156" str=")" scope="0x1ba1110" link="0x1b92270"/>
+    <token id="0x1b925e0" file="modeswitcher.cpp" linenr="156" str=";" scope="0x1ba1110"/>
+    <token id="0x1b92690" file="modeswitcher.cpp" linenr="158" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b92740"/>
+    <token id="0x1b92740" file="modeswitcher.cpp" linenr="158" str="." scope="0x1ba1110" astParent="0x1b928a0" astOperand1="0x1b92690" astOperand2="0x1b927f0"/>
+    <token id="0x1b927f0" file="modeswitcher.cpp" linenr="158" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b92740"/>
+    <token id="0x1b928a0" file="modeswitcher.cpp" linenr="158" str="(" scope="0x1ba1110" link="0x1b92b60" astOperand1="0x1b92740" astOperand2="0x1b92a00"/>
+    <token id="0x1b92950" file="modeswitcher.cpp" linenr="158" str="&quot;w_max&quot;" scope="0x1ba1110" type="string" strlen="5" values="0x1b92958" astParent="0x1b92a00"/>
+    <token id="0x1b92a00" file="modeswitcher.cpp" linenr="158" str="," scope="0x1ba1110" astParent="0x1b928a0" astOperand1="0x1b92950" astOperand2="0x1b92ab0"/>
+    <token id="0x1b92ab0" file="modeswitcher.cpp" linenr="158" str="w_max" scope="0x1ba1110" type="name" varId="4" variable="0x1ba1c60" astParent="0x1b92a00"/>
+    <token id="0x1b92b60" file="modeswitcher.cpp" linenr="158" str=")" scope="0x1ba1110" link="0x1b928a0"/>
+    <token id="0x1b92c10" file="modeswitcher.cpp" linenr="158" str=";" scope="0x1ba1110"/>
+    <token id="0x1b92cc0" file="modeswitcher.cpp" linenr="159" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b92d70"/>
+    <token id="0x1b92d70" file="modeswitcher.cpp" linenr="159" str="." scope="0x1ba1110" astParent="0x1b92ed0" astOperand1="0x1b92cc0" astOperand2="0x1b92e20"/>
+    <token id="0x1b92e20" file="modeswitcher.cpp" linenr="159" str="getParam" scope="0x1ba1110" type="name" astParent="0x1b92d70"/>
+    <token id="0x1b92ed0" file="modeswitcher.cpp" linenr="159" str="(" scope="0x1ba1110" link="0x1b93190" astOperand1="0x1b92d70" astOperand2="0x1b93030"/>
+    <token id="0x1b92f80" file="modeswitcher.cpp" linenr="159" str="&quot;w_min&quot;" scope="0x1ba1110" type="string" strlen="5" values="0x1b92f88" astParent="0x1b93030"/>
+    <token id="0x1b93030" file="modeswitcher.cpp" linenr="159" str="," scope="0x1ba1110" astParent="0x1b92ed0" astOperand1="0x1b92f80" astOperand2="0x1b930e0"/>
+    <token id="0x1b930e0" file="modeswitcher.cpp" linenr="159" str="w_min" scope="0x1ba1110" type="name" varId="5" variable="0x1ba1cd0" astParent="0x1b93030"/>
+    <token id="0x1b93190" file="modeswitcher.cpp" linenr="159" str=")" scope="0x1ba1110" link="0x1b92ed0"/>
+    <token id="0x1b93240" file="modeswitcher.cpp" linenr="159" str=";" scope="0x1ba1110"/>
+    <token id="0x1b932f0" file="modeswitcher.cpp" linenr="162" str="ros" scope="0x1ba1110" type="name" astParent="0x1b933a0"/>
+    <token id="0x1b933a0" file="modeswitcher.cpp" linenr="162" str="::" scope="0x1ba1110" astOperand1="0x1b932f0" astOperand2="0x1b93500"/>
+    <token id="0x1b93450" file="modeswitcher.cpp" linenr="162" str="Publisher" scope="0x1ba1110" type="name"/>
+    <token id="0x1b93500" file="modeswitcher.cpp" linenr="162" str="send_twist" scope="0x1ba1110" type="name" varId="55" variable="0x1ba2b70" astParent="0x1b933a0"/>
+    <token id="0x1b935b0" file="modeswitcher.cpp" linenr="162" str=";" scope="0x1ba1110"/>
+    <token id="0x1b9e700" file="modeswitcher.cpp" linenr="162" str="send_twist" scope="0x1ba1110" type="name" varId="55" variable="0x1ba2b70" astParent="0x1b9e7b0"/>
+    <token id="0x1b9e7b0" file="modeswitcher.cpp" linenr="162" str="=" scope="0x1ba1110" type="op" isAssignmentOp="True" astOperand1="0x1b9e700" astOperand2="0x1b93be0"/>
+    <token id="0x1b93660" file="modeswitcher.cpp" linenr="162" str="nh_" scope="0x1ba1110" type="name" varId="51" variable="0x1ba29b0" astParent="0x1b93710"/>
+    <token id="0x1b93710" file="modeswitcher.cpp" linenr="162" str="." scope="0x1ba1110" astParent="0x1b93be0" astOperand1="0x1b93660" astOperand2="0x1b937c0"/>
+    <token id="0x1b937c0" file="modeswitcher.cpp" linenr="162" str="advertise" scope="0x1ba1110" type="name" astParent="0x1b93710"/>
+    <token id="0x1b93870" file="modeswitcher.cpp" linenr="162" str="&lt;" scope="0x1ba1110" link="0x1b93b30"/>
+    <token id="0x1b93920" file="modeswitcher.cpp" linenr="162" str="geometry_msgs" scope="0x1ba1110" type="name"/>
+    <token id="0x1b939d0" file="modeswitcher.cpp" linenr="162" str="::" scope="0x1ba1110"/>
+    <token id="0x1b93a80" file="modeswitcher.cpp" linenr="162" str="Twist" scope="0x1ba1110" type="name"/>
+    <token id="0x1b93b30" file="modeswitcher.cpp" linenr="162" str="&gt;" scope="0x1ba1110" link="0x1b93870"/>
+    <token id="0x1b93be0" file="modeswitcher.cpp" linenr="162" str="(" scope="0x1ba1110" link="0x1b93ea0" astParent="0x1b9e7b0" astOperand1="0x1b93710" astOperand2="0x1b93d40"/>
+    <token id="0x1b93c90" file="modeswitcher.cpp" linenr="162" str="&quot;target_pose&quot;" scope="0x1ba1110" type="string" strlen="11" values="0x1b93c98" astParent="0x1b93d40"/>
+    <token id="0x1b93d40" file="modeswitcher.cpp" linenr="162" str="," scope="0x1ba1110" astParent="0x1b93be0" astOperand1="0x1b93c90" astOperand2="0x1b93df0"/>
+    <token id="0x1b93df0" file="modeswitcher.cpp" linenr="162" str="5" scope="0x1ba1110" type="number" isInt="True" values="0x1b93df8" astParent="0x1b93d40"/>
+    <token id="0x1b93ea0" file="modeswitcher.cpp" linenr="162" str=")" scope="0x1ba1110" link="0x1b93be0"/>
+    <token id="0x1b93f50" file="modeswitcher.cpp" linenr="162" str=";" scope="0x1ba1110"/>
+    <token id="0x1b94000" file="modeswitcher.cpp" linenr="164" str="while" scope="0x1ba1110" type="name" astParent="0x1b940b0"/>
+    <token id="0x1b940b0" file="modeswitcher.cpp" linenr="164" str="(" scope="0x1ba1110" link="0x1b94370" astOperand1="0x1b94000" astOperand2="0x1b94210"/>
+    <token id="0x1b94160" file="modeswitcher.cpp" linenr="164" str="ros" scope="0x1ba1110" type="name" astParent="0x1b94210"/>
+    <token id="0x1b94210" file="modeswitcher.cpp" linenr="164" str="::" scope="0x1ba1110" astParent="0x1b940b0" astOperand1="0x1b94160" astOperand2="0x1b942c0"/>
+    <token id="0x1b942c0" file="modeswitcher.cpp" linenr="164" str="ok" scope="0x1ba1110" type="name" astParent="0x1b94210"/>
+    <token id="0x1b94370" file="modeswitcher.cpp" linenr="164" str=")" scope="0x1ba1110" link="0x1b940b0"/>
+    <token id="0x1b94420" file="modeswitcher.cpp" linenr="165" str="{" scope="0x1ba1260" link="0x1b9b900"/>
+    <token id="0x1b944d0" file="modeswitcher.cpp" linenr="167" str="xbox_flag_lock" scope="0x1ba1260" type="name" varId="13" variable="0x1ba2050" astParent="0x1b94580"/>
+    <token id="0x1b94580" file="modeswitcher.cpp" linenr="167" str="." scope="0x1ba1260" astParent="0x1b946e0" astOperand1="0x1b944d0" astOperand2="0x1b94630"/>
+    <token id="0x1b94630" file="modeswitcher.cpp" linenr="167" str="lock" scope="0x1ba1260" type="name" astParent="0x1b94580"/>
+    <token id="0x1b946e0" file="modeswitcher.cpp" linenr="167" str="(" scope="0x1ba1260" link="0x1b94790" astOperand1="0x1b94580"/>
+    <token id="0x1b94790" file="modeswitcher.cpp" linenr="167" str=")" scope="0x1ba1260" link="0x1b946e0"/>
+    <token id="0x1b94840" file="modeswitcher.cpp" linenr="167" str=";" scope="0x1ba1260"/>
+    <token id="0x1b948f0" file="modeswitcher.cpp" linenr="168" str="int" scope="0x1ba1260" type="name"/>
+    <token id="0x1b949a0" file="modeswitcher.cpp" linenr="168" str="temp_flag" scope="0x1ba1260" type="name" varId="56" variable="0x1ba2be0"/>
+    <token id="0x1b94a50" file="modeswitcher.cpp" linenr="168" str=";" scope="0x1ba1260"/>
+    <token id="0x1b9e860" file="modeswitcher.cpp" linenr="168" str="temp_flag" scope="0x1ba1260" type="name" varId="56" variable="0x1ba2be0" astParent="0x1b9e910"/>
+    <token id="0x1b9e910" file="modeswitcher.cpp" linenr="168" str="=" scope="0x1ba1260" type="op" isAssignmentOp="True" astOperand1="0x1b9e860" astOperand2="0x1b94b00"/>
+    <token id="0x1b94b00" file="modeswitcher.cpp" linenr="168" str="xboxflag" scope="0x1ba1260" type="name" varId="24" variable="0x1ba2520" astParent="0x1b9e910"/>
+    <token id="0x1b94bb0" file="modeswitcher.cpp" linenr="168" str=";" scope="0x1ba1260"/>
+    <token id="0x1b94c60" file="modeswitcher.cpp" linenr="169" str="xbox_flag_lock" scope="0x1ba1260" type="name" varId="13" variable="0x1ba2050" astParent="0x1b94d10"/>
+    <token id="0x1b94d10" file="modeswitcher.cpp" linenr="169" str="." scope="0x1ba1260" astParent="0x1b94e70" astOperand1="0x1b94c60" astOperand2="0x1b94dc0"/>
+    <token id="0x1b94dc0" file="modeswitcher.cpp" linenr="169" str="unlock" scope="0x1ba1260" type="name" astParent="0x1b94d10"/>
+    <token id="0x1b94e70" file="modeswitcher.cpp" linenr="169" str="(" scope="0x1ba1260" link="0x1b94f20" astOperand1="0x1b94d10"/>
+    <token id="0x1b94f20" file="modeswitcher.cpp" linenr="169" str=")" scope="0x1ba1260" link="0x1b94e70"/>
+    <token id="0x1b94fd0" file="modeswitcher.cpp" linenr="169" str=";" scope="0x1ba1260"/>
+    <token id="0x1b95080" file="modeswitcher.cpp" linenr="171" str="if" scope="0x1ba1260" type="name" astParent="0x1b95130"/>
+    <token id="0x1b95130" file="modeswitcher.cpp" linenr="171" str="(" scope="0x1ba1260" link="0x1b953f0" astOperand1="0x1b95080" astOperand2="0x1b95290"/>
+    <token id="0x1b951e0" file="modeswitcher.cpp" linenr="171" str="temp_flag" scope="0x1ba1260" type="name" varId="56" variable="0x1ba2be0" values="0x1b951e8" astParent="0x1b95290"/>
+    <token id="0x1b95290" file="modeswitcher.cpp" linenr="171" str="==" scope="0x1ba1260" type="op" isComparisonOp="True" values="0x1b95298" astParent="0x1b95130" astOperand1="0x1b951e0" astOperand2="0x1b95340"/>
+    <token id="0x1b95340" file="modeswitcher.cpp" linenr="171" str="1" scope="0x1ba1260" type="number" isInt="True" values="0x1b95348" astParent="0x1b95290"/>
+    <token id="0x1b953f0" file="modeswitcher.cpp" linenr="171" str=")" scope="0x1ba1260" link="0x1b95130"/>
+    <token id="0x1b954a0" file="modeswitcher.cpp" linenr="172" str="{" scope="0x1ba13b0" link="0x1b980a0"/>
+    <token id="0x1b9d270" file="modeswitcher.cpp" linenr="173" str="std" scope="0x1ba13b0" type="name" astParent="0x1b9d320"/>
+    <token id="0x1b9d320" file="modeswitcher.cpp" linenr="173" str="::" scope="0x1ba13b0" astParent="0x1b95600" astOperand1="0x1b9d270" astOperand2="0x1b95550"/>
+    <token id="0x1b95550" file="modeswitcher.cpp" linenr="173" str="cout" scope="0x1ba13b0" type="name" astParent="0x1b9d320"/>
+    <token id="0x1b95600" file="modeswitcher.cpp" linenr="173" str="&lt;&lt;" scope="0x1ba13b0" type="op" isArithmeticalOp="True" astOperand1="0x1b9d320" astOperand2="0x1b956b0"/>
+    <token id="0x1b956b0" file="modeswitcher.cpp" linenr="173" str="&quot;XXX&quot;" scope="0x1ba13b0" type="string" strlen="3" values="0x1b956b8" astParent="0x1b95600"/>
+    <token id="0x1b95760" file="modeswitcher.cpp" linenr="173" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b9eb20" file="modeswitcher.cpp" linenr="174" str="std" scope="0x1ba13b0" type="name" astParent="0x1b9ebd0"/>
+    <token id="0x1b9ebd0" file="modeswitcher.cpp" linenr="174" str="::" scope="0x1ba13b0" astParent="0x1b958c0" astOperand1="0x1b9eb20" astOperand2="0x1b95810"/>
+    <token id="0x1b95810" file="modeswitcher.cpp" linenr="174" str="cout" scope="0x1ba13b0" type="name" astParent="0x1b9ebd0"/>
+    <token id="0x1b958c0" file="modeswitcher.cpp" linenr="174" str="&lt;&lt;" scope="0x1ba13b0" type="op" isArithmeticalOp="True" astOperand1="0x1b9ebd0" astOperand2="0x1b9ed30"/>
+    <token id="0x1b9ec80" file="modeswitcher.cpp" linenr="174" str="std" scope="0x1ba13b0" type="name" astParent="0x1b9ed30"/>
+    <token id="0x1b9ed30" file="modeswitcher.cpp" linenr="174" str="::" scope="0x1ba13b0" astParent="0x1b958c0" astOperand1="0x1b9ec80" astOperand2="0x1b95970"/>
+    <token id="0x1b95970" file="modeswitcher.cpp" linenr="174" str="endl" scope="0x1ba13b0" type="name" astParent="0x1b9ed30"/>
+    <token id="0x1b95a20" file="modeswitcher.cpp" linenr="174" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b95ad0" file="modeswitcher.cpp" linenr="176" str="Vx_Xbox_lock" scope="0x1ba13b0" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b95b80"/>
+    <token id="0x1b95b80" file="modeswitcher.cpp" linenr="176" str="." scope="0x1ba13b0" astParent="0x1b95ce0" astOperand1="0x1b95ad0" astOperand2="0x1b95c30"/>
+    <token id="0x1b95c30" file="modeswitcher.cpp" linenr="176" str="lock" scope="0x1ba13b0" type="name" astParent="0x1b95b80"/>
+    <token id="0x1b95ce0" file="modeswitcher.cpp" linenr="176" str="(" scope="0x1ba13b0" link="0x1b95d90" astOperand1="0x1b95b80"/>
+    <token id="0x1b95d90" file="modeswitcher.cpp" linenr="176" str=")" scope="0x1ba13b0" link="0x1b95ce0"/>
+    <token id="0x1b95e40" file="modeswitcher.cpp" linenr="176" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b95ef0" file="modeswitcher.cpp" linenr="178" str="finaltwist" scope="0x1ba13b0" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b95fa0"/>
+    <token id="0x1b95fa0" file="modeswitcher.cpp" linenr="178" str="." scope="0x1ba13b0" astParent="0x1b96100" astOperand1="0x1b95ef0" astOperand2="0x1b96050"/>
+    <token id="0x1b96050" file="modeswitcher.cpp" linenr="178" str="linear" scope="0x1ba13b0" type="name" varId="60" astParent="0x1b95fa0"/>
+    <token id="0x1b96100" file="modeswitcher.cpp" linenr="178" str="." scope="0x1ba13b0" astParent="0x1b96260" astOperand1="0x1b95fa0" astOperand2="0x1b961b0"/>
+    <token id="0x1b961b0" file="modeswitcher.cpp" linenr="178" str="x" scope="0x1ba13b0" type="name" varId="61" astParent="0x1b96100"/>
+    <token id="0x1b96260" file="modeswitcher.cpp" linenr="178" str="=" scope="0x1ba13b0" type="op" isAssignmentOp="True" astOperand1="0x1b96100" astOperand2="0x1b96310"/>
+    <token id="0x1b96310" file="modeswitcher.cpp" linenr="178" str="Vx_Xbox" scope="0x1ba13b0" type="name" varId="16" variable="0x1ba21a0" astParent="0x1b96260"/>
+    <token id="0x1b963c0" file="modeswitcher.cpp" linenr="178" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b9ede0" file="modeswitcher.cpp" linenr="180" str="std" scope="0x1ba13b0" type="name" astParent="0x1b9ee90"/>
+    <token id="0x1b9ee90" file="modeswitcher.cpp" linenr="180" str="::" scope="0x1ba13b0" astParent="0x1b96520" astOperand1="0x1b9ede0" astOperand2="0x1b96470"/>
+    <token id="0x1b96470" file="modeswitcher.cpp" linenr="180" str="cout" scope="0x1ba13b0" type="name" astParent="0x1b9ee90"/>
+    <token id="0x1b96520" file="modeswitcher.cpp" linenr="180" str="&lt;&lt;" scope="0x1ba13b0" type="op" isArithmeticalOp="True" astOperand1="0x1b9ee90" astOperand2="0x1ba0560"/>
+    <token id="0x1ba04b0" file="modeswitcher.cpp" linenr="180" str="std" scope="0x1ba13b0" type="name" astParent="0x1ba0560"/>
+    <token id="0x1ba0560" file="modeswitcher.cpp" linenr="180" str="::" scope="0x1ba13b0" astParent="0x1b96520" astOperand1="0x1ba04b0" astOperand2="0x1b965d0"/>
+    <token id="0x1b965d0" file="modeswitcher.cpp" linenr="180" str="endl" scope="0x1ba13b0" type="name" astParent="0x1ba0560"/>
+    <token id="0x1b96680" file="modeswitcher.cpp" linenr="180" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b96730" file="modeswitcher.cpp" linenr="181" str="Vx_Xbox_lock" scope="0x1ba13b0" type="name" varId="6" variable="0x1ba1d40" astParent="0x1b967e0"/>
+    <token id="0x1b967e0" file="modeswitcher.cpp" linenr="181" str="." scope="0x1ba13b0" astParent="0x1b96940" astOperand1="0x1b96730" astOperand2="0x1b96890"/>
+    <token id="0x1b96890" file="modeswitcher.cpp" linenr="181" str="unlock" scope="0x1ba13b0" type="name" astParent="0x1b967e0"/>
+    <token id="0x1b96940" file="modeswitcher.cpp" linenr="181" str="(" scope="0x1ba13b0" link="0x1b969f0" astOperand1="0x1b967e0"/>
+    <token id="0x1b969f0" file="modeswitcher.cpp" linenr="181" str=")" scope="0x1ba13b0" link="0x1b96940"/>
+    <token id="0x1b96aa0" file="modeswitcher.cpp" linenr="181" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b96b50" file="modeswitcher.cpp" linenr="183" str="W_Xbox_lock" scope="0x1ba13b0" type="name" varId="10" variable="0x1ba1f00" astParent="0x1b96c00"/>
+    <token id="0x1b96c00" file="modeswitcher.cpp" linenr="183" str="." scope="0x1ba13b0" astParent="0x1b96d60" astOperand1="0x1b96b50" astOperand2="0x1b96cb0"/>
+    <token id="0x1b96cb0" file="modeswitcher.cpp" linenr="183" str="lock" scope="0x1ba13b0" type="name" astParent="0x1b96c00"/>
+    <token id="0x1b96d60" file="modeswitcher.cpp" linenr="183" str="(" scope="0x1ba13b0" link="0x1b96e10" astOperand1="0x1b96c00"/>
+    <token id="0x1b96e10" file="modeswitcher.cpp" linenr="183" str=")" scope="0x1ba13b0" link="0x1b96d60"/>
+    <token id="0x1b96ec0" file="modeswitcher.cpp" linenr="183" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b96f70" file="modeswitcher.cpp" linenr="184" str="finaltwist" scope="0x1ba13b0" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b97020"/>
+    <token id="0x1b97020" file="modeswitcher.cpp" linenr="184" str="." scope="0x1ba13b0" astParent="0x1b97180" astOperand1="0x1b96f70" astOperand2="0x1b970d0"/>
+    <token id="0x1b970d0" file="modeswitcher.cpp" linenr="184" str="angular" scope="0x1ba13b0" type="name" varId="62" astParent="0x1b97020"/>
+    <token id="0x1b97180" file="modeswitcher.cpp" linenr="184" str="." scope="0x1ba13b0" astParent="0x1b972e0" astOperand1="0x1b97020" astOperand2="0x1b97230"/>
+    <token id="0x1b97230" file="modeswitcher.cpp" linenr="184" str="z" scope="0x1ba13b0" type="name" varId="63" astParent="0x1b97180"/>
+    <token id="0x1b972e0" file="modeswitcher.cpp" linenr="184" str="=" scope="0x1ba13b0" type="op" isAssignmentOp="True" astOperand1="0x1b97180" astOperand2="0x1b97390"/>
+    <token id="0x1b97390" file="modeswitcher.cpp" linenr="184" str="W_xbox" scope="0x1ba13b0" type="name" varId="15" variable="0x1ba2130" astParent="0x1b972e0"/>
+    <token id="0x1b97440" file="modeswitcher.cpp" linenr="184" str=";" scope="0x1ba13b0"/>
+    <token id="0x1ba0610" file="modeswitcher.cpp" linenr="186" str="std" scope="0x1ba13b0" type="name" astParent="0x1ba06c0"/>
+    <token id="0x1ba06c0" file="modeswitcher.cpp" linenr="186" str="::" scope="0x1ba13b0" astParent="0x1b975a0" astOperand1="0x1ba0610" astOperand2="0x1b974f0"/>
+    <token id="0x1b974f0" file="modeswitcher.cpp" linenr="186" str="cout" scope="0x1ba13b0" type="name" astParent="0x1ba06c0"/>
+    <token id="0x1b975a0" file="modeswitcher.cpp" linenr="186" str="&lt;&lt;" scope="0x1ba13b0" type="op" isArithmeticalOp="True" astOperand1="0x1ba06c0" astOperand2="0x1ba0820"/>
+    <token id="0x1ba0770" file="modeswitcher.cpp" linenr="186" str="std" scope="0x1ba13b0" type="name" astParent="0x1ba0820"/>
+    <token id="0x1ba0820" file="modeswitcher.cpp" linenr="186" str="::" scope="0x1ba13b0" astParent="0x1b975a0" astOperand1="0x1ba0770" astOperand2="0x1b97650"/>
+    <token id="0x1b97650" file="modeswitcher.cpp" linenr="186" str="endl" scope="0x1ba13b0" type="name" astParent="0x1ba0820"/>
+    <token id="0x1b97700" file="modeswitcher.cpp" linenr="186" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b977b0" file="modeswitcher.cpp" linenr="187" str="W_Xbox_lock" scope="0x1ba13b0" type="name" varId="10" variable="0x1ba1f00" astParent="0x1b97860"/>
+    <token id="0x1b97860" file="modeswitcher.cpp" linenr="187" str="." scope="0x1ba13b0" astParent="0x1b979c0" astOperand1="0x1b977b0" astOperand2="0x1b97910"/>
+    <token id="0x1b97910" file="modeswitcher.cpp" linenr="187" str="unlock" scope="0x1ba13b0" type="name" astParent="0x1b97860"/>
+    <token id="0x1b979c0" file="modeswitcher.cpp" linenr="187" str="(" scope="0x1ba13b0" link="0x1b97a70" astOperand1="0x1b97860"/>
+    <token id="0x1b97a70" file="modeswitcher.cpp" linenr="187" str=")" scope="0x1ba13b0" link="0x1b979c0"/>
+    <token id="0x1b97b20" file="modeswitcher.cpp" linenr="187" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b97bd0" file="modeswitcher.cpp" linenr="189" str="send_twist" scope="0x1ba13b0" type="name" varId="55" variable="0x1ba2b70" astParent="0x1b97c80"/>
+    <token id="0x1b97c80" file="modeswitcher.cpp" linenr="189" str="." scope="0x1ba13b0" astParent="0x1b97de0" astOperand1="0x1b97bd0" astOperand2="0x1b97d30"/>
+    <token id="0x1b97d30" file="modeswitcher.cpp" linenr="189" str="publish" scope="0x1ba13b0" type="name" astParent="0x1b97c80"/>
+    <token id="0x1b97de0" file="modeswitcher.cpp" linenr="189" str="(" scope="0x1ba13b0" link="0x1b97f40" astOperand1="0x1b97c80" astOperand2="0x1b97e90"/>
+    <token id="0x1b97e90" file="modeswitcher.cpp" linenr="189" str="finaltwist" scope="0x1ba13b0" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b97de0"/>
+    <token id="0x1b97f40" file="modeswitcher.cpp" linenr="189" str=")" scope="0x1ba13b0" link="0x1b97de0"/>
+    <token id="0x1b97ff0" file="modeswitcher.cpp" linenr="189" str=";" scope="0x1ba13b0"/>
+    <token id="0x1b980a0" file="modeswitcher.cpp" linenr="190" str="}" scope="0x1ba13b0" link="0x1b954a0"/>
+    <token id="0x1b98150" file="modeswitcher.cpp" linenr="192" str="else" scope="0x1ba1260" type="name"/>
+    <token id="0x1b79e60" file="modeswitcher.cpp" linenr="192" str="{" scope="0x1ba1630" link="0x1b79f10"/>
+    <token id="0x1b98200" file="modeswitcher.cpp" linenr="192" str="if" scope="0x1ba1630" type="name" astParent="0x1b982b0"/>
+    <token id="0x1b982b0" file="modeswitcher.cpp" linenr="192" str="(" scope="0x1ba1630" link="0x1b98570" astOperand1="0x1b98200" astOperand2="0x1b98410"/>
+    <token id="0x1b98360" file="modeswitcher.cpp" linenr="192" str="temp_flag" scope="0x1ba1630" type="name" varId="56" variable="0x1ba2be0" values="0x1b98368" astParent="0x1b98410"/>
+    <token id="0x1b98410" file="modeswitcher.cpp" linenr="192" str="==" scope="0x1ba1630" type="op" isComparisonOp="True" values="0x1b98418" astParent="0x1b982b0" astOperand1="0x1b98360" astOperand2="0x1b984c0"/>
+    <token id="0x1b984c0" file="modeswitcher.cpp" linenr="192" str="0" scope="0x1ba1630" type="number" isInt="True" values="0x1b984c8" astParent="0x1b98410"/>
+    <token id="0x1b98570" file="modeswitcher.cpp" linenr="192" str=")" scope="0x1ba1630" link="0x1b982b0"/>
+    <token id="0x1b98620" file="modeswitcher.cpp" linenr="193" str="{" scope="0x1ba1780" link="0x1b9b010"/>
+    <token id="0x1ba08d0" file="modeswitcher.cpp" linenr="194" str="std" scope="0x1ba1780" type="name" astParent="0x1ba0980"/>
+    <token id="0x1ba0980" file="modeswitcher.cpp" linenr="194" str="::" scope="0x1ba1780" astParent="0x1b98780" astOperand1="0x1ba08d0" astOperand2="0x1b986d0"/>
+    <token id="0x1b986d0" file="modeswitcher.cpp" linenr="194" str="cout" scope="0x1ba1780" type="name" astParent="0x1ba0980"/>
+    <token id="0x1b98780" file="modeswitcher.cpp" linenr="194" str="&lt;&lt;" scope="0x1ba1780" type="op" isArithmeticalOp="True" astOperand1="0x1ba0980" astOperand2="0x1b98830"/>
+    <token id="0x1b98830" file="modeswitcher.cpp" linenr="194" str="&quot;PPP&quot;" scope="0x1ba1780" type="string" strlen="3" values="0x1b98838" astParent="0x1b98780"/>
+    <token id="0x1b988e0" file="modeswitcher.cpp" linenr="194" str=";" scope="0x1ba1780"/>
+    <token id="0x1b98990" file="modeswitcher.cpp" linenr="196" str="Vx_planner_lock" scope="0x1ba1780" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b98a40"/>
+    <token id="0x1b98a40" file="modeswitcher.cpp" linenr="196" str="." scope="0x1ba1780" astParent="0x1b98ba0" astOperand1="0x1b98990" astOperand2="0x1b98af0"/>
+    <token id="0x1b98af0" file="modeswitcher.cpp" linenr="196" str="lock" scope="0x1ba1780" type="name" astParent="0x1b98a40"/>
+    <token id="0x1b98ba0" file="modeswitcher.cpp" linenr="196" str="(" scope="0x1ba1780" link="0x1b98c50" astOperand1="0x1b98a40"/>
+    <token id="0x1b98c50" file="modeswitcher.cpp" linenr="196" str=")" scope="0x1ba1780" link="0x1b98ba0"/>
+    <token id="0x1b98d00" file="modeswitcher.cpp" linenr="196" str=";" scope="0x1ba1780"/>
+    <token id="0x1b98db0" file="modeswitcher.cpp" linenr="197" str="finaltwist" scope="0x1ba1780" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b98e60"/>
+    <token id="0x1b98e60" file="modeswitcher.cpp" linenr="197" str="." scope="0x1ba1780" astParent="0x1b98fc0" astOperand1="0x1b98db0" astOperand2="0x1b98f10"/>
+    <token id="0x1b98f10" file="modeswitcher.cpp" linenr="197" str="linear" scope="0x1ba1780" type="name" varId="60" astParent="0x1b98e60"/>
+    <token id="0x1b98fc0" file="modeswitcher.cpp" linenr="197" str="." scope="0x1ba1780" astParent="0x1b99120" astOperand1="0x1b98e60" astOperand2="0x1b99070"/>
+    <token id="0x1b99070" file="modeswitcher.cpp" linenr="197" str="x" scope="0x1ba1780" type="name" varId="61" astParent="0x1b98fc0"/>
+    <token id="0x1b99120" file="modeswitcher.cpp" linenr="197" str="=" scope="0x1ba1780" type="op" isAssignmentOp="True" astOperand1="0x1b98fc0" astOperand2="0x1b991d0"/>
+    <token id="0x1b991d0" file="modeswitcher.cpp" linenr="197" str="Vx_Planner" scope="0x1ba1780" type="name" varId="20" variable="0x1ba2360" astParent="0x1b99120"/>
+    <token id="0x1b99280" file="modeswitcher.cpp" linenr="197" str=";" scope="0x1ba1780"/>
+    <token id="0x1ba0a30" file="modeswitcher.cpp" linenr="199" str="std" scope="0x1ba1780" type="name" astParent="0x1ba0ae0"/>
+    <token id="0x1ba0ae0" file="modeswitcher.cpp" linenr="199" str="::" scope="0x1ba1780" astParent="0x1b993e0" astOperand1="0x1ba0a30" astOperand2="0x1b99330"/>
+    <token id="0x1b99330" file="modeswitcher.cpp" linenr="199" str="cout" scope="0x1ba1780" type="name" astParent="0x1ba0ae0"/>
+    <token id="0x1b993e0" file="modeswitcher.cpp" linenr="199" str="&lt;&lt;" scope="0x1ba1780" type="op" isArithmeticalOp="True" astOperand1="0x1ba0ae0" astOperand2="0x1ba0c40"/>
+    <token id="0x1ba0b90" file="modeswitcher.cpp" linenr="199" str="std" scope="0x1ba1780" type="name" astParent="0x1ba0c40"/>
+    <token id="0x1ba0c40" file="modeswitcher.cpp" linenr="199" str="::" scope="0x1ba1780" astParent="0x1b993e0" astOperand1="0x1ba0b90" astOperand2="0x1b99490"/>
+    <token id="0x1b99490" file="modeswitcher.cpp" linenr="199" str="endl" scope="0x1ba1780" type="name" astParent="0x1ba0c40"/>
+    <token id="0x1b99540" file="modeswitcher.cpp" linenr="199" str=";" scope="0x1ba1780"/>
+    <token id="0x1b995f0" file="modeswitcher.cpp" linenr="201" str="Vx_planner_lock" scope="0x1ba1780" type="name" varId="11" variable="0x1ba1f70" astParent="0x1b996a0"/>
+    <token id="0x1b996a0" file="modeswitcher.cpp" linenr="201" str="." scope="0x1ba1780" astParent="0x1b99800" astOperand1="0x1b995f0" astOperand2="0x1b99750"/>
+    <token id="0x1b99750" file="modeswitcher.cpp" linenr="201" str="unlock" scope="0x1ba1780" type="name" astParent="0x1b996a0"/>
+    <token id="0x1b99800" file="modeswitcher.cpp" linenr="201" str="(" scope="0x1ba1780" link="0x1b998b0" astOperand1="0x1b996a0"/>
+    <token id="0x1b998b0" file="modeswitcher.cpp" linenr="201" str=")" scope="0x1ba1780" link="0x1b99800"/>
+    <token id="0x1b99960" file="modeswitcher.cpp" linenr="201" str=";" scope="0x1ba1780"/>
+    <token id="0x1b99a10" file="modeswitcher.cpp" linenr="203" str="W_planner_lock" scope="0x1ba1780" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b99ac0"/>
+    <token id="0x1b99ac0" file="modeswitcher.cpp" linenr="203" str="." scope="0x1ba1780" astParent="0x1b99c20" astOperand1="0x1b99a10" astOperand2="0x1b99b70"/>
+    <token id="0x1b99b70" file="modeswitcher.cpp" linenr="203" str="lock" scope="0x1ba1780" type="name" astParent="0x1b99ac0"/>
+    <token id="0x1b99c20" file="modeswitcher.cpp" linenr="203" str="(" scope="0x1ba1780" link="0x1b99cd0" astOperand1="0x1b99ac0"/>
+    <token id="0x1b99cd0" file="modeswitcher.cpp" linenr="203" str=")" scope="0x1ba1780" link="0x1b99c20"/>
+    <token id="0x1b99d80" file="modeswitcher.cpp" linenr="203" str=";" scope="0x1ba1780"/>
+    <token id="0x1b99e30" file="modeswitcher.cpp" linenr="204" str="finaltwist" scope="0x1ba1780" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b99ee0"/>
+    <token id="0x1b99ee0" file="modeswitcher.cpp" linenr="204" str="." scope="0x1ba1780" astParent="0x1b9a040" astOperand1="0x1b99e30" astOperand2="0x1b99f90"/>
+    <token id="0x1b99f90" file="modeswitcher.cpp" linenr="204" str="linear" scope="0x1ba1780" type="name" varId="60" astParent="0x1b99ee0"/>
+    <token id="0x1b9a040" file="modeswitcher.cpp" linenr="204" str="." scope="0x1ba1780" astParent="0x1b9a1a0" astOperand1="0x1b99ee0" astOperand2="0x1b9a0f0"/>
+    <token id="0x1b9a0f0" file="modeswitcher.cpp" linenr="204" str="x" scope="0x1ba1780" type="name" varId="61" astParent="0x1b9a040"/>
+    <token id="0x1b9a1a0" file="modeswitcher.cpp" linenr="204" str="=" scope="0x1ba1780" type="op" isAssignmentOp="True" astOperand1="0x1b9a040" astOperand2="0x1b9a250"/>
+    <token id="0x1b9a250" file="modeswitcher.cpp" linenr="204" str="W_Planner" scope="0x1ba1780" type="name" varId="19" variable="0x1ba22f0" astParent="0x1b9a1a0"/>
+    <token id="0x1b9a300" file="modeswitcher.cpp" linenr="204" str=";" scope="0x1ba1780"/>
+    <token id="0x1b9a3b0" file="modeswitcher.cpp" linenr="205" str="finaltwist" scope="0x1ba1780" type="name" varId="25" variable="0x1ba25c0" astParent="0x1b9a460"/>
+    <token id="0x1b9a460" file="modeswitcher.cpp" linenr="205" str="." scope="0x1ba1780" astParent="0x1b9a5c0" astOperand1="0x1b9a3b0" astOperand2="0x1b9a510"/>
+    <token id="0x1b9a510" file="modeswitcher.cpp" linenr="205" str="linear" scope="0x1ba1780" type="name" varId="60" astParent="0x1b9a460"/>
+    <token id="0x1b9a5c0" file="modeswitcher.cpp" linenr="205" str="." scope="0x1ba1780" astParent="0x1b9a720" astOperand1="0x1b9a460" astOperand2="0x1b9a670"/>
+    <token id="0x1b9a670" file="modeswitcher.cpp" linenr="205" str="x" scope="0x1ba1780" type="name" varId="61" astParent="0x1b9a5c0"/>
+    <token id="0x1b9a720" file="modeswitcher.cpp" linenr="205" str="=" scope="0x1ba1780" type="op" isAssignmentOp="True" astOperand1="0x1b9a5c0" astOperand2="0x1b9a7d0"/>
+    <token id="0x1b9a7d0" file="modeswitcher.cpp" linenr="205" str="Vx_Planner" scope="0x1ba1780" type="name" varId="20" variable="0x1ba2360" astParent="0x1b9a720"/>
+    <token id="0x1b9a880" file="modeswitcher.cpp" linenr="205" str=";" scope="0x1ba1780"/>
+    <token id="0x1ba0cf0" file="modeswitcher.cpp" linenr="207" str="std" scope="0x1ba1780" type="name" astParent="0x1ba0da0"/>
+    <token id="0x1ba0da0" file="modeswitcher.cpp" linenr="207" str="::" scope="0x1ba1780" astParent="0x1b9a9e0" astOperand1="0x1ba0cf0" astOperand2="0x1b9a930"/>
+    <token id="0x1b9a930" file="modeswitcher.cpp" linenr="207" str="cout" scope="0x1ba1780" type="name" astParent="0x1ba0da0"/>
+    <token id="0x1b9a9e0" file="modeswitcher.cpp" linenr="207" str="&lt;&lt;" scope="0x1ba1780" type="op" isArithmeticalOp="True" astOperand1="0x1ba0da0" astOperand2="0x1ba0f00"/>
+    <token id="0x1ba0e50" file="modeswitcher.cpp" linenr="207" str="std" scope="0x1ba1780" type="name" astParent="0x1ba0f00"/>
+    <token id="0x1ba0f00" file="modeswitcher.cpp" linenr="207" str="::" scope="0x1ba1780" astParent="0x1b9a9e0" astOperand1="0x1ba0e50" astOperand2="0x1b9aa90"/>
+    <token id="0x1b9aa90" file="modeswitcher.cpp" linenr="207" str="endl" scope="0x1ba1780" type="name" astParent="0x1ba0f00"/>
+    <token id="0x1b9ab40" file="modeswitcher.cpp" linenr="207" str=";" scope="0x1ba1780"/>
+    <token id="0x1b9abf0" file="modeswitcher.cpp" linenr="209" str="W_planner_lock" scope="0x1ba1780" type="name" varId="12" variable="0x1ba1fe0" astParent="0x1b9aca0"/>
+    <token id="0x1b9aca0" file="modeswitcher.cpp" linenr="209" str="." scope="0x1ba1780" astParent="0x1b9ae00" astOperand1="0x1b9abf0" astOperand2="0x1b9ad50"/>
+    <token id="0x1b9ad50" file="modeswitcher.cpp" linenr="209" str="unlock" scope="0x1ba1780" type="name" astParent="0x1b9aca0"/>
+    <token id="0x1b9ae00" file="modeswitcher.cpp" linenr="209" str="(" scope="0x1ba1780" link="0x1b9aeb0" astOperand1="0x1b9aca0"/>
+    <token id="0x1b9aeb0" file="modeswitcher.cpp" linenr="209" str=")" scope="0x1ba1780" link="0x1b9ae00"/>
+    <token id="0x1b9af60" file="modeswitcher.cpp" linenr="209" str=";" scope="0x1ba1780"/>
+    <token id="0x1b9b010" file="modeswitcher.cpp" linenr="211" str="}" scope="0x1ba1780" link="0x1b98620"/>
+    <token id="0x1b79f10" file="modeswitcher.cpp" linenr="211" str="}" scope="0x1ba1630" link="0x1b79e60"/>
+    <token id="0x1b9b0c0" file="modeswitcher.cpp" linenr="213" str="ros" scope="0x1ba1260" type="name" astParent="0x1b9b170"/>
+    <token id="0x1b9b170" file="modeswitcher.cpp" linenr="213" str="::" scope="0x1ba1260" astParent="0x1b9b2d0" astOperand1="0x1b9b0c0" astOperand2="0x1b9b220"/>
+    <token id="0x1b9b220" file="modeswitcher.cpp" linenr="213" str="spinOnce" scope="0x1ba1260" type="name" astParent="0x1b9b170"/>
+    <token id="0x1b9b2d0" file="modeswitcher.cpp" linenr="213" str="(" scope="0x1ba1260" link="0x1b9b380" astOperand1="0x1b9b170"/>
+    <token id="0x1b9b380" file="modeswitcher.cpp" linenr="213" str=")" scope="0x1ba1260" link="0x1b9b2d0"/>
+    <token id="0x1b9b430" file="modeswitcher.cpp" linenr="213" str=";" scope="0x1ba1260"/>
+    <token id="0x1b9b4e0" file="modeswitcher.cpp" linenr="214" str="loop_rate" scope="0x1ba1260" type="name" varId="52" variable="0x1ba2a20" astParent="0x1b9b590"/>
+    <token id="0x1b9b590" file="modeswitcher.cpp" linenr="214" str="." scope="0x1ba1260" astParent="0x1b9b6f0" astOperand1="0x1b9b4e0" astOperand2="0x1b9b640"/>
+    <token id="0x1b9b640" file="modeswitcher.cpp" linenr="214" str="sleep" scope="0x1ba1260" type="name" astParent="0x1b9b590"/>
+    <token id="0x1b9b6f0" file="modeswitcher.cpp" linenr="214" str="(" scope="0x1ba1260" link="0x1b9b7a0" astOperand1="0x1b9b590"/>
+    <token id="0x1b9b7a0" file="modeswitcher.cpp" linenr="214" str=")" scope="0x1ba1260" link="0x1b9b6f0"/>
+    <token id="0x1b9b850" file="modeswitcher.cpp" linenr="214" str=";" scope="0x1ba1260"/>
+    <token id="0x1b9b900" file="modeswitcher.cpp" linenr="215" str="}" scope="0x1ba1260" link="0x1b94420"/>
+    <token id="0x1b9b9b0" file="modeswitcher.cpp" linenr="216" str="}" scope="0x1ba1110" link="0x1b8d5d0"/>
+    <token id="0x1b9ba60" file="modeswitcher.cpp" linenr="220" str="int" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b9bb10" file="modeswitcher.cpp" linenr="220" str="main" scope="0x1b79fd0" type="name" function="0x1ba18d0" astParent="0x1b9bbc0"/>
+    <token id="0x1b9bbc0" file="modeswitcher.cpp" linenr="220" str="(" scope="0x1b79fd0" link="0x1b9c140" astOperand1="0x1b9bb10" astOperand2="0x1b9bdd0"/>
+    <token id="0x1b9bc70" file="modeswitcher.cpp" linenr="220" str="int" scope="0x1b79fd0" type="name"/>
+    <token id="0x1b9bd20" file="modeswitcher.cpp" linenr="220" str="argc" scope="0x1b79fd0" type="name" varId="57" variable="0x1ba2cc0" astParent="0x1b9bdd0"/>
+    <token id="0x1b9bdd0" file="modeswitcher.cpp" linenr="220" str="," scope="0x1b79fd0" astParent="0x1b9bbc0" astOperand1="0x1b9bd20" astOperand2="0x1b9bf30"/>
+    <token id="0x1b9be80" file="modeswitcher.cpp" linenr="220" str="char" scope="0x1b79fd0" type="name" astParent="0x1b9bf30"/>
+    <token id="0x1b9bf30" file="modeswitcher.cpp" linenr="220" str="*" scope="0x1b79fd0" type="op" isArithmeticalOp="True" astParent="0x1b9bdd0" astOperand1="0x1b9be80" astOperand2="0x1b9bfe0"/>
+    <token id="0x1b9bfe0" file="modeswitcher.cpp" linenr="220" str="*" scope="0x1b79fd0" type="op" isArithmeticalOp="True" astParent="0x1b9bf30" astOperand1="0x1b9c090"/>
+    <token id="0x1b9c090" file="modeswitcher.cpp" linenr="220" str="argv" scope="0x1b79fd0" type="name" varId="58" variable="0x1ba2d30" astParent="0x1b9bfe0"/>
+    <token id="0x1b9c140" file="modeswitcher.cpp" linenr="220" str=")" scope="0x1b79fd0" link="0x1b9bbc0"/>
+    <token id="0x1b9c1f0" file="modeswitcher.cpp" linenr="221" str="{" scope="0x1ba19c0" link="0x1b9d1c0"/>
+    <token id="0x1b9c2a0" file="modeswitcher.cpp" linenr="223" str="ModeSwitcher" scope="0x1ba19c0" type="name" type-scope="0x1b9ef50" astParent="0x1b9c350"/>
+    <token id="0x1b9c350" file="modeswitcher.cpp" linenr="223" str="*" scope="0x1ba19c0" type="op" isArithmeticalOp="True" astOperand1="0x1b9c2a0" astOperand2="0x1b9c400"/>
+    <token id="0x1b9c400" file="modeswitcher.cpp" linenr="223" str="layer" scope="0x1ba19c0" type="name" varId="59" variable="0x1ba2c50" astParent="0x1b9c350"/>
+    <token id="0x1b9c4b0" file="modeswitcher.cpp" linenr="223" str=";" scope="0x1ba19c0"/>
+    <token id="0x1b9e9c0" file="modeswitcher.cpp" linenr="223" str="layer" scope="0x1ba19c0" type="name" varId="59" variable="0x1ba2c50" astParent="0x1b9ea70"/>
+    <token id="0x1b9ea70" file="modeswitcher.cpp" linenr="223" str="=" scope="0x1ba19c0" type="op" isAssignmentOp="True" astOperand1="0x1b9e9c0" astOperand2="0x1b9c560"/>
+    <token id="0x1b9c560" file="modeswitcher.cpp" linenr="223" str="new" scope="0x1ba19c0" type="name" astParent="0x1b9ea70" astOperand1="0x1b9c6c0"/>
+    <token id="0x1b9c610" file="modeswitcher.cpp" linenr="223" str="ModeSwitcher" scope="0x1ba19c0" type="name" type-scope="0x1b9ef50" astParent="0x1b9c6c0"/>
+    <token id="0x1b9c6c0" file="modeswitcher.cpp" linenr="223" str="(" scope="0x1ba19c0" link="0x1b9c770" astParent="0x1b9c560" astOperand1="0x1b9c610"/>
+    <token id="0x1b9c770" file="modeswitcher.cpp" linenr="223" str=")" scope="0x1ba19c0" link="0x1b9c6c0"/>
+    <token id="0x1b9c820" file="modeswitcher.cpp" linenr="223" str=";" scope="0x1ba19c0"/>
+    <token id="0x1b9c8d0" file="modeswitcher.cpp" linenr="225" str="layer" scope="0x1ba19c0" type="name" varId="59" variable="0x1ba2c50" astParent="0x1b9c980"/>
+    <token id="0x1b9c980" file="modeswitcher.cpp" linenr="225" str="." scope="0x1ba19c0" astParent="0x1b9cb90" astOperand1="0x1b9c8d0" astOperand2="0x1b9cae0"/>
+    <token id="0x1b9cae0" file="modeswitcher.cpp" linenr="225" str="publish" scope="0x1ba19c0" type="name" function="0x1b9f2d0" astParent="0x1b9c980"/>
+    <token id="0x1b9cb90" file="modeswitcher.cpp" linenr="225" str="(" scope="0x1ba19c0" link="0x1b9ce50" astOperand1="0x1b9c980" astOperand2="0x1b9ccf0"/>
+    <token id="0x1b9cc40" file="modeswitcher.cpp" linenr="225" str="argc" scope="0x1ba19c0" type="name" varId="57" variable="0x1ba2cc0" astParent="0x1b9ccf0"/>
+    <token id="0x1b9ccf0" file="modeswitcher.cpp" linenr="225" str="," scope="0x1ba19c0" astParent="0x1b9cb90" astOperand1="0x1b9cc40" astOperand2="0x1b9cda0"/>
+    <token id="0x1b9cda0" file="modeswitcher.cpp" linenr="225" str="argv" scope="0x1ba19c0" type="name" varId="58" variable="0x1ba2d30" astParent="0x1b9ccf0"/>
+    <token id="0x1b9ce50" file="modeswitcher.cpp" linenr="225" str=")" scope="0x1ba19c0" link="0x1b9cb90"/>
+    <token id="0x1b9cf00" file="modeswitcher.cpp" linenr="225" str=";" scope="0x1ba19c0"/>
+    <token id="0x1b9cfb0" file="modeswitcher.cpp" linenr="227" str="delete" scope="0x1ba19c0" type="name" astOperand1="0x1b9d060"/>
+    <token id="0x1b9d060" file="modeswitcher.cpp" linenr="227" str="layer" scope="0x1ba19c0" type="name" varId="59" variable="0x1ba2c50" astParent="0x1b9cfb0"/>
+    <token id="0x1b9d110" file="modeswitcher.cpp" linenr="227" str=";" scope="0x1ba19c0"/>
+    <token id="0x1b9d1c0" file="modeswitcher.cpp" linenr="228" str="}" scope="0x1ba19c0" link="0x1b9c1f0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1b79fd0" type="Global">
+      <functionList>
+        <function id="0x1ba18d0" tokenDef="0x1b9bb10" name="main">
+          <arg nr="1" variable="0x1ba2cc0"/>
+          <arg nr="2" variable="0x1ba2d30"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1b9ef50" type="Class" className="ModeSwitcher" classStart="0x1b73650" classEnd="0x1b79990" nestedIn="0x1b79fd0">
+      <functionList>
+        <function id="0x1b9f0f0" tokenDef="0x1b76d50" name="ModeSwitcher"/>
+        <function id="0x1b9f190" tokenDef="0x1b770c0" name="joyCallback">
+          <arg nr="1" variable="0x1ba2da0"/>
+        </function>
+        <function id="0x1b9f230" tokenDef="0x1b779b0" name="planCallback">
+          <arg nr="1" variable="0x1ba2e10"/>
+        </function>
+        <function id="0x1b9f2d0" tokenDef="0x1b782a0" name="publish">
+          <arg nr="1" variable="0x1ba2e80"/>
+          <arg nr="2" variable="0x1ba2ef0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x1ba1b10"/>
+        <var id="0x1ba1b80"/>
+        <var id="0x1ba1bf0"/>
+        <var id="0x1ba1c60"/>
+        <var id="0x1ba1cd0"/>
+        <var id="0x1ba1d40"/>
+        <var id="0x1ba1db0"/>
+        <var id="0x1ba1e20"/>
+        <var id="0x1ba1e90"/>
+        <var id="0x1ba1f00"/>
+        <var id="0x1ba1f70"/>
+        <var id="0x1ba1fe0"/>
+        <var id="0x1ba2050"/>
+        <var id="0x1ba20c0"/>
+        <var id="0x1ba2130"/>
+        <var id="0x1ba21a0"/>
+        <var id="0x1ba2210"/>
+        <var id="0x1ba2280"/>
+        <var id="0x1ba22f0"/>
+        <var id="0x1ba2360"/>
+        <var id="0x1ba23d0"/>
+        <var id="0x1ba2440"/>
+        <var id="0x1ba24b0"/>
+        <var id="0x1ba2520"/>
+        <var id="0x1ba25c0"/>
+        <var id="0x1ba2630"/>
+      </varlist>
+    </scope>
+    <scope id="0x1b9f3a0" type="Function" className="ModeSwitcher" classStart="0x1b7b720" classEnd="0x1b7df00" nestedIn="0x1b79fd0" function="0x1b9f0f0"/>
+    <scope id="0x1b9f4d0" type="Function" className="joyCallback" classStart="0x1b7e950" classEnd="0x1b86d50" nestedIn="0x1b79fd0" function="0x1b9f190">
+      <varlist>
+        <var id="0x1ba26a0"/>
+        <var id="0x1ba2710"/>
+        <var id="0x1ba2780"/>
+      </varlist>
+    </scope>
+    <scope id="0x1b9f720" type="If" classStart="0x1b80000" classEnd="0x1b80d10" nestedIn="0x1b9f4d0"/>
+    <scope id="0x1b9f870" type="Else" classStart="0x1b6e780" classEnd="0x1b730d0" nestedIn="0x1b9f4d0"/>
+    <scope id="0x1b9f9a0" type="Try" classStart="0x1b6e780" classEnd="0x1b730d0" nestedIn="0x1b9f4d0"/>
+    <scope id="0x1b9faf0" type="If" classStart="0x1b81550" classEnd="0x1b82100" nestedIn="0x1b9f9a0"/>
+    <scope id="0x1b9fc40" type="If" classStart="0x1b83180" classEnd="0x1b86b40" nestedIn="0x1b9f4d0">
+      <varlist>
+        <var id="0x1ba27f0"/>
+        <var id="0x1ba2860"/>
+        <var id="0x1ba28d0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1b9fd90" type="Function" className="encoderCallback" classStart="0x1b877a0" classEnd="0x1b88a30" nestedIn="0x1b79fd0"/>
+    <scope id="0x1b9fee0" type="Function" className="planCallback" classStart="0x1b89480" classEnd="0x1b8cc30" nestedIn="0x1b79fd0" function="0x1b9f230">
+      <varlist>
+        <var id="0x1ba2940"/>
+      </varlist>
+    </scope>
+    <scope id="0x1ba0030" type="If" classStart="0x1b8a500" classEnd="0x1b8a710" nestedIn="0x1b9fee0"/>
+    <scope id="0x1ba0180" type="Else" classStart="0x1b73180" classEnd="0x1b73230" nestedIn="0x1b9fee0"/>
+    <scope id="0x1ba02b0" type="Try" classStart="0x1b73180" classEnd="0x1b73230" nestedIn="0x1b9fee0"/>
+    <scope id="0x1ba0fc0" type="If" classStart="0x1b8ac90" classEnd="0x1b8ca20" nestedIn="0x1ba02b0"/>
+    <scope id="0x1ba1110" type="Function" className="publish" classStart="0x1b8d5d0" classEnd="0x1b9b9b0" nestedIn="0x1b79fd0" function="0x1b9f2d0">
+      <varlist>
+        <var id="0x1ba29b0"/>
+        <var id="0x1ba2a20"/>
+        <var id="0x1ba2a90"/>
+        <var id="0x1ba2b00"/>
+        <var id="0x1ba2b70"/>
+      </varlist>
+    </scope>
+    <scope id="0x1ba1260" type="While" classStart="0x1b94420" classEnd="0x1b9b900" nestedIn="0x1ba1110">
+      <varlist>
+        <var id="0x1ba2be0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1ba13b0" type="If" classStart="0x1b954a0" classEnd="0x1b980a0" nestedIn="0x1ba1260"/>
+    <scope id="0x1ba1500" type="Else" classStart="0x1b79e60" classEnd="0x1b79f10" nestedIn="0x1ba1260"/>
+    <scope id="0x1ba1630" type="Try" classStart="0x1b79e60" classEnd="0x1b79f10" nestedIn="0x1ba1260"/>
+    <scope id="0x1ba1780" type="If" classStart="0x1b98620" classEnd="0x1b9b010" nestedIn="0x1ba1630"/>
+    <scope id="0x1ba19c0" type="Function" className="main" classStart="0x1b9c1f0" classEnd="0x1b9d1c0" nestedIn="0x1b79fd0" function="0x1ba18d0">
+      <varlist>
+        <var id="0x1ba2c50"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1ba1b10" nameToken="0x1b73910" typeStartToken="0x1b73860" typeEndToken="0x1b73860" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1b80" nameToken="0x1b73b20" typeStartToken="0x1b73a70" typeEndToken="0x1b73a70" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1bf0" nameToken="0x1b73c80" typeStartToken="0x1b7ed70" typeEndToken="0x1b7ed70" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1c60" nameToken="0x1b73e90" typeStartToken="0x1b73de0" typeEndToken="0x1b73de0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1cd0" nameToken="0x1b73ff0" typeStartToken="0x1b7f500" typeEndToken="0x1b7f500" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1d40" nameToken="0x1b74360" typeStartToken="0x1b74150" typeEndToken="0x1b742b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1db0" nameToken="0x1b744c0" typeStartToken="0x1b835a0" typeEndToken="0x1b87f30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1e20" nameToken="0x1b74620" typeStartToken="0x1b88400" typeEndToken="0x1b8c290" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1e90" nameToken="0x1b74780" typeStartToken="0x1b9ca30" typeEndToken="0x1b9d940" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1f00" nameToken="0x1b748e0" typeStartToken="0x1b9d9f0" typeEndToken="0x1b9d4d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1f70" nameToken="0x1b74a40" typeStartToken="0x1b9d580" typeEndToken="0x1b9d6e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba1fe0" nameToken="0x1b74ba0" typeStartToken="0x1b76ca0" typeEndToken="0x1b9d840" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2050" nameToken="0x1b74d00" typeStartToken="0x1b9db50" typeEndToken="0x1b9dcb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba20c0" nameToken="0x1b74f10" typeStartToken="0x1b74e60" typeEndToken="0x1b74e60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2130" nameToken="0x1b75120" typeStartToken="0x1b75070" typeEndToken="0x1b75070" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba21a0" nameToken="0x1b75330" typeStartToken="0x1b75280" typeEndToken="0x1b75280" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2210" nameToken="0x1b75540" typeStartToken="0x1b75490" typeEndToken="0x1b75490" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2280" nameToken="0x1b75750" typeStartToken="0x1b756a0" typeEndToken="0x1b756a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba22f0" nameToken="0x1b75960" typeStartToken="0x1b758b0" typeEndToken="0x1b758b0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2360" nameToken="0x1b75b70" typeStartToken="0x1b75ac0" typeEndToken="0x1b75ac0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba23d0" nameToken="0x1b75d80" typeStartToken="0x1b75cd0" typeEndToken="0x1b75cd0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2440" nameToken="0x1b75f90" typeStartToken="0x1b75ee0" typeEndToken="0x1b75ee0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba24b0" nameToken="0x1b761a0" typeStartToken="0x1b760f0" typeEndToken="0x1b760f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2520" nameToken="0x1b763b0" typeStartToken="0x1b76300" typeEndToken="0x1b76300" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba25c0" nameToken="0x1b76720" typeStartToken="0x1b76510" typeEndToken="0x1b76670" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2630" nameToken="0x1b76a90" typeStartToken="0x1b76880" typeEndToken="0x1b769e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2da0" nameToken="0x1b7e7f0" typeStartToken="0x1b7e3d0" typeEndToken="0x1b7e740" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1ba26a0" nameToken="0x1b7eab0" typeStartToken="0x1b7ea00" typeEndToken="0x1b7ea00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2710" nameToken="0x1b7f240" typeStartToken="0x1b7f190" typeEndToken="0x1b7f190" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2780" nameToken="0x1b82680" typeStartToken="0x1b825d0" typeEndToken="0x1b825d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba27f0" nameToken="0x1b832e0" typeStartToken="0x1b83230" typeEndToken="0x1b83230" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2860" nameToken="0x1b83a70" typeStartToken="0x1b839c0" typeEndToken="0x1b839c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba28d0" nameToken="0x1b85280" typeStartToken="0x1b851d0" typeEndToken="0x1b851d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2e10" nameToken="0x1b89320" typeStartToken="0x1b88f00" typeEndToken="0x1b89270" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1ba2940" nameToken="0x1b89a00" typeStartToken="0x1b89950" typeEndToken="0x1b89950" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2e80" nameToken="0x1b8d100" typeStartToken="0x1b8d050" typeEndToken="0x1b8d050" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2ef0" nameToken="0x1b8d470" typeStartToken="0x1b8d260" typeEndToken="0x1b8d3c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1ba29b0" nameToken="0x1b8e020" typeStartToken="0x1b8de10" typeEndToken="0x1b8df70" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2a20" nameToken="0x1b8e390" typeStartToken="0x1b8e180" typeEndToken="0x1b8e2e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2a90" nameToken="0x1b8e910" typeStartToken="0x1b8e700" typeEndToken="0x1b8e860" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2b00" nameToken="0x1b8ec80" typeStartToken="0x1b8ea70" typeEndToken="0x1b8ebd0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2b70" nameToken="0x1b93500" typeStartToken="0x1b932f0" typeEndToken="0x1b93450" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2be0" nameToken="0x1b949a0" typeStartToken="0x1b948f0" typeEndToken="0x1b948f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2cc0" nameToken="0x1b9bd20" typeStartToken="0x1b9bc70" typeEndToken="0x1b9bc70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ba2d30" nameToken="0x1b9c090" typeStartToken="0x1b9be80" typeEndToken="0x1b9bfe0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1ba2c50" nameToken="0x1b9c400" typeStartToken="0x1b9c2a0" typeEndToken="0x1b9c350" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1b7bbf8">
+      <value intvalue="45" known="true"/>
+    </values>
+    <values id="0x1b7bf68">
+      <value intvalue="-45" known="true"/>
+    </values>
+    <values id="0x1b7c228">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7c4e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7c7a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7ca68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7cd28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7cfe8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7d568">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7d828">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7dae8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7dda8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b7ef88">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x1b7f718">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x1b7fa88">
+      <value intvalue="1" condition-line="46" possible="true"/>
+      <value intvalue="0" condition-line="57" possible="true"/>
+    </values>
+    <values id="0x1b7fb38">
+      <value intvalue="1" condition-line="46" possible="true"/>
+      <value intvalue="0" condition-line="57" possible="true"/>
+    </values>
+    <values id="0x1b7fbe8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b7fea8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b80638">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b80fd8">
+      <value intvalue="1" condition-line="57" possible="true"/>
+    </values>
+    <values id="0x1b81088">
+      <value intvalue="1" condition-line="57" possible="true"/>
+    </values>
+    <values id="0x1b81138">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b813f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b81b88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b82ec8">
+      <value intvalue="1" condition-line="72" possible="true"/>
+    </values>
+    <values id="0x1b82f78">
+      <value intvalue="1" condition-line="72" possible="true"/>
+    </values>
+    <values id="0x1b83028">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b837b8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x1b83bd8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b84208">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1b85758">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1b85ee8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b860f8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1b8a248">
+      <value intvalue="1" condition-line="121" possible="true"/>
+      <value intvalue="0" condition-line="125" possible="true"/>
+    </values>
+    <values id="0x1b8a2f8">
+      <value intvalue="1" condition-line="121" possible="true"/>
+      <value intvalue="0" condition-line="125" possible="true"/>
+    </values>
+    <values id="0x1b8a3a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b8a9d8">
+      <value intvalue="0" condition-line="125" possible="true"/>
+    </values>
+    <values id="0x1b8aa88">
+      <value intvalue="1" condition-line="125" possible="true"/>
+    </values>
+    <values id="0x1b8ab38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b8dc08">
+      <value tokvalue="0x1b8dc00" known="true"/>
+    </values>
+    <values id="0x1b8e4f8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x1b8f578">
+      <value tokvalue="0x1b8f570" known="true"/>
+    </values>
+    <values id="0x1b8f6d8">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x1b90548">
+      <value tokvalue="0x1b90540" known="true"/>
+    </values>
+    <values id="0x1b906a8">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x1b91098">
+      <value tokvalue="0x1b91090" known="true"/>
+    </values>
+    <values id="0x1b916c8">
+      <value tokvalue="0x1b916c0" known="true"/>
+    </values>
+    <values id="0x1b91cf8">
+      <value tokvalue="0x1b91cf0" known="true"/>
+    </values>
+    <values id="0x1b92328">
+      <value tokvalue="0x1b92320" known="true"/>
+    </values>
+    <values id="0x1b92958">
+      <value tokvalue="0x1b92950" known="true"/>
+    </values>
+    <values id="0x1b92f88">
+      <value tokvalue="0x1b92f80" known="true"/>
+    </values>
+    <values id="0x1b93c98">
+      <value tokvalue="0x1b93c90" known="true"/>
+    </values>
+    <values id="0x1b93df8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x1b951e8">
+      <value intvalue="1" condition-line="171" possible="true"/>
+      <value intvalue="0" condition-line="192" possible="true"/>
+    </values>
+    <values id="0x1b95298">
+      <value intvalue="1" condition-line="171" possible="true"/>
+      <value intvalue="0" condition-line="192" possible="true"/>
+    </values>
+    <values id="0x1b95348">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1b956b8">
+      <value tokvalue="0x1b956b0" known="true"/>
+    </values>
+    <values id="0x1b98368">
+      <value intvalue="0" condition-line="192" possible="true"/>
+    </values>
+    <values id="0x1b98418">
+      <value intvalue="1" condition-line="192" possible="true"/>
+    </values>
+    <values id="0x1b984c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1b98838">
+      <value tokvalue="0x1b98830" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

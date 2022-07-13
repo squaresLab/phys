@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1941700" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x1941760" file="GroveCollision.cpp" linenr="16" str="ros" scope="0x193e610" type="name" astParent="0x1941490"/>
+    <token id="0x1941490" file="GroveCollision.cpp" linenr="16" str="::" scope="0x193e610" astOperand1="0x1941760" astOperand2="0x19415f0"/>
+    <token id="0x1941540" file="GroveCollision.cpp" linenr="16" str="NodeHandle" scope="0x193e610" type="name"/>
+    <token id="0x19415f0" file="GroveCollision.cpp" linenr="16" str="nh" scope="0x193e610" type="name" varId="1" variable="0x19469f0" astParent="0x1941490"/>
+    <token id="0x1941f70" file="GroveCollision.cpp" linenr="16" str=";" scope="0x193e610"/>
+    <token id="0x1942020" file="GroveCollision.cpp" linenr="18" str="std_msgs" scope="0x193e610" type="name" astParent="0x19420d0"/>
+    <token id="0x19420d0" file="GroveCollision.cpp" linenr="18" str="::" scope="0x193e610" astOperand1="0x1942020" astOperand2="0x1940c50"/>
+    <token id="0x1942180" file="GroveCollision.cpp" linenr="18" str="Bool" scope="0x193e610" type="name"/>
+    <token id="0x1940c50" file="GroveCollision.cpp" linenr="18" str="collision_msg" scope="0x193e610" type="name" varId="2" variable="0x1946a60" astParent="0x19420d0"/>
+    <token id="0x1940d00" file="GroveCollision.cpp" linenr="18" str=";" scope="0x193e610"/>
+    <token id="0x1940db0" file="GroveCollision.cpp" linenr="19" str="ros" scope="0x193e610" type="name" astParent="0x1940e60"/>
+    <token id="0x1940e60" file="GroveCollision.cpp" linenr="19" str="::" scope="0x193e610" astParent="0x1941950" astOperand1="0x1940db0" astOperand2="0x1940fc0"/>
+    <token id="0x1940f10" file="GroveCollision.cpp" linenr="19" str="Publisher" scope="0x193e610" type="name"/>
+    <token id="0x1940fc0" file="GroveCollision.cpp" linenr="19" str="pub_collision" scope="0x193e610" type="name" varId="3" variable="0x1946ad0" astParent="0x1940e60"/>
+    <token id="0x1941950" file="GroveCollision.cpp" linenr="19" str="(" scope="0x193e610" link="0x1941cc0" astOperand1="0x1940e60" astOperand2="0x1941ab0"/>
+    <token id="0x1941a00" file="GroveCollision.cpp" linenr="19" str="&quot;collision&quot;" scope="0x193e610" type="string" strlen="9" values="0x1941a08" astParent="0x1941ab0"/>
+    <token id="0x1941ab0" file="GroveCollision.cpp" linenr="19" str="," scope="0x193e610" astParent="0x1941950" astOperand1="0x1941a00" astOperand2="0x1941b60"/>
+    <token id="0x1941b60" file="GroveCollision.cpp" linenr="19" str="&amp;" scope="0x193e610" type="op" astParent="0x1941ab0" astOperand1="0x1941c10"/>
+    <token id="0x1941c10" file="GroveCollision.cpp" linenr="19" str="collision_msg" scope="0x193e610" type="name" varId="2" variable="0x1946a60" astParent="0x1941b60"/>
+    <token id="0x1941cc0" file="GroveCollision.cpp" linenr="19" str=")" scope="0x193e610" link="0x1941950"/>
+    <token id="0x19424f0" file="GroveCollision.cpp" linenr="19" str=";" scope="0x193e610"/>
+    <token id="0x19425a0" file="GroveCollision.cpp" linenr="22" str="Timer" scope="0x193e610" type="name"/>
+    <token id="0x1942650" file="GroveCollision.cpp" linenr="22" str="t" scope="0x193e610" type="name" varId="4" variable="0x1946b40"/>
+    <token id="0x1942700" file="GroveCollision.cpp" linenr="22" str=";" scope="0x193e610"/>
+    <token id="0x19427b0" file="GroveCollision.cpp" linenr="24" str="DigitalIn" scope="0x193e610" type="name"/>
+    <token id="0x1942860" file="GroveCollision.cpp" linenr="24" str="sig1" scope="0x193e610" type="name" function="0x1946230" astParent="0x1942910"/>
+    <token id="0x1942910" file="GroveCollision.cpp" linenr="24" str="(" scope="0x193e610" link="0x1942a70" astOperand1="0x1942860" astOperand2="0x19429c0"/>
+    <token id="0x19429c0" file="GroveCollision.cpp" linenr="24" str="p9" scope="0x193e610" type="name" astParent="0x1942910"/>
+    <token id="0x1942a70" file="GroveCollision.cpp" linenr="24" str=")" scope="0x193e610" link="0x1942910"/>
+    <token id="0x1942b20" file="GroveCollision.cpp" linenr="24" str=";" scope="0x193e610"/>
+    <token id="0x1942bd0" file="GroveCollision.cpp" linenr="31" str="int" scope="0x193e610" type="name"/>
+    <token id="0x1942c80" file="GroveCollision.cpp" linenr="31" str="main" scope="0x193e610" type="name" function="0x19462d0" astParent="0x1942d30"/>
+    <token id="0x1942d30" file="GroveCollision.cpp" linenr="31" str="(" scope="0x193e610" link="0x1942de0" astOperand1="0x1942c80"/>
+    <token id="0x1942de0" file="GroveCollision.cpp" linenr="31" str=")" scope="0x193e610" link="0x1942d30"/>
+    <token id="0x1942e90" file="GroveCollision.cpp" linenr="32" str="{" scope="0x1942250" link="0x1946170"/>
+    <token id="0x1942f40" file="GroveCollision.cpp" linenr="33" str="t" scope="0x1942250" type="name" varId="4" variable="0x1946b40" astParent="0x1942ff0"/>
+    <token id="0x1942ff0" file="GroveCollision.cpp" linenr="33" str="." scope="0x1942250" astParent="0x1943150" astOperand1="0x1942f40" astOperand2="0x19430a0"/>
+    <token id="0x19430a0" file="GroveCollision.cpp" linenr="33" str="start" scope="0x1942250" type="name" astParent="0x1942ff0"/>
+    <token id="0x1943150" file="GroveCollision.cpp" linenr="33" str="(" scope="0x1942250" link="0x1943200" astOperand1="0x1942ff0"/>
+    <token id="0x1943200" file="GroveCollision.cpp" linenr="33" str=")" scope="0x1942250" link="0x1943150"/>
+    <token id="0x19432b0" file="GroveCollision.cpp" linenr="33" str=";" scope="0x1942250"/>
+    <token id="0x1943360" file="GroveCollision.cpp" linenr="35" str="nh" scope="0x1942250" type="name" varId="1" variable="0x19469f0" astParent="0x1943410"/>
+    <token id="0x1943410" file="GroveCollision.cpp" linenr="35" str="." scope="0x1942250" astParent="0x1943570" astOperand1="0x1943360" astOperand2="0x19434c0"/>
+    <token id="0x19434c0" file="GroveCollision.cpp" linenr="35" str="initNode" scope="0x1942250" type="name" astParent="0x1943410"/>
+    <token id="0x1943570" file="GroveCollision.cpp" linenr="35" str="(" scope="0x1942250" link="0x1943620" astOperand1="0x1943410"/>
+    <token id="0x1943620" file="GroveCollision.cpp" linenr="35" str=")" scope="0x1942250" link="0x1943570"/>
+    <token id="0x19436d0" file="GroveCollision.cpp" linenr="35" str=";" scope="0x1942250"/>
+    <token id="0x1943780" file="GroveCollision.cpp" linenr="36" str="nh" scope="0x1942250" type="name" varId="1" variable="0x19469f0" astParent="0x1943830"/>
+    <token id="0x1943830" file="GroveCollision.cpp" linenr="36" str="." scope="0x1942250" astParent="0x1943990" astOperand1="0x1943780" astOperand2="0x19438e0"/>
+    <token id="0x19438e0" file="GroveCollision.cpp" linenr="36" str="advertise" scope="0x1942250" type="name" astParent="0x1943830"/>
+    <token id="0x1943990" file="GroveCollision.cpp" linenr="36" str="(" scope="0x1942250" link="0x1943af0" astOperand1="0x1943830" astOperand2="0x1943a40"/>
+    <token id="0x1943a40" file="GroveCollision.cpp" linenr="36" str="pub_collision" scope="0x1942250" type="name" varId="3" variable="0x1946ad0" astParent="0x1943990"/>
+    <token id="0x1943af0" file="GroveCollision.cpp" linenr="36" str=")" scope="0x1942250" link="0x1943990"/>
+    <token id="0x1943ba0" file="GroveCollision.cpp" linenr="36" str=";" scope="0x1942250"/>
+    <token id="0x1943c50" file="GroveCollision.cpp" linenr="38" str="long" scope="0x1942250" type="name"/>
+    <token id="0x1943d00" file="GroveCollision.cpp" linenr="38" str="publisher_timer" scope="0x1942250" type="name" varId="5" variable="0x1946bb0"/>
+    <token id="0x1943db0" file="GroveCollision.cpp" linenr="38" str=";" scope="0x1942250"/>
+    <token id="0x193e8a0" file="GroveCollision.cpp" linenr="38" str="publisher_timer" scope="0x1942250" type="name" varId="5" variable="0x1946bb0" astParent="0x19416a0"/>
+    <token id="0x19416a0" file="GroveCollision.cpp" linenr="38" str="=" scope="0x1942250" type="op" isAssignmentOp="True" astOperand1="0x193e8a0" astOperand2="0x1943e60"/>
+    <token id="0x1943e60" file="GroveCollision.cpp" linenr="38" str="0" scope="0x1942250" type="number" isInt="True" values="0x1943e68" astParent="0x19416a0"/>
+    <token id="0x1943f10" file="GroveCollision.cpp" linenr="38" str=";" scope="0x1942250"/>
+    <token id="0x1943fc0" file="GroveCollision.cpp" linenr="40" str="while" scope="0x1942250" type="name" astParent="0x1944070"/>
+    <token id="0x1944070" file="GroveCollision.cpp" linenr="40" str="(" scope="0x1942250" link="0x19441d0" astOperand1="0x1943fc0" astOperand2="0x1944120"/>
+    <token id="0x1944120" file="GroveCollision.cpp" linenr="40" str="1" scope="0x1942250" type="number" isInt="True" values="0x1944128" astParent="0x1944070"/>
+    <token id="0x19441d0" file="GroveCollision.cpp" linenr="40" str=")" scope="0x1942250" link="0x1944070"/>
+    <token id="0x1944280" file="GroveCollision.cpp" linenr="41" str="{" scope="0x1946790" link="0x19460c0"/>
+    <token id="0x1944330" file="GroveCollision.cpp" linenr="43" str="if" scope="0x1946790" type="name" astParent="0x19443e0"/>
+    <token id="0x19443e0" file="GroveCollision.cpp" linenr="43" str="(" scope="0x1946790" link="0x1944960" astOperand1="0x1944330" astOperand2="0x1944800"/>
+    <token id="0x1944490" file="GroveCollision.cpp" linenr="43" str="t" scope="0x1946790" type="name" varId="4" variable="0x1946b40" astParent="0x1944540"/>
+    <token id="0x1944540" file="GroveCollision.cpp" linenr="43" str="." scope="0x1946790" astParent="0x19446a0" astOperand1="0x1944490" astOperand2="0x19445f0"/>
+    <token id="0x19445f0" file="GroveCollision.cpp" linenr="43" str="read_ms" scope="0x1946790" type="name" astParent="0x1944540"/>
+    <token id="0x19446a0" file="GroveCollision.cpp" linenr="43" str="(" scope="0x1946790" link="0x1944750" astParent="0x1944800" astOperand1="0x1944540"/>
+    <token id="0x1944750" file="GroveCollision.cpp" linenr="43" str=")" scope="0x1946790" link="0x19446a0"/>
+    <token id="0x1944800" file="GroveCollision.cpp" linenr="43" str="&gt;" scope="0x1946790" type="op" isComparisonOp="True" astParent="0x19443e0" astOperand1="0x19446a0" astOperand2="0x19448b0"/>
+    <token id="0x19448b0" file="GroveCollision.cpp" linenr="43" str="publisher_timer" scope="0x1946790" type="name" varId="5" variable="0x1946bb0" values="0x19448b8" astParent="0x1944800"/>
+    <token id="0x1944960" file="GroveCollision.cpp" linenr="43" str=")" scope="0x1946790" link="0x19443e0"/>
+    <token id="0x1944a10" file="GroveCollision.cpp" linenr="44" str="{" scope="0x19468c0" link="0x1945bf0"/>
+    <token id="0x1944ac0" file="GroveCollision.cpp" linenr="45" str="collision_msg" scope="0x19468c0" type="name" varId="2" variable="0x1946a60" astParent="0x1944b70"/>
+    <token id="0x1944b70" file="GroveCollision.cpp" linenr="45" str="." scope="0x19468c0" astParent="0x1944cd0" astOperand1="0x1944ac0" astOperand2="0x1944c20"/>
+    <token id="0x1944c20" file="GroveCollision.cpp" linenr="45" str="data" scope="0x19468c0" type="name" varId="6" astParent="0x1944b70"/>
+    <token id="0x1944cd0" file="GroveCollision.cpp" linenr="45" str="=" scope="0x19468c0" type="op" isAssignmentOp="True" astOperand1="0x1944b70" astOperand2="0x1944d80"/>
+    <token id="0x1944d80" file="GroveCollision.cpp" linenr="45" str="!" scope="0x19468c0" type="op" isLogicalOp="True" astParent="0x1944cd0" astOperand1="0x1944e30"/>
+    <token id="0x1944e30" file="GroveCollision.cpp" linenr="45" str="sig1" scope="0x19468c0" type="name" astParent="0x1944d80"/>
+    <token id="0x1944ee0" file="GroveCollision.cpp" linenr="45" str=";" scope="0x19468c0"/>
+    <token id="0x1944f90" file="GroveCollision.cpp" linenr="46" str="pub_collision" scope="0x19468c0" type="name" varId="3" variable="0x1946ad0" astParent="0x1945040"/>
+    <token id="0x1945040" file="GroveCollision.cpp" linenr="46" str="." scope="0x19468c0" astParent="0x19451a0" astOperand1="0x1944f90" astOperand2="0x19450f0"/>
+    <token id="0x19450f0" file="GroveCollision.cpp" linenr="46" str="publish" scope="0x19468c0" type="name" astParent="0x1945040"/>
+    <token id="0x19451a0" file="GroveCollision.cpp" linenr="46" str="(" scope="0x19468c0" link="0x19453b0" astOperand1="0x1945040" astOperand2="0x1945250"/>
+    <token id="0x1945250" file="GroveCollision.cpp" linenr="46" str="&amp;" scope="0x19468c0" type="op" astParent="0x19451a0" astOperand1="0x1945300"/>
+    <token id="0x1945300" file="GroveCollision.cpp" linenr="46" str="collision_msg" scope="0x19468c0" type="name" varId="2" variable="0x1946a60" astParent="0x1945250"/>
+    <token id="0x19453b0" file="GroveCollision.cpp" linenr="46" str=")" scope="0x19468c0" link="0x19451a0"/>
+    <token id="0x1945460" file="GroveCollision.cpp" linenr="46" str=";" scope="0x19468c0"/>
+    <token id="0x1945510" file="GroveCollision.cpp" linenr="47" str="publisher_timer" scope="0x19468c0" type="name" varId="5" variable="0x1946bb0" astParent="0x19455c0"/>
+    <token id="0x19455c0" file="GroveCollision.cpp" linenr="47" str="=" scope="0x19468c0" type="op" isAssignmentOp="True" astOperand1="0x1945510" astOperand2="0x19459e0"/>
+    <token id="0x1945670" file="GroveCollision.cpp" linenr="47" str="t" scope="0x19468c0" type="name" varId="4" variable="0x1946b40" astParent="0x1945720"/>
+    <token id="0x1945720" file="GroveCollision.cpp" linenr="47" str="." scope="0x19468c0" astParent="0x1945880" astOperand1="0x1945670" astOperand2="0x19457d0"/>
+    <token id="0x19457d0" file="GroveCollision.cpp" linenr="47" str="read_ms" scope="0x19468c0" type="name" astParent="0x1945720"/>
+    <token id="0x1945880" file="GroveCollision.cpp" linenr="47" str="(" scope="0x19468c0" link="0x1945930" astParent="0x19459e0" astOperand1="0x1945720"/>
+    <token id="0x1945930" file="GroveCollision.cpp" linenr="47" str=")" scope="0x19468c0" link="0x1945880"/>
+    <token id="0x19459e0" file="GroveCollision.cpp" linenr="47" str="+" scope="0x19468c0" type="op" isArithmeticalOp="True" astParent="0x19455c0" astOperand1="0x1945880" astOperand2="0x1945a90"/>
+    <token id="0x1945a90" file="GroveCollision.cpp" linenr="47" str="1000" scope="0x19468c0" type="number" isInt="True" values="0x1945a98" astParent="0x19459e0"/>
+    <token id="0x1945b40" file="GroveCollision.cpp" linenr="47" str=";" scope="0x19468c0"/>
+    <token id="0x1945bf0" file="GroveCollision.cpp" linenr="48" str="}" scope="0x19468c0" link="0x1944a10"/>
+    <token id="0x1945ca0" file="GroveCollision.cpp" linenr="49" str="nh" scope="0x1946790" type="name" varId="1" variable="0x19469f0" astParent="0x1945d50"/>
+    <token id="0x1945d50" file="GroveCollision.cpp" linenr="49" str="." scope="0x1946790" astParent="0x1945eb0" astOperand1="0x1945ca0" astOperand2="0x1945e00"/>
+    <token id="0x1945e00" file="GroveCollision.cpp" linenr="49" str="spinOnce" scope="0x1946790" type="name" astParent="0x1945d50"/>
+    <token id="0x1945eb0" file="GroveCollision.cpp" linenr="49" str="(" scope="0x1946790" link="0x1945f60" astOperand1="0x1945d50"/>
+    <token id="0x1945f60" file="GroveCollision.cpp" linenr="49" str=")" scope="0x1946790" link="0x1945eb0"/>
+    <token id="0x1946010" file="GroveCollision.cpp" linenr="49" str=";" scope="0x1946790"/>
+    <token id="0x19460c0" file="GroveCollision.cpp" linenr="50" str="}" scope="0x1946790" link="0x1944280"/>
+    <token id="0x1946170" file="GroveCollision.cpp" linenr="51" str="}" scope="0x1942250" link="0x1942e90"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x193e610" type="Global">
+      <functionList>
+        <function id="0x1946230" tokenDef="0x1942860" name="sig1">
+          <arg nr="1" variable="0x1946c20"/>
+        </function>
+        <function id="0x19462d0" tokenDef="0x1942c80" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x19469f0"/>
+        <var id="0x1946a60"/>
+        <var id="0x1946ad0"/>
+        <var id="0x1946b40"/>
+      </varlist>
+    </scope>
+    <scope id="0x1942250" type="Function" className="main" classStart="0x1942e90" classEnd="0x1946170" nestedIn="0x193e610" function="0x19462d0">
+      <varlist>
+        <var id="0x1946bb0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1946790" type="While" classStart="0x1944280" classEnd="0x19460c0" nestedIn="0x1942250"/>
+    <scope id="0x19468c0" type="If" classStart="0x1944a10" classEnd="0x1945bf0" nestedIn="0x1946790"/>
+  </scopes>
+  <variables>
+    <var id="0x19469f0" nameToken="0x19415f0" typeStartToken="0x1941760" typeEndToken="0x1941540" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1946a60" nameToken="0x1940c50" typeStartToken="0x1942020" typeEndToken="0x1942180" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1946ad0" nameToken="0x1940fc0" typeStartToken="0x1940db0" typeEndToken="0x1940f10" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1946b40" nameToken="0x1942650" typeStartToken="0x19425a0" typeEndToken="0x19425a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1946bb0" nameToken="0x1943d00" typeStartToken="0x1943c50" typeEndToken="0x1943c50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1941a08">
+      <value tokvalue="0x1941a00" known="true"/>
+    </values>
+    <values id="0x1943e68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1944128">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19448b8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1945a98">
+      <value intvalue="1000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

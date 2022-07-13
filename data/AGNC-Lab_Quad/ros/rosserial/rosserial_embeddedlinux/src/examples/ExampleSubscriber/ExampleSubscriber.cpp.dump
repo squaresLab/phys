@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x2304130" file="ExampleSubscriber.cpp" linenr="13" str="ros" scope="0x2307f00" type="name" astParent="0x23041e0"/>
+    <token id="0x23041e0" file="ExampleSubscriber.cpp" linenr="13" str="::" scope="0x2307f00" astOperand1="0x2304130" astOperand2="0x2304340"/>
+    <token id="0x2304290" file="ExampleSubscriber.cpp" linenr="13" str="NodeHandle" scope="0x2307f00" type="name"/>
+    <token id="0x2304340" file="ExampleSubscriber.cpp" linenr="13" str="nh" scope="0x2307f00" type="name" varId="1" variable="0x23081e0" astParent="0x23041e0"/>
+    <token id="0x23043f0" file="ExampleSubscriber.cpp" linenr="13" str=";" scope="0x2307f00"/>
+    <token id="0x23044a0" file="ExampleSubscriber.cpp" linenr="14" str="char" scope="0x2307f00" type="name" astParent="0x2304550"/>
+    <token id="0x2304550" file="ExampleSubscriber.cpp" linenr="14" str="*" scope="0x2307f00" type="op" isArithmeticalOp="True" astOperand1="0x23044a0" astOperand2="0x2303ae0"/>
+    <token id="0x2303ae0" file="ExampleSubscriber.cpp" linenr="14" str="rosSrvrIp" scope="0x2307f00" type="name" varId="2" variable="0x2308250" astParent="0x2304550"/>
+    <token id="0x2303b90" file="ExampleSubscriber.cpp" linenr="14" str=";" scope="0x2307f00"/>
+    <token id="0x2303920" file="ExampleSubscriber.cpp" linenr="14" str="rosSrvrIp" scope="0x2307f00" type="name" varId="2" variable="0x2308250" astParent="0x23039d0"/>
+    <token id="0x23039d0" file="ExampleSubscriber.cpp" linenr="14" str="=" scope="0x2307f00" type="op" isAssignmentOp="True" astOperand1="0x2303920" astOperand2="0x2303c70"/>
+    <token id="0x2303c70" file="ExampleSubscriber.cpp" linenr="14" str="&quot;192.168.15.149&quot;" scope="0x2307f00" type="string" strlen="14" values="0x2303c78" astParent="0x23039d0"/>
+    <token id="0x2303d50" file="ExampleSubscriber.cpp" linenr="14" str=";" scope="0x2307f00"/>
+    <token id="0x2303e00" file="ExampleSubscriber.cpp" linenr="16" str="void" scope="0x2307f00" type="name"/>
+    <token id="0x2303eb0" file="ExampleSubscriber.cpp" linenr="16" str="messageCb" scope="0x2307f00" type="name" function="0x2307bf0" astParent="0x2303f60"/>
+    <token id="0x2303f60" file="ExampleSubscriber.cpp" linenr="16" str="(" scope="0x2307f00" link="0x2304b20" astOperand1="0x2303eb0" astOperand2="0x23049c0"/>
+    <token id="0x2304010" file="ExampleSubscriber.cpp" linenr="16" str="const" scope="0x2307f00" type="name"/>
+    <token id="0x23047b0" file="ExampleSubscriber.cpp" linenr="16" str="std_msgs" scope="0x2307f00" type="name" astParent="0x2304860"/>
+    <token id="0x2304860" file="ExampleSubscriber.cpp" linenr="16" str="::" scope="0x2307f00" astParent="0x23049c0" astOperand1="0x23047b0" astOperand2="0x2304910"/>
+    <token id="0x2304910" file="ExampleSubscriber.cpp" linenr="16" str="String" scope="0x2307f00" type="name" astParent="0x2304860"/>
+    <token id="0x23049c0" file="ExampleSubscriber.cpp" linenr="16" str="&amp;" scope="0x2307f00" type="op" astParent="0x2303f60" astOperand1="0x2304860" astOperand2="0x2304a70"/>
+    <token id="0x2304a70" file="ExampleSubscriber.cpp" linenr="16" str="received_msg" scope="0x2307f00" type="name" varId="3" variable="0x2308330" astParent="0x23049c0"/>
+    <token id="0x2304b20" file="ExampleSubscriber.cpp" linenr="16" str=")" scope="0x2307f00" link="0x2303f60"/>
+    <token id="0x2304bd0" file="ExampleSubscriber.cpp" linenr="16" str="{" scope="0x2307c90" link="0x23052b0"/>
+    <token id="0x2304c80" file="ExampleSubscriber.cpp" linenr="17" str="printf" scope="0x2307c90" type="name" astParent="0x2304d30"/>
+    <token id="0x2304d30" file="ExampleSubscriber.cpp" linenr="17" str="(" scope="0x2307c90" link="0x2305150" astOperand1="0x2304c80" astOperand2="0x2304e90"/>
+    <token id="0x2304de0" file="ExampleSubscriber.cpp" linenr="17" str="&quot;Received subscribed chatter message: %s\n&quot;" scope="0x2307c90" type="string" strlen="40" values="0x2304de8" astParent="0x2304e90"/>
+    <token id="0x2304e90" file="ExampleSubscriber.cpp" linenr="17" str="," scope="0x2307c90" astParent="0x2304d30" astOperand1="0x2304de0" astOperand2="0x2304ff0"/>
+    <token id="0x2304f40" file="ExampleSubscriber.cpp" linenr="17" str="received_msg" scope="0x2307c90" type="name" varId="3" variable="0x2308330" astParent="0x2304ff0"/>
+    <token id="0x2304ff0" file="ExampleSubscriber.cpp" linenr="17" str="." scope="0x2307c90" astParent="0x2304e90" astOperand1="0x2304f40" astOperand2="0x23050a0"/>
+    <token id="0x23050a0" file="ExampleSubscriber.cpp" linenr="17" str="data" scope="0x2307c90" type="name" varId="4" astParent="0x2304ff0"/>
+    <token id="0x2305150" file="ExampleSubscriber.cpp" linenr="17" str=")" scope="0x2307c90" link="0x2304d30"/>
+    <token id="0x2305200" file="ExampleSubscriber.cpp" linenr="17" str=";" scope="0x2307c90"/>
+    <token id="0x23052b0" file="ExampleSubscriber.cpp" linenr="18" str="}" scope="0x2307c90" link="0x2304bd0"/>
+    <token id="0x2305360" file="ExampleSubscriber.cpp" linenr="19" str="ros" scope="0x2307f00" type="name" astParent="0x2305410"/>
+    <token id="0x2305410" file="ExampleSubscriber.cpp" linenr="19" str="::" scope="0x2307f00" astOperand1="0x2305360" astOperand2="0x23054c0"/>
+    <token id="0x23054c0" file="ExampleSubscriber.cpp" linenr="19" str="Subscriber" scope="0x2307f00" type="name" astParent="0x2305410"/>
+    <token id="0x2305570" file="ExampleSubscriber.cpp" linenr="19" str="&lt;" scope="0x2307f00" link="0x2305830"/>
+    <token id="0x2305620" file="ExampleSubscriber.cpp" linenr="19" str="std_msgs" scope="0x2307f00" type="name"/>
+    <token id="0x23056d0" file="ExampleSubscriber.cpp" linenr="19" str="::" scope="0x2307f00"/>
+    <token id="0x2305780" file="ExampleSubscriber.cpp" linenr="19" str="String" scope="0x2307f00" type="name"/>
+    <token id="0x2305830" file="ExampleSubscriber.cpp" linenr="19" str="&gt;" scope="0x2307f00" link="0x2305570"/>
+    <token id="0x23058e0" file="ExampleSubscriber.cpp" linenr="19" str="sub" scope="0x2307f00" type="name" varId="5" variable="0x23082c0" astParent="0x2305990"/>
+    <token id="0x2305990" file="ExampleSubscriber.cpp" linenr="19" str="(" scope="0x2307f00" link="0x2305c50" astOperand1="0x23058e0" astOperand2="0x2305af0"/>
+    <token id="0x2305a40" file="ExampleSubscriber.cpp" linenr="19" str="&quot;chatter&quot;" scope="0x2307f00" type="string" strlen="7" values="0x2305a48" astParent="0x2305af0"/>
+    <token id="0x2305af0" file="ExampleSubscriber.cpp" linenr="19" str="," scope="0x2307f00" astParent="0x2305990" astOperand1="0x2305a40" astOperand2="0x2305ba0"/>
+    <token id="0x2305ba0" file="ExampleSubscriber.cpp" linenr="19" str="messageCb" scope="0x2307f00" type="name" astParent="0x2305af0"/>
+    <token id="0x2305c50" file="ExampleSubscriber.cpp" linenr="19" str=")" scope="0x2307f00" link="0x2305990"/>
+    <token id="0x2305d00" file="ExampleSubscriber.cpp" linenr="19" str=";" scope="0x2307f00"/>
+    <token id="0x2305db0" file="ExampleSubscriber.cpp" linenr="21" str="int" scope="0x2307f00" type="name"/>
+    <token id="0x2305e60" file="ExampleSubscriber.cpp" linenr="21" str="main" scope="0x2307f00" type="name" function="0x2307990" astParent="0x2305f10"/>
+    <token id="0x2305f10" file="ExampleSubscriber.cpp" linenr="21" str="(" scope="0x2307f00" link="0x2305fc0" astOperand1="0x2305e60"/>
+    <token id="0x2305fc0" file="ExampleSubscriber.cpp" linenr="21" str=")" scope="0x2307f00" link="0x2305f10"/>
+    <token id="0x2306070" file="ExampleSubscriber.cpp" linenr="22" str="{" scope="0x2307a30" link="0x2307670"/>
+    <token id="0x2306120" file="ExampleSubscriber.cpp" linenr="24" str="nh" scope="0x2307a30" type="name" varId="1" variable="0x23081e0" astParent="0x23061d0"/>
+    <token id="0x23061d0" file="ExampleSubscriber.cpp" linenr="24" str="." scope="0x2307a30" astParent="0x2306330" astOperand1="0x2306120" astOperand2="0x2306280"/>
+    <token id="0x2306280" file="ExampleSubscriber.cpp" linenr="24" str="initNode" scope="0x2307a30" type="name" astParent="0x23061d0"/>
+    <token id="0x2306330" file="ExampleSubscriber.cpp" linenr="24" str="(" scope="0x2307a30" link="0x2306490" astOperand1="0x23061d0" astOperand2="0x23063e0"/>
+    <token id="0x23063e0" file="ExampleSubscriber.cpp" linenr="24" str="rosSrvrIp" scope="0x2307a30" type="name" varId="2" variable="0x2308250" astParent="0x2306330"/>
+    <token id="0x2306490" file="ExampleSubscriber.cpp" linenr="24" str=")" scope="0x2307a30" link="0x2306330"/>
+    <token id="0x2306540" file="ExampleSubscriber.cpp" linenr="24" str=";" scope="0x2307a30"/>
+    <token id="0x23065f0" file="ExampleSubscriber.cpp" linenr="25" str="nh" scope="0x2307a30" type="name" varId="1" variable="0x23081e0" astParent="0x23066a0"/>
+    <token id="0x23066a0" file="ExampleSubscriber.cpp" linenr="25" str="." scope="0x2307a30" astParent="0x2306800" astOperand1="0x23065f0" astOperand2="0x2306750"/>
+    <token id="0x2306750" file="ExampleSubscriber.cpp" linenr="25" str="subscribe" scope="0x2307a30" type="name" astParent="0x23066a0"/>
+    <token id="0x2306800" file="ExampleSubscriber.cpp" linenr="25" str="(" scope="0x2307a30" link="0x2306960" astOperand1="0x23066a0" astOperand2="0x23068b0"/>
+    <token id="0x23068b0" file="ExampleSubscriber.cpp" linenr="25" str="sub" scope="0x2307a30" type="name" varId="5" variable="0x23082c0" astParent="0x2306800"/>
+    <token id="0x2306960" file="ExampleSubscriber.cpp" linenr="25" str=")" scope="0x2307a30" link="0x2306800"/>
+    <token id="0x2306a10" file="ExampleSubscriber.cpp" linenr="25" str=";" scope="0x2307a30"/>
+    <token id="0x2306ac0" file="ExampleSubscriber.cpp" linenr="27" str="while" scope="0x2307a30" type="name" astParent="0x2306b70"/>
+    <token id="0x2306b70" file="ExampleSubscriber.cpp" linenr="27" str="(" scope="0x2307a30" link="0x2306cd0" astOperand1="0x2306ac0" astOperand2="0x2306c20"/>
+    <token id="0x2306c20" file="ExampleSubscriber.cpp" linenr="27" str="1" scope="0x2307a30" type="number" isInt="True" values="0x2306c28" astParent="0x2306b70"/>
+    <token id="0x2306cd0" file="ExampleSubscriber.cpp" linenr="27" str=")" scope="0x2307a30" link="0x2306b70"/>
+    <token id="0x2306d80" file="ExampleSubscriber.cpp" linenr="27" str="{" scope="0x23080b0" link="0x23075c0"/>
+    <token id="0x2306e30" file="ExampleSubscriber.cpp" linenr="28" str="sleep" scope="0x23080b0" type="name" astParent="0x2306ee0"/>
+    <token id="0x2306ee0" file="ExampleSubscriber.cpp" linenr="28" str="(" scope="0x23080b0" link="0x2307040" astOperand1="0x2306e30" astOperand2="0x2306f90"/>
+    <token id="0x2306f90" file="ExampleSubscriber.cpp" linenr="28" str="1" scope="0x23080b0" type="number" isInt="True" values="0x2306f98" astParent="0x2306ee0"/>
+    <token id="0x2307040" file="ExampleSubscriber.cpp" linenr="28" str=")" scope="0x23080b0" link="0x2306ee0"/>
+    <token id="0x23070f0" file="ExampleSubscriber.cpp" linenr="28" str=";" scope="0x23080b0"/>
+    <token id="0x23071a0" file="ExampleSubscriber.cpp" linenr="29" str="nh" scope="0x23080b0" type="name" varId="1" variable="0x23081e0" astParent="0x2307250"/>
+    <token id="0x2307250" file="ExampleSubscriber.cpp" linenr="29" str="." scope="0x23080b0" astParent="0x23073b0" astOperand1="0x23071a0" astOperand2="0x2307300"/>
+    <token id="0x2307300" file="ExampleSubscriber.cpp" linenr="29" str="spinOnce" scope="0x23080b0" type="name" astParent="0x2307250"/>
+    <token id="0x23073b0" file="ExampleSubscriber.cpp" linenr="29" str="(" scope="0x23080b0" link="0x2307460" astOperand1="0x2307250"/>
+    <token id="0x2307460" file="ExampleSubscriber.cpp" linenr="29" str=")" scope="0x23080b0" link="0x23073b0"/>
+    <token id="0x2307510" file="ExampleSubscriber.cpp" linenr="29" str=";" scope="0x23080b0"/>
+    <token id="0x23075c0" file="ExampleSubscriber.cpp" linenr="30" str="}" scope="0x23080b0" link="0x2306d80"/>
+    <token id="0x2307670" file="ExampleSubscriber.cpp" linenr="31" str="}" scope="0x2307a30" link="0x2306070"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2307f00" type="Global">
+      <functionList>
+        <function id="0x2307bf0" tokenDef="0x2303eb0" name="messageCb">
+          <arg nr="1" variable="0x2308330"/>
+        </function>
+        <function id="0x2307990" tokenDef="0x2305e60" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x23081e0"/>
+        <var id="0x2308250"/>
+        <var id="0x23082c0"/>
+      </varlist>
+    </scope>
+    <scope id="0x2307c90" type="Function" className="messageCb" classStart="0x2304bd0" classEnd="0x23052b0" nestedIn="0x2307f00" function="0x2307bf0"/>
+    <scope id="0x2307a30" type="Function" className="main" classStart="0x2306070" classEnd="0x2307670" nestedIn="0x2307f00" function="0x2307990"/>
+    <scope id="0x23080b0" type="While" classStart="0x2306d80" classEnd="0x23075c0" nestedIn="0x2307a30"/>
+  </scopes>
+  <variables>
+    <var id="0x23081e0" nameToken="0x2304340" typeStartToken="0x2304130" typeEndToken="0x2304290" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2308250" nameToken="0x2303ae0" typeStartToken="0x23044a0" typeEndToken="0x2304550" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x2308330" nameToken="0x2304a70" typeStartToken="0x23047b0" typeEndToken="0x23049c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x23082c0" nameToken="0x23058e0" typeStartToken="0x2305360" typeEndToken="0x2305830" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2303c78">
+      <value tokvalue="0x2303c70" known="true"/>
+    </values>
+    <values id="0x2304de8">
+      <value tokvalue="0x2304de0" known="true"/>
+    </values>
+    <values id="0x2305a48">
+      <value tokvalue="0x2305a40" known="true"/>
+    </values>
+    <values id="0x2306c28">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x2306f98">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

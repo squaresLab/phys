@@ -1,0 +1,1322 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x101f740" file="joystick_servo_control.cpp" linenr="39" str="ros" scope="0x1046ba0" type="name" astParent="0x101f7f0"/>
+    <token id="0x101f7f0" file="joystick_servo_control.cpp" linenr="39" str="::" scope="0x1046ba0" astOperand1="0x101f740" astOperand2="0x101f950"/>
+    <token id="0x101f8a0" file="joystick_servo_control.cpp" linenr="39" str="ServiceClient" scope="0x1046ba0" type="name"/>
+    <token id="0x101f950" file="joystick_servo_control.cpp" linenr="39" str="client_servo_reference" scope="0x1046ba0" type="name" varId="1" variable="0x104bf90" astParent="0x101f7f0"/>
+    <token id="0x101fa00" file="joystick_servo_control.cpp" linenr="39" str=";" scope="0x1046ba0"/>
+    <token id="0x101fab0" file="joystick_servo_control.cpp" linenr="40" str="ros" scope="0x1046ba0" type="name" astParent="0x101fb60"/>
+    <token id="0x101fb60" file="joystick_servo_control.cpp" linenr="40" str="::" scope="0x1046ba0" astOperand1="0x101fab0" astOperand2="0x101fcc0"/>
+    <token id="0x101fc10" file="joystick_servo_control.cpp" linenr="40" str="ServiceClient" scope="0x1046ba0" type="name"/>
+    <token id="0x101fcc0" file="joystick_servo_control.cpp" linenr="40" str="client_joystick" scope="0x1046ba0" type="name" varId="2" variable="0x104c000" astParent="0x101fb60"/>
+    <token id="0x101fd70" file="joystick_servo_control.cpp" linenr="40" str=";" scope="0x1046ba0"/>
+    <token id="0x101fe20" file="joystick_servo_control.cpp" linenr="42" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x1020f00" file="joystick_servo_control.cpp" linenr="42" str="speed" scope="0x1046ba0" type="name" varId="3" variable="0x104c070"/>
+    <token id="0x1020fb0" file="joystick_servo_control.cpp" linenr="42" str=";" scope="0x1046ba0"/>
+    <token id="0x1046cf0" file="joystick_servo_control.cpp" linenr="42" str="speed" scope="0x1046ba0" type="name" varId="3" variable="0x104c070" astParent="0x1046da0"/>
+    <token id="0x1046da0" file="joystick_servo_control.cpp" linenr="42" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x1046cf0" astOperand2="0x1021060"/>
+    <token id="0x1021060" file="joystick_servo_control.cpp" linenr="42" str="20" scope="0x1046ba0" type="number" isInt="True" values="0x1021068" astParent="0x1046da0"/>
+    <token id="0x1021110" file="joystick_servo_control.cpp" linenr="42" str=";" scope="0x1046ba0"/>
+    <token id="0x10211c0" file="joystick_servo_control.cpp" linenr="43" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x1021270" file="joystick_servo_control.cpp" linenr="43" str="acceleration" scope="0x1046ba0" type="name" varId="4" variable="0x104c0e0"/>
+    <token id="0x1021320" file="joystick_servo_control.cpp" linenr="43" str=";" scope="0x1046ba0"/>
+    <token id="0x1046e50" file="joystick_servo_control.cpp" linenr="43" str="acceleration" scope="0x1046ba0" type="name" varId="4" variable="0x104c0e0" astParent="0x1046930"/>
+    <token id="0x1046930" file="joystick_servo_control.cpp" linenr="43" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x1046e50" astOperand2="0x10213d0"/>
+    <token id="0x10213d0" file="joystick_servo_control.cpp" linenr="43" str="50" scope="0x1046ba0" type="number" isInt="True" values="0x10213d8" astParent="0x1046930"/>
+    <token id="0x1021480" file="joystick_servo_control.cpp" linenr="43" str=";" scope="0x1046ba0"/>
+    <token id="0x1021530" file="joystick_servo_control.cpp" linenr="44" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x10215e0" file="joystick_servo_control.cpp" linenr="44" str="deadband" scope="0x1046ba0" type="name" varId="5" variable="0x104c150"/>
+    <token id="0x1021690" file="joystick_servo_control.cpp" linenr="44" str=";" scope="0x1046ba0"/>
+    <token id="0x10469e0" file="joystick_servo_control.cpp" linenr="44" str="deadband" scope="0x1046ba0" type="name" varId="5" variable="0x104c150" astParent="0x1047160"/>
+    <token id="0x1047160" file="joystick_servo_control.cpp" linenr="44" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x10469e0" astOperand2="0x1021740"/>
+    <token id="0x1021740" file="joystick_servo_control.cpp" linenr="44" str="0.01f" scope="0x1046ba0" type="number" isFloat="True" astParent="0x1047160"/>
+    <token id="0x10217f0" file="joystick_servo_control.cpp" linenr="44" str=";" scope="0x1046ba0"/>
+    <token id="0x10218a0" file="joystick_servo_control.cpp" linenr="47" str="int" scope="0x1046ba0" type="name"/>
+    <token id="0x1021950" file="joystick_servo_control.cpp" linenr="47" str="servo_index0" scope="0x1046ba0" type="name" varId="6" variable="0x104c1c0"/>
+    <token id="0x1021a00" file="joystick_servo_control.cpp" linenr="47" str=";" scope="0x1046ba0"/>
+    <token id="0x1047210" file="joystick_servo_control.cpp" linenr="47" str="servo_index0" scope="0x1046ba0" type="name" varId="6" variable="0x104c1c0" astParent="0x10472c0"/>
+    <token id="0x10472c0" file="joystick_servo_control.cpp" linenr="47" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x1047210" astOperand2="0x1021ab0"/>
+    <token id="0x1021ab0" file="joystick_servo_control.cpp" linenr="47" str="0" scope="0x1046ba0" type="number" isInt="True" values="0x1021ab8" astParent="0x10472c0"/>
+    <token id="0x1021b60" file="joystick_servo_control.cpp" linenr="47" str=";" scope="0x1046ba0"/>
+    <token id="0x1021c10" file="joystick_servo_control.cpp" linenr="48" str="int" scope="0x1046ba0" type="name"/>
+    <token id="0x1021cc0" file="joystick_servo_control.cpp" linenr="48" str="servo_index1" scope="0x1046ba0" type="name" varId="7" variable="0x104c230"/>
+    <token id="0x1021d70" file="joystick_servo_control.cpp" linenr="48" str=";" scope="0x1046ba0"/>
+    <token id="0x1047370" file="joystick_servo_control.cpp" linenr="48" str="servo_index1" scope="0x1046ba0" type="name" varId="7" variable="0x104c230" astParent="0x1047420"/>
+    <token id="0x1047420" file="joystick_servo_control.cpp" linenr="48" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x1047370" astOperand2="0x1021e20"/>
+    <token id="0x1021e20" file="joystick_servo_control.cpp" linenr="48" str="1" scope="0x1046ba0" type="number" isInt="True" values="0x1021e28" astParent="0x1047420"/>
+    <token id="0x1021ed0" file="joystick_servo_control.cpp" linenr="48" str=";" scope="0x1046ba0"/>
+    <token id="0x1021f80" file="joystick_servo_control.cpp" linenr="50" str="bool" scope="0x1046ba0" type="name"/>
+    <token id="0x1022030" file="joystick_servo_control.cpp" linenr="50" str="initialised" scope="0x1046ba0" type="name" varId="8" variable="0x104c2a0"/>
+    <token id="0x10220e0" file="joystick_servo_control.cpp" linenr="50" str=";" scope="0x1046ba0"/>
+    <token id="0x10474d0" file="joystick_servo_control.cpp" linenr="50" str="initialised" scope="0x1046ba0" type="name" varId="8" variable="0x104c2a0" astParent="0x1047580"/>
+    <token id="0x1047580" file="joystick_servo_control.cpp" linenr="50" str="=" scope="0x1046ba0" type="op" isAssignmentOp="True" astOperand1="0x10474d0" astOperand2="0x1022190"/>
+    <token id="0x1022190" file="joystick_servo_control.cpp" linenr="50" str="false" scope="0x1046ba0" type="name" values="0x1022198" astParent="0x1047580"/>
+    <token id="0x1022240" file="joystick_servo_control.cpp" linenr="50" str=";" scope="0x1046ba0"/>
+    <token id="0x10222f0" file="joystick_servo_control.cpp" linenr="56" str="void" scope="0x1046ba0" type="name"/>
+    <token id="0x10223a0" file="joystick_servo_control.cpp" linenr="56" str="servoCallback" scope="0x1046ba0" type="name" function="0x1048980" astParent="0x1022450"/>
+    <token id="0x1022450" file="joystick_servo_control.cpp" linenr="56" str="(" scope="0x1046ba0" link="0x1022a80" astOperand1="0x10223a0" astOperand2="0x1022920"/>
+    <token id="0x1022500" file="joystick_servo_control.cpp" linenr="56" str="const" scope="0x1046ba0" type="name"/>
+    <token id="0x10225b0" file="joystick_servo_control.cpp" linenr="56" str="phidgets" scope="0x1046ba0" type="name" astParent="0x1022660"/>
+    <token id="0x1022660" file="joystick_servo_control.cpp" linenr="56" str="::" scope="0x1046ba0" astParent="0x10227c0" astOperand1="0x10225b0" astOperand2="0x1022710"/>
+    <token id="0x1022710" file="joystick_servo_control.cpp" linenr="56" str="servo_params" scope="0x1046ba0" type="name" astParent="0x1022660"/>
+    <token id="0x10227c0" file="joystick_servo_control.cpp" linenr="56" str="::" scope="0x1046ba0" astParent="0x1022920" astOperand1="0x1022660" astOperand2="0x1022870"/>
+    <token id="0x1022870" file="joystick_servo_control.cpp" linenr="56" str="ConstPtr" scope="0x1046ba0" type="name" astParent="0x10227c0"/>
+    <token id="0x1022920" file="joystick_servo_control.cpp" linenr="56" str="&amp;" scope="0x1046ba0" type="op" astParent="0x1022450" astOperand1="0x10227c0" astOperand2="0x10229d0"/>
+    <token id="0x10229d0" file="joystick_servo_control.cpp" linenr="56" str="ptr" scope="0x1046ba0" type="name" varId="9" variable="0x104cc00" astParent="0x1022920"/>
+    <token id="0x1022a80" file="joystick_servo_control.cpp" linenr="56" str=")" scope="0x1046ba0" link="0x1022450"/>
+    <token id="0x1022b30" file="joystick_servo_control.cpp" linenr="57" str="{" scope="0x1048a20" link="0x1023ab0"/>
+    <token id="0x1022be0" file="joystick_servo_control.cpp" linenr="58" str="phidgets" scope="0x1048a20" type="name" astParent="0x1022c90"/>
+    <token id="0x1022c90" file="joystick_servo_control.cpp" linenr="58" str="::" scope="0x1048a20" astOperand1="0x1022be0" astOperand2="0x1022df0"/>
+    <token id="0x1022d40" file="joystick_servo_control.cpp" linenr="58" str="servo_params" scope="0x1048a20" type="name"/>
+    <token id="0x1022df0" file="joystick_servo_control.cpp" linenr="58" str="s" scope="0x1048a20" type="name" varId="10" variable="0x104c310" astParent="0x1022c90"/>
+    <token id="0x1022ea0" file="joystick_servo_control.cpp" linenr="58" str=";" scope="0x1048a20"/>
+    <token id="0x1047630" file="joystick_servo_control.cpp" linenr="58" str="s" scope="0x1048a20" type="name" varId="10" variable="0x104c310" astParent="0x10476e0"/>
+    <token id="0x10476e0" file="joystick_servo_control.cpp" linenr="58" str="=" scope="0x1048a20" type="op" isAssignmentOp="True" astOperand1="0x1047630" astOperand2="0x1022f50"/>
+    <token id="0x1022f50" file="joystick_servo_control.cpp" linenr="58" str="*" scope="0x1048a20" type="op" isArithmeticalOp="True" astParent="0x10476e0" astOperand1="0x1023000"/>
+    <token id="0x1023000" file="joystick_servo_control.cpp" linenr="58" str="ptr" scope="0x1048a20" type="name" varId="9" variable="0x104cc00" astParent="0x1022f50"/>
+    <token id="0x10230b0" file="joystick_servo_control.cpp" linenr="58" str=";" scope="0x1048a20"/>
+    <token id="0x1023160" file="joystick_servo_control.cpp" linenr="59" str="ROS_INFO" scope="0x1048a20" type="name" astParent="0x1023210"/>
+    <token id="0x1023210" file="joystick_servo_control.cpp" linenr="59" str="(" scope="0x1048a20" link="0x1023950" astOperand1="0x1023160" astOperand2="0x1023690"/>
+    <token id="0x10232f0" file="joystick_servo_control.cpp" linenr="59" str="&quot;Servo %d position %.2f&quot;" scope="0x1048a20" type="string" strlen="22" values="0x10232f8" astParent="0x10233d0"/>
+    <token id="0x10233d0" file="joystick_servo_control.cpp" linenr="59" str="," scope="0x1048a20" astParent="0x1023690" astOperand1="0x10232f0" astOperand2="0x1023530"/>
+    <token id="0x1023480" file="joystick_servo_control.cpp" linenr="59" str="s" scope="0x1048a20" type="name" varId="10" variable="0x104c310" astParent="0x1023530"/>
+    <token id="0x1023530" file="joystick_servo_control.cpp" linenr="59" str="." scope="0x1048a20" astParent="0x10233d0" astOperand1="0x1023480" astOperand2="0x10235e0"/>
+    <token id="0x10235e0" file="joystick_servo_control.cpp" linenr="59" str="index" scope="0x1048a20" type="name" varId="11" astParent="0x1023530"/>
+    <token id="0x1023690" file="joystick_servo_control.cpp" linenr="59" str="," scope="0x1048a20" astParent="0x1023210" astOperand1="0x10233d0" astOperand2="0x10237f0"/>
+    <token id="0x1023740" file="joystick_servo_control.cpp" linenr="59" str="s" scope="0x1048a20" type="name" varId="10" variable="0x104c310" astParent="0x10237f0"/>
+    <token id="0x10237f0" file="joystick_servo_control.cpp" linenr="59" str="." scope="0x1048a20" astParent="0x1023690" astOperand1="0x1023740" astOperand2="0x10238a0"/>
+    <token id="0x10238a0" file="joystick_servo_control.cpp" linenr="59" str="position" scope="0x1048a20" type="name" varId="12" astParent="0x10237f0"/>
+    <token id="0x1023950" file="joystick_servo_control.cpp" linenr="59" str=")" scope="0x1048a20" link="0x1023210"/>
+    <token id="0x1023a00" file="joystick_servo_control.cpp" linenr="59" str=";" scope="0x1048a20"/>
+    <token id="0x1023ab0" file="joystick_servo_control.cpp" linenr="60" str="}" scope="0x1048a20" link="0x1022b30"/>
+    <token id="0x1023b60" file="joystick_servo_control.cpp" linenr="70" str="void" scope="0x1046ba0" type="name"/>
+    <token id="0x1023c10" file="joystick_servo_control.cpp" linenr="70" str="set_servo_reference" scope="0x1046ba0" type="name" function="0x1048b50" astParent="0x1023cc0"/>
+    <token id="0x1023cc0" file="joystick_servo_control.cpp" linenr="70" str="(" scope="0x1046ba0" link="0x1024710" astOperand1="0x1023c10" astOperand2="0x1024500"/>
+    <token id="0x1023d70" file="joystick_servo_control.cpp" linenr="71" str="int" scope="0x1046ba0" type="name"/>
+    <token id="0x1023e20" file="joystick_servo_control.cpp" linenr="71" str="index" scope="0x1046ba0" type="name" varId="13" variable="0x104cc70" astParent="0x1023ed0"/>
+    <token id="0x1023ed0" file="joystick_servo_control.cpp" linenr="71" str="," scope="0x1046ba0" astParent="0x10240e0" astOperand1="0x1023e20" astOperand2="0x1024030"/>
+    <token id="0x1023f80" file="joystick_servo_control.cpp" linenr="72" str="bool" scope="0x1046ba0" type="name"/>
+    <token id="0x1024030" file="joystick_servo_control.cpp" linenr="72" str="engage" scope="0x1046ba0" type="name" varId="14" variable="0x104cce0" astParent="0x1023ed0"/>
+    <token id="0x10240e0" file="joystick_servo_control.cpp" linenr="72" str="," scope="0x1046ba0" astParent="0x10242f0" astOperand1="0x1023ed0" astOperand2="0x1024240"/>
+    <token id="0x1024190" file="joystick_servo_control.cpp" linenr="73" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x1024240" file="joystick_servo_control.cpp" linenr="73" str="position" scope="0x1046ba0" type="name" varId="15" variable="0x104cd50" astParent="0x10240e0"/>
+    <token id="0x10242f0" file="joystick_servo_control.cpp" linenr="73" str="," scope="0x1046ba0" astParent="0x1024500" astOperand1="0x10240e0" astOperand2="0x1024450"/>
+    <token id="0x10243a0" file="joystick_servo_control.cpp" linenr="74" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x1024450" file="joystick_servo_control.cpp" linenr="74" str="speed" scope="0x1046ba0" type="name" varId="16" variable="0x104cdc0" astParent="0x10242f0"/>
+    <token id="0x1024500" file="joystick_servo_control.cpp" linenr="74" str="," scope="0x1046ba0" astParent="0x1023cc0" astOperand1="0x10242f0" astOperand2="0x1024660"/>
+    <token id="0x10245b0" file="joystick_servo_control.cpp" linenr="75" str="float" scope="0x1046ba0" type="name"/>
+    <token id="0x1024660" file="joystick_servo_control.cpp" linenr="75" str="acceleration" scope="0x1046ba0" type="name" varId="17" variable="0x104ce30" astParent="0x1024500"/>
+    <token id="0x1024710" file="joystick_servo_control.cpp" linenr="75" str=")" scope="0x1046ba0" link="0x1023cc0"/>
+    <token id="0x10247c0" file="joystick_servo_control.cpp" linenr="76" str="{" scope="0x1048bf0" link="0x102a680"/>
+    <token id="0x1024870" file="joystick_servo_control.cpp" linenr="77" str="phidgets" scope="0x1048bf0" type="name" astParent="0x1024920"/>
+    <token id="0x1024920" file="joystick_servo_control.cpp" linenr="77" str="::" scope="0x1048bf0" astOperand1="0x1024870" astOperand2="0x1024a80"/>
+    <token id="0x10249d0" file="joystick_servo_control.cpp" linenr="77" str="servo_reference" scope="0x1048bf0" type="name"/>
+    <token id="0x1024a80" file="joystick_servo_control.cpp" linenr="77" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1024920"/>
+    <token id="0x1024b30" file="joystick_servo_control.cpp" linenr="77" str=";" scope="0x1048bf0"/>
+    <token id="0x1024be0" file="joystick_servo_control.cpp" linenr="78" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1024c90"/>
+    <token id="0x1024c90" file="joystick_servo_control.cpp" linenr="78" str="." scope="0x1048bf0" astParent="0x1024df0" astOperand1="0x1024be0" astOperand2="0x1024d40"/>
+    <token id="0x1024d40" file="joystick_servo_control.cpp" linenr="78" str="request" scope="0x1048bf0" type="name" varId="19" astParent="0x1024c90"/>
+    <token id="0x1024df0" file="joystick_servo_control.cpp" linenr="78" str="." scope="0x1048bf0" astParent="0x1024f50" astOperand1="0x1024c90" astOperand2="0x1024ea0"/>
+    <token id="0x1024ea0" file="joystick_servo_control.cpp" linenr="78" str="index" scope="0x1048bf0" type="name" varId="20" astParent="0x1024df0"/>
+    <token id="0x1024f50" file="joystick_servo_control.cpp" linenr="78" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x1024df0" astOperand2="0x1025000"/>
+    <token id="0x1025000" file="joystick_servo_control.cpp" linenr="78" str="index" scope="0x1048bf0" type="name" varId="13" variable="0x104cc70" astParent="0x1024f50"/>
+    <token id="0x10250b0" file="joystick_servo_control.cpp" linenr="78" str=";" scope="0x1048bf0"/>
+    <token id="0x1025160" file="joystick_servo_control.cpp" linenr="79" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1025210"/>
+    <token id="0x1025210" file="joystick_servo_control.cpp" linenr="79" str="." scope="0x1048bf0" astParent="0x1025370" astOperand1="0x1025160" astOperand2="0x10252c0"/>
+    <token id="0x10252c0" file="joystick_servo_control.cpp" linenr="79" str="request" scope="0x1048bf0" type="name" varId="19" astParent="0x1025210"/>
+    <token id="0x1025370" file="joystick_servo_control.cpp" linenr="79" str="." scope="0x1048bf0" astParent="0x10254d0" astOperand1="0x1025210" astOperand2="0x1025420"/>
+    <token id="0x1025420" file="joystick_servo_control.cpp" linenr="79" str="engage" scope="0x1048bf0" type="name" varId="21" astParent="0x1025370"/>
+    <token id="0x10254d0" file="joystick_servo_control.cpp" linenr="79" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x1025370" astOperand2="0x1025580"/>
+    <token id="0x1025580" file="joystick_servo_control.cpp" linenr="79" str="engage" scope="0x1048bf0" type="name" varId="14" variable="0x104cce0" values="0x1025588" astParent="0x10254d0"/>
+    <token id="0x1025630" file="joystick_servo_control.cpp" linenr="79" str=";" scope="0x1048bf0"/>
+    <token id="0x10256e0" file="joystick_servo_control.cpp" linenr="80" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1025790"/>
+    <token id="0x1025790" file="joystick_servo_control.cpp" linenr="80" str="." scope="0x1048bf0" astParent="0x10258f0" astOperand1="0x10256e0" astOperand2="0x1025840"/>
+    <token id="0x1025840" file="joystick_servo_control.cpp" linenr="80" str="request" scope="0x1048bf0" type="name" varId="19" astParent="0x1025790"/>
+    <token id="0x10258f0" file="joystick_servo_control.cpp" linenr="80" str="." scope="0x1048bf0" astParent="0x1025a50" astOperand1="0x1025790" astOperand2="0x10259a0"/>
+    <token id="0x10259a0" file="joystick_servo_control.cpp" linenr="80" str="position" scope="0x1048bf0" type="name" varId="22" astParent="0x10258f0"/>
+    <token id="0x1025a50" file="joystick_servo_control.cpp" linenr="80" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x10258f0" astOperand2="0x1025b00"/>
+    <token id="0x1025b00" file="joystick_servo_control.cpp" linenr="80" str="position" scope="0x1048bf0" type="name" varId="15" variable="0x104cd50" values="0x1025b08" astParent="0x1025a50"/>
+    <token id="0x1025bb0" file="joystick_servo_control.cpp" linenr="80" str=";" scope="0x1048bf0"/>
+    <token id="0x1025c60" file="joystick_servo_control.cpp" linenr="81" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1026cd0"/>
+    <token id="0x1026cd0" file="joystick_servo_control.cpp" linenr="81" str="." scope="0x1048bf0" astParent="0x1026e30" astOperand1="0x1025c60" astOperand2="0x1026d80"/>
+    <token id="0x1026d80" file="joystick_servo_control.cpp" linenr="81" str="request" scope="0x1048bf0" type="name" varId="19" astParent="0x1026cd0"/>
+    <token id="0x1026e30" file="joystick_servo_control.cpp" linenr="81" str="." scope="0x1048bf0" astParent="0x1026f90" astOperand1="0x1026cd0" astOperand2="0x1026ee0"/>
+    <token id="0x1026ee0" file="joystick_servo_control.cpp" linenr="81" str="speed" scope="0x1048bf0" type="name" varId="23" astParent="0x1026e30"/>
+    <token id="0x1026f90" file="joystick_servo_control.cpp" linenr="81" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x1026e30" astOperand2="0x1027040"/>
+    <token id="0x1027040" file="joystick_servo_control.cpp" linenr="81" str="speed" scope="0x1048bf0" type="name" varId="16" variable="0x104cdc0" astParent="0x1026f90"/>
+    <token id="0x10270f0" file="joystick_servo_control.cpp" linenr="81" str=";" scope="0x1048bf0"/>
+    <token id="0x10271a0" file="joystick_servo_control.cpp" linenr="82" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1027250"/>
+    <token id="0x1027250" file="joystick_servo_control.cpp" linenr="82" str="." scope="0x1048bf0" astParent="0x10273b0" astOperand1="0x10271a0" astOperand2="0x1027300"/>
+    <token id="0x1027300" file="joystick_servo_control.cpp" linenr="82" str="request" scope="0x1048bf0" type="name" varId="19" astParent="0x1027250"/>
+    <token id="0x10273b0" file="joystick_servo_control.cpp" linenr="82" str="." scope="0x1048bf0" astParent="0x1027510" astOperand1="0x1027250" astOperand2="0x1027460"/>
+    <token id="0x1027460" file="joystick_servo_control.cpp" linenr="82" str="acceleration" scope="0x1048bf0" type="name" varId="24" astParent="0x10273b0"/>
+    <token id="0x1027510" file="joystick_servo_control.cpp" linenr="82" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x10273b0" astOperand2="0x10275c0"/>
+    <token id="0x10275c0" file="joystick_servo_control.cpp" linenr="82" str="acceleration" scope="0x1048bf0" type="name" varId="17" variable="0x104ce30" astParent="0x1027510"/>
+    <token id="0x1027670" file="joystick_servo_control.cpp" linenr="82" str=";" scope="0x1048bf0"/>
+    <token id="0x1027720" file="joystick_servo_control.cpp" linenr="83" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x10277d0"/>
+    <token id="0x10277d0" file="joystick_servo_control.cpp" linenr="83" str="." scope="0x1048bf0" astParent="0x1027930" astOperand1="0x1027720" astOperand2="0x1027880"/>
+    <token id="0x1027880" file="joystick_servo_control.cpp" linenr="83" str="response" scope="0x1048bf0" type="name" varId="25" astParent="0x10277d0"/>
+    <token id="0x1027930" file="joystick_servo_control.cpp" linenr="83" str="." scope="0x1048bf0" astParent="0x1027a90" astOperand1="0x10277d0" astOperand2="0x10279e0"/>
+    <token id="0x10279e0" file="joystick_servo_control.cpp" linenr="83" str="ack" scope="0x1048bf0" type="name" varId="26" astParent="0x1027930"/>
+    <token id="0x1027a90" file="joystick_servo_control.cpp" linenr="83" str="=" scope="0x1048bf0" type="op" isAssignmentOp="True" astOperand1="0x1027930" astOperand2="0x1027b40"/>
+    <token id="0x1027b40" file="joystick_servo_control.cpp" linenr="83" str="0" scope="0x1048bf0" type="number" isInt="True" values="0x1027b48" astParent="0x1027a90"/>
+    <token id="0x1027bf0" file="joystick_servo_control.cpp" linenr="83" str=";" scope="0x1048bf0"/>
+    <token id="0x1027ca0" file="joystick_servo_control.cpp" linenr="84" str="if" scope="0x1048bf0" type="name" astParent="0x1027d50"/>
+    <token id="0x1027d50" file="joystick_servo_control.cpp" linenr="84" str="(" scope="0x1048bf0" link="0x1028220" astOperand1="0x1027ca0" astOperand2="0x1028010"/>
+    <token id="0x1027e00" file="joystick_servo_control.cpp" linenr="84" str="client_servo_reference" scope="0x1048bf0" type="name" varId="1" variable="0x104bf90" astParent="0x1027eb0"/>
+    <token id="0x1027eb0" file="joystick_servo_control.cpp" linenr="84" str="." scope="0x1048bf0" astParent="0x1028010" astOperand1="0x1027e00" astOperand2="0x1027f60"/>
+    <token id="0x1027f60" file="joystick_servo_control.cpp" linenr="84" str="call" scope="0x1048bf0" type="name" astParent="0x1027eb0"/>
+    <token id="0x1028010" file="joystick_servo_control.cpp" linenr="84" str="(" scope="0x1048bf0" link="0x1028170" astParent="0x1027d50" astOperand1="0x1027eb0" astOperand2="0x10280c0"/>
+    <token id="0x10280c0" file="joystick_servo_control.cpp" linenr="84" str="srv" scope="0x1048bf0" type="name" varId="18" variable="0x104c3b0" astParent="0x1028010"/>
+    <token id="0x1028170" file="joystick_servo_control.cpp" linenr="84" str=")" scope="0x1048bf0" link="0x1028010"/>
+    <token id="0x1028220" file="joystick_servo_control.cpp" linenr="84" str=")" scope="0x1048bf0" link="0x1027d50"/>
+    <token id="0x10282d0" file="joystick_servo_control.cpp" linenr="84" str="{" scope="0x104a630" link="0x102a010"/>
+    <token id="0x1028380" file="joystick_servo_control.cpp" linenr="85" str="if" scope="0x104a630" type="name" astParent="0x1028430"/>
+    <token id="0x1028430" file="joystick_servo_control.cpp" linenr="85" str="(" scope="0x104a630" link="0x1028bc0" astOperand1="0x1028380" astOperand2="0x1028a60"/>
+    <token id="0x10284e0" file="joystick_servo_control.cpp" linenr="85" str="(" scope="0x104a630" link="0x1028640" astParent="0x1028a60" astOperand1="0x1028900"/>
+    <token id="0x1028590" file="joystick_servo_control.cpp" linenr="85" str="int" scope="0x104a630" type="name"/>
+    <token id="0x1028640" file="joystick_servo_control.cpp" linenr="85" str=")" scope="0x104a630" link="0x10284e0"/>
+    <token id="0x10286f0" file="joystick_servo_control.cpp" linenr="85" str="srv" scope="0x104a630" type="name" varId="18" variable="0x104c3b0" astParent="0x10287a0"/>
+    <token id="0x10287a0" file="joystick_servo_control.cpp" linenr="85" str="." scope="0x104a630" astParent="0x1028900" astOperand1="0x10286f0" astOperand2="0x1028850"/>
+    <token id="0x1028850" file="joystick_servo_control.cpp" linenr="85" str="response" scope="0x104a630" type="name" varId="25" astParent="0x10287a0"/>
+    <token id="0x1028900" file="joystick_servo_control.cpp" linenr="85" str="." scope="0x104a630" astParent="0x10284e0" astOperand1="0x10287a0" astOperand2="0x10289b0"/>
+    <token id="0x10289b0" file="joystick_servo_control.cpp" linenr="85" str="ack" scope="0x104a630" type="name" varId="26" astParent="0x1028900"/>
+    <token id="0x1028a60" file="joystick_servo_control.cpp" linenr="85" str="==" scope="0x104a630" type="op" isComparisonOp="True" astParent="0x1028430" astOperand1="0x10284e0" astOperand2="0x1028b10"/>
+    <token id="0x1028b10" file="joystick_servo_control.cpp" linenr="85" str="1" scope="0x104a630" type="number" isInt="True" values="0x1028b18" astParent="0x1028a60"/>
+    <token id="0x1028bc0" file="joystick_servo_control.cpp" linenr="85" str=")" scope="0x104a630" link="0x1028430"/>
+    <token id="0x1028c70" file="joystick_servo_control.cpp" linenr="85" str="{" scope="0x104a760" link="0x10293b0"/>
+    <token id="0x1028d20" file="joystick_servo_control.cpp" linenr="86" str="ROS_INFO" scope="0x104a760" type="name" astParent="0x1028dd0"/>
+    <token id="0x1028dd0" file="joystick_servo_control.cpp" linenr="86" str="(" scope="0x104a760" link="0x1029250" astOperand1="0x1028d20" astOperand2="0x10290f0"/>
+    <token id="0x1028eb0" file="joystick_servo_control.cpp" linenr="86" str="&quot;Changed servo %d reference %.2f&quot;" scope="0x104a760" type="string" strlen="31" values="0x1028eb8" astParent="0x1028f90"/>
+    <token id="0x1028f90" file="joystick_servo_control.cpp" linenr="86" str="," scope="0x104a760" astParent="0x10290f0" astOperand1="0x1028eb0" astOperand2="0x1029040"/>
+    <token id="0x1029040" file="joystick_servo_control.cpp" linenr="87" str="index" scope="0x104a760" type="name" varId="13" variable="0x104cc70" astParent="0x1028f90"/>
+    <token id="0x10290f0" file="joystick_servo_control.cpp" linenr="87" str="," scope="0x104a760" astParent="0x1028dd0" astOperand1="0x1028f90" astOperand2="0x10291a0"/>
+    <token id="0x10291a0" file="joystick_servo_control.cpp" linenr="87" str="position" scope="0x104a760" type="name" varId="15" variable="0x104cd50" astParent="0x10290f0"/>
+    <token id="0x1029250" file="joystick_servo_control.cpp" linenr="87" str=")" scope="0x104a760" link="0x1028dd0"/>
+    <token id="0x1029300" file="joystick_servo_control.cpp" linenr="87" str=";" scope="0x104a760"/>
+    <token id="0x10293b0" file="joystick_servo_control.cpp" linenr="88" str="}" scope="0x104a760" link="0x1028c70"/>
+    <token id="0x1029460" file="joystick_servo_control.cpp" linenr="89" str="else" scope="0x104a630" type="name"/>
+    <token id="0x1029510" file="joystick_servo_control.cpp" linenr="89" str="{" scope="0x104a9c0" link="0x1029f60"/>
+    <token id="0x10295c0" file="joystick_servo_control.cpp" linenr="90" str="ROS_INFO" scope="0x104a9c0" type="name" astParent="0x1029670"/>
+    <token id="0x1029670" file="joystick_servo_control.cpp" linenr="90" str="(" scope="0x104a9c0" link="0x1029e00" astOperand1="0x10295c0" astOperand2="0x10297d0"/>
+    <token id="0x1029720" file="joystick_servo_control.cpp" linenr="90" str="&quot;Returned %d&quot;" scope="0x104a9c0" type="string" strlen="11" values="0x1029728" astParent="0x10297d0"/>
+    <token id="0x10297d0" file="joystick_servo_control.cpp" linenr="90" str="," scope="0x104a9c0" astParent="0x1029670" astOperand1="0x1029720" astOperand2="0x1029880"/>
+    <token id="0x1029880" file="joystick_servo_control.cpp" linenr="90" str="(" scope="0x104a9c0" link="0x10299e0" astParent="0x10297d0" astOperand1="0x1029ca0"/>
+    <token id="0x1029930" file="joystick_servo_control.cpp" linenr="90" str="int" scope="0x104a9c0" type="name"/>
+    <token id="0x10299e0" file="joystick_servo_control.cpp" linenr="90" str=")" scope="0x104a9c0" link="0x1029880"/>
+    <token id="0x1029a90" file="joystick_servo_control.cpp" linenr="90" str="srv" scope="0x104a9c0" type="name" varId="18" variable="0x104c3b0" astParent="0x1029b40"/>
+    <token id="0x1029b40" file="joystick_servo_control.cpp" linenr="90" str="." scope="0x104a9c0" astParent="0x1029ca0" astOperand1="0x1029a90" astOperand2="0x1029bf0"/>
+    <token id="0x1029bf0" file="joystick_servo_control.cpp" linenr="90" str="response" scope="0x104a9c0" type="name" varId="25" astParent="0x1029b40"/>
+    <token id="0x1029ca0" file="joystick_servo_control.cpp" linenr="90" str="." scope="0x104a9c0" astParent="0x1029880" astOperand1="0x1029b40" astOperand2="0x1029d50"/>
+    <token id="0x1029d50" file="joystick_servo_control.cpp" linenr="90" str="ack" scope="0x104a9c0" type="name" varId="26" astParent="0x1029ca0"/>
+    <token id="0x1029e00" file="joystick_servo_control.cpp" linenr="90" str=")" scope="0x104a9c0" link="0x1029670"/>
+    <token id="0x1029eb0" file="joystick_servo_control.cpp" linenr="90" str=";" scope="0x104a9c0"/>
+    <token id="0x1029f60" file="joystick_servo_control.cpp" linenr="91" str="}" scope="0x104a9c0" link="0x1029510"/>
+    <token id="0x102a010" file="joystick_servo_control.cpp" linenr="92" str="}" scope="0x104a630" link="0x10282d0"/>
+    <token id="0x102a0c0" file="joystick_servo_control.cpp" linenr="93" str="else" scope="0x1048bf0" type="name"/>
+    <token id="0x102a170" file="joystick_servo_control.cpp" linenr="93" str="{" scope="0x104ac20" link="0x102a5d0"/>
+    <token id="0x102a220" file="joystick_servo_control.cpp" linenr="94" str="ROS_ERROR" scope="0x104ac20" type="name" astParent="0x102a2d0"/>
+    <token id="0x102a2d0" file="joystick_servo_control.cpp" linenr="94" str="(" scope="0x104ac20" link="0x102a470" astOperand1="0x102a220" astOperand2="0x102a380"/>
+    <token id="0x102a380" file="joystick_servo_control.cpp" linenr="94" str="&quot;Failed to call service servo_reference&quot;" scope="0x104ac20" type="string" strlen="38" values="0x102a388" astParent="0x102a2d0"/>
+    <token id="0x102a470" file="joystick_servo_control.cpp" linenr="94" str=")" scope="0x104ac20" link="0x102a2d0"/>
+    <token id="0x102a520" file="joystick_servo_control.cpp" linenr="94" str=";" scope="0x104ac20"/>
+    <token id="0x102a5d0" file="joystick_servo_control.cpp" linenr="95" str="}" scope="0x104ac20" link="0x102a170"/>
+    <token id="0x102a680" file="joystick_servo_control.cpp" linenr="96" str="}" scope="0x1048bf0" link="0x10247c0"/>
+    <token id="0x102a730" file="joystick_servo_control.cpp" linenr="101" str="void" scope="0x1046ba0" type="name"/>
+    <token id="0x102a7e0" file="joystick_servo_control.cpp" linenr="101" str="joystickCallback" scope="0x1046ba0" type="name" function="0x104ad50" astParent="0x102a890"/>
+    <token id="0x102a890" file="joystick_servo_control.cpp" linenr="101" str="(" scope="0x1046ba0" link="0x102aec0" astOperand1="0x102a7e0" astOperand2="0x102ad60"/>
+    <token id="0x102a940" file="joystick_servo_control.cpp" linenr="101" str="const" scope="0x1046ba0" type="name"/>
+    <token id="0x102a9f0" file="joystick_servo_control.cpp" linenr="101" str="phidgets" scope="0x1046ba0" type="name" astParent="0x102aaa0"/>
+    <token id="0x102aaa0" file="joystick_servo_control.cpp" linenr="101" str="::" scope="0x1046ba0" astParent="0x102ac00" astOperand1="0x102a9f0" astOperand2="0x102ab50"/>
+    <token id="0x102ab50" file="joystick_servo_control.cpp" linenr="101" str="joystick_params" scope="0x1046ba0" type="name" astParent="0x102aaa0"/>
+    <token id="0x102ac00" file="joystick_servo_control.cpp" linenr="101" str="::" scope="0x1046ba0" astParent="0x102ad60" astOperand1="0x102aaa0" astOperand2="0x102acb0"/>
+    <token id="0x102acb0" file="joystick_servo_control.cpp" linenr="101" str="ConstPtr" scope="0x1046ba0" type="name" astParent="0x102ac00"/>
+    <token id="0x102ad60" file="joystick_servo_control.cpp" linenr="101" str="&amp;" scope="0x1046ba0" type="op" astParent="0x102a890" astOperand1="0x102ac00" astOperand2="0x102ae10"/>
+    <token id="0x102ae10" file="joystick_servo_control.cpp" linenr="101" str="ptr" scope="0x1046ba0" type="name" varId="27" variable="0x104cea0" astParent="0x102ad60"/>
+    <token id="0x102aec0" file="joystick_servo_control.cpp" linenr="101" str=")" scope="0x1046ba0" link="0x102a890"/>
+    <token id="0x102af70" file="joystick_servo_control.cpp" linenr="102" str="{" scope="0x104ae20" link="0x1033760"/>
+    <token id="0x102b020" file="joystick_servo_control.cpp" linenr="103" str="if" scope="0x104ae20" type="name" astParent="0x102b0d0"/>
+    <token id="0x102b0d0" file="joystick_servo_control.cpp" linenr="103" str="(" scope="0x104ae20" link="0x102b230" astOperand1="0x102b020" astOperand2="0x102b180"/>
+    <token id="0x102b180" file="joystick_servo_control.cpp" linenr="103" str="initialised" scope="0x104ae20" type="name" varId="8" variable="0x104c2a0" astParent="0x102b0d0"/>
+    <token id="0x102b230" file="joystick_servo_control.cpp" linenr="103" str=")" scope="0x104ae20" link="0x102b0d0"/>
+    <token id="0x102b2e0" file="joystick_servo_control.cpp" linenr="103" str="{" scope="0x104af50" link="0x10336b0"/>
+    <token id="0x102b390" file="joystick_servo_control.cpp" linenr="105" str="bool" scope="0x104af50" type="name"/>
+    <token id="0x102b440" file="joystick_servo_control.cpp" linenr="105" str="enable_servo_control" scope="0x104af50" type="name" varId="28" variable="0x104c420"/>
+    <token id="0x102b520" file="joystick_servo_control.cpp" linenr="105" str=";" scope="0x104af50"/>
+    <token id="0x1047790" file="joystick_servo_control.cpp" linenr="105" str="enable_servo_control" scope="0x104af50" type="name" varId="28" variable="0x104c420" astParent="0x1047840"/>
+    <token id="0x1047840" file="joystick_servo_control.cpp" linenr="105" str="=" scope="0x104af50" type="op" isAssignmentOp="True" astOperand1="0x1047790" astOperand2="0x102b5d0"/>
+    <token id="0x102b5d0" file="joystick_servo_control.cpp" linenr="105" str="false" scope="0x104af50" type="name" values="0x102b5d8" astParent="0x1047840"/>
+    <token id="0x102b680" file="joystick_servo_control.cpp" linenr="105" str=";" scope="0x104af50"/>
+    <token id="0x102b730" file="joystick_servo_control.cpp" linenr="106" str="ros" scope="0x104af50" type="name" astParent="0x102b7e0"/>
+    <token id="0x102b7e0" file="joystick_servo_control.cpp" linenr="106" str="::" scope="0x104af50" astOperand1="0x102b730" astOperand2="0x102b940"/>
+    <token id="0x102b890" file="joystick_servo_control.cpp" linenr="106" str="NodeHandle" scope="0x104af50" type="name"/>
+    <token id="0x102b940" file="joystick_servo_control.cpp" linenr="106" str="n" scope="0x104af50" type="name" varId="29" variable="0x104c490" astParent="0x102b7e0"/>
+    <token id="0x102b9f0" file="joystick_servo_control.cpp" linenr="106" str=";" scope="0x104af50"/>
+    <token id="0x102baa0" file="joystick_servo_control.cpp" linenr="107" str="n" scope="0x104af50" type="name" varId="29" variable="0x104c490" astParent="0x102bb50"/>
+    <token id="0x102bb50" file="joystick_servo_control.cpp" linenr="107" str="." scope="0x104af50" astParent="0x102bcb0" astOperand1="0x102baa0" astOperand2="0x102bc00"/>
+    <token id="0x102bc00" file="joystick_servo_control.cpp" linenr="107" str="getParam" scope="0x104af50" type="name" astParent="0x102bb50"/>
+    <token id="0x102bcb0" file="joystick_servo_control.cpp" linenr="107" str="(" scope="0x104af50" link="0x102bfd0" astOperand1="0x102bb50" astOperand2="0x102be70"/>
+    <token id="0x102bd90" file="joystick_servo_control.cpp" linenr="107" str="&quot;joystick/enable_servo_control&quot;" scope="0x104af50" type="string" strlen="29" values="0x102bd98" astParent="0x102be70"/>
+    <token id="0x102be70" file="joystick_servo_control.cpp" linenr="107" str="," scope="0x104af50" astParent="0x102bcb0" astOperand1="0x102bd90" astOperand2="0x102bf20"/>
+    <token id="0x102bf20" file="joystick_servo_control.cpp" linenr="108" str="enable_servo_control" scope="0x104af50" type="name" varId="28" variable="0x104c420" values="0x102bf28" astParent="0x102be70"/>
+    <token id="0x102bfd0" file="joystick_servo_control.cpp" linenr="108" str=")" scope="0x104af50" link="0x102bcb0"/>
+    <token id="0x102c080" file="joystick_servo_control.cpp" linenr="108" str=";" scope="0x104af50"/>
+    <token id="0x102c130" file="joystick_servo_control.cpp" linenr="109" str="if" scope="0x104af50" type="name" astParent="0x102c1e0"/>
+    <token id="0x102c1e0" file="joystick_servo_control.cpp" linenr="109" str="(" scope="0x104af50" link="0x102c370" astOperand1="0x102c130" astOperand2="0x102c290"/>
+    <token id="0x102c290" file="joystick_servo_control.cpp" linenr="109" str="enable_servo_control" scope="0x104af50" type="name" varId="28" variable="0x104c420" astParent="0x102c1e0"/>
+    <token id="0x102c370" file="joystick_servo_control.cpp" linenr="109" str=")" scope="0x104af50" link="0x102c1e0"/>
+    <token id="0x102c420" file="joystick_servo_control.cpp" linenr="109" str="{" scope="0x104b080" link="0x1033600"/>
+    <token id="0x102c4d0" file="joystick_servo_control.cpp" linenr="111" str="phidgets" scope="0x104b080" type="name" astParent="0x102c580"/>
+    <token id="0x102c580" file="joystick_servo_control.cpp" linenr="111" str="::" scope="0x104b080" astOperand1="0x102c4d0" astOperand2="0x102c6e0"/>
+    <token id="0x102c630" file="joystick_servo_control.cpp" linenr="111" str="joystick_params" scope="0x104b080" type="name"/>
+    <token id="0x102c6e0" file="joystick_servo_control.cpp" linenr="111" str="joy" scope="0x104b080" type="name" varId="30" variable="0x104c500" astParent="0x102c580"/>
+    <token id="0x102c790" file="joystick_servo_control.cpp" linenr="111" str=";" scope="0x104b080"/>
+    <token id="0x10478f0" file="joystick_servo_control.cpp" linenr="111" str="joy" scope="0x104b080" type="name" varId="30" variable="0x104c500" astParent="0x10479a0"/>
+    <token id="0x10479a0" file="joystick_servo_control.cpp" linenr="111" str="=" scope="0x104b080" type="op" isAssignmentOp="True" astOperand1="0x10478f0" astOperand2="0x102c840"/>
+    <token id="0x102c840" file="joystick_servo_control.cpp" linenr="111" str="*" scope="0x104b080" type="op" isArithmeticalOp="True" astParent="0x10479a0" astOperand1="0x102c8f0"/>
+    <token id="0x102c8f0" file="joystick_servo_control.cpp" linenr="111" str="ptr" scope="0x104b080" type="name" varId="27" variable="0x104cea0" astParent="0x102c840"/>
+    <token id="0x102c9a0" file="joystick_servo_control.cpp" linenr="111" str=";" scope="0x104b080"/>
+    <token id="0x102ca50" file="joystick_servo_control.cpp" linenr="112" str="float" scope="0x104b080" type="name"/>
+    <token id="0x102cb00" file="joystick_servo_control.cpp" linenr="112" str="rotate" scope="0x104b080" type="name" varId="31" variable="0x104c570"/>
+    <token id="0x102cbb0" file="joystick_servo_control.cpp" linenr="112" str=";" scope="0x104b080"/>
+    <token id="0x1047a50" file="joystick_servo_control.cpp" linenr="112" str="rotate" scope="0x104b080" type="name" varId="31" variable="0x104c570" astParent="0x1047b00"/>
+    <token id="0x1047b00" file="joystick_servo_control.cpp" linenr="112" str="=" scope="0x104b080" type="op" isAssignmentOp="True" astOperand1="0x1047a50" astOperand2="0x102ce70"/>
+    <token id="0x102cc60" file="joystick_servo_control.cpp" linenr="112" str="joy" scope="0x104b080" type="name" varId="30" variable="0x104c500" astParent="0x102cd10"/>
+    <token id="0x102cd10" file="joystick_servo_control.cpp" linenr="112" str="." scope="0x104b080" astParent="0x102ce70" astOperand1="0x102cc60" astOperand2="0x102cdc0"/>
+    <token id="0x102cdc0" file="joystick_servo_control.cpp" linenr="112" str="axes" scope="0x104b080" type="name" varId="32" astParent="0x102cd10"/>
+    <token id="0x102ce70" file="joystick_servo_control.cpp" linenr="112" str="[" scope="0x104b080" link="0x102cfd0" astParent="0x1047b00" astOperand1="0x102cd10" astOperand2="0x102cf20"/>
+    <token id="0x102cf20" file="joystick_servo_control.cpp" linenr="112" str="0" scope="0x104b080" type="number" isInt="True" values="0x102cf28" astParent="0x102ce70"/>
+    <token id="0x102cfd0" file="joystick_servo_control.cpp" linenr="112" str="]" scope="0x104b080" link="0x102ce70"/>
+    <token id="0x102d080" file="joystick_servo_control.cpp" linenr="112" str=";" scope="0x104b080"/>
+    <token id="0x102d130" file="joystick_servo_control.cpp" linenr="113" str="float" scope="0x104b080" type="name"/>
+    <token id="0x102d1e0" file="joystick_servo_control.cpp" linenr="113" str="forward" scope="0x104b080" type="name" varId="33" variable="0x104c5e0"/>
+    <token id="0x102d290" file="joystick_servo_control.cpp" linenr="113" str=";" scope="0x104b080"/>
+    <token id="0x1047bb0" file="joystick_servo_control.cpp" linenr="113" str="forward" scope="0x104b080" type="name" varId="33" variable="0x104c5e0" astParent="0x1047c60"/>
+    <token id="0x1047c60" file="joystick_servo_control.cpp" linenr="113" str="=" scope="0x104b080" type="op" isAssignmentOp="True" astOperand1="0x1047bb0" astOperand2="0x102d550"/>
+    <token id="0x102d340" file="joystick_servo_control.cpp" linenr="113" str="joy" scope="0x104b080" type="name" varId="30" variable="0x104c500" astParent="0x102d3f0"/>
+    <token id="0x102d3f0" file="joystick_servo_control.cpp" linenr="113" str="." scope="0x104b080" astParent="0x102d550" astOperand1="0x102d340" astOperand2="0x102d4a0"/>
+    <token id="0x102d4a0" file="joystick_servo_control.cpp" linenr="113" str="axes" scope="0x104b080" type="name" varId="32" astParent="0x102d3f0"/>
+    <token id="0x102d550" file="joystick_servo_control.cpp" linenr="113" str="[" scope="0x104b080" link="0x102d6b0" astParent="0x1047c60" astOperand1="0x102d3f0" astOperand2="0x102d600"/>
+    <token id="0x102d600" file="joystick_servo_control.cpp" linenr="113" str="1" scope="0x104b080" type="number" isInt="True" values="0x102d608" astParent="0x102d550"/>
+    <token id="0x102d6b0" file="joystick_servo_control.cpp" linenr="113" str="]" scope="0x104b080" link="0x102d550"/>
+    <token id="0x102d760" file="joystick_servo_control.cpp" linenr="113" str=";" scope="0x104b080"/>
+    <token id="0x102d810" file="joystick_servo_control.cpp" linenr="114" str="bool" scope="0x104b080" type="name"/>
+    <token id="0x102d8c0" file="joystick_servo_control.cpp" linenr="114" str="button_press" scope="0x104b080" type="name" varId="34" variable="0x104c650"/>
+    <token id="0x102d970" file="joystick_servo_control.cpp" linenr="114" str=";" scope="0x104b080"/>
+    <token id="0x1047d10" file="joystick_servo_control.cpp" linenr="114" str="button_press" scope="0x104b080" type="name" varId="34" variable="0x104c650" astParent="0x1047dc0"/>
+    <token id="0x1047dc0" file="joystick_servo_control.cpp" linenr="114" str="=" scope="0x104b080" type="op" isAssignmentOp="True" astOperand1="0x1047d10" astOperand2="0x102da20"/>
+    <token id="0x102da20" file="joystick_servo_control.cpp" linenr="114" str="false" scope="0x104b080" type="name" values="0x102da28" astParent="0x1047dc0"/>
+    <token id="0x102dad0" file="joystick_servo_control.cpp" linenr="114" str=";" scope="0x104b080"/>
+    <token id="0x102db80" file="joystick_servo_control.cpp" linenr="115" str="if" scope="0x104b080" type="name" astParent="0x102dc30"/>
+    <token id="0x102dc30" file="joystick_servo_control.cpp" linenr="115" str="(" scope="0x104b080" link="0x102e310" astOperand1="0x102db80" astOperand2="0x102e100"/>
+    <token id="0x102dce0" file="joystick_servo_control.cpp" linenr="115" str="joy" scope="0x104b080" type="name" varId="30" variable="0x104c500" astParent="0x102dd90"/>
+    <token id="0x102dd90" file="joystick_servo_control.cpp" linenr="115" str="." scope="0x104b080" astParent="0x102def0" astOperand1="0x102dce0" astOperand2="0x102de40"/>
+    <token id="0x102de40" file="joystick_servo_control.cpp" linenr="115" str="buttons" scope="0x104b080" type="name" varId="35" astParent="0x102dd90"/>
+    <token id="0x102def0" file="joystick_servo_control.cpp" linenr="115" str="[" scope="0x104b080" link="0x102e050" astParent="0x102e100" astOperand1="0x102dd90" astOperand2="0x102dfa0"/>
+    <token id="0x102dfa0" file="joystick_servo_control.cpp" linenr="115" str="0" scope="0x104b080" type="number" isInt="True" values="0x102dfa8" astParent="0x102def0"/>
+    <token id="0x102e050" file="joystick_servo_control.cpp" linenr="115" str="]" scope="0x104b080" link="0x102def0"/>
+    <token id="0x102e100" file="joystick_servo_control.cpp" linenr="115" str="!=" scope="0x104b080" type="op" isComparisonOp="True" astParent="0x102dc30" astOperand1="0x102def0" astOperand2="0x102e260"/>
+    <token id="0x102e260" file="joystick_servo_control.cpp" linenr="115" str="0" scope="0x104b080" type="number" isInt="True" values="0x102e268" astParent="0x102e100"/>
+    <token id="0x102e310" file="joystick_servo_control.cpp" linenr="115" str=")" scope="0x104b080" link="0x102dc30"/>
+    <token id="0x102e1b0" file="joystick_servo_control.cpp" linenr="115" str="{" scope="0x104b1b0" link="0x103c580"/>
+    <token id="0x102e3c0" file="joystick_servo_control.cpp" linenr="115" str="button_press" scope="0x104b1b0" type="name" varId="34" variable="0x104c650" astParent="0x102e470"/>
+    <token id="0x102e470" file="joystick_servo_control.cpp" linenr="115" str="=" scope="0x104b1b0" type="op" isAssignmentOp="True" astOperand1="0x102e3c0" astOperand2="0x102e520"/>
+    <token id="0x102e520" file="joystick_servo_control.cpp" linenr="115" str="true" scope="0x104b1b0" type="name" values="0x102e528" astParent="0x102e470"/>
+    <token id="0x102e5d0" file="joystick_servo_control.cpp" linenr="115" str=";" scope="0x104b1b0"/>
+    <token id="0x103c580" file="joystick_servo_control.cpp" linenr="115" str="}" scope="0x104b1b0" link="0x102e1b0"/>
+    <token id="0x102e680" file="joystick_servo_control.cpp" linenr="117" str="ROS_INFO" scope="0x104b080" type="name" astParent="0x102e730"/>
+    <token id="0x102e730" file="joystick_servo_control.cpp" linenr="117" str="(" scope="0x104b080" link="0x102ebb0" astOperand1="0x102e680" astOperand2="0x102ea50"/>
+    <token id="0x102e810" file="joystick_servo_control.cpp" linenr="117" str="&quot;Joystick %f %f&quot;" scope="0x104b080" type="string" strlen="14" values="0x102e818" astParent="0x102e8f0"/>
+    <token id="0x102e8f0" file="joystick_servo_control.cpp" linenr="117" str="," scope="0x104b080" astParent="0x102ea50" astOperand1="0x102e810" astOperand2="0x102e9a0"/>
+    <token id="0x102e9a0" file="joystick_servo_control.cpp" linenr="117" str="rotate" scope="0x104b080" type="name" varId="31" variable="0x104c570" astParent="0x102e8f0"/>
+    <token id="0x102ea50" file="joystick_servo_control.cpp" linenr="117" str="," scope="0x104b080" astParent="0x102e730" astOperand1="0x102e8f0" astOperand2="0x102eb00"/>
+    <token id="0x102eb00" file="joystick_servo_control.cpp" linenr="117" str="forward" scope="0x104b080" type="name" varId="33" variable="0x104c5e0" astParent="0x102ea50"/>
+    <token id="0x102ebb0" file="joystick_servo_control.cpp" linenr="117" str=")" scope="0x104b080" link="0x102e730"/>
+    <token id="0x102ec60" file="joystick_servo_control.cpp" linenr="117" str=";" scope="0x104b080"/>
+    <token id="0x102ed10" file="joystick_servo_control.cpp" linenr="118" str="ROS_INFO" scope="0x104b080" type="name" astParent="0x102edc0"/>
+    <token id="0x102edc0" file="joystick_servo_control.cpp" linenr="118" str="(" scope="0x104b080" link="0x102f080" astOperand1="0x102ed10" astOperand2="0x102ef20"/>
+    <token id="0x102ee70" file="joystick_servo_control.cpp" linenr="118" str="&quot;Deadband %f&quot;" scope="0x104b080" type="string" strlen="11" values="0x102ee78" astParent="0x102ef20"/>
+    <token id="0x102ef20" file="joystick_servo_control.cpp" linenr="118" str="," scope="0x104b080" astParent="0x102edc0" astOperand1="0x102ee70" astOperand2="0x102efd0"/>
+    <token id="0x102efd0" file="joystick_servo_control.cpp" linenr="118" str="deadband" scope="0x104b080" type="name" varId="5" variable="0x104c150" astParent="0x102ef20"/>
+    <token id="0x102f080" file="joystick_servo_control.cpp" linenr="118" str=")" scope="0x104b080" link="0x102edc0"/>
+    <token id="0x102f130" file="joystick_servo_control.cpp" linenr="118" str=";" scope="0x104b080"/>
+    <token id="0x102f1e0" file="joystick_servo_control.cpp" linenr="119" str="ROS_INFO" scope="0x104b080" type="name" astParent="0x102f290"/>
+    <token id="0x102f290" file="joystick_servo_control.cpp" linenr="119" str="(" scope="0x104b080" link="0x102f6e0" astOperand1="0x102f1e0" astOperand2="0x102f580"/>
+    <token id="0x102f340" file="joystick_servo_control.cpp" linenr="119" str="&quot;Speed %f  Accel %f&quot;" scope="0x104b080" type="string" strlen="18" values="0x102f348" astParent="0x102f420"/>
+    <token id="0x102f420" file="joystick_servo_control.cpp" linenr="119" str="," scope="0x104b080" astParent="0x102f580" astOperand1="0x102f340" astOperand2="0x102f4d0"/>
+    <token id="0x102f4d0" file="joystick_servo_control.cpp" linenr="119" str="speed" scope="0x104b080" type="name" varId="3" variable="0x104c070" astParent="0x102f420"/>
+    <token id="0x102f580" file="joystick_servo_control.cpp" linenr="119" str="," scope="0x104b080" astParent="0x102f290" astOperand1="0x102f420" astOperand2="0x102f630"/>
+    <token id="0x102f630" file="joystick_servo_control.cpp" linenr="119" str="acceleration" scope="0x104b080" type="name" varId="4" variable="0x104c0e0" astParent="0x102f580"/>
+    <token id="0x102f6e0" file="joystick_servo_control.cpp" linenr="119" str=")" scope="0x104b080" link="0x102f290"/>
+    <token id="0x102f790" file="joystick_servo_control.cpp" linenr="119" str=";" scope="0x104b080"/>
+    <token id="0x102f840" file="joystick_servo_control.cpp" linenr="121" str="if" scope="0x104b080" type="name" astParent="0x102f8f0"/>
+    <token id="0x102f8f0" file="joystick_servo_control.cpp" linenr="121" str="(" scope="0x104b080" link="0x1030550" astOperand1="0x102f840" astOperand2="0x102ff20"/>
+    <token id="0x102f9a0" file="joystick_servo_control.cpp" linenr="121" str="(" scope="0x104b080" link="0x102fe70"/>
+    <token id="0x102fa50" file="joystick_servo_control.cpp" linenr="121" str="fabs" scope="0x104b080" type="name" astParent="0x102fb00"/>
+    <token id="0x102fb00" file="joystick_servo_control.cpp" linenr="121" str="(" scope="0x104b080" link="0x102fc60" astParent="0x102fd10" astOperand1="0x102fa50" astOperand2="0x102fbb0"/>
+    <token id="0x102fbb0" file="joystick_servo_control.cpp" linenr="121" str="rotate" scope="0x104b080" type="name" varId="31" variable="0x104c570" astParent="0x102fb00"/>
+    <token id="0x102fc60" file="joystick_servo_control.cpp" linenr="121" str=")" scope="0x104b080" link="0x102fb00"/>
+    <token id="0x102fd10" file="joystick_servo_control.cpp" linenr="121" str="&gt;" scope="0x104b080" type="op" isComparisonOp="True" astParent="0x102ff20" astOperand1="0x102fb00" astOperand2="0x102fdc0"/>
+    <token id="0x102fdc0" file="joystick_servo_control.cpp" linenr="121" str="deadband" scope="0x104b080" type="name" varId="5" variable="0x104c150" astParent="0x102fd10"/>
+    <token id="0x102fe70" file="joystick_servo_control.cpp" linenr="121" str=")" scope="0x104b080" link="0x102f9a0"/>
+    <token id="0x102ff20" file="joystick_servo_control.cpp" linenr="121" str="||" scope="0x104b080" type="op" isLogicalOp="True" astParent="0x102f8f0" astOperand1="0x102fd10" astOperand2="0x1030340"/>
+    <token id="0x102ffd0" file="joystick_servo_control.cpp" linenr="122" str="(" scope="0x104b080" link="0x10304a0"/>
+    <token id="0x1030080" file="joystick_servo_control.cpp" linenr="122" str="fabs" scope="0x104b080" type="name" astParent="0x1030130"/>
+    <token id="0x1030130" file="joystick_servo_control.cpp" linenr="122" str="(" scope="0x104b080" link="0x1030290" astParent="0x1030340" astOperand1="0x1030080" astOperand2="0x10301e0"/>
+    <token id="0x10301e0" file="joystick_servo_control.cpp" linenr="122" str="forward" scope="0x104b080" type="name" varId="33" variable="0x104c5e0" astParent="0x1030130"/>
+    <token id="0x1030290" file="joystick_servo_control.cpp" linenr="122" str=")" scope="0x104b080" link="0x1030130"/>
+    <token id="0x1030340" file="joystick_servo_control.cpp" linenr="122" str="&gt;" scope="0x104b080" type="op" isComparisonOp="True" astParent="0x102ff20" astOperand1="0x1030130" astOperand2="0x10303f0"/>
+    <token id="0x10303f0" file="joystick_servo_control.cpp" linenr="122" str="deadband" scope="0x104b080" type="name" varId="5" variable="0x104c150" astParent="0x1030340"/>
+    <token id="0x10304a0" file="joystick_servo_control.cpp" linenr="122" str=")" scope="0x104b080" link="0x102ffd0"/>
+    <token id="0x1030550" file="joystick_servo_control.cpp" linenr="122" str=")" scope="0x104b080" link="0x102f8f0"/>
+    <token id="0x1030600" file="joystick_servo_control.cpp" linenr="122" str="{" scope="0x104b2e0" link="0x1032100"/>
+    <token id="0x10306b0" file="joystick_servo_control.cpp" linenr="124" str="set_servo_reference" scope="0x104b2e0" type="name" function="0x1048b50" astParent="0x1030760"/>
+    <token id="0x1030760" file="joystick_servo_control.cpp" linenr="124" str="(" scope="0x104b2e0" link="0x1031260" astOperand1="0x10306b0" astOperand2="0x1031100"/>
+    <token id="0x1030810" file="joystick_servo_control.cpp" linenr="124" str="servo_index0" scope="0x104b2e0" type="name" varId="6" variable="0x104c1c0" astParent="0x10308c0"/>
+    <token id="0x10308c0" file="joystick_servo_control.cpp" linenr="124" str="," scope="0x104b2e0" astParent="0x1030a20" astOperand1="0x1030810" astOperand2="0x1030970"/>
+    <token id="0x1030970" file="joystick_servo_control.cpp" linenr="124" str="true" scope="0x104b2e0" type="name" values="0x1030978" astParent="0x10308c0"/>
+    <token id="0x1030a20" file="joystick_servo_control.cpp" linenr="124" str="," scope="0x104b2e0" astParent="0x1030fa0" astOperand1="0x10308c0" astOperand2="0x1030b80"/>
+    <token id="0x1030ad0" file="joystick_servo_control.cpp" linenr="125" str="127" scope="0x104b2e0" type="number" isInt="True" values="0x1030ad8" astParent="0x1030b80"/>
+    <token id="0x1030b80" file="joystick_servo_control.cpp" linenr="125" str="+" scope="0x104b2e0" type="op" isArithmeticalOp="True" astParent="0x1030a20" astOperand1="0x1030ad0" astOperand2="0x1030d90"/>
+    <token id="0x1030c30" file="joystick_servo_control.cpp" linenr="125" str="(" scope="0x104b2e0" link="0x1030ef0"/>
+    <token id="0x1030ce0" file="joystick_servo_control.cpp" linenr="125" str="rotate" scope="0x104b2e0" type="name" varId="31" variable="0x104c570" astParent="0x1030d90"/>
+    <token id="0x1030d90" file="joystick_servo_control.cpp" linenr="125" str="*" scope="0x104b2e0" type="op" isArithmeticalOp="True" astParent="0x1030b80" astOperand1="0x1030ce0" astOperand2="0x1030e40"/>
+    <token id="0x1030e40" file="joystick_servo_control.cpp" linenr="125" str="127" scope="0x104b2e0" type="number" isInt="True" values="0x1030e48" astParent="0x1030d90"/>
+    <token id="0x1030ef0" file="joystick_servo_control.cpp" linenr="125" str=")" scope="0x104b2e0" link="0x1030c30"/>
+    <token id="0x1030fa0" file="joystick_servo_control.cpp" linenr="125" str="," scope="0x104b2e0" astParent="0x1031100" astOperand1="0x1030a20" astOperand2="0x1031050"/>
+    <token id="0x1031050" file="joystick_servo_control.cpp" linenr="126" str="speed" scope="0x104b2e0" type="name" varId="3" variable="0x104c070" astParent="0x1030fa0"/>
+    <token id="0x1031100" file="joystick_servo_control.cpp" linenr="126" str="," scope="0x104b2e0" astParent="0x1030760" astOperand1="0x1030fa0" astOperand2="0x10311b0"/>
+    <token id="0x10311b0" file="joystick_servo_control.cpp" linenr="126" str="acceleration" scope="0x104b2e0" type="name" varId="4" variable="0x104c0e0" astParent="0x1031100"/>
+    <token id="0x1031260" file="joystick_servo_control.cpp" linenr="126" str=")" scope="0x104b2e0" link="0x1030760"/>
+    <token id="0x1031310" file="joystick_servo_control.cpp" linenr="126" str=";" scope="0x104b2e0"/>
+    <token id="0x10313c0" file="joystick_servo_control.cpp" linenr="127" str="set_servo_reference" scope="0x104b2e0" type="name" function="0x1048b50" astParent="0x10314a0"/>
+    <token id="0x10314a0" file="joystick_servo_control.cpp" linenr="127" str="(" scope="0x104b2e0" link="0x1031fa0" astOperand1="0x10313c0" astOperand2="0x1031e40"/>
+    <token id="0x1031550" file="joystick_servo_control.cpp" linenr="127" str="servo_index1" scope="0x104b2e0" type="name" varId="7" variable="0x104c230" astParent="0x1031600"/>
+    <token id="0x1031600" file="joystick_servo_control.cpp" linenr="127" str="," scope="0x104b2e0" astParent="0x1031760" astOperand1="0x1031550" astOperand2="0x10316b0"/>
+    <token id="0x10316b0" file="joystick_servo_control.cpp" linenr="127" str="true" scope="0x104b2e0" type="name" values="0x10316b8" astParent="0x1031600"/>
+    <token id="0x1031760" file="joystick_servo_control.cpp" linenr="127" str="," scope="0x104b2e0" astParent="0x1031ce0" astOperand1="0x1031600" astOperand2="0x10318c0"/>
+    <token id="0x1031810" file="joystick_servo_control.cpp" linenr="128" str="127" scope="0x104b2e0" type="number" isInt="True" values="0x1031818" astParent="0x10318c0"/>
+    <token id="0x10318c0" file="joystick_servo_control.cpp" linenr="128" str="+" scope="0x104b2e0" type="op" isArithmeticalOp="True" astParent="0x1031760" astOperand1="0x1031810" astOperand2="0x1031ad0"/>
+    <token id="0x1031970" file="joystick_servo_control.cpp" linenr="128" str="(" scope="0x104b2e0" link="0x1031c30"/>
+    <token id="0x1031a20" file="joystick_servo_control.cpp" linenr="128" str="forward" scope="0x104b2e0" type="name" varId="33" variable="0x104c5e0" astParent="0x1031ad0"/>
+    <token id="0x1031ad0" file="joystick_servo_control.cpp" linenr="128" str="*" scope="0x104b2e0" type="op" isArithmeticalOp="True" astParent="0x10318c0" astOperand1="0x1031a20" astOperand2="0x1031b80"/>
+    <token id="0x1031b80" file="joystick_servo_control.cpp" linenr="128" str="127" scope="0x104b2e0" type="number" isInt="True" values="0x1031b88" astParent="0x1031ad0"/>
+    <token id="0x1031c30" file="joystick_servo_control.cpp" linenr="128" str=")" scope="0x104b2e0" link="0x1031970"/>
+    <token id="0x1031ce0" file="joystick_servo_control.cpp" linenr="128" str="," scope="0x104b2e0" astParent="0x1031e40" astOperand1="0x1031760" astOperand2="0x1031d90"/>
+    <token id="0x1031d90" file="joystick_servo_control.cpp" linenr="129" str="speed" scope="0x104b2e0" type="name" varId="3" variable="0x104c070" astParent="0x1031ce0"/>
+    <token id="0x1031e40" file="joystick_servo_control.cpp" linenr="129" str="," scope="0x104b2e0" astParent="0x10314a0" astOperand1="0x1031ce0" astOperand2="0x1031ef0"/>
+    <token id="0x1031ef0" file="joystick_servo_control.cpp" linenr="129" str="acceleration" scope="0x104b2e0" type="name" varId="4" variable="0x104c0e0" astParent="0x1031e40"/>
+    <token id="0x1031fa0" file="joystick_servo_control.cpp" linenr="129" str=")" scope="0x104b2e0" link="0x10314a0"/>
+    <token id="0x1032050" file="joystick_servo_control.cpp" linenr="129" str=";" scope="0x104b2e0"/>
+    <token id="0x1032100" file="joystick_servo_control.cpp" linenr="131" str="}" scope="0x104b2e0" link="0x1030600"/>
+    <token id="0x10321b0" file="joystick_servo_control.cpp" linenr="132" str="else" scope="0x104b080" type="name"/>
+    <token id="0x1032260" file="joystick_servo_control.cpp" linenr="132" str="{" scope="0x104b540" link="0x1033550"/>
+    <token id="0x1032310" file="joystick_servo_control.cpp" linenr="134" str="set_servo_reference" scope="0x104b540" type="name" function="0x1048b50" astParent="0x10323f0"/>
+    <token id="0x10323f0" file="joystick_servo_control.cpp" linenr="134" str="(" scope="0x104b540" link="0x1032ad0" astOperand1="0x1032310" astOperand2="0x1032970"/>
+    <token id="0x10324a0" file="joystick_servo_control.cpp" linenr="134" str="servo_index0" scope="0x104b540" type="name" varId="6" variable="0x104c1c0" astParent="0x1032550"/>
+    <token id="0x1032550" file="joystick_servo_control.cpp" linenr="134" str="," scope="0x104b540" astParent="0x10326b0" astOperand1="0x10324a0" astOperand2="0x1032600"/>
+    <token id="0x1032600" file="joystick_servo_control.cpp" linenr="134" str="true" scope="0x104b540" type="name" values="0x1032608" astParent="0x1032550"/>
+    <token id="0x10326b0" file="joystick_servo_control.cpp" linenr="134" str="," scope="0x104b540" astParent="0x1032810" astOperand1="0x1032550" astOperand2="0x1032760"/>
+    <token id="0x1032760" file="joystick_servo_control.cpp" linenr="134" str="127" scope="0x104b540" type="number" isInt="True" values="0x1032768" astParent="0x10326b0"/>
+    <token id="0x1032810" file="joystick_servo_control.cpp" linenr="134" str="," scope="0x104b540" astParent="0x1032970" astOperand1="0x10326b0" astOperand2="0x10328c0"/>
+    <token id="0x10328c0" file="joystick_servo_control.cpp" linenr="135" str="speed" scope="0x104b540" type="name" varId="3" variable="0x104c070" astParent="0x1032810"/>
+    <token id="0x1032970" file="joystick_servo_control.cpp" linenr="135" str="," scope="0x104b540" astParent="0x10323f0" astOperand1="0x1032810" astOperand2="0x1032a20"/>
+    <token id="0x1032a20" file="joystick_servo_control.cpp" linenr="135" str="acceleration" scope="0x104b540" type="name" varId="4" variable="0x104c0e0" astParent="0x1032970"/>
+    <token id="0x1032ad0" file="joystick_servo_control.cpp" linenr="135" str=")" scope="0x104b540" link="0x10323f0"/>
+    <token id="0x1032b80" file="joystick_servo_control.cpp" linenr="135" str=";" scope="0x104b540"/>
+    <token id="0x1032c30" file="joystick_servo_control.cpp" linenr="136" str="set_servo_reference" scope="0x104b540" type="name" function="0x1048b50" astParent="0x1032d10"/>
+    <token id="0x1032d10" file="joystick_servo_control.cpp" linenr="136" str="(" scope="0x104b540" link="0x10333f0" astOperand1="0x1032c30" astOperand2="0x1033290"/>
+    <token id="0x1032dc0" file="joystick_servo_control.cpp" linenr="136" str="servo_index1" scope="0x104b540" type="name" varId="7" variable="0x104c230" astParent="0x1032e70"/>
+    <token id="0x1032e70" file="joystick_servo_control.cpp" linenr="136" str="," scope="0x104b540" astParent="0x1032fd0" astOperand1="0x1032dc0" astOperand2="0x1032f20"/>
+    <token id="0x1032f20" file="joystick_servo_control.cpp" linenr="136" str="true" scope="0x104b540" type="name" values="0x1032f28" astParent="0x1032e70"/>
+    <token id="0x1032fd0" file="joystick_servo_control.cpp" linenr="136" str="," scope="0x104b540" astParent="0x1033130" astOperand1="0x1032e70" astOperand2="0x1033080"/>
+    <token id="0x1033080" file="joystick_servo_control.cpp" linenr="136" str="127" scope="0x104b540" type="number" isInt="True" values="0x1033088" astParent="0x1032fd0"/>
+    <token id="0x1033130" file="joystick_servo_control.cpp" linenr="136" str="," scope="0x104b540" astParent="0x1033290" astOperand1="0x1032fd0" astOperand2="0x10331e0"/>
+    <token id="0x10331e0" file="joystick_servo_control.cpp" linenr="137" str="speed" scope="0x104b540" type="name" varId="3" variable="0x104c070" astParent="0x1033130"/>
+    <token id="0x1033290" file="joystick_servo_control.cpp" linenr="137" str="," scope="0x104b540" astParent="0x1032d10" astOperand1="0x1033130" astOperand2="0x1033340"/>
+    <token id="0x1033340" file="joystick_servo_control.cpp" linenr="137" str="acceleration" scope="0x104b540" type="name" varId="4" variable="0x104c0e0" astParent="0x1033290"/>
+    <token id="0x10333f0" file="joystick_servo_control.cpp" linenr="137" str=")" scope="0x104b540" link="0x1032d10"/>
+    <token id="0x10334a0" file="joystick_servo_control.cpp" linenr="137" str=";" scope="0x104b540"/>
+    <token id="0x1033550" file="joystick_servo_control.cpp" linenr="138" str="}" scope="0x104b540" link="0x1032260"/>
+    <token id="0x1033600" file="joystick_servo_control.cpp" linenr="139" str="}" scope="0x104b080" link="0x102c420"/>
+    <token id="0x10336b0" file="joystick_servo_control.cpp" linenr="140" str="}" scope="0x104af50" link="0x102b2e0"/>
+    <token id="0x1033760" file="joystick_servo_control.cpp" linenr="141" str="}" scope="0x104ae20" link="0x102af70"/>
+    <token id="0x1033810" file="joystick_servo_control.cpp" linenr="143" str="int" scope="0x1046ba0" type="name"/>
+    <token id="0x10338c0" file="joystick_servo_control.cpp" linenr="143" str="main" scope="0x1046ba0" type="name" function="0x104b670" astParent="0x1033970"/>
+    <token id="0x1033970" file="joystick_servo_control.cpp" linenr="143" str="(" scope="0x1046ba0" link="0x1033ef0" astOperand1="0x10338c0" astOperand2="0x1033b80"/>
+    <token id="0x1033a20" file="joystick_servo_control.cpp" linenr="143" str="int" scope="0x1046ba0" type="name"/>
+    <token id="0x1033ad0" file="joystick_servo_control.cpp" linenr="143" str="argc" scope="0x1046ba0" type="name" varId="36" variable="0x104cf10" astParent="0x1033b80"/>
+    <token id="0x1033b80" file="joystick_servo_control.cpp" linenr="143" str="," scope="0x1046ba0" astParent="0x1033970" astOperand1="0x1033ad0" astOperand2="0x1033ce0"/>
+    <token id="0x1033c30" file="joystick_servo_control.cpp" linenr="143" str="char" scope="0x1046ba0" type="name" astParent="0x1033ce0"/>
+    <token id="0x1033ce0" file="joystick_servo_control.cpp" linenr="143" str="*" scope="0x1046ba0" type="op" isArithmeticalOp="True" astParent="0x1033b80" astOperand1="0x1033c30" astOperand2="0x1033d90"/>
+    <token id="0x1033d90" file="joystick_servo_control.cpp" linenr="143" str="*" scope="0x1046ba0" type="op" isArithmeticalOp="True" astParent="0x1033ce0" astOperand1="0x1033e40"/>
+    <token id="0x1033e40" file="joystick_servo_control.cpp" linenr="143" str="argv" scope="0x1046ba0" type="name" varId="37" variable="0x104cf80" astParent="0x1033d90"/>
+    <token id="0x1033ef0" file="joystick_servo_control.cpp" linenr="143" str=")" scope="0x1046ba0" link="0x1033970"/>
+    <token id="0x1033fa0" file="joystick_servo_control.cpp" linenr="144" str="{" scope="0x104b710" link="0x10467d0"/>
+    <token id="0x1034050" file="joystick_servo_control.cpp" linenr="145" str="ROS_INFO" scope="0x104b710" type="name" astParent="0x1034100"/>
+    <token id="0x1034100" file="joystick_servo_control.cpp" linenr="145" str="(" scope="0x104b710" link="0x10343d0" astOperand1="0x1034050" astOperand2="0x10341e0"/>
+    <token id="0x10341e0" file="joystick_servo_control.cpp" linenr="145" str="&quot;Joystick control of Phidgets advanced servo controller&quot;" scope="0x104b710" type="string" strlen="54" values="0x10341e8" astParent="0x1034100"/>
+    <token id="0x10343d0" file="joystick_servo_control.cpp" linenr="145" str=")" scope="0x104b710" link="0x1034100"/>
+    <token id="0x1034480" file="joystick_servo_control.cpp" linenr="145" str=";" scope="0x104b710"/>
+    <token id="0x1034530" file="joystick_servo_control.cpp" linenr="147" str="ros" scope="0x104b710" type="name" astParent="0x10345e0"/>
+    <token id="0x10345e0" file="joystick_servo_control.cpp" linenr="147" str="::" scope="0x104b710" astParent="0x1034740" astOperand1="0x1034530" astOperand2="0x1034690"/>
+    <token id="0x1034690" file="joystick_servo_control.cpp" linenr="147" str="init" scope="0x104b710" type="name" astParent="0x10345e0"/>
+    <token id="0x1034740" file="joystick_servo_control.cpp" linenr="147" str="(" scope="0x104b710" link="0x1034b90" astOperand1="0x10345e0" astOperand2="0x1034a00"/>
+    <token id="0x10347f0" file="joystick_servo_control.cpp" linenr="147" str="argc" scope="0x104b710" type="name" varId="36" variable="0x104cf10" astParent="0x10348a0"/>
+    <token id="0x10348a0" file="joystick_servo_control.cpp" linenr="147" str="," scope="0x104b710" astParent="0x1034a00" astOperand1="0x10347f0" astOperand2="0x1034950"/>
+    <token id="0x1034950" file="joystick_servo_control.cpp" linenr="147" str="argv" scope="0x104b710" type="name" varId="37" variable="0x104cf80" astParent="0x10348a0"/>
+    <token id="0x1034a00" file="joystick_servo_control.cpp" linenr="147" str="," scope="0x104b710" astParent="0x1034740" astOperand1="0x10348a0" astOperand2="0x1034ab0"/>
+    <token id="0x1034ab0" file="joystick_servo_control.cpp" linenr="147" str="&quot;joystick_servo_control&quot;" scope="0x104b710" type="string" strlen="22" values="0x1034ab8" astParent="0x1034a00"/>
+    <token id="0x1034b90" file="joystick_servo_control.cpp" linenr="147" str=")" scope="0x104b710" link="0x1034740"/>
+    <token id="0x1034c40" file="joystick_servo_control.cpp" linenr="147" str=";" scope="0x104b710"/>
+    <token id="0x1034cf0" file="joystick_servo_control.cpp" linenr="148" str="ros" scope="0x104b710" type="name" astParent="0x1034da0"/>
+    <token id="0x1034da0" file="joystick_servo_control.cpp" linenr="148" str="::" scope="0x104b710" astOperand1="0x1034cf0" astOperand2="0x1034f00"/>
+    <token id="0x1034e50" file="joystick_servo_control.cpp" linenr="148" str="NodeHandle" scope="0x104b710" type="name"/>
+    <token id="0x1034f00" file="joystick_servo_control.cpp" linenr="148" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x1034da0"/>
+    <token id="0x1034fb0" file="joystick_servo_control.cpp" linenr="148" str=";" scope="0x104b710"/>
+    <token id="0x1035060" file="joystick_servo_control.cpp" linenr="150" str="ros" scope="0x104b710" type="name" astParent="0x1035110"/>
+    <token id="0x1035110" file="joystick_servo_control.cpp" linenr="150" str="::" scope="0x104b710" astParent="0x1035320" astOperand1="0x1035060" astOperand2="0x1035270"/>
+    <token id="0x10351c0" file="joystick_servo_control.cpp" linenr="150" str="NodeHandle" scope="0x104b710" type="name"/>
+    <token id="0x1035270" file="joystick_servo_control.cpp" linenr="150" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x1035110"/>
+    <token id="0x1035320" file="joystick_servo_control.cpp" linenr="150" str="(" scope="0x104b710" link="0x1035480" astOperand1="0x1035110" astOperand2="0x10353d0"/>
+    <token id="0x10353d0" file="joystick_servo_control.cpp" linenr="150" str="&quot;x&quot;" scope="0x104b710" type="string" strlen="1" values="0x10353d8" astParent="0x1035320"/>
+    <token id="0x1035480" file="joystick_servo_control.cpp" linenr="150" str=")" scope="0x104b710" link="0x1035320"/>
+    <token id="0x1035530" file="joystick_servo_control.cpp" linenr="150" str=";" scope="0x104b710"/>
+    <token id="0x10355e0" file="joystick_servo_control.cpp" linenr="151" str="std" scope="0x104b710" type="name" astParent="0x1035690"/>
+    <token id="0x1035690" file="joystick_servo_control.cpp" linenr="151" str="::" scope="0x104b710" astOperand1="0x10355e0" astOperand2="0x10357f0"/>
+    <token id="0x1035740" file="joystick_servo_control.cpp" linenr="151" str="string" scope="0x104b710" type="name"/>
+    <token id="0x10357f0" file="joystick_servo_control.cpp" linenr="151" str="servo_reference_name" scope="0x104b710" type="name" varId="40" variable="0x104c7a0" astParent="0x1035690"/>
+    <token id="0x10358a0" file="joystick_servo_control.cpp" linenr="151" str=";" scope="0x104b710"/>
+    <token id="0x1047e70" file="joystick_servo_control.cpp" linenr="151" str="servo_reference_name" scope="0x104b710" type="name" varId="40" variable="0x104c7a0" astParent="0x1047f20"/>
+    <token id="0x1047f20" file="joystick_servo_control.cpp" linenr="151" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1047e70" astOperand2="0x1035950"/>
+    <token id="0x1035950" file="joystick_servo_control.cpp" linenr="151" str="&quot;servo_reference&quot;" scope="0x104b710" type="string" strlen="15" values="0x1035958" astParent="0x1047f20"/>
+    <token id="0x1035a30" file="joystick_servo_control.cpp" linenr="151" str=";" scope="0x104b710"/>
+    <token id="0x1035ae0" file="joystick_servo_control.cpp" linenr="152" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x1035b90"/>
+    <token id="0x1035b90" file="joystick_servo_control.cpp" linenr="152" str="." scope="0x104b710" astParent="0x1035cf0" astOperand1="0x1035ae0" astOperand2="0x1035c40"/>
+    <token id="0x1035c40" file="joystick_servo_control.cpp" linenr="152" str="getParam" scope="0x104b710" type="name" astParent="0x1035b90"/>
+    <token id="0x1035cf0" file="joystick_servo_control.cpp" linenr="152" str="(" scope="0x104b710" link="0x1035fe0" astOperand1="0x1035b90" astOperand2="0x1035e80"/>
+    <token id="0x1035da0" file="joystick_servo_control.cpp" linenr="152" str="&quot;servoreference&quot;" scope="0x104b710" type="string" strlen="14" values="0x1035da8" astParent="0x1035e80"/>
+    <token id="0x1035e80" file="joystick_servo_control.cpp" linenr="152" str="," scope="0x104b710" astParent="0x1035cf0" astOperand1="0x1035da0" astOperand2="0x1035f30"/>
+    <token id="0x1035f30" file="joystick_servo_control.cpp" linenr="152" str="servo_reference_name" scope="0x104b710" type="name" varId="40" variable="0x104c7a0" values="0x1035f38" astParent="0x1035e80"/>
+    <token id="0x1035fe0" file="joystick_servo_control.cpp" linenr="152" str=")" scope="0x104b710" link="0x1035cf0"/>
+    <token id="0x1036090" file="joystick_servo_control.cpp" linenr="152" str=";" scope="0x104b710"/>
+    <token id="0x1036140" file="joystick_servo_control.cpp" linenr="153" str="std" scope="0x104b710" type="name" astParent="0x10361f0"/>
+    <token id="0x10361f0" file="joystick_servo_control.cpp" linenr="153" str="::" scope="0x104b710" astOperand1="0x1036140" astOperand2="0x1036350"/>
+    <token id="0x10362a0" file="joystick_servo_control.cpp" linenr="153" str="string" scope="0x104b710" type="name"/>
+    <token id="0x1036350" file="joystick_servo_control.cpp" linenr="153" str="joystick_name" scope="0x104b710" type="name" varId="41" variable="0x104c810" astParent="0x10361f0"/>
+    <token id="0x1036400" file="joystick_servo_control.cpp" linenr="153" str=";" scope="0x104b710"/>
+    <token id="0x1047fd0" file="joystick_servo_control.cpp" linenr="153" str="joystick_name" scope="0x104b710" type="name" varId="41" variable="0x104c810" astParent="0x1048080"/>
+    <token id="0x1048080" file="joystick_servo_control.cpp" linenr="153" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1047fd0" astOperand2="0x10364b0"/>
+    <token id="0x10364b0" file="joystick_servo_control.cpp" linenr="153" str="&quot;joystick&quot;" scope="0x104b710" type="string" strlen="8" values="0x10364b8" astParent="0x1048080"/>
+    <token id="0x1036560" file="joystick_servo_control.cpp" linenr="153" str=";" scope="0x104b710"/>
+    <token id="0x1036610" file="joystick_servo_control.cpp" linenr="154" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x10366c0"/>
+    <token id="0x10366c0" file="joystick_servo_control.cpp" linenr="154" str="." scope="0x104b710" astParent="0x1036820" astOperand1="0x1036610" astOperand2="0x1036770"/>
+    <token id="0x1036770" file="joystick_servo_control.cpp" linenr="154" str="getParam" scope="0x104b710" type="name" astParent="0x10366c0"/>
+    <token id="0x1036820" file="joystick_servo_control.cpp" linenr="154" str="(" scope="0x104b710" link="0x1036ae0" astOperand1="0x10366c0" astOperand2="0x1036980"/>
+    <token id="0x10368d0" file="joystick_servo_control.cpp" linenr="154" str="&quot;joystickname&quot;" scope="0x104b710" type="string" strlen="12" values="0x10368d8" astParent="0x1036980"/>
+    <token id="0x1036980" file="joystick_servo_control.cpp" linenr="154" str="," scope="0x104b710" astParent="0x1036820" astOperand1="0x10368d0" astOperand2="0x1036a30"/>
+    <token id="0x1036a30" file="joystick_servo_control.cpp" linenr="154" str="joystick_name" scope="0x104b710" type="name" varId="41" variable="0x104c810" values="0x1036a38" astParent="0x1036980"/>
+    <token id="0x1036ae0" file="joystick_servo_control.cpp" linenr="154" str=")" scope="0x104b710" link="0x1036820"/>
+    <token id="0x1036b90" file="joystick_servo_control.cpp" linenr="154" str=";" scope="0x104b710"/>
+    <token id="0x1036c40" file="joystick_servo_control.cpp" linenr="155" str="std" scope="0x104b710" type="name" astParent="0x1036cf0"/>
+    <token id="0x1036cf0" file="joystick_servo_control.cpp" linenr="155" str="::" scope="0x104b710" astOperand1="0x1036c40" astOperand2="0x1036e50"/>
+    <token id="0x1036da0" file="joystick_servo_control.cpp" linenr="155" str="string" scope="0x104b710" type="name"/>
+    <token id="0x1036e50" file="joystick_servo_control.cpp" linenr="155" str="servo_controller_name" scope="0x104b710" type="name" varId="42" variable="0x104c880" astParent="0x1036cf0"/>
+    <token id="0x1036f30" file="joystick_servo_control.cpp" linenr="155" str=";" scope="0x104b710"/>
+    <token id="0x1048130" file="joystick_servo_control.cpp" linenr="155" str="servo_controller_name" scope="0x104b710" type="name" varId="42" variable="0x104c880" astParent="0x10481e0"/>
+    <token id="0x10481e0" file="joystick_servo_control.cpp" linenr="155" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1048130" astOperand2="0x1036fe0"/>
+    <token id="0x1036fe0" file="joystick_servo_control.cpp" linenr="155" str="&quot;servos&quot;" scope="0x104b710" type="string" strlen="6" values="0x1036fe8" astParent="0x10481e0"/>
+    <token id="0x1037090" file="joystick_servo_control.cpp" linenr="155" str=";" scope="0x104b710"/>
+    <token id="0x1037140" file="joystick_servo_control.cpp" linenr="156" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x10371f0"/>
+    <token id="0x10371f0" file="joystick_servo_control.cpp" linenr="156" str="." scope="0x104b710" astParent="0x1037350" astOperand1="0x1037140" astOperand2="0x10372a0"/>
+    <token id="0x10372a0" file="joystick_servo_control.cpp" linenr="156" str="getParam" scope="0x104b710" type="name" astParent="0x10371f0"/>
+    <token id="0x1037350" file="joystick_servo_control.cpp" linenr="156" str="(" scope="0x104b710" link="0x1037670" astOperand1="0x10371f0" astOperand2="0x1037510"/>
+    <token id="0x1037430" file="joystick_servo_control.cpp" linenr="156" str="&quot;servocontrollername&quot;" scope="0x104b710" type="string" strlen="19" values="0x1037438" astParent="0x1037510"/>
+    <token id="0x1037510" file="joystick_servo_control.cpp" linenr="156" str="," scope="0x104b710" astParent="0x1037350" astOperand1="0x1037430" astOperand2="0x10375c0"/>
+    <token id="0x10375c0" file="joystick_servo_control.cpp" linenr="156" str="servo_controller_name" scope="0x104b710" type="name" varId="42" variable="0x104c880" values="0x10375c8" astParent="0x1037510"/>
+    <token id="0x1037670" file="joystick_servo_control.cpp" linenr="156" str=")" scope="0x104b710" link="0x1037350"/>
+    <token id="0x1037720" file="joystick_servo_control.cpp" linenr="156" str=";" scope="0x104b710"/>
+    <token id="0x10377d0" file="joystick_servo_control.cpp" linenr="157" str="std" scope="0x104b710" type="name" astParent="0x1037880"/>
+    <token id="0x1037880" file="joystick_servo_control.cpp" linenr="157" str="::" scope="0x104b710" astOperand1="0x10377d0" astOperand2="0x10379e0"/>
+    <token id="0x1037930" file="joystick_servo_control.cpp" linenr="157" str="string" scope="0x104b710" type="name"/>
+    <token id="0x10379e0" file="joystick_servo_control.cpp" linenr="157" str="topic_path" scope="0x104b710" type="name" varId="43" variable="0x104c8f0" astParent="0x1037880"/>
+    <token id="0x1037a90" file="joystick_servo_control.cpp" linenr="157" str=";" scope="0x104b710"/>
+    <token id="0x1048290" file="joystick_servo_control.cpp" linenr="157" str="topic_path" scope="0x104b710" type="name" varId="43" variable="0x104c8f0" astParent="0x1048340"/>
+    <token id="0x1048340" file="joystick_servo_control.cpp" linenr="157" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1048290" astOperand2="0x1037b40"/>
+    <token id="0x1037b40" file="joystick_servo_control.cpp" linenr="157" str="&quot;phidgets/&quot;" scope="0x104b710" type="string" strlen="9" values="0x1037b48" astParent="0x1048340"/>
+    <token id="0x1037bf0" file="joystick_servo_control.cpp" linenr="157" str=";" scope="0x104b710"/>
+    <token id="0x1037ca0" file="joystick_servo_control.cpp" linenr="158" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x1037d50"/>
+    <token id="0x1037d50" file="joystick_servo_control.cpp" linenr="158" str="." scope="0x104b710" astParent="0x1037eb0" astOperand1="0x1037ca0" astOperand2="0x1037e00"/>
+    <token id="0x1037e00" file="joystick_servo_control.cpp" linenr="158" str="getParam" scope="0x104b710" type="name" astParent="0x1037d50"/>
+    <token id="0x1037eb0" file="joystick_servo_control.cpp" linenr="158" str="(" scope="0x104b710" link="0x1038170" astOperand1="0x1037d50" astOperand2="0x1038010"/>
+    <token id="0x1037f60" file="joystick_servo_control.cpp" linenr="158" str="&quot;topic_path&quot;" scope="0x104b710" type="string" strlen="10" values="0x1037f68" astParent="0x1038010"/>
+    <token id="0x1038010" file="joystick_servo_control.cpp" linenr="158" str="," scope="0x104b710" astParent="0x1037eb0" astOperand1="0x1037f60" astOperand2="0x10380c0"/>
+    <token id="0x10380c0" file="joystick_servo_control.cpp" linenr="158" str="topic_path" scope="0x104b710" type="name" varId="43" variable="0x104c8f0" values="0x10380c8" astParent="0x1038010"/>
+    <token id="0x1038170" file="joystick_servo_control.cpp" linenr="158" str=")" scope="0x104b710" link="0x1037eb0"/>
+    <token id="0x1038220" file="joystick_servo_control.cpp" linenr="158" str=";" scope="0x104b710"/>
+    <token id="0x10382d0" file="joystick_servo_control.cpp" linenr="159" str="bool" scope="0x104b710" type="name"/>
+    <token id="0x1038380" file="joystick_servo_control.cpp" linenr="159" str="enable" scope="0x104b710" type="name" varId="44" variable="0x104c960"/>
+    <token id="0x1038430" file="joystick_servo_control.cpp" linenr="159" str=";" scope="0x104b710"/>
+    <token id="0x10483f0" file="joystick_servo_control.cpp" linenr="159" str="enable" scope="0x104b710" type="name" varId="44" variable="0x104c960" astParent="0x10484a0"/>
+    <token id="0x10484a0" file="joystick_servo_control.cpp" linenr="159" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x10483f0" astOperand2="0x10384e0"/>
+    <token id="0x10384e0" file="joystick_servo_control.cpp" linenr="159" str="false" scope="0x104b710" type="name" values="0x10384e8" astParent="0x10484a0"/>
+    <token id="0x1038590" file="joystick_servo_control.cpp" linenr="159" str=";" scope="0x104b710"/>
+    <token id="0x1038640" file="joystick_servo_control.cpp" linenr="160" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x10386f0"/>
+    <token id="0x10386f0" file="joystick_servo_control.cpp" linenr="160" str="." scope="0x104b710" astParent="0x1038850" astOperand1="0x1038640" astOperand2="0x10387a0"/>
+    <token id="0x10387a0" file="joystick_servo_control.cpp" linenr="160" str="getParam" scope="0x104b710" type="name" astParent="0x10386f0"/>
+    <token id="0x1038850" file="joystick_servo_control.cpp" linenr="160" str="(" scope="0x104b710" link="0x1038b10" astOperand1="0x10386f0" astOperand2="0x10389b0"/>
+    <token id="0x1038900" file="joystick_servo_control.cpp" linenr="160" str="&quot;enable&quot;" scope="0x104b710" type="string" strlen="6" values="0x1038908" astParent="0x10389b0"/>
+    <token id="0x10389b0" file="joystick_servo_control.cpp" linenr="160" str="," scope="0x104b710" astParent="0x1038850" astOperand1="0x1038900" astOperand2="0x1038a60"/>
+    <token id="0x1038a60" file="joystick_servo_control.cpp" linenr="160" str="enable" scope="0x104b710" type="name" varId="44" variable="0x104c960" values="0x1038a68" astParent="0x10389b0"/>
+    <token id="0x1038b10" file="joystick_servo_control.cpp" linenr="160" str=")" scope="0x104b710" link="0x1038850"/>
+    <token id="0x1038bc0" file="joystick_servo_control.cpp" linenr="160" str=";" scope="0x104b710"/>
+    <token id="0x1038c70" file="joystick_servo_control.cpp" linenr="161" str="int" scope="0x104b710" type="name"/>
+    <token id="0x1038d20" file="joystick_servo_control.cpp" linenr="161" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0"/>
+    <token id="0x1038dd0" file="joystick_servo_control.cpp" linenr="161" str=";" scope="0x104b710"/>
+    <token id="0x1038e80" file="joystick_servo_control.cpp" linenr="162" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x1038f30"/>
+    <token id="0x1038f30" file="joystick_servo_control.cpp" linenr="162" str="." scope="0x104b710" astParent="0x1039090" astOperand1="0x1038e80" astOperand2="0x1038fe0"/>
+    <token id="0x1038fe0" file="joystick_servo_control.cpp" linenr="162" str="getParam" scope="0x104b710" type="name" astParent="0x1038f30"/>
+    <token id="0x1039090" file="joystick_servo_control.cpp" linenr="162" str="(" scope="0x104b710" link="0x1039350" astOperand1="0x1038f30" astOperand2="0x10391f0"/>
+    <token id="0x1039140" file="joystick_servo_control.cpp" linenr="162" str="&quot;speed&quot;" scope="0x104b710" type="string" strlen="5" values="0x1039148" astParent="0x10391f0"/>
+    <token id="0x10391f0" file="joystick_servo_control.cpp" linenr="162" str="," scope="0x104b710" astParent="0x1039090" astOperand1="0x1039140" astOperand2="0x10392a0"/>
+    <token id="0x10392a0" file="joystick_servo_control.cpp" linenr="162" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x10391f0"/>
+    <token id="0x1039350" file="joystick_servo_control.cpp" linenr="162" str=")" scope="0x104b710" link="0x1039090"/>
+    <token id="0x1039400" file="joystick_servo_control.cpp" linenr="162" str=";" scope="0x104b710"/>
+    <token id="0x10394b0" file="joystick_servo_control.cpp" linenr="163" str="if" scope="0x104b710" type="name" astParent="0x1039560"/>
+    <token id="0x1039560" file="joystick_servo_control.cpp" linenr="163" str="(" scope="0x104b710" link="0x1039da0" astOperand1="0x10394b0" astOperand2="0x1039980"/>
+    <token id="0x1039610" file="joystick_servo_control.cpp" linenr="163" str="(" scope="0x104b710" link="0x10398d0"/>
+    <token id="0x10396c0" file="joystick_servo_control.cpp" linenr="163" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x1039770"/>
+    <token id="0x1039770" file="joystick_servo_control.cpp" linenr="163" str="&gt;" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x1039980" astOperand1="0x10396c0" astOperand2="0x1039820"/>
+    <token id="0x1039820" file="joystick_servo_control.cpp" linenr="163" str="1" scope="0x104b710" type="number" isInt="True" values="0x1039828" astParent="0x1039770"/>
+    <token id="0x10398d0" file="joystick_servo_control.cpp" linenr="163" str=")" scope="0x104b710" link="0x1039610"/>
+    <token id="0x1039980" file="joystick_servo_control.cpp" linenr="163" str="&amp;&amp;" scope="0x104b710" type="op" isLogicalOp="True" astParent="0x1039560" astOperand1="0x1039770" astOperand2="0x1039b90"/>
+    <token id="0x1039a30" file="joystick_servo_control.cpp" linenr="163" str="(" scope="0x104b710" link="0x1039cf0"/>
+    <token id="0x1039ae0" file="joystick_servo_control.cpp" linenr="163" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x1039b90"/>
+    <token id="0x1039b90" file="joystick_servo_control.cpp" linenr="163" str="&lt;" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x1039980" astOperand1="0x1039ae0" astOperand2="0x1039c40"/>
+    <token id="0x1039c40" file="joystick_servo_control.cpp" linenr="163" str="100" scope="0x104b710" type="number" isInt="True" values="0x1039c48" astParent="0x1039b90"/>
+    <token id="0x1039cf0" file="joystick_servo_control.cpp" linenr="163" str=")" scope="0x104b710" link="0x1039a30"/>
+    <token id="0x1039da0" file="joystick_servo_control.cpp" linenr="163" str=")" scope="0x104b710" link="0x1039560"/>
+    <token id="0x101f340" file="joystick_servo_control.cpp" linenr="163" str="{" scope="0x104b840" link="0x101f3f0"/>
+    <token id="0x1039e50" file="joystick_servo_control.cpp" linenr="163" str="speed" scope="0x104b840" type="name" varId="3" variable="0x104c070" astParent="0x1039f00"/>
+    <token id="0x1039f00" file="joystick_servo_control.cpp" linenr="163" str="=" scope="0x104b840" type="op" isAssignmentOp="True" astOperand1="0x1039e50" astOperand2="0x1039fb0"/>
+    <token id="0x1039fb0" file="joystick_servo_control.cpp" linenr="163" str="(" scope="0x104b840" link="0x103a110" astParent="0x1039f00" astOperand1="0x103a1c0"/>
+    <token id="0x103a060" file="joystick_servo_control.cpp" linenr="163" str="float" scope="0x104b840" type="name"/>
+    <token id="0x103a110" file="joystick_servo_control.cpp" linenr="163" str=")" scope="0x104b840" link="0x1039fb0"/>
+    <token id="0x103a1c0" file="joystick_servo_control.cpp" linenr="163" str="v" scope="0x104b840" type="name" varId="45" variable="0x104c9d0" astParent="0x1039fb0"/>
+    <token id="0x103a270" file="joystick_servo_control.cpp" linenr="163" str=";" scope="0x104b840"/>
+    <token id="0x101f3f0" file="joystick_servo_control.cpp" linenr="163" str="}" scope="0x104b840" link="0x101f340"/>
+    <token id="0x103a320" file="joystick_servo_control.cpp" linenr="164" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x103a3d0"/>
+    <token id="0x103a3d0" file="joystick_servo_control.cpp" linenr="164" str="." scope="0x104b710" astParent="0x103a530" astOperand1="0x103a320" astOperand2="0x103a480"/>
+    <token id="0x103a480" file="joystick_servo_control.cpp" linenr="164" str="getParam" scope="0x104b710" type="name" astParent="0x103a3d0"/>
+    <token id="0x103a530" file="joystick_servo_control.cpp" linenr="164" str="(" scope="0x104b710" link="0x103a7f0" astOperand1="0x103a3d0" astOperand2="0x103a690"/>
+    <token id="0x103a5e0" file="joystick_servo_control.cpp" linenr="164" str="&quot;acceleration&quot;" scope="0x104b710" type="string" strlen="12" values="0x103a5e8" astParent="0x103a690"/>
+    <token id="0x103a690" file="joystick_servo_control.cpp" linenr="164" str="," scope="0x104b710" astParent="0x103a530" astOperand1="0x103a5e0" astOperand2="0x103a740"/>
+    <token id="0x103a740" file="joystick_servo_control.cpp" linenr="164" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x103a690"/>
+    <token id="0x103a7f0" file="joystick_servo_control.cpp" linenr="164" str=")" scope="0x104b710" link="0x103a530"/>
+    <token id="0x103a8a0" file="joystick_servo_control.cpp" linenr="164" str=";" scope="0x104b710"/>
+    <token id="0x103a950" file="joystick_servo_control.cpp" linenr="165" str="if" scope="0x104b710" type="name" astParent="0x103aa00"/>
+    <token id="0x103aa00" file="joystick_servo_control.cpp" linenr="165" str="(" scope="0x104b710" link="0x103b240" astOperand1="0x103a950" astOperand2="0x103ae20"/>
+    <token id="0x103aab0" file="joystick_servo_control.cpp" linenr="165" str="(" scope="0x104b710" link="0x103ad70"/>
+    <token id="0x103ab60" file="joystick_servo_control.cpp" linenr="165" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x103ac10"/>
+    <token id="0x103ac10" file="joystick_servo_control.cpp" linenr="165" str="&gt;" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x103ae20" astOperand1="0x103ab60" astOperand2="0x103acc0"/>
+    <token id="0x103acc0" file="joystick_servo_control.cpp" linenr="165" str="1" scope="0x104b710" type="number" isInt="True" values="0x103acc8" astParent="0x103ac10"/>
+    <token id="0x103ad70" file="joystick_servo_control.cpp" linenr="165" str=")" scope="0x104b710" link="0x103aab0"/>
+    <token id="0x103ae20" file="joystick_servo_control.cpp" linenr="165" str="&amp;&amp;" scope="0x104b710" type="op" isLogicalOp="True" astParent="0x103aa00" astOperand1="0x103ac10" astOperand2="0x103b030"/>
+    <token id="0x103aed0" file="joystick_servo_control.cpp" linenr="165" str="(" scope="0x104b710" link="0x103b190"/>
+    <token id="0x103af80" file="joystick_servo_control.cpp" linenr="165" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x103b030"/>
+    <token id="0x103b030" file="joystick_servo_control.cpp" linenr="165" str="&lt;" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x103ae20" astOperand1="0x103af80" astOperand2="0x103b0e0"/>
+    <token id="0x103b0e0" file="joystick_servo_control.cpp" linenr="165" str="100" scope="0x104b710" type="number" isInt="True" values="0x103b0e8" astParent="0x103b030"/>
+    <token id="0x103b190" file="joystick_servo_control.cpp" linenr="165" str=")" scope="0x104b710" link="0x103aed0"/>
+    <token id="0x103b240" file="joystick_servo_control.cpp" linenr="165" str=")" scope="0x104b710" link="0x103aa00"/>
+    <token id="0x1046f50" file="joystick_servo_control.cpp" linenr="165" str="{" scope="0x104b970" link="0x1047000"/>
+    <token id="0x103b2f0" file="joystick_servo_control.cpp" linenr="165" str="acceleration" scope="0x104b970" type="name" varId="4" variable="0x104c0e0" astParent="0x103b3a0"/>
+    <token id="0x103b3a0" file="joystick_servo_control.cpp" linenr="165" str="=" scope="0x104b970" type="op" isAssignmentOp="True" astOperand1="0x103b2f0" astOperand2="0x103b450"/>
+    <token id="0x103b450" file="joystick_servo_control.cpp" linenr="165" str="(" scope="0x104b970" link="0x103b5b0" astParent="0x103b3a0" astOperand1="0x103b660"/>
+    <token id="0x103b500" file="joystick_servo_control.cpp" linenr="165" str="float" scope="0x104b970" type="name"/>
+    <token id="0x103b5b0" file="joystick_servo_control.cpp" linenr="165" str=")" scope="0x104b970" link="0x103b450"/>
+    <token id="0x103b660" file="joystick_servo_control.cpp" linenr="165" str="v" scope="0x104b970" type="name" varId="45" variable="0x104c9d0" astParent="0x103b450"/>
+    <token id="0x103b710" file="joystick_servo_control.cpp" linenr="165" str=";" scope="0x104b970"/>
+    <token id="0x1047000" file="joystick_servo_control.cpp" linenr="165" str="}" scope="0x104b970" link="0x1046f50"/>
+    <token id="0x103b7c0" file="joystick_servo_control.cpp" linenr="166" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x103b870"/>
+    <token id="0x103b870" file="joystick_servo_control.cpp" linenr="166" str="." scope="0x104b710" astParent="0x103b9d0" astOperand1="0x103b7c0" astOperand2="0x103b920"/>
+    <token id="0x103b920" file="joystick_servo_control.cpp" linenr="166" str="getParam" scope="0x104b710" type="name" astParent="0x103b870"/>
+    <token id="0x103b9d0" file="joystick_servo_control.cpp" linenr="166" str="(" scope="0x104b710" link="0x103bc90" astOperand1="0x103b870" astOperand2="0x103bb30"/>
+    <token id="0x103ba80" file="joystick_servo_control.cpp" linenr="166" str="&quot;deadband&quot;" scope="0x104b710" type="string" strlen="8" values="0x103ba88" astParent="0x103bb30"/>
+    <token id="0x103bb30" file="joystick_servo_control.cpp" linenr="166" str="," scope="0x104b710" astParent="0x103b9d0" astOperand1="0x103ba80" astOperand2="0x103bbe0"/>
+    <token id="0x103bbe0" file="joystick_servo_control.cpp" linenr="166" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" values="0x103bbe8" astParent="0x103bb30"/>
+    <token id="0x103bc90" file="joystick_servo_control.cpp" linenr="166" str=")" scope="0x104b710" link="0x103b9d0"/>
+    <token id="0x103bd40" file="joystick_servo_control.cpp" linenr="166" str=";" scope="0x104b710"/>
+    <token id="0x103bdf0" file="joystick_servo_control.cpp" linenr="167" str="if" scope="0x104b710" type="name" astParent="0x103bea0"/>
+    <token id="0x103bea0" file="joystick_servo_control.cpp" linenr="167" str="(" scope="0x104b710" link="0x103c790" astOperand1="0x103bdf0" astOperand2="0x103c2c0"/>
+    <token id="0x103bf50" file="joystick_servo_control.cpp" linenr="167" str="(" scope="0x104b710" link="0x103c210"/>
+    <token id="0x103c000" file="joystick_servo_control.cpp" linenr="167" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" values="0x103c008" astParent="0x103c0b0"/>
+    <token id="0x103c0b0" file="joystick_servo_control.cpp" linenr="167" str="&gt;" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x103c2c0" astOperand1="0x103c000" astOperand2="0x103c160"/>
+    <token id="0x103c160" file="joystick_servo_control.cpp" linenr="167" str="0.02" scope="0x104b710" type="number" isFloat="True" astParent="0x103c0b0"/>
+    <token id="0x103c210" file="joystick_servo_control.cpp" linenr="167" str=")" scope="0x104b710" link="0x103bf50"/>
+    <token id="0x103c2c0" file="joystick_servo_control.cpp" linenr="167" str="&amp;&amp;" scope="0x104b710" type="op" isLogicalOp="True" astParent="0x103bea0" astOperand1="0x103c0b0" astOperand2="0x103c4d0"/>
+    <token id="0x103c370" file="joystick_servo_control.cpp" linenr="167" str="(" scope="0x104b710" link="0x103c6e0"/>
+    <token id="0x103c420" file="joystick_servo_control.cpp" linenr="167" str="v" scope="0x104b710" type="name" varId="45" variable="0x104c9d0" astParent="0x103c4d0"/>
+    <token id="0x103c4d0" file="joystick_servo_control.cpp" linenr="167" str="&lt;=" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x103c2c0" astOperand1="0x103c420" astOperand2="0x103c630"/>
+    <token id="0x103c630" file="joystick_servo_control.cpp" linenr="167" str="1.0" scope="0x104b710" type="number" isFloat="True" astParent="0x103c4d0"/>
+    <token id="0x103c6e0" file="joystick_servo_control.cpp" linenr="167" str=")" scope="0x104b710" link="0x103c370"/>
+    <token id="0x103c790" file="joystick_servo_control.cpp" linenr="167" str=")" scope="0x104b710" link="0x103bea0"/>
+    <token id="0x10470b0" file="joystick_servo_control.cpp" linenr="167" str="{" scope="0x104baa0" link="0x1046880"/>
+    <token id="0x103c840" file="joystick_servo_control.cpp" linenr="167" str="deadband" scope="0x104baa0" type="name" varId="5" variable="0x104c150" astParent="0x103c8f0"/>
+    <token id="0x103c8f0" file="joystick_servo_control.cpp" linenr="167" str="=" scope="0x104baa0" type="op" isAssignmentOp="True" astOperand1="0x103c840" astOperand2="0x103c9a0"/>
+    <token id="0x103c9a0" file="joystick_servo_control.cpp" linenr="167" str="(" scope="0x104baa0" link="0x103cb00" astParent="0x103c8f0" astOperand1="0x103cbb0"/>
+    <token id="0x103ca50" file="joystick_servo_control.cpp" linenr="167" str="float" scope="0x104baa0" type="name"/>
+    <token id="0x103cb00" file="joystick_servo_control.cpp" linenr="167" str=")" scope="0x104baa0" link="0x103c9a0"/>
+    <token id="0x103cbb0" file="joystick_servo_control.cpp" linenr="167" str="v" scope="0x104baa0" type="name" varId="45" variable="0x104c9d0" astParent="0x103c9a0"/>
+    <token id="0x103cc60" file="joystick_servo_control.cpp" linenr="167" str=";" scope="0x104baa0"/>
+    <token id="0x1046880" file="joystick_servo_control.cpp" linenr="167" str="}" scope="0x104baa0" link="0x10470b0"/>
+    <token id="0x103cd10" file="joystick_servo_control.cpp" linenr="168" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x103cdc0"/>
+    <token id="0x103cdc0" file="joystick_servo_control.cpp" linenr="168" str="." scope="0x104b710" astParent="0x103cf20" astOperand1="0x103cd10" astOperand2="0x103ce70"/>
+    <token id="0x103ce70" file="joystick_servo_control.cpp" linenr="168" str="getParam" scope="0x104b710" type="name" astParent="0x103cdc0"/>
+    <token id="0x103cf20" file="joystick_servo_control.cpp" linenr="168" str="(" scope="0x104b710" link="0x103d1e0" astOperand1="0x103cdc0" astOperand2="0x103d080"/>
+    <token id="0x103cfd0" file="joystick_servo_control.cpp" linenr="168" str="&quot;servoindex0&quot;" scope="0x104b710" type="string" strlen="11" values="0x103cfd8" astParent="0x103d080"/>
+    <token id="0x103d080" file="joystick_servo_control.cpp" linenr="168" str="," scope="0x104b710" astParent="0x103cf20" astOperand1="0x103cfd0" astOperand2="0x103d130"/>
+    <token id="0x103d130" file="joystick_servo_control.cpp" linenr="168" str="servo_index0" scope="0x104b710" type="name" varId="6" variable="0x104c1c0" astParent="0x103d080"/>
+    <token id="0x103d1e0" file="joystick_servo_control.cpp" linenr="168" str=")" scope="0x104b710" link="0x103cf20"/>
+    <token id="0x103d290" file="joystick_servo_control.cpp" linenr="168" str=";" scope="0x104b710"/>
+    <token id="0x103d340" file="joystick_servo_control.cpp" linenr="169" str="nh" scope="0x104b710" type="name" varId="39" variable="0x104c730" astParent="0x103d3f0"/>
+    <token id="0x103d3f0" file="joystick_servo_control.cpp" linenr="169" str="." scope="0x104b710" astParent="0x103d550" astOperand1="0x103d340" astOperand2="0x103d4a0"/>
+    <token id="0x103d4a0" file="joystick_servo_control.cpp" linenr="169" str="getParam" scope="0x104b710" type="name" astParent="0x103d3f0"/>
+    <token id="0x103d550" file="joystick_servo_control.cpp" linenr="169" str="(" scope="0x104b710" link="0x103d810" astOperand1="0x103d3f0" astOperand2="0x103d6b0"/>
+    <token id="0x103d600" file="joystick_servo_control.cpp" linenr="169" str="&quot;servoindex1&quot;" scope="0x104b710" type="string" strlen="11" values="0x103d608" astParent="0x103d6b0"/>
+    <token id="0x103d6b0" file="joystick_servo_control.cpp" linenr="169" str="," scope="0x104b710" astParent="0x103d550" astOperand1="0x103d600" astOperand2="0x103d760"/>
+    <token id="0x103d760" file="joystick_servo_control.cpp" linenr="169" str="servo_index1" scope="0x104b710" type="name" varId="7" variable="0x104c230" astParent="0x103d6b0"/>
+    <token id="0x103d810" file="joystick_servo_control.cpp" linenr="169" str=")" scope="0x104b710" link="0x103d550"/>
+    <token id="0x103d8c0" file="joystick_servo_control.cpp" linenr="169" str=";" scope="0x104b710"/>
+    <token id="0x103d970" file="joystick_servo_control.cpp" linenr="170" str="if" scope="0x104b710" type="name" astParent="0x103da20"/>
+    <token id="0x103da20" file="joystick_servo_control.cpp" linenr="170" str="(" scope="0x104b710" link="0x103dce0" astOperand1="0x103d970" astOperand2="0x103db80"/>
+    <token id="0x103dad0" file="joystick_servo_control.cpp" linenr="170" str="servo_index0" scope="0x104b710" type="name" varId="6" variable="0x104c1c0" astParent="0x103db80"/>
+    <token id="0x103db80" file="joystick_servo_control.cpp" linenr="170" str="==" scope="0x104b710" type="op" isComparisonOp="True" astParent="0x103da20" astOperand1="0x103dad0" astOperand2="0x103dc30"/>
+    <token id="0x103dc30" file="joystick_servo_control.cpp" linenr="170" str="servo_index1" scope="0x104b710" type="name" varId="7" variable="0x104c230" astParent="0x103db80"/>
+    <token id="0x103dce0" file="joystick_servo_control.cpp" linenr="170" str=")" scope="0x104b710" link="0x103da20"/>
+    <token id="0x103dd90" file="joystick_servo_control.cpp" linenr="170" str="{" scope="0x104bbd0" link="0x103e3c0"/>
+    <token id="0x103de40" file="joystick_servo_control.cpp" linenr="171" str="servo_index0" scope="0x104bbd0" type="name" varId="6" variable="0x104c1c0" astParent="0x103def0"/>
+    <token id="0x103def0" file="joystick_servo_control.cpp" linenr="171" str="=" scope="0x104bbd0" type="op" isAssignmentOp="True" astOperand1="0x103de40" astOperand2="0x103dfa0"/>
+    <token id="0x103dfa0" file="joystick_servo_control.cpp" linenr="171" str="0" scope="0x104bbd0" type="number" isInt="True" values="0x103dfa8" astParent="0x103def0"/>
+    <token id="0x103e050" file="joystick_servo_control.cpp" linenr="171" str=";" scope="0x104bbd0"/>
+    <token id="0x103e100" file="joystick_servo_control.cpp" linenr="172" str="servo_index1" scope="0x104bbd0" type="name" varId="7" variable="0x104c230" astParent="0x103e1b0"/>
+    <token id="0x103e1b0" file="joystick_servo_control.cpp" linenr="172" str="=" scope="0x104bbd0" type="op" isAssignmentOp="True" astOperand1="0x103e100" astOperand2="0x103e260"/>
+    <token id="0x103e260" file="joystick_servo_control.cpp" linenr="172" str="1" scope="0x104bbd0" type="number" isInt="True" values="0x103e268" astParent="0x103e1b0"/>
+    <token id="0x103e310" file="joystick_servo_control.cpp" linenr="172" str=";" scope="0x104bbd0"/>
+    <token id="0x103e3c0" file="joystick_servo_control.cpp" linenr="173" str="}" scope="0x104bbd0" link="0x103dd90"/>
+    <token id="0x103e470" file="joystick_servo_control.cpp" linenr="175" str="ros" scope="0x104b710" type="name" astParent="0x103e520"/>
+    <token id="0x103e520" file="joystick_servo_control.cpp" linenr="175" str="::" scope="0x104b710" astOperand1="0x103e470" astOperand2="0x103e680"/>
+    <token id="0x103e5d0" file="joystick_servo_control.cpp" linenr="175" str="Subscriber" scope="0x104b710" type="name"/>
+    <token id="0x103e680" file="joystick_servo_control.cpp" linenr="175" str="servo_sub" scope="0x104b710" type="name" varId="46" variable="0x104ca40" astParent="0x103e520"/>
+    <token id="0x103e730" file="joystick_servo_control.cpp" linenr="175" str=";" scope="0x104b710"/>
+    <token id="0x1048550" file="joystick_servo_control.cpp" linenr="175" str="servo_sub" scope="0x104b710" type="name" varId="46" variable="0x104ca40" astParent="0x1048600"/>
+    <token id="0x1048600" file="joystick_servo_control.cpp" linenr="175" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1048550" astOperand2="0x103e9f0"/>
+    <token id="0x103e7e0" file="joystick_servo_control.cpp" linenr="176" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x103e890"/>
+    <token id="0x103e890" file="joystick_servo_control.cpp" linenr="176" str="." scope="0x104b710" astParent="0x103e9f0" astOperand1="0x103e7e0" astOperand2="0x103e940"/>
+    <token id="0x103e940" file="joystick_servo_control.cpp" linenr="176" str="subscribe" scope="0x104b710" type="name" astParent="0x103e890"/>
+    <token id="0x103e9f0" file="joystick_servo_control.cpp" linenr="176" str="(" scope="0x104b710" link="0x103efa0" astParent="0x1048600" astOperand1="0x103e890" astOperand2="0x103ee40"/>
+    <token id="0x103eaa0" file="joystick_servo_control.cpp" linenr="176" str="topic_path" scope="0x104b710" type="name" varId="43" variable="0x104c8f0" values="0x103eaa8" astParent="0x103eb50"/>
+    <token id="0x103eb50" file="joystick_servo_control.cpp" linenr="176" str="+" scope="0x104b710" type="op" isArithmeticalOp="True" astParent="0x103ece0" astOperand1="0x103eaa0" astOperand2="0x103ec00"/>
+    <token id="0x103ec00" file="joystick_servo_control.cpp" linenr="176" str="servo_controller_name" scope="0x104b710" type="name" varId="42" variable="0x104c880" values="0x103ec08" astParent="0x103eb50"/>
+    <token id="0x103ece0" file="joystick_servo_control.cpp" linenr="176" str="," scope="0x104b710" astParent="0x103ee40" astOperand1="0x103eb50" astOperand2="0x103ed90"/>
+    <token id="0x103ed90" file="joystick_servo_control.cpp" linenr="177" str="1" scope="0x104b710" type="number" isInt="True" values="0x103ed98" astParent="0x103ece0"/>
+    <token id="0x103ee40" file="joystick_servo_control.cpp" linenr="177" str="," scope="0x104b710" astParent="0x103e9f0" astOperand1="0x103ece0" astOperand2="0x103eef0"/>
+    <token id="0x103eef0" file="joystick_servo_control.cpp" linenr="177" str="servoCallback" scope="0x104b710" type="name" astParent="0x103ee40"/>
+    <token id="0x103efa0" file="joystick_servo_control.cpp" linenr="177" str=")" scope="0x104b710" link="0x103e9f0"/>
+    <token id="0x103f050" file="joystick_servo_control.cpp" linenr="177" str=";" scope="0x104b710"/>
+    <token id="0x103f100" file="joystick_servo_control.cpp" linenr="178" str="ros" scope="0x104b710" type="name" astParent="0x103f1b0"/>
+    <token id="0x103f1b0" file="joystick_servo_control.cpp" linenr="178" str="::" scope="0x104b710" astOperand1="0x103f100" astOperand2="0x103f310"/>
+    <token id="0x103f260" file="joystick_servo_control.cpp" linenr="178" str="Subscriber" scope="0x104b710" type="name"/>
+    <token id="0x103f310" file="joystick_servo_control.cpp" linenr="178" str="joystick_sub" scope="0x104b710" type="name" varId="47" variable="0x104cab0" astParent="0x103f1b0"/>
+    <token id="0x103f3c0" file="joystick_servo_control.cpp" linenr="178" str=";" scope="0x104b710"/>
+    <token id="0x10486b0" file="joystick_servo_control.cpp" linenr="178" str="joystick_sub" scope="0x104b710" type="name" varId="47" variable="0x104cab0" astParent="0x1048760"/>
+    <token id="0x1048760" file="joystick_servo_control.cpp" linenr="178" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x10486b0" astOperand2="0x103f680"/>
+    <token id="0x103f470" file="joystick_servo_control.cpp" linenr="179" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x103f520"/>
+    <token id="0x103f520" file="joystick_servo_control.cpp" linenr="179" str="." scope="0x104b710" astParent="0x103f680" astOperand1="0x103f470" astOperand2="0x103f5d0"/>
+    <token id="0x103f5d0" file="joystick_servo_control.cpp" linenr="179" str="subscribe" scope="0x104b710" type="name" astParent="0x103f520"/>
+    <token id="0x103f680" file="joystick_servo_control.cpp" linenr="179" str="(" scope="0x104b710" link="0x103fc30" astParent="0x1048760" astOperand1="0x103f520" astOperand2="0x103faa0"/>
+    <token id="0x103f730" file="joystick_servo_control.cpp" linenr="179" str="topic_path" scope="0x104b710" type="name" varId="43" variable="0x104c8f0" values="0x103f738" astParent="0x103f7e0"/>
+    <token id="0x103f7e0" file="joystick_servo_control.cpp" linenr="179" str="+" scope="0x104b710" type="op" isArithmeticalOp="True" astParent="0x103f940" astOperand1="0x103f730" astOperand2="0x103f890"/>
+    <token id="0x103f890" file="joystick_servo_control.cpp" linenr="179" str="joystick_name" scope="0x104b710" type="name" varId="41" variable="0x104c810" values="0x103f898" astParent="0x103f7e0"/>
+    <token id="0x103f940" file="joystick_servo_control.cpp" linenr="179" str="," scope="0x104b710" astParent="0x103faa0" astOperand1="0x103f7e0" astOperand2="0x103f9f0"/>
+    <token id="0x103f9f0" file="joystick_servo_control.cpp" linenr="179" str="1" scope="0x104b710" type="number" isInt="True" values="0x103f9f8" astParent="0x103f940"/>
+    <token id="0x103faa0" file="joystick_servo_control.cpp" linenr="179" str="," scope="0x104b710" astParent="0x103f680" astOperand1="0x103f940" astOperand2="0x103fb50"/>
+    <token id="0x103fb50" file="joystick_servo_control.cpp" linenr="180" str="joystickCallback" scope="0x104b710" type="name" astParent="0x103faa0"/>
+    <token id="0x103fc30" file="joystick_servo_control.cpp" linenr="180" str=")" scope="0x104b710" link="0x103f680"/>
+    <token id="0x103fce0" file="joystick_servo_control.cpp" linenr="180" str=";" scope="0x104b710"/>
+    <token id="0x103fd90" file="joystick_servo_control.cpp" linenr="182" str="sleep" scope="0x104b710" type="name" astParent="0x103fe40"/>
+    <token id="0x103fe40" file="joystick_servo_control.cpp" linenr="182" str="(" scope="0x104b710" link="0x103ffa0" astOperand1="0x103fd90" astOperand2="0x103fef0"/>
+    <token id="0x103fef0" file="joystick_servo_control.cpp" linenr="182" str="3" scope="0x104b710" type="number" isInt="True" values="0x103fef8" astParent="0x103fe40"/>
+    <token id="0x103ffa0" file="joystick_servo_control.cpp" linenr="182" str=")" scope="0x104b710" link="0x103fe40"/>
+    <token id="0x1040050" file="joystick_servo_control.cpp" linenr="182" str=";" scope="0x104b710"/>
+    <token id="0x1040100" file="joystick_servo_control.cpp" linenr="183" str="client_servo_reference" scope="0x104b710" type="name" varId="1" variable="0x104bf90" astParent="0x10401e0"/>
+    <token id="0x10401e0" file="joystick_servo_control.cpp" linenr="183" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1040100" astOperand2="0x1040810"/>
+    <token id="0x1040290" file="joystick_servo_control.cpp" linenr="184" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x1040340"/>
+    <token id="0x1040340" file="joystick_servo_control.cpp" linenr="184" str="." scope="0x104b710" astParent="0x1040810" astOperand1="0x1040290" astOperand2="0x10403f0"/>
+    <token id="0x10403f0" file="joystick_servo_control.cpp" linenr="184" str="serviceClient" scope="0x104b710" type="name" astParent="0x1040340"/>
+    <token id="0x10404a0" file="joystick_servo_control.cpp" linenr="184" str="&lt;" scope="0x104b710" link="0x1040760"/>
+    <token id="0x1040550" file="joystick_servo_control.cpp" linenr="184" str="phidgets" scope="0x104b710" type="name"/>
+    <token id="0x1040600" file="joystick_servo_control.cpp" linenr="184" str="::" scope="0x104b710"/>
+    <token id="0x10406b0" file="joystick_servo_control.cpp" linenr="184" str="servo_reference" scope="0x104b710" type="name"/>
+    <token id="0x1040760" file="joystick_servo_control.cpp" linenr="184" str="&gt;" scope="0x104b710" link="0x10404a0"/>
+    <token id="0x1040810" file="joystick_servo_control.cpp" linenr="184" str="(" scope="0x104b710" link="0x10409a0" astParent="0x10401e0" astOperand1="0x1040340" astOperand2="0x10408c0"/>
+    <token id="0x10408c0" file="joystick_servo_control.cpp" linenr="184" str="servo_reference_name" scope="0x104b710" type="name" varId="40" variable="0x104c7a0" values="0x10408c8" astParent="0x1040810"/>
+    <token id="0x10409a0" file="joystick_servo_control.cpp" linenr="184" str=")" scope="0x104b710" link="0x1040810"/>
+    <token id="0x1040a50" file="joystick_servo_control.cpp" linenr="184" str=";" scope="0x104b710"/>
+    <token id="0x1040b00" file="joystick_servo_control.cpp" linenr="187" str="set_servo_reference" scope="0x104b710" type="name" function="0x1048b50" astParent="0x1040be0"/>
+    <token id="0x1040be0" file="joystick_servo_control.cpp" linenr="187" str="(" scope="0x104b710" link="0x10412c0" astOperand1="0x1040b00" astOperand2="0x1041160"/>
+    <token id="0x1040c90" file="joystick_servo_control.cpp" linenr="187" str="servo_index0" scope="0x104b710" type="name" varId="6" variable="0x104c1c0" astParent="0x1040d40"/>
+    <token id="0x1040d40" file="joystick_servo_control.cpp" linenr="187" str="," scope="0x104b710" astParent="0x1040ea0" astOperand1="0x1040c90" astOperand2="0x1040df0"/>
+    <token id="0x1040df0" file="joystick_servo_control.cpp" linenr="187" str="false" scope="0x104b710" type="name" values="0x1040df8" astParent="0x1040d40"/>
+    <token id="0x1040ea0" file="joystick_servo_control.cpp" linenr="187" str="," scope="0x104b710" astParent="0x1041000" astOperand1="0x1040d40" astOperand2="0x1040f50"/>
+    <token id="0x1040f50" file="joystick_servo_control.cpp" linenr="187" str="127" scope="0x104b710" type="number" isInt="True" values="0x1040f58" astParent="0x1040ea0"/>
+    <token id="0x1041000" file="joystick_servo_control.cpp" linenr="187" str="," scope="0x104b710" astParent="0x1041160" astOperand1="0x1040ea0" astOperand2="0x10410b0"/>
+    <token id="0x10410b0" file="joystick_servo_control.cpp" linenr="187" str="speed" scope="0x104b710" type="name" varId="3" variable="0x104c070" astParent="0x1041000"/>
+    <token id="0x1041160" file="joystick_servo_control.cpp" linenr="187" str="," scope="0x104b710" astParent="0x1040be0" astOperand1="0x1041000" astOperand2="0x1041210"/>
+    <token id="0x1041210" file="joystick_servo_control.cpp" linenr="188" str="acceleration" scope="0x104b710" type="name" varId="4" variable="0x104c0e0" astParent="0x1041160"/>
+    <token id="0x10412c0" file="joystick_servo_control.cpp" linenr="188" str=")" scope="0x104b710" link="0x1040be0"/>
+    <token id="0x1041370" file="joystick_servo_control.cpp" linenr="188" str=";" scope="0x104b710"/>
+    <token id="0x1041420" file="joystick_servo_control.cpp" linenr="189" str="set_servo_reference" scope="0x104b710" type="name" function="0x1048b50" astParent="0x1041500"/>
+    <token id="0x1041500" file="joystick_servo_control.cpp" linenr="189" str="(" scope="0x104b710" link="0x1041be0" astOperand1="0x1041420" astOperand2="0x1041a80"/>
+    <token id="0x10415b0" file="joystick_servo_control.cpp" linenr="189" str="servo_index1" scope="0x104b710" type="name" varId="7" variable="0x104c230" astParent="0x1041660"/>
+    <token id="0x1041660" file="joystick_servo_control.cpp" linenr="189" str="," scope="0x104b710" astParent="0x10417c0" astOperand1="0x10415b0" astOperand2="0x1041710"/>
+    <token id="0x1041710" file="joystick_servo_control.cpp" linenr="189" str="false" scope="0x104b710" type="name" values="0x1041718" astParent="0x1041660"/>
+    <token id="0x10417c0" file="joystick_servo_control.cpp" linenr="189" str="," scope="0x104b710" astParent="0x1041920" astOperand1="0x1041660" astOperand2="0x1041870"/>
+    <token id="0x1041870" file="joystick_servo_control.cpp" linenr="189" str="127" scope="0x104b710" type="number" isInt="True" values="0x1041878" astParent="0x10417c0"/>
+    <token id="0x1041920" file="joystick_servo_control.cpp" linenr="189" str="," scope="0x104b710" astParent="0x1041a80" astOperand1="0x10417c0" astOperand2="0x10419d0"/>
+    <token id="0x10419d0" file="joystick_servo_control.cpp" linenr="189" str="speed" scope="0x104b710" type="name" varId="3" variable="0x104c070" astParent="0x1041920"/>
+    <token id="0x1041a80" file="joystick_servo_control.cpp" linenr="189" str="," scope="0x104b710" astParent="0x1041500" astOperand1="0x1041920" astOperand2="0x1041b30"/>
+    <token id="0x1041b30" file="joystick_servo_control.cpp" linenr="190" str="acceleration" scope="0x104b710" type="name" varId="4" variable="0x104c0e0" astParent="0x1041a80"/>
+    <token id="0x1041be0" file="joystick_servo_control.cpp" linenr="190" str=")" scope="0x104b710" link="0x1041500"/>
+    <token id="0x1041c90" file="joystick_servo_control.cpp" linenr="190" str=";" scope="0x104b710"/>
+    <token id="0x1041d40" file="joystick_servo_control.cpp" linenr="193" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x1041df0"/>
+    <token id="0x1041df0" file="joystick_servo_control.cpp" linenr="193" str="." scope="0x104b710" astParent="0x1041f50" astOperand1="0x1041d40" astOperand2="0x1041ea0"/>
+    <token id="0x1041ea0" file="joystick_servo_control.cpp" linenr="193" str="setParam" scope="0x104b710" type="name" astParent="0x1041df0"/>
+    <token id="0x1041f50" file="joystick_servo_control.cpp" linenr="193" str="(" scope="0x104b710" link="0x1042270" astOperand1="0x1041df0" astOperand2="0x1042110"/>
+    <token id="0x1042030" file="joystick_servo_control.cpp" linenr="193" str="&quot;joystick/enable&quot;" scope="0x104b710" type="string" strlen="15" values="0x1042038" astParent="0x1042110"/>
+    <token id="0x1042110" file="joystick_servo_control.cpp" linenr="193" str="," scope="0x104b710" astParent="0x1041f50" astOperand1="0x1042030" astOperand2="0x10421c0"/>
+    <token id="0x10421c0" file="joystick_servo_control.cpp" linenr="193" str="true" scope="0x104b710" type="name" values="0x10421c8" astParent="0x1042110"/>
+    <token id="0x1042270" file="joystick_servo_control.cpp" linenr="193" str=")" scope="0x104b710" link="0x1041f50"/>
+    <token id="0x1042320" file="joystick_servo_control.cpp" linenr="193" str=";" scope="0x104b710"/>
+    <token id="0x10423d0" file="joystick_servo_control.cpp" linenr="195" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x1042480"/>
+    <token id="0x1042480" file="joystick_servo_control.cpp" linenr="195" str="." scope="0x104b710" astParent="0x10425e0" astOperand1="0x10423d0" astOperand2="0x1042530"/>
+    <token id="0x1042530" file="joystick_servo_control.cpp" linenr="195" str="setParam" scope="0x104b710" type="name" astParent="0x1042480"/>
+    <token id="0x10425e0" file="joystick_servo_control.cpp" linenr="195" str="(" scope="0x104b710" link="0x10428d0" astOperand1="0x1042480" astOperand2="0x1042770"/>
+    <token id="0x1042690" file="joystick_servo_control.cpp" linenr="195" str="&quot;joystick/enable_servo_control&quot;" scope="0x104b710" type="string" strlen="29" values="0x1042698" astParent="0x1042770"/>
+    <token id="0x1042770" file="joystick_servo_control.cpp" linenr="195" str="," scope="0x104b710" astParent="0x10425e0" astOperand1="0x1042690" astOperand2="0x1042820"/>
+    <token id="0x1042820" file="joystick_servo_control.cpp" linenr="195" str="enable" scope="0x104b710" type="name" varId="44" variable="0x104c960" values="0x1042828" astParent="0x1042770"/>
+    <token id="0x10428d0" file="joystick_servo_control.cpp" linenr="195" str=")" scope="0x104b710" link="0x10425e0"/>
+    <token id="0x1042980" file="joystick_servo_control.cpp" linenr="195" str=";" scope="0x104b710"/>
+    <token id="0x1042a30" file="joystick_servo_control.cpp" linenr="197" str="if" scope="0x104b710" type="name" astParent="0x1042ae0"/>
+    <token id="0x1042ae0" file="joystick_servo_control.cpp" linenr="197" str="(" scope="0x104b710" link="0x1042cf0" astOperand1="0x1042a30" astOperand2="0x1042b90"/>
+    <token id="0x1042b90" file="joystick_servo_control.cpp" linenr="197" str="!" scope="0x104b710" type="op" isLogicalOp="True" values="0x1042b98" astParent="0x1042ae0" astOperand1="0x1042c40"/>
+    <token id="0x1042c40" file="joystick_servo_control.cpp" linenr="197" str="enable" scope="0x104b710" type="name" varId="44" variable="0x104c960" values="0x1042c48" astParent="0x1042b90"/>
+    <token id="0x1042cf0" file="joystick_servo_control.cpp" linenr="197" str=")" scope="0x104b710" link="0x1042ae0"/>
+    <token id="0x1042da0" file="joystick_servo_control.cpp" linenr="197" str="{" scope="0x104bd00" link="0x1043200"/>
+    <token id="0x1042e50" file="joystick_servo_control.cpp" linenr="198" str="ROS_INFO" scope="0x104bd00" type="name" astParent="0x1042f00"/>
+    <token id="0x1042f00" file="joystick_servo_control.cpp" linenr="198" str="(" scope="0x104bd00" link="0x10430a0" astOperand1="0x1042e50" astOperand2="0x1042fb0"/>
+    <token id="0x1042fb0" file="joystick_servo_control.cpp" linenr="198" str="&quot;Waiting for enable parameter to be set&quot;" scope="0x104bd00" type="string" strlen="38" values="0x1042fb8" astParent="0x1042f00"/>
+    <token id="0x10430a0" file="joystick_servo_control.cpp" linenr="198" str=")" scope="0x104bd00" link="0x1042f00"/>
+    <token id="0x1043150" file="joystick_servo_control.cpp" linenr="198" str=";" scope="0x104bd00"/>
+    <token id="0x1043200" file="joystick_servo_control.cpp" linenr="199" str="}" scope="0x104bd00" link="0x1042da0"/>
+    <token id="0x10432b0" file="joystick_servo_control.cpp" linenr="201" str="int" scope="0x104b710" type="name"/>
+    <token id="0x1043360" file="joystick_servo_control.cpp" linenr="201" str="frequency" scope="0x104b710" type="name" varId="48" variable="0x104cb20"/>
+    <token id="0x1043410" file="joystick_servo_control.cpp" linenr="201" str=";" scope="0x104b710"/>
+    <token id="0x1048810" file="joystick_servo_control.cpp" linenr="201" str="frequency" scope="0x104b710" type="name" varId="48" variable="0x104cb20" astParent="0x10488c0"/>
+    <token id="0x10488c0" file="joystick_servo_control.cpp" linenr="201" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x1048810" astOperand2="0x10434c0"/>
+    <token id="0x10434c0" file="joystick_servo_control.cpp" linenr="201" str="30" scope="0x104b710" type="number" isInt="True" values="0x10434c8" astParent="0x10488c0"/>
+    <token id="0x1043570" file="joystick_servo_control.cpp" linenr="201" str=";" scope="0x104b710"/>
+    <token id="0x1043620" file="joystick_servo_control.cpp" linenr="202" str="n" scope="0x104b710" type="name" varId="38" variable="0x104c6c0" astParent="0x10436d0"/>
+    <token id="0x10436d0" file="joystick_servo_control.cpp" linenr="202" str="." scope="0x104b710" astParent="0x1043830" astOperand1="0x1043620" astOperand2="0x1043780"/>
+    <token id="0x1043780" file="joystick_servo_control.cpp" linenr="202" str="setParam" scope="0x104b710" type="name" astParent="0x10436d0"/>
+    <token id="0x1043830" file="joystick_servo_control.cpp" linenr="202" str="(" scope="0x104b710" link="0x1043af0" astOperand1="0x10436d0" astOperand2="0x1043990"/>
+    <token id="0x10438e0" file="joystick_servo_control.cpp" linenr="202" str="&quot;frequency&quot;" scope="0x104b710" type="string" strlen="9" values="0x10438e8" astParent="0x1043990"/>
+    <token id="0x1043990" file="joystick_servo_control.cpp" linenr="202" str="," scope="0x104b710" astParent="0x1043830" astOperand1="0x10438e0" astOperand2="0x1043a40"/>
+    <token id="0x1043a40" file="joystick_servo_control.cpp" linenr="202" str="frequency" scope="0x104b710" type="name" varId="48" variable="0x104cb20" values="0x1043a48" astParent="0x1043990"/>
+    <token id="0x1043af0" file="joystick_servo_control.cpp" linenr="202" str=")" scope="0x104b710" link="0x1043830"/>
+    <token id="0x1043ba0" file="joystick_servo_control.cpp" linenr="202" str=";" scope="0x104b710"/>
+    <token id="0x1043c50" file="joystick_servo_control.cpp" linenr="204" str="ros" scope="0x104b710" type="name" astParent="0x1043d00"/>
+    <token id="0x1043d00" file="joystick_servo_control.cpp" linenr="204" str="::" scope="0x104b710" astParent="0x1043f10" astOperand1="0x1043c50" astOperand2="0x1043e60"/>
+    <token id="0x1043db0" file="joystick_servo_control.cpp" linenr="204" str="Rate" scope="0x104b710" type="name"/>
+    <token id="0x1043e60" file="joystick_servo_control.cpp" linenr="204" str="loop_rate" scope="0x104b710" type="name" varId="49" variable="0x104cb90" astParent="0x1043d00"/>
+    <token id="0x1043f10" file="joystick_servo_control.cpp" linenr="204" str="(" scope="0x104b710" link="0x1044070" astOperand1="0x1043d00" astOperand2="0x1043fc0"/>
+    <token id="0x1043fc0" file="joystick_servo_control.cpp" linenr="204" str="frequency" scope="0x104b710" type="name" varId="48" variable="0x104cb20" values="0x1043fc8" astParent="0x1043f10"/>
+    <token id="0x1044070" file="joystick_servo_control.cpp" linenr="204" str=")" scope="0x104b710" link="0x1043f10"/>
+    <token id="0x1044120" file="joystick_servo_control.cpp" linenr="204" str=";" scope="0x104b710"/>
+    <token id="0x10441d0" file="joystick_servo_control.cpp" linenr="205" str="initialised" scope="0x104b710" type="name" varId="8" variable="0x104c2a0" astParent="0x1044280"/>
+    <token id="0x1044280" file="joystick_servo_control.cpp" linenr="205" str="=" scope="0x104b710" type="op" isAssignmentOp="True" astOperand1="0x10441d0" astOperand2="0x1044330"/>
+    <token id="0x1044330" file="joystick_servo_control.cpp" linenr="205" str="true" scope="0x104b710" type="name" values="0x1044338" astParent="0x1044280"/>
+    <token id="0x10443e0" file="joystick_servo_control.cpp" linenr="205" str=";" scope="0x104b710"/>
+    <token id="0x1044490" file="joystick_servo_control.cpp" linenr="206" str="while" scope="0x104b710" type="name" astParent="0x1044540"/>
+    <token id="0x1044540" file="joystick_servo_control.cpp" linenr="206" str="(" scope="0x104b710" link="0x1044960" astOperand1="0x1044490" astOperand2="0x1044800"/>
+    <token id="0x10445f0" file="joystick_servo_control.cpp" linenr="206" str="ros" scope="0x104b710" type="name" astParent="0x10446a0"/>
+    <token id="0x10446a0" file="joystick_servo_control.cpp" linenr="206" str="::" scope="0x104b710" astParent="0x1044800" astOperand1="0x10445f0" astOperand2="0x1044750"/>
+    <token id="0x1044750" file="joystick_servo_control.cpp" linenr="206" str="ok" scope="0x104b710" type="name" astParent="0x10446a0"/>
+    <token id="0x1044800" file="joystick_servo_control.cpp" linenr="206" str="(" scope="0x104b710" link="0x10448b0" astParent="0x1044540" astOperand1="0x10446a0"/>
+    <token id="0x10448b0" file="joystick_servo_control.cpp" linenr="206" str=")" scope="0x104b710" link="0x1044800"/>
+    <token id="0x1044960" file="joystick_servo_control.cpp" linenr="206" str=")" scope="0x104b710" link="0x1044540"/>
+    <token id="0x1044a10" file="joystick_servo_control.cpp" linenr="206" str="{" scope="0x104be30" link="0x1045300"/>
+    <token id="0x1044ac0" file="joystick_servo_control.cpp" linenr="207" str="ros" scope="0x104be30" type="name" astParent="0x1044b70"/>
+    <token id="0x1044b70" file="joystick_servo_control.cpp" linenr="207" str="::" scope="0x104be30" astParent="0x1044cd0" astOperand1="0x1044ac0" astOperand2="0x1044c20"/>
+    <token id="0x1044c20" file="joystick_servo_control.cpp" linenr="207" str="spinOnce" scope="0x104be30" type="name" astParent="0x1044b70"/>
+    <token id="0x1044cd0" file="joystick_servo_control.cpp" linenr="207" str="(" scope="0x104be30" link="0x1044d80" astOperand1="0x1044b70"/>
+    <token id="0x1044d80" file="joystick_servo_control.cpp" linenr="207" str=")" scope="0x104be30" link="0x1044cd0"/>
+    <token id="0x1044e30" file="joystick_servo_control.cpp" linenr="207" str=";" scope="0x104be30"/>
+    <token id="0x1044ee0" file="joystick_servo_control.cpp" linenr="208" str="loop_rate" scope="0x104be30" type="name" varId="49" variable="0x104cb90" astParent="0x1044f90"/>
+    <token id="0x1044f90" file="joystick_servo_control.cpp" linenr="208" str="." scope="0x104be30" astParent="0x10450f0" astOperand1="0x1044ee0" astOperand2="0x1045040"/>
+    <token id="0x1045040" file="joystick_servo_control.cpp" linenr="208" str="sleep" scope="0x104be30" type="name" astParent="0x1044f90"/>
+    <token id="0x10450f0" file="joystick_servo_control.cpp" linenr="208" str="(" scope="0x104be30" link="0x10451a0" astOperand1="0x1044f90"/>
+    <token id="0x10451a0" file="joystick_servo_control.cpp" linenr="208" str=")" scope="0x104be30" link="0x10450f0"/>
+    <token id="0x1045250" file="joystick_servo_control.cpp" linenr="208" str=";" scope="0x104be30"/>
+    <token id="0x1045300" file="joystick_servo_control.cpp" linenr="209" str="}" scope="0x104be30" link="0x1044a10"/>
+    <token id="0x10453b0" file="joystick_servo_control.cpp" linenr="211" str="set_servo_reference" scope="0x104b710" type="name" function="0x1048b50" astParent="0x1045460"/>
+    <token id="0x1045460" file="joystick_servo_control.cpp" linenr="211" str="(" scope="0x104b710" link="0x1045b40" astOperand1="0x10453b0" astOperand2="0x10459e0"/>
+    <token id="0x1045510" file="joystick_servo_control.cpp" linenr="211" str="servo_index0" scope="0x104b710" type="name" varId="6" variable="0x104c1c0" astParent="0x10455c0"/>
+    <token id="0x10455c0" file="joystick_servo_control.cpp" linenr="211" str="," scope="0x104b710" astParent="0x1045720" astOperand1="0x1045510" astOperand2="0x1045670"/>
+    <token id="0x1045670" file="joystick_servo_control.cpp" linenr="211" str="false" scope="0x104b710" type="name" values="0x1045678" astParent="0x10455c0"/>
+    <token id="0x1045720" file="joystick_servo_control.cpp" linenr="211" str="," scope="0x104b710" astParent="0x1045880" astOperand1="0x10455c0" astOperand2="0x10457d0"/>
+    <token id="0x10457d0" file="joystick_servo_control.cpp" linenr="211" str="127" scope="0x104b710" type="number" isInt="True" values="0x10457d8" astParent="0x1045720"/>
+    <token id="0x1045880" file="joystick_servo_control.cpp" linenr="211" str="," scope="0x104b710" astParent="0x10459e0" astOperand1="0x1045720" astOperand2="0x1045930"/>
+    <token id="0x1045930" file="joystick_servo_control.cpp" linenr="211" str="speed" scope="0x104b710" type="name" varId="3" variable="0x104c070" astParent="0x1045880"/>
+    <token id="0x10459e0" file="joystick_servo_control.cpp" linenr="211" str="," scope="0x104b710" astParent="0x1045460" astOperand1="0x1045880" astOperand2="0x1045a90"/>
+    <token id="0x1045a90" file="joystick_servo_control.cpp" linenr="212" str="acceleration" scope="0x104b710" type="name" varId="4" variable="0x104c0e0" astParent="0x10459e0"/>
+    <token id="0x1045b40" file="joystick_servo_control.cpp" linenr="212" str=")" scope="0x104b710" link="0x1045460"/>
+    <token id="0x1045bf0" file="joystick_servo_control.cpp" linenr="212" str=";" scope="0x104b710"/>
+    <token id="0x1045ca0" file="joystick_servo_control.cpp" linenr="213" str="set_servo_reference" scope="0x104b710" type="name" function="0x1048b50" astParent="0x1045d80"/>
+    <token id="0x1045d80" file="joystick_servo_control.cpp" linenr="213" str="(" scope="0x104b710" link="0x1046460" astOperand1="0x1045ca0" astOperand2="0x1046300"/>
+    <token id="0x1045e30" file="joystick_servo_control.cpp" linenr="213" str="servo_index1" scope="0x104b710" type="name" varId="7" variable="0x104c230" astParent="0x1045ee0"/>
+    <token id="0x1045ee0" file="joystick_servo_control.cpp" linenr="213" str="," scope="0x104b710" astParent="0x1046040" astOperand1="0x1045e30" astOperand2="0x1045f90"/>
+    <token id="0x1045f90" file="joystick_servo_control.cpp" linenr="213" str="false" scope="0x104b710" type="name" values="0x1045f98" astParent="0x1045ee0"/>
+    <token id="0x1046040" file="joystick_servo_control.cpp" linenr="213" str="," scope="0x104b710" astParent="0x10461a0" astOperand1="0x1045ee0" astOperand2="0x10460f0"/>
+    <token id="0x10460f0" file="joystick_servo_control.cpp" linenr="213" str="127" scope="0x104b710" type="number" isInt="True" values="0x10460f8" astParent="0x1046040"/>
+    <token id="0x10461a0" file="joystick_servo_control.cpp" linenr="213" str="," scope="0x104b710" astParent="0x1046300" astOperand1="0x1046040" astOperand2="0x1046250"/>
+    <token id="0x1046250" file="joystick_servo_control.cpp" linenr="213" str="speed" scope="0x104b710" type="name" varId="3" variable="0x104c070" astParent="0x10461a0"/>
+    <token id="0x1046300" file="joystick_servo_control.cpp" linenr="213" str="," scope="0x104b710" astParent="0x1045d80" astOperand1="0x10461a0" astOperand2="0x10463b0"/>
+    <token id="0x10463b0" file="joystick_servo_control.cpp" linenr="214" str="acceleration" scope="0x104b710" type="name" varId="4" variable="0x104c0e0" astParent="0x1046300"/>
+    <token id="0x1046460" file="joystick_servo_control.cpp" linenr="214" str=")" scope="0x104b710" link="0x1045d80"/>
+    <token id="0x1046510" file="joystick_servo_control.cpp" linenr="214" str=";" scope="0x104b710"/>
+    <token id="0x10465c0" file="joystick_servo_control.cpp" linenr="216" str="return" scope="0x104b710" type="name" astOperand1="0x1046670"/>
+    <token id="0x1046670" file="joystick_servo_control.cpp" linenr="216" str="0" scope="0x104b710" type="number" isInt="True" values="0x1046678" astParent="0x10465c0"/>
+    <token id="0x1046720" file="joystick_servo_control.cpp" linenr="216" str=";" scope="0x104b710"/>
+    <token id="0x10467d0" file="joystick_servo_control.cpp" linenr="217" str="}" scope="0x104b710" link="0x1033fa0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1046ba0" type="Global">
+      <functionList>
+        <function id="0x1048980" tokenDef="0x10223a0" name="servoCallback">
+          <arg nr="1" variable="0x104cc00"/>
+        </function>
+        <function id="0x1048b50" tokenDef="0x1023c10" name="set_servo_reference">
+          <arg nr="1" variable="0x104cc70"/>
+          <arg nr="2" variable="0x104cce0"/>
+          <arg nr="3" variable="0x104cd50"/>
+          <arg nr="4" variable="0x104cdc0"/>
+          <arg nr="5" variable="0x104ce30"/>
+        </function>
+        <function id="0x104ad50" tokenDef="0x102a7e0" name="joystickCallback">
+          <arg nr="1" variable="0x104cea0"/>
+        </function>
+        <function id="0x104b670" tokenDef="0x10338c0" name="main">
+          <arg nr="1" variable="0x104cf10"/>
+          <arg nr="2" variable="0x104cf80"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x104bf90"/>
+        <var id="0x104c000"/>
+        <var id="0x104c070"/>
+        <var id="0x104c0e0"/>
+        <var id="0x104c150"/>
+        <var id="0x104c1c0"/>
+        <var id="0x104c230"/>
+        <var id="0x104c2a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1048a20" type="Function" className="servoCallback" classStart="0x1022b30" classEnd="0x1023ab0" nestedIn="0x1046ba0" function="0x1048980">
+      <varlist>
+        <var id="0x104c310"/>
+      </varlist>
+    </scope>
+    <scope id="0x1048bf0" type="Function" className="set_servo_reference" classStart="0x10247c0" classEnd="0x102a680" nestedIn="0x1046ba0" function="0x1048b50">
+      <varlist>
+        <var id="0x104c3b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x104a630" type="If" classStart="0x10282d0" classEnd="0x102a010" nestedIn="0x1048bf0"/>
+    <scope id="0x104a760" type="If" classStart="0x1028c70" classEnd="0x10293b0" nestedIn="0x104a630"/>
+    <scope id="0x104a890" type="Else" classStart="0x1029510" classEnd="0x1029f60" nestedIn="0x104a630"/>
+    <scope id="0x104a9c0" type="Try" classStart="0x1029510" classEnd="0x1029f60" nestedIn="0x104a630"/>
+    <scope id="0x104aaf0" type="Else" classStart="0x102a170" classEnd="0x102a5d0" nestedIn="0x1048bf0"/>
+    <scope id="0x104ac20" type="Try" classStart="0x102a170" classEnd="0x102a5d0" nestedIn="0x1048bf0"/>
+    <scope id="0x104ae20" type="Function" className="joystickCallback" classStart="0x102af70" classEnd="0x1033760" nestedIn="0x1046ba0" function="0x104ad50"/>
+    <scope id="0x104af50" type="If" classStart="0x102b2e0" classEnd="0x10336b0" nestedIn="0x104ae20">
+      <varlist>
+        <var id="0x104c420"/>
+        <var id="0x104c490"/>
+      </varlist>
+    </scope>
+    <scope id="0x104b080" type="If" classStart="0x102c420" classEnd="0x1033600" nestedIn="0x104af50">
+      <varlist>
+        <var id="0x104c500"/>
+        <var id="0x104c570"/>
+        <var id="0x104c5e0"/>
+        <var id="0x104c650"/>
+      </varlist>
+    </scope>
+    <scope id="0x104b1b0" type="If" classStart="0x102e1b0" classEnd="0x103c580" nestedIn="0x104b080"/>
+    <scope id="0x104b2e0" type="If" classStart="0x1030600" classEnd="0x1032100" nestedIn="0x104b080"/>
+    <scope id="0x104b410" type="Else" classStart="0x1032260" classEnd="0x1033550" nestedIn="0x104b080"/>
+    <scope id="0x104b540" type="Try" classStart="0x1032260" classEnd="0x1033550" nestedIn="0x104b080"/>
+    <scope id="0x104b710" type="Function" className="main" classStart="0x1033fa0" classEnd="0x10467d0" nestedIn="0x1046ba0" function="0x104b670">
+      <varlist>
+        <var id="0x104c6c0"/>
+        <var id="0x104c730"/>
+        <var id="0x104c7a0"/>
+        <var id="0x104c810"/>
+        <var id="0x104c880"/>
+        <var id="0x104c8f0"/>
+        <var id="0x104c960"/>
+        <var id="0x104c9d0"/>
+        <var id="0x104ca40"/>
+        <var id="0x104cab0"/>
+        <var id="0x104cb20"/>
+        <var id="0x104cb90"/>
+      </varlist>
+    </scope>
+    <scope id="0x104b840" type="If" classStart="0x101f340" classEnd="0x101f3f0" nestedIn="0x104b710"/>
+    <scope id="0x104b970" type="If" classStart="0x1046f50" classEnd="0x1047000" nestedIn="0x104b710"/>
+    <scope id="0x104baa0" type="If" classStart="0x10470b0" classEnd="0x1046880" nestedIn="0x104b710"/>
+    <scope id="0x104bbd0" type="If" classStart="0x103dd90" classEnd="0x103e3c0" nestedIn="0x104b710"/>
+    <scope id="0x104bd00" type="If" classStart="0x1042da0" classEnd="0x1043200" nestedIn="0x104b710"/>
+    <scope id="0x104be30" type="While" classStart="0x1044a10" classEnd="0x1045300" nestedIn="0x104b710"/>
+  </scopes>
+  <variables>
+    <var id="0x104bf90" nameToken="0x101f950" typeStartToken="0x101f740" typeEndToken="0x101f8a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c000" nameToken="0x101fcc0" typeStartToken="0x101fab0" typeEndToken="0x101fc10" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c070" nameToken="0x1020f00" typeStartToken="0x101fe20" typeEndToken="0x101fe20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c0e0" nameToken="0x1021270" typeStartToken="0x10211c0" typeEndToken="0x10211c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c150" nameToken="0x10215e0" typeStartToken="0x1021530" typeEndToken="0x1021530" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c1c0" nameToken="0x1021950" typeStartToken="0x10218a0" typeEndToken="0x10218a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c230" nameToken="0x1021cc0" typeStartToken="0x1021c10" typeEndToken="0x1021c10" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c2a0" nameToken="0x1022030" typeStartToken="0x1021f80" typeEndToken="0x1021f80" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cc00" nameToken="0x10229d0" typeStartToken="0x10225b0" typeEndToken="0x1022920" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x104c310" nameToken="0x1022df0" typeStartToken="0x1022be0" typeEndToken="0x1022d40" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cc70" nameToken="0x1023e20" typeStartToken="0x1023d70" typeEndToken="0x1023d70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cce0" nameToken="0x1024030" typeStartToken="0x1023f80" typeEndToken="0x1023f80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cd50" nameToken="0x1024240" typeStartToken="0x1024190" typeEndToken="0x1024190" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cdc0" nameToken="0x1024450" typeStartToken="0x10243a0" typeEndToken="0x10243a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104ce30" nameToken="0x1024660" typeStartToken="0x10245b0" typeEndToken="0x10245b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c3b0" nameToken="0x1024a80" typeStartToken="0x1024870" typeEndToken="0x10249d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cea0" nameToken="0x102ae10" typeStartToken="0x102a9f0" typeEndToken="0x102ad60" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x104c420" nameToken="0x102b440" typeStartToken="0x102b390" typeEndToken="0x102b390" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c490" nameToken="0x102b940" typeStartToken="0x102b730" typeEndToken="0x102b890" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c500" nameToken="0x102c6e0" typeStartToken="0x102c4d0" typeEndToken="0x102c630" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c570" nameToken="0x102cb00" typeStartToken="0x102ca50" typeEndToken="0x102ca50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c5e0" nameToken="0x102d1e0" typeStartToken="0x102d130" typeEndToken="0x102d130" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c650" nameToken="0x102d8c0" typeStartToken="0x102d810" typeEndToken="0x102d810" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cf10" nameToken="0x1033ad0" typeStartToken="0x1033a20" typeEndToken="0x1033a20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cf80" nameToken="0x1033e40" typeStartToken="0x1033c30" typeEndToken="0x1033d90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x104c6c0" nameToken="0x1034f00" typeStartToken="0x1034cf0" typeEndToken="0x1034e50" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c730" nameToken="0x1035270" typeStartToken="0x1035060" typeEndToken="0x10351c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c7a0" nameToken="0x10357f0" typeStartToken="0x10355e0" typeEndToken="0x1035740" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c810" nameToken="0x1036350" typeStartToken="0x1036140" typeEndToken="0x10362a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c880" nameToken="0x1036e50" typeStartToken="0x1036c40" typeEndToken="0x1036da0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c8f0" nameToken="0x10379e0" typeStartToken="0x10377d0" typeEndToken="0x1037930" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c960" nameToken="0x1038380" typeStartToken="0x10382d0" typeEndToken="0x10382d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104c9d0" nameToken="0x1038d20" typeStartToken="0x1038c70" typeEndToken="0x1038c70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104ca40" nameToken="0x103e680" typeStartToken="0x103e470" typeEndToken="0x103e5d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cab0" nameToken="0x103f310" typeStartToken="0x103f100" typeEndToken="0x103f260" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cb20" nameToken="0x1043360" typeStartToken="0x10432b0" typeEndToken="0x10432b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x104cb90" nameToken="0x1043e60" typeStartToken="0x1043c50" typeEndToken="0x1043db0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1021068">
+      <value intvalue="20" known="true"/>
+    </values>
+    <values id="0x10213d8">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0x1021ab8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1021e28">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1022198">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x10232f8">
+      <value tokvalue="0x10232f0" known="true"/>
+    </values>
+    <values id="0x1025588">
+      <value intvalue="1" possible="true"/>
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1025b08">
+      <value intvalue="127" possible="true"/>
+    </values>
+    <values id="0x1027b48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1028b18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1028eb8">
+      <value tokvalue="0x1028eb0" known="true"/>
+    </values>
+    <values id="0x1029728">
+      <value tokvalue="0x1029720" known="true"/>
+    </values>
+    <values id="0x102a388">
+      <value tokvalue="0x102a380" known="true"/>
+    </values>
+    <values id="0x102b5d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102bd98">
+      <value tokvalue="0x102bd90" known="true"/>
+    </values>
+    <values id="0x102bf28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102cf28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102d608">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x102da28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102dfa8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102e268">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x102e528">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x102e818">
+      <value tokvalue="0x102e810" known="true"/>
+    </values>
+    <values id="0x102ee78">
+      <value tokvalue="0x102ee70" known="true"/>
+    </values>
+    <values id="0x102f348">
+      <value tokvalue="0x102f340" known="true"/>
+    </values>
+    <values id="0x1030978">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1030ad8">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1030e48">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x10316b8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1031818">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1031b88">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1032608">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1032768">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1032f28">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1033088">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x10341e8">
+      <value tokvalue="0x10341e0" known="true"/>
+    </values>
+    <values id="0x1034ab8">
+      <value tokvalue="0x1034ab0" known="true"/>
+    </values>
+    <values id="0x10353d8">
+      <value tokvalue="0x10353d0" known="true"/>
+    </values>
+    <values id="0x1035958">
+      <value tokvalue="0x1035950" known="true"/>
+    </values>
+    <values id="0x1035da8">
+      <value tokvalue="0x1035da0" known="true"/>
+    </values>
+    <values id="0x1035f38">
+      <value tokvalue="0x1035950" known="true"/>
+    </values>
+    <values id="0x10364b8">
+      <value tokvalue="0x10364b0" known="true"/>
+    </values>
+    <values id="0x10368d8">
+      <value tokvalue="0x10368d0" known="true"/>
+    </values>
+    <values id="0x1036a38">
+      <value tokvalue="0x10364b0" known="true"/>
+    </values>
+    <values id="0x1036fe8">
+      <value tokvalue="0x1036fe0" known="true"/>
+    </values>
+    <values id="0x1037438">
+      <value tokvalue="0x1037430" known="true"/>
+    </values>
+    <values id="0x10375c8">
+      <value tokvalue="0x1036fe0" known="true"/>
+    </values>
+    <values id="0x1037b48">
+      <value tokvalue="0x1037b40" known="true"/>
+    </values>
+    <values id="0x1037f68">
+      <value tokvalue="0x1037f60" known="true"/>
+    </values>
+    <values id="0x10380c8">
+      <value tokvalue="0x1037b40" known="true"/>
+    </values>
+    <values id="0x10384e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1038908">
+      <value tokvalue="0x1038900" known="true"/>
+    </values>
+    <values id="0x1038a68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1039148">
+      <value tokvalue="0x1039140" known="true"/>
+    </values>
+    <values id="0x1039828">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1039c48">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x103a5e8">
+      <value tokvalue="0x103a5e0" known="true"/>
+    </values>
+    <values id="0x103acc8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x103b0e8">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x103ba88">
+      <value tokvalue="0x103ba80" known="true"/>
+    </values>
+    <values id="0x103bbe8">
+      <value intvalue="1" condition-line="167" possible="true"/>
+    </values>
+    <values id="0x103c008">
+      <value intvalue="1" condition-line="167" possible="true"/>
+    </values>
+    <values id="0x103cfd8">
+      <value tokvalue="0x103cfd0" known="true"/>
+    </values>
+    <values id="0x103d608">
+      <value tokvalue="0x103d600" known="true"/>
+    </values>
+    <values id="0x103dfa8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x103e268">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x103eaa8">
+      <value tokvalue="0x1037b40" possible="true"/>
+    </values>
+    <values id="0x103ec08">
+      <value tokvalue="0x1036fe0" possible="true"/>
+    </values>
+    <values id="0x103ed98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x103f738">
+      <value tokvalue="0x1037b40" possible="true"/>
+    </values>
+    <values id="0x103f898">
+      <value tokvalue="0x10364b0" possible="true"/>
+    </values>
+    <values id="0x103f9f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x103fef8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x10408c8">
+      <value tokvalue="0x1035950" possible="true"/>
+    </values>
+    <values id="0x1040df8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1040f58">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1041718">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1041878">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1042038">
+      <value tokvalue="0x1042030" known="true"/>
+    </values>
+    <values id="0x10421c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1042698">
+      <value tokvalue="0x1042690" known="true"/>
+    </values>
+    <values id="0x1042828">
+      <value intvalue="0" condition-line="197" possible="true"/>
+    </values>
+    <values id="0x1042b98">
+      <value intvalue="1" possible="true"/>
+    </values>
+    <values id="0x1042c48">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1042fb8">
+      <value tokvalue="0x1042fb0" known="true"/>
+    </values>
+    <values id="0x10434c8">
+      <value intvalue="30" known="true"/>
+    </values>
+    <values id="0x10438e8">
+      <value tokvalue="0x10438e0" known="true"/>
+    </values>
+    <values id="0x1043a48">
+      <value intvalue="30" known="true"/>
+    </values>
+    <values id="0x1043fc8">
+      <value intvalue="30" possible="true"/>
+    </values>
+    <values id="0x1044338">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1045678">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x10457d8">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1045f98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x10460f8">
+      <value intvalue="127" known="true"/>
+    </values>
+    <values id="0x1046678">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

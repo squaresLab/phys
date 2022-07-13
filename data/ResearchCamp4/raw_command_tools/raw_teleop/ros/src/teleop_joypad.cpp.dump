@@ -1,0 +1,1580 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x959560" file="../include/teleop_joypad.h" linenr="45" str="class" scope="0x993830" type="name"/>
+    <token id="0x959610" file="../include/teleop_joypad.h" linenr="45" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960"/>
+    <token id="0x959990" file="../include/teleop_joypad.h" linenr="46" str="{" scope="0x993960" link="0x966510"/>
+    <token id="0x959a40" file="../include/teleop_joypad.h" linenr="47" str="public:" scope="0x993960" type="name"/>
+    <token id="0x959ba0" file="../include/teleop_joypad.h" linenr="48" str="TeleOpJoypad" scope="0x993960" type="name" function="0x993b40" astParent="0x959c50"/>
+    <token id="0x959c50" file="../include/teleop_joypad.h" linenr="48" str="(" scope="0x993960" link="0x95a070" astOperand1="0x959ba0" astOperand2="0x959f10"/>
+    <token id="0x959d00" file="../include/teleop_joypad.h" linenr="48" str="ros" scope="0x993960" type="name" astParent="0x959db0"/>
+    <token id="0x959db0" file="../include/teleop_joypad.h" linenr="48" str="::" scope="0x993960" astParent="0x959f10" astOperand1="0x959d00" astOperand2="0x959e60"/>
+    <token id="0x959e60" file="../include/teleop_joypad.h" linenr="48" str="NodeHandle" scope="0x993960" type="name" astParent="0x959db0"/>
+    <token id="0x959f10" file="../include/teleop_joypad.h" linenr="48" str="&amp;" scope="0x993960" type="op" astParent="0x959c50" astOperand1="0x959db0" astOperand2="0x959fc0"/>
+    <token id="0x959fc0" file="../include/teleop_joypad.h" linenr="48" str="nh" scope="0x993960" type="name" varId="1" astParent="0x959f10"/>
+    <token id="0x95a070" file="../include/teleop_joypad.h" linenr="48" str=")" scope="0x993960" link="0x959c50"/>
+    <token id="0x95a120" file="../include/teleop_joypad.h" linenr="48" str=";" scope="0x993960"/>
+    <token id="0x95a1d0" file="../include/teleop_joypad.h" linenr="49" str="void" scope="0x993960" type="name"/>
+    <token id="0x95a280" file="../include/teleop_joypad.h" linenr="49" str="publishCommands" scope="0x993960" type="name" function="0x993be0" astParent="0x95a330"/>
+    <token id="0x95a330" file="../include/teleop_joypad.h" linenr="49" str="(" scope="0x993960" link="0x95de60" astOperand1="0x95a280"/>
+    <token id="0x95de60" file="../include/teleop_joypad.h" linenr="49" str=")" scope="0x993960" link="0x95a330"/>
+    <token id="0x95df10" file="../include/teleop_joypad.h" linenr="49" str=";" scope="0x993960"/>
+    <token id="0x95dfc0" file="../include/teleop_joypad.h" linenr="51" str="private:" scope="0x993960" type="name"/>
+    <token id="0x95e120" file="../include/teleop_joypad.h" linenr="52" str="void" scope="0x993960" type="name"/>
+    <token id="0x95e1d0" file="../include/teleop_joypad.h" linenr="52" str="cbJoy" scope="0x993960" type="name" function="0x993c80" astParent="0x95e280"/>
+    <token id="0x95e280" file="../include/teleop_joypad.h" linenr="52" str="(" scope="0x993960" link="0x95e8b0" astOperand1="0x95e1d0" astOperand2="0x95e750"/>
+    <token id="0x95e330" file="../include/teleop_joypad.h" linenr="52" str="const" scope="0x993960" type="name"/>
+    <token id="0x95e3e0" file="../include/teleop_joypad.h" linenr="52" str="sensor_msgs" scope="0x993960" type="name" astParent="0x95e490"/>
+    <token id="0x95e490" file="../include/teleop_joypad.h" linenr="52" str="::" scope="0x993960" astParent="0x95e5f0" astOperand1="0x95e3e0" astOperand2="0x95e540"/>
+    <token id="0x95e540" file="../include/teleop_joypad.h" linenr="52" str="Joy" scope="0x993960" type="name" astParent="0x95e490"/>
+    <token id="0x95e5f0" file="../include/teleop_joypad.h" linenr="52" str="::" scope="0x993960" astParent="0x95e750" astOperand1="0x95e490" astOperand2="0x95e6a0"/>
+    <token id="0x95e6a0" file="../include/teleop_joypad.h" linenr="52" str="ConstPtr" scope="0x993960" type="name" astParent="0x95e5f0"/>
+    <token id="0x95e750" file="../include/teleop_joypad.h" linenr="52" str="&amp;" scope="0x993960" type="op" astParent="0x95e280" astOperand1="0x95e5f0" astOperand2="0x95e800"/>
+    <token id="0x95e800" file="../include/teleop_joypad.h" linenr="52" str="command" scope="0x993960" type="name" varId="2" astParent="0x95e750"/>
+    <token id="0x95e8b0" file="../include/teleop_joypad.h" linenr="52" str=")" scope="0x993960" link="0x95e280"/>
+    <token id="0x95e960" file="../include/teleop_joypad.h" linenr="52" str=";" scope="0x993960"/>
+    <token id="0x95ea10" file="../include/teleop_joypad.h" linenr="53" str="void" scope="0x993960" type="name"/>
+    <token id="0x95eac0" file="../include/teleop_joypad.h" linenr="53" str="cbJointStates" scope="0x993960" type="name" function="0x993d20" astParent="0x95eb70"/>
+    <token id="0x95eb70" file="../include/teleop_joypad.h" linenr="53" str="(" scope="0x993960" link="0x95f1a0" astOperand1="0x95eac0" astOperand2="0x95f040"/>
+    <token id="0x95ec20" file="../include/teleop_joypad.h" linenr="53" str="const" scope="0x993960" type="name"/>
+    <token id="0x95ecd0" file="../include/teleop_joypad.h" linenr="53" str="sensor_msgs" scope="0x993960" type="name" astParent="0x95ed80"/>
+    <token id="0x95ed80" file="../include/teleop_joypad.h" linenr="53" str="::" scope="0x993960" astParent="0x95eee0" astOperand1="0x95ecd0" astOperand2="0x95ee30"/>
+    <token id="0x95ee30" file="../include/teleop_joypad.h" linenr="53" str="JointState" scope="0x993960" type="name" astParent="0x95ed80"/>
+    <token id="0x95eee0" file="../include/teleop_joypad.h" linenr="53" str="::" scope="0x993960" astParent="0x95f040" astOperand1="0x95ed80" astOperand2="0x95ef90"/>
+    <token id="0x95ef90" file="../include/teleop_joypad.h" linenr="53" str="ConstPtr" scope="0x993960" type="name" astParent="0x95eee0"/>
+    <token id="0x95f040" file="../include/teleop_joypad.h" linenr="53" str="&amp;" scope="0x993960" type="op" astParent="0x95eb70" astOperand1="0x95eee0" astOperand2="0x95f0f0"/>
+    <token id="0x95f0f0" file="../include/teleop_joypad.h" linenr="53" str="state_msg" scope="0x993960" type="name" varId="3" astParent="0x95f040"/>
+    <token id="0x95f1a0" file="../include/teleop_joypad.h" linenr="53" str=")" scope="0x993960" link="0x95eb70"/>
+    <token id="0x95f250" file="../include/teleop_joypad.h" linenr="53" str=";" scope="0x993960"/>
+    <token id="0x95f300" file="../include/teleop_joypad.h" linenr="54" str="void" scope="0x993960" type="name"/>
+    <token id="0x95f3b0" file="../include/teleop_joypad.h" linenr="54" str="setAllArmJointVel" scope="0x993960" type="name" function="0x993dc0" astParent="0x95f460"/>
+    <token id="0x95f460" file="../include/teleop_joypad.h" linenr="54" str="(" scope="0x993960" link="0x95f670" astOperand1="0x95f3b0" astOperand2="0x95f5c0"/>
+    <token id="0x95f510" file="../include/teleop_joypad.h" linenr="54" str="double" scope="0x993960" type="name"/>
+    <token id="0x95f5c0" file="../include/teleop_joypad.h" linenr="54" str="motor_vel" scope="0x993960" type="name" varId="4" astParent="0x95f460"/>
+    <token id="0x95f670" file="../include/teleop_joypad.h" linenr="54" str=")" scope="0x993960" link="0x95f460"/>
+    <token id="0x95f720" file="../include/teleop_joypad.h" linenr="54" str=";" scope="0x993960"/>
+    <token id="0x95f7d0" file="../include/teleop_joypad.h" linenr="55" str="void" scope="0x993960" type="name"/>
+    <token id="0x95f880" file="../include/teleop_joypad.h" linenr="55" str="setSingleArmJointVel" scope="0x993960" type="name" function="0x993e60" astParent="0x95f930"/>
+    <token id="0x95f930" file="../include/teleop_joypad.h" linenr="55" str="(" scope="0x993960" link="0x95feb0" astOperand1="0x95f880" astOperand2="0x95fb40"/>
+    <token id="0x95f9e0" file="../include/teleop_joypad.h" linenr="55" str="double" scope="0x993960" type="name"/>
+    <token id="0x95fa90" file="../include/teleop_joypad.h" linenr="55" str="motor_vel" scope="0x993960" type="name" varId="5" astParent="0x95fb40"/>
+    <token id="0x95fb40" file="../include/teleop_joypad.h" linenr="55" str="," scope="0x993960" astParent="0x95f930" astOperand1="0x95fa90" astOperand2="0x95fca0"/>
+    <token id="0x95fbf0" file="../include/teleop_joypad.h" linenr="55" str="std" scope="0x993960" type="name" astParent="0x95fca0"/>
+    <token id="0x95fca0" file="../include/teleop_joypad.h" linenr="55" str="::" scope="0x993960" astParent="0x95fb40" astOperand1="0x95fbf0" astOperand2="0x95fe00"/>
+    <token id="0x95fd50" file="../include/teleop_joypad.h" linenr="55" str="string" scope="0x993960" type="name"/>
+    <token id="0x95fe00" file="../include/teleop_joypad.h" linenr="55" str="joint_name" scope="0x993960" type="name" varId="6" astParent="0x95fca0"/>
+    <token id="0x95feb0" file="../include/teleop_joypad.h" linenr="55" str=")" scope="0x993960" link="0x95f930"/>
+    <token id="0x95ff60" file="../include/teleop_joypad.h" linenr="55" str=";" scope="0x993960"/>
+    <token id="0x960010" file="../include/teleop_joypad.h" linenr="56" str="void" scope="0x993960" type="name"/>
+    <token id="0x9600c0" file="../include/teleop_joypad.h" linenr="56" str="checkArmJointLimits" scope="0x993960" type="name" function="0x993f00" astParent="0x9601a0"/>
+    <token id="0x9601a0" file="../include/teleop_joypad.h" linenr="56" str="(" scope="0x993960" link="0x960250" astOperand1="0x9600c0"/>
+    <token id="0x960250" file="../include/teleop_joypad.h" linenr="56" str=")" scope="0x993960" link="0x9601a0"/>
+    <token id="0x960300" file="../include/teleop_joypad.h" linenr="56" str=";" scope="0x993960"/>
+    <token id="0x9603b0" file="../include/teleop_joypad.h" linenr="57" str="void" scope="0x993960" type="name"/>
+    <token id="0x960460" file="../include/teleop_joypad.h" linenr="57" str="turnOnArmMotorsOn" scope="0x993960" type="name" function="0x993fa0" astParent="0x960540"/>
+    <token id="0x960540" file="../include/teleop_joypad.h" linenr="57" str="(" scope="0x993960" link="0x9605f0" astOperand1="0x960460"/>
+    <token id="0x9605f0" file="../include/teleop_joypad.h" linenr="57" str=")" scope="0x993960" link="0x960540"/>
+    <token id="0x9606a0" file="../include/teleop_joypad.h" linenr="57" str=";" scope="0x993960"/>
+    <token id="0x960750" file="../include/teleop_joypad.h" linenr="58" str="void" scope="0x993960" type="name"/>
+    <token id="0x960800" file="../include/teleop_joypad.h" linenr="58" str="turnOnArmMotorsOff" scope="0x993960" type="name" function="0x994090" astParent="0x9608e0"/>
+    <token id="0x9608e0" file="../include/teleop_joypad.h" linenr="58" str="(" scope="0x993960" link="0x960990" astOperand1="0x960800"/>
+    <token id="0x960990" file="../include/teleop_joypad.h" linenr="58" str=")" scope="0x993960" link="0x9608e0"/>
+    <token id="0x960a40" file="../include/teleop_joypad.h" linenr="58" str=";" scope="0x993960"/>
+    <token id="0x960af0" file="../include/teleop_joypad.h" linenr="60" str="sensor_msgs" scope="0x993960" type="name" astParent="0x960ba0"/>
+    <token id="0x960ba0" file="../include/teleop_joypad.h" linenr="60" str="::" scope="0x993960" astOperand1="0x960af0" astOperand2="0x960d00"/>
+    <token id="0x960c50" file="../include/teleop_joypad.h" linenr="60" str="JointState" scope="0x993960" type="name"/>
+    <token id="0x960d00" file="../include/teleop_joypad.h" linenr="60" str="current_joint_states_" scope="0x993960" type="name" varId="7" variable="0x997bb0" astParent="0x960ba0"/>
+    <token id="0x960de0" file="../include/teleop_joypad.h" linenr="60" str=";" scope="0x993960"/>
+    <token id="0x960e90" file="../include/teleop_joypad.h" linenr="61" str="bool" scope="0x993960" type="name"/>
+    <token id="0x960f70" file="../include/teleop_joypad.h" linenr="61" str="is_in_soft_joint_limits_" scope="0x993960" type="name" varId="8" variable="0x997c20"/>
+    <token id="0x961050" file="../include/teleop_joypad.h" linenr="61" str=";" scope="0x993960"/>
+    <token id="0x961100" file="../include/teleop_joypad.h" linenr="62" str="double" scope="0x993960" type="name"/>
+    <token id="0x9611b0" file="../include/teleop_joypad.h" linenr="62" str="soft_joint_limit_threshold_" scope="0x993960" type="name" varId="9" variable="0x997c90"/>
+    <token id="0x961290" file="../include/teleop_joypad.h" linenr="62" str=";" scope="0x993960"/>
+    <token id="0x961340" file="../include/teleop_joypad.h" linenr="63" str="double" scope="0x993960" type="name"/>
+    <token id="0x9613f0" file="../include/teleop_joypad.h" linenr="63" str="arm_max_vel_" scope="0x993960" type="name" varId="10" variable="0x997d00"/>
+    <token id="0x9614a0" file="../include/teleop_joypad.h" linenr="63" str=";" scope="0x993960"/>
+    <token id="0x961550" file="../include/teleop_joypad.h" linenr="64" str="std" scope="0x993960" type="name" astParent="0x961600"/>
+    <token id="0x961600" file="../include/teleop_joypad.h" linenr="64" str="::" scope="0x993960" astOperand1="0x961550" astOperand2="0x9616b0"/>
+    <token id="0x9616b0" file="../include/teleop_joypad.h" linenr="64" str="vector" scope="0x993960" type="name" astParent="0x961600"/>
+    <token id="0x961760" file="../include/teleop_joypad.h" linenr="64" str="&lt;" scope="0x993960" link="0x961a20"/>
+    <token id="0x961810" file="../include/teleop_joypad.h" linenr="64" str="std" scope="0x993960" type="name"/>
+    <token id="0x9618c0" file="../include/teleop_joypad.h" linenr="64" str="::" scope="0x993960"/>
+    <token id="0x961970" file="../include/teleop_joypad.h" linenr="64" str="string" scope="0x993960" type="name"/>
+    <token id="0x961a20" file="../include/teleop_joypad.h" linenr="64" str="&gt;" scope="0x993960" link="0x961760"/>
+    <token id="0x961ad0" file="../include/teleop_joypad.h" linenr="64" str="arm_joint_names_" scope="0x993960" type="name" varId="11" variable="0x997d70"/>
+    <token id="0x961b80" file="../include/teleop_joypad.h" linenr="64" str=";" scope="0x993960"/>
+    <token id="0x961c30" file="../include/teleop_joypad.h" linenr="65" str="std" scope="0x993960" type="name" astParent="0x961ce0"/>
+    <token id="0x961ce0" file="../include/teleop_joypad.h" linenr="65" str="::" scope="0x993960" astOperand1="0x961c30" astOperand2="0x961d90"/>
+    <token id="0x961d90" file="../include/teleop_joypad.h" linenr="65" str="vector" scope="0x993960" type="name" astParent="0x961ce0"/>
+    <token id="0x961e40" file="../include/teleop_joypad.h" linenr="65" str="&lt;" scope="0x993960" link="0x962130"/>
+    <token id="0x961ef0" file="../include/teleop_joypad.h" linenr="65" str="arm_navigation_msgs" scope="0x993960" type="name"/>
+    <token id="0x961fd0" file="../include/teleop_joypad.h" linenr="65" str="::" scope="0x993960"/>
+    <token id="0x962080" file="../include/teleop_joypad.h" linenr="65" str="JointLimits" scope="0x993960" type="name"/>
+    <token id="0x962130" file="../include/teleop_joypad.h" linenr="65" str="&gt;" scope="0x993960" link="0x961e40"/>
+    <token id="0x9621e0" file="../include/teleop_joypad.h" linenr="65" str="arm_joint_limits_" scope="0x993960" type="name" varId="12" variable="0x997de0"/>
+    <token id="0x9622c0" file="../include/teleop_joypad.h" linenr="65" str=";" scope="0x993960"/>
+    <token id="0x962370" file="../include/teleop_joypad.h" linenr="66" str="brics_actuator" scope="0x993960" type="name" astParent="0x962420"/>
+    <token id="0x962420" file="../include/teleop_joypad.h" linenr="66" str="::" scope="0x993960" astOperand1="0x962370" astOperand2="0x962580"/>
+    <token id="0x9624d0" file="../include/teleop_joypad.h" linenr="66" str="JointVelocities" scope="0x993960" type="name"/>
+    <token id="0x962580" file="../include/teleop_joypad.h" linenr="66" str="arm_vel_" scope="0x993960" type="name" varId="13" variable="0x997e80" astParent="0x962420"/>
+    <token id="0x962630" file="../include/teleop_joypad.h" linenr="66" str=";" scope="0x993960"/>
+    <token id="0x9626e0" file="../include/teleop_joypad.h" linenr="68" str="double" scope="0x993960" type="name"/>
+    <token id="0x962790" file="../include/teleop_joypad.h" linenr="68" str="speed_factor_" scope="0x993960" type="name" varId="14" variable="0x997ef0"/>
+    <token id="0x962840" file="../include/teleop_joypad.h" linenr="68" str=";" scope="0x993960"/>
+    <token id="0x9628f0" file="../include/teleop_joypad.h" linenr="70" str="bool" scope="0x993960" type="name"/>
+    <token id="0x9629a0" file="../include/teleop_joypad.h" linenr="70" str="button_deadman_pressed_" scope="0x993960" type="name" varId="15" variable="0x997f60"/>
+    <token id="0x962a80" file="../include/teleop_joypad.h" linenr="70" str=";" scope="0x993960"/>
+    <token id="0x962b30" file="../include/teleop_joypad.h" linenr="71" str="bool" scope="0x993960" type="name"/>
+    <token id="0x962c10" file="../include/teleop_joypad.h" linenr="71" str="button_deadman_pressed_prev_" scope="0x993960" type="name" varId="16" variable="0x997fd0"/>
+    <token id="0x962cf0" file="../include/teleop_joypad.h" linenr="71" str=";" scope="0x993960"/>
+    <token id="0x962da0" file="../include/teleop_joypad.h" linenr="72" str="bool" scope="0x993960" type="name"/>
+    <token id="0x962e50" file="../include/teleop_joypad.h" linenr="72" str="button_run_pressed_" scope="0x993960" type="name" varId="17" variable="0x998040"/>
+    <token id="0x962f00" file="../include/teleop_joypad.h" linenr="72" str=";" scope="0x993960"/>
+    <token id="0x962fb0" file="../include/teleop_joypad.h" linenr="74" str="geometry_msgs" scope="0x993960" type="name" astParent="0x963060"/>
+    <token id="0x963060" file="../include/teleop_joypad.h" linenr="74" str="::" scope="0x993960" astOperand1="0x962fb0" astOperand2="0x9631c0"/>
+    <token id="0x963110" file="../include/teleop_joypad.h" linenr="74" str="Twist" scope="0x993960" type="name"/>
+    <token id="0x9631c0" file="../include/teleop_joypad.h" linenr="74" str="base_vel_" scope="0x993960" type="name" varId="18" variable="0x9980b0" astParent="0x963060"/>
+    <token id="0x963270" file="../include/teleop_joypad.h" linenr="74" str=";" scope="0x993960"/>
+    <token id="0x963320" file="../include/teleop_joypad.h" linenr="75" str="geometry_msgs" scope="0x993960" type="name" astParent="0x9633d0"/>
+    <token id="0x9633d0" file="../include/teleop_joypad.h" linenr="75" str="::" scope="0x993960" astOperand1="0x963320" astOperand2="0x964b40"/>
+    <token id="0x963480" file="../include/teleop_joypad.h" linenr="75" str="Twist" scope="0x993960" type="name"/>
+    <token id="0x964b40" file="../include/teleop_joypad.h" linenr="75" str="base_zero_vel_" scope="0x993960" type="name" varId="19" variable="0x998120" astParent="0x9633d0"/>
+    <token id="0x964bf0" file="../include/teleop_joypad.h" linenr="75" str=";" scope="0x993960"/>
+    <token id="0x964ca0" file="../include/teleop_joypad.h" linenr="76" str="geometry_msgs" scope="0x993960" type="name" astParent="0x964d50"/>
+    <token id="0x964d50" file="../include/teleop_joypad.h" linenr="76" str="::" scope="0x993960" astOperand1="0x964ca0" astOperand2="0x964eb0"/>
+    <token id="0x964e00" file="../include/teleop_joypad.h" linenr="76" str="Twist" scope="0x993960" type="name"/>
+    <token id="0x964eb0" file="../include/teleop_joypad.h" linenr="76" str="base_factor_" scope="0x993960" type="name" varId="20" variable="0x998190" astParent="0x964d50"/>
+    <token id="0x964f60" file="../include/teleop_joypad.h" linenr="76" str=";" scope="0x993960"/>
+    <token id="0x965010" file="../include/teleop_joypad.h" linenr="78" str="ros" scope="0x993960" type="name" astParent="0x9650c0"/>
+    <token id="0x9650c0" file="../include/teleop_joypad.h" linenr="78" str="::" scope="0x993960" astOperand1="0x965010" astOperand2="0x965220"/>
+    <token id="0x965170" file="../include/teleop_joypad.h" linenr="78" str="Subscriber" scope="0x993960" type="name"/>
+    <token id="0x965220" file="../include/teleop_joypad.h" linenr="78" str="sub_joy_" scope="0x993960" type="name" varId="21" variable="0x998200" astParent="0x9650c0"/>
+    <token id="0x9652d0" file="../include/teleop_joypad.h" linenr="78" str=";" scope="0x993960"/>
+    <token id="0x965380" file="../include/teleop_joypad.h" linenr="79" str="ros" scope="0x993960" type="name" astParent="0x965430"/>
+    <token id="0x965430" file="../include/teleop_joypad.h" linenr="79" str="::" scope="0x993960" astOperand1="0x965380" astOperand2="0x965590"/>
+    <token id="0x9654e0" file="../include/teleop_joypad.h" linenr="79" str="Subscriber" scope="0x993960" type="name"/>
+    <token id="0x965590" file="../include/teleop_joypad.h" linenr="79" str="sub_joint_states_" scope="0x993960" type="name" varId="22" variable="0x998270" astParent="0x965430"/>
+    <token id="0x965640" file="../include/teleop_joypad.h" linenr="79" str=";" scope="0x993960"/>
+    <token id="0x9656f0" file="../include/teleop_joypad.h" linenr="80" str="ros" scope="0x993960" type="name" astParent="0x9657a0"/>
+    <token id="0x9657a0" file="../include/teleop_joypad.h" linenr="80" str="::" scope="0x993960" astOperand1="0x9656f0" astOperand2="0x965900"/>
+    <token id="0x965850" file="../include/teleop_joypad.h" linenr="80" str="Publisher" scope="0x993960" type="name"/>
+    <token id="0x965900" file="../include/teleop_joypad.h" linenr="80" str="pub_base_vel" scope="0x993960" type="name" varId="23" variable="0x9982e0" astParent="0x9657a0"/>
+    <token id="0x9659b0" file="../include/teleop_joypad.h" linenr="80" str=";" scope="0x993960"/>
+    <token id="0x965a60" file="../include/teleop_joypad.h" linenr="81" str="ros" scope="0x993960" type="name" astParent="0x965b10"/>
+    <token id="0x965b10" file="../include/teleop_joypad.h" linenr="81" str="::" scope="0x993960" astOperand1="0x965a60" astOperand2="0x965c70"/>
+    <token id="0x965bc0" file="../include/teleop_joypad.h" linenr="81" str="Publisher" scope="0x993960" type="name"/>
+    <token id="0x965c70" file="../include/teleop_joypad.h" linenr="81" str="pub_arm_vel" scope="0x993960" type="name" varId="24" variable="0x998350" astParent="0x965b10"/>
+    <token id="0x965d20" file="../include/teleop_joypad.h" linenr="81" str=";" scope="0x993960"/>
+    <token id="0x965dd0" file="../include/teleop_joypad.h" linenr="83" str="ros" scope="0x993960" type="name" astParent="0x965e80"/>
+    <token id="0x965e80" file="../include/teleop_joypad.h" linenr="83" str="::" scope="0x993960" astOperand1="0x965dd0" astOperand2="0x965fe0"/>
+    <token id="0x965f30" file="../include/teleop_joypad.h" linenr="83" str="ServiceClient" scope="0x993960" type="name"/>
+    <token id="0x965fe0" file="../include/teleop_joypad.h" linenr="83" str="srv_arm_motors_on" scope="0x993960" type="name" varId="25" variable="0x9983c0" astParent="0x965e80"/>
+    <token id="0x9660c0" file="../include/teleop_joypad.h" linenr="83" str=";" scope="0x993960"/>
+    <token id="0x966170" file="../include/teleop_joypad.h" linenr="84" str="ros" scope="0x993960" type="name" astParent="0x966220"/>
+    <token id="0x966220" file="../include/teleop_joypad.h" linenr="84" str="::" scope="0x993960" astOperand1="0x966170" astOperand2="0x966380"/>
+    <token id="0x9662d0" file="../include/teleop_joypad.h" linenr="84" str="ServiceClient" scope="0x993960" type="name"/>
+    <token id="0x966380" file="../include/teleop_joypad.h" linenr="84" str="srv_arm_motors_off" scope="0x993960" type="name" varId="26" variable="0x998430" astParent="0x966220"/>
+    <token id="0x966460" file="../include/teleop_joypad.h" linenr="84" str=";" scope="0x993960"/>
+    <token id="0x966510" file="../include/teleop_joypad.h" linenr="85" str="}" scope="0x993960" link="0x959990"/>
+    <token id="0x9665c0" file="../include/teleop_joypad.h" linenr="85" str=";" scope="0x993830"/>
+    <token id="0x966670" file="teleop_joypad.cpp" linenr="10" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x966720"/>
+    <token id="0x966720" file="teleop_joypad.cpp" linenr="10" str="::" scope="0x993830" astParent="0x966880" astOperand1="0x966670" astOperand2="0x9667d0"/>
+    <token id="0x9667d0" file="teleop_joypad.cpp" linenr="10" str="TeleOpJoypad" scope="0x993830" type="name" function="0x993b40" astParent="0x966720"/>
+    <token id="0x966880" file="teleop_joypad.cpp" linenr="10" str="(" scope="0x993830" link="0x966ca0" astOperand1="0x966720" astOperand2="0x966b40"/>
+    <token id="0x966930" file="teleop_joypad.cpp" linenr="10" str="ros" scope="0x993830" type="name" astParent="0x9669e0"/>
+    <token id="0x9669e0" file="teleop_joypad.cpp" linenr="10" str="::" scope="0x993830" astParent="0x966b40" astOperand1="0x966930" astOperand2="0x966a90"/>
+    <token id="0x966a90" file="teleop_joypad.cpp" linenr="10" str="NodeHandle" scope="0x993830" type="name" astParent="0x9669e0"/>
+    <token id="0x966b40" file="teleop_joypad.cpp" linenr="10" str="&amp;" scope="0x993830" type="op" astParent="0x966880" astOperand1="0x9669e0" astOperand2="0x966bf0"/>
+    <token id="0x966bf0" file="teleop_joypad.cpp" linenr="10" str="nh" scope="0x993830" type="name" varId="27" variable="0x9985f0" astParent="0x966b40"/>
+    <token id="0x966ca0" file="teleop_joypad.cpp" linenr="10" str=")" scope="0x993830" link="0x966880"/>
+    <token id="0x966d50" file="teleop_joypad.cpp" linenr="11" str="{" scope="0x994180" link="0x970ce0"/>
+    <token id="0x966e30" file="teleop_joypad.cpp" linenr="12" str="is_in_soft_joint_limits_" scope="0x994180" type="name" varId="8" variable="0x997c20" astParent="0x966f10"/>
+    <token id="0x966f10" file="teleop_joypad.cpp" linenr="12" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x966e30" astOperand2="0x966fc0"/>
+    <token id="0x966fc0" file="teleop_joypad.cpp" linenr="12" str="false" scope="0x994180" type="name" values="0x966fc8" astParent="0x966f10"/>
+    <token id="0x967070" file="teleop_joypad.cpp" linenr="12" str=";" scope="0x994180"/>
+    <token id="0x967120" file="teleop_joypad.cpp" linenr="13" str="button_deadman_pressed_" scope="0x994180" type="name" varId="15" variable="0x997f60" astParent="0x9671d0"/>
+    <token id="0x9671d0" file="teleop_joypad.cpp" linenr="13" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x967120" astOperand2="0x967280"/>
+    <token id="0x967280" file="teleop_joypad.cpp" linenr="13" str="false" scope="0x994180" type="name" values="0x967288" astParent="0x9671d0"/>
+    <token id="0x967330" file="teleop_joypad.cpp" linenr="13" str=";" scope="0x994180"/>
+    <token id="0x967410" file="teleop_joypad.cpp" linenr="14" str="button_deadman_pressed_prev_" scope="0x994180" type="name" varId="16" variable="0x997fd0" astParent="0x9674f0"/>
+    <token id="0x9674f0" file="teleop_joypad.cpp" linenr="14" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x967410" astOperand2="0x9675a0"/>
+    <token id="0x9675a0" file="teleop_joypad.cpp" linenr="14" str="false" scope="0x994180" type="name" values="0x9675a8" astParent="0x9674f0"/>
+    <token id="0x967650" file="teleop_joypad.cpp" linenr="14" str=";" scope="0x994180"/>
+    <token id="0x967700" file="teleop_joypad.cpp" linenr="15" str="button_run_pressed_" scope="0x994180" type="name" varId="17" variable="0x998040" astParent="0x9677b0"/>
+    <token id="0x9677b0" file="teleop_joypad.cpp" linenr="15" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x967700" astOperand2="0x967860"/>
+    <token id="0x967860" file="teleop_joypad.cpp" linenr="15" str="false" scope="0x994180" type="name" values="0x967868" astParent="0x9677b0"/>
+    <token id="0x967910" file="teleop_joypad.cpp" linenr="15" str=";" scope="0x994180"/>
+    <token id="0x9679c0" file="teleop_joypad.cpp" linenr="17" str="double" scope="0x994180" type="name"/>
+    <token id="0x967a70" file="teleop_joypad.cpp" linenr="17" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0"/>
+    <token id="0x967b20" file="teleop_joypad.cpp" linenr="17" str=";" scope="0x994180"/>
+    <token id="0x993400" file="teleop_joypad.cpp" linenr="17" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" astParent="0x9934b0"/>
+    <token id="0x9934b0" file="teleop_joypad.cpp" linenr="17" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x993400" astOperand2="0x967bd0"/>
+    <token id="0x967bd0" file="teleop_joypad.cpp" linenr="17" str="0" scope="0x994180" type="number" isInt="True" values="0x967bd8" astParent="0x9934b0"/>
+    <token id="0x967c80" file="teleop_joypad.cpp" linenr="17" str=";" scope="0x994180"/>
+    <token id="0x967d30" file="teleop_joypad.cpp" linenr="18" str="ros" scope="0x994180" type="name" astParent="0x967de0"/>
+    <token id="0x967de0" file="teleop_joypad.cpp" linenr="18" str="::" scope="0x994180" astParent="0x967f40" astOperand1="0x967d30" astOperand2="0x967e90"/>
+    <token id="0x967e90" file="teleop_joypad.cpp" linenr="18" str="param" scope="0x994180" type="name" astParent="0x967de0"/>
+    <token id="0x967f40" file="teleop_joypad.cpp" linenr="18" str="::" scope="0x994180" astParent="0x9682b0" astOperand1="0x967de0" astOperand2="0x967ff0"/>
+    <token id="0x967ff0" file="teleop_joypad.cpp" linenr="18" str="param" scope="0x994180" type="name" astParent="0x967f40"/>
+    <token id="0x9680a0" file="teleop_joypad.cpp" linenr="18" str="&lt;" scope="0x994180" link="0x968200"/>
+    <token id="0x968150" file="teleop_joypad.cpp" linenr="18" str="double" scope="0x994180" type="name"/>
+    <token id="0x968200" file="teleop_joypad.cpp" linenr="18" str="&gt;" scope="0x994180" link="0x9680a0"/>
+    <token id="0x9682b0" file="teleop_joypad.cpp" linenr="18" str="(" scope="0x994180" link="0x968760" astOperand1="0x967f40" astOperand2="0x968600"/>
+    <token id="0x9683c0" file="teleop_joypad.cpp" linenr="18" str="&quot;xbase_max_linear_x_vel&quot;" scope="0x994180" type="string" strlen="22" values="0x9683c8" astParent="0x9684a0"/>
+    <token id="0x9684a0" file="teleop_joypad.cpp" linenr="18" str="," scope="0x994180" astParent="0x968600" astOperand1="0x9683c0" astOperand2="0x968550"/>
+    <token id="0x968550" file="teleop_joypad.cpp" linenr="18" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x968558" astParent="0x9684a0"/>
+    <token id="0x968600" file="teleop_joypad.cpp" linenr="18" str="," scope="0x994180" astParent="0x9682b0" astOperand1="0x9684a0" astOperand2="0x9686b0"/>
+    <token id="0x9686b0" file="teleop_joypad.cpp" linenr="18" str="0.3" scope="0x994180" type="number" isFloat="True" astParent="0x968600"/>
+    <token id="0x968760" file="teleop_joypad.cpp" linenr="18" str=")" scope="0x994180" link="0x9682b0"/>
+    <token id="0x968810" file="teleop_joypad.cpp" linenr="18" str=";" scope="0x994180"/>
+    <token id="0x9688c0" file="teleop_joypad.cpp" linenr="19" str="base_factor_" scope="0x994180" type="name" varId="20" variable="0x998190" astParent="0x968970"/>
+    <token id="0x968970" file="teleop_joypad.cpp" linenr="19" str="." scope="0x994180" astParent="0x968ad0" astOperand1="0x9688c0" astOperand2="0x968a20"/>
+    <token id="0x968a20" file="teleop_joypad.cpp" linenr="19" str="linear" scope="0x994180" type="name" varId="42" astParent="0x968970"/>
+    <token id="0x968ad0" file="teleop_joypad.cpp" linenr="19" str="." scope="0x994180" astParent="0x968c30" astOperand1="0x968970" astOperand2="0x968b80"/>
+    <token id="0x968b80" file="teleop_joypad.cpp" linenr="19" str="x" scope="0x994180" type="name" varId="43" astParent="0x968ad0"/>
+    <token id="0x968c30" file="teleop_joypad.cpp" linenr="19" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x968ad0" astOperand2="0x968d90"/>
+    <token id="0x968ce0" file="teleop_joypad.cpp" linenr="19" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x968ce8" astParent="0x968d90"/>
+    <token id="0x968d90" file="teleop_joypad.cpp" linenr="19" str="/" scope="0x994180" type="op" isArithmeticalOp="True" astParent="0x968c30" astOperand1="0x968ce0" astOperand2="0x968e40"/>
+    <token id="0x968e40" file="teleop_joypad.cpp" linenr="19" str="1.0" scope="0x994180" type="number" isFloat="True" astParent="0x968d90"/>
+    <token id="0x968ef0" file="teleop_joypad.cpp" linenr="19" str=";" scope="0x994180"/>
+    <token id="0x968fa0" file="teleop_joypad.cpp" linenr="20" str="ros" scope="0x994180" type="name" astParent="0x969050"/>
+    <token id="0x969050" file="teleop_joypad.cpp" linenr="20" str="::" scope="0x994180" astParent="0x9691b0" astOperand1="0x968fa0" astOperand2="0x969100"/>
+    <token id="0x969100" file="teleop_joypad.cpp" linenr="20" str="param" scope="0x994180" type="name" astParent="0x969050"/>
+    <token id="0x9691b0" file="teleop_joypad.cpp" linenr="20" str="::" scope="0x994180" astParent="0x969520" astOperand1="0x969050" astOperand2="0x969260"/>
+    <token id="0x969260" file="teleop_joypad.cpp" linenr="20" str="param" scope="0x994180" type="name" astParent="0x9691b0"/>
+    <token id="0x969310" file="teleop_joypad.cpp" linenr="20" str="&lt;" scope="0x994180" link="0x969470"/>
+    <token id="0x9693c0" file="teleop_joypad.cpp" linenr="20" str="double" scope="0x994180" type="name"/>
+    <token id="0x969470" file="teleop_joypad.cpp" linenr="20" str="&gt;" scope="0x994180" link="0x969310"/>
+    <token id="0x969520" file="teleop_joypad.cpp" linenr="20" str="(" scope="0x994180" link="0x969970" astOperand1="0x9691b0" astOperand2="0x969810"/>
+    <token id="0x9695d0" file="teleop_joypad.cpp" linenr="20" str="&quot;xbase_max_linear_y_vel&quot;" scope="0x994180" type="string" strlen="22" values="0x9695d8" astParent="0x9696b0"/>
+    <token id="0x9696b0" file="teleop_joypad.cpp" linenr="20" str="," scope="0x994180" astParent="0x969810" astOperand1="0x9695d0" astOperand2="0x969760"/>
+    <token id="0x969760" file="teleop_joypad.cpp" linenr="20" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x969768" astParent="0x9696b0"/>
+    <token id="0x969810" file="teleop_joypad.cpp" linenr="20" str="," scope="0x994180" astParent="0x969520" astOperand1="0x9696b0" astOperand2="0x9698c0"/>
+    <token id="0x9698c0" file="teleop_joypad.cpp" linenr="20" str="0.3" scope="0x994180" type="number" isFloat="True" astParent="0x969810"/>
+    <token id="0x969970" file="teleop_joypad.cpp" linenr="20" str=")" scope="0x994180" link="0x969520"/>
+    <token id="0x969a20" file="teleop_joypad.cpp" linenr="20" str=";" scope="0x994180"/>
+    <token id="0x969ad0" file="teleop_joypad.cpp" linenr="21" str="base_factor_" scope="0x994180" type="name" varId="20" variable="0x998190" astParent="0x969b80"/>
+    <token id="0x969b80" file="teleop_joypad.cpp" linenr="21" str="." scope="0x994180" astParent="0x969ce0" astOperand1="0x969ad0" astOperand2="0x969c30"/>
+    <token id="0x969c30" file="teleop_joypad.cpp" linenr="21" str="linear" scope="0x994180" type="name" varId="42" astParent="0x969b80"/>
+    <token id="0x969ce0" file="teleop_joypad.cpp" linenr="21" str="." scope="0x994180" astParent="0x969e40" astOperand1="0x969b80" astOperand2="0x969d90"/>
+    <token id="0x969d90" file="teleop_joypad.cpp" linenr="21" str="y" scope="0x994180" type="name" varId="44" astParent="0x969ce0"/>
+    <token id="0x969e40" file="teleop_joypad.cpp" linenr="21" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x969ce0" astOperand2="0x969fa0"/>
+    <token id="0x969ef0" file="teleop_joypad.cpp" linenr="21" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x969ef8" astParent="0x969fa0"/>
+    <token id="0x969fa0" file="teleop_joypad.cpp" linenr="21" str="/" scope="0x994180" type="op" isArithmeticalOp="True" astParent="0x969e40" astOperand1="0x969ef0" astOperand2="0x96a050"/>
+    <token id="0x96a050" file="teleop_joypad.cpp" linenr="21" str="1.0" scope="0x994180" type="number" isFloat="True" astParent="0x969fa0"/>
+    <token id="0x96a100" file="teleop_joypad.cpp" linenr="21" str=";" scope="0x994180"/>
+    <token id="0x96a1b0" file="teleop_joypad.cpp" linenr="22" str="ros" scope="0x994180" type="name" astParent="0x96a260"/>
+    <token id="0x96a260" file="teleop_joypad.cpp" linenr="22" str="::" scope="0x994180" astParent="0x96a3c0" astOperand1="0x96a1b0" astOperand2="0x96a310"/>
+    <token id="0x96a310" file="teleop_joypad.cpp" linenr="22" str="param" scope="0x994180" type="name" astParent="0x96a260"/>
+    <token id="0x96a3c0" file="teleop_joypad.cpp" linenr="22" str="::" scope="0x994180" astParent="0x96a730" astOperand1="0x96a260" astOperand2="0x96a470"/>
+    <token id="0x96a470" file="teleop_joypad.cpp" linenr="22" str="param" scope="0x994180" type="name" astParent="0x96a3c0"/>
+    <token id="0x96a520" file="teleop_joypad.cpp" linenr="22" str="&lt;" scope="0x994180" link="0x96a680"/>
+    <token id="0x96a5d0" file="teleop_joypad.cpp" linenr="22" str="double" scope="0x994180" type="name"/>
+    <token id="0x96a680" file="teleop_joypad.cpp" linenr="22" str="&gt;" scope="0x994180" link="0x96a520"/>
+    <token id="0x96a730" file="teleop_joypad.cpp" linenr="22" str="(" scope="0x994180" link="0x96ab50" astOperand1="0x96a3c0" astOperand2="0x96a9f0"/>
+    <token id="0x96a7e0" file="teleop_joypad.cpp" linenr="22" str="&quot;xbase_max_angular_vel&quot;" scope="0x994180" type="string" strlen="21" values="0x96a7e8" astParent="0x96a890"/>
+    <token id="0x96a890" file="teleop_joypad.cpp" linenr="22" str="," scope="0x994180" astParent="0x96a9f0" astOperand1="0x96a7e0" astOperand2="0x96a940"/>
+    <token id="0x96a940" file="teleop_joypad.cpp" linenr="22" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x96a948" astParent="0x96a890"/>
+    <token id="0x96a9f0" file="teleop_joypad.cpp" linenr="22" str="," scope="0x994180" astParent="0x96a730" astOperand1="0x96a890" astOperand2="0x96aaa0"/>
+    <token id="0x96aaa0" file="teleop_joypad.cpp" linenr="22" str="0.5" scope="0x994180" type="number" isFloat="True" astParent="0x96a9f0"/>
+    <token id="0x96ab50" file="teleop_joypad.cpp" linenr="22" str=")" scope="0x994180" link="0x96a730"/>
+    <token id="0x96ac00" file="teleop_joypad.cpp" linenr="22" str=";" scope="0x994180"/>
+    <token id="0x96acb0" file="teleop_joypad.cpp" linenr="23" str="base_factor_" scope="0x994180" type="name" varId="20" variable="0x998190" astParent="0x96ad60"/>
+    <token id="0x96ad60" file="teleop_joypad.cpp" linenr="23" str="." scope="0x994180" astParent="0x96aec0" astOperand1="0x96acb0" astOperand2="0x96ae10"/>
+    <token id="0x96ae10" file="teleop_joypad.cpp" linenr="23" str="angular" scope="0x994180" type="name" varId="45" astParent="0x96ad60"/>
+    <token id="0x96aec0" file="teleop_joypad.cpp" linenr="23" str="." scope="0x994180" astParent="0x96b020" astOperand1="0x96ad60" astOperand2="0x96af70"/>
+    <token id="0x96af70" file="teleop_joypad.cpp" linenr="23" str="z" scope="0x994180" type="name" varId="46" astParent="0x96aec0"/>
+    <token id="0x96b020" file="teleop_joypad.cpp" linenr="23" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96aec0" astOperand2="0x96b180"/>
+    <token id="0x96b0d0" file="teleop_joypad.cpp" linenr="23" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x96b0d8" astParent="0x96b180"/>
+    <token id="0x96b180" file="teleop_joypad.cpp" linenr="23" str="/" scope="0x994180" type="op" isArithmeticalOp="True" astParent="0x96b020" astOperand1="0x96b0d0" astOperand2="0x96b230"/>
+    <token id="0x96b230" file="teleop_joypad.cpp" linenr="23" str="1.0" scope="0x994180" type="number" isFloat="True" astParent="0x96b180"/>
+    <token id="0x96b2e0" file="teleop_joypad.cpp" linenr="23" str=";" scope="0x994180"/>
+    <token id="0x96b390" file="teleop_joypad.cpp" linenr="24" str="ros" scope="0x994180" type="name" astParent="0x96b440"/>
+    <token id="0x96b440" file="teleop_joypad.cpp" linenr="24" str="::" scope="0x994180" astParent="0x96b5a0" astOperand1="0x96b390" astOperand2="0x96b4f0"/>
+    <token id="0x96b4f0" file="teleop_joypad.cpp" linenr="24" str="param" scope="0x994180" type="name" astParent="0x96b440"/>
+    <token id="0x96b5a0" file="teleop_joypad.cpp" linenr="24" str="::" scope="0x994180" astParent="0x96b910" astOperand1="0x96b440" astOperand2="0x96b650"/>
+    <token id="0x96b650" file="teleop_joypad.cpp" linenr="24" str="param" scope="0x994180" type="name" astParent="0x96b5a0"/>
+    <token id="0x96b700" file="teleop_joypad.cpp" linenr="24" str="&lt;" scope="0x994180" link="0x96b860"/>
+    <token id="0x96b7b0" file="teleop_joypad.cpp" linenr="24" str="double" scope="0x994180" type="name"/>
+    <token id="0x96b860" file="teleop_joypad.cpp" linenr="24" str="&gt;" scope="0x994180" link="0x96b700"/>
+    <token id="0x96b910" file="teleop_joypad.cpp" linenr="24" str="(" scope="0x994180" link="0x96bd30" astOperand1="0x96b5a0" astOperand2="0x96bbd0"/>
+    <token id="0x96b9c0" file="teleop_joypad.cpp" linenr="24" str="&quot;xarm_max_vel&quot;" scope="0x994180" type="string" strlen="12" values="0x96b9c8" astParent="0x96ba70"/>
+    <token id="0x96ba70" file="teleop_joypad.cpp" linenr="24" str="," scope="0x994180" astParent="0x96bbd0" astOperand1="0x96b9c0" astOperand2="0x96bb20"/>
+    <token id="0x96bb20" file="teleop_joypad.cpp" linenr="24" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x96bb28" astParent="0x96ba70"/>
+    <token id="0x96bbd0" file="teleop_joypad.cpp" linenr="24" str="," scope="0x994180" astParent="0x96b910" astOperand1="0x96ba70" astOperand2="0x96bc80"/>
+    <token id="0x96bc80" file="teleop_joypad.cpp" linenr="24" str="0.2" scope="0x994180" type="number" isFloat="True" astParent="0x96bbd0"/>
+    <token id="0x96bd30" file="teleop_joypad.cpp" linenr="24" str=")" scope="0x994180" link="0x96b910"/>
+    <token id="0x96bde0" file="teleop_joypad.cpp" linenr="24" str=";" scope="0x994180"/>
+    <token id="0x96be90" file="teleop_joypad.cpp" linenr="25" str="arm_max_vel_" scope="0x994180" type="name" varId="10" variable="0x997d00" astParent="0x96bf40"/>
+    <token id="0x96bf40" file="teleop_joypad.cpp" linenr="25" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96be90" astOperand2="0x96c0a0"/>
+    <token id="0x96bff0" file="teleop_joypad.cpp" linenr="25" str="param" scope="0x994180" type="name" varId="28" variable="0x9984a0" values="0x96bff8" astParent="0x96c0a0"/>
+    <token id="0x96c0a0" file="teleop_joypad.cpp" linenr="25" str="/" scope="0x994180" type="op" isArithmeticalOp="True" astParent="0x96bf40" astOperand1="0x96bff0" astOperand2="0x96c150"/>
+    <token id="0x96c150" file="teleop_joypad.cpp" linenr="25" str="1.0" scope="0x994180" type="number" isFloat="True" astParent="0x96c0a0"/>
+    <token id="0x96c200" file="teleop_joypad.cpp" linenr="25" str=";" scope="0x994180"/>
+    <token id="0x96c2b0" file="teleop_joypad.cpp" linenr="26" str="ros" scope="0x994180" type="name" astParent="0x96c360"/>
+    <token id="0x96c360" file="teleop_joypad.cpp" linenr="26" str="::" scope="0x994180" astParent="0x96c4c0" astOperand1="0x96c2b0" astOperand2="0x96c410"/>
+    <token id="0x96c410" file="teleop_joypad.cpp" linenr="26" str="param" scope="0x994180" type="name" astParent="0x96c360"/>
+    <token id="0x96c4c0" file="teleop_joypad.cpp" linenr="26" str="::" scope="0x994180" astParent="0x96c830" astOperand1="0x96c360" astOperand2="0x96c570"/>
+    <token id="0x96c570" file="teleop_joypad.cpp" linenr="26" str="param" scope="0x994180" type="name" astParent="0x96c4c0"/>
+    <token id="0x96c620" file="teleop_joypad.cpp" linenr="26" str="&lt;" scope="0x994180" link="0x96c780"/>
+    <token id="0x96c6d0" file="teleop_joypad.cpp" linenr="26" str="double" scope="0x994180" type="name"/>
+    <token id="0x96c780" file="teleop_joypad.cpp" linenr="26" str="&gt;" scope="0x994180" link="0x96c620"/>
+    <token id="0x96c830" file="teleop_joypad.cpp" linenr="26" str="(" scope="0x994180" link="0x96ccb0" astOperand1="0x96c4c0" astOperand2="0x96cb50"/>
+    <token id="0x96c910" file="teleop_joypad.cpp" linenr="26" str="&quot;xsoft_joint_limit_threshold&quot;" scope="0x994180" type="string" strlen="27" values="0x96c918" astParent="0x96c9f0"/>
+    <token id="0x96c9f0" file="teleop_joypad.cpp" linenr="26" str="," scope="0x994180" astParent="0x96cb50" astOperand1="0x96c910" astOperand2="0x96caa0"/>
+    <token id="0x96caa0" file="teleop_joypad.cpp" linenr="26" str="soft_joint_limit_threshold_" scope="0x994180" type="name" varId="9" variable="0x997c90" astParent="0x96c9f0"/>
+    <token id="0x96cb50" file="teleop_joypad.cpp" linenr="26" str="," scope="0x994180" astParent="0x96c830" astOperand1="0x96c9f0" astOperand2="0x96cc00"/>
+    <token id="0x96cc00" file="teleop_joypad.cpp" linenr="26" str="0.05" scope="0x994180" type="number" isFloat="True" astParent="0x96cb50"/>
+    <token id="0x96ccb0" file="teleop_joypad.cpp" linenr="26" str=")" scope="0x994180" link="0x96c830"/>
+    <token id="0x96cd60" file="teleop_joypad.cpp" linenr="26" str=";" scope="0x994180"/>
+    <token id="0x96ce10" file="teleop_joypad.cpp" linenr="65" str="sub_joy_" scope="0x994180" type="name" varId="21" variable="0x998200" astParent="0x96cec0"/>
+    <token id="0x96cec0" file="teleop_joypad.cpp" linenr="65" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96ce10" astOperand2="0x96d4f0"/>
+    <token id="0x96cf70" file="teleop_joypad.cpp" linenr="65" str="nh" scope="0x994180" type="name" varId="27" variable="0x9985f0" astParent="0x96d020"/>
+    <token id="0x96d020" file="teleop_joypad.cpp" linenr="65" str="." scope="0x994180" astParent="0x96d4f0" astOperand1="0x96cf70" astOperand2="0x96d0d0"/>
+    <token id="0x96d0d0" file="teleop_joypad.cpp" linenr="65" str="subscribe" scope="0x994180" type="name" astParent="0x96d020"/>
+    <token id="0x96d180" file="teleop_joypad.cpp" linenr="65" str="&lt;" scope="0x994180" link="0x96d440"/>
+    <token id="0x96d230" file="teleop_joypad.cpp" linenr="65" str="sensor_msgs" scope="0x994180" type="name"/>
+    <token id="0x96d2e0" file="teleop_joypad.cpp" linenr="65" str="::" scope="0x994180"/>
+    <token id="0x96d390" file="teleop_joypad.cpp" linenr="65" str="Joy" scope="0x994180" type="name"/>
+    <token id="0x96d440" file="teleop_joypad.cpp" linenr="65" str="&gt;" scope="0x994180" link="0x96d180"/>
+    <token id="0x96d4f0" file="teleop_joypad.cpp" linenr="65" str="(" scope="0x994180" link="0x96dc80" astParent="0x96cec0" astOperand1="0x96d020" astOperand2="0x96db20"/>
+    <token id="0x96d5a0" file="teleop_joypad.cpp" linenr="65" str="&quot;/joy&quot;" scope="0x994180" type="string" strlen="4" values="0x96d5a8" astParent="0x96d650"/>
+    <token id="0x96d650" file="teleop_joypad.cpp" linenr="65" str="," scope="0x994180" astParent="0x96d7b0" astOperand1="0x96d5a0" astOperand2="0x96d700"/>
+    <token id="0x96d700" file="teleop_joypad.cpp" linenr="65" str="1" scope="0x994180" type="number" isInt="True" values="0x96d708" astParent="0x96d650"/>
+    <token id="0x96d7b0" file="teleop_joypad.cpp" linenr="65" str="," scope="0x994180" astParent="0x96db20" astOperand1="0x96d650" astOperand2="0x96d860"/>
+    <token id="0x96d860" file="teleop_joypad.cpp" linenr="65" str="&amp;" scope="0x994180" type="op" astParent="0x96d7b0" astOperand1="0x96d9c0"/>
+    <token id="0x96d910" file="teleop_joypad.cpp" linenr="65" str="TeleOpJoypad" scope="0x994180" type="name" type-scope="0x993960" astParent="0x96d9c0"/>
+    <token id="0x96d9c0" file="teleop_joypad.cpp" linenr="65" str="::" scope="0x994180" astParent="0x96d860" astOperand1="0x96d910" astOperand2="0x96da70"/>
+    <token id="0x96da70" file="teleop_joypad.cpp" linenr="65" str="cbJoy" scope="0x994180" type="name" astParent="0x96d9c0"/>
+    <token id="0x96db20" file="teleop_joypad.cpp" linenr="65" str="," scope="0x994180" astParent="0x96d4f0" astOperand1="0x96d7b0" astOperand2="0x96dbd0"/>
+    <token id="0x96dbd0" file="teleop_joypad.cpp" linenr="65" str="this" scope="0x994180" type="name" astParent="0x96db20"/>
+    <token id="0x96dc80" file="teleop_joypad.cpp" linenr="65" str=")" scope="0x994180" link="0x96d4f0"/>
+    <token id="0x96dd30" file="teleop_joypad.cpp" linenr="65" str=";" scope="0x994180"/>
+    <token id="0x96dde0" file="teleop_joypad.cpp" linenr="66" str="sub_joint_states_" scope="0x994180" type="name" varId="22" variable="0x998270" astParent="0x96de90"/>
+    <token id="0x96de90" file="teleop_joypad.cpp" linenr="66" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96dde0" astOperand2="0x96e4c0"/>
+    <token id="0x96df40" file="teleop_joypad.cpp" linenr="66" str="nh" scope="0x994180" type="name" varId="27" variable="0x9985f0" astParent="0x96dff0"/>
+    <token id="0x96dff0" file="teleop_joypad.cpp" linenr="66" str="." scope="0x994180" astParent="0x96e4c0" astOperand1="0x96df40" astOperand2="0x96e0a0"/>
+    <token id="0x96e0a0" file="teleop_joypad.cpp" linenr="66" str="subscribe" scope="0x994180" type="name" astParent="0x96dff0"/>
+    <token id="0x96e150" file="teleop_joypad.cpp" linenr="66" str="&lt;" scope="0x994180" link="0x96e410"/>
+    <token id="0x96e200" file="teleop_joypad.cpp" linenr="66" str="sensor_msgs" scope="0x994180" type="name"/>
+    <token id="0x96e2b0" file="teleop_joypad.cpp" linenr="66" str="::" scope="0x994180"/>
+    <token id="0x96e360" file="teleop_joypad.cpp" linenr="66" str="JointState" scope="0x994180" type="name"/>
+    <token id="0x96e410" file="teleop_joypad.cpp" linenr="66" str="&gt;" scope="0x994180" link="0x96e150"/>
+    <token id="0x96e4c0" file="teleop_joypad.cpp" linenr="66" str="(" scope="0x994180" link="0x96ec50" astParent="0x96de90" astOperand1="0x96dff0" astOperand2="0x96eaf0"/>
+    <token id="0x96e570" file="teleop_joypad.cpp" linenr="66" str="&quot;/joint_states&quot;" scope="0x994180" type="string" strlen="13" values="0x96e578" astParent="0x96e620"/>
+    <token id="0x96e620" file="teleop_joypad.cpp" linenr="66" str="," scope="0x994180" astParent="0x96e780" astOperand1="0x96e570" astOperand2="0x96e6d0"/>
+    <token id="0x96e6d0" file="teleop_joypad.cpp" linenr="66" str="1" scope="0x994180" type="number" isInt="True" values="0x96e6d8" astParent="0x96e620"/>
+    <token id="0x96e780" file="teleop_joypad.cpp" linenr="66" str="," scope="0x994180" astParent="0x96eaf0" astOperand1="0x96e620" astOperand2="0x96e830"/>
+    <token id="0x96e830" file="teleop_joypad.cpp" linenr="66" str="&amp;" scope="0x994180" type="op" astParent="0x96e780" astOperand1="0x96e990"/>
+    <token id="0x96e8e0" file="teleop_joypad.cpp" linenr="66" str="TeleOpJoypad" scope="0x994180" type="name" type-scope="0x993960" astParent="0x96e990"/>
+    <token id="0x96e990" file="teleop_joypad.cpp" linenr="66" str="::" scope="0x994180" astParent="0x96e830" astOperand1="0x96e8e0" astOperand2="0x96ea40"/>
+    <token id="0x96ea40" file="teleop_joypad.cpp" linenr="66" str="cbJointStates" scope="0x994180" type="name" astParent="0x96e990"/>
+    <token id="0x96eaf0" file="teleop_joypad.cpp" linenr="66" str="," scope="0x994180" astParent="0x96e4c0" astOperand1="0x96e780" astOperand2="0x96eba0"/>
+    <token id="0x96eba0" file="teleop_joypad.cpp" linenr="66" str="this" scope="0x994180" type="name" astParent="0x96eaf0"/>
+    <token id="0x96ec50" file="teleop_joypad.cpp" linenr="66" str=")" scope="0x994180" link="0x96e4c0"/>
+    <token id="0x96ed00" file="teleop_joypad.cpp" linenr="66" str=";" scope="0x994180"/>
+    <token id="0x96edb0" file="teleop_joypad.cpp" linenr="68" str="pub_base_vel" scope="0x994180" type="name" varId="23" variable="0x9982e0" astParent="0x96ee60"/>
+    <token id="0x96ee60" file="teleop_joypad.cpp" linenr="68" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96edb0" astOperand2="0x96f490"/>
+    <token id="0x96ef10" file="teleop_joypad.cpp" linenr="68" str="nh" scope="0x994180" type="name" varId="27" variable="0x9985f0" astParent="0x96efc0"/>
+    <token id="0x96efc0" file="teleop_joypad.cpp" linenr="68" str="." scope="0x994180" astParent="0x96f490" astOperand1="0x96ef10" astOperand2="0x96f070"/>
+    <token id="0x96f070" file="teleop_joypad.cpp" linenr="68" str="advertise" scope="0x994180" type="name" astParent="0x96efc0"/>
+    <token id="0x96f120" file="teleop_joypad.cpp" linenr="68" str="&lt;" scope="0x994180" link="0x96f3e0"/>
+    <token id="0x96f1d0" file="teleop_joypad.cpp" linenr="68" str="geometry_msgs" scope="0x994180" type="name"/>
+    <token id="0x96f280" file="teleop_joypad.cpp" linenr="68" str="::" scope="0x994180"/>
+    <token id="0x96f330" file="teleop_joypad.cpp" linenr="68" str="Twist" scope="0x994180" type="name"/>
+    <token id="0x96f3e0" file="teleop_joypad.cpp" linenr="68" str="&gt;" scope="0x994180" link="0x96f120"/>
+    <token id="0x96f490" file="teleop_joypad.cpp" linenr="68" str="(" scope="0x994180" link="0x96f750" astParent="0x96ee60" astOperand1="0x96efc0" astOperand2="0x96f5f0"/>
+    <token id="0x96f540" file="teleop_joypad.cpp" linenr="68" str="&quot;/cmd_vel&quot;" scope="0x994180" type="string" strlen="8" values="0x96f548" astParent="0x96f5f0"/>
+    <token id="0x96f5f0" file="teleop_joypad.cpp" linenr="68" str="," scope="0x994180" astParent="0x96f490" astOperand1="0x96f540" astOperand2="0x96f6a0"/>
+    <token id="0x96f6a0" file="teleop_joypad.cpp" linenr="68" str="1" scope="0x994180" type="number" isInt="True" values="0x96f6a8" astParent="0x96f5f0"/>
+    <token id="0x96f750" file="teleop_joypad.cpp" linenr="68" str=")" scope="0x994180" link="0x96f490"/>
+    <token id="0x96f800" file="teleop_joypad.cpp" linenr="68" str=";" scope="0x994180"/>
+    <token id="0x96f8b0" file="teleop_joypad.cpp" linenr="71" str="srv_arm_motors_on" scope="0x994180" type="name" varId="25" variable="0x9983c0" astParent="0x96f990"/>
+    <token id="0x96f990" file="teleop_joypad.cpp" linenr="71" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x96f8b0" astOperand2="0x96ffc0"/>
+    <token id="0x96fa40" file="teleop_joypad.cpp" linenr="71" str="nh" scope="0x994180" type="name" varId="27" variable="0x9985f0" astParent="0x96faf0"/>
+    <token id="0x96faf0" file="teleop_joypad.cpp" linenr="71" str="." scope="0x994180" astParent="0x96ffc0" astOperand1="0x96fa40" astOperand2="0x96fba0"/>
+    <token id="0x96fba0" file="teleop_joypad.cpp" linenr="71" str="serviceClient" scope="0x994180" type="name" astParent="0x96faf0"/>
+    <token id="0x96fc50" file="teleop_joypad.cpp" linenr="71" str="&lt;" scope="0x994180" link="0x96ff10"/>
+    <token id="0x96fd00" file="teleop_joypad.cpp" linenr="71" str="std_srvs" scope="0x994180" type="name"/>
+    <token id="0x96fdb0" file="teleop_joypad.cpp" linenr="71" str="::" scope="0x994180"/>
+    <token id="0x96fe60" file="teleop_joypad.cpp" linenr="71" str="Empty" scope="0x994180" type="name"/>
+    <token id="0x96ff10" file="teleop_joypad.cpp" linenr="71" str="&gt;" scope="0x994180" link="0x96fc50"/>
+    <token id="0x96ffc0" file="teleop_joypad.cpp" linenr="71" str="(" scope="0x994180" link="0x970180" astParent="0x96f990" astOperand1="0x96faf0" astOperand2="0x9700a0"/>
+    <token id="0x9700a0" file="teleop_joypad.cpp" linenr="71" str="&quot;arm_1/switchOnMotors&quot;" scope="0x994180" type="string" strlen="20" values="0x9700a8" astParent="0x96ffc0"/>
+    <token id="0x970180" file="teleop_joypad.cpp" linenr="71" str=")" scope="0x994180" link="0x96ffc0"/>
+    <token id="0x970230" file="teleop_joypad.cpp" linenr="71" str=";" scope="0x994180"/>
+    <token id="0x9702e0" file="teleop_joypad.cpp" linenr="72" str="srv_arm_motors_off" scope="0x994180" type="name" varId="26" variable="0x998430" astParent="0x970390"/>
+    <token id="0x970390" file="teleop_joypad.cpp" linenr="72" str="=" scope="0x994180" type="op" isAssignmentOp="True" astOperand1="0x9702e0" astOperand2="0x9709c0"/>
+    <token id="0x970440" file="teleop_joypad.cpp" linenr="72" str="nh" scope="0x994180" type="name" varId="27" variable="0x9985f0" astParent="0x9704f0"/>
+    <token id="0x9704f0" file="teleop_joypad.cpp" linenr="72" str="." scope="0x994180" astParent="0x9709c0" astOperand1="0x970440" astOperand2="0x9705a0"/>
+    <token id="0x9705a0" file="teleop_joypad.cpp" linenr="72" str="serviceClient" scope="0x994180" type="name" astParent="0x9704f0"/>
+    <token id="0x970650" file="teleop_joypad.cpp" linenr="72" str="&lt;" scope="0x994180" link="0x970910"/>
+    <token id="0x970700" file="teleop_joypad.cpp" linenr="72" str="std_srvs" scope="0x994180" type="name"/>
+    <token id="0x9707b0" file="teleop_joypad.cpp" linenr="72" str="::" scope="0x994180"/>
+    <token id="0x970860" file="teleop_joypad.cpp" linenr="72" str="Empty" scope="0x994180" type="name"/>
+    <token id="0x970910" file="teleop_joypad.cpp" linenr="72" str="&gt;" scope="0x994180" link="0x970650"/>
+    <token id="0x9709c0" file="teleop_joypad.cpp" linenr="72" str="(" scope="0x994180" link="0x970b80" astParent="0x970390" astOperand1="0x9704f0" astOperand2="0x970aa0"/>
+    <token id="0x970aa0" file="teleop_joypad.cpp" linenr="72" str="&quot;arm_1/switchOffMotors&quot;" scope="0x994180" type="string" strlen="21" values="0x970aa8" astParent="0x9709c0"/>
+    <token id="0x970b80" file="teleop_joypad.cpp" linenr="72" str=")" scope="0x994180" link="0x9709c0"/>
+    <token id="0x970c30" file="teleop_joypad.cpp" linenr="72" str=";" scope="0x994180"/>
+    <token id="0x970ce0" file="teleop_joypad.cpp" linenr="73" str="}" scope="0x994180" link="0x966d50"/>
+    <token id="0x970d90" file="teleop_joypad.cpp" linenr="75" str="void" scope="0x993830" type="name"/>
+    <token id="0x970e40" file="teleop_joypad.cpp" linenr="75" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x970ef0"/>
+    <token id="0x970ef0" file="teleop_joypad.cpp" linenr="75" str="::" scope="0x993830" astParent="0x971050" astOperand1="0x970e40" astOperand2="0x970fa0"/>
+    <token id="0x970fa0" file="teleop_joypad.cpp" linenr="75" str="cbJoy" scope="0x993830" type="name" function="0x993c80" astParent="0x970ef0"/>
+    <token id="0x971050" file="teleop_joypad.cpp" linenr="75" str="(" scope="0x993830" link="0x971680" astOperand1="0x970ef0" astOperand2="0x971520"/>
+    <token id="0x971100" file="teleop_joypad.cpp" linenr="75" str="const" scope="0x993830" type="name"/>
+    <token id="0x9711b0" file="teleop_joypad.cpp" linenr="75" str="sensor_msgs" scope="0x993830" type="name" astParent="0x971260"/>
+    <token id="0x971260" file="teleop_joypad.cpp" linenr="75" str="::" scope="0x993830" astParent="0x9713c0" astOperand1="0x9711b0" astOperand2="0x971310"/>
+    <token id="0x971310" file="teleop_joypad.cpp" linenr="75" str="Joy" scope="0x993830" type="name" astParent="0x971260"/>
+    <token id="0x9713c0" file="teleop_joypad.cpp" linenr="75" str="::" scope="0x993830" astParent="0x971520" astOperand1="0x971260" astOperand2="0x971470"/>
+    <token id="0x971470" file="teleop_joypad.cpp" linenr="75" str="ConstPtr" scope="0x993830" type="name" astParent="0x9713c0"/>
+    <token id="0x971520" file="teleop_joypad.cpp" linenr="75" str="&amp;" scope="0x993830" type="op" astParent="0x971050" astOperand1="0x9713c0" astOperand2="0x9715d0"/>
+    <token id="0x9715d0" file="teleop_joypad.cpp" linenr="75" str="command" scope="0x993830" type="name" varId="29" variable="0x998660" astParent="0x971520"/>
+    <token id="0x971680" file="teleop_joypad.cpp" linenr="75" str=")" scope="0x993830" link="0x971050"/>
+    <token id="0x971730" file="teleop_joypad.cpp" linenr="76" str="{" scope="0x9942d0" link="0x980f20"/>
+    <token id="0x9717e0" file="teleop_joypad.cpp" linenr="78" str="button_deadman_pressed_prev_" scope="0x9942d0" type="name" varId="16" variable="0x997fd0" astParent="0x9718c0"/>
+    <token id="0x9718c0" file="teleop_joypad.cpp" linenr="78" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x9717e0" astOperand2="0x971970"/>
+    <token id="0x971970" file="teleop_joypad.cpp" linenr="78" str="button_deadman_pressed_" scope="0x9942d0" type="name" varId="15" variable="0x997f60" astParent="0x9718c0"/>
+    <token id="0x971a20" file="teleop_joypad.cpp" linenr="78" str=";" scope="0x9942d0"/>
+    <token id="0x971ad0" file="teleop_joypad.cpp" linenr="79" str="button_deadman_pressed_" scope="0x9942d0" type="name" varId="15" variable="0x997f60" astParent="0x971bb0"/>
+    <token id="0x971bb0" file="teleop_joypad.cpp" linenr="79" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x971ad0" astOperand2="0x971c60"/>
+    <token id="0x971c60" file="teleop_joypad.cpp" linenr="79" str="(" scope="0x9942d0" link="0x971dc0" astParent="0x971bb0" astOperand1="0x972130"/>
+    <token id="0x971d10" file="teleop_joypad.cpp" linenr="79" str="bool" scope="0x9942d0" type="name"/>
+    <token id="0x971dc0" file="teleop_joypad.cpp" linenr="79" str=")" scope="0x9942d0" link="0x971c60"/>
+    <token id="0x971e70" file="teleop_joypad.cpp" linenr="79" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x971f20"/>
+    <token id="0x971f20" file="teleop_joypad.cpp" linenr="79" str="." scope="0x9942d0" astParent="0x972130" astOperand1="0x971e70" astOperand2="0x972080"/>
+    <token id="0x972080" file="teleop_joypad.cpp" linenr="79" str="buttons" scope="0x9942d0" type="name" varId="30" astParent="0x971f20"/>
+    <token id="0x972130" file="teleop_joypad.cpp" linenr="79" str="[" scope="0x9942d0" link="0x972290" astParent="0x971c60" astOperand1="0x971f20" astOperand2="0x9721e0"/>
+    <token id="0x9721e0" file="teleop_joypad.cpp" linenr="79" str="5" scope="0x9942d0" type="number" isInt="True" values="0x9721e8" astParent="0x972130"/>
+    <token id="0x972290" file="teleop_joypad.cpp" linenr="79" str="]" scope="0x9942d0" link="0x972130"/>
+    <token id="0x972340" file="teleop_joypad.cpp" linenr="79" str=";" scope="0x9942d0"/>
+    <token id="0x9723f0" file="teleop_joypad.cpp" linenr="80" str="button_run_pressed_" scope="0x9942d0" type="name" varId="17" variable="0x998040" astParent="0x9724d0"/>
+    <token id="0x9724d0" file="teleop_joypad.cpp" linenr="80" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x9723f0" astOperand2="0x972580"/>
+    <token id="0x972580" file="teleop_joypad.cpp" linenr="80" str="(" scope="0x9942d0" link="0x9726e0" astParent="0x9724d0" astOperand1="0x972a50"/>
+    <token id="0x972630" file="teleop_joypad.cpp" linenr="80" str="bool" scope="0x9942d0" type="name"/>
+    <token id="0x9726e0" file="teleop_joypad.cpp" linenr="80" str=")" scope="0x9942d0" link="0x972580"/>
+    <token id="0x972790" file="teleop_joypad.cpp" linenr="80" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x972840"/>
+    <token id="0x972840" file="teleop_joypad.cpp" linenr="80" str="." scope="0x9942d0" astParent="0x972a50" astOperand1="0x972790" astOperand2="0x9729a0"/>
+    <token id="0x9729a0" file="teleop_joypad.cpp" linenr="80" str="buttons" scope="0x9942d0" type="name" varId="30" astParent="0x972840"/>
+    <token id="0x972a50" file="teleop_joypad.cpp" linenr="80" str="[" scope="0x9942d0" link="0x972bb0" astParent="0x972580" astOperand1="0x972840" astOperand2="0x972b00"/>
+    <token id="0x972b00" file="teleop_joypad.cpp" linenr="80" str="7" scope="0x9942d0" type="number" isInt="True" values="0x972b08" astParent="0x972a50"/>
+    <token id="0x972bb0" file="teleop_joypad.cpp" linenr="80" str="]" scope="0x9942d0" link="0x972a50"/>
+    <token id="0x972c60" file="teleop_joypad.cpp" linenr="80" str=";" scope="0x9942d0"/>
+    <token id="0x972d10" file="teleop_joypad.cpp" linenr="83" str="if" scope="0x9942d0" type="name" astParent="0x972dc0"/>
+    <token id="0x972dc0" file="teleop_joypad.cpp" linenr="83" str="(" scope="0x9942d0" link="0x973000" astOperand1="0x972d10" astOperand2="0x972e70"/>
+    <token id="0x972e70" file="teleop_joypad.cpp" linenr="83" str="!" scope="0x9942d0" type="op" isLogicalOp="True" astParent="0x972dc0" astOperand1="0x972f20"/>
+    <token id="0x972f20" file="teleop_joypad.cpp" linenr="83" str="button_run_pressed_" scope="0x9942d0" type="name" varId="17" variable="0x998040" astParent="0x972e70"/>
+    <token id="0x973000" file="teleop_joypad.cpp" linenr="83" str=")" scope="0x9942d0" link="0x972dc0"/>
+    <token id="0x973c60" file="teleop_joypad.cpp" linenr="83" str="{" scope="0x994420" link="0x974b80"/>
+    <token id="0x9730b0" file="teleop_joypad.cpp" linenr="84" str="speed_factor_" scope="0x994420" type="name" varId="14" variable="0x997ef0" astParent="0x973160"/>
+    <token id="0x973160" file="teleop_joypad.cpp" linenr="84" str="=" scope="0x994420" type="op" isAssignmentOp="True" astOperand1="0x9730b0" astOperand2="0x973210"/>
+    <token id="0x973210" file="teleop_joypad.cpp" linenr="84" str="0.5" scope="0x994420" type="number" isFloat="True" astParent="0x973160"/>
+    <token id="0x9732c0" file="teleop_joypad.cpp" linenr="84" str=";" scope="0x994420"/>
+    <token id="0x974b80" file="teleop_joypad.cpp" linenr="84" str="}" scope="0x994420" link="0x973c60"/>
+    <token id="0x973370" file="teleop_joypad.cpp" linenr="85" str="else" scope="0x9942d0" type="name"/>
+    <token id="0x975aa0" file="teleop_joypad.cpp" linenr="85" str="{" scope="0x9946a0" link="0x979460"/>
+    <token id="0x973420" file="teleop_joypad.cpp" linenr="86" str="speed_factor_" scope="0x9946a0" type="name" varId="14" variable="0x997ef0" astParent="0x9734d0"/>
+    <token id="0x9734d0" file="teleop_joypad.cpp" linenr="86" str="=" scope="0x9946a0" type="op" isAssignmentOp="True" astOperand1="0x973420" astOperand2="0x973580"/>
+    <token id="0x973580" file="teleop_joypad.cpp" linenr="86" str="1.0" scope="0x9946a0" type="number" isFloat="True" astParent="0x9734d0"/>
+    <token id="0x973630" file="teleop_joypad.cpp" linenr="86" str=";" scope="0x9946a0"/>
+    <token id="0x979460" file="teleop_joypad.cpp" linenr="86" str="}" scope="0x9946a0" link="0x975aa0"/>
+    <token id="0x9736e0" file="teleop_joypad.cpp" linenr="88" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x973790"/>
+    <token id="0x973790" file="teleop_joypad.cpp" linenr="88" str="." scope="0x9942d0" astParent="0x9738f0" astOperand1="0x9736e0" astOperand2="0x973840"/>
+    <token id="0x973840" file="teleop_joypad.cpp" linenr="88" str="linear" scope="0x9942d0" type="name" varId="47" astParent="0x973790"/>
+    <token id="0x9738f0" file="teleop_joypad.cpp" linenr="88" str="." scope="0x9942d0" astParent="0x973a50" astOperand1="0x973790" astOperand2="0x9739a0"/>
+    <token id="0x9739a0" file="teleop_joypad.cpp" linenr="88" str="x" scope="0x9942d0" type="name" varId="48" astParent="0x9738f0"/>
+    <token id="0x973a50" file="teleop_joypad.cpp" linenr="88" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x9738f0" astOperand2="0x9743f0"/>
+    <token id="0x973b00" file="teleop_joypad.cpp" linenr="88" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x973bb0"/>
+    <token id="0x973bb0" file="teleop_joypad.cpp" linenr="88" str="." scope="0x9942d0" astParent="0x973dc0" astOperand1="0x973b00" astOperand2="0x973d10"/>
+    <token id="0x973d10" file="teleop_joypad.cpp" linenr="88" str="axes" scope="0x9942d0" type="name" varId="31" astParent="0x973bb0"/>
+    <token id="0x973dc0" file="teleop_joypad.cpp" linenr="88" str="[" scope="0x9942d0" link="0x973f20" astParent="0x973fd0" astOperand1="0x973bb0" astOperand2="0x973e70"/>
+    <token id="0x973e70" file="teleop_joypad.cpp" linenr="88" str="1" scope="0x9942d0" type="number" isInt="True" values="0x973e78" astParent="0x973dc0"/>
+    <token id="0x973f20" file="teleop_joypad.cpp" linenr="88" str="]" scope="0x9942d0" link="0x973dc0"/>
+    <token id="0x973fd0" file="teleop_joypad.cpp" linenr="88" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x9743f0" astOperand1="0x973dc0" astOperand2="0x974290"/>
+    <token id="0x974080" file="teleop_joypad.cpp" linenr="88" str="base_factor_" scope="0x9942d0" type="name" varId="20" variable="0x998190" astParent="0x974130"/>
+    <token id="0x974130" file="teleop_joypad.cpp" linenr="88" str="." scope="0x9942d0" astParent="0x974290" astOperand1="0x974080" astOperand2="0x9741e0"/>
+    <token id="0x9741e0" file="teleop_joypad.cpp" linenr="88" str="linear" scope="0x9942d0" type="name" varId="42" astParent="0x974130"/>
+    <token id="0x974290" file="teleop_joypad.cpp" linenr="88" str="." scope="0x9942d0" astParent="0x973fd0" astOperand1="0x974130" astOperand2="0x974340"/>
+    <token id="0x974340" file="teleop_joypad.cpp" linenr="88" str="x" scope="0x9942d0" type="name" varId="43" astParent="0x974290"/>
+    <token id="0x9743f0" file="teleop_joypad.cpp" linenr="88" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x973a50" astOperand1="0x973fd0" astOperand2="0x9744a0"/>
+    <token id="0x9744a0" file="teleop_joypad.cpp" linenr="88" str="speed_factor_" scope="0x9942d0" type="name" varId="14" variable="0x997ef0" astParent="0x9743f0"/>
+    <token id="0x974550" file="teleop_joypad.cpp" linenr="88" str=";" scope="0x9942d0"/>
+    <token id="0x974600" file="teleop_joypad.cpp" linenr="89" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x9746b0"/>
+    <token id="0x9746b0" file="teleop_joypad.cpp" linenr="89" str="." scope="0x9942d0" astParent="0x974810" astOperand1="0x974600" astOperand2="0x974760"/>
+    <token id="0x974760" file="teleop_joypad.cpp" linenr="89" str="linear" scope="0x9942d0" type="name" varId="47" astParent="0x9746b0"/>
+    <token id="0x974810" file="teleop_joypad.cpp" linenr="89" str="." scope="0x9942d0" astParent="0x974970" astOperand1="0x9746b0" astOperand2="0x9748c0"/>
+    <token id="0x9748c0" file="teleop_joypad.cpp" linenr="89" str="y" scope="0x9942d0" type="name" varId="49" astParent="0x974810"/>
+    <token id="0x974970" file="teleop_joypad.cpp" linenr="89" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x974810" astOperand2="0x975310"/>
+    <token id="0x974a20" file="teleop_joypad.cpp" linenr="89" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x974ad0"/>
+    <token id="0x974ad0" file="teleop_joypad.cpp" linenr="89" str="." scope="0x9942d0" astParent="0x974ce0" astOperand1="0x974a20" astOperand2="0x974c30"/>
+    <token id="0x974c30" file="teleop_joypad.cpp" linenr="89" str="axes" scope="0x9942d0" type="name" varId="31" astParent="0x974ad0"/>
+    <token id="0x974ce0" file="teleop_joypad.cpp" linenr="89" str="[" scope="0x9942d0" link="0x974e40" astParent="0x974ef0" astOperand1="0x974ad0" astOperand2="0x974d90"/>
+    <token id="0x974d90" file="teleop_joypad.cpp" linenr="89" str="0" scope="0x9942d0" type="number" isInt="True" values="0x974d98" astParent="0x974ce0"/>
+    <token id="0x974e40" file="teleop_joypad.cpp" linenr="89" str="]" scope="0x9942d0" link="0x974ce0"/>
+    <token id="0x974ef0" file="teleop_joypad.cpp" linenr="89" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x975310" astOperand1="0x974ce0" astOperand2="0x9751b0"/>
+    <token id="0x974fa0" file="teleop_joypad.cpp" linenr="89" str="base_factor_" scope="0x9942d0" type="name" varId="20" variable="0x998190" astParent="0x975050"/>
+    <token id="0x975050" file="teleop_joypad.cpp" linenr="89" str="." scope="0x9942d0" astParent="0x9751b0" astOperand1="0x974fa0" astOperand2="0x975100"/>
+    <token id="0x975100" file="teleop_joypad.cpp" linenr="89" str="linear" scope="0x9942d0" type="name" varId="42" astParent="0x975050"/>
+    <token id="0x9751b0" file="teleop_joypad.cpp" linenr="89" str="." scope="0x9942d0" astParent="0x974ef0" astOperand1="0x975050" astOperand2="0x975260"/>
+    <token id="0x975260" file="teleop_joypad.cpp" linenr="89" str="y" scope="0x9942d0" type="name" varId="44" astParent="0x9751b0"/>
+    <token id="0x975310" file="teleop_joypad.cpp" linenr="89" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x974970" astOperand1="0x974ef0" astOperand2="0x9753c0"/>
+    <token id="0x9753c0" file="teleop_joypad.cpp" linenr="89" str="speed_factor_" scope="0x9942d0" type="name" varId="14" variable="0x997ef0" astParent="0x975310"/>
+    <token id="0x975470" file="teleop_joypad.cpp" linenr="89" str=";" scope="0x9942d0"/>
+    <token id="0x975520" file="teleop_joypad.cpp" linenr="90" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x9755d0"/>
+    <token id="0x9755d0" file="teleop_joypad.cpp" linenr="90" str="." scope="0x9942d0" astParent="0x975730" astOperand1="0x975520" astOperand2="0x975680"/>
+    <token id="0x975680" file="teleop_joypad.cpp" linenr="90" str="angular" scope="0x9942d0" type="name" varId="50" astParent="0x9755d0"/>
+    <token id="0x975730" file="teleop_joypad.cpp" linenr="90" str="." scope="0x9942d0" astParent="0x975890" astOperand1="0x9755d0" astOperand2="0x9757e0"/>
+    <token id="0x9757e0" file="teleop_joypad.cpp" linenr="90" str="z" scope="0x9942d0" type="name" varId="51" astParent="0x975730"/>
+    <token id="0x975890" file="teleop_joypad.cpp" linenr="90" str="=" scope="0x9942d0" type="op" isAssignmentOp="True" astOperand1="0x975730" astOperand2="0x976230"/>
+    <token id="0x975940" file="teleop_joypad.cpp" linenr="90" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x9759f0"/>
+    <token id="0x9759f0" file="teleop_joypad.cpp" linenr="90" str="." scope="0x9942d0" astParent="0x975c00" astOperand1="0x975940" astOperand2="0x975b50"/>
+    <token id="0x975b50" file="teleop_joypad.cpp" linenr="90" str="axes" scope="0x9942d0" type="name" varId="31" astParent="0x9759f0"/>
+    <token id="0x975c00" file="teleop_joypad.cpp" linenr="90" str="[" scope="0x9942d0" link="0x975d60" astParent="0x975e10" astOperand1="0x9759f0" astOperand2="0x975cb0"/>
+    <token id="0x975cb0" file="teleop_joypad.cpp" linenr="90" str="2" scope="0x9942d0" type="number" isInt="True" values="0x975cb8" astParent="0x975c00"/>
+    <token id="0x975d60" file="teleop_joypad.cpp" linenr="90" str="]" scope="0x9942d0" link="0x975c00"/>
+    <token id="0x975e10" file="teleop_joypad.cpp" linenr="90" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x976230" astOperand1="0x975c00" astOperand2="0x9760d0"/>
+    <token id="0x975ec0" file="teleop_joypad.cpp" linenr="90" str="base_factor_" scope="0x9942d0" type="name" varId="20" variable="0x998190" astParent="0x975f70"/>
+    <token id="0x975f70" file="teleop_joypad.cpp" linenr="90" str="." scope="0x9942d0" astParent="0x9760d0" astOperand1="0x975ec0" astOperand2="0x976020"/>
+    <token id="0x976020" file="teleop_joypad.cpp" linenr="90" str="angular" scope="0x9942d0" type="name" varId="45" astParent="0x975f70"/>
+    <token id="0x9760d0" file="teleop_joypad.cpp" linenr="90" str="." scope="0x9942d0" astParent="0x975e10" astOperand1="0x975f70" astOperand2="0x976180"/>
+    <token id="0x976180" file="teleop_joypad.cpp" linenr="90" str="z" scope="0x9942d0" type="name" varId="46" astParent="0x9760d0"/>
+    <token id="0x976230" file="teleop_joypad.cpp" linenr="90" str="*" scope="0x9942d0" type="op" isArithmeticalOp="True" astParent="0x975890" astOperand1="0x975e10" astOperand2="0x9762e0"/>
+    <token id="0x9762e0" file="teleop_joypad.cpp" linenr="90" str="speed_factor_" scope="0x9942d0" type="name" varId="14" variable="0x997ef0" astParent="0x976230"/>
+    <token id="0x976390" file="teleop_joypad.cpp" linenr="90" str=";" scope="0x9942d0"/>
+    <token id="0x976440" file="teleop_joypad.cpp" linenr="92" str="if" scope="0x9942d0" type="name" astParent="0x9764f0"/>
+    <token id="0x9764f0" file="teleop_joypad.cpp" linenr="92" str="(" scope="0x9942d0" link="0x976c80" astOperand1="0x976440" astOperand2="0x976b20"/>
+    <token id="0x9765a0" file="teleop_joypad.cpp" linenr="92" str="fabs" scope="0x9942d0" type="name" astParent="0x976650"/>
+    <token id="0x976650" file="teleop_joypad.cpp" linenr="92" str="(" scope="0x9942d0" link="0x976a70" astParent="0x976b20" astOperand1="0x9765a0" astOperand2="0x976910"/>
+    <token id="0x976700" file="teleop_joypad.cpp" linenr="92" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x9767b0"/>
+    <token id="0x9767b0" file="teleop_joypad.cpp" linenr="92" str="." scope="0x9942d0" astParent="0x976910" astOperand1="0x976700" astOperand2="0x976860"/>
+    <token id="0x976860" file="teleop_joypad.cpp" linenr="92" str="linear" scope="0x9942d0" type="name" varId="47" astParent="0x9767b0"/>
+    <token id="0x976910" file="teleop_joypad.cpp" linenr="92" str="." scope="0x9942d0" astParent="0x976650" astOperand1="0x9767b0" astOperand2="0x9769c0"/>
+    <token id="0x9769c0" file="teleop_joypad.cpp" linenr="92" str="x" scope="0x9942d0" type="name" varId="48" astParent="0x976910"/>
+    <token id="0x976a70" file="teleop_joypad.cpp" linenr="92" str=")" scope="0x9942d0" link="0x976650"/>
+    <token id="0x976b20" file="teleop_joypad.cpp" linenr="92" str="&lt;" scope="0x9942d0" type="op" isComparisonOp="True" astParent="0x9764f0" astOperand1="0x976650" astOperand2="0x976bd0"/>
+    <token id="0x976bd0" file="teleop_joypad.cpp" linenr="92" str="0.05" scope="0x9942d0" type="number" isFloat="True" astParent="0x976b20"/>
+    <token id="0x976c80" file="teleop_joypad.cpp" linenr="92" str=")" scope="0x9942d0" link="0x9764f0"/>
+    <token id="0x97a0f0" file="teleop_joypad.cpp" linenr="92" str="{" scope="0x9947f0" link="0x97acd0"/>
+    <token id="0x976d30" file="teleop_joypad.cpp" linenr="93" str="base_vel_" scope="0x9947f0" type="name" varId="18" variable="0x9980b0" astParent="0x976de0"/>
+    <token id="0x976de0" file="teleop_joypad.cpp" linenr="93" str="." scope="0x9947f0" astParent="0x976f40" astOperand1="0x976d30" astOperand2="0x976e90"/>
+    <token id="0x976e90" file="teleop_joypad.cpp" linenr="93" str="linear" scope="0x9947f0" type="name" varId="47" astParent="0x976de0"/>
+    <token id="0x976f40" file="teleop_joypad.cpp" linenr="93" str="." scope="0x9947f0" astParent="0x9770a0" astOperand1="0x976de0" astOperand2="0x976ff0"/>
+    <token id="0x976ff0" file="teleop_joypad.cpp" linenr="93" str="x" scope="0x9947f0" type="name" varId="48" astParent="0x976f40"/>
+    <token id="0x9770a0" file="teleop_joypad.cpp" linenr="93" str="=" scope="0x9947f0" type="op" isAssignmentOp="True" astOperand1="0x976f40" astOperand2="0x977150"/>
+    <token id="0x977150" file="teleop_joypad.cpp" linenr="93" str="0" scope="0x9947f0" type="number" isInt="True" values="0x977158" astParent="0x9770a0"/>
+    <token id="0x977200" file="teleop_joypad.cpp" linenr="93" str=";" scope="0x9947f0"/>
+    <token id="0x97acd0" file="teleop_joypad.cpp" linenr="93" str="}" scope="0x9947f0" link="0x97a0f0"/>
+    <token id="0x9772b0" file="teleop_joypad.cpp" linenr="94" str="if" scope="0x9942d0" type="name" astParent="0x977360"/>
+    <token id="0x977360" file="teleop_joypad.cpp" linenr="94" str="(" scope="0x9942d0" link="0x977af0" astOperand1="0x9772b0" astOperand2="0x977990"/>
+    <token id="0x977410" file="teleop_joypad.cpp" linenr="94" str="fabs" scope="0x9942d0" type="name" astParent="0x9774c0"/>
+    <token id="0x9774c0" file="teleop_joypad.cpp" linenr="94" str="(" scope="0x9942d0" link="0x9778e0" astParent="0x977990" astOperand1="0x977410" astOperand2="0x977780"/>
+    <token id="0x977570" file="teleop_joypad.cpp" linenr="94" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x977620"/>
+    <token id="0x977620" file="teleop_joypad.cpp" linenr="94" str="." scope="0x9942d0" astParent="0x977780" astOperand1="0x977570" astOperand2="0x9776d0"/>
+    <token id="0x9776d0" file="teleop_joypad.cpp" linenr="94" str="linear" scope="0x9942d0" type="name" varId="47" astParent="0x977620"/>
+    <token id="0x977780" file="teleop_joypad.cpp" linenr="94" str="." scope="0x9942d0" astParent="0x9774c0" astOperand1="0x977620" astOperand2="0x977830"/>
+    <token id="0x977830" file="teleop_joypad.cpp" linenr="94" str="y" scope="0x9942d0" type="name" varId="49" astParent="0x977780"/>
+    <token id="0x9778e0" file="teleop_joypad.cpp" linenr="94" str=")" scope="0x9942d0" link="0x9774c0"/>
+    <token id="0x977990" file="teleop_joypad.cpp" linenr="94" str="&lt;" scope="0x9942d0" type="op" isComparisonOp="True" astParent="0x977360" astOperand1="0x9774c0" astOperand2="0x977a40"/>
+    <token id="0x977a40" file="teleop_joypad.cpp" linenr="94" str="0.05" scope="0x9942d0" type="number" isFloat="True" astParent="0x977990"/>
+    <token id="0x977af0" file="teleop_joypad.cpp" linenr="94" str=")" scope="0x9942d0" link="0x977360"/>
+    <token id="0x97b930" file="teleop_joypad.cpp" linenr="94" str="{" scope="0x994940" link="0x97c7a0"/>
+    <token id="0x977ba0" file="teleop_joypad.cpp" linenr="95" str="base_vel_" scope="0x994940" type="name" varId="18" variable="0x9980b0" astParent="0x977c50"/>
+    <token id="0x977c50" file="teleop_joypad.cpp" linenr="95" str="." scope="0x994940" astParent="0x977db0" astOperand1="0x977ba0" astOperand2="0x977d00"/>
+    <token id="0x977d00" file="teleop_joypad.cpp" linenr="95" str="linear" scope="0x994940" type="name" varId="47" astParent="0x977c50"/>
+    <token id="0x977db0" file="teleop_joypad.cpp" linenr="95" str="." scope="0x994940" astParent="0x977f10" astOperand1="0x977c50" astOperand2="0x977e60"/>
+    <token id="0x977e60" file="teleop_joypad.cpp" linenr="95" str="y" scope="0x994940" type="name" varId="49" astParent="0x977db0"/>
+    <token id="0x977f10" file="teleop_joypad.cpp" linenr="95" str="=" scope="0x994940" type="op" isAssignmentOp="True" astOperand1="0x977db0" astOperand2="0x977fc0"/>
+    <token id="0x977fc0" file="teleop_joypad.cpp" linenr="95" str="0" scope="0x994940" type="number" isInt="True" values="0x977fc8" astParent="0x977f10"/>
+    <token id="0x978070" file="teleop_joypad.cpp" linenr="95" str=";" scope="0x994940"/>
+    <token id="0x97c7a0" file="teleop_joypad.cpp" linenr="95" str="}" scope="0x994940" link="0x97b930"/>
+    <token id="0x978120" file="teleop_joypad.cpp" linenr="96" str="if" scope="0x9942d0" type="name" astParent="0x9781d0"/>
+    <token id="0x9781d0" file="teleop_joypad.cpp" linenr="96" str="(" scope="0x9942d0" link="0x978960" astOperand1="0x978120" astOperand2="0x978800"/>
+    <token id="0x978280" file="teleop_joypad.cpp" linenr="96" str="fabs" scope="0x9942d0" type="name" astParent="0x978330"/>
+    <token id="0x978330" file="teleop_joypad.cpp" linenr="96" str="(" scope="0x9942d0" link="0x978750" astParent="0x978800" astOperand1="0x978280" astOperand2="0x9785f0"/>
+    <token id="0x9783e0" file="teleop_joypad.cpp" linenr="96" str="base_vel_" scope="0x9942d0" type="name" varId="18" variable="0x9980b0" astParent="0x978490"/>
+    <token id="0x978490" file="teleop_joypad.cpp" linenr="96" str="." scope="0x9942d0" astParent="0x9785f0" astOperand1="0x9783e0" astOperand2="0x978540"/>
+    <token id="0x978540" file="teleop_joypad.cpp" linenr="96" str="angular" scope="0x9942d0" type="name" varId="50" astParent="0x978490"/>
+    <token id="0x9785f0" file="teleop_joypad.cpp" linenr="96" str="." scope="0x9942d0" astParent="0x978330" astOperand1="0x978490" astOperand2="0x9786a0"/>
+    <token id="0x9786a0" file="teleop_joypad.cpp" linenr="96" str="z" scope="0x9942d0" type="name" varId="51" astParent="0x9785f0"/>
+    <token id="0x978750" file="teleop_joypad.cpp" linenr="96" str=")" scope="0x9942d0" link="0x978330"/>
+    <token id="0x978800" file="teleop_joypad.cpp" linenr="96" str="&lt;" scope="0x9942d0" type="op" isComparisonOp="True" astParent="0x9781d0" astOperand1="0x978330" astOperand2="0x9788b0"/>
+    <token id="0x9788b0" file="teleop_joypad.cpp" linenr="96" str="0.01" scope="0x9942d0" type="number" isFloat="True" astParent="0x978800"/>
+    <token id="0x978960" file="teleop_joypad.cpp" linenr="96" str=")" scope="0x9942d0" link="0x9781d0"/>
+    <token id="0x97d4b0" file="teleop_joypad.cpp" linenr="96" str="{" scope="0x994ba0" link="0x97e110"/>
+    <token id="0x978a10" file="teleop_joypad.cpp" linenr="97" str="base_vel_" scope="0x994ba0" type="name" varId="18" variable="0x9980b0" astParent="0x978ac0"/>
+    <token id="0x978ac0" file="teleop_joypad.cpp" linenr="97" str="." scope="0x994ba0" astParent="0x978c20" astOperand1="0x978a10" astOperand2="0x978b70"/>
+    <token id="0x978b70" file="teleop_joypad.cpp" linenr="97" str="angular" scope="0x994ba0" type="name" varId="50" astParent="0x978ac0"/>
+    <token id="0x978c20" file="teleop_joypad.cpp" linenr="97" str="." scope="0x994ba0" astParent="0x978d80" astOperand1="0x978ac0" astOperand2="0x978cd0"/>
+    <token id="0x978cd0" file="teleop_joypad.cpp" linenr="97" str="z" scope="0x994ba0" type="name" varId="51" astParent="0x978c20"/>
+    <token id="0x978d80" file="teleop_joypad.cpp" linenr="97" str="=" scope="0x994ba0" type="op" isAssignmentOp="True" astOperand1="0x978c20" astOperand2="0x978e30"/>
+    <token id="0x978e30" file="teleop_joypad.cpp" linenr="97" str="0" scope="0x994ba0" type="number" isInt="True" values="0x978e38" astParent="0x978d80"/>
+    <token id="0x978ee0" file="teleop_joypad.cpp" linenr="97" str=";" scope="0x994ba0"/>
+    <token id="0x97e110" file="teleop_joypad.cpp" linenr="97" str="}" scope="0x994ba0" link="0x97d4b0"/>
+    <token id="0x978f90" file="teleop_joypad.cpp" linenr="100" str="if" scope="0x9942d0" type="name" astParent="0x979040"/>
+    <token id="0x979040" file="teleop_joypad.cpp" linenr="100" str="(" scope="0x9942d0" link="0x9797d0" astOperand1="0x978f90" astOperand2="0x9790f0"/>
+    <token id="0x9790f0" file="teleop_joypad.cpp" linenr="100" str="(" scope="0x9942d0" link="0x979250" astParent="0x979040" astOperand1="0x9795c0"/>
+    <token id="0x9791a0" file="teleop_joypad.cpp" linenr="100" str="bool" scope="0x9942d0" type="name"/>
+    <token id="0x979250" file="teleop_joypad.cpp" linenr="100" str=")" scope="0x9942d0" link="0x9790f0"/>
+    <token id="0x979300" file="teleop_joypad.cpp" linenr="100" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x9793b0"/>
+    <token id="0x9793b0" file="teleop_joypad.cpp" linenr="100" str="." scope="0x9942d0" astParent="0x9795c0" astOperand1="0x979300" astOperand2="0x979510"/>
+    <token id="0x979510" file="teleop_joypad.cpp" linenr="100" str="buttons" scope="0x9942d0" type="name" varId="30" astParent="0x9793b0"/>
+    <token id="0x9795c0" file="teleop_joypad.cpp" linenr="100" str="[" scope="0x9942d0" link="0x979720" astParent="0x9790f0" astOperand1="0x9793b0" astOperand2="0x979670"/>
+    <token id="0x979670" file="teleop_joypad.cpp" linenr="100" str="9" scope="0x9942d0" type="number" isInt="True" values="0x979678" astParent="0x9795c0"/>
+    <token id="0x979720" file="teleop_joypad.cpp" linenr="100" str="]" scope="0x9942d0" link="0x9795c0"/>
+    <token id="0x9797d0" file="teleop_joypad.cpp" linenr="100" str=")" scope="0x9942d0" link="0x979040"/>
+    <token id="0x97ef80" file="teleop_joypad.cpp" linenr="100" str="{" scope="0x994cf0" link="0x97fc90"/>
+    <token id="0x979880" file="teleop_joypad.cpp" linenr="101" str="turnOnArmMotorsOn" scope="0x994cf0" type="name" function="0x993fa0" astParent="0x979960"/>
+    <token id="0x979960" file="teleop_joypad.cpp" linenr="101" str="(" scope="0x994cf0" link="0x979a10" astOperand1="0x979880"/>
+    <token id="0x979a10" file="teleop_joypad.cpp" linenr="101" str=")" scope="0x994cf0" link="0x979960"/>
+    <token id="0x979ac0" file="teleop_joypad.cpp" linenr="101" str=";" scope="0x994cf0"/>
+    <token id="0x97fc90" file="teleop_joypad.cpp" linenr="101" str="}" scope="0x994cf0" link="0x97ef80"/>
+    <token id="0x979b70" file="teleop_joypad.cpp" linenr="102" str="else" scope="0x9942d0" type="name"/>
+    <token id="0x9931f0" file="teleop_joypad.cpp" linenr="102" str="{" scope="0x994f70" link="0x9932a0"/>
+    <token id="0x979c20" file="teleop_joypad.cpp" linenr="102" str="if" scope="0x994f70" type="name" astParent="0x979cd0"/>
+    <token id="0x979cd0" file="teleop_joypad.cpp" linenr="102" str="(" scope="0x994f70" link="0x97a460" astOperand1="0x979c20" astOperand2="0x979d80"/>
+    <token id="0x979d80" file="teleop_joypad.cpp" linenr="102" str="(" scope="0x994f70" link="0x979ee0" astParent="0x979cd0" astOperand1="0x97a250"/>
+    <token id="0x979e30" file="teleop_joypad.cpp" linenr="102" str="bool" scope="0x994f70" type="name"/>
+    <token id="0x979ee0" file="teleop_joypad.cpp" linenr="102" str=")" scope="0x994f70" link="0x979d80"/>
+    <token id="0x979f90" file="teleop_joypad.cpp" linenr="102" str="command" scope="0x994f70" type="name" varId="29" variable="0x998660" astParent="0x97a040"/>
+    <token id="0x97a040" file="teleop_joypad.cpp" linenr="102" str="." scope="0x994f70" astParent="0x97a250" astOperand1="0x979f90" astOperand2="0x97a1a0"/>
+    <token id="0x97a1a0" file="teleop_joypad.cpp" linenr="102" str="buttons" scope="0x994f70" type="name" varId="30" astParent="0x97a040"/>
+    <token id="0x97a250" file="teleop_joypad.cpp" linenr="102" str="[" scope="0x994f70" link="0x97a3b0" astParent="0x979d80" astOperand1="0x97a040" astOperand2="0x97a300"/>
+    <token id="0x97a300" file="teleop_joypad.cpp" linenr="102" str="8" scope="0x994f70" type="number" isInt="True" values="0x97a308" astParent="0x97a250"/>
+    <token id="0x97a3b0" file="teleop_joypad.cpp" linenr="102" str="]" scope="0x994f70" link="0x97a250"/>
+    <token id="0x97a460" file="teleop_joypad.cpp" linenr="102" str=")" scope="0x994f70" link="0x979cd0"/>
+    <token id="0x980840" file="teleop_joypad.cpp" linenr="102" str="{" scope="0x9950c0" link="0x992ee0"/>
+    <token id="0x97a510" file="teleop_joypad.cpp" linenr="103" str="turnOnArmMotorsOff" scope="0x9950c0" type="name" function="0x994090" astParent="0x97a5f0"/>
+    <token id="0x97a5f0" file="teleop_joypad.cpp" linenr="103" str="(" scope="0x9950c0" link="0x97a6a0" astOperand1="0x97a510"/>
+    <token id="0x97a6a0" file="teleop_joypad.cpp" linenr="103" str=")" scope="0x9950c0" link="0x97a5f0"/>
+    <token id="0x97a750" file="teleop_joypad.cpp" linenr="103" str=";" scope="0x9950c0"/>
+    <token id="0x992ee0" file="teleop_joypad.cpp" linenr="103" str="}" scope="0x9950c0" link="0x980840"/>
+    <token id="0x9932a0" file="teleop_joypad.cpp" linenr="103" str="}" scope="0x994f70" link="0x9931f0"/>
+    <token id="0x97a800" file="teleop_joypad.cpp" linenr="105" str="if" scope="0x9942d0" type="name" astParent="0x97a8b0"/>
+    <token id="0x97a8b0" file="teleop_joypad.cpp" linenr="105" str="(" scope="0x9942d0" link="0x97b040" astOperand1="0x97a800" astOperand2="0x97a960"/>
+    <token id="0x97a960" file="teleop_joypad.cpp" linenr="105" str="(" scope="0x9942d0" link="0x97aac0" astParent="0x97a8b0" astOperand1="0x97ae30"/>
+    <token id="0x97aa10" file="teleop_joypad.cpp" linenr="105" str="bool" scope="0x9942d0" type="name"/>
+    <token id="0x97aac0" file="teleop_joypad.cpp" linenr="105" str=")" scope="0x9942d0" link="0x97a960"/>
+    <token id="0x97ab70" file="teleop_joypad.cpp" linenr="105" str="command" scope="0x9942d0" type="name" varId="29" variable="0x998660" astParent="0x97ac20"/>
+    <token id="0x97ac20" file="teleop_joypad.cpp" linenr="105" str="." scope="0x9942d0" astParent="0x97ae30" astOperand1="0x97ab70" astOperand2="0x97ad80"/>
+    <token id="0x97ad80" file="teleop_joypad.cpp" linenr="105" str="buttons" scope="0x9942d0" type="name" varId="30" astParent="0x97ac20"/>
+    <token id="0x97ae30" file="teleop_joypad.cpp" linenr="105" str="[" scope="0x9942d0" link="0x97af90" astParent="0x97a960" astOperand1="0x97ac20" astOperand2="0x97aee0"/>
+    <token id="0x97aee0" file="teleop_joypad.cpp" linenr="105" str="0" scope="0x9942d0" type="number" isInt="True" values="0x97aee8" astParent="0x97ae30"/>
+    <token id="0x97af90" file="teleop_joypad.cpp" linenr="105" str="]" scope="0x9942d0" link="0x97ae30"/>
+    <token id="0x97b040" file="teleop_joypad.cpp" linenr="105" str=")" scope="0x9942d0" link="0x97a8b0"/>
+    <token id="0x97b0f0" file="teleop_joypad.cpp" linenr="106" str="{" scope="0x995210" link="0x97ce80"/>
+    <token id="0x97b1a0" file="teleop_joypad.cpp" linenr="107" str="arm_vel_" scope="0x995210" type="name" varId="13" variable="0x997e80" astParent="0x97b250"/>
+    <token id="0x97b250" file="teleop_joypad.cpp" linenr="107" str="." scope="0x995210" astParent="0x97b3b0" astOperand1="0x97b1a0" astOperand2="0x97b300"/>
+    <token id="0x97b300" file="teleop_joypad.cpp" linenr="107" str="velocities" scope="0x995210" type="name" varId="52" astParent="0x97b250"/>
+    <token id="0x97b3b0" file="teleop_joypad.cpp" linenr="107" str="[" scope="0x995210" link="0x97b510" astParent="0x97b5c0" astOperand1="0x97b250" astOperand2="0x97b460"/>
+    <token id="0x97b460" file="teleop_joypad.cpp" linenr="107" str="0" scope="0x995210" type="number" isInt="True" values="0x97b468" astParent="0x97b3b0"/>
+    <token id="0x97b510" file="teleop_joypad.cpp" linenr="107" str="]" scope="0x995210" link="0x97b3b0"/>
+    <token id="0x97b5c0" file="teleop_joypad.cpp" linenr="107" str="." scope="0x995210" astParent="0x97b720" astOperand1="0x97b3b0" astOperand2="0x97b670"/>
+    <token id="0x97b670" file="teleop_joypad.cpp" linenr="107" str="value" scope="0x995210" type="name" astParent="0x97b5c0"/>
+    <token id="0x97b720" file="teleop_joypad.cpp" linenr="107" str="=" scope="0x995210" type="op" isAssignmentOp="True" astOperand1="0x97b5c0" astOperand2="0x97be00"/>
+    <token id="0x97b7d0" file="teleop_joypad.cpp" linenr="107" str="command" scope="0x995210" type="name" varId="29" variable="0x998660" astParent="0x97b880"/>
+    <token id="0x97b880" file="teleop_joypad.cpp" linenr="107" str="." scope="0x995210" astParent="0x97ba90" astOperand1="0x97b7d0" astOperand2="0x97b9e0"/>
+    <token id="0x97b9e0" file="teleop_joypad.cpp" linenr="107" str="axes" scope="0x995210" type="name" varId="31" astParent="0x97b880"/>
+    <token id="0x97ba90" file="teleop_joypad.cpp" linenr="107" str="[" scope="0x995210" link="0x97bbf0" astParent="0x97bca0" astOperand1="0x97b880" astOperand2="0x97bb40"/>
+    <token id="0x97bb40" file="teleop_joypad.cpp" linenr="107" str="4" scope="0x995210" type="number" isInt="True" values="0x97bb48" astParent="0x97ba90"/>
+    <token id="0x97bbf0" file="teleop_joypad.cpp" linenr="107" str="]" scope="0x995210" link="0x97ba90"/>
+    <token id="0x97bca0" file="teleop_joypad.cpp" linenr="107" str="*" scope="0x995210" type="op" isArithmeticalOp="True" astParent="0x97be00" astOperand1="0x97ba90" astOperand2="0x97bd50"/>
+    <token id="0x97bd50" file="teleop_joypad.cpp" linenr="107" str="arm_max_vel_" scope="0x995210" type="name" varId="10" variable="0x997d00" astParent="0x97bca0"/>
+    <token id="0x97be00" file="teleop_joypad.cpp" linenr="107" str="*" scope="0x995210" type="op" isArithmeticalOp="True" astParent="0x97b720" astOperand1="0x97bca0" astOperand2="0x97beb0"/>
+    <token id="0x97beb0" file="teleop_joypad.cpp" linenr="107" str="speed_factor_" scope="0x995210" type="name" varId="14" variable="0x997ef0" astParent="0x97be00"/>
+    <token id="0x97bf60" file="teleop_joypad.cpp" linenr="107" str=";" scope="0x995210"/>
+    <token id="0x97c010" file="teleop_joypad.cpp" linenr="108" str="arm_vel_" scope="0x995210" type="name" varId="13" variable="0x997e80" astParent="0x97c0c0"/>
+    <token id="0x97c0c0" file="teleop_joypad.cpp" linenr="108" str="." scope="0x995210" astParent="0x97c220" astOperand1="0x97c010" astOperand2="0x97c170"/>
+    <token id="0x97c170" file="teleop_joypad.cpp" linenr="108" str="velocities" scope="0x995210" type="name" varId="52" astParent="0x97c0c0"/>
+    <token id="0x97c220" file="teleop_joypad.cpp" linenr="108" str="[" scope="0x995210" link="0x97c380" astParent="0x97c430" astOperand1="0x97c0c0" astOperand2="0x97c2d0"/>
+    <token id="0x97c2d0" file="teleop_joypad.cpp" linenr="108" str="1" scope="0x995210" type="number" isInt="True" values="0x97c2d8" astParent="0x97c220"/>
+    <token id="0x97c380" file="teleop_joypad.cpp" linenr="108" str="]" scope="0x995210" link="0x97c220"/>
+    <token id="0x97c430" file="teleop_joypad.cpp" linenr="108" str="." scope="0x995210" astParent="0x97c590" astOperand1="0x97c220" astOperand2="0x97c4e0"/>
+    <token id="0x97c4e0" file="teleop_joypad.cpp" linenr="108" str="value" scope="0x995210" type="name" astParent="0x97c430"/>
+    <token id="0x97c590" file="teleop_joypad.cpp" linenr="108" str="=" scope="0x995210" type="op" isAssignmentOp="True" astOperand1="0x97c430" astOperand2="0x97cc70"/>
+    <token id="0x97c640" file="teleop_joypad.cpp" linenr="108" str="command" scope="0x995210" type="name" varId="29" variable="0x998660" astParent="0x97c6f0"/>
+    <token id="0x97c6f0" file="teleop_joypad.cpp" linenr="108" str="." scope="0x995210" astParent="0x97c900" astOperand1="0x97c640" astOperand2="0x97c850"/>
+    <token id="0x97c850" file="teleop_joypad.cpp" linenr="108" str="axes" scope="0x995210" type="name" varId="31" astParent="0x97c6f0"/>
+    <token id="0x97c900" file="teleop_joypad.cpp" linenr="108" str="[" scope="0x995210" link="0x97ca60" astParent="0x97cb10" astOperand1="0x97c6f0" astOperand2="0x97c9b0"/>
+    <token id="0x97c9b0" file="teleop_joypad.cpp" linenr="108" str="5" scope="0x995210" type="number" isInt="True" values="0x97c9b8" astParent="0x97c900"/>
+    <token id="0x97ca60" file="teleop_joypad.cpp" linenr="108" str="]" scope="0x995210" link="0x97c900"/>
+    <token id="0x97cb10" file="teleop_joypad.cpp" linenr="108" str="*" scope="0x995210" type="op" isArithmeticalOp="True" astParent="0x97cc70" astOperand1="0x97c900" astOperand2="0x97cbc0"/>
+    <token id="0x97cbc0" file="teleop_joypad.cpp" linenr="108" str="arm_max_vel_" scope="0x995210" type="name" varId="10" variable="0x997d00" astParent="0x97cb10"/>
+    <token id="0x97cc70" file="teleop_joypad.cpp" linenr="108" str="*" scope="0x995210" type="op" isArithmeticalOp="True" astParent="0x97c590" astOperand1="0x97cb10" astOperand2="0x97cd20"/>
+    <token id="0x97cd20" file="teleop_joypad.cpp" linenr="108" str="speed_factor_" scope="0x995210" type="name" varId="14" variable="0x997ef0" astParent="0x97cc70"/>
+    <token id="0x97cdd0" file="teleop_joypad.cpp" linenr="108" str=";" scope="0x995210"/>
+    <token id="0x97ce80" file="teleop_joypad.cpp" linenr="109" str="}" scope="0x995210" link="0x97b0f0"/>
+    <token id="0x97cf30" file="teleop_joypad.cpp" linenr="110" str="else" scope="0x9942d0" type="name"/>
+    <token id="0x993560" file="teleop_joypad.cpp" linenr="110" str="{" scope="0x995490" link="0x993610"/>
+    <token id="0x97cfe0" file="teleop_joypad.cpp" linenr="110" str="if" scope="0x995490" type="name" astParent="0x97d090"/>
+    <token id="0x97d090" file="teleop_joypad.cpp" linenr="110" str="(" scope="0x995490" link="0x97d820" astOperand1="0x97cfe0" astOperand2="0x97d140"/>
+    <token id="0x97d140" file="teleop_joypad.cpp" linenr="110" str="(" scope="0x995490" link="0x97d2a0" astParent="0x97d090" astOperand1="0x97d610"/>
+    <token id="0x97d1f0" file="teleop_joypad.cpp" linenr="110" str="bool" scope="0x995490" type="name"/>
+    <token id="0x97d2a0" file="teleop_joypad.cpp" linenr="110" str=")" scope="0x995490" link="0x97d140"/>
+    <token id="0x97d350" file="teleop_joypad.cpp" linenr="110" str="command" scope="0x995490" type="name" varId="29" variable="0x998660" astParent="0x97d400"/>
+    <token id="0x97d400" file="teleop_joypad.cpp" linenr="110" str="." scope="0x995490" astParent="0x97d610" astOperand1="0x97d350" astOperand2="0x97d560"/>
+    <token id="0x97d560" file="teleop_joypad.cpp" linenr="110" str="buttons" scope="0x995490" type="name" varId="30" astParent="0x97d400"/>
+    <token id="0x97d610" file="teleop_joypad.cpp" linenr="110" str="[" scope="0x995490" link="0x97d770" astParent="0x97d140" astOperand1="0x97d400" astOperand2="0x97d6c0"/>
+    <token id="0x97d6c0" file="teleop_joypad.cpp" linenr="110" str="1" scope="0x995490" type="number" isInt="True" values="0x97d6c8" astParent="0x97d610"/>
+    <token id="0x97d770" file="teleop_joypad.cpp" linenr="110" str="]" scope="0x995490" link="0x97d610"/>
+    <token id="0x97d820" file="teleop_joypad.cpp" linenr="110" str=")" scope="0x995490" link="0x97d090"/>
+    <token id="0x97d8d0" file="teleop_joypad.cpp" linenr="111" str="{" scope="0x9955e0" link="0x97f660"/>
+    <token id="0x97d980" file="teleop_joypad.cpp" linenr="112" str="arm_vel_" scope="0x9955e0" type="name" varId="13" variable="0x997e80" astParent="0x97da30"/>
+    <token id="0x97da30" file="teleop_joypad.cpp" linenr="112" str="." scope="0x9955e0" astParent="0x97db90" astOperand1="0x97d980" astOperand2="0x97dae0"/>
+    <token id="0x97dae0" file="teleop_joypad.cpp" linenr="112" str="velocities" scope="0x9955e0" type="name" varId="52" astParent="0x97da30"/>
+    <token id="0x97db90" file="teleop_joypad.cpp" linenr="112" str="[" scope="0x9955e0" link="0x97dcf0" astParent="0x97dda0" astOperand1="0x97da30" astOperand2="0x97dc40"/>
+    <token id="0x97dc40" file="teleop_joypad.cpp" linenr="112" str="2" scope="0x9955e0" type="number" isInt="True" values="0x97dc48" astParent="0x97db90"/>
+    <token id="0x97dcf0" file="teleop_joypad.cpp" linenr="112" str="]" scope="0x9955e0" link="0x97db90"/>
+    <token id="0x97dda0" file="teleop_joypad.cpp" linenr="112" str="." scope="0x9955e0" astParent="0x97df00" astOperand1="0x97db90" astOperand2="0x97de50"/>
+    <token id="0x97de50" file="teleop_joypad.cpp" linenr="112" str="value" scope="0x9955e0" type="name" astParent="0x97dda0"/>
+    <token id="0x97df00" file="teleop_joypad.cpp" linenr="112" str="=" scope="0x9955e0" type="op" isAssignmentOp="True" astOperand1="0x97dda0" astOperand2="0x97e5e0"/>
+    <token id="0x97dfb0" file="teleop_joypad.cpp" linenr="112" str="command" scope="0x9955e0" type="name" varId="29" variable="0x998660" astParent="0x97e060"/>
+    <token id="0x97e060" file="teleop_joypad.cpp" linenr="112" str="." scope="0x9955e0" astParent="0x97e270" astOperand1="0x97dfb0" astOperand2="0x97e1c0"/>
+    <token id="0x97e1c0" file="teleop_joypad.cpp" linenr="112" str="axes" scope="0x9955e0" type="name" varId="31" astParent="0x97e060"/>
+    <token id="0x97e270" file="teleop_joypad.cpp" linenr="112" str="[" scope="0x9955e0" link="0x97e3d0" astParent="0x97e480" astOperand1="0x97e060" astOperand2="0x97e320"/>
+    <token id="0x97e320" file="teleop_joypad.cpp" linenr="112" str="4" scope="0x9955e0" type="number" isInt="True" values="0x97e328" astParent="0x97e270"/>
+    <token id="0x97e3d0" file="teleop_joypad.cpp" linenr="112" str="]" scope="0x9955e0" link="0x97e270"/>
+    <token id="0x97e480" file="teleop_joypad.cpp" linenr="112" str="*" scope="0x9955e0" type="op" isArithmeticalOp="True" astParent="0x97e5e0" astOperand1="0x97e270" astOperand2="0x97e530"/>
+    <token id="0x97e530" file="teleop_joypad.cpp" linenr="112" str="arm_max_vel_" scope="0x9955e0" type="name" varId="10" variable="0x997d00" astParent="0x97e480"/>
+    <token id="0x97e5e0" file="teleop_joypad.cpp" linenr="112" str="*" scope="0x9955e0" type="op" isArithmeticalOp="True" astParent="0x97df00" astOperand1="0x97e480" astOperand2="0x97e690"/>
+    <token id="0x97e690" file="teleop_joypad.cpp" linenr="112" str="speed_factor_" scope="0x9955e0" type="name" varId="14" variable="0x997ef0" astParent="0x97e5e0"/>
+    <token id="0x97e740" file="teleop_joypad.cpp" linenr="112" str=";" scope="0x9955e0"/>
+    <token id="0x97e7f0" file="teleop_joypad.cpp" linenr="113" str="arm_vel_" scope="0x9955e0" type="name" varId="13" variable="0x997e80" astParent="0x97e8a0"/>
+    <token id="0x97e8a0" file="teleop_joypad.cpp" linenr="113" str="." scope="0x9955e0" astParent="0x97ea00" astOperand1="0x97e7f0" astOperand2="0x97e950"/>
+    <token id="0x97e950" file="teleop_joypad.cpp" linenr="113" str="velocities" scope="0x9955e0" type="name" varId="52" astParent="0x97e8a0"/>
+    <token id="0x97ea00" file="teleop_joypad.cpp" linenr="113" str="[" scope="0x9955e0" link="0x97eb60" astParent="0x97ec10" astOperand1="0x97e8a0" astOperand2="0x97eab0"/>
+    <token id="0x97eab0" file="teleop_joypad.cpp" linenr="113" str="3" scope="0x9955e0" type="number" isInt="True" values="0x97eab8" astParent="0x97ea00"/>
+    <token id="0x97eb60" file="teleop_joypad.cpp" linenr="113" str="]" scope="0x9955e0" link="0x97ea00"/>
+    <token id="0x97ec10" file="teleop_joypad.cpp" linenr="113" str="." scope="0x9955e0" astParent="0x97ed70" astOperand1="0x97ea00" astOperand2="0x97ecc0"/>
+    <token id="0x97ecc0" file="teleop_joypad.cpp" linenr="113" str="value" scope="0x9955e0" type="name" astParent="0x97ec10"/>
+    <token id="0x97ed70" file="teleop_joypad.cpp" linenr="113" str="=" scope="0x9955e0" type="op" isAssignmentOp="True" astOperand1="0x97ec10" astOperand2="0x97f450"/>
+    <token id="0x97ee20" file="teleop_joypad.cpp" linenr="113" str="command" scope="0x9955e0" type="name" varId="29" variable="0x998660" astParent="0x97eed0"/>
+    <token id="0x97eed0" file="teleop_joypad.cpp" linenr="113" str="." scope="0x9955e0" astParent="0x97f0e0" astOperand1="0x97ee20" astOperand2="0x97f030"/>
+    <token id="0x97f030" file="teleop_joypad.cpp" linenr="113" str="axes" scope="0x9955e0" type="name" varId="31" astParent="0x97eed0"/>
+    <token id="0x97f0e0" file="teleop_joypad.cpp" linenr="113" str="[" scope="0x9955e0" link="0x97f240" astParent="0x97f2f0" astOperand1="0x97eed0" astOperand2="0x97f190"/>
+    <token id="0x97f190" file="teleop_joypad.cpp" linenr="113" str="5" scope="0x9955e0" type="number" isInt="True" values="0x97f198" astParent="0x97f0e0"/>
+    <token id="0x97f240" file="teleop_joypad.cpp" linenr="113" str="]" scope="0x9955e0" link="0x97f0e0"/>
+    <token id="0x97f2f0" file="teleop_joypad.cpp" linenr="113" str="*" scope="0x9955e0" type="op" isArithmeticalOp="True" astParent="0x97f450" astOperand1="0x97f0e0" astOperand2="0x97f3a0"/>
+    <token id="0x97f3a0" file="teleop_joypad.cpp" linenr="113" str="arm_max_vel_" scope="0x9955e0" type="name" varId="10" variable="0x997d00" astParent="0x97f2f0"/>
+    <token id="0x97f450" file="teleop_joypad.cpp" linenr="113" str="*" scope="0x9955e0" type="op" isArithmeticalOp="True" astParent="0x97ed70" astOperand1="0x97f2f0" astOperand2="0x97f500"/>
+    <token id="0x97f500" file="teleop_joypad.cpp" linenr="113" str="speed_factor_" scope="0x9955e0" type="name" varId="14" variable="0x997ef0" astParent="0x97f450"/>
+    <token id="0x97f5b0" file="teleop_joypad.cpp" linenr="113" str=";" scope="0x9955e0"/>
+    <token id="0x97f660" file="teleop_joypad.cpp" linenr="114" str="}" scope="0x9955e0" link="0x97d8d0"/>
+    <token id="0x97f710" file="teleop_joypad.cpp" linenr="115" str="else" scope="0x995490" type="name"/>
+    <token id="0x9936c0" file="teleop_joypad.cpp" linenr="115" str="{" scope="0x995860" link="0x993770"/>
+    <token id="0x97f7c0" file="teleop_joypad.cpp" linenr="115" str="if" scope="0x995860" type="name" astParent="0x97f870"/>
+    <token id="0x97f870" file="teleop_joypad.cpp" linenr="115" str="(" scope="0x995860" link="0x980000" astOperand1="0x97f7c0" astOperand2="0x97f920"/>
+    <token id="0x97f920" file="teleop_joypad.cpp" linenr="115" str="(" scope="0x995860" link="0x97fa80" astParent="0x97f870" astOperand1="0x97fdf0"/>
+    <token id="0x97f9d0" file="teleop_joypad.cpp" linenr="115" str="bool" scope="0x995860" type="name"/>
+    <token id="0x97fa80" file="teleop_joypad.cpp" linenr="115" str=")" scope="0x995860" link="0x97f920"/>
+    <token id="0x97fb30" file="teleop_joypad.cpp" linenr="115" str="command" scope="0x995860" type="name" varId="29" variable="0x998660" astParent="0x97fbe0"/>
+    <token id="0x97fbe0" file="teleop_joypad.cpp" linenr="115" str="." scope="0x995860" astParent="0x97fdf0" astOperand1="0x97fb30" astOperand2="0x97fd40"/>
+    <token id="0x97fd40" file="teleop_joypad.cpp" linenr="115" str="buttons" scope="0x995860" type="name" varId="30" astParent="0x97fbe0"/>
+    <token id="0x97fdf0" file="teleop_joypad.cpp" linenr="115" str="[" scope="0x995860" link="0x97ff50" astParent="0x97f920" astOperand1="0x97fbe0" astOperand2="0x97fea0"/>
+    <token id="0x97fea0" file="teleop_joypad.cpp" linenr="115" str="2" scope="0x995860" type="number" isInt="True" values="0x97fea8" astParent="0x97fdf0"/>
+    <token id="0x97ff50" file="teleop_joypad.cpp" linenr="115" str="]" scope="0x995860" link="0x97fdf0"/>
+    <token id="0x980000" file="teleop_joypad.cpp" linenr="115" str=")" scope="0x995860" link="0x97f870"/>
+    <token id="0x992f90" file="teleop_joypad.cpp" linenr="115" str="{" scope="0x9959b0" link="0x993040"/>
+    <token id="0x9800b0" file="teleop_joypad.cpp" linenr="116" str="arm_vel_" scope="0x9959b0" type="name" varId="13" variable="0x997e80" astParent="0x980160"/>
+    <token id="0x980160" file="teleop_joypad.cpp" linenr="116" str="." scope="0x9959b0" astParent="0x9802c0" astOperand1="0x9800b0" astOperand2="0x980210"/>
+    <token id="0x980210" file="teleop_joypad.cpp" linenr="116" str="velocities" scope="0x9959b0" type="name" varId="52" astParent="0x980160"/>
+    <token id="0x9802c0" file="teleop_joypad.cpp" linenr="116" str="[" scope="0x9959b0" link="0x980420" astParent="0x9804d0" astOperand1="0x980160" astOperand2="0x980370"/>
+    <token id="0x980370" file="teleop_joypad.cpp" linenr="116" str="4" scope="0x9959b0" type="number" isInt="True" values="0x980378" astParent="0x9802c0"/>
+    <token id="0x980420" file="teleop_joypad.cpp" linenr="116" str="]" scope="0x9959b0" link="0x9802c0"/>
+    <token id="0x9804d0" file="teleop_joypad.cpp" linenr="116" str="." scope="0x9959b0" astParent="0x980630" astOperand1="0x9802c0" astOperand2="0x980580"/>
+    <token id="0x980580" file="teleop_joypad.cpp" linenr="116" str="value" scope="0x9959b0" type="name" astParent="0x9804d0"/>
+    <token id="0x980630" file="teleop_joypad.cpp" linenr="116" str="=" scope="0x9959b0" type="op" isAssignmentOp="True" astOperand1="0x9804d0" astOperand2="0x980d10"/>
+    <token id="0x9806e0" file="teleop_joypad.cpp" linenr="116" str="command" scope="0x9959b0" type="name" varId="29" variable="0x998660" astParent="0x980790"/>
+    <token id="0x980790" file="teleop_joypad.cpp" linenr="116" str="." scope="0x9959b0" astParent="0x9809a0" astOperand1="0x9806e0" astOperand2="0x9808f0"/>
+    <token id="0x9808f0" file="teleop_joypad.cpp" linenr="116" str="axes" scope="0x9959b0" type="name" varId="31" astParent="0x980790"/>
+    <token id="0x9809a0" file="teleop_joypad.cpp" linenr="116" str="[" scope="0x9959b0" link="0x980b00" astParent="0x980bb0" astOperand1="0x980790" astOperand2="0x980a50"/>
+    <token id="0x980a50" file="teleop_joypad.cpp" linenr="116" str="4" scope="0x9959b0" type="number" isInt="True" values="0x980a58" astParent="0x9809a0"/>
+    <token id="0x980b00" file="teleop_joypad.cpp" linenr="116" str="]" scope="0x9959b0" link="0x9809a0"/>
+    <token id="0x980bb0" file="teleop_joypad.cpp" linenr="116" str="*" scope="0x9959b0" type="op" isArithmeticalOp="True" astParent="0x980d10" astOperand1="0x9809a0" astOperand2="0x980c60"/>
+    <token id="0x980c60" file="teleop_joypad.cpp" linenr="116" str="arm_max_vel_" scope="0x9959b0" type="name" varId="10" variable="0x997d00" astParent="0x980bb0"/>
+    <token id="0x980d10" file="teleop_joypad.cpp" linenr="116" str="*" scope="0x9959b0" type="op" isArithmeticalOp="True" astParent="0x980630" astOperand1="0x980bb0" astOperand2="0x980dc0"/>
+    <token id="0x980dc0" file="teleop_joypad.cpp" linenr="116" str="speed_factor_" scope="0x9959b0" type="name" varId="14" variable="0x997ef0" astParent="0x980d10"/>
+    <token id="0x980e70" file="teleop_joypad.cpp" linenr="116" str=";" scope="0x9959b0"/>
+    <token id="0x993040" file="teleop_joypad.cpp" linenr="116" str="}" scope="0x9959b0" link="0x992f90"/>
+    <token id="0x993770" file="teleop_joypad.cpp" linenr="116" str="}" scope="0x995860" link="0x9936c0"/>
+    <token id="0x993610" file="teleop_joypad.cpp" linenr="116" str="}" scope="0x995490" link="0x993560"/>
+    <token id="0x980f20" file="teleop_joypad.cpp" linenr="118" str="}" scope="0x9942d0" link="0x971730"/>
+    <token id="0x980fd0" file="teleop_joypad.cpp" linenr="120" str="void" scope="0x993830" type="name"/>
+    <token id="0x981080" file="teleop_joypad.cpp" linenr="120" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x981130"/>
+    <token id="0x981130" file="teleop_joypad.cpp" linenr="120" str="::" scope="0x993830" astParent="0x981290" astOperand1="0x981080" astOperand2="0x9811e0"/>
+    <token id="0x9811e0" file="teleop_joypad.cpp" linenr="120" str="cbJointStates" scope="0x993830" type="name" function="0x993d20" astParent="0x981130"/>
+    <token id="0x981290" file="teleop_joypad.cpp" linenr="120" str="(" scope="0x993830" link="0x9818c0" astOperand1="0x981130" astOperand2="0x981760"/>
+    <token id="0x981340" file="teleop_joypad.cpp" linenr="120" str="const" scope="0x993830" type="name"/>
+    <token id="0x9813f0" file="teleop_joypad.cpp" linenr="120" str="sensor_msgs" scope="0x993830" type="name" astParent="0x9814a0"/>
+    <token id="0x9814a0" file="teleop_joypad.cpp" linenr="120" str="::" scope="0x993830" astParent="0x981600" astOperand1="0x9813f0" astOperand2="0x981550"/>
+    <token id="0x981550" file="teleop_joypad.cpp" linenr="120" str="JointState" scope="0x993830" type="name" astParent="0x9814a0"/>
+    <token id="0x981600" file="teleop_joypad.cpp" linenr="120" str="::" scope="0x993830" astParent="0x981760" astOperand1="0x9814a0" astOperand2="0x9816b0"/>
+    <token id="0x9816b0" file="teleop_joypad.cpp" linenr="120" str="ConstPtr" scope="0x993830" type="name" astParent="0x981600"/>
+    <token id="0x981760" file="teleop_joypad.cpp" linenr="120" str="&amp;" scope="0x993830" type="op" astParent="0x981290" astOperand1="0x981600" astOperand2="0x981810"/>
+    <token id="0x981810" file="teleop_joypad.cpp" linenr="120" str="state_msg" scope="0x993830" type="name" varId="32" variable="0x998720" astParent="0x981760"/>
+    <token id="0x9818c0" file="teleop_joypad.cpp" linenr="120" str=")" scope="0x993830" link="0x981290"/>
+    <token id="0x981970" file="teleop_joypad.cpp" linenr="121" str="{" scope="0x995b00" link="0x981dc0"/>
+    <token id="0x981a20" file="teleop_joypad.cpp" linenr="122" str="current_joint_states_" scope="0x995b00" type="name" varId="7" variable="0x997bb0" astParent="0x981b00"/>
+    <token id="0x981b00" file="teleop_joypad.cpp" linenr="122" str="=" scope="0x995b00" type="op" isAssignmentOp="True" astOperand1="0x981a20" astOperand2="0x981bb0"/>
+    <token id="0x981bb0" file="teleop_joypad.cpp" linenr="122" str="*" scope="0x995b00" type="op" isArithmeticalOp="True" astParent="0x981b00" astOperand1="0x981c60"/>
+    <token id="0x981c60" file="teleop_joypad.cpp" linenr="122" str="state_msg" scope="0x995b00" type="name" varId="32" variable="0x998720" astParent="0x981bb0"/>
+    <token id="0x981d10" file="teleop_joypad.cpp" linenr="122" str=";" scope="0x995b00"/>
+    <token id="0x981dc0" file="teleop_joypad.cpp" linenr="123" str="}" scope="0x995b00" link="0x981970"/>
+    <token id="0x981e70" file="teleop_joypad.cpp" linenr="125" str="void" scope="0x993830" type="name"/>
+    <token id="0x981f20" file="teleop_joypad.cpp" linenr="125" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x981fd0"/>
+    <token id="0x981fd0" file="teleop_joypad.cpp" linenr="125" str="::" scope="0x993830" astParent="0x982160" astOperand1="0x981f20" astOperand2="0x982080"/>
+    <token id="0x982080" file="teleop_joypad.cpp" linenr="125" str="turnOnArmMotorsOn" scope="0x993830" type="name" function="0x993fa0" astParent="0x981fd0"/>
+    <token id="0x982160" file="teleop_joypad.cpp" linenr="125" str="(" scope="0x993830" link="0x982210" astOperand1="0x981fd0"/>
+    <token id="0x982210" file="teleop_joypad.cpp" linenr="125" str=")" scope="0x993830" link="0x982160"/>
+    <token id="0x9822c0" file="teleop_joypad.cpp" linenr="126" str="{" scope="0x995c80" link="0x983900"/>
+    <token id="0x982370" file="teleop_joypad.cpp" linenr="127" str="std_srvs" scope="0x995c80" type="name" astParent="0x982420"/>
+    <token id="0x982420" file="teleop_joypad.cpp" linenr="127" str="::" scope="0x995c80" astOperand1="0x982370" astOperand2="0x982580"/>
+    <token id="0x9824d0" file="teleop_joypad.cpp" linenr="127" str="Empty" scope="0x995c80" type="name"/>
+    <token id="0x982580" file="teleop_joypad.cpp" linenr="127" str="empty" scope="0x995c80" type="name" varId="33" variable="0x998510" astParent="0x982420"/>
+    <token id="0x982630" file="teleop_joypad.cpp" linenr="127" str=";" scope="0x995c80"/>
+    <token id="0x9826e0" file="teleop_joypad.cpp" linenr="129" str="if" scope="0x995c80" type="name" astParent="0x982790"/>
+    <token id="0x982790" file="teleop_joypad.cpp" linenr="129" str="(" scope="0x995c80" link="0x982c90" astOperand1="0x9826e0" astOperand2="0x982a80"/>
+    <token id="0x982840" file="teleop_joypad.cpp" linenr="129" str="srv_arm_motors_on" scope="0x995c80" type="name" varId="25" variable="0x9983c0" astParent="0x982920"/>
+    <token id="0x982920" file="teleop_joypad.cpp" linenr="129" str="." scope="0x995c80" astParent="0x982a80" astOperand1="0x982840" astOperand2="0x9829d0"/>
+    <token id="0x9829d0" file="teleop_joypad.cpp" linenr="129" str="call" scope="0x995c80" type="name" astParent="0x982920"/>
+    <token id="0x982a80" file="teleop_joypad.cpp" linenr="129" str="(" scope="0x995c80" link="0x982be0" astParent="0x982790" astOperand1="0x982920" astOperand2="0x982b30"/>
+    <token id="0x982b30" file="teleop_joypad.cpp" linenr="129" str="empty" scope="0x995c80" type="name" varId="33" variable="0x998510" astParent="0x982a80"/>
+    <token id="0x982be0" file="teleop_joypad.cpp" linenr="129" str=")" scope="0x995c80" link="0x982a80"/>
+    <token id="0x982c90" file="teleop_joypad.cpp" linenr="129" str=")" scope="0x995c80" link="0x982790"/>
+    <token id="0x992c80" file="teleop_joypad.cpp" linenr="129" str="{" scope="0x995dd0" link="0x992d30"/>
+    <token id="0x982d40" file="teleop_joypad.cpp" linenr="130" str="ROS_INFO" scope="0x995dd0" type="name" astParent="0x982df0"/>
+    <token id="0x982df0" file="teleop_joypad.cpp" linenr="130" str="(" scope="0x995dd0" link="0x982fb0" astOperand1="0x982d40" astOperand2="0x982ed0"/>
+    <token id="0x982ed0" file="teleop_joypad.cpp" linenr="130" str="&quot;Turned ON arm motors&quot;" scope="0x995dd0" type="string" strlen="20" values="0x982ed8" astParent="0x982df0"/>
+    <token id="0x982fb0" file="teleop_joypad.cpp" linenr="130" str=")" scope="0x995dd0" link="0x982df0"/>
+    <token id="0x983060" file="teleop_joypad.cpp" linenr="130" str=";" scope="0x995dd0"/>
+    <token id="0x992d30" file="teleop_joypad.cpp" linenr="130" str="}" scope="0x995dd0" link="0x992c80"/>
+    <token id="0x983110" file="teleop_joypad.cpp" linenr="131" str="else" scope="0x995c80" type="name"/>
+    <token id="0x992de0" file="teleop_joypad.cpp" linenr="131" str="{" scope="0x996050" link="0x992a20"/>
+    <token id="0x9831c0" file="teleop_joypad.cpp" linenr="132" str="ROS_ERROR" scope="0x996050" type="name" astParent="0x983270"/>
+    <token id="0x983270" file="teleop_joypad.cpp" linenr="132" str="(" scope="0x996050" link="0x983430" astOperand1="0x9831c0" astOperand2="0x983350"/>
+    <token id="0x983350" file="teleop_joypad.cpp" linenr="132" str="&quot;Could not turn ON arm motors&quot;" scope="0x996050" type="string" strlen="28" values="0x983358" astParent="0x983270"/>
+    <token id="0x983430" file="teleop_joypad.cpp" linenr="132" str=")" scope="0x996050" link="0x983270"/>
+    <token id="0x9834e0" file="teleop_joypad.cpp" linenr="132" str=";" scope="0x996050"/>
+    <token id="0x992a20" file="teleop_joypad.cpp" linenr="132" str="}" scope="0x996050" link="0x992de0"/>
+    <token id="0x983590" file="teleop_joypad.cpp" linenr="134" str="sleep" scope="0x995c80" type="name" astParent="0x983640"/>
+    <token id="0x983640" file="teleop_joypad.cpp" linenr="134" str="(" scope="0x995c80" link="0x9837a0" astOperand1="0x983590" astOperand2="0x9836f0"/>
+    <token id="0x9836f0" file="teleop_joypad.cpp" linenr="134" str="1" scope="0x995c80" type="number" isInt="True" values="0x9836f8" astParent="0x983640"/>
+    <token id="0x9837a0" file="teleop_joypad.cpp" linenr="134" str=")" scope="0x995c80" link="0x983640"/>
+    <token id="0x983850" file="teleop_joypad.cpp" linenr="134" str=";" scope="0x995c80"/>
+    <token id="0x983900" file="teleop_joypad.cpp" linenr="135" str="}" scope="0x995c80" link="0x9822c0"/>
+    <token id="0x9839b0" file="teleop_joypad.cpp" linenr="137" str="void" scope="0x993830" type="name"/>
+    <token id="0x983a60" file="teleop_joypad.cpp" linenr="137" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x983b10"/>
+    <token id="0x983b10" file="teleop_joypad.cpp" linenr="137" str="::" scope="0x993830" astParent="0x983c70" astOperand1="0x983a60" astOperand2="0x983bc0"/>
+    <token id="0x983bc0" file="teleop_joypad.cpp" linenr="137" str="turnOnArmMotorsOff" scope="0x993830" type="name" function="0x994090" astParent="0x983b10"/>
+    <token id="0x983c70" file="teleop_joypad.cpp" linenr="137" str="(" scope="0x993830" link="0x983d20" astOperand1="0x983b10"/>
+    <token id="0x983d20" file="teleop_joypad.cpp" linenr="137" str=")" scope="0x993830" link="0x983c70"/>
+    <token id="0x983dd0" file="teleop_joypad.cpp" linenr="138" str="{" scope="0x9961d0" link="0x985400"/>
+    <token id="0x983e80" file="teleop_joypad.cpp" linenr="139" str="std_srvs" scope="0x9961d0" type="name" astParent="0x983f30"/>
+    <token id="0x983f30" file="teleop_joypad.cpp" linenr="139" str="::" scope="0x9961d0" astOperand1="0x983e80" astOperand2="0x984090"/>
+    <token id="0x983fe0" file="teleop_joypad.cpp" linenr="139" str="Empty" scope="0x9961d0" type="name"/>
+    <token id="0x984090" file="teleop_joypad.cpp" linenr="139" str="empty" scope="0x9961d0" type="name" varId="34" variable="0x998580" astParent="0x983f30"/>
+    <token id="0x984140" file="teleop_joypad.cpp" linenr="139" str=";" scope="0x9961d0"/>
+    <token id="0x9841f0" file="teleop_joypad.cpp" linenr="141" str="if" scope="0x9961d0" type="name" astParent="0x9842a0"/>
+    <token id="0x9842a0" file="teleop_joypad.cpp" linenr="141" str="(" scope="0x9961d0" link="0x984770" astOperand1="0x9841f0" astOperand2="0x984560"/>
+    <token id="0x984350" file="teleop_joypad.cpp" linenr="141" str="srv_arm_motors_off" scope="0x9961d0" type="name" varId="26" variable="0x998430" astParent="0x984400"/>
+    <token id="0x984400" file="teleop_joypad.cpp" linenr="141" str="." scope="0x9961d0" astParent="0x984560" astOperand1="0x984350" astOperand2="0x9844b0"/>
+    <token id="0x9844b0" file="teleop_joypad.cpp" linenr="141" str="call" scope="0x9961d0" type="name" astParent="0x984400"/>
+    <token id="0x984560" file="teleop_joypad.cpp" linenr="141" str="(" scope="0x9961d0" link="0x9846c0" astParent="0x9842a0" astOperand1="0x984400" astOperand2="0x984610"/>
+    <token id="0x984610" file="teleop_joypad.cpp" linenr="141" str="empty" scope="0x9961d0" type="name" varId="34" variable="0x998580" astParent="0x984560"/>
+    <token id="0x9846c0" file="teleop_joypad.cpp" linenr="141" str=")" scope="0x9961d0" link="0x984560"/>
+    <token id="0x984770" file="teleop_joypad.cpp" linenr="141" str=")" scope="0x9961d0" link="0x9842a0"/>
+    <token id="0x992ad0" file="teleop_joypad.cpp" linenr="141" str="{" scope="0x996320" link="0x992b80"/>
+    <token id="0x984820" file="teleop_joypad.cpp" linenr="142" str="ROS_INFO" scope="0x996320" type="name" astParent="0x9848d0"/>
+    <token id="0x9848d0" file="teleop_joypad.cpp" linenr="142" str="(" scope="0x996320" link="0x984a90" astOperand1="0x984820" astOperand2="0x9849b0"/>
+    <token id="0x9849b0" file="teleop_joypad.cpp" linenr="142" str="&quot;Turned OFF arm motors&quot;" scope="0x996320" type="string" strlen="21" values="0x9849b8" astParent="0x9848d0"/>
+    <token id="0x984a90" file="teleop_joypad.cpp" linenr="142" str=")" scope="0x996320" link="0x9848d0"/>
+    <token id="0x984b40" file="teleop_joypad.cpp" linenr="142" str=";" scope="0x996320"/>
+    <token id="0x992b80" file="teleop_joypad.cpp" linenr="142" str="}" scope="0x996320" link="0x992ad0"/>
+    <token id="0x984bf0" file="teleop_joypad.cpp" linenr="143" str="else" scope="0x9961d0" type="name"/>
+    <token id="0x9590d0" file="teleop_joypad.cpp" linenr="143" str="{" scope="0x9965a0" link="0x959180"/>
+    <token id="0x984ca0" file="teleop_joypad.cpp" linenr="144" str="ROS_ERROR" scope="0x9965a0" type="name" astParent="0x984d50"/>
+    <token id="0x984d50" file="teleop_joypad.cpp" linenr="144" str="(" scope="0x9965a0" link="0x984f30" astOperand1="0x984ca0" astOperand2="0x984e50"/>
+    <token id="0x984e50" file="teleop_joypad.cpp" linenr="144" str="&quot;Could not turn OFF arm motors&quot;" scope="0x9965a0" type="string" strlen="29" values="0x984e58" astParent="0x984d50"/>
+    <token id="0x984f30" file="teleop_joypad.cpp" linenr="144" str=")" scope="0x9965a0" link="0x984d50"/>
+    <token id="0x984fe0" file="teleop_joypad.cpp" linenr="144" str=";" scope="0x9965a0"/>
+    <token id="0x959180" file="teleop_joypad.cpp" linenr="144" str="}" scope="0x9965a0" link="0x9590d0"/>
+    <token id="0x985090" file="teleop_joypad.cpp" linenr="146" str="sleep" scope="0x9961d0" type="name" astParent="0x985140"/>
+    <token id="0x985140" file="teleop_joypad.cpp" linenr="146" str="(" scope="0x9961d0" link="0x9852a0" astOperand1="0x985090" astOperand2="0x9851f0"/>
+    <token id="0x9851f0" file="teleop_joypad.cpp" linenr="146" str="1" scope="0x9961d0" type="number" isInt="True" values="0x9851f8" astParent="0x985140"/>
+    <token id="0x9852a0" file="teleop_joypad.cpp" linenr="146" str=")" scope="0x9961d0" link="0x985140"/>
+    <token id="0x985350" file="teleop_joypad.cpp" linenr="146" str=";" scope="0x9961d0"/>
+    <token id="0x985400" file="teleop_joypad.cpp" linenr="147" str="}" scope="0x9961d0" link="0x983dd0"/>
+    <token id="0x9854b0" file="teleop_joypad.cpp" linenr="149" str="void" scope="0x993830" type="name"/>
+    <token id="0x985560" file="teleop_joypad.cpp" linenr="149" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x985610"/>
+    <token id="0x985610" file="teleop_joypad.cpp" linenr="149" str="::" scope="0x993830" astParent="0x985770" astOperand1="0x985560" astOperand2="0x9856c0"/>
+    <token id="0x9856c0" file="teleop_joypad.cpp" linenr="149" str="setSingleArmJointVel" scope="0x993830" type="name" function="0x993e60" astParent="0x985610"/>
+    <token id="0x985770" file="teleop_joypad.cpp" linenr="149" str="(" scope="0x993830" link="0x985cf0" astOperand1="0x985610" astOperand2="0x985980"/>
+    <token id="0x985820" file="teleop_joypad.cpp" linenr="149" str="double" scope="0x993830" type="name"/>
+    <token id="0x9858d0" file="teleop_joypad.cpp" linenr="149" str="motor_vel" scope="0x993830" type="name" varId="35" variable="0x998800" astParent="0x985980"/>
+    <token id="0x985980" file="teleop_joypad.cpp" linenr="149" str="," scope="0x993830" astParent="0x985770" astOperand1="0x9858d0" astOperand2="0x985ae0"/>
+    <token id="0x985a30" file="teleop_joypad.cpp" linenr="149" str="std" scope="0x993830" type="name" astParent="0x985ae0"/>
+    <token id="0x985ae0" file="teleop_joypad.cpp" linenr="149" str="::" scope="0x993830" astParent="0x985980" astOperand1="0x985a30" astOperand2="0x985c40"/>
+    <token id="0x985b90" file="teleop_joypad.cpp" linenr="149" str="string" scope="0x993830" type="name"/>
+    <token id="0x985c40" file="teleop_joypad.cpp" linenr="149" str="joint_name" scope="0x993830" type="name" varId="36" variable="0x998870" astParent="0x985ae0"/>
+    <token id="0x985cf0" file="teleop_joypad.cpp" linenr="149" str=")" scope="0x993830" link="0x985770"/>
+    <token id="0x985da0" file="teleop_joypad.cpp" linenr="150" str="{" scope="0x996720" link="0x988bb0"/>
+    <token id="0x985e50" file="teleop_joypad.cpp" linenr="151" str="for" scope="0x996720" type="name" astParent="0x985f00"/>
+    <token id="0x985f00" file="teleop_joypad.cpp" linenr="151" str="(" scope="0x996720" link="0x986c10" astOperand1="0x985e50" astOperand2="0x986320"/>
+    <token id="0x985fb0" file="teleop_joypad.cpp" linenr="151" str="int" scope="0x996720" type="name"/>
+    <token id="0x986110" file="teleop_joypad.cpp" linenr="151" str="i" scope="0x996720" type="name" varId="37" variable="0x9969c0" astParent="0x9861c0"/>
+    <token id="0x9861c0" file="teleop_joypad.cpp" linenr="151" str="=" scope="0x996720" type="op" isAssignmentOp="True" astParent="0x986320" astOperand1="0x986110" astOperand2="0x986270"/>
+    <token id="0x986270" file="teleop_joypad.cpp" linenr="151" str="0" scope="0x996720" type="number" isInt="True" values="0x986278" astParent="0x9861c0"/>
+    <token id="0x986320" file="teleop_joypad.cpp" linenr="151" str=";" scope="0x996720" astParent="0x985f00" astOperand1="0x9861c0" astOperand2="0x986a00"/>
+    <token id="0x9863d0" file="teleop_joypad.cpp" linenr="151" str="i" scope="0x996720" type="name" varId="37" variable="0x9969c0" astParent="0x986480"/>
+    <token id="0x986480" file="teleop_joypad.cpp" linenr="151" str="&lt;" scope="0x996720" type="op" isComparisonOp="True" astParent="0x986a00" astOperand1="0x9863d0" astOperand2="0x9868a0"/>
+    <token id="0x986530" file="teleop_joypad.cpp" linenr="151" str="arm_vel_" scope="0x996720" type="name" varId="13" variable="0x997e80" astParent="0x9865e0"/>
+    <token id="0x9865e0" file="teleop_joypad.cpp" linenr="151" str="." scope="0x996720" astParent="0x986740" astOperand1="0x986530" astOperand2="0x986690"/>
+    <token id="0x986690" file="teleop_joypad.cpp" linenr="151" str="velocities" scope="0x996720" type="name" varId="52" astParent="0x9865e0"/>
+    <token id="0x986740" file="teleop_joypad.cpp" linenr="151" str="." scope="0x996720" astParent="0x9868a0" astOperand1="0x9865e0" astOperand2="0x9867f0"/>
+    <token id="0x9867f0" file="teleop_joypad.cpp" linenr="151" str="size" scope="0x996720" type="name" astParent="0x986740"/>
+    <token id="0x9868a0" file="teleop_joypad.cpp" linenr="151" str="(" scope="0x996720" link="0x986950" astParent="0x986480" astOperand1="0x986740"/>
+    <token id="0x986950" file="teleop_joypad.cpp" linenr="151" str=")" scope="0x996720" link="0x9868a0"/>
+    <token id="0x986a00" file="teleop_joypad.cpp" linenr="151" str=";" scope="0x996720" astParent="0x986320" astOperand1="0x986480" astOperand2="0x986ab0"/>
+    <token id="0x986ab0" file="teleop_joypad.cpp" linenr="151" str="++" scope="0x996720" type="op" astParent="0x986a00" astOperand1="0x986b60"/>
+    <token id="0x986b60" file="teleop_joypad.cpp" linenr="151" str="i" scope="0x996720" type="name" varId="37" variable="0x9969c0" astParent="0x986ab0"/>
+    <token id="0x986c10" file="teleop_joypad.cpp" linenr="151" str=")" scope="0x996720" link="0x985f00"/>
+    <token id="0x986cc0" file="teleop_joypad.cpp" linenr="152" str="{" scope="0x996870" link="0x988b00"/>
+    <token id="0x986d70" file="teleop_joypad.cpp" linenr="153" str="if" scope="0x996870" type="name" astParent="0x986e20"/>
+    <token id="0x986e20" file="teleop_joypad.cpp" linenr="153" str="(" scope="0x996870" link="0x9875b0" astOperand1="0x986d70" astOperand2="0x987450"/>
+    <token id="0x986ed0" file="teleop_joypad.cpp" linenr="153" str="arm_vel_" scope="0x996870" type="name" varId="13" variable="0x997e80" astParent="0x986f80"/>
+    <token id="0x986f80" file="teleop_joypad.cpp" linenr="153" str="." scope="0x996870" astParent="0x9870e0" astOperand1="0x986ed0" astOperand2="0x987030"/>
+    <token id="0x987030" file="teleop_joypad.cpp" linenr="153" str="velocities" scope="0x996870" type="name" varId="52" astParent="0x986f80"/>
+    <token id="0x9870e0" file="teleop_joypad.cpp" linenr="153" str="[" scope="0x996870" link="0x987240" astParent="0x9872f0" astOperand1="0x986f80" astOperand2="0x987190"/>
+    <token id="0x987190" file="teleop_joypad.cpp" linenr="153" str="i" scope="0x996870" type="name" varId="37" variable="0x9969c0" values="0x987198" astParent="0x9870e0"/>
+    <token id="0x987240" file="teleop_joypad.cpp" linenr="153" str="]" scope="0x996870" link="0x9870e0"/>
+    <token id="0x9872f0" file="teleop_joypad.cpp" linenr="153" str="." scope="0x996870" astParent="0x987450" astOperand1="0x9870e0" astOperand2="0x9873a0"/>
+    <token id="0x9873a0" file="teleop_joypad.cpp" linenr="153" str="joint_uri" scope="0x996870" type="name" astParent="0x9872f0"/>
+    <token id="0x987450" file="teleop_joypad.cpp" linenr="153" str="==" scope="0x996870" type="op" isComparisonOp="True" astParent="0x986e20" astOperand1="0x9872f0" astOperand2="0x987500"/>
+    <token id="0x987500" file="teleop_joypad.cpp" linenr="153" str="joint_name" scope="0x996870" type="name" varId="36" variable="0x998870" astParent="0x987450"/>
+    <token id="0x9875b0" file="teleop_joypad.cpp" linenr="153" str=")" scope="0x996870" link="0x986e20"/>
+    <token id="0x987660" file="teleop_joypad.cpp" linenr="154" str="{" scope="0x996a30" link="0x988a50"/>
+    <token id="0x987710" file="teleop_joypad.cpp" linenr="155" str="arm_vel_" scope="0x996a30" type="name" varId="13" variable="0x997e80" astParent="0x9877c0"/>
+    <token id="0x9877c0" file="teleop_joypad.cpp" linenr="155" str="." scope="0x996a30" astParent="0x987920" astOperand1="0x987710" astOperand2="0x987870"/>
+    <token id="0x987870" file="teleop_joypad.cpp" linenr="155" str="velocities" scope="0x996a30" type="name" varId="52" astParent="0x9877c0"/>
+    <token id="0x987920" file="teleop_joypad.cpp" linenr="155" str="[" scope="0x996a30" link="0x987a80" astParent="0x987b30" astOperand1="0x9877c0" astOperand2="0x9879d0"/>
+    <token id="0x9879d0" file="teleop_joypad.cpp" linenr="155" str="i" scope="0x996a30" type="name" varId="37" variable="0x9969c0" astParent="0x987920"/>
+    <token id="0x987a80" file="teleop_joypad.cpp" linenr="155" str="]" scope="0x996a30" link="0x987920"/>
+    <token id="0x987b30" file="teleop_joypad.cpp" linenr="155" str="." scope="0x996a30" astParent="0x987c90" astOperand1="0x987920" astOperand2="0x987be0"/>
+    <token id="0x987be0" file="teleop_joypad.cpp" linenr="155" str="timeStamp" scope="0x996a30" type="name" astParent="0x987b30"/>
+    <token id="0x987c90" file="teleop_joypad.cpp" linenr="155" str="=" scope="0x996a30" type="op" isAssignmentOp="True" astOperand1="0x987b30" astOperand2="0x9880b0"/>
+    <token id="0x987d40" file="teleop_joypad.cpp" linenr="155" str="ros" scope="0x996a30" type="name" astParent="0x987df0"/>
+    <token id="0x987df0" file="teleop_joypad.cpp" linenr="155" str="::" scope="0x996a30" astParent="0x987f50" astOperand1="0x987d40" astOperand2="0x987ea0"/>
+    <token id="0x987ea0" file="teleop_joypad.cpp" linenr="155" str="Time" scope="0x996a30" type="name" astParent="0x987df0"/>
+    <token id="0x987f50" file="teleop_joypad.cpp" linenr="155" str="::" scope="0x996a30" astParent="0x9880b0" astOperand1="0x987df0" astOperand2="0x988000"/>
+    <token id="0x988000" file="teleop_joypad.cpp" linenr="155" str="now" scope="0x996a30" type="name" astParent="0x987f50"/>
+    <token id="0x9880b0" file="teleop_joypad.cpp" linenr="155" str="(" scope="0x996a30" link="0x988160" astParent="0x987c90" astOperand1="0x987f50"/>
+    <token id="0x988160" file="teleop_joypad.cpp" linenr="155" str=")" scope="0x996a30" link="0x9880b0"/>
+    <token id="0x988210" file="teleop_joypad.cpp" linenr="155" str=";" scope="0x996a30"/>
+    <token id="0x9882c0" file="teleop_joypad.cpp" linenr="156" str="arm_vel_" scope="0x996a30" type="name" varId="13" variable="0x997e80" astParent="0x988370"/>
+    <token id="0x988370" file="teleop_joypad.cpp" linenr="156" str="." scope="0x996a30" astParent="0x9884d0" astOperand1="0x9882c0" astOperand2="0x988420"/>
+    <token id="0x988420" file="teleop_joypad.cpp" linenr="156" str="velocities" scope="0x996a30" type="name" varId="52" astParent="0x988370"/>
+    <token id="0x9884d0" file="teleop_joypad.cpp" linenr="156" str="[" scope="0x996a30" link="0x988630" astParent="0x9886e0" astOperand1="0x988370" astOperand2="0x988580"/>
+    <token id="0x988580" file="teleop_joypad.cpp" linenr="156" str="i" scope="0x996a30" type="name" varId="37" variable="0x9969c0" astParent="0x9884d0"/>
+    <token id="0x988630" file="teleop_joypad.cpp" linenr="156" str="]" scope="0x996a30" link="0x9884d0"/>
+    <token id="0x9886e0" file="teleop_joypad.cpp" linenr="156" str="." scope="0x996a30" astParent="0x988840" astOperand1="0x9884d0" astOperand2="0x988790"/>
+    <token id="0x988790" file="teleop_joypad.cpp" linenr="156" str="value" scope="0x996a30" type="name" astParent="0x9886e0"/>
+    <token id="0x988840" file="teleop_joypad.cpp" linenr="156" str="=" scope="0x996a30" type="op" isAssignmentOp="True" astOperand1="0x9886e0" astOperand2="0x9888f0"/>
+    <token id="0x9888f0" file="teleop_joypad.cpp" linenr="156" str="motor_vel" scope="0x996a30" type="name" varId="35" variable="0x998800" astParent="0x988840"/>
+    <token id="0x9889a0" file="teleop_joypad.cpp" linenr="156" str=";" scope="0x996a30"/>
+    <token id="0x988a50" file="teleop_joypad.cpp" linenr="157" str="}" scope="0x996a30" link="0x987660"/>
+    <token id="0x988b00" file="teleop_joypad.cpp" linenr="158" str="}" scope="0x996870" link="0x986cc0"/>
+    <token id="0x988bb0" file="teleop_joypad.cpp" linenr="159" str="}" scope="0x996720" link="0x985da0"/>
+    <token id="0x988c60" file="teleop_joypad.cpp" linenr="161" str="void" scope="0x993830" type="name"/>
+    <token id="0x988d10" file="teleop_joypad.cpp" linenr="161" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x988dc0"/>
+    <token id="0x988dc0" file="teleop_joypad.cpp" linenr="161" str="::" scope="0x993830" astParent="0x988f50" astOperand1="0x988d10" astOperand2="0x988e70"/>
+    <token id="0x988e70" file="teleop_joypad.cpp" linenr="161" str="setAllArmJointVel" scope="0x993830" type="name" function="0x993dc0" astParent="0x988dc0"/>
+    <token id="0x988f50" file="teleop_joypad.cpp" linenr="161" str="(" scope="0x993830" link="0x989160" astOperand1="0x988dc0" astOperand2="0x9890b0"/>
+    <token id="0x989000" file="teleop_joypad.cpp" linenr="161" str="double" scope="0x993830" type="name"/>
+    <token id="0x9890b0" file="teleop_joypad.cpp" linenr="161" str="motor_vel" scope="0x993830" type="name" varId="38" variable="0x998790" astParent="0x988f50"/>
+    <token id="0x989160" file="teleop_joypad.cpp" linenr="161" str=")" scope="0x993830" link="0x988f50"/>
+    <token id="0x989210" file="teleop_joypad.cpp" linenr="162" str="{" scope="0x996bb0" link="0x98a740"/>
+    <token id="0x9892c0" file="teleop_joypad.cpp" linenr="163" str="for" scope="0x996bb0" type="name" astParent="0x989370"/>
+    <token id="0x989370" file="teleop_joypad.cpp" linenr="163" str="(" scope="0x996bb0" link="0x989f50" astOperand1="0x9892c0" astOperand2="0x989790"/>
+    <token id="0x989420" file="teleop_joypad.cpp" linenr="163" str="int" scope="0x996bb0" type="name"/>
+    <token id="0x989580" file="teleop_joypad.cpp" linenr="163" str="i" scope="0x996bb0" type="name" varId="39" variable="0x996e50" astParent="0x989630"/>
+    <token id="0x989630" file="teleop_joypad.cpp" linenr="163" str="=" scope="0x996bb0" type="op" isAssignmentOp="True" astParent="0x989790" astOperand1="0x989580" astOperand2="0x9896e0"/>
+    <token id="0x9896e0" file="teleop_joypad.cpp" linenr="163" str="0" scope="0x996bb0" type="number" isInt="True" values="0x9896e8" astParent="0x989630"/>
+    <token id="0x989790" file="teleop_joypad.cpp" linenr="163" str=";" scope="0x996bb0" astParent="0x989370" astOperand1="0x989630" astOperand2="0x989d40"/>
+    <token id="0x989840" file="teleop_joypad.cpp" linenr="163" str="i" scope="0x996bb0" type="name" varId="39" variable="0x996e50" astParent="0x9898f0"/>
+    <token id="0x9898f0" file="teleop_joypad.cpp" linenr="163" str="&lt;" scope="0x996bb0" type="op" isComparisonOp="True" astParent="0x989d40" astOperand1="0x989840" astOperand2="0x989be0"/>
+    <token id="0x9899a0" file="teleop_joypad.cpp" linenr="163" str="arm_joint_names_" scope="0x996bb0" type="name" varId="11" variable="0x997d70" astParent="0x989a80"/>
+    <token id="0x989a80" file="teleop_joypad.cpp" linenr="163" str="." scope="0x996bb0" astParent="0x989be0" astOperand1="0x9899a0" astOperand2="0x989b30"/>
+    <token id="0x989b30" file="teleop_joypad.cpp" linenr="163" str="size" scope="0x996bb0" type="name" astParent="0x989a80"/>
+    <token id="0x989be0" file="teleop_joypad.cpp" linenr="163" str="(" scope="0x996bb0" link="0x989c90" astParent="0x9898f0" astOperand1="0x989a80"/>
+    <token id="0x989c90" file="teleop_joypad.cpp" linenr="163" str=")" scope="0x996bb0" link="0x989be0"/>
+    <token id="0x989d40" file="teleop_joypad.cpp" linenr="163" str=";" scope="0x996bb0" astParent="0x989790" astOperand1="0x9898f0" astOperand2="0x989df0"/>
+    <token id="0x989df0" file="teleop_joypad.cpp" linenr="163" str="++" scope="0x996bb0" type="op" astParent="0x989d40" astOperand1="0x989ea0"/>
+    <token id="0x989ea0" file="teleop_joypad.cpp" linenr="163" str="i" scope="0x996bb0" type="name" varId="39" variable="0x996e50" astParent="0x989df0"/>
+    <token id="0x989f50" file="teleop_joypad.cpp" linenr="163" str=")" scope="0x996bb0" link="0x989370"/>
+    <token id="0x959230" file="teleop_joypad.cpp" linenr="163" str="{" scope="0x996d00" link="0x993140"/>
+    <token id="0x98a000" file="teleop_joypad.cpp" linenr="164" str="setSingleArmJointVel" scope="0x996d00" type="name" function="0x993e60" astParent="0x98a0e0"/>
+    <token id="0x98a0e0" file="teleop_joypad.cpp" linenr="164" str="(" scope="0x996d00" link="0x98a5e0" astOperand1="0x98a000" astOperand2="0x98a240"/>
+    <token id="0x98a190" file="teleop_joypad.cpp" linenr="164" str="motor_vel" scope="0x996d00" type="name" varId="38" variable="0x998790" astParent="0x98a240"/>
+    <token id="0x98a240" file="teleop_joypad.cpp" linenr="164" str="," scope="0x996d00" astParent="0x98a0e0" astOperand1="0x98a190" astOperand2="0x98a3d0"/>
+    <token id="0x98a2f0" file="teleop_joypad.cpp" linenr="164" str="arm_joint_names_" scope="0x996d00" type="name" varId="11" variable="0x997d70" astParent="0x98a3d0"/>
+    <token id="0x98a3d0" file="teleop_joypad.cpp" linenr="164" str="[" scope="0x996d00" link="0x98a530" astParent="0x98a240" astOperand1="0x98a2f0" astOperand2="0x98a480"/>
+    <token id="0x98a480" file="teleop_joypad.cpp" linenr="164" str="i" scope="0x996d00" type="name" varId="39" variable="0x996e50" values="0x98a488" astParent="0x98a3d0"/>
+    <token id="0x98a530" file="teleop_joypad.cpp" linenr="164" str="]" scope="0x996d00" link="0x98a3d0"/>
+    <token id="0x98a5e0" file="teleop_joypad.cpp" linenr="164" str=")" scope="0x996d00" link="0x98a0e0"/>
+    <token id="0x98a690" file="teleop_joypad.cpp" linenr="164" str=";" scope="0x996d00"/>
+    <token id="0x993140" file="teleop_joypad.cpp" linenr="164" str="}" scope="0x996d00" link="0x959230"/>
+    <token id="0x98a740" file="teleop_joypad.cpp" linenr="165" str="}" scope="0x996bb0" link="0x989210"/>
+    <token id="0x98a7f0" file="teleop_joypad.cpp" linenr="167" str="void" scope="0x993830" type="name"/>
+    <token id="0x98a8a0" file="teleop_joypad.cpp" linenr="167" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x98a950"/>
+    <token id="0x98a950" file="teleop_joypad.cpp" linenr="167" str="::" scope="0x993830" astParent="0x98aae0" astOperand1="0x98a8a0" astOperand2="0x98aa00"/>
+    <token id="0x98aa00" file="teleop_joypad.cpp" linenr="167" str="checkArmJointLimits" scope="0x993830" type="name" function="0x993f00" astParent="0x98a950"/>
+    <token id="0x98aae0" file="teleop_joypad.cpp" linenr="167" str="(" scope="0x993830" link="0x98ab90" astOperand1="0x98a950"/>
+    <token id="0x98ab90" file="teleop_joypad.cpp" linenr="167" str=")" scope="0x993830" link="0x98aae0"/>
+    <token id="0x98ac40" file="teleop_joypad.cpp" linenr="168" str="{" scope="0x996ef0" link="0x990f50"/>
+    <token id="0x98acf0" file="teleop_joypad.cpp" linenr="169" str="for" scope="0x996ef0" type="name" astParent="0x98ada0"/>
+    <token id="0x98ada0" file="teleop_joypad.cpp" linenr="169" str="(" scope="0x996ef0" link="0x98b980" astOperand1="0x98acf0" astOperand2="0x98b1c0"/>
+    <token id="0x98ae50" file="teleop_joypad.cpp" linenr="169" str="int" scope="0x996ef0" type="name"/>
+    <token id="0x98afb0" file="teleop_joypad.cpp" linenr="169" str="i" scope="0x996ef0" type="name" varId="40" variable="0x997190" astParent="0x98b060"/>
+    <token id="0x98b060" file="teleop_joypad.cpp" linenr="169" str="=" scope="0x996ef0" type="op" isAssignmentOp="True" astParent="0x98b1c0" astOperand1="0x98afb0" astOperand2="0x98b110"/>
+    <token id="0x98b110" file="teleop_joypad.cpp" linenr="169" str="0" scope="0x996ef0" type="number" isInt="True" values="0x98b118" astParent="0x98b060"/>
+    <token id="0x98b1c0" file="teleop_joypad.cpp" linenr="169" str=";" scope="0x996ef0" astParent="0x98ada0" astOperand1="0x98b060" astOperand2="0x98b770"/>
+    <token id="0x98b270" file="teleop_joypad.cpp" linenr="169" str="i" scope="0x996ef0" type="name" varId="40" variable="0x997190" astParent="0x98b320"/>
+    <token id="0x98b320" file="teleop_joypad.cpp" linenr="169" str="&lt;" scope="0x996ef0" type="op" isComparisonOp="True" astParent="0x98b770" astOperand1="0x98b270" astOperand2="0x98b610"/>
+    <token id="0x98b3d0" file="teleop_joypad.cpp" linenr="169" str="arm_joint_limits_" scope="0x996ef0" type="name" varId="12" variable="0x997de0" astParent="0x98b4b0"/>
+    <token id="0x98b4b0" file="teleop_joypad.cpp" linenr="169" str="." scope="0x996ef0" astParent="0x98b610" astOperand1="0x98b3d0" astOperand2="0x98b560"/>
+    <token id="0x98b560" file="teleop_joypad.cpp" linenr="169" str="size" scope="0x996ef0" type="name" astParent="0x98b4b0"/>
+    <token id="0x98b610" file="teleop_joypad.cpp" linenr="169" str="(" scope="0x996ef0" link="0x98b6c0" astParent="0x98b320" astOperand1="0x98b4b0"/>
+    <token id="0x98b6c0" file="teleop_joypad.cpp" linenr="169" str=")" scope="0x996ef0" link="0x98b610"/>
+    <token id="0x98b770" file="teleop_joypad.cpp" linenr="169" str=";" scope="0x996ef0" astParent="0x98b1c0" astOperand1="0x98b320" astOperand2="0x98b8d0"/>
+    <token id="0x98b820" file="teleop_joypad.cpp" linenr="169" str="i" scope="0x996ef0" type="name" varId="40" variable="0x997190" astParent="0x98b8d0"/>
+    <token id="0x98b8d0" file="teleop_joypad.cpp" linenr="169" str="++" scope="0x996ef0" type="op" astParent="0x98b770" astOperand1="0x98b820"/>
+    <token id="0x98b980" file="teleop_joypad.cpp" linenr="169" str=")" scope="0x996ef0" link="0x98ada0"/>
+    <token id="0x98ba30" file="teleop_joypad.cpp" linenr="170" str="{" scope="0x997040" link="0x990ea0"/>
+    <token id="0x98bae0" file="teleop_joypad.cpp" linenr="171" str="for" scope="0x997040" type="name" astParent="0x98bb90"/>
+    <token id="0x98bb90" file="teleop_joypad.cpp" linenr="171" str="(" scope="0x997040" link="0x98c820" astOperand1="0x98bae0" astOperand2="0x98bf00"/>
+    <token id="0x98bc40" file="teleop_joypad.cpp" linenr="171" str="int" scope="0x997040" type="name"/>
+    <token id="0x98bcf0" file="teleop_joypad.cpp" linenr="171" str="j" scope="0x997040" type="name" varId="41" variable="0x997350" astParent="0x98bda0"/>
+    <token id="0x98bda0" file="teleop_joypad.cpp" linenr="171" str="=" scope="0x997040" type="op" isAssignmentOp="True" astParent="0x98bf00" astOperand1="0x98bcf0" astOperand2="0x98be50"/>
+    <token id="0x98be50" file="teleop_joypad.cpp" linenr="171" str="0" scope="0x997040" type="number" isInt="True" values="0x98be58" astParent="0x98bda0"/>
+    <token id="0x98bf00" file="teleop_joypad.cpp" linenr="171" str=";" scope="0x997040" astParent="0x98bb90" astOperand1="0x98bda0" astOperand2="0x98c610"/>
+    <token id="0x98bfb0" file="teleop_joypad.cpp" linenr="171" str="j" scope="0x997040" type="name" varId="41" variable="0x997350" astParent="0x98c060"/>
+    <token id="0x98c060" file="teleop_joypad.cpp" linenr="171" str="&lt;" scope="0x997040" type="op" isComparisonOp="True" astParent="0x98c610" astOperand1="0x98bfb0" astOperand2="0x98c4b0"/>
+    <token id="0x98c110" file="teleop_joypad.cpp" linenr="171" str="current_joint_states_" scope="0x997040" type="name" varId="7" variable="0x997bb0" astParent="0x98c1f0"/>
+    <token id="0x98c1f0" file="teleop_joypad.cpp" linenr="171" str="." scope="0x997040" astParent="0x98c350" astOperand1="0x98c110" astOperand2="0x98c2a0"/>
+    <token id="0x98c2a0" file="teleop_joypad.cpp" linenr="171" str="name" scope="0x997040" type="name" varId="53" astParent="0x98c1f0"/>
+    <token id="0x98c350" file="teleop_joypad.cpp" linenr="171" str="." scope="0x997040" astParent="0x98c4b0" astOperand1="0x98c1f0" astOperand2="0x98c400"/>
+    <token id="0x98c400" file="teleop_joypad.cpp" linenr="171" str="size" scope="0x997040" type="name" astParent="0x98c350"/>
+    <token id="0x98c4b0" file="teleop_joypad.cpp" linenr="171" str="(" scope="0x997040" link="0x98c560" astParent="0x98c060" astOperand1="0x98c350"/>
+    <token id="0x98c560" file="teleop_joypad.cpp" linenr="171" str=")" scope="0x997040" link="0x98c4b0"/>
+    <token id="0x98c610" file="teleop_joypad.cpp" linenr="171" str=";" scope="0x997040" astParent="0x98bf00" astOperand1="0x98c060" astOperand2="0x98c6c0"/>
+    <token id="0x98c6c0" file="teleop_joypad.cpp" linenr="171" str="++" scope="0x997040" type="op" astParent="0x98c610" astOperand1="0x98c770"/>
+    <token id="0x98c770" file="teleop_joypad.cpp" linenr="171" str="j" scope="0x997040" type="name" varId="41" variable="0x997350" astParent="0x98c6c0"/>
+    <token id="0x98c820" file="teleop_joypad.cpp" linenr="171" str=")" scope="0x997040" link="0x98bb90"/>
+    <token id="0x98c8d0" file="teleop_joypad.cpp" linenr="172" str="{" scope="0x997200" link="0x990df0"/>
+    <token id="0x98c980" file="teleop_joypad.cpp" linenr="173" str="if" scope="0x997200" type="name" astParent="0x98ca30"/>
+    <token id="0x98ca30" file="teleop_joypad.cpp" linenr="173" str="(" scope="0x997200" link="0x98f3c0" astOperand1="0x98c980" astOperand2="0x98d590"/>
+    <token id="0x98cae0" file="teleop_joypad.cpp" linenr="173" str="(" scope="0x997200" link="0x98d4e0"/>
+    <token id="0x98cb90" file="teleop_joypad.cpp" linenr="173" str="current_joint_states_" scope="0x997200" type="name" varId="7" variable="0x997bb0" astParent="0x98cc70"/>
+    <token id="0x98cc70" file="teleop_joypad.cpp" linenr="173" str="." scope="0x997200" astParent="0x98cdd0" astOperand1="0x98cb90" astOperand2="0x98cd20"/>
+    <token id="0x98cd20" file="teleop_joypad.cpp" linenr="173" str="name" scope="0x997200" type="name" varId="53" astParent="0x98cc70"/>
+    <token id="0x98cdd0" file="teleop_joypad.cpp" linenr="173" str="[" scope="0x997200" link="0x98cf30" astParent="0x98cfe0" astOperand1="0x98cc70" astOperand2="0x98ce80"/>
+    <token id="0x98ce80" file="teleop_joypad.cpp" linenr="173" str="j" scope="0x997200" type="name" varId="41" variable="0x997350" values="0x98ce88" astParent="0x98cdd0"/>
+    <token id="0x98cf30" file="teleop_joypad.cpp" linenr="173" str="]" scope="0x997200" link="0x98cdd0"/>
+    <token id="0x98cfe0" file="teleop_joypad.cpp" linenr="173" str="==" scope="0x997200" type="op" isComparisonOp="True" astParent="0x98d590" astOperand1="0x98cdd0" astOperand2="0x98d380"/>
+    <token id="0x98d090" file="teleop_joypad.cpp" linenr="173" str="arm_joint_limits_" scope="0x997200" type="name" varId="12" variable="0x997de0" astParent="0x98d170"/>
+    <token id="0x98d170" file="teleop_joypad.cpp" linenr="173" str="[" scope="0x997200" link="0x98d2d0" astParent="0x98d380" astOperand1="0x98d090" astOperand2="0x98d220"/>
+    <token id="0x98d220" file="teleop_joypad.cpp" linenr="173" str="i" scope="0x997200" type="name" varId="40" variable="0x997190" values="0x98d228" astParent="0x98d170"/>
+    <token id="0x98d2d0" file="teleop_joypad.cpp" linenr="173" str="]" scope="0x997200" link="0x98d170"/>
+    <token id="0x98d380" file="teleop_joypad.cpp" linenr="173" str="." scope="0x997200" astParent="0x98cfe0" astOperand1="0x98d170" astOperand2="0x98d430"/>
+    <token id="0x98d430" file="teleop_joypad.cpp" linenr="173" str="joint_name" scope="0x997200" type="name" astParent="0x98d380"/>
+    <token id="0x98d4e0" file="teleop_joypad.cpp" linenr="173" str=")" scope="0x997200" link="0x98cae0"/>
+    <token id="0x98d590" file="teleop_joypad.cpp" linenr="173" str="&amp;&amp;" scope="0x997200" type="op" isLogicalOp="True" astParent="0x98ca30" astOperand1="0x98cfe0" astOperand2="0x98e4c0"/>
+    <token id="0x98d640" file="teleop_joypad.cpp" linenr="174" str="(" scope="0x997200" link="0x98f310"/>
+    <token id="0x98d6f0" file="teleop_joypad.cpp" linenr="174" str="(" scope="0x997200" link="0x98e410"/>
+    <token id="0x98d7a0" file="teleop_joypad.cpp" linenr="174" str="current_joint_states_" scope="0x997200" type="name" varId="7" variable="0x997bb0" astParent="0x98d880"/>
+    <token id="0x98d880" file="teleop_joypad.cpp" linenr="174" str="." scope="0x997200" astParent="0x98d9e0" astOperand1="0x98d7a0" astOperand2="0x98d930"/>
+    <token id="0x98d930" file="teleop_joypad.cpp" linenr="174" str="position" scope="0x997200" type="name" varId="54" astParent="0x98d880"/>
+    <token id="0x98d9e0" file="teleop_joypad.cpp" linenr="174" str="[" scope="0x997200" link="0x98db40" astParent="0x98dbf0" astOperand1="0x98d880" astOperand2="0x98da90"/>
+    <token id="0x98da90" file="teleop_joypad.cpp" linenr="174" str="j" scope="0x997200" type="name" varId="41" variable="0x997350" values="0x98da98" astParent="0x98d9e0"/>
+    <token id="0x98db40" file="teleop_joypad.cpp" linenr="174" str="]" scope="0x997200" link="0x98d9e0"/>
+    <token id="0x98dbf0" file="teleop_joypad.cpp" linenr="174" str="&lt;" scope="0x997200" type="op" isComparisonOp="True" astParent="0x98e4c0" astOperand1="0x98d9e0" astOperand2="0x98e1a0"/>
+    <token id="0x98dca0" file="teleop_joypad.cpp" linenr="174" str="(" scope="0x997200" link="0x98e360"/>
+    <token id="0x98dd50" file="teleop_joypad.cpp" linenr="174" str="arm_joint_limits_" scope="0x997200" type="name" varId="12" variable="0x997de0" astParent="0x98de30"/>
+    <token id="0x98de30" file="teleop_joypad.cpp" linenr="174" str="[" scope="0x997200" link="0x98df90" astParent="0x98e040" astOperand1="0x98dd50" astOperand2="0x98dee0"/>
+    <token id="0x98dee0" file="teleop_joypad.cpp" linenr="174" str="i" scope="0x997200" type="name" varId="40" variable="0x997190" values="0x98dee8" astParent="0x98de30"/>
+    <token id="0x98df90" file="teleop_joypad.cpp" linenr="174" str="]" scope="0x997200" link="0x98de30"/>
+    <token id="0x98e040" file="teleop_joypad.cpp" linenr="174" str="." scope="0x997200" astParent="0x98e1a0" astOperand1="0x98de30" astOperand2="0x98e0f0"/>
+    <token id="0x98e0f0" file="teleop_joypad.cpp" linenr="174" str="min_position" scope="0x997200" type="name" astParent="0x98e040"/>
+    <token id="0x98e1a0" file="teleop_joypad.cpp" linenr="174" str="+" scope="0x997200" type="op" isArithmeticalOp="True" astParent="0x98dbf0" astOperand1="0x98e040" astOperand2="0x98e280"/>
+    <token id="0x98e280" file="teleop_joypad.cpp" linenr="174" str="soft_joint_limit_threshold_" scope="0x997200" type="name" varId="9" variable="0x997c90" astParent="0x98e1a0"/>
+    <token id="0x98e360" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98dca0"/>
+    <token id="0x98e410" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98d6f0"/>
+    <token id="0x98e4c0" file="teleop_joypad.cpp" linenr="174" str="||" scope="0x997200" type="op" isLogicalOp="True" astParent="0x98d590" astOperand1="0x98dbf0" astOperand2="0x98ea40"/>
+    <token id="0x98e570" file="teleop_joypad.cpp" linenr="174" str="(" scope="0x997200" link="0x98f260"/>
+    <token id="0x98e620" file="teleop_joypad.cpp" linenr="174" str="current_joint_states_" scope="0x997200" type="name" varId="7" variable="0x997bb0" astParent="0x98e6d0"/>
+    <token id="0x98e6d0" file="teleop_joypad.cpp" linenr="174" str="." scope="0x997200" astParent="0x98e830" astOperand1="0x98e620" astOperand2="0x98e780"/>
+    <token id="0x98e780" file="teleop_joypad.cpp" linenr="174" str="position" scope="0x997200" type="name" varId="54" astParent="0x98e6d0"/>
+    <token id="0x98e830" file="teleop_joypad.cpp" linenr="174" str="[" scope="0x997200" link="0x98e990" astParent="0x98ea40" astOperand1="0x98e6d0" astOperand2="0x98e8e0"/>
+    <token id="0x98e8e0" file="teleop_joypad.cpp" linenr="174" str="j" scope="0x997200" type="name" varId="41" variable="0x997350" values="0x98e8e8" astParent="0x98e830"/>
+    <token id="0x98e990" file="teleop_joypad.cpp" linenr="174" str="]" scope="0x997200" link="0x98e830"/>
+    <token id="0x98ea40" file="teleop_joypad.cpp" linenr="174" str="&gt;" scope="0x997200" type="op" isComparisonOp="True" astParent="0x98e4c0" astOperand1="0x98e830" astOperand2="0x98eff0"/>
+    <token id="0x98eaf0" file="teleop_joypad.cpp" linenr="174" str="(" scope="0x997200" link="0x98f1b0"/>
+    <token id="0x98eba0" file="teleop_joypad.cpp" linenr="174" str="arm_joint_limits_" scope="0x997200" type="name" varId="12" variable="0x997de0" astParent="0x98ec80"/>
+    <token id="0x98ec80" file="teleop_joypad.cpp" linenr="174" str="[" scope="0x997200" link="0x98ede0" astParent="0x98ee90" astOperand1="0x98eba0" astOperand2="0x98ed30"/>
+    <token id="0x98ed30" file="teleop_joypad.cpp" linenr="174" str="i" scope="0x997200" type="name" varId="40" variable="0x997190" values="0x98ed38" astParent="0x98ec80"/>
+    <token id="0x98ede0" file="teleop_joypad.cpp" linenr="174" str="]" scope="0x997200" link="0x98ec80"/>
+    <token id="0x98ee90" file="teleop_joypad.cpp" linenr="174" str="." scope="0x997200" astParent="0x98eff0" astOperand1="0x98ec80" astOperand2="0x98ef40"/>
+    <token id="0x98ef40" file="teleop_joypad.cpp" linenr="174" str="max_position" scope="0x997200" type="name" astParent="0x98ee90"/>
+    <token id="0x98eff0" file="teleop_joypad.cpp" linenr="174" str="-" scope="0x997200" type="op" isArithmeticalOp="True" astParent="0x98ea40" astOperand1="0x98ee90" astOperand2="0x98f0d0"/>
+    <token id="0x98f0d0" file="teleop_joypad.cpp" linenr="174" str="soft_joint_limit_threshold_" scope="0x997200" type="name" varId="9" variable="0x997c90" astParent="0x98eff0"/>
+    <token id="0x98f1b0" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98eaf0"/>
+    <token id="0x98f260" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98e570"/>
+    <token id="0x98f310" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98d640"/>
+    <token id="0x98f3c0" file="teleop_joypad.cpp" linenr="174" str=")" scope="0x997200" link="0x98ca30"/>
+    <token id="0x98f470" file="teleop_joypad.cpp" linenr="175" str="{" scope="0x9973c0" link="0x990d40"/>
+    <token id="0x98f520" file="teleop_joypad.cpp" linenr="176" str="ROS_ERROR_STREAM" scope="0x9973c0" type="name" astParent="0x98f5d0"/>
+    <token id="0x98f5d0" file="teleop_joypad.cpp" linenr="176" str="(" scope="0x9973c0" link="0x990450" astOperand1="0x98f520" astOperand2="0x9902f0"/>
+    <token id="0x98f680" file="teleop_joypad.cpp" linenr="176" str="&quot;arm joint &lt;&lt;&quot;" scope="0x9973c0" type="string" strlen="12" values="0x98f688" astParent="0x98f730"/>
+    <token id="0x98f730" file="teleop_joypad.cpp" linenr="176" str="&lt;&lt;" scope="0x9973c0" type="op" isArithmeticalOp="True" astParent="0x98fc30" astOperand1="0x98f680" astOperand2="0x98fad0"/>
+    <token id="0x98f7e0" file="teleop_joypad.cpp" linenr="176" str="arm_joint_limits_" scope="0x9973c0" type="name" varId="12" variable="0x997de0" astParent="0x98f8c0"/>
+    <token id="0x98f8c0" file="teleop_joypad.cpp" linenr="176" str="[" scope="0x9973c0" link="0x98fa20" astParent="0x98fad0" astOperand1="0x98f7e0" astOperand2="0x98f970"/>
+    <token id="0x98f970" file="teleop_joypad.cpp" linenr="176" str="i" scope="0x9973c0" type="name" varId="40" variable="0x997190" astParent="0x98f8c0"/>
+    <token id="0x98fa20" file="teleop_joypad.cpp" linenr="176" str="]" scope="0x9973c0" link="0x98f8c0"/>
+    <token id="0x98fad0" file="teleop_joypad.cpp" linenr="176" str="." scope="0x9973c0" astParent="0x98f730" astOperand1="0x98f8c0" astOperand2="0x98fb80"/>
+    <token id="0x98fb80" file="teleop_joypad.cpp" linenr="176" str="joint_name" scope="0x9973c0" type="name" astParent="0x98fad0"/>
+    <token id="0x98fc30" file="teleop_joypad.cpp" linenr="176" str="&lt;&lt;" scope="0x9973c0" type="op" isArithmeticalOp="True" astParent="0x98fe20" astOperand1="0x98f730" astOperand2="0x98fd40"/>
+    <token id="0x98fd40" file="teleop_joypad.cpp" linenr="176" str="&quot;&gt;&gt; at soft joint limit: &quot;" scope="0x9973c0" type="string" strlen="24" values="0x98fd48" astParent="0x98fc30"/>
+    <token id="0x98fe20" file="teleop_joypad.cpp" linenr="176" str="&lt;&lt;" scope="0x9973c0" type="op" isArithmeticalOp="True" astParent="0x9902f0" astOperand1="0x98fc30" astOperand2="0x9900e0"/>
+    <token id="0x98fed0" file="teleop_joypad.cpp" linenr="176" str="current_joint_states_" scope="0x9973c0" type="name" varId="7" variable="0x997bb0" astParent="0x98ff80"/>
+    <token id="0x98ff80" file="teleop_joypad.cpp" linenr="176" str="." scope="0x9973c0" astParent="0x9900e0" astOperand1="0x98fed0" astOperand2="0x990030"/>
+    <token id="0x990030" file="teleop_joypad.cpp" linenr="176" str="position" scope="0x9973c0" type="name" varId="54" astParent="0x98ff80"/>
+    <token id="0x9900e0" file="teleop_joypad.cpp" linenr="176" str="[" scope="0x9973c0" link="0x990240" astParent="0x98fe20" astOperand1="0x98ff80" astOperand2="0x990190"/>
+    <token id="0x990190" file="teleop_joypad.cpp" linenr="176" str="j" scope="0x9973c0" type="name" varId="41" variable="0x997350" astParent="0x9900e0"/>
+    <token id="0x990240" file="teleop_joypad.cpp" linenr="176" str="]" scope="0x9973c0" link="0x9900e0"/>
+    <token id="0x9902f0" file="teleop_joypad.cpp" linenr="176" str="&lt;&lt;" scope="0x9973c0" type="op" isArithmeticalOp="True" astParent="0x98f5d0" astOperand1="0x98fe20" astOperand2="0x9903a0"/>
+    <token id="0x9903a0" file="teleop_joypad.cpp" linenr="176" str="&quot; rad&quot;" scope="0x9973c0" type="string" strlen="4" values="0x9903a8" astParent="0x9902f0"/>
+    <token id="0x990450" file="teleop_joypad.cpp" linenr="176" str=")" scope="0x9973c0" link="0x98f5d0"/>
+    <token id="0x990500" file="teleop_joypad.cpp" linenr="176" str=";" scope="0x9973c0"/>
+    <token id="0x9905b0" file="teleop_joypad.cpp" linenr="177" str="arm_vel_" scope="0x9973c0" type="name" varId="13" variable="0x997e80" astParent="0x990660"/>
+    <token id="0x990660" file="teleop_joypad.cpp" linenr="177" str="." scope="0x9973c0" astParent="0x9907c0" astOperand1="0x9905b0" astOperand2="0x990710"/>
+    <token id="0x990710" file="teleop_joypad.cpp" linenr="177" str="velocities" scope="0x9973c0" type="name" varId="52" astParent="0x990660"/>
+    <token id="0x9907c0" file="teleop_joypad.cpp" linenr="177" str="[" scope="0x9973c0" link="0x990920" astParent="0x9909d0" astOperand1="0x990660" astOperand2="0x990870"/>
+    <token id="0x990870" file="teleop_joypad.cpp" linenr="177" str="i" scope="0x9973c0" type="name" varId="40" variable="0x997190" astParent="0x9907c0"/>
+    <token id="0x990920" file="teleop_joypad.cpp" linenr="177" str="]" scope="0x9973c0" link="0x9907c0"/>
+    <token id="0x9909d0" file="teleop_joypad.cpp" linenr="177" str="." scope="0x9973c0" astParent="0x990b30" astOperand1="0x9907c0" astOperand2="0x990a80"/>
+    <token id="0x990a80" file="teleop_joypad.cpp" linenr="177" str="value" scope="0x9973c0" type="name" astParent="0x9909d0"/>
+    <token id="0x990b30" file="teleop_joypad.cpp" linenr="177" str="=" scope="0x9973c0" type="op" isAssignmentOp="True" astOperand1="0x9909d0" astOperand2="0x990be0"/>
+    <token id="0x990be0" file="teleop_joypad.cpp" linenr="177" str="0.0" scope="0x9973c0" type="number" isFloat="True" astParent="0x990b30"/>
+    <token id="0x990c90" file="teleop_joypad.cpp" linenr="177" str=";" scope="0x9973c0"/>
+    <token id="0x990d40" file="teleop_joypad.cpp" linenr="178" str="}" scope="0x9973c0" link="0x98f470"/>
+    <token id="0x990df0" file="teleop_joypad.cpp" linenr="179" str="}" scope="0x997200" link="0x98c8d0"/>
+    <token id="0x990ea0" file="teleop_joypad.cpp" linenr="180" str="}" scope="0x997040" link="0x98ba30"/>
+    <token id="0x990f50" file="teleop_joypad.cpp" linenr="181" str="}" scope="0x996ef0" link="0x98ac40"/>
+    <token id="0x991000" file="teleop_joypad.cpp" linenr="183" str="void" scope="0x993830" type="name"/>
+    <token id="0x9910b0" file="teleop_joypad.cpp" linenr="183" str="TeleOpJoypad" scope="0x993830" type="name" type-scope="0x993960" astParent="0x991160"/>
+    <token id="0x991160" file="teleop_joypad.cpp" linenr="183" str="::" scope="0x993830" astParent="0x9912c0" astOperand1="0x9910b0" astOperand2="0x991210"/>
+    <token id="0x991210" file="teleop_joypad.cpp" linenr="183" str="publishCommands" scope="0x993830" type="name" function="0x993be0" astParent="0x991160"/>
+    <token id="0x9912c0" file="teleop_joypad.cpp" linenr="183" str="(" scope="0x993830" link="0x991370" astOperand1="0x991160"/>
+    <token id="0x991370" file="teleop_joypad.cpp" linenr="183" str=")" scope="0x993830" link="0x9912c0"/>
+    <token id="0x991420" file="teleop_joypad.cpp" linenr="184" str="{" scope="0x997510" link="0x992920"/>
+    <token id="0x9914d0" file="teleop_joypad.cpp" linenr="185" str="if" scope="0x997510" type="name" astParent="0x991580"/>
+    <token id="0x991580" file="teleop_joypad.cpp" linenr="185" str="(" scope="0x997510" link="0x9916e0" astOperand1="0x9914d0" astOperand2="0x991630"/>
+    <token id="0x991630" file="teleop_joypad.cpp" linenr="185" str="button_deadman_pressed_" scope="0x997510" type="name" varId="15" variable="0x997f60" astParent="0x991580"/>
+    <token id="0x9916e0" file="teleop_joypad.cpp" linenr="185" str=")" scope="0x997510" link="0x991580"/>
+    <token id="0x991790" file="teleop_joypad.cpp" linenr="186" str="{" scope="0x997660" link="0x991d10"/>
+    <token id="0x991840" file="teleop_joypad.cpp" linenr="190" str="pub_base_vel" scope="0x997660" type="name" varId="23" variable="0x9982e0" astParent="0x9918f0"/>
+    <token id="0x9918f0" file="teleop_joypad.cpp" linenr="190" str="." scope="0x997660" astParent="0x991a50" astOperand1="0x991840" astOperand2="0x9919a0"/>
+    <token id="0x9919a0" file="teleop_joypad.cpp" linenr="190" str="publish" scope="0x997660" type="name" astParent="0x9918f0"/>
+    <token id="0x991a50" file="teleop_joypad.cpp" linenr="190" str="(" scope="0x997660" link="0x991bb0" astOperand1="0x9918f0" astOperand2="0x991b00"/>
+    <token id="0x991b00" file="teleop_joypad.cpp" linenr="190" str="base_vel_" scope="0x997660" type="name" varId="18" variable="0x9980b0" astParent="0x991a50"/>
+    <token id="0x991bb0" file="teleop_joypad.cpp" linenr="190" str=")" scope="0x997660" link="0x991a50"/>
+    <token id="0x991c60" file="teleop_joypad.cpp" linenr="190" str=";" scope="0x997660"/>
+    <token id="0x991d10" file="teleop_joypad.cpp" linenr="191" str="}" scope="0x997660" link="0x991790"/>
+    <token id="0x991dc0" file="teleop_joypad.cpp" linenr="193" str="else" scope="0x997510" type="name"/>
+    <token id="0x991e70" file="teleop_joypad.cpp" linenr="194" str="{" scope="0x9978e0" link="0x992870"/>
+    <token id="0x991f20" file="teleop_joypad.cpp" linenr="195" str="if" scope="0x9978e0" type="name" astParent="0x991fd0"/>
+    <token id="0x991fd0" file="teleop_joypad.cpp" linenr="195" str="(" scope="0x9978e0" link="0x992190" astOperand1="0x991f20" astOperand2="0x9920b0"/>
+    <token id="0x9920b0" file="teleop_joypad.cpp" linenr="195" str="button_deadman_pressed_prev_" scope="0x9978e0" type="name" varId="16" variable="0x997fd0" astParent="0x991fd0"/>
+    <token id="0x992190" file="teleop_joypad.cpp" linenr="195" str=")" scope="0x9978e0" link="0x991fd0"/>
+    <token id="0x992240" file="teleop_joypad.cpp" linenr="196" str="{" scope="0x997a30" link="0x9927c0"/>
+    <token id="0x9922f0" file="teleop_joypad.cpp" linenr="197" str="pub_base_vel" scope="0x997a30" type="name" varId="23" variable="0x9982e0" astParent="0x9923a0"/>
+    <token id="0x9923a0" file="teleop_joypad.cpp" linenr="197" str="." scope="0x997a30" astParent="0x992500" astOperand1="0x9922f0" astOperand2="0x992450"/>
+    <token id="0x992450" file="teleop_joypad.cpp" linenr="197" str="publish" scope="0x997a30" type="name" astParent="0x9923a0"/>
+    <token id="0x992500" file="teleop_joypad.cpp" linenr="197" str="(" scope="0x997a30" link="0x992660" astOperand1="0x9923a0" astOperand2="0x9925b0"/>
+    <token id="0x9925b0" file="teleop_joypad.cpp" linenr="197" str="base_zero_vel_" scope="0x997a30" type="name" varId="19" variable="0x998120" astParent="0x992500"/>
+    <token id="0x992660" file="teleop_joypad.cpp" linenr="197" str=")" scope="0x997a30" link="0x992500"/>
+    <token id="0x992710" file="teleop_joypad.cpp" linenr="197" str=";" scope="0x997a30"/>
+    <token id="0x9927c0" file="teleop_joypad.cpp" linenr="200" str="}" scope="0x997a30" link="0x992240"/>
+    <token id="0x992870" file="teleop_joypad.cpp" linenr="201" str="}" scope="0x9978e0" link="0x991e70"/>
+    <token id="0x992920" file="teleop_joypad.cpp" linenr="202" str="}" scope="0x997510" link="0x991420"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x993830" type="Global"/>
+    <scope id="0x993960" type="Class" className="TeleOpJoypad" classStart="0x959990" classEnd="0x966510" nestedIn="0x993830">
+      <functionList>
+        <function id="0x993b40" tokenDef="0x959ba0" name="TeleOpJoypad">
+          <arg nr="1" variable="0x9985f0"/>
+        </function>
+        <function id="0x993be0" tokenDef="0x95a280" name="publishCommands"/>
+        <function id="0x993c80" tokenDef="0x95e1d0" name="cbJoy">
+          <arg nr="1" variable="0x998660"/>
+        </function>
+        <function id="0x993d20" tokenDef="0x95eac0" name="cbJointStates">
+          <arg nr="1" variable="0x998720"/>
+        </function>
+        <function id="0x993dc0" tokenDef="0x95f3b0" name="setAllArmJointVel">
+          <arg nr="1" variable="0x998790"/>
+        </function>
+        <function id="0x993e60" tokenDef="0x95f880" name="setSingleArmJointVel">
+          <arg nr="1" variable="0x998800"/>
+          <arg nr="2" variable="0x998870"/>
+        </function>
+        <function id="0x993f00" tokenDef="0x9600c0" name="checkArmJointLimits"/>
+        <function id="0x993fa0" tokenDef="0x960460" name="turnOnArmMotorsOn"/>
+        <function id="0x994090" tokenDef="0x960800" name="turnOnArmMotorsOff"/>
+      </functionList>
+      <varlist>
+        <var id="0x997bb0"/>
+        <var id="0x997c20"/>
+        <var id="0x997c90"/>
+        <var id="0x997d00"/>
+        <var id="0x997d70"/>
+        <var id="0x997de0"/>
+        <var id="0x997e80"/>
+        <var id="0x997ef0"/>
+        <var id="0x997f60"/>
+        <var id="0x997fd0"/>
+        <var id="0x998040"/>
+        <var id="0x9980b0"/>
+        <var id="0x998120"/>
+        <var id="0x998190"/>
+        <var id="0x998200"/>
+        <var id="0x998270"/>
+        <var id="0x9982e0"/>
+        <var id="0x998350"/>
+        <var id="0x9983c0"/>
+        <var id="0x998430"/>
+      </varlist>
+    </scope>
+    <scope id="0x994180" type="Function" className="TeleOpJoypad" classStart="0x966d50" classEnd="0x970ce0" nestedIn="0x993830" function="0x993b40">
+      <varlist>
+        <var id="0x9984a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x9942d0" type="Function" className="cbJoy" classStart="0x971730" classEnd="0x980f20" nestedIn="0x993830" function="0x993c80"/>
+    <scope id="0x994420" type="If" classStart="0x973c60" classEnd="0x974b80" nestedIn="0x9942d0"/>
+    <scope id="0x994570" type="Else" classStart="0x975aa0" classEnd="0x979460" nestedIn="0x9942d0"/>
+    <scope id="0x9946a0" type="Try" classStart="0x975aa0" classEnd="0x979460" nestedIn="0x9942d0"/>
+    <scope id="0x9947f0" type="If" classStart="0x97a0f0" classEnd="0x97acd0" nestedIn="0x9942d0"/>
+    <scope id="0x994940" type="If" classStart="0x97b930" classEnd="0x97c7a0" nestedIn="0x9942d0"/>
+    <scope id="0x994ba0" type="If" classStart="0x97d4b0" classEnd="0x97e110" nestedIn="0x9942d0"/>
+    <scope id="0x994cf0" type="If" classStart="0x97ef80" classEnd="0x97fc90" nestedIn="0x9942d0"/>
+    <scope id="0x994e40" type="Else" classStart="0x9931f0" classEnd="0x9932a0" nestedIn="0x9942d0"/>
+    <scope id="0x994f70" type="Try" classStart="0x9931f0" classEnd="0x9932a0" nestedIn="0x9942d0"/>
+    <scope id="0x9950c0" type="If" classStart="0x980840" classEnd="0x992ee0" nestedIn="0x994f70"/>
+    <scope id="0x995210" type="If" classStart="0x97b0f0" classEnd="0x97ce80" nestedIn="0x9942d0"/>
+    <scope id="0x995360" type="Else" classStart="0x993560" classEnd="0x993610" nestedIn="0x9942d0"/>
+    <scope id="0x995490" type="Try" classStart="0x993560" classEnd="0x993610" nestedIn="0x9942d0"/>
+    <scope id="0x9955e0" type="If" classStart="0x97d8d0" classEnd="0x97f660" nestedIn="0x995490"/>
+    <scope id="0x995730" type="Else" classStart="0x9936c0" classEnd="0x993770" nestedIn="0x995490"/>
+    <scope id="0x995860" type="Try" classStart="0x9936c0" classEnd="0x993770" nestedIn="0x995490"/>
+    <scope id="0x9959b0" type="If" classStart="0x992f90" classEnd="0x993040" nestedIn="0x995860"/>
+    <scope id="0x995b00" type="Function" className="cbJointStates" classStart="0x981970" classEnd="0x981dc0" nestedIn="0x993830" function="0x993d20"/>
+    <scope id="0x995c80" type="Function" className="turnOnArmMotorsOn" classStart="0x9822c0" classEnd="0x983900" nestedIn="0x993830" function="0x993fa0">
+      <varlist>
+        <var id="0x998510"/>
+      </varlist>
+    </scope>
+    <scope id="0x995dd0" type="If" classStart="0x992c80" classEnd="0x992d30" nestedIn="0x995c80"/>
+    <scope id="0x995f20" type="Else" classStart="0x992de0" classEnd="0x992a20" nestedIn="0x995c80"/>
+    <scope id="0x996050" type="Try" classStart="0x992de0" classEnd="0x992a20" nestedIn="0x995c80"/>
+    <scope id="0x9961d0" type="Function" className="turnOnArmMotorsOff" classStart="0x983dd0" classEnd="0x985400" nestedIn="0x993830" function="0x994090">
+      <varlist>
+        <var id="0x998580"/>
+      </varlist>
+    </scope>
+    <scope id="0x996320" type="If" classStart="0x992ad0" classEnd="0x992b80" nestedIn="0x9961d0"/>
+    <scope id="0x996470" type="Else" classStart="0x9590d0" classEnd="0x959180" nestedIn="0x9961d0"/>
+    <scope id="0x9965a0" type="Try" classStart="0x9590d0" classEnd="0x959180" nestedIn="0x9961d0"/>
+    <scope id="0x996720" type="Function" className="setSingleArmJointVel" classStart="0x985da0" classEnd="0x988bb0" nestedIn="0x993830" function="0x993e60"/>
+    <scope id="0x996870" type="For" classStart="0x986cc0" classEnd="0x988b00" nestedIn="0x996720">
+      <varlist>
+        <var id="0x9969c0"/>
+      </varlist>
+    </scope>
+    <scope id="0x996a30" type="If" classStart="0x987660" classEnd="0x988a50" nestedIn="0x996870"/>
+    <scope id="0x996bb0" type="Function" className="setAllArmJointVel" classStart="0x989210" classEnd="0x98a740" nestedIn="0x993830" function="0x993dc0"/>
+    <scope id="0x996d00" type="For" classStart="0x959230" classEnd="0x993140" nestedIn="0x996bb0">
+      <varlist>
+        <var id="0x996e50"/>
+      </varlist>
+    </scope>
+    <scope id="0x996ef0" type="Function" className="checkArmJointLimits" classStart="0x98ac40" classEnd="0x990f50" nestedIn="0x993830" function="0x993f00"/>
+    <scope id="0x997040" type="For" classStart="0x98ba30" classEnd="0x990ea0" nestedIn="0x996ef0">
+      <varlist>
+        <var id="0x997190"/>
+      </varlist>
+    </scope>
+    <scope id="0x997200" type="For" classStart="0x98c8d0" classEnd="0x990df0" nestedIn="0x997040">
+      <varlist>
+        <var id="0x997350"/>
+      </varlist>
+    </scope>
+    <scope id="0x9973c0" type="If" classStart="0x98f470" classEnd="0x990d40" nestedIn="0x997200"/>
+    <scope id="0x997510" type="Function" className="publishCommands" classStart="0x991420" classEnd="0x992920" nestedIn="0x993830" function="0x993be0"/>
+    <scope id="0x997660" type="If" classStart="0x991790" classEnd="0x991d10" nestedIn="0x997510"/>
+    <scope id="0x9977b0" type="Else" classStart="0x991e70" classEnd="0x992870" nestedIn="0x997510"/>
+    <scope id="0x9978e0" type="Try" classStart="0x991e70" classEnd="0x992870" nestedIn="0x997510"/>
+    <scope id="0x997a30" type="If" classStart="0x992240" classEnd="0x9927c0" nestedIn="0x9978e0"/>
+  </scopes>
+  <variables>
+    <var id="0x997bb0" nameToken="0x960d00" typeStartToken="0x960af0" typeEndToken="0x960c50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997c20" nameToken="0x960f70" typeStartToken="0x960e90" typeEndToken="0x960e90" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997c90" nameToken="0x9611b0" typeStartToken="0x961100" typeEndToken="0x961100" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997d00" nameToken="0x9613f0" typeStartToken="0x961340" typeEndToken="0x961340" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997d70" nameToken="0x961ad0" typeStartToken="0x961550" typeEndToken="0x961a20" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997de0" nameToken="0x9621e0" typeStartToken="0x961c30" typeEndToken="0x962130" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997e80" nameToken="0x962580" typeStartToken="0x962370" typeEndToken="0x9624d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997ef0" nameToken="0x962790" typeStartToken="0x9626e0" typeEndToken="0x9626e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997f60" nameToken="0x9629a0" typeStartToken="0x9628f0" typeEndToken="0x9628f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997fd0" nameToken="0x962c10" typeStartToken="0x962b30" typeEndToken="0x962b30" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998040" nameToken="0x962e50" typeStartToken="0x962da0" typeEndToken="0x962da0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9980b0" nameToken="0x9631c0" typeStartToken="0x962fb0" typeEndToken="0x963110" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998120" nameToken="0x964b40" typeStartToken="0x963320" typeEndToken="0x963480" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998190" nameToken="0x964eb0" typeStartToken="0x964ca0" typeEndToken="0x964e00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998200" nameToken="0x965220" typeStartToken="0x965010" typeEndToken="0x965170" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998270" nameToken="0x965590" typeStartToken="0x965380" typeEndToken="0x9654e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9982e0" nameToken="0x965900" typeStartToken="0x9656f0" typeEndToken="0x965850" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998350" nameToken="0x965c70" typeStartToken="0x965a60" typeEndToken="0x965bc0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9983c0" nameToken="0x965fe0" typeStartToken="0x965dd0" typeEndToken="0x965f30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998430" nameToken="0x966380" typeStartToken="0x966170" typeEndToken="0x9662d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9985f0" nameToken="0x966bf0" typeStartToken="0x966930" typeEndToken="0x966b40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x9984a0" nameToken="0x967a70" typeStartToken="0x9679c0" typeEndToken="0x9679c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998660" nameToken="0x9715d0" typeStartToken="0x9711b0" typeEndToken="0x971520" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x998720" nameToken="0x981810" typeStartToken="0x9813f0" typeEndToken="0x981760" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x998510" nameToken="0x982580" typeStartToken="0x982370" typeEndToken="0x9824d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998580" nameToken="0x984090" typeStartToken="0x983e80" typeEndToken="0x983fe0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998800" nameToken="0x9858d0" typeStartToken="0x985820" typeEndToken="0x985820" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998870" nameToken="0x985c40" typeStartToken="0x985a30" typeEndToken="0x985b90" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x9969c0" nameToken="0x986110" typeStartToken="0x985fb0" typeEndToken="0x985fb0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x998790" nameToken="0x9890b0" typeStartToken="0x989000" typeEndToken="0x989000" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x996e50" nameToken="0x989580" typeStartToken="0x989420" typeEndToken="0x989420" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997190" nameToken="0x98afb0" typeStartToken="0x98ae50" typeEndToken="0x98ae50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x997350" nameToken="0x98bcf0" typeStartToken="0x98bc40" typeEndToken="0x98bc40" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x966fc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x967288">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x9675a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x967868">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x967bd8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x9683c8">
+      <value tokvalue="0x9683c0" known="true"/>
+    </values>
+    <values id="0x968558">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x968ce8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x9695d8">
+      <value tokvalue="0x9695d0" known="true"/>
+    </values>
+    <values id="0x969768">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x969ef8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x96a7e8">
+      <value tokvalue="0x96a7e0" known="true"/>
+    </values>
+    <values id="0x96a948">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x96b0d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x96b9c8">
+      <value tokvalue="0x96b9c0" known="true"/>
+    </values>
+    <values id="0x96bb28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x96bff8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x96c918">
+      <value tokvalue="0x96c910" known="true"/>
+    </values>
+    <values id="0x96d5a8">
+      <value tokvalue="0x96d5a0" known="true"/>
+    </values>
+    <values id="0x96d708">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x96e578">
+      <value tokvalue="0x96e570" known="true"/>
+    </values>
+    <values id="0x96e6d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x96f548">
+      <value tokvalue="0x96f540" known="true"/>
+    </values>
+    <values id="0x96f6a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x9700a8">
+      <value tokvalue="0x9700a0" known="true"/>
+    </values>
+    <values id="0x970aa8">
+      <value tokvalue="0x970aa0" known="true"/>
+    </values>
+    <values id="0x9721e8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x972b08">
+      <value intvalue="7" known="true"/>
+    </values>
+    <values id="0x973e78">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x974d98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x975cb8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x977158">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x977fc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x978e38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x979678">
+      <value intvalue="9" known="true"/>
+    </values>
+    <values id="0x97a308">
+      <value intvalue="8" known="true"/>
+    </values>
+    <values id="0x97aee8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x97b468">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x97bb48">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x97c2d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x97c9b8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x97d6c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x97dc48">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x97e328">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x97eab8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x97f198">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x97fea8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x980378">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x980a58">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x982ed8">
+      <value tokvalue="0x982ed0" known="true"/>
+    </values>
+    <values id="0x983358">
+      <value tokvalue="0x983350" known="true"/>
+    </values>
+    <values id="0x9836f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x9849b8">
+      <value tokvalue="0x9849b0" known="true"/>
+    </values>
+    <values id="0x984e58">
+      <value tokvalue="0x984e50" known="true"/>
+    </values>
+    <values id="0x9851f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x986278">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x987198">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x9896e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x98a488">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98b118">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x98be58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x98ce88">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98d228">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98da98">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98dee8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98e8e8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98ed38">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x98f688">
+      <value tokvalue="0x98f680" known="true"/>
+    </values>
+    <values id="0x98fd48">
+      <value tokvalue="0x98fd40" known="true"/>
+    </values>
+    <values id="0x9903a8">
+      <value tokvalue="0x9903a0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

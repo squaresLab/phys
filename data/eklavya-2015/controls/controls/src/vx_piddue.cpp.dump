@@ -1,0 +1,1083 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0xa19420" file="vx_pid.h" linenr="21" str="using" scope="0xa504e0" type="name"/>
+    <token id="0xa288b0" file="vx_pid.h" linenr="21" str="namespace" scope="0xa504e0" type="name"/>
+    <token id="0xa28960" file="vx_pid.h" linenr="21" str="ros" scope="0xa504e0" type="name"/>
+    <token id="0xa28a10" file="vx_pid.h" linenr="21" str=";" scope="0xa504e0"/>
+    <token id="0xa28ac0" file="vx_pid.h" linenr="23" str="class" scope="0xa504e0" type="name"/>
+    <token id="0xa28b70" file="vx_pid.h" linenr="23" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710"/>
+    <token id="0xa28c20" file="vx_pid.h" linenr="23" str="{" scope="0xa31710" link="0xa314f0"/>
+    <token id="0xa28cd0" file="vx_pid.h" linenr="25" str="private:" scope="0xa31710" type="name"/>
+    <token id="0xa28e30" file="vx_pid.h" linenr="32" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa28ee0" file="vx_pid.h" linenr="32" str="Vr_a" scope="0xa31710" type="name" varId="1" variable="0xa53cb0"/>
+    <token id="0xa28f90" file="vx_pid.h" linenr="32" str=";" scope="0xa31710"/>
+    <token id="0xa27fd0" file="vx_pid.h" linenr="32" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2c8f0" file="vx_pid.h" linenr="32" str="Vl_a" scope="0xa31710" type="name" varId="2" variable="0xa53d20"/>
+    <token id="0xa2c9a0" file="vx_pid.h" linenr="32" str=";" scope="0xa31710"/>
+    <token id="0xa2ca50" file="vx_pid.h" linenr="33" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2cb00" file="vx_pid.h" linenr="33" str="Vx_t" scope="0xa31710" type="name" varId="3" variable="0xa53d90"/>
+    <token id="0xa2cbb0" file="vx_pid.h" linenr="33" str=";" scope="0xa31710"/>
+    <token id="0xa28080" file="vx_pid.h" linenr="33" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2cc60" file="vx_pid.h" linenr="33" str="Vy_t" scope="0xa31710" type="name" varId="4" variable="0xa53e00"/>
+    <token id="0xa2cd10" file="vx_pid.h" linenr="33" str=";" scope="0xa31710"/>
+    <token id="0xa50990" file="vx_pid.h" linenr="33" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2cdc0" file="vx_pid.h" linenr="33" str="Vz_t" scope="0xa31710" type="name" varId="5" variable="0xa53e70"/>
+    <token id="0xa2ce70" file="vx_pid.h" linenr="33" str=";" scope="0xa31710"/>
+    <token id="0xa2cf20" file="vx_pid.h" linenr="34" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2cfd0" file="vx_pid.h" linenr="34" str="Alpha_a" scope="0xa31710" type="name" varId="6" variable="0xa53ee0"/>
+    <token id="0xa2d080" file="vx_pid.h" linenr="34" str=";" scope="0xa31710"/>
+    <token id="0xa2d130" file="vx_pid.h" linenr="35" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d1e0" file="vx_pid.h" linenr="35" str="Kp_Vx" scope="0xa31710" type="name" varId="7" variable="0xa53f50"/>
+    <token id="0xa2d290" file="vx_pid.h" linenr="35" str=";" scope="0xa31710"/>
+    <token id="0xa50a40" file="vx_pid.h" linenr="35" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d340" file="vx_pid.h" linenr="35" str="Ki_Vx" scope="0xa31710" type="name" varId="8" variable="0xa53fc0"/>
+    <token id="0xa2d3f0" file="vx_pid.h" linenr="35" str=";" scope="0xa31710"/>
+    <token id="0xa50af0" file="vx_pid.h" linenr="35" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d4a0" file="vx_pid.h" linenr="35" str="Kd_Vx" scope="0xa31710" type="name" varId="9" variable="0xa54030"/>
+    <token id="0xa2d550" file="vx_pid.h" linenr="35" str=";" scope="0xa31710"/>
+    <token id="0xa2d600" file="vx_pid.h" linenr="36" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d6b0" file="vx_pid.h" linenr="36" str="Vx_error_diff" scope="0xa31710" type="name" varId="10" variable="0xa540a0"/>
+    <token id="0xa2d760" file="vx_pid.h" linenr="36" str=";" scope="0xa31710"/>
+    <token id="0xa50730" file="vx_pid.h" linenr="36" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d810" file="vx_pid.h" linenr="36" str="Vx_error_old" scope="0xa31710" type="name" varId="11" variable="0xa54110"/>
+    <token id="0xa2d8c0" file="vx_pid.h" linenr="36" str=";" scope="0xa31710"/>
+    <token id="0xa507e0" file="vx_pid.h" linenr="36" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2d970" file="vx_pid.h" linenr="36" str="Vx_error_integral" scope="0xa31710" type="name" varId="12" variable="0xa54180"/>
+    <token id="0xa2da20" file="vx_pid.h" linenr="36" str=";" scope="0xa31710"/>
+    <token id="0xa2dad0" file="vx_pid.h" linenr="37" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2db80" file="vx_pid.h" linenr="37" str="PWM_Duty_Cycle" scope="0xa31710" type="name" varId="13" variable="0xa541f0"/>
+    <token id="0xa2dc30" file="vx_pid.h" linenr="37" str=";" scope="0xa31710"/>
+    <token id="0xa2dce0" file="vx_pid.h" linenr="40" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2dd90" file="vx_pid.h" linenr="40" str="PWM_min_percent" scope="0xa31710" type="name" varId="14" variable="0xa54260"/>
+    <token id="0xa2de40" file="vx_pid.h" linenr="40" str=";" scope="0xa31710"/>
+    <token id="0xa50890" file="vx_pid.h" linenr="40" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2def0" file="vx_pid.h" linenr="40" str="PWM_max_percent" scope="0xa31710" type="name" varId="15" variable="0xa542d0"/>
+    <token id="0xa2dfa0" file="vx_pid.h" linenr="40" str=";" scope="0xa31710"/>
+    <token id="0xa2e050" file="vx_pid.h" linenr="41" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2e100" file="vx_pid.h" linenr="41" str="PWM_PERIOD_TIME" scope="0xa31710" type="name" varId="16" variable="0xa54340"/>
+    <token id="0xa2e1b0" file="vx_pid.h" linenr="41" str=";" scope="0xa31710"/>
+    <token id="0xa2e260" file="vx_pid.h" linenr="43" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2e310" file="vx_pid.h" linenr="43" str="vx_pid_loop_rate" scope="0xa31710" type="name" varId="17" variable="0xa543b0"/>
+    <token id="0xa2e3f0" file="vx_pid.h" linenr="43" str=";" scope="0xa31710"/>
+    <token id="0xa2e4a0" file="vx_pid.h" linenr="45" str="std" scope="0xa31710" type="name" astParent="0xa2e550"/>
+    <token id="0xa2e550" file="vx_pid.h" linenr="45" str="::" scope="0xa31710" astOperand1="0xa2e4a0" astOperand2="0xa2e6b0"/>
+    <token id="0xa2e600" file="vx_pid.h" linenr="45" str="mutex" scope="0xa31710" type="name"/>
+    <token id="0xa2e6b0" file="vx_pid.h" linenr="45" str="Vx_t_lock" scope="0xa31710" type="name" varId="18" variable="0xa54420" astParent="0xa2e550"/>
+    <token id="0xa2e760" file="vx_pid.h" linenr="45" str=";" scope="0xa31710"/>
+    <token id="0xa50bf0" file="vx_pid.h" linenr="45" str="std" scope="0xa31710" type="name" astParent="0xa50ca0"/>
+    <token id="0xa50ca0" file="vx_pid.h" linenr="45" str="::" scope="0xa31710" astOperand1="0xa50bf0" astOperand2="0xa2e810"/>
+    <token id="0xa50d50" file="vx_pid.h" linenr="45" str="mutex" scope="0xa31710" type="name"/>
+    <token id="0xa2e810" file="vx_pid.h" linenr="45" str="Alpha_lock" scope="0xa31710" type="name" varId="19" variable="0xa54490" astParent="0xa50ca0"/>
+    <token id="0xa2e8c0" file="vx_pid.h" linenr="45" str=";" scope="0xa31710"/>
+    <token id="0xa4fc90" file="vx_pid.h" linenr="45" str="std" scope="0xa31710" type="name" astParent="0xa50e00"/>
+    <token id="0xa50e00" file="vx_pid.h" linenr="45" str="::" scope="0xa31710" astOperand1="0xa4fc90" astOperand2="0xa2e970"/>
+    <token id="0xa50eb0" file="vx_pid.h" linenr="45" str="mutex" scope="0xa31710" type="name"/>
+    <token id="0xa2e970" file="vx_pid.h" linenr="45" str="Vl_Vr_a_lock" scope="0xa31710" type="name" varId="20" variable="0xa54500" astParent="0xa50e00"/>
+    <token id="0xa2ea20" file="vx_pid.h" linenr="45" str=";" scope="0xa31710"/>
+    <token id="0xa50f60" file="vx_pid.h" linenr="45" str="std" scope="0xa31710" type="name" astParent="0xa51010"/>
+    <token id="0xa51010" file="vx_pid.h" linenr="45" str="::" scope="0xa31710" astOperand1="0xa50f60" astOperand2="0xa2ead0"/>
+    <token id="0xa510c0" file="vx_pid.h" linenr="45" str="mutex" scope="0xa31710" type="name"/>
+    <token id="0xa2ead0" file="vx_pid.h" linenr="45" str="Vy_t_lock" scope="0xa31710" type="name" varId="21" variable="0xa54570" astParent="0xa51010"/>
+    <token id="0xa2eb80" file="vx_pid.h" linenr="45" str=";" scope="0xa31710"/>
+    <token id="0xa51170" file="vx_pid.h" linenr="45" str="std" scope="0xa31710" type="name" astParent="0xa51220"/>
+    <token id="0xa51220" file="vx_pid.h" linenr="45" str="::" scope="0xa31710" astOperand1="0xa51170" astOperand2="0xa2ec30"/>
+    <token id="0xa512d0" file="vx_pid.h" linenr="45" str="mutex" scope="0xa31710" type="name"/>
+    <token id="0xa2ec30" file="vx_pid.h" linenr="45" str="manualmode_lock" scope="0xa31710" type="name" varId="22" variable="0xa545e0" astParent="0xa51220"/>
+    <token id="0xa2ece0" file="vx_pid.h" linenr="45" str=";" scope="0xa31710"/>
+    <token id="0xa2ed90" file="vx_pid.h" linenr="47" str="public:" scope="0xa31710" type="name"/>
+    <token id="0xa2eef0" file="vx_pid.h" linenr="49" str="VxPid" scope="0xa31710" type="name" function="0xa318f0" astParent="0xa2efa0"/>
+    <token id="0xa2efa0" file="vx_pid.h" linenr="49" str="(" scope="0xa31710" link="0xa2f050" astOperand1="0xa2eef0"/>
+    <token id="0xa2f050" file="vx_pid.h" linenr="49" str=")" scope="0xa31710" link="0xa2efa0"/>
+    <token id="0xa2f100" file="vx_pid.h" linenr="49" str=";" scope="0xa31710"/>
+    <token id="0xa2f1b0" file="vx_pid.h" linenr="50" str="double" scope="0xa31710" type="name"/>
+    <token id="0xa2f260" file="vx_pid.h" linenr="50" str="getMinMax" scope="0xa31710" type="name" function="0xa282a0" astParent="0xa2f310"/>
+    <token id="0xa2f310" file="vx_pid.h" linenr="50" str="(" scope="0xa31710" link="0xa2f940" astOperand1="0xa2f260" astOperand2="0xa2f730"/>
+    <token id="0xa2f3c0" file="vx_pid.h" linenr="50" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2f470" file="vx_pid.h" linenr="50" str="Cur_Var" scope="0xa31710" type="name" varId="23" astParent="0xa2f520"/>
+    <token id="0xa2f520" file="vx_pid.h" linenr="50" str="," scope="0xa31710" astParent="0xa2f730" astOperand1="0xa2f470" astOperand2="0xa2f680"/>
+    <token id="0xa2f5d0" file="vx_pid.h" linenr="50" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2f680" file="vx_pid.h" linenr="50" str="max" scope="0xa31710" type="name" varId="24" astParent="0xa2f520"/>
+    <token id="0xa2f730" file="vx_pid.h" linenr="50" str="," scope="0xa31710" astParent="0xa2f310" astOperand1="0xa2f520" astOperand2="0xa2f890"/>
+    <token id="0xa2f7e0" file="vx_pid.h" linenr="50" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa2f890" file="vx_pid.h" linenr="50" str="min" scope="0xa31710" type="name" varId="25" astParent="0xa2f730"/>
+    <token id="0xa2f940" file="vx_pid.h" linenr="50" str=")" scope="0xa31710" link="0xa2f310"/>
+    <token id="0xa2f9f0" file="vx_pid.h" linenr="50" str=";" scope="0xa31710"/>
+    <token id="0xa2faa0" file="vx_pid.h" linenr="51" str="void" scope="0xa31710" type="name"/>
+    <token id="0xa2fb50" file="vx_pid.h" linenr="51" str="vxTargetUpdateCallback" scope="0xa31710" type="name" function="0xa50610" astParent="0xa2fc30"/>
+    <token id="0xa2fc30" file="vx_pid.h" linenr="51" str="(" scope="0xa31710" link="0xa30260" astOperand1="0xa2fb50" astOperand2="0xa30100"/>
+    <token id="0xa2fce0" file="vx_pid.h" linenr="51" str="const" scope="0xa31710" type="name"/>
+    <token id="0xa2fd90" file="vx_pid.h" linenr="51" str="geometry_msgs" scope="0xa31710" type="name" astParent="0xa2fe40"/>
+    <token id="0xa2fe40" file="vx_pid.h" linenr="51" str="::" scope="0xa31710" astParent="0xa2ffa0" astOperand1="0xa2fd90" astOperand2="0xa2fef0"/>
+    <token id="0xa2fef0" file="vx_pid.h" linenr="51" str="Twist" scope="0xa31710" type="name" astParent="0xa2fe40"/>
+    <token id="0xa2ffa0" file="vx_pid.h" linenr="51" str="::" scope="0xa31710" astParent="0xa30100" astOperand1="0xa2fe40" astOperand2="0xa30050"/>
+    <token id="0xa30050" file="vx_pid.h" linenr="51" str="ConstPtr" scope="0xa31710" type="name" astParent="0xa2ffa0"/>
+    <token id="0xa30100" file="vx_pid.h" linenr="51" str="&amp;" scope="0xa31710" type="op" astParent="0xa2fc30" astOperand1="0xa2ffa0" astOperand2="0xa301b0"/>
+    <token id="0xa301b0" file="vx_pid.h" linenr="51" str="msg" scope="0xa31710" type="name" varId="26" astParent="0xa30100"/>
+    <token id="0xa30260" file="vx_pid.h" linenr="51" str=")" scope="0xa31710" link="0xa2fc30"/>
+    <token id="0xa30310" file="vx_pid.h" linenr="51" str=";" scope="0xa31710"/>
+    <token id="0xa303c0" file="vx_pid.h" linenr="53" str="void" scope="0xa31710" type="name"/>
+    <token id="0xa30470" file="vx_pid.h" linenr="53" str="encoderCallback" scope="0xa31710" type="name" function="0xa51970" astParent="0xa30520"/>
+    <token id="0xa30520" file="vx_pid.h" linenr="53" str="(" scope="0xa31710" link="0xa30b50" astOperand1="0xa30470" astOperand2="0xa309f0"/>
+    <token id="0xa305d0" file="vx_pid.h" linenr="53" str="const" scope="0xa31710" type="name"/>
+    <token id="0xa30680" file="vx_pid.h" linenr="53" str="geometry_msgs" scope="0xa31710" type="name" astParent="0xa30730"/>
+    <token id="0xa30730" file="vx_pid.h" linenr="53" str="::" scope="0xa31710" astParent="0xa30890" astOperand1="0xa30680" astOperand2="0xa307e0"/>
+    <token id="0xa307e0" file="vx_pid.h" linenr="53" str="Twist" scope="0xa31710" type="name" astParent="0xa30730"/>
+    <token id="0xa30890" file="vx_pid.h" linenr="53" str="::" scope="0xa31710" astParent="0xa309f0" astOperand1="0xa30730" astOperand2="0xa30940"/>
+    <token id="0xa30940" file="vx_pid.h" linenr="53" str="ConstPtr" scope="0xa31710" type="name" astParent="0xa30890"/>
+    <token id="0xa309f0" file="vx_pid.h" linenr="53" str="&amp;" scope="0xa31710" type="op" astParent="0xa30520" astOperand1="0xa30890" astOperand2="0xa30aa0"/>
+    <token id="0xa30aa0" file="vx_pid.h" linenr="53" str="msg" scope="0xa31710" type="name" varId="27" variable="0xa54d10" astParent="0xa309f0"/>
+    <token id="0xa30b50" file="vx_pid.h" linenr="53" str=")" scope="0xa31710" link="0xa30520"/>
+    <token id="0xa30c00" file="vx_pid.h" linenr="53" str=";" scope="0xa31710"/>
+    <token id="0xa30cb0" file="vx_pid.h" linenr="54" str="void" scope="0xa31710" type="name"/>
+    <token id="0xa30d60" file="vx_pid.h" linenr="54" str="implementPid" scope="0xa31710" type="name" function="0xa51a10" astParent="0xa30e10"/>
+    <token id="0xa30e10" file="vx_pid.h" linenr="54" str="(" scope="0xa31710" link="0xa31390" astOperand1="0xa30d60" astOperand2="0xa31020"/>
+    <token id="0xa30ec0" file="vx_pid.h" linenr="54" str="int" scope="0xa31710" type="name"/>
+    <token id="0xa30f70" file="vx_pid.h" linenr="54" str="argc" scope="0xa31710" type="name" varId="28" astParent="0xa31020"/>
+    <token id="0xa31020" file="vx_pid.h" linenr="54" str="," scope="0xa31710" astParent="0xa30e10" astOperand1="0xa30f70" astOperand2="0xa31180"/>
+    <token id="0xa310d0" file="vx_pid.h" linenr="54" str="char" scope="0xa31710" type="name" astParent="0xa31180"/>
+    <token id="0xa31180" file="vx_pid.h" linenr="54" str="*" scope="0xa31710" type="op" isArithmeticalOp="True" astParent="0xa31020" astOperand1="0xa310d0" astOperand2="0xa31230"/>
+    <token id="0xa31230" file="vx_pid.h" linenr="54" str="*" scope="0xa31710" type="op" isArithmeticalOp="True" astParent="0xa31180" astOperand1="0xa312e0"/>
+    <token id="0xa312e0" file="vx_pid.h" linenr="54" str="argv" scope="0xa31710" type="name" varId="29" astParent="0xa31230"/>
+    <token id="0xa31390" file="vx_pid.h" linenr="54" str=")" scope="0xa31710" link="0xa30e10"/>
+    <token id="0xa31440" file="vx_pid.h" linenr="54" str=";" scope="0xa31710"/>
+    <token id="0xa314f0" file="vx_pid.h" linenr="56" str="}" scope="0xa31710" link="0xa28c20"/>
+    <token id="0xa315a0" file="vx_pid.h" linenr="56" str=";" scope="0xa504e0"/>
+    <token id="0xa31650" file="vx_piddue.cpp" linenr="8" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710" astParent="0xa319c0"/>
+    <token id="0xa319c0" file="vx_piddue.cpp" linenr="8" str="::" scope="0xa504e0" astParent="0xa31b20" astOperand1="0xa31650" astOperand2="0xa31a70"/>
+    <token id="0xa31a70" file="vx_piddue.cpp" linenr="8" str="VxPid" scope="0xa504e0" type="name" function="0xa318f0" astParent="0xa319c0"/>
+    <token id="0xa31b20" file="vx_piddue.cpp" linenr="8" str="(" scope="0xa504e0" link="0xa31bd0" astParent="0xa31c80" astOperand1="0xa319c0"/>
+    <token id="0xa31bd0" file="vx_piddue.cpp" linenr="8" str=")" scope="0xa504e0" link="0xa31b20"/>
+    <token id="0xa31c80" file="vx_piddue.cpp" linenr="8" str=":" scope="0xa504e0" astParent="0xa32e90" astOperand1="0xa31b20" astOperand2="0xa31de0"/>
+    <token id="0xa31d30" file="vx_piddue.cpp" linenr="9" str="Vx_t_lock" scope="0xa504e0" type="name" varId="18" variable="0xa54420" astParent="0xa31de0"/>
+    <token id="0xa31de0" file="vx_piddue.cpp" linenr="9" str="(" scope="0xa504e0" link="0xa32de0" astParent="0xa31c80" astOperand1="0xa31d30"/>
+    <token id="0xa32de0" file="vx_piddue.cpp" linenr="9" str=")" scope="0xa504e0" link="0xa31de0"/>
+    <token id="0xa32e90" file="vx_piddue.cpp" linenr="9" str="," scope="0xa504e0" astParent="0xa33150" astOperand1="0xa31c80" astOperand2="0xa32ff0"/>
+    <token id="0xa32f40" file="vx_piddue.cpp" linenr="9" str="Alpha_lock" scope="0xa504e0" type="name" varId="19" variable="0xa54490" astParent="0xa32ff0"/>
+    <token id="0xa32ff0" file="vx_piddue.cpp" linenr="9" str="(" scope="0xa504e0" link="0xa330a0" astParent="0xa32e90" astOperand1="0xa32f40"/>
+    <token id="0xa330a0" file="vx_piddue.cpp" linenr="9" str=")" scope="0xa504e0" link="0xa32ff0"/>
+    <token id="0xa33150" file="vx_piddue.cpp" linenr="9" str="," scope="0xa504e0" astOperand1="0xa32e90" astOperand2="0xa332b0"/>
+    <token id="0xa33200" file="vx_piddue.cpp" linenr="9" str="Vl_Vr_a_lock" scope="0xa504e0" type="name" varId="20" variable="0xa54500" astParent="0xa332b0"/>
+    <token id="0xa332b0" file="vx_piddue.cpp" linenr="9" str="(" scope="0xa504e0" link="0xa33360" astParent="0xa33150" astOperand1="0xa33200"/>
+    <token id="0xa33360" file="vx_piddue.cpp" linenr="9" str=")" scope="0xa504e0" link="0xa332b0"/>
+    <token id="0xa33410" file="vx_piddue.cpp" linenr="10" str="{" scope="0xa51ab0" link="0xa36120"/>
+    <token id="0xa334c0" file="vx_piddue.cpp" linenr="12" str="Vr_a" scope="0xa51ab0" type="name" varId="1" variable="0xa53cb0" astParent="0xa33570"/>
+    <token id="0xa33570" file="vx_piddue.cpp" linenr="12" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa334c0" astOperand2="0xa33620"/>
+    <token id="0xa33620" file="vx_piddue.cpp" linenr="12" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa33628" astParent="0xa33570"/>
+    <token id="0xa336d0" file="vx_piddue.cpp" linenr="12" str=";" scope="0xa51ab0"/>
+    <token id="0xa33780" file="vx_piddue.cpp" linenr="13" str="Vl_a" scope="0xa51ab0" type="name" varId="2" variable="0xa53d20" astParent="0xa33830"/>
+    <token id="0xa33830" file="vx_piddue.cpp" linenr="13" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa33780" astOperand2="0xa338e0"/>
+    <token id="0xa338e0" file="vx_piddue.cpp" linenr="13" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa338e8" astParent="0xa33830"/>
+    <token id="0xa33990" file="vx_piddue.cpp" linenr="13" str=";" scope="0xa51ab0"/>
+    <token id="0xa33a40" file="vx_piddue.cpp" linenr="14" str="Vx_t" scope="0xa51ab0" type="name" varId="3" variable="0xa53d90" astParent="0xa33af0"/>
+    <token id="0xa33af0" file="vx_piddue.cpp" linenr="14" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa33a40" astOperand2="0xa33ba0"/>
+    <token id="0xa33ba0" file="vx_piddue.cpp" linenr="14" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa33ba8" astParent="0xa33af0"/>
+    <token id="0xa33c50" file="vx_piddue.cpp" linenr="14" str=";" scope="0xa51ab0"/>
+    <token id="0xa33d00" file="vx_piddue.cpp" linenr="15" str="Alpha_a" scope="0xa51ab0" type="name" varId="6" variable="0xa53ee0" astParent="0xa33db0"/>
+    <token id="0xa33db0" file="vx_piddue.cpp" linenr="15" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa33d00" astOperand2="0xa33e60"/>
+    <token id="0xa33e60" file="vx_piddue.cpp" linenr="15" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa33e68" astParent="0xa33db0"/>
+    <token id="0xa33f10" file="vx_piddue.cpp" linenr="15" str=";" scope="0xa51ab0"/>
+    <token id="0xa33fc0" file="vx_piddue.cpp" linenr="16" str="Kp_Vx" scope="0xa51ab0" type="name" varId="7" variable="0xa53f50" astParent="0xa34070"/>
+    <token id="0xa34070" file="vx_piddue.cpp" linenr="16" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa33fc0" astOperand2="0xa34120"/>
+    <token id="0xa34120" file="vx_piddue.cpp" linenr="16" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa34128" astParent="0xa34070"/>
+    <token id="0xa341d0" file="vx_piddue.cpp" linenr="16" str=";" scope="0xa51ab0"/>
+    <token id="0xa34280" file="vx_piddue.cpp" linenr="17" str="Ki_Vx" scope="0xa51ab0" type="name" varId="8" variable="0xa53fc0" astParent="0xa34330"/>
+    <token id="0xa34330" file="vx_piddue.cpp" linenr="17" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa34280" astOperand2="0xa343e0"/>
+    <token id="0xa343e0" file="vx_piddue.cpp" linenr="17" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa343e8" astParent="0xa34330"/>
+    <token id="0xa34490" file="vx_piddue.cpp" linenr="17" str=";" scope="0xa51ab0"/>
+    <token id="0xa34540" file="vx_piddue.cpp" linenr="18" str="Kd_Vx" scope="0xa51ab0" type="name" varId="9" variable="0xa54030" astParent="0xa345f0"/>
+    <token id="0xa345f0" file="vx_piddue.cpp" linenr="18" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa34540" astOperand2="0xa346a0"/>
+    <token id="0xa346a0" file="vx_piddue.cpp" linenr="18" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa346a8" astParent="0xa345f0"/>
+    <token id="0xa34750" file="vx_piddue.cpp" linenr="18" str=";" scope="0xa51ab0"/>
+    <token id="0xa34800" file="vx_piddue.cpp" linenr="19" str="Vx_error_sum" scope="0xa51ab0" type="name" astParent="0xa348b0"/>
+    <token id="0xa348b0" file="vx_piddue.cpp" linenr="19" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa34800" astOperand2="0xa34960"/>
+    <token id="0xa34960" file="vx_piddue.cpp" linenr="19" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa34968" astParent="0xa348b0"/>
+    <token id="0xa34a10" file="vx_piddue.cpp" linenr="19" str=";" scope="0xa51ab0"/>
+    <token id="0xa34ac0" file="vx_piddue.cpp" linenr="20" str="Vx_error_diff" scope="0xa51ab0" type="name" varId="10" variable="0xa540a0" astParent="0xa34b70"/>
+    <token id="0xa34b70" file="vx_piddue.cpp" linenr="20" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa34ac0" astOperand2="0xa34c20"/>
+    <token id="0xa34c20" file="vx_piddue.cpp" linenr="20" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa34c28" astParent="0xa34b70"/>
+    <token id="0xa34cd0" file="vx_piddue.cpp" linenr="20" str=";" scope="0xa51ab0"/>
+    <token id="0xa34d80" file="vx_piddue.cpp" linenr="21" str="Vx_error_old" scope="0xa51ab0" type="name" varId="11" variable="0xa54110" astParent="0xa34e30"/>
+    <token id="0xa34e30" file="vx_piddue.cpp" linenr="21" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa34d80" astOperand2="0xa34ee0"/>
+    <token id="0xa34ee0" file="vx_piddue.cpp" linenr="21" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa34ee8" astParent="0xa34e30"/>
+    <token id="0xa34f90" file="vx_piddue.cpp" linenr="21" str=";" scope="0xa51ab0"/>
+    <token id="0xa35040" file="vx_piddue.cpp" linenr="22" str="Vx_error_integral" scope="0xa51ab0" type="name" varId="12" variable="0xa54180" astParent="0xa35120"/>
+    <token id="0xa35120" file="vx_piddue.cpp" linenr="22" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa35040" astOperand2="0xa351d0"/>
+    <token id="0xa351d0" file="vx_piddue.cpp" linenr="22" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa351d8" astParent="0xa35120"/>
+    <token id="0xa35280" file="vx_piddue.cpp" linenr="22" str=";" scope="0xa51ab0"/>
+    <token id="0xa35330" file="vx_piddue.cpp" linenr="23" str="PWM_Duty_Cycle" scope="0xa51ab0" type="name" varId="13" variable="0xa541f0" astParent="0xa353e0"/>
+    <token id="0xa353e0" file="vx_piddue.cpp" linenr="23" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa35330" astOperand2="0xa35490"/>
+    <token id="0xa35490" file="vx_piddue.cpp" linenr="23" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa35498" astParent="0xa353e0"/>
+    <token id="0xa35540" file="vx_piddue.cpp" linenr="23" str=";" scope="0xa51ab0"/>
+    <token id="0xa355f0" file="vx_piddue.cpp" linenr="24" str="vx_pid_loop_rate" scope="0xa51ab0" type="name" varId="17" variable="0xa543b0" astParent="0xa356d0"/>
+    <token id="0xa356d0" file="vx_piddue.cpp" linenr="24" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa355f0" astOperand2="0xa35780"/>
+    <token id="0xa35780" file="vx_piddue.cpp" linenr="24" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa35788" astParent="0xa356d0"/>
+    <token id="0xa35830" file="vx_piddue.cpp" linenr="24" str=";" scope="0xa51ab0"/>
+    <token id="0xa358e0" file="vx_piddue.cpp" linenr="27" str="PWM_min_percent" scope="0xa51ab0" type="name" varId="14" variable="0xa54260" astParent="0xa35990"/>
+    <token id="0xa35990" file="vx_piddue.cpp" linenr="27" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa358e0" astOperand2="0xa35a40"/>
+    <token id="0xa35a40" file="vx_piddue.cpp" linenr="27" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa35a48" astParent="0xa35990"/>
+    <token id="0xa35af0" file="vx_piddue.cpp" linenr="27" str=";" scope="0xa51ab0"/>
+    <token id="0xa35ba0" file="vx_piddue.cpp" linenr="27" str="PWM_max_percent" scope="0xa51ab0" type="name" varId="15" variable="0xa542d0" astParent="0xa35c50"/>
+    <token id="0xa35c50" file="vx_piddue.cpp" linenr="27" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa35ba0" astOperand2="0xa35d00"/>
+    <token id="0xa35d00" file="vx_piddue.cpp" linenr="27" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa35d08" astParent="0xa35c50"/>
+    <token id="0xa35db0" file="vx_piddue.cpp" linenr="27" str=";" scope="0xa51ab0"/>
+    <token id="0xa35e60" file="vx_piddue.cpp" linenr="28" str="PWM_PERIOD_TIME" scope="0xa51ab0" type="name" varId="16" variable="0xa54340" astParent="0xa35f10"/>
+    <token id="0xa35f10" file="vx_piddue.cpp" linenr="28" str="=" scope="0xa51ab0" type="op" isAssignmentOp="True" astOperand1="0xa35e60" astOperand2="0xa35fc0"/>
+    <token id="0xa35fc0" file="vx_piddue.cpp" linenr="28" str="0" scope="0xa51ab0" type="number" isInt="True" values="0xa35fc8" astParent="0xa35f10"/>
+    <token id="0xa36070" file="vx_piddue.cpp" linenr="28" str=";" scope="0xa51ab0"/>
+    <token id="0xa36120" file="vx_piddue.cpp" linenr="31" str="}" scope="0xa51ab0" link="0xa33410"/>
+    <token id="0xa361d0" file="vx_piddue.cpp" linenr="33" str="double" scope="0xa504e0" type="name"/>
+    <token id="0xa36280" file="vx_piddue.cpp" linenr="33" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710" astParent="0xa36330"/>
+    <token id="0xa36330" file="vx_piddue.cpp" linenr="33" str="::" scope="0xa504e0" astParent="0xa36490" astOperand1="0xa36280" astOperand2="0xa363e0"/>
+    <token id="0xa363e0" file="vx_piddue.cpp" linenr="33" str="getMinMax" scope="0xa504e0" type="name" function="0xa282a0" astParent="0xa36330"/>
+    <token id="0xa36490" file="vx_piddue.cpp" linenr="33" str="(" scope="0xa504e0" link="0xa36ac0" astOperand1="0xa36330" astOperand2="0xa368b0"/>
+    <token id="0xa36540" file="vx_piddue.cpp" linenr="33" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa365f0" file="vx_piddue.cpp" linenr="33" str="Cur_Var" scope="0xa504e0" type="name" varId="30" variable="0xa54b50" astParent="0xa366a0"/>
+    <token id="0xa366a0" file="vx_piddue.cpp" linenr="33" str="," scope="0xa504e0" astParent="0xa368b0" astOperand1="0xa365f0" astOperand2="0xa36800"/>
+    <token id="0xa36750" file="vx_piddue.cpp" linenr="33" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa36800" file="vx_piddue.cpp" linenr="33" str="max" scope="0xa504e0" type="name" varId="31" variable="0xa54bc0" astParent="0xa366a0"/>
+    <token id="0xa368b0" file="vx_piddue.cpp" linenr="33" str="," scope="0xa504e0" astParent="0xa36490" astOperand1="0xa366a0" astOperand2="0xa36a10"/>
+    <token id="0xa36960" file="vx_piddue.cpp" linenr="33" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa36a10" file="vx_piddue.cpp" linenr="33" str="min" scope="0xa504e0" type="name" varId="32" variable="0xa54c30" astParent="0xa368b0"/>
+    <token id="0xa36ac0" file="vx_piddue.cpp" linenr="33" str=")" scope="0xa504e0" link="0xa36490"/>
+    <token id="0xa36b70" file="vx_piddue.cpp" linenr="34" str="{" scope="0xa51be0" link="0xa37bf0"/>
+    <token id="0xa36c20" file="vx_piddue.cpp" linenr="36" str="if" scope="0xa51be0" type="name" astParent="0xa36cd0"/>
+    <token id="0xa36cd0" file="vx_piddue.cpp" linenr="36" str="(" scope="0xa51be0" link="0xa36f90" astOperand1="0xa36c20" astOperand2="0xa36e30"/>
+    <token id="0xa36d80" file="vx_piddue.cpp" linenr="36" str="Cur_Var" scope="0xa51be0" type="name" varId="30" variable="0xa54b50" astParent="0xa36e30"/>
+    <token id="0xa36e30" file="vx_piddue.cpp" linenr="36" str="&gt;" scope="0xa51be0" type="op" isComparisonOp="True" astParent="0xa36cd0" astOperand1="0xa36d80" astOperand2="0xa36ee0"/>
+    <token id="0xa36ee0" file="vx_piddue.cpp" linenr="36" str="max" scope="0xa51be0" type="name" varId="31" variable="0xa54bc0" astParent="0xa36e30"/>
+    <token id="0xa36f90" file="vx_piddue.cpp" linenr="36" str=")" scope="0xa51be0" link="0xa36cd0"/>
+    <token id="0xa28d80" file="vx_piddue.cpp" linenr="36" str="{" scope="0xa52ed0" link="0xa2ee40"/>
+    <token id="0xa37040" file="vx_piddue.cpp" linenr="37" str="return" scope="0xa52ed0" type="name" astOperand1="0xa370f0"/>
+    <token id="0xa370f0" file="vx_piddue.cpp" linenr="37" str="max" scope="0xa52ed0" type="name" varId="31" variable="0xa54bc0" astParent="0xa37040"/>
+    <token id="0xa371a0" file="vx_piddue.cpp" linenr="37" str=";" scope="0xa52ed0"/>
+    <token id="0xa2ee40" file="vx_piddue.cpp" linenr="37" str="}" scope="0xa52ed0" link="0xa28d80"/>
+    <token id="0xa37250" file="vx_piddue.cpp" linenr="38" str="else" scope="0xa51be0" type="name"/>
+    <token id="0xa194d0" file="vx_piddue.cpp" linenr="38" str="{" scope="0xa53130" link="0xa28800"/>
+    <token id="0xa37300" file="vx_piddue.cpp" linenr="38" str="if" scope="0xa53130" type="name" astParent="0xa373b0"/>
+    <token id="0xa373b0" file="vx_piddue.cpp" linenr="38" str="(" scope="0xa53130" link="0xa37670" astOperand1="0xa37300" astOperand2="0xa37510"/>
+    <token id="0xa37460" file="vx_piddue.cpp" linenr="38" str="Cur_Var" scope="0xa53130" type="name" varId="30" variable="0xa54b50" astParent="0xa37510"/>
+    <token id="0xa37510" file="vx_piddue.cpp" linenr="38" str="&lt;" scope="0xa53130" type="op" isComparisonOp="True" astParent="0xa373b0" astOperand1="0xa37460" astOperand2="0xa375c0"/>
+    <token id="0xa375c0" file="vx_piddue.cpp" linenr="38" str="min" scope="0xa53130" type="name" varId="32" variable="0xa54c30" astParent="0xa37510"/>
+    <token id="0xa37670" file="vx_piddue.cpp" linenr="38" str=")" scope="0xa53130" link="0xa373b0"/>
+    <token id="0xa392d0" file="vx_piddue.cpp" linenr="38" str="{" scope="0xa53260" link="0xa3b110"/>
+    <token id="0xa37720" file="vx_piddue.cpp" linenr="39" str="return" scope="0xa53260" type="name" astOperand1="0xa377d0"/>
+    <token id="0xa377d0" file="vx_piddue.cpp" linenr="39" str="min" scope="0xa53260" type="name" varId="32" variable="0xa54c30" astParent="0xa37720"/>
+    <token id="0xa37880" file="vx_piddue.cpp" linenr="39" str=";" scope="0xa53260"/>
+    <token id="0xa3b110" file="vx_piddue.cpp" linenr="39" str="}" scope="0xa53260" link="0xa392d0"/>
+    <token id="0xa37930" file="vx_piddue.cpp" linenr="40" str="else" scope="0xa53130" type="name"/>
+    <token id="0xa3b5e0" file="vx_piddue.cpp" linenr="40" str="{" scope="0xa534c0" link="0xa48cc0"/>
+    <token id="0xa379e0" file="vx_piddue.cpp" linenr="41" str="return" scope="0xa534c0" type="name" astOperand1="0xa37a90"/>
+    <token id="0xa37a90" file="vx_piddue.cpp" linenr="41" str="Cur_Var" scope="0xa534c0" type="name" varId="30" variable="0xa54b50" astParent="0xa379e0"/>
+    <token id="0xa37b40" file="vx_piddue.cpp" linenr="41" str=";" scope="0xa534c0"/>
+    <token id="0xa48cc0" file="vx_piddue.cpp" linenr="41" str="}" scope="0xa534c0" link="0xa3b5e0"/>
+    <token id="0xa28800" file="vx_piddue.cpp" linenr="41" str="}" scope="0xa53130" link="0xa194d0"/>
+    <token id="0xa37bf0" file="vx_piddue.cpp" linenr="42" str="}" scope="0xa51be0" link="0xa36b70"/>
+    <token id="0xa37ca0" file="vx_piddue.cpp" linenr="44" str="void" scope="0xa504e0" type="name"/>
+    <token id="0xa37d50" file="vx_piddue.cpp" linenr="44" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710" astParent="0xa37e00"/>
+    <token id="0xa37e00" file="vx_piddue.cpp" linenr="44" str="::" scope="0xa504e0" astParent="0xa37f90" astOperand1="0xa37d50" astOperand2="0xa37eb0"/>
+    <token id="0xa37eb0" file="vx_piddue.cpp" linenr="44" str="vxTargetUpdateCallback" scope="0xa504e0" type="name" function="0xa50610" astParent="0xa37e00"/>
+    <token id="0xa37f90" file="vx_piddue.cpp" linenr="44" str="(" scope="0xa504e0" link="0xa385c0" astOperand1="0xa37e00" astOperand2="0xa38460"/>
+    <token id="0xa38040" file="vx_piddue.cpp" linenr="44" str="const" scope="0xa504e0" type="name"/>
+    <token id="0xa380f0" file="vx_piddue.cpp" linenr="44" str="geometry_msgs" scope="0xa504e0" type="name" astParent="0xa381a0"/>
+    <token id="0xa381a0" file="vx_piddue.cpp" linenr="44" str="::" scope="0xa504e0" astParent="0xa38300" astOperand1="0xa380f0" astOperand2="0xa38250"/>
+    <token id="0xa38250" file="vx_piddue.cpp" linenr="44" str="Twist" scope="0xa504e0" type="name" astParent="0xa381a0"/>
+    <token id="0xa38300" file="vx_piddue.cpp" linenr="44" str="::" scope="0xa504e0" astParent="0xa38460" astOperand1="0xa381a0" astOperand2="0xa383b0"/>
+    <token id="0xa383b0" file="vx_piddue.cpp" linenr="44" str="ConstPtr" scope="0xa504e0" type="name" astParent="0xa38300"/>
+    <token id="0xa38460" file="vx_piddue.cpp" linenr="44" str="&amp;" scope="0xa504e0" type="op" astParent="0xa37f90" astOperand1="0xa38300" astOperand2="0xa38510"/>
+    <token id="0xa38510" file="vx_piddue.cpp" linenr="44" str="msg" scope="0xa504e0" type="name" varId="33" variable="0xa54ca0" astParent="0xa38460"/>
+    <token id="0xa385c0" file="vx_piddue.cpp" linenr="44" str=")" scope="0xa504e0" link="0xa37f90"/>
+    <token id="0xa38670" file="vx_piddue.cpp" linenr="45" str="{" scope="0xa53620" link="0xa39f30"/>
+    <token id="0xa38720" file="vx_piddue.cpp" linenr="47" str="Vx_t_lock" scope="0xa53620" type="name" varId="18" variable="0xa54420" astParent="0xa387d0"/>
+    <token id="0xa387d0" file="vx_piddue.cpp" linenr="47" str="." scope="0xa53620" astParent="0xa38930" astOperand1="0xa38720" astOperand2="0xa38880"/>
+    <token id="0xa38880" file="vx_piddue.cpp" linenr="47" str="lock" scope="0xa53620" type="name" astParent="0xa387d0"/>
+    <token id="0xa38930" file="vx_piddue.cpp" linenr="47" str="(" scope="0xa53620" link="0xa389e0" astOperand1="0xa387d0"/>
+    <token id="0xa389e0" file="vx_piddue.cpp" linenr="47" str=")" scope="0xa53620" link="0xa38930"/>
+    <token id="0xa38a90" file="vx_piddue.cpp" linenr="47" str=";" scope="0xa53620"/>
+    <token id="0xa38b40" file="vx_piddue.cpp" linenr="48" str="Alpha_lock" scope="0xa53620" type="name" varId="19" variable="0xa54490" astParent="0xa38bf0"/>
+    <token id="0xa38bf0" file="vx_piddue.cpp" linenr="48" str="." scope="0xa53620" astParent="0xa38d50" astOperand1="0xa38b40" astOperand2="0xa38ca0"/>
+    <token id="0xa38ca0" file="vx_piddue.cpp" linenr="48" str="lock" scope="0xa53620" type="name" astParent="0xa38bf0"/>
+    <token id="0xa38d50" file="vx_piddue.cpp" linenr="48" str="(" scope="0xa53620" link="0xa38e00" astOperand1="0xa38bf0"/>
+    <token id="0xa38e00" file="vx_piddue.cpp" linenr="48" str=")" scope="0xa53620" link="0xa38d50"/>
+    <token id="0xa38eb0" file="vx_piddue.cpp" linenr="48" str=";" scope="0xa53620"/>
+    <token id="0xa38f60" file="vx_piddue.cpp" linenr="49" str="Vx_t" scope="0xa53620" type="name" varId="3" variable="0xa53d90" astParent="0xa39010"/>
+    <token id="0xa39010" file="vx_piddue.cpp" linenr="49" str="=" scope="0xa53620" type="op" isAssignmentOp="True" astOperand1="0xa38f60" astOperand2="0xa39430"/>
+    <token id="0xa390c0" file="vx_piddue.cpp" linenr="49" str="msg" scope="0xa53620" type="name" varId="33" variable="0xa54ca0" astParent="0xa39220"/>
+    <token id="0xa39220" file="vx_piddue.cpp" linenr="49" str="." scope="0xa53620" astParent="0xa39430" astOperand1="0xa390c0" astOperand2="0xa39380"/>
+    <token id="0xa39380" file="vx_piddue.cpp" linenr="49" str="linear" scope="0xa53620" type="name" varId="34" astParent="0xa39220"/>
+    <token id="0xa39430" file="vx_piddue.cpp" linenr="49" str="." scope="0xa53620" astParent="0xa39010" astOperand1="0xa39220" astOperand2="0xa394e0"/>
+    <token id="0xa394e0" file="vx_piddue.cpp" linenr="49" str="x" scope="0xa53620" type="name" varId="35" astParent="0xa39430"/>
+    <token id="0xa39590" file="vx_piddue.cpp" linenr="49" str=";" scope="0xa53620"/>
+    <token id="0xa396f0" file="vx_piddue.cpp" linenr="51" str="Alpha_lock" scope="0xa53620" type="name" varId="19" variable="0xa54490" astParent="0xa397a0"/>
+    <token id="0xa397a0" file="vx_piddue.cpp" linenr="51" str="." scope="0xa53620" astParent="0xa39900" astOperand1="0xa396f0" astOperand2="0xa39850"/>
+    <token id="0xa39850" file="vx_piddue.cpp" linenr="51" str="unlock" scope="0xa53620" type="name" astParent="0xa397a0"/>
+    <token id="0xa39900" file="vx_piddue.cpp" linenr="51" str="(" scope="0xa53620" link="0xa399b0" astOperand1="0xa397a0"/>
+    <token id="0xa399b0" file="vx_piddue.cpp" linenr="51" str=")" scope="0xa53620" link="0xa39900"/>
+    <token id="0xa39a60" file="vx_piddue.cpp" linenr="51" str=";" scope="0xa53620"/>
+    <token id="0xa39b10" file="vx_piddue.cpp" linenr="52" str="Vx_t_lock" scope="0xa53620" type="name" varId="18" variable="0xa54420" astParent="0xa39bc0"/>
+    <token id="0xa39bc0" file="vx_piddue.cpp" linenr="52" str="." scope="0xa53620" astParent="0xa39d20" astOperand1="0xa39b10" astOperand2="0xa39c70"/>
+    <token id="0xa39c70" file="vx_piddue.cpp" linenr="52" str="unlock" scope="0xa53620" type="name" astParent="0xa39bc0"/>
+    <token id="0xa39d20" file="vx_piddue.cpp" linenr="52" str="(" scope="0xa53620" link="0xa39dd0" astOperand1="0xa39bc0"/>
+    <token id="0xa39dd0" file="vx_piddue.cpp" linenr="52" str=")" scope="0xa53620" link="0xa39d20"/>
+    <token id="0xa39e80" file="vx_piddue.cpp" linenr="52" str=";" scope="0xa53620"/>
+    <token id="0xa39f30" file="vx_piddue.cpp" linenr="54" str="}" scope="0xa53620" link="0xa38670"/>
+    <token id="0xa39fe0" file="vx_piddue.cpp" linenr="68" str="void" scope="0xa504e0" type="name"/>
+    <token id="0xa3a090" file="vx_piddue.cpp" linenr="68" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710" astParent="0xa3a140"/>
+    <token id="0xa3a140" file="vx_piddue.cpp" linenr="68" str="::" scope="0xa504e0" astParent="0xa3a2a0" astOperand1="0xa3a090" astOperand2="0xa3a1f0"/>
+    <token id="0xa3a1f0" file="vx_piddue.cpp" linenr="68" str="encoderCallback" scope="0xa504e0" type="name" function="0xa51970" astParent="0xa3a140"/>
+    <token id="0xa3a2a0" file="vx_piddue.cpp" linenr="68" str="(" scope="0xa504e0" link="0xa3a8d0" astOperand1="0xa3a140" astOperand2="0xa3a770"/>
+    <token id="0xa3a350" file="vx_piddue.cpp" linenr="68" str="const" scope="0xa504e0" type="name"/>
+    <token id="0xa3a400" file="vx_piddue.cpp" linenr="68" str="controls_msgs" scope="0xa504e0" type="name" astParent="0xa3a4b0"/>
+    <token id="0xa3a4b0" file="vx_piddue.cpp" linenr="68" str="::" scope="0xa504e0" astParent="0xa3a610" astOperand1="0xa3a400" astOperand2="0xa3a560"/>
+    <token id="0xa3a560" file="vx_piddue.cpp" linenr="68" str="encoder_msg" scope="0xa504e0" type="name" astParent="0xa3a4b0"/>
+    <token id="0xa3a610" file="vx_piddue.cpp" linenr="68" str="::" scope="0xa504e0" astParent="0xa3a770" astOperand1="0xa3a4b0" astOperand2="0xa3a6c0"/>
+    <token id="0xa3a6c0" file="vx_piddue.cpp" linenr="68" str="ConstPtr" scope="0xa504e0" type="name" astParent="0xa3a610"/>
+    <token id="0xa3a770" file="vx_piddue.cpp" linenr="68" str="&amp;" scope="0xa504e0" type="op" astParent="0xa3a2a0" astOperand1="0xa3a610" astOperand2="0xa3a820"/>
+    <token id="0xa3a820" file="vx_piddue.cpp" linenr="68" str="msg" scope="0xa504e0" type="name" varId="36" astParent="0xa3a770"/>
+    <token id="0xa3a8d0" file="vx_piddue.cpp" linenr="68" str=")" scope="0xa504e0" link="0xa3a2a0"/>
+    <token id="0xa3a980" file="vx_piddue.cpp" linenr="69" str="{" scope="0xa53750" link="0xa3bc10"/>
+    <token id="0xa3aa30" file="vx_piddue.cpp" linenr="70" str="Vl_Vr_a_lock" scope="0xa53750" type="name" varId="20" variable="0xa54500" astParent="0xa3aae0"/>
+    <token id="0xa3aae0" file="vx_piddue.cpp" linenr="70" str="." scope="0xa53750" astParent="0xa3ac40" astOperand1="0xa3aa30" astOperand2="0xa3ab90"/>
+    <token id="0xa3ab90" file="vx_piddue.cpp" linenr="70" str="lock" scope="0xa53750" type="name" astParent="0xa3aae0"/>
+    <token id="0xa3ac40" file="vx_piddue.cpp" linenr="70" str="(" scope="0xa53750" link="0xa3acf0" astOperand1="0xa3aae0"/>
+    <token id="0xa3acf0" file="vx_piddue.cpp" linenr="70" str=")" scope="0xa53750" link="0xa3ac40"/>
+    <token id="0xa3ada0" file="vx_piddue.cpp" linenr="70" str=";" scope="0xa53750"/>
+    <token id="0xa3ae50" file="vx_piddue.cpp" linenr="71" str="Vl_a" scope="0xa53750" type="name" varId="2" variable="0xa53d20" astParent="0xa3af00"/>
+    <token id="0xa3af00" file="vx_piddue.cpp" linenr="71" str="=" scope="0xa53750" type="op" isAssignmentOp="True" astOperand1="0xa3ae50" astOperand2="0xa3b060"/>
+    <token id="0xa3afb0" file="vx_piddue.cpp" linenr="71" str="msg" scope="0xa53750" type="name" varId="36" astParent="0xa3b060"/>
+    <token id="0xa3b060" file="vx_piddue.cpp" linenr="71" str="." scope="0xa53750" astParent="0xa3af00" astOperand1="0xa3afb0" astOperand2="0xa3b1c0"/>
+    <token id="0xa3b1c0" file="vx_piddue.cpp" linenr="71" str="left_vel" scope="0xa53750" type="name" varId="37" astParent="0xa3b060"/>
+    <token id="0xa3b270" file="vx_piddue.cpp" linenr="71" str=";" scope="0xa53750"/>
+    <token id="0xa3b320" file="vx_piddue.cpp" linenr="72" str="Vr_a" scope="0xa53750" type="name" varId="1" variable="0xa53cb0" astParent="0xa3b3d0"/>
+    <token id="0xa3b3d0" file="vx_piddue.cpp" linenr="72" str="=" scope="0xa53750" type="op" isAssignmentOp="True" astOperand1="0xa3b320" astOperand2="0xa3b530"/>
+    <token id="0xa3b480" file="vx_piddue.cpp" linenr="72" str="msg" scope="0xa53750" type="name" varId="36" astParent="0xa3b530"/>
+    <token id="0xa3b530" file="vx_piddue.cpp" linenr="72" str="." scope="0xa53750" astParent="0xa3b3d0" astOperand1="0xa3b480" astOperand2="0xa3b690"/>
+    <token id="0xa3b690" file="vx_piddue.cpp" linenr="72" str="right_vel" scope="0xa53750" type="name" varId="38" astParent="0xa3b530"/>
+    <token id="0xa3b740" file="vx_piddue.cpp" linenr="72" str=";" scope="0xa53750"/>
+    <token id="0xa3b7f0" file="vx_piddue.cpp" linenr="73" str="Vl_Vr_a_lock" scope="0xa53750" type="name" varId="20" variable="0xa54500" astParent="0xa3b8a0"/>
+    <token id="0xa3b8a0" file="vx_piddue.cpp" linenr="73" str="." scope="0xa53750" astParent="0xa3ba00" astOperand1="0xa3b7f0" astOperand2="0xa3b950"/>
+    <token id="0xa3b950" file="vx_piddue.cpp" linenr="73" str="unlock" scope="0xa53750" type="name" astParent="0xa3b8a0"/>
+    <token id="0xa3ba00" file="vx_piddue.cpp" linenr="73" str="(" scope="0xa53750" link="0xa3bab0" astOperand1="0xa3b8a0"/>
+    <token id="0xa3bab0" file="vx_piddue.cpp" linenr="73" str=")" scope="0xa53750" link="0xa3ba00"/>
+    <token id="0xa3bb60" file="vx_piddue.cpp" linenr="73" str=";" scope="0xa53750"/>
+    <token id="0xa3bc10" file="vx_piddue.cpp" linenr="75" str="}" scope="0xa53750" link="0xa3a980"/>
+    <token id="0xa3bcc0" file="vx_piddue.cpp" linenr="77" str="void" scope="0xa504e0" type="name"/>
+    <token id="0xa3bd70" file="vx_piddue.cpp" linenr="77" str="VxPid" scope="0xa504e0" type="name" type-scope="0xa31710" astParent="0xa3be20"/>
+    <token id="0xa3be20" file="vx_piddue.cpp" linenr="77" str="::" scope="0xa504e0" astParent="0xa3bf80" astOperand1="0xa3bd70" astOperand2="0xa3bed0"/>
+    <token id="0xa3bed0" file="vx_piddue.cpp" linenr="77" str="implementPid" scope="0xa504e0" type="name" function="0xa51a10" astParent="0xa3be20"/>
+    <token id="0xa3bf80" file="vx_piddue.cpp" linenr="77" str="(" scope="0xa504e0" link="0xa3c500" astOperand1="0xa3be20" astOperand2="0xa3c190"/>
+    <token id="0xa3c030" file="vx_piddue.cpp" linenr="77" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa3c0e0" file="vx_piddue.cpp" linenr="77" str="argc" scope="0xa504e0" type="name" varId="39" variable="0xa54d80" astParent="0xa3c190"/>
+    <token id="0xa3c190" file="vx_piddue.cpp" linenr="77" str="," scope="0xa504e0" astParent="0xa3bf80" astOperand1="0xa3c0e0" astOperand2="0xa3c2f0"/>
+    <token id="0xa3c240" file="vx_piddue.cpp" linenr="77" str="char" scope="0xa504e0" type="name" astParent="0xa3c2f0"/>
+    <token id="0xa3c2f0" file="vx_piddue.cpp" linenr="77" str="*" scope="0xa504e0" type="op" isArithmeticalOp="True" astParent="0xa3c190" astOperand1="0xa3c240" astOperand2="0xa3c3a0"/>
+    <token id="0xa3c3a0" file="vx_piddue.cpp" linenr="77" str="*" scope="0xa504e0" type="op" isArithmeticalOp="True" astParent="0xa3c2f0" astOperand1="0xa3c450"/>
+    <token id="0xa3c450" file="vx_piddue.cpp" linenr="77" str="argv" scope="0xa504e0" type="name" varId="40" variable="0xa54df0" astParent="0xa3c3a0"/>
+    <token id="0xa3c500" file="vx_piddue.cpp" linenr="77" str=")" scope="0xa504e0" link="0xa3bf80"/>
+    <token id="0xa3c5b0" file="vx_piddue.cpp" linenr="78" str="{" scope="0xa53880" link="0xa4ec10"/>
+    <token id="0xa3c660" file="vx_piddue.cpp" linenr="81" str="ros" scope="0xa53880" type="name" astParent="0xa3c710"/>
+    <token id="0xa3c710" file="vx_piddue.cpp" linenr="81" str="::" scope="0xa53880" astParent="0xa3c870" astOperand1="0xa3c660" astOperand2="0xa3c7c0"/>
+    <token id="0xa3c7c0" file="vx_piddue.cpp" linenr="81" str="init" scope="0xa53880" type="name" astParent="0xa3c710"/>
+    <token id="0xa3c870" file="vx_piddue.cpp" linenr="81" str="(" scope="0xa53880" link="0xa3cc90" astOperand1="0xa3c710" astOperand2="0xa3cb30"/>
+    <token id="0xa3c920" file="vx_piddue.cpp" linenr="81" str="argc" scope="0xa53880" type="name" varId="39" variable="0xa54d80" astParent="0xa3c9d0"/>
+    <token id="0xa3c9d0" file="vx_piddue.cpp" linenr="81" str="," scope="0xa53880" astParent="0xa3cb30" astOperand1="0xa3c920" astOperand2="0xa3ca80"/>
+    <token id="0xa3ca80" file="vx_piddue.cpp" linenr="81" str="argv" scope="0xa53880" type="name" varId="40" variable="0xa54df0" astParent="0xa3c9d0"/>
+    <token id="0xa3cb30" file="vx_piddue.cpp" linenr="81" str="," scope="0xa53880" astParent="0xa3c870" astOperand1="0xa3c9d0" astOperand2="0xa3cbe0"/>
+    <token id="0xa3cbe0" file="vx_piddue.cpp" linenr="81" str="&quot;vxpid_node&quot;" scope="0xa53880" type="string" strlen="10" values="0xa3cbe8" astParent="0xa3cb30"/>
+    <token id="0xa3cc90" file="vx_piddue.cpp" linenr="81" str=")" scope="0xa53880" link="0xa3c870"/>
+    <token id="0xa3cd40" file="vx_piddue.cpp" linenr="81" str=";" scope="0xa53880"/>
+    <token id="0xa3cdf0" file="vx_piddue.cpp" linenr="83" str="ros" scope="0xa53880" type="name" astParent="0xa3cea0"/>
+    <token id="0xa3cea0" file="vx_piddue.cpp" linenr="83" str="::" scope="0xa53880" astOperand1="0xa3cdf0" astOperand2="0xa3d000"/>
+    <token id="0xa3cf50" file="vx_piddue.cpp" linenr="83" str="NodeHandle" scope="0xa53880" type="name"/>
+    <token id="0xa3d000" file="vx_piddue.cpp" linenr="83" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa3cea0"/>
+    <token id="0xa3d0b0" file="vx_piddue.cpp" linenr="83" str=";" scope="0xa53880"/>
+    <token id="0xa3d160" file="vx_piddue.cpp" linenr="84" str="ros" scope="0xa53880" type="name" astParent="0xa3d210"/>
+    <token id="0xa3d210" file="vx_piddue.cpp" linenr="84" str="::" scope="0xa53880" astOperand1="0xa3d160" astOperand2="0xa3d370"/>
+    <token id="0xa3d2c0" file="vx_piddue.cpp" linenr="84" str="Subscriber" scope="0xa53880" type="name"/>
+    <token id="0xa3d370" file="vx_piddue.cpp" linenr="84" str="Override_Subscriber" scope="0xa53880" type="name" varId="42" variable="0xa546c0" astParent="0xa3d210"/>
+    <token id="0xa3d450" file="vx_piddue.cpp" linenr="84" str=";" scope="0xa53880"/>
+    <token id="0xa51380" file="vx_piddue.cpp" linenr="84" str="Override_Subscriber" scope="0xa53880" type="name" varId="42" variable="0xa546c0" astParent="0xa51460"/>
+    <token id="0xa51460" file="vx_piddue.cpp" linenr="84" str="=" scope="0xa53880" type="op" isAssignmentOp="True" astOperand1="0xa51380" astOperand2="0xa3da80"/>
+    <token id="0xa3d500" file="vx_piddue.cpp" linenr="84" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa3d5b0"/>
+    <token id="0xa3d5b0" file="vx_piddue.cpp" linenr="84" str="." scope="0xa53880" astParent="0xa3da80" astOperand1="0xa3d500" astOperand2="0xa3d660"/>
+    <token id="0xa3d660" file="vx_piddue.cpp" linenr="84" str="subscribe" scope="0xa53880" type="name" astParent="0xa3d5b0"/>
+    <token id="0xa3d710" file="vx_piddue.cpp" linenr="84" str="&lt;" scope="0xa53880" link="0xa3d9d0"/>
+    <token id="0xa3d7c0" file="vx_piddue.cpp" linenr="84" str="geometry_msgs" scope="0xa53880" type="name"/>
+    <token id="0xa3d870" file="vx_piddue.cpp" linenr="84" str="::" scope="0xa53880"/>
+    <token id="0xa3d920" file="vx_piddue.cpp" linenr="84" str="Twist" scope="0xa53880" type="name"/>
+    <token id="0xa3d9d0" file="vx_piddue.cpp" linenr="84" str="&gt;" scope="0xa53880" link="0xa3d710"/>
+    <token id="0xa3da80" file="vx_piddue.cpp" linenr="84" str="(" scope="0xa53880" link="0xa3e240" astParent="0xa51460" astOperand1="0xa3d5b0" astOperand2="0xa3e0e0"/>
+    <token id="0xa3db30" file="vx_piddue.cpp" linenr="84" str="&quot;target_pose&quot;" scope="0xa53880" type="string" strlen="11" values="0xa3db38" astParent="0xa3dbe0"/>
+    <token id="0xa3dbe0" file="vx_piddue.cpp" linenr="84" str="," scope="0xa53880" astParent="0xa3dd40" astOperand1="0xa3db30" astOperand2="0xa3dc90"/>
+    <token id="0xa3dc90" file="vx_piddue.cpp" linenr="84" str="5" scope="0xa53880" type="number" isInt="True" values="0xa3dc98" astParent="0xa3dbe0"/>
+    <token id="0xa3dd40" file="vx_piddue.cpp" linenr="84" str="," scope="0xa53880" astParent="0xa3e0e0" astOperand1="0xa3dbe0" astOperand2="0xa3ddf0"/>
+    <token id="0xa3ddf0" file="vx_piddue.cpp" linenr="85" str="&amp;" scope="0xa53880" type="op" astParent="0xa3dd40" astOperand1="0xa3df50"/>
+    <token id="0xa3dea0" file="vx_piddue.cpp" linenr="85" str="VxPid" scope="0xa53880" type="name" type-scope="0xa31710" astParent="0xa3df50"/>
+    <token id="0xa3df50" file="vx_piddue.cpp" linenr="85" str="::" scope="0xa53880" astParent="0xa3ddf0" astOperand1="0xa3dea0" astOperand2="0xa3e000"/>
+    <token id="0xa3e000" file="vx_piddue.cpp" linenr="85" str="vxTargetUpdateCallback" scope="0xa53880" type="name" astParent="0xa3df50"/>
+    <token id="0xa3e0e0" file="vx_piddue.cpp" linenr="85" str="," scope="0xa53880" astParent="0xa3da80" astOperand1="0xa3dd40" astOperand2="0xa3e190"/>
+    <token id="0xa3e190" file="vx_piddue.cpp" linenr="85" str="this" scope="0xa53880" type="name" astParent="0xa3e0e0"/>
+    <token id="0xa3e240" file="vx_piddue.cpp" linenr="85" str=")" scope="0xa53880" link="0xa3da80"/>
+    <token id="0xa3e2f0" file="vx_piddue.cpp" linenr="85" str=";" scope="0xa53880"/>
+    <token id="0xa3e3a0" file="vx_piddue.cpp" linenr="87" str="ros" scope="0xa53880" type="name" astParent="0xa3e450"/>
+    <token id="0xa3e450" file="vx_piddue.cpp" linenr="87" str="::" scope="0xa53880" astOperand1="0xa3e3a0" astOperand2="0xa3e5b0"/>
+    <token id="0xa3e500" file="vx_piddue.cpp" linenr="87" str="Subscriber" scope="0xa53880" type="name"/>
+    <token id="0xa3e5b0" file="vx_piddue.cpp" linenr="87" str="Encoder_Subscriber" scope="0xa53880" type="name" varId="43" variable="0xa54730" astParent="0xa3e450"/>
+    <token id="0xa3e690" file="vx_piddue.cpp" linenr="87" str=";" scope="0xa53880"/>
+    <token id="0xa51510" file="vx_piddue.cpp" linenr="87" str="Encoder_Subscriber" scope="0xa53880" type="name" varId="43" variable="0xa54730" astParent="0xa515f0"/>
+    <token id="0xa515f0" file="vx_piddue.cpp" linenr="87" str="=" scope="0xa53880" type="op" isAssignmentOp="True" astOperand1="0xa51510" astOperand2="0xa3ecc0"/>
+    <token id="0xa3e740" file="vx_piddue.cpp" linenr="87" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa3e7f0"/>
+    <token id="0xa3e7f0" file="vx_piddue.cpp" linenr="87" str="." scope="0xa53880" astParent="0xa3ecc0" astOperand1="0xa3e740" astOperand2="0xa3e8a0"/>
+    <token id="0xa3e8a0" file="vx_piddue.cpp" linenr="87" str="subscribe" scope="0xa53880" type="name" astParent="0xa3e7f0"/>
+    <token id="0xa3e950" file="vx_piddue.cpp" linenr="87" str="&lt;" scope="0xa53880" link="0xa3ec10"/>
+    <token id="0xa3ea00" file="vx_piddue.cpp" linenr="87" str="controls_msgs" scope="0xa53880" type="name"/>
+    <token id="0xa3eab0" file="vx_piddue.cpp" linenr="87" str="::" scope="0xa53880"/>
+    <token id="0xa3eb60" file="vx_piddue.cpp" linenr="87" str="encoder_msg" scope="0xa53880" type="name"/>
+    <token id="0xa3ec10" file="vx_piddue.cpp" linenr="87" str="&gt;" scope="0xa53880" link="0xa3e950"/>
+    <token id="0xa3ecc0" file="vx_piddue.cpp" linenr="87" str="(" scope="0xa53880" link="0xa3f450" astParent="0xa515f0" astOperand1="0xa3e7f0" astOperand2="0xa3f2f0"/>
+    <token id="0xa3ed70" file="vx_piddue.cpp" linenr="87" str="&quot;encoders&quot;" scope="0xa53880" type="string" strlen="8" values="0xa3ed78" astParent="0xa3ee20"/>
+    <token id="0xa3ee20" file="vx_piddue.cpp" linenr="87" str="," scope="0xa53880" astParent="0xa3ef80" astOperand1="0xa3ed70" astOperand2="0xa3eed0"/>
+    <token id="0xa3eed0" file="vx_piddue.cpp" linenr="87" str="5" scope="0xa53880" type="number" isInt="True" values="0xa3eed8" astParent="0xa3ee20"/>
+    <token id="0xa3ef80" file="vx_piddue.cpp" linenr="87" str="," scope="0xa53880" astParent="0xa3f2f0" astOperand1="0xa3ee20" astOperand2="0xa3f030"/>
+    <token id="0xa3f030" file="vx_piddue.cpp" linenr="87" str="&amp;" scope="0xa53880" type="op" astParent="0xa3ef80" astOperand1="0xa3f190"/>
+    <token id="0xa3f0e0" file="vx_piddue.cpp" linenr="87" str="VxPid" scope="0xa53880" type="name" type-scope="0xa31710" astParent="0xa3f190"/>
+    <token id="0xa3f190" file="vx_piddue.cpp" linenr="87" str="::" scope="0xa53880" astParent="0xa3f030" astOperand1="0xa3f0e0" astOperand2="0xa3f240"/>
+    <token id="0xa3f240" file="vx_piddue.cpp" linenr="87" str="encoderCallback" scope="0xa53880" type="name" astParent="0xa3f190"/>
+    <token id="0xa3f2f0" file="vx_piddue.cpp" linenr="87" str="," scope="0xa53880" astParent="0xa3ecc0" astOperand1="0xa3ef80" astOperand2="0xa3f3a0"/>
+    <token id="0xa3f3a0" file="vx_piddue.cpp" linenr="88" str="this" scope="0xa53880" type="name" astParent="0xa3f2f0"/>
+    <token id="0xa3f450" file="vx_piddue.cpp" linenr="88" str=")" scope="0xa53880" link="0xa3ecc0"/>
+    <token id="0xa3f500" file="vx_piddue.cpp" linenr="88" str=";" scope="0xa53880"/>
+    <token id="0xa3f5b0" file="vx_piddue.cpp" linenr="91" str="BlackLib" scope="0xa53880" type="name" astParent="0xa3f660"/>
+    <token id="0xa3f660" file="vx_piddue.cpp" linenr="91" str="::" scope="0xa53880" astParent="0xa3f870" astOperand1="0xa3f5b0" astOperand2="0xa3f7c0"/>
+    <token id="0xa3f710" file="vx_piddue.cpp" linenr="91" str="BlackUART" scope="0xa53880" type="name"/>
+    <token id="0xa3f7c0" file="vx_piddue.cpp" linenr="91" str="Uart1" scope="0xa53880" type="name" varId="44" variable="0xa547d0" astParent="0xa3f660"/>
+    <token id="0xa3f870" file="vx_piddue.cpp" linenr="91" str="(" scope="0xa53880" link="0xa40630" astOperand1="0xa3f660" astOperand2="0xa40370"/>
+    <token id="0xa3f920" file="vx_piddue.cpp" linenr="91" str="BlackLib" scope="0xa53880" type="name" astParent="0xa3f9d0"/>
+    <token id="0xa3f9d0" file="vx_piddue.cpp" linenr="91" str="::" scope="0xa53880" astParent="0xa3fb30" astOperand1="0xa3f920" astOperand2="0xa3fa80"/>
+    <token id="0xa3fa80" file="vx_piddue.cpp" linenr="91" str="UART1" scope="0xa53880" type="name" astParent="0xa3f9d0"/>
+    <token id="0xa3fb30" file="vx_piddue.cpp" linenr="91" str="," scope="0xa53880" astParent="0xa3fdf0" astOperand1="0xa3f9d0" astOperand2="0xa3fc90"/>
+    <token id="0xa3fbe0" file="vx_piddue.cpp" linenr="92" str="BlackLib" scope="0xa53880" type="name" astParent="0xa3fc90"/>
+    <token id="0xa3fc90" file="vx_piddue.cpp" linenr="92" str="::" scope="0xa53880" astParent="0xa3fb30" astOperand1="0xa3fbe0" astOperand2="0xa3fd40"/>
+    <token id="0xa3fd40" file="vx_piddue.cpp" linenr="92" str="Baud9600" scope="0xa53880" type="name" astParent="0xa3fc90"/>
+    <token id="0xa3fdf0" file="vx_piddue.cpp" linenr="92" str="," scope="0xa53880" astParent="0xa400b0" astOperand1="0xa3fb30" astOperand2="0xa3ff50"/>
+    <token id="0xa3fea0" file="vx_piddue.cpp" linenr="93" str="BlackLib" scope="0xa53880" type="name" astParent="0xa3ff50"/>
+    <token id="0xa3ff50" file="vx_piddue.cpp" linenr="93" str="::" scope="0xa53880" astParent="0xa3fdf0" astOperand1="0xa3fea0" astOperand2="0xa40000"/>
+    <token id="0xa40000" file="vx_piddue.cpp" linenr="93" str="ParityEven" scope="0xa53880" type="name" astParent="0xa3ff50"/>
+    <token id="0xa400b0" file="vx_piddue.cpp" linenr="93" str="," scope="0xa53880" astParent="0xa40370" astOperand1="0xa3fdf0" astOperand2="0xa40210"/>
+    <token id="0xa40160" file="vx_piddue.cpp" linenr="94" str="BlackLib" scope="0xa53880" type="name" astParent="0xa40210"/>
+    <token id="0xa40210" file="vx_piddue.cpp" linenr="94" str="::" scope="0xa53880" astParent="0xa400b0" astOperand1="0xa40160" astOperand2="0xa402c0"/>
+    <token id="0xa402c0" file="vx_piddue.cpp" linenr="94" str="StopOne" scope="0xa53880" type="name" astParent="0xa40210"/>
+    <token id="0xa40370" file="vx_piddue.cpp" linenr="94" str="," scope="0xa53880" astParent="0xa3f870" astOperand1="0xa400b0" astOperand2="0xa404d0"/>
+    <token id="0xa40420" file="vx_piddue.cpp" linenr="95" str="BlackLib" scope="0xa53880" type="name" astParent="0xa404d0"/>
+    <token id="0xa404d0" file="vx_piddue.cpp" linenr="95" str="::" scope="0xa53880" astParent="0xa40370" astOperand1="0xa40420" astOperand2="0xa40580"/>
+    <token id="0xa40580" file="vx_piddue.cpp" linenr="95" str="Char8" scope="0xa53880" type="name" astParent="0xa404d0"/>
+    <token id="0xa40630" file="vx_piddue.cpp" linenr="95" str=")" scope="0xa53880" link="0xa3f870"/>
+    <token id="0xa406e0" file="vx_piddue.cpp" linenr="95" str=";" scope="0xa53880"/>
+    <token id="0xa40790" file="vx_piddue.cpp" linenr="97" str="Uart1" scope="0xa53880" type="name" varId="44" variable="0xa547d0" astParent="0xa40840"/>
+    <token id="0xa40840" file="vx_piddue.cpp" linenr="97" str="." scope="0xa53880" astParent="0xa409a0" astOperand1="0xa40790" astOperand2="0xa408f0"/>
+    <token id="0xa408f0" file="vx_piddue.cpp" linenr="97" str="open" scope="0xa53880" type="name" astParent="0xa40840"/>
+    <token id="0xa409a0" file="vx_piddue.cpp" linenr="97" str="(" scope="0xa53880" link="0xa40f20" astOperand1="0xa40840" astOperand2="0xa40c60"/>
+    <token id="0xa40a50" file="vx_piddue.cpp" linenr="97" str="BlackLib" scope="0xa53880" type="name" astParent="0xa40b00"/>
+    <token id="0xa40b00" file="vx_piddue.cpp" linenr="97" str="::" scope="0xa53880" astParent="0xa40c60" astOperand1="0xa40a50" astOperand2="0xa40bb0"/>
+    <token id="0xa40bb0" file="vx_piddue.cpp" linenr="97" str="ReadWrite" scope="0xa53880" type="name" astParent="0xa40b00"/>
+    <token id="0xa40c60" file="vx_piddue.cpp" linenr="97" str="|" scope="0xa53880" type="op" astParent="0xa409a0" astOperand1="0xa40b00" astOperand2="0xa40dc0"/>
+    <token id="0xa40d10" file="vx_piddue.cpp" linenr="97" str="BlackLib" scope="0xa53880" type="name" astParent="0xa40dc0"/>
+    <token id="0xa40dc0" file="vx_piddue.cpp" linenr="97" str="::" scope="0xa53880" astParent="0xa40c60" astOperand1="0xa40d10" astOperand2="0xa40e70"/>
+    <token id="0xa40e70" file="vx_piddue.cpp" linenr="97" str="NonBlock" scope="0xa53880" type="name" astParent="0xa40dc0"/>
+    <token id="0xa40f20" file="vx_piddue.cpp" linenr="97" str=")" scope="0xa53880" link="0xa409a0"/>
+    <token id="0xa40fd0" file="vx_piddue.cpp" linenr="97" str=";" scope="0xa53880"/>
+    <token id="0xa41080" file="vx_piddue.cpp" linenr="98" str="std" scope="0xa53880" type="name" astParent="0xa41130"/>
+    <token id="0xa41130" file="vx_piddue.cpp" linenr="98" str="::" scope="0xa53880" astOperand1="0xa41080" astOperand2="0xa41290"/>
+    <token id="0xa411e0" file="vx_piddue.cpp" linenr="98" str="string" scope="0xa53880" type="name"/>
+    <token id="0xa41290" file="vx_piddue.cpp" linenr="98" str="writeToUart1" scope="0xa53880" type="name" varId="45" variable="0xa54840" astParent="0xa41130"/>
+    <token id="0xa41340" file="vx_piddue.cpp" linenr="98" str=";" scope="0xa53880"/>
+    <token id="0xa413f0" file="vx_piddue.cpp" linenr="99" str="std" scope="0xa53880" type="name" astParent="0xa414a0"/>
+    <token id="0xa414a0" file="vx_piddue.cpp" linenr="99" str="::" scope="0xa53880" astOperand1="0xa413f0" astOperand2="0xa41600"/>
+    <token id="0xa41550" file="vx_piddue.cpp" linenr="99" str="ostringstream" scope="0xa53880" type="name"/>
+    <token id="0xa41600" file="vx_piddue.cpp" linenr="99" str="os1" scope="0xa53880" type="name" varId="46" variable="0xa548b0" astParent="0xa414a0"/>
+    <token id="0xa416b0" file="vx_piddue.cpp" linenr="99" str=";" scope="0xa53880"/>
+    <token id="0xa41760" file="vx_piddue.cpp" linenr="101" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa41810"/>
+    <token id="0xa41810" file="vx_piddue.cpp" linenr="101" str="." scope="0xa53880" astParent="0xa41970" astOperand1="0xa41760" astOperand2="0xa418c0"/>
+    <token id="0xa418c0" file="vx_piddue.cpp" linenr="101" str="getParam" scope="0xa53880" type="name" astParent="0xa41810"/>
+    <token id="0xa41970" file="vx_piddue.cpp" linenr="101" str="(" scope="0xa53880" link="0xa41c90" astOperand1="0xa41810" astOperand2="0xa41b30"/>
+    <token id="0xa41a50" file="vx_piddue.cpp" linenr="101" str="&quot;/vxpid_node/Kp_Vx&quot;" scope="0xa53880" type="string" strlen="17" values="0xa41a58" astParent="0xa41b30"/>
+    <token id="0xa41b30" file="vx_piddue.cpp" linenr="101" str="," scope="0xa53880" astParent="0xa41970" astOperand1="0xa41a50" astOperand2="0xa41be0"/>
+    <token id="0xa41be0" file="vx_piddue.cpp" linenr="101" str="Kp_Vx" scope="0xa53880" type="name" varId="7" variable="0xa53f50" astParent="0xa41b30"/>
+    <token id="0xa41c90" file="vx_piddue.cpp" linenr="101" str=")" scope="0xa53880" link="0xa41970"/>
+    <token id="0xa41d40" file="vx_piddue.cpp" linenr="101" str=";" scope="0xa53880"/>
+    <token id="0xa41df0" file="vx_piddue.cpp" linenr="102" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa41ea0"/>
+    <token id="0xa41ea0" file="vx_piddue.cpp" linenr="102" str="." scope="0xa53880" astParent="0xa42000" astOperand1="0xa41df0" astOperand2="0xa41f50"/>
+    <token id="0xa41f50" file="vx_piddue.cpp" linenr="102" str="getParam" scope="0xa53880" type="name" astParent="0xa41ea0"/>
+    <token id="0xa42000" file="vx_piddue.cpp" linenr="102" str="(" scope="0xa53880" link="0xa422f0" astOperand1="0xa41ea0" astOperand2="0xa42190"/>
+    <token id="0xa420b0" file="vx_piddue.cpp" linenr="102" str="&quot;/vxpid_node/Ki_Vx&quot;" scope="0xa53880" type="string" strlen="17" values="0xa420b8" astParent="0xa42190"/>
+    <token id="0xa42190" file="vx_piddue.cpp" linenr="102" str="," scope="0xa53880" astParent="0xa42000" astOperand1="0xa420b0" astOperand2="0xa42240"/>
+    <token id="0xa42240" file="vx_piddue.cpp" linenr="102" str="Ki_Vx" scope="0xa53880" type="name" varId="8" variable="0xa53fc0" astParent="0xa42190"/>
+    <token id="0xa422f0" file="vx_piddue.cpp" linenr="102" str=")" scope="0xa53880" link="0xa42000"/>
+    <token id="0xa423a0" file="vx_piddue.cpp" linenr="102" str=";" scope="0xa53880"/>
+    <token id="0xa42450" file="vx_piddue.cpp" linenr="103" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa42500"/>
+    <token id="0xa42500" file="vx_piddue.cpp" linenr="103" str="." scope="0xa53880" astParent="0xa42660" astOperand1="0xa42450" astOperand2="0xa425b0"/>
+    <token id="0xa425b0" file="vx_piddue.cpp" linenr="103" str="getParam" scope="0xa53880" type="name" astParent="0xa42500"/>
+    <token id="0xa42660" file="vx_piddue.cpp" linenr="103" str="(" scope="0xa53880" link="0xa42950" astOperand1="0xa42500" astOperand2="0xa427f0"/>
+    <token id="0xa42710" file="vx_piddue.cpp" linenr="103" str="&quot;/vxpid_node/Kd_Vx&quot;" scope="0xa53880" type="string" strlen="17" values="0xa42718" astParent="0xa427f0"/>
+    <token id="0xa427f0" file="vx_piddue.cpp" linenr="103" str="," scope="0xa53880" astParent="0xa42660" astOperand1="0xa42710" astOperand2="0xa428a0"/>
+    <token id="0xa428a0" file="vx_piddue.cpp" linenr="103" str="Kd_Vx" scope="0xa53880" type="name" varId="9" variable="0xa54030" astParent="0xa427f0"/>
+    <token id="0xa42950" file="vx_piddue.cpp" linenr="103" str=")" scope="0xa53880" link="0xa42660"/>
+    <token id="0xa42a00" file="vx_piddue.cpp" linenr="103" str=";" scope="0xa53880"/>
+    <token id="0xa42ab0" file="vx_piddue.cpp" linenr="105" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa42b60"/>
+    <token id="0xa42b60" file="vx_piddue.cpp" linenr="105" str="." scope="0xa53880" astParent="0xa42cc0" astOperand1="0xa42ab0" astOperand2="0xa42c10"/>
+    <token id="0xa42c10" file="vx_piddue.cpp" linenr="105" str="getParam" scope="0xa53880" type="name" astParent="0xa42b60"/>
+    <token id="0xa42cc0" file="vx_piddue.cpp" linenr="105" str="(" scope="0xa53880" link="0xa42fb0" astOperand1="0xa42b60" astOperand2="0xa42e50"/>
+    <token id="0xa42d70" file="vx_piddue.cpp" linenr="105" str="&quot;/vxpid_node/PWM_min&quot;" scope="0xa53880" type="string" strlen="19" values="0xa42d78" astParent="0xa42e50"/>
+    <token id="0xa42e50" file="vx_piddue.cpp" linenr="105" str="," scope="0xa53880" astParent="0xa42cc0" astOperand1="0xa42d70" astOperand2="0xa42f00"/>
+    <token id="0xa42f00" file="vx_piddue.cpp" linenr="105" str="PWM_min_percent" scope="0xa53880" type="name" varId="14" variable="0xa54260" astParent="0xa42e50"/>
+    <token id="0xa42fb0" file="vx_piddue.cpp" linenr="105" str=")" scope="0xa53880" link="0xa42cc0"/>
+    <token id="0xa43060" file="vx_piddue.cpp" linenr="105" str=";" scope="0xa53880"/>
+    <token id="0xa43110" file="vx_piddue.cpp" linenr="106" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa431c0"/>
+    <token id="0xa431c0" file="vx_piddue.cpp" linenr="106" str="." scope="0xa53880" astParent="0xa43320" astOperand1="0xa43110" astOperand2="0xa43270"/>
+    <token id="0xa43270" file="vx_piddue.cpp" linenr="106" str="getParam" scope="0xa53880" type="name" astParent="0xa431c0"/>
+    <token id="0xa43320" file="vx_piddue.cpp" linenr="106" str="(" scope="0xa53880" link="0xa43610" astOperand1="0xa431c0" astOperand2="0xa434b0"/>
+    <token id="0xa433d0" file="vx_piddue.cpp" linenr="106" str="&quot;/vxpid_node/PWM_max&quot;" scope="0xa53880" type="string" strlen="19" values="0xa433d8" astParent="0xa434b0"/>
+    <token id="0xa434b0" file="vx_piddue.cpp" linenr="106" str="," scope="0xa53880" astParent="0xa43320" astOperand1="0xa433d0" astOperand2="0xa43560"/>
+    <token id="0xa43560" file="vx_piddue.cpp" linenr="106" str="PWM_max_percent" scope="0xa53880" type="name" varId="15" variable="0xa542d0" astParent="0xa434b0"/>
+    <token id="0xa43610" file="vx_piddue.cpp" linenr="106" str=")" scope="0xa53880" link="0xa43320"/>
+    <token id="0xa436c0" file="vx_piddue.cpp" linenr="106" str=";" scope="0xa53880"/>
+    <token id="0xa43770" file="vx_piddue.cpp" linenr="107" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa43820"/>
+    <token id="0xa43820" file="vx_piddue.cpp" linenr="107" str="." scope="0xa53880" astParent="0xa43980" astOperand1="0xa43770" astOperand2="0xa438d0"/>
+    <token id="0xa438d0" file="vx_piddue.cpp" linenr="107" str="getParam" scope="0xa53880" type="name" astParent="0xa43820"/>
+    <token id="0xa43980" file="vx_piddue.cpp" linenr="107" str="(" scope="0xa53880" link="0xa43ca0" astOperand1="0xa43820" astOperand2="0xa43b40"/>
+    <token id="0xa43a60" file="vx_piddue.cpp" linenr="107" str="&quot;/vxpid_node/PWM_PERIOD_TIME&quot;" scope="0xa53880" type="string" strlen="27" values="0xa43a68" astParent="0xa43b40"/>
+    <token id="0xa43b40" file="vx_piddue.cpp" linenr="107" str="," scope="0xa53880" astParent="0xa43980" astOperand1="0xa43a60" astOperand2="0xa43bf0"/>
+    <token id="0xa43bf0" file="vx_piddue.cpp" linenr="107" str="PWM_PERIOD_TIME" scope="0xa53880" type="name" varId="16" variable="0xa54340" astParent="0xa43b40"/>
+    <token id="0xa43ca0" file="vx_piddue.cpp" linenr="107" str=")" scope="0xa53880" link="0xa43980"/>
+    <token id="0xa43d50" file="vx_piddue.cpp" linenr="107" str=";" scope="0xa53880"/>
+    <token id="0xa43e00" file="vx_piddue.cpp" linenr="108" str="nh_" scope="0xa53880" type="name" varId="41" variable="0xa54650" astParent="0xa43eb0"/>
+    <token id="0xa43eb0" file="vx_piddue.cpp" linenr="108" str="." scope="0xa53880" astParent="0xa44010" astOperand1="0xa43e00" astOperand2="0xa43f60"/>
+    <token id="0xa43f60" file="vx_piddue.cpp" linenr="108" str="getParam" scope="0xa53880" type="name" astParent="0xa43eb0"/>
+    <token id="0xa44010" file="vx_piddue.cpp" linenr="108" str="(" scope="0xa53880" link="0xa44300" astOperand1="0xa43eb0" astOperand2="0xa441a0"/>
+    <token id="0xa440c0" file="vx_piddue.cpp" linenr="108" str="&quot;/vxpid_node/vx_pid_loop_rate&quot;" scope="0xa53880" type="string" strlen="28" values="0xa440c8" astParent="0xa441a0"/>
+    <token id="0xa441a0" file="vx_piddue.cpp" linenr="108" str="," scope="0xa53880" astParent="0xa44010" astOperand1="0xa440c0" astOperand2="0xa44250"/>
+    <token id="0xa44250" file="vx_piddue.cpp" linenr="108" str="vx_pid_loop_rate" scope="0xa53880" type="name" varId="17" variable="0xa543b0" astParent="0xa441a0"/>
+    <token id="0xa44300" file="vx_piddue.cpp" linenr="108" str=")" scope="0xa53880" link="0xa44010"/>
+    <token id="0xa443b0" file="vx_piddue.cpp" linenr="108" str=";" scope="0xa53880"/>
+    <token id="0xa44460" file="vx_piddue.cpp" linenr="114" str="ros" scope="0xa53880" type="name" astParent="0xa44510"/>
+    <token id="0xa44510" file="vx_piddue.cpp" linenr="114" str="::" scope="0xa53880" astParent="0xa44720" astOperand1="0xa44460" astOperand2="0xa44670"/>
+    <token id="0xa445c0" file="vx_piddue.cpp" linenr="114" str="Rate" scope="0xa53880" type="name"/>
+    <token id="0xa44670" file="vx_piddue.cpp" linenr="114" str="loop_rate" scope="0xa53880" type="name" varId="47" variable="0xa54920" astParent="0xa44510"/>
+    <token id="0xa44720" file="vx_piddue.cpp" linenr="114" str="(" scope="0xa53880" link="0xa44880" astOperand1="0xa44510" astOperand2="0xa447d0"/>
+    <token id="0xa447d0" file="vx_piddue.cpp" linenr="114" str="vx_pid_loop_rate" scope="0xa53880" type="name" varId="17" variable="0xa543b0" astParent="0xa44720"/>
+    <token id="0xa44880" file="vx_piddue.cpp" linenr="114" str=")" scope="0xa53880" link="0xa44720"/>
+    <token id="0xa44930" file="vx_piddue.cpp" linenr="114" str=";" scope="0xa53880"/>
+    <token id="0xa449e0" file="vx_piddue.cpp" linenr="117" str="while" scope="0xa53880" type="name" astParent="0xa44a90"/>
+    <token id="0xa44a90" file="vx_piddue.cpp" linenr="117" str="(" scope="0xa53880" link="0xa44eb0" astOperand1="0xa449e0" astOperand2="0xa44d50"/>
+    <token id="0xa44b40" file="vx_piddue.cpp" linenr="117" str="ros" scope="0xa53880" type="name" astParent="0xa44bf0"/>
+    <token id="0xa44bf0" file="vx_piddue.cpp" linenr="117" str="::" scope="0xa53880" astParent="0xa44d50" astOperand1="0xa44b40" astOperand2="0xa44ca0"/>
+    <token id="0xa44ca0" file="vx_piddue.cpp" linenr="117" str="ok" scope="0xa53880" type="name" astParent="0xa44bf0"/>
+    <token id="0xa44d50" file="vx_piddue.cpp" linenr="117" str="(" scope="0xa53880" link="0xa44e00" astParent="0xa44a90" astOperand1="0xa44bf0"/>
+    <token id="0xa44e00" file="vx_piddue.cpp" linenr="117" str=")" scope="0xa53880" link="0xa44d50"/>
+    <token id="0xa44eb0" file="vx_piddue.cpp" linenr="117" str=")" scope="0xa53880" link="0xa44a90"/>
+    <token id="0xa44f60" file="vx_piddue.cpp" linenr="118" str="{" scope="0xa539b0" link="0xa4eb60"/>
+    <token id="0xa45010" file="vx_piddue.cpp" linenr="119" str="Vl_Vr_a_lock" scope="0xa539b0" type="name" varId="20" variable="0xa54500" astParent="0xa450c0"/>
+    <token id="0xa450c0" file="vx_piddue.cpp" linenr="119" str="." scope="0xa539b0" astParent="0xa45220" astOperand1="0xa45010" astOperand2="0xa45170"/>
+    <token id="0xa45170" file="vx_piddue.cpp" linenr="119" str="lock" scope="0xa539b0" type="name" astParent="0xa450c0"/>
+    <token id="0xa45220" file="vx_piddue.cpp" linenr="119" str="(" scope="0xa539b0" link="0xa452d0" astOperand1="0xa450c0"/>
+    <token id="0xa452d0" file="vx_piddue.cpp" linenr="119" str=")" scope="0xa539b0" link="0xa45220"/>
+    <token id="0xa45380" file="vx_piddue.cpp" linenr="119" str=";" scope="0xa539b0"/>
+    <token id="0xa45430" file="vx_piddue.cpp" linenr="120" str="Vx_t_lock" scope="0xa539b0" type="name" varId="18" variable="0xa54420" astParent="0xa454e0"/>
+    <token id="0xa454e0" file="vx_piddue.cpp" linenr="120" str="." scope="0xa539b0" astParent="0xa45640" astOperand1="0xa45430" astOperand2="0xa45590"/>
+    <token id="0xa45590" file="vx_piddue.cpp" linenr="120" str="lock" scope="0xa539b0" type="name" astParent="0xa454e0"/>
+    <token id="0xa45640" file="vx_piddue.cpp" linenr="120" str="(" scope="0xa539b0" link="0xa456f0" astOperand1="0xa454e0"/>
+    <token id="0xa456f0" file="vx_piddue.cpp" linenr="120" str=")" scope="0xa539b0" link="0xa45640"/>
+    <token id="0xa457a0" file="vx_piddue.cpp" linenr="120" str=";" scope="0xa539b0"/>
+    <token id="0xa45850" file="vx_piddue.cpp" linenr="121" str="Alpha_lock" scope="0xa539b0" type="name" varId="19" variable="0xa54490" astParent="0xa45900"/>
+    <token id="0xa45900" file="vx_piddue.cpp" linenr="121" str="." scope="0xa539b0" astParent="0xa45a60" astOperand1="0xa45850" astOperand2="0xa459b0"/>
+    <token id="0xa459b0" file="vx_piddue.cpp" linenr="121" str="lock" scope="0xa539b0" type="name" astParent="0xa45900"/>
+    <token id="0xa45a60" file="vx_piddue.cpp" linenr="121" str="(" scope="0xa539b0" link="0xa45b10" astOperand1="0xa45900"/>
+    <token id="0xa45b10" file="vx_piddue.cpp" linenr="121" str=")" scope="0xa539b0" link="0xa45a60"/>
+    <token id="0xa45bc0" file="vx_piddue.cpp" linenr="121" str=";" scope="0xa539b0"/>
+    <token id="0xa45c70" file="vx_piddue.cpp" linenr="122" str="double" scope="0xa539b0" type="name"/>
+    <token id="0xa45d20" file="vx_piddue.cpp" linenr="122" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990"/>
+    <token id="0xa45dd0" file="vx_piddue.cpp" linenr="122" str=";" scope="0xa539b0"/>
+    <token id="0xa516a0" file="vx_piddue.cpp" linenr="122" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa51750"/>
+    <token id="0xa51750" file="vx_piddue.cpp" linenr="122" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa516a0" astOperand2="0xa45f30"/>
+    <token id="0xa45e80" file="vx_piddue.cpp" linenr="122" str="Vx_t" scope="0xa539b0" type="name" varId="3" variable="0xa53d90" astParent="0xa45f30"/>
+    <token id="0xa45f30" file="vx_piddue.cpp" linenr="122" str="-" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa51750" astOperand1="0xa45e80" astOperand2="0xa46400"/>
+    <token id="0xa45fe0" file="vx_piddue.cpp" linenr="122" str="(" scope="0xa539b0" link="0xa46560"/>
+    <token id="0xa46090" file="vx_piddue.cpp" linenr="122" str="(" scope="0xa539b0" link="0xa46350"/>
+    <token id="0xa46140" file="vx_piddue.cpp" linenr="122" str="Vl_a" scope="0xa539b0" type="name" varId="2" variable="0xa53d20" astParent="0xa461f0"/>
+    <token id="0xa461f0" file="vx_piddue.cpp" linenr="122" str="+" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa46400" astOperand1="0xa46140" astOperand2="0xa462a0"/>
+    <token id="0xa462a0" file="vx_piddue.cpp" linenr="122" str="Vr_a" scope="0xa539b0" type="name" varId="1" variable="0xa53cb0" astParent="0xa461f0"/>
+    <token id="0xa46350" file="vx_piddue.cpp" linenr="122" str=")" scope="0xa539b0" link="0xa46090"/>
+    <token id="0xa46400" file="vx_piddue.cpp" linenr="122" str="/" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa45f30" astOperand1="0xa461f0" astOperand2="0xa464b0"/>
+    <token id="0xa464b0" file="vx_piddue.cpp" linenr="122" str="2" scope="0xa539b0" type="number" isInt="True" values="0xa464b8" astParent="0xa46400"/>
+    <token id="0xa46560" file="vx_piddue.cpp" linenr="122" str=")" scope="0xa539b0" link="0xa45fe0"/>
+    <token id="0xa46610" file="vx_piddue.cpp" linenr="122" str=";" scope="0xa539b0"/>
+    <token id="0xa466c0" file="vx_piddue.cpp" linenr="124" str="printf" scope="0xa539b0" type="name" astParent="0xa46770"/>
+    <token id="0xa46770" file="vx_piddue.cpp" linenr="124" str="(" scope="0xa539b0" link="0xa46c20" astOperand1="0xa466c0" astOperand2="0xa46ac0"/>
+    <token id="0xa46880" file="vx_piddue.cpp" linenr="124" str="&quot;Pmin: %3.3f Pmax: %3.3f &quot;" scope="0xa539b0" type="string" strlen="24" values="0xa46888" astParent="0xa46960"/>
+    <token id="0xa46960" file="vx_piddue.cpp" linenr="124" str="," scope="0xa539b0" astParent="0xa46ac0" astOperand1="0xa46880" astOperand2="0xa46a10"/>
+    <token id="0xa46a10" file="vx_piddue.cpp" linenr="124" str="PWM_min_percent" scope="0xa539b0" type="name" varId="14" variable="0xa54260" astParent="0xa46960"/>
+    <token id="0xa46ac0" file="vx_piddue.cpp" linenr="124" str="," scope="0xa539b0" astParent="0xa46770" astOperand1="0xa46960" astOperand2="0xa46b70"/>
+    <token id="0xa46b70" file="vx_piddue.cpp" linenr="124" str="PWM_max_percent" scope="0xa539b0" type="name" varId="15" variable="0xa542d0" astParent="0xa46ac0"/>
+    <token id="0xa46c20" file="vx_piddue.cpp" linenr="124" str=")" scope="0xa539b0" link="0xa46770"/>
+    <token id="0xa46cd0" file="vx_piddue.cpp" linenr="124" str=";" scope="0xa539b0"/>
+    <token id="0xa46d80" file="vx_piddue.cpp" linenr="126" str="printf" scope="0xa539b0" type="name" astParent="0xa46e30"/>
+    <token id="0xa46e30" file="vx_piddue.cpp" linenr="126" str="(" scope="0xa539b0" link="0xa47980" astOperand1="0xa46d80" astOperand2="0xa47770"/>
+    <token id="0xa46f30" file="vx_piddue.cpp" linenr="126" str="&quot;VT: %3.3f VA: %3.3f  error: %3.3f &quot;" scope="0xa539b0" type="string" strlen="34" values="0xa46f38" astParent="0xa46fe0"/>
+    <token id="0xa46fe0" file="vx_piddue.cpp" linenr="126" str="," scope="0xa539b0" astParent="0xa47140" astOperand1="0xa46f30" astOperand2="0xa47090"/>
+    <token id="0xa47090" file="vx_piddue.cpp" linenr="126" str="Vx_t" scope="0xa539b0" type="name" varId="3" variable="0xa53d90" astParent="0xa46fe0"/>
+    <token id="0xa47140" file="vx_piddue.cpp" linenr="126" str="," scope="0xa539b0" astParent="0xa47770" astOperand1="0xa46fe0" astOperand2="0xa47610"/>
+    <token id="0xa471f0" file="vx_piddue.cpp" linenr="126" str="(" scope="0xa539b0" link="0xa47560"/>
+    <token id="0xa47350" file="vx_piddue.cpp" linenr="126" str="Vl_a" scope="0xa539b0" type="name" varId="2" variable="0xa53d20" astParent="0xa47400"/>
+    <token id="0xa47400" file="vx_piddue.cpp" linenr="126" str="+" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa47610" astOperand1="0xa47350" astOperand2="0xa474b0"/>
+    <token id="0xa474b0" file="vx_piddue.cpp" linenr="126" str="Vr_a" scope="0xa539b0" type="name" varId="1" variable="0xa53cb0" astParent="0xa47400"/>
+    <token id="0xa47560" file="vx_piddue.cpp" linenr="126" str=")" scope="0xa539b0" link="0xa471f0"/>
+    <token id="0xa47610" file="vx_piddue.cpp" linenr="126" str="/" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa47140" astOperand1="0xa47400" astOperand2="0xa476c0"/>
+    <token id="0xa476c0" file="vx_piddue.cpp" linenr="126" str="2" scope="0xa539b0" type="number" isInt="True" values="0xa476c8" astParent="0xa47610"/>
+    <token id="0xa47770" file="vx_piddue.cpp" linenr="126" str="," scope="0xa539b0" astParent="0xa46e30" astOperand1="0xa47140" astOperand2="0xa478d0"/>
+    <token id="0xa478d0" file="vx_piddue.cpp" linenr="126" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa47770"/>
+    <token id="0xa47980" file="vx_piddue.cpp" linenr="126" str=")" scope="0xa539b0" link="0xa46e30"/>
+    <token id="0xa47a30" file="vx_piddue.cpp" linenr="126" str=";" scope="0xa539b0"/>
+    <token id="0xa47ae0" file="vx_piddue.cpp" linenr="128" str="Alpha_lock" scope="0xa539b0" type="name" varId="19" variable="0xa54490" astParent="0xa47b90"/>
+    <token id="0xa47b90" file="vx_piddue.cpp" linenr="128" str="." scope="0xa539b0" astParent="0xa47cf0" astOperand1="0xa47ae0" astOperand2="0xa47c40"/>
+    <token id="0xa47c40" file="vx_piddue.cpp" linenr="128" str="unlock" scope="0xa539b0" type="name" astParent="0xa47b90"/>
+    <token id="0xa47cf0" file="vx_piddue.cpp" linenr="128" str="(" scope="0xa539b0" link="0xa47da0" astOperand1="0xa47b90"/>
+    <token id="0xa47da0" file="vx_piddue.cpp" linenr="128" str=")" scope="0xa539b0" link="0xa47cf0"/>
+    <token id="0xa47e50" file="vx_piddue.cpp" linenr="128" str=";" scope="0xa539b0"/>
+    <token id="0xa47f00" file="vx_piddue.cpp" linenr="129" str="Vx_t_lock" scope="0xa539b0" type="name" varId="18" variable="0xa54420" astParent="0xa47fb0"/>
+    <token id="0xa47fb0" file="vx_piddue.cpp" linenr="129" str="." scope="0xa539b0" astParent="0xa48110" astOperand1="0xa47f00" astOperand2="0xa48060"/>
+    <token id="0xa48060" file="vx_piddue.cpp" linenr="129" str="unlock" scope="0xa539b0" type="name" astParent="0xa47fb0"/>
+    <token id="0xa48110" file="vx_piddue.cpp" linenr="129" str="(" scope="0xa539b0" link="0xa481c0" astOperand1="0xa47fb0"/>
+    <token id="0xa481c0" file="vx_piddue.cpp" linenr="129" str=")" scope="0xa539b0" link="0xa48110"/>
+    <token id="0xa48270" file="vx_piddue.cpp" linenr="129" str=";" scope="0xa539b0"/>
+    <token id="0xa48320" file="vx_piddue.cpp" linenr="130" str="Vl_Vr_a_lock" scope="0xa539b0" type="name" varId="20" variable="0xa54500" astParent="0xa483d0"/>
+    <token id="0xa483d0" file="vx_piddue.cpp" linenr="130" str="." scope="0xa539b0" astParent="0xa48530" astOperand1="0xa48320" astOperand2="0xa48480"/>
+    <token id="0xa48480" file="vx_piddue.cpp" linenr="130" str="unlock" scope="0xa539b0" type="name" astParent="0xa483d0"/>
+    <token id="0xa48530" file="vx_piddue.cpp" linenr="130" str="(" scope="0xa539b0" link="0xa485e0" astOperand1="0xa483d0"/>
+    <token id="0xa485e0" file="vx_piddue.cpp" linenr="130" str=")" scope="0xa539b0" link="0xa48530"/>
+    <token id="0xa48690" file="vx_piddue.cpp" linenr="130" str=";" scope="0xa539b0"/>
+    <token id="0xa48740" file="vx_piddue.cpp" linenr="134" str="Vx_error_diff" scope="0xa539b0" type="name" varId="10" variable="0xa540a0" astParent="0xa487f0"/>
+    <token id="0xa487f0" file="vx_piddue.cpp" linenr="134" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa48740" astOperand2="0xa48950"/>
+    <token id="0xa488a0" file="vx_piddue.cpp" linenr="134" str="Vx_error_old" scope="0xa539b0" type="name" varId="11" variable="0xa54110" astParent="0xa48950"/>
+    <token id="0xa48950" file="vx_piddue.cpp" linenr="134" str="-" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa487f0" astOperand1="0xa488a0" astOperand2="0xa48a00"/>
+    <token id="0xa48a00" file="vx_piddue.cpp" linenr="134" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa48950"/>
+    <token id="0xa48ab0" file="vx_piddue.cpp" linenr="134" str=";" scope="0xa539b0"/>
+    <token id="0xa48b60" file="vx_piddue.cpp" linenr="135" str="Vx_error_sum" scope="0xa539b0" type="name" astParent="0xa48c10"/>
+    <token id="0xa48c10" file="vx_piddue.cpp" linenr="135" str="+=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa48b60" astOperand2="0xa48d70"/>
+    <token id="0xa48d70" file="vx_piddue.cpp" linenr="135" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa48c10"/>
+    <token id="0xa48e20" file="vx_piddue.cpp" linenr="135" str=";" scope="0xa539b0"/>
+    <token id="0xa48ed0" file="vx_piddue.cpp" linenr="136" str="Vx_error_old" scope="0xa539b0" type="name" varId="11" variable="0xa54110" astParent="0xa48f80"/>
+    <token id="0xa48f80" file="vx_piddue.cpp" linenr="136" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa48ed0" astOperand2="0xa49030"/>
+    <token id="0xa49030" file="vx_piddue.cpp" linenr="136" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa48f80"/>
+    <token id="0xa490e0" file="vx_piddue.cpp" linenr="136" str=";" scope="0xa539b0"/>
+    <token id="0xa49190" file="vx_piddue.cpp" linenr="138" str="Vx_error_integral" scope="0xa539b0" type="name" varId="12" variable="0xa54180" astParent="0xa49240"/>
+    <token id="0xa49240" file="vx_piddue.cpp" linenr="138" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa49190" astOperand2="0xa493a0"/>
+    <token id="0xa492f0" file="vx_piddue.cpp" linenr="138" str="getMinMax" scope="0xa539b0" type="name" function="0xa282a0" astParent="0xa493a0"/>
+    <token id="0xa493a0" file="vx_piddue.cpp" linenr="138" str="(" scope="0xa539b0" link="0xa499d0" astParent="0xa49240" astOperand1="0xa492f0" astOperand2="0xa497c0"/>
+    <token id="0xa49450" file="vx_piddue.cpp" linenr="138" str="Vx_error_sum" scope="0xa539b0" type="name" astParent="0xa49500"/>
+    <token id="0xa49500" file="vx_piddue.cpp" linenr="138" str="*" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa49660" astOperand1="0xa49450" astOperand2="0xa495b0"/>
+    <token id="0xa495b0" file="vx_piddue.cpp" linenr="138" str="Ki_Vx" scope="0xa539b0" type="name" varId="8" variable="0xa53fc0" astParent="0xa49500"/>
+    <token id="0xa49660" file="vx_piddue.cpp" linenr="138" str="," scope="0xa539b0" astParent="0xa497c0" astOperand1="0xa49500" astOperand2="0xa49710"/>
+    <token id="0xa49710" file="vx_piddue.cpp" linenr="138" str="PWM_max_percent" scope="0xa539b0" type="name" varId="15" variable="0xa542d0" astParent="0xa49660"/>
+    <token id="0xa497c0" file="vx_piddue.cpp" linenr="138" str="," scope="0xa539b0" astParent="0xa493a0" astOperand1="0xa49660" astOperand2="0xa49870"/>
+    <token id="0xa49870" file="vx_piddue.cpp" linenr="138" str="-" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa497c0" astOperand1="0xa49920"/>
+    <token id="0xa49920" file="vx_piddue.cpp" linenr="138" str="PWM_max_percent" scope="0xa539b0" type="name" varId="15" variable="0xa542d0" astParent="0xa49870"/>
+    <token id="0xa499d0" file="vx_piddue.cpp" linenr="138" str=")" scope="0xa539b0" link="0xa493a0"/>
+    <token id="0xa49a80" file="vx_piddue.cpp" linenr="138" str=";" scope="0xa539b0"/>
+    <token id="0xa49b30" file="vx_piddue.cpp" linenr="140" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa49be0"/>
+    <token id="0xa49be0" file="vx_piddue.cpp" linenr="140" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa49b30" astOperand2="0xa4a2f0"/>
+    <token id="0xa49c90" file="vx_piddue.cpp" linenr="140" str="(" scope="0xa539b0" link="0xa49df0"/>
+    <token id="0xa49d40" file="vx_piddue.cpp" linenr="140" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa49ea0"/>
+    <token id="0xa49df0" file="vx_piddue.cpp" linenr="140" str=")" scope="0xa539b0" link="0xa49c90"/>
+    <token id="0xa49ea0" file="vx_piddue.cpp" linenr="140" str="*" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4a000" astOperand1="0xa49d40" astOperand2="0xa49f50"/>
+    <token id="0xa49f50" file="vx_piddue.cpp" linenr="140" str="Kp_Vx" scope="0xa539b0" type="name" varId="7" variable="0xa53f50" astParent="0xa49ea0"/>
+    <token id="0xa4a000" file="vx_piddue.cpp" linenr="140" str="+" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4a2f0" astOperand1="0xa49ea0" astOperand2="0xa4a160"/>
+    <token id="0xa4a0b0" file="vx_piddue.cpp" linenr="140" str="(" scope="0xa539b0" link="0xa4a240"/>
+    <token id="0xa4a160" file="vx_piddue.cpp" linenr="140" str="Vx_error_integral" scope="0xa539b0" type="name" varId="12" variable="0xa54180" astParent="0xa4a000"/>
+    <token id="0xa4a240" file="vx_piddue.cpp" linenr="140" str=")" scope="0xa539b0" link="0xa4a0b0"/>
+    <token id="0xa4a2f0" file="vx_piddue.cpp" linenr="140" str="+" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa49be0" astOperand1="0xa4a000" astOperand2="0xa4a5b0"/>
+    <token id="0xa4a3a0" file="vx_piddue.cpp" linenr="140" str="(" scope="0xa539b0" link="0xa4a500"/>
+    <token id="0xa4a450" file="vx_piddue.cpp" linenr="140" str="Vx_error_diff" scope="0xa539b0" type="name" varId="10" variable="0xa540a0" astParent="0xa4a5b0"/>
+    <token id="0xa4a500" file="vx_piddue.cpp" linenr="140" str=")" scope="0xa539b0" link="0xa4a3a0"/>
+    <token id="0xa4a5b0" file="vx_piddue.cpp" linenr="140" str="*" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4a2f0" astOperand1="0xa4a450" astOperand2="0xa4a660"/>
+    <token id="0xa4a660" file="vx_piddue.cpp" linenr="140" str="Kd_Vx" scope="0xa539b0" type="name" varId="9" variable="0xa54030" astParent="0xa4a5b0"/>
+    <token id="0xa4a710" file="vx_piddue.cpp" linenr="140" str=";" scope="0xa539b0"/>
+    <token id="0xa4a7c0" file="vx_piddue.cpp" linenr="142" str="printf" scope="0xa539b0" type="name" astParent="0xa4a870"/>
+    <token id="0xa4a870" file="vx_piddue.cpp" linenr="142" str="(" scope="0xa539b0" link="0xa4b530" astOperand1="0xa4a7c0" astOperand2="0xa4b060"/>
+    <token id="0xa4a950" file="vx_piddue.cpp" linenr="142" str="&quot; P: %3.3f  I: %3.3f D: %3.3f &quot;" scope="0xa539b0" type="string" strlen="29" values="0xa4a958" astParent="0xa4aa30"/>
+    <token id="0xa4aa30" file="vx_piddue.cpp" linenr="142" str="," scope="0xa539b0" astParent="0xa4ae50" astOperand1="0xa4a950" astOperand2="0xa4acf0"/>
+    <token id="0xa4aae0" file="vx_piddue.cpp" linenr="142" str="(" scope="0xa539b0" link="0xa4ac40"/>
+    <token id="0xa4ab90" file="vx_piddue.cpp" linenr="142" str="Vx_error" scope="0xa539b0" type="name" varId="48" variable="0xa54990" astParent="0xa4acf0"/>
+    <token id="0xa4ac40" file="vx_piddue.cpp" linenr="142" str=")" scope="0xa539b0" link="0xa4aae0"/>
+    <token id="0xa4acf0" file="vx_piddue.cpp" linenr="142" str="*" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4aa30" astOperand1="0xa4ab90" astOperand2="0xa4ada0"/>
+    <token id="0xa4ada0" file="vx_piddue.cpp" linenr="142" str="Kp_Vx" scope="0xa539b0" type="name" varId="7" variable="0xa53f50" astParent="0xa4acf0"/>
+    <token id="0xa4ae50" file="vx_piddue.cpp" linenr="142" str="," scope="0xa539b0" astParent="0xa4b060" astOperand1="0xa4aa30" astOperand2="0xa4af00"/>
+    <token id="0xa4af00" file="vx_piddue.cpp" linenr="142" str="Vx_error_integral" scope="0xa539b0" type="name" varId="12" variable="0xa54180" astParent="0xa4ae50"/>
+    <token id="0xa4b060" file="vx_piddue.cpp" linenr="142" str="," scope="0xa539b0" astParent="0xa4a870" astOperand1="0xa4ae50" astOperand2="0xa4b3d0"/>
+    <token id="0xa4b1c0" file="vx_piddue.cpp" linenr="142" str="(" scope="0xa539b0" link="0xa4b320"/>
+    <token id="0xa4b270" file="vx_piddue.cpp" linenr="142" str="Vx_error_diff" scope="0xa539b0" type="name" varId="10" variable="0xa540a0" astParent="0xa4b3d0"/>
+    <token id="0xa4b320" file="vx_piddue.cpp" linenr="142" str=")" scope="0xa539b0" link="0xa4b1c0"/>
+    <token id="0xa4b3d0" file="vx_piddue.cpp" linenr="142" str="*" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4b060" astOperand1="0xa4b270" astOperand2="0xa4b480"/>
+    <token id="0xa4b480" file="vx_piddue.cpp" linenr="142" str="Kd_Vx" scope="0xa539b0" type="name" varId="9" variable="0xa54030" astParent="0xa4b3d0"/>
+    <token id="0xa4b530" file="vx_piddue.cpp" linenr="142" str=")" scope="0xa539b0" link="0xa4a870"/>
+    <token id="0xa4b5e0" file="vx_piddue.cpp" linenr="142" str=";" scope="0xa539b0"/>
+    <token id="0xa4b690" file="vx_piddue.cpp" linenr="145" str="printf" scope="0xa539b0" type="name" astParent="0xa4b740"/>
+    <token id="0xa4b740" file="vx_piddue.cpp" linenr="145" str="(" scope="0xa539b0" link="0xa4ba60" astOperand1="0xa4b690" astOperand2="0xa4b900"/>
+    <token id="0xa4b820" file="vx_piddue.cpp" linenr="145" str="&quot; C_PWM: %3.3f &quot;" scope="0xa539b0" type="string" strlen="14" values="0xa4b828" astParent="0xa4b900"/>
+    <token id="0xa4b900" file="vx_piddue.cpp" linenr="145" str="," scope="0xa539b0" astParent="0xa4b740" astOperand1="0xa4b820" astOperand2="0xa4b9b0"/>
+    <token id="0xa4b9b0" file="vx_piddue.cpp" linenr="145" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa4b900"/>
+    <token id="0xa4ba60" file="vx_piddue.cpp" linenr="145" str=")" scope="0xa539b0" link="0xa4b740"/>
+    <token id="0xa4bb10" file="vx_piddue.cpp" linenr="145" str=";" scope="0xa539b0"/>
+    <token id="0xa4bbc0" file="vx_piddue.cpp" linenr="147" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa4bc70"/>
+    <token id="0xa4bc70" file="vx_piddue.cpp" linenr="147" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa4bbc0" astOperand2="0xa4bdd0"/>
+    <token id="0xa4bd20" file="vx_piddue.cpp" linenr="147" str="getMinMax" scope="0xa539b0" type="name" function="0xa282a0" astParent="0xa4bdd0"/>
+    <token id="0xa4bdd0" file="vx_piddue.cpp" linenr="147" str="(" scope="0xa539b0" link="0xa4c1f0" astParent="0xa4bc70" astOperand1="0xa4bd20" astOperand2="0xa4c090"/>
+    <token id="0xa4be80" file="vx_piddue.cpp" linenr="147" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa4bf30"/>
+    <token id="0xa4bf30" file="vx_piddue.cpp" linenr="147" str="," scope="0xa539b0" astParent="0xa4c090" astOperand1="0xa4be80" astOperand2="0xa4bfe0"/>
+    <token id="0xa4bfe0" file="vx_piddue.cpp" linenr="147" str="PWM_max_percent" scope="0xa539b0" type="name" varId="15" variable="0xa542d0" astParent="0xa4bf30"/>
+    <token id="0xa4c090" file="vx_piddue.cpp" linenr="147" str="," scope="0xa539b0" astParent="0xa4bdd0" astOperand1="0xa4bf30" astOperand2="0xa4c140"/>
+    <token id="0xa4c140" file="vx_piddue.cpp" linenr="147" str="PWM_min_percent" scope="0xa539b0" type="name" varId="14" variable="0xa54260" astParent="0xa4c090"/>
+    <token id="0xa4c1f0" file="vx_piddue.cpp" linenr="147" str=")" scope="0xa539b0" link="0xa4bdd0"/>
+    <token id="0xa4c2a0" file="vx_piddue.cpp" linenr="147" str=";" scope="0xa539b0"/>
+    <token id="0xa4c350" file="vx_piddue.cpp" linenr="150" str="os1" scope="0xa539b0" type="name" varId="46" variable="0xa548b0" astParent="0xa4c400"/>
+    <token id="0xa4c400" file="vx_piddue.cpp" linenr="150" str="." scope="0xa539b0" astParent="0xa4c560" astOperand1="0xa4c350" astOperand2="0xa4c4b0"/>
+    <token id="0xa4c4b0" file="vx_piddue.cpp" linenr="150" str="str" scope="0xa539b0" type="name" astParent="0xa4c400"/>
+    <token id="0xa4c560" file="vx_piddue.cpp" linenr="150" str="(" scope="0xa539b0" link="0xa4c6c0" astOperand1="0xa4c400" astOperand2="0xa4c610"/>
+    <token id="0xa4c610" file="vx_piddue.cpp" linenr="150" str="&quot;&quot;" scope="0xa539b0" type="string" strlen="0" values="0xa4c618" astParent="0xa4c560"/>
+    <token id="0xa4c6c0" file="vx_piddue.cpp" linenr="150" str=")" scope="0xa539b0" link="0xa4c560"/>
+    <token id="0xa4c770" file="vx_piddue.cpp" linenr="150" str=";" scope="0xa539b0"/>
+    <token id="0xa4c820" file="vx_piddue.cpp" linenr="151" str="os1" scope="0xa539b0" type="name" varId="46" variable="0xa548b0" astParent="0xa4c8d0"/>
+    <token id="0xa4c8d0" file="vx_piddue.cpp" linenr="151" str="." scope="0xa539b0" astParent="0xa4ca30" astOperand1="0xa4c820" astOperand2="0xa4c980"/>
+    <token id="0xa4c980" file="vx_piddue.cpp" linenr="151" str="clear" scope="0xa539b0" type="name" astParent="0xa4c8d0"/>
+    <token id="0xa4ca30" file="vx_piddue.cpp" linenr="151" str="(" scope="0xa539b0" link="0xa4cae0" astOperand1="0xa4c8d0"/>
+    <token id="0xa4cae0" file="vx_piddue.cpp" linenr="151" str=")" scope="0xa539b0" link="0xa4ca30"/>
+    <token id="0xa4cb90" file="vx_piddue.cpp" linenr="151" str=";" scope="0xa539b0"/>
+    <token id="0xa4cc40" file="vx_piddue.cpp" linenr="152" str="os1" scope="0xa539b0" type="name" varId="46" variable="0xa548b0" astParent="0xa4ccf0"/>
+    <token id="0xa4ccf0" file="vx_piddue.cpp" linenr="152" str="&lt;&lt;" scope="0xa539b0" type="op" isArithmeticalOp="True" astParent="0xa4d060" astOperand1="0xa4cc40" astOperand2="0xa4cda0"/>
+    <token id="0xa4cda0" file="vx_piddue.cpp" linenr="152" str="(" scope="0xa539b0" link="0xa4cf00" astParent="0xa4ccf0" astOperand1="0xa4cfb0"/>
+    <token id="0xa4ce50" file="vx_piddue.cpp" linenr="152" str="int" scope="0xa539b0" type="name"/>
+    <token id="0xa4cf00" file="vx_piddue.cpp" linenr="152" str=")" scope="0xa539b0" link="0xa4cda0"/>
+    <token id="0xa4cfb0" file="vx_piddue.cpp" linenr="152" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa4cda0"/>
+    <token id="0xa4d060" file="vx_piddue.cpp" linenr="152" str="&lt;&lt;" scope="0xa539b0" type="op" isArithmeticalOp="True" astOperand1="0xa4ccf0" astOperand2="0xa4d110"/>
+    <token id="0xa4d110" file="vx_piddue.cpp" linenr="152" str="&quot;\n&quot;" scope="0xa539b0" type="string" strlen="1" values="0xa4d118" astParent="0xa4d060"/>
+    <token id="0xa4d1c0" file="vx_piddue.cpp" linenr="152" str=";" scope="0xa539b0"/>
+    <token id="0xa4d270" file="vx_piddue.cpp" linenr="153" str="writeToUart1" scope="0xa539b0" type="name" varId="45" variable="0xa54840" astParent="0xa4d320"/>
+    <token id="0xa4d320" file="vx_piddue.cpp" linenr="153" str="=" scope="0xa539b0" type="op" isAssignmentOp="True" astOperand1="0xa4d270" astOperand2="0xa4d5e0"/>
+    <token id="0xa4d3d0" file="vx_piddue.cpp" linenr="153" str="os1" scope="0xa539b0" type="name" varId="46" variable="0xa548b0" astParent="0xa4d480"/>
+    <token id="0xa4d480" file="vx_piddue.cpp" linenr="153" str="." scope="0xa539b0" astParent="0xa4d5e0" astOperand1="0xa4d3d0" astOperand2="0xa4d530"/>
+    <token id="0xa4d530" file="vx_piddue.cpp" linenr="153" str="str" scope="0xa539b0" type="name" astParent="0xa4d480"/>
+    <token id="0xa4d5e0" file="vx_piddue.cpp" linenr="153" str="(" scope="0xa539b0" link="0xa4d690" astParent="0xa4d320" astOperand1="0xa4d480"/>
+    <token id="0xa4d690" file="vx_piddue.cpp" linenr="153" str=")" scope="0xa539b0" link="0xa4d5e0"/>
+    <token id="0xa4d740" file="vx_piddue.cpp" linenr="153" str=";" scope="0xa539b0"/>
+    <token id="0xa4d7f0" file="vx_piddue.cpp" linenr="154" str="Uart1" scope="0xa539b0" type="name" varId="44" variable="0xa547d0" astParent="0xa4d8a0"/>
+    <token id="0xa4d8a0" file="vx_piddue.cpp" linenr="154" str="&lt;&lt;" scope="0xa539b0" type="op" isArithmeticalOp="True" astOperand1="0xa4d7f0" astOperand2="0xa4d950"/>
+    <token id="0xa4d950" file="vx_piddue.cpp" linenr="154" str="writeToUart1" scope="0xa539b0" type="name" varId="45" variable="0xa54840" astParent="0xa4d8a0"/>
+    <token id="0xa4da00" file="vx_piddue.cpp" linenr="154" str=";" scope="0xa539b0"/>
+    <token id="0xa4dab0" file="vx_piddue.cpp" linenr="155" str="usleep" scope="0xa539b0" type="name" astParent="0xa4db60"/>
+    <token id="0xa4db60" file="vx_piddue.cpp" linenr="155" str="(" scope="0xa539b0" link="0xa4dcc0" astOperand1="0xa4dab0" astOperand2="0xa4dc10"/>
+    <token id="0xa4dc10" file="vx_piddue.cpp" linenr="155" str="1000" scope="0xa539b0" type="number" isInt="True" values="0xa4dc18" astParent="0xa4db60"/>
+    <token id="0xa4dcc0" file="vx_piddue.cpp" linenr="155" str=")" scope="0xa539b0" link="0xa4db60"/>
+    <token id="0xa4dd70" file="vx_piddue.cpp" linenr="155" str=";" scope="0xa539b0"/>
+    <token id="0xa4de20" file="vx_piddue.cpp" linenr="158" str="printf" scope="0xa539b0" type="name" astParent="0xa4ded0"/>
+    <token id="0xa4ded0" file="vx_piddue.cpp" linenr="158" str="(" scope="0xa539b0" link="0xa4e1c0" astOperand1="0xa4de20" astOperand2="0xa4e060"/>
+    <token id="0xa4df80" file="vx_piddue.cpp" linenr="158" str="&quot; G_PWM: %3.3f \n &quot;" scope="0xa539b0" type="string" strlen="16" values="0xa4df88" astParent="0xa4e060"/>
+    <token id="0xa4e060" file="vx_piddue.cpp" linenr="158" str="," scope="0xa539b0" astParent="0xa4ded0" astOperand1="0xa4df80" astOperand2="0xa4e110"/>
+    <token id="0xa4e110" file="vx_piddue.cpp" linenr="158" str="PWM_Duty_Cycle" scope="0xa539b0" type="name" varId="13" variable="0xa541f0" astParent="0xa4e060"/>
+    <token id="0xa4e1c0" file="vx_piddue.cpp" linenr="158" str=")" scope="0xa539b0" link="0xa4ded0"/>
+    <token id="0xa4e270" file="vx_piddue.cpp" linenr="158" str=";" scope="0xa539b0"/>
+    <token id="0xa4e320" file="vx_piddue.cpp" linenr="159" str="ros" scope="0xa539b0" type="name" astParent="0xa4e3d0"/>
+    <token id="0xa4e3d0" file="vx_piddue.cpp" linenr="159" str="::" scope="0xa539b0" astParent="0xa4e530" astOperand1="0xa4e320" astOperand2="0xa4e480"/>
+    <token id="0xa4e480" file="vx_piddue.cpp" linenr="159" str="spinOnce" scope="0xa539b0" type="name" astParent="0xa4e3d0"/>
+    <token id="0xa4e530" file="vx_piddue.cpp" linenr="159" str="(" scope="0xa539b0" link="0xa4e5e0" astOperand1="0xa4e3d0"/>
+    <token id="0xa4e5e0" file="vx_piddue.cpp" linenr="159" str=")" scope="0xa539b0" link="0xa4e530"/>
+    <token id="0xa4e690" file="vx_piddue.cpp" linenr="159" str=";" scope="0xa539b0"/>
+    <token id="0xa4e740" file="vx_piddue.cpp" linenr="161" str="loop_rate" scope="0xa539b0" type="name" varId="47" variable="0xa54920" astParent="0xa4e7f0"/>
+    <token id="0xa4e7f0" file="vx_piddue.cpp" linenr="161" str="." scope="0xa539b0" astParent="0xa4e950" astOperand1="0xa4e740" astOperand2="0xa4e8a0"/>
+    <token id="0xa4e8a0" file="vx_piddue.cpp" linenr="161" str="sleep" scope="0xa539b0" type="name" astParent="0xa4e7f0"/>
+    <token id="0xa4e950" file="vx_piddue.cpp" linenr="161" str="(" scope="0xa539b0" link="0xa4ea00" astOperand1="0xa4e7f0"/>
+    <token id="0xa4ea00" file="vx_piddue.cpp" linenr="161" str=")" scope="0xa539b0" link="0xa4e950"/>
+    <token id="0xa4eab0" file="vx_piddue.cpp" linenr="161" str=";" scope="0xa539b0"/>
+    <token id="0xa4eb60" file="vx_piddue.cpp" linenr="163" str="}" scope="0xa539b0" link="0xa44f60"/>
+    <token id="0xa4ec10" file="vx_piddue.cpp" linenr="164" str="}" scope="0xa53880" link="0xa3c5b0"/>
+    <token id="0xa4ecc0" file="vx_piddue.cpp" linenr="166" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa4ed70" file="vx_piddue.cpp" linenr="166" str="main" scope="0xa504e0" type="name" function="0xa53ae0" astParent="0xa4ee20"/>
+    <token id="0xa4ee20" file="vx_piddue.cpp" linenr="166" str="(" scope="0xa504e0" link="0xa4f3a0" astOperand1="0xa4ed70" astOperand2="0xa4f030"/>
+    <token id="0xa4eed0" file="vx_piddue.cpp" linenr="166" str="int" scope="0xa504e0" type="name"/>
+    <token id="0xa4ef80" file="vx_piddue.cpp" linenr="166" str="argc" scope="0xa504e0" type="name" varId="49" variable="0xa54a70" astParent="0xa4f030"/>
+    <token id="0xa4f030" file="vx_piddue.cpp" linenr="166" str="," scope="0xa504e0" astParent="0xa4ee20" astOperand1="0xa4ef80" astOperand2="0xa4f190"/>
+    <token id="0xa4f0e0" file="vx_piddue.cpp" linenr="166" str="char" scope="0xa504e0" type="name" astParent="0xa4f190"/>
+    <token id="0xa4f190" file="vx_piddue.cpp" linenr="166" str="*" scope="0xa504e0" type="op" isArithmeticalOp="True" astParent="0xa4f030" astOperand1="0xa4f0e0" astOperand2="0xa4f240"/>
+    <token id="0xa4f240" file="vx_piddue.cpp" linenr="166" str="*" scope="0xa504e0" type="op" isArithmeticalOp="True" astParent="0xa4f190" astOperand1="0xa4f2f0"/>
+    <token id="0xa4f2f0" file="vx_piddue.cpp" linenr="166" str="argv" scope="0xa504e0" type="name" varId="50" variable="0xa54ae0" astParent="0xa4f240"/>
+    <token id="0xa4f3a0" file="vx_piddue.cpp" linenr="166" str=")" scope="0xa504e0" link="0xa4ee20"/>
+    <token id="0xa4f450" file="vx_piddue.cpp" linenr="167" str="{" scope="0xa53b80" link="0xa50420"/>
+    <token id="0xa4f500" file="vx_piddue.cpp" linenr="170" str="VxPid" scope="0xa53b80" type="name" type-scope="0xa31710" astParent="0xa4f5b0"/>
+    <token id="0xa4f5b0" file="vx_piddue.cpp" linenr="170" str="*" scope="0xa53b80" type="op" isArithmeticalOp="True" astOperand1="0xa4f500" astOperand2="0xa4f660"/>
+    <token id="0xa4f660" file="vx_piddue.cpp" linenr="170" str="vxPid" scope="0xa53b80" type="name" varId="51" variable="0xa54a00" astParent="0xa4f5b0"/>
+    <token id="0xa4f710" file="vx_piddue.cpp" linenr="170" str=";" scope="0xa53b80"/>
+    <token id="0xa51800" file="vx_piddue.cpp" linenr="170" str="vxPid" scope="0xa53b80" type="name" varId="51" variable="0xa54a00" astParent="0xa518b0"/>
+    <token id="0xa518b0" file="vx_piddue.cpp" linenr="170" str="=" scope="0xa53b80" type="op" isAssignmentOp="True" astOperand1="0xa51800" astOperand2="0xa4f7c0"/>
+    <token id="0xa4f7c0" file="vx_piddue.cpp" linenr="170" str="new" scope="0xa53b80" type="name" astParent="0xa518b0" astOperand1="0xa4f920"/>
+    <token id="0xa4f870" file="vx_piddue.cpp" linenr="170" str="VxPid" scope="0xa53b80" type="name" type-scope="0xa31710" astParent="0xa4f920"/>
+    <token id="0xa4f920" file="vx_piddue.cpp" linenr="170" str="(" scope="0xa53b80" link="0xa4f9d0" astParent="0xa4f7c0" astOperand1="0xa4f870"/>
+    <token id="0xa4f9d0" file="vx_piddue.cpp" linenr="170" str=")" scope="0xa53b80" link="0xa4f920"/>
+    <token id="0xa4fa80" file="vx_piddue.cpp" linenr="170" str=";" scope="0xa53b80"/>
+    <token id="0xa4fb30" file="vx_piddue.cpp" linenr="172" str="vxPid" scope="0xa53b80" type="name" varId="51" variable="0xa54a00" astParent="0xa4fbe0"/>
+    <token id="0xa4fbe0" file="vx_piddue.cpp" linenr="172" str="." scope="0xa53b80" astParent="0xa4fdf0" astOperand1="0xa4fb30" astOperand2="0xa4fd40"/>
+    <token id="0xa4fd40" file="vx_piddue.cpp" linenr="172" str="implementPid" scope="0xa53b80" type="name" function="0xa51a10" astParent="0xa4fbe0"/>
+    <token id="0xa4fdf0" file="vx_piddue.cpp" linenr="172" str="(" scope="0xa53b80" link="0xa500b0" astOperand1="0xa4fbe0" astOperand2="0xa4ff50"/>
+    <token id="0xa4fea0" file="vx_piddue.cpp" linenr="172" str="argc" scope="0xa53b80" type="name" varId="49" variable="0xa54a70" astParent="0xa4ff50"/>
+    <token id="0xa4ff50" file="vx_piddue.cpp" linenr="172" str="," scope="0xa53b80" astParent="0xa4fdf0" astOperand1="0xa4fea0" astOperand2="0xa50000"/>
+    <token id="0xa50000" file="vx_piddue.cpp" linenr="172" str="argv" scope="0xa53b80" type="name" varId="50" variable="0xa54ae0" astParent="0xa4ff50"/>
+    <token id="0xa500b0" file="vx_piddue.cpp" linenr="172" str=")" scope="0xa53b80" link="0xa4fdf0"/>
+    <token id="0xa50160" file="vx_piddue.cpp" linenr="172" str=";" scope="0xa53b80"/>
+    <token id="0xa50210" file="vx_piddue.cpp" linenr="174" str="delete" scope="0xa53b80" type="name" astOperand1="0xa502c0"/>
+    <token id="0xa502c0" file="vx_piddue.cpp" linenr="174" str="vxPid" scope="0xa53b80" type="name" varId="51" variable="0xa54a00" astParent="0xa50210"/>
+    <token id="0xa50370" file="vx_piddue.cpp" linenr="174" str=";" scope="0xa53b80"/>
+    <token id="0xa50420" file="vx_piddue.cpp" linenr="176" str="}" scope="0xa53b80" link="0xa4f450"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xa504e0" type="Global">
+      <functionList>
+        <function id="0xa53ae0" tokenDef="0xa4ed70" name="main">
+          <arg nr="1" variable="0xa54a70"/>
+          <arg nr="2" variable="0xa54ae0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xa31710" type="Class" className="VxPid" classStart="0xa28c20" classEnd="0xa314f0" nestedIn="0xa504e0">
+      <functionList>
+        <function id="0xa318f0" tokenDef="0xa2eef0" name="VxPid"/>
+        <function id="0xa282a0" tokenDef="0xa2f260" name="getMinMax">
+          <arg nr="1" variable="0xa54b50"/>
+          <arg nr="2" variable="0xa54bc0"/>
+          <arg nr="3" variable="0xa54c30"/>
+        </function>
+        <function id="0xa50610" tokenDef="0xa2fb50" name="vxTargetUpdateCallback">
+          <arg nr="1" variable="0xa54ca0"/>
+        </function>
+        <function id="0xa51970" tokenDef="0xa30470" name="encoderCallback">
+          <arg nr="1" variable="0xa54d10"/>
+        </function>
+        <function id="0xa51a10" tokenDef="0xa30d60" name="implementPid">
+          <arg nr="1" variable="0xa54d80"/>
+          <arg nr="2" variable="0xa54df0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0xa53cb0"/>
+        <var id="0xa53d20"/>
+        <var id="0xa53d90"/>
+        <var id="0xa53e00"/>
+        <var id="0xa53e70"/>
+        <var id="0xa53ee0"/>
+        <var id="0xa53f50"/>
+        <var id="0xa53fc0"/>
+        <var id="0xa54030"/>
+        <var id="0xa540a0"/>
+        <var id="0xa54110"/>
+        <var id="0xa54180"/>
+        <var id="0xa541f0"/>
+        <var id="0xa54260"/>
+        <var id="0xa542d0"/>
+        <var id="0xa54340"/>
+        <var id="0xa543b0"/>
+        <var id="0xa54420"/>
+        <var id="0xa54490"/>
+        <var id="0xa54500"/>
+        <var id="0xa54570"/>
+        <var id="0xa545e0"/>
+      </varlist>
+    </scope>
+    <scope id="0xa51ab0" type="Function" className="VxPid" classStart="0xa33410" classEnd="0xa36120" nestedIn="0xa504e0" function="0xa318f0"/>
+    <scope id="0xa51be0" type="Function" className="getMinMax" classStart="0xa36b70" classEnd="0xa37bf0" nestedIn="0xa504e0" function="0xa282a0"/>
+    <scope id="0xa52ed0" type="If" classStart="0xa28d80" classEnd="0xa2ee40" nestedIn="0xa51be0"/>
+    <scope id="0xa53000" type="Else" classStart="0xa194d0" classEnd="0xa28800" nestedIn="0xa51be0"/>
+    <scope id="0xa53130" type="Try" classStart="0xa194d0" classEnd="0xa28800" nestedIn="0xa51be0"/>
+    <scope id="0xa53260" type="If" classStart="0xa392d0" classEnd="0xa3b110" nestedIn="0xa53130"/>
+    <scope id="0xa53390" type="Else" classStart="0xa3b5e0" classEnd="0xa48cc0" nestedIn="0xa53130"/>
+    <scope id="0xa534c0" type="Try" classStart="0xa3b5e0" classEnd="0xa48cc0" nestedIn="0xa53130"/>
+    <scope id="0xa53620" type="Function" className="vxTargetUpdateCallback" classStart="0xa38670" classEnd="0xa39f30" nestedIn="0xa504e0" function="0xa50610"/>
+    <scope id="0xa53750" type="Function" className="encoderCallback" classStart="0xa3a980" classEnd="0xa3bc10" nestedIn="0xa504e0"/>
+    <scope id="0xa53880" type="Function" className="implementPid" classStart="0xa3c5b0" classEnd="0xa4ec10" nestedIn="0xa504e0" function="0xa51a10">
+      <varlist>
+        <var id="0xa54650"/>
+        <var id="0xa546c0"/>
+        <var id="0xa54730"/>
+        <var id="0xa547d0"/>
+        <var id="0xa54840"/>
+        <var id="0xa548b0"/>
+        <var id="0xa54920"/>
+      </varlist>
+    </scope>
+    <scope id="0xa539b0" type="While" classStart="0xa44f60" classEnd="0xa4eb60" nestedIn="0xa53880">
+      <varlist>
+        <var id="0xa54990"/>
+      </varlist>
+    </scope>
+    <scope id="0xa53b80" type="Function" className="main" classStart="0xa4f450" classEnd="0xa50420" nestedIn="0xa504e0" function="0xa53ae0">
+      <varlist>
+        <var id="0xa54a00"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xa53cb0" nameToken="0xa28ee0" typeStartToken="0xa28e30" typeEndToken="0xa28e30" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53d20" nameToken="0xa2c8f0" typeStartToken="0xa27fd0" typeEndToken="0xa27fd0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53d90" nameToken="0xa2cb00" typeStartToken="0xa2ca50" typeEndToken="0xa2ca50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53e00" nameToken="0xa2cc60" typeStartToken="0xa28080" typeEndToken="0xa28080" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53e70" nameToken="0xa2cdc0" typeStartToken="0xa50990" typeEndToken="0xa50990" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53ee0" nameToken="0xa2cfd0" typeStartToken="0xa2cf20" typeEndToken="0xa2cf20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53f50" nameToken="0xa2d1e0" typeStartToken="0xa2d130" typeEndToken="0xa2d130" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa53fc0" nameToken="0xa2d340" typeStartToken="0xa50a40" typeEndToken="0xa50a40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54030" nameToken="0xa2d4a0" typeStartToken="0xa50af0" typeEndToken="0xa50af0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa540a0" nameToken="0xa2d6b0" typeStartToken="0xa2d600" typeEndToken="0xa2d600" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54110" nameToken="0xa2d810" typeStartToken="0xa50730" typeEndToken="0xa50730" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54180" nameToken="0xa2d970" typeStartToken="0xa507e0" typeEndToken="0xa507e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa541f0" nameToken="0xa2db80" typeStartToken="0xa2dad0" typeEndToken="0xa2dad0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54260" nameToken="0xa2dd90" typeStartToken="0xa2dce0" typeEndToken="0xa2dce0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa542d0" nameToken="0xa2def0" typeStartToken="0xa50890" typeEndToken="0xa50890" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54340" nameToken="0xa2e100" typeStartToken="0xa2e050" typeEndToken="0xa2e050" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa543b0" nameToken="0xa2e310" typeStartToken="0xa2e260" typeEndToken="0xa2e260" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54420" nameToken="0xa2e6b0" typeStartToken="0xa2e4a0" typeEndToken="0xa2e600" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54490" nameToken="0xa2e810" typeStartToken="0xa50bf0" typeEndToken="0xa50d50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54500" nameToken="0xa2e970" typeStartToken="0xa4fc90" typeEndToken="0xa50eb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54570" nameToken="0xa2ead0" typeStartToken="0xa50f60" typeEndToken="0xa510c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa545e0" nameToken="0xa2ec30" typeStartToken="0xa51170" typeEndToken="0xa512d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54d10" nameToken="0xa30aa0" typeStartToken="0xa30680" typeEndToken="0xa309f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xa54b50" nameToken="0xa365f0" typeStartToken="0xa36540" typeEndToken="0xa36540" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54bc0" nameToken="0xa36800" typeStartToken="0xa36750" typeEndToken="0xa36750" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54c30" nameToken="0xa36a10" typeStartToken="0xa36960" typeEndToken="0xa36960" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54ca0" nameToken="0xa38510" typeStartToken="0xa380f0" typeEndToken="0xa38460" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xa54d80" nameToken="0xa3c0e0" typeStartToken="0xa3c030" typeEndToken="0xa3c030" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54df0" nameToken="0xa3c450" typeStartToken="0xa3c240" typeEndToken="0xa3c3a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xa54650" nameToken="0xa3d000" typeStartToken="0xa3cdf0" typeEndToken="0xa3cf50" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa546c0" nameToken="0xa3d370" typeStartToken="0xa3d160" typeEndToken="0xa3d2c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54730" nameToken="0xa3e5b0" typeStartToken="0xa3e3a0" typeEndToken="0xa3e500" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa547d0" nameToken="0xa3f7c0" typeStartToken="0xa3f5b0" typeEndToken="0xa3f710" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54840" nameToken="0xa41290" typeStartToken="0xa41080" typeEndToken="0xa411e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa548b0" nameToken="0xa41600" typeStartToken="0xa413f0" typeEndToken="0xa41550" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54920" nameToken="0xa44670" typeStartToken="0xa44460" typeEndToken="0xa445c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54990" nameToken="0xa45d20" typeStartToken="0xa45c70" typeEndToken="0xa45c70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54a70" nameToken="0xa4ef80" typeStartToken="0xa4eed0" typeEndToken="0xa4eed0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xa54ae0" nameToken="0xa4f2f0" typeStartToken="0xa4f0e0" typeEndToken="0xa4f240" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xa54a00" nameToken="0xa4f660" typeStartToken="0xa4f500" typeEndToken="0xa4f5b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xa33628">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa338e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa33ba8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa33e68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa34128">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa343e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa346a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa34968">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa34c28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa34ee8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa351d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa35498">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa35788">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa35a48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa35d08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa35fc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xa3cbe8">
+      <value tokvalue="0xa3cbe0" known="true"/>
+    </values>
+    <values id="0xa3db38">
+      <value tokvalue="0xa3db30" known="true"/>
+    </values>
+    <values id="0xa3dc98">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0xa3ed78">
+      <value tokvalue="0xa3ed70" known="true"/>
+    </values>
+    <values id="0xa3eed8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0xa41a58">
+      <value tokvalue="0xa41a50" known="true"/>
+    </values>
+    <values id="0xa420b8">
+      <value tokvalue="0xa420b0" known="true"/>
+    </values>
+    <values id="0xa42718">
+      <value tokvalue="0xa42710" known="true"/>
+    </values>
+    <values id="0xa42d78">
+      <value tokvalue="0xa42d70" known="true"/>
+    </values>
+    <values id="0xa433d8">
+      <value tokvalue="0xa433d0" known="true"/>
+    </values>
+    <values id="0xa43a68">
+      <value tokvalue="0xa43a60" known="true"/>
+    </values>
+    <values id="0xa440c8">
+      <value tokvalue="0xa440c0" known="true"/>
+    </values>
+    <values id="0xa464b8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xa46888">
+      <value tokvalue="0xa46880" known="true"/>
+    </values>
+    <values id="0xa46f38">
+      <value tokvalue="0xa46f30" known="true"/>
+    </values>
+    <values id="0xa476c8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xa4a958">
+      <value tokvalue="0xa4a950" known="true"/>
+    </values>
+    <values id="0xa4b828">
+      <value tokvalue="0xa4b820" known="true"/>
+    </values>
+    <values id="0xa4c618">
+      <value tokvalue="0xa4c610" known="true"/>
+    </values>
+    <values id="0xa4d118">
+      <value tokvalue="0xa4d110" known="true"/>
+    </values>
+    <values id="0xa4dc18">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0xa4df88">
+      <value tokvalue="0xa4df80" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

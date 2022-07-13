@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x10d8f40" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x10d90e0" file="IrRanger.cpp" linenr="11" str="ros" scope="0x10d80d0" type="name" astParent="0x10d9200"/>
+    <token id="0x10d9200" file="IrRanger.cpp" linenr="11" str="::" scope="0x10d80d0" astOperand1="0x10d90e0" astOperand2="0x10d8530"/>
+    <token id="0x10d92b0" file="IrRanger.cpp" linenr="11" str="NodeHandle" scope="0x10d80d0" type="name"/>
+    <token id="0x10d8530" file="IrRanger.cpp" linenr="11" str="nh" scope="0x10d80d0" type="name" varId="1" variable="0x10e63d0" astParent="0x10d9200"/>
+    <token id="0x10d85e0" file="IrRanger.cpp" linenr="11" str=";" scope="0x10d80d0"/>
+    <token id="0x10d8690" file="IrRanger.cpp" linenr="14" str="sensor_msgs" scope="0x10d80d0" type="name" astParent="0x10d8740"/>
+    <token id="0x10d8740" file="IrRanger.cpp" linenr="14" str="::" scope="0x10d80d0" astOperand1="0x10d8690" astOperand2="0x10d8a70"/>
+    <token id="0x10d87f0" file="IrRanger.cpp" linenr="14" str="Range" scope="0x10d80d0" type="name"/>
+    <token id="0x10d8a70" file="IrRanger.cpp" linenr="14" str="range_msg" scope="0x10d80d0" type="name" varId="2" variable="0x10e6440" astParent="0x10d8740"/>
+    <token id="0x10d8b20" file="IrRanger.cpp" linenr="14" str=";" scope="0x10d80d0"/>
+    <token id="0x10d8bd0" file="IrRanger.cpp" linenr="15" str="ros" scope="0x10d80d0" type="name" astParent="0x10d8c80"/>
+    <token id="0x10d8c80" file="IrRanger.cpp" linenr="15" str="::" scope="0x10d80d0" astParent="0x10d8e90" astOperand1="0x10d8bd0" astOperand2="0x10d8de0"/>
+    <token id="0x10d8d30" file="IrRanger.cpp" linenr="15" str="Publisher" scope="0x10d80d0" type="name"/>
+    <token id="0x10d8de0" file="IrRanger.cpp" linenr="15" str="pub_range" scope="0x10d80d0" type="name" varId="3" variable="0x10e64b0" astParent="0x10d8c80"/>
+    <token id="0x10d8e90" file="IrRanger.cpp" linenr="15" str="(" scope="0x10d80d0" link="0x10dbf10" astOperand1="0x10d8c80" astOperand2="0x10d8ff0"/>
+    <token id="0x10d8f40" file="IrRanger.cpp" linenr="15" str="&quot;range_data&quot;" scope="0x10d80d0" type="string" strlen="10" values="0x10d8f48" astParent="0x10d8ff0"/>
+    <token id="0x10d8ff0" file="IrRanger.cpp" linenr="15" str="," scope="0x10d80d0" astParent="0x10d8e90" astOperand1="0x10d8f40" astOperand2="0x10dbdb0"/>
+    <token id="0x10dbdb0" file="IrRanger.cpp" linenr="15" str="&amp;" scope="0x10d80d0" type="op" astParent="0x10d8ff0" astOperand1="0x10dbe60"/>
+    <token id="0x10dbe60" file="IrRanger.cpp" linenr="15" str="range_msg" scope="0x10d80d0" type="name" varId="2" variable="0x10e6440" astParent="0x10dbdb0"/>
+    <token id="0x10dbf10" file="IrRanger.cpp" linenr="15" str=")" scope="0x10d80d0" link="0x10d8e90"/>
+    <token id="0x10dbfc0" file="IrRanger.cpp" linenr="15" str=";" scope="0x10d80d0"/>
+    <token id="0x10dc070" file="IrRanger.cpp" linenr="18" str="PinName" scope="0x10d80d0" type="name"/>
+    <token id="0x10dc120" file="IrRanger.cpp" linenr="18" str="analog_pin" scope="0x10d80d0" type="name" varId="4" variable="0x10e6520"/>
+    <token id="0x10dc1d0" file="IrRanger.cpp" linenr="18" str=";" scope="0x10d80d0"/>
+    <token id="0x10e5310" file="IrRanger.cpp" linenr="18" str="analog_pin" scope="0x10d80d0" type="name" varId="4" variable="0x10e6520" astParent="0x10e4f50"/>
+    <token id="0x10e4f50" file="IrRanger.cpp" linenr="18" str="=" scope="0x10d80d0" type="op" isAssignmentOp="True" astOperand1="0x10e5310" astOperand2="0x10dc280"/>
+    <token id="0x10dc280" file="IrRanger.cpp" linenr="18" str="p20" scope="0x10d80d0" type="name" astParent="0x10e4f50"/>
+    <token id="0x10dc330" file="IrRanger.cpp" linenr="18" str=";" scope="0x10d80d0"/>
+    <token id="0x10dc3e0" file="IrRanger.cpp" linenr="24" str="long" scope="0x10d80d0" type="name"/>
+    <token id="0x10dc540" file="IrRanger.cpp" linenr="24" str="range_timer" scope="0x10d80d0" type="name" varId="5" variable="0x10e6590"/>
+    <token id="0x10dc5f0" file="IrRanger.cpp" linenr="24" str=";" scope="0x10d80d0"/>
+    <token id="0x10dc6a0" file="IrRanger.cpp" linenr="30" str="float" scope="0x10d80d0" type="name"/>
+    <token id="0x10dc750" file="IrRanger.cpp" linenr="30" str="getRange" scope="0x10d80d0" type="name" function="0x10d8200" astParent="0x10dcbb0"/>
+    <token id="0x10dcbb0" file="IrRanger.cpp" linenr="30" str="(" scope="0x10d80d0" link="0x10dcdc0" astOperand1="0x10dc750" astOperand2="0x10dcd10"/>
+    <token id="0x10dcc60" file="IrRanger.cpp" linenr="30" str="PinName" scope="0x10d80d0" type="name"/>
+    <token id="0x10dcd10" file="IrRanger.cpp" linenr="30" str="pin_num" scope="0x10d80d0" type="name" varId="6" variable="0x10e6750" astParent="0x10dcbb0"/>
+    <token id="0x10dcdc0" file="IrRanger.cpp" linenr="30" str=")" scope="0x10d80d0" link="0x10dcbb0"/>
+    <token id="0x10dce70" file="IrRanger.cpp" linenr="30" str="{" scope="0x10e53d0" link="0x10ded60"/>
+    <token id="0x10dcf20" file="IrRanger.cpp" linenr="31" str="int" scope="0x10e53d0" type="name"/>
+    <token id="0x10dcfd0" file="IrRanger.cpp" linenr="31" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0"/>
+    <token id="0x10dd080" file="IrRanger.cpp" linenr="31" str=";" scope="0x10e53d0"/>
+    <token id="0x10dd130" file="IrRanger.cpp" linenr="33" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0" astParent="0x10dd1e0"/>
+    <token id="0x10dd1e0" file="IrRanger.cpp" linenr="33" str="=" scope="0x10e53d0" type="op" isAssignmentOp="True" astOperand1="0x10dd130" astOperand2="0x10dd810"/>
+    <token id="0x10dd290" file="IrRanger.cpp" linenr="33" str="AnalogIn" scope="0x10e53d0" type="name" astParent="0x10dd340"/>
+    <token id="0x10dd340" file="IrRanger.cpp" linenr="33" str="(" scope="0x10e53d0" link="0x10dd4a0" astParent="0x10dd550" astOperand1="0x10dd290" astOperand2="0x10dd3f0"/>
+    <token id="0x10dd3f0" file="IrRanger.cpp" linenr="33" str="pin_num" scope="0x10e53d0" type="name" varId="6" variable="0x10e6750" astParent="0x10dd340"/>
+    <token id="0x10dd4a0" file="IrRanger.cpp" linenr="33" str=")" scope="0x10e53d0" link="0x10dd340"/>
+    <token id="0x10dd550" file="IrRanger.cpp" linenr="33" str="." scope="0x10e53d0" astParent="0x10dd6b0" astOperand1="0x10dd340" astOperand2="0x10dd600"/>
+    <token id="0x10dd600" file="IrRanger.cpp" linenr="33" str="read_u16" scope="0x10e53d0" type="name" astParent="0x10dd550"/>
+    <token id="0x10dd6b0" file="IrRanger.cpp" linenr="33" str="(" scope="0x10e53d0" link="0x10dd760" astParent="0x10dd810" astOperand1="0x10dd550"/>
+    <token id="0x10dd760" file="IrRanger.cpp" linenr="33" str=")" scope="0x10e53d0" link="0x10dd6b0"/>
+    <token id="0x10dd810" file="IrRanger.cpp" linenr="33" str="/" scope="0x10e53d0" type="op" isArithmeticalOp="True" astParent="0x10dd1e0" astOperand1="0x10dd6b0" astOperand2="0x10dd8c0"/>
+    <token id="0x10dd8c0" file="IrRanger.cpp" linenr="33" str="4" scope="0x10e53d0" type="number" isInt="True" values="0x10dd8c8" astParent="0x10dd810"/>
+    <token id="0x10dd970" file="IrRanger.cpp" linenr="33" str=";" scope="0x10e53d0"/>
+    <token id="0x10dda20" file="IrRanger.cpp" linenr="36" str="if" scope="0x10e53d0" type="name" astParent="0x10ddad0"/>
+    <token id="0x10ddad0" file="IrRanger.cpp" linenr="36" str="(" scope="0x10e53d0" link="0x10ddd90" astOperand1="0x10dda20" astOperand2="0x10ddc30"/>
+    <token id="0x10ddb80" file="IrRanger.cpp" linenr="36" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0" astParent="0x10ddc30"/>
+    <token id="0x10ddc30" file="IrRanger.cpp" linenr="36" str="&lt;" scope="0x10e53d0" type="op" isComparisonOp="True" astParent="0x10ddad0" astOperand1="0x10ddb80" astOperand2="0x10ddce0"/>
+    <token id="0x10ddce0" file="IrRanger.cpp" linenr="36" str="10" scope="0x10e53d0" type="number" isInt="True" values="0x10ddce8" astParent="0x10ddc30"/>
+    <token id="0x10ddd90" file="IrRanger.cpp" linenr="36" str=")" scope="0x10e53d0" link="0x10ddad0"/>
+    <token id="0x10e51b0" file="IrRanger.cpp" linenr="36" str="{" scope="0x10e5e70" link="0x10e5260"/>
+    <token id="0x10dde40" file="IrRanger.cpp" linenr="37" str="return" scope="0x10e5e70" type="name" astOperand1="0x10ddef0"/>
+    <token id="0x10ddef0" file="IrRanger.cpp" linenr="37" str="254" scope="0x10e5e70" type="number" isInt="True" values="0x10ddef8" astParent="0x10dde40"/>
+    <token id="0x10ddfa0" file="IrRanger.cpp" linenr="37" str=";" scope="0x10e5e70"/>
+    <token id="0x10e5260" file="IrRanger.cpp" linenr="37" str="}" scope="0x10e5e70" link="0x10e51b0"/>
+    <token id="0x10de050" file="IrRanger.cpp" linenr="39" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0" astParent="0x10de100"/>
+    <token id="0x10de100" file="IrRanger.cpp" linenr="39" str="=" scope="0x10e53d0" type="op" isAssignmentOp="True" astOperand1="0x10de050" astOperand2="0x10de260"/>
+    <token id="0x10de1b0" file="IrRanger.cpp" linenr="39" str="1309" scope="0x10e53d0" type="number" isInt="True" values="0x10de1b8" astParent="0x10de260"/>
+    <token id="0x10de260" file="IrRanger.cpp" linenr="39" str="/" scope="0x10e53d0" type="op" isArithmeticalOp="True" astParent="0x10de100" astOperand1="0x10de1b0" astOperand2="0x10de470"/>
+    <token id="0x10de310" file="IrRanger.cpp" linenr="39" str="(" scope="0x10e53d0" link="0x10de5d0"/>
+    <token id="0x10de3c0" file="IrRanger.cpp" linenr="39" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0" astParent="0x10de470"/>
+    <token id="0x10de470" file="IrRanger.cpp" linenr="39" str="-" scope="0x10e53d0" type="op" isArithmeticalOp="True" astParent="0x10de260" astOperand1="0x10de3c0" astOperand2="0x10de520"/>
+    <token id="0x10de520" file="IrRanger.cpp" linenr="39" str="3" scope="0x10e53d0" type="number" isInt="True" values="0x10de528" astParent="0x10de470"/>
+    <token id="0x10de5d0" file="IrRanger.cpp" linenr="39" str=")" scope="0x10e53d0" link="0x10de310"/>
+    <token id="0x10de680" file="IrRanger.cpp" linenr="39" str=";" scope="0x10e53d0"/>
+    <token id="0x10de730" file="IrRanger.cpp" linenr="40" str="return" scope="0x10e53d0" type="name" astOperand1="0x10deb50"/>
+    <token id="0x10de7e0" file="IrRanger.cpp" linenr="40" str="(" scope="0x10e53d0" link="0x10deaa0"/>
+    <token id="0x10de890" file="IrRanger.cpp" linenr="40" str="sample" scope="0x10e53d0" type="name" varId="7" variable="0x10e66e0" astParent="0x10de940"/>
+    <token id="0x10de940" file="IrRanger.cpp" linenr="40" str="-" scope="0x10e53d0" type="op" isArithmeticalOp="True" astParent="0x10deb50" astOperand1="0x10de890" astOperand2="0x10de9f0"/>
+    <token id="0x10de9f0" file="IrRanger.cpp" linenr="40" str="1" scope="0x10e53d0" type="number" isInt="True" values="0x10de9f8" astParent="0x10de940"/>
+    <token id="0x10deaa0" file="IrRanger.cpp" linenr="40" str=")" scope="0x10e53d0" link="0x10de7e0"/>
+    <token id="0x10deb50" file="IrRanger.cpp" linenr="40" str="/" scope="0x10e53d0" type="op" isArithmeticalOp="True" astParent="0x10de730" astOperand1="0x10de940" astOperand2="0x10dec00"/>
+    <token id="0x10dec00" file="IrRanger.cpp" linenr="40" str="100" scope="0x10e53d0" type="number" isInt="True" values="0x10dec08" astParent="0x10deb50"/>
+    <token id="0x10decb0" file="IrRanger.cpp" linenr="40" str=";" scope="0x10e53d0"/>
+    <token id="0x10ded60" file="IrRanger.cpp" linenr="41" str="}" scope="0x10e53d0" link="0x10dce70"/>
+    <token id="0x10dee10" file="IrRanger.cpp" linenr="43" str="char" scope="0x10d80d0" type="name"/>
+    <token id="0x10deec0" file="IrRanger.cpp" linenr="43" str="frameid" scope="0x10d80d0" type="name" varId="8" variable="0x10e6600" astParent="0x10def70"/>
+    <token id="0x10def70" file="IrRanger.cpp" linenr="43" str="[" scope="0x10d80d0" link="0x10df020" astParent="0x10df0d0" astOperand1="0x10deec0" astOperand2="0x10e4cf0"/>
+    <token id="0x10e4cf0" file="IrRanger.cpp" linenr="43" str="11" scope="0x10d80d0" type="number" isInt="True" values="0x10e4cf8" astParent="0x10def70"/>
+    <token id="0x10df020" file="IrRanger.cpp" linenr="43" str="]" scope="0x10d80d0" link="0x10def70"/>
+    <token id="0x10df0d0" file="IrRanger.cpp" linenr="43" str="=" scope="0x10d80d0" type="op" isAssignmentOp="True" astOperand1="0x10def70" astOperand2="0x10df180"/>
+    <token id="0x10df180" file="IrRanger.cpp" linenr="43" str="&quot;/ir_ranger&quot;" scope="0x10d80d0" type="string" strlen="10" values="0x10df188" astParent="0x10df0d0"/>
+    <token id="0x10df230" file="IrRanger.cpp" linenr="43" str=";" scope="0x10d80d0"/>
+    <token id="0x10df2e0" file="IrRanger.cpp" linenr="45" str="Timer" scope="0x10d80d0" type="name"/>
+    <token id="0x10df390" file="IrRanger.cpp" linenr="45" str="t" scope="0x10d80d0" type="name" varId="9" variable="0x10e6670"/>
+    <token id="0x10df440" file="IrRanger.cpp" linenr="45" str=";" scope="0x10d80d0"/>
+    <token id="0x10df4f0" file="IrRanger.cpp" linenr="46" str="int" scope="0x10d80d0" type="name"/>
+    <token id="0x10df5a0" file="IrRanger.cpp" linenr="46" str="main" scope="0x10d80d0" type="name" function="0x10e5fa0" astParent="0x10df650"/>
+    <token id="0x10df650" file="IrRanger.cpp" linenr="46" str="(" scope="0x10d80d0" link="0x10df700" astOperand1="0x10df5a0"/>
+    <token id="0x10df700" file="IrRanger.cpp" linenr="46" str=")" scope="0x10d80d0" link="0x10df650"/>
+    <token id="0x10df7b0" file="IrRanger.cpp" linenr="46" str="{" scope="0x10e6040" link="0x10e4c40"/>
+    <token id="0x10df860" file="IrRanger.cpp" linenr="47" str="t" scope="0x10e6040" type="name" varId="9" variable="0x10e6670" astParent="0x10df910"/>
+    <token id="0x10df910" file="IrRanger.cpp" linenr="47" str="." scope="0x10e6040" astParent="0x10dfa70" astOperand1="0x10df860" astOperand2="0x10df9c0"/>
+    <token id="0x10df9c0" file="IrRanger.cpp" linenr="47" str="start" scope="0x10e6040" type="name" astParent="0x10df910"/>
+    <token id="0x10dfa70" file="IrRanger.cpp" linenr="47" str="(" scope="0x10e6040" link="0x10dfb20" astOperand1="0x10df910"/>
+    <token id="0x10dfb20" file="IrRanger.cpp" linenr="47" str=")" scope="0x10e6040" link="0x10dfa70"/>
+    <token id="0x10dfbd0" file="IrRanger.cpp" linenr="47" str=";" scope="0x10e6040"/>
+    <token id="0x10dfc80" file="IrRanger.cpp" linenr="48" str="nh" scope="0x10e6040" type="name" varId="1" variable="0x10e63d0" astParent="0x10dfd30"/>
+    <token id="0x10dfd30" file="IrRanger.cpp" linenr="48" str="." scope="0x10e6040" astParent="0x10dfe90" astOperand1="0x10dfc80" astOperand2="0x10dfde0"/>
+    <token id="0x10dfde0" file="IrRanger.cpp" linenr="48" str="initNode" scope="0x10e6040" type="name" astParent="0x10dfd30"/>
+    <token id="0x10dfe90" file="IrRanger.cpp" linenr="48" str="(" scope="0x10e6040" link="0x10dff40" astOperand1="0x10dfd30"/>
+    <token id="0x10dff40" file="IrRanger.cpp" linenr="48" str=")" scope="0x10e6040" link="0x10dfe90"/>
+    <token id="0x10dfff0" file="IrRanger.cpp" linenr="48" str=";" scope="0x10e6040"/>
+    <token id="0x10e00a0" file="IrRanger.cpp" linenr="49" str="nh" scope="0x10e6040" type="name" varId="1" variable="0x10e63d0" astParent="0x10e0150"/>
+    <token id="0x10e0150" file="IrRanger.cpp" linenr="49" str="." scope="0x10e6040" astParent="0x10e02b0" astOperand1="0x10e00a0" astOperand2="0x10e0200"/>
+    <token id="0x10e0200" file="IrRanger.cpp" linenr="49" str="advertise" scope="0x10e6040" type="name" astParent="0x10e0150"/>
+    <token id="0x10e02b0" file="IrRanger.cpp" linenr="49" str="(" scope="0x10e6040" link="0x10e0410" astOperand1="0x10e0150" astOperand2="0x10e0360"/>
+    <token id="0x10e0360" file="IrRanger.cpp" linenr="49" str="pub_range" scope="0x10e6040" type="name" varId="3" variable="0x10e64b0" astParent="0x10e02b0"/>
+    <token id="0x10e0410" file="IrRanger.cpp" linenr="49" str=")" scope="0x10e6040" link="0x10e02b0"/>
+    <token id="0x10e04c0" file="IrRanger.cpp" linenr="49" str=";" scope="0x10e6040"/>
+    <token id="0x10e0570" file="IrRanger.cpp" linenr="51" str="range_msg" scope="0x10e6040" type="name" varId="2" variable="0x10e6440" astParent="0x10e0620"/>
+    <token id="0x10e0620" file="IrRanger.cpp" linenr="51" str="." scope="0x10e6040" astParent="0x10e0780" astOperand1="0x10e0570" astOperand2="0x10e06d0"/>
+    <token id="0x10e06d0" file="IrRanger.cpp" linenr="51" str="radiation_type" scope="0x10e6040" type="name" varId="10" astParent="0x10e0620"/>
+    <token id="0x10e0780" file="IrRanger.cpp" linenr="51" str="=" scope="0x10e6040" type="op" isAssignmentOp="True" astOperand1="0x10e0620" astOperand2="0x10e0a40"/>
+    <token id="0x10e0830" file="IrRanger.cpp" linenr="51" str="sensor_msgs" scope="0x10e6040" type="name" astParent="0x10e08e0"/>
+    <token id="0x10e08e0" file="IrRanger.cpp" linenr="51" str="::" scope="0x10e6040" astParent="0x10e0a40" astOperand1="0x10e0830" astOperand2="0x10e0990"/>
+    <token id="0x10e0990" file="IrRanger.cpp" linenr="51" str="Range" scope="0x10e6040" type="name" astParent="0x10e08e0"/>
+    <token id="0x10e0a40" file="IrRanger.cpp" linenr="51" str="::" scope="0x10e6040" astParent="0x10e0780" astOperand1="0x10e08e0" astOperand2="0x10e0af0"/>
+    <token id="0x10e0af0" file="IrRanger.cpp" linenr="51" str="INFRARED" scope="0x10e6040" type="name" astParent="0x10e0a40"/>
+    <token id="0x10e0ba0" file="IrRanger.cpp" linenr="51" str=";" scope="0x10e6040"/>
+    <token id="0x10e0c50" file="IrRanger.cpp" linenr="52" str="range_msg" scope="0x10e6040" type="name" varId="2" variable="0x10e6440" astParent="0x10e0d00"/>
+    <token id="0x10e0d00" file="IrRanger.cpp" linenr="52" str="." scope="0x10e6040" astParent="0x10e0e60" astOperand1="0x10e0c50" astOperand2="0x10e0db0"/>
+    <token id="0x10e0db0" file="IrRanger.cpp" linenr="52" str="header" scope="0x10e6040" type="name" varId="11" astParent="0x10e0d00"/>
+    <token id="0x10e0e60" file="IrRanger.cpp" linenr="52" str="." scope="0x10e6040" astParent="0x10e0fc0" astOperand1="0x10e0d00" astOperand2="0x10e0f10"/>
+    <token id="0x10e0f10" file="IrRanger.cpp" linenr="52" str="frame_id" scope="0x10e6040" type="name" varId="12" astParent="0x10e0e60"/>
+    <token id="0x10e0fc0" file="IrRanger.cpp" linenr="52" str="=" scope="0x10e6040" type="op" isAssignmentOp="True" astOperand1="0x10e0e60" astOperand2="0x10e1070"/>
+    <token id="0x10e1070" file="IrRanger.cpp" linenr="52" str="frameid" scope="0x10e6040" type="name" varId="8" variable="0x10e6600" astParent="0x10e0fc0"/>
+    <token id="0x10e1120" file="IrRanger.cpp" linenr="52" str=";" scope="0x10e6040"/>
+    <token id="0x10e11d0" file="IrRanger.cpp" linenr="53" str="range_msg" scope="0x10e6040" type="name" varId="2" variable="0x10e6440" astParent="0x10e1280"/>
+    <token id="0x10e1280" file="IrRanger.cpp" linenr="53" str="." scope="0x10e6040" astParent="0x10e13e0" astOperand1="0x10e11d0" astOperand2="0x10e1330"/>
+    <token id="0x10e1330" file="IrRanger.cpp" linenr="53" str="field_of_view" scope="0x10e6040" type="name" varId="13" astParent="0x10e1280"/>
+    <token id="0x10e13e0" file="IrRanger.cpp" linenr="53" str="=" scope="0x10e6040" type="op" isAssignmentOp="True" astOperand1="0x10e1280" astOperand2="0x10e1490"/>
+    <token id="0x10e1490" file="IrRanger.cpp" linenr="53" str="0.01" scope="0x10e6040" type="number" isFloat="True" astParent="0x10e13e0"/>
+    <token id="0x10e1540" file="IrRanger.cpp" linenr="53" str=";" scope="0x10e6040"/>
+    <token id="0x10e15f0" file="IrRanger.cpp" linenr="54" str="range_msg" scope="0x10e6040" type="name" varId="2" variable="0x10e6440" astParent="0x10e16a0"/>
+    <token id="0x10e16a0" file="IrRanger.cpp" linenr="54" str="." scope="0x10e6040" astParent="0x10e1800" astOperand1="0x10e15f0" astOperand2="0x10e1750"/>
+    <token id="0x10e1750" file="IrRanger.cpp" linenr="54" str="min_range" scope="0x10e6040" type="name" varId="14" astParent="0x10e16a0"/>
+    <token id="0x10e1800" file="IrRanger.cpp" linenr="54" str="=" scope="0x10e6040" type="op" isAssignmentOp="True" astOperand1="0x10e16a0" astOperand2="0x10e18b0"/>
+    <token id="0x10e18b0" file="IrRanger.cpp" linenr="54" str="0.03" scope="0x10e6040" type="number" isFloat="True" astParent="0x10e1800"/>
+    <token id="0x10e1960" file="IrRanger.cpp" linenr="54" str=";" scope="0x10e6040"/>
+    <token id="0x10e1a10" file="IrRanger.cpp" linenr="55" str="range_msg" scope="0x10e6040" type="name" varId="2" variable="0x10e6440" astParent="0x10e1ac0"/>
+    <token id="0x10e1ac0" file="IrRanger.cpp" linenr="55" str="." scope="0x10e6040" astParent="0x10e1c20" astOperand1="0x10e1a10" astOperand2="0x10e1b70"/>
+    <token id="0x10e1b70" file="IrRanger.cpp" linenr="55" str="max_range" scope="0x10e6040" type="name" varId="15" astParent="0x10e1ac0"/>
+    <token id="0x10e1c20" file="IrRanger.cpp" linenr="55" str="=" scope="0x10e6040" type="op" isAssignmentOp="True" astOperand1="0x10e1ac0" astOperand2="0x10e1cd0"/>
+    <token id="0x10e1cd0" file="IrRanger.cpp" linenr="55" str="0.4" scope="0x10e6040" type="number" isFloat="True" astParent="0x10e1c20"/>
+    <token id="0x10e1d80" file="IrRanger.cpp" linenr="55" str=";" scope="0x10e6040"/>
+    <token id="0x10e1e30" file="IrRanger.cpp" linenr="57" str="while" scope="0x10e6040" type="name" astParent="0x10e1ee0"/>
+    <token id="0x10e1ee0" file="IrRanger.cpp" linenr="57" str="(" scope="0x10e6040" link="0x10e2040" astOperand1="0x10e1e30" astOperand2="0x10e1f90"/>
+    <token id="0x10e1f90" file="IrRanger.cpp" linenr="57" str="1" scope="0x10e6040" type="number" isInt="True" values="0x10e1f98" astParent="0x10e1ee0"/>
+    <token id="0x10e2040" file="IrRanger.cpp" linenr="57" str=")" scope="0x10e6040" link="0x10e1ee0"/>
+    <token id="0x10e20f0" file="IrRanger.cpp" linenr="57" str="{" scope="0x10e6170" link="0x10e4b90"/>
+    <token id="0x10e21a0" file="IrRanger.cpp" linenr="60" str="if" scope="0x10e6170" type="name" astParent="0x10e2250"/>
+    <token id="0x10e2250" file="IrRanger.cpp" linenr="60" str="(" scope="0x10e6170" link="0x10e2a90" astOperand1="0x10e21a0" astOperand2="0x10e2930"/>
+    <token id="0x10e2300" file="IrRanger.cpp" linenr="60" str="(" scope="0x10e6170" link="0x10e2880"/>
+    <token id="0x10e23b0" file="IrRanger.cpp" linenr="60" str="t" scope="0x10e6170" type="name" varId="9" variable="0x10e6670" astParent="0x10e2460"/>
+    <token id="0x10e2460" file="IrRanger.cpp" linenr="60" str="." scope="0x10e6170" astParent="0x10e25c0" astOperand1="0x10e23b0" astOperand2="0x10e2510"/>
+    <token id="0x10e2510" file="IrRanger.cpp" linenr="60" str="read_ms" scope="0x10e6170" type="name" astParent="0x10e2460"/>
+    <token id="0x10e25c0" file="IrRanger.cpp" linenr="60" str="(" scope="0x10e6170" link="0x10e2670" astParent="0x10e2720" astOperand1="0x10e2460"/>
+    <token id="0x10e2670" file="IrRanger.cpp" linenr="60" str=")" scope="0x10e6170" link="0x10e25c0"/>
+    <token id="0x10e2720" file="IrRanger.cpp" linenr="60" str="-" scope="0x10e6170" type="op" isArithmeticalOp="True" astParent="0x10e2930" astOperand1="0x10e25c0" astOperand2="0x10e27d0"/>
+    <token id="0x10e27d0" file="IrRanger.cpp" linenr="60" str="range_timer" scope="0x10e6170" type="name" varId="5" variable="0x10e6590" astParent="0x10e2720"/>
+    <token id="0x10e2880" file="IrRanger.cpp" linenr="60" str=")" scope="0x10e6170" link="0x10e2300"/>
+    <token id="0x10e2930" file="IrRanger.cpp" linenr="60" str="&gt;" scope="0x10e6170" type="op" isComparisonOp="True" astParent="0x10e2250" astOperand1="0x10e2720" astOperand2="0x10e29e0"/>
+    <token id="0x10e29e0" file="IrRanger.cpp" linenr="60" str="50" scope="0x10e6170" type="number" isInt="True" values="0x10e29e8" astParent="0x10e2930"/>
+    <token id="0x10e2a90" file="IrRanger.cpp" linenr="60" str=")" scope="0x10e6170" link="0x10e2250"/>
+    <token id="0x10e2b40" file="IrRanger.cpp" linenr="60" str="{" scope="0x10e62a0" link="0x10e46c0"/>
+    <token id="0x10e2bf0" file="IrRanger.cpp" linenr="61" str="range_msg" scope="0x10e62a0" type="name" varId="2" variable="0x10e6440" astParent="0x10e2ca0"/>
+    <token id="0x10e2ca0" file="IrRanger.cpp" linenr="61" str="." scope="0x10e62a0" astParent="0x10e2e00" astOperand1="0x10e2bf0" astOperand2="0x10e2d50"/>
+    <token id="0x10e2d50" file="IrRanger.cpp" linenr="61" str="range" scope="0x10e62a0" type="name" varId="16" astParent="0x10e2ca0"/>
+    <token id="0x10e2e00" file="IrRanger.cpp" linenr="61" str="=" scope="0x10e62a0" type="op" isAssignmentOp="True" astOperand1="0x10e2ca0" astOperand2="0x10e2f60"/>
+    <token id="0x10e2eb0" file="IrRanger.cpp" linenr="61" str="getRange" scope="0x10e62a0" type="name" function="0x10d8200" astParent="0x10e2f60"/>
+    <token id="0x10e2f60" file="IrRanger.cpp" linenr="61" str="(" scope="0x10e62a0" link="0x10e30c0" astParent="0x10e2e00" astOperand1="0x10e2eb0" astOperand2="0x10e3010"/>
+    <token id="0x10e3010" file="IrRanger.cpp" linenr="61" str="analog_pin" scope="0x10e62a0" type="name" varId="4" variable="0x10e6520" astParent="0x10e2f60"/>
+    <token id="0x10e30c0" file="IrRanger.cpp" linenr="61" str=")" scope="0x10e62a0" link="0x10e2f60"/>
+    <token id="0x10e3170" file="IrRanger.cpp" linenr="61" str=";" scope="0x10e62a0"/>
+    <token id="0x10e3220" file="IrRanger.cpp" linenr="62" str="range_msg" scope="0x10e62a0" type="name" varId="2" variable="0x10e6440" astParent="0x10e32d0"/>
+    <token id="0x10e32d0" file="IrRanger.cpp" linenr="62" str="." scope="0x10e62a0" astParent="0x10e3430" astOperand1="0x10e3220" astOperand2="0x10e3380"/>
+    <token id="0x10e3380" file="IrRanger.cpp" linenr="62" str="header" scope="0x10e62a0" type="name" varId="11" astParent="0x10e32d0"/>
+    <token id="0x10e3430" file="IrRanger.cpp" linenr="62" str="." scope="0x10e62a0" astParent="0x10e3590" astOperand1="0x10e32d0" astOperand2="0x10e34e0"/>
+    <token id="0x10e34e0" file="IrRanger.cpp" linenr="62" str="stamp" scope="0x10e62a0" type="name" varId="17" astParent="0x10e3430"/>
+    <token id="0x10e3590" file="IrRanger.cpp" linenr="62" str="=" scope="0x10e62a0" type="op" isAssignmentOp="True" astOperand1="0x10e3430" astOperand2="0x10e3850"/>
+    <token id="0x10e3640" file="IrRanger.cpp" linenr="62" str="nh" scope="0x10e62a0" type="name" varId="1" variable="0x10e63d0" astParent="0x10e36f0"/>
+    <token id="0x10e36f0" file="IrRanger.cpp" linenr="62" str="." scope="0x10e62a0" astParent="0x10e3850" astOperand1="0x10e3640" astOperand2="0x10e37a0"/>
+    <token id="0x10e37a0" file="IrRanger.cpp" linenr="62" str="now" scope="0x10e62a0" type="name" astParent="0x10e36f0"/>
+    <token id="0x10e3850" file="IrRanger.cpp" linenr="62" str="(" scope="0x10e62a0" link="0x10e3900" astParent="0x10e3590" astOperand1="0x10e36f0"/>
+    <token id="0x10e3900" file="IrRanger.cpp" linenr="62" str=")" scope="0x10e62a0" link="0x10e3850"/>
+    <token id="0x10e39b0" file="IrRanger.cpp" linenr="62" str=";" scope="0x10e62a0"/>
+    <token id="0x10e3a60" file="IrRanger.cpp" linenr="63" str="pub_range" scope="0x10e62a0" type="name" varId="3" variable="0x10e64b0" astParent="0x10e3b10"/>
+    <token id="0x10e3b10" file="IrRanger.cpp" linenr="63" str="." scope="0x10e62a0" astParent="0x10e3c70" astOperand1="0x10e3a60" astOperand2="0x10e3bc0"/>
+    <token id="0x10e3bc0" file="IrRanger.cpp" linenr="63" str="publish" scope="0x10e62a0" type="name" astParent="0x10e3b10"/>
+    <token id="0x10e3c70" file="IrRanger.cpp" linenr="63" str="(" scope="0x10e62a0" link="0x10e3e80" astOperand1="0x10e3b10" astOperand2="0x10e3d20"/>
+    <token id="0x10e3d20" file="IrRanger.cpp" linenr="63" str="&amp;" scope="0x10e62a0" type="op" astParent="0x10e3c70" astOperand1="0x10e3dd0"/>
+    <token id="0x10e3dd0" file="IrRanger.cpp" linenr="63" str="range_msg" scope="0x10e62a0" type="name" varId="2" variable="0x10e6440" astParent="0x10e3d20"/>
+    <token id="0x10e3e80" file="IrRanger.cpp" linenr="63" str=")" scope="0x10e62a0" link="0x10e3c70"/>
+    <token id="0x10e3f30" file="IrRanger.cpp" linenr="63" str=";" scope="0x10e62a0"/>
+    <token id="0x10e3fe0" file="IrRanger.cpp" linenr="64" str="range_timer" scope="0x10e62a0" type="name" varId="5" variable="0x10e6590" astParent="0x10e4090"/>
+    <token id="0x10e4090" file="IrRanger.cpp" linenr="64" str="=" scope="0x10e62a0" type="op" isAssignmentOp="True" astOperand1="0x10e3fe0" astOperand2="0x10e44b0"/>
+    <token id="0x10e4140" file="IrRanger.cpp" linenr="64" str="t" scope="0x10e62a0" type="name" varId="9" variable="0x10e6670" astParent="0x10e41f0"/>
+    <token id="0x10e41f0" file="IrRanger.cpp" linenr="64" str="." scope="0x10e62a0" astParent="0x10e4350" astOperand1="0x10e4140" astOperand2="0x10e42a0"/>
+    <token id="0x10e42a0" file="IrRanger.cpp" linenr="64" str="read_ms" scope="0x10e62a0" type="name" astParent="0x10e41f0"/>
+    <token id="0x10e4350" file="IrRanger.cpp" linenr="64" str="(" scope="0x10e62a0" link="0x10e4400" astParent="0x10e44b0" astOperand1="0x10e41f0"/>
+    <token id="0x10e4400" file="IrRanger.cpp" linenr="64" str=")" scope="0x10e62a0" link="0x10e4350"/>
+    <token id="0x10e44b0" file="IrRanger.cpp" linenr="64" str="+" scope="0x10e62a0" type="op" isArithmeticalOp="True" astParent="0x10e4090" astOperand1="0x10e4350" astOperand2="0x10e4560"/>
+    <token id="0x10e4560" file="IrRanger.cpp" linenr="64" str="50" scope="0x10e62a0" type="number" isInt="True" values="0x10e4568" astParent="0x10e44b0"/>
+    <token id="0x10e4610" file="IrRanger.cpp" linenr="64" str=";" scope="0x10e62a0"/>
+    <token id="0x10e46c0" file="IrRanger.cpp" linenr="65" str="}" scope="0x10e62a0" link="0x10e2b40"/>
+    <token id="0x10e4770" file="IrRanger.cpp" linenr="66" str="nh" scope="0x10e6170" type="name" varId="1" variable="0x10e63d0" astParent="0x10e4820"/>
+    <token id="0x10e4820" file="IrRanger.cpp" linenr="66" str="." scope="0x10e6170" astParent="0x10e4980" astOperand1="0x10e4770" astOperand2="0x10e48d0"/>
+    <token id="0x10e48d0" file="IrRanger.cpp" linenr="66" str="spinOnce" scope="0x10e6170" type="name" astParent="0x10e4820"/>
+    <token id="0x10e4980" file="IrRanger.cpp" linenr="66" str="(" scope="0x10e6170" link="0x10e4a30" astOperand1="0x10e4820"/>
+    <token id="0x10e4a30" file="IrRanger.cpp" linenr="66" str=")" scope="0x10e6170" link="0x10e4980"/>
+    <token id="0x10e4ae0" file="IrRanger.cpp" linenr="66" str=";" scope="0x10e6170"/>
+    <token id="0x10e4b90" file="IrRanger.cpp" linenr="67" str="}" scope="0x10e6170" link="0x10e20f0"/>
+    <token id="0x10e4c40" file="IrRanger.cpp" linenr="68" str="}" scope="0x10e6040" link="0x10df7b0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x10d80d0" type="Global">
+      <functionList>
+        <function id="0x10d8200" tokenDef="0x10dc750" name="getRange">
+          <arg nr="1" variable="0x10e6750"/>
+        </function>
+        <function id="0x10e5fa0" tokenDef="0x10df5a0" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x10e63d0"/>
+        <var id="0x10e6440"/>
+        <var id="0x10e64b0"/>
+        <var id="0x10e6520"/>
+        <var id="0x10e6590"/>
+        <var id="0x10e6600"/>
+        <var id="0x10e6670"/>
+      </varlist>
+    </scope>
+    <scope id="0x10e53d0" type="Function" className="getRange" classStart="0x10dce70" classEnd="0x10ded60" nestedIn="0x10d80d0" function="0x10d8200">
+      <varlist>
+        <var id="0x10e66e0"/>
+      </varlist>
+    </scope>
+    <scope id="0x10e5e70" type="If" classStart="0x10e51b0" classEnd="0x10e5260" nestedIn="0x10e53d0"/>
+    <scope id="0x10e6040" type="Function" className="main" classStart="0x10df7b0" classEnd="0x10e4c40" nestedIn="0x10d80d0" function="0x10e5fa0"/>
+    <scope id="0x10e6170" type="While" classStart="0x10e20f0" classEnd="0x10e4b90" nestedIn="0x10e6040"/>
+    <scope id="0x10e62a0" type="If" classStart="0x10e2b40" classEnd="0x10e46c0" nestedIn="0x10e6170"/>
+  </scopes>
+  <variables>
+    <var id="0x10e63d0" nameToken="0x10d8530" typeStartToken="0x10d90e0" typeEndToken="0x10d92b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6440" nameToken="0x10d8a70" typeStartToken="0x10d8690" typeEndToken="0x10d87f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e64b0" nameToken="0x10d8de0" typeStartToken="0x10d8bd0" typeEndToken="0x10d8d30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6520" nameToken="0x10dc120" typeStartToken="0x10dc070" typeEndToken="0x10dc070" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6590" nameToken="0x10dc540" typeStartToken="0x10dc3e0" typeEndToken="0x10dc3e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6750" nameToken="0x10dcd10" typeStartToken="0x10dcc60" typeEndToken="0x10dcc60" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e66e0" nameToken="0x10dcfd0" typeStartToken="0x10dcf20" typeEndToken="0x10dcf20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6600" nameToken="0x10deec0" typeStartToken="0x10dee10" typeEndToken="0x10dee10" isArgument="false" isArray="true" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10e6670" nameToken="0x10df390" typeStartToken="0x10df2e0" typeEndToken="0x10df2e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x10d8f48">
+      <value tokvalue="0x10d8f40" known="true"/>
+    </values>
+    <values id="0x10dd8c8">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x10ddce8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x10ddef8">
+      <value intvalue="254" known="true"/>
+    </values>
+    <values id="0x10de1b8">
+      <value intvalue="1309" known="true"/>
+    </values>
+    <values id="0x10de528">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x10de9f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x10dec08">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x10e4cf8">
+      <value intvalue="11" known="true"/>
+    </values>
+    <values id="0x10df188">
+      <value tokvalue="0x10df180" known="true"/>
+    </values>
+    <values id="0x10e1f98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x10e29e8">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0x10e4568">
+      <value intvalue="50" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1587750" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x1588400" file="GrovePIRMotionSensor.cpp" linenr="16" str="ros" scope="0x1584680" type="name" astParent="0x1584360"/>
+    <token id="0x1584360" file="GrovePIRMotionSensor.cpp" linenr="16" str="::" scope="0x1584680" astOperand1="0x1588400" astOperand2="0x15844c0"/>
+    <token id="0x1584410" file="GrovePIRMotionSensor.cpp" linenr="16" str="NodeHandle" scope="0x1584680" type="name"/>
+    <token id="0x15844c0" file="GrovePIRMotionSensor.cpp" linenr="16" str="nh" scope="0x1584680" type="name" varId="1" variable="0x158c950" astParent="0x1584360"/>
+    <token id="0x1587ef0" file="GrovePIRMotionSensor.cpp" linenr="16" str=";" scope="0x1584680"/>
+    <token id="0x1587fa0" file="GrovePIRMotionSensor.cpp" linenr="18" str="std_msgs" scope="0x1584680" type="name" astParent="0x1588050"/>
+    <token id="0x1588050" file="GrovePIRMotionSensor.cpp" linenr="18" str="::" scope="0x1584680" astOperand1="0x1587fa0" astOperand2="0x15881b0"/>
+    <token id="0x1588100" file="GrovePIRMotionSensor.cpp" linenr="18" str="Bool" scope="0x1584680" type="name"/>
+    <token id="0x15881b0" file="GrovePIRMotionSensor.cpp" linenr="18" str="motion_msg" scope="0x1584680" type="name" varId="2" variable="0x158c9c0" astParent="0x1588050"/>
+    <token id="0x1586bf0" file="GrovePIRMotionSensor.cpp" linenr="18" str=";" scope="0x1584680"/>
+    <token id="0x1586ca0" file="GrovePIRMotionSensor.cpp" linenr="19" str="ros" scope="0x1584680" type="name" astParent="0x1586d50"/>
+    <token id="0x1586d50" file="GrovePIRMotionSensor.cpp" linenr="19" str="::" scope="0x1584680" astParent="0x1586f60" astOperand1="0x1586ca0" astOperand2="0x1586eb0"/>
+    <token id="0x1586e00" file="GrovePIRMotionSensor.cpp" linenr="19" str="Publisher" scope="0x1584680" type="name"/>
+    <token id="0x1586eb0" file="GrovePIRMotionSensor.cpp" linenr="19" str="pub_motion" scope="0x1584680" type="name" varId="3" variable="0x158ca30" astParent="0x1586d50"/>
+    <token id="0x1586f60" file="GrovePIRMotionSensor.cpp" linenr="19" str="(" scope="0x1584680" link="0x1587bb0" astOperand1="0x1586d50" astOperand2="0x15879a0"/>
+    <token id="0x15878f0" file="GrovePIRMotionSensor.cpp" linenr="19" str="&quot;motion&quot;" scope="0x1584680" type="string" strlen="6" values="0x15878f8" astParent="0x15879a0"/>
+    <token id="0x15879a0" file="GrovePIRMotionSensor.cpp" linenr="19" str="," scope="0x1584680" astParent="0x1586f60" astOperand1="0x15878f0" astOperand2="0x1587a50"/>
+    <token id="0x1587a50" file="GrovePIRMotionSensor.cpp" linenr="19" str="&amp;" scope="0x1584680" type="op" astParent="0x15879a0" astOperand1="0x1587b00"/>
+    <token id="0x1587b00" file="GrovePIRMotionSensor.cpp" linenr="19" str="motion_msg" scope="0x1584680" type="name" varId="2" variable="0x158c9c0" astParent="0x1587a50"/>
+    <token id="0x1587bb0" file="GrovePIRMotionSensor.cpp" linenr="19" str=")" scope="0x1584680" link="0x1586f60"/>
+    <token id="0x1587c60" file="GrovePIRMotionSensor.cpp" linenr="19" str=";" scope="0x1584680"/>
+    <token id="0x1588540" file="GrovePIRMotionSensor.cpp" linenr="21" str="Timer" scope="0x1584680" type="name"/>
+    <token id="0x15885f0" file="GrovePIRMotionSensor.cpp" linenr="21" str="t" scope="0x1584680" type="name" varId="4" variable="0x158caa0"/>
+    <token id="0x15886a0" file="GrovePIRMotionSensor.cpp" linenr="21" str=";" scope="0x1584680"/>
+    <token id="0x1588750" file="GrovePIRMotionSensor.cpp" linenr="23" str="DigitalIn" scope="0x1584680" type="name"/>
+    <token id="0x1588800" file="GrovePIRMotionSensor.cpp" linenr="23" str="sig1" scope="0x1584680" type="name" function="0x158c120" astParent="0x15888b0"/>
+    <token id="0x15888b0" file="GrovePIRMotionSensor.cpp" linenr="23" str="(" scope="0x1584680" link="0x1588a10" astOperand1="0x1588800" astOperand2="0x1588960"/>
+    <token id="0x1588960" file="GrovePIRMotionSensor.cpp" linenr="23" str="p9" scope="0x1584680" type="name" astParent="0x15888b0"/>
+    <token id="0x1588a10" file="GrovePIRMotionSensor.cpp" linenr="23" str=")" scope="0x1584680" link="0x15888b0"/>
+    <token id="0x1588ac0" file="GrovePIRMotionSensor.cpp" linenr="23" str=";" scope="0x1584680"/>
+    <token id="0x1588b70" file="GrovePIRMotionSensor.cpp" linenr="30" str="int" scope="0x1584680" type="name"/>
+    <token id="0x1588c20" file="GrovePIRMotionSensor.cpp" linenr="30" str="main" scope="0x1584680" type="name" function="0x158c1c0" astParent="0x1588cd0"/>
+    <token id="0x1588cd0" file="GrovePIRMotionSensor.cpp" linenr="30" str="(" scope="0x1584680" link="0x1588d80" astOperand1="0x1588c20"/>
+    <token id="0x1588d80" file="GrovePIRMotionSensor.cpp" linenr="30" str=")" scope="0x1584680" link="0x1588cd0"/>
+    <token id="0x1588e30" file="GrovePIRMotionSensor.cpp" linenr="31" str="{" scope="0x15871e0" link="0x158c060"/>
+    <token id="0x1588ee0" file="GrovePIRMotionSensor.cpp" linenr="32" str="t" scope="0x15871e0" type="name" varId="4" variable="0x158caa0" astParent="0x1588f90"/>
+    <token id="0x1588f90" file="GrovePIRMotionSensor.cpp" linenr="32" str="." scope="0x15871e0" astParent="0x15890f0" astOperand1="0x1588ee0" astOperand2="0x1589040"/>
+    <token id="0x1589040" file="GrovePIRMotionSensor.cpp" linenr="32" str="start" scope="0x15871e0" type="name" astParent="0x1588f90"/>
+    <token id="0x15890f0" file="GrovePIRMotionSensor.cpp" linenr="32" str="(" scope="0x15871e0" link="0x15891a0" astOperand1="0x1588f90"/>
+    <token id="0x15891a0" file="GrovePIRMotionSensor.cpp" linenr="32" str=")" scope="0x15871e0" link="0x15890f0"/>
+    <token id="0x1589250" file="GrovePIRMotionSensor.cpp" linenr="32" str=";" scope="0x15871e0"/>
+    <token id="0x1589300" file="GrovePIRMotionSensor.cpp" linenr="34" str="nh" scope="0x15871e0" type="name" varId="1" variable="0x158c950" astParent="0x15893b0"/>
+    <token id="0x15893b0" file="GrovePIRMotionSensor.cpp" linenr="34" str="." scope="0x15871e0" astParent="0x1589510" astOperand1="0x1589300" astOperand2="0x1589460"/>
+    <token id="0x1589460" file="GrovePIRMotionSensor.cpp" linenr="34" str="initNode" scope="0x15871e0" type="name" astParent="0x15893b0"/>
+    <token id="0x1589510" file="GrovePIRMotionSensor.cpp" linenr="34" str="(" scope="0x15871e0" link="0x15895c0" astOperand1="0x15893b0"/>
+    <token id="0x15895c0" file="GrovePIRMotionSensor.cpp" linenr="34" str=")" scope="0x15871e0" link="0x1589510"/>
+    <token id="0x1589670" file="GrovePIRMotionSensor.cpp" linenr="34" str=";" scope="0x15871e0"/>
+    <token id="0x1589720" file="GrovePIRMotionSensor.cpp" linenr="35" str="nh" scope="0x15871e0" type="name" varId="1" variable="0x158c950" astParent="0x15897d0"/>
+    <token id="0x15897d0" file="GrovePIRMotionSensor.cpp" linenr="35" str="." scope="0x15871e0" astParent="0x1589930" astOperand1="0x1589720" astOperand2="0x1589880"/>
+    <token id="0x1589880" file="GrovePIRMotionSensor.cpp" linenr="35" str="advertise" scope="0x15871e0" type="name" astParent="0x15897d0"/>
+    <token id="0x1589930" file="GrovePIRMotionSensor.cpp" linenr="35" str="(" scope="0x15871e0" link="0x1589a90" astOperand1="0x15897d0" astOperand2="0x15899e0"/>
+    <token id="0x15899e0" file="GrovePIRMotionSensor.cpp" linenr="35" str="pub_motion" scope="0x15871e0" type="name" varId="3" variable="0x158ca30" astParent="0x1589930"/>
+    <token id="0x1589a90" file="GrovePIRMotionSensor.cpp" linenr="35" str=")" scope="0x15871e0" link="0x1589930"/>
+    <token id="0x1589b40" file="GrovePIRMotionSensor.cpp" linenr="35" str=";" scope="0x15871e0"/>
+    <token id="0x1589bf0" file="GrovePIRMotionSensor.cpp" linenr="37" str="long" scope="0x15871e0" type="name"/>
+    <token id="0x1589ca0" file="GrovePIRMotionSensor.cpp" linenr="37" str="publisher_timer" scope="0x15871e0" type="name" varId="5" variable="0x158cb10"/>
+    <token id="0x1589d50" file="GrovePIRMotionSensor.cpp" linenr="37" str=";" scope="0x15871e0"/>
+    <token id="0x1577ff0" file="GrovePIRMotionSensor.cpp" linenr="37" str="publisher_timer" scope="0x15871e0" type="name" varId="5" variable="0x158cb10" astParent="0x1588300"/>
+    <token id="0x1588300" file="GrovePIRMotionSensor.cpp" linenr="37" str="=" scope="0x15871e0" type="op" isAssignmentOp="True" astOperand1="0x1577ff0" astOperand2="0x1589e00"/>
+    <token id="0x1589e00" file="GrovePIRMotionSensor.cpp" linenr="37" str="0" scope="0x15871e0" type="number" isInt="True" values="0x1589e08" astParent="0x1588300"/>
+    <token id="0x1589eb0" file="GrovePIRMotionSensor.cpp" linenr="37" str=";" scope="0x15871e0"/>
+    <token id="0x1589f60" file="GrovePIRMotionSensor.cpp" linenr="39" str="while" scope="0x15871e0" type="name" astParent="0x158a010"/>
+    <token id="0x158a010" file="GrovePIRMotionSensor.cpp" linenr="39" str="(" scope="0x15871e0" link="0x158a170" astOperand1="0x1589f60" astOperand2="0x158a0c0"/>
+    <token id="0x158a0c0" file="GrovePIRMotionSensor.cpp" linenr="39" str="1" scope="0x15871e0" type="number" isInt="True" values="0x158a0c8" astParent="0x158a010"/>
+    <token id="0x158a170" file="GrovePIRMotionSensor.cpp" linenr="39" str=")" scope="0x15871e0" link="0x158a010"/>
+    <token id="0x158a220" file="GrovePIRMotionSensor.cpp" linenr="40" str="{" scope="0x158c6f0" link="0x158bfb0"/>
+    <token id="0x158a2d0" file="GrovePIRMotionSensor.cpp" linenr="42" str="if" scope="0x158c6f0" type="name" astParent="0x158a380"/>
+    <token id="0x158a380" file="GrovePIRMotionSensor.cpp" linenr="42" str="(" scope="0x158c6f0" link="0x158a900" astOperand1="0x158a2d0" astOperand2="0x158a7a0"/>
+    <token id="0x158a430" file="GrovePIRMotionSensor.cpp" linenr="42" str="t" scope="0x158c6f0" type="name" varId="4" variable="0x158caa0" astParent="0x158a4e0"/>
+    <token id="0x158a4e0" file="GrovePIRMotionSensor.cpp" linenr="42" str="." scope="0x158c6f0" astParent="0x158a640" astOperand1="0x158a430" astOperand2="0x158a590"/>
+    <token id="0x158a590" file="GrovePIRMotionSensor.cpp" linenr="42" str="read_ms" scope="0x158c6f0" type="name" astParent="0x158a4e0"/>
+    <token id="0x158a640" file="GrovePIRMotionSensor.cpp" linenr="42" str="(" scope="0x158c6f0" link="0x158a6f0" astParent="0x158a7a0" astOperand1="0x158a4e0"/>
+    <token id="0x158a6f0" file="GrovePIRMotionSensor.cpp" linenr="42" str=")" scope="0x158c6f0" link="0x158a640"/>
+    <token id="0x158a7a0" file="GrovePIRMotionSensor.cpp" linenr="42" str="&gt;" scope="0x158c6f0" type="op" isComparisonOp="True" astParent="0x158a380" astOperand1="0x158a640" astOperand2="0x158a850"/>
+    <token id="0x158a850" file="GrovePIRMotionSensor.cpp" linenr="42" str="publisher_timer" scope="0x158c6f0" type="name" varId="5" variable="0x158cb10" values="0x158a858" astParent="0x158a7a0"/>
+    <token id="0x158a900" file="GrovePIRMotionSensor.cpp" linenr="42" str=")" scope="0x158c6f0" link="0x158a380"/>
+    <token id="0x158a9b0" file="GrovePIRMotionSensor.cpp" linenr="43" str="{" scope="0x158c820" link="0x158bae0"/>
+    <token id="0x158aa60" file="GrovePIRMotionSensor.cpp" linenr="44" str="motion_msg" scope="0x158c820" type="name" varId="2" variable="0x158c9c0" astParent="0x158ab10"/>
+    <token id="0x158ab10" file="GrovePIRMotionSensor.cpp" linenr="44" str="." scope="0x158c820" astParent="0x158ac70" astOperand1="0x158aa60" astOperand2="0x158abc0"/>
+    <token id="0x158abc0" file="GrovePIRMotionSensor.cpp" linenr="44" str="data" scope="0x158c820" type="name" varId="6" astParent="0x158ab10"/>
+    <token id="0x158ac70" file="GrovePIRMotionSensor.cpp" linenr="44" str="=" scope="0x158c820" type="op" isAssignmentOp="True" astOperand1="0x158ab10" astOperand2="0x158ad20"/>
+    <token id="0x158ad20" file="GrovePIRMotionSensor.cpp" linenr="44" str="sig1" scope="0x158c820" type="name" astParent="0x158ac70"/>
+    <token id="0x158add0" file="GrovePIRMotionSensor.cpp" linenr="44" str=";" scope="0x158c820"/>
+    <token id="0x158ae80" file="GrovePIRMotionSensor.cpp" linenr="45" str="pub_motion" scope="0x158c820" type="name" varId="3" variable="0x158ca30" astParent="0x158af30"/>
+    <token id="0x158af30" file="GrovePIRMotionSensor.cpp" linenr="45" str="." scope="0x158c820" astParent="0x158b090" astOperand1="0x158ae80" astOperand2="0x158afe0"/>
+    <token id="0x158afe0" file="GrovePIRMotionSensor.cpp" linenr="45" str="publish" scope="0x158c820" type="name" astParent="0x158af30"/>
+    <token id="0x158b090" file="GrovePIRMotionSensor.cpp" linenr="45" str="(" scope="0x158c820" link="0x158b2a0" astOperand1="0x158af30" astOperand2="0x158b140"/>
+    <token id="0x158b140" file="GrovePIRMotionSensor.cpp" linenr="45" str="&amp;" scope="0x158c820" type="op" astParent="0x158b090" astOperand1="0x158b1f0"/>
+    <token id="0x158b1f0" file="GrovePIRMotionSensor.cpp" linenr="45" str="motion_msg" scope="0x158c820" type="name" varId="2" variable="0x158c9c0" astParent="0x158b140"/>
+    <token id="0x158b2a0" file="GrovePIRMotionSensor.cpp" linenr="45" str=")" scope="0x158c820" link="0x158b090"/>
+    <token id="0x158b350" file="GrovePIRMotionSensor.cpp" linenr="45" str=";" scope="0x158c820"/>
+    <token id="0x158b400" file="GrovePIRMotionSensor.cpp" linenr="46" str="publisher_timer" scope="0x158c820" type="name" varId="5" variable="0x158cb10" astParent="0x158b4b0"/>
+    <token id="0x158b4b0" file="GrovePIRMotionSensor.cpp" linenr="46" str="=" scope="0x158c820" type="op" isAssignmentOp="True" astOperand1="0x158b400" astOperand2="0x158b8d0"/>
+    <token id="0x158b560" file="GrovePIRMotionSensor.cpp" linenr="46" str="t" scope="0x158c820" type="name" varId="4" variable="0x158caa0" astParent="0x158b610"/>
+    <token id="0x158b610" file="GrovePIRMotionSensor.cpp" linenr="46" str="." scope="0x158c820" astParent="0x158b770" astOperand1="0x158b560" astOperand2="0x158b6c0"/>
+    <token id="0x158b6c0" file="GrovePIRMotionSensor.cpp" linenr="46" str="read_ms" scope="0x158c820" type="name" astParent="0x158b610"/>
+    <token id="0x158b770" file="GrovePIRMotionSensor.cpp" linenr="46" str="(" scope="0x158c820" link="0x158b820" astParent="0x158b8d0" astOperand1="0x158b610"/>
+    <token id="0x158b820" file="GrovePIRMotionSensor.cpp" linenr="46" str=")" scope="0x158c820" link="0x158b770"/>
+    <token id="0x158b8d0" file="GrovePIRMotionSensor.cpp" linenr="46" str="+" scope="0x158c820" type="op" isArithmeticalOp="True" astParent="0x158b4b0" astOperand1="0x158b770" astOperand2="0x158b980"/>
+    <token id="0x158b980" file="GrovePIRMotionSensor.cpp" linenr="46" str="1000" scope="0x158c820" type="number" isInt="True" values="0x158b988" astParent="0x158b8d0"/>
+    <token id="0x158ba30" file="GrovePIRMotionSensor.cpp" linenr="46" str=";" scope="0x158c820"/>
+    <token id="0x158bae0" file="GrovePIRMotionSensor.cpp" linenr="47" str="}" scope="0x158c820" link="0x158a9b0"/>
+    <token id="0x158bb90" file="GrovePIRMotionSensor.cpp" linenr="48" str="nh" scope="0x158c6f0" type="name" varId="1" variable="0x158c950" astParent="0x158bc40"/>
+    <token id="0x158bc40" file="GrovePIRMotionSensor.cpp" linenr="48" str="." scope="0x158c6f0" astParent="0x158bda0" astOperand1="0x158bb90" astOperand2="0x158bcf0"/>
+    <token id="0x158bcf0" file="GrovePIRMotionSensor.cpp" linenr="48" str="spinOnce" scope="0x158c6f0" type="name" astParent="0x158bc40"/>
+    <token id="0x158bda0" file="GrovePIRMotionSensor.cpp" linenr="48" str="(" scope="0x158c6f0" link="0x158be50" astOperand1="0x158bc40"/>
+    <token id="0x158be50" file="GrovePIRMotionSensor.cpp" linenr="48" str=")" scope="0x158c6f0" link="0x158bda0"/>
+    <token id="0x158bf00" file="GrovePIRMotionSensor.cpp" linenr="48" str=";" scope="0x158c6f0"/>
+    <token id="0x158bfb0" file="GrovePIRMotionSensor.cpp" linenr="49" str="}" scope="0x158c6f0" link="0x158a220"/>
+    <token id="0x158c060" file="GrovePIRMotionSensor.cpp" linenr="50" str="}" scope="0x15871e0" link="0x1588e30"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1584680" type="Global">
+      <functionList>
+        <function id="0x158c120" tokenDef="0x1588800" name="sig1">
+          <arg nr="1" variable="0x158cb80"/>
+        </function>
+        <function id="0x158c1c0" tokenDef="0x1588c20" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x158c950"/>
+        <var id="0x158c9c0"/>
+        <var id="0x158ca30"/>
+        <var id="0x158caa0"/>
+      </varlist>
+    </scope>
+    <scope id="0x15871e0" type="Function" className="main" classStart="0x1588e30" classEnd="0x158c060" nestedIn="0x1584680" function="0x158c1c0">
+      <varlist>
+        <var id="0x158cb10"/>
+      </varlist>
+    </scope>
+    <scope id="0x158c6f0" type="While" classStart="0x158a220" classEnd="0x158bfb0" nestedIn="0x15871e0"/>
+    <scope id="0x158c820" type="If" classStart="0x158a9b0" classEnd="0x158bae0" nestedIn="0x158c6f0"/>
+  </scopes>
+  <variables>
+    <var id="0x158c950" nameToken="0x15844c0" typeStartToken="0x1588400" typeEndToken="0x1584410" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x158c9c0" nameToken="0x15881b0" typeStartToken="0x1587fa0" typeEndToken="0x1588100" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x158ca30" nameToken="0x1586eb0" typeStartToken="0x1586ca0" typeEndToken="0x1586e00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x158caa0" nameToken="0x15885f0" typeStartToken="0x1588540" typeEndToken="0x1588540" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x158cb10" nameToken="0x1589ca0" typeStartToken="0x1589bf0" typeEndToken="0x1589bf0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x15878f8">
+      <value tokvalue="0x15878f0" known="true"/>
+    </values>
+    <values id="0x1589e08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x158a0c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x158a858">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x158b988">
+      <value intvalue="1000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

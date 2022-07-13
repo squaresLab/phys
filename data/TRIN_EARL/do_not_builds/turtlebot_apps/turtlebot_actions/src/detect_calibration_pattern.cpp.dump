@@ -1,0 +1,1230 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x18fd790" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="void" scope="0x1901970" type="name"/>
+    <token id="0x1902b40" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="convertCVtoEigen" scope="0x1901970" type="name" function="0x1901aa0" astParent="0x1902bf0"/>
+    <token id="0x1902bf0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="(" scope="0x1901970" link="0x1903c70" astOperand1="0x1902b40" astOperand2="0x1903850"/>
+    <token id="0x1902ca0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="cv" scope="0x1901970" type="name" astParent="0x1902d50"/>
+    <token id="0x1902d50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x1901970" astParent="0x1902eb0" astOperand1="0x1902ca0" astOperand2="0x1902e00"/>
+    <token id="0x1902e00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Mat" scope="0x1901970" type="name" astParent="0x1902d50"/>
+    <token id="0x1902eb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x1901970" type="op" astParent="0x1903010" astOperand1="0x1902d50" astOperand2="0x1902f60"/>
+    <token id="0x1902f60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="tvec" scope="0x1901970" type="name" varId="1" astParent="0x1902eb0"/>
+    <token id="0x1903010" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x1901970" astParent="0x1903430" astOperand1="0x1902eb0" astOperand2="0x19032d0"/>
+    <token id="0x19030c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="cv" scope="0x1901970" type="name" astParent="0x1903170"/>
+    <token id="0x1903170" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x1901970" astParent="0x19032d0" astOperand1="0x19030c0" astOperand2="0x1903220"/>
+    <token id="0x1903220" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Mat" scope="0x1901970" type="name" astParent="0x1903170"/>
+    <token id="0x19032d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x1901970" type="op" astParent="0x1903010" astOperand1="0x1903170" astOperand2="0x1903380"/>
+    <token id="0x1903380" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="R" scope="0x1901970" type="name" varId="2" astParent="0x19032d0"/>
+    <token id="0x1903430" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x1901970" astParent="0x1903850" astOperand1="0x1903010" astOperand2="0x19036f0"/>
+    <token id="0x19034e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Eigen" scope="0x1901970" type="name" astParent="0x1903590"/>
+    <token id="0x1903590" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x1901970" astParent="0x19036f0" astOperand1="0x19034e0" astOperand2="0x1903640"/>
+    <token id="0x1903640" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Vector3f" scope="0x1901970" type="name" astParent="0x1903590"/>
+    <token id="0x19036f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x1901970" type="op" astParent="0x1903430" astOperand1="0x1903590" astOperand2="0x19037a0"/>
+    <token id="0x19037a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="translation" scope="0x1901970" type="name" varId="3" astParent="0x19036f0"/>
+    <token id="0x1903850" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="," scope="0x1901970" astParent="0x1902bf0" astOperand1="0x1903430" astOperand2="0x1903b10"/>
+    <token id="0x1903900" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Eigen" scope="0x1901970" type="name" astParent="0x19039b0"/>
+    <token id="0x19039b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="::" scope="0x1901970" astParent="0x1903b10" astOperand1="0x1903900" astOperand2="0x1903a60"/>
+    <token id="0x1903a60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="Quaternionf" scope="0x1901970" type="name" astParent="0x19039b0"/>
+    <token id="0x1903b10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="&amp;" scope="0x1901970" type="op" astParent="0x1903850" astOperand1="0x19039b0" astOperand2="0x1903bc0"/>
+    <token id="0x1903bc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str="orientation" scope="0x1901970" type="name" varId="4" astParent="0x1903b10"/>
+    <token id="0x1903c70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str=")" scope="0x1901970" link="0x1902bf0"/>
+    <token id="0x1903d20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="27" str=";" scope="0x1901970"/>
+    <token id="0x1903dd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="29" str="class" scope="0x1901970" type="name"/>
+    <token id="0x1903e80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="29" str="PatternDetector" scope="0x1901970" type="name" type-scope="0x18fd850"/>
+    <token id="0x1903f30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="30" str="{" scope="0x18fd850" link="0x190aae0"/>
+    <token id="0x1903fe0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="31" str="public:" scope="0x18fd850" type="name"/>
+    <token id="0x1904140" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="PatternDetector" scope="0x18fd850" type="name" function="0x18fd980" astParent="0x19041f0"/>
+    <token id="0x19041f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="(" scope="0x18fd850" link="0x19042a0" astOperand1="0x1904140"/>
+    <token id="0x19042a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str=")" scope="0x18fd850" link="0x19041f0"/>
+    <token id="0x1904350" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="{" scope="0x18fda20" link="0x1904400"/>
+    <token id="0x1904400" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="32" str="}" scope="0x18fda20" link="0x1904350"/>
+    <token id="0x19044b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="static" scope="0x18fd850" type="name"/>
+    <token id="0x1904560" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="std" scope="0x18fd850" type="name" astParent="0x192a4d0"/>
+    <token id="0x192a4d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x18fd850" astOperand1="0x1904560" astOperand2="0x192a580"/>
+    <token id="0x192a580" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="vector" scope="0x18fd850" type="name" astParent="0x192a4d0"/>
+    <token id="0x192a630" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="&lt;" scope="0x18fd850" link="0x192a8f0"/>
+    <token id="0x192a6e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="cv" scope="0x18fd850" type="name"/>
+    <token id="0x192a790" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x18fd850"/>
+    <token id="0x192a840" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="Point3f" scope="0x18fd850" type="name"/>
+    <token id="0x192a8f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="&gt;" scope="0x18fd850" link="0x192a630"/>
+    <token id="0x1904610" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="calcChessboardCorners" scope="0x18fd850" type="name" function="0x18fdb50" astParent="0x19046f0"/>
+    <token id="0x19046f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="(" scope="0x18fd850" link="0x1905770" astOperand1="0x1904610" astOperand2="0x1904fe0"/>
+    <token id="0x19047a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="cv" scope="0x18fd850" type="name" astParent="0x1904850"/>
+    <token id="0x1904850" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="::" scope="0x18fd850" astParent="0x1904a60" astOperand1="0x19047a0" astOperand2="0x19049b0"/>
+    <token id="0x1904900" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="Size" scope="0x18fd850" type="name"/>
+    <token id="0x19049b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="boardSize" scope="0x18fd850" type="name" varId="5" astParent="0x1904850"/>
+    <token id="0x1904a60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="34" str="," scope="0x18fd850" astParent="0x1904c70" astOperand1="0x1904850" astOperand2="0x1904bc0"/>
+    <token id="0x1904b10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="float" scope="0x18fd850" type="name"/>
+    <token id="0x1904bc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="squareSize" scope="0x18fd850" type="name" varId="6" astParent="0x1904a60"/>
+    <token id="0x1904c70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="35" str="," scope="0x18fd850" astParent="0x1904fe0" astOperand1="0x1904a60" astOperand2="0x1904e80"/>
+    <token id="0x1904d20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="int" scope="0x18fd850" type="name"/>
+    <token id="0x1904dd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="patternType" scope="0x18fd850" type="name" varId="7" astParent="0x1904e80"/>
+    <token id="0x1904e80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="=" scope="0x18fd850" type="op" isAssignmentOp="True" astParent="0x1904c70" astOperand1="0x1904dd0" astOperand2="0x1904f30"/>
+    <token id="0x1904f30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="1" scope="0x18fd850" type="number" isInt="True" values="0x1904f38" astParent="0x1904e80"/>
+    <token id="0x1904fe0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="36" str="," scope="0x18fd850" astParent="0x19046f0" astOperand1="0x1904c70" astOperand2="0x1905350"/>
+    <token id="0x1905090" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="cv" scope="0x18fd850" type="name" astParent="0x1905140"/>
+    <token id="0x1905140" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="::" scope="0x18fd850" astParent="0x1905350" astOperand1="0x1905090" astOperand2="0x19052a0"/>
+    <token id="0x19051f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="Point3f" scope="0x18fd850" type="name"/>
+    <token id="0x19052a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="offset" scope="0x18fd850" type="name" varId="8" astParent="0x1905140"/>
+    <token id="0x1905350" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="=" scope="0x18fd850" type="op" isAssignmentOp="True" astParent="0x1904fe0" astOperand1="0x1905140" astOperand2="0x1905610"/>
+    <token id="0x1905400" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="cv" scope="0x18fd850" type="name" astParent="0x19054b0"/>
+    <token id="0x19054b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="::" scope="0x18fd850" astParent="0x1905610" astOperand1="0x1905400" astOperand2="0x1905560"/>
+    <token id="0x1905560" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="Point3f" scope="0x18fd850" type="name" astParent="0x19054b0"/>
+    <token id="0x1905610" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str="(" scope="0x18fd850" link="0x19056c0" astParent="0x1905350" astOperand1="0x19054b0"/>
+    <token id="0x19056c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=")" scope="0x18fd850" link="0x1905610"/>
+    <token id="0x1905770" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=")" scope="0x18fd850" link="0x19046f0"/>
+    <token id="0x1905820" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="37" str=";" scope="0x18fd850"/>
+    <token id="0x19058d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="int" scope="0x18fd850" type="name"/>
+    <token id="0x1905980" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="detectPattern" scope="0x18fd850" type="name" function="0x18fdbf0" astParent="0x1905a30"/>
+    <token id="0x1905a30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="(" scope="0x18fd850" link="0x19075c0" astOperand1="0x1905980" astOperand2="0x1906270"/>
+    <token id="0x1905ae0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="cv" scope="0x18fd850" type="name" astParent="0x1905b90"/>
+    <token id="0x1905b90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x18fd850" astParent="0x1905cf0" astOperand1="0x1905ae0" astOperand2="0x1905c40"/>
+    <token id="0x1905c40" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Mat" scope="0x18fd850" type="name" astParent="0x1905b90"/>
+    <token id="0x1905cf0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x18fd850" type="op" astParent="0x1905e50" astOperand1="0x1905b90" astOperand2="0x1905da0"/>
+    <token id="0x1905da0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="inm" scope="0x18fd850" type="name" varId="9" astParent="0x1905cf0"/>
+    <token id="0x1905e50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="," scope="0x18fd850" astParent="0x1906270" astOperand1="0x1905cf0" astOperand2="0x1906110"/>
+    <token id="0x1905f00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Eigen" scope="0x18fd850" type="name" astParent="0x1905fb0"/>
+    <token id="0x1905fb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x18fd850" astParent="0x1906110" astOperand1="0x1905f00" astOperand2="0x1906060"/>
+    <token id="0x1906060" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Vector3f" scope="0x18fd850" type="name" astParent="0x1905fb0"/>
+    <token id="0x1906110" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x18fd850" type="op" astParent="0x1905e50" astOperand1="0x1905fb0" astOperand2="0x19061c0"/>
+    <token id="0x19061c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="translation" scope="0x18fd850" type="name" varId="10" astParent="0x1906110"/>
+    <token id="0x1906270" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="," scope="0x18fd850" astParent="0x1905a30" astOperand1="0x1905e50" astOperand2="0x1906530"/>
+    <token id="0x1906320" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Eigen" scope="0x18fd850" type="name" astParent="0x19063d0"/>
+    <token id="0x19063d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="::" scope="0x18fd850" astParent="0x1906530" astOperand1="0x1906320" astOperand2="0x1906480"/>
+    <token id="0x1906480" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="Quaternionf" scope="0x18fd850" type="name" astParent="0x19063d0"/>
+    <token id="0x1906530" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="&amp;" scope="0x18fd850" type="op" astParent="0x1906270" astOperand1="0x19063d0" astOperand2="0x19065e0"/>
+    <token id="0x19065e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str="orientation" scope="0x18fd850" type="name" varId="11" astParent="0x1906530"/>
+    <token id="0x19075c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str=")" scope="0x18fd850" link="0x1905a30"/>
+    <token id="0x1907670" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="39" str=";" scope="0x18fd850"/>
+    <token id="0x1907720" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="void" scope="0x18fd850" type="name"/>
+    <token id="0x19077d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="setCameraMatrices" scope="0x18fd850" type="name" function="0x18fdc90" astParent="0x19078b0"/>
+    <token id="0x19078b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="(" scope="0x18fd850" link="0x1907f90" astOperand1="0x19077d0" astOperand2="0x1907c20"/>
+    <token id="0x1907960" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="cv" scope="0x18fd850" type="name" astParent="0x1907a10"/>
+    <token id="0x1907a10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="::" scope="0x18fd850" astParent="0x1907c20" astOperand1="0x1907960" astOperand2="0x1907b70"/>
+    <token id="0x1907ac0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="Matx33d" scope="0x18fd850" type="name"/>
+    <token id="0x1907b70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="K_" scope="0x18fd850" type="name" varId="12" astParent="0x1907a10"/>
+    <token id="0x1907c20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="," scope="0x18fd850" astParent="0x19078b0" astOperand1="0x1907a10" astOperand2="0x1907d80"/>
+    <token id="0x1907cd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="cv" scope="0x18fd850" type="name" astParent="0x1907d80"/>
+    <token id="0x1907d80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="::" scope="0x18fd850" astParent="0x1907c20" astOperand1="0x1907cd0" astOperand2="0x1907ee0"/>
+    <token id="0x1907e30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="Matx33d" scope="0x18fd850" type="name"/>
+    <token id="0x1907ee0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str="D_" scope="0x18fd850" type="name" varId="13" astParent="0x1907d80"/>
+    <token id="0x1907f90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str=")" scope="0x18fd850" link="0x19078b0"/>
+    <token id="0x1908040" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="41" str=";" scope="0x18fd850"/>
+    <token id="0x19080f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="void" scope="0x18fd850" type="name"/>
+    <token id="0x19081a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="setPattern" scope="0x18fd850" type="name" function="0x18fdd30" astParent="0x1908250"/>
+    <token id="0x1908250" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="(" scope="0x18fd850" link="0x1909170" astOperand1="0x19081a0" astOperand2="0x19089e0"/>
+    <token id="0x1908300" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="cv" scope="0x18fd850" type="name" astParent="0x19083b0"/>
+    <token id="0x19083b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="::" scope="0x18fd850" astParent="0x19085c0" astOperand1="0x1908300" astOperand2="0x1908510"/>
+    <token id="0x1908460" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="Size" scope="0x18fd850" type="name"/>
+    <token id="0x1908510" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="grid_size_" scope="0x18fd850" type="name" varId="14" astParent="0x19083b0"/>
+    <token id="0x19085c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="," scope="0x18fd850" astParent="0x19087d0" astOperand1="0x19083b0" astOperand2="0x1908720"/>
+    <token id="0x1908670" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="float" scope="0x18fd850" type="name"/>
+    <token id="0x1908720" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="square_size_" scope="0x18fd850" type="name" varId="15" astParent="0x19085c0"/>
+    <token id="0x19087d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="43" str="," scope="0x18fd850" astParent="0x19089e0" astOperand1="0x19085c0" astOperand2="0x1908930"/>
+    <token id="0x1908880" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="int" scope="0x18fd850" type="name"/>
+    <token id="0x1908930" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="pattern_type_" scope="0x18fd850" type="name" varId="16" astParent="0x19087d0"/>
+    <token id="0x19089e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="," scope="0x18fd850" astParent="0x1908250" astOperand1="0x19087d0" astOperand2="0x1908d50"/>
+    <token id="0x1908a90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="cv" scope="0x18fd850" type="name" astParent="0x1908b40"/>
+    <token id="0x1908b40" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="::" scope="0x18fd850" astParent="0x1908d50" astOperand1="0x1908a90" astOperand2="0x1908ca0"/>
+    <token id="0x1908bf0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="Point3f" scope="0x18fd850" type="name"/>
+    <token id="0x1908ca0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="offset_" scope="0x18fd850" type="name" varId="17" astParent="0x1908b40"/>
+    <token id="0x1908d50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="=" scope="0x18fd850" type="op" isAssignmentOp="True" astParent="0x19089e0" astOperand1="0x1908b40" astOperand2="0x1909010"/>
+    <token id="0x1908e00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="cv" scope="0x18fd850" type="name" astParent="0x1908eb0"/>
+    <token id="0x1908eb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="::" scope="0x18fd850" astParent="0x1909010" astOperand1="0x1908e00" astOperand2="0x1908f60"/>
+    <token id="0x1908f60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="Point3f" scope="0x18fd850" type="name" astParent="0x1908eb0"/>
+    <token id="0x1909010" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str="(" scope="0x18fd850" link="0x19090c0" astParent="0x1908d50" astOperand1="0x1908eb0"/>
+    <token id="0x19090c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=")" scope="0x18fd850" link="0x1909010"/>
+    <token id="0x1909170" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=")" scope="0x18fd850" link="0x1908250"/>
+    <token id="0x1909220" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="44" str=";" scope="0x18fd850"/>
+    <token id="0x19092d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="46" str="public:" scope="0x18fd850" type="name"/>
+    <token id="0x1909430" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="cv" scope="0x18fd850" type="name" astParent="0x19094e0"/>
+    <token id="0x19094e0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="::" scope="0x18fd850" astOperand1="0x1909430" astOperand2="0x1909640"/>
+    <token id="0x1909590" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="Matx33d" scope="0x18fd850" type="name"/>
+    <token id="0x1909640" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str="K" scope="0x18fd850" type="name" varId="18" variable="0x192c8e0" astParent="0x19094e0"/>
+    <token id="0x19096f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="47" str=";" scope="0x18fd850"/>
+    <token id="0x19097a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="cv" scope="0x18fd850" type="name" astParent="0x1909850"/>
+    <token id="0x1909850" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="::" scope="0x18fd850" astOperand1="0x19097a0" astOperand2="0x19099b0"/>
+    <token id="0x1909900" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="Matx33d" scope="0x18fd850" type="name"/>
+    <token id="0x19099b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str="D" scope="0x18fd850" type="name" varId="19" variable="0x192c950" astParent="0x1909850"/>
+    <token id="0x1909a60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="48" str=";" scope="0x18fd850"/>
+    <token id="0x1909b10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x18fd850" type="name" astParent="0x1909bc0"/>
+    <token id="0x1909bc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x18fd850" astOperand1="0x1909b10" astOperand2="0x1909d20"/>
+    <token id="0x1909c70" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x18fd850" type="name"/>
+    <token id="0x1909d20" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="rvec" scope="0x18fd850" type="name" varId="20" variable="0x192c9c0" astParent="0x1909bc0"/>
+    <token id="0x1909dd0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x18fd850"/>
+    <token id="0x18fd3a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x18fd850" type="name" astParent="0x18fd450"/>
+    <token id="0x18fd450" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x18fd850" astOperand1="0x18fd3a0" astOperand2="0x1909e80"/>
+    <token id="0x192a0b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x18fd850" type="name"/>
+    <token id="0x1909e80" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="tvec" scope="0x18fd850" type="name" varId="21" variable="0x192ca30" astParent="0x18fd450"/>
+    <token id="0x1909f30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x18fd850"/>
+    <token id="0x192a160" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="cv" scope="0x18fd850" type="name" astParent="0x192a210"/>
+    <token id="0x192a210" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="::" scope="0x18fd850" astOperand1="0x192a160" astOperand2="0x1909fe0"/>
+    <token id="0x192a2c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="Mat" scope="0x18fd850" type="name"/>
+    <token id="0x1909fe0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str="R" scope="0x18fd850" type="name" varId="22" variable="0x192caa0" astParent="0x192a210"/>
+    <token id="0x190a090" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="49" str=";" scope="0x18fd850"/>
+    <token id="0x190a140" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str="int" scope="0x18fd850" type="name"/>
+    <token id="0x190a1f0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str="pattern_type" scope="0x18fd850" type="name" varId="23" variable="0x192cb10"/>
+    <token id="0x190a2a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="53" str=";" scope="0x18fd850"/>
+    <token id="0x190a350" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="cv" scope="0x18fd850" type="name" astParent="0x190a400"/>
+    <token id="0x190a400" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="::" scope="0x18fd850" astOperand1="0x190a350" astOperand2="0x190a560"/>
+    <token id="0x190a4b0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="Size" scope="0x18fd850" type="name"/>
+    <token id="0x190a560" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str="grid_size" scope="0x18fd850" type="name" varId="24" variable="0x192cb80" astParent="0x190a400"/>
+    <token id="0x190a610" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="54" str=";" scope="0x18fd850"/>
+    <token id="0x190a6c0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str="float" scope="0x18fd850" type="name"/>
+    <token id="0x190a770" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str="square_size" scope="0x18fd850" type="name" varId="25" variable="0x192cbf0"/>
+    <token id="0x190a820" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="55" str=";" scope="0x18fd850"/>
+    <token id="0x190a8d0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="std" scope="0x18fd850" type="name" astParent="0x192a9a0"/>
+    <token id="0x192a9a0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="::" scope="0x18fd850" astOperand1="0x190a8d0" astOperand2="0x192aa50"/>
+    <token id="0x192aa50" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="vector" scope="0x18fd850" type="name" astParent="0x192a9a0"/>
+    <token id="0x192ab00" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="&lt;" scope="0x18fd850" link="0x192adc0"/>
+    <token id="0x192abb0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="cv" scope="0x18fd850" type="name"/>
+    <token id="0x192ac60" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="::" scope="0x18fd850"/>
+    <token id="0x192ad10" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="Point3f" scope="0x18fd850" type="name"/>
+    <token id="0x192adc0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="&gt;" scope="0x18fd850" link="0x192ab00"/>
+    <token id="0x190a980" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str="ideal_points" scope="0x18fd850" type="name" varId="26" variable="0x192cc60"/>
+    <token id="0x190aa30" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="56" str=";" scope="0x18fd850"/>
+    <token id="0x190aae0" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="57" str="}" scope="0x18fd850" link="0x1903f30"/>
+    <token id="0x190ab90" file="../include/turtlebot_actions/detect_calibration_pattern.h" linenr="57" str=";" scope="0x1901970"/>
+    <token id="0x190ac40" file="detect_calibration_pattern.cpp" linenr="3" str="void" scope="0x1901970" type="name"/>
+    <token id="0x190acf0" file="detect_calibration_pattern.cpp" linenr="3" str="PatternDetector" scope="0x1901970" type="name" type-scope="0x18fd850" astParent="0x190ada0"/>
+    <token id="0x190ada0" file="detect_calibration_pattern.cpp" linenr="3" str="::" scope="0x1901970" astParent="0x190af30" astOperand1="0x190acf0" astOperand2="0x190ae50"/>
+    <token id="0x190ae50" file="detect_calibration_pattern.cpp" linenr="3" str="setCameraMatrices" scope="0x1901970" type="name" function="0x18fdc90" astParent="0x190ada0"/>
+    <token id="0x190af30" file="detect_calibration_pattern.cpp" linenr="3" str="(" scope="0x1901970" link="0x190b610" astOperand1="0x190ada0" astOperand2="0x190b2a0"/>
+    <token id="0x190afe0" file="detect_calibration_pattern.cpp" linenr="3" str="cv" scope="0x1901970" type="name" astParent="0x190b090"/>
+    <token id="0x190b090" file="detect_calibration_pattern.cpp" linenr="3" str="::" scope="0x1901970" astParent="0x190b2a0" astOperand1="0x190afe0" astOperand2="0x190b1f0"/>
+    <token id="0x190b140" file="detect_calibration_pattern.cpp" linenr="3" str="Matx33d" scope="0x1901970" type="name"/>
+    <token id="0x190b1f0" file="detect_calibration_pattern.cpp" linenr="3" str="K_" scope="0x1901970" type="name" varId="27" variable="0x192d360" astParent="0x190b090"/>
+    <token id="0x190b2a0" file="detect_calibration_pattern.cpp" linenr="3" str="," scope="0x1901970" astParent="0x190af30" astOperand1="0x190b090" astOperand2="0x190b400"/>
+    <token id="0x190b350" file="detect_calibration_pattern.cpp" linenr="3" str="cv" scope="0x1901970" type="name" astParent="0x190b400"/>
+    <token id="0x190b400" file="detect_calibration_pattern.cpp" linenr="3" str="::" scope="0x1901970" astParent="0x190b2a0" astOperand1="0x190b350" astOperand2="0x190b560"/>
+    <token id="0x190b4b0" file="detect_calibration_pattern.cpp" linenr="3" str="Matx33d" scope="0x1901970" type="name"/>
+    <token id="0x190b560" file="detect_calibration_pattern.cpp" linenr="3" str="D_" scope="0x1901970" type="name" varId="28" variable="0x192d3d0" astParent="0x190b400"/>
+    <token id="0x190b610" file="detect_calibration_pattern.cpp" linenr="3" str=")" scope="0x1901970" link="0x190af30"/>
+    <token id="0x190b6c0" file="detect_calibration_pattern.cpp" linenr="4" str="{" scope="0x192b820" link="0x190bcf0"/>
+    <token id="0x190b770" file="detect_calibration_pattern.cpp" linenr="5" str="K" scope="0x192b820" type="name" varId="18" variable="0x192c8e0" astParent="0x190b820"/>
+    <token id="0x190b820" file="detect_calibration_pattern.cpp" linenr="5" str="=" scope="0x192b820" type="op" isAssignmentOp="True" astOperand1="0x190b770" astOperand2="0x190b8d0"/>
+    <token id="0x190b8d0" file="detect_calibration_pattern.cpp" linenr="5" str="K_" scope="0x192b820" type="name" varId="27" variable="0x192d360" astParent="0x190b820"/>
+    <token id="0x190b980" file="detect_calibration_pattern.cpp" linenr="5" str=";" scope="0x192b820"/>
+    <token id="0x190ba30" file="detect_calibration_pattern.cpp" linenr="6" str="D" scope="0x192b820" type="name" varId="19" variable="0x192c950" astParent="0x190bae0"/>
+    <token id="0x190bae0" file="detect_calibration_pattern.cpp" linenr="6" str="=" scope="0x192b820" type="op" isAssignmentOp="True" astOperand1="0x190ba30" astOperand2="0x190bb90"/>
+    <token id="0x190bb90" file="detect_calibration_pattern.cpp" linenr="6" str="D_" scope="0x192b820" type="name" varId="28" variable="0x192d3d0" astParent="0x190bae0"/>
+    <token id="0x190bc40" file="detect_calibration_pattern.cpp" linenr="6" str=";" scope="0x192b820"/>
+    <token id="0x190bcf0" file="detect_calibration_pattern.cpp" linenr="7" str="}" scope="0x192b820" link="0x190b6c0"/>
+    <token id="0x190bda0" file="detect_calibration_pattern.cpp" linenr="9" str="void" scope="0x1901970" type="name"/>
+    <token id="0x190be50" file="detect_calibration_pattern.cpp" linenr="9" str="PatternDetector" scope="0x1901970" type="name" type-scope="0x18fd850" astParent="0x190bf00"/>
+    <token id="0x190bf00" file="detect_calibration_pattern.cpp" linenr="9" str="::" scope="0x1901970" astParent="0x190c060" astOperand1="0x190be50" astOperand2="0x190bfb0"/>
+    <token id="0x190bfb0" file="detect_calibration_pattern.cpp" linenr="9" str="setPattern" scope="0x1901970" type="name" function="0x18fdd30" astParent="0x190bf00"/>
+    <token id="0x190c060" file="detect_calibration_pattern.cpp" linenr="9" str="(" scope="0x1901970" link="0x190cb60" astOperand1="0x190bf00" astOperand2="0x190c7f0"/>
+    <token id="0x190c110" file="detect_calibration_pattern.cpp" linenr="9" str="cv" scope="0x1901970" type="name" astParent="0x190c1c0"/>
+    <token id="0x190c1c0" file="detect_calibration_pattern.cpp" linenr="9" str="::" scope="0x1901970" astParent="0x190c3d0" astOperand1="0x190c110" astOperand2="0x190c320"/>
+    <token id="0x190c270" file="detect_calibration_pattern.cpp" linenr="9" str="Size" scope="0x1901970" type="name"/>
+    <token id="0x190c320" file="detect_calibration_pattern.cpp" linenr="9" str="grid_size_" scope="0x1901970" type="name" varId="29" variable="0x192d440" astParent="0x190c1c0"/>
+    <token id="0x190c3d0" file="detect_calibration_pattern.cpp" linenr="9" str="," scope="0x1901970" astParent="0x190c5e0" astOperand1="0x190c1c0" astOperand2="0x190c530"/>
+    <token id="0x190c480" file="detect_calibration_pattern.cpp" linenr="9" str="float" scope="0x1901970" type="name"/>
+    <token id="0x190c530" file="detect_calibration_pattern.cpp" linenr="9" str="square_size_" scope="0x1901970" type="name" varId="30" variable="0x192d4b0" astParent="0x190c3d0"/>
+    <token id="0x190c5e0" file="detect_calibration_pattern.cpp" linenr="9" str="," scope="0x1901970" astParent="0x190c7f0" astOperand1="0x190c3d0" astOperand2="0x190c740"/>
+    <token id="0x190c690" file="detect_calibration_pattern.cpp" linenr="10" str="int" scope="0x1901970" type="name"/>
+    <token id="0x190c740" file="detect_calibration_pattern.cpp" linenr="10" str="pattern_type_" scope="0x1901970" type="name" varId="31" variable="0x192d520" astParent="0x190c5e0"/>
+    <token id="0x190c7f0" file="detect_calibration_pattern.cpp" linenr="10" str="," scope="0x1901970" astParent="0x190c060" astOperand1="0x190c5e0" astOperand2="0x190c950"/>
+    <token id="0x190c8a0" file="detect_calibration_pattern.cpp" linenr="10" str="cv" scope="0x1901970" type="name" astParent="0x190c950"/>
+    <token id="0x190c950" file="detect_calibration_pattern.cpp" linenr="10" str="::" scope="0x1901970" astParent="0x190c7f0" astOperand1="0x190c8a0" astOperand2="0x190cab0"/>
+    <token id="0x190ca00" file="detect_calibration_pattern.cpp" linenr="10" str="Point3f" scope="0x1901970" type="name"/>
+    <token id="0x190cab0" file="detect_calibration_pattern.cpp" linenr="10" str="offset_" scope="0x1901970" type="name" varId="32" variable="0x192d590" astParent="0x190c950"/>
+    <token id="0x190cb60" file="detect_calibration_pattern.cpp" linenr="10" str=")" scope="0x1901970" link="0x190c060"/>
+    <token id="0x190cc10" file="detect_calibration_pattern.cpp" linenr="11" str="{" scope="0x192b950" link="0x190de20"/>
+    <token id="0x190ccc0" file="detect_calibration_pattern.cpp" linenr="12" str="ideal_points" scope="0x192b950" type="name" varId="26" variable="0x192cc60" astParent="0x190cd70"/>
+    <token id="0x190cd70" file="detect_calibration_pattern.cpp" linenr="12" str="=" scope="0x192b950" type="op" isAssignmentOp="True" astOperand1="0x190ccc0" astOperand2="0x190cf00"/>
+    <token id="0x190ce20" file="detect_calibration_pattern.cpp" linenr="12" str="calcChessboardCorners" scope="0x192b950" type="name" function="0x18fdb50" astParent="0x190cf00"/>
+    <token id="0x190cf00" file="detect_calibration_pattern.cpp" linenr="12" str="(" scope="0x192b950" link="0x190d480" astParent="0x190cd70" astOperand1="0x190ce20" astOperand2="0x190d320"/>
+    <token id="0x190cfb0" file="detect_calibration_pattern.cpp" linenr="12" str="grid_size_" scope="0x192b950" type="name" varId="29" variable="0x192d440" astParent="0x190d060"/>
+    <token id="0x190d060" file="detect_calibration_pattern.cpp" linenr="12" str="," scope="0x192b950" astParent="0x190d1c0" astOperand1="0x190cfb0" astOperand2="0x190d110"/>
+    <token id="0x190d110" file="detect_calibration_pattern.cpp" linenr="12" str="square_size_" scope="0x192b950" type="name" varId="30" variable="0x192d4b0" astParent="0x190d060"/>
+    <token id="0x190d1c0" file="detect_calibration_pattern.cpp" linenr="12" str="," scope="0x192b950" astParent="0x190d320" astOperand1="0x190d060" astOperand2="0x190d270"/>
+    <token id="0x190d270" file="detect_calibration_pattern.cpp" linenr="12" str="pattern_type_" scope="0x192b950" type="name" varId="31" variable="0x192d520" astParent="0x190d1c0"/>
+    <token id="0x190d320" file="detect_calibration_pattern.cpp" linenr="12" str="," scope="0x192b950" astParent="0x190cf00" astOperand1="0x190d1c0" astOperand2="0x190d3d0"/>
+    <token id="0x190d3d0" file="detect_calibration_pattern.cpp" linenr="12" str="offset_" scope="0x192b950" type="name" varId="32" variable="0x192d590" astParent="0x190d320"/>
+    <token id="0x190d480" file="detect_calibration_pattern.cpp" linenr="12" str=")" scope="0x192b950" link="0x190cf00"/>
+    <token id="0x190d530" file="detect_calibration_pattern.cpp" linenr="12" str=";" scope="0x192b950"/>
+    <token id="0x190d5e0" file="detect_calibration_pattern.cpp" linenr="13" str="pattern_type" scope="0x192b950" type="name" varId="23" variable="0x192cb10" astParent="0x190d690"/>
+    <token id="0x190d690" file="detect_calibration_pattern.cpp" linenr="13" str="=" scope="0x192b950" type="op" isAssignmentOp="True" astOperand1="0x190d5e0" astOperand2="0x190d740"/>
+    <token id="0x190d740" file="detect_calibration_pattern.cpp" linenr="13" str="pattern_type_" scope="0x192b950" type="name" varId="31" variable="0x192d520" astParent="0x190d690"/>
+    <token id="0x190d7f0" file="detect_calibration_pattern.cpp" linenr="13" str=";" scope="0x192b950"/>
+    <token id="0x190d8a0" file="detect_calibration_pattern.cpp" linenr="14" str="grid_size" scope="0x192b950" type="name" varId="24" variable="0x192cb80" astParent="0x190d950"/>
+    <token id="0x190d950" file="detect_calibration_pattern.cpp" linenr="14" str="=" scope="0x192b950" type="op" isAssignmentOp="True" astOperand1="0x190d8a0" astOperand2="0x190da00"/>
+    <token id="0x190da00" file="detect_calibration_pattern.cpp" linenr="14" str="grid_size_" scope="0x192b950" type="name" varId="29" variable="0x192d440" astParent="0x190d950"/>
+    <token id="0x190dab0" file="detect_calibration_pattern.cpp" linenr="14" str=";" scope="0x192b950"/>
+    <token id="0x190db60" file="detect_calibration_pattern.cpp" linenr="15" str="square_size" scope="0x192b950" type="name" varId="25" variable="0x192cbf0" astParent="0x190dc10"/>
+    <token id="0x190dc10" file="detect_calibration_pattern.cpp" linenr="15" str="=" scope="0x192b950" type="op" isAssignmentOp="True" astOperand1="0x190db60" astOperand2="0x190dcc0"/>
+    <token id="0x190dcc0" file="detect_calibration_pattern.cpp" linenr="15" str="square_size_" scope="0x192b950" type="name" varId="30" variable="0x192d4b0" astParent="0x190dc10"/>
+    <token id="0x190dd70" file="detect_calibration_pattern.cpp" linenr="15" str=";" scope="0x192b950"/>
+    <token id="0x190de20" file="detect_calibration_pattern.cpp" linenr="16" str="}" scope="0x192b950" link="0x190cc10"/>
+    <token id="0x190ded0" file="detect_calibration_pattern.cpp" linenr="18" str="std" scope="0x1901970" type="name" astParent="0x192ae70"/>
+    <token id="0x192ae70" file="detect_calibration_pattern.cpp" linenr="18" str="::" scope="0x1901970" astOperand1="0x190ded0" astOperand2="0x192af20"/>
+    <token id="0x192af20" file="detect_calibration_pattern.cpp" linenr="18" str="vector" scope="0x1901970" type="name" astParent="0x192ae70"/>
+    <token id="0x192afd0" file="detect_calibration_pattern.cpp" linenr="18" str="&lt;" scope="0x1901970" link="0x192b290"/>
+    <token id="0x192b080" file="detect_calibration_pattern.cpp" linenr="18" str="cv" scope="0x1901970" type="name"/>
+    <token id="0x192b130" file="detect_calibration_pattern.cpp" linenr="18" str="::" scope="0x1901970"/>
+    <token id="0x192b1e0" file="detect_calibration_pattern.cpp" linenr="18" str="Point3f" scope="0x1901970" type="name"/>
+    <token id="0x192b290" file="detect_calibration_pattern.cpp" linenr="18" str="&gt;" scope="0x1901970" link="0x192afd0"/>
+    <token id="0x190df80" file="detect_calibration_pattern.cpp" linenr="18" str="PatternDetector" scope="0x1901970" type="name" type-scope="0x18fd850" astParent="0x190e030"/>
+    <token id="0x190e030" file="detect_calibration_pattern.cpp" linenr="18" str="::" scope="0x1901970" astParent="0x190e1c0" astOperand1="0x190df80" astOperand2="0x190e0e0"/>
+    <token id="0x190e0e0" file="detect_calibration_pattern.cpp" linenr="18" str="calcChessboardCorners" scope="0x1901970" type="name" function="0x18fdb50" astParent="0x190e030"/>
+    <token id="0x190e1c0" file="detect_calibration_pattern.cpp" linenr="18" str="(" scope="0x1901970" link="0x190ecc0" astOperand1="0x190e030" astOperand2="0x190e950"/>
+    <token id="0x190e270" file="detect_calibration_pattern.cpp" linenr="18" str="cv" scope="0x1901970" type="name" astParent="0x190e320"/>
+    <token id="0x190e320" file="detect_calibration_pattern.cpp" linenr="18" str="::" scope="0x1901970" astParent="0x190e530" astOperand1="0x190e270" astOperand2="0x190e480"/>
+    <token id="0x190e3d0" file="detect_calibration_pattern.cpp" linenr="18" str="Size" scope="0x1901970" type="name"/>
+    <token id="0x190e480" file="detect_calibration_pattern.cpp" linenr="18" str="boardSize" scope="0x1901970" type="name" varId="33" variable="0x192d050" astParent="0x190e320"/>
+    <token id="0x190e530" file="detect_calibration_pattern.cpp" linenr="18" str="," scope="0x1901970" astParent="0x190e740" astOperand1="0x190e320" astOperand2="0x190e690"/>
+    <token id="0x190e5e0" file="detect_calibration_pattern.cpp" linenr="19" str="float" scope="0x1901970" type="name"/>
+    <token id="0x190e690" file="detect_calibration_pattern.cpp" linenr="19" str="squareSize" scope="0x1901970" type="name" varId="34" variable="0x192d0c0" astParent="0x190e530"/>
+    <token id="0x190e740" file="detect_calibration_pattern.cpp" linenr="19" str="," scope="0x1901970" astParent="0x190e950" astOperand1="0x190e530" astOperand2="0x190e8a0"/>
+    <token id="0x190e7f0" file="detect_calibration_pattern.cpp" linenr="20" str="int" scope="0x1901970" type="name"/>
+    <token id="0x190e8a0" file="detect_calibration_pattern.cpp" linenr="20" str="patternType" scope="0x1901970" type="name" varId="35" variable="0x192d130" astParent="0x190e740"/>
+    <token id="0x190e950" file="detect_calibration_pattern.cpp" linenr="20" str="," scope="0x1901970" astParent="0x190e1c0" astOperand1="0x190e740" astOperand2="0x190eab0"/>
+    <token id="0x190ea00" file="detect_calibration_pattern.cpp" linenr="21" str="cv" scope="0x1901970" type="name" astParent="0x190eab0"/>
+    <token id="0x190eab0" file="detect_calibration_pattern.cpp" linenr="21" str="::" scope="0x1901970" astParent="0x190e950" astOperand1="0x190ea00" astOperand2="0x190ec10"/>
+    <token id="0x190eb60" file="detect_calibration_pattern.cpp" linenr="21" str="Point3f" scope="0x1901970" type="name"/>
+    <token id="0x190ec10" file="detect_calibration_pattern.cpp" linenr="21" str="offset" scope="0x1901970" type="name" varId="36" variable="0x192d1a0" astParent="0x190eab0"/>
+    <token id="0x190ecc0" file="detect_calibration_pattern.cpp" linenr="21" str=")" scope="0x1901970" link="0x190e1c0"/>
+    <token id="0x190ed70" file="detect_calibration_pattern.cpp" linenr="22" str="{" scope="0x192ba80" link="0x1915e10"/>
+    <token id="0x190ee20" file="detect_calibration_pattern.cpp" linenr="23" str="std" scope="0x192ba80" type="name" astParent="0x192b340"/>
+    <token id="0x192b340" file="detect_calibration_pattern.cpp" linenr="23" str="::" scope="0x192ba80" astOperand1="0x190ee20" astOperand2="0x192b3f0"/>
+    <token id="0x192b3f0" file="detect_calibration_pattern.cpp" linenr="23" str="vector" scope="0x192ba80" type="name" astParent="0x192b340"/>
+    <token id="0x192b4a0" file="detect_calibration_pattern.cpp" linenr="23" str="&lt;" scope="0x192ba80" link="0x192b760"/>
+    <token id="0x192b550" file="detect_calibration_pattern.cpp" linenr="23" str="cv" scope="0x192ba80" type="name"/>
+    <token id="0x192b600" file="detect_calibration_pattern.cpp" linenr="23" str="::" scope="0x192ba80"/>
+    <token id="0x192b6b0" file="detect_calibration_pattern.cpp" linenr="23" str="Point3f" scope="0x192ba80" type="name"/>
+    <token id="0x192b760" file="detect_calibration_pattern.cpp" linenr="23" str="&gt;" scope="0x192ba80" link="0x192b4a0"/>
+    <token id="0x190eed0" file="detect_calibration_pattern.cpp" linenr="23" str="corners" scope="0x192ba80" type="name" varId="37" variable="0x192ccd0"/>
+    <token id="0x190ef80" file="detect_calibration_pattern.cpp" linenr="23" str=";" scope="0x192ba80"/>
+    <token id="0x190f030" file="detect_calibration_pattern.cpp" linenr="24" str="switch" scope="0x192ba80" type="name" astParent="0x190f0e0"/>
+    <token id="0x190f0e0" file="detect_calibration_pattern.cpp" linenr="24" str="(" scope="0x192ba80" link="0x190f240" astOperand1="0x190f030" astOperand2="0x190f190"/>
+    <token id="0x190f190" file="detect_calibration_pattern.cpp" linenr="24" str="patternType" scope="0x192ba80" type="name" varId="35" variable="0x192d130" astParent="0x190f0e0"/>
+    <token id="0x190f240" file="detect_calibration_pattern.cpp" linenr="24" str=")" scope="0x192ba80" link="0x190f0e0"/>
+    <token id="0x190f2f0" file="detect_calibration_pattern.cpp" linenr="25" str="{" scope="0x192bbb0" link="0x1915b50"/>
+    <token id="0x190f3a0" file="detect_calibration_pattern.cpp" linenr="26" str="case" scope="0x192bbb0" type="name"/>
+    <token id="0x190f450" file="detect_calibration_pattern.cpp" linenr="26" str="1" scope="0x192bbb0" type="number" isInt="True" values="0x190f458"/>
+    <token id="0x190f500" file="detect_calibration_pattern.cpp" linenr="26" str=":" scope="0x192bbb0"/>
+    <token id="0x190f5b0" file="detect_calibration_pattern.cpp" linenr="27" str="case" scope="0x192bbb0" type="name"/>
+    <token id="0x190f660" file="detect_calibration_pattern.cpp" linenr="27" str="2" scope="0x192bbb0" type="number" isInt="True" values="0x190f668"/>
+    <token id="0x190f710" file="detect_calibration_pattern.cpp" linenr="27" str=":" scope="0x192bbb0"/>
+    <token id="0x1929ae0" file="detect_calibration_pattern.cpp" linenr="27" str=";" scope="0x192bbb0"/>
+    <token id="0x190f7c0" file="detect_calibration_pattern.cpp" linenr="28" str="for" scope="0x192bbb0" type="name" astParent="0x190f870"/>
+    <token id="0x190f870" file="detect_calibration_pattern.cpp" linenr="28" str="(" scope="0x192bbb0" link="0x1910210" astOperand1="0x190f7c0" astOperand2="0x190fbe0"/>
+    <token id="0x190f920" file="detect_calibration_pattern.cpp" linenr="28" str="int" scope="0x192bbb0" type="name"/>
+    <token id="0x190f9d0" file="detect_calibration_pattern.cpp" linenr="28" str="i" scope="0x192bbb0" type="name" varId="38" variable="0x18f4ee0" astParent="0x190fa80"/>
+    <token id="0x190fa80" file="detect_calibration_pattern.cpp" linenr="28" str="=" scope="0x192bbb0" type="op" isAssignmentOp="True" astParent="0x190fbe0" astOperand1="0x190f9d0" astOperand2="0x190fb30"/>
+    <token id="0x190fb30" file="detect_calibration_pattern.cpp" linenr="28" str="0" scope="0x192bbb0" type="number" isInt="True" values="0x190fb38" astParent="0x190fa80"/>
+    <token id="0x190fbe0" file="detect_calibration_pattern.cpp" linenr="28" str=";" scope="0x192bbb0" astParent="0x190f870" astOperand1="0x190fa80" astOperand2="0x1910000"/>
+    <token id="0x190fc90" file="detect_calibration_pattern.cpp" linenr="28" str="i" scope="0x192bbb0" type="name" varId="38" variable="0x18f4ee0" astParent="0x190fd40"/>
+    <token id="0x190fd40" file="detect_calibration_pattern.cpp" linenr="28" str="&lt;" scope="0x192bbb0" type="op" isComparisonOp="True" astParent="0x1910000" astOperand1="0x190fc90" astOperand2="0x190fea0"/>
+    <token id="0x190fdf0" file="detect_calibration_pattern.cpp" linenr="28" str="boardSize" scope="0x192bbb0" type="name" varId="33" variable="0x192d050" astParent="0x190fea0"/>
+    <token id="0x190fea0" file="detect_calibration_pattern.cpp" linenr="28" str="." scope="0x192bbb0" astParent="0x190fd40" astOperand1="0x190fdf0" astOperand2="0x190ff50"/>
+    <token id="0x190ff50" file="detect_calibration_pattern.cpp" linenr="28" str="height" scope="0x192bbb0" type="name" varId="39" astParent="0x190fea0"/>
+    <token id="0x1910000" file="detect_calibration_pattern.cpp" linenr="28" str=";" scope="0x192bbb0" astParent="0x190fbe0" astOperand1="0x190fd40" astOperand2="0x1910160"/>
+    <token id="0x19100b0" file="detect_calibration_pattern.cpp" linenr="28" str="i" scope="0x192bbb0" type="name" varId="38" variable="0x18f4ee0" astParent="0x1910160"/>
+    <token id="0x1910160" file="detect_calibration_pattern.cpp" linenr="28" str="++" scope="0x192bbb0" type="op" astParent="0x1910000" astOperand1="0x19100b0"/>
+    <token id="0x1910210" file="detect_calibration_pattern.cpp" linenr="28" str=")" scope="0x192bbb0" link="0x190f870"/>
+    <token id="0x1904090" file="detect_calibration_pattern.cpp" linenr="28" str="{" scope="0x192bce0" link="0x1909380"/>
+    <token id="0x19102c0" file="detect_calibration_pattern.cpp" linenr="29" str="for" scope="0x192bce0" type="name" astParent="0x1910370"/>
+    <token id="0x1910370" file="detect_calibration_pattern.cpp" linenr="29" str="(" scope="0x192bce0" link="0x1910d10" astOperand1="0x19102c0" astOperand2="0x19106e0"/>
+    <token id="0x1910420" file="detect_calibration_pattern.cpp" linenr="29" str="int" scope="0x192bce0" type="name"/>
+    <token id="0x19104d0" file="detect_calibration_pattern.cpp" linenr="29" str="j" scope="0x192bce0" type="name" varId="40" variable="0x192bf40" astParent="0x1910580"/>
+    <token id="0x1910580" file="detect_calibration_pattern.cpp" linenr="29" str="=" scope="0x192bce0" type="op" isAssignmentOp="True" astParent="0x19106e0" astOperand1="0x19104d0" astOperand2="0x1910630"/>
+    <token id="0x1910630" file="detect_calibration_pattern.cpp" linenr="29" str="0" scope="0x192bce0" type="number" isInt="True" values="0x1910638" astParent="0x1910580"/>
+    <token id="0x19106e0" file="detect_calibration_pattern.cpp" linenr="29" str=";" scope="0x192bce0" astParent="0x1910370" astOperand1="0x1910580" astOperand2="0x1910b00"/>
+    <token id="0x1910790" file="detect_calibration_pattern.cpp" linenr="29" str="j" scope="0x192bce0" type="name" varId="40" variable="0x192bf40" astParent="0x1910840"/>
+    <token id="0x1910840" file="detect_calibration_pattern.cpp" linenr="29" str="&lt;" scope="0x192bce0" type="op" isComparisonOp="True" astParent="0x1910b00" astOperand1="0x1910790" astOperand2="0x19109a0"/>
+    <token id="0x19108f0" file="detect_calibration_pattern.cpp" linenr="29" str="boardSize" scope="0x192bce0" type="name" varId="33" variable="0x192d050" astParent="0x19109a0"/>
+    <token id="0x19109a0" file="detect_calibration_pattern.cpp" linenr="29" str="." scope="0x192bce0" astParent="0x1910840" astOperand1="0x19108f0" astOperand2="0x1910a50"/>
+    <token id="0x1910a50" file="detect_calibration_pattern.cpp" linenr="29" str="width" scope="0x192bce0" type="name" varId="41" astParent="0x19109a0"/>
+    <token id="0x1910b00" file="detect_calibration_pattern.cpp" linenr="29" str=";" scope="0x192bce0" astParent="0x19106e0" astOperand1="0x1910840" astOperand2="0x1910c60"/>
+    <token id="0x1910bb0" file="detect_calibration_pattern.cpp" linenr="29" str="j" scope="0x192bce0" type="name" varId="40" variable="0x192bf40" astParent="0x1910c60"/>
+    <token id="0x1910c60" file="detect_calibration_pattern.cpp" linenr="29" str="++" scope="0x192bce0" type="op" astParent="0x1910b00" astOperand1="0x1910bb0"/>
+    <token id="0x1910d10" file="detect_calibration_pattern.cpp" linenr="29" str=")" scope="0x192bce0" link="0x1910370"/>
+    <token id="0x191ca00" file="detect_calibration_pattern.cpp" linenr="29" str="{" scope="0x192be10" link="0x191cc10"/>
+    <token id="0x1910dc0" file="detect_calibration_pattern.cpp" linenr="30" str="corners" scope="0x192be10" type="name" varId="37" variable="0x192ccd0" astParent="0x1910e70"/>
+    <token id="0x1910e70" file="detect_calibration_pattern.cpp" linenr="30" str="." scope="0x192be10" astParent="0x1910fd0" astOperand1="0x1910dc0" astOperand2="0x1910f20"/>
+    <token id="0x1910f20" file="detect_calibration_pattern.cpp" linenr="30" str="push_back" scope="0x192be10" type="name" astParent="0x1910e70"/>
+    <token id="0x1910fd0" file="detect_calibration_pattern.cpp" linenr="30" str="(" scope="0x192be10" link="0x1911fa0" astOperand1="0x1910e70" astOperand2="0x1911e40"/>
+    <token id="0x1911080" file="detect_calibration_pattern.cpp" linenr="31" str="cv" scope="0x192be10" type="name" astParent="0x1911130"/>
+    <token id="0x1911130" file="detect_calibration_pattern.cpp" linenr="31" str="::" scope="0x192be10" astParent="0x1911290" astOperand1="0x1911080" astOperand2="0x19111e0"/>
+    <token id="0x19111e0" file="detect_calibration_pattern.cpp" linenr="31" str="Point3f" scope="0x192be10" type="name" astParent="0x1911130"/>
+    <token id="0x1911290" file="detect_calibration_pattern.cpp" linenr="31" str="(" scope="0x192be10" link="0x1911d90" astParent="0x1911e40" astOperand1="0x1911130" astOperand2="0x1911c30"/>
+    <token id="0x1911340" file="detect_calibration_pattern.cpp" linenr="31" str="float" scope="0x192be10" type="name" astParent="0x19113f0"/>
+    <token id="0x19113f0" file="detect_calibration_pattern.cpp" linenr="31" str="(" scope="0x192be10" link="0x19116b0" astParent="0x1911760" astOperand1="0x1911340" astOperand2="0x1911550"/>
+    <token id="0x19114a0" file="detect_calibration_pattern.cpp" linenr="31" str="j" scope="0x192be10" type="name" varId="40" variable="0x192bf40" values="0x19114a8" astParent="0x1911550"/>
+    <token id="0x1911550" file="detect_calibration_pattern.cpp" linenr="31" str="*" scope="0x192be10" type="op" isArithmeticalOp="True" astParent="0x19113f0" astOperand1="0x19114a0" astOperand2="0x1911600"/>
+    <token id="0x1911600" file="detect_calibration_pattern.cpp" linenr="31" str="squareSize" scope="0x192be10" type="name" varId="34" variable="0x192d0c0" astParent="0x1911550"/>
+    <token id="0x19116b0" file="detect_calibration_pattern.cpp" linenr="31" str=")" scope="0x192be10" link="0x19113f0"/>
+    <token id="0x1911760" file="detect_calibration_pattern.cpp" linenr="31" str="," scope="0x192be10" astParent="0x1911c30" astOperand1="0x19113f0" astOperand2="0x19118c0"/>
+    <token id="0x1911810" file="detect_calibration_pattern.cpp" linenr="32" str="float" scope="0x192be10" type="name" astParent="0x19118c0"/>
+    <token id="0x19118c0" file="detect_calibration_pattern.cpp" linenr="32" str="(" scope="0x192be10" link="0x1911b80" astParent="0x1911760" astOperand1="0x1911810" astOperand2="0x1911a20"/>
+    <token id="0x1911970" file="detect_calibration_pattern.cpp" linenr="32" str="i" scope="0x192be10" type="name" varId="38" variable="0x18f4ee0" values="0x1911978" astParent="0x1911a20"/>
+    <token id="0x1911a20" file="detect_calibration_pattern.cpp" linenr="32" str="*" scope="0x192be10" type="op" isArithmeticalOp="True" astParent="0x19118c0" astOperand1="0x1911970" astOperand2="0x1911ad0"/>
+    <token id="0x1911ad0" file="detect_calibration_pattern.cpp" linenr="32" str="squareSize" scope="0x192be10" type="name" varId="34" variable="0x192d0c0" astParent="0x1911a20"/>
+    <token id="0x1911b80" file="detect_calibration_pattern.cpp" linenr="32" str=")" scope="0x192be10" link="0x19118c0"/>
+    <token id="0x1911c30" file="detect_calibration_pattern.cpp" linenr="32" str="," scope="0x192be10" astParent="0x1911290" astOperand1="0x1911760" astOperand2="0x1911ce0"/>
+    <token id="0x1911ce0" file="detect_calibration_pattern.cpp" linenr="32" str="0" scope="0x192be10" type="number" isInt="True" values="0x1911ce8" astParent="0x1911c30"/>
+    <token id="0x1911d90" file="detect_calibration_pattern.cpp" linenr="32" str=")" scope="0x192be10" link="0x1911290"/>
+    <token id="0x1911e40" file="detect_calibration_pattern.cpp" linenr="32" str="+" scope="0x192be10" type="op" isArithmeticalOp="True" astParent="0x1910fd0" astOperand1="0x1911290" astOperand2="0x1911ef0"/>
+    <token id="0x1911ef0" file="detect_calibration_pattern.cpp" linenr="32" str="offset" scope="0x192be10" type="name" varId="36" variable="0x192d1a0" astParent="0x1911e40"/>
+    <token id="0x1911fa0" file="detect_calibration_pattern.cpp" linenr="32" str=")" scope="0x192be10" link="0x1910fd0"/>
+    <token id="0x1912050" file="detect_calibration_pattern.cpp" linenr="32" str=";" scope="0x192be10"/>
+    <token id="0x191cc10" file="detect_calibration_pattern.cpp" linenr="32" str="}" scope="0x192be10" link="0x191ca00"/>
+    <token id="0x1909380" file="detect_calibration_pattern.cpp" linenr="32" str="}" scope="0x192bce0" link="0x1904090"/>
+    <token id="0x1912100" file="detect_calibration_pattern.cpp" linenr="33" str="break" scope="0x192bbb0" type="name"/>
+    <token id="0x19121b0" file="detect_calibration_pattern.cpp" linenr="33" str=";" scope="0x192bbb0"/>
+    <token id="0x1912260" file="detect_calibration_pattern.cpp" linenr="34" str="case" scope="0x192bbb0" type="name"/>
+    <token id="0x1912310" file="detect_calibration_pattern.cpp" linenr="34" str="3" scope="0x192bbb0" type="number" isInt="True" values="0x1912318"/>
+    <token id="0x19123f0" file="detect_calibration_pattern.cpp" linenr="34" str=":" scope="0x192bbb0"/>
+    <token id="0x1929b90" file="detect_calibration_pattern.cpp" linenr="34" str=";" scope="0x192bbb0"/>
+    <token id="0x19124a0" file="detect_calibration_pattern.cpp" linenr="35" str="for" scope="0x192bbb0" type="name" astParent="0x1912550"/>
+    <token id="0x1912550" file="detect_calibration_pattern.cpp" linenr="35" str="(" scope="0x192bbb0" link="0x1912ef0" astOperand1="0x19124a0" astOperand2="0x19128c0"/>
+    <token id="0x1912600" file="detect_calibration_pattern.cpp" linenr="35" str="int" scope="0x192bbb0" type="name"/>
+    <token id="0x19126b0" file="detect_calibration_pattern.cpp" linenr="35" str="i" scope="0x192bbb0" type="name" varId="42" variable="0x192c0e0" astParent="0x1912760"/>
+    <token id="0x1912760" file="detect_calibration_pattern.cpp" linenr="35" str="=" scope="0x192bbb0" type="op" isAssignmentOp="True" astParent="0x19128c0" astOperand1="0x19126b0" astOperand2="0x1912810"/>
+    <token id="0x1912810" file="detect_calibration_pattern.cpp" linenr="35" str="0" scope="0x192bbb0" type="number" isInt="True" values="0x1912818" astParent="0x1912760"/>
+    <token id="0x19128c0" file="detect_calibration_pattern.cpp" linenr="35" str=";" scope="0x192bbb0" astParent="0x1912550" astOperand1="0x1912760" astOperand2="0x1912ce0"/>
+    <token id="0x1912970" file="detect_calibration_pattern.cpp" linenr="35" str="i" scope="0x192bbb0" type="name" varId="42" variable="0x192c0e0" astParent="0x1912a20"/>
+    <token id="0x1912a20" file="detect_calibration_pattern.cpp" linenr="35" str="&lt;" scope="0x192bbb0" type="op" isComparisonOp="True" astParent="0x1912ce0" astOperand1="0x1912970" astOperand2="0x1912b80"/>
+    <token id="0x1912ad0" file="detect_calibration_pattern.cpp" linenr="35" str="boardSize" scope="0x192bbb0" type="name" varId="33" variable="0x192d050" astParent="0x1912b80"/>
+    <token id="0x1912b80" file="detect_calibration_pattern.cpp" linenr="35" str="." scope="0x192bbb0" astParent="0x1912a20" astOperand1="0x1912ad0" astOperand2="0x1912c30"/>
+    <token id="0x1912c30" file="detect_calibration_pattern.cpp" linenr="35" str="height" scope="0x192bbb0" type="name" varId="39" astParent="0x1912b80"/>
+    <token id="0x1912ce0" file="detect_calibration_pattern.cpp" linenr="35" str=";" scope="0x192bbb0" astParent="0x19128c0" astOperand1="0x1912a20" astOperand2="0x1912e40"/>
+    <token id="0x1912d90" file="detect_calibration_pattern.cpp" linenr="35" str="i" scope="0x192bbb0" type="name" varId="42" variable="0x192c0e0" astParent="0x1912e40"/>
+    <token id="0x1912e40" file="detect_calibration_pattern.cpp" linenr="35" str="++" scope="0x192bbb0" type="op" astParent="0x1912ce0" astOperand1="0x1912d90"/>
+    <token id="0x1912ef0" file="detect_calibration_pattern.cpp" linenr="35" str=")" scope="0x192bbb0" link="0x1912550"/>
+    <token id="0x1929df0" file="detect_calibration_pattern.cpp" linenr="35" str="{" scope="0x192bfb0" link="0x1929a30"/>
+    <token id="0x1912fa0" file="detect_calibration_pattern.cpp" linenr="36" str="for" scope="0x192bfb0" type="name" astParent="0x1913050"/>
+    <token id="0x1913050" file="detect_calibration_pattern.cpp" linenr="36" str="(" scope="0x192bfb0" link="0x19139f0" astOperand1="0x1912fa0" astOperand2="0x19133c0"/>
+    <token id="0x1913100" file="detect_calibration_pattern.cpp" linenr="36" str="int" scope="0x192bfb0" type="name"/>
+    <token id="0x19131b0" file="detect_calibration_pattern.cpp" linenr="36" str="j" scope="0x192bfb0" type="name" varId="43" variable="0x192c280" astParent="0x1913260"/>
+    <token id="0x1913260" file="detect_calibration_pattern.cpp" linenr="36" str="=" scope="0x192bfb0" type="op" isAssignmentOp="True" astParent="0x19133c0" astOperand1="0x19131b0" astOperand2="0x1913310"/>
+    <token id="0x1913310" file="detect_calibration_pattern.cpp" linenr="36" str="0" scope="0x192bfb0" type="number" isInt="True" values="0x1913318" astParent="0x1913260"/>
+    <token id="0x19133c0" file="detect_calibration_pattern.cpp" linenr="36" str=";" scope="0x192bfb0" astParent="0x1913050" astOperand1="0x1913260" astOperand2="0x19137e0"/>
+    <token id="0x1913470" file="detect_calibration_pattern.cpp" linenr="36" str="j" scope="0x192bfb0" type="name" varId="43" variable="0x192c280" astParent="0x1913520"/>
+    <token id="0x1913520" file="detect_calibration_pattern.cpp" linenr="36" str="&lt;" scope="0x192bfb0" type="op" isComparisonOp="True" astParent="0x19137e0" astOperand1="0x1913470" astOperand2="0x1913680"/>
+    <token id="0x19135d0" file="detect_calibration_pattern.cpp" linenr="36" str="boardSize" scope="0x192bfb0" type="name" varId="33" variable="0x192d050" astParent="0x1913680"/>
+    <token id="0x1913680" file="detect_calibration_pattern.cpp" linenr="36" str="." scope="0x192bfb0" astParent="0x1913520" astOperand1="0x19135d0" astOperand2="0x1913730"/>
+    <token id="0x1913730" file="detect_calibration_pattern.cpp" linenr="36" str="width" scope="0x192bfb0" type="name" varId="41" astParent="0x1913680"/>
+    <token id="0x19137e0" file="detect_calibration_pattern.cpp" linenr="36" str=";" scope="0x192bfb0" astParent="0x19133c0" astOperand1="0x1913520" astOperand2="0x1913940"/>
+    <token id="0x1913890" file="detect_calibration_pattern.cpp" linenr="36" str="j" scope="0x192bfb0" type="name" varId="43" variable="0x192c280" astParent="0x1913940"/>
+    <token id="0x1913940" file="detect_calibration_pattern.cpp" linenr="36" str="++" scope="0x192bfb0" type="op" astParent="0x19137e0" astOperand1="0x1913890"/>
+    <token id="0x19139f0" file="detect_calibration_pattern.cpp" linenr="36" str=")" scope="0x192bfb0" link="0x1913050"/>
+    <token id="0x1929c90" file="detect_calibration_pattern.cpp" linenr="36" str="{" scope="0x192c150" link="0x1929d40"/>
+    <token id="0x1913aa0" file="detect_calibration_pattern.cpp" linenr="37" str="corners" scope="0x192c150" type="name" varId="37" variable="0x192ccd0" astParent="0x1913b50"/>
+    <token id="0x1913b50" file="detect_calibration_pattern.cpp" linenr="37" str="." scope="0x192c150" astParent="0x1913cb0" astOperand1="0x1913aa0" astOperand2="0x1913c00"/>
+    <token id="0x1913c00" file="detect_calibration_pattern.cpp" linenr="37" str="push_back" scope="0x192c150" type="name" astParent="0x1913b50"/>
+    <token id="0x1913cb0" file="detect_calibration_pattern.cpp" linenr="37" str="(" scope="0x192c150" link="0x1915200" astOperand1="0x1913b50" astOperand2="0x19150a0"/>
+    <token id="0x1913d60" file="detect_calibration_pattern.cpp" linenr="38" str="cv" scope="0x192c150" type="name" astParent="0x1913e10"/>
+    <token id="0x1913e10" file="detect_calibration_pattern.cpp" linenr="38" str="::" scope="0x192c150" astParent="0x1913f70" astOperand1="0x1913d60" astOperand2="0x1913ec0"/>
+    <token id="0x1913ec0" file="detect_calibration_pattern.cpp" linenr="38" str="Point3f" scope="0x192c150" type="name" astParent="0x1913e10"/>
+    <token id="0x1913f70" file="detect_calibration_pattern.cpp" linenr="38" str="(" scope="0x192c150" link="0x1914ff0" astParent="0x19150a0" astOperand1="0x1913e10" astOperand2="0x1914e90"/>
+    <token id="0x1914020" file="detect_calibration_pattern.cpp" linenr="38" str="float" scope="0x192c150" type="name" astParent="0x19140d0"/>
+    <token id="0x19140d0" file="detect_calibration_pattern.cpp" linenr="38" str="(" scope="0x192c150" link="0x1914390" astParent="0x1914440" astOperand1="0x1914020" astOperand2="0x1914230"/>
+    <token id="0x1914180" file="detect_calibration_pattern.cpp" linenr="38" str="i" scope="0x192c150" type="name" varId="42" variable="0x192c0e0" values="0x1914188" astParent="0x1914230"/>
+    <token id="0x1914230" file="detect_calibration_pattern.cpp" linenr="38" str="*" scope="0x192c150" type="op" isArithmeticalOp="True" astParent="0x19140d0" astOperand1="0x1914180" astOperand2="0x19142e0"/>
+    <token id="0x19142e0" file="detect_calibration_pattern.cpp" linenr="38" str="squareSize" scope="0x192c150" type="name" varId="34" variable="0x192d0c0" astParent="0x1914230"/>
+    <token id="0x1914390" file="detect_calibration_pattern.cpp" linenr="38" str=")" scope="0x192c150" link="0x19140d0"/>
+    <token id="0x1914440" file="detect_calibration_pattern.cpp" linenr="38" str="," scope="0x192c150" astParent="0x1914e90" astOperand1="0x19140d0" astOperand2="0x19145a0"/>
+    <token id="0x19144f0" file="detect_calibration_pattern.cpp" linenr="39" str="float" scope="0x192c150" type="name" astParent="0x19145a0"/>
+    <token id="0x19145a0" file="detect_calibration_pattern.cpp" linenr="39" str="(" scope="0x192c150" link="0x1914de0" astParent="0x1914440" astOperand1="0x19144f0" astOperand2="0x1914c80"/>
+    <token id="0x1914650" file="detect_calibration_pattern.cpp" linenr="39" str="(" scope="0x192c150" link="0x1914bd0"/>
+    <token id="0x1914700" file="detect_calibration_pattern.cpp" linenr="39" str="2" scope="0x192c150" type="number" isInt="True" values="0x1914708" astParent="0x19147b0"/>
+    <token id="0x19147b0" file="detect_calibration_pattern.cpp" linenr="39" str="*" scope="0x192c150" type="op" isArithmeticalOp="True" values="0x19147b8" astParent="0x1914910" astOperand1="0x1914700" astOperand2="0x1914860"/>
+    <token id="0x1914860" file="detect_calibration_pattern.cpp" linenr="39" str="j" scope="0x192c150" type="name" varId="43" variable="0x192c280" values="0x1914868" astParent="0x19147b0"/>
+    <token id="0x1914910" file="detect_calibration_pattern.cpp" linenr="39" str="+" scope="0x192c150" type="op" isArithmeticalOp="True" astParent="0x1914c80" astOperand1="0x19147b0" astOperand2="0x1914a70"/>
+    <token id="0x19149c0" file="detect_calibration_pattern.cpp" linenr="39" str="i" scope="0x192c150" type="name" varId="42" variable="0x192c0e0" values="0x19149c8" astParent="0x1914a70"/>
+    <token id="0x1914a70" file="detect_calibration_pattern.cpp" linenr="39" str="%" scope="0x192c150" type="op" isArithmeticalOp="True" values="0x1914a78" astParent="0x1914910" astOperand1="0x19149c0" astOperand2="0x1914b20"/>
+    <token id="0x1914b20" file="detect_calibration_pattern.cpp" linenr="39" str="2" scope="0x192c150" type="number" isInt="True" values="0x1914b28" astParent="0x1914a70"/>
+    <token id="0x1914bd0" file="detect_calibration_pattern.cpp" linenr="39" str=")" scope="0x192c150" link="0x1914650"/>
+    <token id="0x1914c80" file="detect_calibration_pattern.cpp" linenr="39" str="*" scope="0x192c150" type="op" isArithmeticalOp="True" astParent="0x19145a0" astOperand1="0x1914910" astOperand2="0x1914d30"/>
+    <token id="0x1914d30" file="detect_calibration_pattern.cpp" linenr="39" str="squareSize" scope="0x192c150" type="name" varId="34" variable="0x192d0c0" astParent="0x1914c80"/>
+    <token id="0x1914de0" file="detect_calibration_pattern.cpp" linenr="39" str=")" scope="0x192c150" link="0x19145a0"/>
+    <token id="0x1914e90" file="detect_calibration_pattern.cpp" linenr="39" str="," scope="0x192c150" astParent="0x1913f70" astOperand1="0x1914440" astOperand2="0x1914f40"/>
+    <token id="0x1914f40" file="detect_calibration_pattern.cpp" linenr="39" str="0" scope="0x192c150" type="number" isInt="True" values="0x1914f48" astParent="0x1914e90"/>
+    <token id="0x1914ff0" file="detect_calibration_pattern.cpp" linenr="39" str=")" scope="0x192c150" link="0x1913f70"/>
+    <token id="0x19150a0" file="detect_calibration_pattern.cpp" linenr="39" str="+" scope="0x192c150" type="op" isArithmeticalOp="True" astParent="0x1913cb0" astOperand1="0x1913f70" astOperand2="0x1915150"/>
+    <token id="0x1915150" file="detect_calibration_pattern.cpp" linenr="39" str="offset" scope="0x192c150" type="name" varId="36" variable="0x192d1a0" astParent="0x19150a0"/>
+    <token id="0x1915200" file="detect_calibration_pattern.cpp" linenr="39" str=")" scope="0x192c150" link="0x1913cb0"/>
+    <token id="0x19152b0" file="detect_calibration_pattern.cpp" linenr="39" str=";" scope="0x192c150"/>
+    <token id="0x1929d40" file="detect_calibration_pattern.cpp" linenr="39" str="}" scope="0x192c150" link="0x1929c90"/>
+    <token id="0x1929a30" file="detect_calibration_pattern.cpp" linenr="39" str="}" scope="0x192bfb0" link="0x1929df0"/>
+    <token id="0x1915360" file="detect_calibration_pattern.cpp" linenr="40" str="break" scope="0x192bbb0" type="name"/>
+    <token id="0x1915410" file="detect_calibration_pattern.cpp" linenr="40" str=";" scope="0x192bbb0"/>
+    <token id="0x19154c0" file="detect_calibration_pattern.cpp" linenr="41" str="default" scope="0x192bbb0" type="name"/>
+    <token id="0x1915570" file="detect_calibration_pattern.cpp" linenr="41" str=":" scope="0x192bbb0"/>
+    <token id="0x19297d0" file="detect_calibration_pattern.cpp" linenr="41" str=";" scope="0x192bbb0"/>
+    <token id="0x1915620" file="detect_calibration_pattern.cpp" linenr="42" str="std" scope="0x192bbb0" type="name" astParent="0x19156d0"/>
+    <token id="0x19156d0" file="detect_calibration_pattern.cpp" linenr="42" str="::" scope="0x192bbb0" astParent="0x1915830" astOperand1="0x1915620" astOperand2="0x1915780"/>
+    <token id="0x1915780" file="detect_calibration_pattern.cpp" linenr="42" str="logic_error" scope="0x192bbb0" type="name" astParent="0x19156d0"/>
+    <token id="0x1915830" file="detect_calibration_pattern.cpp" linenr="42" str="(" scope="0x192bbb0" link="0x19159f0" astOperand1="0x19156d0" astOperand2="0x1915910"/>
+    <token id="0x1915910" file="detect_calibration_pattern.cpp" linenr="42" str="&quot;Unknown pattern type.&quot;" scope="0x192bbb0" type="string" strlen="21" values="0x1915918" astParent="0x1915830"/>
+    <token id="0x19159f0" file="detect_calibration_pattern.cpp" linenr="42" str=")" scope="0x192bbb0" link="0x1915830"/>
+    <token id="0x1915aa0" file="detect_calibration_pattern.cpp" linenr="42" str=";" scope="0x192bbb0"/>
+    <token id="0x1915b50" file="detect_calibration_pattern.cpp" linenr="43" str="}" scope="0x192bbb0" link="0x190f2f0"/>
+    <token id="0x1915c00" file="detect_calibration_pattern.cpp" linenr="44" str="return" scope="0x192ba80" type="name" astOperand1="0x1915cb0"/>
+    <token id="0x1915cb0" file="detect_calibration_pattern.cpp" linenr="44" str="corners" scope="0x192ba80" type="name" varId="37" variable="0x192ccd0" astParent="0x1915c00"/>
+    <token id="0x1915d60" file="detect_calibration_pattern.cpp" linenr="44" str=";" scope="0x192ba80"/>
+    <token id="0x1915e10" file="detect_calibration_pattern.cpp" linenr="45" str="}" scope="0x192ba80" link="0x190ed70"/>
+    <token id="0x1915ec0" file="detect_calibration_pattern.cpp" linenr="49" str="int" scope="0x1901970" type="name"/>
+    <token id="0x1915f70" file="detect_calibration_pattern.cpp" linenr="49" str="PatternDetector" scope="0x1901970" type="name" type-scope="0x18fd850" astParent="0x1916020"/>
+    <token id="0x1916020" file="detect_calibration_pattern.cpp" linenr="49" str="::" scope="0x1901970" astParent="0x1916180" astOperand1="0x1915f70" astOperand2="0x19160d0"/>
+    <token id="0x19160d0" file="detect_calibration_pattern.cpp" linenr="49" str="detectPattern" scope="0x1901970" type="name" function="0x18fdbf0" astParent="0x1916020"/>
+    <token id="0x1916180" file="detect_calibration_pattern.cpp" linenr="49" str="(" scope="0x1901970" link="0x1916de0" astOperand1="0x1916020" astOperand2="0x19169c0"/>
+    <token id="0x1916230" file="detect_calibration_pattern.cpp" linenr="49" str="cv" scope="0x1901970" type="name" astParent="0x19162e0"/>
+    <token id="0x19162e0" file="detect_calibration_pattern.cpp" linenr="49" str="::" scope="0x1901970" astParent="0x1916440" astOperand1="0x1916230" astOperand2="0x1916390"/>
+    <token id="0x1916390" file="detect_calibration_pattern.cpp" linenr="49" str="Mat" scope="0x1901970" type="name" astParent="0x19162e0"/>
+    <token id="0x1916440" file="detect_calibration_pattern.cpp" linenr="49" str="&amp;" scope="0x1901970" type="op" astParent="0x19165a0" astOperand1="0x19162e0" astOperand2="0x19164f0"/>
+    <token id="0x19164f0" file="detect_calibration_pattern.cpp" linenr="49" str="inm" scope="0x1901970" type="name" varId="44" variable="0x192d210" astParent="0x1916440"/>
+    <token id="0x19165a0" file="detect_calibration_pattern.cpp" linenr="49" str="," scope="0x1901970" astParent="0x19169c0" astOperand1="0x1916440" astOperand2="0x1916860"/>
+    <token id="0x1916650" file="detect_calibration_pattern.cpp" linenr="49" str="Eigen" scope="0x1901970" type="name" astParent="0x1916700"/>
+    <token id="0x1916700" file="detect_calibration_pattern.cpp" linenr="49" str="::" scope="0x1901970" astParent="0x1916860" astOperand1="0x1916650" astOperand2="0x19167b0"/>
+    <token id="0x19167b0" file="detect_calibration_pattern.cpp" linenr="49" str="Vector3f" scope="0x1901970" type="name" astParent="0x1916700"/>
+    <token id="0x1916860" file="detect_calibration_pattern.cpp" linenr="49" str="&amp;" scope="0x1901970" type="op" astParent="0x19165a0" astOperand1="0x1916700" astOperand2="0x1916910"/>
+    <token id="0x1916910" file="detect_calibration_pattern.cpp" linenr="49" str="translation" scope="0x1901970" type="name" varId="45" variable="0x192d280" astParent="0x1916860"/>
+    <token id="0x19169c0" file="detect_calibration_pattern.cpp" linenr="49" str="," scope="0x1901970" astParent="0x1916180" astOperand1="0x19165a0" astOperand2="0x1916c80"/>
+    <token id="0x1916a70" file="detect_calibration_pattern.cpp" linenr="49" str="Eigen" scope="0x1901970" type="name" astParent="0x1916b20"/>
+    <token id="0x1916b20" file="detect_calibration_pattern.cpp" linenr="49" str="::" scope="0x1901970" astParent="0x1916c80" astOperand1="0x1916a70" astOperand2="0x1916bd0"/>
+    <token id="0x1916bd0" file="detect_calibration_pattern.cpp" linenr="49" str="Quaternionf" scope="0x1901970" type="name" astParent="0x1916b20"/>
+    <token id="0x1916c80" file="detect_calibration_pattern.cpp" linenr="49" str="&amp;" scope="0x1901970" type="op" astParent="0x19169c0" astOperand1="0x1916b20" astOperand2="0x1916d30"/>
+    <token id="0x1916d30" file="detect_calibration_pattern.cpp" linenr="49" str="orientation" scope="0x1901970" type="name" varId="46" variable="0x192d2f0" astParent="0x1916c80"/>
+    <token id="0x1916de0" file="detect_calibration_pattern.cpp" linenr="49" str=")" scope="0x1901970" link="0x1916180"/>
+    <token id="0x1916e90" file="detect_calibration_pattern.cpp" linenr="50" str="{" scope="0x192c2f0" link="0x1921030"/>
+    <token id="0x1916f40" file="detect_calibration_pattern.cpp" linenr="51" str="translation" scope="0x192c2f0" type="name" varId="45" variable="0x192d280" astParent="0x1916ff0"/>
+    <token id="0x1916ff0" file="detect_calibration_pattern.cpp" linenr="51" str="." scope="0x192c2f0" astParent="0x1917150" astOperand1="0x1916f40" astOperand2="0x19170a0"/>
+    <token id="0x19170a0" file="detect_calibration_pattern.cpp" linenr="51" str="setZero" scope="0x192c2f0" type="name" astParent="0x1916ff0"/>
+    <token id="0x1917150" file="detect_calibration_pattern.cpp" linenr="51" str="(" scope="0x192c2f0" link="0x1917200" astOperand1="0x1916ff0"/>
+    <token id="0x1917200" file="detect_calibration_pattern.cpp" linenr="51" str=")" scope="0x192c2f0" link="0x1917150"/>
+    <token id="0x19172b0" file="detect_calibration_pattern.cpp" linenr="51" str=";" scope="0x192c2f0"/>
+    <token id="0x1917360" file="detect_calibration_pattern.cpp" linenr="52" str="orientation" scope="0x192c2f0" type="name" varId="46" variable="0x192d2f0" astParent="0x1917410"/>
+    <token id="0x1917410" file="detect_calibration_pattern.cpp" linenr="52" str="." scope="0x192c2f0" astParent="0x1917570" astOperand1="0x1917360" astOperand2="0x19174c0"/>
+    <token id="0x19174c0" file="detect_calibration_pattern.cpp" linenr="52" str="setIdentity" scope="0x192c2f0" type="name" astParent="0x1917410"/>
+    <token id="0x1917570" file="detect_calibration_pattern.cpp" linenr="52" str="(" scope="0x192c2f0" link="0x1917620" astOperand1="0x1917410"/>
+    <token id="0x1917620" file="detect_calibration_pattern.cpp" linenr="52" str=")" scope="0x192c2f0" link="0x1917570"/>
+    <token id="0x19176d0" file="detect_calibration_pattern.cpp" linenr="52" str=";" scope="0x192c2f0"/>
+    <token id="0x1917780" file="detect_calibration_pattern.cpp" linenr="54" str="bool" scope="0x192c2f0" type="name"/>
+    <token id="0x1917830" file="detect_calibration_pattern.cpp" linenr="54" str="found" scope="0x192c2f0" type="name" varId="47" variable="0x192cd40"/>
+    <token id="0x19178e0" file="detect_calibration_pattern.cpp" linenr="54" str=";" scope="0x192c2f0"/>
+    <token id="0x192a370" file="detect_calibration_pattern.cpp" linenr="54" str="found" scope="0x192c2f0" type="name" varId="47" variable="0x192cd40" astParent="0x192a420"/>
+    <token id="0x192a420" file="detect_calibration_pattern.cpp" linenr="54" str="=" scope="0x192c2f0" type="op" isAssignmentOp="True" astOperand1="0x192a370" astOperand2="0x1917990"/>
+    <token id="0x1917990" file="detect_calibration_pattern.cpp" linenr="54" str="false" scope="0x192c2f0" type="name" values="0x1917998" astParent="0x192a420"/>
+    <token id="0x1917a40" file="detect_calibration_pattern.cpp" linenr="54" str=";" scope="0x192c2f0"/>
+    <token id="0x1917af0" file="detect_calibration_pattern.cpp" linenr="56" str="std" scope="0x192c2f0" type="name" astParent="0x1901b70"/>
+    <token id="0x1901b70" file="detect_calibration_pattern.cpp" linenr="56" str="::" scope="0x192c2f0" astOperand1="0x1917af0" astOperand2="0x1901c20"/>
+    <token id="0x1901c20" file="detect_calibration_pattern.cpp" linenr="56" str="vector" scope="0x192c2f0" type="name" astParent="0x1901b70"/>
+    <token id="0x1901cd0" file="detect_calibration_pattern.cpp" linenr="56" str="&lt;" scope="0x192c2f0" link="0x1901f90"/>
+    <token id="0x1901d80" file="detect_calibration_pattern.cpp" linenr="56" str="cv" scope="0x192c2f0" type="name"/>
+    <token id="0x1901e30" file="detect_calibration_pattern.cpp" linenr="56" str="::" scope="0x192c2f0"/>
+    <token id="0x1901ee0" file="detect_calibration_pattern.cpp" linenr="56" str="Point2f" scope="0x192c2f0" type="name"/>
+    <token id="0x1901f90" file="detect_calibration_pattern.cpp" linenr="56" str="&gt;" scope="0x192c2f0" link="0x1901cd0"/>
+    <token id="0x1917ba0" file="detect_calibration_pattern.cpp" linenr="56" str="observation_points" scope="0x192c2f0" type="name" varId="48" variable="0x192cdb0"/>
+    <token id="0x1917c80" file="detect_calibration_pattern.cpp" linenr="56" str=";" scope="0x192c2f0"/>
+    <token id="0x1917d30" file="detect_calibration_pattern.cpp" linenr="58" str="switch" scope="0x192c2f0" type="name" astParent="0x1917de0"/>
+    <token id="0x1917de0" file="detect_calibration_pattern.cpp" linenr="58" str="(" scope="0x192c2f0" link="0x1917f40" astOperand1="0x1917d30" astOperand2="0x1917e90"/>
+    <token id="0x1917e90" file="detect_calibration_pattern.cpp" linenr="58" str="pattern_type" scope="0x192c2f0" type="name" varId="23" variable="0x192cb10" astParent="0x1917de0"/>
+    <token id="0x1917f40" file="detect_calibration_pattern.cpp" linenr="58" str=")" scope="0x192c2f0" link="0x1917de0"/>
+    <token id="0x1917ff0" file="detect_calibration_pattern.cpp" linenr="59" str="{" scope="0x192c420" link="0x191b270"/>
+    <token id="0x19180a0" file="detect_calibration_pattern.cpp" linenr="60" str="case" scope="0x192c420" type="name"/>
+    <token id="0x1918150" file="detect_calibration_pattern.cpp" linenr="60" str="3" scope="0x192c420" type="number" isInt="True" values="0x1918158"/>
+    <token id="0x1918230" file="detect_calibration_pattern.cpp" linenr="60" str=":" scope="0x192c420"/>
+    <token id="0x1929880" file="detect_calibration_pattern.cpp" linenr="60" str=";" scope="0x192c420"/>
+    <token id="0x19182e0" file="detect_calibration_pattern.cpp" linenr="61" str="found" scope="0x192c420" type="name" varId="47" variable="0x192cd40" astParent="0x1918390"/>
+    <token id="0x1918390" file="detect_calibration_pattern.cpp" linenr="61" str="=" scope="0x192c420" type="op" isAssignmentOp="True" astOperand1="0x19182e0" astOperand2="0x1918650"/>
+    <token id="0x1918440" file="detect_calibration_pattern.cpp" linenr="61" str="cv" scope="0x192c420" type="name" astParent="0x19184f0"/>
+    <token id="0x19184f0" file="detect_calibration_pattern.cpp" linenr="61" str="::" scope="0x192c420" astParent="0x1918650" astOperand1="0x1918440" astOperand2="0x19185a0"/>
+    <token id="0x19185a0" file="detect_calibration_pattern.cpp" linenr="61" str="findCirclesGrid" scope="0x192c420" type="name" astParent="0x19184f0"/>
+    <token id="0x1918650" file="detect_calibration_pattern.cpp" linenr="61" str="(" scope="0x192c420" link="0x1919080" astParent="0x1918390" astOperand1="0x19184f0" astOperand2="0x1918aa0"/>
+    <token id="0x1918700" file="detect_calibration_pattern.cpp" linenr="61" str="inm" scope="0x192c420" type="name" varId="44" variable="0x192d210" astParent="0x19187b0"/>
+    <token id="0x19187b0" file="detect_calibration_pattern.cpp" linenr="61" str="," scope="0x192c420" astParent="0x1918910" astOperand1="0x1918700" astOperand2="0x1918860"/>
+    <token id="0x1918860" file="detect_calibration_pattern.cpp" linenr="61" str="grid_size" scope="0x192c420" type="name" varId="24" variable="0x192cb80" astParent="0x19187b0"/>
+    <token id="0x1918910" file="detect_calibration_pattern.cpp" linenr="61" str="," scope="0x192c420" astParent="0x1918aa0" astOperand1="0x19187b0" astOperand2="0x19189c0"/>
+    <token id="0x19189c0" file="detect_calibration_pattern.cpp" linenr="61" str="observation_points" scope="0x192c420" type="name" varId="48" variable="0x192cdb0" astParent="0x1918910"/>
+    <token id="0x1918aa0" file="detect_calibration_pattern.cpp" linenr="61" str="," scope="0x192c420" astParent="0x1918650" astOperand1="0x1918910" astOperand2="0x1918dc0"/>
+    <token id="0x1918b50" file="detect_calibration_pattern.cpp" linenr="62" str="cv" scope="0x192c420" type="name" astParent="0x1918c00"/>
+    <token id="0x1918c00" file="detect_calibration_pattern.cpp" linenr="62" str="::" scope="0x192c420" astParent="0x1918dc0" astOperand1="0x1918b50" astOperand2="0x1918ce0"/>
+    <token id="0x1918ce0" file="detect_calibration_pattern.cpp" linenr="62" str="CALIB_CB_ASYMMETRIC_GRID" scope="0x192c420" type="name" astParent="0x1918c00"/>
+    <token id="0x1918dc0" file="detect_calibration_pattern.cpp" linenr="62" str="|" scope="0x192c420" type="op" astParent="0x1918aa0" astOperand1="0x1918c00" astOperand2="0x1918f20"/>
+    <token id="0x1918e70" file="detect_calibration_pattern.cpp" linenr="62" str="cv" scope="0x192c420" type="name" astParent="0x1918f20"/>
+    <token id="0x1918f20" file="detect_calibration_pattern.cpp" linenr="62" str="::" scope="0x192c420" astParent="0x1918dc0" astOperand1="0x1918e70" astOperand2="0x1918fd0"/>
+    <token id="0x1918fd0" file="detect_calibration_pattern.cpp" linenr="62" str="CALIB_CB_CLUSTERING" scope="0x192c420" type="name" astParent="0x1918f20"/>
+    <token id="0x1919080" file="detect_calibration_pattern.cpp" linenr="62" str=")" scope="0x192c420" link="0x1918650"/>
+    <token id="0x1919130" file="detect_calibration_pattern.cpp" linenr="62" str=";" scope="0x192c420"/>
+    <token id="0x19191e0" file="detect_calibration_pattern.cpp" linenr="63" str="break" scope="0x192c420" type="name"/>
+    <token id="0x1919290" file="detect_calibration_pattern.cpp" linenr="63" str=";" scope="0x192c420"/>
+    <token id="0x1919340" file="detect_calibration_pattern.cpp" linenr="64" str="case" scope="0x192c420" type="name"/>
+    <token id="0x19193f0" file="detect_calibration_pattern.cpp" linenr="64" str="1" scope="0x192c420" type="number" isInt="True" values="0x19193f8"/>
+    <token id="0x19194a0" file="detect_calibration_pattern.cpp" linenr="64" str=":" scope="0x192c420"/>
+    <token id="0x1929930" file="detect_calibration_pattern.cpp" linenr="64" str=";" scope="0x192c420"/>
+    <token id="0x1919550" file="detect_calibration_pattern.cpp" linenr="65" str="found" scope="0x192c420" type="name" varId="47" variable="0x192cd40" astParent="0x1919600"/>
+    <token id="0x1919600" file="detect_calibration_pattern.cpp" linenr="65" str="=" scope="0x192c420" type="op" isAssignmentOp="True" astOperand1="0x1919550" astOperand2="0x19198f0"/>
+    <token id="0x19196b0" file="detect_calibration_pattern.cpp" linenr="65" str="cv" scope="0x192c420" type="name" astParent="0x1919760"/>
+    <token id="0x1919760" file="detect_calibration_pattern.cpp" linenr="65" str="::" scope="0x192c420" astParent="0x19198f0" astOperand1="0x19196b0" astOperand2="0x1919810"/>
+    <token id="0x1919810" file="detect_calibration_pattern.cpp" linenr="65" str="findChessboardCorners" scope="0x192c420" type="name" astParent="0x1919760"/>
+    <token id="0x19198f0" file="detect_calibration_pattern.cpp" linenr="65" str="(" scope="0x192c420" link="0x191a060" astParent="0x1919600" astOperand1="0x1919760" astOperand2="0x1919d40"/>
+    <token id="0x19199a0" file="detect_calibration_pattern.cpp" linenr="65" str="inm" scope="0x192c420" type="name" varId="44" variable="0x192d210" astParent="0x1919a50"/>
+    <token id="0x1919a50" file="detect_calibration_pattern.cpp" linenr="65" str="," scope="0x192c420" astParent="0x1919bb0" astOperand1="0x19199a0" astOperand2="0x1919b00"/>
+    <token id="0x1919b00" file="detect_calibration_pattern.cpp" linenr="65" str="grid_size" scope="0x192c420" type="name" varId="24" variable="0x192cb80" astParent="0x1919a50"/>
+    <token id="0x1919bb0" file="detect_calibration_pattern.cpp" linenr="65" str="," scope="0x192c420" astParent="0x1919d40" astOperand1="0x1919a50" astOperand2="0x1919c60"/>
+    <token id="0x1919c60" file="detect_calibration_pattern.cpp" linenr="65" str="observation_points" scope="0x192c420" type="name" varId="48" variable="0x192cdb0" astParent="0x1919bb0"/>
+    <token id="0x1919d40" file="detect_calibration_pattern.cpp" linenr="65" str="," scope="0x192c420" astParent="0x19198f0" astOperand1="0x1919bb0" astOperand2="0x1919ea0"/>
+    <token id="0x1919df0" file="detect_calibration_pattern.cpp" linenr="65" str="cv" scope="0x192c420" type="name" astParent="0x1919ea0"/>
+    <token id="0x1919ea0" file="detect_calibration_pattern.cpp" linenr="65" str="::" scope="0x192c420" astParent="0x1919d40" astOperand1="0x1919df0" astOperand2="0x1919f80"/>
+    <token id="0x1919f80" file="detect_calibration_pattern.cpp" linenr="65" str="CALIB_CB_ADAPTIVE_THRESH" scope="0x192c420" type="name" astParent="0x1919ea0"/>
+    <token id="0x191a060" file="detect_calibration_pattern.cpp" linenr="65" str=")" scope="0x192c420" link="0x19198f0"/>
+    <token id="0x191a110" file="detect_calibration_pattern.cpp" linenr="65" str=";" scope="0x192c420"/>
+    <token id="0x191a1c0" file="detect_calibration_pattern.cpp" linenr="66" str="break" scope="0x192c420" type="name"/>
+    <token id="0x191a270" file="detect_calibration_pattern.cpp" linenr="66" str=";" scope="0x192c420"/>
+    <token id="0x191a320" file="detect_calibration_pattern.cpp" linenr="67" str="case" scope="0x192c420" type="name"/>
+    <token id="0x191a3d0" file="detect_calibration_pattern.cpp" linenr="67" str="2" scope="0x192c420" type="number" isInt="True" values="0x191a3d8"/>
+    <token id="0x191a480" file="detect_calibration_pattern.cpp" linenr="67" str=":" scope="0x192c420"/>
+    <token id="0x18fd2f0" file="detect_calibration_pattern.cpp" linenr="67" str=";" scope="0x192c420"/>
+    <token id="0x191a530" file="detect_calibration_pattern.cpp" linenr="68" str="found" scope="0x192c420" type="name" varId="47" variable="0x192cd40" astParent="0x191a5e0"/>
+    <token id="0x191a5e0" file="detect_calibration_pattern.cpp" linenr="68" str="=" scope="0x192c420" type="op" isAssignmentOp="True" astOperand1="0x191a530" astOperand2="0x191a8a0"/>
+    <token id="0x191a690" file="detect_calibration_pattern.cpp" linenr="68" str="cv" scope="0x192c420" type="name" astParent="0x191a740"/>
+    <token id="0x191a740" file="detect_calibration_pattern.cpp" linenr="68" str="::" scope="0x192c420" astParent="0x191a8a0" astOperand1="0x191a690" astOperand2="0x191a7f0"/>
+    <token id="0x191a7f0" file="detect_calibration_pattern.cpp" linenr="68" str="findCirclesGrid" scope="0x192c420" type="name" astParent="0x191a740"/>
+    <token id="0x191a8a0" file="detect_calibration_pattern.cpp" linenr="68" str="(" scope="0x192c420" link="0x191afb0" astParent="0x191a5e0" astOperand1="0x191a740" astOperand2="0x191acc0"/>
+    <token id="0x191a950" file="detect_calibration_pattern.cpp" linenr="68" str="inm" scope="0x192c420" type="name" varId="44" variable="0x192d210" astParent="0x191aa00"/>
+    <token id="0x191aa00" file="detect_calibration_pattern.cpp" linenr="68" str="," scope="0x192c420" astParent="0x191ab60" astOperand1="0x191a950" astOperand2="0x191aab0"/>
+    <token id="0x191aab0" file="detect_calibration_pattern.cpp" linenr="68" str="grid_size" scope="0x192c420" type="name" varId="24" variable="0x192cb80" astParent="0x191aa00"/>
+    <token id="0x191ab60" file="detect_calibration_pattern.cpp" linenr="68" str="," scope="0x192c420" astParent="0x191acc0" astOperand1="0x191aa00" astOperand2="0x191ac10"/>
+    <token id="0x191ac10" file="detect_calibration_pattern.cpp" linenr="68" str="observation_points" scope="0x192c420" type="name" varId="48" variable="0x192cdb0" astParent="0x191ab60"/>
+    <token id="0x191acc0" file="detect_calibration_pattern.cpp" linenr="68" str="," scope="0x192c420" astParent="0x191a8a0" astOperand1="0x191ab60" astOperand2="0x191ae20"/>
+    <token id="0x191ad70" file="detect_calibration_pattern.cpp" linenr="68" str="cv" scope="0x192c420" type="name" astParent="0x191ae20"/>
+    <token id="0x191ae20" file="detect_calibration_pattern.cpp" linenr="68" str="::" scope="0x192c420" astParent="0x191acc0" astOperand1="0x191ad70" astOperand2="0x191aed0"/>
+    <token id="0x191aed0" file="detect_calibration_pattern.cpp" linenr="68" str="CALIB_CB_SYMMETRIC_GRID" scope="0x192c420" type="name" astParent="0x191ae20"/>
+    <token id="0x191afb0" file="detect_calibration_pattern.cpp" linenr="68" str=")" scope="0x192c420" link="0x191a8a0"/>
+    <token id="0x191b060" file="detect_calibration_pattern.cpp" linenr="68" str=";" scope="0x192c420"/>
+    <token id="0x191b110" file="detect_calibration_pattern.cpp" linenr="69" str="break" scope="0x192c420" type="name"/>
+    <token id="0x191b1c0" file="detect_calibration_pattern.cpp" linenr="69" str=";" scope="0x192c420"/>
+    <token id="0x191b270" file="detect_calibration_pattern.cpp" linenr="70" str="}" scope="0x192c420" link="0x1917ff0"/>
+    <token id="0x191b320" file="detect_calibration_pattern.cpp" linenr="72" str="if" scope="0x192c2f0" type="name" astParent="0x191b3d0"/>
+    <token id="0x191b3d0" file="detect_calibration_pattern.cpp" linenr="72" str="(" scope="0x192c2f0" link="0x191b530" astOperand1="0x191b320" astOperand2="0x191b480"/>
+    <token id="0x191b480" file="detect_calibration_pattern.cpp" linenr="72" str="found" scope="0x192c2f0" type="name" varId="47" variable="0x192cd40" astParent="0x191b3d0"/>
+    <token id="0x191b530" file="detect_calibration_pattern.cpp" linenr="72" str=")" scope="0x192c2f0" link="0x191b3d0"/>
+    <token id="0x191b5e0" file="detect_calibration_pattern.cpp" linenr="73" str="{" scope="0x192c550" link="0x1920d70"/>
+    <token id="0x191b690" file="detect_calibration_pattern.cpp" linenr="75" str="if" scope="0x192c550" type="name" astParent="0x191b740"/>
+    <token id="0x191b740" file="detect_calibration_pattern.cpp" linenr="75" str="(" scope="0x192c550" link="0x191ba00" astOperand1="0x191b690" astOperand2="0x191b8a0"/>
+    <token id="0x191b7f0" file="detect_calibration_pattern.cpp" linenr="75" str="pattern_type" scope="0x192c550" type="name" varId="23" variable="0x192cb10" astParent="0x191b8a0"/>
+    <token id="0x191b8a0" file="detect_calibration_pattern.cpp" linenr="75" str="==" scope="0x192c550" type="op" isComparisonOp="True" astParent="0x191b740" astOperand1="0x191b7f0" astOperand2="0x191b950"/>
+    <token id="0x191b950" file="detect_calibration_pattern.cpp" linenr="75" str="1" scope="0x192c550" type="number" isInt="True" values="0x191b958" astParent="0x191b8a0"/>
+    <token id="0x191ba00" file="detect_calibration_pattern.cpp" linenr="75" str=")" scope="0x192c550" link="0x191b740"/>
+    <token id="0x191bab0" file="detect_calibration_pattern.cpp" linenr="76" str="{" scope="0x192c680" link="0x191ddf0"/>
+    <token id="0x191bb60" file="detect_calibration_pattern.cpp" linenr="77" str="cv" scope="0x192c680" type="name" astParent="0x191bc10"/>
+    <token id="0x191bc10" file="detect_calibration_pattern.cpp" linenr="77" str="::" scope="0x192c680" astParent="0x191bd70" astOperand1="0x191bb60" astOperand2="0x191bcc0"/>
+    <token id="0x191bcc0" file="detect_calibration_pattern.cpp" linenr="77" str="cornerSubPix" scope="0x192c680" type="name" astParent="0x191bc10"/>
+    <token id="0x191bd70" file="detect_calibration_pattern.cpp" linenr="77" str="(" scope="0x192c680" link="0x191dc90" astOperand1="0x191bc10" astOperand2="0x191ce20"/>
+    <token id="0x191be20" file="detect_calibration_pattern.cpp" linenr="77" str="inm" scope="0x192c680" type="name" varId="44" variable="0x192d210" astParent="0x191bed0"/>
+    <token id="0x191bed0" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191c060" astOperand1="0x191be20" astOperand2="0x191bf80"/>
+    <token id="0x191bf80" file="detect_calibration_pattern.cpp" linenr="77" str="observation_points" scope="0x192c680" type="name" varId="48" variable="0x192cdb0" astParent="0x191bed0"/>
+    <token id="0x191c060" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191c690" astOperand1="0x191bed0" astOperand2="0x191c320"/>
+    <token id="0x191c110" file="detect_calibration_pattern.cpp" linenr="77" str="cv" scope="0x192c680" type="name" astParent="0x191c1c0"/>
+    <token id="0x191c1c0" file="detect_calibration_pattern.cpp" linenr="77" str="::" scope="0x192c680" astParent="0x191c320" astOperand1="0x191c110" astOperand2="0x191c270"/>
+    <token id="0x191c270" file="detect_calibration_pattern.cpp" linenr="77" str="Size" scope="0x192c680" type="name" astParent="0x191c1c0"/>
+    <token id="0x191c320" file="detect_calibration_pattern.cpp" linenr="77" str="(" scope="0x192c680" link="0x191c5e0" astParent="0x191c060" astOperand1="0x191c1c0" astOperand2="0x191c480"/>
+    <token id="0x191c3d0" file="detect_calibration_pattern.cpp" linenr="77" str="5" scope="0x192c680" type="number" isInt="True" values="0x191c3d8" astParent="0x191c480"/>
+    <token id="0x191c480" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191c320" astOperand1="0x191c3d0" astOperand2="0x191c530"/>
+    <token id="0x191c530" file="detect_calibration_pattern.cpp" linenr="77" str="5" scope="0x192c680" type="number" isInt="True" values="0x191c538" astParent="0x191c480"/>
+    <token id="0x191c5e0" file="detect_calibration_pattern.cpp" linenr="77" str=")" scope="0x192c680" link="0x191c320"/>
+    <token id="0x191c690" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191ce20" astOperand1="0x191c060" astOperand2="0x191c950"/>
+    <token id="0x191c740" file="detect_calibration_pattern.cpp" linenr="77" str="cv" scope="0x192c680" type="name" astParent="0x191c7f0"/>
+    <token id="0x191c7f0" file="detect_calibration_pattern.cpp" linenr="77" str="::" scope="0x192c680" astParent="0x191c950" astOperand1="0x191c740" astOperand2="0x191c8a0"/>
+    <token id="0x191c8a0" file="detect_calibration_pattern.cpp" linenr="77" str="Size" scope="0x192c680" type="name" astParent="0x191c7f0"/>
+    <token id="0x191c950" file="detect_calibration_pattern.cpp" linenr="77" str="(" scope="0x192c680" link="0x191cd70" astParent="0x191c690" astOperand1="0x191c7f0" astOperand2="0x191cb60"/>
+    <token id="0x191cab0" file="detect_calibration_pattern.cpp" linenr="77" str="-1" scope="0x192c680" type="number" isInt="True" values="0x191cab8" astParent="0x191cb60"/>
+    <token id="0x191cb60" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191c950" astOperand1="0x191cab0" astOperand2="0x191ccc0"/>
+    <token id="0x191ccc0" file="detect_calibration_pattern.cpp" linenr="77" str="-1" scope="0x192c680" type="number" isInt="True" values="0x191ccc8" astParent="0x191cb60"/>
+    <token id="0x191cd70" file="detect_calibration_pattern.cpp" linenr="77" str=")" scope="0x192c680" link="0x191c950"/>
+    <token id="0x191ce20" file="detect_calibration_pattern.cpp" linenr="77" str="," scope="0x192c680" astParent="0x191bd70" astOperand1="0x191c690" astOperand2="0x191d0e0"/>
+    <token id="0x191ced0" file="detect_calibration_pattern.cpp" linenr="78" str="cv" scope="0x192c680" type="name" astParent="0x191cf80"/>
+    <token id="0x191cf80" file="detect_calibration_pattern.cpp" linenr="78" str="::" scope="0x192c680" astParent="0x191d0e0" astOperand1="0x191ced0" astOperand2="0x191d030"/>
+    <token id="0x191d030" file="detect_calibration_pattern.cpp" linenr="78" str="TermCriteria" scope="0x192c680" type="name" astParent="0x191cf80"/>
+    <token id="0x191d0e0" file="detect_calibration_pattern.cpp" linenr="78" str="(" scope="0x192c680" link="0x191dbe0" astParent="0x191ce20" astOperand1="0x191cf80" astOperand2="0x191da80"/>
+    <token id="0x191d190" file="detect_calibration_pattern.cpp" linenr="78" str="cv" scope="0x192c680" type="name" astParent="0x191d240"/>
+    <token id="0x191d240" file="detect_calibration_pattern.cpp" linenr="78" str="::" scope="0x192c680" astParent="0x191d3a0" astOperand1="0x191d190" astOperand2="0x191d2f0"/>
+    <token id="0x191d2f0" file="detect_calibration_pattern.cpp" linenr="78" str="TermCriteria" scope="0x192c680" type="name" astParent="0x191d240"/>
+    <token id="0x191d3a0" file="detect_calibration_pattern.cpp" linenr="78" str="::" scope="0x192c680" astParent="0x191d500" astOperand1="0x191d240" astOperand2="0x191d450"/>
+    <token id="0x191d450" file="detect_calibration_pattern.cpp" linenr="78" str="MAX_ITER" scope="0x192c680" type="name" astParent="0x191d3a0"/>
+    <token id="0x191d500" file="detect_calibration_pattern.cpp" linenr="78" str="+" scope="0x192c680" type="op" isArithmeticalOp="True" astParent="0x191d920" astOperand1="0x191d3a0" astOperand2="0x191d7c0"/>
+    <token id="0x191d5b0" file="detect_calibration_pattern.cpp" linenr="78" str="cv" scope="0x192c680" type="name" astParent="0x191d660"/>
+    <token id="0x191d660" file="detect_calibration_pattern.cpp" linenr="78" str="::" scope="0x192c680" astParent="0x191d7c0" astOperand1="0x191d5b0" astOperand2="0x191d710"/>
+    <token id="0x191d710" file="detect_calibration_pattern.cpp" linenr="78" str="TermCriteria" scope="0x192c680" type="name" astParent="0x191d660"/>
+    <token id="0x191d7c0" file="detect_calibration_pattern.cpp" linenr="78" str="::" scope="0x192c680" astParent="0x191d500" astOperand1="0x191d660" astOperand2="0x191d870"/>
+    <token id="0x191d870" file="detect_calibration_pattern.cpp" linenr="78" str="EPS" scope="0x192c680" type="name" astParent="0x191d7c0"/>
+    <token id="0x191d920" file="detect_calibration_pattern.cpp" linenr="78" str="," scope="0x192c680" astParent="0x191da80" astOperand1="0x191d500" astOperand2="0x191d9d0"/>
+    <token id="0x191d9d0" file="detect_calibration_pattern.cpp" linenr="78" str="100" scope="0x192c680" type="number" isInt="True" values="0x191d9d8" astParent="0x191d920"/>
+    <token id="0x191da80" file="detect_calibration_pattern.cpp" linenr="78" str="," scope="0x192c680" astParent="0x191d0e0" astOperand1="0x191d920" astOperand2="0x191db30"/>
+    <token id="0x191db30" file="detect_calibration_pattern.cpp" linenr="78" str="0.01" scope="0x192c680" type="number" isFloat="True" astParent="0x191da80"/>
+    <token id="0x191dbe0" file="detect_calibration_pattern.cpp" linenr="78" str=")" scope="0x192c680" link="0x191d0e0"/>
+    <token id="0x191dc90" file="detect_calibration_pattern.cpp" linenr="78" str=")" scope="0x192c680" link="0x191bd70"/>
+    <token id="0x191dd40" file="detect_calibration_pattern.cpp" linenr="78" str=";" scope="0x192c680"/>
+    <token id="0x191ddf0" file="detect_calibration_pattern.cpp" linenr="79" str="}" scope="0x192c680" link="0x191bab0"/>
+    <token id="0x191dea0" file="detect_calibration_pattern.cpp" linenr="81" str="cv" scope="0x192c550" type="name" astParent="0x191df50"/>
+    <token id="0x191df50" file="detect_calibration_pattern.cpp" linenr="81" str="::" scope="0x192c550" astParent="0x191e0b0" astOperand1="0x191dea0" astOperand2="0x191e000"/>
+    <token id="0x191e000" file="detect_calibration_pattern.cpp" linenr="81" str="solvePnP" scope="0x192c550" type="name" astParent="0x191df50"/>
+    <token id="0x191e0b0" file="detect_calibration_pattern.cpp" linenr="81" str="(" scope="0x192c550" link="0x191f160" astOperand1="0x191df50" astOperand2="0x191f000"/>
+    <token id="0x191e160" file="detect_calibration_pattern.cpp" linenr="81" str="cv" scope="0x192c550" type="name" astParent="0x191e210"/>
+    <token id="0x191e210" file="detect_calibration_pattern.cpp" linenr="81" str="::" scope="0x192c550" astParent="0x191e370" astOperand1="0x191e160" astOperand2="0x191e2c0"/>
+    <token id="0x191e2c0" file="detect_calibration_pattern.cpp" linenr="81" str="Mat" scope="0x192c550" type="name" astParent="0x191e210"/>
+    <token id="0x191e370" file="detect_calibration_pattern.cpp" linenr="81" str="(" scope="0x192c550" link="0x191e4d0" astParent="0x191e580" astOperand1="0x191e210" astOperand2="0x191e420"/>
+    <token id="0x191e420" file="detect_calibration_pattern.cpp" linenr="81" str="ideal_points" scope="0x192c550" type="name" varId="26" variable="0x192cc60" astParent="0x191e370"/>
+    <token id="0x191e4d0" file="detect_calibration_pattern.cpp" linenr="81" str=")" scope="0x192c550" link="0x191e370"/>
+    <token id="0x191e580" file="detect_calibration_pattern.cpp" linenr="81" str="," scope="0x192c550" astParent="0x191ea80" astOperand1="0x191e370" astOperand2="0x191e840"/>
+    <token id="0x191e630" file="detect_calibration_pattern.cpp" linenr="81" str="cv" scope="0x192c550" type="name" astParent="0x191e6e0"/>
+    <token id="0x191e6e0" file="detect_calibration_pattern.cpp" linenr="81" str="::" scope="0x192c550" astParent="0x191e840" astOperand1="0x191e630" astOperand2="0x191e790"/>
+    <token id="0x191e790" file="detect_calibration_pattern.cpp" linenr="81" str="Mat" scope="0x192c550" type="name" astParent="0x191e6e0"/>
+    <token id="0x191e840" file="detect_calibration_pattern.cpp" linenr="81" str="(" scope="0x192c550" link="0x191e9d0" astParent="0x191e580" astOperand1="0x191e6e0" astOperand2="0x191e8f0"/>
+    <token id="0x191e8f0" file="detect_calibration_pattern.cpp" linenr="81" str="observation_points" scope="0x192c550" type="name" varId="48" variable="0x192cdb0" astParent="0x191e840"/>
+    <token id="0x191e9d0" file="detect_calibration_pattern.cpp" linenr="81" str=")" scope="0x192c550" link="0x191e840"/>
+    <token id="0x191ea80" file="detect_calibration_pattern.cpp" linenr="81" str="," scope="0x192c550" astParent="0x191ebe0" astOperand1="0x191e580" astOperand2="0x191eb30"/>
+    <token id="0x191eb30" file="detect_calibration_pattern.cpp" linenr="81" str="K" scope="0x192c550" type="name" varId="18" variable="0x192c8e0" astParent="0x191ea80"/>
+    <token id="0x191ebe0" file="detect_calibration_pattern.cpp" linenr="81" str="," scope="0x192c550" astParent="0x191ed40" astOperand1="0x191ea80" astOperand2="0x191ec90"/>
+    <token id="0x191ec90" file="detect_calibration_pattern.cpp" linenr="81" str="D" scope="0x192c550" type="name" varId="19" variable="0x192c950" astParent="0x191ebe0"/>
+    <token id="0x191ed40" file="detect_calibration_pattern.cpp" linenr="81" str="," scope="0x192c550" astParent="0x191eea0" astOperand1="0x191ebe0" astOperand2="0x191edf0"/>
+    <token id="0x191edf0" file="detect_calibration_pattern.cpp" linenr="82" str="rvec" scope="0x192c550" type="name" varId="20" variable="0x192c9c0" astParent="0x191ed40"/>
+    <token id="0x191eea0" file="detect_calibration_pattern.cpp" linenr="82" str="," scope="0x192c550" astParent="0x191f000" astOperand1="0x191ed40" astOperand2="0x191ef50"/>
+    <token id="0x191ef50" file="detect_calibration_pattern.cpp" linenr="82" str="tvec" scope="0x192c550" type="name" varId="21" variable="0x192ca30" astParent="0x191eea0"/>
+    <token id="0x191f000" file="detect_calibration_pattern.cpp" linenr="82" str="," scope="0x192c550" astParent="0x191e0b0" astOperand1="0x191eea0" astOperand2="0x191f0b0"/>
+    <token id="0x191f0b0" file="detect_calibration_pattern.cpp" linenr="82" str="false" scope="0x192c550" type="name" values="0x191f0b8" astParent="0x191f000"/>
+    <token id="0x191f160" file="detect_calibration_pattern.cpp" linenr="82" str=")" scope="0x192c550" link="0x191e0b0"/>
+    <token id="0x191f210" file="detect_calibration_pattern.cpp" linenr="82" str=";" scope="0x192c550"/>
+    <token id="0x191f2c0" file="detect_calibration_pattern.cpp" linenr="83" str="cv" scope="0x192c550" type="name" astParent="0x191f370"/>
+    <token id="0x191f370" file="detect_calibration_pattern.cpp" linenr="83" str="::" scope="0x192c550" astParent="0x191f4d0" astOperand1="0x191f2c0" astOperand2="0x191f420"/>
+    <token id="0x191f420" file="detect_calibration_pattern.cpp" linenr="83" str="Rodrigues" scope="0x192c550" type="name" astParent="0x191f370"/>
+    <token id="0x191f4d0" file="detect_calibration_pattern.cpp" linenr="83" str="(" scope="0x192c550" link="0x191f790" astOperand1="0x191f370" astOperand2="0x191f630"/>
+    <token id="0x191f580" file="detect_calibration_pattern.cpp" linenr="83" str="rvec" scope="0x192c550" type="name" varId="20" variable="0x192c9c0" astParent="0x191f630"/>
+    <token id="0x191f630" file="detect_calibration_pattern.cpp" linenr="83" str="," scope="0x192c550" astParent="0x191f4d0" astOperand1="0x191f580" astOperand2="0x191f6e0"/>
+    <token id="0x191f6e0" file="detect_calibration_pattern.cpp" linenr="83" str="R" scope="0x192c550" type="name" varId="22" variable="0x192caa0" astParent="0x191f630"/>
+    <token id="0x191f790" file="detect_calibration_pattern.cpp" linenr="83" str=")" scope="0x192c550" link="0x191f4d0"/>
+    <token id="0x191f840" file="detect_calibration_pattern.cpp" linenr="83" str=";" scope="0x192c550"/>
+    <token id="0x191f8f0" file="detect_calibration_pattern.cpp" linenr="85" str="cv" scope="0x192c550" type="name" astParent="0x191f9a0"/>
+    <token id="0x191f9a0" file="detect_calibration_pattern.cpp" linenr="85" str="::" scope="0x192c550" astParent="0x191fb30" astOperand1="0x191f8f0" astOperand2="0x191fa50"/>
+    <token id="0x191fa50" file="detect_calibration_pattern.cpp" linenr="85" str="drawChessboardCorners" scope="0x192c550" type="name" astParent="0x191f9a0"/>
+    <token id="0x191fb30" file="detect_calibration_pattern.cpp" linenr="85" str="(" scope="0x192c550" link="0x1920450" astOperand1="0x191f9a0" astOperand2="0x19202f0"/>
+    <token id="0x191fbe0" file="detect_calibration_pattern.cpp" linenr="85" str="inm" scope="0x192c550" type="name" varId="44" variable="0x192d210" astParent="0x191fc90"/>
+    <token id="0x191fc90" file="detect_calibration_pattern.cpp" linenr="85" str="," scope="0x192c550" astParent="0x191fdf0" astOperand1="0x191fbe0" astOperand2="0x191fd40"/>
+    <token id="0x191fd40" file="detect_calibration_pattern.cpp" linenr="85" str="grid_size" scope="0x192c550" type="name" varId="24" variable="0x192cb80" astParent="0x191fc90"/>
+    <token id="0x191fdf0" file="detect_calibration_pattern.cpp" linenr="85" str="," scope="0x192c550" astParent="0x19202f0" astOperand1="0x191fc90" astOperand2="0x19200b0"/>
+    <token id="0x191fea0" file="detect_calibration_pattern.cpp" linenr="85" str="cv" scope="0x192c550" type="name" astParent="0x191ff50"/>
+    <token id="0x191ff50" file="detect_calibration_pattern.cpp" linenr="85" str="::" scope="0x192c550" astParent="0x19200b0" astOperand1="0x191fea0" astOperand2="0x1920000"/>
+    <token id="0x1920000" file="detect_calibration_pattern.cpp" linenr="85" str="Mat" scope="0x192c550" type="name" astParent="0x191ff50"/>
+    <token id="0x19200b0" file="detect_calibration_pattern.cpp" linenr="85" str="(" scope="0x192c550" link="0x1920240" astParent="0x191fdf0" astOperand1="0x191ff50" astOperand2="0x1920160"/>
+    <token id="0x1920160" file="detect_calibration_pattern.cpp" linenr="85" str="observation_points" scope="0x192c550" type="name" varId="48" variable="0x192cdb0" astParent="0x19200b0"/>
+    <token id="0x1920240" file="detect_calibration_pattern.cpp" linenr="85" str=")" scope="0x192c550" link="0x19200b0"/>
+    <token id="0x19202f0" file="detect_calibration_pattern.cpp" linenr="85" str="," scope="0x192c550" astParent="0x191fb30" astOperand1="0x191fdf0" astOperand2="0x19203a0"/>
+    <token id="0x19203a0" file="detect_calibration_pattern.cpp" linenr="85" str="found" scope="0x192c550" type="name" varId="47" variable="0x192cd40" astParent="0x19202f0"/>
+    <token id="0x1920450" file="detect_calibration_pattern.cpp" linenr="85" str=")" scope="0x192c550" link="0x191fb30"/>
+    <token id="0x1920500" file="detect_calibration_pattern.cpp" linenr="85" str=";" scope="0x192c550"/>
+    <token id="0x19205b0" file="detect_calibration_pattern.cpp" linenr="87" str="convertCVtoEigen" scope="0x192c550" type="name" function="0x1901aa0" astParent="0x1920690"/>
+    <token id="0x1920690" file="detect_calibration_pattern.cpp" linenr="87" str="(" scope="0x192c550" link="0x1920c10" astOperand1="0x19205b0" astOperand2="0x1920ab0"/>
+    <token id="0x1920740" file="detect_calibration_pattern.cpp" linenr="87" str="tvec" scope="0x192c550" type="name" varId="21" variable="0x192ca30" astParent="0x19207f0"/>
+    <token id="0x19207f0" file="detect_calibration_pattern.cpp" linenr="87" str="," scope="0x192c550" astParent="0x1920950" astOperand1="0x1920740" astOperand2="0x19208a0"/>
+    <token id="0x19208a0" file="detect_calibration_pattern.cpp" linenr="87" str="R" scope="0x192c550" type="name" varId="22" variable="0x192caa0" astParent="0x19207f0"/>
+    <token id="0x1920950" file="detect_calibration_pattern.cpp" linenr="87" str="," scope="0x192c550" astParent="0x1920ab0" astOperand1="0x19207f0" astOperand2="0x1920a00"/>
+    <token id="0x1920a00" file="detect_calibration_pattern.cpp" linenr="87" str="translation" scope="0x192c550" type="name" varId="45" variable="0x192d280" astParent="0x1920950"/>
+    <token id="0x1920ab0" file="detect_calibration_pattern.cpp" linenr="87" str="," scope="0x192c550" astParent="0x1920690" astOperand1="0x1920950" astOperand2="0x1920b60"/>
+    <token id="0x1920b60" file="detect_calibration_pattern.cpp" linenr="87" str="orientation" scope="0x192c550" type="name" varId="46" variable="0x192d2f0" astParent="0x1920ab0"/>
+    <token id="0x1920c10" file="detect_calibration_pattern.cpp" linenr="87" str=")" scope="0x192c550" link="0x1920690"/>
+    <token id="0x1920cc0" file="detect_calibration_pattern.cpp" linenr="87" str=";" scope="0x192c550"/>
+    <token id="0x1920d70" file="detect_calibration_pattern.cpp" linenr="88" str="}" scope="0x192c550" link="0x191b5e0"/>
+    <token id="0x1920e20" file="detect_calibration_pattern.cpp" linenr="90" str="return" scope="0x192c2f0" type="name" astOperand1="0x1920ed0"/>
+    <token id="0x1920ed0" file="detect_calibration_pattern.cpp" linenr="90" str="found" scope="0x192c2f0" type="name" varId="47" variable="0x192cd40" astParent="0x1920e20"/>
+    <token id="0x1920f80" file="detect_calibration_pattern.cpp" linenr="90" str=";" scope="0x192c2f0"/>
+    <token id="0x1921030" file="detect_calibration_pattern.cpp" linenr="91" str="}" scope="0x192c2f0" link="0x1916e90"/>
+    <token id="0x19210e0" file="detect_calibration_pattern.cpp" linenr="93" str="void" scope="0x1901970" type="name"/>
+    <token id="0x1921190" file="detect_calibration_pattern.cpp" linenr="93" str="convertCVtoEigen" scope="0x1901970" type="name" function="0x1901aa0" astParent="0x1921270"/>
+    <token id="0x1921270" file="detect_calibration_pattern.cpp" linenr="93" str="(" scope="0x1901970" link="0x19222f0" astOperand1="0x1921190" astOperand2="0x1921ed0"/>
+    <token id="0x1921320" file="detect_calibration_pattern.cpp" linenr="93" str="cv" scope="0x1901970" type="name" astParent="0x19213d0"/>
+    <token id="0x19213d0" file="detect_calibration_pattern.cpp" linenr="93" str="::" scope="0x1901970" astParent="0x1921530" astOperand1="0x1921320" astOperand2="0x1921480"/>
+    <token id="0x1921480" file="detect_calibration_pattern.cpp" linenr="93" str="Mat" scope="0x1901970" type="name" astParent="0x19213d0"/>
+    <token id="0x1921530" file="detect_calibration_pattern.cpp" linenr="93" str="&amp;" scope="0x1901970" type="op" astParent="0x1921690" astOperand1="0x19213d0" astOperand2="0x19215e0"/>
+    <token id="0x19215e0" file="detect_calibration_pattern.cpp" linenr="93" str="tvec" scope="0x1901970" type="name" varId="49" variable="0x192ce90" astParent="0x1921530"/>
+    <token id="0x1921690" file="detect_calibration_pattern.cpp" linenr="93" str="," scope="0x1901970" astParent="0x1921ab0" astOperand1="0x1921530" astOperand2="0x1921950"/>
+    <token id="0x1921740" file="detect_calibration_pattern.cpp" linenr="93" str="cv" scope="0x1901970" type="name" astParent="0x19217f0"/>
+    <token id="0x19217f0" file="detect_calibration_pattern.cpp" linenr="93" str="::" scope="0x1901970" astParent="0x1921950" astOperand1="0x1921740" astOperand2="0x19218a0"/>
+    <token id="0x19218a0" file="detect_calibration_pattern.cpp" linenr="93" str="Mat" scope="0x1901970" type="name" astParent="0x19217f0"/>
+    <token id="0x1921950" file="detect_calibration_pattern.cpp" linenr="93" str="&amp;" scope="0x1901970" type="op" astParent="0x1921690" astOperand1="0x19217f0" astOperand2="0x1921a00"/>
+    <token id="0x1921a00" file="detect_calibration_pattern.cpp" linenr="93" str="R" scope="0x1901970" type="name" varId="50" variable="0x192cf00" astParent="0x1921950"/>
+    <token id="0x1921ab0" file="detect_calibration_pattern.cpp" linenr="93" str="," scope="0x1901970" astParent="0x1921ed0" astOperand1="0x1921690" astOperand2="0x1921d70"/>
+    <token id="0x1921b60" file="detect_calibration_pattern.cpp" linenr="93" str="Eigen" scope="0x1901970" type="name" astParent="0x1921c10"/>
+    <token id="0x1921c10" file="detect_calibration_pattern.cpp" linenr="93" str="::" scope="0x1901970" astParent="0x1921d70" astOperand1="0x1921b60" astOperand2="0x1921cc0"/>
+    <token id="0x1921cc0" file="detect_calibration_pattern.cpp" linenr="93" str="Vector3f" scope="0x1901970" type="name" astParent="0x1921c10"/>
+    <token id="0x1921d70" file="detect_calibration_pattern.cpp" linenr="93" str="&amp;" scope="0x1901970" type="op" astParent="0x1921ab0" astOperand1="0x1921c10" astOperand2="0x1921e20"/>
+    <token id="0x1921e20" file="detect_calibration_pattern.cpp" linenr="93" str="translation" scope="0x1901970" type="name" varId="51" variable="0x192cf70" astParent="0x1921d70"/>
+    <token id="0x1921ed0" file="detect_calibration_pattern.cpp" linenr="93" str="," scope="0x1901970" astParent="0x1921270" astOperand1="0x1921ab0" astOperand2="0x1922190"/>
+    <token id="0x1921f80" file="detect_calibration_pattern.cpp" linenr="93" str="Eigen" scope="0x1901970" type="name" astParent="0x1922030"/>
+    <token id="0x1922030" file="detect_calibration_pattern.cpp" linenr="93" str="::" scope="0x1901970" astParent="0x1922190" astOperand1="0x1921f80" astOperand2="0x19220e0"/>
+    <token id="0x19220e0" file="detect_calibration_pattern.cpp" linenr="93" str="Quaternionf" scope="0x1901970" type="name" astParent="0x1922030"/>
+    <token id="0x1922190" file="detect_calibration_pattern.cpp" linenr="93" str="&amp;" scope="0x1901970" type="op" astParent="0x1921ed0" astOperand1="0x1922030" astOperand2="0x1922240"/>
+    <token id="0x1922240" file="detect_calibration_pattern.cpp" linenr="93" str="orientation" scope="0x1901970" type="name" varId="52" variable="0x192cfe0" astParent="0x1922190"/>
+    <token id="0x19222f0" file="detect_calibration_pattern.cpp" linenr="93" str=")" scope="0x1901970" link="0x1921270"/>
+    <token id="0x19223a0" file="detect_calibration_pattern.cpp" linenr="94" str="{" scope="0x192c7b0" link="0x1929720"/>
+    <token id="0x1922450" file="detect_calibration_pattern.cpp" linenr="97" str="translation" scope="0x192c7b0" type="name" varId="51" variable="0x192cf70" astParent="0x1922500"/>
+    <token id="0x1922500" file="detect_calibration_pattern.cpp" linenr="97" str="=" scope="0x192c7b0" type="op" isAssignmentOp="True" astOperand1="0x1922450" astOperand2="0x19227c0"/>
+    <token id="0x19225b0" file="detect_calibration_pattern.cpp" linenr="97" str="Eigen" scope="0x192c7b0" type="name" astParent="0x1922660"/>
+    <token id="0x1922660" file="detect_calibration_pattern.cpp" linenr="97" str="::" scope="0x192c7b0" astParent="0x19227c0" astOperand1="0x19225b0" astOperand2="0x1922710"/>
+    <token id="0x1922710" file="detect_calibration_pattern.cpp" linenr="97" str="Vector3f" scope="0x192c7b0" type="name" astParent="0x1922660"/>
+    <token id="0x19227c0" file="detect_calibration_pattern.cpp" linenr="97" str="(" scope="0x192c7b0" link="0x1924080" astParent="0x1922500" astOperand1="0x1922660" astOperand2="0x1923840"/>
+    <token id="0x1922870" file="detect_calibration_pattern.cpp" linenr="97" str="tvec" scope="0x192c7b0" type="name" varId="49" variable="0x192ce90" astParent="0x1922920"/>
+    <token id="0x1922920" file="detect_calibration_pattern.cpp" linenr="97" str="." scope="0x192c7b0" astParent="0x1922c90" astOperand1="0x1922870" astOperand2="0x19229d0"/>
+    <token id="0x19229d0" file="detect_calibration_pattern.cpp" linenr="97" str="at" scope="0x192c7b0" type="name" astParent="0x1922920"/>
+    <token id="0x1922a80" file="detect_calibration_pattern.cpp" linenr="97" str="&lt;" scope="0x192c7b0" link="0x1922be0"/>
+    <token id="0x1922b30" file="detect_calibration_pattern.cpp" linenr="97" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1922be0" file="detect_calibration_pattern.cpp" linenr="97" str="&gt;" scope="0x192c7b0" link="0x1922a80"/>
+    <token id="0x1922c90" file="detect_calibration_pattern.cpp" linenr="97" str="(" scope="0x192c7b0" link="0x1922f50" astParent="0x1923000" astOperand1="0x1922920" astOperand2="0x1922df0"/>
+    <token id="0x1922d40" file="detect_calibration_pattern.cpp" linenr="97" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1922d48" astParent="0x1922df0"/>
+    <token id="0x1922df0" file="detect_calibration_pattern.cpp" linenr="97" str="," scope="0x192c7b0" astParent="0x1922c90" astOperand1="0x1922d40" astOperand2="0x1922ea0"/>
+    <token id="0x1922ea0" file="detect_calibration_pattern.cpp" linenr="97" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1922ea8" astParent="0x1922df0"/>
+    <token id="0x1922f50" file="detect_calibration_pattern.cpp" linenr="97" str=")" scope="0x192c7b0" link="0x1922c90"/>
+    <token id="0x1923000" file="detect_calibration_pattern.cpp" linenr="97" str="," scope="0x192c7b0" astParent="0x1923840" astOperand1="0x1922c90" astOperand2="0x19234d0"/>
+    <token id="0x19230b0" file="detect_calibration_pattern.cpp" linenr="97" str="tvec" scope="0x192c7b0" type="name" varId="49" variable="0x192ce90" astParent="0x1923160"/>
+    <token id="0x1923160" file="detect_calibration_pattern.cpp" linenr="97" str="." scope="0x192c7b0" astParent="0x19234d0" astOperand1="0x19230b0" astOperand2="0x1923210"/>
+    <token id="0x1923210" file="detect_calibration_pattern.cpp" linenr="97" str="at" scope="0x192c7b0" type="name" astParent="0x1923160"/>
+    <token id="0x19232c0" file="detect_calibration_pattern.cpp" linenr="97" str="&lt;" scope="0x192c7b0" link="0x1923420"/>
+    <token id="0x1923370" file="detect_calibration_pattern.cpp" linenr="97" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1923420" file="detect_calibration_pattern.cpp" linenr="97" str="&gt;" scope="0x192c7b0" link="0x19232c0"/>
+    <token id="0x19234d0" file="detect_calibration_pattern.cpp" linenr="97" str="(" scope="0x192c7b0" link="0x1923790" astParent="0x1923000" astOperand1="0x1923160" astOperand2="0x1923630"/>
+    <token id="0x1923580" file="detect_calibration_pattern.cpp" linenr="97" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1923588" astParent="0x1923630"/>
+    <token id="0x1923630" file="detect_calibration_pattern.cpp" linenr="97" str="," scope="0x192c7b0" astParent="0x19234d0" astOperand1="0x1923580" astOperand2="0x19236e0"/>
+    <token id="0x19236e0" file="detect_calibration_pattern.cpp" linenr="97" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x19236e8" astParent="0x1923630"/>
+    <token id="0x1923790" file="detect_calibration_pattern.cpp" linenr="97" str=")" scope="0x192c7b0" link="0x19234d0"/>
+    <token id="0x1923840" file="detect_calibration_pattern.cpp" linenr="97" str="," scope="0x192c7b0" astParent="0x19227c0" astOperand1="0x1923000" astOperand2="0x1923d10"/>
+    <token id="0x19238f0" file="detect_calibration_pattern.cpp" linenr="97" str="tvec" scope="0x192c7b0" type="name" varId="49" variable="0x192ce90" astParent="0x19239a0"/>
+    <token id="0x19239a0" file="detect_calibration_pattern.cpp" linenr="97" str="." scope="0x192c7b0" astParent="0x1923d10" astOperand1="0x19238f0" astOperand2="0x1923a50"/>
+    <token id="0x1923a50" file="detect_calibration_pattern.cpp" linenr="97" str="at" scope="0x192c7b0" type="name" astParent="0x19239a0"/>
+    <token id="0x1923b00" file="detect_calibration_pattern.cpp" linenr="97" str="&lt;" scope="0x192c7b0" link="0x1923c60"/>
+    <token id="0x1923bb0" file="detect_calibration_pattern.cpp" linenr="97" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1923c60" file="detect_calibration_pattern.cpp" linenr="97" str="&gt;" scope="0x192c7b0" link="0x1923b00"/>
+    <token id="0x1923d10" file="detect_calibration_pattern.cpp" linenr="97" str="(" scope="0x192c7b0" link="0x1923fd0" astParent="0x1923840" astOperand1="0x19239a0" astOperand2="0x1923e70"/>
+    <token id="0x1923dc0" file="detect_calibration_pattern.cpp" linenr="97" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1923dc8" astParent="0x1923e70"/>
+    <token id="0x1923e70" file="detect_calibration_pattern.cpp" linenr="97" str="," scope="0x192c7b0" astParent="0x1923d10" astOperand1="0x1923dc0" astOperand2="0x1923f20"/>
+    <token id="0x1923f20" file="detect_calibration_pattern.cpp" linenr="97" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1923f28" astParent="0x1923e70"/>
+    <token id="0x1923fd0" file="detect_calibration_pattern.cpp" linenr="97" str=")" scope="0x192c7b0" link="0x1923d10"/>
+    <token id="0x1924080" file="detect_calibration_pattern.cpp" linenr="97" str=")" scope="0x192c7b0" link="0x19227c0"/>
+    <token id="0x1924130" file="detect_calibration_pattern.cpp" linenr="97" str=";" scope="0x192c7b0"/>
+    <token id="0x19241e0" file="detect_calibration_pattern.cpp" linenr="99" str="Eigen" scope="0x192c7b0" type="name" astParent="0x1924290"/>
+    <token id="0x1924290" file="detect_calibration_pattern.cpp" linenr="99" str="::" scope="0x192c7b0" astOperand1="0x19241e0" astOperand2="0x19243f0"/>
+    <token id="0x1924340" file="detect_calibration_pattern.cpp" linenr="99" str="Matrix3f" scope="0x192c7b0" type="name"/>
+    <token id="0x19243f0" file="detect_calibration_pattern.cpp" linenr="99" str="Rmat" scope="0x192c7b0" type="name" varId="53" variable="0x192ce20" astParent="0x1924290"/>
+    <token id="0x19244a0" file="detect_calibration_pattern.cpp" linenr="99" str=";" scope="0x192c7b0"/>
+    <token id="0x1924550" file="detect_calibration_pattern.cpp" linenr="100" str="Rmat" scope="0x192c7b0" type="name" varId="53" variable="0x192ce20" astParent="0x1924600"/>
+    <token id="0x1924600" file="detect_calibration_pattern.cpp" linenr="100" str="&lt;&lt;" scope="0x192c7b0" type="op" isArithmeticalOp="True" astParent="0x1924e40" astOperand1="0x1924550" astOperand2="0x1924ad0"/>
+    <token id="0x19246b0" file="detect_calibration_pattern.cpp" linenr="100" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1924760"/>
+    <token id="0x1924760" file="detect_calibration_pattern.cpp" linenr="100" str="." scope="0x192c7b0" astParent="0x1924ad0" astOperand1="0x19246b0" astOperand2="0x1924810"/>
+    <token id="0x1924810" file="detect_calibration_pattern.cpp" linenr="100" str="at" scope="0x192c7b0" type="name" astParent="0x1924760"/>
+    <token id="0x19248c0" file="detect_calibration_pattern.cpp" linenr="100" str="&lt;" scope="0x192c7b0" link="0x1924a20"/>
+    <token id="0x1924970" file="detect_calibration_pattern.cpp" linenr="100" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1924a20" file="detect_calibration_pattern.cpp" linenr="100" str="&gt;" scope="0x192c7b0" link="0x19248c0"/>
+    <token id="0x1924ad0" file="detect_calibration_pattern.cpp" linenr="100" str="(" scope="0x192c7b0" link="0x1924d90" astParent="0x1924600" astOperand1="0x1924760" astOperand2="0x1924c30"/>
+    <token id="0x1924b80" file="detect_calibration_pattern.cpp" linenr="100" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1924b88" astParent="0x1924c30"/>
+    <token id="0x1924c30" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1924ad0" astOperand1="0x1924b80" astOperand2="0x1924ce0"/>
+    <token id="0x1924ce0" file="detect_calibration_pattern.cpp" linenr="100" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1924ce8" astParent="0x1924c30"/>
+    <token id="0x1924d90" file="detect_calibration_pattern.cpp" linenr="100" str=")" scope="0x192c7b0" link="0x1924ad0"/>
+    <token id="0x1924e40" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1925680" astOperand1="0x1924600" astOperand2="0x1925310"/>
+    <token id="0x1924ef0" file="detect_calibration_pattern.cpp" linenr="100" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1924fa0"/>
+    <token id="0x1924fa0" file="detect_calibration_pattern.cpp" linenr="100" str="." scope="0x192c7b0" astParent="0x1925310" astOperand1="0x1924ef0" astOperand2="0x1925050"/>
+    <token id="0x1925050" file="detect_calibration_pattern.cpp" linenr="100" str="at" scope="0x192c7b0" type="name" astParent="0x1924fa0"/>
+    <token id="0x1925100" file="detect_calibration_pattern.cpp" linenr="100" str="&lt;" scope="0x192c7b0" link="0x1925260"/>
+    <token id="0x19251b0" file="detect_calibration_pattern.cpp" linenr="100" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1925260" file="detect_calibration_pattern.cpp" linenr="100" str="&gt;" scope="0x192c7b0" link="0x1925100"/>
+    <token id="0x1925310" file="detect_calibration_pattern.cpp" linenr="100" str="(" scope="0x192c7b0" link="0x19255d0" astParent="0x1924e40" astOperand1="0x1924fa0" astOperand2="0x1925470"/>
+    <token id="0x19253c0" file="detect_calibration_pattern.cpp" linenr="100" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x19253c8" astParent="0x1925470"/>
+    <token id="0x1925470" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1925310" astOperand1="0x19253c0" astOperand2="0x1925520"/>
+    <token id="0x1925520" file="detect_calibration_pattern.cpp" linenr="100" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x1925528" astParent="0x1925470"/>
+    <token id="0x19255d0" file="detect_calibration_pattern.cpp" linenr="100" str=")" scope="0x192c7b0" link="0x1925310"/>
+    <token id="0x1925680" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1925ec0" astOperand1="0x1924e40" astOperand2="0x1925b50"/>
+    <token id="0x1925730" file="detect_calibration_pattern.cpp" linenr="100" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x19257e0"/>
+    <token id="0x19257e0" file="detect_calibration_pattern.cpp" linenr="100" str="." scope="0x192c7b0" astParent="0x1925b50" astOperand1="0x1925730" astOperand2="0x1925890"/>
+    <token id="0x1925890" file="detect_calibration_pattern.cpp" linenr="100" str="at" scope="0x192c7b0" type="name" astParent="0x19257e0"/>
+    <token id="0x1925940" file="detect_calibration_pattern.cpp" linenr="100" str="&lt;" scope="0x192c7b0" link="0x1925aa0"/>
+    <token id="0x19259f0" file="detect_calibration_pattern.cpp" linenr="100" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1925aa0" file="detect_calibration_pattern.cpp" linenr="100" str="&gt;" scope="0x192c7b0" link="0x1925940"/>
+    <token id="0x1925b50" file="detect_calibration_pattern.cpp" linenr="100" str="(" scope="0x192c7b0" link="0x1925e10" astParent="0x1925680" astOperand1="0x19257e0" astOperand2="0x1925cb0"/>
+    <token id="0x1925c00" file="detect_calibration_pattern.cpp" linenr="100" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1925c08" astParent="0x1925cb0"/>
+    <token id="0x1925cb0" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1925b50" astOperand1="0x1925c00" astOperand2="0x1925d60"/>
+    <token id="0x1925d60" file="detect_calibration_pattern.cpp" linenr="100" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1925d68" astParent="0x1925cb0"/>
+    <token id="0x1925e10" file="detect_calibration_pattern.cpp" linenr="100" str=")" scope="0x192c7b0" link="0x1925b50"/>
+    <token id="0x1925ec0" file="detect_calibration_pattern.cpp" linenr="100" str="," scope="0x192c7b0" astParent="0x1926700" astOperand1="0x1925680" astOperand2="0x1926390"/>
+    <token id="0x1925f70" file="detect_calibration_pattern.cpp" linenr="101" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1926020"/>
+    <token id="0x1926020" file="detect_calibration_pattern.cpp" linenr="101" str="." scope="0x192c7b0" astParent="0x1926390" astOperand1="0x1925f70" astOperand2="0x19260d0"/>
+    <token id="0x19260d0" file="detect_calibration_pattern.cpp" linenr="101" str="at" scope="0x192c7b0" type="name" astParent="0x1926020"/>
+    <token id="0x1926180" file="detect_calibration_pattern.cpp" linenr="101" str="&lt;" scope="0x192c7b0" link="0x19262e0"/>
+    <token id="0x1926230" file="detect_calibration_pattern.cpp" linenr="101" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x19262e0" file="detect_calibration_pattern.cpp" linenr="101" str="&gt;" scope="0x192c7b0" link="0x1926180"/>
+    <token id="0x1926390" file="detect_calibration_pattern.cpp" linenr="101" str="(" scope="0x192c7b0" link="0x1926650" astParent="0x1925ec0" astOperand1="0x1926020" astOperand2="0x19264f0"/>
+    <token id="0x1926440" file="detect_calibration_pattern.cpp" linenr="101" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x1926448" astParent="0x19264f0"/>
+    <token id="0x19264f0" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1926390" astOperand1="0x1926440" astOperand2="0x19265a0"/>
+    <token id="0x19265a0" file="detect_calibration_pattern.cpp" linenr="101" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x19265a8" astParent="0x19264f0"/>
+    <token id="0x1926650" file="detect_calibration_pattern.cpp" linenr="101" str=")" scope="0x192c7b0" link="0x1926390"/>
+    <token id="0x1926700" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1926f40" astOperand1="0x1925ec0" astOperand2="0x1926bd0"/>
+    <token id="0x19267b0" file="detect_calibration_pattern.cpp" linenr="101" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1926860"/>
+    <token id="0x1926860" file="detect_calibration_pattern.cpp" linenr="101" str="." scope="0x192c7b0" astParent="0x1926bd0" astOperand1="0x19267b0" astOperand2="0x1926910"/>
+    <token id="0x1926910" file="detect_calibration_pattern.cpp" linenr="101" str="at" scope="0x192c7b0" type="name" astParent="0x1926860"/>
+    <token id="0x19269c0" file="detect_calibration_pattern.cpp" linenr="101" str="&lt;" scope="0x192c7b0" link="0x1926b20"/>
+    <token id="0x1926a70" file="detect_calibration_pattern.cpp" linenr="101" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1926b20" file="detect_calibration_pattern.cpp" linenr="101" str="&gt;" scope="0x192c7b0" link="0x19269c0"/>
+    <token id="0x1926bd0" file="detect_calibration_pattern.cpp" linenr="101" str="(" scope="0x192c7b0" link="0x1926e90" astParent="0x1926700" astOperand1="0x1926860" astOperand2="0x1926d30"/>
+    <token id="0x1926c80" file="detect_calibration_pattern.cpp" linenr="101" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x1926c88" astParent="0x1926d30"/>
+    <token id="0x1926d30" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1926bd0" astOperand1="0x1926c80" astOperand2="0x1926de0"/>
+    <token id="0x1926de0" file="detect_calibration_pattern.cpp" linenr="101" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x1926de8" astParent="0x1926d30"/>
+    <token id="0x1926e90" file="detect_calibration_pattern.cpp" linenr="101" str=")" scope="0x192c7b0" link="0x1926bd0"/>
+    <token id="0x1926f40" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1927780" astOperand1="0x1926700" astOperand2="0x1927410"/>
+    <token id="0x1926ff0" file="detect_calibration_pattern.cpp" linenr="101" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x19270a0"/>
+    <token id="0x19270a0" file="detect_calibration_pattern.cpp" linenr="101" str="." scope="0x192c7b0" astParent="0x1927410" astOperand1="0x1926ff0" astOperand2="0x1927150"/>
+    <token id="0x1927150" file="detect_calibration_pattern.cpp" linenr="101" str="at" scope="0x192c7b0" type="name" astParent="0x19270a0"/>
+    <token id="0x1927200" file="detect_calibration_pattern.cpp" linenr="101" str="&lt;" scope="0x192c7b0" link="0x1927360"/>
+    <token id="0x19272b0" file="detect_calibration_pattern.cpp" linenr="101" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1927360" file="detect_calibration_pattern.cpp" linenr="101" str="&gt;" scope="0x192c7b0" link="0x1927200"/>
+    <token id="0x1927410" file="detect_calibration_pattern.cpp" linenr="101" str="(" scope="0x192c7b0" link="0x19276d0" astParent="0x1926f40" astOperand1="0x19270a0" astOperand2="0x1927570"/>
+    <token id="0x19274c0" file="detect_calibration_pattern.cpp" linenr="101" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x19274c8" astParent="0x1927570"/>
+    <token id="0x1927570" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1927410" astOperand1="0x19274c0" astOperand2="0x1927620"/>
+    <token id="0x1927620" file="detect_calibration_pattern.cpp" linenr="101" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1927628" astParent="0x1927570"/>
+    <token id="0x19276d0" file="detect_calibration_pattern.cpp" linenr="101" str=")" scope="0x192c7b0" link="0x1927410"/>
+    <token id="0x1927780" file="detect_calibration_pattern.cpp" linenr="101" str="," scope="0x192c7b0" astParent="0x1927fc0" astOperand1="0x1926f40" astOperand2="0x1927c50"/>
+    <token id="0x1927830" file="detect_calibration_pattern.cpp" linenr="102" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x19278e0"/>
+    <token id="0x19278e0" file="detect_calibration_pattern.cpp" linenr="102" str="." scope="0x192c7b0" astParent="0x1927c50" astOperand1="0x1927830" astOperand2="0x1927990"/>
+    <token id="0x1927990" file="detect_calibration_pattern.cpp" linenr="102" str="at" scope="0x192c7b0" type="name" astParent="0x19278e0"/>
+    <token id="0x1927a40" file="detect_calibration_pattern.cpp" linenr="102" str="&lt;" scope="0x192c7b0" link="0x1927ba0"/>
+    <token id="0x1927af0" file="detect_calibration_pattern.cpp" linenr="102" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1927ba0" file="detect_calibration_pattern.cpp" linenr="102" str="&gt;" scope="0x192c7b0" link="0x1927a40"/>
+    <token id="0x1927c50" file="detect_calibration_pattern.cpp" linenr="102" str="(" scope="0x192c7b0" link="0x1927f10" astParent="0x1927780" astOperand1="0x19278e0" astOperand2="0x1927db0"/>
+    <token id="0x1927d00" file="detect_calibration_pattern.cpp" linenr="102" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1927d08" astParent="0x1927db0"/>
+    <token id="0x1927db0" file="detect_calibration_pattern.cpp" linenr="102" str="," scope="0x192c7b0" astParent="0x1927c50" astOperand1="0x1927d00" astOperand2="0x1927e60"/>
+    <token id="0x1927e60" file="detect_calibration_pattern.cpp" linenr="102" str="0" scope="0x192c7b0" type="number" isInt="True" values="0x1927e68" astParent="0x1927db0"/>
+    <token id="0x1927f10" file="detect_calibration_pattern.cpp" linenr="102" str=")" scope="0x192c7b0" link="0x1927c50"/>
+    <token id="0x1927fc0" file="detect_calibration_pattern.cpp" linenr="102" str="," scope="0x192c7b0" astParent="0x1928800" astOperand1="0x1927780" astOperand2="0x1928490"/>
+    <token id="0x1928070" file="detect_calibration_pattern.cpp" linenr="102" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1928120"/>
+    <token id="0x1928120" file="detect_calibration_pattern.cpp" linenr="102" str="." scope="0x192c7b0" astParent="0x1928490" astOperand1="0x1928070" astOperand2="0x19281d0"/>
+    <token id="0x19281d0" file="detect_calibration_pattern.cpp" linenr="102" str="at" scope="0x192c7b0" type="name" astParent="0x1928120"/>
+    <token id="0x1928280" file="detect_calibration_pattern.cpp" linenr="102" str="&lt;" scope="0x192c7b0" link="0x19283e0"/>
+    <token id="0x1928330" file="detect_calibration_pattern.cpp" linenr="102" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x19283e0" file="detect_calibration_pattern.cpp" linenr="102" str="&gt;" scope="0x192c7b0" link="0x1928280"/>
+    <token id="0x1928490" file="detect_calibration_pattern.cpp" linenr="102" str="(" scope="0x192c7b0" link="0x1928750" astParent="0x1927fc0" astOperand1="0x1928120" astOperand2="0x19285f0"/>
+    <token id="0x1928540" file="detect_calibration_pattern.cpp" linenr="102" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1928548" astParent="0x19285f0"/>
+    <token id="0x19285f0" file="detect_calibration_pattern.cpp" linenr="102" str="," scope="0x192c7b0" astParent="0x1928490" astOperand1="0x1928540" astOperand2="0x19286a0"/>
+    <token id="0x19286a0" file="detect_calibration_pattern.cpp" linenr="102" str="1" scope="0x192c7b0" type="number" isInt="True" values="0x19286a8" astParent="0x19285f0"/>
+    <token id="0x1928750" file="detect_calibration_pattern.cpp" linenr="102" str=")" scope="0x192c7b0" link="0x1928490"/>
+    <token id="0x1928800" file="detect_calibration_pattern.cpp" linenr="102" str="," scope="0x192c7b0" astOperand1="0x1927fc0" astOperand2="0x1928cd0"/>
+    <token id="0x19288b0" file="detect_calibration_pattern.cpp" linenr="102" str="R" scope="0x192c7b0" type="name" varId="50" variable="0x192cf00" astParent="0x1928960"/>
+    <token id="0x1928960" file="detect_calibration_pattern.cpp" linenr="102" str="." scope="0x192c7b0" astParent="0x1928cd0" astOperand1="0x19288b0" astOperand2="0x1928a10"/>
+    <token id="0x1928a10" file="detect_calibration_pattern.cpp" linenr="102" str="at" scope="0x192c7b0" type="name" astParent="0x1928960"/>
+    <token id="0x1928ac0" file="detect_calibration_pattern.cpp" linenr="102" str="&lt;" scope="0x192c7b0" link="0x1928c20"/>
+    <token id="0x1928b70" file="detect_calibration_pattern.cpp" linenr="102" str="double" scope="0x192c7b0" type="name"/>
+    <token id="0x1928c20" file="detect_calibration_pattern.cpp" linenr="102" str="&gt;" scope="0x192c7b0" link="0x1928ac0"/>
+    <token id="0x1928cd0" file="detect_calibration_pattern.cpp" linenr="102" str="(" scope="0x192c7b0" link="0x1928f90" astParent="0x1928800" astOperand1="0x1928960" astOperand2="0x1928e30"/>
+    <token id="0x1928d80" file="detect_calibration_pattern.cpp" linenr="102" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1928d88" astParent="0x1928e30"/>
+    <token id="0x1928e30" file="detect_calibration_pattern.cpp" linenr="102" str="," scope="0x192c7b0" astParent="0x1928cd0" astOperand1="0x1928d80" astOperand2="0x1928ee0"/>
+    <token id="0x1928ee0" file="detect_calibration_pattern.cpp" linenr="102" str="2" scope="0x192c7b0" type="number" isInt="True" values="0x1928ee8" astParent="0x1928e30"/>
+    <token id="0x1928f90" file="detect_calibration_pattern.cpp" linenr="102" str=")" scope="0x192c7b0" link="0x1928cd0"/>
+    <token id="0x1929040" file="detect_calibration_pattern.cpp" linenr="102" str=";" scope="0x192c7b0"/>
+    <token id="0x19290f0" file="detect_calibration_pattern.cpp" linenr="104" str="orientation" scope="0x192c7b0" type="name" varId="52" variable="0x192cfe0" astParent="0x19291a0"/>
+    <token id="0x19291a0" file="detect_calibration_pattern.cpp" linenr="104" str="=" scope="0x192c7b0" type="op" isAssignmentOp="True" astOperand1="0x19290f0" astOperand2="0x1929460"/>
+    <token id="0x1929250" file="detect_calibration_pattern.cpp" linenr="104" str="Eigen" scope="0x192c7b0" type="name" astParent="0x1929300"/>
+    <token id="0x1929300" file="detect_calibration_pattern.cpp" linenr="104" str="::" scope="0x192c7b0" astParent="0x1929460" astOperand1="0x1929250" astOperand2="0x19293b0"/>
+    <token id="0x19293b0" file="detect_calibration_pattern.cpp" linenr="104" str="Quaternionf" scope="0x192c7b0" type="name" astParent="0x1929300"/>
+    <token id="0x1929460" file="detect_calibration_pattern.cpp" linenr="104" str="(" scope="0x192c7b0" link="0x19295c0" astParent="0x19291a0" astOperand1="0x1929300" astOperand2="0x1929510"/>
+    <token id="0x1929510" file="detect_calibration_pattern.cpp" linenr="104" str="Rmat" scope="0x192c7b0" type="name" varId="53" variable="0x192ce20" astParent="0x1929460"/>
+    <token id="0x19295c0" file="detect_calibration_pattern.cpp" linenr="104" str=")" scope="0x192c7b0" link="0x1929460"/>
+    <token id="0x1929670" file="detect_calibration_pattern.cpp" linenr="104" str=";" scope="0x192c7b0"/>
+    <token id="0x1929720" file="detect_calibration_pattern.cpp" linenr="106" str="}" scope="0x192c7b0" link="0x19223a0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1901970" type="Global">
+      <functionList>
+        <function id="0x1901aa0" tokenDef="0x1902b40" name="convertCVtoEigen">
+          <arg nr="1" variable="0x192ce90"/>
+          <arg nr="2" variable="0x192cf00"/>
+          <arg nr="3" variable="0x192cf70"/>
+          <arg nr="4" variable="0x192cfe0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x18fd850" type="Class" className="PatternDetector" classStart="0x1903f30" classEnd="0x190aae0" nestedIn="0x1901970">
+      <functionList>
+        <function id="0x18fd980" tokenDef="0x1904140" name="PatternDetector"/>
+        <function id="0x18fdb50" tokenDef="0x1904610" name="calcChessboardCorners">
+          <arg nr="1" variable="0x192d050"/>
+          <arg nr="2" variable="0x192d0c0"/>
+          <arg nr="3" variable="0x192d130"/>
+          <arg nr="4" variable="0x192d1a0"/>
+        </function>
+        <function id="0x18fdbf0" tokenDef="0x1905980" name="detectPattern">
+          <arg nr="1" variable="0x192d210"/>
+          <arg nr="2" variable="0x192d280"/>
+          <arg nr="3" variable="0x192d2f0"/>
+        </function>
+        <function id="0x18fdc90" tokenDef="0x19077d0" name="setCameraMatrices">
+          <arg nr="1" variable="0x192d360"/>
+          <arg nr="2" variable="0x192d3d0"/>
+        </function>
+        <function id="0x18fdd30" tokenDef="0x19081a0" name="setPattern">
+          <arg nr="1" variable="0x192d440"/>
+          <arg nr="2" variable="0x192d4b0"/>
+          <arg nr="3" variable="0x192d520"/>
+          <arg nr="4" variable="0x192d590"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x192c8e0"/>
+        <var id="0x192c950"/>
+        <var id="0x192c9c0"/>
+        <var id="0x192ca30"/>
+        <var id="0x192caa0"/>
+        <var id="0x192cb10"/>
+        <var id="0x192cb80"/>
+        <var id="0x192cbf0"/>
+        <var id="0x192cc60"/>
+      </varlist>
+    </scope>
+    <scope id="0x18fda20" type="Function" className="PatternDetector" classStart="0x1904350" classEnd="0x1904400" nestedIn="0x18fd850" function="0x18fd980"/>
+    <scope id="0x192b820" type="Function" className="setCameraMatrices" classStart="0x190b6c0" classEnd="0x190bcf0" nestedIn="0x1901970" function="0x18fdc90"/>
+    <scope id="0x192b950" type="Function" className="setPattern" classStart="0x190cc10" classEnd="0x190de20" nestedIn="0x1901970" function="0x18fdd30"/>
+    <scope id="0x192ba80" type="Function" className="calcChessboardCorners" classStart="0x190ed70" classEnd="0x1915e10" nestedIn="0x1901970" function="0x18fdb50">
+      <varlist>
+        <var id="0x192ccd0"/>
+      </varlist>
+    </scope>
+    <scope id="0x192bbb0" type="Switch" classStart="0x190f2f0" classEnd="0x1915b50" nestedIn="0x192ba80"/>
+    <scope id="0x192bce0" type="For" classStart="0x1904090" classEnd="0x1909380" nestedIn="0x192bbb0">
+      <varlist>
+        <var id="0x18f4ee0"/>
+      </varlist>
+    </scope>
+    <scope id="0x192be10" type="For" classStart="0x191ca00" classEnd="0x191cc10" nestedIn="0x192bce0">
+      <varlist>
+        <var id="0x192bf40"/>
+      </varlist>
+    </scope>
+    <scope id="0x192bfb0" type="For" classStart="0x1929df0" classEnd="0x1929a30" nestedIn="0x192bbb0">
+      <varlist>
+        <var id="0x192c0e0"/>
+      </varlist>
+    </scope>
+    <scope id="0x192c150" type="For" classStart="0x1929c90" classEnd="0x1929d40" nestedIn="0x192bfb0">
+      <varlist>
+        <var id="0x192c280"/>
+      </varlist>
+    </scope>
+    <scope id="0x192c2f0" type="Function" className="detectPattern" classStart="0x1916e90" classEnd="0x1921030" nestedIn="0x1901970" function="0x18fdbf0">
+      <varlist>
+        <var id="0x192cd40"/>
+        <var id="0x192cdb0"/>
+      </varlist>
+    </scope>
+    <scope id="0x192c420" type="Switch" classStart="0x1917ff0" classEnd="0x191b270" nestedIn="0x192c2f0"/>
+    <scope id="0x192c550" type="If" classStart="0x191b5e0" classEnd="0x1920d70" nestedIn="0x192c2f0"/>
+    <scope id="0x192c680" type="If" classStart="0x191bab0" classEnd="0x191ddf0" nestedIn="0x192c550"/>
+    <scope id="0x192c7b0" type="Function" className="convertCVtoEigen" classStart="0x19223a0" classEnd="0x1929720" nestedIn="0x1901970" function="0x1901aa0">
+      <varlist>
+        <var id="0x192ce20"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x192c8e0" nameToken="0x1909640" typeStartToken="0x1909430" typeEndToken="0x1909590" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192c950" nameToken="0x19099b0" typeStartToken="0x19097a0" typeEndToken="0x1909900" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192c9c0" nameToken="0x1909d20" typeStartToken="0x1909b10" typeEndToken="0x1909c70" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192ca30" nameToken="0x1909e80" typeStartToken="0x18fd3a0" typeEndToken="0x192a0b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192caa0" nameToken="0x1909fe0" typeStartToken="0x192a160" typeEndToken="0x192a2c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192cb10" nameToken="0x190a1f0" typeStartToken="0x190a140" typeEndToken="0x190a140" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192cb80" nameToken="0x190a560" typeStartToken="0x190a350" typeEndToken="0x190a4b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192cbf0" nameToken="0x190a770" typeStartToken="0x190a6c0" typeEndToken="0x190a6c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192cc60" nameToken="0x190a980" typeStartToken="0x190a8d0" typeEndToken="0x192adc0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d360" nameToken="0x190b1f0" typeStartToken="0x190afe0" typeEndToken="0x190b140" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d3d0" nameToken="0x190b560" typeStartToken="0x190b350" typeEndToken="0x190b4b0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d440" nameToken="0x190c320" typeStartToken="0x190c110" typeEndToken="0x190c270" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d4b0" nameToken="0x190c530" typeStartToken="0x190c480" typeEndToken="0x190c480" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d520" nameToken="0x190c740" typeStartToken="0x190c690" typeEndToken="0x190c690" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d590" nameToken="0x190cab0" typeStartToken="0x190c8a0" typeEndToken="0x190ca00" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d050" nameToken="0x190e480" typeStartToken="0x190e270" typeEndToken="0x190e3d0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d0c0" nameToken="0x190e690" typeStartToken="0x190e5e0" typeEndToken="0x190e5e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d130" nameToken="0x190e8a0" typeStartToken="0x190e7f0" typeEndToken="0x190e7f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d1a0" nameToken="0x190ec10" typeStartToken="0x190ea00" typeEndToken="0x190eb60" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192ccd0" nameToken="0x190eed0" typeStartToken="0x190ee20" typeEndToken="0x192b760" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x18f4ee0" nameToken="0x190f9d0" typeStartToken="0x190f920" typeEndToken="0x190f920" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192bf40" nameToken="0x19104d0" typeStartToken="0x1910420" typeEndToken="0x1910420" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192c0e0" nameToken="0x19126b0" typeStartToken="0x1912600" typeEndToken="0x1912600" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192c280" nameToken="0x19131b0" typeStartToken="0x1913100" typeEndToken="0x1913100" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192d210" nameToken="0x19164f0" typeStartToken="0x1916230" typeEndToken="0x1916440" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192d280" nameToken="0x1916910" typeStartToken="0x1916650" typeEndToken="0x1916860" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192d2f0" nameToken="0x1916d30" typeStartToken="0x1916a70" typeEndToken="0x1916c80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192cd40" nameToken="0x1917830" typeStartToken="0x1917780" typeEndToken="0x1917780" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192cdb0" nameToken="0x1917ba0" typeStartToken="0x1917af0" typeEndToken="0x1901f90" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x192ce90" nameToken="0x19215e0" typeStartToken="0x1921320" typeEndToken="0x1921530" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192cf00" nameToken="0x1921a00" typeStartToken="0x1921740" typeEndToken="0x1921950" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192cf70" nameToken="0x1921e20" typeStartToken="0x1921b60" typeEndToken="0x1921d70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192cfe0" nameToken="0x1922240" typeStartToken="0x1921f80" typeEndToken="0x1922190" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x192ce20" nameToken="0x19243f0" typeStartToken="0x19241e0" typeEndToken="0x1924340" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1904f38">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x190f458">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x190f668">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x190fb38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1910638">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19114a8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1911978">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1911ce8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1912318">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x1912818">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1913318">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1914188">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1914708">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x19147b8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1914868">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x19149c8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1914a78">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1914b28">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1914f48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1915918">
+      <value tokvalue="0x1915910" known="true"/>
+    </values>
+    <values id="0x1917998">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1918158">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x19193f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x191a3d8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x191b958">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x191c3d8">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x191c538">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x191cab8">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x191ccc8">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x191d9d8">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x191f0b8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1922d48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1922ea8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1923588">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19236e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1923dc8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1923f28">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1924b88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1924ce8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19253c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1925528">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1925c08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1925d68">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1926448">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19265a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1926c88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1926de8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19274c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1927628">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1927d08">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1927e68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1928548">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x19286a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1928d88">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1928ee8">
+      <value intvalue="2" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

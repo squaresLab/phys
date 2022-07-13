@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0xd5e470" file="../include/robot_localization/navsat_transform.h" linenr="43" str="namespace" scope="0xd6c1a0" type="name"/>
+    <token id="0xd6ce60" file="../include/robot_localization/navsat_transform.h" linenr="43" str="RobotLocalization" scope="0xd6c1a0" type="name" astParent="0xd6cf10"/>
+    <token id="0xd6cf10" file="../include/robot_localization/navsat_transform.h" linenr="44" str="{" scope="0xd791d0" link="0xd77640" astOperand1="0xd6ce60" astOperand2="0xd6d070"/>
+    <token id="0xd6cfc0" file="../include/robot_localization/navsat_transform.h" linenr="45" str="class" scope="0xd791d0" type="name"/>
+    <token id="0xd6d070" file="../include/robot_localization/navsat_transform.h" linenr="45" str="NavSatTransform" scope="0xd791d0" type="name" type-scope="0xd79690" astParent="0xd6cf10"/>
+    <token id="0xd6d1c0" file="../include/robot_localization/navsat_transform.h" linenr="46" str="{" scope="0xd79690" link="0xd774e0"/>
+    <token id="0xd6d270" file="../include/robot_localization/navsat_transform.h" linenr="47" str="public:" scope="0xd79690" type="name"/>
+    <token id="0xd6d3d0" file="../include/robot_localization/navsat_transform.h" linenr="51" str="NavSatTransform" scope="0xd79690" type="name" function="0xd797c0" astParent="0xd6d480"/>
+    <token id="0xd6d480" file="../include/robot_localization/navsat_transform.h" linenr="51" str="(" scope="0xd79690" link="0xd6fc50" astOperand1="0xd6d3d0"/>
+    <token id="0xd6fc50" file="../include/robot_localization/navsat_transform.h" linenr="51" str=")" scope="0xd79690" link="0xd6d480"/>
+    <token id="0xd6fd00" file="../include/robot_localization/navsat_transform.h" linenr="51" str=";" scope="0xd79690"/>
+    <token id="0xd6fdb0" file="../include/robot_localization/navsat_transform.h" linenr="55" str="~" scope="0xd79690" type="op" astOperand1="0xd6ff10"/>
+    <token id="0xd6fe60" file="../include/robot_localization/navsat_transform.h" linenr="55" str="NavSatTransform" scope="0xd79690" type="name" function="0xd79300" astParent="0xd6ff10"/>
+    <token id="0xd6ff10" file="../include/robot_localization/navsat_transform.h" linenr="55" str="(" scope="0xd79690" link="0xd6ffc0" astParent="0xd6fdb0" astOperand1="0xd6fe60"/>
+    <token id="0xd6ffc0" file="../include/robot_localization/navsat_transform.h" linenr="55" str=")" scope="0xd79690" link="0xd6ff10"/>
+    <token id="0xd70070" file="../include/robot_localization/navsat_transform.h" linenr="55" str=";" scope="0xd79690"/>
+    <token id="0xd70120" file="../include/robot_localization/navsat_transform.h" linenr="59" str="void" scope="0xd79690" type="name"/>
+    <token id="0xd701d0" file="../include/robot_localization/navsat_transform.h" linenr="59" str="run" scope="0xd79690" type="name" function="0xd7a8a0" astParent="0xd70280"/>
+    <token id="0xd70280" file="../include/robot_localization/navsat_transform.h" linenr="59" str="(" scope="0xd79690" link="0xd70330" astOperand1="0xd701d0"/>
+    <token id="0xd70330" file="../include/robot_localization/navsat_transform.h" linenr="59" str=")" scope="0xd79690" link="0xd70280"/>
+    <token id="0xd703e0" file="../include/robot_localization/navsat_transform.h" linenr="59" str=";" scope="0xd79690"/>
+    <token id="0xd70490" file="../include/robot_localization/navsat_transform.h" linenr="61" str="private:" scope="0xd79690" type="name"/>
+    <token id="0xd705f0" file="../include/robot_localization/navsat_transform.h" linenr="65" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd706a0" file="../include/robot_localization/navsat_transform.h" linenr="65" str="broadcastUtmTransform_" scope="0xd79690" type="name" varId="1" variable="0xd7aed0"/>
+    <token id="0xd70750" file="../include/robot_localization/navsat_transform.h" linenr="65" str=";" scope="0xd79690"/>
+    <token id="0xd70800" file="../include/robot_localization/navsat_transform.h" linenr="70" str="double" scope="0xd79690" type="name"/>
+    <token id="0xd708b0" file="../include/robot_localization/navsat_transform.h" linenr="70" str="magneticDeclination_" scope="0xd79690" type="name" varId="2" variable="0xd7af40"/>
+    <token id="0xd70990" file="../include/robot_localization/navsat_transform.h" linenr="70" str=";" scope="0xd79690"/>
+    <token id="0xd70a40" file="../include/robot_localization/navsat_transform.h" linenr="74" str="double" scope="0xd79690" type="name"/>
+    <token id="0xd70af0" file="../include/robot_localization/navsat_transform.h" linenr="74" str="utmOdomTfYaw_" scope="0xd79690" type="name" varId="3" variable="0xd7afb0"/>
+    <token id="0xd70ba0" file="../include/robot_localization/navsat_transform.h" linenr="74" str=";" scope="0xd79690"/>
+    <token id="0xd70c50" file="../include/robot_localization/navsat_transform.h" linenr="78" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd70d00" file="../include/robot_localization/navsat_transform.h" linenr="78" str="hasGps_" scope="0xd79690" type="name" varId="4" variable="0xd7b020"/>
+    <token id="0xd70db0" file="../include/robot_localization/navsat_transform.h" linenr="78" str=";" scope="0xd79690"/>
+    <token id="0xd70e60" file="../include/robot_localization/navsat_transform.h" linenr="82" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd70f10" file="../include/robot_localization/navsat_transform.h" linenr="82" str="hasOdom_" scope="0xd79690" type="name" varId="5" variable="0xd7b090"/>
+    <token id="0xd70fc0" file="../include/robot_localization/navsat_transform.h" linenr="82" str=";" scope="0xd79690"/>
+    <token id="0xd71070" file="../include/robot_localization/navsat_transform.h" linenr="86" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd71120" file="../include/robot_localization/navsat_transform.h" linenr="86" str="hasImu_" scope="0xd79690" type="name" varId="6" variable="0xd7b100"/>
+    <token id="0xd711d0" file="../include/robot_localization/navsat_transform.h" linenr="86" str=";" scope="0xd79690"/>
+    <token id="0xd71280" file="../include/robot_localization/navsat_transform.h" linenr="90" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd71330" file="../include/robot_localization/navsat_transform.h" linenr="90" str="transformGood_" scope="0xd79690" type="name" varId="7" variable="0xd7b170"/>
+    <token id="0xd713e0" file="../include/robot_localization/navsat_transform.h" linenr="90" str=";" scope="0xd79690"/>
+    <token id="0xd71490" file="../include/robot_localization/navsat_transform.h" linenr="97" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd71540" file="../include/robot_localization/navsat_transform.h" linenr="97" str="gpsUpdated_" scope="0xd79690" type="name" varId="8" variable="0xd7b1e0"/>
+    <token id="0xd715f0" file="../include/robot_localization/navsat_transform.h" linenr="97" str=";" scope="0xd79690"/>
+    <token id="0xd716a0" file="../include/robot_localization/navsat_transform.h" linenr="104" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd71750" file="../include/robot_localization/navsat_transform.h" linenr="104" str="odomUpdated_" scope="0xd79690" type="name" varId="9" variable="0xd7b250"/>
+    <token id="0xd71800" file="../include/robot_localization/navsat_transform.h" linenr="104" str=";" scope="0xd79690"/>
+    <token id="0xd718b0" file="../include/robot_localization/navsat_transform.h" linenr="111" str="ros" scope="0xd79690" type="name" astParent="0xd71960"/>
+    <token id="0xd71960" file="../include/robot_localization/navsat_transform.h" linenr="111" str="::" scope="0xd79690" astOperand1="0xd718b0" astOperand2="0xd71ac0"/>
+    <token id="0xd71a10" file="../include/robot_localization/navsat_transform.h" linenr="111" str="Time" scope="0xd79690" type="name"/>
+    <token id="0xd71ac0" file="../include/robot_localization/navsat_transform.h" linenr="111" str="gpsUpdateTime_" scope="0xd79690" type="name" varId="10" variable="0xd7b2c0" astParent="0xd71960"/>
+    <token id="0xd721b0" file="../include/robot_localization/navsat_transform.h" linenr="111" str=";" scope="0xd79690"/>
+    <token id="0xd72260" file="../include/robot_localization/navsat_transform.h" linenr="118" str="ros" scope="0xd79690" type="name" astParent="0xd72310"/>
+    <token id="0xd72310" file="../include/robot_localization/navsat_transform.h" linenr="118" str="::" scope="0xd79690" astOperand1="0xd72260" astOperand2="0xd72470"/>
+    <token id="0xd723c0" file="../include/robot_localization/navsat_transform.h" linenr="118" str="Time" scope="0xd79690" type="name"/>
+    <token id="0xd72470" file="../include/robot_localization/navsat_transform.h" linenr="118" str="odomUpdateTime_" scope="0xd79690" type="name" varId="11" variable="0xd7b330" astParent="0xd72310"/>
+    <token id="0xd72520" file="../include/robot_localization/navsat_transform.h" linenr="118" str=";" scope="0xd79690"/>
+    <token id="0xd725d0" file="../include/robot_localization/navsat_transform.h" linenr="126" str="double" scope="0xd79690" type="name"/>
+    <token id="0xd72680" file="../include/robot_localization/navsat_transform.h" linenr="126" str="yawOffset_" scope="0xd79690" type="name" varId="12" variable="0xd7b3a0"/>
+    <token id="0xd72730" file="../include/robot_localization/navsat_transform.h" linenr="126" str=";" scope="0xd79690"/>
+    <token id="0xd727e0" file="../include/robot_localization/navsat_transform.h" linenr="133" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd72890" file="../include/robot_localization/navsat_transform.h" linenr="133" str="zeroAltitude_" scope="0xd79690" type="name" varId="13" variable="0xd7b410"/>
+    <token id="0xd72940" file="../include/robot_localization/navsat_transform.h" linenr="133" str=";" scope="0xd79690"/>
+    <token id="0xd729f0" file="../include/robot_localization/navsat_transform.h" linenr="137" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd72aa0" file="../include/robot_localization/navsat_transform.h" linenr="137" str="publishGps_" scope="0xd79690" type="name" varId="14" variable="0xd7b480"/>
+    <token id="0xd72b50" file="../include/robot_localization/navsat_transform.h" linenr="137" str=";" scope="0xd79690"/>
+    <token id="0xd72c00" file="../include/robot_localization/navsat_transform.h" linenr="143" str="std" scope="0xd79690" type="name" astParent="0xd72cb0"/>
+    <token id="0xd72cb0" file="../include/robot_localization/navsat_transform.h" linenr="143" str="::" scope="0xd79690" astOperand1="0xd72c00" astOperand2="0xd72e10"/>
+    <token id="0xd72d60" file="../include/robot_localization/navsat_transform.h" linenr="143" str="string" scope="0xd79690" type="name"/>
+    <token id="0xd72e10" file="../include/robot_localization/navsat_transform.h" linenr="143" str="worldFrameId_" scope="0xd79690" type="name" varId="15" variable="0xd7b4f0" astParent="0xd72cb0"/>
+    <token id="0xd72ec0" file="../include/robot_localization/navsat_transform.h" linenr="143" str=";" scope="0xd79690"/>
+    <token id="0xd72f70" file="../include/robot_localization/navsat_transform.h" linenr="147" str="std" scope="0xd79690" type="name" astParent="0xd73020"/>
+    <token id="0xd73020" file="../include/robot_localization/navsat_transform.h" linenr="147" str="::" scope="0xd79690" astOperand1="0xd72f70" astOperand2="0xd73180"/>
+    <token id="0xd730d0" file="../include/robot_localization/navsat_transform.h" linenr="147" str="string" scope="0xd79690" type="name"/>
+    <token id="0xd73180" file="../include/robot_localization/navsat_transform.h" linenr="147" str="utmZone_" scope="0xd79690" type="name" varId="16" variable="0xd7b560" astParent="0xd73020"/>
+    <token id="0xd73230" file="../include/robot_localization/navsat_transform.h" linenr="147" str=";" scope="0xd79690"/>
+    <token id="0xd732e0" file="../include/robot_localization/navsat_transform.h" linenr="151" str="tf" scope="0xd79690" type="name" astParent="0xd73390"/>
+    <token id="0xd73390" file="../include/robot_localization/navsat_transform.h" linenr="151" str="::" scope="0xd79690" astOperand1="0xd732e0" astOperand2="0xd734f0"/>
+    <token id="0xd73440" file="../include/robot_localization/navsat_transform.h" linenr="151" str="Pose" scope="0xd79690" type="name"/>
+    <token id="0xd734f0" file="../include/robot_localization/navsat_transform.h" linenr="151" str="latestWorldPose_" scope="0xd79690" type="name" varId="17" variable="0xd7b5d0" astParent="0xd73390"/>
+    <token id="0xd735d0" file="../include/robot_localization/navsat_transform.h" linenr="151" str=";" scope="0xd79690"/>
+    <token id="0xd73680" file="../include/robot_localization/navsat_transform.h" linenr="155" str="tf" scope="0xd79690" type="name" astParent="0xd73730"/>
+    <token id="0xd73730" file="../include/robot_localization/navsat_transform.h" linenr="155" str="::" scope="0xd79690" astOperand1="0xd73680" astOperand2="0xd73890"/>
+    <token id="0xd737e0" file="../include/robot_localization/navsat_transform.h" linenr="155" str="Pose" scope="0xd79690" type="name"/>
+    <token id="0xd73890" file="../include/robot_localization/navsat_transform.h" linenr="155" str="latestUtmPose_" scope="0xd79690" type="name" varId="18" variable="0xd7b640" astParent="0xd73730"/>
+    <token id="0xd73940" file="../include/robot_localization/navsat_transform.h" linenr="155" str=";" scope="0xd79690"/>
+    <token id="0xd739f0" file="../include/robot_localization/navsat_transform.h" linenr="159" str="tf" scope="0xd79690" type="name" astParent="0xd73aa0"/>
+    <token id="0xd73aa0" file="../include/robot_localization/navsat_transform.h" linenr="159" str="::" scope="0xd79690" astOperand1="0xd739f0" astOperand2="0xd73c00"/>
+    <token id="0xd73b50" file="../include/robot_localization/navsat_transform.h" linenr="159" str="Quaternion" scope="0xd79690" type="name"/>
+    <token id="0xd73c00" file="../include/robot_localization/navsat_transform.h" linenr="159" str="latestOrientation_" scope="0xd79690" type="name" varId="19" variable="0xd7b6b0" astParent="0xd73aa0"/>
+    <token id="0xd73ce0" file="../include/robot_localization/navsat_transform.h" linenr="159" str=";" scope="0xd79690"/>
+    <token id="0xd73d90" file="../include/robot_localization/navsat_transform.h" linenr="163" str="Eigen" scope="0xd79690" type="name" astParent="0xd73e40"/>
+    <token id="0xd73e40" file="../include/robot_localization/navsat_transform.h" linenr="163" str="::" scope="0xd79690" astOperand1="0xd73d90" astOperand2="0xd73fa0"/>
+    <token id="0xd73ef0" file="../include/robot_localization/navsat_transform.h" linenr="163" str="MatrixXd" scope="0xd79690" type="name"/>
+    <token id="0xd73fa0" file="../include/robot_localization/navsat_transform.h" linenr="163" str="latestUtmCovariance_" scope="0xd79690" type="name" varId="20" variable="0xd7b720" astParent="0xd73e40"/>
+    <token id="0xd74080" file="../include/robot_localization/navsat_transform.h" linenr="163" str=";" scope="0xd79690"/>
+    <token id="0xd74130" file="../include/robot_localization/navsat_transform.h" linenr="167" str="Eigen" scope="0xd79690" type="name" astParent="0xd741e0"/>
+    <token id="0xd741e0" file="../include/robot_localization/navsat_transform.h" linenr="167" str="::" scope="0xd79690" astOperand1="0xd74130" astOperand2="0xd74340"/>
+    <token id="0xd74290" file="../include/robot_localization/navsat_transform.h" linenr="167" str="MatrixXd" scope="0xd79690" type="name"/>
+    <token id="0xd74340" file="../include/robot_localization/navsat_transform.h" linenr="167" str="latestOdomCovariance_" scope="0xd79690" type="name" varId="21" variable="0xd7b790" astParent="0xd741e0"/>
+    <token id="0xd74420" file="../include/robot_localization/navsat_transform.h" linenr="167" str=";" scope="0xd79690"/>
+    <token id="0xd744d0" file="../include/robot_localization/navsat_transform.h" linenr="171" str="tf" scope="0xd79690" type="name" astParent="0xd74580"/>
+    <token id="0xd74580" file="../include/robot_localization/navsat_transform.h" linenr="171" str="::" scope="0xd79690" astOperand1="0xd744d0" astOperand2="0xd746e0"/>
+    <token id="0xd74630" file="../include/robot_localization/navsat_transform.h" linenr="171" str="Transform" scope="0xd79690" type="name"/>
+    <token id="0xd746e0" file="../include/robot_localization/navsat_transform.h" linenr="171" str="utmWorldTransform_" scope="0xd79690" type="name" varId="22" variable="0xd7b800" astParent="0xd74580"/>
+    <token id="0xd747c0" file="../include/robot_localization/navsat_transform.h" linenr="171" str=";" scope="0xd79690"/>
+    <token id="0xd74870" file="../include/robot_localization/navsat_transform.h" linenr="175" str="tf" scope="0xd79690" type="name" astParent="0xd74920"/>
+    <token id="0xd74920" file="../include/robot_localization/navsat_transform.h" linenr="175" str="::" scope="0xd79690" astOperand1="0xd74870" astOperand2="0xd74a80"/>
+    <token id="0xd749d0" file="../include/robot_localization/navsat_transform.h" linenr="175" str="Transform" scope="0xd79690" type="name"/>
+    <token id="0xd74a80" file="../include/robot_localization/navsat_transform.h" linenr="175" str="utmWorldTransInverse_" scope="0xd79690" type="name" varId="23" variable="0xd7b870" astParent="0xd74920"/>
+    <token id="0xd74b60" file="../include/robot_localization/navsat_transform.h" linenr="175" str=";" scope="0xd79690"/>
+    <token id="0xd74c10" file="../include/robot_localization/navsat_transform.h" linenr="179" str="void" scope="0xd79690" type="name"/>
+    <token id="0xd74cc0" file="../include/robot_localization/navsat_transform.h" linenr="179" str="odomCallback" scope="0xd79690" type="name" function="0xd7a940" astParent="0xd74d70"/>
+    <token id="0xd74d70" file="../include/robot_localization/navsat_transform.h" linenr="179" str="(" scope="0xd79690" link="0xd75270" astOperand1="0xd74cc0" astOperand2="0xd75110"/>
+    <token id="0xd74e20" file="../include/robot_localization/navsat_transform.h" linenr="179" str="const" scope="0xd79690" type="name"/>
+    <token id="0xd74ed0" file="../include/robot_localization/navsat_transform.h" linenr="179" str="nav_msgs" scope="0xd79690" type="name" astParent="0xd74f80"/>
+    <token id="0xd74f80" file="../include/robot_localization/navsat_transform.h" linenr="179" str="::" scope="0xd79690" astParent="0xd75110" astOperand1="0xd74ed0" astOperand2="0xd75030"/>
+    <token id="0xd75030" file="../include/robot_localization/navsat_transform.h" linenr="179" str="OdometryConstPtr" scope="0xd79690" type="name" astParent="0xd74f80"/>
+    <token id="0xd75110" file="../include/robot_localization/navsat_transform.h" linenr="179" str="&amp;" scope="0xd79690" type="op" astParent="0xd74d70" astOperand1="0xd74f80" astOperand2="0xd751c0"/>
+    <token id="0xd751c0" file="../include/robot_localization/navsat_transform.h" linenr="179" str="msg" scope="0xd79690" type="name" varId="24" variable="0xd7ba30" astParent="0xd75110"/>
+    <token id="0xd75270" file="../include/robot_localization/navsat_transform.h" linenr="179" str=")" scope="0xd79690" link="0xd74d70"/>
+    <token id="0xd75320" file="../include/robot_localization/navsat_transform.h" linenr="179" str=";" scope="0xd79690"/>
+    <token id="0xd753d0" file="../include/robot_localization/navsat_transform.h" linenr="183" str="void" scope="0xd79690" type="name"/>
+    <token id="0xd75480" file="../include/robot_localization/navsat_transform.h" linenr="183" str="gpsFixCallback" scope="0xd79690" type="name" function="0xd7a9e0" astParent="0xd75530"/>
+    <token id="0xd75530" file="../include/robot_localization/navsat_transform.h" linenr="183" str="(" scope="0xd79690" link="0xd75a30" astOperand1="0xd75480" astOperand2="0xd758d0"/>
+    <token id="0xd755e0" file="../include/robot_localization/navsat_transform.h" linenr="183" str="const" scope="0xd79690" type="name"/>
+    <token id="0xd75690" file="../include/robot_localization/navsat_transform.h" linenr="183" str="sensor_msgs" scope="0xd79690" type="name" astParent="0xd75740"/>
+    <token id="0xd75740" file="../include/robot_localization/navsat_transform.h" linenr="183" str="::" scope="0xd79690" astParent="0xd758d0" astOperand1="0xd75690" astOperand2="0xd757f0"/>
+    <token id="0xd757f0" file="../include/robot_localization/navsat_transform.h" linenr="183" str="NavSatFixConstPtr" scope="0xd79690" type="name" astParent="0xd75740"/>
+    <token id="0xd758d0" file="../include/robot_localization/navsat_transform.h" linenr="183" str="&amp;" scope="0xd79690" type="op" astParent="0xd75530" astOperand1="0xd75740" astOperand2="0xd75980"/>
+    <token id="0xd75980" file="../include/robot_localization/navsat_transform.h" linenr="183" str="msg" scope="0xd79690" type="name" varId="25" variable="0xd7baa0" astParent="0xd758d0"/>
+    <token id="0xd75a30" file="../include/robot_localization/navsat_transform.h" linenr="183" str=")" scope="0xd79690" link="0xd75530"/>
+    <token id="0xd75ae0" file="../include/robot_localization/navsat_transform.h" linenr="183" str=";" scope="0xd79690"/>
+    <token id="0xd75b90" file="../include/robot_localization/navsat_transform.h" linenr="187" str="void" scope="0xd79690" type="name"/>
+    <token id="0xd75c40" file="../include/robot_localization/navsat_transform.h" linenr="187" str="imuCallback" scope="0xd79690" type="name" function="0xd7aa80" astParent="0xd75cf0"/>
+    <token id="0xd75cf0" file="../include/robot_localization/navsat_transform.h" linenr="187" str="(" scope="0xd79690" link="0xd761c0" astOperand1="0xd75c40" astOperand2="0xd76060"/>
+    <token id="0xd75da0" file="../include/robot_localization/navsat_transform.h" linenr="187" str="const" scope="0xd79690" type="name"/>
+    <token id="0xd75e50" file="../include/robot_localization/navsat_transform.h" linenr="187" str="sensor_msgs" scope="0xd79690" type="name" astParent="0xd75f00"/>
+    <token id="0xd75f00" file="../include/robot_localization/navsat_transform.h" linenr="187" str="::" scope="0xd79690" astParent="0xd76060" astOperand1="0xd75e50" astOperand2="0xd75fb0"/>
+    <token id="0xd75fb0" file="../include/robot_localization/navsat_transform.h" linenr="187" str="ImuConstPtr" scope="0xd79690" type="name" astParent="0xd75f00"/>
+    <token id="0xd76060" file="../include/robot_localization/navsat_transform.h" linenr="187" str="&amp;" scope="0xd79690" type="op" astParent="0xd75cf0" astOperand1="0xd75f00" astOperand2="0xd76110"/>
+    <token id="0xd76110" file="../include/robot_localization/navsat_transform.h" linenr="187" str="msg" scope="0xd79690" type="name" varId="26" variable="0xd7bb10" astParent="0xd76060"/>
+    <token id="0xd761c0" file="../include/robot_localization/navsat_transform.h" linenr="187" str=")" scope="0xd79690" link="0xd75cf0"/>
+    <token id="0xd76270" file="../include/robot_localization/navsat_transform.h" linenr="187" str=";" scope="0xd79690"/>
+    <token id="0xd76320" file="../include/robot_localization/navsat_transform.h" linenr="192" str="void" scope="0xd79690" type="name"/>
+    <token id="0xd763d0" file="../include/robot_localization/navsat_transform.h" linenr="192" str="computeTransform" scope="0xd79690" type="name" function="0xd7ab20" astParent="0xd764b0"/>
+    <token id="0xd764b0" file="../include/robot_localization/navsat_transform.h" linenr="192" str="(" scope="0xd79690" link="0xd76560" astOperand1="0xd763d0"/>
+    <token id="0xd76560" file="../include/robot_localization/navsat_transform.h" linenr="192" str=")" scope="0xd79690" link="0xd764b0"/>
+    <token id="0xd76610" file="../include/robot_localization/navsat_transform.h" linenr="192" str=";" scope="0xd79690"/>
+    <token id="0xd766c0" file="../include/robot_localization/navsat_transform.h" linenr="196" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd76770" file="../include/robot_localization/navsat_transform.h" linenr="196" str="prepareGpsOdometry" scope="0xd79690" type="name" function="0xd7abc0" astParent="0xd76850"/>
+    <token id="0xd76850" file="../include/robot_localization/navsat_transform.h" linenr="196" str="(" scope="0xd79690" link="0xd76c70" astOperand1="0xd76770" astOperand2="0xd76b10"/>
+    <token id="0xd76900" file="../include/robot_localization/navsat_transform.h" linenr="196" str="nav_msgs" scope="0xd79690" type="name" astParent="0xd769b0"/>
+    <token id="0xd769b0" file="../include/robot_localization/navsat_transform.h" linenr="196" str="::" scope="0xd79690" astParent="0xd76b10" astOperand1="0xd76900" astOperand2="0xd76a60"/>
+    <token id="0xd76a60" file="../include/robot_localization/navsat_transform.h" linenr="196" str="Odometry" scope="0xd79690" type="name" astParent="0xd769b0"/>
+    <token id="0xd76b10" file="../include/robot_localization/navsat_transform.h" linenr="196" str="&amp;" scope="0xd79690" type="op" astParent="0xd76850" astOperand1="0xd769b0" astOperand2="0xd76bc0"/>
+    <token id="0xd76bc0" file="../include/robot_localization/navsat_transform.h" linenr="196" str="gpsOdom" scope="0xd79690" type="name" varId="27" variable="0xd7bb80" astParent="0xd76b10"/>
+    <token id="0xd76c70" file="../include/robot_localization/navsat_transform.h" linenr="196" str=")" scope="0xd79690" link="0xd76850"/>
+    <token id="0xd76d20" file="../include/robot_localization/navsat_transform.h" linenr="196" str=";" scope="0xd79690"/>
+    <token id="0xd76dd0" file="../include/robot_localization/navsat_transform.h" linenr="200" str="bool" scope="0xd79690" type="name"/>
+    <token id="0xd76e80" file="../include/robot_localization/navsat_transform.h" linenr="200" str="prepareFilteredGps" scope="0xd79690" type="name" function="0xd7ac60" astParent="0xd76f60"/>
+    <token id="0xd76f60" file="../include/robot_localization/navsat_transform.h" linenr="200" str="(" scope="0xd79690" link="0xd77380" astOperand1="0xd76e80" astOperand2="0xd77220"/>
+    <token id="0xd77010" file="../include/robot_localization/navsat_transform.h" linenr="200" str="sensor_msgs" scope="0xd79690" type="name" astParent="0xd770c0"/>
+    <token id="0xd770c0" file="../include/robot_localization/navsat_transform.h" linenr="200" str="::" scope="0xd79690" astParent="0xd77220" astOperand1="0xd77010" astOperand2="0xd77170"/>
+    <token id="0xd77170" file="../include/robot_localization/navsat_transform.h" linenr="200" str="NavSatFix" scope="0xd79690" type="name" astParent="0xd770c0"/>
+    <token id="0xd77220" file="../include/robot_localization/navsat_transform.h" linenr="200" str="&amp;" scope="0xd79690" type="op" astParent="0xd76f60" astOperand1="0xd770c0" astOperand2="0xd772d0"/>
+    <token id="0xd772d0" file="../include/robot_localization/navsat_transform.h" linenr="200" str="filteredGps" scope="0xd79690" type="name" varId="28" variable="0xd7bbf0" astParent="0xd77220"/>
+    <token id="0xd77380" file="../include/robot_localization/navsat_transform.h" linenr="200" str=")" scope="0xd79690" link="0xd76f60"/>
+    <token id="0xd77430" file="../include/robot_localization/navsat_transform.h" linenr="200" str=";" scope="0xd79690"/>
+    <token id="0xd774e0" file="../include/robot_localization/navsat_transform.h" linenr="201" str="}" scope="0xd79690" link="0xd6d1c0"/>
+    <token id="0xd77590" file="../include/robot_localization/navsat_transform.h" linenr="201" str=";" scope="0xd791d0"/>
+    <token id="0xd77640" file="../include/robot_localization/navsat_transform.h" linenr="202" str="}" scope="0xd791d0" link="0xd6cf10"/>
+    <token id="0xd776f0" file="navsat_transform_node.cpp" linenr="37" str="int" scope="0xd6c1a0" type="name"/>
+    <token id="0xd777a0" file="navsat_transform_node.cpp" linenr="37" str="main" scope="0xd6c1a0" type="name" function="0xd7ad00" astParent="0xd77850"/>
+    <token id="0xd77850" file="navsat_transform_node.cpp" linenr="37" str="(" scope="0xd6c1a0" link="0xd77dd0" astOperand1="0xd777a0" astOperand2="0xd77a60"/>
+    <token id="0xd77900" file="navsat_transform_node.cpp" linenr="37" str="int" scope="0xd6c1a0" type="name"/>
+    <token id="0xd779b0" file="navsat_transform_node.cpp" linenr="37" str="argc" scope="0xd6c1a0" type="name" varId="29" variable="0xd7b950" astParent="0xd77a60"/>
+    <token id="0xd77a60" file="navsat_transform_node.cpp" linenr="37" str="," scope="0xd6c1a0" astParent="0xd77850" astOperand1="0xd779b0" astOperand2="0xd77bc0"/>
+    <token id="0xd77b10" file="navsat_transform_node.cpp" linenr="37" str="char" scope="0xd6c1a0" type="name" astParent="0xd77bc0"/>
+    <token id="0xd77bc0" file="navsat_transform_node.cpp" linenr="37" str="*" scope="0xd6c1a0" type="op" isArithmeticalOp="True" astParent="0xd77a60" astOperand1="0xd77b10" astOperand2="0xd77c70"/>
+    <token id="0xd77c70" file="navsat_transform_node.cpp" linenr="37" str="*" scope="0xd6c1a0" type="op" isArithmeticalOp="True" astParent="0xd77bc0" astOperand1="0xd77d20"/>
+    <token id="0xd77d20" file="navsat_transform_node.cpp" linenr="37" str="argv" scope="0xd6c1a0" type="name" varId="30" variable="0xd7b9c0" astParent="0xd77c70"/>
+    <token id="0xd77dd0" file="navsat_transform_node.cpp" linenr="37" str=")" scope="0xd6c1a0" link="0xd77850"/>
+    <token id="0xd77e80" file="navsat_transform_node.cpp" linenr="38" str="{" scope="0xd7ada0" link="0xd790c0"/>
+    <token id="0xd77f30" file="navsat_transform_node.cpp" linenr="39" str="ros" scope="0xd7ada0" type="name" astParent="0xd77fe0"/>
+    <token id="0xd77fe0" file="navsat_transform_node.cpp" linenr="39" str="::" scope="0xd7ada0" astParent="0xd78140" astOperand1="0xd77f30" astOperand2="0xd78090"/>
+    <token id="0xd78090" file="navsat_transform_node.cpp" linenr="39" str="init" scope="0xd7ada0" type="name" astParent="0xd77fe0"/>
+    <token id="0xd78140" file="navsat_transform_node.cpp" linenr="39" str="(" scope="0xd7ada0" link="0xd785c0" astOperand1="0xd77fe0" astOperand2="0xd78400"/>
+    <token id="0xd781f0" file="navsat_transform_node.cpp" linenr="39" str="argc" scope="0xd7ada0" type="name" varId="29" variable="0xd7b950" astParent="0xd782a0"/>
+    <token id="0xd782a0" file="navsat_transform_node.cpp" linenr="39" str="," scope="0xd7ada0" astParent="0xd78400" astOperand1="0xd781f0" astOperand2="0xd78350"/>
+    <token id="0xd78350" file="navsat_transform_node.cpp" linenr="39" str="argv" scope="0xd7ada0" type="name" varId="30" variable="0xd7b9c0" astParent="0xd782a0"/>
+    <token id="0xd78400" file="navsat_transform_node.cpp" linenr="39" str="," scope="0xd7ada0" astParent="0xd78140" astOperand1="0xd782a0" astOperand2="0xd784e0"/>
+    <token id="0xd784e0" file="navsat_transform_node.cpp" linenr="39" str="&quot;navsat_transform_node&quot;" scope="0xd7ada0" type="string" strlen="21" values="0xd784e8" astParent="0xd78400"/>
+    <token id="0xd785c0" file="navsat_transform_node.cpp" linenr="39" str=")" scope="0xd7ada0" link="0xd78140"/>
+    <token id="0xd78670" file="navsat_transform_node.cpp" linenr="39" str=";" scope="0xd7ada0"/>
+    <token id="0xd78720" file="navsat_transform_node.cpp" linenr="41" str="RobotLocalization" scope="0xd7ada0" type="name" astParent="0xd787d0"/>
+    <token id="0xd787d0" file="navsat_transform_node.cpp" linenr="41" str="::" scope="0xd7ada0" astOperand1="0xd78720" astOperand2="0xd78930"/>
+    <token id="0xd78880" file="navsat_transform_node.cpp" linenr="41" str="NavSatTransform" scope="0xd7ada0" type="name" type-scope="0xd79690"/>
+    <token id="0xd78930" file="navsat_transform_node.cpp" linenr="41" str="trans" scope="0xd7ada0" type="name" varId="31" variable="0xd7b8e0" astParent="0xd787d0"/>
+    <token id="0xd789e0" file="navsat_transform_node.cpp" linenr="41" str=";" scope="0xd7ada0"/>
+    <token id="0xd78a90" file="navsat_transform_node.cpp" linenr="43" str="trans" scope="0xd7ada0" type="name" varId="31" variable="0xd7b8e0" astParent="0xd78b40"/>
+    <token id="0xd78b40" file="navsat_transform_node.cpp" linenr="43" str="." scope="0xd7ada0" astParent="0xd78ca0" astOperand1="0xd78a90" astOperand2="0xd78bf0"/>
+    <token id="0xd78bf0" file="navsat_transform_node.cpp" linenr="43" str="run" scope="0xd7ada0" type="name" function="0xd7a8a0" astParent="0xd78b40"/>
+    <token id="0xd78ca0" file="navsat_transform_node.cpp" linenr="43" str="(" scope="0xd7ada0" link="0xd78d50" astOperand1="0xd78b40"/>
+    <token id="0xd78d50" file="navsat_transform_node.cpp" linenr="43" str=")" scope="0xd7ada0" link="0xd78ca0"/>
+    <token id="0xd78e00" file="navsat_transform_node.cpp" linenr="43" str=";" scope="0xd7ada0"/>
+    <token id="0xd78eb0" file="navsat_transform_node.cpp" linenr="45" str="return" scope="0xd7ada0" type="name" astOperand1="0xd78f60"/>
+    <token id="0xd78f60" file="navsat_transform_node.cpp" linenr="45" str="0" scope="0xd7ada0" type="number" isInt="True" values="0xd78f68" astParent="0xd78eb0"/>
+    <token id="0xd79010" file="navsat_transform_node.cpp" linenr="45" str=";" scope="0xd7ada0"/>
+    <token id="0xd790c0" file="navsat_transform_node.cpp" linenr="46" str="}" scope="0xd7ada0" link="0xd77e80"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd6c1a0" type="Global">
+      <functionList>
+        <function id="0xd7ad00" tokenDef="0xd777a0" name="main">
+          <arg nr="1" variable="0xd7b950"/>
+          <arg nr="2" variable="0xd7b9c0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xd791d0" type="Namespace" className="RobotLocalization" classStart="0xd6cf10" classEnd="0xd77640" nestedIn="0xd6c1a0"/>
+    <scope id="0xd79690" type="Class" className="NavSatTransform" classStart="0xd6d1c0" classEnd="0xd774e0" nestedIn="0xd791d0">
+      <functionList>
+        <function id="0xd797c0" tokenDef="0xd6d3d0" name="NavSatTransform"/>
+        <function id="0xd79300" tokenDef="0xd6fe60" name="NavSatTransform"/>
+        <function id="0xd7a8a0" tokenDef="0xd701d0" name="run"/>
+        <function id="0xd7a940" tokenDef="0xd74cc0" name="odomCallback">
+          <arg nr="1" variable="0xd7ba30"/>
+        </function>
+        <function id="0xd7a9e0" tokenDef="0xd75480" name="gpsFixCallback">
+          <arg nr="1" variable="0xd7baa0"/>
+        </function>
+        <function id="0xd7aa80" tokenDef="0xd75c40" name="imuCallback">
+          <arg nr="1" variable="0xd7bb10"/>
+        </function>
+        <function id="0xd7ab20" tokenDef="0xd763d0" name="computeTransform"/>
+        <function id="0xd7abc0" tokenDef="0xd76770" name="prepareGpsOdometry">
+          <arg nr="1" variable="0xd7bb80"/>
+        </function>
+        <function id="0xd7ac60" tokenDef="0xd76e80" name="prepareFilteredGps">
+          <arg nr="1" variable="0xd7bbf0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0xd7aed0"/>
+        <var id="0xd7af40"/>
+        <var id="0xd7afb0"/>
+        <var id="0xd7b020"/>
+        <var id="0xd7b090"/>
+        <var id="0xd7b100"/>
+        <var id="0xd7b170"/>
+        <var id="0xd7b1e0"/>
+        <var id="0xd7b250"/>
+        <var id="0xd7b2c0"/>
+        <var id="0xd7b330"/>
+        <var id="0xd7b3a0"/>
+        <var id="0xd7b410"/>
+        <var id="0xd7b480"/>
+        <var id="0xd7b4f0"/>
+        <var id="0xd7b560"/>
+        <var id="0xd7b5d0"/>
+        <var id="0xd7b640"/>
+        <var id="0xd7b6b0"/>
+        <var id="0xd7b720"/>
+        <var id="0xd7b790"/>
+        <var id="0xd7b800"/>
+        <var id="0xd7b870"/>
+      </varlist>
+    </scope>
+    <scope id="0xd7ada0" type="Function" className="main" classStart="0xd77e80" classEnd="0xd790c0" nestedIn="0xd6c1a0" function="0xd7ad00">
+      <varlist>
+        <var id="0xd7b8e0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xd7aed0" nameToken="0xd706a0" typeStartToken="0xd705f0" typeEndToken="0xd705f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7af40" nameToken="0xd708b0" typeStartToken="0xd70800" typeEndToken="0xd70800" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7afb0" nameToken="0xd70af0" typeStartToken="0xd70a40" typeEndToken="0xd70a40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b020" nameToken="0xd70d00" typeStartToken="0xd70c50" typeEndToken="0xd70c50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b090" nameToken="0xd70f10" typeStartToken="0xd70e60" typeEndToken="0xd70e60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b100" nameToken="0xd71120" typeStartToken="0xd71070" typeEndToken="0xd71070" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b170" nameToken="0xd71330" typeStartToken="0xd71280" typeEndToken="0xd71280" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b1e0" nameToken="0xd71540" typeStartToken="0xd71490" typeEndToken="0xd71490" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b250" nameToken="0xd71750" typeStartToken="0xd716a0" typeEndToken="0xd716a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b2c0" nameToken="0xd71ac0" typeStartToken="0xd718b0" typeEndToken="0xd71a10" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b330" nameToken="0xd72470" typeStartToken="0xd72260" typeEndToken="0xd723c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b3a0" nameToken="0xd72680" typeStartToken="0xd725d0" typeEndToken="0xd725d0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b410" nameToken="0xd72890" typeStartToken="0xd727e0" typeEndToken="0xd727e0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b480" nameToken="0xd72aa0" typeStartToken="0xd729f0" typeEndToken="0xd729f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b4f0" nameToken="0xd72e10" typeStartToken="0xd72c00" typeEndToken="0xd72d60" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b560" nameToken="0xd73180" typeStartToken="0xd72f70" typeEndToken="0xd730d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b5d0" nameToken="0xd734f0" typeStartToken="0xd732e0" typeEndToken="0xd73440" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b640" nameToken="0xd73890" typeStartToken="0xd73680" typeEndToken="0xd737e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b6b0" nameToken="0xd73c00" typeStartToken="0xd739f0" typeEndToken="0xd73b50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b720" nameToken="0xd73fa0" typeStartToken="0xd73d90" typeEndToken="0xd73ef0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b790" nameToken="0xd74340" typeStartToken="0xd74130" typeEndToken="0xd74290" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b800" nameToken="0xd746e0" typeStartToken="0xd744d0" typeEndToken="0xd74630" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b870" nameToken="0xd74a80" typeStartToken="0xd74870" typeEndToken="0xd749d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7ba30" nameToken="0xd751c0" typeStartToken="0xd74ed0" typeEndToken="0xd75110" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xd7baa0" nameToken="0xd75980" typeStartToken="0xd75690" typeEndToken="0xd758d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xd7bb10" nameToken="0xd76110" typeStartToken="0xd75e50" typeEndToken="0xd76060" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xd7bb80" nameToken="0xd76bc0" typeStartToken="0xd76900" typeEndToken="0xd76b10" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xd7bbf0" nameToken="0xd772d0" typeStartToken="0xd77010" typeEndToken="0xd77220" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xd7b950" nameToken="0xd779b0" typeStartToken="0xd77900" typeEndToken="0xd77900" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd7b9c0" nameToken="0xd77d20" typeStartToken="0xd77b10" typeEndToken="0xd77c70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xd7b8e0" nameToken="0xd78930" typeStartToken="0xd78720" typeEndToken="0xd78880" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xd784e8">
+      <value tokvalue="0xd784e0" known="true"/>
+    </values>
+    <values id="0xd78f68">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,8 +1,8 @@
 from __future__ import annotations
-from cpp_parser import *
-from cpp_utils import *
-from typing import *
-from dump_to_ast import *
+from cpp_parser import CppcheckData, Token, Scope
+from cpp_utils import get_statement_tokens, tokens_to_str
+from dump_to_ast import DumpToAST
+from typing import List, Union, Set
 from abc import ABC, abstractmethod
 
 

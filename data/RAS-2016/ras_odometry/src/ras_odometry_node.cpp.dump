@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x2549420" file="ras_odometry_node.cpp" linenr="12" str="int" scope="0x2570040" type="name"/>
+    <token id="0x25494d0" file="ras_odometry_node.cpp" linenr="12" str="count_change_left" scope="0x2570040" type="name" varId="1" variable="0x256a680"/>
+    <token id="0x255a910" file="ras_odometry_node.cpp" linenr="12" str=";" scope="0x2570040"/>
+    <token id="0x255a9c0" file="ras_odometry_node.cpp" linenr="13" str="int" scope="0x2570040" type="name"/>
+    <token id="0x255aa70" file="ras_odometry_node.cpp" linenr="13" str="count_change_right" scope="0x2570040" type="name" varId="2" variable="0x25711a0"/>
+    <token id="0x255ab50" file="ras_odometry_node.cpp" linenr="13" str=";" scope="0x2570040"/>
+    <token id="0x255ac00" file="ras_odometry_node.cpp" linenr="15" str="void" scope="0x2570040" type="name"/>
+    <token id="0x255acb0" file="ras_odometry_node.cpp" linenr="15" str="leftEncoderCallback" scope="0x2570040" type="name" function="0x256fd30" astParent="0x255ad90"/>
+    <token id="0x255ad90" file="ras_odometry_node.cpp" linenr="15" str="(" scope="0x2570040" link="0x255b3c0" astOperand1="0x255acb0" astOperand2="0x255b260"/>
+    <token id="0x255ae40" file="ras_odometry_node.cpp" linenr="15" str="const" scope="0x2570040" type="name"/>
+    <token id="0x255aef0" file="ras_odometry_node.cpp" linenr="15" str="phidgets" scope="0x2570040" type="name" astParent="0x255afa0"/>
+    <token id="0x255afa0" file="ras_odometry_node.cpp" linenr="15" str="::" scope="0x2570040" astParent="0x255b100" astOperand1="0x255aef0" astOperand2="0x255b050"/>
+    <token id="0x255b050" file="ras_odometry_node.cpp" linenr="15" str="motor_encoder" scope="0x2570040" type="name" astParent="0x255afa0"/>
+    <token id="0x255b100" file="ras_odometry_node.cpp" linenr="15" str="::" scope="0x2570040" astParent="0x255b260" astOperand1="0x255afa0" astOperand2="0x255b1b0"/>
+    <token id="0x255b1b0" file="ras_odometry_node.cpp" linenr="15" str="ConstPtr" scope="0x2570040" type="name" astParent="0x255b100"/>
+    <token id="0x255b260" file="ras_odometry_node.cpp" linenr="15" str="&amp;" scope="0x2570040" type="op" astParent="0x255ad90" astOperand1="0x255b100" astOperand2="0x255b310"/>
+    <token id="0x255b310" file="ras_odometry_node.cpp" linenr="15" str="msg" scope="0x2570040" type="name" varId="3" variable="0x25717f0" astParent="0x255b260"/>
+    <token id="0x255b3c0" file="ras_odometry_node.cpp" linenr="15" str=")" scope="0x2570040" link="0x255ad90"/>
+    <token id="0x255b470" file="ras_odometry_node.cpp" linenr="15" str="{" scope="0x256fdd0" link="0x255ba20"/>
+    <token id="0x255b520" file="ras_odometry_node.cpp" linenr="16" str="count_change_left" scope="0x256fdd0" type="name" varId="1" variable="0x256a680" astParent="0x255b600"/>
+    <token id="0x255b600" file="ras_odometry_node.cpp" linenr="16" str="=" scope="0x256fdd0" type="op" isAssignmentOp="True" astOperand1="0x255b520" astOperand2="0x255b760"/>
+    <token id="0x255b6b0" file="ras_odometry_node.cpp" linenr="16" str="msg" scope="0x256fdd0" type="name" varId="3" variable="0x25717f0" astParent="0x255b760"/>
+    <token id="0x255b760" file="ras_odometry_node.cpp" linenr="16" str="." scope="0x256fdd0" astParent="0x255b600" astOperand1="0x255b6b0" astOperand2="0x255b8c0"/>
+    <token id="0x255b8c0" file="ras_odometry_node.cpp" linenr="16" str="count_change" scope="0x256fdd0" type="name" varId="4" astParent="0x255b760"/>
+    <token id="0x255b970" file="ras_odometry_node.cpp" linenr="16" str=";" scope="0x256fdd0"/>
+    <token id="0x255ba20" file="ras_odometry_node.cpp" linenr="17" str="}" scope="0x256fdd0" link="0x255b470"/>
+    <token id="0x255bad0" file="ras_odometry_node.cpp" linenr="19" str="void" scope="0x2570040" type="name"/>
+    <token id="0x255bb80" file="ras_odometry_node.cpp" linenr="19" str="rightEncoderCallback" scope="0x2570040" type="name" function="0x25701f0" astParent="0x255bc60"/>
+    <token id="0x255bc60" file="ras_odometry_node.cpp" linenr="19" str="(" scope="0x2570040" link="0x255c290" astOperand1="0x255bb80" astOperand2="0x255c130"/>
+    <token id="0x255bd10" file="ras_odometry_node.cpp" linenr="19" str="const" scope="0x2570040" type="name"/>
+    <token id="0x255bdc0" file="ras_odometry_node.cpp" linenr="19" str="phidgets" scope="0x2570040" type="name" astParent="0x255be70"/>
+    <token id="0x255be70" file="ras_odometry_node.cpp" linenr="19" str="::" scope="0x2570040" astParent="0x255bfd0" astOperand1="0x255bdc0" astOperand2="0x255bf20"/>
+    <token id="0x255bf20" file="ras_odometry_node.cpp" linenr="19" str="motor_encoder" scope="0x2570040" type="name" astParent="0x255be70"/>
+    <token id="0x255bfd0" file="ras_odometry_node.cpp" linenr="19" str="::" scope="0x2570040" astParent="0x255c130" astOperand1="0x255be70" astOperand2="0x255c080"/>
+    <token id="0x255c080" file="ras_odometry_node.cpp" linenr="19" str="ConstPtr" scope="0x2570040" type="name" astParent="0x255bfd0"/>
+    <token id="0x255c130" file="ras_odometry_node.cpp" linenr="19" str="&amp;" scope="0x2570040" type="op" astParent="0x255bc60" astOperand1="0x255bfd0" astOperand2="0x255c1e0"/>
+    <token id="0x255c1e0" file="ras_odometry_node.cpp" linenr="19" str="msg" scope="0x2570040" type="name" varId="5" variable="0x2571860" astParent="0x255c130"/>
+    <token id="0x255c290" file="ras_odometry_node.cpp" linenr="19" str=")" scope="0x2570040" link="0x255bc60"/>
+    <token id="0x255c340" file="ras_odometry_node.cpp" linenr="19" str="{" scope="0x2570290" link="0x255d1d0"/>
+    <token id="0x255c3f0" file="ras_odometry_node.cpp" linenr="20" str="count_change_right" scope="0x2570290" type="name" varId="2" variable="0x25711a0" astParent="0x255c4d0"/>
+    <token id="0x255c4d0" file="ras_odometry_node.cpp" linenr="20" str="=" scope="0x2570290" type="op" isAssignmentOp="True" astOperand1="0x255c3f0" astOperand2="0x255c580"/>
+    <token id="0x255c580" file="ras_odometry_node.cpp" linenr="20" str="-" scope="0x2570290" type="op" isArithmeticalOp="True" astParent="0x255c4d0" astOperand1="0x255c6e0"/>
+    <token id="0x255c630" file="ras_odometry_node.cpp" linenr="20" str="msg" scope="0x2570290" type="name" varId="5" variable="0x2571860" astParent="0x255c6e0"/>
+    <token id="0x255c6e0" file="ras_odometry_node.cpp" linenr="20" str="." scope="0x2570290" astParent="0x255c580" astOperand1="0x255c630" astOperand2="0x255d070"/>
+    <token id="0x255d070" file="ras_odometry_node.cpp" linenr="20" str="count_change" scope="0x2570290" type="name" varId="6" astParent="0x255c6e0"/>
+    <token id="0x255d120" file="ras_odometry_node.cpp" linenr="20" str=";" scope="0x2570290"/>
+    <token id="0x255d1d0" file="ras_odometry_node.cpp" linenr="21" str="}" scope="0x2570290" link="0x255c340"/>
+    <token id="0x255d280" file="ras_odometry_node.cpp" linenr="23" str="int" scope="0x2570040" type="name"/>
+    <token id="0x255d330" file="ras_odometry_node.cpp" linenr="23" str="main" scope="0x2570040" type="name" function="0x2570ea0" astParent="0x255d3e0"/>
+    <token id="0x255d3e0" file="ras_odometry_node.cpp" linenr="23" str="(" scope="0x2570040" link="0x255d960" astOperand1="0x255d330" astOperand2="0x255d5f0"/>
+    <token id="0x255d490" file="ras_odometry_node.cpp" linenr="23" str="int" scope="0x2570040" type="name"/>
+    <token id="0x255d540" file="ras_odometry_node.cpp" linenr="23" str="argc" scope="0x2570040" type="name" varId="7" variable="0x25718d0" astParent="0x255d5f0"/>
+    <token id="0x255d5f0" file="ras_odometry_node.cpp" linenr="23" str="," scope="0x2570040" astParent="0x255d3e0" astOperand1="0x255d540" astOperand2="0x255d750"/>
+    <token id="0x255d6a0" file="ras_odometry_node.cpp" linenr="23" str="char" scope="0x2570040" type="name" astParent="0x255d750"/>
+    <token id="0x255d750" file="ras_odometry_node.cpp" linenr="23" str="*" scope="0x2570040" type="op" isArithmeticalOp="True" astParent="0x255d5f0" astOperand1="0x255d6a0" astOperand2="0x255d800"/>
+    <token id="0x255d800" file="ras_odometry_node.cpp" linenr="23" str="*" scope="0x2570040" type="op" isArithmeticalOp="True" astParent="0x255d750" astOperand1="0x255d8b0"/>
+    <token id="0x255d8b0" file="ras_odometry_node.cpp" linenr="23" str="argv" scope="0x2570040" type="name" varId="8" variable="0x2571940" astParent="0x255d800"/>
+    <token id="0x255d960" file="ras_odometry_node.cpp" linenr="23" str=")" scope="0x2570040" link="0x255d3e0"/>
+    <token id="0x255da10" file="ras_odometry_node.cpp" linenr="23" str="{" scope="0x2570f40" link="0x256fa10"/>
+    <token id="0x255dac0" file="ras_odometry_node.cpp" linenr="25" str="geometry_msgs" scope="0x2570f40" type="name" astParent="0x255db70"/>
+    <token id="0x255db70" file="ras_odometry_node.cpp" linenr="25" str="::" scope="0x2570f40" astOperand1="0x255dac0" astOperand2="0x255dcd0"/>
+    <token id="0x255dc20" file="ras_odometry_node.cpp" linenr="25" str="Twist" scope="0x2570f40" type="name"/>
+    <token id="0x255dcd0" file="ras_odometry_node.cpp" linenr="25" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x255db70"/>
+    <token id="0x255dd80" file="ras_odometry_node.cpp" linenr="25" str=";" scope="0x2570f40"/>
+    <token id="0x255de30" file="ras_odometry_node.cpp" linenr="26" str="geometry_msgs" scope="0x2570f40" type="name" astParent="0x255dee0"/>
+    <token id="0x255dee0" file="ras_odometry_node.cpp" linenr="26" str="::" scope="0x2570f40" astOperand1="0x255de30" astOperand2="0x255e040"/>
+    <token id="0x255df90" file="ras_odometry_node.cpp" linenr="26" str="Twist" scope="0x2570f40" type="name"/>
+    <token id="0x255e040" file="ras_odometry_node.cpp" linenr="26" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x255dee0"/>
+    <token id="0x255e0f0" file="ras_odometry_node.cpp" linenr="26" str=";" scope="0x2570f40"/>
+    <token id="0x255e1a0" file="ras_odometry_node.cpp" linenr="28" str="ros" scope="0x2570f40" type="name" astParent="0x255e250"/>
+    <token id="0x255e250" file="ras_odometry_node.cpp" linenr="28" str="::" scope="0x2570f40" astParent="0x255e3b0" astOperand1="0x255e1a0" astOperand2="0x255e300"/>
+    <token id="0x255e300" file="ras_odometry_node.cpp" linenr="28" str="init" scope="0x2570f40" type="name" astParent="0x255e250"/>
+    <token id="0x255e3b0" file="ras_odometry_node.cpp" linenr="28" str="(" scope="0x2570f40" link="0x255e7d0" astOperand1="0x255e250" astOperand2="0x255e670"/>
+    <token id="0x255e460" file="ras_odometry_node.cpp" linenr="28" str="argc" scope="0x2570f40" type="name" varId="7" variable="0x25718d0" astParent="0x255e510"/>
+    <token id="0x255e510" file="ras_odometry_node.cpp" linenr="28" str="," scope="0x2570f40" astParent="0x255e670" astOperand1="0x255e460" astOperand2="0x255e5c0"/>
+    <token id="0x255e5c0" file="ras_odometry_node.cpp" linenr="28" str="argv" scope="0x2570f40" type="name" varId="8" variable="0x2571940" astParent="0x255e510"/>
+    <token id="0x255e670" file="ras_odometry_node.cpp" linenr="28" str="," scope="0x2570f40" astParent="0x255e3b0" astOperand1="0x255e510" astOperand2="0x255e720"/>
+    <token id="0x255e720" file="ras_odometry_node.cpp" linenr="28" str="&quot;odometry&quot;" scope="0x2570f40" type="string" strlen="8" values="0x255e728" astParent="0x255e670"/>
+    <token id="0x255e7d0" file="ras_odometry_node.cpp" linenr="28" str=")" scope="0x2570f40" link="0x255e3b0"/>
+    <token id="0x255e880" file="ras_odometry_node.cpp" linenr="28" str=";" scope="0x2570f40"/>
+    <token id="0x255e930" file="ras_odometry_node.cpp" linenr="29" str="ros" scope="0x2570f40" type="name" astParent="0x255e9e0"/>
+    <token id="0x255e9e0" file="ras_odometry_node.cpp" linenr="29" str="::" scope="0x2570f40" astParent="0x255ebf0" astOperand1="0x255e930" astOperand2="0x255eb40"/>
+    <token id="0x255ea90" file="ras_odometry_node.cpp" linenr="29" str="NodeHandle" scope="0x2570f40" type="name"/>
+    <token id="0x255eb40" file="ras_odometry_node.cpp" linenr="29" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x255e9e0"/>
+    <token id="0x255ebf0" file="ras_odometry_node.cpp" linenr="29" str="(" scope="0x2570f40" link="0x255ed50" astOperand1="0x255e9e0" astOperand2="0x255eca0"/>
+    <token id="0x255eca0" file="ras_odometry_node.cpp" linenr="29" str="&quot;x&quot;" scope="0x2570f40" type="string" strlen="1" values="0x255eca8" astParent="0x255ebf0"/>
+    <token id="0x255ed50" file="ras_odometry_node.cpp" linenr="29" str=")" scope="0x2570f40" link="0x255ebf0"/>
+    <token id="0x255ee00" file="ras_odometry_node.cpp" linenr="29" str=";" scope="0x2570f40"/>
+    <token id="0x255eeb0" file="ras_odometry_node.cpp" linenr="30" str="double" scope="0x2570f40" type="name"/>
+    <token id="0x255ef60" file="ras_odometry_node.cpp" linenr="30" str="x_origin" scope="0x2570f40" type="name" varId="12" variable="0x2571390"/>
+    <token id="0x255f010" file="ras_odometry_node.cpp" linenr="30" str=";" scope="0x2570f40"/>
+    <token id="0x255f0c0" file="ras_odometry_node.cpp" linenr="31" str="double" scope="0x2570f40" type="name"/>
+    <token id="0x255f170" file="ras_odometry_node.cpp" linenr="31" str="y_origin" scope="0x2570f40" type="name" varId="13" variable="0x2571400"/>
+    <token id="0x255f220" file="ras_odometry_node.cpp" linenr="31" str=";" scope="0x2570f40"/>
+    <token id="0x255f2d0" file="ras_odometry_node.cpp" linenr="32" str="double" scope="0x2570f40" type="name"/>
+    <token id="0x255f380" file="ras_odometry_node.cpp" linenr="32" str="start_angle" scope="0x2570f40" type="name" varId="14" variable="0x2571470"/>
+    <token id="0x255f430" file="ras_odometry_node.cpp" linenr="32" str=";" scope="0x2570f40"/>
+    <token id="0x255f4e0" file="ras_odometry_node.cpp" linenr="33" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x255f590"/>
+    <token id="0x255f590" file="ras_odometry_node.cpp" linenr="33" str="." scope="0x2570f40" astParent="0x255f6f0" astOperand1="0x255f4e0" astOperand2="0x255f640"/>
+    <token id="0x255f640" file="ras_odometry_node.cpp" linenr="33" str="getParam" scope="0x2570f40" type="name" astParent="0x255f590"/>
+    <token id="0x255f6f0" file="ras_odometry_node.cpp" linenr="33" str="(" scope="0x2570f40" link="0x255f9b0" astOperand1="0x255f590" astOperand2="0x255f850"/>
+    <token id="0x255f7a0" file="ras_odometry_node.cpp" linenr="33" str="&quot;x&quot;" scope="0x2570f40" type="string" strlen="1" values="0x255f7a8" astParent="0x255f850"/>
+    <token id="0x255f850" file="ras_odometry_node.cpp" linenr="33" str="," scope="0x2570f40" astParent="0x255f6f0" astOperand1="0x255f7a0" astOperand2="0x255f900"/>
+    <token id="0x255f900" file="ras_odometry_node.cpp" linenr="33" str="x_origin" scope="0x2570f40" type="name" varId="12" variable="0x2571390" astParent="0x255f850"/>
+    <token id="0x255f9b0" file="ras_odometry_node.cpp" linenr="33" str=")" scope="0x2570f40" link="0x255f6f0"/>
+    <token id="0x255fa60" file="ras_odometry_node.cpp" linenr="33" str=";" scope="0x2570f40"/>
+    <token id="0x255fb10" file="ras_odometry_node.cpp" linenr="34" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x255fbc0"/>
+    <token id="0x255fbc0" file="ras_odometry_node.cpp" linenr="34" str="." scope="0x2570f40" astParent="0x255fd20" astOperand1="0x255fb10" astOperand2="0x255fc70"/>
+    <token id="0x255fc70" file="ras_odometry_node.cpp" linenr="34" str="getParam" scope="0x2570f40" type="name" astParent="0x255fbc0"/>
+    <token id="0x255fd20" file="ras_odometry_node.cpp" linenr="34" str="(" scope="0x2570f40" link="0x255ffe0" astOperand1="0x255fbc0" astOperand2="0x255fe80"/>
+    <token id="0x255fdd0" file="ras_odometry_node.cpp" linenr="34" str="&quot;y&quot;" scope="0x2570f40" type="string" strlen="1" values="0x255fdd8" astParent="0x255fe80"/>
+    <token id="0x255fe80" file="ras_odometry_node.cpp" linenr="34" str="," scope="0x2570f40" astParent="0x255fd20" astOperand1="0x255fdd0" astOperand2="0x255ff30"/>
+    <token id="0x255ff30" file="ras_odometry_node.cpp" linenr="34" str="y_origin" scope="0x2570f40" type="name" varId="13" variable="0x2571400" astParent="0x255fe80"/>
+    <token id="0x255ffe0" file="ras_odometry_node.cpp" linenr="34" str=")" scope="0x2570f40" link="0x255fd20"/>
+    <token id="0x2560090" file="ras_odometry_node.cpp" linenr="34" str=";" scope="0x2570f40"/>
+    <token id="0x2560140" file="ras_odometry_node.cpp" linenr="35" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x25601f0"/>
+    <token id="0x25601f0" file="ras_odometry_node.cpp" linenr="35" str="." scope="0x2570f40" astParent="0x2560350" astOperand1="0x2560140" astOperand2="0x25602a0"/>
+    <token id="0x25602a0" file="ras_odometry_node.cpp" linenr="35" str="getParam" scope="0x2570f40" type="name" astParent="0x25601f0"/>
+    <token id="0x2560350" file="ras_odometry_node.cpp" linenr="35" str="(" scope="0x2570f40" link="0x2560610" astOperand1="0x25601f0" astOperand2="0x25604b0"/>
+    <token id="0x2560400" file="ras_odometry_node.cpp" linenr="35" str="&quot;angle&quot;" scope="0x2570f40" type="string" strlen="5" values="0x2560408" astParent="0x25604b0"/>
+    <token id="0x25604b0" file="ras_odometry_node.cpp" linenr="35" str="," scope="0x2570f40" astParent="0x2560350" astOperand1="0x2560400" astOperand2="0x2560560"/>
+    <token id="0x2560560" file="ras_odometry_node.cpp" linenr="35" str="start_angle" scope="0x2570f40" type="name" varId="14" variable="0x2571470" astParent="0x25604b0"/>
+    <token id="0x2560610" file="ras_odometry_node.cpp" linenr="35" str=")" scope="0x2570f40" link="0x2560350"/>
+    <token id="0x25606c0" file="ras_odometry_node.cpp" linenr="35" str=";" scope="0x2570f40"/>
+    <token id="0x2560770" file="ras_odometry_node.cpp" linenr="37" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x2560820"/>
+    <token id="0x2560820" file="ras_odometry_node.cpp" linenr="37" str="." scope="0x2570f40" astParent="0x2560980" astOperand1="0x2560770" astOperand2="0x25608d0"/>
+    <token id="0x25608d0" file="ras_odometry_node.cpp" linenr="37" str="angular" scope="0x2570f40" type="name" varId="15" astParent="0x2560820"/>
+    <token id="0x2560980" file="ras_odometry_node.cpp" linenr="37" str="." scope="0x2570f40" astParent="0x2560ae0" astOperand1="0x2560820" astOperand2="0x2560a30"/>
+    <token id="0x2560a30" file="ras_odometry_node.cpp" linenr="37" str="x" scope="0x2570f40" type="name" varId="16" astParent="0x2560980"/>
+    <token id="0x2560ae0" file="ras_odometry_node.cpp" linenr="37" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2560980" astOperand2="0x2560b90"/>
+    <token id="0x2560b90" file="ras_odometry_node.cpp" linenr="37" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2560b98" astParent="0x2560ae0"/>
+    <token id="0x2560c40" file="ras_odometry_node.cpp" linenr="37" str=";" scope="0x2570f40"/>
+    <token id="0x2560cf0" file="ras_odometry_node.cpp" linenr="38" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x2560da0"/>
+    <token id="0x2560da0" file="ras_odometry_node.cpp" linenr="38" str="." scope="0x2570f40" astParent="0x2560f00" astOperand1="0x2560cf0" astOperand2="0x2560e50"/>
+    <token id="0x2560e50" file="ras_odometry_node.cpp" linenr="38" str="angular" scope="0x2570f40" type="name" varId="15" astParent="0x2560da0"/>
+    <token id="0x2560f00" file="ras_odometry_node.cpp" linenr="38" str="." scope="0x2570f40" astParent="0x2561060" astOperand1="0x2560da0" astOperand2="0x2560fb0"/>
+    <token id="0x2560fb0" file="ras_odometry_node.cpp" linenr="38" str="y" scope="0x2570f40" type="name" varId="17" astParent="0x2560f00"/>
+    <token id="0x2561060" file="ras_odometry_node.cpp" linenr="38" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2560f00" astOperand2="0x2561110"/>
+    <token id="0x2561110" file="ras_odometry_node.cpp" linenr="38" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2561118" astParent="0x2561060"/>
+    <token id="0x25611c0" file="ras_odometry_node.cpp" linenr="38" str=";" scope="0x2570f40"/>
+    <token id="0x2561270" file="ras_odometry_node.cpp" linenr="39" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x2561320"/>
+    <token id="0x2561320" file="ras_odometry_node.cpp" linenr="39" str="." scope="0x2570f40" astParent="0x2561480" astOperand1="0x2561270" astOperand2="0x25613d0"/>
+    <token id="0x25613d0" file="ras_odometry_node.cpp" linenr="39" str="angular" scope="0x2570f40" type="name" varId="15" astParent="0x2561320"/>
+    <token id="0x2561480" file="ras_odometry_node.cpp" linenr="39" str="." scope="0x2570f40" astParent="0x25615e0" astOperand1="0x2561320" astOperand2="0x2561530"/>
+    <token id="0x2561530" file="ras_odometry_node.cpp" linenr="39" str="z" scope="0x2570f40" type="name" varId="18" astParent="0x2561480"/>
+    <token id="0x25615e0" file="ras_odometry_node.cpp" linenr="39" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2561480" astOperand2="0x2561690"/>
+    <token id="0x2561690" file="ras_odometry_node.cpp" linenr="39" str="start_angle" scope="0x2570f40" type="name" varId="14" variable="0x2571470" astParent="0x25615e0"/>
+    <token id="0x2561740" file="ras_odometry_node.cpp" linenr="39" str=";" scope="0x2570f40"/>
+    <token id="0x25617f0" file="ras_odometry_node.cpp" linenr="40" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x25618a0"/>
+    <token id="0x25618a0" file="ras_odometry_node.cpp" linenr="40" str="." scope="0x2570f40" astParent="0x2561a00" astOperand1="0x25617f0" astOperand2="0x2561950"/>
+    <token id="0x2561950" file="ras_odometry_node.cpp" linenr="40" str="linear" scope="0x2570f40" type="name" varId="19" astParent="0x25618a0"/>
+    <token id="0x2561a00" file="ras_odometry_node.cpp" linenr="40" str="." scope="0x2570f40" astParent="0x2561b60" astOperand1="0x25618a0" astOperand2="0x2561ab0"/>
+    <token id="0x2561ab0" file="ras_odometry_node.cpp" linenr="40" str="x" scope="0x2570f40" type="name" varId="20" astParent="0x2561a00"/>
+    <token id="0x2561b60" file="ras_odometry_node.cpp" linenr="40" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2561a00" astOperand2="0x2561c10"/>
+    <token id="0x2561c10" file="ras_odometry_node.cpp" linenr="40" str="x_origin" scope="0x2570f40" type="name" varId="12" variable="0x2571390" astParent="0x2561b60"/>
+    <token id="0x2561cc0" file="ras_odometry_node.cpp" linenr="40" str=";" scope="0x2570f40"/>
+    <token id="0x2561d70" file="ras_odometry_node.cpp" linenr="41" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x2561e20"/>
+    <token id="0x2561e20" file="ras_odometry_node.cpp" linenr="41" str="." scope="0x2570f40" astParent="0x2561f80" astOperand1="0x2561d70" astOperand2="0x2561ed0"/>
+    <token id="0x2561ed0" file="ras_odometry_node.cpp" linenr="41" str="linear" scope="0x2570f40" type="name" varId="19" astParent="0x2561e20"/>
+    <token id="0x2561f80" file="ras_odometry_node.cpp" linenr="41" str="." scope="0x2570f40" astParent="0x25620e0" astOperand1="0x2561e20" astOperand2="0x2562030"/>
+    <token id="0x2562030" file="ras_odometry_node.cpp" linenr="41" str="y" scope="0x2570f40" type="name" varId="21" astParent="0x2561f80"/>
+    <token id="0x25620e0" file="ras_odometry_node.cpp" linenr="41" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2561f80" astOperand2="0x2562190"/>
+    <token id="0x2562190" file="ras_odometry_node.cpp" linenr="41" str="y_origin" scope="0x2570f40" type="name" varId="13" variable="0x2571400" astParent="0x25620e0"/>
+    <token id="0x2562240" file="ras_odometry_node.cpp" linenr="41" str=";" scope="0x2570f40"/>
+    <token id="0x25622f0" file="ras_odometry_node.cpp" linenr="42" str="current_pos" scope="0x2570f40" type="name" varId="9" variable="0x2571240" astParent="0x25623a0"/>
+    <token id="0x25623a0" file="ras_odometry_node.cpp" linenr="42" str="." scope="0x2570f40" astParent="0x2562500" astOperand1="0x25622f0" astOperand2="0x2562450"/>
+    <token id="0x2562450" file="ras_odometry_node.cpp" linenr="42" str="linear" scope="0x2570f40" type="name" varId="19" astParent="0x25623a0"/>
+    <token id="0x2562500" file="ras_odometry_node.cpp" linenr="42" str="." scope="0x2570f40" astParent="0x2562660" astOperand1="0x25623a0" astOperand2="0x25625b0"/>
+    <token id="0x25625b0" file="ras_odometry_node.cpp" linenr="42" str="z" scope="0x2570f40" type="name" varId="22" astParent="0x2562500"/>
+    <token id="0x2562660" file="ras_odometry_node.cpp" linenr="42" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2562500" astOperand2="0x2562710"/>
+    <token id="0x2562710" file="ras_odometry_node.cpp" linenr="42" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2562718" astParent="0x2562660"/>
+    <token id="0x25627c0" file="ras_odometry_node.cpp" linenr="42" str=";" scope="0x2570f40"/>
+    <token id="0x2562870" file="ras_odometry_node.cpp" linenr="44" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x2562920"/>
+    <token id="0x2562920" file="ras_odometry_node.cpp" linenr="44" str="." scope="0x2570f40" astParent="0x2562a80" astOperand1="0x2562870" astOperand2="0x25629d0"/>
+    <token id="0x25629d0" file="ras_odometry_node.cpp" linenr="44" str="angular" scope="0x2570f40" type="name" varId="23" astParent="0x2562920"/>
+    <token id="0x2562a80" file="ras_odometry_node.cpp" linenr="44" str="." scope="0x2570f40" astParent="0x2562be0" astOperand1="0x2562920" astOperand2="0x2562b30"/>
+    <token id="0x2562b30" file="ras_odometry_node.cpp" linenr="44" str="x" scope="0x2570f40" type="name" varId="24" astParent="0x2562a80"/>
+    <token id="0x2562be0" file="ras_odometry_node.cpp" linenr="44" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2562a80" astOperand2="0x2562c90"/>
+    <token id="0x2562c90" file="ras_odometry_node.cpp" linenr="44" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2562c98" astParent="0x2562be0"/>
+    <token id="0x2562d40" file="ras_odometry_node.cpp" linenr="44" str=";" scope="0x2570f40"/>
+    <token id="0x2562df0" file="ras_odometry_node.cpp" linenr="45" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x2562ea0"/>
+    <token id="0x2562ea0" file="ras_odometry_node.cpp" linenr="45" str="." scope="0x2570f40" astParent="0x2563000" astOperand1="0x2562df0" astOperand2="0x2562f50"/>
+    <token id="0x2562f50" file="ras_odometry_node.cpp" linenr="45" str="angular" scope="0x2570f40" type="name" varId="23" astParent="0x2562ea0"/>
+    <token id="0x2563000" file="ras_odometry_node.cpp" linenr="45" str="." scope="0x2570f40" astParent="0x2563160" astOperand1="0x2562ea0" astOperand2="0x25630b0"/>
+    <token id="0x25630b0" file="ras_odometry_node.cpp" linenr="45" str="y" scope="0x2570f40" type="name" varId="25" astParent="0x2563000"/>
+    <token id="0x2563160" file="ras_odometry_node.cpp" linenr="45" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2563000" astOperand2="0x2563210"/>
+    <token id="0x2563210" file="ras_odometry_node.cpp" linenr="45" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2563218" astParent="0x2563160"/>
+    <token id="0x25632c0" file="ras_odometry_node.cpp" linenr="45" str=";" scope="0x2570f40"/>
+    <token id="0x2563370" file="ras_odometry_node.cpp" linenr="46" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x2563420"/>
+    <token id="0x2563420" file="ras_odometry_node.cpp" linenr="46" str="." scope="0x2570f40" astParent="0x2563580" astOperand1="0x2563370" astOperand2="0x25634d0"/>
+    <token id="0x25634d0" file="ras_odometry_node.cpp" linenr="46" str="angular" scope="0x2570f40" type="name" varId="23" astParent="0x2563420"/>
+    <token id="0x2563580" file="ras_odometry_node.cpp" linenr="46" str="." scope="0x2570f40" astParent="0x25636e0" astOperand1="0x2563420" astOperand2="0x2563630"/>
+    <token id="0x2563630" file="ras_odometry_node.cpp" linenr="46" str="z" scope="0x2570f40" type="name" varId="26" astParent="0x2563580"/>
+    <token id="0x25636e0" file="ras_odometry_node.cpp" linenr="46" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2563580" astOperand2="0x2563790"/>
+    <token id="0x2563790" file="ras_odometry_node.cpp" linenr="46" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2563798" astParent="0x25636e0"/>
+    <token id="0x2563840" file="ras_odometry_node.cpp" linenr="46" str=";" scope="0x2570f40"/>
+    <token id="0x25638f0" file="ras_odometry_node.cpp" linenr="47" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x25639a0"/>
+    <token id="0x25639a0" file="ras_odometry_node.cpp" linenr="47" str="." scope="0x2570f40" astParent="0x2563b00" astOperand1="0x25638f0" astOperand2="0x2563a50"/>
+    <token id="0x2563a50" file="ras_odometry_node.cpp" linenr="47" str="linear" scope="0x2570f40" type="name" varId="27" astParent="0x25639a0"/>
+    <token id="0x2563b00" file="ras_odometry_node.cpp" linenr="47" str="." scope="0x2570f40" astParent="0x2563c60" astOperand1="0x25639a0" astOperand2="0x2563bb0"/>
+    <token id="0x2563bb0" file="ras_odometry_node.cpp" linenr="47" str="x" scope="0x2570f40" type="name" varId="28" astParent="0x2563b00"/>
+    <token id="0x2563c60" file="ras_odometry_node.cpp" linenr="47" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2563b00" astOperand2="0x2563d10"/>
+    <token id="0x2563d10" file="ras_odometry_node.cpp" linenr="47" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2563d18" astParent="0x2563c60"/>
+    <token id="0x2563dc0" file="ras_odometry_node.cpp" linenr="47" str=";" scope="0x2570f40"/>
+    <token id="0x2563e70" file="ras_odometry_node.cpp" linenr="48" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x2563f20"/>
+    <token id="0x2563f20" file="ras_odometry_node.cpp" linenr="48" str="." scope="0x2570f40" astParent="0x2564080" astOperand1="0x2563e70" astOperand2="0x2563fd0"/>
+    <token id="0x2563fd0" file="ras_odometry_node.cpp" linenr="48" str="linear" scope="0x2570f40" type="name" varId="27" astParent="0x2563f20"/>
+    <token id="0x2564080" file="ras_odometry_node.cpp" linenr="48" str="." scope="0x2570f40" astParent="0x25641e0" astOperand1="0x2563f20" astOperand2="0x2564130"/>
+    <token id="0x2564130" file="ras_odometry_node.cpp" linenr="48" str="y" scope="0x2570f40" type="name" varId="29" astParent="0x2564080"/>
+    <token id="0x25641e0" file="ras_odometry_node.cpp" linenr="48" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2564080" astOperand2="0x2564290"/>
+    <token id="0x2564290" file="ras_odometry_node.cpp" linenr="48" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2564298" astParent="0x25641e0"/>
+    <token id="0x2564340" file="ras_odometry_node.cpp" linenr="48" str=";" scope="0x2570f40"/>
+    <token id="0x25643f0" file="ras_odometry_node.cpp" linenr="49" str="pose_diff" scope="0x2570f40" type="name" varId="10" variable="0x25712b0" astParent="0x25644a0"/>
+    <token id="0x25644a0" file="ras_odometry_node.cpp" linenr="49" str="." scope="0x2570f40" astParent="0x2564600" astOperand1="0x25643f0" astOperand2="0x2564550"/>
+    <token id="0x2564550" file="ras_odometry_node.cpp" linenr="49" str="linear" scope="0x2570f40" type="name" varId="27" astParent="0x25644a0"/>
+    <token id="0x2564600" file="ras_odometry_node.cpp" linenr="49" str="." scope="0x2570f40" astParent="0x2564760" astOperand1="0x25644a0" astOperand2="0x25646b0"/>
+    <token id="0x25646b0" file="ras_odometry_node.cpp" linenr="49" str="z" scope="0x2570f40" type="name" varId="30" astParent="0x2564600"/>
+    <token id="0x2564760" file="ras_odometry_node.cpp" linenr="49" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2564600" astOperand2="0x2564810"/>
+    <token id="0x2564810" file="ras_odometry_node.cpp" linenr="49" str="0" scope="0x2570f40" type="number" isInt="True" values="0x2564818" astParent="0x2564760"/>
+    <token id="0x25648c0" file="ras_odometry_node.cpp" linenr="49" str=";" scope="0x2570f40"/>
+    <token id="0x2564970" file="ras_odometry_node.cpp" linenr="51" str="ros" scope="0x2570f40" type="name" astParent="0x2564a20"/>
+    <token id="0x2564a20" file="ras_odometry_node.cpp" linenr="51" str="::" scope="0x2570f40" astOperand1="0x2564970" astOperand2="0x2564b80"/>
+    <token id="0x2564ad0" file="ras_odometry_node.cpp" linenr="51" str="Publisher" scope="0x2570f40" type="name"/>
+    <token id="0x2564b80" file="ras_odometry_node.cpp" linenr="51" str="pos_pub" scope="0x2570f40" type="name" varId="31" variable="0x25714e0" astParent="0x2564a20"/>
+    <token id="0x2564c30" file="ras_odometry_node.cpp" linenr="51" str=";" scope="0x2570f40"/>
+    <token id="0x255b810" file="ras_odometry_node.cpp" linenr="51" str="pos_pub" scope="0x2570f40" type="name" varId="31" variable="0x25714e0" astParent="0x255c790"/>
+    <token id="0x255c790" file="ras_odometry_node.cpp" linenr="51" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x255b810" astOperand2="0x2565260"/>
+    <token id="0x2564ce0" file="ras_odometry_node.cpp" linenr="51" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x2564d90"/>
+    <token id="0x2564d90" file="ras_odometry_node.cpp" linenr="51" str="." scope="0x2570f40" astParent="0x2565260" astOperand1="0x2564ce0" astOperand2="0x2564e40"/>
+    <token id="0x2564e40" file="ras_odometry_node.cpp" linenr="51" str="advertise" scope="0x2570f40" type="name" astParent="0x2564d90"/>
+    <token id="0x2564ef0" file="ras_odometry_node.cpp" linenr="51" str="&lt;" scope="0x2570f40" link="0x25651b0"/>
+    <token id="0x2564fa0" file="ras_odometry_node.cpp" linenr="51" str="geometry_msgs" scope="0x2570f40" type="name"/>
+    <token id="0x2565050" file="ras_odometry_node.cpp" linenr="51" str="::" scope="0x2570f40"/>
+    <token id="0x2565100" file="ras_odometry_node.cpp" linenr="51" str="Twist" scope="0x2570f40" type="name"/>
+    <token id="0x25651b0" file="ras_odometry_node.cpp" linenr="51" str="&gt;" scope="0x2570f40" link="0x2564ef0"/>
+    <token id="0x2565260" file="ras_odometry_node.cpp" linenr="51" str="(" scope="0x2570f40" link="0x2565520" astParent="0x255c790" astOperand1="0x2564d90" astOperand2="0x25653c0"/>
+    <token id="0x2565310" file="ras_odometry_node.cpp" linenr="51" str="&quot;/robot8/pose&quot;" scope="0x2570f40" type="string" strlen="12" values="0x2565318" astParent="0x25653c0"/>
+    <token id="0x25653c0" file="ras_odometry_node.cpp" linenr="51" str="," scope="0x2570f40" astParent="0x2565260" astOperand1="0x2565310" astOperand2="0x2565470"/>
+    <token id="0x2565470" file="ras_odometry_node.cpp" linenr="51" str="1000" scope="0x2570f40" type="number" isInt="True" values="0x2565478" astParent="0x25653c0"/>
+    <token id="0x2565520" file="ras_odometry_node.cpp" linenr="51" str=")" scope="0x2570f40" link="0x2565260"/>
+    <token id="0x25655d0" file="ras_odometry_node.cpp" linenr="51" str=";" scope="0x2570f40"/>
+    <token id="0x2565680" file="ras_odometry_node.cpp" linenr="52" str="ros" scope="0x2570f40" type="name" astParent="0x2565730"/>
+    <token id="0x2565730" file="ras_odometry_node.cpp" linenr="52" str="::" scope="0x2570f40" astOperand1="0x2565680" astOperand2="0x2565890"/>
+    <token id="0x25657e0" file="ras_odometry_node.cpp" linenr="52" str="Publisher" scope="0x2570f40" type="name"/>
+    <token id="0x2565890" file="ras_odometry_node.cpp" linenr="52" str="posdiff_pub" scope="0x2570f40" type="name" varId="32" variable="0x2571550" astParent="0x2565730"/>
+    <token id="0x2565940" file="ras_odometry_node.cpp" linenr="52" str=";" scope="0x2570f40"/>
+    <token id="0x256b810" file="ras_odometry_node.cpp" linenr="52" str="posdiff_pub" scope="0x2570f40" type="name" varId="32" variable="0x2571550" astParent="0x256c520"/>
+    <token id="0x256c520" file="ras_odometry_node.cpp" linenr="52" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x256b810" astOperand2="0x2565f70"/>
+    <token id="0x25659f0" file="ras_odometry_node.cpp" linenr="52" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x2565aa0"/>
+    <token id="0x2565aa0" file="ras_odometry_node.cpp" linenr="52" str="." scope="0x2570f40" astParent="0x2565f70" astOperand1="0x25659f0" astOperand2="0x2565b50"/>
+    <token id="0x2565b50" file="ras_odometry_node.cpp" linenr="52" str="advertise" scope="0x2570f40" type="name" astParent="0x2565aa0"/>
+    <token id="0x2565c00" file="ras_odometry_node.cpp" linenr="52" str="&lt;" scope="0x2570f40" link="0x2565ec0"/>
+    <token id="0x2565cb0" file="ras_odometry_node.cpp" linenr="52" str="geometry_msgs" scope="0x2570f40" type="name"/>
+    <token id="0x2565d60" file="ras_odometry_node.cpp" linenr="52" str="::" scope="0x2570f40"/>
+    <token id="0x2565e10" file="ras_odometry_node.cpp" linenr="52" str="Twist" scope="0x2570f40" type="name"/>
+    <token id="0x2565ec0" file="ras_odometry_node.cpp" linenr="52" str="&gt;" scope="0x2570f40" link="0x2565c00"/>
+    <token id="0x2565f70" file="ras_odometry_node.cpp" linenr="52" str="(" scope="0x2570f40" link="0x2566260" astParent="0x256c520" astOperand1="0x2565aa0" astOperand2="0x2566100"/>
+    <token id="0x2566020" file="ras_odometry_node.cpp" linenr="52" str="&quot;/robot8/pose_diff&quot;" scope="0x2570f40" type="string" strlen="17" values="0x2566028" astParent="0x2566100"/>
+    <token id="0x2566100" file="ras_odometry_node.cpp" linenr="52" str="," scope="0x2570f40" astParent="0x2565f70" astOperand1="0x2566020" astOperand2="0x25661b0"/>
+    <token id="0x25661b0" file="ras_odometry_node.cpp" linenr="52" str="1000" scope="0x2570f40" type="number" isInt="True" values="0x25661b8" astParent="0x2566100"/>
+    <token id="0x2566260" file="ras_odometry_node.cpp" linenr="52" str=")" scope="0x2570f40" link="0x2565f70"/>
+    <token id="0x2566310" file="ras_odometry_node.cpp" linenr="52" str=";" scope="0x2570f40"/>
+    <token id="0x25663c0" file="ras_odometry_node.cpp" linenr="53" str="ros" scope="0x2570f40" type="name" astParent="0x2566470"/>
+    <token id="0x2566470" file="ras_odometry_node.cpp" linenr="53" str="::" scope="0x2570f40" astOperand1="0x25663c0" astOperand2="0x25665d0"/>
+    <token id="0x2566520" file="ras_odometry_node.cpp" linenr="53" str="Subscriber" scope="0x2570f40" type="name"/>
+    <token id="0x25665d0" file="ras_odometry_node.cpp" linenr="53" str="left_encoder_sub" scope="0x2570f40" type="name" varId="33" variable="0x25715c0" astParent="0x2566470"/>
+    <token id="0x2566680" file="ras_odometry_node.cpp" linenr="53" str=";" scope="0x2570f40"/>
+    <token id="0x256d860" file="ras_odometry_node.cpp" linenr="53" str="left_encoder_sub" scope="0x2570f40" type="name" varId="33" variable="0x25715c0" astParent="0x255a570"/>
+    <token id="0x255a570" file="ras_odometry_node.cpp" linenr="53" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x256d860" astOperand2="0x2566940"/>
+    <token id="0x2566730" file="ras_odometry_node.cpp" linenr="53" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x25667e0"/>
+    <token id="0x25667e0" file="ras_odometry_node.cpp" linenr="53" str="." scope="0x2570f40" astParent="0x2566940" astOperand1="0x2566730" astOperand2="0x2566890"/>
+    <token id="0x2566890" file="ras_odometry_node.cpp" linenr="53" str="subscribe" scope="0x2570f40" type="name" astParent="0x25667e0"/>
+    <token id="0x2566940" file="ras_odometry_node.cpp" linenr="53" str="(" scope="0x2570f40" link="0x2566e40" astParent="0x255a570" astOperand1="0x25667e0" astOperand2="0x2566c00"/>
+    <token id="0x25669f0" file="ras_odometry_node.cpp" linenr="53" str="&quot;/left/encoder&quot;" scope="0x2570f40" type="string" strlen="13" values="0x25669f8" astParent="0x2566aa0"/>
+    <token id="0x2566aa0" file="ras_odometry_node.cpp" linenr="53" str="," scope="0x2570f40" astParent="0x2566c00" astOperand1="0x25669f0" astOperand2="0x2566b50"/>
+    <token id="0x2566b50" file="ras_odometry_node.cpp" linenr="53" str="1000" scope="0x2570f40" type="number" isInt="True" values="0x2566b58" astParent="0x2566aa0"/>
+    <token id="0x2566c00" file="ras_odometry_node.cpp" linenr="53" str="," scope="0x2570f40" astParent="0x2566940" astOperand1="0x2566aa0" astOperand2="0x2566cb0"/>
+    <token id="0x2566cb0" file="ras_odometry_node.cpp" linenr="53" str="&amp;" scope="0x2570f40" type="op" astParent="0x2566c00" astOperand1="0x2566d60"/>
+    <token id="0x2566d60" file="ras_odometry_node.cpp" linenr="53" str="leftEncoderCallback" scope="0x2570f40" type="name" astParent="0x2566cb0"/>
+    <token id="0x2566e40" file="ras_odometry_node.cpp" linenr="53" str=")" scope="0x2570f40" link="0x2566940"/>
+    <token id="0x2566ef0" file="ras_odometry_node.cpp" linenr="53" str=";" scope="0x2570f40"/>
+    <token id="0x2566fa0" file="ras_odometry_node.cpp" linenr="54" str="ros" scope="0x2570f40" type="name" astParent="0x2567050"/>
+    <token id="0x2567050" file="ras_odometry_node.cpp" linenr="54" str="::" scope="0x2570f40" astOperand1="0x2566fa0" astOperand2="0x25671b0"/>
+    <token id="0x2567100" file="ras_odometry_node.cpp" linenr="54" str="Subscriber" scope="0x2570f40" type="name"/>
+    <token id="0x25671b0" file="ras_odometry_node.cpp" linenr="54" str="right_encoder_sub" scope="0x2570f40" type="name" varId="34" variable="0x2571630" astParent="0x2567050"/>
+    <token id="0x2567290" file="ras_odometry_node.cpp" linenr="54" str=";" scope="0x2570f40"/>
+    <token id="0x2568f50" file="ras_odometry_node.cpp" linenr="54" str="right_encoder_sub" scope="0x2570f40" type="name" varId="34" variable="0x2571630" astParent="0x2569920"/>
+    <token id="0x2569920" file="ras_odometry_node.cpp" linenr="54" str="=" scope="0x2570f40" type="op" isAssignmentOp="True" astOperand1="0x2568f50" astOperand2="0x2567550"/>
+    <token id="0x2567340" file="ras_odometry_node.cpp" linenr="54" str="n" scope="0x2570f40" type="name" varId="11" variable="0x2571320" astParent="0x25673f0"/>
+    <token id="0x25673f0" file="ras_odometry_node.cpp" linenr="54" str="." scope="0x2570f40" astParent="0x2567550" astOperand1="0x2567340" astOperand2="0x25674a0"/>
+    <token id="0x25674a0" file="ras_odometry_node.cpp" linenr="54" str="subscribe" scope="0x2570f40" type="name" astParent="0x25673f0"/>
+    <token id="0x2567550" file="ras_odometry_node.cpp" linenr="54" str="(" scope="0x2570f40" link="0x2567a80" astParent="0x2569920" astOperand1="0x25673f0" astOperand2="0x2567870"/>
+    <token id="0x2567630" file="ras_odometry_node.cpp" linenr="54" str="&quot;/right/encoder&quot;" scope="0x2570f40" type="string" strlen="14" values="0x2567638" astParent="0x2567710"/>
+    <token id="0x2567710" file="ras_odometry_node.cpp" linenr="54" str="," scope="0x2570f40" astParent="0x2567870" astOperand1="0x2567630" astOperand2="0x25677c0"/>
+    <token id="0x25677c0" file="ras_odometry_node.cpp" linenr="54" str="1000" scope="0x2570f40" type="number" isInt="True" values="0x25677c8" astParent="0x2567710"/>
+    <token id="0x2567870" file="ras_odometry_node.cpp" linenr="54" str="," scope="0x2570f40" astParent="0x2567550" astOperand1="0x2567710" astOperand2="0x2567920"/>
+    <token id="0x2567920" file="ras_odometry_node.cpp" linenr="54" str="&amp;" scope="0x2570f40" type="op" astParent="0x2567870" astOperand1="0x25679d0"/>
+    <token id="0x25679d0" file="ras_odometry_node.cpp" linenr="54" str="rightEncoderCallback" scope="0x2570f40" type="name" astParent="0x2567920"/>
+    <token id="0x2567a80" file="ras_odometry_node.cpp" linenr="54" str=")" scope="0x2570f40" link="0x2567550"/>
+    <token id="0x2567b30" file="ras_odometry_node.cpp" linenr="54" str=";" scope="0x2570f40"/>
+    <token id="0x2567be0" file="ras_odometry_node.cpp" linenr="55" str="ros" scope="0x2570f40" type="name" astParent="0x2567c90"/>
+    <token id="0x2567c90" file="ras_odometry_node.cpp" linenr="55" str="::" scope="0x2570f40" astParent="0x2567ea0" astOperand1="0x2567be0" astOperand2="0x2567df0"/>
+    <token id="0x2567d40" file="ras_odometry_node.cpp" linenr="55" str="Rate" scope="0x2570f40" type="name"/>
+    <token id="0x2567df0" file="ras_odometry_node.cpp" linenr="55" str="loop_rate" scope="0x2570f40" type="name" varId="35" variable="0x25716a0" astParent="0x2567c90"/>
+    <token id="0x2567ea0" file="ras_odometry_node.cpp" linenr="55" str="(" scope="0x2570f40" link="0x2568000" astOperand1="0x2567c90" astOperand2="0x2567f50"/>
+    <token id="0x2567f50" file="ras_odometry_node.cpp" linenr="55" str="125" scope="0x2570f40" type="number" isInt="True" values="0x2567f58" astParent="0x2567ea0"/>
+    <token id="0x2568000" file="ras_odometry_node.cpp" linenr="55" str=")" scope="0x2570f40" link="0x2567ea0"/>
+    <token id="0x25680b0" file="ras_odometry_node.cpp" linenr="55" str=";" scope="0x2570f40"/>
+    <token id="0x2568160" file="ras_odometry_node.cpp" linenr="57" str="while" scope="0x2570f40" type="name" astParent="0x2568210"/>
+    <token id="0x2568210" file="ras_odometry_node.cpp" linenr="57" str="(" scope="0x2570f40" link="0x2568630" astOperand1="0x2568160" astOperand2="0x25684d0"/>
+    <token id="0x25682c0" file="ras_odometry_node.cpp" linenr="57" str="ros" scope="0x2570f40" type="name" astParent="0x2568370"/>
+    <token id="0x2568370" file="ras_odometry_node.cpp" linenr="57" str="::" scope="0x2570f40" astParent="0x25684d0" astOperand1="0x25682c0" astOperand2="0x2568420"/>
+    <token id="0x2568420" file="ras_odometry_node.cpp" linenr="57" str="ok" scope="0x2570f40" type="name" astParent="0x2568370"/>
+    <token id="0x25684d0" file="ras_odometry_node.cpp" linenr="57" str="(" scope="0x2570f40" link="0x2568580" astParent="0x2568210" astOperand1="0x2568370"/>
+    <token id="0x2568580" file="ras_odometry_node.cpp" linenr="57" str=")" scope="0x2570f40" link="0x25684d0"/>
+    <token id="0x2568630" file="ras_odometry_node.cpp" linenr="57" str=")" scope="0x2570f40" link="0x2568210"/>
+    <token id="0x25686e0" file="ras_odometry_node.cpp" linenr="57" str="{" scope="0x2571070" link="0x256f960"/>
+    <token id="0x2568790" file="ras_odometry_node.cpp" linenr="59" str="double" scope="0x2571070" type="name"/>
+    <token id="0x2568840" file="ras_odometry_node.cpp" linenr="59" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710"/>
+    <token id="0x25688f0" file="ras_odometry_node.cpp" linenr="59" str=";" scope="0x2571070"/>
+    <token id="0x25699d0" file="ras_odometry_node.cpp" linenr="59" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256b1e0"/>
+    <token id="0x256b1e0" file="ras_odometry_node.cpp" linenr="59" str="=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x25699d0" astOperand2="0x2568df0"/>
+    <token id="0x25689a0" file="ras_odometry_node.cpp" linenr="59" str="(" scope="0x2571070" link="0x2568b00" astParent="0x2568c90" astOperand1="0x2568bb0"/>
+    <token id="0x2568a50" file="ras_odometry_node.cpp" linenr="59" str="double" scope="0x2571070" type="name"/>
+    <token id="0x2568b00" file="ras_odometry_node.cpp" linenr="59" str=")" scope="0x2571070" link="0x25689a0"/>
+    <token id="0x2568bb0" file="ras_odometry_node.cpp" linenr="59" str="count_change_right" scope="0x2571070" type="name" varId="2" variable="0x25711a0" astParent="0x25689a0"/>
+    <token id="0x2568c90" file="ras_odometry_node.cpp" linenr="59" str="/" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x2568df0" astOperand1="0x25689a0" astOperand2="0x2568d40"/>
+    <token id="0x2568d40" file="ras_odometry_node.cpp" linenr="59" str="900" scope="0x2571070" type="number" isInt="True" values="0x2568d48" astParent="0x2568c90"/>
+    <token id="0x2568df0" file="ras_odometry_node.cpp" linenr="59" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256b1e0" astOperand1="0x2568c90" astOperand2="0x2568ea0"/>
+    <token id="0x2568ea0" file="ras_odometry_node.cpp" linenr="59" str="6.28318530718" scope="0x2571070" type="number" isFloat="True" astParent="0x2568df0"/>
+    <token id="0x25690b0" file="ras_odometry_node.cpp" linenr="59" str=";" scope="0x2571070"/>
+    <token id="0x2569160" file="ras_odometry_node.cpp" linenr="60" str="double" scope="0x2571070" type="name"/>
+    <token id="0x2569210" file="ras_odometry_node.cpp" linenr="60" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780"/>
+    <token id="0x25692c0" file="ras_odometry_node.cpp" linenr="60" str=";" scope="0x2571070"/>
+    <token id="0x256b290" file="ras_odometry_node.cpp" linenr="60" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256c680"/>
+    <token id="0x256c680" file="ras_odometry_node.cpp" linenr="60" str="=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x256b290" astOperand2="0x25697c0"/>
+    <token id="0x2569370" file="ras_odometry_node.cpp" linenr="60" str="(" scope="0x2571070" link="0x25694d0" astParent="0x2569660" astOperand1="0x2569580"/>
+    <token id="0x2569420" file="ras_odometry_node.cpp" linenr="60" str="double" scope="0x2571070" type="name"/>
+    <token id="0x25694d0" file="ras_odometry_node.cpp" linenr="60" str=")" scope="0x2571070" link="0x2569370"/>
+    <token id="0x2569580" file="ras_odometry_node.cpp" linenr="60" str="count_change_left" scope="0x2571070" type="name" varId="1" variable="0x256a680" astParent="0x2569370"/>
+    <token id="0x2569660" file="ras_odometry_node.cpp" linenr="60" str="/" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x25697c0" astOperand1="0x2569370" astOperand2="0x2569710"/>
+    <token id="0x2569710" file="ras_odometry_node.cpp" linenr="60" str="900" scope="0x2571070" type="number" isInt="True" values="0x2569718" astParent="0x2569660"/>
+    <token id="0x25697c0" file="ras_odometry_node.cpp" linenr="60" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256c680" astOperand1="0x2569660" astOperand2="0x2569870"/>
+    <token id="0x2569870" file="ras_odometry_node.cpp" linenr="60" str="6.28318530718" scope="0x2571070" type="number" isFloat="True" astParent="0x25697c0"/>
+    <token id="0x2569a80" file="ras_odometry_node.cpp" linenr="60" str=";" scope="0x2571070"/>
+    <token id="0x2569b30" file="ras_odometry_node.cpp" linenr="62" str="pose_diff" scope="0x2571070" type="name" varId="10" variable="0x25712b0" astParent="0x2569be0"/>
+    <token id="0x2569be0" file="ras_odometry_node.cpp" linenr="62" str="." scope="0x2571070" astParent="0x2569d40" astOperand1="0x2569b30" astOperand2="0x2569c90"/>
+    <token id="0x2569c90" file="ras_odometry_node.cpp" linenr="62" str="angular" scope="0x2571070" type="name" varId="23" astParent="0x2569be0"/>
+    <token id="0x2569d40" file="ras_odometry_node.cpp" linenr="62" str="." scope="0x2571070" astParent="0x2569ea0" astOperand1="0x2569be0" astOperand2="0x2569df0"/>
+    <token id="0x2569df0" file="ras_odometry_node.cpp" linenr="62" str="z" scope="0x2571070" type="name" varId="26" astParent="0x2569d40"/>
+    <token id="0x2569ea0" file="ras_odometry_node.cpp" linenr="62" str="=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x2569d40" astOperand2="0x256a2c0"/>
+    <token id="0x2569f50" file="ras_odometry_node.cpp" linenr="62" str="(" scope="0x2571070" link="0x256a210"/>
+    <token id="0x256a000" file="ras_odometry_node.cpp" linenr="62" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256a0b0"/>
+    <token id="0x256a0b0" file="ras_odometry_node.cpp" linenr="62" str="-" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256a2c0" astOperand1="0x256a000" astOperand2="0x256a160"/>
+    <token id="0x256a160" file="ras_odometry_node.cpp" linenr="62" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256a0b0"/>
+    <token id="0x256a210" file="ras_odometry_node.cpp" linenr="62" str=")" scope="0x2571070" link="0x2569f50"/>
+    <token id="0x256a2c0" file="ras_odometry_node.cpp" linenr="62" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x2569ea0" astOperand1="0x256a0b0" astOperand2="0x256a370"/>
+    <token id="0x256a370" file="ras_odometry_node.cpp" linenr="62" str="0.157894736842" scope="0x2571070" type="number" isFloat="True" astParent="0x256a2c0"/>
+    <token id="0x256a6e0" file="ras_odometry_node.cpp" linenr="62" str=";" scope="0x2571070"/>
+    <token id="0x256a790" file="ras_odometry_node.cpp" linenr="63" str="pose_diff" scope="0x2571070" type="name" varId="10" variable="0x25712b0" astParent="0x256a840"/>
+    <token id="0x256a840" file="ras_odometry_node.cpp" linenr="63" str="." scope="0x2571070" astParent="0x256a9a0" astOperand1="0x256a790" astOperand2="0x256a8f0"/>
+    <token id="0x256a8f0" file="ras_odometry_node.cpp" linenr="63" str="linear" scope="0x2571070" type="name" varId="27" astParent="0x256a840"/>
+    <token id="0x256a9a0" file="ras_odometry_node.cpp" linenr="63" str="." scope="0x2571070" astParent="0x256ab00" astOperand1="0x256a840" astOperand2="0x256aa50"/>
+    <token id="0x256aa50" file="ras_odometry_node.cpp" linenr="63" str="x" scope="0x2571070" type="name" varId="28" astParent="0x256a9a0"/>
+    <token id="0x256ab00" file="ras_odometry_node.cpp" linenr="63" str="=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x256a9a0" astOperand2="0x256b080"/>
+    <token id="0x256abb0" file="ras_odometry_node.cpp" linenr="63" str="(" scope="0x2571070" link="0x256ae70"/>
+    <token id="0x256ac60" file="ras_odometry_node.cpp" linenr="63" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256ad10"/>
+    <token id="0x256ad10" file="ras_odometry_node.cpp" linenr="63" str="+" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256af20" astOperand1="0x256ac60" astOperand2="0x256adc0"/>
+    <token id="0x256adc0" file="ras_odometry_node.cpp" linenr="63" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256ad10"/>
+    <token id="0x256ae70" file="ras_odometry_node.cpp" linenr="63" str=")" scope="0x2571070" link="0x256abb0"/>
+    <token id="0x256af20" file="ras_odometry_node.cpp" linenr="63" str="/" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256b080" astOperand1="0x256ad10" astOperand2="0x256afd0"/>
+    <token id="0x256afd0" file="ras_odometry_node.cpp" linenr="63" str="2" scope="0x2571070" type="number" isInt="True" values="0x256afd8" astParent="0x256af20"/>
+    <token id="0x256b080" file="ras_odometry_node.cpp" linenr="63" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256ab00" astOperand1="0x256af20" astOperand2="0x256b130"/>
+    <token id="0x256b130" file="ras_odometry_node.cpp" linenr="63" str="0.036" scope="0x2571070" type="number" isFloat="True" astParent="0x256b080"/>
+    <token id="0x256b340" file="ras_odometry_node.cpp" linenr="63" str=";" scope="0x2571070"/>
+    <token id="0x256b3f0" file="ras_odometry_node.cpp" linenr="65" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256b4a0"/>
+    <token id="0x256b4a0" file="ras_odometry_node.cpp" linenr="65" str="." scope="0x2571070" astParent="0x256b600" astOperand1="0x256b3f0" astOperand2="0x256b550"/>
+    <token id="0x256b550" file="ras_odometry_node.cpp" linenr="65" str="angular" scope="0x2571070" type="name" varId="15" astParent="0x256b4a0"/>
+    <token id="0x256b600" file="ras_odometry_node.cpp" linenr="65" str="." scope="0x2571070" astParent="0x256b760" astOperand1="0x256b4a0" astOperand2="0x256b6b0"/>
+    <token id="0x256b6b0" file="ras_odometry_node.cpp" linenr="65" str="z" scope="0x2571070" type="name" varId="18" astParent="0x256b600"/>
+    <token id="0x256b760" file="ras_odometry_node.cpp" linenr="65" str="+=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x256b600" astOperand2="0x256bc30"/>
+    <token id="0x256b8c0" file="ras_odometry_node.cpp" linenr="65" str="0.157894736842" scope="0x2571070" type="number" isFloat="True" astParent="0x256bc30"/>
+    <token id="0x256bc30" file="ras_odometry_node.cpp" linenr="65" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256b760" astOperand1="0x256b8c0" astOperand2="0x256be40"/>
+    <token id="0x256bce0" file="ras_odometry_node.cpp" linenr="65" str="(" scope="0x2571070" link="0x256bfa0"/>
+    <token id="0x256bd90" file="ras_odometry_node.cpp" linenr="65" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256be40"/>
+    <token id="0x256be40" file="ras_odometry_node.cpp" linenr="65" str="-" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256bc30" astOperand1="0x256bd90" astOperand2="0x256bef0"/>
+    <token id="0x256bef0" file="ras_odometry_node.cpp" linenr="65" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256be40"/>
+    <token id="0x256bfa0" file="ras_odometry_node.cpp" linenr="65" str=")" scope="0x2571070" link="0x256bce0"/>
+    <token id="0x256c050" file="ras_odometry_node.cpp" linenr="65" str=";" scope="0x2571070"/>
+    <token id="0x256c100" file="ras_odometry_node.cpp" linenr="66" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256c1b0"/>
+    <token id="0x256c1b0" file="ras_odometry_node.cpp" linenr="66" str="." scope="0x2571070" astParent="0x256c310" astOperand1="0x256c100" astOperand2="0x256c260"/>
+    <token id="0x256c260" file="ras_odometry_node.cpp" linenr="66" str="linear" scope="0x2571070" type="name" varId="19" astParent="0x256c1b0"/>
+    <token id="0x256c310" file="ras_odometry_node.cpp" linenr="66" str="." scope="0x2571070" astParent="0x256c470" astOperand1="0x256c1b0" astOperand2="0x256c3c0"/>
+    <token id="0x256c3c0" file="ras_odometry_node.cpp" linenr="66" str="x" scope="0x2571070" type="name" varId="20" astParent="0x256c310"/>
+    <token id="0x256c470" file="ras_odometry_node.cpp" linenr="66" str="+=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x256c310" astOperand2="0x256cf70"/>
+    <token id="0x256c5d0" file="ras_odometry_node.cpp" linenr="66" str="0.036" scope="0x2571070" type="number" isFloat="True" astParent="0x256c7e0"/>
+    <token id="0x256c7e0" file="ras_odometry_node.cpp" linenr="66" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256ce10" astOperand1="0x256c5d0" astOperand2="0x256c940"/>
+    <token id="0x256c890" file="ras_odometry_node.cpp" linenr="66" str="cos" scope="0x2571070" type="name" astParent="0x256c940"/>
+    <token id="0x256c940" file="ras_odometry_node.cpp" linenr="66" str="(" scope="0x2571070" link="0x256cd60" astParent="0x256c7e0" astOperand1="0x256c890" astOperand2="0x256cc00"/>
+    <token id="0x256c9f0" file="ras_odometry_node.cpp" linenr="66" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256caa0"/>
+    <token id="0x256caa0" file="ras_odometry_node.cpp" linenr="66" str="." scope="0x2571070" astParent="0x256cc00" astOperand1="0x256c9f0" astOperand2="0x256cb50"/>
+    <token id="0x256cb50" file="ras_odometry_node.cpp" linenr="66" str="angular" scope="0x2571070" type="name" varId="15" astParent="0x256caa0"/>
+    <token id="0x256cc00" file="ras_odometry_node.cpp" linenr="66" str="." scope="0x2571070" astParent="0x256c940" astOperand1="0x256caa0" astOperand2="0x256ccb0"/>
+    <token id="0x256ccb0" file="ras_odometry_node.cpp" linenr="66" str="z" scope="0x2571070" type="name" varId="18" astParent="0x256cc00"/>
+    <token id="0x256cd60" file="ras_odometry_node.cpp" linenr="66" str=")" scope="0x2571070" link="0x256c940"/>
+    <token id="0x256ce10" file="ras_odometry_node.cpp" linenr="66" str="/" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256cf70" astOperand1="0x256c7e0" astOperand2="0x256cec0"/>
+    <token id="0x256cec0" file="ras_odometry_node.cpp" linenr="66" str="2" scope="0x2571070" type="number" isInt="True" values="0x256cec8" astParent="0x256ce10"/>
+    <token id="0x256cf70" file="ras_odometry_node.cpp" linenr="66" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256c470" astOperand1="0x256ce10" astOperand2="0x256d180"/>
+    <token id="0x256d020" file="ras_odometry_node.cpp" linenr="66" str="(" scope="0x2571070" link="0x256d2e0"/>
+    <token id="0x256d0d0" file="ras_odometry_node.cpp" linenr="66" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256d180"/>
+    <token id="0x256d180" file="ras_odometry_node.cpp" linenr="66" str="+" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256cf70" astOperand1="0x256d0d0" astOperand2="0x256d230"/>
+    <token id="0x256d230" file="ras_odometry_node.cpp" linenr="66" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256d180"/>
+    <token id="0x256d2e0" file="ras_odometry_node.cpp" linenr="66" str=")" scope="0x2571070" link="0x256d020"/>
+    <token id="0x256d390" file="ras_odometry_node.cpp" linenr="66" str=";" scope="0x2571070"/>
+    <token id="0x256d440" file="ras_odometry_node.cpp" linenr="67" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256d4f0"/>
+    <token id="0x256d4f0" file="ras_odometry_node.cpp" linenr="67" str="." scope="0x2571070" astParent="0x256d650" astOperand1="0x256d440" astOperand2="0x256d5a0"/>
+    <token id="0x256d5a0" file="ras_odometry_node.cpp" linenr="67" str="linear" scope="0x2571070" type="name" varId="19" astParent="0x256d4f0"/>
+    <token id="0x256d650" file="ras_odometry_node.cpp" linenr="67" str="." scope="0x2571070" astParent="0x256d7b0" astOperand1="0x256d4f0" astOperand2="0x256d700"/>
+    <token id="0x256d700" file="ras_odometry_node.cpp" linenr="67" str="y" scope="0x2571070" type="name" varId="21" astParent="0x256d650"/>
+    <token id="0x256d7b0" file="ras_odometry_node.cpp" linenr="67" str="+=" scope="0x2571070" type="op" isAssignmentOp="True" astOperand1="0x256d650" astOperand2="0x256e2b0"/>
+    <token id="0x256d910" file="ras_odometry_node.cpp" linenr="67" str="0.036" scope="0x2571070" type="number" isFloat="True" astParent="0x256db20"/>
+    <token id="0x256db20" file="ras_odometry_node.cpp" linenr="67" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256e150" astOperand1="0x256d910" astOperand2="0x256dc80"/>
+    <token id="0x256dbd0" file="ras_odometry_node.cpp" linenr="67" str="sin" scope="0x2571070" type="name" astParent="0x256dc80"/>
+    <token id="0x256dc80" file="ras_odometry_node.cpp" linenr="67" str="(" scope="0x2571070" link="0x256e0a0" astParent="0x256db20" astOperand1="0x256dbd0" astOperand2="0x256df40"/>
+    <token id="0x256dd30" file="ras_odometry_node.cpp" linenr="67" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256dde0"/>
+    <token id="0x256dde0" file="ras_odometry_node.cpp" linenr="67" str="." scope="0x2571070" astParent="0x256df40" astOperand1="0x256dd30" astOperand2="0x256de90"/>
+    <token id="0x256de90" file="ras_odometry_node.cpp" linenr="67" str="angular" scope="0x2571070" type="name" varId="15" astParent="0x256dde0"/>
+    <token id="0x256df40" file="ras_odometry_node.cpp" linenr="67" str="." scope="0x2571070" astParent="0x256dc80" astOperand1="0x256dde0" astOperand2="0x256dff0"/>
+    <token id="0x256dff0" file="ras_odometry_node.cpp" linenr="67" str="z" scope="0x2571070" type="name" varId="18" astParent="0x256df40"/>
+    <token id="0x256e0a0" file="ras_odometry_node.cpp" linenr="67" str=")" scope="0x2571070" link="0x256dc80"/>
+    <token id="0x256e150" file="ras_odometry_node.cpp" linenr="67" str="/" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256e2b0" astOperand1="0x256db20" astOperand2="0x256e200"/>
+    <token id="0x256e200" file="ras_odometry_node.cpp" linenr="67" str="2" scope="0x2571070" type="number" isInt="True" values="0x256e208" astParent="0x256e150"/>
+    <token id="0x256e2b0" file="ras_odometry_node.cpp" linenr="67" str="*" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256d7b0" astOperand1="0x256e150" astOperand2="0x256e4c0"/>
+    <token id="0x256e360" file="ras_odometry_node.cpp" linenr="67" str="(" scope="0x2571070" link="0x256e620"/>
+    <token id="0x256e410" file="ras_odometry_node.cpp" linenr="67" str="d_theta_left" scope="0x2571070" type="name" varId="37" variable="0x2571780" astParent="0x256e4c0"/>
+    <token id="0x256e4c0" file="ras_odometry_node.cpp" linenr="67" str="+" scope="0x2571070" type="op" isArithmeticalOp="True" astParent="0x256e2b0" astOperand1="0x256e410" astOperand2="0x256e570"/>
+    <token id="0x256e570" file="ras_odometry_node.cpp" linenr="67" str="d_theta_right" scope="0x2571070" type="name" varId="36" variable="0x2571710" astParent="0x256e4c0"/>
+    <token id="0x256e620" file="ras_odometry_node.cpp" linenr="67" str=")" scope="0x2571070" link="0x256e360"/>
+    <token id="0x256e6d0" file="ras_odometry_node.cpp" linenr="67" str=";" scope="0x2571070"/>
+    <token id="0x256e780" file="ras_odometry_node.cpp" linenr="69" str="pos_pub" scope="0x2571070" type="name" varId="31" variable="0x25714e0" astParent="0x256e830"/>
+    <token id="0x256e830" file="ras_odometry_node.cpp" linenr="69" str="." scope="0x2571070" astParent="0x256e990" astOperand1="0x256e780" astOperand2="0x256e8e0"/>
+    <token id="0x256e8e0" file="ras_odometry_node.cpp" linenr="69" str="publish" scope="0x2571070" type="name" astParent="0x256e830"/>
+    <token id="0x256e990" file="ras_odometry_node.cpp" linenr="69" str="(" scope="0x2571070" link="0x256eaf0" astOperand1="0x256e830" astOperand2="0x256ea40"/>
+    <token id="0x256ea40" file="ras_odometry_node.cpp" linenr="69" str="current_pos" scope="0x2571070" type="name" varId="9" variable="0x2571240" astParent="0x256e990"/>
+    <token id="0x256eaf0" file="ras_odometry_node.cpp" linenr="69" str=")" scope="0x2571070" link="0x256e990"/>
+    <token id="0x256eba0" file="ras_odometry_node.cpp" linenr="69" str=";" scope="0x2571070"/>
+    <token id="0x256ec50" file="ras_odometry_node.cpp" linenr="70" str="posdiff_pub" scope="0x2571070" type="name" varId="32" variable="0x2571550" astParent="0x256ed00"/>
+    <token id="0x256ed00" file="ras_odometry_node.cpp" linenr="70" str="." scope="0x2571070" astParent="0x256ee60" astOperand1="0x256ec50" astOperand2="0x256edb0"/>
+    <token id="0x256edb0" file="ras_odometry_node.cpp" linenr="70" str="publish" scope="0x2571070" type="name" astParent="0x256ed00"/>
+    <token id="0x256ee60" file="ras_odometry_node.cpp" linenr="70" str="(" scope="0x2571070" link="0x256efc0" astOperand1="0x256ed00" astOperand2="0x256ef10"/>
+    <token id="0x256ef10" file="ras_odometry_node.cpp" linenr="70" str="pose_diff" scope="0x2571070" type="name" varId="10" variable="0x25712b0" astParent="0x256ee60"/>
+    <token id="0x256efc0" file="ras_odometry_node.cpp" linenr="70" str=")" scope="0x2571070" link="0x256ee60"/>
+    <token id="0x256f070" file="ras_odometry_node.cpp" linenr="70" str=";" scope="0x2571070"/>
+    <token id="0x256f120" file="ras_odometry_node.cpp" linenr="72" str="ros" scope="0x2571070" type="name" astParent="0x256f1d0"/>
+    <token id="0x256f1d0" file="ras_odometry_node.cpp" linenr="72" str="::" scope="0x2571070" astParent="0x256f330" astOperand1="0x256f120" astOperand2="0x256f280"/>
+    <token id="0x256f280" file="ras_odometry_node.cpp" linenr="72" str="spinOnce" scope="0x2571070" type="name" astParent="0x256f1d0"/>
+    <token id="0x256f330" file="ras_odometry_node.cpp" linenr="72" str="(" scope="0x2571070" link="0x256f3e0" astOperand1="0x256f1d0"/>
+    <token id="0x256f3e0" file="ras_odometry_node.cpp" linenr="72" str=")" scope="0x2571070" link="0x256f330"/>
+    <token id="0x256f490" file="ras_odometry_node.cpp" linenr="72" str=";" scope="0x2571070"/>
+    <token id="0x256f540" file="ras_odometry_node.cpp" linenr="73" str="loop_rate" scope="0x2571070" type="name" varId="35" variable="0x25716a0" astParent="0x256f5f0"/>
+    <token id="0x256f5f0" file="ras_odometry_node.cpp" linenr="73" str="." scope="0x2571070" astParent="0x256f750" astOperand1="0x256f540" astOperand2="0x256f6a0"/>
+    <token id="0x256f6a0" file="ras_odometry_node.cpp" linenr="73" str="sleep" scope="0x2571070" type="name" astParent="0x256f5f0"/>
+    <token id="0x256f750" file="ras_odometry_node.cpp" linenr="73" str="(" scope="0x2571070" link="0x256f800" astOperand1="0x256f5f0"/>
+    <token id="0x256f800" file="ras_odometry_node.cpp" linenr="73" str=")" scope="0x2571070" link="0x256f750"/>
+    <token id="0x256f8b0" file="ras_odometry_node.cpp" linenr="73" str=";" scope="0x2571070"/>
+    <token id="0x256f960" file="ras_odometry_node.cpp" linenr="74" str="}" scope="0x2571070" link="0x25686e0"/>
+    <token id="0x256fa10" file="ras_odometry_node.cpp" linenr="75" str="}" scope="0x2570f40" link="0x255da10"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2570040" type="Global">
+      <functionList>
+        <function id="0x256fd30" tokenDef="0x255acb0" name="leftEncoderCallback">
+          <arg nr="1" variable="0x25717f0"/>
+        </function>
+        <function id="0x25701f0" tokenDef="0x255bb80" name="rightEncoderCallback">
+          <arg nr="1" variable="0x2571860"/>
+        </function>
+        <function id="0x2570ea0" tokenDef="0x255d330" name="main">
+          <arg nr="1" variable="0x25718d0"/>
+          <arg nr="2" variable="0x2571940"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x256a680"/>
+        <var id="0x25711a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x256fdd0" type="Function" className="leftEncoderCallback" classStart="0x255b470" classEnd="0x255ba20" nestedIn="0x2570040" function="0x256fd30"/>
+    <scope id="0x2570290" type="Function" className="rightEncoderCallback" classStart="0x255c340" classEnd="0x255d1d0" nestedIn="0x2570040" function="0x25701f0"/>
+    <scope id="0x2570f40" type="Function" className="main" classStart="0x255da10" classEnd="0x256fa10" nestedIn="0x2570040" function="0x2570ea0">
+      <varlist>
+        <var id="0x2571240"/>
+        <var id="0x25712b0"/>
+        <var id="0x2571320"/>
+        <var id="0x2571390"/>
+        <var id="0x2571400"/>
+        <var id="0x2571470"/>
+        <var id="0x25714e0"/>
+        <var id="0x2571550"/>
+        <var id="0x25715c0"/>
+        <var id="0x2571630"/>
+        <var id="0x25716a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x2571070" type="While" classStart="0x25686e0" classEnd="0x256f960" nestedIn="0x2570f40">
+      <varlist>
+        <var id="0x2571710"/>
+        <var id="0x2571780"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x256a680" nameToken="0x25494d0" typeStartToken="0x2549420" typeEndToken="0x2549420" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25711a0" nameToken="0x255aa70" typeStartToken="0x255a9c0" typeEndToken="0x255a9c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25717f0" nameToken="0x255b310" typeStartToken="0x255aef0" typeEndToken="0x255b260" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x2571860" nameToken="0x255c1e0" typeStartToken="0x255bdc0" typeEndToken="0x255c130" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x25718d0" nameToken="0x255d540" typeStartToken="0x255d490" typeEndToken="0x255d490" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571940" nameToken="0x255d8b0" typeStartToken="0x255d6a0" typeEndToken="0x255d800" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x2571240" nameToken="0x255dcd0" typeStartToken="0x255dac0" typeEndToken="0x255dc20" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25712b0" nameToken="0x255e040" typeStartToken="0x255de30" typeEndToken="0x255df90" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571320" nameToken="0x255eb40" typeStartToken="0x255e930" typeEndToken="0x255ea90" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571390" nameToken="0x255ef60" typeStartToken="0x255eeb0" typeEndToken="0x255eeb0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571400" nameToken="0x255f170" typeStartToken="0x255f0c0" typeEndToken="0x255f0c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571470" nameToken="0x255f380" typeStartToken="0x255f2d0" typeEndToken="0x255f2d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25714e0" nameToken="0x2564b80" typeStartToken="0x2564970" typeEndToken="0x2564ad0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571550" nameToken="0x2565890" typeStartToken="0x2565680" typeEndToken="0x25657e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25715c0" nameToken="0x25665d0" typeStartToken="0x25663c0" typeEndToken="0x2566520" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571630" nameToken="0x25671b0" typeStartToken="0x2566fa0" typeEndToken="0x2567100" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x25716a0" nameToken="0x2567df0" typeStartToken="0x2567be0" typeEndToken="0x2567d40" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571710" nameToken="0x2568840" typeStartToken="0x2568790" typeEndToken="0x2568790" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2571780" nameToken="0x2569210" typeStartToken="0x2569160" typeEndToken="0x2569160" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x255e728">
+      <value tokvalue="0x255e720" known="true"/>
+    </values>
+    <values id="0x255eca8">
+      <value tokvalue="0x255eca0" known="true"/>
+    </values>
+    <values id="0x255f7a8">
+      <value tokvalue="0x255f7a0" known="true"/>
+    </values>
+    <values id="0x255fdd8">
+      <value tokvalue="0x255fdd0" known="true"/>
+    </values>
+    <values id="0x2560408">
+      <value tokvalue="0x2560400" known="true"/>
+    </values>
+    <values id="0x2560b98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2561118">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2562718">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2562c98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2563218">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2563798">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2563d18">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2564298">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2564818">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2565318">
+      <value tokvalue="0x2565310" known="true"/>
+    </values>
+    <values id="0x2565478">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x2566028">
+      <value tokvalue="0x2566020" known="true"/>
+    </values>
+    <values id="0x25661b8">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x25669f8">
+      <value tokvalue="0x25669f0" known="true"/>
+    </values>
+    <values id="0x2566b58">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x2567638">
+      <value tokvalue="0x2567630" known="true"/>
+    </values>
+    <values id="0x25677c8">
+      <value intvalue="1000" known="true"/>
+    </values>
+    <values id="0x2567f58">
+      <value intvalue="125" known="true"/>
+    </values>
+    <values id="0x2568d48">
+      <value intvalue="900" known="true"/>
+    </values>
+    <values id="0x2569718">
+      <value intvalue="900" known="true"/>
+    </values>
+    <values id="0x256afd8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x256cec8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x256e208">
+      <value intvalue="2" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

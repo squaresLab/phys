@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1db2420" file="tivac_hardware.cpp" linenr="31" str="tRingBufObject" scope="0x1dc3990" type="name"/>
+    <token id="0x1dc07d0" file="tivac_hardware.cpp" linenr="31" str="rxBuffer" scope="0x1dc3990" type="name" varId="1" variable="0x1db42d0"/>
+    <token id="0x1dc0880" file="tivac_hardware.cpp" linenr="31" str=";" scope="0x1dc3990"/>
+    <token id="0x1dc04f0" file="tivac_hardware.cpp" linenr="32" str="tRingBufObject" scope="0x1dc3990" type="name"/>
+    <token id="0x1dc05a0" file="tivac_hardware.cpp" linenr="32" str="txBuffer" scope="0x1dc3990" type="name" varId="2" variable="0x1dc0750"/>
+    <token id="0x1dc0650" file="tivac_hardware.cpp" linenr="32" str=";" scope="0x1dc3990"/>
+    <token id="0x1dc00c0" file="tivac_hardware.cpp" linenr="35" str="uint32_t" scope="0x1dc3990" type="name"/>
+    <token id="0x1dc0220" file="tivac_hardware.cpp" linenr="35" str="g_ui32milliseconds" scope="0x1dc3990" type="name" varId="3" variable="0x1dc4000"/>
+    <token id="0x1dc0a10" file="tivac_hardware.cpp" linenr="35" str=";" scope="0x1dc3990"/>
+    <token id="0x1dc0170" file="tivac_hardware.cpp" linenr="35" str="g_ui32milliseconds" scope="0x1dc3990" type="name" varId="3" variable="0x1dc4000" astParent="0x1dc3560"/>
+    <token id="0x1dc3560" file="tivac_hardware.cpp" linenr="35" str="=" scope="0x1dc3990" type="op" isAssignmentOp="True" astOperand1="0x1dc0170" astOperand2="0x1dc0ac0"/>
+    <token id="0x1dc0ac0" file="tivac_hardware.cpp" linenr="35" str="0" scope="0x1dc3990" type="number" isInt="True" values="0x1dc0ac8" astParent="0x1dc3560"/>
+    <token id="0x1dc0b70" file="tivac_hardware.cpp" linenr="35" str=";" scope="0x1dc3990"/>
+    <token id="0x1dc34b0" file="tivac_hardware.cpp" linenr="36" str="uint32_t" scope="0x1dc3990" type="name"/>
+    <token id="0x1dc3610" file="tivac_hardware.cpp" linenr="36" str="g_ui32heartbeat" scope="0x1dc3990" type="name" varId="4" variable="0x1dc4070"/>
+    <token id="0x1dc36c0" file="tivac_hardware.cpp" linenr="36" str=";" scope="0x1dc3990"/>
+    <token id="0x1dc0f30" file="tivac_hardware.cpp" linenr="36" str="g_ui32heartbeat" scope="0x1dc3990" type="name" varId="4" variable="0x1dc4070" astParent="0x1dc0fe0"/>
+    <token id="0x1dc0fe0" file="tivac_hardware.cpp" linenr="36" str="=" scope="0x1dc3990" type="op" isAssignmentOp="True" astOperand1="0x1dc0f30" astOperand2="0x1dc3770"/>
+    <token id="0x1dc3770" file="tivac_hardware.cpp" linenr="36" str="0" scope="0x1dc3990" type="number" isInt="True" values="0x1dc3778" astParent="0x1dc0fe0"/>
+    <token id="0x1dc3820" file="tivac_hardware.cpp" linenr="36" str=";" scope="0x1dc3990"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1dc3990" type="Global">
+      <varlist>
+        <var id="0x1db42d0"/>
+        <var id="0x1dc0750"/>
+        <var id="0x1dc4000"/>
+        <var id="0x1dc4070"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1db42d0" nameToken="0x1dc07d0" typeStartToken="0x1db2420" typeEndToken="0x1db2420" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dc0750" nameToken="0x1dc05a0" typeStartToken="0x1dc04f0" typeEndToken="0x1dc04f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dc4000" nameToken="0x1dc0220" typeStartToken="0x1dc00c0" typeEndToken="0x1dc00c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dc4070" nameToken="0x1dc3610" typeStartToken="0x1dc34b0" typeEndToken="0x1dc34b0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1dc0ac8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1dc3778">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="USE_USBCON">
+  <tokenlist>
+    <token id="0x1db2420" file="tivac_hardware.cpp" linenr="35" str="uint32_t" scope="0x1dc0ad0" type="name"/>
+    <token id="0x1dc0f30" file="tivac_hardware.cpp" linenr="35" str="g_ui32milliseconds" scope="0x1dc0ad0" type="name" varId="1" variable="0x1dc3c60"/>
+    <token id="0x1dc0fe0" file="tivac_hardware.cpp" linenr="35" str=";" scope="0x1dc0ad0"/>
+    <token id="0x1dc3ba0" file="tivac_hardware.cpp" linenr="35" str="g_ui32milliseconds" scope="0x1dc0ad0" type="name" varId="1" variable="0x1dc3c60" astParent="0x1dc0740"/>
+    <token id="0x1dc0740" file="tivac_hardware.cpp" linenr="35" str="=" scope="0x1dc0ad0" type="op" isAssignmentOp="True" astOperand1="0x1dc3ba0" astOperand2="0x1dc04f0"/>
+    <token id="0x1dc04f0" file="tivac_hardware.cpp" linenr="35" str="0" scope="0x1dc0ad0" type="number" isInt="True" values="0x1dc04f8" astParent="0x1dc0740"/>
+    <token id="0x1dc05a0" file="tivac_hardware.cpp" linenr="35" str=";" scope="0x1dc0ad0"/>
+    <token id="0x1dc0650" file="tivac_hardware.cpp" linenr="36" str="uint32_t" scope="0x1dc0ad0" type="name"/>
+    <token id="0x1dc3cc0" file="tivac_hardware.cpp" linenr="36" str="g_ui32heartbeat" scope="0x1dc0ad0" type="name" varId="2" variable="0x1db6140"/>
+    <token id="0x1dc3d70" file="tivac_hardware.cpp" linenr="36" str=";" scope="0x1dc0ad0"/>
+    <token id="0x1dc40a0" file="tivac_hardware.cpp" linenr="36" str="g_ui32heartbeat" scope="0x1dc0ad0" type="name" varId="2" variable="0x1db6140" astParent="0x1dc4150"/>
+    <token id="0x1dc4150" file="tivac_hardware.cpp" linenr="36" str="=" scope="0x1dc0ad0" type="op" isAssignmentOp="True" astOperand1="0x1dc40a0" astOperand2="0x1dc3e20"/>
+    <token id="0x1dc3e20" file="tivac_hardware.cpp" linenr="36" str="0" scope="0x1dc0ad0" type="number" isInt="True" values="0x1dc3e28" astParent="0x1dc4150"/>
+    <token id="0x1dc3ed0" file="tivac_hardware.cpp" linenr="36" str=";" scope="0x1dc0ad0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1dc0ad0" type="Global">
+      <varlist>
+        <var id="0x1dc3c60"/>
+        <var id="0x1db6140"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1dc3c60" nameToken="0x1dc0f30" typeStartToken="0x1db2420" typeEndToken="0x1db2420" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1db6140" nameToken="0x1dc3cc0" typeStartToken="0x1dc0650" typeEndToken="0x1dc0650" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1dc04f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1dc3e28">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

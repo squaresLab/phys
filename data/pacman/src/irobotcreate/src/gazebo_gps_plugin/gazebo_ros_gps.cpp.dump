@@ -1,0 +1,971 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x18ea470" file="gazebo_ros_gps.cpp" linenr="38" str="static" scope="0x19230a0" type="name"/>
+    <token id="0x18fc910" file="gazebo_ros_gps.cpp" linenr="38" str="const" scope="0x19230a0" type="name"/>
+    <token id="0x18fc9c0" file="gazebo_ros_gps.cpp" linenr="38" str="double" scope="0x19230a0" type="name"/>
+    <token id="0x18fcaa0" file="gazebo_ros_gps.cpp" linenr="38" str="DEFAULT_REFERENCE_LATITUDE" scope="0x19230a0" type="name" varId="1" variable="0x19251c0" astParent="0x18fcb80"/>
+    <token id="0x18fcb80" file="gazebo_ros_gps.cpp" linenr="38" str="=" scope="0x19230a0" type="op" isAssignmentOp="True" astOperand1="0x18fcaa0" astOperand2="0x18fcc30"/>
+    <token id="0x18fcc30" file="gazebo_ros_gps.cpp" linenr="38" str="1.0" scope="0x19230a0" type="number" isFloat="True" astParent="0x18fcb80"/>
+    <token id="0x18fcce0" file="gazebo_ros_gps.cpp" linenr="38" str=";" scope="0x19230a0"/>
+    <token id="0x18fd340" file="gazebo_ros_gps.cpp" linenr="39" str="static" scope="0x19230a0" type="name"/>
+    <token id="0x191b8d0" file="gazebo_ros_gps.cpp" linenr="39" str="const" scope="0x19230a0" type="name"/>
+    <token id="0x18fcef0" file="gazebo_ros_gps.cpp" linenr="39" str="double" scope="0x19230a0" type="name"/>
+    <token id="0x18fcfa0" file="gazebo_ros_gps.cpp" linenr="39" str="DEFAULT_REFERENCE_LONGITUDE" scope="0x19230a0" type="name" varId="2" variable="0x1925230" astParent="0x18fd080"/>
+    <token id="0x18fd080" file="gazebo_ros_gps.cpp" linenr="39" str="=" scope="0x19230a0" type="op" isAssignmentOp="True" astOperand1="0x18fcfa0" astOperand2="0x18fd130"/>
+    <token id="0x18fd130" file="gazebo_ros_gps.cpp" linenr="39" str="1.0" scope="0x19230a0" type="number" isFloat="True" astParent="0x18fd080"/>
+    <token id="0x18fd1e0" file="gazebo_ros_gps.cpp" linenr="39" str=";" scope="0x19230a0"/>
+    <token id="0x191a770" file="gazebo_ros_gps.cpp" linenr="41" str="static" scope="0x19230a0" type="name"/>
+    <token id="0x191c400" file="gazebo_ros_gps.cpp" linenr="41" str="const" scope="0x19230a0" type="name"/>
+    <token id="0x18fd3f0" file="gazebo_ros_gps.cpp" linenr="41" str="double" scope="0x19230a0" type="name"/>
+    <token id="0x18fd4a0" file="gazebo_ros_gps.cpp" linenr="41" str="DEFAULT_REFERENCE_ALTITUDE" scope="0x19230a0" type="name" varId="3" variable="0x19252a0" astParent="0x18fd580"/>
+    <token id="0x18fd580" file="gazebo_ros_gps.cpp" linenr="41" str="=" scope="0x19230a0" type="op" isAssignmentOp="True" astOperand1="0x18fd4a0" astOperand2="0x18fd630"/>
+    <token id="0x18fd630" file="gazebo_ros_gps.cpp" linenr="41" str="0.0" scope="0x19230a0" type="number" isFloat="True" astParent="0x18fd580"/>
+    <token id="0x18fd6e0" file="gazebo_ros_gps.cpp" linenr="41" str=";" scope="0x19230a0"/>
+    <token id="0x18fd790" file="gazebo_ros_gps.cpp" linenr="43" str="namespace" scope="0x19230a0" type="name"/>
+    <token id="0x18fd840" file="gazebo_ros_gps.cpp" linenr="43" str="gazebo" scope="0x19230a0" type="name"/>
+    <token id="0x18fd8f0" file="gazebo_ros_gps.cpp" linenr="43" str="{" scope="0x1922d90" link="0x1922a70"/>
+    <token id="0x18fd9a0" file="gazebo_ros_gps.cpp" linenr="45" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x18fda50"/>
+    <token id="0x18fda50" file="gazebo_ros_gps.cpp" linenr="45" str="::" scope="0x1922d90" astParent="0x18fdbb0" astOperand1="0x18fd9a0" astOperand2="0x18fdb00"/>
+    <token id="0x18fdb00" file="gazebo_ros_gps.cpp" linenr="45" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x18fda50"/>
+    <token id="0x18fdbb0" file="gazebo_ros_gps.cpp" linenr="45" str="(" scope="0x1922d90" link="0x18fdc60" astOperand1="0x18fda50"/>
+    <token id="0x18fdc60" file="gazebo_ros_gps.cpp" linenr="45" str=")" scope="0x1922d90" link="0x18fdbb0"/>
+    <token id="0x18fdd10" file="gazebo_ros_gps.cpp" linenr="46" str="{" scope="0x1922b30" link="0x18fddc0"/>
+    <token id="0x18fddc0" file="gazebo_ros_gps.cpp" linenr="47" str="}" scope="0x1922b30" link="0x18fdd10"/>
+    <token id="0x18fde70" file="gazebo_ros_gps.cpp" linenr="51" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x18fdf20"/>
+    <token id="0x18fdf20" file="gazebo_ros_gps.cpp" linenr="51" str="::" scope="0x1922d90" astParent="0x18fe130" astOperand1="0x18fde70" astOperand2="0x18fe080"/>
+    <token id="0x18fdfd0" file="gazebo_ros_gps.cpp" linenr="51" str="~" scope="0x1922d90" type="op"/>
+    <token id="0x18fe080" file="gazebo_ros_gps.cpp" linenr="51" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x18fdf20"/>
+    <token id="0x18fe130" file="gazebo_ros_gps.cpp" linenr="51" str="(" scope="0x1922d90" link="0x18fe1e0" astOperand1="0x18fdf20"/>
+    <token id="0x18fe1e0" file="gazebo_ros_gps.cpp" linenr="51" str=")" scope="0x1922d90" link="0x18fe130"/>
+    <token id="0x18fe290" file="gazebo_ros_gps.cpp" linenr="52" str="{" scope="0x1923b30" link="0x18feef0"/>
+    <token id="0x18fe340" file="gazebo_ros_gps.cpp" linenr="53" str="updateTimer" scope="0x1923b30" type="name" astParent="0x18fe3f0"/>
+    <token id="0x18fe3f0" file="gazebo_ros_gps.cpp" linenr="53" str="." scope="0x1923b30" astParent="0x18fe550" astOperand1="0x18fe340" astOperand2="0x18fe4a0"/>
+    <token id="0x18fe4a0" file="gazebo_ros_gps.cpp" linenr="53" str="Disconnect" scope="0x1923b30" type="name" astParent="0x18fe3f0"/>
+    <token id="0x18fe550" file="gazebo_ros_gps.cpp" linenr="53" str="(" scope="0x1923b30" link="0x18fe6b0" astOperand1="0x18fe3f0" astOperand2="0x18fe600"/>
+    <token id="0x18fe600" file="gazebo_ros_gps.cpp" linenr="53" str="updateConnection" scope="0x1923b30" type="name" astParent="0x18fe550"/>
+    <token id="0x18fe6b0" file="gazebo_ros_gps.cpp" linenr="53" str=")" scope="0x1923b30" link="0x18fe550"/>
+    <token id="0x18fe760" file="gazebo_ros_gps.cpp" linenr="53" str=";" scope="0x1923b30"/>
+    <token id="0x18fe810" file="gazebo_ros_gps.cpp" linenr="54" str="node_handle_" scope="0x1923b30" type="name" astParent="0x18fe8c0"/>
+    <token id="0x18fe8c0" file="gazebo_ros_gps.cpp" linenr="54" str="." scope="0x1923b30" astParent="0x18fead0" astOperand1="0x18fe810" astOperand2="0x18fea20"/>
+    <token id="0x18fea20" file="gazebo_ros_gps.cpp" linenr="54" str="shutdown" scope="0x1923b30" type="name" astParent="0x18fe8c0"/>
+    <token id="0x18fead0" file="gazebo_ros_gps.cpp" linenr="54" str="(" scope="0x1923b30" link="0x18feb80" astOperand1="0x18fe8c0"/>
+    <token id="0x18feb80" file="gazebo_ros_gps.cpp" linenr="54" str=")" scope="0x1923b30" link="0x18fead0"/>
+    <token id="0x18fec30" file="gazebo_ros_gps.cpp" linenr="54" str=";" scope="0x1923b30"/>
+    <token id="0x18fece0" file="gazebo_ros_gps.cpp" linenr="55" str="delete" scope="0x1923b30" type="name" astOperand1="0x18fed90"/>
+    <token id="0x18fed90" file="gazebo_ros_gps.cpp" linenr="55" str="node_handle_" scope="0x1923b30" type="name" astParent="0x18fece0"/>
+    <token id="0x18fee40" file="gazebo_ros_gps.cpp" linenr="55" str=";" scope="0x1923b30"/>
+    <token id="0x18feef0" file="gazebo_ros_gps.cpp" linenr="56" str="}" scope="0x1923b30" link="0x18fe290"/>
+    <token id="0x18fefa0" file="gazebo_ros_gps.cpp" linenr="60" str="void" scope="0x1922d90" type="name"/>
+    <token id="0x18ff050" file="gazebo_ros_gps.cpp" linenr="60" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x18ff100"/>
+    <token id="0x18ff100" file="gazebo_ros_gps.cpp" linenr="60" str="::" scope="0x1922d90" astParent="0x18ff260" astOperand1="0x18ff050" astOperand2="0x18ff1b0"/>
+    <token id="0x18ff1b0" file="gazebo_ros_gps.cpp" linenr="60" str="Load" scope="0x1922d90" type="name" astParent="0x18ff100"/>
+    <token id="0x18ff260" file="gazebo_ros_gps.cpp" linenr="60" str="(" scope="0x1922d90" link="0x18ff940" astOperand1="0x18ff100" astOperand2="0x18ff5d0"/>
+    <token id="0x18ff310" file="gazebo_ros_gps.cpp" linenr="60" str="physics" scope="0x1922d90" type="name" astParent="0x18ff3c0"/>
+    <token id="0x18ff3c0" file="gazebo_ros_gps.cpp" linenr="60" str="::" scope="0x1922d90" astParent="0x18ff5d0" astOperand1="0x18ff310" astOperand2="0x18ff520"/>
+    <token id="0x18ff470" file="gazebo_ros_gps.cpp" linenr="60" str="ModelPtr" scope="0x1922d90" type="name"/>
+    <token id="0x18ff520" file="gazebo_ros_gps.cpp" linenr="60" str="_model" scope="0x1922d90" type="name" varId="4" astParent="0x18ff3c0"/>
+    <token id="0x18ff5d0" file="gazebo_ros_gps.cpp" linenr="60" str="," scope="0x1922d90" astParent="0x18ff260" astOperand1="0x18ff3c0" astOperand2="0x18ff730"/>
+    <token id="0x18ff680" file="gazebo_ros_gps.cpp" linenr="60" str="sdf" scope="0x1922d90" type="name" astParent="0x18ff730"/>
+    <token id="0x18ff730" file="gazebo_ros_gps.cpp" linenr="60" str="::" scope="0x1922d90" astParent="0x18ff5d0" astOperand1="0x18ff680" astOperand2="0x18ff890"/>
+    <token id="0x18ff7e0" file="gazebo_ros_gps.cpp" linenr="60" str="ElementPtr" scope="0x1922d90" type="name"/>
+    <token id="0x18ff890" file="gazebo_ros_gps.cpp" linenr="60" str="_sdf" scope="0x1922d90" type="name" varId="5" astParent="0x18ff730"/>
+    <token id="0x18ff940" file="gazebo_ros_gps.cpp" linenr="60" str=")" scope="0x1922d90" link="0x18ff260"/>
+    <token id="0x18ff9f0" file="gazebo_ros_gps.cpp" linenr="61" str="{" scope="0x1923c60" link="0x1918ae0"/>
+    <token id="0x18ffaa0" file="gazebo_ros_gps.cpp" linenr="62" str="world" scope="0x1923c60" type="name" astParent="0x18ffb50"/>
+    <token id="0x18ffb50" file="gazebo_ros_gps.cpp" linenr="62" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x18ffaa0" astOperand2="0x18ffec0"/>
+    <token id="0x18ffc00" file="gazebo_ros_gps.cpp" linenr="62" str="_model" scope="0x1923c60" type="name" varId="4" astParent="0x18ffcb0"/>
+    <token id="0x18ffcb0" file="gazebo_ros_gps.cpp" linenr="62" str="." scope="0x1923c60" astParent="0x18ffec0" astOperand1="0x18ffc00" astOperand2="0x18ffe10"/>
+    <token id="0x18ffe10" file="gazebo_ros_gps.cpp" linenr="62" str="GetWorld" scope="0x1923c60" type="name" astParent="0x18ffcb0"/>
+    <token id="0x18ffec0" file="gazebo_ros_gps.cpp" linenr="62" str="(" scope="0x1923c60" link="0x18fff70" astParent="0x18ffb50" astOperand1="0x18ffcb0"/>
+    <token id="0x18fff70" file="gazebo_ros_gps.cpp" linenr="62" str=")" scope="0x1923c60" link="0x18ffec0"/>
+    <token id="0x1900020" file="gazebo_ros_gps.cpp" linenr="62" str=";" scope="0x1923c60"/>
+    <token id="0x19000d0" file="gazebo_ros_gps.cpp" linenr="65" str="if" scope="0x1923c60" type="name" astParent="0x1900180"/>
+    <token id="0x1900180" file="gazebo_ros_gps.cpp" linenr="65" str="(" scope="0x1923c60" link="0x1900810" astOperand1="0x19000d0" astOperand2="0x1900230"/>
+    <token id="0x1900230" file="gazebo_ros_gps.cpp" linenr="65" str="!" scope="0x1923c60" type="op" isLogicalOp="True" astParent="0x1900180" astOperand1="0x19005a0"/>
+    <token id="0x19002e0" file="gazebo_ros_gps.cpp" linenr="65" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1900390"/>
+    <token id="0x1900390" file="gazebo_ros_gps.cpp" linenr="65" str="." scope="0x1923c60" astParent="0x19005a0" astOperand1="0x19002e0" astOperand2="0x19004f0"/>
+    <token id="0x19004f0" file="gazebo_ros_gps.cpp" linenr="65" str="HasElement" scope="0x1923c60" type="name" astParent="0x1900390"/>
+    <token id="0x19005a0" file="gazebo_ros_gps.cpp" linenr="65" str="(" scope="0x1923c60" link="0x1900760" astParent="0x1900230" astOperand1="0x1900390" astOperand2="0x1900680"/>
+    <token id="0x1900680" file="gazebo_ros_gps.cpp" linenr="65" str="&quot;robotNamespace&quot;" scope="0x1923c60" type="string" strlen="14" values="0x1900688" astParent="0x19005a0"/>
+    <token id="0x1900760" file="gazebo_ros_gps.cpp" linenr="65" str=")" scope="0x1923c60" link="0x19005a0"/>
+    <token id="0x1900810" file="gazebo_ros_gps.cpp" linenr="65" str=")" scope="0x1923c60" link="0x1900180"/>
+    <token id="0x190a630" file="gazebo_ros_gps.cpp" linenr="65" str="{" scope="0x1923d90" link="0x190ad10"/>
+    <token id="0x19008c0" file="gazebo_ros_gps.cpp" linenr="66" str="namespace_" scope="0x1923d90" type="name" astParent="0x1900970"/>
+    <token id="0x1900970" file="gazebo_ros_gps.cpp" linenr="66" str="." scope="0x1923d90" astParent="0x1900ad0" astOperand1="0x19008c0" astOperand2="0x1900a20"/>
+    <token id="0x1900a20" file="gazebo_ros_gps.cpp" linenr="66" str="clear" scope="0x1923d90" type="name" astParent="0x1900970"/>
+    <token id="0x1900ad0" file="gazebo_ros_gps.cpp" linenr="66" str="(" scope="0x1923d90" link="0x1900b80" astOperand1="0x1900970"/>
+    <token id="0x1900b80" file="gazebo_ros_gps.cpp" linenr="66" str=")" scope="0x1923d90" link="0x1900ad0"/>
+    <token id="0x1900c30" file="gazebo_ros_gps.cpp" linenr="66" str=";" scope="0x1923d90"/>
+    <token id="0x190ad10" file="gazebo_ros_gps.cpp" linenr="66" str="}" scope="0x1923d90" link="0x190a630"/>
+    <token id="0x1900ce0" file="gazebo_ros_gps.cpp" linenr="67" str="else" scope="0x1923c60" type="name"/>
+    <token id="0x190b130" file="gazebo_ros_gps.cpp" linenr="67" str="{" scope="0x1923ff0" link="0x190b4a0"/>
+    <token id="0x1900d90" file="gazebo_ros_gps.cpp" linenr="68" str="namespace_" scope="0x1923ff0" type="name" astParent="0x1900e40"/>
+    <token id="0x1900e40" file="gazebo_ros_gps.cpp" linenr="68" str="=" scope="0x1923ff0" type="op" isAssignmentOp="True" astOperand1="0x1900d90" astOperand2="0x1902a60"/>
+    <token id="0x1900ef0" file="gazebo_ros_gps.cpp" linenr="68" str="_sdf" scope="0x1923ff0" type="name" varId="5" astParent="0x1900fa0"/>
+    <token id="0x1900fa0" file="gazebo_ros_gps.cpp" linenr="68" str="." scope="0x1923ff0" astParent="0x19011b0" astOperand1="0x1900ef0" astOperand2="0x1901100"/>
+    <token id="0x1901100" file="gazebo_ros_gps.cpp" linenr="68" str="GetElement" scope="0x1923ff0" type="name" astParent="0x1900fa0"/>
+    <token id="0x19011b0" file="gazebo_ros_gps.cpp" linenr="68" str="(" scope="0x1923ff0" link="0x1901340" astParent="0x19013f0" astOperand1="0x1900fa0" astOperand2="0x1901260"/>
+    <token id="0x1901260" file="gazebo_ros_gps.cpp" linenr="68" str="&quot;robotNamespace&quot;" scope="0x1923ff0" type="string" strlen="14" values="0x1901268" astParent="0x19011b0"/>
+    <token id="0x1901340" file="gazebo_ros_gps.cpp" linenr="68" str=")" scope="0x1923ff0" link="0x19011b0"/>
+    <token id="0x19013f0" file="gazebo_ros_gps.cpp" linenr="68" str="." scope="0x1923ff0" astParent="0x1901600" astOperand1="0x19011b0" astOperand2="0x1901550"/>
+    <token id="0x1901550" file="gazebo_ros_gps.cpp" linenr="68" str="GetValue" scope="0x1923ff0" type="name" astParent="0x19013f0"/>
+    <token id="0x1901600" file="gazebo_ros_gps.cpp" linenr="68" str="(" scope="0x1923ff0" link="0x19016b0" astParent="0x1902850" astOperand1="0x19013f0"/>
+    <token id="0x19016b0" file="gazebo_ros_gps.cpp" linenr="68" str=")" scope="0x1923ff0" link="0x1901600"/>
+    <token id="0x1902850" file="gazebo_ros_gps.cpp" linenr="68" str="." scope="0x1923ff0" astParent="0x1902a60" astOperand1="0x1901600" astOperand2="0x19029b0"/>
+    <token id="0x19029b0" file="gazebo_ros_gps.cpp" linenr="68" str="GetAsString" scope="0x1923ff0" type="name" astParent="0x1902850"/>
+    <token id="0x1902a60" file="gazebo_ros_gps.cpp" linenr="68" str="(" scope="0x1923ff0" link="0x1902b10" astParent="0x1900e40" astOperand1="0x1902850"/>
+    <token id="0x1902b10" file="gazebo_ros_gps.cpp" linenr="68" str=")" scope="0x1923ff0" link="0x1902a60"/>
+    <token id="0x1902bc0" file="gazebo_ros_gps.cpp" linenr="68" str=";" scope="0x1923ff0"/>
+    <token id="0x190b4a0" file="gazebo_ros_gps.cpp" linenr="68" str="}" scope="0x1923ff0" link="0x190b130"/>
+    <token id="0x1902c70" file="gazebo_ros_gps.cpp" linenr="70" str="if" scope="0x1923c60" type="name" astParent="0x1902d20"/>
+    <token id="0x1902d20" file="gazebo_ros_gps.cpp" linenr="70" str="(" scope="0x1923c60" link="0x1903350" astOperand1="0x1902c70" astOperand2="0x1902dd0"/>
+    <token id="0x1902dd0" file="gazebo_ros_gps.cpp" linenr="70" str="!" scope="0x1923c60" type="op" isLogicalOp="True" astParent="0x1902d20" astOperand1="0x1903140"/>
+    <token id="0x1902e80" file="gazebo_ros_gps.cpp" linenr="70" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1902f30"/>
+    <token id="0x1902f30" file="gazebo_ros_gps.cpp" linenr="70" str="." scope="0x1923c60" astParent="0x1903140" astOperand1="0x1902e80" astOperand2="0x1903090"/>
+    <token id="0x1903090" file="gazebo_ros_gps.cpp" linenr="70" str="HasElement" scope="0x1923c60" type="name" astParent="0x1902f30"/>
+    <token id="0x1903140" file="gazebo_ros_gps.cpp" linenr="70" str="(" scope="0x1923c60" link="0x19032a0" astParent="0x1902dd0" astOperand1="0x1902f30" astOperand2="0x19031f0"/>
+    <token id="0x19031f0" file="gazebo_ros_gps.cpp" linenr="70" str="&quot;bodyName&quot;" scope="0x1923c60" type="string" strlen="8" values="0x19031f8" astParent="0x1903140"/>
+    <token id="0x19032a0" file="gazebo_ros_gps.cpp" linenr="70" str=")" scope="0x1923c60" link="0x1903140"/>
+    <token id="0x1903350" file="gazebo_ros_gps.cpp" linenr="70" str=")" scope="0x1923c60" link="0x1902d20"/>
+    <token id="0x1903400" file="gazebo_ros_gps.cpp" linenr="71" str="{" scope="0x1924120" link="0x1904110"/>
+    <token id="0x19034b0" file="gazebo_ros_gps.cpp" linenr="72" str="link" scope="0x1924120" type="name" astParent="0x1903560"/>
+    <token id="0x1903560" file="gazebo_ros_gps.cpp" linenr="72" str="=" scope="0x1924120" type="op" isAssignmentOp="True" astOperand1="0x19034b0" astOperand2="0x19038d0"/>
+    <token id="0x1903610" file="gazebo_ros_gps.cpp" linenr="72" str="_model" scope="0x1924120" type="name" varId="4" astParent="0x19036c0"/>
+    <token id="0x19036c0" file="gazebo_ros_gps.cpp" linenr="72" str="." scope="0x1924120" astParent="0x19038d0" astOperand1="0x1903610" astOperand2="0x1903820"/>
+    <token id="0x1903820" file="gazebo_ros_gps.cpp" linenr="72" str="GetLink" scope="0x1924120" type="name" astParent="0x19036c0"/>
+    <token id="0x19038d0" file="gazebo_ros_gps.cpp" linenr="72" str="(" scope="0x1924120" link="0x1903980" astParent="0x1903560" astOperand1="0x19036c0"/>
+    <token id="0x1903980" file="gazebo_ros_gps.cpp" linenr="72" str=")" scope="0x1924120" link="0x19038d0"/>
+    <token id="0x1903a30" file="gazebo_ros_gps.cpp" linenr="72" str=";" scope="0x1924120"/>
+    <token id="0x1903ae0" file="gazebo_ros_gps.cpp" linenr="73" str="link_name_" scope="0x1924120" type="name" astParent="0x1903b90"/>
+    <token id="0x1903b90" file="gazebo_ros_gps.cpp" linenr="73" str="=" scope="0x1924120" type="op" isAssignmentOp="True" astOperand1="0x1903ae0" astOperand2="0x1903f00"/>
+    <token id="0x1903c40" file="gazebo_ros_gps.cpp" linenr="73" str="link" scope="0x1924120" type="name" astParent="0x1903cf0"/>
+    <token id="0x1903cf0" file="gazebo_ros_gps.cpp" linenr="73" str="." scope="0x1924120" astParent="0x1903f00" astOperand1="0x1903c40" astOperand2="0x1903e50"/>
+    <token id="0x1903e50" file="gazebo_ros_gps.cpp" linenr="73" str="GetName" scope="0x1924120" type="name" astParent="0x1903cf0"/>
+    <token id="0x1903f00" file="gazebo_ros_gps.cpp" linenr="73" str="(" scope="0x1924120" link="0x1903fb0" astParent="0x1903b90" astOperand1="0x1903cf0"/>
+    <token id="0x1903fb0" file="gazebo_ros_gps.cpp" linenr="73" str=")" scope="0x1924120" link="0x1903f00"/>
+    <token id="0x1904060" file="gazebo_ros_gps.cpp" linenr="73" str=";" scope="0x1924120"/>
+    <token id="0x1904110" file="gazebo_ros_gps.cpp" linenr="74" str="}" scope="0x1924120" link="0x1903400"/>
+    <token id="0x19041c0" file="gazebo_ros_gps.cpp" linenr="75" str="else" scope="0x1923c60" type="name"/>
+    <token id="0x1904270" file="gazebo_ros_gps.cpp" linenr="75" str="{" scope="0x1924380" link="0x19057c0"/>
+    <token id="0x1904320" file="gazebo_ros_gps.cpp" linenr="76" str="link_name_" scope="0x1924380" type="name" astParent="0x19043d0"/>
+    <token id="0x19043d0" file="gazebo_ros_gps.cpp" linenr="76" str="=" scope="0x1924380" type="op" isAssignmentOp="True" astOperand1="0x1904320" astOperand2="0x1904ed0"/>
+    <token id="0x1904480" file="gazebo_ros_gps.cpp" linenr="76" str="_sdf" scope="0x1924380" type="name" varId="5" astParent="0x1904530"/>
+    <token id="0x1904530" file="gazebo_ros_gps.cpp" linenr="76" str="." scope="0x1924380" astParent="0x1904740" astOperand1="0x1904480" astOperand2="0x1904690"/>
+    <token id="0x1904690" file="gazebo_ros_gps.cpp" linenr="76" str="GetElement" scope="0x1924380" type="name" astParent="0x1904530"/>
+    <token id="0x1904740" file="gazebo_ros_gps.cpp" linenr="76" str="(" scope="0x1924380" link="0x19048a0" astParent="0x1904950" astOperand1="0x1904530" astOperand2="0x19047f0"/>
+    <token id="0x19047f0" file="gazebo_ros_gps.cpp" linenr="76" str="&quot;bodyName&quot;" scope="0x1924380" type="string" strlen="8" values="0x19047f8" astParent="0x1904740"/>
+    <token id="0x19048a0" file="gazebo_ros_gps.cpp" linenr="76" str=")" scope="0x1924380" link="0x1904740"/>
+    <token id="0x1904950" file="gazebo_ros_gps.cpp" linenr="76" str="." scope="0x1924380" astParent="0x1904b60" astOperand1="0x1904740" astOperand2="0x1904ab0"/>
+    <token id="0x1904ab0" file="gazebo_ros_gps.cpp" linenr="76" str="GetValue" scope="0x1924380" type="name" astParent="0x1904950"/>
+    <token id="0x1904b60" file="gazebo_ros_gps.cpp" linenr="76" str="(" scope="0x1924380" link="0x1904c10" astParent="0x1904cc0" astOperand1="0x1904950"/>
+    <token id="0x1904c10" file="gazebo_ros_gps.cpp" linenr="76" str=")" scope="0x1924380" link="0x1904b60"/>
+    <token id="0x1904cc0" file="gazebo_ros_gps.cpp" linenr="76" str="." scope="0x1924380" astParent="0x1904ed0" astOperand1="0x1904b60" astOperand2="0x1904e20"/>
+    <token id="0x1904e20" file="gazebo_ros_gps.cpp" linenr="76" str="GetAsString" scope="0x1924380" type="name" astParent="0x1904cc0"/>
+    <token id="0x1904ed0" file="gazebo_ros_gps.cpp" linenr="76" str="(" scope="0x1924380" link="0x1904f80" astParent="0x19043d0" astOperand1="0x1904cc0"/>
+    <token id="0x1904f80" file="gazebo_ros_gps.cpp" linenr="76" str=")" scope="0x1924380" link="0x1904ed0"/>
+    <token id="0x1905030" file="gazebo_ros_gps.cpp" linenr="76" str=";" scope="0x1924380"/>
+    <token id="0x19050e0" file="gazebo_ros_gps.cpp" linenr="77" str="link" scope="0x1924380" type="name" astParent="0x1905190"/>
+    <token id="0x1905190" file="gazebo_ros_gps.cpp" linenr="77" str="=" scope="0x1924380" type="op" isAssignmentOp="True" astOperand1="0x19050e0" astOperand2="0x1905500"/>
+    <token id="0x1905240" file="gazebo_ros_gps.cpp" linenr="77" str="_model" scope="0x1924380" type="name" varId="4" astParent="0x19052f0"/>
+    <token id="0x19052f0" file="gazebo_ros_gps.cpp" linenr="77" str="." scope="0x1924380" astParent="0x1905500" astOperand1="0x1905240" astOperand2="0x1905450"/>
+    <token id="0x1905450" file="gazebo_ros_gps.cpp" linenr="77" str="GetLink" scope="0x1924380" type="name" astParent="0x19052f0"/>
+    <token id="0x1905500" file="gazebo_ros_gps.cpp" linenr="77" str="(" scope="0x1924380" link="0x1905660" astParent="0x1905190" astOperand1="0x19052f0" astOperand2="0x19055b0"/>
+    <token id="0x19055b0" file="gazebo_ros_gps.cpp" linenr="77" str="link_name_" scope="0x1924380" type="name" astParent="0x1905500"/>
+    <token id="0x1905660" file="gazebo_ros_gps.cpp" linenr="77" str=")" scope="0x1924380" link="0x1905500"/>
+    <token id="0x1905710" file="gazebo_ros_gps.cpp" linenr="77" str=";" scope="0x1924380"/>
+    <token id="0x19057c0" file="gazebo_ros_gps.cpp" linenr="78" str="}" scope="0x1924380" link="0x1904270"/>
+    <token id="0x1905870" file="gazebo_ros_gps.cpp" linenr="80" str="if" scope="0x1923c60" type="name" astParent="0x1905920"/>
+    <token id="0x1905920" file="gazebo_ros_gps.cpp" linenr="80" str="(" scope="0x1923c60" link="0x1905b30" astOperand1="0x1905870" astOperand2="0x19059d0"/>
+    <token id="0x19059d0" file="gazebo_ros_gps.cpp" linenr="80" str="!" scope="0x1923c60" type="op" isLogicalOp="True" astParent="0x1905920" astOperand1="0x1905a80"/>
+    <token id="0x1905a80" file="gazebo_ros_gps.cpp" linenr="80" str="link" scope="0x1923c60" type="name" astParent="0x19059d0"/>
+    <token id="0x1905b30" file="gazebo_ros_gps.cpp" linenr="80" str=")" scope="0x1923c60" link="0x1905920"/>
+    <token id="0x1905be0" file="gazebo_ros_gps.cpp" linenr="81" str="{" scope="0x19244b0" link="0x1906620"/>
+    <token id="0x1905c90" file="gazebo_ros_gps.cpp" linenr="82" str="ROS_FATAL" scope="0x19244b0" type="name" astParent="0x1905d40"/>
+    <token id="0x1905d40" file="gazebo_ros_gps.cpp" linenr="82" str="(" scope="0x19244b0" link="0x1906360" astOperand1="0x1905c90" astOperand2="0x1905f40"/>
+    <token id="0x1905e40" file="gazebo_ros_gps.cpp" linenr="82" str="&quot;GazeboRosGps plugin error: bodyName: %s does not exist\n&quot;" scope="0x19244b0" type="string" strlen="55" values="0x1905e48" astParent="0x1905f40"/>
+    <token id="0x1905f40" file="gazebo_ros_gps.cpp" linenr="82" str="," scope="0x19244b0" astParent="0x1905d40" astOperand1="0x1905e40" astOperand2="0x1906200"/>
+    <token id="0x1905ff0" file="gazebo_ros_gps.cpp" linenr="82" str="link_name_" scope="0x19244b0" type="name" astParent="0x19060a0"/>
+    <token id="0x19060a0" file="gazebo_ros_gps.cpp" linenr="82" str="." scope="0x19244b0" astParent="0x1906200" astOperand1="0x1905ff0" astOperand2="0x1906150"/>
+    <token id="0x1906150" file="gazebo_ros_gps.cpp" linenr="82" str="c_str" scope="0x19244b0" type="name" astParent="0x19060a0"/>
+    <token id="0x1906200" file="gazebo_ros_gps.cpp" linenr="82" str="(" scope="0x19244b0" link="0x19062b0" astParent="0x1905f40" astOperand1="0x19060a0"/>
+    <token id="0x19062b0" file="gazebo_ros_gps.cpp" linenr="82" str=")" scope="0x19244b0" link="0x1906200"/>
+    <token id="0x1906360" file="gazebo_ros_gps.cpp" linenr="82" str=")" scope="0x19244b0" link="0x1905d40"/>
+    <token id="0x1906410" file="gazebo_ros_gps.cpp" linenr="82" str=";" scope="0x19244b0"/>
+    <token id="0x19064c0" file="gazebo_ros_gps.cpp" linenr="83" str="return" scope="0x19244b0" type="name"/>
+    <token id="0x1906570" file="gazebo_ros_gps.cpp" linenr="83" str=";" scope="0x19244b0"/>
+    <token id="0x1906620" file="gazebo_ros_gps.cpp" linenr="84" str="}" scope="0x19244b0" link="0x1905be0"/>
+    <token id="0x19066d0" file="gazebo_ros_gps.cpp" linenr="87" str="frame_id_" scope="0x1923c60" type="name" astParent="0x1906780"/>
+    <token id="0x1906780" file="gazebo_ros_gps.cpp" linenr="87" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x19066d0" astOperand2="0x1906830"/>
+    <token id="0x1906830" file="gazebo_ros_gps.cpp" linenr="87" str="&quot;/world&quot;" scope="0x1923c60" type="string" strlen="6" values="0x1906838" astParent="0x1906780"/>
+    <token id="0x19068e0" file="gazebo_ros_gps.cpp" linenr="87" str=";" scope="0x1923c60"/>
+    <token id="0x1906990" file="gazebo_ros_gps.cpp" linenr="88" str="fix_topic_" scope="0x1923c60" type="name" astParent="0x1906a40"/>
+    <token id="0x1906a40" file="gazebo_ros_gps.cpp" linenr="88" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1906990" astOperand2="0x1906af0"/>
+    <token id="0x1906af0" file="gazebo_ros_gps.cpp" linenr="88" str="&quot;fix&quot;" scope="0x1923c60" type="string" strlen="3" values="0x1906af8" astParent="0x1906a40"/>
+    <token id="0x1906ba0" file="gazebo_ros_gps.cpp" linenr="88" str=";" scope="0x1923c60"/>
+    <token id="0x1906c50" file="gazebo_ros_gps.cpp" linenr="91" str="reference_latitude_" scope="0x1923c60" type="name" astParent="0x1906d00"/>
+    <token id="0x1906d00" file="gazebo_ros_gps.cpp" linenr="91" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1906c50" astOperand2="0x1906de0"/>
+    <token id="0x1906de0" file="gazebo_ros_gps.cpp" linenr="91" str="DEFAULT_REFERENCE_LATITUDE" scope="0x1923c60" type="name" varId="1" variable="0x19251c0" astParent="0x1906d00"/>
+    <token id="0x1906ec0" file="gazebo_ros_gps.cpp" linenr="91" str=";" scope="0x1923c60"/>
+    <token id="0x1906f70" file="gazebo_ros_gps.cpp" linenr="92" str="reference_longitude_" scope="0x1923c60" type="name" astParent="0x1907020"/>
+    <token id="0x1907020" file="gazebo_ros_gps.cpp" linenr="92" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1906f70" astOperand2="0x1907100"/>
+    <token id="0x1907100" file="gazebo_ros_gps.cpp" linenr="92" str="DEFAULT_REFERENCE_LONGITUDE" scope="0x1923c60" type="name" varId="2" variable="0x1925230" astParent="0x1907020"/>
+    <token id="0x19071e0" file="gazebo_ros_gps.cpp" linenr="92" str=";" scope="0x1923c60"/>
+    <token id="0x1907290" file="gazebo_ros_gps.cpp" linenr="94" str="reference_altitude_" scope="0x1923c60" type="name" astParent="0x1907340"/>
+    <token id="0x1907340" file="gazebo_ros_gps.cpp" linenr="94" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1907290" astOperand2="0x1907420"/>
+    <token id="0x1907420" file="gazebo_ros_gps.cpp" linenr="94" str="DEFAULT_REFERENCE_ALTITUDE" scope="0x1923c60" type="name" varId="3" variable="0x19252a0" astParent="0x1907340"/>
+    <token id="0x1907500" file="gazebo_ros_gps.cpp" linenr="94" str=";" scope="0x1923c60"/>
+    <token id="0x19075b0" file="gazebo_ros_gps.cpp" linenr="96" str="sensor_msgs" scope="0x1923c60" type="name" astParent="0x1907660"/>
+    <token id="0x1907660" file="gazebo_ros_gps.cpp" linenr="96" str="::" scope="0x1923c60" astOperand1="0x19075b0" astOperand2="0x19077c0"/>
+    <token id="0x1907710" file="gazebo_ros_gps.cpp" linenr="96" str="NavSatFix" scope="0x1923c60" type="name"/>
+    <token id="0x19077c0" file="gazebo_ros_gps.cpp" linenr="96" str="reference_fix_" scope="0x1923c60" type="name" varId="6" variable="0x1925310" astParent="0x1907660"/>
+    <token id="0x1907870" file="gazebo_ros_gps.cpp" linenr="96" str=";" scope="0x1923c60"/>
+    <token id="0x1907920" file="gazebo_ros_gps.cpp" linenr="97" str="reference_fix_" scope="0x1923c60" type="name" varId="6" variable="0x1925310" astParent="0x19079d0"/>
+    <token id="0x19079d0" file="gazebo_ros_gps.cpp" linenr="97" str="." scope="0x1923c60" astParent="0x1907b30" astOperand1="0x1907920" astOperand2="0x1907a80"/>
+    <token id="0x1907a80" file="gazebo_ros_gps.cpp" linenr="97" str="latitude" scope="0x1923c60" type="name" varId="7" astParent="0x19079d0"/>
+    <token id="0x1907b30" file="gazebo_ros_gps.cpp" linenr="97" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x19079d0" astOperand2="0x1907be0"/>
+    <token id="0x1907be0" file="gazebo_ros_gps.cpp" linenr="97" str="reference_latitude_" scope="0x1923c60" type="name" astParent="0x1907b30"/>
+    <token id="0x1907c90" file="gazebo_ros_gps.cpp" linenr="97" str=";" scope="0x1923c60"/>
+    <token id="0x1907d40" file="gazebo_ros_gps.cpp" linenr="98" str="reference_fix_" scope="0x1923c60" type="name" varId="6" variable="0x1925310" astParent="0x1907df0"/>
+    <token id="0x1907df0" file="gazebo_ros_gps.cpp" linenr="98" str="." scope="0x1923c60" astParent="0x1907f50" astOperand1="0x1907d40" astOperand2="0x1907ea0"/>
+    <token id="0x1907ea0" file="gazebo_ros_gps.cpp" linenr="98" str="longitude" scope="0x1923c60" type="name" varId="8" astParent="0x1907df0"/>
+    <token id="0x1907f50" file="gazebo_ros_gps.cpp" linenr="98" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1907df0" astOperand2="0x1908000"/>
+    <token id="0x1908000" file="gazebo_ros_gps.cpp" linenr="98" str="reference_longitude_" scope="0x1923c60" type="name" astParent="0x1907f50"/>
+    <token id="0x19080e0" file="gazebo_ros_gps.cpp" linenr="98" str=";" scope="0x1923c60"/>
+    <token id="0x1908190" file="gazebo_ros_gps.cpp" linenr="100" str="UTMConverter" scope="0x1923c60" type="name" astParent="0x1908240"/>
+    <token id="0x1908240" file="gazebo_ros_gps.cpp" linenr="100" str="::" scope="0x1923c60" astParent="0x19083d0" astOperand1="0x1908190" astOperand2="0x19082f0"/>
+    <token id="0x19082f0" file="gazebo_ros_gps.cpp" linenr="100" str="latitudeAndLongitudeToUTMCoordinates" scope="0x1923c60" type="name" astParent="0x1908240"/>
+    <token id="0x19083d0" file="gazebo_ros_gps.cpp" linenr="100" str="(" scope="0x1923c60" link="0x1908690" astOperand1="0x1908240" astOperand2="0x1908530"/>
+    <token id="0x1908480" file="gazebo_ros_gps.cpp" linenr="100" str="reference_fix_" scope="0x1923c60" type="name" varId="6" variable="0x1925310" astParent="0x1908530"/>
+    <token id="0x1908530" file="gazebo_ros_gps.cpp" linenr="100" str="," scope="0x1923c60" astParent="0x19083d0" astOperand1="0x1908480" astOperand2="0x19085e0"/>
+    <token id="0x19085e0" file="gazebo_ros_gps.cpp" linenr="100" str="reference_utm_" scope="0x1923c60" type="name" astParent="0x1908530"/>
+    <token id="0x1908690" file="gazebo_ros_gps.cpp" linenr="100" str=")" scope="0x1923c60" link="0x19083d0"/>
+    <token id="0x1908740" file="gazebo_ros_gps.cpp" linenr="100" str=";" scope="0x1923c60"/>
+    <token id="0x19087f0" file="gazebo_ros_gps.cpp" linenr="102" str="status_" scope="0x1923c60" type="name" astParent="0x19088a0"/>
+    <token id="0x19088a0" file="gazebo_ros_gps.cpp" linenr="102" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x19087f0" astOperand2="0x1908b60"/>
+    <token id="0x1908950" file="gazebo_ros_gps.cpp" linenr="102" str="sensor_msgs" scope="0x1923c60" type="name" astParent="0x1908a00"/>
+    <token id="0x1908a00" file="gazebo_ros_gps.cpp" linenr="102" str="::" scope="0x1923c60" astParent="0x1908b60" astOperand1="0x1908950" astOperand2="0x1908ab0"/>
+    <token id="0x1908ab0" file="gazebo_ros_gps.cpp" linenr="102" str="NavSatStatus" scope="0x1923c60" type="name" astParent="0x1908a00"/>
+    <token id="0x1908b60" file="gazebo_ros_gps.cpp" linenr="102" str="::" scope="0x1923c60" astParent="0x19088a0" astOperand1="0x1908a00" astOperand2="0x1908c10"/>
+    <token id="0x1908c10" file="gazebo_ros_gps.cpp" linenr="102" str="STATUS_FIX" scope="0x1923c60" type="name" astParent="0x1908b60"/>
+    <token id="0x1908cc0" file="gazebo_ros_gps.cpp" linenr="102" str=";" scope="0x1923c60"/>
+    <token id="0x1908d70" file="gazebo_ros_gps.cpp" linenr="103" str="service_" scope="0x1923c60" type="name" astParent="0x1908e20"/>
+    <token id="0x1908e20" file="gazebo_ros_gps.cpp" linenr="103" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1908d70" astOperand2="0x19090e0"/>
+    <token id="0x1908ed0" file="gazebo_ros_gps.cpp" linenr="103" str="sensor_msgs" scope="0x1923c60" type="name" astParent="0x1908f80"/>
+    <token id="0x1908f80" file="gazebo_ros_gps.cpp" linenr="103" str="::" scope="0x1923c60" astParent="0x19090e0" astOperand1="0x1908ed0" astOperand2="0x1909030"/>
+    <token id="0x1909030" file="gazebo_ros_gps.cpp" linenr="103" str="NavSatStatus" scope="0x1923c60" type="name" astParent="0x1908f80"/>
+    <token id="0x19090e0" file="gazebo_ros_gps.cpp" linenr="103" str="::" scope="0x1923c60" astParent="0x1908e20" astOperand1="0x1908f80" astOperand2="0x1909190"/>
+    <token id="0x1909190" file="gazebo_ros_gps.cpp" linenr="103" str="SERVICE_GPS" scope="0x1923c60" type="name" astParent="0x19090e0"/>
+    <token id="0x1909240" file="gazebo_ros_gps.cpp" linenr="103" str=";" scope="0x1923c60"/>
+    <token id="0x19092f0" file="gazebo_ros_gps.cpp" linenr="105" str="fix_" scope="0x1923c60" type="name" astParent="0x19093a0"/>
+    <token id="0x19093a0" file="gazebo_ros_gps.cpp" linenr="105" str="." scope="0x1923c60" astParent="0x1909500" astOperand1="0x19092f0" astOperand2="0x1909450"/>
+    <token id="0x1909450" file="gazebo_ros_gps.cpp" linenr="105" str="header" scope="0x1923c60" type="name" astParent="0x19093a0"/>
+    <token id="0x1909500" file="gazebo_ros_gps.cpp" linenr="105" str="." scope="0x1923c60" astParent="0x1909660" astOperand1="0x19093a0" astOperand2="0x19095b0"/>
+    <token id="0x19095b0" file="gazebo_ros_gps.cpp" linenr="105" str="frame_id" scope="0x1923c60" type="name" astParent="0x1909500"/>
+    <token id="0x1909660" file="gazebo_ros_gps.cpp" linenr="105" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1909500" astOperand2="0x1909710"/>
+    <token id="0x1909710" file="gazebo_ros_gps.cpp" linenr="105" str="frame_id_" scope="0x1923c60" type="name" astParent="0x1909660"/>
+    <token id="0x19097c0" file="gazebo_ros_gps.cpp" linenr="105" str=";" scope="0x1923c60"/>
+    <token id="0x1909870" file="gazebo_ros_gps.cpp" linenr="106" str="fix_" scope="0x1923c60" type="name" astParent="0x1909920"/>
+    <token id="0x1909920" file="gazebo_ros_gps.cpp" linenr="106" str="." scope="0x1923c60" astParent="0x1909a80" astOperand1="0x1909870" astOperand2="0x19099d0"/>
+    <token id="0x19099d0" file="gazebo_ros_gps.cpp" linenr="106" str="status" scope="0x1923c60" type="name" astParent="0x1909920"/>
+    <token id="0x1909a80" file="gazebo_ros_gps.cpp" linenr="106" str="." scope="0x1923c60" astParent="0x1909be0" astOperand1="0x1909920" astOperand2="0x1909b30"/>
+    <token id="0x1909b30" file="gazebo_ros_gps.cpp" linenr="106" str="status" scope="0x1923c60" type="name" astParent="0x1909a80"/>
+    <token id="0x1909be0" file="gazebo_ros_gps.cpp" linenr="106" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1909a80" astOperand2="0x1909c90"/>
+    <token id="0x1909c90" file="gazebo_ros_gps.cpp" linenr="106" str="status_" scope="0x1923c60" type="name" astParent="0x1909be0"/>
+    <token id="0x1909d40" file="gazebo_ros_gps.cpp" linenr="106" str=";" scope="0x1923c60"/>
+    <token id="0x1909df0" file="gazebo_ros_gps.cpp" linenr="107" str="fix_" scope="0x1923c60" type="name" astParent="0x1909ea0"/>
+    <token id="0x1909ea0" file="gazebo_ros_gps.cpp" linenr="107" str="." scope="0x1923c60" astParent="0x190a000" astOperand1="0x1909df0" astOperand2="0x1909f50"/>
+    <token id="0x1909f50" file="gazebo_ros_gps.cpp" linenr="107" str="status" scope="0x1923c60" type="name" astParent="0x1909ea0"/>
+    <token id="0x190a000" file="gazebo_ros_gps.cpp" linenr="107" str="." scope="0x1923c60" astParent="0x190a160" astOperand1="0x1909ea0" astOperand2="0x190a0b0"/>
+    <token id="0x190a0b0" file="gazebo_ros_gps.cpp" linenr="107" str="service" scope="0x1923c60" type="name" astParent="0x190a000"/>
+    <token id="0x190a160" file="gazebo_ros_gps.cpp" linenr="107" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x190a000" astOperand2="0x190a210"/>
+    <token id="0x190a210" file="gazebo_ros_gps.cpp" linenr="107" str="service_" scope="0x1923c60" type="name" astParent="0x190a160"/>
+    <token id="0x190a2c0" file="gazebo_ros_gps.cpp" linenr="107" str=";" scope="0x1923c60"/>
+    <token id="0x190a370" file="gazebo_ros_gps.cpp" linenr="110" str="if" scope="0x1923c60" type="name" astParent="0x190a420"/>
+    <token id="0x190a420" file="gazebo_ros_gps.cpp" linenr="110" str="(" scope="0x1923c60" link="0x190a9a0" astOperand1="0x190a370" astOperand2="0x190a790"/>
+    <token id="0x190a4d0" file="gazebo_ros_gps.cpp" linenr="110" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x190a580"/>
+    <token id="0x190a580" file="gazebo_ros_gps.cpp" linenr="110" str="." scope="0x1923c60" astParent="0x190a790" astOperand1="0x190a4d0" astOperand2="0x190a6e0"/>
+    <token id="0x190a6e0" file="gazebo_ros_gps.cpp" linenr="110" str="HasElement" scope="0x1923c60" type="name" astParent="0x190a580"/>
+    <token id="0x190a790" file="gazebo_ros_gps.cpp" linenr="110" str="(" scope="0x1923c60" link="0x190a8f0" astParent="0x190a420" astOperand1="0x190a580" astOperand2="0x190a840"/>
+    <token id="0x190a840" file="gazebo_ros_gps.cpp" linenr="110" str="&quot;frameId&quot;" scope="0x1923c60" type="string" strlen="7" values="0x190a848" astParent="0x190a790"/>
+    <token id="0x190a8f0" file="gazebo_ros_gps.cpp" linenr="110" str=")" scope="0x1923c60" link="0x190a790"/>
+    <token id="0x190a9a0" file="gazebo_ros_gps.cpp" linenr="110" str=")" scope="0x1923c60" link="0x190a420"/>
+    <token id="0x190bad0" file="gazebo_ros_gps.cpp" linenr="110" str="{" scope="0x19245e0" link="0x190c1b0"/>
+    <token id="0x190aa50" file="gazebo_ros_gps.cpp" linenr="111" str="frame_id_" scope="0x19245e0" type="name" astParent="0x190ab00"/>
+    <token id="0x190ab00" file="gazebo_ros_gps.cpp" linenr="111" str="=" scope="0x19245e0" type="op" isAssignmentOp="True" astOperand1="0x190aa50" astOperand2="0x190b600"/>
+    <token id="0x190abb0" file="gazebo_ros_gps.cpp" linenr="111" str="_sdf" scope="0x19245e0" type="name" varId="5" astParent="0x190ac60"/>
+    <token id="0x190ac60" file="gazebo_ros_gps.cpp" linenr="111" str="." scope="0x19245e0" astParent="0x190ae70" astOperand1="0x190abb0" astOperand2="0x190adc0"/>
+    <token id="0x190adc0" file="gazebo_ros_gps.cpp" linenr="111" str="GetElement" scope="0x19245e0" type="name" astParent="0x190ac60"/>
+    <token id="0x190ae70" file="gazebo_ros_gps.cpp" linenr="111" str="(" scope="0x19245e0" link="0x190afd0" astParent="0x190b080" astOperand1="0x190ac60" astOperand2="0x190af20"/>
+    <token id="0x190af20" file="gazebo_ros_gps.cpp" linenr="111" str="&quot;frameId&quot;" scope="0x19245e0" type="string" strlen="7" values="0x190af28" astParent="0x190ae70"/>
+    <token id="0x190afd0" file="gazebo_ros_gps.cpp" linenr="111" str=")" scope="0x19245e0" link="0x190ae70"/>
+    <token id="0x190b080" file="gazebo_ros_gps.cpp" linenr="111" str="." scope="0x19245e0" astParent="0x190b290" astOperand1="0x190ae70" astOperand2="0x190b1e0"/>
+    <token id="0x190b1e0" file="gazebo_ros_gps.cpp" linenr="111" str="GetValue" scope="0x19245e0" type="name" astParent="0x190b080"/>
+    <token id="0x190b290" file="gazebo_ros_gps.cpp" linenr="111" str="(" scope="0x19245e0" link="0x190b340" astParent="0x190b3f0" astOperand1="0x190b080"/>
+    <token id="0x190b340" file="gazebo_ros_gps.cpp" linenr="111" str=")" scope="0x19245e0" link="0x190b290"/>
+    <token id="0x190b3f0" file="gazebo_ros_gps.cpp" linenr="111" str="." scope="0x19245e0" astParent="0x190b600" astOperand1="0x190b290" astOperand2="0x190b550"/>
+    <token id="0x190b550" file="gazebo_ros_gps.cpp" linenr="111" str="GetAsString" scope="0x19245e0" type="name" astParent="0x190b3f0"/>
+    <token id="0x190b600" file="gazebo_ros_gps.cpp" linenr="111" str="(" scope="0x19245e0" link="0x190b6b0" astParent="0x190ab00" astOperand1="0x190b3f0"/>
+    <token id="0x190b6b0" file="gazebo_ros_gps.cpp" linenr="111" str=")" scope="0x19245e0" link="0x190b600"/>
+    <token id="0x190b760" file="gazebo_ros_gps.cpp" linenr="111" str=";" scope="0x19245e0"/>
+    <token id="0x190c1b0" file="gazebo_ros_gps.cpp" linenr="111" str="}" scope="0x19245e0" link="0x190bad0"/>
+    <token id="0x190b810" file="gazebo_ros_gps.cpp" linenr="113" str="if" scope="0x1923c60" type="name" astParent="0x190b8c0"/>
+    <token id="0x190b8c0" file="gazebo_ros_gps.cpp" linenr="113" str="(" scope="0x1923c60" link="0x190be40" astOperand1="0x190b810" astOperand2="0x190bc30"/>
+    <token id="0x190b970" file="gazebo_ros_gps.cpp" linenr="113" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x190ba20"/>
+    <token id="0x190ba20" file="gazebo_ros_gps.cpp" linenr="113" str="." scope="0x1923c60" astParent="0x190bc30" astOperand1="0x190b970" astOperand2="0x190bb80"/>
+    <token id="0x190bb80" file="gazebo_ros_gps.cpp" linenr="113" str="HasElement" scope="0x1923c60" type="name" astParent="0x190ba20"/>
+    <token id="0x190bc30" file="gazebo_ros_gps.cpp" linenr="113" str="(" scope="0x1923c60" link="0x190bd90" astParent="0x190b8c0" astOperand1="0x190ba20" astOperand2="0x190bce0"/>
+    <token id="0x190bce0" file="gazebo_ros_gps.cpp" linenr="113" str="&quot;topicName&quot;" scope="0x1923c60" type="string" strlen="9" values="0x190bce8" astParent="0x190bc30"/>
+    <token id="0x190bd90" file="gazebo_ros_gps.cpp" linenr="113" str=")" scope="0x1923c60" link="0x190bc30"/>
+    <token id="0x190be40" file="gazebo_ros_gps.cpp" linenr="113" str=")" scope="0x1923c60" link="0x190b8c0"/>
+    <token id="0x190c5d0" file="gazebo_ros_gps.cpp" linenr="113" str="{" scope="0x1924710" link="0x190c940"/>
+    <token id="0x190bef0" file="gazebo_ros_gps.cpp" linenr="114" str="fix_topic_" scope="0x1924710" type="name" astParent="0x190bfa0"/>
+    <token id="0x190bfa0" file="gazebo_ros_gps.cpp" linenr="114" str="=" scope="0x1924710" type="op" isAssignmentOp="True" astOperand1="0x190bef0" astOperand2="0x190caa0"/>
+    <token id="0x190c050" file="gazebo_ros_gps.cpp" linenr="114" str="_sdf" scope="0x1924710" type="name" varId="5" astParent="0x190c100"/>
+    <token id="0x190c100" file="gazebo_ros_gps.cpp" linenr="114" str="." scope="0x1924710" astParent="0x190c310" astOperand1="0x190c050" astOperand2="0x190c260"/>
+    <token id="0x190c260" file="gazebo_ros_gps.cpp" linenr="114" str="GetElement" scope="0x1924710" type="name" astParent="0x190c100"/>
+    <token id="0x190c310" file="gazebo_ros_gps.cpp" linenr="114" str="(" scope="0x1924710" link="0x190c470" astParent="0x190c520" astOperand1="0x190c100" astOperand2="0x190c3c0"/>
+    <token id="0x190c3c0" file="gazebo_ros_gps.cpp" linenr="114" str="&quot;topicName&quot;" scope="0x1924710" type="string" strlen="9" values="0x190c3c8" astParent="0x190c310"/>
+    <token id="0x190c470" file="gazebo_ros_gps.cpp" linenr="114" str=")" scope="0x1924710" link="0x190c310"/>
+    <token id="0x190c520" file="gazebo_ros_gps.cpp" linenr="114" str="." scope="0x1924710" astParent="0x190c730" astOperand1="0x190c310" astOperand2="0x190c680"/>
+    <token id="0x190c680" file="gazebo_ros_gps.cpp" linenr="114" str="GetValue" scope="0x1924710" type="name" astParent="0x190c520"/>
+    <token id="0x190c730" file="gazebo_ros_gps.cpp" linenr="114" str="(" scope="0x1924710" link="0x190c7e0" astParent="0x190c890" astOperand1="0x190c520"/>
+    <token id="0x190c7e0" file="gazebo_ros_gps.cpp" linenr="114" str=")" scope="0x1924710" link="0x190c730"/>
+    <token id="0x190c890" file="gazebo_ros_gps.cpp" linenr="114" str="." scope="0x1924710" astParent="0x190caa0" astOperand1="0x190c730" astOperand2="0x190c9f0"/>
+    <token id="0x190c9f0" file="gazebo_ros_gps.cpp" linenr="114" str="GetAsString" scope="0x1924710" type="name" astParent="0x190c890"/>
+    <token id="0x190caa0" file="gazebo_ros_gps.cpp" linenr="114" str="(" scope="0x1924710" link="0x190cb50" astParent="0x190bfa0" astOperand1="0x190c890"/>
+    <token id="0x190cb50" file="gazebo_ros_gps.cpp" linenr="114" str=")" scope="0x1924710" link="0x190caa0"/>
+    <token id="0x190cc00" file="gazebo_ros_gps.cpp" linenr="114" str=";" scope="0x1924710"/>
+    <token id="0x190c940" file="gazebo_ros_gps.cpp" linenr="114" str="}" scope="0x1924710" link="0x190c5d0"/>
+    <token id="0x190ccb0" file="gazebo_ros_gps.cpp" linenr="119" str="if" scope="0x1923c60" type="name" astParent="0x190cd60"/>
+    <token id="0x190cd60" file="gazebo_ros_gps.cpp" linenr="119" str="(" scope="0x1923c60" link="0x190d310" astOperand1="0x190ccb0" astOperand2="0x190d0d0"/>
+    <token id="0x190ce10" file="gazebo_ros_gps.cpp" linenr="119" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x190cec0"/>
+    <token id="0x190cec0" file="gazebo_ros_gps.cpp" linenr="119" str="." scope="0x1923c60" astParent="0x190d0d0" astOperand1="0x190ce10" astOperand2="0x190d020"/>
+    <token id="0x190d020" file="gazebo_ros_gps.cpp" linenr="119" str="HasElement" scope="0x1923c60" type="name" astParent="0x190cec0"/>
+    <token id="0x190d0d0" file="gazebo_ros_gps.cpp" linenr="119" str="(" scope="0x1923c60" link="0x190d260" astParent="0x190cd60" astOperand1="0x190cec0" astOperand2="0x190d180"/>
+    <token id="0x190d180" file="gazebo_ros_gps.cpp" linenr="119" str="&quot;referenceLatitude&quot;" scope="0x1923c60" type="string" strlen="17" values="0x190d188" astParent="0x190d0d0"/>
+    <token id="0x190d260" file="gazebo_ros_gps.cpp" linenr="119" str=")" scope="0x1923c60" link="0x190d0d0"/>
+    <token id="0x190d310" file="gazebo_ros_gps.cpp" linenr="119" str=")" scope="0x1923c60" link="0x190cd60"/>
+    <token id="0x190cf70" file="gazebo_ros_gps.cpp" linenr="119" str="{" scope="0x1924840" link="0x190d520"/>
+    <token id="0x190d3c0" file="gazebo_ros_gps.cpp" linenr="120" str="_sdf" scope="0x1924840" type="name" varId="5" astParent="0x190d470"/>
+    <token id="0x190d470" file="gazebo_ros_gps.cpp" linenr="120" str="." scope="0x1924840" astParent="0x190d680" astOperand1="0x190d3c0" astOperand2="0x190d5d0"/>
+    <token id="0x190d5d0" file="gazebo_ros_gps.cpp" linenr="120" str="GetElement" scope="0x1924840" type="name" astParent="0x190d470"/>
+    <token id="0x190d680" file="gazebo_ros_gps.cpp" linenr="120" str="(" scope="0x1924840" link="0x190d810" astParent="0x190d8c0" astOperand1="0x190d470" astOperand2="0x190d730"/>
+    <token id="0x190d730" file="gazebo_ros_gps.cpp" linenr="120" str="&quot;referenceLatitude&quot;" scope="0x1924840" type="string" strlen="17" values="0x190d738" astParent="0x190d680"/>
+    <token id="0x190d810" file="gazebo_ros_gps.cpp" linenr="120" str=")" scope="0x1924840" link="0x190d680"/>
+    <token id="0x190d8c0" file="gazebo_ros_gps.cpp" linenr="120" str="." scope="0x1924840" astParent="0x190dad0" astOperand1="0x190d680" astOperand2="0x190da20"/>
+    <token id="0x190da20" file="gazebo_ros_gps.cpp" linenr="120" str="GetValue" scope="0x1924840" type="name" astParent="0x190d8c0"/>
+    <token id="0x190dad0" file="gazebo_ros_gps.cpp" linenr="120" str="(" scope="0x1924840" link="0x190db80" astParent="0x190dc30" astOperand1="0x190d8c0"/>
+    <token id="0x190db80" file="gazebo_ros_gps.cpp" linenr="120" str=")" scope="0x1924840" link="0x190dad0"/>
+    <token id="0x190dc30" file="gazebo_ros_gps.cpp" linenr="120" str="." scope="0x1924840" astParent="0x190de40" astOperand1="0x190dad0" astOperand2="0x190dd90"/>
+    <token id="0x190dd90" file="gazebo_ros_gps.cpp" linenr="120" str="Get" scope="0x1924840" type="name" astParent="0x190dc30"/>
+    <token id="0x190de40" file="gazebo_ros_gps.cpp" linenr="120" str="(" scope="0x1924840" link="0x190dfa0" astOperand1="0x190dc30" astOperand2="0x190def0"/>
+    <token id="0x190def0" file="gazebo_ros_gps.cpp" linenr="120" str="reference_latitude_" scope="0x1924840" type="name" astParent="0x190de40"/>
+    <token id="0x190dfa0" file="gazebo_ros_gps.cpp" linenr="120" str=")" scope="0x1924840" link="0x190de40"/>
+    <token id="0x190e050" file="gazebo_ros_gps.cpp" linenr="120" str=";" scope="0x1924840"/>
+    <token id="0x190d520" file="gazebo_ros_gps.cpp" linenr="120" str="}" scope="0x1924840" link="0x190cf70"/>
+    <token id="0x190e100" file="gazebo_ros_gps.cpp" linenr="122" str="if" scope="0x1923c60" type="name" astParent="0x190e1b0"/>
+    <token id="0x190e1b0" file="gazebo_ros_gps.cpp" linenr="122" str="(" scope="0x1923c60" link="0x190e790" astOperand1="0x190e100" astOperand2="0x190e520"/>
+    <token id="0x190e260" file="gazebo_ros_gps.cpp" linenr="122" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x190e310"/>
+    <token id="0x190e310" file="gazebo_ros_gps.cpp" linenr="122" str="." scope="0x1923c60" astParent="0x190e520" astOperand1="0x190e260" astOperand2="0x190e470"/>
+    <token id="0x190e470" file="gazebo_ros_gps.cpp" linenr="122" str="HasElement" scope="0x1923c60" type="name" astParent="0x190e310"/>
+    <token id="0x190e520" file="gazebo_ros_gps.cpp" linenr="122" str="(" scope="0x1923c60" link="0x190e6e0" astParent="0x190e1b0" astOperand1="0x190e310" astOperand2="0x190e600"/>
+    <token id="0x190e600" file="gazebo_ros_gps.cpp" linenr="122" str="&quot;referenceLongitude&quot;" scope="0x1923c60" type="string" strlen="18" values="0x190e608" astParent="0x190e520"/>
+    <token id="0x190e6e0" file="gazebo_ros_gps.cpp" linenr="122" str=")" scope="0x1923c60" link="0x190e520"/>
+    <token id="0x190e790" file="gazebo_ros_gps.cpp" linenr="122" str=")" scope="0x1923c60" link="0x190e1b0"/>
+    <token id="0x190d970" file="gazebo_ros_gps.cpp" linenr="122" str="{" scope="0x1924970" link="0x190dce0"/>
+    <token id="0x190e840" file="gazebo_ros_gps.cpp" linenr="123" str="_sdf" scope="0x1924970" type="name" varId="5" astParent="0x190e8f0"/>
+    <token id="0x190e8f0" file="gazebo_ros_gps.cpp" linenr="123" str="." scope="0x1924970" astParent="0x190eb00" astOperand1="0x190e840" astOperand2="0x190ea50"/>
+    <token id="0x190ea50" file="gazebo_ros_gps.cpp" linenr="123" str="GetElement" scope="0x1924970" type="name" astParent="0x190e8f0"/>
+    <token id="0x190eb00" file="gazebo_ros_gps.cpp" linenr="123" str="(" scope="0x1924970" link="0x190ec90" astParent="0x190ed40" astOperand1="0x190e8f0" astOperand2="0x190ebb0"/>
+    <token id="0x190ebb0" file="gazebo_ros_gps.cpp" linenr="123" str="&quot;referenceLongitude&quot;" scope="0x1924970" type="string" strlen="18" values="0x190ebb8" astParent="0x190eb00"/>
+    <token id="0x190ec90" file="gazebo_ros_gps.cpp" linenr="123" str=")" scope="0x1924970" link="0x190eb00"/>
+    <token id="0x190ed40" file="gazebo_ros_gps.cpp" linenr="123" str="." scope="0x1924970" astParent="0x190ef50" astOperand1="0x190eb00" astOperand2="0x190eea0"/>
+    <token id="0x190eea0" file="gazebo_ros_gps.cpp" linenr="123" str="GetValue" scope="0x1924970" type="name" astParent="0x190ed40"/>
+    <token id="0x190ef50" file="gazebo_ros_gps.cpp" linenr="123" str="(" scope="0x1924970" link="0x190f000" astParent="0x190f0b0" astOperand1="0x190ed40"/>
+    <token id="0x190f000" file="gazebo_ros_gps.cpp" linenr="123" str=")" scope="0x1924970" link="0x190ef50"/>
+    <token id="0x190f0b0" file="gazebo_ros_gps.cpp" linenr="123" str="." scope="0x1924970" astParent="0x190f2c0" astOperand1="0x190ef50" astOperand2="0x190f210"/>
+    <token id="0x190f210" file="gazebo_ros_gps.cpp" linenr="123" str="Get" scope="0x1924970" type="name" astParent="0x190f0b0"/>
+    <token id="0x190f2c0" file="gazebo_ros_gps.cpp" linenr="123" str="(" scope="0x1924970" link="0x190f420" astOperand1="0x190f0b0" astOperand2="0x190f370"/>
+    <token id="0x190f370" file="gazebo_ros_gps.cpp" linenr="123" str="reference_longitude_" scope="0x1924970" type="name" astParent="0x190f2c0"/>
+    <token id="0x190f420" file="gazebo_ros_gps.cpp" linenr="123" str=")" scope="0x1924970" link="0x190f2c0"/>
+    <token id="0x190f4d0" file="gazebo_ros_gps.cpp" linenr="123" str=";" scope="0x1924970"/>
+    <token id="0x190dce0" file="gazebo_ros_gps.cpp" linenr="123" str="}" scope="0x1924970" link="0x190d970"/>
+    <token id="0x190f580" file="gazebo_ros_gps.cpp" linenr="129" str="if" scope="0x1923c60" type="name" astParent="0x190f630"/>
+    <token id="0x190f630" file="gazebo_ros_gps.cpp" linenr="129" str="(" scope="0x1923c60" link="0x190fc10" astOperand1="0x190f580" astOperand2="0x190f9a0"/>
+    <token id="0x190f6e0" file="gazebo_ros_gps.cpp" linenr="129" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x190f790"/>
+    <token id="0x190f790" file="gazebo_ros_gps.cpp" linenr="129" str="." scope="0x1923c60" astParent="0x190f9a0" astOperand1="0x190f6e0" astOperand2="0x190f8f0"/>
+    <token id="0x190f8f0" file="gazebo_ros_gps.cpp" linenr="129" str="HasElement" scope="0x1923c60" type="name" astParent="0x190f790"/>
+    <token id="0x190f9a0" file="gazebo_ros_gps.cpp" linenr="129" str="(" scope="0x1923c60" link="0x190fb60" astParent="0x190f630" astOperand1="0x190f790" astOperand2="0x190fa80"/>
+    <token id="0x190fa80" file="gazebo_ros_gps.cpp" linenr="129" str="&quot;referenceAltitude&quot;" scope="0x1923c60" type="string" strlen="17" values="0x190fa88" astParent="0x190f9a0"/>
+    <token id="0x190fb60" file="gazebo_ros_gps.cpp" linenr="129" str=")" scope="0x1923c60" link="0x190f9a0"/>
+    <token id="0x190fc10" file="gazebo_ros_gps.cpp" linenr="129" str=")" scope="0x1923c60" link="0x190f630"/>
+    <token id="0x190e3c0" file="gazebo_ros_gps.cpp" linenr="129" str="{" scope="0x1924aa0" link="0x190e9a0"/>
+    <token id="0x190fcc0" file="gazebo_ros_gps.cpp" linenr="130" str="_sdf" scope="0x1924aa0" type="name" varId="5" astParent="0x190fd70"/>
+    <token id="0x190fd70" file="gazebo_ros_gps.cpp" linenr="130" str="." scope="0x1924aa0" astParent="0x190ff80" astOperand1="0x190fcc0" astOperand2="0x190fed0"/>
+    <token id="0x190fed0" file="gazebo_ros_gps.cpp" linenr="130" str="GetElement" scope="0x1924aa0" type="name" astParent="0x190fd70"/>
+    <token id="0x190ff80" file="gazebo_ros_gps.cpp" linenr="130" str="(" scope="0x1924aa0" link="0x1910110" astParent="0x19101c0" astOperand1="0x190fd70" astOperand2="0x1910030"/>
+    <token id="0x1910030" file="gazebo_ros_gps.cpp" linenr="130" str="&quot;referenceAltitude&quot;" scope="0x1924aa0" type="string" strlen="17" values="0x1910038" astParent="0x190ff80"/>
+    <token id="0x1910110" file="gazebo_ros_gps.cpp" linenr="130" str=")" scope="0x1924aa0" link="0x190ff80"/>
+    <token id="0x19101c0" file="gazebo_ros_gps.cpp" linenr="130" str="." scope="0x1924aa0" astParent="0x19103d0" astOperand1="0x190ff80" astOperand2="0x1910320"/>
+    <token id="0x1910320" file="gazebo_ros_gps.cpp" linenr="130" str="GetValue" scope="0x1924aa0" type="name" astParent="0x19101c0"/>
+    <token id="0x19103d0" file="gazebo_ros_gps.cpp" linenr="130" str="(" scope="0x1924aa0" link="0x1910480" astParent="0x1910530" astOperand1="0x19101c0"/>
+    <token id="0x1910480" file="gazebo_ros_gps.cpp" linenr="130" str=")" scope="0x1924aa0" link="0x19103d0"/>
+    <token id="0x1910530" file="gazebo_ros_gps.cpp" linenr="130" str="." scope="0x1924aa0" astParent="0x1910740" astOperand1="0x19103d0" astOperand2="0x1910690"/>
+    <token id="0x1910690" file="gazebo_ros_gps.cpp" linenr="130" str="Get" scope="0x1924aa0" type="name" astParent="0x1910530"/>
+    <token id="0x1910740" file="gazebo_ros_gps.cpp" linenr="130" str="(" scope="0x1924aa0" link="0x19108a0" astOperand1="0x1910530" astOperand2="0x19107f0"/>
+    <token id="0x19107f0" file="gazebo_ros_gps.cpp" linenr="130" str="reference_altitude_" scope="0x1924aa0" type="name" astParent="0x1910740"/>
+    <token id="0x19108a0" file="gazebo_ros_gps.cpp" linenr="130" str=")" scope="0x1924aa0" link="0x1910740"/>
+    <token id="0x1910950" file="gazebo_ros_gps.cpp" linenr="130" str=";" scope="0x1924aa0"/>
+    <token id="0x190e9a0" file="gazebo_ros_gps.cpp" linenr="130" str="}" scope="0x1924aa0" link="0x190e3c0"/>
+    <token id="0x1910a00" file="gazebo_ros_gps.cpp" linenr="132" str="if" scope="0x1923c60" type="name" astParent="0x1910ab0"/>
+    <token id="0x1910ab0" file="gazebo_ros_gps.cpp" linenr="132" str="(" scope="0x1923c60" link="0x1911030" astOperand1="0x1910a00" astOperand2="0x1910e20"/>
+    <token id="0x1910b60" file="gazebo_ros_gps.cpp" linenr="132" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1910c10"/>
+    <token id="0x1910c10" file="gazebo_ros_gps.cpp" linenr="132" str="." scope="0x1923c60" astParent="0x1910e20" astOperand1="0x1910b60" astOperand2="0x1910d70"/>
+    <token id="0x1910d70" file="gazebo_ros_gps.cpp" linenr="132" str="HasElement" scope="0x1923c60" type="name" astParent="0x1910c10"/>
+    <token id="0x1910e20" file="gazebo_ros_gps.cpp" linenr="132" str="(" scope="0x1923c60" link="0x1910f80" astParent="0x1910ab0" astOperand1="0x1910c10" astOperand2="0x1910ed0"/>
+    <token id="0x1910ed0" file="gazebo_ros_gps.cpp" linenr="132" str="&quot;status&quot;" scope="0x1923c60" type="string" strlen="6" values="0x1910ed8" astParent="0x1910e20"/>
+    <token id="0x1910f80" file="gazebo_ros_gps.cpp" linenr="132" str=")" scope="0x1923c60" link="0x1910e20"/>
+    <token id="0x1911030" file="gazebo_ros_gps.cpp" linenr="132" str=")" scope="0x1923c60" link="0x1910ab0"/>
+    <token id="0x190edf0" file="gazebo_ros_gps.cpp" linenr="132" str="{" scope="0x1924bd0" link="0x190f160"/>
+    <token id="0x19110e0" file="gazebo_ros_gps.cpp" linenr="133" str="_sdf" scope="0x1924bd0" type="name" varId="5" astParent="0x1911190"/>
+    <token id="0x1911190" file="gazebo_ros_gps.cpp" linenr="133" str="." scope="0x1924bd0" astParent="0x19113a0" astOperand1="0x19110e0" astOperand2="0x19112f0"/>
+    <token id="0x19112f0" file="gazebo_ros_gps.cpp" linenr="133" str="GetElement" scope="0x1924bd0" type="name" astParent="0x1911190"/>
+    <token id="0x19113a0" file="gazebo_ros_gps.cpp" linenr="133" str="(" scope="0x1924bd0" link="0x1911500" astParent="0x19115b0" astOperand1="0x1911190" astOperand2="0x1911450"/>
+    <token id="0x1911450" file="gazebo_ros_gps.cpp" linenr="133" str="&quot;status&quot;" scope="0x1924bd0" type="string" strlen="6" values="0x1911458" astParent="0x19113a0"/>
+    <token id="0x1911500" file="gazebo_ros_gps.cpp" linenr="133" str=")" scope="0x1924bd0" link="0x19113a0"/>
+    <token id="0x19115b0" file="gazebo_ros_gps.cpp" linenr="133" str="." scope="0x1924bd0" astParent="0x19117c0" astOperand1="0x19113a0" astOperand2="0x1911710"/>
+    <token id="0x1911710" file="gazebo_ros_gps.cpp" linenr="133" str="GetValue" scope="0x1924bd0" type="name" astParent="0x19115b0"/>
+    <token id="0x19117c0" file="gazebo_ros_gps.cpp" linenr="133" str="(" scope="0x1924bd0" link="0x1911870" astParent="0x1911920" astOperand1="0x19115b0"/>
+    <token id="0x1911870" file="gazebo_ros_gps.cpp" linenr="133" str=")" scope="0x1924bd0" link="0x19117c0"/>
+    <token id="0x1911920" file="gazebo_ros_gps.cpp" linenr="133" str="." scope="0x1924bd0" astParent="0x1911b30" astOperand1="0x19117c0" astOperand2="0x1911a80"/>
+    <token id="0x1911a80" file="gazebo_ros_gps.cpp" linenr="133" str="Get" scope="0x1924bd0" type="name" astParent="0x1911920"/>
+    <token id="0x1911b30" file="gazebo_ros_gps.cpp" linenr="133" str="(" scope="0x1924bd0" link="0x1911c90" astOperand1="0x1911920" astOperand2="0x1911be0"/>
+    <token id="0x1911be0" file="gazebo_ros_gps.cpp" linenr="133" str="status_" scope="0x1924bd0" type="name" astParent="0x1911b30"/>
+    <token id="0x1911c90" file="gazebo_ros_gps.cpp" linenr="133" str=")" scope="0x1924bd0" link="0x1911b30"/>
+    <token id="0x1911d40" file="gazebo_ros_gps.cpp" linenr="133" str=";" scope="0x1924bd0"/>
+    <token id="0x190f160" file="gazebo_ros_gps.cpp" linenr="133" str="}" scope="0x1924bd0" link="0x190edf0"/>
+    <token id="0x1911df0" file="gazebo_ros_gps.cpp" linenr="135" str="if" scope="0x1923c60" type="name" astParent="0x1911ea0"/>
+    <token id="0x1911ea0" file="gazebo_ros_gps.cpp" linenr="135" str="(" scope="0x1923c60" link="0x1912420" astOperand1="0x1911df0" astOperand2="0x1912210"/>
+    <token id="0x1911f50" file="gazebo_ros_gps.cpp" linenr="135" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1912000"/>
+    <token id="0x1912000" file="gazebo_ros_gps.cpp" linenr="135" str="." scope="0x1923c60" astParent="0x1912210" astOperand1="0x1911f50" astOperand2="0x1912160"/>
+    <token id="0x1912160" file="gazebo_ros_gps.cpp" linenr="135" str="HasElement" scope="0x1923c60" type="name" astParent="0x1912000"/>
+    <token id="0x1912210" file="gazebo_ros_gps.cpp" linenr="135" str="(" scope="0x1923c60" link="0x1912370" astParent="0x1911ea0" astOperand1="0x1912000" astOperand2="0x19122c0"/>
+    <token id="0x19122c0" file="gazebo_ros_gps.cpp" linenr="135" str="&quot;service&quot;" scope="0x1923c60" type="string" strlen="7" values="0x19122c8" astParent="0x1912210"/>
+    <token id="0x1912370" file="gazebo_ros_gps.cpp" linenr="135" str=")" scope="0x1923c60" link="0x1912210"/>
+    <token id="0x1912420" file="gazebo_ros_gps.cpp" linenr="135" str=")" scope="0x1923c60" link="0x1911ea0"/>
+    <token id="0x190f840" file="gazebo_ros_gps.cpp" linenr="135" str="{" scope="0x1924d00" link="0x190fe20"/>
+    <token id="0x19124d0" file="gazebo_ros_gps.cpp" linenr="136" str="_sdf" scope="0x1924d00" type="name" varId="5" astParent="0x1912580"/>
+    <token id="0x1912580" file="gazebo_ros_gps.cpp" linenr="136" str="." scope="0x1924d00" astParent="0x1912790" astOperand1="0x19124d0" astOperand2="0x19126e0"/>
+    <token id="0x19126e0" file="gazebo_ros_gps.cpp" linenr="136" str="GetElement" scope="0x1924d00" type="name" astParent="0x1912580"/>
+    <token id="0x1912790" file="gazebo_ros_gps.cpp" linenr="136" str="(" scope="0x1924d00" link="0x19128f0" astParent="0x19129a0" astOperand1="0x1912580" astOperand2="0x1912840"/>
+    <token id="0x1912840" file="gazebo_ros_gps.cpp" linenr="136" str="&quot;service&quot;" scope="0x1924d00" type="string" strlen="7" values="0x1912848" astParent="0x1912790"/>
+    <token id="0x19128f0" file="gazebo_ros_gps.cpp" linenr="136" str=")" scope="0x1924d00" link="0x1912790"/>
+    <token id="0x19129a0" file="gazebo_ros_gps.cpp" linenr="136" str="." scope="0x1924d00" astParent="0x1912bb0" astOperand1="0x1912790" astOperand2="0x1912b00"/>
+    <token id="0x1912b00" file="gazebo_ros_gps.cpp" linenr="136" str="GetValue" scope="0x1924d00" type="name" astParent="0x19129a0"/>
+    <token id="0x1912bb0" file="gazebo_ros_gps.cpp" linenr="136" str="(" scope="0x1924d00" link="0x1912c60" astParent="0x1912d10" astOperand1="0x19129a0"/>
+    <token id="0x1912c60" file="gazebo_ros_gps.cpp" linenr="136" str=")" scope="0x1924d00" link="0x1912bb0"/>
+    <token id="0x1912d10" file="gazebo_ros_gps.cpp" linenr="136" str="." scope="0x1924d00" astParent="0x1912f20" astOperand1="0x1912bb0" astOperand2="0x1912e70"/>
+    <token id="0x1912e70" file="gazebo_ros_gps.cpp" linenr="136" str="Get" scope="0x1924d00" type="name" astParent="0x1912d10"/>
+    <token id="0x1912f20" file="gazebo_ros_gps.cpp" linenr="136" str="(" scope="0x1924d00" link="0x1913080" astOperand1="0x1912d10" astOperand2="0x1912fd0"/>
+    <token id="0x1912fd0" file="gazebo_ros_gps.cpp" linenr="136" str="service_" scope="0x1924d00" type="name" astParent="0x1912f20"/>
+    <token id="0x1913080" file="gazebo_ros_gps.cpp" linenr="136" str=")" scope="0x1924d00" link="0x1912f20"/>
+    <token id="0x1913130" file="gazebo_ros_gps.cpp" linenr="136" str=";" scope="0x1924d00"/>
+    <token id="0x190fe20" file="gazebo_ros_gps.cpp" linenr="136" str="}" scope="0x1924d00" link="0x190f840"/>
+    <token id="0x19131e0" file="gazebo_ros_gps.cpp" linenr="138" str="fix_" scope="0x1923c60" type="name" astParent="0x1913290"/>
+    <token id="0x1913290" file="gazebo_ros_gps.cpp" linenr="138" str="." scope="0x1923c60" astParent="0x19133f0" astOperand1="0x19131e0" astOperand2="0x1913340"/>
+    <token id="0x1913340" file="gazebo_ros_gps.cpp" linenr="138" str="header" scope="0x1923c60" type="name" astParent="0x1913290"/>
+    <token id="0x19133f0" file="gazebo_ros_gps.cpp" linenr="138" str="." scope="0x1923c60" astParent="0x1913550" astOperand1="0x1913290" astOperand2="0x19134a0"/>
+    <token id="0x19134a0" file="gazebo_ros_gps.cpp" linenr="138" str="frame_id" scope="0x1923c60" type="name" astParent="0x19133f0"/>
+    <token id="0x1913550" file="gazebo_ros_gps.cpp" linenr="138" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x19133f0" astOperand2="0x1913600"/>
+    <token id="0x1913600" file="gazebo_ros_gps.cpp" linenr="138" str="frame_id_" scope="0x1923c60" type="name" astParent="0x1913550"/>
+    <token id="0x19136b0" file="gazebo_ros_gps.cpp" linenr="138" str=";" scope="0x1923c60"/>
+    <token id="0x1913760" file="gazebo_ros_gps.cpp" linenr="139" str="fix_" scope="0x1923c60" type="name" astParent="0x1913810"/>
+    <token id="0x1913810" file="gazebo_ros_gps.cpp" linenr="139" str="." scope="0x1923c60" astParent="0x1913970" astOperand1="0x1913760" astOperand2="0x19138c0"/>
+    <token id="0x19138c0" file="gazebo_ros_gps.cpp" linenr="139" str="status" scope="0x1923c60" type="name" astParent="0x1913810"/>
+    <token id="0x1913970" file="gazebo_ros_gps.cpp" linenr="139" str="." scope="0x1923c60" astParent="0x1913ad0" astOperand1="0x1913810" astOperand2="0x1913a20"/>
+    <token id="0x1913a20" file="gazebo_ros_gps.cpp" linenr="139" str="status" scope="0x1923c60" type="name" astParent="0x1913970"/>
+    <token id="0x1913ad0" file="gazebo_ros_gps.cpp" linenr="139" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1913970" astOperand2="0x1913b80"/>
+    <token id="0x1913b80" file="gazebo_ros_gps.cpp" linenr="139" str="status_" scope="0x1923c60" type="name" astParent="0x1913ad0"/>
+    <token id="0x1913c30" file="gazebo_ros_gps.cpp" linenr="139" str=";" scope="0x1923c60"/>
+    <token id="0x1913ce0" file="gazebo_ros_gps.cpp" linenr="140" str="fix_" scope="0x1923c60" type="name" astParent="0x1913d90"/>
+    <token id="0x1913d90" file="gazebo_ros_gps.cpp" linenr="140" str="." scope="0x1923c60" astParent="0x1913ef0" astOperand1="0x1913ce0" astOperand2="0x1913e40"/>
+    <token id="0x1913e40" file="gazebo_ros_gps.cpp" linenr="140" str="status" scope="0x1923c60" type="name" astParent="0x1913d90"/>
+    <token id="0x1913ef0" file="gazebo_ros_gps.cpp" linenr="140" str="." scope="0x1923c60" astParent="0x1914050" astOperand1="0x1913d90" astOperand2="0x1913fa0"/>
+    <token id="0x1913fa0" file="gazebo_ros_gps.cpp" linenr="140" str="service" scope="0x1923c60" type="name" astParent="0x1913ef0"/>
+    <token id="0x1914050" file="gazebo_ros_gps.cpp" linenr="140" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1913ef0" astOperand2="0x1914100"/>
+    <token id="0x1914100" file="gazebo_ros_gps.cpp" linenr="140" str="service_" scope="0x1923c60" type="name" astParent="0x1914050"/>
+    <token id="0x19141b0" file="gazebo_ros_gps.cpp" linenr="140" str=";" scope="0x1923c60"/>
+    <token id="0x1914260" file="gazebo_ros_gps.cpp" linenr="143" str="position_error_model_" scope="0x1923c60" type="name" astParent="0x1914340"/>
+    <token id="0x1914340" file="gazebo_ros_gps.cpp" linenr="143" str="." scope="0x1923c60" astParent="0x19144a0" astOperand1="0x1914260" astOperand2="0x19143f0"/>
+    <token id="0x19143f0" file="gazebo_ros_gps.cpp" linenr="143" str="Load" scope="0x1923c60" type="name" astParent="0x1914340"/>
+    <token id="0x19144a0" file="gazebo_ros_gps.cpp" linenr="143" str="(" scope="0x1923c60" link="0x1914600" astOperand1="0x1914340" astOperand2="0x1914550"/>
+    <token id="0x1914550" file="gazebo_ros_gps.cpp" linenr="143" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x19144a0"/>
+    <token id="0x1914600" file="gazebo_ros_gps.cpp" linenr="143" str=")" scope="0x1923c60" link="0x19144a0"/>
+    <token id="0x19146b0" file="gazebo_ros_gps.cpp" linenr="143" str=";" scope="0x1923c60"/>
+    <token id="0x1914760" file="gazebo_ros_gps.cpp" linenr="144" str="velocity_error_model_" scope="0x1923c60" type="name" astParent="0x1914840"/>
+    <token id="0x1914840" file="gazebo_ros_gps.cpp" linenr="144" str="." scope="0x1923c60" astParent="0x19149a0" astOperand1="0x1914760" astOperand2="0x19148f0"/>
+    <token id="0x19148f0" file="gazebo_ros_gps.cpp" linenr="144" str="Load" scope="0x1923c60" type="name" astParent="0x1914840"/>
+    <token id="0x19149a0" file="gazebo_ros_gps.cpp" linenr="144" str="(" scope="0x1923c60" link="0x1914c60" astOperand1="0x1914840" astOperand2="0x1914b00"/>
+    <token id="0x1914a50" file="gazebo_ros_gps.cpp" linenr="144" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1914b00"/>
+    <token id="0x1914b00" file="gazebo_ros_gps.cpp" linenr="144" str="," scope="0x1923c60" astParent="0x19149a0" astOperand1="0x1914a50" astOperand2="0x1914bb0"/>
+    <token id="0x1914bb0" file="gazebo_ros_gps.cpp" linenr="144" str="&quot;velocity&quot;" scope="0x1923c60" type="string" strlen="8" values="0x1914bb8" astParent="0x1914b00"/>
+    <token id="0x1914c60" file="gazebo_ros_gps.cpp" linenr="144" str=")" scope="0x1923c60" link="0x19149a0"/>
+    <token id="0x1914d10" file="gazebo_ros_gps.cpp" linenr="144" str=";" scope="0x1923c60"/>
+    <token id="0x1914dc0" file="gazebo_ros_gps.cpp" linenr="153" str="if" scope="0x1923c60" type="name" astParent="0x1914e70"/>
+    <token id="0x1914e70" file="gazebo_ros_gps.cpp" linenr="153" str="(" scope="0x1923c60" link="0x1915340" astOperand1="0x1914dc0" astOperand2="0x1914f20"/>
+    <token id="0x1914f20" file="gazebo_ros_gps.cpp" linenr="153" str="!" scope="0x1923c60" type="op" isLogicalOp="True" astParent="0x1914e70" astOperand1="0x19151e0"/>
+    <token id="0x1914fd0" file="gazebo_ros_gps.cpp" linenr="153" str="ros" scope="0x1923c60" type="name" astParent="0x1915080"/>
+    <token id="0x1915080" file="gazebo_ros_gps.cpp" linenr="153" str="::" scope="0x1923c60" astParent="0x19151e0" astOperand1="0x1914fd0" astOperand2="0x1915130"/>
+    <token id="0x1915130" file="gazebo_ros_gps.cpp" linenr="153" str="isInitialized" scope="0x1923c60" type="name" astParent="0x1915080"/>
+    <token id="0x19151e0" file="gazebo_ros_gps.cpp" linenr="153" str="(" scope="0x1923c60" link="0x1915290" astParent="0x1914f20" astOperand1="0x1915080"/>
+    <token id="0x1915290" file="gazebo_ros_gps.cpp" linenr="153" str=")" scope="0x1923c60" link="0x19151e0"/>
+    <token id="0x1915340" file="gazebo_ros_gps.cpp" linenr="153" str=")" scope="0x1923c60" link="0x1914e70"/>
+    <token id="0x19153f0" file="gazebo_ros_gps.cpp" linenr="154" str="{" scope="0x1924e30" link="0x1915cd0"/>
+    <token id="0x19154a0" file="gazebo_ros_gps.cpp" linenr="155" str="ROS_FATAL_STREAM" scope="0x1924e30" type="name" astParent="0x1915580"/>
+    <token id="0x1915580" file="gazebo_ros_gps.cpp" linenr="155" str="(" scope="0x1924e30" link="0x1915a10" astOperand1="0x19154a0" astOperand2="0x19157d0"/>
+    <token id="0x19156c0" file="gazebo_ros_gps.cpp" linenr="155" str="&quot;A ROS node for Gazebo has not been initialized, unable to load plugin. &quot;" scope="0x1924e30" type="string" strlen="71" values="0x19156c8" astParent="0x19157d0"/>
+    <token id="0x19157d0" file="gazebo_ros_gps.cpp" linenr="156" str="&lt;&lt;" scope="0x1924e30" type="op" isArithmeticalOp="True" astParent="0x1915580" astOperand1="0x19156c0" astOperand2="0x19158f0"/>
+    <token id="0x19158f0" file="gazebo_ros_gps.cpp" linenr="156" str="&quot;Load the Gazebo system plugin 'libgazebo_ros_api_plugin.so' in the gazebo_ros package)&quot;" scope="0x1924e30" type="string" strlen="86" values="0x19158f8" astParent="0x19157d0"/>
+    <token id="0x1915a10" file="gazebo_ros_gps.cpp" linenr="156" str=")" scope="0x1924e30" link="0x1915580"/>
+    <token id="0x1915ac0" file="gazebo_ros_gps.cpp" linenr="156" str=";" scope="0x1924e30"/>
+    <token id="0x1915b70" file="gazebo_ros_gps.cpp" linenr="157" str="return" scope="0x1924e30" type="name"/>
+    <token id="0x1915c20" file="gazebo_ros_gps.cpp" linenr="157" str=";" scope="0x1924e30"/>
+    <token id="0x1915cd0" file="gazebo_ros_gps.cpp" linenr="158" str="}" scope="0x1924e30" link="0x19153f0"/>
+    <token id="0x1915d80" file="gazebo_ros_gps.cpp" linenr="160" str="node_handle_" scope="0x1923c60" type="name" astParent="0x1915e30"/>
+    <token id="0x1915e30" file="gazebo_ros_gps.cpp" linenr="160" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1915d80" astOperand2="0x1915ee0"/>
+    <token id="0x1915ee0" file="gazebo_ros_gps.cpp" linenr="160" str="new" scope="0x1923c60" type="name" astParent="0x1915e30" astOperand1="0x19161a0"/>
+    <token id="0x1915f90" file="gazebo_ros_gps.cpp" linenr="160" str="ros" scope="0x1923c60" type="name" astParent="0x19161a0"/>
+    <token id="0x1916040" file="gazebo_ros_gps.cpp" linenr="160" str="::" scope="0x1923c60"/>
+    <token id="0x19160f0" file="gazebo_ros_gps.cpp" linenr="160" str="NodeHandle" scope="0x1923c60" type="name"/>
+    <token id="0x19161a0" file="gazebo_ros_gps.cpp" linenr="160" str="(" scope="0x1923c60" link="0x1916300" astParent="0x1915ee0" astOperand1="0x1915f90" astOperand2="0x1916250"/>
+    <token id="0x1916250" file="gazebo_ros_gps.cpp" linenr="160" str="namespace_" scope="0x1923c60" type="name" astParent="0x19161a0"/>
+    <token id="0x1916300" file="gazebo_ros_gps.cpp" linenr="160" str=")" scope="0x1923c60" link="0x19161a0"/>
+    <token id="0x19163b0" file="gazebo_ros_gps.cpp" linenr="160" str=";" scope="0x1923c60"/>
+    <token id="0x1916460" file="gazebo_ros_gps.cpp" linenr="161" str="fix_publisher_" scope="0x1923c60" type="name" astParent="0x1916510"/>
+    <token id="0x1916510" file="gazebo_ros_gps.cpp" linenr="161" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1916460" astOperand2="0x1916bf0"/>
+    <token id="0x19165c0" file="gazebo_ros_gps.cpp" linenr="161" str="node_handle_" scope="0x1923c60" type="name" astParent="0x1916670"/>
+    <token id="0x1916670" file="gazebo_ros_gps.cpp" linenr="161" str="." scope="0x1923c60" astParent="0x1916bf0" astOperand1="0x19165c0" astOperand2="0x19167d0"/>
+    <token id="0x19167d0" file="gazebo_ros_gps.cpp" linenr="161" str="advertise" scope="0x1923c60" type="name" astParent="0x1916670"/>
+    <token id="0x1916880" file="gazebo_ros_gps.cpp" linenr="161" str="&lt;" scope="0x1923c60" link="0x1916b40"/>
+    <token id="0x1916930" file="gazebo_ros_gps.cpp" linenr="161" str="sensor_msgs" scope="0x1923c60" type="name"/>
+    <token id="0x19169e0" file="gazebo_ros_gps.cpp" linenr="161" str="::" scope="0x1923c60"/>
+    <token id="0x1916a90" file="gazebo_ros_gps.cpp" linenr="161" str="NavSatFix" scope="0x1923c60" type="name"/>
+    <token id="0x1916b40" file="gazebo_ros_gps.cpp" linenr="161" str="&gt;" scope="0x1923c60" link="0x1916880"/>
+    <token id="0x1916bf0" file="gazebo_ros_gps.cpp" linenr="161" str="(" scope="0x1923c60" link="0x1916eb0" astParent="0x1916510" astOperand1="0x1916670" astOperand2="0x1916d50"/>
+    <token id="0x1916ca0" file="gazebo_ros_gps.cpp" linenr="161" str="fix_topic_" scope="0x1923c60" type="name" astParent="0x1916d50"/>
+    <token id="0x1916d50" file="gazebo_ros_gps.cpp" linenr="161" str="," scope="0x1923c60" astParent="0x1916bf0" astOperand1="0x1916ca0" astOperand2="0x1916e00"/>
+    <token id="0x1916e00" file="gazebo_ros_gps.cpp" linenr="161" str="10" scope="0x1923c60" type="number" isInt="True" values="0x1916e08" astParent="0x1916d50"/>
+    <token id="0x1916eb0" file="gazebo_ros_gps.cpp" linenr="161" str=")" scope="0x1923c60" link="0x1916bf0"/>
+    <token id="0x1916f60" file="gazebo_ros_gps.cpp" linenr="161" str=";" scope="0x1923c60"/>
+    <token id="0x1917010" file="gazebo_ros_gps.cpp" linenr="164" str="Reset" scope="0x1923c60" type="name" astParent="0x19170c0"/>
+    <token id="0x19170c0" file="gazebo_ros_gps.cpp" linenr="164" str="(" scope="0x1923c60" link="0x1917170" astOperand1="0x1917010"/>
+    <token id="0x1917170" file="gazebo_ros_gps.cpp" linenr="164" str=")" scope="0x1923c60" link="0x19170c0"/>
+    <token id="0x1917220" file="gazebo_ros_gps.cpp" linenr="164" str=";" scope="0x1923c60"/>
+    <token id="0x19172d0" file="gazebo_ros_gps.cpp" linenr="167" str="updateTimer" scope="0x1923c60" type="name" astParent="0x1917380"/>
+    <token id="0x1917380" file="gazebo_ros_gps.cpp" linenr="167" str="." scope="0x1923c60" astParent="0x19174e0" astOperand1="0x19172d0" astOperand2="0x1917430"/>
+    <token id="0x1917430" file="gazebo_ros_gps.cpp" linenr="167" str="setUpdateRate" scope="0x1923c60" type="name" astParent="0x1917380"/>
+    <token id="0x19174e0" file="gazebo_ros_gps.cpp" linenr="167" str="(" scope="0x1923c60" link="0x1917640" astOperand1="0x1917380" astOperand2="0x1917590"/>
+    <token id="0x1917590" file="gazebo_ros_gps.cpp" linenr="167" str="4.0" scope="0x1923c60" type="number" isFloat="True" astParent="0x19174e0"/>
+    <token id="0x1917640" file="gazebo_ros_gps.cpp" linenr="167" str=")" scope="0x1923c60" link="0x19174e0"/>
+    <token id="0x19176f0" file="gazebo_ros_gps.cpp" linenr="167" str=";" scope="0x1923c60"/>
+    <token id="0x19177a0" file="gazebo_ros_gps.cpp" linenr="168" str="updateTimer" scope="0x1923c60" type="name" astParent="0x1917850"/>
+    <token id="0x1917850" file="gazebo_ros_gps.cpp" linenr="168" str="." scope="0x1923c60" astParent="0x19179b0" astOperand1="0x19177a0" astOperand2="0x1917900"/>
+    <token id="0x1917900" file="gazebo_ros_gps.cpp" linenr="168" str="Load" scope="0x1923c60" type="name" astParent="0x1917850"/>
+    <token id="0x19179b0" file="gazebo_ros_gps.cpp" linenr="168" str="(" scope="0x1923c60" link="0x1917c70" astOperand1="0x1917850" astOperand2="0x1917b10"/>
+    <token id="0x1917a60" file="gazebo_ros_gps.cpp" linenr="168" str="world" scope="0x1923c60" type="name" astParent="0x1917b10"/>
+    <token id="0x1917b10" file="gazebo_ros_gps.cpp" linenr="168" str="," scope="0x1923c60" astParent="0x19179b0" astOperand1="0x1917a60" astOperand2="0x1917bc0"/>
+    <token id="0x1917bc0" file="gazebo_ros_gps.cpp" linenr="168" str="_sdf" scope="0x1923c60" type="name" varId="5" astParent="0x1917b10"/>
+    <token id="0x1917c70" file="gazebo_ros_gps.cpp" linenr="168" str=")" scope="0x1923c60" link="0x19179b0"/>
+    <token id="0x1917d20" file="gazebo_ros_gps.cpp" linenr="168" str=";" scope="0x1923c60"/>
+    <token id="0x1917dd0" file="gazebo_ros_gps.cpp" linenr="169" str="updateConnection" scope="0x1923c60" type="name" astParent="0x1917e80"/>
+    <token id="0x1917e80" file="gazebo_ros_gps.cpp" linenr="169" str="=" scope="0x1923c60" type="op" isAssignmentOp="True" astOperand1="0x1917dd0" astOperand2="0x1918140"/>
+    <token id="0x1917f30" file="gazebo_ros_gps.cpp" linenr="169" str="updateTimer" scope="0x1923c60" type="name" astParent="0x1917fe0"/>
+    <token id="0x1917fe0" file="gazebo_ros_gps.cpp" linenr="169" str="." scope="0x1923c60" astParent="0x1918140" astOperand1="0x1917f30" astOperand2="0x1918090"/>
+    <token id="0x1918090" file="gazebo_ros_gps.cpp" linenr="169" str="Connect" scope="0x1923c60" type="name" astParent="0x1917fe0"/>
+    <token id="0x1918140" file="gazebo_ros_gps.cpp" linenr="169" str="(" scope="0x1923c60" link="0x1918980" astParent="0x1917e80" astOperand1="0x1917fe0" astOperand2="0x1918400"/>
+    <token id="0x19181f0" file="gazebo_ros_gps.cpp" linenr="169" str="boost" scope="0x1923c60" type="name" astParent="0x19182a0"/>
+    <token id="0x19182a0" file="gazebo_ros_gps.cpp" linenr="169" str="::" scope="0x1923c60" astParent="0x1918400" astOperand1="0x19181f0" astOperand2="0x1918350"/>
+    <token id="0x1918350" file="gazebo_ros_gps.cpp" linenr="169" str="bind" scope="0x1923c60" type="name" astParent="0x19182a0"/>
+    <token id="0x1918400" file="gazebo_ros_gps.cpp" linenr="169" str="(" scope="0x1923c60" link="0x19188d0" astParent="0x1918140" astOperand1="0x19182a0" astOperand2="0x1918770"/>
+    <token id="0x19184b0" file="gazebo_ros_gps.cpp" linenr="169" str="&amp;" scope="0x1923c60" type="op" astParent="0x1918770" astOperand1="0x1918610"/>
+    <token id="0x1918560" file="gazebo_ros_gps.cpp" linenr="169" str="GazeboRosGps" scope="0x1923c60" type="name" astParent="0x1918610"/>
+    <token id="0x1918610" file="gazebo_ros_gps.cpp" linenr="169" str="::" scope="0x1923c60" astParent="0x19184b0" astOperand1="0x1918560" astOperand2="0x19186c0"/>
+    <token id="0x19186c0" file="gazebo_ros_gps.cpp" linenr="169" str="Update" scope="0x1923c60" type="name" astParent="0x1918610"/>
+    <token id="0x1918770" file="gazebo_ros_gps.cpp" linenr="169" str="," scope="0x1923c60" astParent="0x1918400" astOperand1="0x19184b0" astOperand2="0x1918820"/>
+    <token id="0x1918820" file="gazebo_ros_gps.cpp" linenr="169" str="this" scope="0x1923c60" type="name" astParent="0x1918770"/>
+    <token id="0x19188d0" file="gazebo_ros_gps.cpp" linenr="169" str=")" scope="0x1923c60" link="0x1918400"/>
+    <token id="0x1918980" file="gazebo_ros_gps.cpp" linenr="169" str=")" scope="0x1923c60" link="0x1918140"/>
+    <token id="0x1918a30" file="gazebo_ros_gps.cpp" linenr="169" str=";" scope="0x1923c60"/>
+    <token id="0x1918ae0" file="gazebo_ros_gps.cpp" linenr="170" str="}" scope="0x1923c60" link="0x18ff9f0"/>
+    <token id="0x1918b90" file="gazebo_ros_gps.cpp" linenr="172" str="void" scope="0x1922d90" type="name"/>
+    <token id="0x1918c40" file="gazebo_ros_gps.cpp" linenr="172" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x1918cf0"/>
+    <token id="0x1918cf0" file="gazebo_ros_gps.cpp" linenr="172" str="::" scope="0x1922d90" astParent="0x1918e50" astOperand1="0x1918c40" astOperand2="0x1918da0"/>
+    <token id="0x1918da0" file="gazebo_ros_gps.cpp" linenr="172" str="Reset" scope="0x1922d90" type="name" astParent="0x1918cf0"/>
+    <token id="0x1918e50" file="gazebo_ros_gps.cpp" linenr="172" str="(" scope="0x1922d90" link="0x1918f00" astOperand1="0x1918cf0"/>
+    <token id="0x1918f00" file="gazebo_ros_gps.cpp" linenr="172" str=")" scope="0x1922d90" link="0x1918e50"/>
+    <token id="0x1918fb0" file="gazebo_ros_gps.cpp" linenr="173" str="{" scope="0x1924f60" link="0x1919d20"/>
+    <token id="0x1919060" file="gazebo_ros_gps.cpp" linenr="174" str="updateTimer" scope="0x1924f60" type="name" astParent="0x1919110"/>
+    <token id="0x1919110" file="gazebo_ros_gps.cpp" linenr="174" str="." scope="0x1924f60" astParent="0x1919270" astOperand1="0x1919060" astOperand2="0x19191c0"/>
+    <token id="0x19191c0" file="gazebo_ros_gps.cpp" linenr="174" str="Reset" scope="0x1924f60" type="name" astParent="0x1919110"/>
+    <token id="0x1919270" file="gazebo_ros_gps.cpp" linenr="174" str="(" scope="0x1924f60" link="0x1919320" astOperand1="0x1919110"/>
+    <token id="0x1919320" file="gazebo_ros_gps.cpp" linenr="174" str=")" scope="0x1924f60" link="0x1919270"/>
+    <token id="0x19193d0" file="gazebo_ros_gps.cpp" linenr="174" str=";" scope="0x1924f60"/>
+    <token id="0x1919480" file="gazebo_ros_gps.cpp" linenr="175" str="position_error_model_" scope="0x1924f60" type="name" astParent="0x1919560"/>
+    <token id="0x1919560" file="gazebo_ros_gps.cpp" linenr="175" str="." scope="0x1924f60" astParent="0x19196c0" astOperand1="0x1919480" astOperand2="0x1919610"/>
+    <token id="0x1919610" file="gazebo_ros_gps.cpp" linenr="175" str="reset" scope="0x1924f60" type="name" astParent="0x1919560"/>
+    <token id="0x19196c0" file="gazebo_ros_gps.cpp" linenr="175" str="(" scope="0x1924f60" link="0x1919770" astOperand1="0x1919560"/>
+    <token id="0x1919770" file="gazebo_ros_gps.cpp" linenr="175" str=")" scope="0x1924f60" link="0x19196c0"/>
+    <token id="0x1919820" file="gazebo_ros_gps.cpp" linenr="175" str=";" scope="0x1924f60"/>
+    <token id="0x19198d0" file="gazebo_ros_gps.cpp" linenr="176" str="velocity_error_model_" scope="0x1924f60" type="name" astParent="0x19199b0"/>
+    <token id="0x19199b0" file="gazebo_ros_gps.cpp" linenr="176" str="." scope="0x1924f60" astParent="0x1919b10" astOperand1="0x19198d0" astOperand2="0x1919a60"/>
+    <token id="0x1919a60" file="gazebo_ros_gps.cpp" linenr="176" str="reset" scope="0x1924f60" type="name" astParent="0x19199b0"/>
+    <token id="0x1919b10" file="gazebo_ros_gps.cpp" linenr="176" str="(" scope="0x1924f60" link="0x1919bc0" astOperand1="0x19199b0"/>
+    <token id="0x1919bc0" file="gazebo_ros_gps.cpp" linenr="176" str=")" scope="0x1924f60" link="0x1919b10"/>
+    <token id="0x1919c70" file="gazebo_ros_gps.cpp" linenr="176" str=";" scope="0x1924f60"/>
+    <token id="0x1919d20" file="gazebo_ros_gps.cpp" linenr="177" str="}" scope="0x1924f60" link="0x1918fb0"/>
+    <token id="0x1919dd0" file="gazebo_ros_gps.cpp" linenr="181" str="void" scope="0x1922d90" type="name"/>
+    <token id="0x1919e80" file="gazebo_ros_gps.cpp" linenr="181" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x1919f30"/>
+    <token id="0x1919f30" file="gazebo_ros_gps.cpp" linenr="181" str="::" scope="0x1922d90" astParent="0x191a090" astOperand1="0x1919e80" astOperand2="0x1919fe0"/>
+    <token id="0x1919fe0" file="gazebo_ros_gps.cpp" linenr="181" str="Update" scope="0x1922d90" type="name" astParent="0x1919f30"/>
+    <token id="0x191a090" file="gazebo_ros_gps.cpp" linenr="181" str="(" scope="0x1922d90" link="0x191a140" astOperand1="0x1919f30"/>
+    <token id="0x191a140" file="gazebo_ros_gps.cpp" linenr="181" str=")" scope="0x1922d90" link="0x191a090"/>
+    <token id="0x191a1f0" file="gazebo_ros_gps.cpp" linenr="182" str="{" scope="0x1925090" link="0x19226a0"/>
+    <token id="0x191a2a0" file="gazebo_ros_gps.cpp" linenr="183" str="common" scope="0x1925090" type="name" astParent="0x191a350"/>
+    <token id="0x191a350" file="gazebo_ros_gps.cpp" linenr="183" str="::" scope="0x1925090" astOperand1="0x191a2a0" astOperand2="0x191a4b0"/>
+    <token id="0x191a400" file="gazebo_ros_gps.cpp" linenr="183" str="Time" scope="0x1925090" type="name"/>
+    <token id="0x191a4b0" file="gazebo_ros_gps.cpp" linenr="183" str="sim_time" scope="0x1925090" type="name" varId="9" variable="0x1925380" astParent="0x191a350"/>
+    <token id="0x191a560" file="gazebo_ros_gps.cpp" linenr="183" str=";" scope="0x1925090"/>
+    <token id="0x19105e0" file="gazebo_ros_gps.cpp" linenr="183" str="sim_time" scope="0x1925090" type="name" varId="9" variable="0x1925380" astParent="0x1910cc0"/>
+    <token id="0x1910cc0" file="gazebo_ros_gps.cpp" linenr="183" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x19105e0" astOperand2="0x191a8d0"/>
+    <token id="0x191a610" file="gazebo_ros_gps.cpp" linenr="183" str="world" scope="0x1925090" type="name" astParent="0x191a6c0"/>
+    <token id="0x191a6c0" file="gazebo_ros_gps.cpp" linenr="183" str="." scope="0x1925090" astParent="0x191a8d0" astOperand1="0x191a610" astOperand2="0x191a820"/>
+    <token id="0x191a820" file="gazebo_ros_gps.cpp" linenr="183" str="GetSimTime" scope="0x1925090" type="name" astParent="0x191a6c0"/>
+    <token id="0x191a8d0" file="gazebo_ros_gps.cpp" linenr="183" str="(" scope="0x1925090" link="0x191a980" astParent="0x1910cc0" astOperand1="0x191a6c0"/>
+    <token id="0x191a980" file="gazebo_ros_gps.cpp" linenr="183" str=")" scope="0x1925090" link="0x191a8d0"/>
+    <token id="0x191aa30" file="gazebo_ros_gps.cpp" linenr="183" str=";" scope="0x1925090"/>
+    <token id="0x191aae0" file="gazebo_ros_gps.cpp" linenr="184" str="double" scope="0x1925090" type="name"/>
+    <token id="0x191ab90" file="gazebo_ros_gps.cpp" linenr="184" str="dt" scope="0x1925090" type="name" varId="10" variable="0x19253f0"/>
+    <token id="0x191ac40" file="gazebo_ros_gps.cpp" linenr="184" str=";" scope="0x1925090"/>
+    <token id="0x1911240" file="gazebo_ros_gps.cpp" linenr="184" str="dt" scope="0x1925090" type="name" varId="10" variable="0x19253f0" astParent="0x1911660"/>
+    <token id="0x1911660" file="gazebo_ros_gps.cpp" linenr="184" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1911240" astOperand2="0x191b1f0"/>
+    <token id="0x191acf0" file="gazebo_ros_gps.cpp" linenr="184" str="updateTimer" scope="0x1925090" type="name" astParent="0x191ada0"/>
+    <token id="0x191ada0" file="gazebo_ros_gps.cpp" linenr="184" str="." scope="0x1925090" astParent="0x191af30" astOperand1="0x191acf0" astOperand2="0x191ae50"/>
+    <token id="0x191ae50" file="gazebo_ros_gps.cpp" linenr="184" str="getTimeSinceLastUpdate" scope="0x1925090" type="name" astParent="0x191ada0"/>
+    <token id="0x191af30" file="gazebo_ros_gps.cpp" linenr="184" str="(" scope="0x1925090" link="0x191afe0" astParent="0x191b090" astOperand1="0x191ada0"/>
+    <token id="0x191afe0" file="gazebo_ros_gps.cpp" linenr="184" str=")" scope="0x1925090" link="0x191af30"/>
+    <token id="0x191b090" file="gazebo_ros_gps.cpp" linenr="184" str="." scope="0x1925090" astParent="0x191b1f0" astOperand1="0x191af30" astOperand2="0x191b140"/>
+    <token id="0x191b140" file="gazebo_ros_gps.cpp" linenr="184" str="Double" scope="0x1925090" type="name" astParent="0x191b090"/>
+    <token id="0x191b1f0" file="gazebo_ros_gps.cpp" linenr="184" str="(" scope="0x1925090" link="0x191b2a0" astParent="0x1911660" astOperand1="0x191b090"/>
+    <token id="0x191b2a0" file="gazebo_ros_gps.cpp" linenr="184" str=")" scope="0x1925090" link="0x191b1f0"/>
+    <token id="0x191b350" file="gazebo_ros_gps.cpp" linenr="184" str=";" scope="0x1925090"/>
+    <token id="0x191b400" file="gazebo_ros_gps.cpp" linenr="186" str="math" scope="0x1925090" type="name" astParent="0x191b4b0"/>
+    <token id="0x191b4b0" file="gazebo_ros_gps.cpp" linenr="186" str="::" scope="0x1925090" astOperand1="0x191b400" astOperand2="0x191b610"/>
+    <token id="0x191b560" file="gazebo_ros_gps.cpp" linenr="186" str="Pose" scope="0x1925090" type="name"/>
+    <token id="0x191b610" file="gazebo_ros_gps.cpp" linenr="186" str="pose" scope="0x1925090" type="name" varId="11" variable="0x1925460" astParent="0x191b4b0"/>
+    <token id="0x191b6c0" file="gazebo_ros_gps.cpp" linenr="186" str=";" scope="0x1925090"/>
+    <token id="0x19119d0" file="gazebo_ros_gps.cpp" linenr="186" str="pose" scope="0x1925090" type="name" varId="11" variable="0x1925460" astParent="0x19120b0"/>
+    <token id="0x19120b0" file="gazebo_ros_gps.cpp" linenr="186" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x19119d0" astOperand2="0x191ba30"/>
+    <token id="0x191b770" file="gazebo_ros_gps.cpp" linenr="186" str="link" scope="0x1925090" type="name" astParent="0x191b820"/>
+    <token id="0x191b820" file="gazebo_ros_gps.cpp" linenr="186" str="." scope="0x1925090" astParent="0x191ba30" astOperand1="0x191b770" astOperand2="0x191b980"/>
+    <token id="0x191b980" file="gazebo_ros_gps.cpp" linenr="186" str="GetWorldPose" scope="0x1925090" type="name" astParent="0x191b820"/>
+    <token id="0x191ba30" file="gazebo_ros_gps.cpp" linenr="186" str="(" scope="0x1925090" link="0x191bae0" astParent="0x19120b0" astOperand1="0x191b820"/>
+    <token id="0x191bae0" file="gazebo_ros_gps.cpp" linenr="186" str=")" scope="0x1925090" link="0x191ba30"/>
+    <token id="0x191bb90" file="gazebo_ros_gps.cpp" linenr="186" str=";" scope="0x1925090"/>
+    <token id="0x191bc40" file="gazebo_ros_gps.cpp" linenr="188" str="gazebo" scope="0x1925090" type="name" astParent="0x191bcf0"/>
+    <token id="0x191bcf0" file="gazebo_ros_gps.cpp" linenr="188" str="::" scope="0x1925090" astParent="0x191be50" astOperand1="0x191bc40" astOperand2="0x191bda0"/>
+    <token id="0x191bda0" file="gazebo_ros_gps.cpp" linenr="188" str="math" scope="0x1925090" type="name" astParent="0x191bcf0"/>
+    <token id="0x191be50" file="gazebo_ros_gps.cpp" linenr="188" str="::" scope="0x1925090" astOperand1="0x191bcf0" astOperand2="0x191bfb0"/>
+    <token id="0x191bf00" file="gazebo_ros_gps.cpp" linenr="188" str="Vector3" scope="0x1925090" type="name"/>
+    <token id="0x191bfb0" file="gazebo_ros_gps.cpp" linenr="188" str="velocity" scope="0x1925090" type="name" varId="12" variable="0x19254d0" astParent="0x191be50"/>
+    <token id="0x191c060" file="gazebo_ros_gps.cpp" linenr="188" str=";" scope="0x1925090"/>
+    <token id="0x1912630" file="gazebo_ros_gps.cpp" linenr="188" str="velocity" scope="0x1925090" type="name" varId="12" variable="0x19254d0" astParent="0x1912a50"/>
+    <token id="0x1912a50" file="gazebo_ros_gps.cpp" linenr="188" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1912630" astOperand2="0x191c1f0"/>
+    <token id="0x191c110" file="gazebo_ros_gps.cpp" linenr="188" str="velocity_error_model_" scope="0x1925090" type="name" astParent="0x191c1f0"/>
+    <token id="0x191c1f0" file="gazebo_ros_gps.cpp" linenr="188" str="(" scope="0x1925090" link="0x191c850" astParent="0x1912a50" astOperand1="0x191c110" astOperand2="0x191c6f0"/>
+    <token id="0x191c2a0" file="gazebo_ros_gps.cpp" linenr="188" str="link" scope="0x1925090" type="name" astParent="0x191c350"/>
+    <token id="0x191c350" file="gazebo_ros_gps.cpp" linenr="188" str="." scope="0x1925090" astParent="0x191c590" astOperand1="0x191c2a0" astOperand2="0x191c4b0"/>
+    <token id="0x191c4b0" file="gazebo_ros_gps.cpp" linenr="188" str="GetWorldLinearVel" scope="0x1925090" type="name" astParent="0x191c350"/>
+    <token id="0x191c590" file="gazebo_ros_gps.cpp" linenr="188" str="(" scope="0x1925090" link="0x191c640" astParent="0x191c6f0" astOperand1="0x191c350"/>
+    <token id="0x191c640" file="gazebo_ros_gps.cpp" linenr="188" str=")" scope="0x1925090" link="0x191c590"/>
+    <token id="0x191c6f0" file="gazebo_ros_gps.cpp" linenr="188" str="," scope="0x1925090" astParent="0x191c1f0" astOperand1="0x191c590" astOperand2="0x191c7a0"/>
+    <token id="0x191c7a0" file="gazebo_ros_gps.cpp" linenr="188" str="dt" scope="0x1925090" type="name" varId="10" variable="0x19253f0" astParent="0x191c6f0"/>
+    <token id="0x191c850" file="gazebo_ros_gps.cpp" linenr="188" str=")" scope="0x1925090" link="0x191c1f0"/>
+    <token id="0x191c900" file="gazebo_ros_gps.cpp" linenr="188" str=";" scope="0x1925090"/>
+    <token id="0x191c9b0" file="gazebo_ros_gps.cpp" linenr="189" str="position_error_model_" scope="0x1925090" type="name" astParent="0x191ca90"/>
+    <token id="0x191ca90" file="gazebo_ros_gps.cpp" linenr="189" str="." scope="0x1925090" astParent="0x191cbf0" astOperand1="0x191c9b0" astOperand2="0x191cb40"/>
+    <token id="0x191cb40" file="gazebo_ros_gps.cpp" linenr="189" str="setCurrentDrift" scope="0x1925090" type="name" astParent="0x191ca90"/>
+    <token id="0x191cbf0" file="gazebo_ros_gps.cpp" linenr="189" str="(" scope="0x1925090" link="0x191d5f0" astOperand1="0x191ca90" astOperand2="0x191d040"/>
+    <token id="0x191cca0" file="gazebo_ros_gps.cpp" linenr="189" str="position_error_model_" scope="0x1925090" type="name" astParent="0x191cd80"/>
+    <token id="0x191cd80" file="gazebo_ros_gps.cpp" linenr="189" str="." scope="0x1925090" astParent="0x191cee0" astOperand1="0x191cca0" astOperand2="0x191ce30"/>
+    <token id="0x191ce30" file="gazebo_ros_gps.cpp" linenr="189" str="getCurrentDrift" scope="0x1925090" type="name" astParent="0x191cd80"/>
+    <token id="0x191cee0" file="gazebo_ros_gps.cpp" linenr="189" str="(" scope="0x1925090" link="0x191cf90" astParent="0x191d040" astOperand1="0x191cd80"/>
+    <token id="0x191cf90" file="gazebo_ros_gps.cpp" linenr="189" str=")" scope="0x1925090" link="0x191cee0"/>
+    <token id="0x191d040" file="gazebo_ros_gps.cpp" linenr="189" str="+" scope="0x1925090" type="op" isArithmeticalOp="True" astParent="0x191cbf0" astOperand1="0x191cee0" astOperand2="0x191d490"/>
+    <token id="0x191d0f0" file="gazebo_ros_gps.cpp" linenr="189" str="velocity_error_model_" scope="0x1925090" type="name" astParent="0x191d1d0"/>
+    <token id="0x191d1d0" file="gazebo_ros_gps.cpp" linenr="189" str="." scope="0x1925090" astParent="0x191d330" astOperand1="0x191d0f0" astOperand2="0x191d280"/>
+    <token id="0x191d280" file="gazebo_ros_gps.cpp" linenr="189" str="getCurrentError" scope="0x1925090" type="name" astParent="0x191d1d0"/>
+    <token id="0x191d330" file="gazebo_ros_gps.cpp" linenr="189" str="(" scope="0x1925090" link="0x191d3e0" astParent="0x191d490" astOperand1="0x191d1d0"/>
+    <token id="0x191d3e0" file="gazebo_ros_gps.cpp" linenr="189" str=")" scope="0x1925090" link="0x191d330"/>
+    <token id="0x191d490" file="gazebo_ros_gps.cpp" linenr="189" str="*" scope="0x1925090" type="op" isArithmeticalOp="True" astParent="0x191d040" astOperand1="0x191d330" astOperand2="0x191d540"/>
+    <token id="0x191d540" file="gazebo_ros_gps.cpp" linenr="189" str="dt" scope="0x1925090" type="name" varId="10" variable="0x19253f0" astParent="0x191d490"/>
+    <token id="0x191d5f0" file="gazebo_ros_gps.cpp" linenr="189" str=")" scope="0x1925090" link="0x191cbf0"/>
+    <token id="0x191d6a0" file="gazebo_ros_gps.cpp" linenr="189" str=";" scope="0x1925090"/>
+    <token id="0x191d750" file="gazebo_ros_gps.cpp" linenr="190" str="gazebo" scope="0x1925090" type="name" astParent="0x191d800"/>
+    <token id="0x191d800" file="gazebo_ros_gps.cpp" linenr="190" str="::" scope="0x1925090" astParent="0x191d960" astOperand1="0x191d750" astOperand2="0x191d8b0"/>
+    <token id="0x191d8b0" file="gazebo_ros_gps.cpp" linenr="190" str="math" scope="0x1925090" type="name" astParent="0x191d800"/>
+    <token id="0x191d960" file="gazebo_ros_gps.cpp" linenr="190" str="::" scope="0x1925090" astOperand1="0x191d800" astOperand2="0x191dac0"/>
+    <token id="0x191da10" file="gazebo_ros_gps.cpp" linenr="190" str="Vector3" scope="0x1925090" type="name"/>
+    <token id="0x191dac0" file="gazebo_ros_gps.cpp" linenr="190" str="position" scope="0x1925090" type="name" varId="13" variable="0x1925540" astParent="0x191d960"/>
+    <token id="0x191db70" file="gazebo_ros_gps.cpp" linenr="190" str=";" scope="0x1925090"/>
+    <token id="0x1912dc0" file="gazebo_ros_gps.cpp" linenr="190" str="position" scope="0x1925090" type="name" varId="13" variable="0x1925540" astParent="0x1916720"/>
+    <token id="0x1916720" file="gazebo_ros_gps.cpp" linenr="190" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1912dc0" astOperand2="0x191dd00"/>
+    <token id="0x191dc20" file="gazebo_ros_gps.cpp" linenr="190" str="position_error_model_" scope="0x1925090" type="name" astParent="0x191dd00"/>
+    <token id="0x191dd00" file="gazebo_ros_gps.cpp" linenr="190" str="(" scope="0x1925090" link="0x191e120" astParent="0x1916720" astOperand1="0x191dc20" astOperand2="0x191dfc0"/>
+    <token id="0x191ddb0" file="gazebo_ros_gps.cpp" linenr="190" str="pose" scope="0x1925090" type="name" varId="11" variable="0x1925460" astParent="0x191de60"/>
+    <token id="0x191de60" file="gazebo_ros_gps.cpp" linenr="190" str="." scope="0x1925090" astParent="0x191dfc0" astOperand1="0x191ddb0" astOperand2="0x191df10"/>
+    <token id="0x191df10" file="gazebo_ros_gps.cpp" linenr="190" str="pos" scope="0x1925090" type="name" varId="14" astParent="0x191de60"/>
+    <token id="0x191dfc0" file="gazebo_ros_gps.cpp" linenr="190" str="," scope="0x1925090" astParent="0x191dd00" astOperand1="0x191de60" astOperand2="0x191e070"/>
+    <token id="0x191e070" file="gazebo_ros_gps.cpp" linenr="190" str="dt" scope="0x1925090" type="name" varId="10" variable="0x19253f0" astParent="0x191dfc0"/>
+    <token id="0x191e120" file="gazebo_ros_gps.cpp" linenr="190" str=")" scope="0x1925090" link="0x191dd00"/>
+    <token id="0x191e1d0" file="gazebo_ros_gps.cpp" linenr="190" str=";" scope="0x1925090"/>
+    <token id="0x191e280" file="gazebo_ros_gps.cpp" linenr="192" str="fix_" scope="0x1925090" type="name" astParent="0x191e330"/>
+    <token id="0x191e330" file="gazebo_ros_gps.cpp" linenr="192" str="." scope="0x1925090" astParent="0x191e490" astOperand1="0x191e280" astOperand2="0x191e3e0"/>
+    <token id="0x191e3e0" file="gazebo_ros_gps.cpp" linenr="192" str="header" scope="0x1925090" type="name" astParent="0x191e330"/>
+    <token id="0x191e490" file="gazebo_ros_gps.cpp" linenr="192" str="." scope="0x1925090" astParent="0x191e5f0" astOperand1="0x191e330" astOperand2="0x191e540"/>
+    <token id="0x191e540" file="gazebo_ros_gps.cpp" linenr="192" str="stamp" scope="0x1925090" type="name" astParent="0x191e490"/>
+    <token id="0x191e5f0" file="gazebo_ros_gps.cpp" linenr="192" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x191e490" astOperand2="0x191e8b0"/>
+    <token id="0x191e6a0" file="gazebo_ros_gps.cpp" linenr="192" str="ros" scope="0x1925090" type="name" astParent="0x191e750"/>
+    <token id="0x191e750" file="gazebo_ros_gps.cpp" linenr="192" str="::" scope="0x1925090" astParent="0x191e8b0" astOperand1="0x191e6a0" astOperand2="0x191e800"/>
+    <token id="0x191e800" file="gazebo_ros_gps.cpp" linenr="192" str="Time" scope="0x1925090" type="name" astParent="0x191e750"/>
+    <token id="0x191e8b0" file="gazebo_ros_gps.cpp" linenr="192" str="(" scope="0x1925090" link="0x191ee30" astParent="0x191e5f0" astOperand1="0x191e750" astOperand2="0x191eb70"/>
+    <token id="0x191e960" file="gazebo_ros_gps.cpp" linenr="192" str="sim_time" scope="0x1925090" type="name" varId="9" variable="0x1925380" astParent="0x191ea10"/>
+    <token id="0x191ea10" file="gazebo_ros_gps.cpp" linenr="192" str="." scope="0x1925090" astParent="0x191eb70" astOperand1="0x191e960" astOperand2="0x191eac0"/>
+    <token id="0x191eac0" file="gazebo_ros_gps.cpp" linenr="192" str="sec" scope="0x1925090" type="name" varId="15" astParent="0x191ea10"/>
+    <token id="0x191eb70" file="gazebo_ros_gps.cpp" linenr="192" str="," scope="0x1925090" astParent="0x191e8b0" astOperand1="0x191ea10" astOperand2="0x191ecd0"/>
+    <token id="0x191ec20" file="gazebo_ros_gps.cpp" linenr="192" str="sim_time" scope="0x1925090" type="name" varId="9" variable="0x1925380" astParent="0x191ecd0"/>
+    <token id="0x191ecd0" file="gazebo_ros_gps.cpp" linenr="192" str="." scope="0x1925090" astParent="0x191eb70" astOperand1="0x191ec20" astOperand2="0x191ed80"/>
+    <token id="0x191ed80" file="gazebo_ros_gps.cpp" linenr="192" str="nsec" scope="0x1925090" type="name" varId="16" astParent="0x191ecd0"/>
+    <token id="0x191ee30" file="gazebo_ros_gps.cpp" linenr="192" str=")" scope="0x1925090" link="0x191e8b0"/>
+    <token id="0x191eee0" file="gazebo_ros_gps.cpp" linenr="192" str=";" scope="0x1925090"/>
+    <token id="0x191ef90" file="gazebo_ros_gps.cpp" linenr="203" str="UTMCoordinates" scope="0x1925090" type="name"/>
+    <token id="0x191f040" file="gazebo_ros_gps.cpp" linenr="203" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0"/>
+    <token id="0x191f0f0" file="gazebo_ros_gps.cpp" linenr="203" str=";" scope="0x1925090"/>
+    <token id="0x191f1a0" file="gazebo_ros_gps.cpp" linenr="204" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0" astParent="0x191f250"/>
+    <token id="0x191f250" file="gazebo_ros_gps.cpp" linenr="204" str="." scope="0x1925090" astParent="0x191f3b0" astOperand1="0x191f1a0" astOperand2="0x191f300"/>
+    <token id="0x191f300" file="gazebo_ros_gps.cpp" linenr="204" str="easting" scope="0x1925090" type="name" varId="18" astParent="0x191f250"/>
+    <token id="0x191f3b0" file="gazebo_ros_gps.cpp" linenr="204" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x191f250" astOperand2="0x191f670"/>
+    <token id="0x191f460" file="gazebo_ros_gps.cpp" linenr="204" str="reference_utm_" scope="0x1925090" type="name" astParent="0x191f510"/>
+    <token id="0x191f510" file="gazebo_ros_gps.cpp" linenr="204" str="." scope="0x1925090" astParent="0x191f670" astOperand1="0x191f460" astOperand2="0x191f5c0"/>
+    <token id="0x191f5c0" file="gazebo_ros_gps.cpp" linenr="204" str="easting" scope="0x1925090" type="name" astParent="0x191f510"/>
+    <token id="0x191f670" file="gazebo_ros_gps.cpp" linenr="204" str="+" scope="0x1925090" type="op" isArithmeticalOp="True" astParent="0x191f3b0" astOperand1="0x191f510" astOperand2="0x191f7d0"/>
+    <token id="0x191f720" file="gazebo_ros_gps.cpp" linenr="204" str="position" scope="0x1925090" type="name" varId="13" variable="0x1925540" astParent="0x191f7d0"/>
+    <token id="0x191f7d0" file="gazebo_ros_gps.cpp" linenr="204" str="." scope="0x1925090" astParent="0x191f670" astOperand1="0x191f720" astOperand2="0x191f880"/>
+    <token id="0x191f880" file="gazebo_ros_gps.cpp" linenr="204" str="x" scope="0x1925090" type="name" varId="19" astParent="0x191f7d0"/>
+    <token id="0x191f930" file="gazebo_ros_gps.cpp" linenr="204" str=";" scope="0x1925090"/>
+    <token id="0x191f9e0" file="gazebo_ros_gps.cpp" linenr="205" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0" astParent="0x191fa90"/>
+    <token id="0x191fa90" file="gazebo_ros_gps.cpp" linenr="205" str="." scope="0x1925090" astParent="0x191fbf0" astOperand1="0x191f9e0" astOperand2="0x191fb40"/>
+    <token id="0x191fb40" file="gazebo_ros_gps.cpp" linenr="205" str="northing" scope="0x1925090" type="name" varId="20" astParent="0x191fa90"/>
+    <token id="0x191fbf0" file="gazebo_ros_gps.cpp" linenr="205" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x191fa90" astOperand2="0x191feb0"/>
+    <token id="0x191fca0" file="gazebo_ros_gps.cpp" linenr="205" str="reference_utm_" scope="0x1925090" type="name" astParent="0x191fd50"/>
+    <token id="0x191fd50" file="gazebo_ros_gps.cpp" linenr="205" str="." scope="0x1925090" astParent="0x191feb0" astOperand1="0x191fca0" astOperand2="0x191fe00"/>
+    <token id="0x191fe00" file="gazebo_ros_gps.cpp" linenr="205" str="northing" scope="0x1925090" type="name" astParent="0x191fd50"/>
+    <token id="0x191feb0" file="gazebo_ros_gps.cpp" linenr="205" str="+" scope="0x1925090" type="op" isArithmeticalOp="True" astParent="0x191fbf0" astOperand1="0x191fd50" astOperand2="0x1920010"/>
+    <token id="0x191ff60" file="gazebo_ros_gps.cpp" linenr="205" str="position" scope="0x1925090" type="name" varId="13" variable="0x1925540" astParent="0x1920010"/>
+    <token id="0x1920010" file="gazebo_ros_gps.cpp" linenr="205" str="." scope="0x1925090" astParent="0x191feb0" astOperand1="0x191ff60" astOperand2="0x19200c0"/>
+    <token id="0x19200c0" file="gazebo_ros_gps.cpp" linenr="205" str="y" scope="0x1925090" type="name" varId="21" astParent="0x1920010"/>
+    <token id="0x1920170" file="gazebo_ros_gps.cpp" linenr="205" str=";" scope="0x1925090"/>
+    <token id="0x1920220" file="gazebo_ros_gps.cpp" linenr="206" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0" astParent="0x19202d0"/>
+    <token id="0x19202d0" file="gazebo_ros_gps.cpp" linenr="206" str="." scope="0x1925090" astParent="0x1920430" astOperand1="0x1920220" astOperand2="0x1920380"/>
+    <token id="0x1920380" file="gazebo_ros_gps.cpp" linenr="206" str="grid_zone" scope="0x1925090" type="name" varId="22" astParent="0x19202d0"/>
+    <token id="0x1920430" file="gazebo_ros_gps.cpp" linenr="206" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x19202d0" astOperand2="0x1920590"/>
+    <token id="0x19204e0" file="gazebo_ros_gps.cpp" linenr="206" str="reference_utm_" scope="0x1925090" type="name" astParent="0x1920590"/>
+    <token id="0x1920590" file="gazebo_ros_gps.cpp" linenr="206" str="." scope="0x1925090" astParent="0x1920430" astOperand1="0x19204e0" astOperand2="0x1920640"/>
+    <token id="0x1920640" file="gazebo_ros_gps.cpp" linenr="206" str="grid_zone" scope="0x1925090" type="name" astParent="0x1920590"/>
+    <token id="0x19206f0" file="gazebo_ros_gps.cpp" linenr="206" str=";" scope="0x1925090"/>
+    <token id="0x19207a0" file="gazebo_ros_gps.cpp" linenr="207" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0" astParent="0x1920850"/>
+    <token id="0x1920850" file="gazebo_ros_gps.cpp" linenr="207" str="." scope="0x1925090" astParent="0x19209b0" astOperand1="0x19207a0" astOperand2="0x1920900"/>
+    <token id="0x1920900" file="gazebo_ros_gps.cpp" linenr="207" str="hemisphere" scope="0x1925090" type="name" varId="23" astParent="0x1920850"/>
+    <token id="0x19209b0" file="gazebo_ros_gps.cpp" linenr="207" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1920850" astOperand2="0x1920b10"/>
+    <token id="0x1920a60" file="gazebo_ros_gps.cpp" linenr="207" str="reference_utm_" scope="0x1925090" type="name" astParent="0x1920b10"/>
+    <token id="0x1920b10" file="gazebo_ros_gps.cpp" linenr="207" str="." scope="0x1925090" astParent="0x19209b0" astOperand1="0x1920a60" astOperand2="0x1920bc0"/>
+    <token id="0x1920bc0" file="gazebo_ros_gps.cpp" linenr="207" str="hemisphere" scope="0x1925090" type="name" astParent="0x1920b10"/>
+    <token id="0x1920c70" file="gazebo_ros_gps.cpp" linenr="207" str=";" scope="0x1925090"/>
+    <token id="0x1920d20" file="gazebo_ros_gps.cpp" linenr="209" str="UTMConverter" scope="0x1925090" type="name" astParent="0x1920dd0"/>
+    <token id="0x1920dd0" file="gazebo_ros_gps.cpp" linenr="209" str="::" scope="0x1925090" astParent="0x1920f90" astOperand1="0x1920d20" astOperand2="0x1920eb0"/>
+    <token id="0x1920eb0" file="gazebo_ros_gps.cpp" linenr="209" str="UTMCoordinatesToLatitudeAndLongitude" scope="0x1925090" type="name" astParent="0x1920dd0"/>
+    <token id="0x1920f90" file="gazebo_ros_gps.cpp" linenr="209" str="(" scope="0x1925090" link="0x1921250" astOperand1="0x1920dd0" astOperand2="0x19210f0"/>
+    <token id="0x1921040" file="gazebo_ros_gps.cpp" linenr="209" str="utm" scope="0x1925090" type="name" varId="17" variable="0x19255b0" astParent="0x19210f0"/>
+    <token id="0x19210f0" file="gazebo_ros_gps.cpp" linenr="209" str="," scope="0x1925090" astParent="0x1920f90" astOperand1="0x1921040" astOperand2="0x19211a0"/>
+    <token id="0x19211a0" file="gazebo_ros_gps.cpp" linenr="209" str="fix_" scope="0x1925090" type="name" astParent="0x19210f0"/>
+    <token id="0x1921250" file="gazebo_ros_gps.cpp" linenr="209" str=")" scope="0x1925090" link="0x1920f90"/>
+    <token id="0x1921300" file="gazebo_ros_gps.cpp" linenr="209" str=";" scope="0x1925090"/>
+    <token id="0x19213b0" file="gazebo_ros_gps.cpp" linenr="210" str="fix_" scope="0x1925090" type="name" astParent="0x1921460"/>
+    <token id="0x1921460" file="gazebo_ros_gps.cpp" linenr="210" str="." scope="0x1925090" astParent="0x19215c0" astOperand1="0x19213b0" astOperand2="0x1921510"/>
+    <token id="0x1921510" file="gazebo_ros_gps.cpp" linenr="210" str="altitude" scope="0x1925090" type="name" astParent="0x1921460"/>
+    <token id="0x19215c0" file="gazebo_ros_gps.cpp" linenr="210" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1921460" astOperand2="0x1921720"/>
+    <token id="0x1921670" file="gazebo_ros_gps.cpp" linenr="210" str="reference_altitude_" scope="0x1925090" type="name" astParent="0x1921720"/>
+    <token id="0x1921720" file="gazebo_ros_gps.cpp" linenr="210" str="+" scope="0x1925090" type="op" isArithmeticalOp="True" astParent="0x19215c0" astOperand1="0x1921670" astOperand2="0x1921880"/>
+    <token id="0x19217d0" file="gazebo_ros_gps.cpp" linenr="210" str="position" scope="0x1925090" type="name" varId="13" variable="0x1925540" astParent="0x1921880"/>
+    <token id="0x1921880" file="gazebo_ros_gps.cpp" linenr="210" str="." scope="0x1925090" astParent="0x1921720" astOperand1="0x19217d0" astOperand2="0x1921930"/>
+    <token id="0x1921930" file="gazebo_ros_gps.cpp" linenr="210" str="z" scope="0x1925090" type="name" varId="24" astParent="0x1921880"/>
+    <token id="0x19219e0" file="gazebo_ros_gps.cpp" linenr="210" str=";" scope="0x1925090"/>
+    <token id="0x1921a90" file="gazebo_ros_gps.cpp" linenr="211" str="fix_" scope="0x1925090" type="name" astParent="0x1921b40"/>
+    <token id="0x1921b40" file="gazebo_ros_gps.cpp" linenr="211" str="." scope="0x1925090" astParent="0x1921d00" astOperand1="0x1921a90" astOperand2="0x1921c20"/>
+    <token id="0x1921c20" file="gazebo_ros_gps.cpp" linenr="211" str="position_covariance_type" scope="0x1925090" type="name" astParent="0x1921b40"/>
+    <token id="0x1921d00" file="gazebo_ros_gps.cpp" linenr="211" str="=" scope="0x1925090" type="op" isAssignmentOp="True" astOperand1="0x1921b40" astOperand2="0x1921fc0"/>
+    <token id="0x1921db0" file="gazebo_ros_gps.cpp" linenr="211" str="sensor_msgs" scope="0x1925090" type="name" astParent="0x1921e60"/>
+    <token id="0x1921e60" file="gazebo_ros_gps.cpp" linenr="211" str="::" scope="0x1925090" astParent="0x1921fc0" astOperand1="0x1921db0" astOperand2="0x1921f10"/>
+    <token id="0x1921f10" file="gazebo_ros_gps.cpp" linenr="211" str="NavSatFix" scope="0x1925090" type="name" astParent="0x1921e60"/>
+    <token id="0x1921fc0" file="gazebo_ros_gps.cpp" linenr="211" str="::" scope="0x1925090" astParent="0x1921d00" astOperand1="0x1921e60" astOperand2="0x1922070"/>
+    <token id="0x1922070" file="gazebo_ros_gps.cpp" linenr="211" str="COVARIANCE_TYPE_UNKNOWN" scope="0x1925090" type="name" astParent="0x1921fc0"/>
+    <token id="0x1922120" file="gazebo_ros_gps.cpp" linenr="211" str=";" scope="0x1925090"/>
+    <token id="0x19221d0" file="gazebo_ros_gps.cpp" linenr="213" str="fix_publisher_" scope="0x1925090" type="name" astParent="0x1922280"/>
+    <token id="0x1922280" file="gazebo_ros_gps.cpp" linenr="213" str="." scope="0x1925090" astParent="0x19223e0" astOperand1="0x19221d0" astOperand2="0x1922330"/>
+    <token id="0x1922330" file="gazebo_ros_gps.cpp" linenr="213" str="publish" scope="0x1925090" type="name" astParent="0x1922280"/>
+    <token id="0x19223e0" file="gazebo_ros_gps.cpp" linenr="213" str="(" scope="0x1925090" link="0x1922540" astOperand1="0x1922280" astOperand2="0x1922490"/>
+    <token id="0x1922490" file="gazebo_ros_gps.cpp" linenr="213" str="fix_" scope="0x1925090" type="name" astParent="0x19223e0"/>
+    <token id="0x1922540" file="gazebo_ros_gps.cpp" linenr="213" str=")" scope="0x1925090" link="0x19223e0"/>
+    <token id="0x19225f0" file="gazebo_ros_gps.cpp" linenr="213" str=";" scope="0x1925090"/>
+    <token id="0x19226a0" file="gazebo_ros_gps.cpp" linenr="215" str="}" scope="0x1925090" link="0x191a1f0"/>
+    <token id="0x1922780" file="gazebo_ros_gps.cpp" linenr="218" str="GZ_REGISTER_MODEL_PLUGIN" scope="0x1922d90" type="name" astParent="0x1922860"/>
+    <token id="0x1922860" file="gazebo_ros_gps.cpp" linenr="218" str="(" scope="0x1922d90" link="0x19229c0" astOperand1="0x1922780" astOperand2="0x1922910"/>
+    <token id="0x1922910" file="gazebo_ros_gps.cpp" linenr="218" str="GazeboRosGps" scope="0x1922d90" type="name" astParent="0x1922860"/>
+    <token id="0x19229c0" file="gazebo_ros_gps.cpp" linenr="218" str=")" scope="0x1922d90" link="0x1922860"/>
+    <token id="0x1922a70" file="gazebo_ros_gps.cpp" linenr="220" str="}" scope="0x1922d90" link="0x18fd8f0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x19230a0" type="Global">
+      <varlist>
+        <var id="0x19251c0"/>
+        <var id="0x1925230"/>
+        <var id="0x19252a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1922d90" type="Namespace" className="gazebo" classStart="0x18fd8f0" classEnd="0x1922a70" nestedIn="0x19230a0"/>
+    <scope id="0x1922b30" type="Function" className="GazeboRosGps" classStart="0x18fdd10" classEnd="0x18fddc0" nestedIn="0x1922d90"/>
+    <scope id="0x1923b30" type="Function" className="GazeboRosGps" classStart="0x18fe290" classEnd="0x18feef0" nestedIn="0x1922d90"/>
+    <scope id="0x1923c60" type="Function" className="Load" classStart="0x18ff9f0" classEnd="0x1918ae0" nestedIn="0x1922d90">
+      <varlist>
+        <var id="0x1925310"/>
+      </varlist>
+    </scope>
+    <scope id="0x1923d90" type="If" classStart="0x190a630" classEnd="0x190ad10" nestedIn="0x1923c60"/>
+    <scope id="0x1923ec0" type="Else" classStart="0x190b130" classEnd="0x190b4a0" nestedIn="0x1923c60"/>
+    <scope id="0x1923ff0" type="Try" classStart="0x190b130" classEnd="0x190b4a0" nestedIn="0x1923c60"/>
+    <scope id="0x1924120" type="If" classStart="0x1903400" classEnd="0x1904110" nestedIn="0x1923c60"/>
+    <scope id="0x1924250" type="Else" classStart="0x1904270" classEnd="0x19057c0" nestedIn="0x1923c60"/>
+    <scope id="0x1924380" type="Try" classStart="0x1904270" classEnd="0x19057c0" nestedIn="0x1923c60"/>
+    <scope id="0x19244b0" type="If" classStart="0x1905be0" classEnd="0x1906620" nestedIn="0x1923c60"/>
+    <scope id="0x19245e0" type="If" classStart="0x190bad0" classEnd="0x190c1b0" nestedIn="0x1923c60"/>
+    <scope id="0x1924710" type="If" classStart="0x190c5d0" classEnd="0x190c940" nestedIn="0x1923c60"/>
+    <scope id="0x1924840" type="If" classStart="0x190cf70" classEnd="0x190d520" nestedIn="0x1923c60"/>
+    <scope id="0x1924970" type="If" classStart="0x190d970" classEnd="0x190dce0" nestedIn="0x1923c60"/>
+    <scope id="0x1924aa0" type="If" classStart="0x190e3c0" classEnd="0x190e9a0" nestedIn="0x1923c60"/>
+    <scope id="0x1924bd0" type="If" classStart="0x190edf0" classEnd="0x190f160" nestedIn="0x1923c60"/>
+    <scope id="0x1924d00" type="If" classStart="0x190f840" classEnd="0x190fe20" nestedIn="0x1923c60"/>
+    <scope id="0x1924e30" type="If" classStart="0x19153f0" classEnd="0x1915cd0" nestedIn="0x1923c60"/>
+    <scope id="0x1924f60" type="Function" className="Reset" classStart="0x1918fb0" classEnd="0x1919d20" nestedIn="0x1922d90"/>
+    <scope id="0x1925090" type="Function" className="Update" classStart="0x191a1f0" classEnd="0x19226a0" nestedIn="0x1922d90">
+      <varlist>
+        <var id="0x1925380"/>
+        <var id="0x19253f0"/>
+        <var id="0x1925460"/>
+        <var id="0x19254d0"/>
+        <var id="0x1925540"/>
+        <var id="0x19255b0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x19251c0" nameToken="0x18fcaa0" typeStartToken="0x18fc9c0" typeEndToken="0x18fc9c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="0x1925230" nameToken="0x18fcfa0" typeStartToken="0x18fcef0" typeEndToken="0x18fcef0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="0x19252a0" nameToken="0x18fd4a0" typeStartToken="0x18fd3f0" typeEndToken="0x18fd3f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="true"/>
+    <var id="0x1925310" nameToken="0x19077c0" typeStartToken="0x19075b0" typeEndToken="0x1907710" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1925380" nameToken="0x191a4b0" typeStartToken="0x191a2a0" typeEndToken="0x191a400" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19253f0" nameToken="0x191ab90" typeStartToken="0x191aae0" typeEndToken="0x191aae0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1925460" nameToken="0x191b610" typeStartToken="0x191b400" typeEndToken="0x191b560" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19254d0" nameToken="0x191bfb0" typeStartToken="0x191bc40" typeEndToken="0x191bf00" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1925540" nameToken="0x191dac0" typeStartToken="0x191d750" typeEndToken="0x191da10" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19255b0" nameToken="0x191f040" typeStartToken="0x191ef90" typeEndToken="0x191ef90" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1900688">
+      <value tokvalue="0x1900680" known="true"/>
+    </values>
+    <values id="0x1901268">
+      <value tokvalue="0x1901260" known="true"/>
+    </values>
+    <values id="0x19031f8">
+      <value tokvalue="0x19031f0" known="true"/>
+    </values>
+    <values id="0x19047f8">
+      <value tokvalue="0x19047f0" known="true"/>
+    </values>
+    <values id="0x1905e48">
+      <value tokvalue="0x1905e40" known="true"/>
+    </values>
+    <values id="0x1906838">
+      <value tokvalue="0x1906830" known="true"/>
+    </values>
+    <values id="0x1906af8">
+      <value tokvalue="0x1906af0" known="true"/>
+    </values>
+    <values id="0x190a848">
+      <value tokvalue="0x190a840" known="true"/>
+    </values>
+    <values id="0x190af28">
+      <value tokvalue="0x190af20" known="true"/>
+    </values>
+    <values id="0x190bce8">
+      <value tokvalue="0x190bce0" known="true"/>
+    </values>
+    <values id="0x190c3c8">
+      <value tokvalue="0x190c3c0" known="true"/>
+    </values>
+    <values id="0x190d188">
+      <value tokvalue="0x190d180" known="true"/>
+    </values>
+    <values id="0x190d738">
+      <value tokvalue="0x190d730" known="true"/>
+    </values>
+    <values id="0x190e608">
+      <value tokvalue="0x190e600" known="true"/>
+    </values>
+    <values id="0x190ebb8">
+      <value tokvalue="0x190ebb0" known="true"/>
+    </values>
+    <values id="0x190fa88">
+      <value tokvalue="0x190fa80" known="true"/>
+    </values>
+    <values id="0x1910038">
+      <value tokvalue="0x1910030" known="true"/>
+    </values>
+    <values id="0x1910ed8">
+      <value tokvalue="0x1910ed0" known="true"/>
+    </values>
+    <values id="0x1911458">
+      <value tokvalue="0x1911450" known="true"/>
+    </values>
+    <values id="0x19122c8">
+      <value tokvalue="0x19122c0" known="true"/>
+    </values>
+    <values id="0x1912848">
+      <value tokvalue="0x1912840" known="true"/>
+    </values>
+    <values id="0x1914bb8">
+      <value tokvalue="0x1914bb0" known="true"/>
+    </values>
+    <values id="0x19156c8">
+      <value tokvalue="0x19156c0" known="true"/>
+    </values>
+    <values id="0x19158f8">
+      <value tokvalue="0x19158f0" known="true"/>
+    </values>
+    <values id="0x1916e08">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

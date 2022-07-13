@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0xf68940" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0xf58ff0" file="Temperature.cpp" linenr="16" str="ros" scope="0xf70d00" type="name" astParent="0xf650c0"/>
+    <token id="0xf650c0" file="Temperature.cpp" linenr="16" str="::" scope="0xf70d00" astOperand1="0xf58ff0" astOperand2="0xf65220"/>
+    <token id="0xf65170" file="Temperature.cpp" linenr="16" str="NodeHandle" scope="0xf70d00" type="name"/>
+    <token id="0xf65220" file="Temperature.cpp" linenr="16" str="nh" scope="0xf70d00" type="name" varId="1" variable="0xf717f0" astParent="0xf650c0"/>
+    <token id="0xf652d0" file="Temperature.cpp" linenr="16" str=";" scope="0xf70d00"/>
+    <token id="0xf65380" file="Temperature.cpp" linenr="18" str="std_msgs" scope="0xf70d00" type="name" astParent="0xf67b30"/>
+    <token id="0xf67b30" file="Temperature.cpp" linenr="18" str="::" scope="0xf70d00" astOperand1="0xf65380" astOperand2="0xf67c90"/>
+    <token id="0xf67be0" file="Temperature.cpp" linenr="18" str="Float32" scope="0xf70d00" type="name"/>
+    <token id="0xf67c90" file="Temperature.cpp" linenr="18" str="temp_msg" scope="0xf70d00" type="name" varId="2" variable="0xf71860" astParent="0xf67b30"/>
+    <token id="0xf67d40" file="Temperature.cpp" linenr="18" str=";" scope="0xf70d00"/>
+    <token id="0xf67df0" file="Temperature.cpp" linenr="19" str="ros" scope="0xf70d00" type="name" astParent="0xf67ea0"/>
+    <token id="0xf67ea0" file="Temperature.cpp" linenr="19" str="::" scope="0xf70d00" astParent="0xf680b0" astOperand1="0xf67df0" astOperand2="0xf68000"/>
+    <token id="0xf67f50" file="Temperature.cpp" linenr="19" str="Publisher" scope="0xf70d00" type="name"/>
+    <token id="0xf68000" file="Temperature.cpp" linenr="19" str="pub_temp" scope="0xf70d00" type="name" varId="3" variable="0xf718d0" astParent="0xf67ea0"/>
+    <token id="0xf680b0" file="Temperature.cpp" linenr="19" str="(" scope="0xf70d00" link="0xf69140" astOperand1="0xf67ea0" astOperand2="0xf68210"/>
+    <token id="0xf68160" file="Temperature.cpp" linenr="19" str="&quot;temperature&quot;" scope="0xf70d00" type="string" strlen="11" values="0xf68168" astParent="0xf68210"/>
+    <token id="0xf68210" file="Temperature.cpp" linenr="19" str="," scope="0xf70d00" astParent="0xf680b0" astOperand1="0xf68160" astOperand2="0xf682c0"/>
+    <token id="0xf682c0" file="Temperature.cpp" linenr="19" str="&amp;" scope="0xf70d00" type="op" astParent="0xf68210" astOperand1="0xf69090"/>
+    <token id="0xf69090" file="Temperature.cpp" linenr="19" str="temp_msg" scope="0xf70d00" type="name" varId="2" variable="0xf71860" astParent="0xf682c0"/>
+    <token id="0xf69140" file="Temperature.cpp" linenr="19" str=")" scope="0xf70d00" link="0xf680b0"/>
+    <token id="0xf691f0" file="Temperature.cpp" linenr="19" str=";" scope="0xf70d00"/>
+    <token id="0xf692a0" file="Temperature.cpp" linenr="29" str="int" scope="0xf70d00" type="name"/>
+    <token id="0xf69350" file="Temperature.cpp" linenr="29" str="sensorAddress" scope="0xf70d00" type="name" varId="4" variable="0xf71940"/>
+    <token id="0xf69400" file="Temperature.cpp" linenr="29" str=";" scope="0xf70d00"/>
+    <token id="0xf6eaa0" file="Temperature.cpp" linenr="29" str="sensorAddress" scope="0xf70d00" type="name" varId="4" variable="0xf71940" astParent="0xf68730"/>
+    <token id="0xf68730" file="Temperature.cpp" linenr="29" str="=" scope="0xf70d00" type="op" isAssignmentOp="True" astOperand1="0xf6eaa0" astOperand2="0xf68680"/>
+    <token id="0xf68680" file="Temperature.cpp" linenr="29" str="72" scope="0xf70d00" type="number" isInt="True" values="0xf68688" astParent="0xf68730"/>
+    <token id="0xf69560" file="Temperature.cpp" linenr="29" str=";" scope="0xf70d00"/>
+    <token id="0xf69610" file="Temperature.cpp" linenr="33" str="Timer" scope="0xf70d00" type="name"/>
+    <token id="0xf696c0" file="Temperature.cpp" linenr="33" str="t" scope="0xf70d00" type="name" varId="5" variable="0xf719b0"/>
+    <token id="0xf69770" file="Temperature.cpp" linenr="33" str=";" scope="0xf70d00"/>
+    <token id="0xf69820" file="Temperature.cpp" linenr="35" str="I2C" scope="0xf70d00" type="name"/>
+    <token id="0xf698d0" file="Temperature.cpp" linenr="35" str="i2c" scope="0xf70d00" type="name" function="0xf68d70" astParent="0xf69980"/>
+    <token id="0xf69980" file="Temperature.cpp" linenr="35" str="(" scope="0xf70d00" link="0xf69c40" astOperand1="0xf698d0" astOperand2="0xf69ae0"/>
+    <token id="0xf69a30" file="Temperature.cpp" linenr="35" str="p9" scope="0xf70d00" type="name" astParent="0xf69ae0"/>
+    <token id="0xf69ae0" file="Temperature.cpp" linenr="35" str="," scope="0xf70d00" astParent="0xf69980" astOperand1="0xf69a30" astOperand2="0xf69b90"/>
+    <token id="0xf69b90" file="Temperature.cpp" linenr="35" str="p10" scope="0xf70d00" type="name" astParent="0xf69ae0"/>
+    <token id="0xf69c40" file="Temperature.cpp" linenr="35" str=")" scope="0xf70d00" link="0xf69980"/>
+    <token id="0xf69cf0" file="Temperature.cpp" linenr="35" str=";" scope="0xf70d00"/>
+    <token id="0xf69da0" file="Temperature.cpp" linenr="42" str="int" scope="0xf70d00" type="name"/>
+    <token id="0xf69e50" file="Temperature.cpp" linenr="42" str="main" scope="0xf70d00" type="name" function="0xf68e10" astParent="0xf69f00"/>
+    <token id="0xf69f00" file="Temperature.cpp" linenr="42" str="(" scope="0xf70d00" link="0xf69fb0" astOperand1="0xf69e50"/>
+    <token id="0xf69fb0" file="Temperature.cpp" linenr="42" str=")" scope="0xf70d00" link="0xf69f00"/>
+    <token id="0xf6a060" file="Temperature.cpp" linenr="42" str="{" scope="0xf709f0" link="0xf706d0"/>
+    <token id="0xf6a110" file="Temperature.cpp" linenr="43" str="t" scope="0xf709f0" type="name" varId="5" variable="0xf719b0" astParent="0xf6a1c0"/>
+    <token id="0xf6a1c0" file="Temperature.cpp" linenr="43" str="." scope="0xf709f0" astParent="0xf6a320" astOperand1="0xf6a110" astOperand2="0xf6a270"/>
+    <token id="0xf6a270" file="Temperature.cpp" linenr="43" str="start" scope="0xf709f0" type="name" astParent="0xf6a1c0"/>
+    <token id="0xf6a320" file="Temperature.cpp" linenr="43" str="(" scope="0xf709f0" link="0xf6a3d0" astOperand1="0xf6a1c0"/>
+    <token id="0xf6a3d0" file="Temperature.cpp" linenr="43" str=")" scope="0xf709f0" link="0xf6a320"/>
+    <token id="0xf6a480" file="Temperature.cpp" linenr="43" str=";" scope="0xf709f0"/>
+    <token id="0xf6a530" file="Temperature.cpp" linenr="45" str="nh" scope="0xf709f0" type="name" varId="1" variable="0xf717f0" astParent="0xf6a5e0"/>
+    <token id="0xf6a5e0" file="Temperature.cpp" linenr="45" str="." scope="0xf709f0" astParent="0xf6a740" astOperand1="0xf6a530" astOperand2="0xf6a690"/>
+    <token id="0xf6a690" file="Temperature.cpp" linenr="45" str="initNode" scope="0xf709f0" type="name" astParent="0xf6a5e0"/>
+    <token id="0xf6a740" file="Temperature.cpp" linenr="45" str="(" scope="0xf709f0" link="0xf6a7f0" astOperand1="0xf6a5e0"/>
+    <token id="0xf6a7f0" file="Temperature.cpp" linenr="45" str=")" scope="0xf709f0" link="0xf6a740"/>
+    <token id="0xf6a8a0" file="Temperature.cpp" linenr="45" str=";" scope="0xf709f0"/>
+    <token id="0xf6a950" file="Temperature.cpp" linenr="46" str="nh" scope="0xf709f0" type="name" varId="1" variable="0xf717f0" astParent="0xf6aa00"/>
+    <token id="0xf6aa00" file="Temperature.cpp" linenr="46" str="." scope="0xf709f0" astParent="0xf6ab60" astOperand1="0xf6a950" astOperand2="0xf6aab0"/>
+    <token id="0xf6aab0" file="Temperature.cpp" linenr="46" str="advertise" scope="0xf709f0" type="name" astParent="0xf6aa00"/>
+    <token id="0xf6ab60" file="Temperature.cpp" linenr="46" str="(" scope="0xf709f0" link="0xf6acc0" astOperand1="0xf6aa00" astOperand2="0xf6ac10"/>
+    <token id="0xf6ac10" file="Temperature.cpp" linenr="46" str="pub_temp" scope="0xf709f0" type="name" varId="3" variable="0xf718d0" astParent="0xf6ab60"/>
+    <token id="0xf6acc0" file="Temperature.cpp" linenr="46" str=")" scope="0xf709f0" link="0xf6ab60"/>
+    <token id="0xf6ad70" file="Temperature.cpp" linenr="46" str=";" scope="0xf709f0"/>
+    <token id="0xf6ae20" file="Temperature.cpp" linenr="48" str="long" scope="0xf709f0" type="name"/>
+    <token id="0xf6aed0" file="Temperature.cpp" linenr="48" str="publisher_timer" scope="0xf709f0" type="name" varId="6" variable="0xf71a20"/>
+    <token id="0xf6af80" file="Temperature.cpp" linenr="48" str=";" scope="0xf709f0"/>
+    <token id="0xf694b0" file="Temperature.cpp" linenr="48" str="publisher_timer" scope="0xf709f0" type="name" varId="6" variable="0xf71a20" astParent="0xf685b0"/>
+    <token id="0xf685b0" file="Temperature.cpp" linenr="48" str="=" scope="0xf709f0" type="op" isAssignmentOp="True" astOperand1="0xf694b0" astOperand2="0xf6b030"/>
+    <token id="0xf6b030" file="Temperature.cpp" linenr="48" str="0" scope="0xf709f0" type="number" isInt="True" values="0xf6b038" astParent="0xf685b0"/>
+    <token id="0xf6b0e0" file="Temperature.cpp" linenr="48" str=";" scope="0xf709f0"/>
+    <token id="0xf6b190" file="Temperature.cpp" linenr="50" str="while" scope="0xf709f0" type="name" astParent="0xf6b240"/>
+    <token id="0xf6b240" file="Temperature.cpp" linenr="50" str="(" scope="0xf709f0" link="0xf6b3a0" astOperand1="0xf6b190" astOperand2="0xf6b2f0"/>
+    <token id="0xf6b2f0" file="Temperature.cpp" linenr="50" str="1" scope="0xf709f0" type="number" isInt="True" values="0xf6b2f8" astParent="0xf6b240"/>
+    <token id="0xf6b3a0" file="Temperature.cpp" linenr="50" str=")" scope="0xf709f0" link="0xf6b240"/>
+    <token id="0xf6b450" file="Temperature.cpp" linenr="50" str="{" scope="0xf71590" link="0xf70620"/>
+    <token id="0xf6b500" file="Temperature.cpp" linenr="52" str="if" scope="0xf71590" type="name" astParent="0xf6b5b0"/>
+    <token id="0xf6b5b0" file="Temperature.cpp" linenr="52" str="(" scope="0xf71590" link="0xf6bb30" astOperand1="0xf6b500" astOperand2="0xf6b9d0"/>
+    <token id="0xf6b660" file="Temperature.cpp" linenr="52" str="t" scope="0xf71590" type="name" varId="5" variable="0xf719b0" astParent="0xf6b710"/>
+    <token id="0xf6b710" file="Temperature.cpp" linenr="52" str="." scope="0xf71590" astParent="0xf6b870" astOperand1="0xf6b660" astOperand2="0xf6b7c0"/>
+    <token id="0xf6b7c0" file="Temperature.cpp" linenr="52" str="read_ms" scope="0xf71590" type="name" astParent="0xf6b710"/>
+    <token id="0xf6b870" file="Temperature.cpp" linenr="52" str="(" scope="0xf71590" link="0xf6b920" astParent="0xf6b9d0" astOperand1="0xf6b710"/>
+    <token id="0xf6b920" file="Temperature.cpp" linenr="52" str=")" scope="0xf71590" link="0xf6b870"/>
+    <token id="0xf6b9d0" file="Temperature.cpp" linenr="52" str="&gt;" scope="0xf71590" type="op" isComparisonOp="True" astParent="0xf6b5b0" astOperand1="0xf6b870" astOperand2="0xf6ba80"/>
+    <token id="0xf6ba80" file="Temperature.cpp" linenr="52" str="publisher_timer" scope="0xf71590" type="name" varId="6" variable="0xf71a20" values="0xf6ba88" astParent="0xf6b9d0"/>
+    <token id="0xf6bb30" file="Temperature.cpp" linenr="52" str=")" scope="0xf71590" link="0xf6b5b0"/>
+    <token id="0xf6bbe0" file="Temperature.cpp" linenr="52" str="{" scope="0xf716c0" link="0xf70150"/>
+    <token id="0xf6bc90" file="Temperature.cpp" linenr="55" str="char" scope="0xf716c0" type="name"/>
+    <token id="0xf6bd40" file="Temperature.cpp" linenr="55" str="cmd" scope="0xf716c0" type="name" varId="7" variable="0xf71a90"/>
+    <token id="0xf6bdf0" file="Temperature.cpp" linenr="55" str=";" scope="0xf716c0"/>
+    <token id="0xf70780" file="Temperature.cpp" linenr="55" str="cmd" scope="0xf716c0" type="name" varId="7" variable="0xf71a90" astParent="0xf70830"/>
+    <token id="0xf70830" file="Temperature.cpp" linenr="55" str="=" scope="0xf716c0" type="op" isAssignmentOp="True" astOperand1="0xf70780" astOperand2="0xf6bea0"/>
+    <token id="0xf6bea0" file="Temperature.cpp" linenr="55" str="2" scope="0xf716c0" type="number" isInt="True" values="0xf6bea8" astParent="0xf70830"/>
+    <token id="0xf6bf50" file="Temperature.cpp" linenr="55" str=";" scope="0xf716c0"/>
+    <token id="0xf6c000" file="Temperature.cpp" linenr="56" str="i2c" scope="0xf716c0" type="name" astParent="0xf6c0b0"/>
+    <token id="0xf6c0b0" file="Temperature.cpp" linenr="56" str="." scope="0xf716c0" astParent="0xf6c210" astOperand1="0xf6c000" astOperand2="0xf6c160"/>
+    <token id="0xf6c160" file="Temperature.cpp" linenr="56" str="write" scope="0xf716c0" type="name" astParent="0xf6c0b0"/>
+    <token id="0xf6c210" file="Temperature.cpp" linenr="56" str="(" scope="0xf716c0" link="0xf6c6e0" astOperand1="0xf6c0b0" astOperand2="0xf6c580"/>
+    <token id="0xf6c2c0" file="Temperature.cpp" linenr="56" str="sensorAddress" scope="0xf716c0" type="name" varId="4" variable="0xf71940" astParent="0xf6c370"/>
+    <token id="0xf6c370" file="Temperature.cpp" linenr="56" str="," scope="0xf716c0" astParent="0xf6c580" astOperand1="0xf6c2c0" astOperand2="0xf6c420"/>
+    <token id="0xf6c420" file="Temperature.cpp" linenr="56" str="&amp;" scope="0xf716c0" type="op" astParent="0xf6c370" astOperand1="0xf6c4d0"/>
+    <token id="0xf6c4d0" file="Temperature.cpp" linenr="56" str="cmd" scope="0xf716c0" type="name" varId="7" variable="0xf71a90" values="0xf6c4d8" astParent="0xf6c420"/>
+    <token id="0xf6c580" file="Temperature.cpp" linenr="56" str="," scope="0xf716c0" astParent="0xf6c210" astOperand1="0xf6c370" astOperand2="0xf6c630"/>
+    <token id="0xf6c630" file="Temperature.cpp" linenr="56" str="1" scope="0xf716c0" type="number" isInt="True" values="0xf6c638" astParent="0xf6c580"/>
+    <token id="0xf6c6e0" file="Temperature.cpp" linenr="56" str=")" scope="0xf716c0" link="0xf6c210"/>
+    <token id="0xf6c790" file="Temperature.cpp" linenr="56" str=";" scope="0xf716c0"/>
+    <token id="0xf6c840" file="Temperature.cpp" linenr="58" str="wait_ms" scope="0xf716c0" type="name" astParent="0xf6c8f0"/>
+    <token id="0xf6c8f0" file="Temperature.cpp" linenr="58" str="(" scope="0xf716c0" link="0xf6ca50" astOperand1="0xf6c840" astOperand2="0xf6c9a0"/>
+    <token id="0xf6c9a0" file="Temperature.cpp" linenr="58" str="50" scope="0xf716c0" type="number" isInt="True" values="0xf6c9a8" astParent="0xf6c8f0"/>
+    <token id="0xf6ca50" file="Temperature.cpp" linenr="58" str=")" scope="0xf716c0" link="0xf6c8f0"/>
+    <token id="0xf6cb00" file="Temperature.cpp" linenr="58" str=";" scope="0xf716c0"/>
+    <token id="0xf6cbb0" file="Temperature.cpp" linenr="60" str="char" scope="0xf716c0" type="name"/>
+    <token id="0xf6cc60" file="Temperature.cpp" linenr="60" str="msb" scope="0xf716c0" type="name" varId="8" variable="0xf71b00"/>
+    <token id="0xf6cd10" file="Temperature.cpp" linenr="60" str=";" scope="0xf716c0"/>
+    <token id="0xf6cdc0" file="Temperature.cpp" linenr="61" str="char" scope="0xf716c0" type="name"/>
+    <token id="0xf6ce70" file="Temperature.cpp" linenr="61" str="lsb" scope="0xf716c0" type="name" varId="9" variable="0xf71b70"/>
+    <token id="0xf6cf20" file="Temperature.cpp" linenr="61" str=";" scope="0xf716c0"/>
+    <token id="0xf6cfd0" file="Temperature.cpp" linenr="62" str="int" scope="0xf716c0" type="name"/>
+    <token id="0xf6d080" file="Temperature.cpp" linenr="62" str="temperature" scope="0xf716c0" type="name" varId="10" variable="0xf71be0"/>
+    <token id="0xf6d130" file="Temperature.cpp" linenr="62" str=";" scope="0xf716c0"/>
+    <token id="0xf6d1e0" file="Temperature.cpp" linenr="63" str="i2c" scope="0xf716c0" type="name" astParent="0xf6d290"/>
+    <token id="0xf6d290" file="Temperature.cpp" linenr="63" str="." scope="0xf716c0" astParent="0xf6d3f0" astOperand1="0xf6d1e0" astOperand2="0xf6d340"/>
+    <token id="0xf6d340" file="Temperature.cpp" linenr="63" str="read" scope="0xf716c0" type="name" astParent="0xf6d290"/>
+    <token id="0xf6d3f0" file="Temperature.cpp" linenr="63" str="(" scope="0xf716c0" link="0xf6d8c0" astOperand1="0xf6d290" astOperand2="0xf6d760"/>
+    <token id="0xf6d4a0" file="Temperature.cpp" linenr="63" str="sensorAddress" scope="0xf716c0" type="name" varId="4" variable="0xf71940" astParent="0xf6d550"/>
+    <token id="0xf6d550" file="Temperature.cpp" linenr="63" str="," scope="0xf716c0" astParent="0xf6d760" astOperand1="0xf6d4a0" astOperand2="0xf6d600"/>
+    <token id="0xf6d600" file="Temperature.cpp" linenr="63" str="&amp;" scope="0xf716c0" type="op" astParent="0xf6d550" astOperand1="0xf6d6b0"/>
+    <token id="0xf6d6b0" file="Temperature.cpp" linenr="63" str="msb" scope="0xf716c0" type="name" varId="8" variable="0xf71b00" astParent="0xf6d600"/>
+    <token id="0xf6d760" file="Temperature.cpp" linenr="63" str="," scope="0xf716c0" astParent="0xf6d3f0" astOperand1="0xf6d550" astOperand2="0xf6d810"/>
+    <token id="0xf6d810" file="Temperature.cpp" linenr="63" str="1" scope="0xf716c0" type="number" isInt="True" values="0xf6d818" astParent="0xf6d760"/>
+    <token id="0xf6d8c0" file="Temperature.cpp" linenr="63" str=")" scope="0xf716c0" link="0xf6d3f0"/>
+    <token id="0xf6d970" file="Temperature.cpp" linenr="63" str=";" scope="0xf716c0"/>
+    <token id="0xf6da20" file="Temperature.cpp" linenr="64" str="i2c" scope="0xf716c0" type="name" astParent="0xf6dad0"/>
+    <token id="0xf6dad0" file="Temperature.cpp" linenr="64" str="." scope="0xf716c0" astParent="0xf6dc30" astOperand1="0xf6da20" astOperand2="0xf6db80"/>
+    <token id="0xf6db80" file="Temperature.cpp" linenr="64" str="read" scope="0xf716c0" type="name" astParent="0xf6dad0"/>
+    <token id="0xf6dc30" file="Temperature.cpp" linenr="64" str="(" scope="0xf716c0" link="0xf6e100" astOperand1="0xf6dad0" astOperand2="0xf6dfa0"/>
+    <token id="0xf6dce0" file="Temperature.cpp" linenr="64" str="sensorAddress" scope="0xf716c0" type="name" varId="4" variable="0xf71940" astParent="0xf6dd90"/>
+    <token id="0xf6dd90" file="Temperature.cpp" linenr="64" str="," scope="0xf716c0" astParent="0xf6dfa0" astOperand1="0xf6dce0" astOperand2="0xf6de40"/>
+    <token id="0xf6de40" file="Temperature.cpp" linenr="64" str="&amp;" scope="0xf716c0" type="op" astParent="0xf6dd90" astOperand1="0xf6def0"/>
+    <token id="0xf6def0" file="Temperature.cpp" linenr="64" str="lsb" scope="0xf716c0" type="name" varId="9" variable="0xf71b70" astParent="0xf6de40"/>
+    <token id="0xf6dfa0" file="Temperature.cpp" linenr="64" str="," scope="0xf716c0" astParent="0xf6dc30" astOperand1="0xf6dd90" astOperand2="0xf6e050"/>
+    <token id="0xf6e050" file="Temperature.cpp" linenr="64" str="1" scope="0xf716c0" type="number" isInt="True" values="0xf6e058" astParent="0xf6dfa0"/>
+    <token id="0xf6e100" file="Temperature.cpp" linenr="64" str=")" scope="0xf716c0" link="0xf6dc30"/>
+    <token id="0xf6e1b0" file="Temperature.cpp" linenr="64" str=";" scope="0xf716c0"/>
+    <token id="0xf6e260" file="Temperature.cpp" linenr="66" str="temperature" scope="0xf716c0" type="name" varId="10" variable="0xf71be0" astParent="0xf6e310"/>
+    <token id="0xf6e310" file="Temperature.cpp" linenr="66" str="=" scope="0xf716c0" type="op" isAssignmentOp="True" astOperand1="0xf6e260" astOperand2="0xf6e680"/>
+    <token id="0xf6e3c0" file="Temperature.cpp" linenr="66" str="(" scope="0xf716c0" link="0xf6e5d0"/>
+    <token id="0xf6e520" file="Temperature.cpp" linenr="66" str="msb" scope="0xf716c0" type="name" varId="8" variable="0xf71b00" astParent="0xf6e680"/>
+    <token id="0xf6e5d0" file="Temperature.cpp" linenr="66" str=")" scope="0xf716c0" link="0xf6e3c0"/>
+    <token id="0xf6e680" file="Temperature.cpp" linenr="66" str="&lt;&lt;" scope="0xf716c0" type="op" isArithmeticalOp="True" astParent="0xf6e310" astOperand1="0xf6e520" astOperand2="0xf6e730"/>
+    <token id="0xf6e730" file="Temperature.cpp" linenr="66" str="4" scope="0xf716c0" type="number" isInt="True" values="0xf6e738" astParent="0xf6e680"/>
+    <token id="0xf6e7e0" file="Temperature.cpp" linenr="66" str=";" scope="0xf716c0"/>
+    <token id="0xf6e940" file="Temperature.cpp" linenr="67" str="temperature" scope="0xf716c0" type="name" varId="10" variable="0xf71be0" astParent="0xf6e9f0"/>
+    <token id="0xf6e9f0" file="Temperature.cpp" linenr="67" str="|=" scope="0xf716c0" type="op" isAssignmentOp="True" astOperand1="0xf6e940" astOperand2="0xf6ecb0"/>
+    <token id="0xf6eb50" file="Temperature.cpp" linenr="67" str="(" scope="0xf716c0" link="0xf6ee10"/>
+    <token id="0xf6ec00" file="Temperature.cpp" linenr="67" str="lsb" scope="0xf716c0" type="name" varId="9" variable="0xf71b70" astParent="0xf6ecb0"/>
+    <token id="0xf6ecb0" file="Temperature.cpp" linenr="67" str="&gt;&gt;" scope="0xf716c0" type="op" isArithmeticalOp="True" astParent="0xf6e9f0" astOperand1="0xf6ec00" astOperand2="0xf6ed60"/>
+    <token id="0xf6ed60" file="Temperature.cpp" linenr="67" str="4" scope="0xf716c0" type="number" isInt="True" values="0xf6ed68" astParent="0xf6ecb0"/>
+    <token id="0xf6ee10" file="Temperature.cpp" linenr="67" str=")" scope="0xf716c0" link="0xf6eb50"/>
+    <token id="0xf6eec0" file="Temperature.cpp" linenr="67" str=";" scope="0xf716c0"/>
+    <token id="0xf6ef70" file="Temperature.cpp" linenr="69" str="temp_msg" scope="0xf716c0" type="name" varId="2" variable="0xf71860" astParent="0xf6f020"/>
+    <token id="0xf6f020" file="Temperature.cpp" linenr="69" str="." scope="0xf716c0" astParent="0xf6f180" astOperand1="0xf6ef70" astOperand2="0xf6f0d0"/>
+    <token id="0xf6f0d0" file="Temperature.cpp" linenr="69" str="data" scope="0xf716c0" type="name" varId="11" astParent="0xf6f020"/>
+    <token id="0xf6f180" file="Temperature.cpp" linenr="69" str="=" scope="0xf716c0" type="op" isAssignmentOp="True" astOperand1="0xf6f020" astOperand2="0xf6f2e0"/>
+    <token id="0xf6f230" file="Temperature.cpp" linenr="69" str="temperature" scope="0xf716c0" type="name" varId="10" variable="0xf71be0" astParent="0xf6f2e0"/>
+    <token id="0xf6f2e0" file="Temperature.cpp" linenr="69" str="*" scope="0xf716c0" type="op" isArithmeticalOp="True" astParent="0xf6f180" astOperand1="0xf6f230" astOperand2="0xf6f390"/>
+    <token id="0xf6f390" file="Temperature.cpp" linenr="69" str="0.0625" scope="0xf716c0" type="number" isFloat="True" astParent="0xf6f2e0"/>
+    <token id="0xf6f440" file="Temperature.cpp" linenr="69" str=";" scope="0xf716c0"/>
+    <token id="0xf6f4f0" file="Temperature.cpp" linenr="70" str="pub_temp" scope="0xf716c0" type="name" varId="3" variable="0xf718d0" astParent="0xf6f5a0"/>
+    <token id="0xf6f5a0" file="Temperature.cpp" linenr="70" str="." scope="0xf716c0" astParent="0xf6f700" astOperand1="0xf6f4f0" astOperand2="0xf6f650"/>
+    <token id="0xf6f650" file="Temperature.cpp" linenr="70" str="publish" scope="0xf716c0" type="name" astParent="0xf6f5a0"/>
+    <token id="0xf6f700" file="Temperature.cpp" linenr="70" str="(" scope="0xf716c0" link="0xf6f910" astOperand1="0xf6f5a0" astOperand2="0xf6f7b0"/>
+    <token id="0xf6f7b0" file="Temperature.cpp" linenr="70" str="&amp;" scope="0xf716c0" type="op" astParent="0xf6f700" astOperand1="0xf6f860"/>
+    <token id="0xf6f860" file="Temperature.cpp" linenr="70" str="temp_msg" scope="0xf716c0" type="name" varId="2" variable="0xf71860" astParent="0xf6f7b0"/>
+    <token id="0xf6f910" file="Temperature.cpp" linenr="70" str=")" scope="0xf716c0" link="0xf6f700"/>
+    <token id="0xf6f9c0" file="Temperature.cpp" linenr="70" str=";" scope="0xf716c0"/>
+    <token id="0xf6fa70" file="Temperature.cpp" linenr="72" str="publisher_timer" scope="0xf716c0" type="name" varId="6" variable="0xf71a20" astParent="0xf6fb20"/>
+    <token id="0xf6fb20" file="Temperature.cpp" linenr="72" str="=" scope="0xf716c0" type="op" isAssignmentOp="True" astOperand1="0xf6fa70" astOperand2="0xf6ff40"/>
+    <token id="0xf6fbd0" file="Temperature.cpp" linenr="72" str="t" scope="0xf716c0" type="name" varId="5" variable="0xf719b0" astParent="0xf6fc80"/>
+    <token id="0xf6fc80" file="Temperature.cpp" linenr="72" str="." scope="0xf716c0" astParent="0xf6fde0" astOperand1="0xf6fbd0" astOperand2="0xf6fd30"/>
+    <token id="0xf6fd30" file="Temperature.cpp" linenr="72" str="read_ms" scope="0xf716c0" type="name" astParent="0xf6fc80"/>
+    <token id="0xf6fde0" file="Temperature.cpp" linenr="72" str="(" scope="0xf716c0" link="0xf6fe90" astParent="0xf6ff40" astOperand1="0xf6fc80"/>
+    <token id="0xf6fe90" file="Temperature.cpp" linenr="72" str=")" scope="0xf716c0" link="0xf6fde0"/>
+    <token id="0xf6ff40" file="Temperature.cpp" linenr="72" str="+" scope="0xf716c0" type="op" isArithmeticalOp="True" astParent="0xf6fb20" astOperand1="0xf6fde0" astOperand2="0xf6fff0"/>
+    <token id="0xf6fff0" file="Temperature.cpp" linenr="72" str="1000" scope="0xf716c0" type="number" isInt="True" values="0xf6fff8" astParent="0xf6ff40"/>
+    <token id="0xf700a0" file="Temperature.cpp" linenr="72" str=";" scope="0xf716c0"/>
+    <token id="0xf70150" file="Temperature.cpp" linenr="73" str="}" scope="0xf716c0" link="0xf6bbe0"/>
+    <token id="0xf70200" file="Temperature.cpp" linenr="75" str="nh" scope="0xf71590" type="name" varId="1" variable="0xf717f0" astParent="0xf702b0"/>
+    <token id="0xf702b0" file="Temperature.cpp" linenr="75" str="." scope="0xf71590" astParent="0xf70410" astOperand1="0xf70200" astOperand2="0xf70360"/>
+    <token id="0xf70360" file="Temperature.cpp" linenr="75" str="spinOnce" scope="0xf71590" type="name" astParent="0xf702b0"/>
+    <token id="0xf70410" file="Temperature.cpp" linenr="75" str="(" scope="0xf71590" link="0xf704c0" astOperand1="0xf702b0"/>
+    <token id="0xf704c0" file="Temperature.cpp" linenr="75" str=")" scope="0xf71590" link="0xf70410"/>
+    <token id="0xf70570" file="Temperature.cpp" linenr="75" str=";" scope="0xf71590"/>
+    <token id="0xf70620" file="Temperature.cpp" linenr="76" str="}" scope="0xf71590" link="0xf6b450"/>
+    <token id="0xf706d0" file="Temperature.cpp" linenr="77" str="}" scope="0xf709f0" link="0xf6a060"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xf70d00" type="Global">
+      <functionList>
+        <function id="0xf68d70" tokenDef="0xf698d0" name="i2c">
+          <arg nr="1" variable="0xf71c50"/>
+          <arg nr="2" variable="0xf71cc0"/>
+        </function>
+        <function id="0xf68e10" tokenDef="0xf69e50" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0xf717f0"/>
+        <var id="0xf71860"/>
+        <var id="0xf718d0"/>
+        <var id="0xf71940"/>
+        <var id="0xf719b0"/>
+      </varlist>
+    </scope>
+    <scope id="0xf709f0" type="Function" className="main" classStart="0xf6a060" classEnd="0xf706d0" nestedIn="0xf70d00" function="0xf68e10">
+      <varlist>
+        <var id="0xf71a20"/>
+      </varlist>
+    </scope>
+    <scope id="0xf71590" type="While" classStart="0xf6b450" classEnd="0xf70620" nestedIn="0xf709f0"/>
+    <scope id="0xf716c0" type="If" classStart="0xf6bbe0" classEnd="0xf70150" nestedIn="0xf71590">
+      <varlist>
+        <var id="0xf71a90"/>
+        <var id="0xf71b00"/>
+        <var id="0xf71b70"/>
+        <var id="0xf71be0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xf717f0" nameToken="0xf65220" typeStartToken="0xf58ff0" typeEndToken="0xf65170" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71860" nameToken="0xf67c90" typeStartToken="0xf65380" typeEndToken="0xf67be0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf718d0" nameToken="0xf68000" typeStartToken="0xf67df0" typeEndToken="0xf67f50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71940" nameToken="0xf69350" typeStartToken="0xf692a0" typeEndToken="0xf692a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf719b0" nameToken="0xf696c0" typeStartToken="0xf69610" typeEndToken="0xf69610" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71a20" nameToken="0xf6aed0" typeStartToken="0xf6ae20" typeEndToken="0xf6ae20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71a90" nameToken="0xf6bd40" typeStartToken="0xf6bc90" typeEndToken="0xf6bc90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71b00" nameToken="0xf6cc60" typeStartToken="0xf6cbb0" typeEndToken="0xf6cbb0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71b70" nameToken="0xf6ce70" typeStartToken="0xf6cdc0" typeEndToken="0xf6cdc0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xf71be0" nameToken="0xf6d080" typeStartToken="0xf6cfd0" typeEndToken="0xf6cfd0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xf68168">
+      <value tokvalue="0xf68160" known="true"/>
+    </values>
+    <values id="0xf68688">
+      <value intvalue="72" known="true"/>
+    </values>
+    <values id="0xf6b038">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xf6b2f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xf6ba88">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0xf6bea8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xf6c4d8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0xf6c638">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xf6c9a8">
+      <value intvalue="50" known="true"/>
+    </values>
+    <values id="0xf6d818">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xf6e058">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xf6e738">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xf6ed68">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0xf6fff8">
+      <value intvalue="1000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

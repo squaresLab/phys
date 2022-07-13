@@ -1,0 +1,1217 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x205c030" file="../include/base_local_planner/map_cell.h" linenr="39" str="namespace" scope="0x208a630" type="name"/>
+    <token id="0x205bcd0" file="../include/base_local_planner/map_cell.h" linenr="39" str="base_local_planner" scope="0x208a630" type="name" astParent="0x205bd80"/>
+    <token id="0x205bd80" file="../include/base_local_planner/map_cell.h" linenr="39" str="{" scope="0x208a630" link="0x20602e0" astOperand1="0x205bcd0" astOperand2="0x205b970"/>
+    <token id="0x205be30" file="../include/base_local_planner/map_cell.h" linenr="44" str="class" scope="0x208a630" type="name"/>
+    <token id="0x205b970" file="../include/base_local_planner/map_cell.h" linenr="44" str="MapCell" scope="0x208a630" type="name" astParent="0x205bd80"/>
+    <token id="0x205ba20" file="../include/base_local_planner/map_cell.h" linenr="44" str="{" scope="0x208a0c0" link="0x2060180"/>
+    <token id="0x205bad0" file="../include/base_local_planner/map_cell.h" linenr="45" str="public:" scope="0x208a0c0" type="name"/>
+    <token id="0x205eef0" file="../include/base_local_planner/map_cell.h" linenr="49" str="MapCell" scope="0x208a0c0" type="name" function="0x2089f90" astParent="0x205efa0"/>
+    <token id="0x205efa0" file="../include/base_local_planner/map_cell.h" linenr="49" str="(" scope="0x208a0c0" link="0x205f050" astOperand1="0x205eef0"/>
+    <token id="0x205f050" file="../include/base_local_planner/map_cell.h" linenr="49" str=")" scope="0x208a0c0" link="0x205efa0"/>
+    <token id="0x205f100" file="../include/base_local_planner/map_cell.h" linenr="49" str=";" scope="0x208a0c0"/>
+    <token id="0x205f1b0" file="../include/base_local_planner/map_cell.h" linenr="55" str="MapCell" scope="0x208a0c0" type="name" function="0x208b120" astParent="0x205f260"/>
+    <token id="0x205f260" file="../include/base_local_planner/map_cell.h" linenr="55" str="(" scope="0x208a0c0" link="0x205f5d0" astOperand1="0x205f1b0" astOperand2="0x205f470"/>
+    <token id="0x205f310" file="../include/base_local_planner/map_cell.h" linenr="55" str="const" scope="0x208a0c0" type="name"/>
+    <token id="0x205f3c0" file="../include/base_local_planner/map_cell.h" linenr="55" str="MapCell" scope="0x208a0c0" type="name" type-scope="0x208a0c0" astParent="0x205f470"/>
+    <token id="0x205f470" file="../include/base_local_planner/map_cell.h" linenr="55" str="&amp;" scope="0x208a0c0" type="op" astParent="0x205f260" astOperand1="0x205f3c0" astOperand2="0x205f520"/>
+    <token id="0x205f520" file="../include/base_local_planner/map_cell.h" linenr="55" str="mc" scope="0x208a0c0" type="name" varId="1" variable="0x208e680" astParent="0x205f470"/>
+    <token id="0x205f5d0" file="../include/base_local_planner/map_cell.h" linenr="55" str=")" scope="0x208a0c0" link="0x205f260"/>
+    <token id="0x205f680" file="../include/base_local_planner/map_cell.h" linenr="55" str=";" scope="0x208a0c0"/>
+    <token id="0x205f730" file="../include/base_local_planner/map_cell.h" linenr="57" str="int" scope="0x208a0c0" type="name"/>
+    <token id="0x205f890" file="../include/base_local_planner/map_cell.h" linenr="57" str="cx" scope="0x208a0c0" type="name" varId="2" variable="0x208d7e0"/>
+    <token id="0x205f940" file="../include/base_local_planner/map_cell.h" linenr="57" str=";" scope="0x208a0c0"/>
+    <token id="0x2078200" file="../include/base_local_planner/map_cell.h" linenr="57" str="int" scope="0x208a0c0" type="name"/>
+    <token id="0x205f9f0" file="../include/base_local_planner/map_cell.h" linenr="57" str="cy" scope="0x208a0c0" type="name" varId="3" variable="0x208d850"/>
+    <token id="0x205faa0" file="../include/base_local_planner/map_cell.h" linenr="57" str=";" scope="0x208a0c0"/>
+    <token id="0x205fb50" file="../include/base_local_planner/map_cell.h" linenr="59" str="double" scope="0x208a0c0" type="name"/>
+    <token id="0x205fc00" file="../include/base_local_planner/map_cell.h" linenr="59" str="target_dist" scope="0x208a0c0" type="name" varId="4" variable="0x208d8c0"/>
+    <token id="0x205fcb0" file="../include/base_local_planner/map_cell.h" linenr="59" str=";" scope="0x208a0c0"/>
+    <token id="0x205fd60" file="../include/base_local_planner/map_cell.h" linenr="61" str="bool" scope="0x208a0c0" type="name"/>
+    <token id="0x205fe10" file="../include/base_local_planner/map_cell.h" linenr="61" str="target_mark" scope="0x208a0c0" type="name" varId="5" variable="0x208d930"/>
+    <token id="0x205fec0" file="../include/base_local_planner/map_cell.h" linenr="61" str=";" scope="0x208a0c0"/>
+    <token id="0x205ff70" file="../include/base_local_planner/map_cell.h" linenr="63" str="bool" scope="0x208a0c0" type="name"/>
+    <token id="0x2060020" file="../include/base_local_planner/map_cell.h" linenr="63" str="within_robot" scope="0x208a0c0" type="name" varId="6" variable="0x208d9a0"/>
+    <token id="0x20600d0" file="../include/base_local_planner/map_cell.h" linenr="63" str=";" scope="0x208a0c0"/>
+    <token id="0x2060180" file="../include/base_local_planner/map_cell.h" linenr="64" str="}" scope="0x208a0c0" link="0x205ba20"/>
+    <token id="0x2060230" file="../include/base_local_planner/map_cell.h" linenr="64" str=";" scope="0x208a630"/>
+    <token id="0x20602e0" file="../include/base_local_planner/map_cell.h" linenr="65" str="}" scope="0x208a630" link="0x205bd80"/>
+    <token id="0x2060390" file="../include/base_local_planner/map_cell.h" linenr="65" str=";" scope="0x208a630"/>
+    <token id="0x2060440" file="../include/base_local_planner/map_grid.h" linenr="47" str="namespace" scope="0x208a630" type="name"/>
+    <token id="0x20604f0" file="../include/base_local_planner/map_grid.h" linenr="47" str="base_local_planner" scope="0x208a630" type="name"/>
+    <token id="0x20605a0" file="../include/base_local_planner/map_grid.h" linenr="47" str="{" scope="0x208a630" link="0x2070a20"/>
+    <token id="0x2060650" file="../include/base_local_planner/map_grid.h" linenr="52" str="class" scope="0x208a630" type="name"/>
+    <token id="0x2060700" file="../include/base_local_planner/map_grid.h" linenr="52" str="MapGrid" scope="0x208a630" type="name"/>
+    <token id="0x20607b0" file="../include/base_local_planner/map_grid.h" linenr="52" str="{" scope="0x208b1c0" link="0x20708c0"/>
+    <token id="0x2060860" file="../include/base_local_planner/map_grid.h" linenr="53" str="public:" scope="0x208b1c0" type="name"/>
+    <token id="0x20609c0" file="../include/base_local_planner/map_grid.h" linenr="57" str="MapGrid" scope="0x208b1c0" type="name" function="0x208b360" astParent="0x2060a70"/>
+    <token id="0x2060a70" file="../include/base_local_planner/map_grid.h" linenr="57" str="(" scope="0x208b1c0" link="0x2060b20" astOperand1="0x20609c0"/>
+    <token id="0x2060b20" file="../include/base_local_planner/map_grid.h" linenr="57" str=")" scope="0x208b1c0" link="0x2060a70"/>
+    <token id="0x2060bd0" file="../include/base_local_planner/map_grid.h" linenr="57" str=";" scope="0x208b1c0"/>
+    <token id="0x2060c80" file="../include/base_local_planner/map_grid.h" linenr="64" str="MapGrid" scope="0x208b1c0" type="name" function="0x208b400" astParent="0x2060d30"/>
+    <token id="0x2060d30" file="../include/base_local_planner/map_grid.h" linenr="64" str="(" scope="0x208b1c0" link="0x20612b0" astOperand1="0x2060c80" astOperand2="0x2060ff0"/>
+    <token id="0x2060de0" file="../include/base_local_planner/map_grid.h" linenr="64" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2060f40" file="../include/base_local_planner/map_grid.h" linenr="64" str="size_x" scope="0x208b1c0" type="name" varId="7" variable="0x208e6f0" astParent="0x2060ff0"/>
+    <token id="0x2060ff0" file="../include/base_local_planner/map_grid.h" linenr="64" str="," scope="0x208b1c0" astParent="0x2060d30" astOperand1="0x2060f40" astOperand2="0x2061200"/>
+    <token id="0x20610a0" file="../include/base_local_planner/map_grid.h" linenr="64" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2061200" file="../include/base_local_planner/map_grid.h" linenr="64" str="size_y" scope="0x208b1c0" type="name" varId="8" variable="0x208e760" astParent="0x2060ff0"/>
+    <token id="0x20612b0" file="../include/base_local_planner/map_grid.h" linenr="64" str=")" scope="0x208b1c0" link="0x2060d30"/>
+    <token id="0x2061360" file="../include/base_local_planner/map_grid.h" linenr="64" str=";" scope="0x208b1c0"/>
+    <token id="0x2061410" file="../include/base_local_planner/map_grid.h" linenr="73" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0" astParent="0x2061570"/>
+    <token id="0x2061570" file="../include/base_local_planner/map_grid.h" linenr="73" str="&amp;" scope="0x208b1c0" type="op" astOperand1="0x2061410" astOperand2="0x2061830"/>
+    <token id="0x2061620" file="../include/base_local_planner/map_grid.h" linenr="73" str="operator()" scope="0x208b1c0" type="name" function="0x208b4a0" astParent="0x2061830"/>
+    <token id="0x2061830" file="../include/base_local_planner/map_grid.h" linenr="73" str="(" scope="0x208b1c0" link="0x2061db0" astParent="0x2061570" astOperand1="0x2061620" astOperand2="0x2061af0"/>
+    <token id="0x20618e0" file="../include/base_local_planner/map_grid.h" linenr="73" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2061a40" file="../include/base_local_planner/map_grid.h" linenr="73" str="x" scope="0x208b1c0" type="name" varId="9" variable="0x208e7d0" astParent="0x2061af0"/>
+    <token id="0x2061af0" file="../include/base_local_planner/map_grid.h" linenr="73" str="," scope="0x208b1c0" astParent="0x2061830" astOperand1="0x2061a40" astOperand2="0x2061d00"/>
+    <token id="0x2061ba0" file="../include/base_local_planner/map_grid.h" linenr="73" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2061d00" file="../include/base_local_planner/map_grid.h" linenr="73" str="y" scope="0x208b1c0" type="name" varId="10" variable="0x208e840" astParent="0x2061af0"/>
+    <token id="0x2061db0" file="../include/base_local_planner/map_grid.h" linenr="73" str=")" scope="0x208b1c0" link="0x2061830"/>
+    <token id="0x2061e60" file="../include/base_local_planner/map_grid.h" linenr="73" str="{" scope="0x208b540" link="0x20625f0"/>
+    <token id="0x2061f10" file="../include/base_local_planner/map_grid.h" linenr="74" str="return" scope="0x208b540" type="name" astOperand1="0x2062070"/>
+    <token id="0x2061fc0" file="../include/base_local_planner/map_grid.h" linenr="74" str="map_" scope="0x208b540" type="name" varId="39" variable="0x208dbd0" astParent="0x2062070"/>
+    <token id="0x2062070" file="../include/base_local_planner/map_grid.h" linenr="74" str="[" scope="0x208b540" link="0x2062490" astParent="0x2061f10" astOperand1="0x2061fc0" astOperand2="0x2062330"/>
+    <token id="0x2062120" file="../include/base_local_planner/map_grid.h" linenr="74" str="size_x_" scope="0x208b540" type="name" varId="37" variable="0x208daf0" astParent="0x20621d0"/>
+    <token id="0x20621d0" file="../include/base_local_planner/map_grid.h" linenr="74" str="*" scope="0x208b540" type="op" isArithmeticalOp="True" astParent="0x2062330" astOperand1="0x2062120" astOperand2="0x2062280"/>
+    <token id="0x2062280" file="../include/base_local_planner/map_grid.h" linenr="74" str="y" scope="0x208b540" type="name" varId="10" variable="0x208e840" astParent="0x20621d0"/>
+    <token id="0x2062330" file="../include/base_local_planner/map_grid.h" linenr="74" str="+" scope="0x208b540" type="op" isArithmeticalOp="True" astParent="0x2062070" astOperand1="0x20621d0" astOperand2="0x20623e0"/>
+    <token id="0x20623e0" file="../include/base_local_planner/map_grid.h" linenr="74" str="x" scope="0x208b540" type="name" varId="9" variable="0x208e7d0" astParent="0x2062330"/>
+    <token id="0x2062490" file="../include/base_local_planner/map_grid.h" linenr="74" str="]" scope="0x208b540" link="0x2062070"/>
+    <token id="0x2062540" file="../include/base_local_planner/map_grid.h" linenr="74" str=";" scope="0x208b540"/>
+    <token id="0x20625f0" file="../include/base_local_planner/map_grid.h" linenr="75" str="}" scope="0x208b540" link="0x2061e60"/>
+    <token id="0x20626a0" file="../include/base_local_planner/map_grid.h" linenr="83" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0"/>
+    <token id="0x2062800" file="../include/base_local_planner/map_grid.h" linenr="83" str="operator()" scope="0x208b1c0" type="name" function="0x208b670" astParent="0x2062a10"/>
+    <token id="0x2062a10" file="../include/base_local_planner/map_grid.h" linenr="83" str="(" scope="0x208b1c0" link="0x2062f90" astOperand1="0x2062800" astOperand2="0x2062cd0"/>
+    <token id="0x2062ac0" file="../include/base_local_planner/map_grid.h" linenr="83" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2062c20" file="../include/base_local_planner/map_grid.h" linenr="83" str="x" scope="0x208b1c0" type="name" varId="11" variable="0x208e8b0" astParent="0x2062cd0"/>
+    <token id="0x2062cd0" file="../include/base_local_planner/map_grid.h" linenr="83" str="," scope="0x208b1c0" astParent="0x2062a10" astOperand1="0x2062c20" astOperand2="0x2062ee0"/>
+    <token id="0x2062d80" file="../include/base_local_planner/map_grid.h" linenr="83" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2062ee0" file="../include/base_local_planner/map_grid.h" linenr="83" str="y" scope="0x208b1c0" type="name" varId="12" variable="0x208e920" astParent="0x2062cd0"/>
+    <token id="0x2062f90" file="../include/base_local_planner/map_grid.h" linenr="83" str=")" scope="0x208b1c0" link="0x2062a10"/>
+    <token id="0x2063040" file="../include/base_local_planner/map_grid.h" linenr="83" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x20630f0" file="../include/base_local_planner/map_grid.h" linenr="83" str="{" scope="0x208b710" link="0x2063880"/>
+    <token id="0x20631a0" file="../include/base_local_planner/map_grid.h" linenr="84" str="return" scope="0x208b710" type="name" astOperand1="0x2063300"/>
+    <token id="0x2063250" file="../include/base_local_planner/map_grid.h" linenr="84" str="map_" scope="0x208b710" type="name" varId="39" variable="0x208dbd0" astParent="0x2063300"/>
+    <token id="0x2063300" file="../include/base_local_planner/map_grid.h" linenr="84" str="[" scope="0x208b710" link="0x2063720" astParent="0x20631a0" astOperand1="0x2063250" astOperand2="0x20635c0"/>
+    <token id="0x20633b0" file="../include/base_local_planner/map_grid.h" linenr="84" str="size_x_" scope="0x208b710" type="name" varId="37" variable="0x208daf0" astParent="0x2063460"/>
+    <token id="0x2063460" file="../include/base_local_planner/map_grid.h" linenr="84" str="*" scope="0x208b710" type="op" isArithmeticalOp="True" astParent="0x20635c0" astOperand1="0x20633b0" astOperand2="0x2063510"/>
+    <token id="0x2063510" file="../include/base_local_planner/map_grid.h" linenr="84" str="y" scope="0x208b710" type="name" varId="12" variable="0x208e920" astParent="0x2063460"/>
+    <token id="0x20635c0" file="../include/base_local_planner/map_grid.h" linenr="84" str="+" scope="0x208b710" type="op" isArithmeticalOp="True" astParent="0x2063300" astOperand1="0x2063460" astOperand2="0x2063670"/>
+    <token id="0x2063670" file="../include/base_local_planner/map_grid.h" linenr="84" str="x" scope="0x208b710" type="name" varId="11" variable="0x208e8b0" astParent="0x20635c0"/>
+    <token id="0x2063720" file="../include/base_local_planner/map_grid.h" linenr="84" str="]" scope="0x208b710" link="0x2063300"/>
+    <token id="0x20637d0" file="../include/base_local_planner/map_grid.h" linenr="84" str=";" scope="0x208b710"/>
+    <token id="0x2063880" file="../include/base_local_planner/map_grid.h" linenr="85" str="}" scope="0x208b710" link="0x20630f0"/>
+    <token id="0x2063930" file="../include/base_local_planner/map_grid.h" linenr="87" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0" astParent="0x2063a90"/>
+    <token id="0x2063a90" file="../include/base_local_planner/map_grid.h" linenr="87" str="&amp;" scope="0x208b1c0" type="op" astOperand1="0x2063930" astOperand2="0x2063bf0"/>
+    <token id="0x2063b40" file="../include/base_local_planner/map_grid.h" linenr="87" str="getCell" scope="0x208b1c0" type="name" function="0x208b840" astParent="0x2063bf0"/>
+    <token id="0x2063bf0" file="../include/base_local_planner/map_grid.h" linenr="87" str="(" scope="0x208b1c0" link="0x2065540" astParent="0x2063a90" astOperand1="0x2063b40" astOperand2="0x2063eb0"/>
+    <token id="0x2063ca0" file="../include/base_local_planner/map_grid.h" linenr="87" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2063e00" file="../include/base_local_planner/map_grid.h" linenr="87" str="x" scope="0x208b1c0" type="name" varId="13" variable="0x208e990" astParent="0x2063eb0"/>
+    <token id="0x2063eb0" file="../include/base_local_planner/map_grid.h" linenr="87" str="," scope="0x208b1c0" astParent="0x2063bf0" astOperand1="0x2063e00" astOperand2="0x20640c0"/>
+    <token id="0x2063f60" file="../include/base_local_planner/map_grid.h" linenr="87" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x20640c0" file="../include/base_local_planner/map_grid.h" linenr="87" str="y" scope="0x208b1c0" type="name" varId="14" variable="0x208ea00" astParent="0x2063eb0"/>
+    <token id="0x2065540" file="../include/base_local_planner/map_grid.h" linenr="87" str=")" scope="0x208b1c0" link="0x2063bf0"/>
+    <token id="0x20655f0" file="../include/base_local_planner/map_grid.h" linenr="87" str="{" scope="0x208b8e0" link="0x2065d80"/>
+    <token id="0x20656a0" file="../include/base_local_planner/map_grid.h" linenr="88" str="return" scope="0x208b8e0" type="name" astOperand1="0x2065800"/>
+    <token id="0x2065750" file="../include/base_local_planner/map_grid.h" linenr="88" str="map_" scope="0x208b8e0" type="name" varId="39" variable="0x208dbd0" astParent="0x2065800"/>
+    <token id="0x2065800" file="../include/base_local_planner/map_grid.h" linenr="88" str="[" scope="0x208b8e0" link="0x2065c20" astParent="0x20656a0" astOperand1="0x2065750" astOperand2="0x2065ac0"/>
+    <token id="0x20658b0" file="../include/base_local_planner/map_grid.h" linenr="88" str="size_x_" scope="0x208b8e0" type="name" varId="37" variable="0x208daf0" astParent="0x2065960"/>
+    <token id="0x2065960" file="../include/base_local_planner/map_grid.h" linenr="88" str="*" scope="0x208b8e0" type="op" isArithmeticalOp="True" astParent="0x2065ac0" astOperand1="0x20658b0" astOperand2="0x2065a10"/>
+    <token id="0x2065a10" file="../include/base_local_planner/map_grid.h" linenr="88" str="y" scope="0x208b8e0" type="name" varId="14" variable="0x208ea00" astParent="0x2065960"/>
+    <token id="0x2065ac0" file="../include/base_local_planner/map_grid.h" linenr="88" str="+" scope="0x208b8e0" type="op" isArithmeticalOp="True" astParent="0x2065800" astOperand1="0x2065960" astOperand2="0x2065b70"/>
+    <token id="0x2065b70" file="../include/base_local_planner/map_grid.h" linenr="88" str="x" scope="0x208b8e0" type="name" varId="13" variable="0x208e990" astParent="0x2065ac0"/>
+    <token id="0x2065c20" file="../include/base_local_planner/map_grid.h" linenr="88" str="]" scope="0x208b8e0" link="0x2065800"/>
+    <token id="0x2065cd0" file="../include/base_local_planner/map_grid.h" linenr="88" str=";" scope="0x208b8e0"/>
+    <token id="0x2065d80" file="../include/base_local_planner/map_grid.h" linenr="89" str="}" scope="0x208b8e0" link="0x20655f0"/>
+    <token id="0x2065e30" file="../include/base_local_planner/map_grid.h" linenr="94" str="~" scope="0x208b1c0" type="op" astOperand1="0x2065f90"/>
+    <token id="0x2065ee0" file="../include/base_local_planner/map_grid.h" linenr="94" str="MapGrid" scope="0x208b1c0" type="name" function="0x208ba10" astParent="0x2065f90"/>
+    <token id="0x2065f90" file="../include/base_local_planner/map_grid.h" linenr="94" str="(" scope="0x208b1c0" link="0x2066040" astParent="0x2065e30" astOperand1="0x2065ee0"/>
+    <token id="0x2066040" file="../include/base_local_planner/map_grid.h" linenr="94" str=")" scope="0x208b1c0" link="0x2065f90"/>
+    <token id="0x20660f0" file="../include/base_local_planner/map_grid.h" linenr="94" str="{" scope="0x208bab0" link="0x20661a0"/>
+    <token id="0x20661a0" file="../include/base_local_planner/map_grid.h" linenr="94" str="}" scope="0x208bab0" link="0x20660f0"/>
+    <token id="0x2066250" file="../include/base_local_planner/map_grid.h" linenr="100" str="MapGrid" scope="0x208b1c0" type="name" function="0x208bbe0" astParent="0x2066300"/>
+    <token id="0x2066300" file="../include/base_local_planner/map_grid.h" linenr="100" str="(" scope="0x208b1c0" link="0x2066670" astOperand1="0x2066250" astOperand2="0x2066510"/>
+    <token id="0x20663b0" file="../include/base_local_planner/map_grid.h" linenr="100" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x2066460" file="../include/base_local_planner/map_grid.h" linenr="100" str="MapGrid" scope="0x208b1c0" type="name" type-scope="0x208b1c0" astParent="0x2066510"/>
+    <token id="0x2066510" file="../include/base_local_planner/map_grid.h" linenr="100" str="&amp;" scope="0x208b1c0" type="op" astParent="0x2066300" astOperand1="0x2066460" astOperand2="0x20665c0"/>
+    <token id="0x20665c0" file="../include/base_local_planner/map_grid.h" linenr="100" str="mg" scope="0x208b1c0" type="name" varId="15" variable="0x208ea70" astParent="0x2066510"/>
+    <token id="0x2066670" file="../include/base_local_planner/map_grid.h" linenr="100" str=")" scope="0x208b1c0" link="0x2066300"/>
+    <token id="0x2066720" file="../include/base_local_planner/map_grid.h" linenr="100" str=";" scope="0x208b1c0"/>
+    <token id="0x20667d0" file="../include/base_local_planner/map_grid.h" linenr="106" str="MapGrid" scope="0x208b1c0" type="name" type-scope="0x208b1c0" astParent="0x2066880"/>
+    <token id="0x2066880" file="../include/base_local_planner/map_grid.h" linenr="106" str="&amp;" scope="0x208b1c0" type="op" astOperand1="0x20667d0" astOperand2="0x2066a90"/>
+    <token id="0x2066930" file="../include/base_local_planner/map_grid.h" linenr="106" str="operator=" scope="0x208b1c0" type="name" function="0x208bc80" astParent="0x2066a90"/>
+    <token id="0x2066a90" file="../include/base_local_planner/map_grid.h" linenr="106" str="(" scope="0x208b1c0" link="0x2066e00" astParent="0x2066880" astOperand1="0x2066930" astOperand2="0x2066ca0"/>
+    <token id="0x2066b40" file="../include/base_local_planner/map_grid.h" linenr="106" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x2066bf0" file="../include/base_local_planner/map_grid.h" linenr="106" str="MapGrid" scope="0x208b1c0" type="name" type-scope="0x208b1c0" astParent="0x2066ca0"/>
+    <token id="0x2066ca0" file="../include/base_local_planner/map_grid.h" linenr="106" str="&amp;" scope="0x208b1c0" type="op" astParent="0x2066a90" astOperand1="0x2066bf0" astOperand2="0x2066d50"/>
+    <token id="0x2066d50" file="../include/base_local_planner/map_grid.h" linenr="106" str="mg" scope="0x208b1c0" type="name" varId="16" variable="0x208eae0" astParent="0x2066ca0"/>
+    <token id="0x2066e00" file="../include/base_local_planner/map_grid.h" linenr="106" str=")" scope="0x208b1c0" link="0x2066a90"/>
+    <token id="0x2066eb0" file="../include/base_local_planner/map_grid.h" linenr="106" str=";" scope="0x208b1c0"/>
+    <token id="0x2066f60" file="../include/base_local_planner/map_grid.h" linenr="111" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x2067010" file="../include/base_local_planner/map_grid.h" linenr="111" str="resetPathDist" scope="0x208b1c0" type="name" function="0x208bd20" astParent="0x20670c0"/>
+    <token id="0x20670c0" file="../include/base_local_planner/map_grid.h" linenr="111" str="(" scope="0x208b1c0" link="0x2067170" astOperand1="0x2067010"/>
+    <token id="0x2067170" file="../include/base_local_planner/map_grid.h" linenr="111" str=")" scope="0x208b1c0" link="0x20670c0"/>
+    <token id="0x2067220" file="../include/base_local_planner/map_grid.h" linenr="111" str=";" scope="0x208b1c0"/>
+    <token id="0x20672d0" file="../include/base_local_planner/map_grid.h" linenr="118" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x2067380" file="../include/base_local_planner/map_grid.h" linenr="118" str="sizeCheck" scope="0x208b1c0" type="name" function="0x208bdc0" astParent="0x2067430"/>
+    <token id="0x2067430" file="../include/base_local_planner/map_grid.h" linenr="118" str="(" scope="0x208b1c0" link="0x20679b0" astOperand1="0x2067380" astOperand2="0x20676f0"/>
+    <token id="0x20674e0" file="../include/base_local_planner/map_grid.h" linenr="118" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2067640" file="../include/base_local_planner/map_grid.h" linenr="118" str="size_x" scope="0x208b1c0" type="name" varId="17" variable="0x208eb50" astParent="0x20676f0"/>
+    <token id="0x20676f0" file="../include/base_local_planner/map_grid.h" linenr="118" str="," scope="0x208b1c0" astParent="0x2067430" astOperand1="0x2067640" astOperand2="0x2067900"/>
+    <token id="0x20677a0" file="../include/base_local_planner/map_grid.h" linenr="118" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2067900" file="../include/base_local_planner/map_grid.h" linenr="118" str="size_y" scope="0x208b1c0" type="name" varId="18" variable="0x208ebc0" astParent="0x20676f0"/>
+    <token id="0x20679b0" file="../include/base_local_planner/map_grid.h" linenr="118" str=")" scope="0x208b1c0" link="0x2067430"/>
+    <token id="0x2067a60" file="../include/base_local_planner/map_grid.h" linenr="118" str=";" scope="0x208b1c0"/>
+    <token id="0x2067b10" file="../include/base_local_planner/map_grid.h" linenr="123" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x2067bc0" file="../include/base_local_planner/map_grid.h" linenr="123" str="commonInit" scope="0x208b1c0" type="name" function="0x208be60" astParent="0x2067c70"/>
+    <token id="0x2067c70" file="../include/base_local_planner/map_grid.h" linenr="123" str="(" scope="0x208b1c0" link="0x2067d20" astOperand1="0x2067bc0"/>
+    <token id="0x2067d20" file="../include/base_local_planner/map_grid.h" linenr="123" str=")" scope="0x208b1c0" link="0x2067c70"/>
+    <token id="0x2067dd0" file="../include/base_local_planner/map_grid.h" linenr="123" str=";" scope="0x208b1c0"/>
+    <token id="0x2067e80" file="../include/base_local_planner/map_grid.h" linenr="131" str="long" scope="0x208b1c0" type="name"/>
+    <token id="0x2067f30" file="../include/base_local_planner/map_grid.h" linenr="131" str="getIndex" scope="0x208b1c0" type="name" function="0x208bf00" astParent="0x2067fe0"/>
+    <token id="0x2067fe0" file="../include/base_local_planner/map_grid.h" linenr="131" str="(" scope="0x208b1c0" link="0x2068400" astOperand1="0x2067f30" astOperand2="0x20681f0"/>
+    <token id="0x2068090" file="../include/base_local_planner/map_grid.h" linenr="131" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2068140" file="../include/base_local_planner/map_grid.h" linenr="131" str="x" scope="0x208b1c0" type="name" varId="19" variable="0x208ec30" astParent="0x20681f0"/>
+    <token id="0x20681f0" file="../include/base_local_planner/map_grid.h" linenr="131" str="," scope="0x208b1c0" astParent="0x2067fe0" astOperand1="0x2068140" astOperand2="0x2068350"/>
+    <token id="0x20682a0" file="../include/base_local_planner/map_grid.h" linenr="131" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2068350" file="../include/base_local_planner/map_grid.h" linenr="131" str="y" scope="0x208b1c0" type="name" varId="20" variable="0x208eca0" astParent="0x20681f0"/>
+    <token id="0x2068400" file="../include/base_local_planner/map_grid.h" linenr="131" str=")" scope="0x208b1c0" link="0x2067fe0"/>
+    <token id="0x20684b0" file="../include/base_local_planner/map_grid.h" linenr="131" str=";" scope="0x208b1c0"/>
+    <token id="0x2068560" file="../include/base_local_planner/map_grid.h" linenr="136" str="double" scope="0x208b1c0" type="name"/>
+    <token id="0x20686c0" file="../include/base_local_planner/map_grid.h" linenr="136" str="obstacleCosts" scope="0x208b1c0" type="name" function="0x208bfa0" astParent="0x2068770"/>
+    <token id="0x2068770" file="../include/base_local_planner/map_grid.h" linenr="136" str="(" scope="0x208b1c0" link="0x2068820" astOperand1="0x20686c0"/>
+    <token id="0x2068820" file="../include/base_local_planner/map_grid.h" linenr="136" str=")" scope="0x208b1c0" link="0x2068770"/>
+    <token id="0x20688d0" file="../include/base_local_planner/map_grid.h" linenr="136" str="{" scope="0x208c040" link="0x2068e50"/>
+    <token id="0x2068980" file="../include/base_local_planner/map_grid.h" linenr="137" str="return" scope="0x208c040" type="name" astOperand1="0x2068c40"/>
+    <token id="0x2068a30" file="../include/base_local_planner/map_grid.h" linenr="137" str="map_" scope="0x208c040" type="name" varId="39" variable="0x208dbd0" astParent="0x2068ae0"/>
+    <token id="0x2068ae0" file="../include/base_local_planner/map_grid.h" linenr="137" str="." scope="0x208c040" astParent="0x2068c40" astOperand1="0x2068a30" astOperand2="0x2068b90"/>
+    <token id="0x2068b90" file="../include/base_local_planner/map_grid.h" linenr="137" str="size" scope="0x208c040" type="name" astParent="0x2068ae0"/>
+    <token id="0x2068c40" file="../include/base_local_planner/map_grid.h" linenr="137" str="(" scope="0x208c040" link="0x2068cf0" astParent="0x2068980" astOperand1="0x2068ae0"/>
+    <token id="0x2068cf0" file="../include/base_local_planner/map_grid.h" linenr="137" str=")" scope="0x208c040" link="0x2068c40"/>
+    <token id="0x2068da0" file="../include/base_local_planner/map_grid.h" linenr="137" str=";" scope="0x208c040"/>
+    <token id="0x2068e50" file="../include/base_local_planner/map_grid.h" linenr="138" str="}" scope="0x208c040" link="0x20688d0"/>
+    <token id="0x2068f00" file="../include/base_local_planner/map_grid.h" linenr="144" str="double" scope="0x208b1c0" type="name"/>
+    <token id="0x2069060" file="../include/base_local_planner/map_grid.h" linenr="144" str="unreachableCellCosts" scope="0x208b1c0" type="name" function="0x208c170" astParent="0x2069140"/>
+    <token id="0x2069140" file="../include/base_local_planner/map_grid.h" linenr="144" str="(" scope="0x208b1c0" link="0x20691f0" astOperand1="0x2069060"/>
+    <token id="0x20691f0" file="../include/base_local_planner/map_grid.h" linenr="144" str=")" scope="0x208b1c0" link="0x2069140"/>
+    <token id="0x20692a0" file="../include/base_local_planner/map_grid.h" linenr="144" str="{" scope="0x208c210" link="0x2069980"/>
+    <token id="0x2069350" file="../include/base_local_planner/map_grid.h" linenr="145" str="return" scope="0x208c210" type="name" astOperand1="0x2069770"/>
+    <token id="0x2069400" file="../include/base_local_planner/map_grid.h" linenr="145" str="map_" scope="0x208c210" type="name" varId="39" variable="0x208dbd0" astParent="0x20694b0"/>
+    <token id="0x20694b0" file="../include/base_local_planner/map_grid.h" linenr="145" str="." scope="0x208c210" astParent="0x2069610" astOperand1="0x2069400" astOperand2="0x2069560"/>
+    <token id="0x2069560" file="../include/base_local_planner/map_grid.h" linenr="145" str="size" scope="0x208c210" type="name" astParent="0x20694b0"/>
+    <token id="0x2069610" file="../include/base_local_planner/map_grid.h" linenr="145" str="(" scope="0x208c210" link="0x20696c0" astParent="0x2069770" astOperand1="0x20694b0"/>
+    <token id="0x20696c0" file="../include/base_local_planner/map_grid.h" linenr="145" str=")" scope="0x208c210" link="0x2069610"/>
+    <token id="0x2069770" file="../include/base_local_planner/map_grid.h" linenr="145" str="+" scope="0x208c210" type="op" isArithmeticalOp="True" astParent="0x2069350" astOperand1="0x2069610" astOperand2="0x2069820"/>
+    <token id="0x2069820" file="../include/base_local_planner/map_grid.h" linenr="145" str="1" scope="0x208c210" type="number" isInt="True" values="0x2069828" astParent="0x2069770"/>
+    <token id="0x20698d0" file="../include/base_local_planner/map_grid.h" linenr="145" str=";" scope="0x208c210"/>
+    <token id="0x2069980" file="../include/base_local_planner/map_grid.h" linenr="146" str="}" scope="0x208c210" link="0x20692a0"/>
+    <token id="0x2069a30" file="../include/base_local_planner/map_grid.h" linenr="153" str="bool" scope="0x208b1c0" type="name"/>
+    <token id="0x2069b90" file="../include/base_local_planner/map_grid.h" linenr="153" str="updatePathCell" scope="0x208b1c0" type="name" function="0x208c340" astParent="0x2069c40"/>
+    <token id="0x2069c40" file="../include/base_local_planner/map_grid.h" linenr="153" str="(" scope="0x208b1c0" link="0x206a690" astOperand1="0x2069b90" astOperand2="0x206a1c0"/>
+    <token id="0x2069cf0" file="../include/base_local_planner/map_grid.h" linenr="153" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0" astParent="0x2069da0"/>
+    <token id="0x2069da0" file="../include/base_local_planner/map_grid.h" linenr="153" str="*" scope="0x208b1c0" type="op" isArithmeticalOp="True" astParent="0x2069f00" astOperand1="0x2069cf0" astOperand2="0x2069e50"/>
+    <token id="0x2069e50" file="../include/base_local_planner/map_grid.h" linenr="153" str="current_cell" scope="0x208b1c0" type="name" varId="21" variable="0x208ed10" astParent="0x2069da0"/>
+    <token id="0x2069f00" file="../include/base_local_planner/map_grid.h" linenr="153" str="," scope="0x208b1c0" astParent="0x206a1c0" astOperand1="0x2069da0" astOperand2="0x206a060"/>
+    <token id="0x2069fb0" file="../include/base_local_planner/map_grid.h" linenr="153" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0" astParent="0x206a060"/>
+    <token id="0x206a060" file="../include/base_local_planner/map_grid.h" linenr="153" str="*" scope="0x208b1c0" type="op" isArithmeticalOp="True" astParent="0x2069f00" astOperand1="0x2069fb0" astOperand2="0x206a110"/>
+    <token id="0x206a110" file="../include/base_local_planner/map_grid.h" linenr="153" str="check_cell" scope="0x208b1c0" type="name" varId="22" variable="0x208ed80" astParent="0x206a060"/>
+    <token id="0x206a1c0" file="../include/base_local_planner/map_grid.h" linenr="153" str="," scope="0x208b1c0" astParent="0x2069c40" astOperand1="0x2069f00" astOperand2="0x206a530"/>
+    <token id="0x206a270" file="../include/base_local_planner/map_grid.h" linenr="154" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206a320" file="../include/base_local_planner/map_grid.h" linenr="154" str="costmap_2d" scope="0x208b1c0" type="name" astParent="0x206a3d0"/>
+    <token id="0x206a3d0" file="../include/base_local_planner/map_grid.h" linenr="154" str="::" scope="0x208b1c0" astParent="0x206a530" astOperand1="0x206a320" astOperand2="0x206a480"/>
+    <token id="0x206a480" file="../include/base_local_planner/map_grid.h" linenr="154" str="Costmap2D" scope="0x208b1c0" type="name" astParent="0x206a3d0"/>
+    <token id="0x206a530" file="../include/base_local_planner/map_grid.h" linenr="154" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206a1c0" astOperand1="0x206a3d0" astOperand2="0x206a5e0"/>
+    <token id="0x206a5e0" file="../include/base_local_planner/map_grid.h" linenr="154" str="costmap" scope="0x208b1c0" type="name" varId="23" variable="0x208edf0" astParent="0x206a530"/>
+    <token id="0x206a690" file="../include/base_local_planner/map_grid.h" linenr="154" str=")" scope="0x208b1c0" link="0x2069c40"/>
+    <token id="0x206a740" file="../include/base_local_planner/map_grid.h" linenr="154" str=";" scope="0x208b1c0"/>
+    <token id="0x206a7f0" file="../include/base_local_planner/map_grid.h" linenr="163" str="static" scope="0x208b1c0" type="name"/>
+    <token id="0x206a8a0" file="../include/base_local_planner/map_grid.h" linenr="163" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x206a950" file="../include/base_local_planner/map_grid.h" linenr="163" str="adjustPlanResolution" scope="0x208b1c0" type="name" function="0x208c3e0" astParent="0x206aa30"/>
+    <token id="0x206aa30" file="../include/base_local_planner/map_grid.h" linenr="163" str="(" scope="0x208b1c0" link="0x206bc10" astOperand1="0x206a950" astOperand2="0x206ba00"/>
+    <token id="0x206aae0" file="../include/base_local_planner/map_grid.h" linenr="163" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206ab90" file="../include/base_local_planner/map_grid.h" linenr="163" str="std" scope="0x208b1c0" type="name" astParent="0x206ac40"/>
+    <token id="0x206ac40" file="../include/base_local_planner/map_grid.h" linenr="163" str="::" scope="0x208b1c0" astParent="0x206b110" astOperand1="0x206ab90" astOperand2="0x206acf0"/>
+    <token id="0x206acf0" file="../include/base_local_planner/map_grid.h" linenr="163" str="vector" scope="0x208b1c0" type="name" astParent="0x206ac40"/>
+    <token id="0x206ada0" file="../include/base_local_planner/map_grid.h" linenr="163" str="&lt;" scope="0x208b1c0" link="0x206b060"/>
+    <token id="0x206ae50" file="../include/base_local_planner/map_grid.h" linenr="163" str="geometry_msgs" scope="0x208b1c0" type="name"/>
+    <token id="0x206af00" file="../include/base_local_planner/map_grid.h" linenr="163" str="::" scope="0x208b1c0"/>
+    <token id="0x206afb0" file="../include/base_local_planner/map_grid.h" linenr="163" str="PoseStamped" scope="0x208b1c0" type="name"/>
+    <token id="0x206b060" file="../include/base_local_planner/map_grid.h" linenr="163" str="&gt;" scope="0x208b1c0" link="0x206ada0"/>
+    <token id="0x206b110" file="../include/base_local_planner/map_grid.h" linenr="163" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206b270" astOperand1="0x206ac40" astOperand2="0x206b1c0"/>
+    <token id="0x206b1c0" file="../include/base_local_planner/map_grid.h" linenr="163" str="global_plan_in" scope="0x208b1c0" type="name" varId="24" variable="0x208ee60" astParent="0x206b110"/>
+    <token id="0x206b270" file="../include/base_local_planner/map_grid.h" linenr="163" str="," scope="0x208b1c0" astParent="0x206ba00" astOperand1="0x206b110" astOperand2="0x206b8a0"/>
+    <token id="0x206b320" file="../include/base_local_planner/map_grid.h" linenr="164" str="std" scope="0x208b1c0" type="name" astParent="0x206b3d0"/>
+    <token id="0x206b3d0" file="../include/base_local_planner/map_grid.h" linenr="164" str="::" scope="0x208b1c0" astParent="0x206b8a0" astOperand1="0x206b320" astOperand2="0x206b480"/>
+    <token id="0x206b480" file="../include/base_local_planner/map_grid.h" linenr="164" str="vector" scope="0x208b1c0" type="name" astParent="0x206b3d0"/>
+    <token id="0x206b530" file="../include/base_local_planner/map_grid.h" linenr="164" str="&lt;" scope="0x208b1c0" link="0x206b7f0"/>
+    <token id="0x206b5e0" file="../include/base_local_planner/map_grid.h" linenr="164" str="geometry_msgs" scope="0x208b1c0" type="name"/>
+    <token id="0x206b690" file="../include/base_local_planner/map_grid.h" linenr="164" str="::" scope="0x208b1c0"/>
+    <token id="0x206b740" file="../include/base_local_planner/map_grid.h" linenr="164" str="PoseStamped" scope="0x208b1c0" type="name"/>
+    <token id="0x206b7f0" file="../include/base_local_planner/map_grid.h" linenr="164" str="&gt;" scope="0x208b1c0" link="0x206b530"/>
+    <token id="0x206b8a0" file="../include/base_local_planner/map_grid.h" linenr="164" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206b270" astOperand1="0x206b3d0" astOperand2="0x206b950"/>
+    <token id="0x206b950" file="../include/base_local_planner/map_grid.h" linenr="164" str="global_plan_out" scope="0x208b1c0" type="name" varId="25" variable="0x208eed0" astParent="0x206b8a0"/>
+    <token id="0x206ba00" file="../include/base_local_planner/map_grid.h" linenr="164" str="," scope="0x208b1c0" astParent="0x206aa30" astOperand1="0x206b270" astOperand2="0x206bb60"/>
+    <token id="0x206bab0" file="../include/base_local_planner/map_grid.h" linenr="164" str="double" scope="0x208b1c0" type="name"/>
+    <token id="0x206bb60" file="../include/base_local_planner/map_grid.h" linenr="164" str="resolution" scope="0x208b1c0" type="name" varId="26" variable="0x208ef40" astParent="0x206ba00"/>
+    <token id="0x206bc10" file="../include/base_local_planner/map_grid.h" linenr="164" str=")" scope="0x208b1c0" link="0x206aa30"/>
+    <token id="0x206bcc0" file="../include/base_local_planner/map_grid.h" linenr="164" str=";" scope="0x208b1c0"/>
+    <token id="0x206bd70" file="../include/base_local_planner/map_grid.h" linenr="170" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x206be20" file="../include/base_local_planner/map_grid.h" linenr="170" str="computeTargetDistance" scope="0x208b1c0" type="name" function="0x208c480" astParent="0x206bf00"/>
+    <token id="0x206bf00" file="../include/base_local_planner/map_grid.h" linenr="170" str="(" scope="0x208b1c0" link="0x206cab0" astOperand1="0x206be20" astOperand2="0x206c5e0"/>
+    <token id="0x206bfb0" file="../include/base_local_planner/map_grid.h" linenr="170" str="std" scope="0x208b1c0" type="name" astParent="0x206c060"/>
+    <token id="0x206c060" file="../include/base_local_planner/map_grid.h" linenr="170" str="::" scope="0x208b1c0" astParent="0x206c480" astOperand1="0x206bfb0" astOperand2="0x206c110"/>
+    <token id="0x206c110" file="../include/base_local_planner/map_grid.h" linenr="170" str="queue" scope="0x208b1c0" type="name" astParent="0x206c060"/>
+    <token id="0x206c1c0" file="../include/base_local_planner/map_grid.h" linenr="170" str="&lt;" scope="0x208b1c0" link="0x206c3d0"/>
+    <token id="0x206c270" file="../include/base_local_planner/map_grid.h" linenr="170" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0"/>
+    <token id="0x206c320" file="../include/base_local_planner/map_grid.h" linenr="170" str="*" scope="0x208b1c0" type="op" isArithmeticalOp="True"/>
+    <token id="0x206c3d0" file="../include/base_local_planner/map_grid.h" linenr="170" str="&gt;" scope="0x208b1c0" link="0x206c1c0"/>
+    <token id="0x206c480" file="../include/base_local_planner/map_grid.h" linenr="170" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206c5e0" astOperand1="0x206c060" astOperand2="0x206c530"/>
+    <token id="0x206c530" file="../include/base_local_planner/map_grid.h" linenr="170" str="dist_queue" scope="0x208b1c0" type="name" varId="27" variable="0x208efb0" astParent="0x206c480"/>
+    <token id="0x206c5e0" file="../include/base_local_planner/map_grid.h" linenr="170" str="," scope="0x208b1c0" astParent="0x206bf00" astOperand1="0x206c480" astOperand2="0x206c950"/>
+    <token id="0x206c690" file="../include/base_local_planner/map_grid.h" linenr="170" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206c740" file="../include/base_local_planner/map_grid.h" linenr="170" str="costmap_2d" scope="0x208b1c0" type="name" astParent="0x206c7f0"/>
+    <token id="0x206c7f0" file="../include/base_local_planner/map_grid.h" linenr="170" str="::" scope="0x208b1c0" astParent="0x206c950" astOperand1="0x206c740" astOperand2="0x206c8a0"/>
+    <token id="0x206c8a0" file="../include/base_local_planner/map_grid.h" linenr="170" str="Costmap2D" scope="0x208b1c0" type="name" astParent="0x206c7f0"/>
+    <token id="0x206c950" file="../include/base_local_planner/map_grid.h" linenr="170" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206c5e0" astOperand1="0x206c7f0" astOperand2="0x206ca00"/>
+    <token id="0x206ca00" file="../include/base_local_planner/map_grid.h" linenr="170" str="costmap" scope="0x208b1c0" type="name" varId="28" variable="0x208f020" astParent="0x206c950"/>
+    <token id="0x206cab0" file="../include/base_local_planner/map_grid.h" linenr="170" str=")" scope="0x208b1c0" link="0x206bf00"/>
+    <token id="0x206cb60" file="../include/base_local_planner/map_grid.h" linenr="170" str=";" scope="0x208b1c0"/>
+    <token id="0x206cc10" file="../include/base_local_planner/map_grid.h" linenr="176" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x206ccc0" file="../include/base_local_planner/map_grid.h" linenr="176" str="computeGoalDistance" scope="0x208b1c0" type="name" function="0x208c520" astParent="0x206cda0"/>
+    <token id="0x206cda0" file="../include/base_local_planner/map_grid.h" linenr="176" str="(" scope="0x208b1c0" link="0x206d950" astOperand1="0x206ccc0" astOperand2="0x206d480"/>
+    <token id="0x206ce50" file="../include/base_local_planner/map_grid.h" linenr="176" str="std" scope="0x208b1c0" type="name" astParent="0x206cf00"/>
+    <token id="0x206cf00" file="../include/base_local_planner/map_grid.h" linenr="176" str="::" scope="0x208b1c0" astParent="0x206d320" astOperand1="0x206ce50" astOperand2="0x206cfb0"/>
+    <token id="0x206cfb0" file="../include/base_local_planner/map_grid.h" linenr="176" str="queue" scope="0x208b1c0" type="name" astParent="0x206cf00"/>
+    <token id="0x206d060" file="../include/base_local_planner/map_grid.h" linenr="176" str="&lt;" scope="0x208b1c0" link="0x206d270"/>
+    <token id="0x206d110" file="../include/base_local_planner/map_grid.h" linenr="176" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0"/>
+    <token id="0x206d1c0" file="../include/base_local_planner/map_grid.h" linenr="176" str="*" scope="0x208b1c0" type="op" isArithmeticalOp="True"/>
+    <token id="0x206d270" file="../include/base_local_planner/map_grid.h" linenr="176" str="&gt;" scope="0x208b1c0" link="0x206d060"/>
+    <token id="0x206d320" file="../include/base_local_planner/map_grid.h" linenr="176" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206d480" astOperand1="0x206cf00" astOperand2="0x206d3d0"/>
+    <token id="0x206d3d0" file="../include/base_local_planner/map_grid.h" linenr="176" str="dist_queue" scope="0x208b1c0" type="name" varId="29" variable="0x208f090" astParent="0x206d320"/>
+    <token id="0x206d480" file="../include/base_local_planner/map_grid.h" linenr="176" str="," scope="0x208b1c0" astParent="0x206cda0" astOperand1="0x206d320" astOperand2="0x206d7f0"/>
+    <token id="0x206d530" file="../include/base_local_planner/map_grid.h" linenr="176" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206d5e0" file="../include/base_local_planner/map_grid.h" linenr="176" str="costmap_2d" scope="0x208b1c0" type="name" astParent="0x206d690"/>
+    <token id="0x206d690" file="../include/base_local_planner/map_grid.h" linenr="176" str="::" scope="0x208b1c0" astParent="0x206d7f0" astOperand1="0x206d5e0" astOperand2="0x206d740"/>
+    <token id="0x206d740" file="../include/base_local_planner/map_grid.h" linenr="176" str="Costmap2D" scope="0x208b1c0" type="name" astParent="0x206d690"/>
+    <token id="0x206d7f0" file="../include/base_local_planner/map_grid.h" linenr="176" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206d480" astOperand1="0x206d690" astOperand2="0x206d8a0"/>
+    <token id="0x206d8a0" file="../include/base_local_planner/map_grid.h" linenr="176" str="costmap" scope="0x208b1c0" type="name" varId="30" variable="0x208f100" astParent="0x206d7f0"/>
+    <token id="0x206d950" file="../include/base_local_planner/map_grid.h" linenr="176" str=")" scope="0x208b1c0" link="0x206cda0"/>
+    <token id="0x206da00" file="../include/base_local_planner/map_grid.h" linenr="176" str=";" scope="0x208b1c0"/>
+    <token id="0x206dab0" file="../include/base_local_planner/map_grid.h" linenr="181" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x206db60" file="../include/base_local_planner/map_grid.h" linenr="181" str="setTargetCells" scope="0x208b1c0" type="name" function="0x208c5c0" astParent="0x206dc10"/>
+    <token id="0x206dc10" file="../include/base_local_planner/map_grid.h" linenr="181" str="(" scope="0x208b1c0" link="0x206e920" astOperand1="0x206db60" astOperand2="0x206e0e0"/>
+    <token id="0x206dcc0" file="../include/base_local_planner/map_grid.h" linenr="181" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206dd70" file="../include/base_local_planner/map_grid.h" linenr="181" str="costmap_2d" scope="0x208b1c0" type="name" astParent="0x206de20"/>
+    <token id="0x206de20" file="../include/base_local_planner/map_grid.h" linenr="181" str="::" scope="0x208b1c0" astParent="0x206df80" astOperand1="0x206dd70" astOperand2="0x206ded0"/>
+    <token id="0x206ded0" file="../include/base_local_planner/map_grid.h" linenr="181" str="Costmap2D" scope="0x208b1c0" type="name" astParent="0x206de20"/>
+    <token id="0x206df80" file="../include/base_local_planner/map_grid.h" linenr="181" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206e0e0" astOperand1="0x206de20" astOperand2="0x206e030"/>
+    <token id="0x206e030" file="../include/base_local_planner/map_grid.h" linenr="181" str="costmap" scope="0x208b1c0" type="name" varId="31" variable="0x208f170" astParent="0x206df80"/>
+    <token id="0x206e0e0" file="../include/base_local_planner/map_grid.h" linenr="181" str="," scope="0x208b1c0" astParent="0x206dc10" astOperand1="0x206df80" astOperand2="0x206e7c0"/>
+    <token id="0x206e190" file="../include/base_local_planner/map_grid.h" linenr="181" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206e240" file="../include/base_local_planner/map_grid.h" linenr="181" str="std" scope="0x208b1c0" type="name" astParent="0x206e2f0"/>
+    <token id="0x206e2f0" file="../include/base_local_planner/map_grid.h" linenr="181" str="::" scope="0x208b1c0" astParent="0x206e7c0" astOperand1="0x206e240" astOperand2="0x206e3a0"/>
+    <token id="0x206e3a0" file="../include/base_local_planner/map_grid.h" linenr="181" str="vector" scope="0x208b1c0" type="name" astParent="0x206e2f0"/>
+    <token id="0x206e450" file="../include/base_local_planner/map_grid.h" linenr="181" str="&lt;" scope="0x208b1c0" link="0x206e710"/>
+    <token id="0x206e500" file="../include/base_local_planner/map_grid.h" linenr="181" str="geometry_msgs" scope="0x208b1c0" type="name"/>
+    <token id="0x206e5b0" file="../include/base_local_planner/map_grid.h" linenr="181" str="::" scope="0x208b1c0"/>
+    <token id="0x206e660" file="../include/base_local_planner/map_grid.h" linenr="181" str="PoseStamped" scope="0x208b1c0" type="name"/>
+    <token id="0x206e710" file="../include/base_local_planner/map_grid.h" linenr="181" str="&gt;" scope="0x208b1c0" link="0x206e450"/>
+    <token id="0x206e7c0" file="../include/base_local_planner/map_grid.h" linenr="181" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206e0e0" astOperand1="0x206e2f0" astOperand2="0x206e870"/>
+    <token id="0x206e870" file="../include/base_local_planner/map_grid.h" linenr="181" str="global_plan" scope="0x208b1c0" type="name" varId="32" variable="0x208f1e0" astParent="0x206e7c0"/>
+    <token id="0x206e920" file="../include/base_local_planner/map_grid.h" linenr="181" str=")" scope="0x208b1c0" link="0x206dc10"/>
+    <token id="0x206e9d0" file="../include/base_local_planner/map_grid.h" linenr="181" str=";" scope="0x208b1c0"/>
+    <token id="0x206ea80" file="../include/base_local_planner/map_grid.h" linenr="186" str="void" scope="0x208b1c0" type="name"/>
+    <token id="0x206eb30" file="../include/base_local_planner/map_grid.h" linenr="186" str="setLocalGoal" scope="0x208b1c0" type="name" function="0x208c660" astParent="0x206ebe0"/>
+    <token id="0x206ebe0" file="../include/base_local_planner/map_grid.h" linenr="186" str="(" scope="0x208b1c0" link="0x206f8f0" astOperand1="0x206eb30" astOperand2="0x206f0b0"/>
+    <token id="0x206ec90" file="../include/base_local_planner/map_grid.h" linenr="186" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206ed40" file="../include/base_local_planner/map_grid.h" linenr="186" str="costmap_2d" scope="0x208b1c0" type="name" astParent="0x206edf0"/>
+    <token id="0x206edf0" file="../include/base_local_planner/map_grid.h" linenr="186" str="::" scope="0x208b1c0" astParent="0x206ef50" astOperand1="0x206ed40" astOperand2="0x206eea0"/>
+    <token id="0x206eea0" file="../include/base_local_planner/map_grid.h" linenr="186" str="Costmap2D" scope="0x208b1c0" type="name" astParent="0x206edf0"/>
+    <token id="0x206ef50" file="../include/base_local_planner/map_grid.h" linenr="186" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206f0b0" astOperand1="0x206edf0" astOperand2="0x206f000"/>
+    <token id="0x206f000" file="../include/base_local_planner/map_grid.h" linenr="186" str="costmap" scope="0x208b1c0" type="name" varId="33" variable="0x208f250" astParent="0x206ef50"/>
+    <token id="0x206f0b0" file="../include/base_local_planner/map_grid.h" linenr="186" str="," scope="0x208b1c0" astParent="0x206ebe0" astOperand1="0x206ef50" astOperand2="0x206f790"/>
+    <token id="0x206f160" file="../include/base_local_planner/map_grid.h" linenr="187" str="const" scope="0x208b1c0" type="name"/>
+    <token id="0x206f210" file="../include/base_local_planner/map_grid.h" linenr="187" str="std" scope="0x208b1c0" type="name" astParent="0x206f2c0"/>
+    <token id="0x206f2c0" file="../include/base_local_planner/map_grid.h" linenr="187" str="::" scope="0x208b1c0" astParent="0x206f790" astOperand1="0x206f210" astOperand2="0x206f370"/>
+    <token id="0x206f370" file="../include/base_local_planner/map_grid.h" linenr="187" str="vector" scope="0x208b1c0" type="name" astParent="0x206f2c0"/>
+    <token id="0x206f420" file="../include/base_local_planner/map_grid.h" linenr="187" str="&lt;" scope="0x208b1c0" link="0x206f6e0"/>
+    <token id="0x206f4d0" file="../include/base_local_planner/map_grid.h" linenr="187" str="geometry_msgs" scope="0x208b1c0" type="name"/>
+    <token id="0x206f580" file="../include/base_local_planner/map_grid.h" linenr="187" str="::" scope="0x208b1c0"/>
+    <token id="0x206f630" file="../include/base_local_planner/map_grid.h" linenr="187" str="PoseStamped" scope="0x208b1c0" type="name"/>
+    <token id="0x206f6e0" file="../include/base_local_planner/map_grid.h" linenr="187" str="&gt;" scope="0x208b1c0" link="0x206f420"/>
+    <token id="0x206f790" file="../include/base_local_planner/map_grid.h" linenr="187" str="&amp;" scope="0x208b1c0" type="op" astParent="0x206f0b0" astOperand1="0x206f2c0" astOperand2="0x206f840"/>
+    <token id="0x206f840" file="../include/base_local_planner/map_grid.h" linenr="187" str="global_plan" scope="0x208b1c0" type="name" varId="34" variable="0x208f2c0" astParent="0x206f790"/>
+    <token id="0x206f8f0" file="../include/base_local_planner/map_grid.h" linenr="187" str=")" scope="0x208b1c0" link="0x206ebe0"/>
+    <token id="0x206f9a0" file="../include/base_local_planner/map_grid.h" linenr="187" str=";" scope="0x208b1c0"/>
+    <token id="0x206fa50" file="../include/base_local_planner/map_grid.h" linenr="189" str="double" scope="0x208b1c0" type="name"/>
+    <token id="0x206fb00" file="../include/base_local_planner/map_grid.h" linenr="189" str="goal_x_" scope="0x208b1c0" type="name" varId="35" variable="0x208da10"/>
+    <token id="0x206fbb0" file="../include/base_local_planner/map_grid.h" linenr="189" str=";" scope="0x208b1c0"/>
+    <token id="0x2080700" file="../include/base_local_planner/map_grid.h" linenr="189" str="double" scope="0x208b1c0" type="name"/>
+    <token id="0x206fc60" file="../include/base_local_planner/map_grid.h" linenr="189" str="goal_y_" scope="0x208b1c0" type="name" varId="36" variable="0x208da80"/>
+    <token id="0x206fd10" file="../include/base_local_planner/map_grid.h" linenr="189" str=";" scope="0x208b1c0"/>
+    <token id="0x206fdc0" file="../include/base_local_planner/map_grid.h" linenr="191" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x206ff20" file="../include/base_local_planner/map_grid.h" linenr="191" str="size_x_" scope="0x208b1c0" type="name" varId="37" variable="0x208daf0"/>
+    <token id="0x206ffd0" file="../include/base_local_planner/map_grid.h" linenr="191" str=";" scope="0x208b1c0"/>
+    <token id="0x2080e90" file="../include/base_local_planner/map_grid.h" linenr="191" str="int" scope="0x208b1c0" type="name"/>
+    <token id="0x2070080" file="../include/base_local_planner/map_grid.h" linenr="191" str="size_y_" scope="0x208b1c0" type="name" varId="38" variable="0x208db60"/>
+    <token id="0x2070130" file="../include/base_local_planner/map_grid.h" linenr="191" str=";" scope="0x208b1c0"/>
+    <token id="0x20701e0" file="../include/base_local_planner/map_grid.h" linenr="193" str="private:" scope="0x208b1c0" type="name"/>
+    <token id="0x2070340" file="../include/base_local_planner/map_grid.h" linenr="195" str="std" scope="0x208b1c0" type="name" astParent="0x20703f0"/>
+    <token id="0x20703f0" file="../include/base_local_planner/map_grid.h" linenr="195" str="::" scope="0x208b1c0" astOperand1="0x2070340" astOperand2="0x20704a0"/>
+    <token id="0x20704a0" file="../include/base_local_planner/map_grid.h" linenr="195" str="vector" scope="0x208b1c0" type="name" astParent="0x20703f0"/>
+    <token id="0x2070550" file="../include/base_local_planner/map_grid.h" linenr="195" str="&lt;" scope="0x208b1c0" link="0x20706b0"/>
+    <token id="0x2070600" file="../include/base_local_planner/map_grid.h" linenr="195" str="MapCell" scope="0x208b1c0" type="name" type-scope="0x208a0c0"/>
+    <token id="0x20706b0" file="../include/base_local_planner/map_grid.h" linenr="195" str="&gt;" scope="0x208b1c0" link="0x2070550"/>
+    <token id="0x2070760" file="../include/base_local_planner/map_grid.h" linenr="195" str="map_" scope="0x208b1c0" type="name" varId="39" variable="0x208dbd0"/>
+    <token id="0x2070810" file="../include/base_local_planner/map_grid.h" linenr="195" str=";" scope="0x208b1c0"/>
+    <token id="0x20708c0" file="../include/base_local_planner/map_grid.h" linenr="197" str="}" scope="0x208b1c0" link="0x20607b0"/>
+    <token id="0x2070970" file="../include/base_local_planner/map_grid.h" linenr="197" str=";" scope="0x208a630"/>
+    <token id="0x2070a20" file="../include/base_local_planner/map_grid.h" linenr="198" str="}" scope="0x208a630" link="0x20605a0"/>
+    <token id="0x2070ad0" file="../include/base_local_planner/map_grid.h" linenr="198" str=";" scope="0x208a630"/>
+    <token id="0x205b0d0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="39" str="namespace" scope="0x208a630" type="name"/>
+    <token id="0x2070bb0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="39" str="base_local_planner" scope="0x208a630" type="name"/>
+    <token id="0x2070c60" file="../include/base_local_planner/map_grid_cost_point.h" linenr="39" str="{" scope="0x208a630" link="0x2071f10"/>
+    <token id="0x2070d10" file="../include/base_local_planner/map_grid_cost_point.h" linenr="40" str="struct" scope="0x208a630" type="name"/>
+    <token id="0x2070de0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="40" str="MapGridCostPoint" scope="0x208a630" type="name"/>
+    <token id="0x2070e90" file="../include/base_local_planner/map_grid_cost_point.h" linenr="40" str="{" scope="0x208c700" link="0x2071db0"/>
+    <token id="0x2070f40" file="../include/base_local_planner/map_grid_cost_point.h" linenr="41" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2070ff0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="41" str="x" scope="0x208c700" type="name" varId="40" variable="0x208dc40"/>
+    <token id="0x20710a0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="41" str=";" scope="0x208c700"/>
+    <token id="0x2071150" file="../include/base_local_planner/map_grid_cost_point.h" linenr="42" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071200" file="../include/base_local_planner/map_grid_cost_point.h" linenr="42" str="y" scope="0x208c700" type="name" varId="41" variable="0x208dcb0"/>
+    <token id="0x20712b0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="42" str=";" scope="0x208c700"/>
+    <token id="0x2071360" file="../include/base_local_planner/map_grid_cost_point.h" linenr="43" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071410" file="../include/base_local_planner/map_grid_cost_point.h" linenr="43" str="z" scope="0x208c700" type="name" varId="42" variable="0x208dd20"/>
+    <token id="0x20714c0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="43" str=";" scope="0x208c700"/>
+    <token id="0x2071570" file="../include/base_local_planner/map_grid_cost_point.h" linenr="44" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071620" file="../include/base_local_planner/map_grid_cost_point.h" linenr="44" str="path_cost" scope="0x208c700" type="name" varId="43" variable="0x208dd90"/>
+    <token id="0x20716d0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="44" str=";" scope="0x208c700"/>
+    <token id="0x2071780" file="../include/base_local_planner/map_grid_cost_point.h" linenr="45" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071830" file="../include/base_local_planner/map_grid_cost_point.h" linenr="45" str="goal_cost" scope="0x208c700" type="name" varId="44" variable="0x208de00"/>
+    <token id="0x20718e0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="45" str=";" scope="0x208c700"/>
+    <token id="0x2071990" file="../include/base_local_planner/map_grid_cost_point.h" linenr="46" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071a40" file="../include/base_local_planner/map_grid_cost_point.h" linenr="46" str="occ_cost" scope="0x208c700" type="name" varId="45" variable="0x208de70"/>
+    <token id="0x2071af0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="46" str=";" scope="0x208c700"/>
+    <token id="0x2071ba0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="47" str="float" scope="0x208c700" type="name"/>
+    <token id="0x2071c50" file="../include/base_local_planner/map_grid_cost_point.h" linenr="47" str="total_cost" scope="0x208c700" type="name" varId="46" variable="0x208dee0"/>
+    <token id="0x2071d00" file="../include/base_local_planner/map_grid_cost_point.h" linenr="47" str=";" scope="0x208c700"/>
+    <token id="0x2071db0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="48" str="}" scope="0x208c700" link="0x2070e90"/>
+    <token id="0x2071e60" file="../include/base_local_planner/map_grid_cost_point.h" linenr="48" str=";" scope="0x208a630"/>
+    <token id="0x2071f10" file="../include/base_local_planner/map_grid_cost_point.h" linenr="49" str="}" scope="0x208a630" link="0x2070c60"/>
+    <token id="0x2071fc0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="51" str="POINT_CLOUD_REGISTER_POINT_STRUCT" scope="0x208a630" type="name" astParent="0x20720a0"/>
+    <token id="0x20720a0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="51" str="(" scope="0x208a630" link="0x20745f0" astOperand1="0x2071fc0" astOperand2="0x2072390"/>
+    <token id="0x2072150" file="../include/base_local_planner/map_grid_cost_point.h" linenr="52" str="base_local_planner" scope="0x208a630" type="name" astParent="0x2072200"/>
+    <token id="0x2072200" file="../include/base_local_planner/map_grid_cost_point.h" linenr="52" str="::" scope="0x208a630" astParent="0x2072390" astOperand1="0x2072150" astOperand2="0x20722b0"/>
+    <token id="0x20722b0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="52" str="MapGridCostPoint" scope="0x208a630" type="name" type-scope="0x208c700" astParent="0x2072200"/>
+    <token id="0x2072390" file="../include/base_local_planner/map_grid_cost_point.h" linenr="52" str="," scope="0x208a630" astParent="0x20720a0" astOperand1="0x2072200" astOperand2="0x2074120"/>
+    <token id="0x2072440" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="(" scope="0x208a630" link="0x2072860"/>
+    <token id="0x20724f0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="float" scope="0x208a630" type="name" astParent="0x20725a0"/>
+    <token id="0x20725a0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="," scope="0x208a630" astParent="0x2072700" astOperand1="0x20724f0" astOperand2="0x2072650"/>
+    <token id="0x2072650" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="x" scope="0x208a630" type="name" astParent="0x20725a0"/>
+    <token id="0x2072700" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="," scope="0x208a630" astParent="0x2072910" astOperand1="0x20725a0" astOperand2="0x20727b0"/>
+    <token id="0x20727b0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str="x" scope="0x208a630" type="name" astParent="0x2072700"/>
+    <token id="0x2072860" file="../include/base_local_planner/map_grid_cost_point.h" linenr="53" str=")" scope="0x208a630" link="0x2072440"/>
+    <token id="0x2072910" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="(" scope="0x208a630" link="0x2072d30" astParent="0x2072de0" astOperand1="0x2072700" astOperand2="0x2072bd0"/>
+    <token id="0x20729c0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="float" scope="0x208a630" type="name" astParent="0x2072a70"/>
+    <token id="0x2072a70" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="," scope="0x208a630" astParent="0x2072bd0" astOperand1="0x20729c0" astOperand2="0x2072b20"/>
+    <token id="0x2072b20" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="y" scope="0x208a630" type="name" astParent="0x2072a70"/>
+    <token id="0x2072bd0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="," scope="0x208a630" astParent="0x2072910" astOperand1="0x2072a70" astOperand2="0x2072c80"/>
+    <token id="0x2072c80" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str="y" scope="0x208a630" type="name" astParent="0x2072bd0"/>
+    <token id="0x2072d30" file="../include/base_local_planner/map_grid_cost_point.h" linenr="54" str=")" scope="0x208a630" link="0x2072910"/>
+    <token id="0x2072de0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="(" scope="0x208a630" link="0x2073200" astParent="0x20732b0" astOperand1="0x2072910" astOperand2="0x20730a0"/>
+    <token id="0x2072e90" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="float" scope="0x208a630" type="name" astParent="0x2072f40"/>
+    <token id="0x2072f40" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="," scope="0x208a630" astParent="0x20730a0" astOperand1="0x2072e90" astOperand2="0x2072ff0"/>
+    <token id="0x2072ff0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="z" scope="0x208a630" type="name" astParent="0x2072f40"/>
+    <token id="0x20730a0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="," scope="0x208a630" astParent="0x2072de0" astOperand1="0x2072f40" astOperand2="0x2073150"/>
+    <token id="0x2073150" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str="z" scope="0x208a630" type="name" astParent="0x20730a0"/>
+    <token id="0x2073200" file="../include/base_local_planner/map_grid_cost_point.h" linenr="55" str=")" scope="0x208a630" link="0x2072de0"/>
+    <token id="0x20732b0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="(" scope="0x208a630" link="0x20736d0" astParent="0x2073780" astOperand1="0x2072de0" astOperand2="0x2073570"/>
+    <token id="0x2073360" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="float" scope="0x208a630" type="name" astParent="0x2073410"/>
+    <token id="0x2073410" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="," scope="0x208a630" astParent="0x2073570" astOperand1="0x2073360" astOperand2="0x20734c0"/>
+    <token id="0x20734c0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="path_cost" scope="0x208a630" type="name" astParent="0x2073410"/>
+    <token id="0x2073570" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="," scope="0x208a630" astParent="0x20732b0" astOperand1="0x2073410" astOperand2="0x2073620"/>
+    <token id="0x2073620" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str="path_cost" scope="0x208a630" type="name" astParent="0x2073570"/>
+    <token id="0x20736d0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="56" str=")" scope="0x208a630" link="0x20732b0"/>
+    <token id="0x2073780" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="(" scope="0x208a630" link="0x2073ba0" astParent="0x2073c50" astOperand1="0x20732b0" astOperand2="0x2073a40"/>
+    <token id="0x2073830" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="float" scope="0x208a630" type="name" astParent="0x20738e0"/>
+    <token id="0x20738e0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="," scope="0x208a630" astParent="0x2073a40" astOperand1="0x2073830" astOperand2="0x2073990"/>
+    <token id="0x2073990" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="goal_cost" scope="0x208a630" type="name" astParent="0x20738e0"/>
+    <token id="0x2073a40" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="," scope="0x208a630" astParent="0x2073780" astOperand1="0x20738e0" astOperand2="0x2073af0"/>
+    <token id="0x2073af0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str="goal_cost" scope="0x208a630" type="name" astParent="0x2073a40"/>
+    <token id="0x2073ba0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="57" str=")" scope="0x208a630" link="0x2073780"/>
+    <token id="0x2073c50" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="(" scope="0x208a630" link="0x2074070" astParent="0x2074120" astOperand1="0x2073780" astOperand2="0x2073f10"/>
+    <token id="0x2073d00" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="float" scope="0x208a630" type="name" astParent="0x2073db0"/>
+    <token id="0x2073db0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="," scope="0x208a630" astParent="0x2073f10" astOperand1="0x2073d00" astOperand2="0x2073e60"/>
+    <token id="0x2073e60" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="occ_cost" scope="0x208a630" type="name" astParent="0x2073db0"/>
+    <token id="0x2073f10" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="," scope="0x208a630" astParent="0x2073c50" astOperand1="0x2073db0" astOperand2="0x2073fc0"/>
+    <token id="0x2073fc0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str="occ_cost" scope="0x208a630" type="name" astParent="0x2073f10"/>
+    <token id="0x2074070" file="../include/base_local_planner/map_grid_cost_point.h" linenr="58" str=")" scope="0x208a630" link="0x2073c50"/>
+    <token id="0x2074120" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="(" scope="0x208a630" link="0x2074540" astParent="0x2072390" astOperand1="0x2073c50" astOperand2="0x20743e0"/>
+    <token id="0x20741d0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="float" scope="0x208a630" type="name" astParent="0x2074280"/>
+    <token id="0x2074280" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="," scope="0x208a630" astParent="0x20743e0" astOperand1="0x20741d0" astOperand2="0x2074330"/>
+    <token id="0x2074330" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="total_cost" scope="0x208a630" type="name" astParent="0x2074280"/>
+    <token id="0x20743e0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="," scope="0x208a630" astParent="0x2074120" astOperand1="0x2074280" astOperand2="0x2074490"/>
+    <token id="0x2074490" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str="total_cost" scope="0x208a630" type="name" astParent="0x20743e0"/>
+    <token id="0x2074540" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str=")" scope="0x208a630" link="0x2074120"/>
+    <token id="0x20745f0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str=")" scope="0x208a630" link="0x20720a0"/>
+    <token id="0x20746a0" file="../include/base_local_planner/map_grid_cost_point.h" linenr="59" str=";" scope="0x208a630"/>
+    <token id="0x2074750" file="../include/base_local_planner/map_grid_visualizer.h" linenr="43" str="namespace" scope="0x208a630" type="name"/>
+    <token id="0x2074800" file="../include/base_local_planner/map_grid_visualizer.h" linenr="43" str="base_local_planner" scope="0x208a630" type="name"/>
+    <token id="0x20748e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="43" str="{" scope="0x208a630" link="0x207ac50"/>
+    <token id="0x2074990" file="../include/base_local_planner/map_grid_visualizer.h" linenr="44" str="class" scope="0x208a630" type="name"/>
+    <token id="0x2074a40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="44" str="MapGridVisualizer" scope="0x208a630" type="name"/>
+    <token id="0x2074b20" file="../include/base_local_planner/map_grid_visualizer.h" linenr="44" str="{" scope="0x208c8d0" link="0x207aaf0"/>
+    <token id="0x2074bd0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="45" str="public:" scope="0x208c8d0" type="name"/>
+    <token id="0x2074d30" file="../include/base_local_planner/map_grid_visualizer.h" linenr="49" str="MapGridVisualizer" scope="0x208c8d0" type="name" function="0x208ca70" astParent="0x2074e10"/>
+    <token id="0x2074e10" file="../include/base_local_planner/map_grid_visualizer.h" linenr="49" str="(" scope="0x208c8d0" link="0x2074ec0" astOperand1="0x2074d30"/>
+    <token id="0x2074ec0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="49" str=")" scope="0x208c8d0" link="0x2074e10"/>
+    <token id="0x2074f70" file="../include/base_local_planner/map_grid_visualizer.h" linenr="49" str=";" scope="0x208c8d0"/>
+    <token id="0x2075020" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="void" scope="0x208c8d0" type="name"/>
+    <token id="0x20750d0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="initialize" scope="0x208c8d0" type="name" function="0x208cb10" astParent="0x2075180"/>
+    <token id="0x2075180" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="(" scope="0x208c8d0" link="0x2076f10" astOperand1="0x20750d0" astOperand2="0x20759c0"/>
+    <token id="0x2075230" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="const" scope="0x208c8d0" type="name"/>
+    <token id="0x20752e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="std" scope="0x208c8d0" type="name" astParent="0x2075390"/>
+    <token id="0x2075390" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="::" scope="0x208c8d0" astParent="0x20754f0" astOperand1="0x20752e0" astOperand2="0x2075440"/>
+    <token id="0x2075440" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="string" scope="0x208c8d0" type="name" astParent="0x2075390"/>
+    <token id="0x20754f0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&amp;" scope="0x208c8d0" type="op" astParent="0x2075650" astOperand1="0x2075390" astOperand2="0x20755a0"/>
+    <token id="0x20755a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="name" scope="0x208c8d0" type="name" varId="47" astParent="0x20754f0"/>
+    <token id="0x2075650" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0" astParent="0x20759c0" astOperand1="0x20754f0" astOperand2="0x20757b0"/>
+    <token id="0x2075700" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="std" scope="0x208c8d0" type="name" astParent="0x20757b0"/>
+    <token id="0x20757b0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="::" scope="0x208c8d0" astParent="0x2075650" astOperand1="0x2075700" astOperand2="0x2075910"/>
+    <token id="0x2075860" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="string" scope="0x208c8d0" type="name"/>
+    <token id="0x2075910" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="frame" scope="0x208c8d0" type="name" varId="48" astParent="0x20757b0"/>
+    <token id="0x20759c0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0" astParent="0x2075180" astOperand1="0x2075650" astOperand2="0x2075b20"/>
+    <token id="0x2075a70" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="boost" scope="0x208c8d0" type="name" astParent="0x2075b20"/>
+    <token id="0x2075b20" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="::" scope="0x208c8d0" astParent="0x20759c0" astOperand1="0x2075a70" astOperand2="0x2075bd0"/>
+    <token id="0x2075bd0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="function" scope="0x208c8d0" type="name" astParent="0x2075b20"/>
+    <token id="0x2075c80" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&lt;" scope="0x208c8d0" link="0x2076db0"/>
+    <token id="0x2075d30" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="bool" scope="0x208c8d0" type="name"/>
+    <token id="0x2075de0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="(" scope="0x208c8d0" link="0x2076d00"/>
+    <token id="0x2075e90" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="int" scope="0x208c8d0" type="name"/>
+    <token id="0x2075f40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="cx" scope="0x208c8d0" type="name"/>
+    <token id="0x2075ff0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0"/>
+    <token id="0x20760a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="int" scope="0x208c8d0" type="name"/>
+    <token id="0x2076150" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="cy" scope="0x208c8d0" type="name"/>
+    <token id="0x2076200" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0"/>
+    <token id="0x20762b0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2076360" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2076410" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="path_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x20764c0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0"/>
+    <token id="0x2076570" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2076620" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x20766d0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="goal_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x2076780" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0"/>
+    <token id="0x2076830" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x20768e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2076990" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="occ_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x2076a40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="," scope="0x208c8d0"/>
+    <token id="0x2076af0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2076ba0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2076c50" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="total_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x2076d00" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str=")" scope="0x208c8d0" link="0x2075de0"/>
+    <token id="0x2076db0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="&gt;" scope="0x208c8d0" link="0x2075c80"/>
+    <token id="0x2076e60" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str="cost_function" scope="0x208c8d0" type="name" varId="49"/>
+    <token id="0x2076f10" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str=")" scope="0x208c8d0" link="0x2075180"/>
+    <token id="0x2076fc0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="57" str=";" scope="0x208c8d0"/>
+    <token id="0x2077070" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="~" scope="0x208c8d0" type="op" astOperand1="0x2077200"/>
+    <token id="0x2077120" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="MapGridVisualizer" scope="0x208c8d0" type="name" function="0x208cbb0" astParent="0x2077200"/>
+    <token id="0x2077200" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="(" scope="0x208c8d0" link="0x20772b0" astParent="0x2077070" astOperand1="0x2077120"/>
+    <token id="0x20772b0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str=")" scope="0x208c8d0" link="0x2077200"/>
+    <token id="0x2077360" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="{" scope="0x208cc80" link="0x20778e0"/>
+    <token id="0x2077410" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="if" scope="0x208cc80" type="name" astParent="0x20774c0"/>
+    <token id="0x20774c0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="(" scope="0x208cc80" link="0x2077620" astOperand1="0x2077410" astOperand2="0x2077570"/>
+    <token id="0x2077570" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="cost_cloud_" scope="0x208cc80" type="name" varId="54" variable="0x208e0a0" astParent="0x20774c0"/>
+    <token id="0x2077620" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str=")" scope="0x208cc80" link="0x20774c0"/>
+    <token id="0x2060910" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="{" scope="0x208cdb0" link="0x2070290"/>
+    <token id="0x20776d0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="delete" scope="0x208cdb0" type="name" astOperand1="0x2077780"/>
+    <token id="0x2077780" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="cost_cloud_" scope="0x208cdb0" type="name" varId="54" variable="0x208e0a0" astParent="0x20776d0"/>
+    <token id="0x2077830" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str=";" scope="0x208cdb0"/>
+    <token id="0x2070290" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="}" scope="0x208cdb0" link="0x2060910"/>
+    <token id="0x20778e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="62" str="}" scope="0x208cc80" link="0x2077360"/>
+    <token id="0x2077990" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="void" scope="0x208c8d0" type="name"/>
+    <token id="0x2077a40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="publishCostCloud" scope="0x208c8d0" type="name" function="0x208cee0" astParent="0x2077b20"/>
+    <token id="0x2077b20" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="(" scope="0x208c8d0" link="0x2077ff0" astOperand1="0x2077a40" astOperand2="0x2077e90"/>
+    <token id="0x2077bd0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="const" scope="0x208c8d0" type="name"/>
+    <token id="0x2077c80" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="costmap_2d" scope="0x208c8d0" type="name" astParent="0x2077d30"/>
+    <token id="0x2077d30" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="::" scope="0x208c8d0" astParent="0x2077e90" astOperand1="0x2077c80" astOperand2="0x2077de0"/>
+    <token id="0x2077de0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="Costmap2D" scope="0x208c8d0" type="name" astParent="0x2077d30"/>
+    <token id="0x2077e90" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="*" scope="0x208c8d0" type="op" isArithmeticalOp="True" astParent="0x2077b20" astOperand1="0x2077d30" astOperand2="0x2077f40"/>
+    <token id="0x2077f40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str="costmap_p_" scope="0x208c8d0" type="name" varId="50" astParent="0x2077e90"/>
+    <token id="0x2077ff0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str=")" scope="0x208c8d0" link="0x2077b20"/>
+    <token id="0x20780a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="67" str=";" scope="0x208c8d0"/>
+    <token id="0x2078150" file="../include/base_local_planner/map_grid_visualizer.h" linenr="69" str="private:" scope="0x208c8d0" type="name"/>
+    <token id="0x20782b0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="70" str="std" scope="0x208c8d0" type="name" astParent="0x2078360"/>
+    <token id="0x2078360" file="../include/base_local_planner/map_grid_visualizer.h" linenr="70" str="::" scope="0x208c8d0" astOperand1="0x20782b0" astOperand2="0x20784c0"/>
+    <token id="0x2078410" file="../include/base_local_planner/map_grid_visualizer.h" linenr="70" str="string" scope="0x208c8d0" type="name"/>
+    <token id="0x20784c0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="70" str="name_" scope="0x208c8d0" type="name" varId="51" variable="0x208df50" astParent="0x2078360"/>
+    <token id="0x2078570" file="../include/base_local_planner/map_grid_visualizer.h" linenr="70" str=";" scope="0x208c8d0"/>
+    <token id="0x2078620" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="boost" scope="0x208c8d0" type="name" astParent="0x20786d0"/>
+    <token id="0x20786d0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="::" scope="0x208c8d0" astOperand1="0x2078620" astOperand2="0x2078780"/>
+    <token id="0x2078780" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="function" scope="0x208c8d0" type="name" astParent="0x20786d0"/>
+    <token id="0x2078830" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&lt;" scope="0x208c8d0" link="0x2079960"/>
+    <token id="0x20788e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="bool" scope="0x208c8d0" type="name"/>
+    <token id="0x2078990" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="(" scope="0x208c8d0" link="0x20798b0"/>
+    <token id="0x2078a40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="int" scope="0x208c8d0" type="name"/>
+    <token id="0x2078af0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="cx" scope="0x208c8d0" type="name"/>
+    <token id="0x2078ba0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="," scope="0x208c8d0"/>
+    <token id="0x2078c50" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="int" scope="0x208c8d0" type="name"/>
+    <token id="0x2078d00" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="cy" scope="0x208c8d0" type="name"/>
+    <token id="0x2078db0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="," scope="0x208c8d0"/>
+    <token id="0x2078e60" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2078f10" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2078fc0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="path_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x2079070" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="," scope="0x208c8d0"/>
+    <token id="0x2079120" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x20791d0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2079280" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="goal_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x2079330" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="," scope="0x208c8d0"/>
+    <token id="0x20793e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2079490" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2079540" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="occ_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x20795f0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="," scope="0x208c8d0"/>
+    <token id="0x20796a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="float" scope="0x208c8d0" type="name"/>
+    <token id="0x2079750" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&amp;" scope="0x208c8d0" type="op"/>
+    <token id="0x2079800" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="total_cost" scope="0x208c8d0" type="name"/>
+    <token id="0x20798b0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str=")" scope="0x208c8d0" link="0x2078990"/>
+    <token id="0x2079960" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="&gt;" scope="0x208c8d0" link="0x2078830"/>
+    <token id="0x2079a10" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str="cost_function_" scope="0x208c8d0" type="name" varId="52" variable="0x208dfc0"/>
+    <token id="0x2079ac0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="71" str=";" scope="0x208c8d0"/>
+    <token id="0x2079b70" file="../include/base_local_planner/map_grid_visualizer.h" linenr="72" str="ros" scope="0x208c8d0" type="name" astParent="0x2079c20"/>
+    <token id="0x2079c20" file="../include/base_local_planner/map_grid_visualizer.h" linenr="72" str="::" scope="0x208c8d0" astOperand1="0x2079b70" astOperand2="0x2079d80"/>
+    <token id="0x2079cd0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="72" str="NodeHandle" scope="0x208c8d0" type="name"/>
+    <token id="0x2079d80" file="../include/base_local_planner/map_grid_visualizer.h" linenr="72" str="ns_nh_" scope="0x208c8d0" type="name" varId="53" variable="0x208e030" astParent="0x2079c20"/>
+    <token id="0x2079e30" file="../include/base_local_planner/map_grid_visualizer.h" linenr="72" str=";" scope="0x208c8d0"/>
+    <token id="0x2079ee0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="pcl" scope="0x208c8d0" type="name" astParent="0x2079f90"/>
+    <token id="0x2079f90" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="::" scope="0x208c8d0" astParent="0x207a330" astOperand1="0x2079ee0" astOperand2="0x207a040"/>
+    <token id="0x207a040" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="PointCloud" scope="0x208c8d0" type="name" astParent="0x2079f90"/>
+    <token id="0x207a0f0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="&lt;" scope="0x208c8d0" link="0x207a280"/>
+    <token id="0x207a1a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="MapGridCostPoint" scope="0x208c8d0" type="name" type-scope="0x208c700"/>
+    <token id="0x207a280" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="&gt;" scope="0x208c8d0" link="0x207a0f0"/>
+    <token id="0x207a330" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="*" scope="0x208c8d0" type="op" isArithmeticalOp="True" astOperand1="0x2079f90" astOperand2="0x207a3e0"/>
+    <token id="0x207a3e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str="cost_cloud_" scope="0x208c8d0" type="name" varId="54" variable="0x208e0a0" astParent="0x207a330"/>
+    <token id="0x207a490" file="../include/base_local_planner/map_grid_visualizer.h" linenr="73" str=";" scope="0x208c8d0"/>
+    <token id="0x207a540" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="pcl_ros" scope="0x208c8d0" type="name" astParent="0x207a5f0"/>
+    <token id="0x207a5f0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="::" scope="0x208c8d0" astOperand1="0x207a540" astOperand2="0x207a6a0"/>
+    <token id="0x207a6a0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="Publisher" scope="0x208c8d0" type="name" astParent="0x207a5f0"/>
+    <token id="0x207a750" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="&lt;" scope="0x208c8d0" link="0x207a8e0"/>
+    <token id="0x207a800" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="MapGridCostPoint" scope="0x208c8d0" type="name" type-scope="0x208c700"/>
+    <token id="0x207a8e0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="&gt;" scope="0x208c8d0" link="0x207a750"/>
+    <token id="0x207a990" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str="pub_" scope="0x208c8d0" type="name" varId="55" variable="0x208e140"/>
+    <token id="0x207aa40" file="../include/base_local_planner/map_grid_visualizer.h" linenr="74" str=";" scope="0x208c8d0"/>
+    <token id="0x207aaf0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="75" str="}" scope="0x208c8d0" link="0x2074b20"/>
+    <token id="0x207aba0" file="../include/base_local_planner/map_grid_visualizer.h" linenr="75" str=";" scope="0x208a630"/>
+    <token id="0x207ac50" file="../include/base_local_planner/map_grid_visualizer.h" linenr="76" str="}" scope="0x208a630" link="0x20748e0"/>
+    <token id="0x207ad00" file="../include/base_local_planner/map_grid_visualizer.h" linenr="76" str=";" scope="0x208a630"/>
+    <token id="0x207adb0" file="map_grid_visualizer.cpp" linenr="40" str="namespace" scope="0x208a630" type="name"/>
+    <token id="0x207ae60" file="map_grid_visualizer.cpp" linenr="40" str="base_local_planner" scope="0x208a630" type="name"/>
+    <token id="0x207af40" file="map_grid_visualizer.cpp" linenr="40" str="{" scope="0x2089e60" link="0x2089cf0"/>
+    <token id="0x207aff0" file="map_grid_visualizer.cpp" linenr="41" str="MapGridVisualizer" scope="0x2089e60" type="name" type-scope="0x208c8d0" astParent="0x207b0d0"/>
+    <token id="0x207b0d0" file="map_grid_visualizer.cpp" linenr="41" str="::" scope="0x2089e60" astParent="0x207b260" astOperand1="0x207aff0" astOperand2="0x207b180"/>
+    <token id="0x207b180" file="map_grid_visualizer.cpp" linenr="41" str="MapGridVisualizer" scope="0x2089e60" type="name" function="0x208ca70" astParent="0x207b0d0"/>
+    <token id="0x207b260" file="map_grid_visualizer.cpp" linenr="41" str="(" scope="0x2089e60" link="0x207b310" astOperand1="0x207b0d0"/>
+    <token id="0x207b310" file="map_grid_visualizer.cpp" linenr="41" str=")" scope="0x2089e60" link="0x207b260"/>
+    <token id="0x207b3c0" file="map_grid_visualizer.cpp" linenr="41" str="{" scope="0x208cfb0" link="0x207b470"/>
+    <token id="0x207b470" file="map_grid_visualizer.cpp" linenr="41" str="}" scope="0x208cfb0" link="0x207b3c0"/>
+    <token id="0x207b520" file="map_grid_visualizer.cpp" linenr="44" str="void" scope="0x2089e60" type="name"/>
+    <token id="0x207b5d0" file="map_grid_visualizer.cpp" linenr="44" str="MapGridVisualizer" scope="0x2089e60" type="name" type-scope="0x208c8d0" astParent="0x207b6b0"/>
+    <token id="0x207b6b0" file="map_grid_visualizer.cpp" linenr="44" str="::" scope="0x2089e60" astParent="0x207b810" astOperand1="0x207b5d0" astOperand2="0x207b760"/>
+    <token id="0x207b760" file="map_grid_visualizer.cpp" linenr="44" str="initialize" scope="0x2089e60" type="name" function="0x208cb10" astParent="0x207b6b0"/>
+    <token id="0x207b810" file="map_grid_visualizer.cpp" linenr="44" str="(" scope="0x2089e60" link="0x207d5a0" astOperand1="0x207b6b0" astOperand2="0x207c050"/>
+    <token id="0x207b8c0" file="map_grid_visualizer.cpp" linenr="44" str="const" scope="0x2089e60" type="name"/>
+    <token id="0x207b970" file="map_grid_visualizer.cpp" linenr="44" str="std" scope="0x2089e60" type="name" astParent="0x207ba20"/>
+    <token id="0x207ba20" file="map_grid_visualizer.cpp" linenr="44" str="::" scope="0x2089e60" astParent="0x207bb80" astOperand1="0x207b970" astOperand2="0x207bad0"/>
+    <token id="0x207bad0" file="map_grid_visualizer.cpp" linenr="44" str="string" scope="0x2089e60" type="name" astParent="0x207ba20"/>
+    <token id="0x207bb80" file="map_grid_visualizer.cpp" linenr="44" str="&amp;" scope="0x2089e60" type="op" astParent="0x207bce0" astOperand1="0x207ba20" astOperand2="0x207bc30"/>
+    <token id="0x207bc30" file="map_grid_visualizer.cpp" linenr="44" str="name" scope="0x2089e60" type="name" varId="56" variable="0x208f330" astParent="0x207bb80"/>
+    <token id="0x207bce0" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60" astParent="0x207c050" astOperand1="0x207bb80" astOperand2="0x207be40"/>
+    <token id="0x207bd90" file="map_grid_visualizer.cpp" linenr="44" str="std" scope="0x2089e60" type="name" astParent="0x207be40"/>
+    <token id="0x207be40" file="map_grid_visualizer.cpp" linenr="44" str="::" scope="0x2089e60" astParent="0x207bce0" astOperand1="0x207bd90" astOperand2="0x207bfa0"/>
+    <token id="0x207bef0" file="map_grid_visualizer.cpp" linenr="44" str="string" scope="0x2089e60" type="name"/>
+    <token id="0x207bfa0" file="map_grid_visualizer.cpp" linenr="44" str="frame_id" scope="0x2089e60" type="name" varId="57" variable="0x208f3a0" astParent="0x207be40"/>
+    <token id="0x207c050" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60" astParent="0x207b810" astOperand1="0x207bce0" astOperand2="0x207c1b0"/>
+    <token id="0x207c100" file="map_grid_visualizer.cpp" linenr="44" str="boost" scope="0x2089e60" type="name" astParent="0x207c1b0"/>
+    <token id="0x207c1b0" file="map_grid_visualizer.cpp" linenr="44" str="::" scope="0x2089e60" astParent="0x207c050" astOperand1="0x207c100" astOperand2="0x207c260"/>
+    <token id="0x207c260" file="map_grid_visualizer.cpp" linenr="44" str="function" scope="0x2089e60" type="name" astParent="0x207c1b0"/>
+    <token id="0x207c310" file="map_grid_visualizer.cpp" linenr="44" str="&lt;" scope="0x2089e60" link="0x207d440"/>
+    <token id="0x207c3c0" file="map_grid_visualizer.cpp" linenr="44" str="bool" scope="0x2089e60" type="name"/>
+    <token id="0x207c470" file="map_grid_visualizer.cpp" linenr="44" str="(" scope="0x2089e60" link="0x207d390"/>
+    <token id="0x207c520" file="map_grid_visualizer.cpp" linenr="44" str="int" scope="0x2089e60" type="name"/>
+    <token id="0x207c5d0" file="map_grid_visualizer.cpp" linenr="44" str="cx" scope="0x2089e60" type="name"/>
+    <token id="0x207c680" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60"/>
+    <token id="0x207c730" file="map_grid_visualizer.cpp" linenr="44" str="int" scope="0x2089e60" type="name"/>
+    <token id="0x207c7e0" file="map_grid_visualizer.cpp" linenr="44" str="cy" scope="0x2089e60" type="name"/>
+    <token id="0x207c890" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60"/>
+    <token id="0x207c940" file="map_grid_visualizer.cpp" linenr="44" str="float" scope="0x2089e60" type="name"/>
+    <token id="0x207c9f0" file="map_grid_visualizer.cpp" linenr="44" str="&amp;" scope="0x2089e60" type="op"/>
+    <token id="0x207caa0" file="map_grid_visualizer.cpp" linenr="44" str="path_cost" scope="0x2089e60" type="name"/>
+    <token id="0x207cb50" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60"/>
+    <token id="0x207cc00" file="map_grid_visualizer.cpp" linenr="44" str="float" scope="0x2089e60" type="name"/>
+    <token id="0x207ccb0" file="map_grid_visualizer.cpp" linenr="44" str="&amp;" scope="0x2089e60" type="op"/>
+    <token id="0x207cd60" file="map_grid_visualizer.cpp" linenr="44" str="goal_cost" scope="0x2089e60" type="name"/>
+    <token id="0x207ce10" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60"/>
+    <token id="0x207cec0" file="map_grid_visualizer.cpp" linenr="44" str="float" scope="0x2089e60" type="name"/>
+    <token id="0x207cf70" file="map_grid_visualizer.cpp" linenr="44" str="&amp;" scope="0x2089e60" type="op"/>
+    <token id="0x207d020" file="map_grid_visualizer.cpp" linenr="44" str="occ_cost" scope="0x2089e60" type="name"/>
+    <token id="0x207d0d0" file="map_grid_visualizer.cpp" linenr="44" str="," scope="0x2089e60"/>
+    <token id="0x207d180" file="map_grid_visualizer.cpp" linenr="44" str="float" scope="0x2089e60" type="name"/>
+    <token id="0x207d230" file="map_grid_visualizer.cpp" linenr="44" str="&amp;" scope="0x2089e60" type="op"/>
+    <token id="0x207d2e0" file="map_grid_visualizer.cpp" linenr="44" str="total_cost" scope="0x2089e60" type="name"/>
+    <token id="0x207d390" file="map_grid_visualizer.cpp" linenr="44" str=")" scope="0x2089e60" link="0x207c470"/>
+    <token id="0x207d440" file="map_grid_visualizer.cpp" linenr="44" str="&gt;" scope="0x2089e60" link="0x207c310"/>
+    <token id="0x207d4f0" file="map_grid_visualizer.cpp" linenr="44" str="cost_function" scope="0x2089e60" type="name" varId="58" variable="0x208f410"/>
+    <token id="0x207d5a0" file="map_grid_visualizer.cpp" linenr="44" str=")" scope="0x2089e60" link="0x207b810"/>
+    <token id="0x207d650" file="map_grid_visualizer.cpp" linenr="44" str="{" scope="0x208d0e0" link="0x207f8e0"/>
+    <token id="0x207d700" file="map_grid_visualizer.cpp" linenr="45" str="name_" scope="0x208d0e0" type="name" varId="51" variable="0x208df50" astParent="0x207d7b0"/>
+    <token id="0x207d7b0" file="map_grid_visualizer.cpp" linenr="45" str="=" scope="0x208d0e0" type="op" isAssignmentOp="True" astOperand1="0x207d700" astOperand2="0x207d860"/>
+    <token id="0x207d860" file="map_grid_visualizer.cpp" linenr="45" str="name" scope="0x208d0e0" type="name" varId="56" variable="0x208f330" astParent="0x207d7b0"/>
+    <token id="0x207d910" file="map_grid_visualizer.cpp" linenr="45" str=";" scope="0x208d0e0"/>
+    <token id="0x207d9c0" file="map_grid_visualizer.cpp" linenr="46" str="cost_function_" scope="0x208d0e0" type="name" varId="52" variable="0x208dfc0" astParent="0x207da70"/>
+    <token id="0x207da70" file="map_grid_visualizer.cpp" linenr="46" str="=" scope="0x208d0e0" type="op" isAssignmentOp="True" astOperand1="0x207d9c0" astOperand2="0x207db20"/>
+    <token id="0x207db20" file="map_grid_visualizer.cpp" linenr="46" str="cost_function" scope="0x208d0e0" type="name" varId="58" variable="0x208f410" astParent="0x207da70"/>
+    <token id="0x207dbd0" file="map_grid_visualizer.cpp" linenr="46" str=";" scope="0x208d0e0"/>
+    <token id="0x207dc80" file="map_grid_visualizer.cpp" linenr="48" str="ns_nh_" scope="0x208d0e0" type="name" varId="53" variable="0x208e030" astParent="0x207dd30"/>
+    <token id="0x207dd30" file="map_grid_visualizer.cpp" linenr="48" str="=" scope="0x208d0e0" type="op" isAssignmentOp="True" astOperand1="0x207dc80" astOperand2="0x207dff0"/>
+    <token id="0x207dde0" file="map_grid_visualizer.cpp" linenr="48" str="ros" scope="0x208d0e0" type="name" astParent="0x207de90"/>
+    <token id="0x207de90" file="map_grid_visualizer.cpp" linenr="48" str="::" scope="0x208d0e0" astParent="0x207dff0" astOperand1="0x207dde0" astOperand2="0x207df40"/>
+    <token id="0x207df40" file="map_grid_visualizer.cpp" linenr="48" str="NodeHandle" scope="0x208d0e0" type="name" astParent="0x207de90"/>
+    <token id="0x207dff0" file="map_grid_visualizer.cpp" linenr="48" str="(" scope="0x208d0e0" link="0x207e2b0" astParent="0x207dd30" astOperand1="0x207de90" astOperand2="0x207e150"/>
+    <token id="0x207e0a0" file="map_grid_visualizer.cpp" linenr="48" str="&quot;x/&quot;" scope="0x208d0e0" type="string" strlen="2" values="0x207e0a8" astParent="0x207e150"/>
+    <token id="0x207e150" file="map_grid_visualizer.cpp" linenr="48" str="+" scope="0x208d0e0" type="op" isArithmeticalOp="True" astParent="0x207dff0" astOperand1="0x207e0a0" astOperand2="0x207e200"/>
+    <token id="0x207e200" file="map_grid_visualizer.cpp" linenr="48" str="name_" scope="0x208d0e0" type="name" varId="51" variable="0x208df50" astParent="0x207e150"/>
+    <token id="0x207e2b0" file="map_grid_visualizer.cpp" linenr="48" str=")" scope="0x208d0e0" link="0x207dff0"/>
+    <token id="0x207e360" file="map_grid_visualizer.cpp" linenr="48" str=";" scope="0x208d0e0"/>
+    <token id="0x207e410" file="map_grid_visualizer.cpp" linenr="50" str="cost_cloud_" scope="0x208d0e0" type="name" varId="54" variable="0x208e0a0" astParent="0x207e4c0"/>
+    <token id="0x207e4c0" file="map_grid_visualizer.cpp" linenr="50" str="=" scope="0x208d0e0" type="op" isAssignmentOp="True" astOperand1="0x207e410" astOperand2="0x207e570"/>
+    <token id="0x207e570" file="map_grid_visualizer.cpp" linenr="50" str="new" scope="0x208d0e0" type="name" astParent="0x207e4c0" astOperand1="0x207e620"/>
+    <token id="0x207e620" file="map_grid_visualizer.cpp" linenr="50" str="pcl" scope="0x208d0e0" type="name" astParent="0x207e570"/>
+    <token id="0x207e6d0" file="map_grid_visualizer.cpp" linenr="50" str="::" scope="0x208d0e0"/>
+    <token id="0x207e780" file="map_grid_visualizer.cpp" linenr="50" str="PointCloud" scope="0x208d0e0" type="name"/>
+    <token id="0x207e830" file="map_grid_visualizer.cpp" linenr="50" str="&lt;" scope="0x208d0e0" link="0x207e9c0"/>
+    <token id="0x207e8e0" file="map_grid_visualizer.cpp" linenr="50" str="MapGridCostPoint" scope="0x208d0e0" type="name" type-scope="0x208c700"/>
+    <token id="0x207e9c0" file="map_grid_visualizer.cpp" linenr="50" str="&gt;" scope="0x208d0e0" link="0x207e830"/>
+    <token id="0x207ea70" file="map_grid_visualizer.cpp" linenr="50" str=";" scope="0x208d0e0"/>
+    <token id="0x207eb20" file="map_grid_visualizer.cpp" linenr="51" str="cost_cloud_" scope="0x208d0e0" type="name" varId="54" variable="0x208e0a0" astParent="0x207ebd0"/>
+    <token id="0x207ebd0" file="map_grid_visualizer.cpp" linenr="51" str="." scope="0x208d0e0" astParent="0x207ede0" astOperand1="0x207eb20" astOperand2="0x207ed30"/>
+    <token id="0x207ed30" file="map_grid_visualizer.cpp" linenr="51" str="header" scope="0x208d0e0" type="name" varId="81" astParent="0x207ebd0"/>
+    <token id="0x207ede0" file="map_grid_visualizer.cpp" linenr="51" str="." scope="0x208d0e0" astParent="0x207ef40" astOperand1="0x207ebd0" astOperand2="0x207ee90"/>
+    <token id="0x207ee90" file="map_grid_visualizer.cpp" linenr="51" str="frame_id" scope="0x208d0e0" type="name" varId="82" astParent="0x207ede0"/>
+    <token id="0x207ef40" file="map_grid_visualizer.cpp" linenr="51" str="=" scope="0x208d0e0" type="op" isAssignmentOp="True" astOperand1="0x207ede0" astOperand2="0x207eff0"/>
+    <token id="0x207eff0" file="map_grid_visualizer.cpp" linenr="51" str="frame_id" scope="0x208d0e0" type="name" varId="57" variable="0x208f3a0" astParent="0x207ef40"/>
+    <token id="0x207f0a0" file="map_grid_visualizer.cpp" linenr="51" str=";" scope="0x208d0e0"/>
+    <token id="0x207f150" file="map_grid_visualizer.cpp" linenr="52" str="pub_" scope="0x208d0e0" type="name" varId="55" variable="0x208e140" astParent="0x207f200"/>
+    <token id="0x207f200" file="map_grid_visualizer.cpp" linenr="52" str="." scope="0x208d0e0" astParent="0x207f360" astOperand1="0x207f150" astOperand2="0x207f2b0"/>
+    <token id="0x207f2b0" file="map_grid_visualizer.cpp" linenr="52" str="advertise" scope="0x208d0e0" type="name" astParent="0x207f200"/>
+    <token id="0x207f360" file="map_grid_visualizer.cpp" linenr="52" str="(" scope="0x208d0e0" link="0x207f780" astOperand1="0x207f200" astOperand2="0x207f620"/>
+    <token id="0x207f410" file="map_grid_visualizer.cpp" linenr="52" str="ns_nh_" scope="0x208d0e0" type="name" varId="53" variable="0x208e030" astParent="0x207f4c0"/>
+    <token id="0x207f4c0" file="map_grid_visualizer.cpp" linenr="52" str="," scope="0x208d0e0" astParent="0x207f620" astOperand1="0x207f410" astOperand2="0x207f570"/>
+    <token id="0x207f570" file="map_grid_visualizer.cpp" linenr="52" str="&quot;cost_cloud&quot;" scope="0x208d0e0" type="string" strlen="10" values="0x207f578" astParent="0x207f4c0"/>
+    <token id="0x207f620" file="map_grid_visualizer.cpp" linenr="52" str="," scope="0x208d0e0" astParent="0x207f360" astOperand1="0x207f4c0" astOperand2="0x207f6d0"/>
+    <token id="0x207f6d0" file="map_grid_visualizer.cpp" linenr="52" str="1" scope="0x208d0e0" type="number" isInt="True" values="0x207f6d8" astParent="0x207f620"/>
+    <token id="0x207f780" file="map_grid_visualizer.cpp" linenr="52" str=")" scope="0x208d0e0" link="0x207f360"/>
+    <token id="0x207f830" file="map_grid_visualizer.cpp" linenr="52" str=";" scope="0x208d0e0"/>
+    <token id="0x207f8e0" file="map_grid_visualizer.cpp" linenr="53" str="}" scope="0x208d0e0" link="0x207d650"/>
+    <token id="0x207f990" file="map_grid_visualizer.cpp" linenr="55" str="void" scope="0x2089e60" type="name"/>
+    <token id="0x207fa40" file="map_grid_visualizer.cpp" linenr="55" str="MapGridVisualizer" scope="0x2089e60" type="name" type-scope="0x208c8d0" astParent="0x207fb20"/>
+    <token id="0x207fb20" file="map_grid_visualizer.cpp" linenr="55" str="::" scope="0x2089e60" astParent="0x207fcb0" astOperand1="0x207fa40" astOperand2="0x207fbd0"/>
+    <token id="0x207fbd0" file="map_grid_visualizer.cpp" linenr="55" str="publishCostCloud" scope="0x2089e60" type="name" function="0x208cee0" astParent="0x207fb20"/>
+    <token id="0x207fcb0" file="map_grid_visualizer.cpp" linenr="55" str="(" scope="0x2089e60" link="0x2080180" astOperand1="0x207fb20" astOperand2="0x2080020"/>
+    <token id="0x207fd60" file="map_grid_visualizer.cpp" linenr="55" str="const" scope="0x2089e60" type="name"/>
+    <token id="0x207fe10" file="map_grid_visualizer.cpp" linenr="55" str="costmap_2d" scope="0x2089e60" type="name" astParent="0x207fec0"/>
+    <token id="0x207fec0" file="map_grid_visualizer.cpp" linenr="55" str="::" scope="0x2089e60" astParent="0x2080020" astOperand1="0x207fe10" astOperand2="0x207ff70"/>
+    <token id="0x207ff70" file="map_grid_visualizer.cpp" linenr="55" str="Costmap2D" scope="0x2089e60" type="name" astParent="0x207fec0"/>
+    <token id="0x2080020" file="map_grid_visualizer.cpp" linenr="55" str="*" scope="0x2089e60" type="op" isArithmeticalOp="True" astParent="0x207fcb0" astOperand1="0x207fec0" astOperand2="0x20800d0"/>
+    <token id="0x20800d0" file="map_grid_visualizer.cpp" linenr="55" str="costmap_p_" scope="0x2089e60" type="name" varId="59" variable="0x208f480" astParent="0x2080020"/>
+    <token id="0x2080180" file="map_grid_visualizer.cpp" linenr="55" str=")" scope="0x2089e60" link="0x207fcb0"/>
+    <token id="0x2080230" file="map_grid_visualizer.cpp" linenr="55" str="{" scope="0x208d240" link="0x2089c40"/>
+    <token id="0x20802e0" file="map_grid_visualizer.cpp" linenr="56" str="int" scope="0x208d240" type="name"/>
+    <token id="0x2080440" file="map_grid_visualizer.cpp" linenr="56" str="x_size" scope="0x208d240" type="name" varId="60" variable="0x208e1b0"/>
+    <token id="0x20804f0" file="map_grid_visualizer.cpp" linenr="56" str=";" scope="0x208d240"/>
+    <token id="0x20828e0" file="map_grid_visualizer.cpp" linenr="56" str="x_size" scope="0x208d240" type="name" varId="60" variable="0x208e1b0" astParent="0x2083540"/>
+    <token id="0x2083540" file="map_grid_visualizer.cpp" linenr="56" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x20828e0" astOperand2="0x2080860"/>
+    <token id="0x20805a0" file="map_grid_visualizer.cpp" linenr="56" str="costmap_p_" scope="0x208d240" type="name" varId="59" variable="0x208f480" astParent="0x2080650"/>
+    <token id="0x2080650" file="map_grid_visualizer.cpp" linenr="56" str="." scope="0x208d240" astParent="0x2080860" astOperand1="0x20805a0" astOperand2="0x20807b0"/>
+    <token id="0x20807b0" file="map_grid_visualizer.cpp" linenr="56" str="getSizeInCellsX" scope="0x208d240" type="name" astParent="0x2080650"/>
+    <token id="0x2080860" file="map_grid_visualizer.cpp" linenr="56" str="(" scope="0x208d240" link="0x2080910" astParent="0x2083540" astOperand1="0x2080650"/>
+    <token id="0x2080910" file="map_grid_visualizer.cpp" linenr="56" str=")" scope="0x208d240" link="0x2080860"/>
+    <token id="0x20809c0" file="map_grid_visualizer.cpp" linenr="56" str=";" scope="0x208d240"/>
+    <token id="0x2080a70" file="map_grid_visualizer.cpp" linenr="57" str="int" scope="0x208d240" type="name"/>
+    <token id="0x2080bd0" file="map_grid_visualizer.cpp" linenr="57" str="y_size" scope="0x208d240" type="name" varId="61" variable="0x208e220"/>
+    <token id="0x2080c80" file="map_grid_visualizer.cpp" linenr="57" str=";" scope="0x208d240"/>
+    <token id="0x20859b0" file="map_grid_visualizer.cpp" linenr="57" str="y_size" scope="0x208d240" type="name" varId="61" variable="0x208e220" astParent="0x2088c90"/>
+    <token id="0x2088c90" file="map_grid_visualizer.cpp" linenr="57" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x20859b0" astOperand2="0x2080ff0"/>
+    <token id="0x2080d30" file="map_grid_visualizer.cpp" linenr="57" str="costmap_p_" scope="0x208d240" type="name" varId="59" variable="0x208f480" astParent="0x2080de0"/>
+    <token id="0x2080de0" file="map_grid_visualizer.cpp" linenr="57" str="." scope="0x208d240" astParent="0x2080ff0" astOperand1="0x2080d30" astOperand2="0x2080f40"/>
+    <token id="0x2080f40" file="map_grid_visualizer.cpp" linenr="57" str="getSizeInCellsY" scope="0x208d240" type="name" astParent="0x2080de0"/>
+    <token id="0x2080ff0" file="map_grid_visualizer.cpp" linenr="57" str="(" scope="0x208d240" link="0x20810a0" astParent="0x2088c90" astOperand1="0x2080de0"/>
+    <token id="0x20810a0" file="map_grid_visualizer.cpp" linenr="57" str=")" scope="0x208d240" link="0x2080ff0"/>
+    <token id="0x2081150" file="map_grid_visualizer.cpp" linenr="57" str=";" scope="0x208d240"/>
+    <token id="0x2081200" file="map_grid_visualizer.cpp" linenr="58" str="double" scope="0x208d240" type="name"/>
+    <token id="0x20812b0" file="map_grid_visualizer.cpp" linenr="58" str="z_coord" scope="0x208d240" type="name" varId="62" variable="0x208e290"/>
+    <token id="0x2081360" file="map_grid_visualizer.cpp" linenr="58" str=";" scope="0x208d240"/>
+    <token id="0x20614c0" file="map_grid_visualizer.cpp" linenr="58" str="z_coord" scope="0x208d240" type="name" varId="62" variable="0x208e290" astParent="0x2062750"/>
+    <token id="0x2062750" file="map_grid_visualizer.cpp" linenr="58" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x20614c0" astOperand2="0x2081410"/>
+    <token id="0x2081410" file="map_grid_visualizer.cpp" linenr="58" str="0.0" scope="0x208d240" type="number" isFloat="True" astParent="0x2062750"/>
+    <token id="0x20814c0" file="map_grid_visualizer.cpp" linenr="58" str=";" scope="0x208d240"/>
+    <token id="0x2081570" file="map_grid_visualizer.cpp" linenr="59" str="double" scope="0x208d240" type="name"/>
+    <token id="0x2081620" file="map_grid_visualizer.cpp" linenr="59" str="x_coord" scope="0x208d240" type="name" varId="63" variable="0x208e300"/>
+    <token id="0x20816d0" file="map_grid_visualizer.cpp" linenr="59" str=";" scope="0x208d240"/>
+    <token id="0x20639e0" file="map_grid_visualizer.cpp" linenr="59" str="double" scope="0x208d240" type="name"/>
+    <token id="0x2081780" file="map_grid_visualizer.cpp" linenr="59" str="y_coord" scope="0x208d240" type="name" varId="64" variable="0x208e370"/>
+    <token id="0x2081830" file="map_grid_visualizer.cpp" linenr="59" str=";" scope="0x208d240"/>
+    <token id="0x20818e0" file="map_grid_visualizer.cpp" linenr="60" str="MapGridCostPoint" scope="0x208d240" type="name" type-scope="0x208c700"/>
+    <token id="0x20819c0" file="map_grid_visualizer.cpp" linenr="60" str="pt" scope="0x208d240" type="name" varId="65" variable="0x208e3e0"/>
+    <token id="0x2081a70" file="map_grid_visualizer.cpp" linenr="60" str=";" scope="0x208d240"/>
+    <token id="0x2081b20" file="map_grid_visualizer.cpp" linenr="61" str="cost_cloud_" scope="0x208d240" type="name" varId="54" variable="0x208e0a0" astParent="0x2081bd0"/>
+    <token id="0x2081bd0" file="map_grid_visualizer.cpp" linenr="61" str="." scope="0x208d240" astParent="0x2081de0" astOperand1="0x2081b20" astOperand2="0x2081d30"/>
+    <token id="0x2081d30" file="map_grid_visualizer.cpp" linenr="61" str="points" scope="0x208d240" type="name" varId="83" astParent="0x2081bd0"/>
+    <token id="0x2081de0" file="map_grid_visualizer.cpp" linenr="61" str="." scope="0x208d240" astParent="0x2081f40" astOperand1="0x2081bd0" astOperand2="0x2081e90"/>
+    <token id="0x2081e90" file="map_grid_visualizer.cpp" linenr="61" str="clear" scope="0x208d240" type="name" astParent="0x2081de0"/>
+    <token id="0x2081f40" file="map_grid_visualizer.cpp" linenr="61" str="(" scope="0x208d240" link="0x2081ff0" astOperand1="0x2081de0"/>
+    <token id="0x2081ff0" file="map_grid_visualizer.cpp" linenr="61" str=")" scope="0x208d240" link="0x2081f40"/>
+    <token id="0x20820a0" file="map_grid_visualizer.cpp" linenr="61" str=";" scope="0x208d240"/>
+    <token id="0x2082150" file="map_grid_visualizer.cpp" linenr="62" str="std_msgs" scope="0x208d240" type="name" astParent="0x2082200"/>
+    <token id="0x2082200" file="map_grid_visualizer.cpp" linenr="62" str="::" scope="0x208d240" astOperand1="0x2082150" astOperand2="0x2082360"/>
+    <token id="0x20822b0" file="map_grid_visualizer.cpp" linenr="62" str="Header" scope="0x208d240" type="name"/>
+    <token id="0x2082360" file="map_grid_visualizer.cpp" linenr="62" str="header" scope="0x208d240" type="name" varId="66" variable="0x208e450" astParent="0x2082200"/>
+    <token id="0x2082410" file="map_grid_visualizer.cpp" linenr="62" str=";" scope="0x208d240"/>
+    <token id="0x2068610" file="map_grid_visualizer.cpp" linenr="62" str="header" scope="0x208d240" type="name" varId="66" variable="0x208e450" astParent="0x2068fb0"/>
+    <token id="0x2068fb0" file="map_grid_visualizer.cpp" linenr="62" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x2068610" astOperand2="0x20826d0"/>
+    <token id="0x20824c0" file="map_grid_visualizer.cpp" linenr="62" str="pcl_conversions" scope="0x208d240" type="name" astParent="0x2082570"/>
+    <token id="0x2082570" file="map_grid_visualizer.cpp" linenr="62" str="::" scope="0x208d240" astParent="0x20826d0" astOperand1="0x20824c0" astOperand2="0x2082620"/>
+    <token id="0x2082620" file="map_grid_visualizer.cpp" linenr="62" str="fromPCL" scope="0x208d240" type="name" astParent="0x2082570"/>
+    <token id="0x20826d0" file="map_grid_visualizer.cpp" linenr="62" str="(" scope="0x208d240" link="0x2082a40" astParent="0x2068fb0" astOperand1="0x2082570" astOperand2="0x2082830"/>
+    <token id="0x2082780" file="map_grid_visualizer.cpp" linenr="62" str="cost_cloud_" scope="0x208d240" type="name" varId="54" variable="0x208e0a0" astParent="0x2082830"/>
+    <token id="0x2082830" file="map_grid_visualizer.cpp" linenr="62" str="." scope="0x208d240" astParent="0x20826d0" astOperand1="0x2082780" astOperand2="0x2082990"/>
+    <token id="0x2082990" file="map_grid_visualizer.cpp" linenr="62" str="header" scope="0x208d240" type="name" varId="81" astParent="0x2082830"/>
+    <token id="0x2082a40" file="map_grid_visualizer.cpp" linenr="62" str=")" scope="0x208d240" link="0x20826d0"/>
+    <token id="0x2082af0" file="map_grid_visualizer.cpp" linenr="62" str=";" scope="0x208d240"/>
+    <token id="0x2082ba0" file="map_grid_visualizer.cpp" linenr="63" str="header" scope="0x208d240" type="name" varId="66" variable="0x208e450" astParent="0x2082c50"/>
+    <token id="0x2082c50" file="map_grid_visualizer.cpp" linenr="63" str="." scope="0x208d240" astParent="0x2082db0" astOperand1="0x2082ba0" astOperand2="0x2082d00"/>
+    <token id="0x2082d00" file="map_grid_visualizer.cpp" linenr="63" str="stamp" scope="0x208d240" type="name" varId="67" astParent="0x2082c50"/>
+    <token id="0x2082db0" file="map_grid_visualizer.cpp" linenr="63" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x2082c50" astOperand2="0x20831d0"/>
+    <token id="0x2082e60" file="map_grid_visualizer.cpp" linenr="63" str="ros" scope="0x208d240" type="name" astParent="0x2082f10"/>
+    <token id="0x2082f10" file="map_grid_visualizer.cpp" linenr="63" str="::" scope="0x208d240" astParent="0x2083070" astOperand1="0x2082e60" astOperand2="0x2082fc0"/>
+    <token id="0x2082fc0" file="map_grid_visualizer.cpp" linenr="63" str="Time" scope="0x208d240" type="name" astParent="0x2082f10"/>
+    <token id="0x2083070" file="map_grid_visualizer.cpp" linenr="63" str="::" scope="0x208d240" astParent="0x20831d0" astOperand1="0x2082f10" astOperand2="0x2083120"/>
+    <token id="0x2083120" file="map_grid_visualizer.cpp" linenr="63" str="now" scope="0x208d240" type="name" astParent="0x2083070"/>
+    <token id="0x20831d0" file="map_grid_visualizer.cpp" linenr="63" str="(" scope="0x208d240" link="0x2083280" astParent="0x2082db0" astOperand1="0x2083070"/>
+    <token id="0x2083280" file="map_grid_visualizer.cpp" linenr="63" str=")" scope="0x208d240" link="0x20831d0"/>
+    <token id="0x2083330" file="map_grid_visualizer.cpp" linenr="63" str=";" scope="0x208d240"/>
+    <token id="0x20833e0" file="map_grid_visualizer.cpp" linenr="64" str="cost_cloud_" scope="0x208d240" type="name" varId="54" variable="0x208e0a0" astParent="0x2083490"/>
+    <token id="0x2083490" file="map_grid_visualizer.cpp" linenr="64" str="." scope="0x208d240" astParent="0x20836a0" astOperand1="0x20833e0" astOperand2="0x20835f0"/>
+    <token id="0x20835f0" file="map_grid_visualizer.cpp" linenr="64" str="header" scope="0x208d240" type="name" varId="81" astParent="0x2083490"/>
+    <token id="0x20836a0" file="map_grid_visualizer.cpp" linenr="64" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astOperand1="0x2083490" astOperand2="0x2083960"/>
+    <token id="0x2083750" file="map_grid_visualizer.cpp" linenr="64" str="pcl_conversions" scope="0x208d240" type="name" astParent="0x2083800"/>
+    <token id="0x2083800" file="map_grid_visualizer.cpp" linenr="64" str="::" scope="0x208d240" astParent="0x2083960" astOperand1="0x2083750" astOperand2="0x20838b0"/>
+    <token id="0x20838b0" file="map_grid_visualizer.cpp" linenr="64" str="toPCL" scope="0x208d240" type="name" astParent="0x2083800"/>
+    <token id="0x2083960" file="map_grid_visualizer.cpp" linenr="64" str="(" scope="0x208d240" link="0x2083ac0" astParent="0x20836a0" astOperand1="0x2083800" astOperand2="0x2083a10"/>
+    <token id="0x2083a10" file="map_grid_visualizer.cpp" linenr="64" str="header" scope="0x208d240" type="name" varId="66" variable="0x208e450" astParent="0x2083960"/>
+    <token id="0x2083ac0" file="map_grid_visualizer.cpp" linenr="64" str=")" scope="0x208d240" link="0x2083960"/>
+    <token id="0x2083b70" file="map_grid_visualizer.cpp" linenr="64" str=";" scope="0x208d240"/>
+    <token id="0x2083c20" file="map_grid_visualizer.cpp" linenr="65" str="float" scope="0x208d240" type="name"/>
+    <token id="0x2083cd0" file="map_grid_visualizer.cpp" linenr="65" str="path_cost" scope="0x208d240" type="name" varId="68" variable="0x208e4c0"/>
+    <token id="0x2083d80" file="map_grid_visualizer.cpp" linenr="65" str=";" scope="0x208d240"/>
+    <token id="0x2069ae0" file="map_grid_visualizer.cpp" linenr="65" str="float" scope="0x208d240" type="name"/>
+    <token id="0x2083e30" file="map_grid_visualizer.cpp" linenr="65" str="goal_cost" scope="0x208d240" type="name" varId="69" variable="0x208e530"/>
+    <token id="0x2083ee0" file="map_grid_visualizer.cpp" linenr="65" str=";" scope="0x208d240"/>
+    <token id="0x205b530" file="map_grid_visualizer.cpp" linenr="65" str="float" scope="0x208d240" type="name"/>
+    <token id="0x2083f90" file="map_grid_visualizer.cpp" linenr="65" str="occ_cost" scope="0x208d240" type="name" varId="70" variable="0x208e5a0"/>
+    <token id="0x2084040" file="map_grid_visualizer.cpp" linenr="65" str=";" scope="0x208d240"/>
+    <token id="0x205b5e0" file="map_grid_visualizer.cpp" linenr="65" str="float" scope="0x208d240" type="name"/>
+    <token id="0x20840f0" file="map_grid_visualizer.cpp" linenr="65" str="total_cost" scope="0x208d240" type="name" varId="71" variable="0x208e610"/>
+    <token id="0x20841a0" file="map_grid_visualizer.cpp" linenr="65" str=";" scope="0x208d240"/>
+    <token id="0x2084250" file="map_grid_visualizer.cpp" linenr="66" str="for" scope="0x208d240" type="name" astParent="0x2084300"/>
+    <token id="0x2084300" file="map_grid_visualizer.cpp" linenr="66" str="(" scope="0x208d240" link="0x2084bf0" astOperand1="0x2084250" astOperand2="0x2084720"/>
+    <token id="0x20843b0" file="map_grid_visualizer.cpp" linenr="66" str="int" scope="0x208d240" type="name"/>
+    <token id="0x2084510" file="map_grid_visualizer.cpp" linenr="66" str="cx" scope="0x208d240" type="name" varId="72" variable="0x208d4a0" astParent="0x20845c0"/>
+    <token id="0x20845c0" file="map_grid_visualizer.cpp" linenr="66" str="=" scope="0x208d240" type="op" isAssignmentOp="True" astParent="0x2084720" astOperand1="0x2084510" astOperand2="0x2084670"/>
+    <token id="0x2084670" file="map_grid_visualizer.cpp" linenr="66" str="0" scope="0x208d240" type="number" isInt="True" values="0x2084678" astParent="0x20845c0"/>
+    <token id="0x2084720" file="map_grid_visualizer.cpp" linenr="66" str=";" scope="0x208d240" astParent="0x2084300" astOperand1="0x20845c0" astOperand2="0x20849e0"/>
+    <token id="0x20847d0" file="map_grid_visualizer.cpp" linenr="66" str="cx" scope="0x208d240" type="name" varId="72" variable="0x208d4a0" astParent="0x2084880"/>
+    <token id="0x2084880" file="map_grid_visualizer.cpp" linenr="66" str="&lt;" scope="0x208d240" type="op" isComparisonOp="True" astParent="0x20849e0" astOperand1="0x20847d0" astOperand2="0x2084930"/>
+    <token id="0x2084930" file="map_grid_visualizer.cpp" linenr="66" str="x_size" scope="0x208d240" type="name" varId="60" variable="0x208e1b0" astParent="0x2084880"/>
+    <token id="0x20849e0" file="map_grid_visualizer.cpp" linenr="66" str=";" scope="0x208d240" astParent="0x2084720" astOperand1="0x2084880" astOperand2="0x2084b40"/>
+    <token id="0x2084a90" file="map_grid_visualizer.cpp" linenr="66" str="cx" scope="0x208d240" type="name" varId="72" variable="0x208d4a0" astParent="0x2084b40"/>
+    <token id="0x2084b40" file="map_grid_visualizer.cpp" linenr="66" str="++" scope="0x208d240" type="op" astParent="0x20849e0" astOperand1="0x2084a90"/>
+    <token id="0x2084bf0" file="map_grid_visualizer.cpp" linenr="66" str=")" scope="0x208d240" link="0x2084300"/>
+    <token id="0x2084ca0" file="map_grid_visualizer.cpp" linenr="66" str="{" scope="0x208d370" link="0x2089210"/>
+    <token id="0x2084d50" file="map_grid_visualizer.cpp" linenr="67" str="for" scope="0x208d370" type="name" astParent="0x2084e00"/>
+    <token id="0x2084e00" file="map_grid_visualizer.cpp" linenr="67" str="(" scope="0x208d370" link="0x20856f0" astOperand1="0x2084d50" astOperand2="0x2085220"/>
+    <token id="0x2084eb0" file="map_grid_visualizer.cpp" linenr="67" str="int" scope="0x208d370" type="name"/>
+    <token id="0x2085010" file="map_grid_visualizer.cpp" linenr="67" str="cy" scope="0x208d370" type="name" varId="73" variable="0x208d640" astParent="0x20850c0"/>
+    <token id="0x20850c0" file="map_grid_visualizer.cpp" linenr="67" str="=" scope="0x208d370" type="op" isAssignmentOp="True" astParent="0x2085220" astOperand1="0x2085010" astOperand2="0x2085170"/>
+    <token id="0x2085170" file="map_grid_visualizer.cpp" linenr="67" str="0" scope="0x208d370" type="number" isInt="True" values="0x2085178" astParent="0x20850c0"/>
+    <token id="0x2085220" file="map_grid_visualizer.cpp" linenr="67" str=";" scope="0x208d370" astParent="0x2084e00" astOperand1="0x20850c0" astOperand2="0x20854e0"/>
+    <token id="0x20852d0" file="map_grid_visualizer.cpp" linenr="67" str="cy" scope="0x208d370" type="name" varId="73" variable="0x208d640" astParent="0x2085380"/>
+    <token id="0x2085380" file="map_grid_visualizer.cpp" linenr="67" str="&lt;" scope="0x208d370" type="op" isComparisonOp="True" astParent="0x20854e0" astOperand1="0x20852d0" astOperand2="0x2085430"/>
+    <token id="0x2085430" file="map_grid_visualizer.cpp" linenr="67" str="y_size" scope="0x208d370" type="name" varId="61" variable="0x208e220" astParent="0x2085380"/>
+    <token id="0x20854e0" file="map_grid_visualizer.cpp" linenr="67" str=";" scope="0x208d370" astParent="0x2085220" astOperand1="0x2085380" astOperand2="0x2085640"/>
+    <token id="0x2085590" file="map_grid_visualizer.cpp" linenr="67" str="cy" scope="0x208d370" type="name" varId="73" variable="0x208d640" astParent="0x2085640"/>
+    <token id="0x2085640" file="map_grid_visualizer.cpp" linenr="67" str="++" scope="0x208d370" type="op" astParent="0x20854e0" astOperand1="0x2085590"/>
+    <token id="0x20856f0" file="map_grid_visualizer.cpp" linenr="67" str=")" scope="0x208d370" link="0x2084e00"/>
+    <token id="0x20857a0" file="map_grid_visualizer.cpp" linenr="67" str="{" scope="0x208d510" link="0x2089160"/>
+    <token id="0x2085850" file="map_grid_visualizer.cpp" linenr="68" str="costmap_p_" scope="0x208d510" type="name" varId="59" variable="0x208f480" astParent="0x2085900"/>
+    <token id="0x2085900" file="map_grid_visualizer.cpp" linenr="68" str="." scope="0x208d510" astParent="0x2085b10" astOperand1="0x2085850" astOperand2="0x2085a60"/>
+    <token id="0x2085a60" file="map_grid_visualizer.cpp" linenr="68" str="mapToWorld" scope="0x208d510" type="name" astParent="0x2085900"/>
+    <token id="0x2085b10" file="map_grid_visualizer.cpp" linenr="68" str="(" scope="0x208d510" link="0x2086090" astOperand1="0x2085900" astOperand2="0x2085f30"/>
+    <token id="0x2085bc0" file="map_grid_visualizer.cpp" linenr="68" str="cx" scope="0x208d510" type="name" varId="72" variable="0x208d4a0" astParent="0x2085c70"/>
+    <token id="0x2085c70" file="map_grid_visualizer.cpp" linenr="68" str="," scope="0x208d510" astParent="0x2085dd0" astOperand1="0x2085bc0" astOperand2="0x2085d20"/>
+    <token id="0x2085d20" file="map_grid_visualizer.cpp" linenr="68" str="cy" scope="0x208d510" type="name" varId="73" variable="0x208d640" astParent="0x2085c70"/>
+    <token id="0x2085dd0" file="map_grid_visualizer.cpp" linenr="68" str="," scope="0x208d510" astParent="0x2085f30" astOperand1="0x2085c70" astOperand2="0x2085e80"/>
+    <token id="0x2085e80" file="map_grid_visualizer.cpp" linenr="68" str="x_coord" scope="0x208d510" type="name" varId="63" variable="0x208e300" astParent="0x2085dd0"/>
+    <token id="0x2085f30" file="map_grid_visualizer.cpp" linenr="68" str="," scope="0x208d510" astParent="0x2085b10" astOperand1="0x2085dd0" astOperand2="0x2085fe0"/>
+    <token id="0x2085fe0" file="map_grid_visualizer.cpp" linenr="68" str="y_coord" scope="0x208d510" type="name" varId="64" variable="0x208e370" astParent="0x2085f30"/>
+    <token id="0x2086090" file="map_grid_visualizer.cpp" linenr="68" str=")" scope="0x208d510" link="0x2085b10"/>
+    <token id="0x2086140" file="map_grid_visualizer.cpp" linenr="68" str=";" scope="0x208d510"/>
+    <token id="0x20861f0" file="map_grid_visualizer.cpp" linenr="69" str="if" scope="0x208d510" type="name" astParent="0x20862a0"/>
+    <token id="0x20862a0" file="map_grid_visualizer.cpp" linenr="69" str="(" scope="0x208d510" link="0x2086cf0" astOperand1="0x20861f0" astOperand2="0x2086400"/>
+    <token id="0x2086350" file="map_grid_visualizer.cpp" linenr="69" str="cost_function_" scope="0x208d510" type="name" varId="52" variable="0x208dfc0" astParent="0x2086400"/>
+    <token id="0x2086400" file="map_grid_visualizer.cpp" linenr="69" str="(" scope="0x208d510" link="0x2086c40" astParent="0x20862a0" astOperand1="0x2086350" astOperand2="0x2086ae0"/>
+    <token id="0x20864b0" file="map_grid_visualizer.cpp" linenr="69" str="cx" scope="0x208d510" type="name" varId="72" variable="0x208d4a0" astParent="0x2086560"/>
+    <token id="0x2086560" file="map_grid_visualizer.cpp" linenr="69" str="," scope="0x208d510" astParent="0x20866c0" astOperand1="0x20864b0" astOperand2="0x2086610"/>
+    <token id="0x2086610" file="map_grid_visualizer.cpp" linenr="69" str="cy" scope="0x208d510" type="name" varId="73" variable="0x208d640" astParent="0x2086560"/>
+    <token id="0x20866c0" file="map_grid_visualizer.cpp" linenr="69" str="," scope="0x208d510" astParent="0x2086820" astOperand1="0x2086560" astOperand2="0x2086770"/>
+    <token id="0x2086770" file="map_grid_visualizer.cpp" linenr="69" str="path_cost" scope="0x208d510" type="name" varId="68" variable="0x208e4c0" astParent="0x20866c0"/>
+    <token id="0x2086820" file="map_grid_visualizer.cpp" linenr="69" str="," scope="0x208d510" astParent="0x2086980" astOperand1="0x20866c0" astOperand2="0x20868d0"/>
+    <token id="0x20868d0" file="map_grid_visualizer.cpp" linenr="69" str="goal_cost" scope="0x208d510" type="name" varId="69" variable="0x208e530" astParent="0x2086820"/>
+    <token id="0x2086980" file="map_grid_visualizer.cpp" linenr="69" str="," scope="0x208d510" astParent="0x2086ae0" astOperand1="0x2086820" astOperand2="0x2086a30"/>
+    <token id="0x2086a30" file="map_grid_visualizer.cpp" linenr="69" str="occ_cost" scope="0x208d510" type="name" varId="70" variable="0x208e5a0" astParent="0x2086980"/>
+    <token id="0x2086ae0" file="map_grid_visualizer.cpp" linenr="69" str="," scope="0x208d510" astParent="0x2086400" astOperand1="0x2086980" astOperand2="0x2086b90"/>
+    <token id="0x2086b90" file="map_grid_visualizer.cpp" linenr="69" str="total_cost" scope="0x208d510" type="name" varId="71" variable="0x208e610" astParent="0x2086ae0"/>
+    <token id="0x2086c40" file="map_grid_visualizer.cpp" linenr="69" str=")" scope="0x208d510" link="0x2086400"/>
+    <token id="0x2086cf0" file="map_grid_visualizer.cpp" linenr="69" str=")" scope="0x208d510" link="0x20862a0"/>
+    <token id="0x2086da0" file="map_grid_visualizer.cpp" linenr="69" str="{" scope="0x208d6b0" link="0x20890b0"/>
+    <token id="0x2086e50" file="map_grid_visualizer.cpp" linenr="70" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2086f00"/>
+    <token id="0x2086f00" file="map_grid_visualizer.cpp" linenr="70" str="." scope="0x208d6b0" astParent="0x2087060" astOperand1="0x2086e50" astOperand2="0x2086fb0"/>
+    <token id="0x2086fb0" file="map_grid_visualizer.cpp" linenr="70" str="x" scope="0x208d6b0" type="name" varId="74" variable="0x208dc40" astParent="0x2086f00"/>
+    <token id="0x2087060" file="map_grid_visualizer.cpp" linenr="70" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x2086f00" astOperand2="0x2087110"/>
+    <token id="0x2087110" file="map_grid_visualizer.cpp" linenr="70" str="x_coord" scope="0x208d6b0" type="name" varId="63" variable="0x208e300" astParent="0x2087060"/>
+    <token id="0x20871c0" file="map_grid_visualizer.cpp" linenr="70" str=";" scope="0x208d6b0"/>
+    <token id="0x2087270" file="map_grid_visualizer.cpp" linenr="71" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2087320"/>
+    <token id="0x2087320" file="map_grid_visualizer.cpp" linenr="71" str="." scope="0x208d6b0" astParent="0x2087480" astOperand1="0x2087270" astOperand2="0x20873d0"/>
+    <token id="0x20873d0" file="map_grid_visualizer.cpp" linenr="71" str="y" scope="0x208d6b0" type="name" varId="75" variable="0x208dcb0" astParent="0x2087320"/>
+    <token id="0x2087480" file="map_grid_visualizer.cpp" linenr="71" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x2087320" astOperand2="0x2087530"/>
+    <token id="0x2087530" file="map_grid_visualizer.cpp" linenr="71" str="y_coord" scope="0x208d6b0" type="name" varId="64" variable="0x208e370" astParent="0x2087480"/>
+    <token id="0x20875e0" file="map_grid_visualizer.cpp" linenr="71" str=";" scope="0x208d6b0"/>
+    <token id="0x2087690" file="map_grid_visualizer.cpp" linenr="72" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2087740"/>
+    <token id="0x2087740" file="map_grid_visualizer.cpp" linenr="72" str="." scope="0x208d6b0" astParent="0x20878a0" astOperand1="0x2087690" astOperand2="0x20877f0"/>
+    <token id="0x20877f0" file="map_grid_visualizer.cpp" linenr="72" str="z" scope="0x208d6b0" type="name" varId="76" variable="0x208dd20" astParent="0x2087740"/>
+    <token id="0x20878a0" file="map_grid_visualizer.cpp" linenr="72" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x2087740" astOperand2="0x2087950"/>
+    <token id="0x2087950" file="map_grid_visualizer.cpp" linenr="72" str="z_coord" scope="0x208d6b0" type="name" varId="62" variable="0x208e290" astParent="0x20878a0"/>
+    <token id="0x2087a00" file="map_grid_visualizer.cpp" linenr="72" str=";" scope="0x208d6b0"/>
+    <token id="0x2087ab0" file="map_grid_visualizer.cpp" linenr="73" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2087b60"/>
+    <token id="0x2087b60" file="map_grid_visualizer.cpp" linenr="73" str="." scope="0x208d6b0" astParent="0x2087cc0" astOperand1="0x2087ab0" astOperand2="0x2087c10"/>
+    <token id="0x2087c10" file="map_grid_visualizer.cpp" linenr="73" str="path_cost" scope="0x208d6b0" type="name" varId="77" variable="0x208dd90" astParent="0x2087b60"/>
+    <token id="0x2087cc0" file="map_grid_visualizer.cpp" linenr="73" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x2087b60" astOperand2="0x2087d70"/>
+    <token id="0x2087d70" file="map_grid_visualizer.cpp" linenr="73" str="path_cost" scope="0x208d6b0" type="name" varId="68" variable="0x208e4c0" astParent="0x2087cc0"/>
+    <token id="0x2087e20" file="map_grid_visualizer.cpp" linenr="73" str=";" scope="0x208d6b0"/>
+    <token id="0x2087ed0" file="map_grid_visualizer.cpp" linenr="74" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2087f80"/>
+    <token id="0x2087f80" file="map_grid_visualizer.cpp" linenr="74" str="." scope="0x208d6b0" astParent="0x20880e0" astOperand1="0x2087ed0" astOperand2="0x2088030"/>
+    <token id="0x2088030" file="map_grid_visualizer.cpp" linenr="74" str="goal_cost" scope="0x208d6b0" type="name" varId="78" variable="0x208de00" astParent="0x2087f80"/>
+    <token id="0x20880e0" file="map_grid_visualizer.cpp" linenr="74" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x2087f80" astOperand2="0x2088190"/>
+    <token id="0x2088190" file="map_grid_visualizer.cpp" linenr="74" str="goal_cost" scope="0x208d6b0" type="name" varId="69" variable="0x208e530" astParent="0x20880e0"/>
+    <token id="0x2088240" file="map_grid_visualizer.cpp" linenr="74" str=";" scope="0x208d6b0"/>
+    <token id="0x20882f0" file="map_grid_visualizer.cpp" linenr="75" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x20883a0"/>
+    <token id="0x20883a0" file="map_grid_visualizer.cpp" linenr="75" str="." scope="0x208d6b0" astParent="0x2088500" astOperand1="0x20882f0" astOperand2="0x2088450"/>
+    <token id="0x2088450" file="map_grid_visualizer.cpp" linenr="75" str="occ_cost" scope="0x208d6b0" type="name" varId="79" variable="0x208de70" astParent="0x20883a0"/>
+    <token id="0x2088500" file="map_grid_visualizer.cpp" linenr="75" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x20883a0" astOperand2="0x20885b0"/>
+    <token id="0x20885b0" file="map_grid_visualizer.cpp" linenr="75" str="occ_cost" scope="0x208d6b0" type="name" varId="70" variable="0x208e5a0" astParent="0x2088500"/>
+    <token id="0x2088660" file="map_grid_visualizer.cpp" linenr="75" str=";" scope="0x208d6b0"/>
+    <token id="0x2088710" file="map_grid_visualizer.cpp" linenr="76" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x20887c0"/>
+    <token id="0x20887c0" file="map_grid_visualizer.cpp" linenr="76" str="." scope="0x208d6b0" astParent="0x2088920" astOperand1="0x2088710" astOperand2="0x2088870"/>
+    <token id="0x2088870" file="map_grid_visualizer.cpp" linenr="76" str="total_cost" scope="0x208d6b0" type="name" varId="80" variable="0x208dee0" astParent="0x20887c0"/>
+    <token id="0x2088920" file="map_grid_visualizer.cpp" linenr="76" str="=" scope="0x208d6b0" type="op" isAssignmentOp="True" astOperand1="0x20887c0" astOperand2="0x20889d0"/>
+    <token id="0x20889d0" file="map_grid_visualizer.cpp" linenr="76" str="total_cost" scope="0x208d6b0" type="name" varId="71" variable="0x208e610" astParent="0x2088920"/>
+    <token id="0x2088a80" file="map_grid_visualizer.cpp" linenr="76" str=";" scope="0x208d6b0"/>
+    <token id="0x2088b30" file="map_grid_visualizer.cpp" linenr="77" str="cost_cloud_" scope="0x208d6b0" type="name" varId="54" variable="0x208e0a0" astParent="0x2088be0"/>
+    <token id="0x2088be0" file="map_grid_visualizer.cpp" linenr="77" str="." scope="0x208d6b0" astParent="0x2088df0" astOperand1="0x2088b30" astOperand2="0x2088d40"/>
+    <token id="0x2088d40" file="map_grid_visualizer.cpp" linenr="77" str="push_back" scope="0x208d6b0" type="name" astParent="0x2088be0"/>
+    <token id="0x2088df0" file="map_grid_visualizer.cpp" linenr="77" str="(" scope="0x208d6b0" link="0x2088f50" astOperand1="0x2088be0" astOperand2="0x2088ea0"/>
+    <token id="0x2088ea0" file="map_grid_visualizer.cpp" linenr="77" str="pt" scope="0x208d6b0" type="name" varId="65" variable="0x208e3e0" astParent="0x2088df0"/>
+    <token id="0x2088f50" file="map_grid_visualizer.cpp" linenr="77" str=")" scope="0x208d6b0" link="0x2088df0"/>
+    <token id="0x2089000" file="map_grid_visualizer.cpp" linenr="77" str=";" scope="0x208d6b0"/>
+    <token id="0x20890b0" file="map_grid_visualizer.cpp" linenr="78" str="}" scope="0x208d6b0" link="0x2086da0"/>
+    <token id="0x2089160" file="map_grid_visualizer.cpp" linenr="79" str="}" scope="0x208d510" link="0x20857a0"/>
+    <token id="0x2089210" file="map_grid_visualizer.cpp" linenr="80" str="}" scope="0x208d370" link="0x2084ca0"/>
+    <token id="0x20892c0" file="map_grid_visualizer.cpp" linenr="81" str="pub_" scope="0x208d240" type="name" varId="55" variable="0x208e140" astParent="0x2089370"/>
+    <token id="0x2089370" file="map_grid_visualizer.cpp" linenr="81" str="." scope="0x208d240" astParent="0x20894d0" astOperand1="0x20892c0" astOperand2="0x2089420"/>
+    <token id="0x2089420" file="map_grid_visualizer.cpp" linenr="81" str="publish" scope="0x208d240" type="name" astParent="0x2089370"/>
+    <token id="0x20894d0" file="map_grid_visualizer.cpp" linenr="81" str="(" scope="0x208d240" link="0x20896e0" astOperand1="0x2089370" astOperand2="0x2089580"/>
+    <token id="0x2089580" file="map_grid_visualizer.cpp" linenr="81" str="*" scope="0x208d240" type="op" isArithmeticalOp="True" astParent="0x20894d0" astOperand1="0x2089630"/>
+    <token id="0x2089630" file="map_grid_visualizer.cpp" linenr="81" str="cost_cloud_" scope="0x208d240" type="name" varId="54" variable="0x208e0a0" astParent="0x2089580"/>
+    <token id="0x20896e0" file="map_grid_visualizer.cpp" linenr="81" str=")" scope="0x208d240" link="0x20894d0"/>
+    <token id="0x2089790" file="map_grid_visualizer.cpp" linenr="81" str=";" scope="0x208d240"/>
+    <token id="0x2089840" file="map_grid_visualizer.cpp" linenr="82" str="ROS_DEBUG" scope="0x208d240" type="name" astParent="0x20898f0"/>
+    <token id="0x20898f0" file="map_grid_visualizer.cpp" linenr="82" str="(" scope="0x208d240" link="0x2089ae0" astOperand1="0x2089840" astOperand2="0x2089a00"/>
+    <token id="0x2089a00" file="map_grid_visualizer.cpp" linenr="82" str="&quot;Cost PointCloud published&quot;" scope="0x208d240" type="string" strlen="25" values="0x2089a08" astParent="0x20898f0"/>
+    <token id="0x2089ae0" file="map_grid_visualizer.cpp" linenr="82" str=")" scope="0x208d240" link="0x20898f0"/>
+    <token id="0x2089b90" file="map_grid_visualizer.cpp" linenr="82" str=";" scope="0x208d240"/>
+    <token id="0x2089c40" file="map_grid_visualizer.cpp" linenr="83" str="}" scope="0x208d240" link="0x2080230"/>
+    <token id="0x2089cf0" file="map_grid_visualizer.cpp" linenr="84" str="}" scope="0x2089e60" link="0x207af40"/>
+    <token id="0x2089da0" file="map_grid_visualizer.cpp" linenr="84" str=";" scope="0x208a630"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x208a630" type="Global"/>
+    <scope id="0x2089e60" type="Namespace" className="base_local_planner" classStart="0x207af40" classEnd="0x2089cf0" nestedIn="0x208a630"/>
+    <scope id="0x208a0c0" type="Class" className="MapCell" classStart="0x205ba20" classEnd="0x2060180" nestedIn="0x2089e60">
+      <functionList>
+        <function id="0x2089f90" tokenDef="0x205eef0" name="MapCell"/>
+        <function id="0x208b120" tokenDef="0x205f1b0" name="MapCell">
+          <arg nr="1" variable="0x208e680"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x208d7e0"/>
+        <var id="0x208d850"/>
+        <var id="0x208d8c0"/>
+        <var id="0x208d930"/>
+        <var id="0x208d9a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x208b1c0" type="Class" className="MapGrid" classStart="0x20607b0" classEnd="0x20708c0" nestedIn="0x2089e60">
+      <functionList>
+        <function id="0x208b360" tokenDef="0x20609c0" name="MapGrid"/>
+        <function id="0x208b400" tokenDef="0x2060c80" name="MapGrid">
+          <arg nr="1" variable="0x208e6f0"/>
+          <arg nr="2" variable="0x208e760"/>
+        </function>
+        <function id="0x208b4a0" tokenDef="0x2061620" name="operator()">
+          <arg nr="1" variable="0x208e7d0"/>
+          <arg nr="2" variable="0x208e840"/>
+        </function>
+        <function id="0x208b670" tokenDef="0x2062800" name="operator()">
+          <arg nr="1" variable="0x208e8b0"/>
+          <arg nr="2" variable="0x208e920"/>
+        </function>
+        <function id="0x208b840" tokenDef="0x2063b40" name="getCell">
+          <arg nr="1" variable="0x208e990"/>
+          <arg nr="2" variable="0x208ea00"/>
+        </function>
+        <function id="0x208ba10" tokenDef="0x2065ee0" name="MapGrid"/>
+        <function id="0x208bbe0" tokenDef="0x2066250" name="MapGrid">
+          <arg nr="1" variable="0x208ea70"/>
+        </function>
+        <function id="0x208bc80" tokenDef="0x2066930" name="operator=">
+          <arg nr="1" variable="0x208eae0"/>
+        </function>
+        <function id="0x208bd20" tokenDef="0x2067010" name="resetPathDist"/>
+        <function id="0x208bdc0" tokenDef="0x2067380" name="sizeCheck">
+          <arg nr="1" variable="0x208eb50"/>
+          <arg nr="2" variable="0x208ebc0"/>
+        </function>
+        <function id="0x208be60" tokenDef="0x2067bc0" name="commonInit"/>
+        <function id="0x208bf00" tokenDef="0x2067f30" name="getIndex">
+          <arg nr="1" variable="0x208ec30"/>
+          <arg nr="2" variable="0x208eca0"/>
+        </function>
+        <function id="0x208bfa0" tokenDef="0x20686c0" name="obstacleCosts"/>
+        <function id="0x208c170" tokenDef="0x2069060" name="unreachableCellCosts"/>
+        <function id="0x208c340" tokenDef="0x2069b90" name="updatePathCell">
+          <arg nr="1" variable="0x208ed10"/>
+          <arg nr="2" variable="0x208ed80"/>
+          <arg nr="3" variable="0x208edf0"/>
+        </function>
+        <function id="0x208c3e0" tokenDef="0x206a950" name="adjustPlanResolution">
+          <arg nr="1" variable="0x208ee60"/>
+          <arg nr="2" variable="0x208eed0"/>
+          <arg nr="3" variable="0x208ef40"/>
+        </function>
+        <function id="0x208c480" tokenDef="0x206be20" name="computeTargetDistance">
+          <arg nr="1" variable="0x208efb0"/>
+          <arg nr="2" variable="0x208f020"/>
+        </function>
+        <function id="0x208c520" tokenDef="0x206ccc0" name="computeGoalDistance">
+          <arg nr="1" variable="0x208f090"/>
+          <arg nr="2" variable="0x208f100"/>
+        </function>
+        <function id="0x208c5c0" tokenDef="0x206db60" name="setTargetCells">
+          <arg nr="1" variable="0x208f170"/>
+          <arg nr="2" variable="0x208f1e0"/>
+        </function>
+        <function id="0x208c660" tokenDef="0x206eb30" name="setLocalGoal">
+          <arg nr="1" variable="0x208f250"/>
+          <arg nr="2" variable="0x208f2c0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x208da10"/>
+        <var id="0x208da80"/>
+        <var id="0x208daf0"/>
+        <var id="0x208db60"/>
+        <var id="0x208dbd0"/>
+      </varlist>
+    </scope>
+    <scope id="0x208b540" type="Function" className="operator()" classStart="0x2061e60" classEnd="0x20625f0" nestedIn="0x208b1c0" function="0x208b4a0"/>
+    <scope id="0x208b710" type="Function" className="operator()" classStart="0x20630f0" classEnd="0x2063880" nestedIn="0x208b1c0" function="0x208b670"/>
+    <scope id="0x208b8e0" type="Function" className="getCell" classStart="0x20655f0" classEnd="0x2065d80" nestedIn="0x208b1c0" function="0x208b840"/>
+    <scope id="0x208bab0" type="Function" className="MapGrid" classStart="0x20660f0" classEnd="0x20661a0" nestedIn="0x208b1c0" function="0x208ba10"/>
+    <scope id="0x208c040" type="Function" className="obstacleCosts" classStart="0x20688d0" classEnd="0x2068e50" nestedIn="0x208b1c0" function="0x208bfa0"/>
+    <scope id="0x208c210" type="Function" className="unreachableCellCosts" classStart="0x20692a0" classEnd="0x2069980" nestedIn="0x208b1c0" function="0x208c170"/>
+    <scope id="0x208c700" type="Struct" className="MapGridCostPoint" classStart="0x2070e90" classEnd="0x2071db0" nestedIn="0x2089e60">
+      <varlist>
+        <var id="0x208dc40"/>
+        <var id="0x208dcb0"/>
+        <var id="0x208dd20"/>
+        <var id="0x208dd90"/>
+        <var id="0x208de00"/>
+        <var id="0x208de70"/>
+        <var id="0x208dee0"/>
+      </varlist>
+    </scope>
+    <scope id="0x208c8d0" type="Class" className="MapGridVisualizer" classStart="0x2074b20" classEnd="0x207aaf0" nestedIn="0x2089e60">
+      <functionList>
+        <function id="0x208ca70" tokenDef="0x2074d30" name="MapGridVisualizer"/>
+        <function id="0x208cb10" tokenDef="0x20750d0" name="initialize">
+          <arg nr="1" variable="0x208f330"/>
+          <arg nr="2" variable="0x208f3a0"/>
+          <arg nr="3" variable="0x208f410"/>
+        </function>
+        <function id="0x208cbb0" tokenDef="0x2077120" name="MapGridVisualizer"/>
+        <function id="0x208cee0" tokenDef="0x2077a40" name="publishCostCloud">
+          <arg nr="1" variable="0x208f480"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x208df50"/>
+        <var id="0x208dfc0"/>
+        <var id="0x208e030"/>
+        <var id="0x208e0a0"/>
+        <var id="0x208e140"/>
+      </varlist>
+    </scope>
+    <scope id="0x208cc80" type="Function" className="MapGridVisualizer" classStart="0x2077360" classEnd="0x20778e0" nestedIn="0x208c8d0" function="0x208cbb0"/>
+    <scope id="0x208cdb0" type="If" classStart="0x2060910" classEnd="0x2070290" nestedIn="0x208cc80"/>
+    <scope id="0x208cfb0" type="Function" className="MapGridVisualizer" classStart="0x207b3c0" classEnd="0x207b470" nestedIn="0x2089e60" function="0x208ca70"/>
+    <scope id="0x208d0e0" type="Function" className="initialize" classStart="0x207d650" classEnd="0x207f8e0" nestedIn="0x2089e60" function="0x208cb10"/>
+    <scope id="0x208d240" type="Function" className="publishCostCloud" classStart="0x2080230" classEnd="0x2089c40" nestedIn="0x2089e60" function="0x208cee0">
+      <varlist>
+        <var id="0x208e1b0"/>
+        <var id="0x208e220"/>
+        <var id="0x208e290"/>
+        <var id="0x208e300"/>
+        <var id="0x208e370"/>
+        <var id="0x208e3e0"/>
+        <var id="0x208e450"/>
+        <var id="0x208e4c0"/>
+        <var id="0x208e530"/>
+        <var id="0x208e5a0"/>
+        <var id="0x208e610"/>
+      </varlist>
+    </scope>
+    <scope id="0x208d370" type="For" classStart="0x2084ca0" classEnd="0x2089210" nestedIn="0x208d240">
+      <varlist>
+        <var id="0x208d4a0"/>
+      </varlist>
+    </scope>
+    <scope id="0x208d510" type="For" classStart="0x20857a0" classEnd="0x2089160" nestedIn="0x208d370">
+      <varlist>
+        <var id="0x208d640"/>
+      </varlist>
+    </scope>
+    <scope id="0x208d6b0" type="If" classStart="0x2086da0" classEnd="0x20890b0" nestedIn="0x208d510"/>
+  </scopes>
+  <variables>
+    <var id="0x208e680" nameToken="0x205f520" typeStartToken="0x205f3c0" typeEndToken="0x205f470" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208d7e0" nameToken="0x205f890" typeStartToken="0x205f730" typeEndToken="0x205f730" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d850" nameToken="0x205f9f0" typeStartToken="0x2078200" typeEndToken="0x2078200" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d8c0" nameToken="0x205fc00" typeStartToken="0x205fb50" typeEndToken="0x205fb50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d930" nameToken="0x205fe10" typeStartToken="0x205fd60" typeEndToken="0x205fd60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d9a0" nameToken="0x2060020" typeStartToken="0x205ff70" typeEndToken="0x205ff70" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e6f0" nameToken="0x2060f40" typeStartToken="0x2060de0" typeEndToken="0x2060de0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e760" nameToken="0x2061200" typeStartToken="0x20610a0" typeEndToken="0x20610a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e7d0" nameToken="0x2061a40" typeStartToken="0x20618e0" typeEndToken="0x20618e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e840" nameToken="0x2061d00" typeStartToken="0x2061ba0" typeEndToken="0x2061ba0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e8b0" nameToken="0x2062c20" typeStartToken="0x2062ac0" typeEndToken="0x2062ac0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e920" nameToken="0x2062ee0" typeStartToken="0x2062d80" typeEndToken="0x2062d80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e990" nameToken="0x2063e00" typeStartToken="0x2063ca0" typeEndToken="0x2063ca0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208ea00" nameToken="0x20640c0" typeStartToken="0x2063f60" typeEndToken="0x2063f60" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208ea70" nameToken="0x20665c0" typeStartToken="0x2066460" typeEndToken="0x2066510" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208eae0" nameToken="0x2066d50" typeStartToken="0x2066bf0" typeEndToken="0x2066ca0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208eb50" nameToken="0x2067640" typeStartToken="0x20674e0" typeEndToken="0x20674e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208ebc0" nameToken="0x2067900" typeStartToken="0x20677a0" typeEndToken="0x20677a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208ec30" nameToken="0x2068140" typeStartToken="0x2068090" typeEndToken="0x2068090" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208eca0" nameToken="0x2068350" typeStartToken="0x20682a0" typeEndToken="0x20682a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208ed10" nameToken="0x2069e50" typeStartToken="0x2069cf0" typeEndToken="0x2069da0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x208ed80" nameToken="0x206a110" typeStartToken="0x2069fb0" typeEndToken="0x206a060" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x208edf0" nameToken="0x206a5e0" typeStartToken="0x206a320" typeEndToken="0x206a530" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208ee60" nameToken="0x206b1c0" typeStartToken="0x206ab90" typeEndToken="0x206b110" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208eed0" nameToken="0x206b950" typeStartToken="0x206b320" typeEndToken="0x206b8a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208ef40" nameToken="0x206bb60" typeStartToken="0x206bab0" typeEndToken="0x206bab0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208efb0" nameToken="0x206c530" typeStartToken="0x206bfb0" typeEndToken="0x206c480" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f020" nameToken="0x206ca00" typeStartToken="0x206c740" typeEndToken="0x206c950" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f090" nameToken="0x206d3d0" typeStartToken="0x206ce50" typeEndToken="0x206d320" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f100" nameToken="0x206d8a0" typeStartToken="0x206d5e0" typeEndToken="0x206d7f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f170" nameToken="0x206e030" typeStartToken="0x206dd70" typeEndToken="0x206df80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f1e0" nameToken="0x206e870" typeStartToken="0x206e240" typeEndToken="0x206e7c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f250" nameToken="0x206f000" typeStartToken="0x206ed40" typeEndToken="0x206ef50" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f2c0" nameToken="0x206f840" typeStartToken="0x206f210" typeEndToken="0x206f790" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208da10" nameToken="0x206fb00" typeStartToken="0x206fa50" typeEndToken="0x206fa50" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208da80" nameToken="0x206fc60" typeStartToken="0x2080700" typeEndToken="0x2080700" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208daf0" nameToken="0x206ff20" typeStartToken="0x206fdc0" typeEndToken="0x206fdc0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208db60" nameToken="0x2070080" typeStartToken="0x2080e90" typeEndToken="0x2080e90" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dbd0" nameToken="0x2070760" typeStartToken="0x2070340" typeEndToken="0x20706b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dc40" nameToken="0x2070ff0" typeStartToken="0x2070f40" typeEndToken="0x2070f40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dcb0" nameToken="0x2071200" typeStartToken="0x2071150" typeEndToken="0x2071150" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dd20" nameToken="0x2071410" typeStartToken="0x2071360" typeEndToken="0x2071360" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dd90" nameToken="0x2071620" typeStartToken="0x2071570" typeEndToken="0x2071570" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208de00" nameToken="0x2071830" typeStartToken="0x2071780" typeEndToken="0x2071780" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208de70" nameToken="0x2071a40" typeStartToken="0x2071990" typeEndToken="0x2071990" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dee0" nameToken="0x2071c50" typeStartToken="0x2071ba0" typeEndToken="0x2071ba0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208df50" nameToken="0x20784c0" typeStartToken="0x20782b0" typeEndToken="0x2078410" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dfc0" nameToken="0x2079a10" typeStartToken="0x2078620" typeEndToken="0x2079960" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e030" nameToken="0x2079d80" typeStartToken="0x2079b70" typeEndToken="0x2079cd0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e0a0" nameToken="0x207a3e0" typeStartToken="0x2079ee0" typeEndToken="0x207a330" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x208e140" nameToken="0x207a990" typeStartToken="0x207a540" typeEndToken="0x207a8e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208f330" nameToken="0x207bc30" typeStartToken="0x207b970" typeEndToken="0x207bb80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x208f3a0" nameToken="0x207bfa0" typeStartToken="0x207bd90" typeEndToken="0x207bef0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208f410" nameToken="0x207d4f0" typeStartToken="0x207c100" typeEndToken="0x207d440" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208f480" nameToken="0x20800d0" typeStartToken="0x207fe10" typeEndToken="0x2080020" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x208e1b0" nameToken="0x2080440" typeStartToken="0x20802e0" typeEndToken="0x20802e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e220" nameToken="0x2080bd0" typeStartToken="0x2080a70" typeEndToken="0x2080a70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e290" nameToken="0x20812b0" typeStartToken="0x2081200" typeEndToken="0x2081200" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e300" nameToken="0x2081620" typeStartToken="0x2081570" typeEndToken="0x2081570" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e370" nameToken="0x2081780" typeStartToken="0x20639e0" typeEndToken="0x20639e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e3e0" nameToken="0x20819c0" typeStartToken="0x20818e0" typeEndToken="0x20818e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e450" nameToken="0x2082360" typeStartToken="0x2082150" typeEndToken="0x20822b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e4c0" nameToken="0x2083cd0" typeStartToken="0x2083c20" typeEndToken="0x2083c20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e530" nameToken="0x2083e30" typeStartToken="0x2069ae0" typeEndToken="0x2069ae0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e5a0" nameToken="0x2083f90" typeStartToken="0x205b530" typeEndToken="0x205b530" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208e610" nameToken="0x20840f0" typeStartToken="0x205b5e0" typeEndToken="0x205b5e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d4a0" nameToken="0x2084510" typeStartToken="0x20843b0" typeEndToken="0x20843b0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208d640" nameToken="0x2085010" typeStartToken="0x2084eb0" typeEndToken="0x2084eb0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dc40" nameToken="0x2070ff0" typeStartToken="0x2070f40" typeEndToken="0x2070f40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dcb0" nameToken="0x2071200" typeStartToken="0x2071150" typeEndToken="0x2071150" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dd20" nameToken="0x2071410" typeStartToken="0x2071360" typeEndToken="0x2071360" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dd90" nameToken="0x2071620" typeStartToken="0x2071570" typeEndToken="0x2071570" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208de00" nameToken="0x2071830" typeStartToken="0x2071780" typeEndToken="0x2071780" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208de70" nameToken="0x2071a40" typeStartToken="0x2071990" typeEndToken="0x2071990" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x208dee0" nameToken="0x2071c50" typeStartToken="0x2071ba0" typeEndToken="0x2071ba0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2069828">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x207e0a8">
+      <value tokvalue="0x207e0a0" known="true"/>
+    </values>
+    <values id="0x207f578">
+      <value tokvalue="0x207f570" known="true"/>
+    </values>
+    <values id="0x207f6d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x2084678">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2085178">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2089a08">
+      <value tokvalue="0x2089a00" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

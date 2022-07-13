@@ -1,0 +1,1454 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x21a7420" file="../include/haptic_teleoperation/Controller.h" linenr="42" str="const" scope="0x21d2b30" type="name"/>
+    <token id="0x21964a0" file="../include/haptic_teleoperation/Controller.h" linenr="42" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21a40c0" file="../include/haptic_teleoperation/Controller.h" linenr="42" str="PI" scope="0x21d2b30" type="name" varId="1" variable="0x21d7740" astParent="0x21a4170"/>
+    <token id="0x21a4170" file="../include/haptic_teleoperation/Controller.h" linenr="42" str="=" scope="0x21d2b30" type="op" isAssignmentOp="True" astOperand1="0x21a40c0" astOperand2="0x21a8c60"/>
+    <token id="0x21a8c60" file="../include/haptic_teleoperation/Controller.h" linenr="42" str="3.14159265359" scope="0x21d2b30" type="number" isFloat="True" astParent="0x21a4170"/>
+    <token id="0x21a8d10" file="../include/haptic_teleoperation/Controller.h" linenr="42" str=";" scope="0x21d2b30"/>
+    <token id="0x21a8dc0" file="../include/haptic_teleoperation/Controller.h" linenr="46" str="class" scope="0x21d2b30" type="name"/>
+    <token id="0x21a8eb0" file="../include/haptic_teleoperation/Controller.h" linenr="46" str="Controller" scope="0x21d2b30" type="name" type-scope="0x21d33b0"/>
+    <token id="0x21a8f60" file="../include/haptic_teleoperation/Controller.h" linenr="47" str="{" scope="0x21d33b0" link="0x21c2fb0"/>
+    <token id="0x21a9010" file="../include/haptic_teleoperation/Controller.h" linenr="48" str="public:" scope="0x21d33b0" type="name"/>
+    <token id="0x21a9170" file="../include/haptic_teleoperation/Controller.h" linenr="50" str="ros" scope="0x21d33b0" type="name" astParent="0x21a9220"/>
+    <token id="0x21a9220" file="../include/haptic_teleoperation/Controller.h" linenr="50" str="::" scope="0x21d33b0" astOperand1="0x21a9170" astOperand2="0x21a9380"/>
+    <token id="0x21a92d0" file="../include/haptic_teleoperation/Controller.h" linenr="50" str="NodeHandle" scope="0x21d33b0" type="name"/>
+    <token id="0x21a9380" file="../include/haptic_teleoperation/Controller.h" linenr="50" str="n" scope="0x21d33b0" type="name" varId="2" variable="0x21d77b0" astParent="0x21a9220"/>
+    <token id="0x21a9430" file="../include/haptic_teleoperation/Controller.h" linenr="50" str=";" scope="0x21d33b0"/>
+    <token id="0x21a94e0" file="../include/haptic_teleoperation/Controller.h" linenr="51" str="ros" scope="0x21d33b0" type="name" astParent="0x21a9590"/>
+    <token id="0x21a9590" file="../include/haptic_teleoperation/Controller.h" linenr="51" str="::" scope="0x21d33b0" astOperand1="0x21a94e0" astOperand2="0x21a96f0"/>
+    <token id="0x21a9640" file="../include/haptic_teleoperation/Controller.h" linenr="51" str="NodeHandle" scope="0x21d33b0" type="name"/>
+    <token id="0x21a96f0" file="../include/haptic_teleoperation/Controller.h" linenr="51" str="n_priv" scope="0x21d33b0" type="name" varId="3" variable="0x21d7820" astParent="0x21a9590"/>
+    <token id="0x21a97a0" file="../include/haptic_teleoperation/Controller.h" linenr="51" str=";" scope="0x21d33b0"/>
+    <token id="0x21a9850" file="../include/haptic_teleoperation/Controller.h" linenr="53" str="ros" scope="0x21d33b0" type="name" astParent="0x21a9900"/>
+    <token id="0x21a9900" file="../include/haptic_teleoperation/Controller.h" linenr="53" str="::" scope="0x21d33b0" astOperand1="0x21a9850" astOperand2="0x21a9a60"/>
+    <token id="0x21a99b0" file="../include/haptic_teleoperation/Controller.h" linenr="53" str="Publisher" scope="0x21d33b0" type="name"/>
+    <token id="0x21a9a60" file="../include/haptic_teleoperation/Controller.h" linenr="53" str="cmd_pub" scope="0x21d33b0" type="name" varId="4" variable="0x21d7890" astParent="0x21a9900"/>
+    <token id="0x21a9b10" file="../include/haptic_teleoperation/Controller.h" linenr="53" str=";" scope="0x21d33b0"/>
+    <token id="0x21a9bc0" file="../include/haptic_teleoperation/Controller.h" linenr="54" str="ros" scope="0x21d33b0" type="name" astParent="0x21a9c70"/>
+    <token id="0x21a9c70" file="../include/haptic_teleoperation/Controller.h" linenr="54" str="::" scope="0x21d33b0" astOperand1="0x21a9bc0" astOperand2="0x21a9dd0"/>
+    <token id="0x21a9d20" file="../include/haptic_teleoperation/Controller.h" linenr="54" str="Publisher" scope="0x21d33b0" type="name"/>
+    <token id="0x21a9dd0" file="../include/haptic_teleoperation/Controller.h" linenr="54" str="omni_pub" scope="0x21d33b0" type="name" varId="5" variable="0x21d7900" astParent="0x21a9c70"/>
+    <token id="0x21a9e80" file="../include/haptic_teleoperation/Controller.h" linenr="54" str=";" scope="0x21d33b0"/>
+    <token id="0x21a9f30" file="../include/haptic_teleoperation/Controller.h" linenr="56" str="ros" scope="0x21d33b0" type="name" astParent="0x21a9fe0"/>
+    <token id="0x21a9fe0" file="../include/haptic_teleoperation/Controller.h" linenr="56" str="::" scope="0x21d33b0" astOperand1="0x21a9f30" astOperand2="0x21aa140"/>
+    <token id="0x21aa090" file="../include/haptic_teleoperation/Controller.h" linenr="56" str="Publisher" scope="0x21d33b0" type="name"/>
+    <token id="0x21aa140" file="../include/haptic_teleoperation/Controller.h" linenr="56" str="lock_pub" scope="0x21d33b0" type="name" varId="6" variable="0x21d7970" astParent="0x21a9fe0"/>
+    <token id="0x21aa1f0" file="../include/haptic_teleoperation/Controller.h" linenr="56" str=";" scope="0x21d33b0"/>
+    <token id="0x21aa2a0" file="../include/haptic_teleoperation/Controller.h" linenr="57" str="ros" scope="0x21d33b0" type="name" astParent="0x21aa350"/>
+    <token id="0x21aa350" file="../include/haptic_teleoperation/Controller.h" linenr="57" str="::" scope="0x21d33b0" astOperand1="0x21aa2a0" astOperand2="0x21aa4b0"/>
+    <token id="0x21aa400" file="../include/haptic_teleoperation/Controller.h" linenr="57" str="Publisher" scope="0x21d33b0" type="name"/>
+    <token id="0x21aa4b0" file="../include/haptic_teleoperation/Controller.h" linenr="57" str="haptic_pub" scope="0x21d33b0" type="name" varId="7" variable="0x21d79e0" astParent="0x21aa350"/>
+    <token id="0x21aa560" file="../include/haptic_teleoperation/Controller.h" linenr="57" str=";" scope="0x21d33b0"/>
+    <token id="0x21aa610" file="../include/haptic_teleoperation/Controller.h" linenr="58" str="ros" scope="0x21d33b0" type="name" astParent="0x21aa6c0"/>
+    <token id="0x21aa6c0" file="../include/haptic_teleoperation/Controller.h" linenr="58" str="::" scope="0x21d33b0" astOperand1="0x21aa610" astOperand2="0x21aa820"/>
+    <token id="0x21aa770" file="../include/haptic_teleoperation/Controller.h" linenr="58" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21aa820" file="../include/haptic_teleoperation/Controller.h" linenr="58" str="master_sub" scope="0x21d33b0" type="name" varId="8" variable="0x21d7a50" astParent="0x21aa6c0"/>
+    <token id="0x21aa8d0" file="../include/haptic_teleoperation/Controller.h" linenr="58" str=";" scope="0x21d33b0"/>
+    <token id="0x21aa980" file="../include/haptic_teleoperation/Controller.h" linenr="59" str="ros" scope="0x21d33b0" type="name" astParent="0x21aaa30"/>
+    <token id="0x21aaa30" file="../include/haptic_teleoperation/Controller.h" linenr="59" str="::" scope="0x21d33b0" astOperand1="0x21aa980" astOperand2="0x21aab90"/>
+    <token id="0x21aaae0" file="../include/haptic_teleoperation/Controller.h" linenr="59" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21aab90" file="../include/haptic_teleoperation/Controller.h" linenr="59" str="slave_sub" scope="0x21d33b0" type="name" varId="9" variable="0x21d7ac0" astParent="0x21aaa30"/>
+    <token id="0x21aac40" file="../include/haptic_teleoperation/Controller.h" linenr="59" str=";" scope="0x21d33b0"/>
+    <token id="0x21aacf0" file="../include/haptic_teleoperation/Controller.h" linenr="60" str="ros" scope="0x21d33b0" type="name" astParent="0x21aada0"/>
+    <token id="0x21aada0" file="../include/haptic_teleoperation/Controller.h" linenr="60" str="::" scope="0x21d33b0" astOperand1="0x21aacf0" astOperand2="0x21aaf00"/>
+    <token id="0x21aae50" file="../include/haptic_teleoperation/Controller.h" linenr="60" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21aaf00" file="../include/haptic_teleoperation/Controller.h" linenr="60" str="button_sub" scope="0x21d33b0" type="name" varId="10" variable="0x21d7b30" astParent="0x21aada0"/>
+    <token id="0x21aafb0" file="../include/haptic_teleoperation/Controller.h" linenr="60" str=";" scope="0x21d33b0"/>
+    <token id="0x21ab060" file="../include/haptic_teleoperation/Controller.h" linenr="61" str="ros" scope="0x21d33b0" type="name" astParent="0x21ab110"/>
+    <token id="0x21ab110" file="../include/haptic_teleoperation/Controller.h" linenr="61" str="::" scope="0x21d33b0" astOperand1="0x21ab060" astOperand2="0x21ab270"/>
+    <token id="0x21ab1c0" file="../include/haptic_teleoperation/Controller.h" linenr="61" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21ab270" file="../include/haptic_teleoperation/Controller.h" linenr="61" str="force_feedback_sub" scope="0x21d33b0" type="name" varId="11" variable="0x21d7ba0" astParent="0x21ab110"/>
+    <token id="0x21ab320" file="../include/haptic_teleoperation/Controller.h" linenr="61" str=";" scope="0x21d33b0"/>
+    <token id="0x21ab3d0" file="../include/haptic_teleoperation/Controller.h" linenr="62" str="ros" scope="0x21d33b0" type="name" astParent="0x21ab480"/>
+    <token id="0x21ab480" file="../include/haptic_teleoperation/Controller.h" linenr="62" str="::" scope="0x21d33b0" astOperand1="0x21ab3d0" astOperand2="0x21ab5e0"/>
+    <token id="0x21ab530" file="../include/haptic_teleoperation/Controller.h" linenr="62" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21ab5e0" file="../include/haptic_teleoperation/Controller.h" linenr="62" str="navedata" scope="0x21d33b0" type="name" varId="12" variable="0x21d7c10" astParent="0x21ab480"/>
+    <token id="0x21ab690" file="../include/haptic_teleoperation/Controller.h" linenr="62" str=";" scope="0x21d33b0"/>
+    <token id="0x21ab740" file="../include/haptic_teleoperation/Controller.h" linenr="63" str="ros" scope="0x21d33b0" type="name" astParent="0x21ab7f0"/>
+    <token id="0x21ab7f0" file="../include/haptic_teleoperation/Controller.h" linenr="63" str="::" scope="0x21d33b0" astOperand1="0x21ab740" astOperand2="0x21ab950"/>
+    <token id="0x21ab8a0" file="../include/haptic_teleoperation/Controller.h" linenr="63" str="Subscriber" scope="0x21d33b0" type="name"/>
+    <token id="0x21ab950" file="../include/haptic_teleoperation/Controller.h" linenr="63" str="collision_flag" scope="0x21d33b0" type="name" varId="13" variable="0x21d7c80" astParent="0x21ab7f0"/>
+    <token id="0x21aba00" file="../include/haptic_teleoperation/Controller.h" linenr="63" str=";" scope="0x21d33b0"/>
+    <token id="0x21abab0" file="../include/haptic_teleoperation/Controller.h" linenr="69" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21abb60" file="../include/haptic_teleoperation/Controller.h" linenr="69" str="freq" scope="0x21d33b0" type="name" varId="14" variable="0x21d7cf0"/>
+    <token id="0x21abc10" file="../include/haptic_teleoperation/Controller.h" linenr="69" str=";" scope="0x21d33b0"/>
+    <token id="0x21abcc0" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21abd70"/>
+    <token id="0x21abd70" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="::" scope="0x21d33b0" astOperand1="0x21abcc0" astOperand2="0x21abe20"/>
+    <token id="0x21abe20" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21abd70"/>
+    <token id="0x21abed0" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="&lt;" scope="0x21d33b0" link="0x21ac2f0"/>
+    <token id="0x21abf80" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ac030" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="," scope="0x21d33b0"/>
+    <token id="0x21ac0e0" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ac0e8"/>
+    <token id="0x21ac190" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="," scope="0x21d33b0"/>
+    <token id="0x21ac240" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21ac248"/>
+    <token id="0x21ac2f0" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="&gt;" scope="0x21d33b0" link="0x21abed0"/>
+    <token id="0x21ac3a0" file="../include/haptic_teleoperation/Controller.h" linenr="70" str="Kp" scope="0x21d33b0" type="name" varId="15" variable="0x21d7d60"/>
+    <token id="0x21ac450" file="../include/haptic_teleoperation/Controller.h" linenr="70" str=";" scope="0x21d33b0"/>
+    <token id="0x21ac500" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21ac5b0"/>
+    <token id="0x21ac5b0" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="::" scope="0x21d33b0" astOperand1="0x21ac500" astOperand2="0x21ac660"/>
+    <token id="0x21ac660" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21ac5b0"/>
+    <token id="0x21ac710" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="&lt;" scope="0x21d33b0" link="0x21acb30"/>
+    <token id="0x21ac7c0" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ac870" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="," scope="0x21d33b0"/>
+    <token id="0x21ac920" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ac928"/>
+    <token id="0x21ac9d0" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="," scope="0x21d33b0"/>
+    <token id="0x21aca80" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21aca88"/>
+    <token id="0x21acb30" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="&gt;" scope="0x21d33b0" link="0x21ac710"/>
+    <token id="0x21acbe0" file="../include/haptic_teleoperation/Controller.h" linenr="71" str="Kd" scope="0x21d33b0" type="name" varId="16" variable="0x21d7dd0"/>
+    <token id="0x21acc90" file="../include/haptic_teleoperation/Controller.h" linenr="71" str=";" scope="0x21d33b0"/>
+    <token id="0x21acd40" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21acdf0"/>
+    <token id="0x21acdf0" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="::" scope="0x21d33b0" astOperand1="0x21acd40" astOperand2="0x21acea0"/>
+    <token id="0x21acea0" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21acdf0"/>
+    <token id="0x21acf50" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="&lt;" scope="0x21d33b0" link="0x21ad370"/>
+    <token id="0x21ad000" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ad0b0" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="," scope="0x21d33b0"/>
+    <token id="0x21ad160" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ad168"/>
+    <token id="0x21ad210" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="," scope="0x21d33b0"/>
+    <token id="0x21ad2c0" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21ad2c8"/>
+    <token id="0x21ad370" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="&gt;" scope="0x21d33b0" link="0x21acf50"/>
+    <token id="0x21ad420" file="../include/haptic_teleoperation/Controller.h" linenr="72" str="Bd" scope="0x21d33b0" type="name" varId="17" variable="0x21d7e40"/>
+    <token id="0x21ad4d0" file="../include/haptic_teleoperation/Controller.h" linenr="72" str=";" scope="0x21d33b0"/>
+    <token id="0x21ad580" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21ad630"/>
+    <token id="0x21ad630" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="::" scope="0x21d33b0" astOperand1="0x21ad580" astOperand2="0x21ad6e0"/>
+    <token id="0x21ad6e0" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21ad630"/>
+    <token id="0x21ad790" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="&lt;" scope="0x21d33b0" link="0x21adbb0"/>
+    <token id="0x21ad840" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ad8f0" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="," scope="0x21d33b0"/>
+    <token id="0x21ad9a0" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ad9a8"/>
+    <token id="0x21ada50" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="," scope="0x21d33b0"/>
+    <token id="0x21adb00" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21adb08"/>
+    <token id="0x21adbb0" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="&gt;" scope="0x21d33b0" link="0x21ad790"/>
+    <token id="0x21adc60" file="../include/haptic_teleoperation/Controller.h" linenr="73" str="Fp" scope="0x21d33b0" type="name" varId="18" variable="0x21d7eb0"/>
+    <token id="0x21add10" file="../include/haptic_teleoperation/Controller.h" linenr="73" str=";" scope="0x21d33b0"/>
+    <token id="0x21addc0" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21ade70"/>
+    <token id="0x21ade70" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="::" scope="0x21d33b0" astOperand1="0x21addc0" astOperand2="0x21adf20"/>
+    <token id="0x21adf20" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21ade70"/>
+    <token id="0x21adfd0" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="&lt;" scope="0x21d33b0" link="0x21ae3f0"/>
+    <token id="0x21ae080" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ae130" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="," scope="0x21d33b0"/>
+    <token id="0x21ae1e0" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ae1e8"/>
+    <token id="0x21ae290" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="," scope="0x21d33b0"/>
+    <token id="0x21ae340" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21ae348"/>
+    <token id="0x21ae3f0" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="&gt;" scope="0x21d33b0" link="0x21adfd0"/>
+    <token id="0x21ae4a0" file="../include/haptic_teleoperation/Controller.h" linenr="74" str="lambda" scope="0x21d33b0" type="name" varId="19" variable="0x21d7f20"/>
+    <token id="0x21ae550" file="../include/haptic_teleoperation/Controller.h" linenr="74" str=";" scope="0x21d33b0"/>
+    <token id="0x21ae600" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21ae6b0"/>
+    <token id="0x21ae6b0" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="::" scope="0x21d33b0" astOperand1="0x21ae600" astOperand2="0x21af780"/>
+    <token id="0x21af780" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21ae6b0"/>
+    <token id="0x21af830" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="&lt;" scope="0x21d33b0" link="0x21afc50"/>
+    <token id="0x21af8e0" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21af990" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="," scope="0x21d33b0"/>
+    <token id="0x21afa40" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21afa48"/>
+    <token id="0x21afaf0" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="," scope="0x21d33b0"/>
+    <token id="0x21afba0" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21afba8"/>
+    <token id="0x21afc50" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="&gt;" scope="0x21d33b0" link="0x21af830"/>
+    <token id="0x21afd00" file="../include/haptic_teleoperation/Controller.h" linenr="77" str="previous_pose_master" scope="0x21d33b0" type="name" varId="20" variable="0x21d7f90"/>
+    <token id="0x21afde0" file="../include/haptic_teleoperation/Controller.h" linenr="77" str=";" scope="0x21d33b0"/>
+    <token id="0x21afe90" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21aff40"/>
+    <token id="0x21aff40" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="::" scope="0x21d33b0" astOperand1="0x21afe90" astOperand2="0x21afff0"/>
+    <token id="0x21afff0" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21aff40"/>
+    <token id="0x21b00a0" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="&lt;" scope="0x21d33b0" link="0x21b04c0"/>
+    <token id="0x21b0150" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b0200" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="," scope="0x21d33b0"/>
+    <token id="0x21b02b0" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b02b8"/>
+    <token id="0x21b0360" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="," scope="0x21d33b0"/>
+    <token id="0x21b0410" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b0418"/>
+    <token id="0x21b04c0" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="&gt;" scope="0x21d33b0" link="0x21b00a0"/>
+    <token id="0x21b0570" file="../include/haptic_teleoperation/Controller.h" linenr="78" str="current_pose_master" scope="0x21d33b0" type="name" varId="21" variable="0x21d8000"/>
+    <token id="0x21b0650" file="../include/haptic_teleoperation/Controller.h" linenr="78" str=";" scope="0x21d33b0"/>
+    <token id="0x21b0700" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b07b0"/>
+    <token id="0x21b07b0" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="::" scope="0x21d33b0" astOperand1="0x21b0700" astOperand2="0x21b0860"/>
+    <token id="0x21b0860" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b07b0"/>
+    <token id="0x21b0910" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="&lt;" scope="0x21d33b0" link="0x21b0d30"/>
+    <token id="0x21b09c0" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b0a70" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="," scope="0x21d33b0"/>
+    <token id="0x21b0b20" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b0b28"/>
+    <token id="0x21b0bd0" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="," scope="0x21d33b0"/>
+    <token id="0x21b0c80" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b0c88"/>
+    <token id="0x21b0d30" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="&gt;" scope="0x21d33b0" link="0x21b0910"/>
+    <token id="0x21b0e10" file="../include/haptic_teleoperation/Controller.h" linenr="80" str="previous_pose_master_scaled" scope="0x21d33b0" type="name" varId="22" variable="0x21d8070"/>
+    <token id="0x21b0ef0" file="../include/haptic_teleoperation/Controller.h" linenr="80" str=";" scope="0x21d33b0"/>
+    <token id="0x21b0fa0" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b1050"/>
+    <token id="0x21b1050" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="::" scope="0x21d33b0" astOperand1="0x21b0fa0" astOperand2="0x21b1100"/>
+    <token id="0x21b1100" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b1050"/>
+    <token id="0x21b11b0" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="&lt;" scope="0x21d33b0" link="0x21b15d0"/>
+    <token id="0x21b1260" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b1310" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="," scope="0x21d33b0"/>
+    <token id="0x21b13c0" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b13c8"/>
+    <token id="0x21b1470" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="," scope="0x21d33b0"/>
+    <token id="0x21b1520" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b1528"/>
+    <token id="0x21b15d0" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="&gt;" scope="0x21d33b0" link="0x21b11b0"/>
+    <token id="0x21b1680" file="../include/haptic_teleoperation/Controller.h" linenr="81" str="current_pose_master_scaled" scope="0x21d33b0" type="name" varId="23" variable="0x21d80e0"/>
+    <token id="0x21b1760" file="../include/haptic_teleoperation/Controller.h" linenr="81" str=";" scope="0x21d33b0"/>
+    <token id="0x21b1810" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b18c0"/>
+    <token id="0x21b18c0" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="::" scope="0x21d33b0" astOperand1="0x21b1810" astOperand2="0x21b1970"/>
+    <token id="0x21b1970" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b18c0"/>
+    <token id="0x21b1a20" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="&lt;" scope="0x21d33b0" link="0x21b1e40"/>
+    <token id="0x21b1ad0" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b1b80" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="," scope="0x21d33b0"/>
+    <token id="0x21b1c30" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b1c38"/>
+    <token id="0x21b1ce0" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="," scope="0x21d33b0"/>
+    <token id="0x21b1d90" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b1d98"/>
+    <token id="0x21b1e40" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="&gt;" scope="0x21d33b0" link="0x21b1a20"/>
+    <token id="0x21b1ef0" file="../include/haptic_teleoperation/Controller.h" linenr="83" str="previous_pose_slave" scope="0x21d33b0" type="name" varId="24" variable="0x21d8150"/>
+    <token id="0x21b1fa0" file="../include/haptic_teleoperation/Controller.h" linenr="83" str=";" scope="0x21d33b0"/>
+    <token id="0x21b2050" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b2100"/>
+    <token id="0x21b2100" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="::" scope="0x21d33b0" astOperand1="0x21b2050" astOperand2="0x21b21b0"/>
+    <token id="0x21b21b0" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b2100"/>
+    <token id="0x21b2260" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="&lt;" scope="0x21d33b0" link="0x21b2680"/>
+    <token id="0x21b2310" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b23c0" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="," scope="0x21d33b0"/>
+    <token id="0x21b2470" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b2478"/>
+    <token id="0x21b2520" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="," scope="0x21d33b0"/>
+    <token id="0x21b25d0" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b25d8"/>
+    <token id="0x21b2680" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="&gt;" scope="0x21d33b0" link="0x21b2260"/>
+    <token id="0x21b2730" file="../include/haptic_teleoperation/Controller.h" linenr="84" str="current_pose_slave" scope="0x21d33b0" type="name" varId="25" variable="0x21d81c0"/>
+    <token id="0x21b2810" file="../include/haptic_teleoperation/Controller.h" linenr="84" str=";" scope="0x21d33b0"/>
+    <token id="0x21b28c0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b2970"/>
+    <token id="0x21b2970" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="::" scope="0x21d33b0" astOperand1="0x21b28c0" astOperand2="0x21b2a20"/>
+    <token id="0x21b2a20" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b2970"/>
+    <token id="0x21b2ad0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="&lt;" scope="0x21d33b0" link="0x21b2ef0"/>
+    <token id="0x21b2b80" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b2c30" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="," scope="0x21d33b0"/>
+    <token id="0x21b2ce0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b2ce8"/>
+    <token id="0x21b2d90" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="," scope="0x21d33b0"/>
+    <token id="0x21b2e40" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b2e48"/>
+    <token id="0x21b2ef0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="&gt;" scope="0x21d33b0" link="0x21b2ad0"/>
+    <token id="0x21b2fd0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str="previous_pose_slave_scaled" scope="0x21d33b0" type="name" varId="26" variable="0x21d8230"/>
+    <token id="0x21b30b0" file="../include/haptic_teleoperation/Controller.h" linenr="86" str=";" scope="0x21d33b0"/>
+    <token id="0x21b3160" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b3210"/>
+    <token id="0x21b3210" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="::" scope="0x21d33b0" astOperand1="0x21b3160" astOperand2="0x21b32c0"/>
+    <token id="0x21b32c0" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b3210"/>
+    <token id="0x21b3370" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="&lt;" scope="0x21d33b0" link="0x21b3790"/>
+    <token id="0x21b3420" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b34d0" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="," scope="0x21d33b0"/>
+    <token id="0x21b3580" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b3588"/>
+    <token id="0x21b3630" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="," scope="0x21d33b0"/>
+    <token id="0x21b36e0" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b36e8"/>
+    <token id="0x21b3790" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="&gt;" scope="0x21d33b0" link="0x21b3370"/>
+    <token id="0x21b3840" file="../include/haptic_teleoperation/Controller.h" linenr="87" str="current_pose_slave_scaled" scope="0x21d33b0" type="name" varId="27" variable="0x21d82a0"/>
+    <token id="0x21b3920" file="../include/haptic_teleoperation/Controller.h" linenr="87" str=";" scope="0x21d33b0"/>
+    <token id="0x21b39d0" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b3a80"/>
+    <token id="0x21b3a80" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="::" scope="0x21d33b0" astOperand1="0x21b39d0" astOperand2="0x21b3b30"/>
+    <token id="0x21b3b30" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b3a80"/>
+    <token id="0x21b3be0" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="&lt;" scope="0x21d33b0" link="0x21b4000"/>
+    <token id="0x21b3c90" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b3d40" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="," scope="0x21d33b0"/>
+    <token id="0x21b3df0" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b3df8"/>
+    <token id="0x21b3ea0" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="," scope="0x21d33b0"/>
+    <token id="0x21b3f50" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b3f58"/>
+    <token id="0x21b4000" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="&gt;" scope="0x21d33b0" link="0x21b3be0"/>
+    <token id="0x21b40b0" file="../include/haptic_teleoperation/Controller.h" linenr="89" str="current_velocity_master" scope="0x21d33b0" type="name" varId="28" variable="0x21d8310"/>
+    <token id="0x21b4160" file="../include/haptic_teleoperation/Controller.h" linenr="89" str=";" scope="0x21d33b0"/>
+    <token id="0x21b4210" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b42c0"/>
+    <token id="0x21b42c0" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="::" scope="0x21d33b0" astOperand1="0x21b4210" astOperand2="0x21b4370"/>
+    <token id="0x21b4370" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b42c0"/>
+    <token id="0x21b4420" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="&lt;" scope="0x21d33b0" link="0x21b4840"/>
+    <token id="0x21b44d0" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b4580" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="," scope="0x21d33b0"/>
+    <token id="0x21b4630" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b4638"/>
+    <token id="0x21b46e0" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="," scope="0x21d33b0"/>
+    <token id="0x21b4790" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b4798"/>
+    <token id="0x21b4840" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="&gt;" scope="0x21d33b0" link="0x21b4420"/>
+    <token id="0x21b48f0" file="../include/haptic_teleoperation/Controller.h" linenr="90" str="current_velocity_slave" scope="0x21d33b0" type="name" varId="29" variable="0x21d8380"/>
+    <token id="0x21b49d0" file="../include/haptic_teleoperation/Controller.h" linenr="90" str=";" scope="0x21d33b0"/>
+    <token id="0x21b4a80" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b4b30"/>
+    <token id="0x21b4b30" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="::" scope="0x21d33b0" astOperand1="0x21b4a80" astOperand2="0x21b4be0"/>
+    <token id="0x21b4be0" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b4b30"/>
+    <token id="0x21b4c90" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="&lt;" scope="0x21d33b0" link="0x21b50b0"/>
+    <token id="0x21b4d40" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b4df0" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="," scope="0x21d33b0"/>
+    <token id="0x21b4ea0" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b4ea8"/>
+    <token id="0x21b4f50" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="," scope="0x21d33b0"/>
+    <token id="0x21b5000" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b5008"/>
+    <token id="0x21b50b0" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="&gt;" scope="0x21d33b0" link="0x21b4c90"/>
+    <token id="0x21b5190" file="../include/haptic_teleoperation/Controller.h" linenr="92" str="current_velocity_master_scaled" scope="0x21d33b0" type="name" varId="30" variable="0x21d83f0"/>
+    <token id="0x21b5270" file="../include/haptic_teleoperation/Controller.h" linenr="92" str=";" scope="0x21d33b0"/>
+    <token id="0x21b5320" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b53d0"/>
+    <token id="0x21b53d0" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="::" scope="0x21d33b0" astOperand1="0x21b5320" astOperand2="0x21b5480"/>
+    <token id="0x21b5480" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b53d0"/>
+    <token id="0x21b5530" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="&lt;" scope="0x21d33b0" link="0x21b5950"/>
+    <token id="0x21b55e0" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b5690" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="," scope="0x21d33b0"/>
+    <token id="0x21b5740" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b5748"/>
+    <token id="0x21b57f0" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="," scope="0x21d33b0"/>
+    <token id="0x21b58a0" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b58a8"/>
+    <token id="0x21b5950" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="&gt;" scope="0x21d33b0" link="0x21b5530"/>
+    <token id="0x21b5a00" file="../include/haptic_teleoperation/Controller.h" linenr="93" str="current_velocity_slave_scaled" scope="0x21d33b0" type="name" varId="31" variable="0x21d8460"/>
+    <token id="0x21b5ae0" file="../include/haptic_teleoperation/Controller.h" linenr="93" str=";" scope="0x21d33b0"/>
+    <token id="0x21b5b90" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b5c40"/>
+    <token id="0x21b5c40" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="::" scope="0x21d33b0" astOperand1="0x21b5b90" astOperand2="0x21b5cf0"/>
+    <token id="0x21b5cf0" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b5c40"/>
+    <token id="0x21b5da0" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="&lt;" scope="0x21d33b0" link="0x21b61c0"/>
+    <token id="0x21b5e50" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b5f00" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="," scope="0x21d33b0"/>
+    <token id="0x21b5fb0" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b5fb8"/>
+    <token id="0x21b6060" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="," scope="0x21d33b0"/>
+    <token id="0x21b6110" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b6118"/>
+    <token id="0x21b61c0" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="&gt;" scope="0x21d33b0" link="0x21b5da0"/>
+    <token id="0x21b6270" file="../include/haptic_teleoperation/Controller.h" linenr="95" str="master_min" scope="0x21d33b0" type="name" varId="32" variable="0x21d84d0"/>
+    <token id="0x21b6320" file="../include/haptic_teleoperation/Controller.h" linenr="95" str=";" scope="0x21d33b0"/>
+    <token id="0x21b63d0" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b6480"/>
+    <token id="0x21b6480" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="::" scope="0x21d33b0" astOperand1="0x21b63d0" astOperand2="0x21b6530"/>
+    <token id="0x21b6530" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b6480"/>
+    <token id="0x21b65e0" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="&lt;" scope="0x21d33b0" link="0x21b6a00"/>
+    <token id="0x21b6690" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b6740" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="," scope="0x21d33b0"/>
+    <token id="0x21b67f0" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b67f8"/>
+    <token id="0x21b68a0" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="," scope="0x21d33b0"/>
+    <token id="0x21b6950" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b6958"/>
+    <token id="0x21b6a00" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="&gt;" scope="0x21d33b0" link="0x21b65e0"/>
+    <token id="0x21b6ab0" file="../include/haptic_teleoperation/Controller.h" linenr="96" str="master_max" scope="0x21d33b0" type="name" varId="33" variable="0x21d8540"/>
+    <token id="0x21b6b60" file="../include/haptic_teleoperation/Controller.h" linenr="96" str=";" scope="0x21d33b0"/>
+    <token id="0x21b6c10" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b6cc0"/>
+    <token id="0x21b6cc0" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="::" scope="0x21d33b0" astOperand1="0x21b6c10" astOperand2="0x21b6d70"/>
+    <token id="0x21b6d70" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b6cc0"/>
+    <token id="0x21b6e20" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="&lt;" scope="0x21d33b0" link="0x21b7240"/>
+    <token id="0x21b6ed0" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b6f80" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="," scope="0x21d33b0"/>
+    <token id="0x21b7030" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b7038"/>
+    <token id="0x21b70e0" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="," scope="0x21d33b0"/>
+    <token id="0x21b7190" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b7198"/>
+    <token id="0x21b7240" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="&gt;" scope="0x21d33b0" link="0x21b6e20"/>
+    <token id="0x21b72f0" file="../include/haptic_teleoperation/Controller.h" linenr="97" str="master_len" scope="0x21d33b0" type="name" varId="34" variable="0x21d85b0"/>
+    <token id="0x21b73a0" file="../include/haptic_teleoperation/Controller.h" linenr="97" str=";" scope="0x21d33b0"/>
+    <token id="0x21b7450" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b7500"/>
+    <token id="0x21b7500" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="::" scope="0x21d33b0" astOperand1="0x21b7450" astOperand2="0x21b75b0"/>
+    <token id="0x21b75b0" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b7500"/>
+    <token id="0x21b7660" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="&lt;" scope="0x21d33b0" link="0x21b7a80"/>
+    <token id="0x21b7710" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b77c0" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="," scope="0x21d33b0"/>
+    <token id="0x21b7870" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b7878"/>
+    <token id="0x21b7920" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="," scope="0x21d33b0"/>
+    <token id="0x21b79d0" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b79d8"/>
+    <token id="0x21b7a80" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="&gt;" scope="0x21d33b0" link="0x21b7660"/>
+    <token id="0x21b7b30" file="../include/haptic_teleoperation/Controller.h" linenr="99" str="slave_min" scope="0x21d33b0" type="name" varId="35" variable="0x21d8620"/>
+    <token id="0x21b7be0" file="../include/haptic_teleoperation/Controller.h" linenr="99" str=";" scope="0x21d33b0"/>
+    <token id="0x21b7c90" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b7d40"/>
+    <token id="0x21b7d40" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="::" scope="0x21d33b0" astOperand1="0x21b7c90" astOperand2="0x21b7df0"/>
+    <token id="0x21b7df0" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b7d40"/>
+    <token id="0x21b7ea0" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="&lt;" scope="0x21d33b0" link="0x21b82c0"/>
+    <token id="0x21b7f50" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b8000" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="," scope="0x21d33b0"/>
+    <token id="0x21b80b0" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b80b8"/>
+    <token id="0x21b8160" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="," scope="0x21d33b0"/>
+    <token id="0x21b8210" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b8218"/>
+    <token id="0x21b82c0" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="&gt;" scope="0x21d33b0" link="0x21b7ea0"/>
+    <token id="0x21b8370" file="../include/haptic_teleoperation/Controller.h" linenr="100" str="slave_max" scope="0x21d33b0" type="name" varId="36" variable="0x21d8690"/>
+    <token id="0x21b8420" file="../include/haptic_teleoperation/Controller.h" linenr="100" str=";" scope="0x21d33b0"/>
+    <token id="0x21b84d0" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b8580"/>
+    <token id="0x21b8580" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="::" scope="0x21d33b0" astOperand1="0x21b84d0" astOperand2="0x21b8630"/>
+    <token id="0x21b8630" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b8580"/>
+    <token id="0x21b86e0" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="&lt;" scope="0x21d33b0" link="0x21b8b00"/>
+    <token id="0x21b8790" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b8840" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="," scope="0x21d33b0"/>
+    <token id="0x21b88f0" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b88f8"/>
+    <token id="0x21b89a0" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="," scope="0x21d33b0"/>
+    <token id="0x21b8a50" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b8a58"/>
+    <token id="0x21b8b00" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="&gt;" scope="0x21d33b0" link="0x21b86e0"/>
+    <token id="0x21b8bb0" file="../include/haptic_teleoperation/Controller.h" linenr="101" str="slave_len" scope="0x21d33b0" type="name" varId="37" variable="0x21d8700"/>
+    <token id="0x21b8c60" file="../include/haptic_teleoperation/Controller.h" linenr="101" str=";" scope="0x21d33b0"/>
+    <token id="0x21b8d10" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b8dc0"/>
+    <token id="0x21b8dc0" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="::" scope="0x21d33b0" astOperand1="0x21b8d10" astOperand2="0x21b8e70"/>
+    <token id="0x21b8e70" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b8dc0"/>
+    <token id="0x21b8f20" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="&lt;" scope="0x21d33b0" link="0x21b9340"/>
+    <token id="0x21b8fd0" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b9080" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="," scope="0x21d33b0"/>
+    <token id="0x21b9130" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b9138"/>
+    <token id="0x21b91e0" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="," scope="0x21d33b0"/>
+    <token id="0x21b9290" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b9298"/>
+    <token id="0x21b9340" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="&gt;" scope="0x21d33b0" link="0x21b8f20"/>
+    <token id="0x21b93f0" file="../include/haptic_teleoperation/Controller.h" linenr="103" str="slave_velocity_min" scope="0x21d33b0" type="name" varId="38" variable="0x21d8770"/>
+    <token id="0x21b94a0" file="../include/haptic_teleoperation/Controller.h" linenr="103" str=";" scope="0x21d33b0"/>
+    <token id="0x21b9550" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21b9600"/>
+    <token id="0x21b9600" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="::" scope="0x21d33b0" astOperand1="0x21b9550" astOperand2="0x21b96b0"/>
+    <token id="0x21b96b0" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21b9600"/>
+    <token id="0x21b9760" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="&lt;" scope="0x21d33b0" link="0x21b9b80"/>
+    <token id="0x21b9810" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21b98c0" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="," scope="0x21d33b0"/>
+    <token id="0x21b9970" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21b9978"/>
+    <token id="0x21b9a20" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="," scope="0x21d33b0"/>
+    <token id="0x21b9ad0" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21b9ad8"/>
+    <token id="0x21b9b80" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="&gt;" scope="0x21d33b0" link="0x21b9760"/>
+    <token id="0x21b9c30" file="../include/haptic_teleoperation/Controller.h" linenr="104" str="slave_velocity_max" scope="0x21d33b0" type="name" varId="39" variable="0x21d87e0"/>
+    <token id="0x21b9d10" file="../include/haptic_teleoperation/Controller.h" linenr="104" str=";" scope="0x21d33b0"/>
+    <token id="0x21b9dc0" file="../include/haptic_teleoperation/Controller.h" linenr="106" str="ros" scope="0x21d33b0" type="name" astParent="0x21b9e70"/>
+    <token id="0x21b9e70" file="../include/haptic_teleoperation/Controller.h" linenr="106" str="::" scope="0x21d33b0" astOperand1="0x21b9dc0" astOperand2="0x21b9fd0"/>
+    <token id="0x21b9f20" file="../include/haptic_teleoperation/Controller.h" linenr="106" str="Time" scope="0x21d33b0" type="name"/>
+    <token id="0x21b9fd0" file="../include/haptic_teleoperation/Controller.h" linenr="106" str="previous_time" scope="0x21d33b0" type="name" varId="40" variable="0x21d8850" astParent="0x21b9e70"/>
+    <token id="0x21ba080" file="../include/haptic_teleoperation/Controller.h" linenr="106" str=";" scope="0x21d33b0"/>
+    <token id="0x21ba130" file="../include/haptic_teleoperation/Controller.h" linenr="108" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ba210" file="../include/haptic_teleoperation/Controller.h" linenr="108" str="yaw_master_joint_previous" scope="0x21d33b0" type="name" varId="41" variable="0x21d88c0"/>
+    <token id="0x21ba2f0" file="../include/haptic_teleoperation/Controller.h" linenr="108" str=";" scope="0x21d33b0"/>
+    <token id="0x21ba3a0" file="../include/haptic_teleoperation/Controller.h" linenr="109" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21ba450" file="../include/haptic_teleoperation/Controller.h" linenr="109" str="yaw_slave_previous" scope="0x21d33b0" type="name" varId="42" variable="0x21d8930"/>
+    <token id="0x21ba500" file="../include/haptic_teleoperation/Controller.h" linenr="109" str=";" scope="0x21d33b0"/>
+    <token id="0x21ba5b0" file="../include/haptic_teleoperation/Controller.h" linenr="112" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21ba660" file="../include/haptic_teleoperation/Controller.h" linenr="112" str="master_new_readings" scope="0x21d33b0" type="name" varId="43" variable="0x21d89a0"/>
+    <token id="0x21ba740" file="../include/haptic_teleoperation/Controller.h" linenr="112" str=";" scope="0x21d33b0"/>
+    <token id="0x21ba7f0" file="../include/haptic_teleoperation/Controller.h" linenr="113" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21ba8a0" file="../include/haptic_teleoperation/Controller.h" linenr="113" str="slave_new_readings" scope="0x21d33b0" type="name" varId="44" variable="0x21d8a10"/>
+    <token id="0x21ba980" file="../include/haptic_teleoperation/Controller.h" linenr="113" str=";" scope="0x21d33b0"/>
+    <token id="0x21baa30" file="../include/haptic_teleoperation/Controller.h" linenr="114" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21baae0" file="../include/haptic_teleoperation/Controller.h" linenr="114" str="control_event" scope="0x21d33b0" type="name" varId="45" variable="0x21d8a80"/>
+    <token id="0x21bab90" file="../include/haptic_teleoperation/Controller.h" linenr="114" str=";" scope="0x21d33b0"/>
+    <token id="0x21bac40" file="../include/haptic_teleoperation/Controller.h" linenr="115" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21bacf0" file="../include/haptic_teleoperation/Controller.h" linenr="115" str="linear_button_pressed" scope="0x21d33b0" type="name" varId="46" variable="0x21d8af0"/>
+    <token id="0x21badd0" file="../include/haptic_teleoperation/Controller.h" linenr="115" str=";" scope="0x21d33b0"/>
+    <token id="0x21bae80" file="../include/haptic_teleoperation/Controller.h" linenr="116" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21baf30" file="../include/haptic_teleoperation/Controller.h" linenr="116" str="angular_button_pressed" scope="0x21d33b0" type="name" varId="47" variable="0x21d8b60"/>
+    <token id="0x21bb010" file="../include/haptic_teleoperation/Controller.h" linenr="116" str=";" scope="0x21d33b0"/>
+    <token id="0x21bb0c0" file="../include/haptic_teleoperation/Controller.h" linenr="117" str="bool" scope="0x21d33b0" type="name"/>
+    <token id="0x21bb170" file="../include/haptic_teleoperation/Controller.h" linenr="117" str="init_slave_readings" scope="0x21d33b0" type="name" varId="48" variable="0x21d8bd0"/>
+    <token id="0x21bb250" file="../include/haptic_teleoperation/Controller.h" linenr="117" str=";" scope="0x21d33b0"/>
+    <token id="0x21bb300" file="../include/haptic_teleoperation/Controller.h" linenr="119" str="tf" scope="0x21d33b0" type="name" astParent="0x21bb3b0"/>
+    <token id="0x21bb3b0" file="../include/haptic_teleoperation/Controller.h" linenr="119" str="::" scope="0x21d33b0" astOperand1="0x21bb300" astOperand2="0x21bb540"/>
+    <token id="0x21bb460" file="../include/haptic_teleoperation/Controller.h" linenr="119" str="TransformListener" scope="0x21d33b0" type="name"/>
+    <token id="0x21bb540" file="../include/haptic_teleoperation/Controller.h" linenr="119" str="listener" scope="0x21d33b0" type="name" varId="49" variable="0x21d8c40" astParent="0x21bb3b0"/>
+    <token id="0x21bb5f0" file="../include/haptic_teleoperation/Controller.h" linenr="119" str=";" scope="0x21d33b0"/>
+    <token id="0x21bb6a0" file="../include/haptic_teleoperation/Controller.h" linenr="120" str="tf" scope="0x21d33b0" type="name" astParent="0x21bb750"/>
+    <token id="0x21bb750" file="../include/haptic_teleoperation/Controller.h" linenr="120" str="::" scope="0x21d33b0" astOperand1="0x21bb6a0" astOperand2="0x21bb8e0"/>
+    <token id="0x21bb800" file="../include/haptic_teleoperation/Controller.h" linenr="120" str="StampedTransform" scope="0x21d33b0" type="name"/>
+    <token id="0x21bb8e0" file="../include/haptic_teleoperation/Controller.h" linenr="120" str="transform" scope="0x21d33b0" type="name" varId="50" variable="0x21d8cb0" astParent="0x21bb750"/>
+    <token id="0x21bb990" file="../include/haptic_teleoperation/Controller.h" linenr="120" str=";" scope="0x21d33b0"/>
+    <token id="0x21bba40" file="../include/haptic_teleoperation/Controller.h" linenr="123" str="Controller" scope="0x21d33b0" type="name" function="0x21d3550" astParent="0x21bbaf0"/>
+    <token id="0x21bbaf0" file="../include/haptic_teleoperation/Controller.h" linenr="123" str="(" scope="0x21d33b0" link="0x21bbba0" astOperand1="0x21bba40"/>
+    <token id="0x21bbba0" file="../include/haptic_teleoperation/Controller.h" linenr="123" str=")" scope="0x21d33b0" link="0x21bbaf0"/>
+    <token id="0x21bbc50" file="../include/haptic_teleoperation/Controller.h" linenr="124" str="{" scope="0x21d35f0" link="0x21bbd00"/>
+    <token id="0x21bbd00" file="../include/haptic_teleoperation/Controller.h" linenr="124" str="}" scope="0x21d35f0" link="0x21bbc50"/>
+    <token id="0x21bbdb0" file="../include/haptic_teleoperation/Controller.h" linenr="124" str=";" scope="0x21d33b0"/>
+    <token id="0x21bbe60" file="../include/haptic_teleoperation/Controller.h" linenr="126" str="~" scope="0x21d33b0" type="op" astOperand1="0x21bbfc0"/>
+    <token id="0x21bbf10" file="../include/haptic_teleoperation/Controller.h" linenr="126" str="Controller" scope="0x21d33b0" type="name" function="0x21d3720" astParent="0x21bbfc0"/>
+    <token id="0x21bbfc0" file="../include/haptic_teleoperation/Controller.h" linenr="126" str="(" scope="0x21d33b0" link="0x21bc070" astParent="0x21bbe60" astOperand1="0x21bbf10"/>
+    <token id="0x21bc070" file="../include/haptic_teleoperation/Controller.h" linenr="126" str=")" scope="0x21d33b0" link="0x21bbfc0"/>
+    <token id="0x21bc120" file="../include/haptic_teleoperation/Controller.h" linenr="127" str="{" scope="0x21d67c0" link="0x21bc1d0"/>
+    <token id="0x21bc1d0" file="../include/haptic_teleoperation/Controller.h" linenr="127" str="}" scope="0x21d67c0" link="0x21bc120"/>
+    <token id="0x21bc280" file="../include/haptic_teleoperation/Controller.h" linenr="127" str=";" scope="0x21d33b0"/>
+    <token id="0x21bc330" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="Controller" scope="0x21d33b0" type="name" function="0x21d68f0" astParent="0x21bc3e0"/>
+    <token id="0x21bc3e0" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="(" scope="0x21d33b0" link="0x21c2530" astOperand1="0x21bc330" astOperand2="0x21bca10"/>
+    <token id="0x21bc490" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="ros" scope="0x21d33b0" type="name" astParent="0x21bc540"/>
+    <token id="0x21bc540" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="::" scope="0x21d33b0" astParent="0x21bc6a0" astOperand1="0x21bc490" astOperand2="0x21bc5f0"/>
+    <token id="0x21bc5f0" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="NodeHandle" scope="0x21d33b0" type="name" astParent="0x21bc540"/>
+    <token id="0x21bc6a0" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="&amp;" scope="0x21d33b0" type="op" astParent="0x21bc800" astOperand1="0x21bc540" astOperand2="0x21bc750"/>
+    <token id="0x21bc750" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="n_" scope="0x21d33b0" type="name" varId="51" astParent="0x21bc6a0"/>
+    <token id="0x21bc800" file="../include/haptic_teleoperation/Controller.h" linenr="129" str="," scope="0x21d33b0" astParent="0x21bca10" astOperand1="0x21bc6a0" astOperand2="0x21bc960"/>
+    <token id="0x21bc8b0" file="../include/haptic_teleoperation/Controller.h" linenr="130" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bc960" file="../include/haptic_teleoperation/Controller.h" linenr="130" str="freq_" scope="0x21d33b0" type="name" varId="52" astParent="0x21bc800"/>
+    <token id="0x21bca10" file="../include/haptic_teleoperation/Controller.h" linenr="130" str="," scope="0x21d33b0" astParent="0x21bc3e0" astOperand1="0x21bc800" astOperand2="0x21bcb70"/>
+    <token id="0x21bcac0" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="Eigen" scope="0x21d33b0" type="name" astParent="0x21bcb70"/>
+    <token id="0x21bcb70" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="::" scope="0x21d33b0" astParent="0x21bca10" astOperand1="0x21bcac0" astOperand2="0x21bcc20"/>
+    <token id="0x21bcc20" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="Matrix" scope="0x21d33b0" type="name" astParent="0x21bcb70"/>
+    <token id="0x21bccd0" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="&lt;" scope="0x21d33b0" link="0x21bd0f0"/>
+    <token id="0x21bcd80" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bce30" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="," scope="0x21d33b0"/>
+    <token id="0x21bcee0" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21bcee8"/>
+    <token id="0x21bcf90" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="," scope="0x21d33b0"/>
+    <token id="0x21bd040" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21bd048"/>
+    <token id="0x21bd0f0" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="&gt;" scope="0x21d33b0" link="0x21bccd0"/>
+    <token id="0x21bd1a0" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="Kp_" scope="0x21d33b0" type="name" varId="53"/>
+    <token id="0x21bd250" file="../include/haptic_teleoperation/Controller.h" linenr="131" str="," scope="0x21d33b0"/>
+    <token id="0x21bd300" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21bd3b0" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="::" scope="0x21d33b0"/>
+    <token id="0x21bd460" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21bd510" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="&lt;" scope="0x21d33b0" link="0x21bd930"/>
+    <token id="0x21bd5c0" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bd670" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="," scope="0x21d33b0"/>
+    <token id="0x21bd720" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21bd728"/>
+    <token id="0x21bd7d0" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="," scope="0x21d33b0"/>
+    <token id="0x21bd880" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21bd888"/>
+    <token id="0x21bd930" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="&gt;" scope="0x21d33b0" link="0x21bd510"/>
+    <token id="0x21bd9e0" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="Kd_" scope="0x21d33b0" type="name" varId="54"/>
+    <token id="0x21bda90" file="../include/haptic_teleoperation/Controller.h" linenr="132" str="," scope="0x21d33b0"/>
+    <token id="0x21bdb40" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21bdbf0" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="::" scope="0x21d33b0"/>
+    <token id="0x21bdca0" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21bdd50" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="&lt;" scope="0x21d33b0" link="0x21be170"/>
+    <token id="0x21bde00" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bdeb0" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="," scope="0x21d33b0"/>
+    <token id="0x21bdf60" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21bdf68"/>
+    <token id="0x21be010" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="," scope="0x21d33b0"/>
+    <token id="0x21be0c0" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21be0c8"/>
+    <token id="0x21be170" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="&gt;" scope="0x21d33b0" link="0x21bdd50"/>
+    <token id="0x21be220" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="Bd_" scope="0x21d33b0" type="name" varId="55"/>
+    <token id="0x21be2d0" file="../include/haptic_teleoperation/Controller.h" linenr="133" str="," scope="0x21d33b0"/>
+    <token id="0x21be380" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21be430" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="::" scope="0x21d33b0"/>
+    <token id="0x21be4e0" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21be590" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="&lt;" scope="0x21d33b0" link="0x21be9b0"/>
+    <token id="0x21be640" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21be6f0" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="," scope="0x21d33b0"/>
+    <token id="0x21be7a0" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21be7a8"/>
+    <token id="0x21be850" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="," scope="0x21d33b0"/>
+    <token id="0x21be900" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21be908"/>
+    <token id="0x21be9b0" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="&gt;" scope="0x21d33b0" link="0x21be590"/>
+    <token id="0x21bea60" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="Fp_" scope="0x21d33b0" type="name" varId="56"/>
+    <token id="0x21beb10" file="../include/haptic_teleoperation/Controller.h" linenr="134" str="," scope="0x21d33b0"/>
+    <token id="0x21bebc0" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21bec70" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="::" scope="0x21d33b0"/>
+    <token id="0x21bed20" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21bedd0" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="&lt;" scope="0x21d33b0" link="0x21bf1f0"/>
+    <token id="0x21bee80" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bef30" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="," scope="0x21d33b0"/>
+    <token id="0x21befe0" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21befe8"/>
+    <token id="0x21bf090" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="," scope="0x21d33b0"/>
+    <token id="0x21bf140" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21bf148"/>
+    <token id="0x21bf1f0" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="&gt;" scope="0x21d33b0" link="0x21bedd0"/>
+    <token id="0x21bf2a0" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="lambda_" scope="0x21d33b0" type="name" varId="57"/>
+    <token id="0x21bf350" file="../include/haptic_teleoperation/Controller.h" linenr="135" str="," scope="0x21d33b0"/>
+    <token id="0x21bf400" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21bf4b0" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="::" scope="0x21d33b0"/>
+    <token id="0x21bf560" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21bf610" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="&lt;" scope="0x21d33b0" link="0x21bfa30"/>
+    <token id="0x21bf6c0" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bf770" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="," scope="0x21d33b0"/>
+    <token id="0x21bf820" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21bf828"/>
+    <token id="0x21bf8d0" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="," scope="0x21d33b0"/>
+    <token id="0x21bf980" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21bf988"/>
+    <token id="0x21bfa30" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="&gt;" scope="0x21d33b0" link="0x21bf610"/>
+    <token id="0x21bfae0" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="master_min_" scope="0x21d33b0" type="name" varId="58"/>
+    <token id="0x21bfb90" file="../include/haptic_teleoperation/Controller.h" linenr="136" str="," scope="0x21d33b0"/>
+    <token id="0x21bfc40" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21bfcf0" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="::" scope="0x21d33b0"/>
+    <token id="0x21bfda0" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21bfe50" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="&lt;" scope="0x21d33b0" link="0x21c0270"/>
+    <token id="0x21bff00" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21bffb0" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="," scope="0x21d33b0"/>
+    <token id="0x21c0060" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21c0068"/>
+    <token id="0x21c0110" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="," scope="0x21d33b0"/>
+    <token id="0x21c01c0" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21c01c8"/>
+    <token id="0x21c0270" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="&gt;" scope="0x21d33b0" link="0x21bfe50"/>
+    <token id="0x21c0320" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="master_max_" scope="0x21d33b0" type="name" varId="59"/>
+    <token id="0x21c03d0" file="../include/haptic_teleoperation/Controller.h" linenr="137" str="," scope="0x21d33b0"/>
+    <token id="0x21c0480" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21c0530" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="::" scope="0x21d33b0"/>
+    <token id="0x21c05e0" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21c0690" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="&lt;" scope="0x21d33b0" link="0x21c0ab0"/>
+    <token id="0x21c0740" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21c07f0" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="," scope="0x21d33b0"/>
+    <token id="0x21c08a0" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21c08a8"/>
+    <token id="0x21c0950" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="," scope="0x21d33b0"/>
+    <token id="0x21c0a00" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21c0a08"/>
+    <token id="0x21c0ab0" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="&gt;" scope="0x21d33b0" link="0x21c0690"/>
+    <token id="0x21c0b60" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="slave_min_" scope="0x21d33b0" type="name" varId="60"/>
+    <token id="0x21c0c10" file="../include/haptic_teleoperation/Controller.h" linenr="138" str="," scope="0x21d33b0"/>
+    <token id="0x21c0cc0" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21c0d70" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="::" scope="0x21d33b0"/>
+    <token id="0x21c0e20" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21c0ed0" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="&lt;" scope="0x21d33b0" link="0x21c12f0"/>
+    <token id="0x21c0f80" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21c1030" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="," scope="0x21d33b0"/>
+    <token id="0x21c10e0" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21c10e8"/>
+    <token id="0x21c1190" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="," scope="0x21d33b0"/>
+    <token id="0x21c1240" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21c1248"/>
+    <token id="0x21c12f0" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="&gt;" scope="0x21d33b0" link="0x21c0ed0"/>
+    <token id="0x21c13a0" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="slave_max_" scope="0x21d33b0" type="name" varId="61"/>
+    <token id="0x21c1450" file="../include/haptic_teleoperation/Controller.h" linenr="139" str="," scope="0x21d33b0"/>
+    <token id="0x21c1500" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21c15b0" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="::" scope="0x21d33b0"/>
+    <token id="0x21c1660" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21c1710" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="&lt;" scope="0x21d33b0" link="0x21c1b30"/>
+    <token id="0x21c17c0" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21c1870" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="," scope="0x21d33b0"/>
+    <token id="0x21c1920" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21c1928"/>
+    <token id="0x21c19d0" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="," scope="0x21d33b0"/>
+    <token id="0x21c1a80" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21c1a88"/>
+    <token id="0x21c1b30" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="&gt;" scope="0x21d33b0" link="0x21c1710"/>
+    <token id="0x21c1be0" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="slave_velocity_min_" scope="0x21d33b0" type="name" varId="62"/>
+    <token id="0x21c1cc0" file="../include/haptic_teleoperation/Controller.h" linenr="140" str="," scope="0x21d33b0"/>
+    <token id="0x21c1d70" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="Eigen" scope="0x21d33b0" type="name"/>
+    <token id="0x21c1e20" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="::" scope="0x21d33b0"/>
+    <token id="0x21c1ed0" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="Matrix" scope="0x21d33b0" type="name"/>
+    <token id="0x21c1f80" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="&lt;" scope="0x21d33b0" link="0x21c23a0"/>
+    <token id="0x21c2030" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="double" scope="0x21d33b0" type="name"/>
+    <token id="0x21c20e0" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="," scope="0x21d33b0"/>
+    <token id="0x21c2190" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="6" scope="0x21d33b0" type="number" isInt="True" values="0x21c2198"/>
+    <token id="0x21c2240" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="," scope="0x21d33b0"/>
+    <token id="0x21c22f0" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="1" scope="0x21d33b0" type="number" isInt="True" values="0x21c22f8"/>
+    <token id="0x21c23a0" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="&gt;" scope="0x21d33b0" link="0x21c1f80"/>
+    <token id="0x21c2450" file="../include/haptic_teleoperation/Controller.h" linenr="141" str="slave_velocity_max_" scope="0x21d33b0" type="name" varId="63"/>
+    <token id="0x21c2530" file="../include/haptic_teleoperation/Controller.h" linenr="141" str=")" scope="0x21d33b0" link="0x21bc3e0"/>
+    <token id="0x21c25e0" file="../include/haptic_teleoperation/Controller.h" linenr="141" str=";" scope="0x21d33b0"/>
+    <token id="0x21c2690" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="void" scope="0x21d33b0" type="name"/>
+    <token id="0x21c2740" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="buttonCallback" scope="0x21d33b0" type="name" function="0x21d6990" astParent="0x21c27f0"/>
+    <token id="0x21c27f0" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="(" scope="0x21d33b0" link="0x21c2e50" astOperand1="0x21c2740" astOperand2="0x21c2cf0"/>
+    <token id="0x21c28a0" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="const" scope="0x21d33b0" type="name"/>
+    <token id="0x21c2950" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="phantom_omni" scope="0x21d33b0" type="name" astParent="0x21c2a00"/>
+    <token id="0x21c2a00" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="::" scope="0x21d33b0" astParent="0x21c2b90" astOperand1="0x21c2950" astOperand2="0x21c2ab0"/>
+    <token id="0x21c2ab0" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="PhantomButtonEvent" scope="0x21d33b0" type="name" astParent="0x21c2a00"/>
+    <token id="0x21c2b90" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="::" scope="0x21d33b0" astParent="0x21c2cf0" astOperand1="0x21c2a00" astOperand2="0x21c2c40"/>
+    <token id="0x21c2c40" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="ConstPtr" scope="0x21d33b0" type="name" astParent="0x21c2b90"/>
+    <token id="0x21c2cf0" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="&amp;" scope="0x21d33b0" type="op" astParent="0x21c27f0" astOperand1="0x21c2b90" astOperand2="0x21c2da0"/>
+    <token id="0x21c2da0" file="../include/haptic_teleoperation/Controller.h" linenr="144" str="button" scope="0x21d33b0" type="name" varId="64" astParent="0x21c2cf0"/>
+    <token id="0x21c2e50" file="../include/haptic_teleoperation/Controller.h" linenr="144" str=")" scope="0x21d33b0" link="0x21c27f0"/>
+    <token id="0x21c2f00" file="../include/haptic_teleoperation/Controller.h" linenr="144" str=";" scope="0x21d33b0"/>
+    <token id="0x21c2fb0" file="../include/haptic_teleoperation/Controller.h" linenr="147" str="}" scope="0x21d33b0" link="0x21a8f60"/>
+    <token id="0x21c3060" file="../include/haptic_teleoperation/Controller.h" linenr="147" str=";" scope="0x21d2b30"/>
+    <token id="0x21c3110" file="Controller.cpp" linenr="26" str="Controller" scope="0x21d2b30" type="name" type-scope="0x21d33b0" astParent="0x21c31c0"/>
+    <token id="0x21c31c0" file="Controller.cpp" linenr="26" str="::" scope="0x21d2b30" astParent="0x21c3320" astOperand1="0x21c3110" astOperand2="0x21c3270"/>
+    <token id="0x21c3270" file="Controller.cpp" linenr="26" str="Controller" scope="0x21d2b30" type="name" function="0x21d68f0" astParent="0x21c31c0"/>
+    <token id="0x21c3320" file="Controller.cpp" linenr="26" str="(" scope="0x21d2b30" link="0x21c9470" astParent="0x21c9520" astOperand1="0x21c31c0" astOperand2="0x21c3950"/>
+    <token id="0x21c33d0" file="Controller.cpp" linenr="26" str="ros" scope="0x21d2b30" type="name" astParent="0x21c3480"/>
+    <token id="0x21c3480" file="Controller.cpp" linenr="26" str="::" scope="0x21d2b30" astParent="0x21c35e0" astOperand1="0x21c33d0" astOperand2="0x21c3530"/>
+    <token id="0x21c3530" file="Controller.cpp" linenr="26" str="NodeHandle" scope="0x21d2b30" type="name" astParent="0x21c3480"/>
+    <token id="0x21c35e0" file="Controller.cpp" linenr="26" str="&amp;" scope="0x21d2b30" type="op" astParent="0x21c3740" astOperand1="0x21c3480" astOperand2="0x21c3690"/>
+    <token id="0x21c3690" file="Controller.cpp" linenr="26" str="n_" scope="0x21d2b30" type="name" varId="65" variable="0x21d8d20" astParent="0x21c35e0"/>
+    <token id="0x21c3740" file="Controller.cpp" linenr="26" str="," scope="0x21d2b30" astParent="0x21c3950" astOperand1="0x21c35e0" astOperand2="0x21c38a0"/>
+    <token id="0x21c37f0" file="Controller.cpp" linenr="27" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c38a0" file="Controller.cpp" linenr="27" str="freq_" scope="0x21d2b30" type="name" varId="66" variable="0x21d8d90" astParent="0x21c3740"/>
+    <token id="0x21c3950" file="Controller.cpp" linenr="27" str="," scope="0x21d2b30" astParent="0x21c3320" astOperand1="0x21c3740" astOperand2="0x21c3ab0"/>
+    <token id="0x21c3a00" file="Controller.cpp" linenr="28" str="Eigen" scope="0x21d2b30" type="name" astParent="0x21c3ab0"/>
+    <token id="0x21c3ab0" file="Controller.cpp" linenr="28" str="::" scope="0x21d2b30" astParent="0x21c3950" astOperand1="0x21c3a00" astOperand2="0x21c3b60"/>
+    <token id="0x21c3b60" file="Controller.cpp" linenr="28" str="Matrix" scope="0x21d2b30" type="name" astParent="0x21c3ab0"/>
+    <token id="0x21c3c10" file="Controller.cpp" linenr="28" str="&lt;" scope="0x21d2b30" link="0x21c4030"/>
+    <token id="0x21c3cc0" file="Controller.cpp" linenr="28" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c3d70" file="Controller.cpp" linenr="28" str="," scope="0x21d2b30"/>
+    <token id="0x21c3e20" file="Controller.cpp" linenr="28" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c3e28"/>
+    <token id="0x21c3ed0" file="Controller.cpp" linenr="28" str="," scope="0x21d2b30"/>
+    <token id="0x21c3f80" file="Controller.cpp" linenr="28" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c3f88"/>
+    <token id="0x21c4030" file="Controller.cpp" linenr="28" str="&gt;" scope="0x21d2b30" link="0x21c3c10"/>
+    <token id="0x21c40e0" file="Controller.cpp" linenr="28" str="Kp_" scope="0x21d2b30" type="name" varId="67" variable="0x21d8e00"/>
+    <token id="0x21c4190" file="Controller.cpp" linenr="28" str="," scope="0x21d2b30"/>
+    <token id="0x21c4240" file="Controller.cpp" linenr="29" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c42f0" file="Controller.cpp" linenr="29" str="::" scope="0x21d2b30"/>
+    <token id="0x21c43a0" file="Controller.cpp" linenr="29" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c4450" file="Controller.cpp" linenr="29" str="&lt;" scope="0x21d2b30" link="0x21c4870"/>
+    <token id="0x21c4500" file="Controller.cpp" linenr="29" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c45b0" file="Controller.cpp" linenr="29" str="," scope="0x21d2b30"/>
+    <token id="0x21c4660" file="Controller.cpp" linenr="29" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c4668"/>
+    <token id="0x21c4710" file="Controller.cpp" linenr="29" str="," scope="0x21d2b30"/>
+    <token id="0x21c47c0" file="Controller.cpp" linenr="29" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c47c8"/>
+    <token id="0x21c4870" file="Controller.cpp" linenr="29" str="&gt;" scope="0x21d2b30" link="0x21c4450"/>
+    <token id="0x21c4920" file="Controller.cpp" linenr="29" str="Kd_" scope="0x21d2b30" type="name" varId="68" variable="0x21d8e70"/>
+    <token id="0x21c49d0" file="Controller.cpp" linenr="29" str="," scope="0x21d2b30"/>
+    <token id="0x21c4a80" file="Controller.cpp" linenr="30" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c4b30" file="Controller.cpp" linenr="30" str="::" scope="0x21d2b30"/>
+    <token id="0x21c4be0" file="Controller.cpp" linenr="30" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c4c90" file="Controller.cpp" linenr="30" str="&lt;" scope="0x21d2b30" link="0x21c50b0"/>
+    <token id="0x21c4d40" file="Controller.cpp" linenr="30" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c4df0" file="Controller.cpp" linenr="30" str="," scope="0x21d2b30"/>
+    <token id="0x21c4ea0" file="Controller.cpp" linenr="30" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c4ea8"/>
+    <token id="0x21c4f50" file="Controller.cpp" linenr="30" str="," scope="0x21d2b30"/>
+    <token id="0x21c5000" file="Controller.cpp" linenr="30" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c5008"/>
+    <token id="0x21c50b0" file="Controller.cpp" linenr="30" str="&gt;" scope="0x21d2b30" link="0x21c4c90"/>
+    <token id="0x21c5160" file="Controller.cpp" linenr="30" str="Bd_" scope="0x21d2b30" type="name" varId="69" variable="0x21d8ee0"/>
+    <token id="0x21c5210" file="Controller.cpp" linenr="30" str="," scope="0x21d2b30"/>
+    <token id="0x21c52c0" file="Controller.cpp" linenr="31" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c5370" file="Controller.cpp" linenr="31" str="::" scope="0x21d2b30"/>
+    <token id="0x21c5420" file="Controller.cpp" linenr="31" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c54d0" file="Controller.cpp" linenr="31" str="&lt;" scope="0x21d2b30" link="0x21c58f0"/>
+    <token id="0x21c5580" file="Controller.cpp" linenr="31" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c5630" file="Controller.cpp" linenr="31" str="," scope="0x21d2b30"/>
+    <token id="0x21c56e0" file="Controller.cpp" linenr="31" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c56e8"/>
+    <token id="0x21c5790" file="Controller.cpp" linenr="31" str="," scope="0x21d2b30"/>
+    <token id="0x21c5840" file="Controller.cpp" linenr="31" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c5848"/>
+    <token id="0x21c58f0" file="Controller.cpp" linenr="31" str="&gt;" scope="0x21d2b30" link="0x21c54d0"/>
+    <token id="0x21c59a0" file="Controller.cpp" linenr="31" str="Fp_" scope="0x21d2b30" type="name" varId="70" variable="0x21d8f50"/>
+    <token id="0x21c5a50" file="Controller.cpp" linenr="31" str="," scope="0x21d2b30"/>
+    <token id="0x21c5b00" file="Controller.cpp" linenr="32" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c5bb0" file="Controller.cpp" linenr="32" str="::" scope="0x21d2b30"/>
+    <token id="0x21c5c60" file="Controller.cpp" linenr="32" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c5d10" file="Controller.cpp" linenr="32" str="&lt;" scope="0x21d2b30" link="0x21c6130"/>
+    <token id="0x21c5dc0" file="Controller.cpp" linenr="32" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c5e70" file="Controller.cpp" linenr="32" str="," scope="0x21d2b30"/>
+    <token id="0x21c5f20" file="Controller.cpp" linenr="32" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c5f28"/>
+    <token id="0x21c5fd0" file="Controller.cpp" linenr="32" str="," scope="0x21d2b30"/>
+    <token id="0x21c6080" file="Controller.cpp" linenr="32" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c6088"/>
+    <token id="0x21c6130" file="Controller.cpp" linenr="32" str="&gt;" scope="0x21d2b30" link="0x21c5d10"/>
+    <token id="0x21c61e0" file="Controller.cpp" linenr="32" str="lambda_" scope="0x21d2b30" type="name" varId="71" variable="0x21d8fc0"/>
+    <token id="0x21c6290" file="Controller.cpp" linenr="32" str="," scope="0x21d2b30"/>
+    <token id="0x21c6340" file="Controller.cpp" linenr="33" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c63f0" file="Controller.cpp" linenr="33" str="::" scope="0x21d2b30"/>
+    <token id="0x21c64a0" file="Controller.cpp" linenr="33" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c6550" file="Controller.cpp" linenr="33" str="&lt;" scope="0x21d2b30" link="0x21c6970"/>
+    <token id="0x21c6600" file="Controller.cpp" linenr="33" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c66b0" file="Controller.cpp" linenr="33" str="," scope="0x21d2b30"/>
+    <token id="0x21c6760" file="Controller.cpp" linenr="33" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c6768"/>
+    <token id="0x21c6810" file="Controller.cpp" linenr="33" str="," scope="0x21d2b30"/>
+    <token id="0x21c68c0" file="Controller.cpp" linenr="33" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c68c8"/>
+    <token id="0x21c6970" file="Controller.cpp" linenr="33" str="&gt;" scope="0x21d2b30" link="0x21c6550"/>
+    <token id="0x21c6a20" file="Controller.cpp" linenr="33" str="master_min_" scope="0x21d2b30" type="name" varId="72" variable="0x21d9030"/>
+    <token id="0x21c6ad0" file="Controller.cpp" linenr="33" str="," scope="0x21d2b30"/>
+    <token id="0x21c6b80" file="Controller.cpp" linenr="34" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c6c30" file="Controller.cpp" linenr="34" str="::" scope="0x21d2b30"/>
+    <token id="0x21c6ce0" file="Controller.cpp" linenr="34" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c6d90" file="Controller.cpp" linenr="34" str="&lt;" scope="0x21d2b30" link="0x21c71b0"/>
+    <token id="0x21c6e40" file="Controller.cpp" linenr="34" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c6ef0" file="Controller.cpp" linenr="34" str="," scope="0x21d2b30"/>
+    <token id="0x21c6fa0" file="Controller.cpp" linenr="34" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c6fa8"/>
+    <token id="0x21c7050" file="Controller.cpp" linenr="34" str="," scope="0x21d2b30"/>
+    <token id="0x21c7100" file="Controller.cpp" linenr="34" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c7108"/>
+    <token id="0x21c71b0" file="Controller.cpp" linenr="34" str="&gt;" scope="0x21d2b30" link="0x21c6d90"/>
+    <token id="0x21c7260" file="Controller.cpp" linenr="34" str="master_max_" scope="0x21d2b30" type="name" varId="73" variable="0x21d90a0"/>
+    <token id="0x21c7310" file="Controller.cpp" linenr="34" str="," scope="0x21d2b30"/>
+    <token id="0x21c73c0" file="Controller.cpp" linenr="35" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c7470" file="Controller.cpp" linenr="35" str="::" scope="0x21d2b30"/>
+    <token id="0x21c7520" file="Controller.cpp" linenr="35" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c75d0" file="Controller.cpp" linenr="35" str="&lt;" scope="0x21d2b30" link="0x21c79f0"/>
+    <token id="0x21c7680" file="Controller.cpp" linenr="35" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c7730" file="Controller.cpp" linenr="35" str="," scope="0x21d2b30"/>
+    <token id="0x21c77e0" file="Controller.cpp" linenr="35" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c77e8"/>
+    <token id="0x21c7890" file="Controller.cpp" linenr="35" str="," scope="0x21d2b30"/>
+    <token id="0x21c7940" file="Controller.cpp" linenr="35" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c7948"/>
+    <token id="0x21c79f0" file="Controller.cpp" linenr="35" str="&gt;" scope="0x21d2b30" link="0x21c75d0"/>
+    <token id="0x21c7aa0" file="Controller.cpp" linenr="35" str="slave_min_" scope="0x21d2b30" type="name" varId="74" variable="0x21d9110"/>
+    <token id="0x21c7b50" file="Controller.cpp" linenr="35" str="," scope="0x21d2b30"/>
+    <token id="0x21c7c00" file="Controller.cpp" linenr="36" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c7cb0" file="Controller.cpp" linenr="36" str="::" scope="0x21d2b30"/>
+    <token id="0x21c7d60" file="Controller.cpp" linenr="36" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c7e10" file="Controller.cpp" linenr="36" str="&lt;" scope="0x21d2b30" link="0x21c8230"/>
+    <token id="0x21c7ec0" file="Controller.cpp" linenr="36" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c7f70" file="Controller.cpp" linenr="36" str="," scope="0x21d2b30"/>
+    <token id="0x21c8020" file="Controller.cpp" linenr="36" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c8028"/>
+    <token id="0x21c80d0" file="Controller.cpp" linenr="36" str="," scope="0x21d2b30"/>
+    <token id="0x21c8180" file="Controller.cpp" linenr="36" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c8188"/>
+    <token id="0x21c8230" file="Controller.cpp" linenr="36" str="&gt;" scope="0x21d2b30" link="0x21c7e10"/>
+    <token id="0x21c82e0" file="Controller.cpp" linenr="36" str="slave_max_" scope="0x21d2b30" type="name" varId="75" variable="0x21d9180"/>
+    <token id="0x21c8390" file="Controller.cpp" linenr="36" str="," scope="0x21d2b30"/>
+    <token id="0x21c8440" file="Controller.cpp" linenr="37" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c84f0" file="Controller.cpp" linenr="37" str="::" scope="0x21d2b30"/>
+    <token id="0x21c85a0" file="Controller.cpp" linenr="37" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c8650" file="Controller.cpp" linenr="37" str="&lt;" scope="0x21d2b30" link="0x21c8a70"/>
+    <token id="0x21c8700" file="Controller.cpp" linenr="37" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c87b0" file="Controller.cpp" linenr="37" str="," scope="0x21d2b30"/>
+    <token id="0x21c8860" file="Controller.cpp" linenr="37" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c8868"/>
+    <token id="0x21c8910" file="Controller.cpp" linenr="37" str="," scope="0x21d2b30"/>
+    <token id="0x21c89c0" file="Controller.cpp" linenr="37" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c89c8"/>
+    <token id="0x21c8a70" file="Controller.cpp" linenr="37" str="&gt;" scope="0x21d2b30" link="0x21c8650"/>
+    <token id="0x21c8b20" file="Controller.cpp" linenr="37" str="slave_velocity_min_" scope="0x21d2b30" type="name" varId="76" variable="0x21d91f0"/>
+    <token id="0x21c8c00" file="Controller.cpp" linenr="37" str="," scope="0x21d2b30"/>
+    <token id="0x21c8cb0" file="Controller.cpp" linenr="38" str="Eigen" scope="0x21d2b30" type="name"/>
+    <token id="0x21c8d60" file="Controller.cpp" linenr="38" str="::" scope="0x21d2b30"/>
+    <token id="0x21c8e10" file="Controller.cpp" linenr="38" str="Matrix" scope="0x21d2b30" type="name"/>
+    <token id="0x21c8ec0" file="Controller.cpp" linenr="38" str="&lt;" scope="0x21d2b30" link="0x21c92e0"/>
+    <token id="0x21c8f70" file="Controller.cpp" linenr="38" str="double" scope="0x21d2b30" type="name"/>
+    <token id="0x21c9020" file="Controller.cpp" linenr="38" str="," scope="0x21d2b30"/>
+    <token id="0x21c90d0" file="Controller.cpp" linenr="38" str="6" scope="0x21d2b30" type="number" isInt="True" values="0x21c90d8"/>
+    <token id="0x21c9180" file="Controller.cpp" linenr="38" str="," scope="0x21d2b30"/>
+    <token id="0x21c9230" file="Controller.cpp" linenr="38" str="1" scope="0x21d2b30" type="number" isInt="True" values="0x21c9238"/>
+    <token id="0x21c92e0" file="Controller.cpp" linenr="38" str="&gt;" scope="0x21d2b30" link="0x21c8ec0"/>
+    <token id="0x21c9390" file="Controller.cpp" linenr="38" str="slave_velocity_max_" scope="0x21d2b30" type="name" varId="77" variable="0x21d9260"/>
+    <token id="0x21c9470" file="Controller.cpp" linenr="38" str=")" scope="0x21d2b30" link="0x21c3320"/>
+    <token id="0x21c9520" file="Controller.cpp" linenr="38" str=":" scope="0x21d2b30" astParent="0x21c9890" astOperand1="0x21c3320" astOperand2="0x21c9680"/>
+    <token id="0x21c95d0" file="Controller.cpp" linenr="39" str="n" scope="0x21d2b30" type="name" varId="2" variable="0x21d77b0" astParent="0x21c9680"/>
+    <token id="0x21c9680" file="Controller.cpp" linenr="39" str="(" scope="0x21d2b30" link="0x21c97e0" astParent="0x21c9520" astOperand1="0x21c95d0" astOperand2="0x21c9730"/>
+    <token id="0x21c9730" file="Controller.cpp" linenr="39" str="n_" scope="0x21d2b30" type="name" varId="65" variable="0x21d8d20" astParent="0x21c9680"/>
+    <token id="0x21c97e0" file="Controller.cpp" linenr="39" str=")" scope="0x21d2b30" link="0x21c9680"/>
+    <token id="0x21c9890" file="Controller.cpp" linenr="39" str="," scope="0x21d2b30" astParent="0x21c9c00" astOperand1="0x21c9520" astOperand2="0x21c99f0"/>
+    <token id="0x21c9940" file="Controller.cpp" linenr="40" str="n_priv" scope="0x21d2b30" type="name" varId="3" variable="0x21d7820" astParent="0x21c99f0"/>
+    <token id="0x21c99f0" file="Controller.cpp" linenr="40" str="(" scope="0x21d2b30" link="0x21c9b50" astParent="0x21c9890" astOperand1="0x21c9940" astOperand2="0x21c9aa0"/>
+    <token id="0x21c9aa0" file="Controller.cpp" linenr="40" str="&quot;x&quot;" scope="0x21d2b30" type="string" strlen="1" values="0x21c9aa8" astParent="0x21c99f0"/>
+    <token id="0x21c9b50" file="Controller.cpp" linenr="40" str=")" scope="0x21d2b30" link="0x21c99f0"/>
+    <token id="0x21c9c00" file="Controller.cpp" linenr="40" str="," scope="0x21d2b30" astParent="0x21c9f70" astOperand1="0x21c9890" astOperand2="0x21c9d60"/>
+    <token id="0x21c9cb0" file="Controller.cpp" linenr="41" str="freq" scope="0x21d2b30" type="name" varId="14" variable="0x21d7cf0" astParent="0x21c9d60"/>
+    <token id="0x21c9d60" file="Controller.cpp" linenr="41" str="(" scope="0x21d2b30" link="0x21c9ec0" astParent="0x21c9c00" astOperand1="0x21c9cb0" astOperand2="0x21c9e10"/>
+    <token id="0x21c9e10" file="Controller.cpp" linenr="41" str="freq_" scope="0x21d2b30" type="name" varId="66" variable="0x21d8d90" astParent="0x21c9d60"/>
+    <token id="0x21c9ec0" file="Controller.cpp" linenr="41" str=")" scope="0x21d2b30" link="0x21c9d60"/>
+    <token id="0x21c9f70" file="Controller.cpp" linenr="41" str="," scope="0x21d2b30" astParent="0x21ca2e0" astOperand1="0x21c9c00" astOperand2="0x21ca0d0"/>
+    <token id="0x21ca020" file="Controller.cpp" linenr="42" str="Kp" scope="0x21d2b30" type="name" varId="15" variable="0x21d7d60" astParent="0x21ca0d0"/>
+    <token id="0x21ca0d0" file="Controller.cpp" linenr="42" str="(" scope="0x21d2b30" link="0x21ca230" astParent="0x21c9f70" astOperand1="0x21ca020" astOperand2="0x21ca180"/>
+    <token id="0x21ca180" file="Controller.cpp" linenr="42" str="Kp_" scope="0x21d2b30" type="name" varId="67" variable="0x21d8e00" astParent="0x21ca0d0"/>
+    <token id="0x21ca230" file="Controller.cpp" linenr="42" str=")" scope="0x21d2b30" link="0x21ca0d0"/>
+    <token id="0x21ca2e0" file="Controller.cpp" linenr="42" str="," scope="0x21d2b30" astParent="0x21ca650" astOperand1="0x21c9f70" astOperand2="0x21ca440"/>
+    <token id="0x21ca390" file="Controller.cpp" linenr="43" str="Kd" scope="0x21d2b30" type="name" varId="16" variable="0x21d7dd0" astParent="0x21ca440"/>
+    <token id="0x21ca440" file="Controller.cpp" linenr="43" str="(" scope="0x21d2b30" link="0x21ca5a0" astParent="0x21ca2e0" astOperand1="0x21ca390" astOperand2="0x21ca4f0"/>
+    <token id="0x21ca4f0" file="Controller.cpp" linenr="43" str="Kd_" scope="0x21d2b30" type="name" varId="68" variable="0x21d8e70" astParent="0x21ca440"/>
+    <token id="0x21ca5a0" file="Controller.cpp" linenr="43" str=")" scope="0x21d2b30" link="0x21ca440"/>
+    <token id="0x21ca650" file="Controller.cpp" linenr="43" str="," scope="0x21d2b30" astParent="0x21ca9c0" astOperand1="0x21ca2e0" astOperand2="0x21ca7b0"/>
+    <token id="0x21ca700" file="Controller.cpp" linenr="44" str="Bd" scope="0x21d2b30" type="name" varId="17" variable="0x21d7e40" astParent="0x21ca7b0"/>
+    <token id="0x21ca7b0" file="Controller.cpp" linenr="44" str="(" scope="0x21d2b30" link="0x21ca910" astParent="0x21ca650" astOperand1="0x21ca700" astOperand2="0x21ca860"/>
+    <token id="0x21ca860" file="Controller.cpp" linenr="44" str="Bd_" scope="0x21d2b30" type="name" varId="69" variable="0x21d8ee0" astParent="0x21ca7b0"/>
+    <token id="0x21ca910" file="Controller.cpp" linenr="44" str=")" scope="0x21d2b30" link="0x21ca7b0"/>
+    <token id="0x21ca9c0" file="Controller.cpp" linenr="44" str="," scope="0x21d2b30" astParent="0x21cad30" astOperand1="0x21ca650" astOperand2="0x21cab20"/>
+    <token id="0x21caa70" file="Controller.cpp" linenr="45" str="Fp" scope="0x21d2b30" type="name" varId="18" variable="0x21d7eb0" astParent="0x21cab20"/>
+    <token id="0x21cab20" file="Controller.cpp" linenr="45" str="(" scope="0x21d2b30" link="0x21cac80" astParent="0x21ca9c0" astOperand1="0x21caa70" astOperand2="0x21cabd0"/>
+    <token id="0x21cabd0" file="Controller.cpp" linenr="45" str="Fp_" scope="0x21d2b30" type="name" varId="70" variable="0x21d8f50" astParent="0x21cab20"/>
+    <token id="0x21cac80" file="Controller.cpp" linenr="45" str=")" scope="0x21d2b30" link="0x21cab20"/>
+    <token id="0x21cad30" file="Controller.cpp" linenr="45" str="," scope="0x21d2b30" astParent="0x21cb0a0" astOperand1="0x21ca9c0" astOperand2="0x21cae90"/>
+    <token id="0x21cade0" file="Controller.cpp" linenr="46" str="lambda" scope="0x21d2b30" type="name" varId="19" variable="0x21d7f20" astParent="0x21cae90"/>
+    <token id="0x21cae90" file="Controller.cpp" linenr="46" str="(" scope="0x21d2b30" link="0x21caff0" astParent="0x21cad30" astOperand1="0x21cade0" astOperand2="0x21caf40"/>
+    <token id="0x21caf40" file="Controller.cpp" linenr="46" str="lambda_" scope="0x21d2b30" type="name" varId="71" variable="0x21d8fc0" astParent="0x21cae90"/>
+    <token id="0x21caff0" file="Controller.cpp" linenr="46" str=")" scope="0x21d2b30" link="0x21cae90"/>
+    <token id="0x21cb0a0" file="Controller.cpp" linenr="46" str="," scope="0x21d2b30" astParent="0x21cb410" astOperand1="0x21cad30" astOperand2="0x21cb200"/>
+    <token id="0x21cb150" file="Controller.cpp" linenr="47" str="master_min" scope="0x21d2b30" type="name" varId="32" variable="0x21d84d0" astParent="0x21cb200"/>
+    <token id="0x21cb200" file="Controller.cpp" linenr="47" str="(" scope="0x21d2b30" link="0x21cb360" astParent="0x21cb0a0" astOperand1="0x21cb150" astOperand2="0x21cb2b0"/>
+    <token id="0x21cb2b0" file="Controller.cpp" linenr="47" str="master_min_" scope="0x21d2b30" type="name" varId="72" variable="0x21d9030" astParent="0x21cb200"/>
+    <token id="0x21cb360" file="Controller.cpp" linenr="47" str=")" scope="0x21d2b30" link="0x21cb200"/>
+    <token id="0x21cb410" file="Controller.cpp" linenr="47" str="," scope="0x21d2b30" astParent="0x21cb780" astOperand1="0x21cb0a0" astOperand2="0x21cb570"/>
+    <token id="0x21cb4c0" file="Controller.cpp" linenr="48" str="master_max" scope="0x21d2b30" type="name" varId="33" variable="0x21d8540" astParent="0x21cb570"/>
+    <token id="0x21cb570" file="Controller.cpp" linenr="48" str="(" scope="0x21d2b30" link="0x21cb6d0" astParent="0x21cb410" astOperand1="0x21cb4c0" astOperand2="0x21cb620"/>
+    <token id="0x21cb620" file="Controller.cpp" linenr="48" str="master_max_" scope="0x21d2b30" type="name" varId="73" variable="0x21d90a0" astParent="0x21cb570"/>
+    <token id="0x21cb6d0" file="Controller.cpp" linenr="48" str=")" scope="0x21d2b30" link="0x21cb570"/>
+    <token id="0x21cb780" file="Controller.cpp" linenr="48" str="," scope="0x21d2b30" astParent="0x21cbaf0" astOperand1="0x21cb410" astOperand2="0x21cb8e0"/>
+    <token id="0x21cb830" file="Controller.cpp" linenr="49" str="slave_min" scope="0x21d2b30" type="name" varId="35" variable="0x21d8620" astParent="0x21cb8e0"/>
+    <token id="0x21cb8e0" file="Controller.cpp" linenr="49" str="(" scope="0x21d2b30" link="0x21cba40" astParent="0x21cb780" astOperand1="0x21cb830" astOperand2="0x21cb990"/>
+    <token id="0x21cb990" file="Controller.cpp" linenr="49" str="slave_min_" scope="0x21d2b30" type="name" varId="74" variable="0x21d9110" astParent="0x21cb8e0"/>
+    <token id="0x21cba40" file="Controller.cpp" linenr="49" str=")" scope="0x21d2b30" link="0x21cb8e0"/>
+    <token id="0x21cbaf0" file="Controller.cpp" linenr="49" str="," scope="0x21d2b30" astParent="0x21cbe60" astOperand1="0x21cb780" astOperand2="0x21cbc50"/>
+    <token id="0x21cbba0" file="Controller.cpp" linenr="50" str="slave_max" scope="0x21d2b30" type="name" varId="36" variable="0x21d8690" astParent="0x21cbc50"/>
+    <token id="0x21cbc50" file="Controller.cpp" linenr="50" str="(" scope="0x21d2b30" link="0x21cbdb0" astParent="0x21cbaf0" astOperand1="0x21cbba0" astOperand2="0x21cbd00"/>
+    <token id="0x21cbd00" file="Controller.cpp" linenr="50" str="slave_max_" scope="0x21d2b30" type="name" varId="75" variable="0x21d9180" astParent="0x21cbc50"/>
+    <token id="0x21cbdb0" file="Controller.cpp" linenr="50" str=")" scope="0x21d2b30" link="0x21cbc50"/>
+    <token id="0x21cbe60" file="Controller.cpp" linenr="50" str="," scope="0x21d2b30" astParent="0x21cc230" astOperand1="0x21cbaf0" astOperand2="0x21cbff0"/>
+    <token id="0x21cbf10" file="Controller.cpp" linenr="51" str="slave_velocity_min" scope="0x21d2b30" type="name" varId="38" variable="0x21d8770" astParent="0x21cbff0"/>
+    <token id="0x21cbff0" file="Controller.cpp" linenr="51" str="(" scope="0x21d2b30" link="0x21cc180" astParent="0x21cbe60" astOperand1="0x21cbf10" astOperand2="0x21cc0a0"/>
+    <token id="0x21cc0a0" file="Controller.cpp" linenr="51" str="slave_velocity_min_" scope="0x21d2b30" type="name" varId="76" variable="0x21d91f0" astParent="0x21cbff0"/>
+    <token id="0x21cc180" file="Controller.cpp" linenr="51" str=")" scope="0x21d2b30" link="0x21cbff0"/>
+    <token id="0x21cc230" file="Controller.cpp" linenr="51" str="," scope="0x21d2b30" astParent="0x21cc600" astOperand1="0x21cbe60" astOperand2="0x21cc3c0"/>
+    <token id="0x21cc2e0" file="Controller.cpp" linenr="52" str="slave_velocity_max" scope="0x21d2b30" type="name" varId="39" variable="0x21d87e0" astParent="0x21cc3c0"/>
+    <token id="0x21cc3c0" file="Controller.cpp" linenr="52" str="(" scope="0x21d2b30" link="0x21cc550" astParent="0x21cc230" astOperand1="0x21cc2e0" astOperand2="0x21cc470"/>
+    <token id="0x21cc470" file="Controller.cpp" linenr="52" str="slave_velocity_max_" scope="0x21d2b30" type="name" varId="77" variable="0x21d9260" astParent="0x21cc3c0"/>
+    <token id="0x21cc550" file="Controller.cpp" linenr="52" str=")" scope="0x21d2b30" link="0x21cc3c0"/>
+    <token id="0x21cc600" file="Controller.cpp" linenr="52" str="," scope="0x21d2b30" astParent="0x21cc9a0" astOperand1="0x21cc230" astOperand2="0x21cc790"/>
+    <token id="0x21cc6b0" file="Controller.cpp" linenr="53" str="master_new_readings" scope="0x21d2b30" type="name" varId="43" variable="0x21d89a0" astParent="0x21cc790"/>
+    <token id="0x21cc790" file="Controller.cpp" linenr="53" str="(" scope="0x21d2b30" link="0x21cc8f0" astParent="0x21cc600" astOperand1="0x21cc6b0" astOperand2="0x21cc840"/>
+    <token id="0x21cc840" file="Controller.cpp" linenr="53" str="false" scope="0x21d2b30" type="name" values="0x21cc848" astParent="0x21cc790"/>
+    <token id="0x21cc8f0" file="Controller.cpp" linenr="53" str=")" scope="0x21d2b30" link="0x21cc790"/>
+    <token id="0x21cc9a0" file="Controller.cpp" linenr="53" str="," scope="0x21d2b30" astParent="0x21ccd40" astOperand1="0x21cc600" astOperand2="0x21ccb30"/>
+    <token id="0x21cca50" file="Controller.cpp" linenr="54" str="slave_new_readings" scope="0x21d2b30" type="name" varId="44" variable="0x21d8a10" astParent="0x21ccb30"/>
+    <token id="0x21ccb30" file="Controller.cpp" linenr="54" str="(" scope="0x21d2b30" link="0x21ccc90" astParent="0x21cc9a0" astOperand1="0x21cca50" astOperand2="0x21ccbe0"/>
+    <token id="0x21ccbe0" file="Controller.cpp" linenr="54" str="false" scope="0x21d2b30" type="name" values="0x21ccbe8" astParent="0x21ccb30"/>
+    <token id="0x21ccc90" file="Controller.cpp" linenr="54" str=")" scope="0x21d2b30" link="0x21ccb30"/>
+    <token id="0x21ccd40" file="Controller.cpp" linenr="54" str="," scope="0x21d2b30" astParent="0x21cd0b0" astOperand1="0x21cc9a0" astOperand2="0x21ccea0"/>
+    <token id="0x21ccdf0" file="Controller.cpp" linenr="55" str="control_event" scope="0x21d2b30" type="name" varId="45" variable="0x21d8a80" astParent="0x21ccea0"/>
+    <token id="0x21ccea0" file="Controller.cpp" linenr="55" str="(" scope="0x21d2b30" link="0x21cd000" astParent="0x21ccd40" astOperand1="0x21ccdf0" astOperand2="0x21ccf50"/>
+    <token id="0x21ccf50" file="Controller.cpp" linenr="55" str="false" scope="0x21d2b30" type="name" values="0x21ccf58" astParent="0x21ccea0"/>
+    <token id="0x21cd000" file="Controller.cpp" linenr="55" str=")" scope="0x21d2b30" link="0x21ccea0"/>
+    <token id="0x21cd0b0" file="Controller.cpp" linenr="55" str="," scope="0x21d2b30" astParent="0x21cd450" astOperand1="0x21ccd40" astOperand2="0x21cd240"/>
+    <token id="0x21cd160" file="Controller.cpp" linenr="56" str="linear_button_pressed" scope="0x21d2b30" type="name" varId="46" variable="0x21d8af0" astParent="0x21cd240"/>
+    <token id="0x21cd240" file="Controller.cpp" linenr="56" str="(" scope="0x21d2b30" link="0x21cd3a0" astParent="0x21cd0b0" astOperand1="0x21cd160" astOperand2="0x21cd2f0"/>
+    <token id="0x21cd2f0" file="Controller.cpp" linenr="56" str="false" scope="0x21d2b30" type="name" values="0x21cd2f8" astParent="0x21cd240"/>
+    <token id="0x21cd3a0" file="Controller.cpp" linenr="56" str=")" scope="0x21d2b30" link="0x21cd240"/>
+    <token id="0x21cd450" file="Controller.cpp" linenr="56" str="," scope="0x21d2b30" astParent="0x21cd7f0" astOperand1="0x21cd0b0" astOperand2="0x21cd5e0"/>
+    <token id="0x21cd500" file="Controller.cpp" linenr="57" str="angular_button_pressed" scope="0x21d2b30" type="name" varId="47" variable="0x21d8b60" astParent="0x21cd5e0"/>
+    <token id="0x21cd5e0" file="Controller.cpp" linenr="57" str="(" scope="0x21d2b30" link="0x21cd740" astParent="0x21cd450" astOperand1="0x21cd500" astOperand2="0x21cd690"/>
+    <token id="0x21cd690" file="Controller.cpp" linenr="57" str="false" scope="0x21d2b30" type="name" values="0x21cd698" astParent="0x21cd5e0"/>
+    <token id="0x21cd740" file="Controller.cpp" linenr="57" str=")" scope="0x21d2b30" link="0x21cd5e0"/>
+    <token id="0x21cd7f0" file="Controller.cpp" linenr="57" str="," scope="0x21d2b30" astParent="0x21cdbc0" astOperand1="0x21cd450" astOperand2="0x21cd9b0"/>
+    <token id="0x21cd8d0" file="Controller.cpp" linenr="58" str="yaw_master_joint_previous" scope="0x21d2b30" type="name" varId="41" variable="0x21d88c0" astParent="0x21cd9b0"/>
+    <token id="0x21cd9b0" file="Controller.cpp" linenr="58" str="(" scope="0x21d2b30" link="0x21cdb10" astParent="0x21cd7f0" astOperand1="0x21cd8d0" astOperand2="0x21cda60"/>
+    <token id="0x21cda60" file="Controller.cpp" linenr="58" str="0.0" scope="0x21d2b30" type="number" isFloat="True" astParent="0x21cd9b0"/>
+    <token id="0x21cdb10" file="Controller.cpp" linenr="58" str=")" scope="0x21d2b30" link="0x21cd9b0"/>
+    <token id="0x21cdbc0" file="Controller.cpp" linenr="58" str="," scope="0x21d2b30" astParent="0x21cdf30" astOperand1="0x21cd7f0" astOperand2="0x21cdd20"/>
+    <token id="0x21cdc70" file="Controller.cpp" linenr="59" str="yaw_slave_previous" scope="0x21d2b30" type="name" varId="42" variable="0x21d8930" astParent="0x21cdd20"/>
+    <token id="0x21cdd20" file="Controller.cpp" linenr="59" str="(" scope="0x21d2b30" link="0x21cde80" astParent="0x21cdbc0" astOperand1="0x21cdc70" astOperand2="0x21cddd0"/>
+    <token id="0x21cddd0" file="Controller.cpp" linenr="59" str="0.0" scope="0x21d2b30" type="number" isFloat="True" astParent="0x21cdd20"/>
+    <token id="0x21cde80" file="Controller.cpp" linenr="59" str=")" scope="0x21d2b30" link="0x21cdd20"/>
+    <token id="0x21cdf30" file="Controller.cpp" linenr="59" str="," scope="0x21d2b30" astOperand1="0x21cdbc0" astOperand2="0x21ce0c0"/>
+    <token id="0x21cdfe0" file="Controller.cpp" linenr="60" str="init_slave_readings" scope="0x21d2b30" type="name" varId="48" variable="0x21d8bd0" astParent="0x21ce0c0"/>
+    <token id="0x21ce0c0" file="Controller.cpp" linenr="60" str="(" scope="0x21d2b30" link="0x21ce220" astParent="0x21cdf30" astOperand1="0x21cdfe0" astOperand2="0x21ce170"/>
+    <token id="0x21ce170" file="Controller.cpp" linenr="60" str="false" scope="0x21d2b30" type="name" values="0x21ce178" astParent="0x21ce0c0"/>
+    <token id="0x21ce220" file="Controller.cpp" linenr="60" str=")" scope="0x21d2b30" link="0x21ce0c0"/>
+    <token id="0x21ce2d0" file="Controller.cpp" linenr="61" str="{" scope="0x21d6a30" link="0x21cfa60"/>
+    <token id="0x21ce380" file="Controller.cpp" linenr="62" str="previous_time" scope="0x21d6a30" type="name" varId="40" variable="0x21d8850" astParent="0x21ce430"/>
+    <token id="0x21ce430" file="Controller.cpp" linenr="62" str="=" scope="0x21d6a30" type="op" isAssignmentOp="True" astOperand1="0x21ce380" astOperand2="0x21ce850"/>
+    <token id="0x21ce4e0" file="Controller.cpp" linenr="62" str="ros" scope="0x21d6a30" type="name" astParent="0x21ce590"/>
+    <token id="0x21ce590" file="Controller.cpp" linenr="62" str="::" scope="0x21d6a30" astParent="0x21ce6f0" astOperand1="0x21ce4e0" astOperand2="0x21ce640"/>
+    <token id="0x21ce640" file="Controller.cpp" linenr="62" str="Time" scope="0x21d6a30" type="name" astParent="0x21ce590"/>
+    <token id="0x21ce6f0" file="Controller.cpp" linenr="62" str="::" scope="0x21d6a30" astParent="0x21ce850" astOperand1="0x21ce590" astOperand2="0x21ce7a0"/>
+    <token id="0x21ce7a0" file="Controller.cpp" linenr="62" str="now" scope="0x21d6a30" type="name" astParent="0x21ce6f0"/>
+    <token id="0x21ce850" file="Controller.cpp" linenr="62" str="(" scope="0x21d6a30" link="0x21ce900" astParent="0x21ce430" astOperand1="0x21ce6f0"/>
+    <token id="0x21ce900" file="Controller.cpp" linenr="62" str=")" scope="0x21d6a30" link="0x21ce850"/>
+    <token id="0x21ce9b0" file="Controller.cpp" linenr="62" str=";" scope="0x21d6a30"/>
+    <token id="0x21cea60" file="Controller.cpp" linenr="63" str="button_sub" scope="0x21d6a30" type="name" varId="10" variable="0x21d7b30" astParent="0x21ceb10"/>
+    <token id="0x21ceb10" file="Controller.cpp" linenr="63" str="=" scope="0x21d6a30" type="op" isAssignmentOp="True" astOperand1="0x21cea60" astOperand2="0x21cf170"/>
+    <token id="0x21cebc0" file="Controller.cpp" linenr="63" str="n_" scope="0x21d6a30" type="name" varId="65" variable="0x21d8d20" astParent="0x21cec70"/>
+    <token id="0x21cec70" file="Controller.cpp" linenr="63" str="." scope="0x21d6a30" astParent="0x21cf170" astOperand1="0x21cebc0" astOperand2="0x21ced20"/>
+    <token id="0x21ced20" file="Controller.cpp" linenr="63" str="subscribe" scope="0x21d6a30" type="name" astParent="0x21cec70"/>
+    <token id="0x21cedd0" file="Controller.cpp" linenr="63" str="&lt;" scope="0x21d6a30" link="0x21cf0c0"/>
+    <token id="0x21cee80" file="Controller.cpp" linenr="63" str="phantom_omni" scope="0x21d6a30" type="name"/>
+    <token id="0x21cef30" file="Controller.cpp" linenr="63" str="::" scope="0x21d6a30"/>
+    <token id="0x21cefe0" file="Controller.cpp" linenr="63" str="PhantomButtonEvent" scope="0x21d6a30" type="name"/>
+    <token id="0x21cf0c0" file="Controller.cpp" linenr="63" str="&gt;" scope="0x21d6a30" link="0x21cedd0"/>
+    <token id="0x21cf170" file="Controller.cpp" linenr="63" str="(" scope="0x21d6a30" link="0x21cf900" astParent="0x21ceb10" astOperand1="0x21cec70" astOperand2="0x21cf7a0"/>
+    <token id="0x21cf220" file="Controller.cpp" linenr="63" str="&quot;/omni1_button&quot;" scope="0x21d6a30" type="string" strlen="13" values="0x21cf228" astParent="0x21cf2d0"/>
+    <token id="0x21cf2d0" file="Controller.cpp" linenr="63" str="," scope="0x21d6a30" astParent="0x21cf430" astOperand1="0x21cf220" astOperand2="0x21cf380"/>
+    <token id="0x21cf380" file="Controller.cpp" linenr="63" str="1" scope="0x21d6a30" type="number" isInt="True" values="0x21cf388" astParent="0x21cf2d0"/>
+    <token id="0x21cf430" file="Controller.cpp" linenr="63" str="," scope="0x21d6a30" astParent="0x21cf7a0" astOperand1="0x21cf2d0" astOperand2="0x21cf4e0"/>
+    <token id="0x21cf4e0" file="Controller.cpp" linenr="63" str="&amp;" scope="0x21d6a30" type="op" astParent="0x21cf430" astOperand1="0x21cf640"/>
+    <token id="0x21cf590" file="Controller.cpp" linenr="63" str="Controller" scope="0x21d6a30" type="name" type-scope="0x21d33b0" astParent="0x21cf640"/>
+    <token id="0x21cf640" file="Controller.cpp" linenr="63" str="::" scope="0x21d6a30" astParent="0x21cf4e0" astOperand1="0x21cf590" astOperand2="0x21cf6f0"/>
+    <token id="0x21cf6f0" file="Controller.cpp" linenr="63" str="buttonCallback" scope="0x21d6a30" type="name" astParent="0x21cf640"/>
+    <token id="0x21cf7a0" file="Controller.cpp" linenr="63" str="," scope="0x21d6a30" astParent="0x21cf170" astOperand1="0x21cf430" astOperand2="0x21cf850"/>
+    <token id="0x21cf850" file="Controller.cpp" linenr="63" str="this" scope="0x21d6a30" type="name" astParent="0x21cf7a0"/>
+    <token id="0x21cf900" file="Controller.cpp" linenr="63" str=")" scope="0x21d6a30" link="0x21cf170"/>
+    <token id="0x21cf9b0" file="Controller.cpp" linenr="63" str=";" scope="0x21d6a30"/>
+    <token id="0x21cfa60" file="Controller.cpp" linenr="64" str="}" scope="0x21d6a30" link="0x21ce2d0"/>
+    <token id="0x21cfb10" file="Controller.cpp" linenr="68" str="void" scope="0x21d2b30" type="name"/>
+    <token id="0x21cfbc0" file="Controller.cpp" linenr="68" str="Controller" scope="0x21d2b30" type="name" type-scope="0x21d33b0" astParent="0x21cfc70"/>
+    <token id="0x21cfc70" file="Controller.cpp" linenr="68" str="::" scope="0x21d2b30" astParent="0x21cfdd0" astOperand1="0x21cfbc0" astOperand2="0x21cfd20"/>
+    <token id="0x21cfd20" file="Controller.cpp" linenr="68" str="buttonCallback" scope="0x21d2b30" type="name" function="0x21d6990" astParent="0x21cfc70"/>
+    <token id="0x21cfdd0" file="Controller.cpp" linenr="68" str="(" scope="0x21d2b30" link="0x21d0430" astOperand1="0x21cfc70" astOperand2="0x21d02d0"/>
+    <token id="0x21cfe80" file="Controller.cpp" linenr="68" str="const" scope="0x21d2b30" type="name"/>
+    <token id="0x21cff30" file="Controller.cpp" linenr="68" str="phantom_omni" scope="0x21d2b30" type="name" astParent="0x21cffe0"/>
+    <token id="0x21cffe0" file="Controller.cpp" linenr="68" str="::" scope="0x21d2b30" astParent="0x21d0170" astOperand1="0x21cff30" astOperand2="0x21d0090"/>
+    <token id="0x21d0090" file="Controller.cpp" linenr="68" str="PhantomButtonEvent" scope="0x21d2b30" type="name" astParent="0x21cffe0"/>
+    <token id="0x21d0170" file="Controller.cpp" linenr="68" str="::" scope="0x21d2b30" astParent="0x21d02d0" astOperand1="0x21cffe0" astOperand2="0x21d0220"/>
+    <token id="0x21d0220" file="Controller.cpp" linenr="68" str="ConstPtr" scope="0x21d2b30" type="name" astParent="0x21d0170"/>
+    <token id="0x21d02d0" file="Controller.cpp" linenr="68" str="&amp;" scope="0x21d2b30" type="op" astParent="0x21cfdd0" astOperand1="0x21d0170" astOperand2="0x21d0380"/>
+    <token id="0x21d0380" file="Controller.cpp" linenr="68" str="button" scope="0x21d2b30" type="name" varId="78" variable="0x21d92d0" astParent="0x21d02d0"/>
+    <token id="0x21d0430" file="Controller.cpp" linenr="68" str=")" scope="0x21d2b30" link="0x21cfdd0"/>
+    <token id="0x21d04e0" file="Controller.cpp" linenr="69" str="{" scope="0x21d6b60" link="0x21d29c0"/>
+    <token id="0x21d0590" file="Controller.cpp" linenr="70" str="if" scope="0x21d6b60" type="name" astParent="0x21d0640"/>
+    <token id="0x21d0640" file="Controller.cpp" linenr="70" str="(" scope="0x21d6b60" link="0x21d0b10" astOperand1="0x21d0590" astOperand2="0x21d09b0"/>
+    <token id="0x21d06f0" file="Controller.cpp" linenr="70" str="button" scope="0x21d6b60" type="name" varId="78" variable="0x21d92d0" astParent="0x21d07a0"/>
+    <token id="0x21d07a0" file="Controller.cpp" linenr="70" str="." scope="0x21d6b60" astParent="0x21d09b0" astOperand1="0x21d06f0" astOperand2="0x21d0900"/>
+    <token id="0x21d0900" file="Controller.cpp" linenr="70" str="grey_button" scope="0x21d6b60" type="name" varId="79" astParent="0x21d07a0"/>
+    <token id="0x21d09b0" file="Controller.cpp" linenr="70" str="==" scope="0x21d6b60" type="op" isComparisonOp="True" astParent="0x21d0640" astOperand1="0x21d07a0" astOperand2="0x21d0a60"/>
+    <token id="0x21d0a60" file="Controller.cpp" linenr="70" str="1" scope="0x21d6b60" type="number" isInt="True" values="0x21d0a68" astParent="0x21d09b0"/>
+    <token id="0x21d0b10" file="Controller.cpp" linenr="70" str=")" scope="0x21d6b60" link="0x21d0640"/>
+    <token id="0x21a90c0" file="Controller.cpp" linenr="70" str="{" scope="0x21d6c90" link="0x21d0850"/>
+    <token id="0x21d0bc0" file="Controller.cpp" linenr="71" str="linear_button_pressed" scope="0x21d6c90" type="name" varId="46" variable="0x21d8af0" astParent="0x21d0ca0"/>
+    <token id="0x21d0ca0" file="Controller.cpp" linenr="71" str="=" scope="0x21d6c90" type="op" isAssignmentOp="True" astOperand1="0x21d0bc0" astOperand2="0x21d0d50"/>
+    <token id="0x21d0d50" file="Controller.cpp" linenr="71" str="true" scope="0x21d6c90" type="name" values="0x21d0d58" astParent="0x21d0ca0"/>
+    <token id="0x21d0e00" file="Controller.cpp" linenr="71" str=";" scope="0x21d6c90"/>
+    <token id="0x21d0850" file="Controller.cpp" linenr="71" str="}" scope="0x21d6c90" link="0x21a90c0"/>
+    <token id="0x21d0eb0" file="Controller.cpp" linenr="72" str="else" scope="0x21d6b60" type="name"/>
+    <token id="0x21d1510" file="Controller.cpp" linenr="72" str="{" scope="0x21d6ef0" link="0x21a8840"/>
+    <token id="0x21d0f60" file="Controller.cpp" linenr="73" str="linear_button_pressed" scope="0x21d6ef0" type="name" varId="46" variable="0x21d8af0" astParent="0x21d1040"/>
+    <token id="0x21d1040" file="Controller.cpp" linenr="73" str="=" scope="0x21d6ef0" type="op" isAssignmentOp="True" astOperand1="0x21d0f60" astOperand2="0x21d10f0"/>
+    <token id="0x21d10f0" file="Controller.cpp" linenr="73" str="false" scope="0x21d6ef0" type="name" values="0x21d10f8" astParent="0x21d1040"/>
+    <token id="0x21d11a0" file="Controller.cpp" linenr="73" str=";" scope="0x21d6ef0"/>
+    <token id="0x21a8840" file="Controller.cpp" linenr="73" str="}" scope="0x21d6ef0" link="0x21d1510"/>
+    <token id="0x21d1250" file="Controller.cpp" linenr="76" str="if" scope="0x21d6b60" type="name" astParent="0x21d1300"/>
+    <token id="0x21d1300" file="Controller.cpp" linenr="76" str="(" scope="0x21d6b60" link="0x21d17d0" astOperand1="0x21d1250" astOperand2="0x21d1670"/>
+    <token id="0x21d13b0" file="Controller.cpp" linenr="76" str="button" scope="0x21d6b60" type="name" varId="78" variable="0x21d92d0" astParent="0x21d1460"/>
+    <token id="0x21d1460" file="Controller.cpp" linenr="76" str="." scope="0x21d6b60" astParent="0x21d1670" astOperand1="0x21d13b0" astOperand2="0x21d15c0"/>
+    <token id="0x21d15c0" file="Controller.cpp" linenr="76" str="white_button" scope="0x21d6b60" type="name" varId="80" astParent="0x21d1460"/>
+    <token id="0x21d1670" file="Controller.cpp" linenr="76" str="==" scope="0x21d6b60" type="op" isComparisonOp="True" astParent="0x21d1300" astOperand1="0x21d1460" astOperand2="0x21d1720"/>
+    <token id="0x21d1720" file="Controller.cpp" linenr="76" str="1" scope="0x21d6b60" type="number" isInt="True" values="0x21d1728" astParent="0x21d1670"/>
+    <token id="0x21d17d0" file="Controller.cpp" linenr="76" str=")" scope="0x21d6b60" link="0x21d1300"/>
+    <token id="0x21a88f0" file="Controller.cpp" linenr="76" str="{" scope="0x21d7020" link="0x21d3190"/>
+    <token id="0x21d1880" file="Controller.cpp" linenr="77" str="angular_button_pressed" scope="0x21d7020" type="name" varId="47" variable="0x21d8b60" astParent="0x21d1960"/>
+    <token id="0x21d1960" file="Controller.cpp" linenr="77" str="=" scope="0x21d7020" type="op" isAssignmentOp="True" astOperand1="0x21d1880" astOperand2="0x21d1a10"/>
+    <token id="0x21d1a10" file="Controller.cpp" linenr="77" str="true" scope="0x21d7020" type="name" values="0x21d1a18" astParent="0x21d1960"/>
+    <token id="0x21d1ac0" file="Controller.cpp" linenr="77" str=";" scope="0x21d7020"/>
+    <token id="0x21d3190" file="Controller.cpp" linenr="77" str="}" scope="0x21d7020" link="0x21a88f0"/>
+    <token id="0x21d1b70" file="Controller.cpp" linenr="78" str="else" scope="0x21d6b60" type="name"/>
+    <token id="0x21d3240" file="Controller.cpp" linenr="78" str="{" scope="0x21d7280" link="0x21d32f0"/>
+    <token id="0x21d1c20" file="Controller.cpp" linenr="79" str="angular_button_pressed" scope="0x21d7280" type="name" varId="47" variable="0x21d8b60" astParent="0x21d1d00"/>
+    <token id="0x21d1d00" file="Controller.cpp" linenr="79" str="=" scope="0x21d7280" type="op" isAssignmentOp="True" astOperand1="0x21d1c20" astOperand2="0x21d1db0"/>
+    <token id="0x21d1db0" file="Controller.cpp" linenr="79" str="false" scope="0x21d7280" type="name" values="0x21d1db8" astParent="0x21d1d00"/>
+    <token id="0x21d1e60" file="Controller.cpp" linenr="79" str=";" scope="0x21d7280"/>
+    <token id="0x21d32f0" file="Controller.cpp" linenr="79" str="}" scope="0x21d7280" link="0x21d3240"/>
+    <token id="0x21d1f10" file="Controller.cpp" linenr="81" str="if" scope="0x21d6b60" type="name" astParent="0x21d1fc0"/>
+    <token id="0x21d1fc0" file="Controller.cpp" linenr="81" str="(" scope="0x21d6b60" link="0x21d22e0" astOperand1="0x21d1f10" astOperand2="0x21d2150"/>
+    <token id="0x21d2070" file="Controller.cpp" linenr="81" str="linear_button_pressed" scope="0x21d6b60" type="name" varId="46" variable="0x21d8af0" astParent="0x21d2150"/>
+    <token id="0x21d2150" file="Controller.cpp" linenr="81" str="||" scope="0x21d6b60" type="op" isLogicalOp="True" astParent="0x21d1fc0" astOperand1="0x21d2070" astOperand2="0x21d2200"/>
+    <token id="0x21d2200" file="Controller.cpp" linenr="81" str="angular_button_pressed" scope="0x21d6b60" type="name" varId="47" variable="0x21d8b60" astParent="0x21d2150"/>
+    <token id="0x21d22e0" file="Controller.cpp" linenr="81" str=")" scope="0x21d6b60" link="0x21d1fc0"/>
+    <token id="0x21d2f30" file="Controller.cpp" linenr="81" str="{" scope="0x21d73b0" link="0x21d2fe0"/>
+    <token id="0x21d2390" file="Controller.cpp" linenr="82" str="control_event" scope="0x21d73b0" type="name" varId="45" variable="0x21d8a80" astParent="0x21d2440"/>
+    <token id="0x21d2440" file="Controller.cpp" linenr="82" str="=" scope="0x21d73b0" type="op" isAssignmentOp="True" astOperand1="0x21d2390" astOperand2="0x21d24f0"/>
+    <token id="0x21d24f0" file="Controller.cpp" linenr="82" str="true" scope="0x21d73b0" type="name" values="0x21d24f8" astParent="0x21d2440"/>
+    <token id="0x21d25a0" file="Controller.cpp" linenr="82" str=";" scope="0x21d73b0"/>
+    <token id="0x21d2fe0" file="Controller.cpp" linenr="82" str="}" scope="0x21d73b0" link="0x21d2f30"/>
+    <token id="0x21d2650" file="Controller.cpp" linenr="83" str="else" scope="0x21d6b60" type="name"/>
+    <token id="0x21d3090" file="Controller.cpp" linenr="83" str="{" scope="0x21d7610" link="0x21d2cd0"/>
+    <token id="0x21d2700" file="Controller.cpp" linenr="84" str="control_event" scope="0x21d7610" type="name" varId="45" variable="0x21d8a80" astParent="0x21d27b0"/>
+    <token id="0x21d27b0" file="Controller.cpp" linenr="84" str="=" scope="0x21d7610" type="op" isAssignmentOp="True" astOperand1="0x21d2700" astOperand2="0x21d2860"/>
+    <token id="0x21d2860" file="Controller.cpp" linenr="84" str="false" scope="0x21d7610" type="name" values="0x21d2868" astParent="0x21d27b0"/>
+    <token id="0x21d2910" file="Controller.cpp" linenr="84" str=";" scope="0x21d7610"/>
+    <token id="0x21d2cd0" file="Controller.cpp" linenr="84" str="}" scope="0x21d7610" link="0x21d3090"/>
+    <token id="0x21d29c0" file="Controller.cpp" linenr="85" str="}" scope="0x21d6b60" link="0x21d04e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x21d2b30" type="Global">
+      <varlist>
+        <var id="0x21d7740"/>
+      </varlist>
+    </scope>
+    <scope id="0x21d33b0" type="Class" className="Controller" classStart="0x21a8f60" classEnd="0x21c2fb0" nestedIn="0x21d2b30">
+      <functionList>
+        <function id="0x21d3550" tokenDef="0x21bba40" name="Controller"/>
+        <function id="0x21d3720" tokenDef="0x21bbf10" name="Controller"/>
+        <function id="0x21d68f0" tokenDef="0x21bc330" name="Controller">
+          <arg nr="1" variable="0x21d8d20"/>
+          <arg nr="2" variable="0x21d8d90"/>
+          <arg nr="3" variable="0x21d8e00"/>
+          <arg nr="4" variable="0x21d8e70"/>
+          <arg nr="5" variable="0x21d8ee0"/>
+          <arg nr="6" variable="0x21d8f50"/>
+          <arg nr="7" variable="0x21d8fc0"/>
+          <arg nr="8" variable="0x21d9030"/>
+          <arg nr="9" variable="0x21d90a0"/>
+          <arg nr="10" variable="0x21d9110"/>
+          <arg nr="11" variable="0x21d9180"/>
+          <arg nr="12" variable="0x21d91f0"/>
+          <arg nr="13" variable="0x21d9260"/>
+        </function>
+        <function id="0x21d6990" tokenDef="0x21c2740" name="buttonCallback">
+          <arg nr="1" variable="0x21d92d0"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x21d77b0"/>
+        <var id="0x21d7820"/>
+        <var id="0x21d7890"/>
+        <var id="0x21d7900"/>
+        <var id="0x21d7970"/>
+        <var id="0x21d79e0"/>
+        <var id="0x21d7a50"/>
+        <var id="0x21d7ac0"/>
+        <var id="0x21d7b30"/>
+        <var id="0x21d7ba0"/>
+        <var id="0x21d7c10"/>
+        <var id="0x21d7c80"/>
+        <var id="0x21d7cf0"/>
+        <var id="0x21d7d60"/>
+        <var id="0x21d7dd0"/>
+        <var id="0x21d7e40"/>
+        <var id="0x21d7eb0"/>
+        <var id="0x21d7f20"/>
+        <var id="0x21d7f90"/>
+        <var id="0x21d8000"/>
+        <var id="0x21d8070"/>
+        <var id="0x21d80e0"/>
+        <var id="0x21d8150"/>
+        <var id="0x21d81c0"/>
+        <var id="0x21d8230"/>
+        <var id="0x21d82a0"/>
+        <var id="0x21d8310"/>
+        <var id="0x21d8380"/>
+        <var id="0x21d83f0"/>
+        <var id="0x21d8460"/>
+        <var id="0x21d84d0"/>
+        <var id="0x21d8540"/>
+        <var id="0x21d85b0"/>
+        <var id="0x21d8620"/>
+        <var id="0x21d8690"/>
+        <var id="0x21d8700"/>
+        <var id="0x21d8770"/>
+        <var id="0x21d87e0"/>
+        <var id="0x21d8850"/>
+        <var id="0x21d88c0"/>
+        <var id="0x21d8930"/>
+        <var id="0x21d89a0"/>
+        <var id="0x21d8a10"/>
+        <var id="0x21d8a80"/>
+        <var id="0x21d8af0"/>
+        <var id="0x21d8b60"/>
+        <var id="0x21d8bd0"/>
+        <var id="0x21d8c40"/>
+        <var id="0x21d8cb0"/>
+      </varlist>
+    </scope>
+    <scope id="0x21d35f0" type="Function" className="Controller" classStart="0x21bbc50" classEnd="0x21bbd00" nestedIn="0x21d33b0" function="0x21d3550"/>
+    <scope id="0x21d67c0" type="Function" className="Controller" classStart="0x21bc120" classEnd="0x21bc1d0" nestedIn="0x21d33b0" function="0x21d3720"/>
+    <scope id="0x21d6a30" type="Function" className="Controller" classStart="0x21ce2d0" classEnd="0x21cfa60" nestedIn="0x21d2b30" function="0x21d68f0"/>
+    <scope id="0x21d6b60" type="Function" className="buttonCallback" classStart="0x21d04e0" classEnd="0x21d29c0" nestedIn="0x21d2b30" function="0x21d6990"/>
+    <scope id="0x21d6c90" type="If" classStart="0x21a90c0" classEnd="0x21d0850" nestedIn="0x21d6b60"/>
+    <scope id="0x21d6dc0" type="Else" classStart="0x21d1510" classEnd="0x21a8840" nestedIn="0x21d6b60"/>
+    <scope id="0x21d6ef0" type="Try" classStart="0x21d1510" classEnd="0x21a8840" nestedIn="0x21d6b60"/>
+    <scope id="0x21d7020" type="If" classStart="0x21a88f0" classEnd="0x21d3190" nestedIn="0x21d6b60"/>
+    <scope id="0x21d7150" type="Else" classStart="0x21d3240" classEnd="0x21d32f0" nestedIn="0x21d6b60"/>
+    <scope id="0x21d7280" type="Try" classStart="0x21d3240" classEnd="0x21d32f0" nestedIn="0x21d6b60"/>
+    <scope id="0x21d73b0" type="If" classStart="0x21d2f30" classEnd="0x21d2fe0" nestedIn="0x21d6b60"/>
+    <scope id="0x21d74e0" type="Else" classStart="0x21d3090" classEnd="0x21d2cd0" nestedIn="0x21d6b60"/>
+    <scope id="0x21d7610" type="Try" classStart="0x21d3090" classEnd="0x21d2cd0" nestedIn="0x21d6b60"/>
+  </scopes>
+  <variables>
+    <var id="0x21d7740" nameToken="0x21a40c0" typeStartToken="0x21964a0" typeEndToken="0x21964a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d77b0" nameToken="0x21a9380" typeStartToken="0x21a9170" typeEndToken="0x21a92d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7820" nameToken="0x21a96f0" typeStartToken="0x21a94e0" typeEndToken="0x21a9640" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7890" nameToken="0x21a9a60" typeStartToken="0x21a9850" typeEndToken="0x21a99b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7900" nameToken="0x21a9dd0" typeStartToken="0x21a9bc0" typeEndToken="0x21a9d20" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7970" nameToken="0x21aa140" typeStartToken="0x21a9f30" typeEndToken="0x21aa090" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d79e0" nameToken="0x21aa4b0" typeStartToken="0x21aa2a0" typeEndToken="0x21aa400" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7a50" nameToken="0x21aa820" typeStartToken="0x21aa610" typeEndToken="0x21aa770" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7ac0" nameToken="0x21aab90" typeStartToken="0x21aa980" typeEndToken="0x21aaae0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7b30" nameToken="0x21aaf00" typeStartToken="0x21aacf0" typeEndToken="0x21aae50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7ba0" nameToken="0x21ab270" typeStartToken="0x21ab060" typeEndToken="0x21ab1c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7c10" nameToken="0x21ab5e0" typeStartToken="0x21ab3d0" typeEndToken="0x21ab530" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7c80" nameToken="0x21ab950" typeStartToken="0x21ab740" typeEndToken="0x21ab8a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7cf0" nameToken="0x21abb60" typeStartToken="0x21abab0" typeEndToken="0x21abab0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7d60" nameToken="0x21ac3a0" typeStartToken="0x21abcc0" typeEndToken="0x21ac2f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7dd0" nameToken="0x21acbe0" typeStartToken="0x21ac500" typeEndToken="0x21acb30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7e40" nameToken="0x21ad420" typeStartToken="0x21acd40" typeEndToken="0x21ad370" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7eb0" nameToken="0x21adc60" typeStartToken="0x21ad580" typeEndToken="0x21adbb0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7f20" nameToken="0x21ae4a0" typeStartToken="0x21addc0" typeEndToken="0x21ae3f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d7f90" nameToken="0x21afd00" typeStartToken="0x21ae600" typeEndToken="0x21afc50" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8000" nameToken="0x21b0570" typeStartToken="0x21afe90" typeEndToken="0x21b04c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8070" nameToken="0x21b0e10" typeStartToken="0x21b0700" typeEndToken="0x21b0d30" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d80e0" nameToken="0x21b1680" typeStartToken="0x21b0fa0" typeEndToken="0x21b15d0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8150" nameToken="0x21b1ef0" typeStartToken="0x21b1810" typeEndToken="0x21b1e40" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d81c0" nameToken="0x21b2730" typeStartToken="0x21b2050" typeEndToken="0x21b2680" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8230" nameToken="0x21b2fd0" typeStartToken="0x21b28c0" typeEndToken="0x21b2ef0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d82a0" nameToken="0x21b3840" typeStartToken="0x21b3160" typeEndToken="0x21b3790" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8310" nameToken="0x21b40b0" typeStartToken="0x21b39d0" typeEndToken="0x21b4000" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8380" nameToken="0x21b48f0" typeStartToken="0x21b4210" typeEndToken="0x21b4840" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d83f0" nameToken="0x21b5190" typeStartToken="0x21b4a80" typeEndToken="0x21b50b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8460" nameToken="0x21b5a00" typeStartToken="0x21b5320" typeEndToken="0x21b5950" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d84d0" nameToken="0x21b6270" typeStartToken="0x21b5b90" typeEndToken="0x21b61c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8540" nameToken="0x21b6ab0" typeStartToken="0x21b63d0" typeEndToken="0x21b6a00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d85b0" nameToken="0x21b72f0" typeStartToken="0x21b6c10" typeEndToken="0x21b7240" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8620" nameToken="0x21b7b30" typeStartToken="0x21b7450" typeEndToken="0x21b7a80" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8690" nameToken="0x21b8370" typeStartToken="0x21b7c90" typeEndToken="0x21b82c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8700" nameToken="0x21b8bb0" typeStartToken="0x21b84d0" typeEndToken="0x21b8b00" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8770" nameToken="0x21b93f0" typeStartToken="0x21b8d10" typeEndToken="0x21b9340" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d87e0" nameToken="0x21b9c30" typeStartToken="0x21b9550" typeEndToken="0x21b9b80" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8850" nameToken="0x21b9fd0" typeStartToken="0x21b9dc0" typeEndToken="0x21b9f20" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d88c0" nameToken="0x21ba210" typeStartToken="0x21ba130" typeEndToken="0x21ba130" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8930" nameToken="0x21ba450" typeStartToken="0x21ba3a0" typeEndToken="0x21ba3a0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d89a0" nameToken="0x21ba660" typeStartToken="0x21ba5b0" typeEndToken="0x21ba5b0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8a10" nameToken="0x21ba8a0" typeStartToken="0x21ba7f0" typeEndToken="0x21ba7f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8a80" nameToken="0x21baae0" typeStartToken="0x21baa30" typeEndToken="0x21baa30" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8af0" nameToken="0x21bacf0" typeStartToken="0x21bac40" typeEndToken="0x21bac40" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8b60" nameToken="0x21baf30" typeStartToken="0x21bae80" typeEndToken="0x21bae80" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8bd0" nameToken="0x21bb170" typeStartToken="0x21bb0c0" typeEndToken="0x21bb0c0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8c40" nameToken="0x21bb540" typeStartToken="0x21bb300" typeEndToken="0x21bb460" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8cb0" nameToken="0x21bb8e0" typeStartToken="0x21bb6a0" typeEndToken="0x21bb800" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8d20" nameToken="0x21c3690" typeStartToken="0x21c33d0" typeEndToken="0x21c35e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x21d8d90" nameToken="0x21c38a0" typeStartToken="0x21c37f0" typeEndToken="0x21c37f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8e00" nameToken="0x21c40e0" typeStartToken="0x21c3a00" typeEndToken="0x21c4030" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8e70" nameToken="0x21c4920" typeStartToken="0x21c4240" typeEndToken="0x21c4870" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8ee0" nameToken="0x21c5160" typeStartToken="0x21c4a80" typeEndToken="0x21c50b0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8f50" nameToken="0x21c59a0" typeStartToken="0x21c52c0" typeEndToken="0x21c58f0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d8fc0" nameToken="0x21c61e0" typeStartToken="0x21c5b00" typeEndToken="0x21c6130" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d9030" nameToken="0x21c6a20" typeStartToken="0x21c6340" typeEndToken="0x21c6970" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d90a0" nameToken="0x21c7260" typeStartToken="0x21c6b80" typeEndToken="0x21c71b0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d9110" nameToken="0x21c7aa0" typeStartToken="0x21c73c0" typeEndToken="0x21c79f0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d9180" nameToken="0x21c82e0" typeStartToken="0x21c7c00" typeEndToken="0x21c8230" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d91f0" nameToken="0x21c8b20" typeStartToken="0x21c8440" typeEndToken="0x21c8a70" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d9260" nameToken="0x21c9390" typeStartToken="0x21c8cb0" typeEndToken="0x21c92e0" isArgument="true" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21d92d0" nameToken="0x21d0380" typeStartToken="0x21cff30" typeEndToken="0x21d02d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x21ac0e8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21ac248">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21ac928">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21aca88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21ad168">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21ad2c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21ad9a8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21adb08">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21ae1e8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21ae348">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21afa48">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21afba8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b02b8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b0418">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b0b28">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b0c88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b13c8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b1528">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b1c38">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b1d98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b2478">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b25d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b2ce8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b2e48">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b3588">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b36e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b3df8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b3f58">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b4638">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b4798">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b4ea8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b5008">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b5748">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b58a8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b5fb8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b6118">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b67f8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b6958">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b7038">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b7198">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b7878">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b79d8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b80b8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b8218">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b88f8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b8a58">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b9138">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b9298">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21b9978">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21b9ad8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21bcee8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21bd048">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21bd728">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21bd888">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21bdf68">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21be0c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21be7a8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21be908">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21befe8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21bf148">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21bf828">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21bf988">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c0068">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c01c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c08a8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c0a08">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c10e8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c1248">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c1928">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c1a88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c2198">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c22f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c3e28">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c3f88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c4668">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c47c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c4ea8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c5008">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c56e8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c5848">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c5f28">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c6088">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c6768">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c68c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c6fa8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c7108">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c77e8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c7948">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c8028">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c8188">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c8868">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c89c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c90d8">
+      <value intvalue="6" known="true"/>
+    </values>
+    <values id="0x21c9238">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21c9aa8">
+      <value tokvalue="0x21c9aa0" known="true"/>
+    </values>
+    <values id="0x21cc848">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21ccbe8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21ccf58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21cd2f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21cd698">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21ce178">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21cf228">
+      <value tokvalue="0x21cf220" known="true"/>
+    </values>
+    <values id="0x21cf388">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d0a68">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d0d58">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d10f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21d1728">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d1a18">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d1db8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x21d24f8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x21d2868">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1c1c4e0" file="vx_pidbypass.cpp" linenr="20" str="using" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2dfb0" file="vx_pidbypass.cpp" linenr="20" str="namespace" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e060" file="vx_pidbypass.cpp" linenr="20" str="BlackLib" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e110" file="vx_pidbypass.cpp" linenr="20" str=";" scope="0x1c466d0"/>
+    <token id="0x1c2e1c0" file="vx_pidbypass.cpp" linenr="21" str="using" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e270" file="vx_pidbypass.cpp" linenr="21" str="namespace" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e320" file="vx_pidbypass.cpp" linenr="21" str="ros" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e3d0" file="vx_pidbypass.cpp" linenr="21" str=";" scope="0x1c466d0"/>
+    <token id="0x1c2e480" file="vx_pidbypass.cpp" linenr="23" str="class" scope="0x1c466d0" type="name"/>
+    <token id="0x1c2e530" file="vx_pidbypass.cpp" linenr="23" str="VxPidB" scope="0x1c466d0" type="name" type-scope="0x1c47810"/>
+    <token id="0x1c2e5e0" file="vx_pidbypass.cpp" linenr="23" str="{" scope="0x1c47810" link="0x1c33c00"/>
+    <token id="0x1c2e690" file="vx_pidbypass.cpp" linenr="25" str="private:" scope="0x1c47810" type="name"/>
+    <token id="0x1c2e7f0" file="vx_pidbypass.cpp" linenr="32" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2e8a0" file="vx_pidbypass.cpp" linenr="32" str="Vr_a" scope="0x1c47810" type="name" varId="1" variable="0x1c479b0"/>
+    <token id="0x1c2e950" file="vx_pidbypass.cpp" linenr="32" str=";" scope="0x1c47810"/>
+    <token id="0x1c46c80" file="vx_pidbypass.cpp" linenr="32" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2ea00" file="vx_pidbypass.cpp" linenr="32" str="Vl_a" scope="0x1c47810" type="name" varId="2" variable="0x1c49610"/>
+    <token id="0x1c2eab0" file="vx_pidbypass.cpp" linenr="32" str=";" scope="0x1c47810"/>
+    <token id="0x1c2eb60" file="vx_pidbypass.cpp" linenr="33" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2ec10" file="vx_pidbypass.cpp" linenr="33" str="Vx_t" scope="0x1c47810" type="name" varId="3" variable="0x1c49680"/>
+    <token id="0x1c2ecc0" file="vx_pidbypass.cpp" linenr="33" str=";" scope="0x1c47810"/>
+    <token id="0x1c2ed70" file="vx_pidbypass.cpp" linenr="34" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2ee20" file="vx_pidbypass.cpp" linenr="34" str="Alpha_a" scope="0x1c47810" type="name" varId="4" variable="0x1c496f0"/>
+    <token id="0x1c2eed0" file="vx_pidbypass.cpp" linenr="34" str=";" scope="0x1c47810"/>
+    <token id="0x1c2ef80" file="vx_pidbypass.cpp" linenr="35" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f030" file="vx_pidbypass.cpp" linenr="35" str="Kp_Vx" scope="0x1c47810" type="name" varId="5" variable="0x1c49760"/>
+    <token id="0x1c2f0e0" file="vx_pidbypass.cpp" linenr="35" str=";" scope="0x1c47810"/>
+    <token id="0x1c46d30" file="vx_pidbypass.cpp" linenr="35" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f190" file="vx_pidbypass.cpp" linenr="35" str="Ki_Vx" scope="0x1c47810" type="name" varId="6" variable="0x1c497d0"/>
+    <token id="0x1c2f240" file="vx_pidbypass.cpp" linenr="35" str=";" scope="0x1c47810"/>
+    <token id="0x1c46970" file="vx_pidbypass.cpp" linenr="35" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f2f0" file="vx_pidbypass.cpp" linenr="35" str="Kd_Vx" scope="0x1c47810" type="name" varId="7" variable="0x1c49840"/>
+    <token id="0x1c2f3a0" file="vx_pidbypass.cpp" linenr="35" str=";" scope="0x1c47810"/>
+    <token id="0x1c2f450" file="vx_pidbypass.cpp" linenr="36" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f500" file="vx_pidbypass.cpp" linenr="36" str="Vx_error_sum" scope="0x1c47810" type="name" varId="8" variable="0x1c498b0"/>
+    <token id="0x1c2f5b0" file="vx_pidbypass.cpp" linenr="36" str=";" scope="0x1c47810"/>
+    <token id="0x1c46a20" file="vx_pidbypass.cpp" linenr="36" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f660" file="vx_pidbypass.cpp" linenr="36" str="Vx_error_diff" scope="0x1c47810" type="name" varId="9" variable="0x1c49920"/>
+    <token id="0x1c2f710" file="vx_pidbypass.cpp" linenr="36" str=";" scope="0x1c47810"/>
+    <token id="0x1c46ad0" file="vx_pidbypass.cpp" linenr="36" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f7c0" file="vx_pidbypass.cpp" linenr="36" str="Vx_error_old" scope="0x1c47810" type="name" varId="10" variable="0x1c49990"/>
+    <token id="0x1c2f870" file="vx_pidbypass.cpp" linenr="36" str=";" scope="0x1c47810"/>
+    <token id="0x1c464b0" file="vx_pidbypass.cpp" linenr="36" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2f920" file="vx_pidbypass.cpp" linenr="36" str="Vx_error_integral" scope="0x1c47810" type="name" varId="11" variable="0x1c49a00"/>
+    <token id="0x1c2fa00" file="vx_pidbypass.cpp" linenr="36" str=";" scope="0x1c47810"/>
+    <token id="0x1c2fab0" file="vx_pidbypass.cpp" linenr="37" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c2fb60" file="vx_pidbypass.cpp" linenr="37" str="PWM_Duty_Cycle" scope="0x1c47810" type="name" varId="12" variable="0x1c49a70"/>
+    <token id="0x1c2fc10" file="vx_pidbypass.cpp" linenr="37" str=";" scope="0x1c47810"/>
+    <token id="0x1c2fcc0" file="vx_pidbypass.cpp" linenr="40" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c2fd70" file="vx_pidbypass.cpp" linenr="40" str="PWM_min_percent" scope="0x1c47810" type="name" varId="13" variable="0x1c49ae0"/>
+    <token id="0x1c2fe20" file="vx_pidbypass.cpp" linenr="40" str=";" scope="0x1c47810"/>
+    <token id="0x1c46560" file="vx_pidbypass.cpp" linenr="40" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c2fed0" file="vx_pidbypass.cpp" linenr="40" str="PWM_max_percent" scope="0x1c47810" type="name" varId="14" variable="0x1c49b50"/>
+    <token id="0x1c2ff80" file="vx_pidbypass.cpp" linenr="40" str=";" scope="0x1c47810"/>
+    <token id="0x1c30030" file="vx_pidbypass.cpp" linenr="41" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c300e0" file="vx_pidbypass.cpp" linenr="41" str="PWM_PERIOD_TIME" scope="0x1c47810" type="name" varId="15" variable="0x1c49bc0"/>
+    <token id="0x1c30190" file="vx_pidbypass.cpp" linenr="41" str=";" scope="0x1c47810"/>
+    <token id="0x1c30240" file="vx_pidbypass.cpp" linenr="43" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c302f0" file="vx_pidbypass.cpp" linenr="43" str="vx_pid_loop_rate" scope="0x1c47810" type="name" varId="16" variable="0x1c49c30"/>
+    <token id="0x1c303d0" file="vx_pidbypass.cpp" linenr="43" str=";" scope="0x1c47810"/>
+    <token id="0x1c30480" file="vx_pidbypass.cpp" linenr="45" str="std" scope="0x1c47810" type="name" astParent="0x1c30530"/>
+    <token id="0x1c30530" file="vx_pidbypass.cpp" linenr="45" str="::" scope="0x1c47810" astOperand1="0x1c30480" astOperand2="0x1c30690"/>
+    <token id="0x1c305e0" file="vx_pidbypass.cpp" linenr="45" str="mutex" scope="0x1c47810" type="name"/>
+    <token id="0x1c30690" file="vx_pidbypass.cpp" linenr="45" str="Vx_t_lock" scope="0x1c47810" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c30530"/>
+    <token id="0x1c30740" file="vx_pidbypass.cpp" linenr="45" str=";" scope="0x1c47810"/>
+    <token id="0x1c46610" file="vx_pidbypass.cpp" linenr="45" str="std" scope="0x1c47810" type="name" astParent="0x1c46de0"/>
+    <token id="0x1c46de0" file="vx_pidbypass.cpp" linenr="45" str="::" scope="0x1c47810" astOperand1="0x1c46610" astOperand2="0x1c307f0"/>
+    <token id="0x1c46e90" file="vx_pidbypass.cpp" linenr="45" str="mutex" scope="0x1c47810" type="name"/>
+    <token id="0x1c307f0" file="vx_pidbypass.cpp" linenr="45" str="Alpha_lock" scope="0x1c47810" type="name" varId="18" variable="0x1c49d10" astParent="0x1c46de0"/>
+    <token id="0x1c308a0" file="vx_pidbypass.cpp" linenr="45" str=";" scope="0x1c47810"/>
+    <token id="0x1c46f40" file="vx_pidbypass.cpp" linenr="45" str="std" scope="0x1c47810" type="name" astParent="0x1c46ff0"/>
+    <token id="0x1c46ff0" file="vx_pidbypass.cpp" linenr="45" str="::" scope="0x1c47810" astOperand1="0x1c46f40" astOperand2="0x1c30950"/>
+    <token id="0x1c470a0" file="vx_pidbypass.cpp" linenr="45" str="mutex" scope="0x1c47810" type="name"/>
+    <token id="0x1c30950" file="vx_pidbypass.cpp" linenr="45" str="Vl_Vr_a_lock" scope="0x1c47810" type="name" varId="19" variable="0x1c49d80" astParent="0x1c46ff0"/>
+    <token id="0x1c30a00" file="vx_pidbypass.cpp" linenr="45" str=";" scope="0x1c47810"/>
+    <token id="0x1c30ab0" file="vx_pidbypass.cpp" linenr="47" str="public:" scope="0x1c47810" type="name"/>
+    <token id="0x1c30c10" file="vx_pidbypass.cpp" linenr="49" str="VxPidB" scope="0x1c47810" type="name" function="0x1c2df10" astParent="0x1c30cc0"/>
+    <token id="0x1c30cc0" file="vx_pidbypass.cpp" linenr="49" str="(" scope="0x1c47810" link="0x1c30d70" astOperand1="0x1c30c10"/>
+    <token id="0x1c30d70" file="vx_pidbypass.cpp" linenr="49" str=")" scope="0x1c47810" link="0x1c30cc0"/>
+    <token id="0x1c30e20" file="vx_pidbypass.cpp" linenr="49" str=";" scope="0x1c47810"/>
+    <token id="0x1c30ed0" file="vx_pidbypass.cpp" linenr="50" str="double" scope="0x1c47810" type="name"/>
+    <token id="0x1c30f80" file="vx_pidbypass.cpp" linenr="50" str="getMinMax" scope="0x1c47810" type="name" function="0x1c475b0" astParent="0x1c31030"/>
+    <token id="0x1c31030" file="vx_pidbypass.cpp" linenr="50" str="(" scope="0x1c47810" link="0x1c31660" astOperand1="0x1c30f80" astOperand2="0x1c31450"/>
+    <token id="0x1c310e0" file="vx_pidbypass.cpp" linenr="50" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c31190" file="vx_pidbypass.cpp" linenr="50" str="Cur_Var" scope="0x1c47810" type="name" varId="20" astParent="0x1c31240"/>
+    <token id="0x1c31240" file="vx_pidbypass.cpp" linenr="50" str="," scope="0x1c47810" astParent="0x1c31450" astOperand1="0x1c31190" astOperand2="0x1c313a0"/>
+    <token id="0x1c312f0" file="vx_pidbypass.cpp" linenr="50" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c313a0" file="vx_pidbypass.cpp" linenr="50" str="max" scope="0x1c47810" type="name" varId="21" astParent="0x1c31240"/>
+    <token id="0x1c31450" file="vx_pidbypass.cpp" linenr="50" str="," scope="0x1c47810" astParent="0x1c31030" astOperand1="0x1c31240" astOperand2="0x1c315b0"/>
+    <token id="0x1c31500" file="vx_pidbypass.cpp" linenr="50" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c315b0" file="vx_pidbypass.cpp" linenr="50" str="min" scope="0x1c47810" type="name" varId="22" astParent="0x1c31450"/>
+    <token id="0x1c31660" file="vx_pidbypass.cpp" linenr="50" str=")" scope="0x1c47810" link="0x1c31030"/>
+    <token id="0x1c31710" file="vx_pidbypass.cpp" linenr="50" str=";" scope="0x1c47810"/>
+    <token id="0x1c317c0" file="vx_pidbypass.cpp" linenr="51" str="void" scope="0x1c47810" type="name"/>
+    <token id="0x1c31870" file="vx_pidbypass.cpp" linenr="51" str="vxTargetUpdateCallback" scope="0x1c47810" type="name" function="0x1c47650" astParent="0x1c31950"/>
+    <token id="0x1c31950" file="vx_pidbypass.cpp" linenr="51" str="(" scope="0x1c47810" link="0x1c31f80" astOperand1="0x1c31870" astOperand2="0x1c31e20"/>
+    <token id="0x1c31a00" file="vx_pidbypass.cpp" linenr="51" str="const" scope="0x1c47810" type="name"/>
+    <token id="0x1c31ab0" file="vx_pidbypass.cpp" linenr="51" str="geometry_msgs" scope="0x1c47810" type="name" astParent="0x1c31b60"/>
+    <token id="0x1c31b60" file="vx_pidbypass.cpp" linenr="51" str="::" scope="0x1c47810" astParent="0x1c31cc0" astOperand1="0x1c31ab0" astOperand2="0x1c31c10"/>
+    <token id="0x1c31c10" file="vx_pidbypass.cpp" linenr="51" str="Twist" scope="0x1c47810" type="name" astParent="0x1c31b60"/>
+    <token id="0x1c31cc0" file="vx_pidbypass.cpp" linenr="51" str="::" scope="0x1c47810" astParent="0x1c31e20" astOperand1="0x1c31b60" astOperand2="0x1c31d70"/>
+    <token id="0x1c31d70" file="vx_pidbypass.cpp" linenr="51" str="ConstPtr" scope="0x1c47810" type="name" astParent="0x1c31cc0"/>
+    <token id="0x1c31e20" file="vx_pidbypass.cpp" linenr="51" str="&amp;" scope="0x1c47810" type="op" astParent="0x1c31950" astOperand1="0x1c31cc0" astOperand2="0x1c31ed0"/>
+    <token id="0x1c31ed0" file="vx_pidbypass.cpp" linenr="51" str="msg" scope="0x1c47810" type="name" varId="23" astParent="0x1c31e20"/>
+    <token id="0x1c31f80" file="vx_pidbypass.cpp" linenr="51" str=")" scope="0x1c47810" link="0x1c31950"/>
+    <token id="0x1c32030" file="vx_pidbypass.cpp" linenr="51" str=";" scope="0x1c47810"/>
+    <token id="0x1c320e0" file="vx_pidbypass.cpp" linenr="53" str="void" scope="0x1c47810" type="name"/>
+    <token id="0x1c32190" file="vx_pidbypass.cpp" linenr="53" str="encoderCallback" scope="0x1c47810" type="name" function="0x1c476f0" astParent="0x1c32240"/>
+    <token id="0x1c32240" file="vx_pidbypass.cpp" linenr="53" str="(" scope="0x1c47810" link="0x1c33260" astOperand1="0x1c32190" astOperand2="0x1c32710"/>
+    <token id="0x1c322f0" file="vx_pidbypass.cpp" linenr="53" str="const" scope="0x1c47810" type="name"/>
+    <token id="0x1c323a0" file="vx_pidbypass.cpp" linenr="53" str="controls_msgs" scope="0x1c47810" type="name" astParent="0x1c32450"/>
+    <token id="0x1c32450" file="vx_pidbypass.cpp" linenr="53" str="::" scope="0x1c47810" astParent="0x1c325b0" astOperand1="0x1c323a0" astOperand2="0x1c32500"/>
+    <token id="0x1c32500" file="vx_pidbypass.cpp" linenr="53" str="encoder_msg" scope="0x1c47810" type="name" astParent="0x1c32450"/>
+    <token id="0x1c325b0" file="vx_pidbypass.cpp" linenr="53" str="::" scope="0x1c47810" astParent="0x1c32710" astOperand1="0x1c32450" astOperand2="0x1c32660"/>
+    <token id="0x1c32660" file="vx_pidbypass.cpp" linenr="53" str="ConstPtr" scope="0x1c47810" type="name" astParent="0x1c325b0"/>
+    <token id="0x1c32710" file="vx_pidbypass.cpp" linenr="53" str="&amp;" scope="0x1c47810" type="op" astParent="0x1c32240" astOperand1="0x1c325b0" astOperand2="0x1c331b0"/>
+    <token id="0x1c331b0" file="vx_pidbypass.cpp" linenr="53" str="msg" scope="0x1c47810" type="name" varId="24" variable="0x1c4a360" astParent="0x1c32710"/>
+    <token id="0x1c33260" file="vx_pidbypass.cpp" linenr="53" str=")" scope="0x1c47810" link="0x1c32240"/>
+    <token id="0x1c33310" file="vx_pidbypass.cpp" linenr="53" str=";" scope="0x1c47810"/>
+    <token id="0x1c333c0" file="vx_pidbypass.cpp" linenr="54" str="void" scope="0x1c47810" type="name"/>
+    <token id="0x1c33470" file="vx_pidbypass.cpp" linenr="54" str="implementPid" scope="0x1c47810" type="name" function="0x1c33e20" astParent="0x1c33520"/>
+    <token id="0x1c33520" file="vx_pidbypass.cpp" linenr="54" str="(" scope="0x1c47810" link="0x1c33aa0" astOperand1="0x1c33470" astOperand2="0x1c33730"/>
+    <token id="0x1c335d0" file="vx_pidbypass.cpp" linenr="54" str="int" scope="0x1c47810" type="name"/>
+    <token id="0x1c33680" file="vx_pidbypass.cpp" linenr="54" str="argc" scope="0x1c47810" type="name" varId="25" astParent="0x1c33730"/>
+    <token id="0x1c33730" file="vx_pidbypass.cpp" linenr="54" str="," scope="0x1c47810" astParent="0x1c33520" astOperand1="0x1c33680" astOperand2="0x1c33890"/>
+    <token id="0x1c337e0" file="vx_pidbypass.cpp" linenr="54" str="char" scope="0x1c47810" type="name" astParent="0x1c33890"/>
+    <token id="0x1c33890" file="vx_pidbypass.cpp" linenr="54" str="*" scope="0x1c47810" type="op" isArithmeticalOp="True" astParent="0x1c33730" astOperand1="0x1c337e0" astOperand2="0x1c33940"/>
+    <token id="0x1c33940" file="vx_pidbypass.cpp" linenr="54" str="*" scope="0x1c47810" type="op" isArithmeticalOp="True" astParent="0x1c33890" astOperand1="0x1c339f0"/>
+    <token id="0x1c339f0" file="vx_pidbypass.cpp" linenr="54" str="argv" scope="0x1c47810" type="name" varId="26" astParent="0x1c33940"/>
+    <token id="0x1c33aa0" file="vx_pidbypass.cpp" linenr="54" str=")" scope="0x1c47810" link="0x1c33520"/>
+    <token id="0x1c33b50" file="vx_pidbypass.cpp" linenr="54" str=";" scope="0x1c47810"/>
+    <token id="0x1c33c00" file="vx_pidbypass.cpp" linenr="56" str="}" scope="0x1c47810" link="0x1c2e5e0"/>
+    <token id="0x1c33cb0" file="vx_pidbypass.cpp" linenr="56" str=";" scope="0x1c466d0"/>
+    <token id="0x1c33d60" file="vx_pidbypass.cpp" linenr="60" str="VxPidB" scope="0x1c466d0" type="name" type-scope="0x1c47810" astParent="0x1c340d0"/>
+    <token id="0x1c340d0" file="vx_pidbypass.cpp" linenr="60" str="::" scope="0x1c466d0" astParent="0x1c34230" astOperand1="0x1c33d60" astOperand2="0x1c34180"/>
+    <token id="0x1c34180" file="vx_pidbypass.cpp" linenr="60" str="VxPidB" scope="0x1c466d0" type="name" function="0x1c2df10" astParent="0x1c340d0"/>
+    <token id="0x1c34230" file="vx_pidbypass.cpp" linenr="60" str="(" scope="0x1c466d0" link="0x1c342e0" astParent="0x1c34390" astOperand1="0x1c340d0"/>
+    <token id="0x1c342e0" file="vx_pidbypass.cpp" linenr="60" str=")" scope="0x1c466d0" link="0x1c34230"/>
+    <token id="0x1c34390" file="vx_pidbypass.cpp" linenr="60" str=":" scope="0x1c466d0" astParent="0x1c34650" astOperand1="0x1c34230" astOperand2="0x1c344f0"/>
+    <token id="0x1c34440" file="vx_pidbypass.cpp" linenr="61" str="Vx_t_lock" scope="0x1c466d0" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c344f0"/>
+    <token id="0x1c344f0" file="vx_pidbypass.cpp" linenr="61" str="(" scope="0x1c466d0" link="0x1c345a0" astParent="0x1c34390" astOperand1="0x1c34440"/>
+    <token id="0x1c345a0" file="vx_pidbypass.cpp" linenr="61" str=")" scope="0x1c466d0" link="0x1c344f0"/>
+    <token id="0x1c34650" file="vx_pidbypass.cpp" linenr="61" str="," scope="0x1c466d0" astParent="0x1c34910" astOperand1="0x1c34390" astOperand2="0x1c347b0"/>
+    <token id="0x1c34700" file="vx_pidbypass.cpp" linenr="61" str="Alpha_lock" scope="0x1c466d0" type="name" varId="18" variable="0x1c49d10" astParent="0x1c347b0"/>
+    <token id="0x1c347b0" file="vx_pidbypass.cpp" linenr="61" str="(" scope="0x1c466d0" link="0x1c34860" astParent="0x1c34650" astOperand1="0x1c34700"/>
+    <token id="0x1c34860" file="vx_pidbypass.cpp" linenr="61" str=")" scope="0x1c466d0" link="0x1c347b0"/>
+    <token id="0x1c34910" file="vx_pidbypass.cpp" linenr="61" str="," scope="0x1c466d0" astOperand1="0x1c34650" astOperand2="0x1c34a70"/>
+    <token id="0x1c349c0" file="vx_pidbypass.cpp" linenr="61" str="Vl_Vr_a_lock" scope="0x1c466d0" type="name" varId="19" variable="0x1c49d80" astParent="0x1c34a70"/>
+    <token id="0x1c34a70" file="vx_pidbypass.cpp" linenr="61" str="(" scope="0x1c466d0" link="0x1c34b20" astParent="0x1c34910" astOperand1="0x1c349c0"/>
+    <token id="0x1c34b20" file="vx_pidbypass.cpp" linenr="61" str=")" scope="0x1c466d0" link="0x1c34a70"/>
+    <token id="0x1c34bd0" file="vx_pidbypass.cpp" linenr="62" str="{" scope="0x1c33ec0" link="0x1c378e0"/>
+    <token id="0x1c34c80" file="vx_pidbypass.cpp" linenr="64" str="Vr_a" scope="0x1c33ec0" type="name" varId="1" variable="0x1c479b0" astParent="0x1c34d30"/>
+    <token id="0x1c34d30" file="vx_pidbypass.cpp" linenr="64" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c34c80" astOperand2="0x1c34de0"/>
+    <token id="0x1c34de0" file="vx_pidbypass.cpp" linenr="64" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c34de8" astParent="0x1c34d30"/>
+    <token id="0x1c34e90" file="vx_pidbypass.cpp" linenr="64" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c34f40" file="vx_pidbypass.cpp" linenr="65" str="Vl_a" scope="0x1c33ec0" type="name" varId="2" variable="0x1c49610" astParent="0x1c34ff0"/>
+    <token id="0x1c34ff0" file="vx_pidbypass.cpp" linenr="65" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c34f40" astOperand2="0x1c350a0"/>
+    <token id="0x1c350a0" file="vx_pidbypass.cpp" linenr="65" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c350a8" astParent="0x1c34ff0"/>
+    <token id="0x1c35150" file="vx_pidbypass.cpp" linenr="65" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c35200" file="vx_pidbypass.cpp" linenr="66" str="Vx_t" scope="0x1c33ec0" type="name" varId="3" variable="0x1c49680" astParent="0x1c352b0"/>
+    <token id="0x1c352b0" file="vx_pidbypass.cpp" linenr="66" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c35200" astOperand2="0x1c35360"/>
+    <token id="0x1c35360" file="vx_pidbypass.cpp" linenr="66" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c35368" astParent="0x1c352b0"/>
+    <token id="0x1c35410" file="vx_pidbypass.cpp" linenr="66" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c354c0" file="vx_pidbypass.cpp" linenr="67" str="Alpha_a" scope="0x1c33ec0" type="name" varId="4" variable="0x1c496f0" astParent="0x1c35570"/>
+    <token id="0x1c35570" file="vx_pidbypass.cpp" linenr="67" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c354c0" astOperand2="0x1c35620"/>
+    <token id="0x1c35620" file="vx_pidbypass.cpp" linenr="67" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c35628" astParent="0x1c35570"/>
+    <token id="0x1c356d0" file="vx_pidbypass.cpp" linenr="67" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c35780" file="vx_pidbypass.cpp" linenr="68" str="Kp_Vx" scope="0x1c33ec0" type="name" varId="5" variable="0x1c49760" astParent="0x1c35830"/>
+    <token id="0x1c35830" file="vx_pidbypass.cpp" linenr="68" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c35780" astOperand2="0x1c358e0"/>
+    <token id="0x1c358e0" file="vx_pidbypass.cpp" linenr="68" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c358e8" astParent="0x1c35830"/>
+    <token id="0x1c35990" file="vx_pidbypass.cpp" linenr="68" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c35a40" file="vx_pidbypass.cpp" linenr="69" str="Ki_Vx" scope="0x1c33ec0" type="name" varId="6" variable="0x1c497d0" astParent="0x1c35af0"/>
+    <token id="0x1c35af0" file="vx_pidbypass.cpp" linenr="69" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c35a40" astOperand2="0x1c35ba0"/>
+    <token id="0x1c35ba0" file="vx_pidbypass.cpp" linenr="69" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c35ba8" astParent="0x1c35af0"/>
+    <token id="0x1c35c50" file="vx_pidbypass.cpp" linenr="69" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c35d00" file="vx_pidbypass.cpp" linenr="70" str="Kd_Vx" scope="0x1c33ec0" type="name" varId="7" variable="0x1c49840" astParent="0x1c35db0"/>
+    <token id="0x1c35db0" file="vx_pidbypass.cpp" linenr="70" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c35d00" astOperand2="0x1c35e60"/>
+    <token id="0x1c35e60" file="vx_pidbypass.cpp" linenr="70" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c35e68" astParent="0x1c35db0"/>
+    <token id="0x1c35f10" file="vx_pidbypass.cpp" linenr="70" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c35fc0" file="vx_pidbypass.cpp" linenr="71" str="Vx_error_sum" scope="0x1c33ec0" type="name" varId="8" variable="0x1c498b0" astParent="0x1c36070"/>
+    <token id="0x1c36070" file="vx_pidbypass.cpp" linenr="71" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c35fc0" astOperand2="0x1c36120"/>
+    <token id="0x1c36120" file="vx_pidbypass.cpp" linenr="71" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c36128" astParent="0x1c36070"/>
+    <token id="0x1c361d0" file="vx_pidbypass.cpp" linenr="71" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c36280" file="vx_pidbypass.cpp" linenr="72" str="Vx_error_diff" scope="0x1c33ec0" type="name" varId="9" variable="0x1c49920" astParent="0x1c36330"/>
+    <token id="0x1c36330" file="vx_pidbypass.cpp" linenr="72" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c36280" astOperand2="0x1c363e0"/>
+    <token id="0x1c363e0" file="vx_pidbypass.cpp" linenr="72" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c363e8" astParent="0x1c36330"/>
+    <token id="0x1c36490" file="vx_pidbypass.cpp" linenr="72" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c36540" file="vx_pidbypass.cpp" linenr="73" str="Vx_error_old" scope="0x1c33ec0" type="name" varId="10" variable="0x1c49990" astParent="0x1c365f0"/>
+    <token id="0x1c365f0" file="vx_pidbypass.cpp" linenr="73" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c36540" astOperand2="0x1c366a0"/>
+    <token id="0x1c366a0" file="vx_pidbypass.cpp" linenr="73" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c366a8" astParent="0x1c365f0"/>
+    <token id="0x1c36750" file="vx_pidbypass.cpp" linenr="73" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c36800" file="vx_pidbypass.cpp" linenr="74" str="Vx_error_integral" scope="0x1c33ec0" type="name" varId="11" variable="0x1c49a00" astParent="0x1c368e0"/>
+    <token id="0x1c368e0" file="vx_pidbypass.cpp" linenr="74" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c36800" astOperand2="0x1c36990"/>
+    <token id="0x1c36990" file="vx_pidbypass.cpp" linenr="74" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c36998" astParent="0x1c368e0"/>
+    <token id="0x1c36a40" file="vx_pidbypass.cpp" linenr="74" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c36af0" file="vx_pidbypass.cpp" linenr="75" str="PWM_Duty_Cycle" scope="0x1c33ec0" type="name" varId="12" variable="0x1c49a70" astParent="0x1c36ba0"/>
+    <token id="0x1c36ba0" file="vx_pidbypass.cpp" linenr="75" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c36af0" astOperand2="0x1c36c50"/>
+    <token id="0x1c36c50" file="vx_pidbypass.cpp" linenr="75" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c36c58" astParent="0x1c36ba0"/>
+    <token id="0x1c36d00" file="vx_pidbypass.cpp" linenr="75" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c36db0" file="vx_pidbypass.cpp" linenr="76" str="vx_pid_loop_rate" scope="0x1c33ec0" type="name" varId="16" variable="0x1c49c30" astParent="0x1c36e90"/>
+    <token id="0x1c36e90" file="vx_pidbypass.cpp" linenr="76" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c36db0" astOperand2="0x1c36f40"/>
+    <token id="0x1c36f40" file="vx_pidbypass.cpp" linenr="76" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c36f48" astParent="0x1c36e90"/>
+    <token id="0x1c36ff0" file="vx_pidbypass.cpp" linenr="76" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c370a0" file="vx_pidbypass.cpp" linenr="79" str="PWM_min_percent" scope="0x1c33ec0" type="name" varId="13" variable="0x1c49ae0" astParent="0x1c37150"/>
+    <token id="0x1c37150" file="vx_pidbypass.cpp" linenr="79" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c370a0" astOperand2="0x1c37200"/>
+    <token id="0x1c37200" file="vx_pidbypass.cpp" linenr="79" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c37208" astParent="0x1c37150"/>
+    <token id="0x1c372b0" file="vx_pidbypass.cpp" linenr="79" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c37360" file="vx_pidbypass.cpp" linenr="79" str="PWM_max_percent" scope="0x1c33ec0" type="name" varId="14" variable="0x1c49b50" astParent="0x1c37410"/>
+    <token id="0x1c37410" file="vx_pidbypass.cpp" linenr="79" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c37360" astOperand2="0x1c374c0"/>
+    <token id="0x1c374c0" file="vx_pidbypass.cpp" linenr="79" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c374c8" astParent="0x1c37410"/>
+    <token id="0x1c37570" file="vx_pidbypass.cpp" linenr="79" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c37620" file="vx_pidbypass.cpp" linenr="80" str="PWM_PERIOD_TIME" scope="0x1c33ec0" type="name" varId="15" variable="0x1c49bc0" astParent="0x1c376d0"/>
+    <token id="0x1c376d0" file="vx_pidbypass.cpp" linenr="80" str="=" scope="0x1c33ec0" type="op" isAssignmentOp="True" astOperand1="0x1c37620" astOperand2="0x1c37780"/>
+    <token id="0x1c37780" file="vx_pidbypass.cpp" linenr="80" str="0" scope="0x1c33ec0" type="number" isInt="True" values="0x1c37788" astParent="0x1c376d0"/>
+    <token id="0x1c37830" file="vx_pidbypass.cpp" linenr="80" str=";" scope="0x1c33ec0"/>
+    <token id="0x1c378e0" file="vx_pidbypass.cpp" linenr="83" str="}" scope="0x1c33ec0" link="0x1c34bd0"/>
+    <token id="0x1c37990" file="vx_pidbypass.cpp" linenr="85" str="double" scope="0x1c466d0" type="name"/>
+    <token id="0x1c37a40" file="vx_pidbypass.cpp" linenr="85" str="VxPidB" scope="0x1c466d0" type="name" type-scope="0x1c47810" astParent="0x1c37af0"/>
+    <token id="0x1c37af0" file="vx_pidbypass.cpp" linenr="85" str="::" scope="0x1c466d0" astParent="0x1c37c50" astOperand1="0x1c37a40" astOperand2="0x1c37ba0"/>
+    <token id="0x1c37ba0" file="vx_pidbypass.cpp" linenr="85" str="getMinMax" scope="0x1c466d0" type="name" function="0x1c475b0" astParent="0x1c37af0"/>
+    <token id="0x1c37c50" file="vx_pidbypass.cpp" linenr="85" str="(" scope="0x1c466d0" link="0x1c38280" astOperand1="0x1c37af0" astOperand2="0x1c38070"/>
+    <token id="0x1c37d00" file="vx_pidbypass.cpp" linenr="85" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c37db0" file="vx_pidbypass.cpp" linenr="85" str="Cur_Var" scope="0x1c466d0" type="name" varId="27" variable="0x1c4a1a0" astParent="0x1c37e60"/>
+    <token id="0x1c37e60" file="vx_pidbypass.cpp" linenr="85" str="," scope="0x1c466d0" astParent="0x1c38070" astOperand1="0x1c37db0" astOperand2="0x1c37fc0"/>
+    <token id="0x1c37f10" file="vx_pidbypass.cpp" linenr="85" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c37fc0" file="vx_pidbypass.cpp" linenr="85" str="max" scope="0x1c466d0" type="name" varId="28" variable="0x1c4a210" astParent="0x1c37e60"/>
+    <token id="0x1c38070" file="vx_pidbypass.cpp" linenr="85" str="," scope="0x1c466d0" astParent="0x1c37c50" astOperand1="0x1c37e60" astOperand2="0x1c381d0"/>
+    <token id="0x1c38120" file="vx_pidbypass.cpp" linenr="85" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c381d0" file="vx_pidbypass.cpp" linenr="85" str="min" scope="0x1c466d0" type="name" varId="29" variable="0x1c4a280" astParent="0x1c38070"/>
+    <token id="0x1c38280" file="vx_pidbypass.cpp" linenr="85" str=")" scope="0x1c466d0" link="0x1c37c50"/>
+    <token id="0x1c38330" file="vx_pidbypass.cpp" linenr="86" str="{" scope="0x1c48860" link="0x1c393b0"/>
+    <token id="0x1c383e0" file="vx_pidbypass.cpp" linenr="88" str="if" scope="0x1c48860" type="name" astParent="0x1c38490"/>
+    <token id="0x1c38490" file="vx_pidbypass.cpp" linenr="88" str="(" scope="0x1c48860" link="0x1c38750" astOperand1="0x1c383e0" astOperand2="0x1c385f0"/>
+    <token id="0x1c38540" file="vx_pidbypass.cpp" linenr="88" str="Cur_Var" scope="0x1c48860" type="name" varId="27" variable="0x1c4a1a0" astParent="0x1c385f0"/>
+    <token id="0x1c385f0" file="vx_pidbypass.cpp" linenr="88" str="&gt;" scope="0x1c48860" type="op" isComparisonOp="True" astParent="0x1c38490" astOperand1="0x1c38540" astOperand2="0x1c386a0"/>
+    <token id="0x1c386a0" file="vx_pidbypass.cpp" linenr="88" str="max" scope="0x1c48860" type="name" varId="28" variable="0x1c4a210" values="0x1c386a8" astParent="0x1c385f0"/>
+    <token id="0x1c38750" file="vx_pidbypass.cpp" linenr="88" str=")" scope="0x1c48860" link="0x1c38490"/>
+    <token id="0x1c2e740" file="vx_pidbypass.cpp" linenr="88" str="{" scope="0x1c48990" link="0x1c30b60"/>
+    <token id="0x1c38800" file="vx_pidbypass.cpp" linenr="89" str="return" scope="0x1c48990" type="name" astOperand1="0x1c388b0"/>
+    <token id="0x1c388b0" file="vx_pidbypass.cpp" linenr="89" str="max" scope="0x1c48990" type="name" varId="28" variable="0x1c4a210" astParent="0x1c38800"/>
+    <token id="0x1c38960" file="vx_pidbypass.cpp" linenr="89" str=";" scope="0x1c48990"/>
+    <token id="0x1c30b60" file="vx_pidbypass.cpp" linenr="89" str="}" scope="0x1c48990" link="0x1c2e740"/>
+    <token id="0x1c38a10" file="vx_pidbypass.cpp" linenr="90" str="else" scope="0x1c48860" type="name"/>
+    <token id="0x1c2acd0" file="vx_pidbypass.cpp" linenr="90" str="{" scope="0x1c48bf0" link="0x1c2ad80"/>
+    <token id="0x1c38ac0" file="vx_pidbypass.cpp" linenr="90" str="if" scope="0x1c48bf0" type="name" astParent="0x1c38b70"/>
+    <token id="0x1c38b70" file="vx_pidbypass.cpp" linenr="90" str="(" scope="0x1c48bf0" link="0x1c38e30" astOperand1="0x1c38ac0" astOperand2="0x1c38cd0"/>
+    <token id="0x1c38c20" file="vx_pidbypass.cpp" linenr="90" str="Cur_Var" scope="0x1c48bf0" type="name" varId="27" variable="0x1c4a1a0" astParent="0x1c38cd0"/>
+    <token id="0x1c38cd0" file="vx_pidbypass.cpp" linenr="90" str="&lt;" scope="0x1c48bf0" type="op" isComparisonOp="True" astParent="0x1c38b70" astOperand1="0x1c38c20" astOperand2="0x1c38d80"/>
+    <token id="0x1c38d80" file="vx_pidbypass.cpp" linenr="90" str="min" scope="0x1c48bf0" type="name" varId="29" variable="0x1c4a280" values="0x1c38d88" astParent="0x1c38cd0"/>
+    <token id="0x1c38e30" file="vx_pidbypass.cpp" linenr="90" str=")" scope="0x1c48bf0" link="0x1c38b70"/>
+    <token id="0x1c3aa90" file="vx_pidbypass.cpp" linenr="90" str="{" scope="0x1c48d20" link="0x1c45c70"/>
+    <token id="0x1c38ee0" file="vx_pidbypass.cpp" linenr="91" str="return" scope="0x1c48d20" type="name" astOperand1="0x1c38f90"/>
+    <token id="0x1c38f90" file="vx_pidbypass.cpp" linenr="91" str="min" scope="0x1c48d20" type="name" varId="29" variable="0x1c4a280" astParent="0x1c38ee0"/>
+    <token id="0x1c39040" file="vx_pidbypass.cpp" linenr="91" str=";" scope="0x1c48d20"/>
+    <token id="0x1c45c70" file="vx_pidbypass.cpp" linenr="91" str="}" scope="0x1c48d20" link="0x1c3aa90"/>
+    <token id="0x1c390f0" file="vx_pidbypass.cpp" linenr="92" str="else" scope="0x1c48bf0" type="name"/>
+    <token id="0x1c2dab0" file="vx_pidbypass.cpp" linenr="92" str="{" scope="0x1c48f80" link="0x1c46bd0"/>
+    <token id="0x1c391a0" file="vx_pidbypass.cpp" linenr="93" str="return" scope="0x1c48f80" type="name" astOperand1="0x1c39250"/>
+    <token id="0x1c39250" file="vx_pidbypass.cpp" linenr="93" str="Cur_Var" scope="0x1c48f80" type="name" varId="27" variable="0x1c4a1a0" astParent="0x1c391a0"/>
+    <token id="0x1c39300" file="vx_pidbypass.cpp" linenr="93" str=";" scope="0x1c48f80"/>
+    <token id="0x1c46bd0" file="vx_pidbypass.cpp" linenr="93" str="}" scope="0x1c48f80" link="0x1c2dab0"/>
+    <token id="0x1c2ad80" file="vx_pidbypass.cpp" linenr="93" str="}" scope="0x1c48bf0" link="0x1c2acd0"/>
+    <token id="0x1c393b0" file="vx_pidbypass.cpp" linenr="94" str="}" scope="0x1c48860" link="0x1c38330"/>
+    <token id="0x1c39460" file="vx_pidbypass.cpp" linenr="96" str="void" scope="0x1c466d0" type="name"/>
+    <token id="0x1c39510" file="vx_pidbypass.cpp" linenr="96" str="VxPidB" scope="0x1c466d0" type="name" type-scope="0x1c47810" astParent="0x1c395c0"/>
+    <token id="0x1c395c0" file="vx_pidbypass.cpp" linenr="96" str="::" scope="0x1c466d0" astParent="0x1c39750" astOperand1="0x1c39510" astOperand2="0x1c39670"/>
+    <token id="0x1c39670" file="vx_pidbypass.cpp" linenr="96" str="vxTargetUpdateCallback" scope="0x1c466d0" type="name" function="0x1c47650" astParent="0x1c395c0"/>
+    <token id="0x1c39750" file="vx_pidbypass.cpp" linenr="96" str="(" scope="0x1c466d0" link="0x1c39d80" astOperand1="0x1c395c0" astOperand2="0x1c39c20"/>
+    <token id="0x1c39800" file="vx_pidbypass.cpp" linenr="96" str="const" scope="0x1c466d0" type="name"/>
+    <token id="0x1c398b0" file="vx_pidbypass.cpp" linenr="96" str="geometry_msgs" scope="0x1c466d0" type="name" astParent="0x1c39960"/>
+    <token id="0x1c39960" file="vx_pidbypass.cpp" linenr="96" str="::" scope="0x1c466d0" astParent="0x1c39ac0" astOperand1="0x1c398b0" astOperand2="0x1c39a10"/>
+    <token id="0x1c39a10" file="vx_pidbypass.cpp" linenr="96" str="Twist" scope="0x1c466d0" type="name" astParent="0x1c39960"/>
+    <token id="0x1c39ac0" file="vx_pidbypass.cpp" linenr="96" str="::" scope="0x1c466d0" astParent="0x1c39c20" astOperand1="0x1c39960" astOperand2="0x1c39b70"/>
+    <token id="0x1c39b70" file="vx_pidbypass.cpp" linenr="96" str="ConstPtr" scope="0x1c466d0" type="name" astParent="0x1c39ac0"/>
+    <token id="0x1c39c20" file="vx_pidbypass.cpp" linenr="96" str="&amp;" scope="0x1c466d0" type="op" astParent="0x1c39750" astOperand1="0x1c39ac0" astOperand2="0x1c39cd0"/>
+    <token id="0x1c39cd0" file="vx_pidbypass.cpp" linenr="96" str="msg" scope="0x1c466d0" type="name" varId="30" variable="0x1c4a2f0" astParent="0x1c39c20"/>
+    <token id="0x1c39d80" file="vx_pidbypass.cpp" linenr="96" str=")" scope="0x1c466d0" link="0x1c39750"/>
+    <token id="0x1c39e30" file="vx_pidbypass.cpp" linenr="97" str="{" scope="0x1c490b0" link="0x1c3b6f0"/>
+    <token id="0x1c39ee0" file="vx_pidbypass.cpp" linenr="99" str="Vx_t_lock" scope="0x1c490b0" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c39f90"/>
+    <token id="0x1c39f90" file="vx_pidbypass.cpp" linenr="99" str="." scope="0x1c490b0" astParent="0x1c3a0f0" astOperand1="0x1c39ee0" astOperand2="0x1c3a040"/>
+    <token id="0x1c3a040" file="vx_pidbypass.cpp" linenr="99" str="lock" scope="0x1c490b0" type="name" astParent="0x1c39f90"/>
+    <token id="0x1c3a0f0" file="vx_pidbypass.cpp" linenr="99" str="(" scope="0x1c490b0" link="0x1c3a1a0" astOperand1="0x1c39f90"/>
+    <token id="0x1c3a1a0" file="vx_pidbypass.cpp" linenr="99" str=")" scope="0x1c490b0" link="0x1c3a0f0"/>
+    <token id="0x1c3a250" file="vx_pidbypass.cpp" linenr="99" str=";" scope="0x1c490b0"/>
+    <token id="0x1c3a300" file="vx_pidbypass.cpp" linenr="100" str="Alpha_lock" scope="0x1c490b0" type="name" varId="18" variable="0x1c49d10" astParent="0x1c3a3b0"/>
+    <token id="0x1c3a3b0" file="vx_pidbypass.cpp" linenr="100" str="." scope="0x1c490b0" astParent="0x1c3a510" astOperand1="0x1c3a300" astOperand2="0x1c3a460"/>
+    <token id="0x1c3a460" file="vx_pidbypass.cpp" linenr="100" str="lock" scope="0x1c490b0" type="name" astParent="0x1c3a3b0"/>
+    <token id="0x1c3a510" file="vx_pidbypass.cpp" linenr="100" str="(" scope="0x1c490b0" link="0x1c3a5c0" astOperand1="0x1c3a3b0"/>
+    <token id="0x1c3a5c0" file="vx_pidbypass.cpp" linenr="100" str=")" scope="0x1c490b0" link="0x1c3a510"/>
+    <token id="0x1c3a670" file="vx_pidbypass.cpp" linenr="100" str=";" scope="0x1c490b0"/>
+    <token id="0x1c3a720" file="vx_pidbypass.cpp" linenr="101" str="Vx_t" scope="0x1c490b0" type="name" varId="3" variable="0x1c49680" astParent="0x1c3a7d0"/>
+    <token id="0x1c3a7d0" file="vx_pidbypass.cpp" linenr="101" str="=" scope="0x1c490b0" type="op" isAssignmentOp="True" astOperand1="0x1c3a720" astOperand2="0x1c3abf0"/>
+    <token id="0x1c3a880" file="vx_pidbypass.cpp" linenr="101" str="msg" scope="0x1c490b0" type="name" varId="30" variable="0x1c4a2f0" astParent="0x1c3a9e0"/>
+    <token id="0x1c3a9e0" file="vx_pidbypass.cpp" linenr="101" str="." scope="0x1c490b0" astParent="0x1c3abf0" astOperand1="0x1c3a880" astOperand2="0x1c3ab40"/>
+    <token id="0x1c3ab40" file="vx_pidbypass.cpp" linenr="101" str="linear" scope="0x1c490b0" type="name" varId="31" astParent="0x1c3a9e0"/>
+    <token id="0x1c3abf0" file="vx_pidbypass.cpp" linenr="101" str="." scope="0x1c490b0" astParent="0x1c3a7d0" astOperand1="0x1c3a9e0" astOperand2="0x1c3aca0"/>
+    <token id="0x1c3aca0" file="vx_pidbypass.cpp" linenr="101" str="x" scope="0x1c490b0" type="name" varId="32" astParent="0x1c3abf0"/>
+    <token id="0x1c3ad50" file="vx_pidbypass.cpp" linenr="101" str=";" scope="0x1c490b0"/>
+    <token id="0x1c3aeb0" file="vx_pidbypass.cpp" linenr="103" str="Alpha_lock" scope="0x1c490b0" type="name" varId="18" variable="0x1c49d10" astParent="0x1c3af60"/>
+    <token id="0x1c3af60" file="vx_pidbypass.cpp" linenr="103" str="." scope="0x1c490b0" astParent="0x1c3b0c0" astOperand1="0x1c3aeb0" astOperand2="0x1c3b010"/>
+    <token id="0x1c3b010" file="vx_pidbypass.cpp" linenr="103" str="unlock" scope="0x1c490b0" type="name" astParent="0x1c3af60"/>
+    <token id="0x1c3b0c0" file="vx_pidbypass.cpp" linenr="103" str="(" scope="0x1c490b0" link="0x1c3b170" astOperand1="0x1c3af60"/>
+    <token id="0x1c3b170" file="vx_pidbypass.cpp" linenr="103" str=")" scope="0x1c490b0" link="0x1c3b0c0"/>
+    <token id="0x1c3b220" file="vx_pidbypass.cpp" linenr="103" str=";" scope="0x1c490b0"/>
+    <token id="0x1c3b2d0" file="vx_pidbypass.cpp" linenr="104" str="Vx_t_lock" scope="0x1c490b0" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c3b380"/>
+    <token id="0x1c3b380" file="vx_pidbypass.cpp" linenr="104" str="." scope="0x1c490b0" astParent="0x1c3b4e0" astOperand1="0x1c3b2d0" astOperand2="0x1c3b430"/>
+    <token id="0x1c3b430" file="vx_pidbypass.cpp" linenr="104" str="unlock" scope="0x1c490b0" type="name" astParent="0x1c3b380"/>
+    <token id="0x1c3b4e0" file="vx_pidbypass.cpp" linenr="104" str="(" scope="0x1c490b0" link="0x1c3b590" astOperand1="0x1c3b380"/>
+    <token id="0x1c3b590" file="vx_pidbypass.cpp" linenr="104" str=")" scope="0x1c490b0" link="0x1c3b4e0"/>
+    <token id="0x1c3b640" file="vx_pidbypass.cpp" linenr="104" str=";" scope="0x1c490b0"/>
+    <token id="0x1c3b6f0" file="vx_pidbypass.cpp" linenr="106" str="}" scope="0x1c490b0" link="0x1c39e30"/>
+    <token id="0x1c3b7a0" file="vx_pidbypass.cpp" linenr="122" str="void" scope="0x1c466d0" type="name"/>
+    <token id="0x1c3b850" file="vx_pidbypass.cpp" linenr="122" str="VxPidB" scope="0x1c466d0" type="name" type-scope="0x1c47810" astParent="0x1c3b900"/>
+    <token id="0x1c3b900" file="vx_pidbypass.cpp" linenr="122" str="::" scope="0x1c466d0" astParent="0x1c3ba60" astOperand1="0x1c3b850" astOperand2="0x1c3b9b0"/>
+    <token id="0x1c3b9b0" file="vx_pidbypass.cpp" linenr="122" str="implementPid" scope="0x1c466d0" type="name" function="0x1c33e20" astParent="0x1c3b900"/>
+    <token id="0x1c3ba60" file="vx_pidbypass.cpp" linenr="122" str="(" scope="0x1c466d0" link="0x1c3bfe0" astOperand1="0x1c3b900" astOperand2="0x1c3bc70"/>
+    <token id="0x1c3bb10" file="vx_pidbypass.cpp" linenr="122" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c3bbc0" file="vx_pidbypass.cpp" linenr="122" str="argc" scope="0x1c466d0" type="name" varId="33" variable="0x1c4a3d0" astParent="0x1c3bc70"/>
+    <token id="0x1c3bc70" file="vx_pidbypass.cpp" linenr="122" str="," scope="0x1c466d0" astParent="0x1c3ba60" astOperand1="0x1c3bbc0" astOperand2="0x1c3bdd0"/>
+    <token id="0x1c3bd20" file="vx_pidbypass.cpp" linenr="122" str="char" scope="0x1c466d0" type="name" astParent="0x1c3bdd0"/>
+    <token id="0x1c3bdd0" file="vx_pidbypass.cpp" linenr="122" str="*" scope="0x1c466d0" type="op" isArithmeticalOp="True" astParent="0x1c3bc70" astOperand1="0x1c3bd20" astOperand2="0x1c3be80"/>
+    <token id="0x1c3be80" file="vx_pidbypass.cpp" linenr="122" str="*" scope="0x1c466d0" type="op" isArithmeticalOp="True" astParent="0x1c3bdd0" astOperand1="0x1c3bf30"/>
+    <token id="0x1c3bf30" file="vx_pidbypass.cpp" linenr="122" str="argv" scope="0x1c466d0" type="name" varId="34" variable="0x1c4a440" astParent="0x1c3be80"/>
+    <token id="0x1c3bfe0" file="vx_pidbypass.cpp" linenr="122" str=")" scope="0x1c466d0" link="0x1c3ba60"/>
+    <token id="0x1c3c090" file="vx_pidbypass.cpp" linenr="123" str="{" scope="0x1c491e0" link="0x1c44bf0"/>
+    <token id="0x1c3c140" file="vx_pidbypass.cpp" linenr="125" str="ros" scope="0x1c491e0" type="name" astParent="0x1c3c1f0"/>
+    <token id="0x1c3c1f0" file="vx_pidbypass.cpp" linenr="125" str="::" scope="0x1c491e0" astParent="0x1c3c350" astOperand1="0x1c3c140" astOperand2="0x1c3c2a0"/>
+    <token id="0x1c3c2a0" file="vx_pidbypass.cpp" linenr="125" str="init" scope="0x1c491e0" type="name" astParent="0x1c3c1f0"/>
+    <token id="0x1c3c350" file="vx_pidbypass.cpp" linenr="125" str="(" scope="0x1c491e0" link="0x1c3c770" astOperand1="0x1c3c1f0" astOperand2="0x1c3c610"/>
+    <token id="0x1c3c400" file="vx_pidbypass.cpp" linenr="125" str="argc" scope="0x1c491e0" type="name" varId="33" variable="0x1c4a3d0" astParent="0x1c3c4b0"/>
+    <token id="0x1c3c4b0" file="vx_pidbypass.cpp" linenr="125" str="," scope="0x1c491e0" astParent="0x1c3c610" astOperand1="0x1c3c400" astOperand2="0x1c3c560"/>
+    <token id="0x1c3c560" file="vx_pidbypass.cpp" linenr="125" str="argv" scope="0x1c491e0" type="name" varId="34" variable="0x1c4a440" astParent="0x1c3c4b0"/>
+    <token id="0x1c3c610" file="vx_pidbypass.cpp" linenr="125" str="," scope="0x1c491e0" astParent="0x1c3c350" astOperand1="0x1c3c4b0" astOperand2="0x1c3c6c0"/>
+    <token id="0x1c3c6c0" file="vx_pidbypass.cpp" linenr="125" str="&quot;VxPidB_node&quot;" scope="0x1c491e0" type="string" strlen="11" values="0x1c3c6c8" astParent="0x1c3c610"/>
+    <token id="0x1c3c770" file="vx_pidbypass.cpp" linenr="125" str=")" scope="0x1c491e0" link="0x1c3c350"/>
+    <token id="0x1c3c820" file="vx_pidbypass.cpp" linenr="125" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3c8d0" file="vx_pidbypass.cpp" linenr="127" str="ros" scope="0x1c491e0" type="name" astParent="0x1c3c980"/>
+    <token id="0x1c3c980" file="vx_pidbypass.cpp" linenr="127" str="::" scope="0x1c491e0" astOperand1="0x1c3c8d0" astOperand2="0x1c3cae0"/>
+    <token id="0x1c3ca30" file="vx_pidbypass.cpp" linenr="127" str="NodeHandle" scope="0x1c491e0" type="name"/>
+    <token id="0x1c3cae0" file="vx_pidbypass.cpp" linenr="127" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3c980"/>
+    <token id="0x1c3cb90" file="vx_pidbypass.cpp" linenr="127" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3cc40" file="vx_pidbypass.cpp" linenr="128" str="ros" scope="0x1c491e0" type="name" astParent="0x1c3ccf0"/>
+    <token id="0x1c3ccf0" file="vx_pidbypass.cpp" linenr="128" str="::" scope="0x1c491e0" astOperand1="0x1c3cc40" astOperand2="0x1c3ce50"/>
+    <token id="0x1c3cda0" file="vx_pidbypass.cpp" linenr="128" str="Subscriber" scope="0x1c491e0" type="name"/>
+    <token id="0x1c3ce50" file="vx_pidbypass.cpp" linenr="128" str="Override_Subscriber" scope="0x1c491e0" type="name" varId="36" variable="0x1c49e60" astParent="0x1c3ccf0"/>
+    <token id="0x1c3cf30" file="vx_pidbypass.cpp" linenr="128" str=";" scope="0x1c491e0"/>
+    <token id="0x1c47150" file="vx_pidbypass.cpp" linenr="128" str="Override_Subscriber" scope="0x1c491e0" type="name" varId="36" variable="0x1c49e60" astParent="0x1c47230"/>
+    <token id="0x1c47230" file="vx_pidbypass.cpp" linenr="128" str="=" scope="0x1c491e0" type="op" isAssignmentOp="True" astOperand1="0x1c47150" astOperand2="0x1c3d560"/>
+    <token id="0x1c3cfe0" file="vx_pidbypass.cpp" linenr="128" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3d090"/>
+    <token id="0x1c3d090" file="vx_pidbypass.cpp" linenr="128" str="." scope="0x1c491e0" astParent="0x1c3d560" astOperand1="0x1c3cfe0" astOperand2="0x1c3d140"/>
+    <token id="0x1c3d140" file="vx_pidbypass.cpp" linenr="128" str="subscribe" scope="0x1c491e0" type="name" astParent="0x1c3d090"/>
+    <token id="0x1c3d1f0" file="vx_pidbypass.cpp" linenr="128" str="&lt;" scope="0x1c491e0" link="0x1c3d4b0"/>
+    <token id="0x1c3d2a0" file="vx_pidbypass.cpp" linenr="128" str="geometry_msgs" scope="0x1c491e0" type="name"/>
+    <token id="0x1c3d350" file="vx_pidbypass.cpp" linenr="128" str="::" scope="0x1c491e0"/>
+    <token id="0x1c3d400" file="vx_pidbypass.cpp" linenr="128" str="Twist" scope="0x1c491e0" type="name"/>
+    <token id="0x1c3d4b0" file="vx_pidbypass.cpp" linenr="128" str="&gt;" scope="0x1c491e0" link="0x1c3d1f0"/>
+    <token id="0x1c3d560" file="vx_pidbypass.cpp" linenr="128" str="(" scope="0x1c491e0" link="0x1c3dd20" astParent="0x1c47230" astOperand1="0x1c3d090" astOperand2="0x1c3dbc0"/>
+    <token id="0x1c3d610" file="vx_pidbypass.cpp" linenr="128" str="&quot;target_pose&quot;" scope="0x1c491e0" type="string" strlen="11" values="0x1c3d618" astParent="0x1c3d6c0"/>
+    <token id="0x1c3d6c0" file="vx_pidbypass.cpp" linenr="128" str="," scope="0x1c491e0" astParent="0x1c3d820" astOperand1="0x1c3d610" astOperand2="0x1c3d770"/>
+    <token id="0x1c3d770" file="vx_pidbypass.cpp" linenr="128" str="5" scope="0x1c491e0" type="number" isInt="True" values="0x1c3d778" astParent="0x1c3d6c0"/>
+    <token id="0x1c3d820" file="vx_pidbypass.cpp" linenr="128" str="," scope="0x1c491e0" astParent="0x1c3dbc0" astOperand1="0x1c3d6c0" astOperand2="0x1c3d8d0"/>
+    <token id="0x1c3d8d0" file="vx_pidbypass.cpp" linenr="129" str="&amp;" scope="0x1c491e0" type="op" astParent="0x1c3d820" astOperand1="0x1c3da30"/>
+    <token id="0x1c3d980" file="vx_pidbypass.cpp" linenr="129" str="VxPidB" scope="0x1c491e0" type="name" type-scope="0x1c47810" astParent="0x1c3da30"/>
+    <token id="0x1c3da30" file="vx_pidbypass.cpp" linenr="129" str="::" scope="0x1c491e0" astParent="0x1c3d8d0" astOperand1="0x1c3d980" astOperand2="0x1c3dae0"/>
+    <token id="0x1c3dae0" file="vx_pidbypass.cpp" linenr="129" str="vxTargetUpdateCallback" scope="0x1c491e0" type="name" astParent="0x1c3da30"/>
+    <token id="0x1c3dbc0" file="vx_pidbypass.cpp" linenr="129" str="," scope="0x1c491e0" astParent="0x1c3d560" astOperand1="0x1c3d820" astOperand2="0x1c3dc70"/>
+    <token id="0x1c3dc70" file="vx_pidbypass.cpp" linenr="129" str="this" scope="0x1c491e0" type="name" astParent="0x1c3dbc0"/>
+    <token id="0x1c3dd20" file="vx_pidbypass.cpp" linenr="129" str=")" scope="0x1c491e0" link="0x1c3d560"/>
+    <token id="0x1c3ddd0" file="vx_pidbypass.cpp" linenr="129" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3de80" file="vx_pidbypass.cpp" linenr="134" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3df30"/>
+    <token id="0x1c3df30" file="vx_pidbypass.cpp" linenr="134" str="." scope="0x1c491e0" astParent="0x1c3e090" astOperand1="0x1c3de80" astOperand2="0x1c3dfe0"/>
+    <token id="0x1c3dfe0" file="vx_pidbypass.cpp" linenr="134" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3df30"/>
+    <token id="0x1c3e090" file="vx_pidbypass.cpp" linenr="134" str="(" scope="0x1c491e0" link="0x1c3e3b0" astOperand1="0x1c3df30" astOperand2="0x1c3e250"/>
+    <token id="0x1c3e170" file="vx_pidbypass.cpp" linenr="134" str="&quot;/VxPidB_node/Kp_Vx&quot;" scope="0x1c491e0" type="string" strlen="18" values="0x1c3e178" astParent="0x1c3e250"/>
+    <token id="0x1c3e250" file="vx_pidbypass.cpp" linenr="134" str="," scope="0x1c491e0" astParent="0x1c3e090" astOperand1="0x1c3e170" astOperand2="0x1c3e300"/>
+    <token id="0x1c3e300" file="vx_pidbypass.cpp" linenr="134" str="Kp_Vx" scope="0x1c491e0" type="name" varId="5" variable="0x1c49760" astParent="0x1c3e250"/>
+    <token id="0x1c3e3b0" file="vx_pidbypass.cpp" linenr="134" str=")" scope="0x1c491e0" link="0x1c3e090"/>
+    <token id="0x1c3e460" file="vx_pidbypass.cpp" linenr="134" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3e510" file="vx_pidbypass.cpp" linenr="135" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3e5c0"/>
+    <token id="0x1c3e5c0" file="vx_pidbypass.cpp" linenr="135" str="." scope="0x1c491e0" astParent="0x1c3e720" astOperand1="0x1c3e510" astOperand2="0x1c3e670"/>
+    <token id="0x1c3e670" file="vx_pidbypass.cpp" linenr="135" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3e5c0"/>
+    <token id="0x1c3e720" file="vx_pidbypass.cpp" linenr="135" str="(" scope="0x1c491e0" link="0x1c3ea10" astOperand1="0x1c3e5c0" astOperand2="0x1c3e8b0"/>
+    <token id="0x1c3e7d0" file="vx_pidbypass.cpp" linenr="135" str="&quot;/VxPidB_node/Ki_Vx&quot;" scope="0x1c491e0" type="string" strlen="18" values="0x1c3e7d8" astParent="0x1c3e8b0"/>
+    <token id="0x1c3e8b0" file="vx_pidbypass.cpp" linenr="135" str="," scope="0x1c491e0" astParent="0x1c3e720" astOperand1="0x1c3e7d0" astOperand2="0x1c3e960"/>
+    <token id="0x1c3e960" file="vx_pidbypass.cpp" linenr="135" str="Ki_Vx" scope="0x1c491e0" type="name" varId="6" variable="0x1c497d0" astParent="0x1c3e8b0"/>
+    <token id="0x1c3ea10" file="vx_pidbypass.cpp" linenr="135" str=")" scope="0x1c491e0" link="0x1c3e720"/>
+    <token id="0x1c3eac0" file="vx_pidbypass.cpp" linenr="135" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3eb70" file="vx_pidbypass.cpp" linenr="136" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3ec20"/>
+    <token id="0x1c3ec20" file="vx_pidbypass.cpp" linenr="136" str="." scope="0x1c491e0" astParent="0x1c3ed80" astOperand1="0x1c3eb70" astOperand2="0x1c3ecd0"/>
+    <token id="0x1c3ecd0" file="vx_pidbypass.cpp" linenr="136" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3ec20"/>
+    <token id="0x1c3ed80" file="vx_pidbypass.cpp" linenr="136" str="(" scope="0x1c491e0" link="0x1c3f070" astOperand1="0x1c3ec20" astOperand2="0x1c3ef10"/>
+    <token id="0x1c3ee30" file="vx_pidbypass.cpp" linenr="136" str="&quot;/VxPidB_node/Kd_Vx&quot;" scope="0x1c491e0" type="string" strlen="18" values="0x1c3ee38" astParent="0x1c3ef10"/>
+    <token id="0x1c3ef10" file="vx_pidbypass.cpp" linenr="136" str="," scope="0x1c491e0" astParent="0x1c3ed80" astOperand1="0x1c3ee30" astOperand2="0x1c3efc0"/>
+    <token id="0x1c3efc0" file="vx_pidbypass.cpp" linenr="136" str="Kd_Vx" scope="0x1c491e0" type="name" varId="7" variable="0x1c49840" astParent="0x1c3ef10"/>
+    <token id="0x1c3f070" file="vx_pidbypass.cpp" linenr="136" str=")" scope="0x1c491e0" link="0x1c3ed80"/>
+    <token id="0x1c3f120" file="vx_pidbypass.cpp" linenr="136" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3f1d0" file="vx_pidbypass.cpp" linenr="138" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3f280"/>
+    <token id="0x1c3f280" file="vx_pidbypass.cpp" linenr="138" str="." scope="0x1c491e0" astParent="0x1c3f3e0" astOperand1="0x1c3f1d0" astOperand2="0x1c3f330"/>
+    <token id="0x1c3f330" file="vx_pidbypass.cpp" linenr="138" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3f280"/>
+    <token id="0x1c3f3e0" file="vx_pidbypass.cpp" linenr="138" str="(" scope="0x1c491e0" link="0x1c3f6d0" astOperand1="0x1c3f280" astOperand2="0x1c3f570"/>
+    <token id="0x1c3f490" file="vx_pidbypass.cpp" linenr="138" str="&quot;/VxPidB_node/PWM_min&quot;" scope="0x1c491e0" type="string" strlen="20" values="0x1c3f498" astParent="0x1c3f570"/>
+    <token id="0x1c3f570" file="vx_pidbypass.cpp" linenr="138" str="," scope="0x1c491e0" astParent="0x1c3f3e0" astOperand1="0x1c3f490" astOperand2="0x1c3f620"/>
+    <token id="0x1c3f620" file="vx_pidbypass.cpp" linenr="138" str="PWM_min_percent" scope="0x1c491e0" type="name" varId="13" variable="0x1c49ae0" astParent="0x1c3f570"/>
+    <token id="0x1c3f6d0" file="vx_pidbypass.cpp" linenr="138" str=")" scope="0x1c491e0" link="0x1c3f3e0"/>
+    <token id="0x1c3f780" file="vx_pidbypass.cpp" linenr="138" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3f830" file="vx_pidbypass.cpp" linenr="139" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3f8e0"/>
+    <token id="0x1c3f8e0" file="vx_pidbypass.cpp" linenr="139" str="." scope="0x1c491e0" astParent="0x1c3fa40" astOperand1="0x1c3f830" astOperand2="0x1c3f990"/>
+    <token id="0x1c3f990" file="vx_pidbypass.cpp" linenr="139" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3f8e0"/>
+    <token id="0x1c3fa40" file="vx_pidbypass.cpp" linenr="139" str="(" scope="0x1c491e0" link="0x1c3fd30" astOperand1="0x1c3f8e0" astOperand2="0x1c3fbd0"/>
+    <token id="0x1c3faf0" file="vx_pidbypass.cpp" linenr="139" str="&quot;/VxPidB_node/PWM_max&quot;" scope="0x1c491e0" type="string" strlen="20" values="0x1c3faf8" astParent="0x1c3fbd0"/>
+    <token id="0x1c3fbd0" file="vx_pidbypass.cpp" linenr="139" str="," scope="0x1c491e0" astParent="0x1c3fa40" astOperand1="0x1c3faf0" astOperand2="0x1c3fc80"/>
+    <token id="0x1c3fc80" file="vx_pidbypass.cpp" linenr="139" str="PWM_max_percent" scope="0x1c491e0" type="name" varId="14" variable="0x1c49b50" astParent="0x1c3fbd0"/>
+    <token id="0x1c3fd30" file="vx_pidbypass.cpp" linenr="139" str=")" scope="0x1c491e0" link="0x1c3fa40"/>
+    <token id="0x1c3fde0" file="vx_pidbypass.cpp" linenr="139" str=";" scope="0x1c491e0"/>
+    <token id="0x1c3fe90" file="vx_pidbypass.cpp" linenr="140" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c3ff40"/>
+    <token id="0x1c3ff40" file="vx_pidbypass.cpp" linenr="140" str="." scope="0x1c491e0" astParent="0x1c400a0" astOperand1="0x1c3fe90" astOperand2="0x1c3fff0"/>
+    <token id="0x1c3fff0" file="vx_pidbypass.cpp" linenr="140" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c3ff40"/>
+    <token id="0x1c400a0" file="vx_pidbypass.cpp" linenr="140" str="(" scope="0x1c491e0" link="0x1c403c0" astOperand1="0x1c3ff40" astOperand2="0x1c40260"/>
+    <token id="0x1c40180" file="vx_pidbypass.cpp" linenr="140" str="&quot;/VxPidB_node/PWM_PERIOD_TIME&quot;" scope="0x1c491e0" type="string" strlen="28" values="0x1c40188" astParent="0x1c40260"/>
+    <token id="0x1c40260" file="vx_pidbypass.cpp" linenr="140" str="," scope="0x1c491e0" astParent="0x1c400a0" astOperand1="0x1c40180" astOperand2="0x1c40310"/>
+    <token id="0x1c40310" file="vx_pidbypass.cpp" linenr="140" str="PWM_PERIOD_TIME" scope="0x1c491e0" type="name" varId="15" variable="0x1c49bc0" astParent="0x1c40260"/>
+    <token id="0x1c403c0" file="vx_pidbypass.cpp" linenr="140" str=")" scope="0x1c491e0" link="0x1c400a0"/>
+    <token id="0x1c40470" file="vx_pidbypass.cpp" linenr="140" str=";" scope="0x1c491e0"/>
+    <token id="0x1c40520" file="vx_pidbypass.cpp" linenr="141" str="nh_" scope="0x1c491e0" type="name" varId="35" variable="0x1c49df0" astParent="0x1c405d0"/>
+    <token id="0x1c405d0" file="vx_pidbypass.cpp" linenr="141" str="." scope="0x1c491e0" astParent="0x1c40730" astOperand1="0x1c40520" astOperand2="0x1c40680"/>
+    <token id="0x1c40680" file="vx_pidbypass.cpp" linenr="141" str="getParam" scope="0x1c491e0" type="name" astParent="0x1c405d0"/>
+    <token id="0x1c40730" file="vx_pidbypass.cpp" linenr="141" str="(" scope="0x1c491e0" link="0x1c409f0" astOperand1="0x1c405d0" astOperand2="0x1c40890"/>
+    <token id="0x1c407e0" file="vx_pidbypass.cpp" linenr="141" str="&quot;/VxPidB_node/vx_pid_loop_rate&quot;" scope="0x1c491e0" type="string" strlen="29" values="0x1c407e8" astParent="0x1c40890"/>
+    <token id="0x1c40890" file="vx_pidbypass.cpp" linenr="141" str="," scope="0x1c491e0" astParent="0x1c40730" astOperand1="0x1c407e0" astOperand2="0x1c40940"/>
+    <token id="0x1c40940" file="vx_pidbypass.cpp" linenr="141" str="vx_pid_loop_rate" scope="0x1c491e0" type="name" varId="16" variable="0x1c49c30" astParent="0x1c40890"/>
+    <token id="0x1c409f0" file="vx_pidbypass.cpp" linenr="141" str=")" scope="0x1c491e0" link="0x1c40730"/>
+    <token id="0x1c40aa0" file="vx_pidbypass.cpp" linenr="141" str=";" scope="0x1c491e0"/>
+    <token id="0x1c40b50" file="vx_pidbypass.cpp" linenr="146" str="BlackLib" scope="0x1c491e0" type="name" astParent="0x1c40c00"/>
+    <token id="0x1c40c00" file="vx_pidbypass.cpp" linenr="146" str="::" scope="0x1c491e0" astParent="0x1c40e10" astOperand1="0x1c40b50" astOperand2="0x1c40d60"/>
+    <token id="0x1c40cb0" file="vx_pidbypass.cpp" linenr="146" str="BlackPWM" scope="0x1c491e0" type="name"/>
+    <token id="0x1c40d60" file="vx_pidbypass.cpp" linenr="146" str="pwm_signal_pin" scope="0x1c491e0" type="name" varId="37" variable="0x1c49f00" astParent="0x1c40c00"/>
+    <token id="0x1c40e10" file="vx_pidbypass.cpp" linenr="146" str="(" scope="0x1c491e0" link="0x1c410d0" astOperand1="0x1c40c00" astOperand2="0x1c40f70"/>
+    <token id="0x1c40ec0" file="vx_pidbypass.cpp" linenr="146" str="BlackLib" scope="0x1c491e0" type="name" astParent="0x1c40f70"/>
+    <token id="0x1c40f70" file="vx_pidbypass.cpp" linenr="146" str="::" scope="0x1c491e0" astParent="0x1c40e10" astOperand1="0x1c40ec0" astOperand2="0x1c41020"/>
+    <token id="0x1c41020" file="vx_pidbypass.cpp" linenr="146" str="EHRPWM2A" scope="0x1c491e0" type="name" astParent="0x1c40f70"/>
+    <token id="0x1c410d0" file="vx_pidbypass.cpp" linenr="146" str=")" scope="0x1c491e0" link="0x1c40e10"/>
+    <token id="0x1c41180" file="vx_pidbypass.cpp" linenr="146" str=";" scope="0x1c491e0"/>
+    <token id="0x1c41230" file="vx_pidbypass.cpp" linenr="148" str="pwm_signal_pin" scope="0x1c491e0" type="name" varId="37" variable="0x1c49f00" astParent="0x1c412e0"/>
+    <token id="0x1c412e0" file="vx_pidbypass.cpp" linenr="148" str="." scope="0x1c491e0" astParent="0x1c41440" astOperand1="0x1c41230" astOperand2="0x1c41390"/>
+    <token id="0x1c41390" file="vx_pidbypass.cpp" linenr="148" str="setPeriodTime" scope="0x1c491e0" type="name" astParent="0x1c412e0"/>
+    <token id="0x1c41440" file="vx_pidbypass.cpp" linenr="148" str="(" scope="0x1c491e0" link="0x1c415a0" astOperand1="0x1c412e0" astOperand2="0x1c414f0"/>
+    <token id="0x1c414f0" file="vx_pidbypass.cpp" linenr="148" str="5000000" scope="0x1c491e0" type="number" isInt="True" values="0x1c414f8" astParent="0x1c41440"/>
+    <token id="0x1c415a0" file="vx_pidbypass.cpp" linenr="148" str=")" scope="0x1c491e0" link="0x1c41440"/>
+    <token id="0x1c41650" file="vx_pidbypass.cpp" linenr="148" str=";" scope="0x1c491e0"/>
+    <token id="0x1c41700" file="vx_pidbypass.cpp" linenr="150" str="ros" scope="0x1c491e0" type="name" astParent="0x1c417b0"/>
+    <token id="0x1c417b0" file="vx_pidbypass.cpp" linenr="150" str="::" scope="0x1c491e0" astParent="0x1c419c0" astOperand1="0x1c41700" astOperand2="0x1c41910"/>
+    <token id="0x1c41860" file="vx_pidbypass.cpp" linenr="150" str="Rate" scope="0x1c491e0" type="name"/>
+    <token id="0x1c41910" file="vx_pidbypass.cpp" linenr="150" str="loop_rate" scope="0x1c491e0" type="name" varId="38" variable="0x1c49f70" astParent="0x1c417b0"/>
+    <token id="0x1c419c0" file="vx_pidbypass.cpp" linenr="150" str="(" scope="0x1c491e0" link="0x1c41b20" astOperand1="0x1c417b0" astOperand2="0x1c41a70"/>
+    <token id="0x1c41a70" file="vx_pidbypass.cpp" linenr="150" str="10" scope="0x1c491e0" type="number" isInt="True" values="0x1c41a78" astParent="0x1c419c0"/>
+    <token id="0x1c41b20" file="vx_pidbypass.cpp" linenr="150" str=")" scope="0x1c491e0" link="0x1c419c0"/>
+    <token id="0x1c41bd0" file="vx_pidbypass.cpp" linenr="150" str=";" scope="0x1c491e0"/>
+    <token id="0x1c41c80" file="vx_pidbypass.cpp" linenr="152" str="while" scope="0x1c491e0" type="name" astParent="0x1c41d30"/>
+    <token id="0x1c41d30" file="vx_pidbypass.cpp" linenr="152" str="(" scope="0x1c491e0" link="0x1c42150" astOperand1="0x1c41c80" astOperand2="0x1c41ff0"/>
+    <token id="0x1c41de0" file="vx_pidbypass.cpp" linenr="152" str="ros" scope="0x1c491e0" type="name" astParent="0x1c41e90"/>
+    <token id="0x1c41e90" file="vx_pidbypass.cpp" linenr="152" str="::" scope="0x1c491e0" astParent="0x1c41ff0" astOperand1="0x1c41de0" astOperand2="0x1c41f40"/>
+    <token id="0x1c41f40" file="vx_pidbypass.cpp" linenr="152" str="ok" scope="0x1c491e0" type="name" astParent="0x1c41e90"/>
+    <token id="0x1c41ff0" file="vx_pidbypass.cpp" linenr="152" str="(" scope="0x1c491e0" link="0x1c420a0" astParent="0x1c41d30" astOperand1="0x1c41e90"/>
+    <token id="0x1c420a0" file="vx_pidbypass.cpp" linenr="152" str=")" scope="0x1c491e0" link="0x1c41ff0"/>
+    <token id="0x1c42150" file="vx_pidbypass.cpp" linenr="152" str=")" scope="0x1c491e0" link="0x1c41d30"/>
+    <token id="0x1c42200" file="vx_pidbypass.cpp" linenr="153" str="{" scope="0x1c49310" link="0x1c44b40"/>
+    <token id="0x1c422b0" file="vx_pidbypass.cpp" linenr="166" str="Vx_t_lock" scope="0x1c49310" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c42360"/>
+    <token id="0x1c42360" file="vx_pidbypass.cpp" linenr="166" str="." scope="0x1c49310" astParent="0x1c424c0" astOperand1="0x1c422b0" astOperand2="0x1c42410"/>
+    <token id="0x1c42410" file="vx_pidbypass.cpp" linenr="166" str="lock" scope="0x1c49310" type="name" astParent="0x1c42360"/>
+    <token id="0x1c424c0" file="vx_pidbypass.cpp" linenr="166" str="(" scope="0x1c49310" link="0x1c42570" astOperand1="0x1c42360"/>
+    <token id="0x1c42570" file="vx_pidbypass.cpp" linenr="166" str=")" scope="0x1c49310" link="0x1c424c0"/>
+    <token id="0x1c42620" file="vx_pidbypass.cpp" linenr="166" str=";" scope="0x1c49310"/>
+    <token id="0x1c426d0" file="vx_pidbypass.cpp" linenr="167" str="Alpha_lock" scope="0x1c49310" type="name" varId="18" variable="0x1c49d10" astParent="0x1c42780"/>
+    <token id="0x1c42780" file="vx_pidbypass.cpp" linenr="167" str="." scope="0x1c49310" astParent="0x1c428e0" astOperand1="0x1c426d0" astOperand2="0x1c42830"/>
+    <token id="0x1c42830" file="vx_pidbypass.cpp" linenr="167" str="lock" scope="0x1c49310" type="name" astParent="0x1c42780"/>
+    <token id="0x1c428e0" file="vx_pidbypass.cpp" linenr="167" str="(" scope="0x1c49310" link="0x1c42990" astOperand1="0x1c42780"/>
+    <token id="0x1c42990" file="vx_pidbypass.cpp" linenr="167" str=")" scope="0x1c49310" link="0x1c428e0"/>
+    <token id="0x1c42a40" file="vx_pidbypass.cpp" linenr="167" str=";" scope="0x1c49310"/>
+    <token id="0x1c42af0" file="vx_pidbypass.cpp" linenr="168" str="double" scope="0x1c49310" type="name"/>
+    <token id="0x1c42ba0" file="vx_pidbypass.cpp" linenr="168" str="PWM_Duty_Cycle" scope="0x1c49310" type="name" varId="39" variable="0x1c49fe0"/>
+    <token id="0x1c42c50" file="vx_pidbypass.cpp" linenr="168" str=";" scope="0x1c49310"/>
+    <token id="0x1c472e0" file="vx_pidbypass.cpp" linenr="168" str="PWM_Duty_Cycle" scope="0x1c49310" type="name" varId="39" variable="0x1c49fe0" astParent="0x1c47390"/>
+    <token id="0x1c47390" file="vx_pidbypass.cpp" linenr="168" str="=" scope="0x1c49310" type="op" isAssignmentOp="True" astOperand1="0x1c472e0" astOperand2="0x1c42d00"/>
+    <token id="0x1c42d00" file="vx_pidbypass.cpp" linenr="168" str="Vx_t" scope="0x1c49310" type="name" varId="3" variable="0x1c49680" astParent="0x1c47390"/>
+    <token id="0x1c42db0" file="vx_pidbypass.cpp" linenr="168" str=";" scope="0x1c49310"/>
+    <token id="0x1c42e60" file="vx_pidbypass.cpp" linenr="169" str="Alpha_lock" scope="0x1c49310" type="name" varId="18" variable="0x1c49d10" astParent="0x1c42f10"/>
+    <token id="0x1c42f10" file="vx_pidbypass.cpp" linenr="169" str="." scope="0x1c49310" astParent="0x1c43070" astOperand1="0x1c42e60" astOperand2="0x1c42fc0"/>
+    <token id="0x1c42fc0" file="vx_pidbypass.cpp" linenr="169" str="unlock" scope="0x1c49310" type="name" astParent="0x1c42f10"/>
+    <token id="0x1c43070" file="vx_pidbypass.cpp" linenr="169" str="(" scope="0x1c49310" link="0x1c43120" astOperand1="0x1c42f10"/>
+    <token id="0x1c43120" file="vx_pidbypass.cpp" linenr="169" str=")" scope="0x1c49310" link="0x1c43070"/>
+    <token id="0x1c431d0" file="vx_pidbypass.cpp" linenr="169" str=";" scope="0x1c49310"/>
+    <token id="0x1c43280" file="vx_pidbypass.cpp" linenr="170" str="Vx_t_lock" scope="0x1c49310" type="name" varId="17" variable="0x1c49ca0" astParent="0x1c43330"/>
+    <token id="0x1c43330" file="vx_pidbypass.cpp" linenr="170" str="." scope="0x1c49310" astParent="0x1c43490" astOperand1="0x1c43280" astOperand2="0x1c433e0"/>
+    <token id="0x1c433e0" file="vx_pidbypass.cpp" linenr="170" str="unlock" scope="0x1c49310" type="name" astParent="0x1c43330"/>
+    <token id="0x1c43490" file="vx_pidbypass.cpp" linenr="170" str="(" scope="0x1c49310" link="0x1c43540" astOperand1="0x1c43330"/>
+    <token id="0x1c43540" file="vx_pidbypass.cpp" linenr="170" str=")" scope="0x1c49310" link="0x1c43490"/>
+    <token id="0x1c435f0" file="vx_pidbypass.cpp" linenr="170" str=";" scope="0x1c49310"/>
+    <token id="0x1c436a0" file="vx_pidbypass.cpp" linenr="174" str="PWM_Duty_Cycle" scope="0x1c49310" type="name" varId="39" variable="0x1c49fe0" astParent="0x1c43750"/>
+    <token id="0x1c43750" file="vx_pidbypass.cpp" linenr="174" str="=" scope="0x1c49310" type="op" isAssignmentOp="True" astOperand1="0x1c436a0" astOperand2="0x1c438b0"/>
+    <token id="0x1c43800" file="vx_pidbypass.cpp" linenr="174" str="getMinMax" scope="0x1c49310" type="name" function="0x1c475b0" astParent="0x1c438b0"/>
+    <token id="0x1c438b0" file="vx_pidbypass.cpp" linenr="174" str="(" scope="0x1c49310" link="0x1c43cd0" astParent="0x1c43750" astOperand1="0x1c43800" astOperand2="0x1c43b70"/>
+    <token id="0x1c43960" file="vx_pidbypass.cpp" linenr="174" str="PWM_Duty_Cycle" scope="0x1c49310" type="name" varId="39" variable="0x1c49fe0" astParent="0x1c43a10"/>
+    <token id="0x1c43a10" file="vx_pidbypass.cpp" linenr="174" str="," scope="0x1c49310" astParent="0x1c43b70" astOperand1="0x1c43960" astOperand2="0x1c43ac0"/>
+    <token id="0x1c43ac0" file="vx_pidbypass.cpp" linenr="174" str="85" scope="0x1c49310" type="number" isInt="True" values="0x1c43ac8" astParent="0x1c43a10"/>
+    <token id="0x1c43b70" file="vx_pidbypass.cpp" linenr="174" str="," scope="0x1c49310" astParent="0x1c438b0" astOperand1="0x1c43a10" astOperand2="0x1c43c20"/>
+    <token id="0x1c43c20" file="vx_pidbypass.cpp" linenr="174" str="20" scope="0x1c49310" type="number" isInt="True" values="0x1c43c28" astParent="0x1c43b70"/>
+    <token id="0x1c43cd0" file="vx_pidbypass.cpp" linenr="174" str=")" scope="0x1c49310" link="0x1c438b0"/>
+    <token id="0x1c43d80" file="vx_pidbypass.cpp" linenr="174" str=";" scope="0x1c49310"/>
+    <token id="0x1c43e30" file="vx_pidbypass.cpp" linenr="176" str="pwm_signal_pin" scope="0x1c49310" type="name" varId="37" variable="0x1c49f00" astParent="0x1c43ee0"/>
+    <token id="0x1c43ee0" file="vx_pidbypass.cpp" linenr="176" str="." scope="0x1c49310" astParent="0x1c44040" astOperand1="0x1c43e30" astOperand2="0x1c43f90"/>
+    <token id="0x1c43f90" file="vx_pidbypass.cpp" linenr="176" str="setDutyPercent" scope="0x1c49310" type="name" astParent="0x1c43ee0"/>
+    <token id="0x1c44040" file="vx_pidbypass.cpp" linenr="176" str="(" scope="0x1c49310" link="0x1c441a0" astOperand1="0x1c43ee0" astOperand2="0x1c440f0"/>
+    <token id="0x1c440f0" file="vx_pidbypass.cpp" linenr="176" str="PWM_Duty_Cycle" scope="0x1c49310" type="name" varId="39" variable="0x1c49fe0" astParent="0x1c44040"/>
+    <token id="0x1c441a0" file="vx_pidbypass.cpp" linenr="176" str=")" scope="0x1c49310" link="0x1c44040"/>
+    <token id="0x1c44250" file="vx_pidbypass.cpp" linenr="176" str=";" scope="0x1c49310"/>
+    <token id="0x1c44300" file="vx_pidbypass.cpp" linenr="178" str="ros" scope="0x1c49310" type="name" astParent="0x1c443b0"/>
+    <token id="0x1c443b0" file="vx_pidbypass.cpp" linenr="178" str="::" scope="0x1c49310" astParent="0x1c44510" astOperand1="0x1c44300" astOperand2="0x1c44460"/>
+    <token id="0x1c44460" file="vx_pidbypass.cpp" linenr="178" str="spin" scope="0x1c49310" type="name" astParent="0x1c443b0"/>
+    <token id="0x1c44510" file="vx_pidbypass.cpp" linenr="178" str="(" scope="0x1c49310" link="0x1c445c0" astOperand1="0x1c443b0"/>
+    <token id="0x1c445c0" file="vx_pidbypass.cpp" linenr="178" str=")" scope="0x1c49310" link="0x1c44510"/>
+    <token id="0x1c44670" file="vx_pidbypass.cpp" linenr="178" str=";" scope="0x1c49310"/>
+    <token id="0x1c44720" file="vx_pidbypass.cpp" linenr="180" str="loop_rate" scope="0x1c49310" type="name" varId="38" variable="0x1c49f70" astParent="0x1c447d0"/>
+    <token id="0x1c447d0" file="vx_pidbypass.cpp" linenr="180" str="." scope="0x1c49310" astParent="0x1c44930" astOperand1="0x1c44720" astOperand2="0x1c44880"/>
+    <token id="0x1c44880" file="vx_pidbypass.cpp" linenr="180" str="sleep" scope="0x1c49310" type="name" astParent="0x1c447d0"/>
+    <token id="0x1c44930" file="vx_pidbypass.cpp" linenr="180" str="(" scope="0x1c49310" link="0x1c449e0" astOperand1="0x1c447d0"/>
+    <token id="0x1c449e0" file="vx_pidbypass.cpp" linenr="180" str=")" scope="0x1c49310" link="0x1c44930"/>
+    <token id="0x1c44a90" file="vx_pidbypass.cpp" linenr="180" str=";" scope="0x1c49310"/>
+    <token id="0x1c44b40" file="vx_pidbypass.cpp" linenr="182" str="}" scope="0x1c49310" link="0x1c42200"/>
+    <token id="0x1c44bf0" file="vx_pidbypass.cpp" linenr="183" str="}" scope="0x1c491e0" link="0x1c3c090"/>
+    <token id="0x1c44ca0" file="vx_pidbypass.cpp" linenr="185" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c44d50" file="vx_pidbypass.cpp" linenr="185" str="main" scope="0x1c466d0" type="name" function="0x1c49440" astParent="0x1c44e00"/>
+    <token id="0x1c44e00" file="vx_pidbypass.cpp" linenr="185" str="(" scope="0x1c466d0" link="0x1c45380" astOperand1="0x1c44d50" astOperand2="0x1c45010"/>
+    <token id="0x1c44eb0" file="vx_pidbypass.cpp" linenr="185" str="int" scope="0x1c466d0" type="name"/>
+    <token id="0x1c44f60" file="vx_pidbypass.cpp" linenr="185" str="argc" scope="0x1c466d0" type="name" varId="40" variable="0x1c4a0c0" astParent="0x1c45010"/>
+    <token id="0x1c45010" file="vx_pidbypass.cpp" linenr="185" str="," scope="0x1c466d0" astParent="0x1c44e00" astOperand1="0x1c44f60" astOperand2="0x1c45170"/>
+    <token id="0x1c450c0" file="vx_pidbypass.cpp" linenr="185" str="char" scope="0x1c466d0" type="name" astParent="0x1c45170"/>
+    <token id="0x1c45170" file="vx_pidbypass.cpp" linenr="185" str="*" scope="0x1c466d0" type="op" isArithmeticalOp="True" astParent="0x1c45010" astOperand1="0x1c450c0" astOperand2="0x1c45220"/>
+    <token id="0x1c45220" file="vx_pidbypass.cpp" linenr="185" str="*" scope="0x1c466d0" type="op" isArithmeticalOp="True" astParent="0x1c45170" astOperand1="0x1c452d0"/>
+    <token id="0x1c452d0" file="vx_pidbypass.cpp" linenr="185" str="argv" scope="0x1c466d0" type="name" varId="41" variable="0x1c4a130" astParent="0x1c45220"/>
+    <token id="0x1c45380" file="vx_pidbypass.cpp" linenr="185" str=")" scope="0x1c466d0" link="0x1c44e00"/>
+    <token id="0x1c45430" file="vx_pidbypass.cpp" linenr="186" str="{" scope="0x1c494e0" link="0x1c46400"/>
+    <token id="0x1c454e0" file="vx_pidbypass.cpp" linenr="188" str="VxPidB" scope="0x1c494e0" type="name" type-scope="0x1c47810" astParent="0x1c45590"/>
+    <token id="0x1c45590" file="vx_pidbypass.cpp" linenr="188" str="*" scope="0x1c494e0" type="op" isArithmeticalOp="True" astOperand1="0x1c454e0" astOperand2="0x1c45640"/>
+    <token id="0x1c45640" file="vx_pidbypass.cpp" linenr="188" str="vxPidB" scope="0x1c494e0" type="name" varId="42" variable="0x1c4a050" astParent="0x1c45590"/>
+    <token id="0x1c456f0" file="vx_pidbypass.cpp" linenr="188" str=";" scope="0x1c494e0"/>
+    <token id="0x1c47440" file="vx_pidbypass.cpp" linenr="188" str="vxPidB" scope="0x1c494e0" type="name" varId="42" variable="0x1c4a050" astParent="0x1c474f0"/>
+    <token id="0x1c474f0" file="vx_pidbypass.cpp" linenr="188" str="=" scope="0x1c494e0" type="op" isAssignmentOp="True" astOperand1="0x1c47440" astOperand2="0x1c457a0"/>
+    <token id="0x1c457a0" file="vx_pidbypass.cpp" linenr="188" str="new" scope="0x1c494e0" type="name" astParent="0x1c474f0" astOperand1="0x1c45900"/>
+    <token id="0x1c45850" file="vx_pidbypass.cpp" linenr="188" str="VxPidB" scope="0x1c494e0" type="name" type-scope="0x1c47810" astParent="0x1c45900"/>
+    <token id="0x1c45900" file="vx_pidbypass.cpp" linenr="188" str="(" scope="0x1c494e0" link="0x1c459b0" astParent="0x1c457a0" astOperand1="0x1c45850"/>
+    <token id="0x1c459b0" file="vx_pidbypass.cpp" linenr="188" str=")" scope="0x1c494e0" link="0x1c45900"/>
+    <token id="0x1c45a60" file="vx_pidbypass.cpp" linenr="188" str=";" scope="0x1c494e0"/>
+    <token id="0x1c45b10" file="vx_pidbypass.cpp" linenr="190" str="vxPidB" scope="0x1c494e0" type="name" varId="42" variable="0x1c4a050" astParent="0x1c45bc0"/>
+    <token id="0x1c45bc0" file="vx_pidbypass.cpp" linenr="190" str="." scope="0x1c494e0" astParent="0x1c45dd0" astOperand1="0x1c45b10" astOperand2="0x1c45d20"/>
+    <token id="0x1c45d20" file="vx_pidbypass.cpp" linenr="190" str="implementPid" scope="0x1c494e0" type="name" function="0x1c33e20" astParent="0x1c45bc0"/>
+    <token id="0x1c45dd0" file="vx_pidbypass.cpp" linenr="190" str="(" scope="0x1c494e0" link="0x1c46090" astOperand1="0x1c45bc0" astOperand2="0x1c45f30"/>
+    <token id="0x1c45e80" file="vx_pidbypass.cpp" linenr="190" str="argc" scope="0x1c494e0" type="name" varId="40" variable="0x1c4a0c0" astParent="0x1c45f30"/>
+    <token id="0x1c45f30" file="vx_pidbypass.cpp" linenr="190" str="," scope="0x1c494e0" astParent="0x1c45dd0" astOperand1="0x1c45e80" astOperand2="0x1c45fe0"/>
+    <token id="0x1c45fe0" file="vx_pidbypass.cpp" linenr="190" str="argv" scope="0x1c494e0" type="name" varId="41" variable="0x1c4a130" astParent="0x1c45f30"/>
+    <token id="0x1c46090" file="vx_pidbypass.cpp" linenr="190" str=")" scope="0x1c494e0" link="0x1c45dd0"/>
+    <token id="0x1c46140" file="vx_pidbypass.cpp" linenr="190" str=";" scope="0x1c494e0"/>
+    <token id="0x1c461f0" file="vx_pidbypass.cpp" linenr="192" str="delete" scope="0x1c494e0" type="name" astOperand1="0x1c462a0"/>
+    <token id="0x1c462a0" file="vx_pidbypass.cpp" linenr="192" str="vxPidB" scope="0x1c494e0" type="name" varId="42" variable="0x1c4a050" astParent="0x1c461f0"/>
+    <token id="0x1c46350" file="vx_pidbypass.cpp" linenr="192" str=";" scope="0x1c494e0"/>
+    <token id="0x1c46400" file="vx_pidbypass.cpp" linenr="194" str="}" scope="0x1c494e0" link="0x1c45430"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1c466d0" type="Global">
+      <functionList>
+        <function id="0x1c49440" tokenDef="0x1c44d50" name="main">
+          <arg nr="1" variable="0x1c4a0c0"/>
+          <arg nr="2" variable="0x1c4a130"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1c47810" type="Class" className="VxPidB" classStart="0x1c2e5e0" classEnd="0x1c33c00" nestedIn="0x1c466d0">
+      <functionList>
+        <function id="0x1c2df10" tokenDef="0x1c30c10" name="VxPidB"/>
+        <function id="0x1c475b0" tokenDef="0x1c30f80" name="getMinMax">
+          <arg nr="1" variable="0x1c4a1a0"/>
+          <arg nr="2" variable="0x1c4a210"/>
+          <arg nr="3" variable="0x1c4a280"/>
+        </function>
+        <function id="0x1c47650" tokenDef="0x1c31870" name="vxTargetUpdateCallback">
+          <arg nr="1" variable="0x1c4a2f0"/>
+        </function>
+        <function id="0x1c476f0" tokenDef="0x1c32190" name="encoderCallback">
+          <arg nr="1" variable="0x1c4a360"/>
+        </function>
+        <function id="0x1c33e20" tokenDef="0x1c33470" name="implementPid">
+          <arg nr="1" variable="0x1c4a3d0"/>
+          <arg nr="2" variable="0x1c4a440"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x1c479b0"/>
+        <var id="0x1c49610"/>
+        <var id="0x1c49680"/>
+        <var id="0x1c496f0"/>
+        <var id="0x1c49760"/>
+        <var id="0x1c497d0"/>
+        <var id="0x1c49840"/>
+        <var id="0x1c498b0"/>
+        <var id="0x1c49920"/>
+        <var id="0x1c49990"/>
+        <var id="0x1c49a00"/>
+        <var id="0x1c49a70"/>
+        <var id="0x1c49ae0"/>
+        <var id="0x1c49b50"/>
+        <var id="0x1c49bc0"/>
+        <var id="0x1c49c30"/>
+        <var id="0x1c49ca0"/>
+        <var id="0x1c49d10"/>
+        <var id="0x1c49d80"/>
+      </varlist>
+    </scope>
+    <scope id="0x1c33ec0" type="Function" className="VxPidB" classStart="0x1c34bd0" classEnd="0x1c378e0" nestedIn="0x1c466d0" function="0x1c2df10"/>
+    <scope id="0x1c48860" type="Function" className="getMinMax" classStart="0x1c38330" classEnd="0x1c393b0" nestedIn="0x1c466d0" function="0x1c475b0"/>
+    <scope id="0x1c48990" type="If" classStart="0x1c2e740" classEnd="0x1c30b60" nestedIn="0x1c48860"/>
+    <scope id="0x1c48ac0" type="Else" classStart="0x1c2acd0" classEnd="0x1c2ad80" nestedIn="0x1c48860"/>
+    <scope id="0x1c48bf0" type="Try" classStart="0x1c2acd0" classEnd="0x1c2ad80" nestedIn="0x1c48860"/>
+    <scope id="0x1c48d20" type="If" classStart="0x1c3aa90" classEnd="0x1c45c70" nestedIn="0x1c48bf0"/>
+    <scope id="0x1c48e50" type="Else" classStart="0x1c2dab0" classEnd="0x1c46bd0" nestedIn="0x1c48bf0"/>
+    <scope id="0x1c48f80" type="Try" classStart="0x1c2dab0" classEnd="0x1c46bd0" nestedIn="0x1c48bf0"/>
+    <scope id="0x1c490b0" type="Function" className="vxTargetUpdateCallback" classStart="0x1c39e30" classEnd="0x1c3b6f0" nestedIn="0x1c466d0" function="0x1c47650"/>
+    <scope id="0x1c491e0" type="Function" className="implementPid" classStart="0x1c3c090" classEnd="0x1c44bf0" nestedIn="0x1c466d0" function="0x1c33e20">
+      <varlist>
+        <var id="0x1c49df0"/>
+        <var id="0x1c49e60"/>
+        <var id="0x1c49f00"/>
+        <var id="0x1c49f70"/>
+      </varlist>
+    </scope>
+    <scope id="0x1c49310" type="While" classStart="0x1c42200" classEnd="0x1c44b40" nestedIn="0x1c491e0">
+      <varlist>
+        <var id="0x1c49fe0"/>
+      </varlist>
+    </scope>
+    <scope id="0x1c494e0" type="Function" className="main" classStart="0x1c45430" classEnd="0x1c46400" nestedIn="0x1c466d0" function="0x1c49440">
+      <varlist>
+        <var id="0x1c4a050"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1c479b0" nameToken="0x1c2e8a0" typeStartToken="0x1c2e7f0" typeEndToken="0x1c2e7f0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49610" nameToken="0x1c2ea00" typeStartToken="0x1c46c80" typeEndToken="0x1c46c80" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49680" nameToken="0x1c2ec10" typeStartToken="0x1c2eb60" typeEndToken="0x1c2eb60" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c496f0" nameToken="0x1c2ee20" typeStartToken="0x1c2ed70" typeEndToken="0x1c2ed70" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49760" nameToken="0x1c2f030" typeStartToken="0x1c2ef80" typeEndToken="0x1c2ef80" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c497d0" nameToken="0x1c2f190" typeStartToken="0x1c46d30" typeEndToken="0x1c46d30" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49840" nameToken="0x1c2f2f0" typeStartToken="0x1c46970" typeEndToken="0x1c46970" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c498b0" nameToken="0x1c2f500" typeStartToken="0x1c2f450" typeEndToken="0x1c2f450" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49920" nameToken="0x1c2f660" typeStartToken="0x1c46a20" typeEndToken="0x1c46a20" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49990" nameToken="0x1c2f7c0" typeStartToken="0x1c46ad0" typeEndToken="0x1c46ad0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49a00" nameToken="0x1c2f920" typeStartToken="0x1c464b0" typeEndToken="0x1c464b0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49a70" nameToken="0x1c2fb60" typeStartToken="0x1c2fab0" typeEndToken="0x1c2fab0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49ae0" nameToken="0x1c2fd70" typeStartToken="0x1c2fcc0" typeEndToken="0x1c2fcc0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49b50" nameToken="0x1c2fed0" typeStartToken="0x1c46560" typeEndToken="0x1c46560" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49bc0" nameToken="0x1c300e0" typeStartToken="0x1c30030" typeEndToken="0x1c30030" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49c30" nameToken="0x1c302f0" typeStartToken="0x1c30240" typeEndToken="0x1c30240" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49ca0" nameToken="0x1c30690" typeStartToken="0x1c30480" typeEndToken="0x1c305e0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49d10" nameToken="0x1c307f0" typeStartToken="0x1c46610" typeEndToken="0x1c46e90" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49d80" nameToken="0x1c30950" typeStartToken="0x1c46f40" typeEndToken="0x1c470a0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a360" nameToken="0x1c331b0" typeStartToken="0x1c323a0" typeEndToken="0x1c32710" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1c4a1a0" nameToken="0x1c37db0" typeStartToken="0x1c37d00" typeEndToken="0x1c37d00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a210" nameToken="0x1c37fc0" typeStartToken="0x1c37f10" typeEndToken="0x1c37f10" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a280" nameToken="0x1c381d0" typeStartToken="0x1c38120" typeEndToken="0x1c38120" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a2f0" nameToken="0x1c39cd0" typeStartToken="0x1c398b0" typeEndToken="0x1c39c20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1c4a3d0" nameToken="0x1c3bbc0" typeStartToken="0x1c3bb10" typeEndToken="0x1c3bb10" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a440" nameToken="0x1c3bf30" typeStartToken="0x1c3bd20" typeEndToken="0x1c3be80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1c49df0" nameToken="0x1c3cae0" typeStartToken="0x1c3c8d0" typeEndToken="0x1c3ca30" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49e60" nameToken="0x1c3ce50" typeStartToken="0x1c3cc40" typeEndToken="0x1c3cda0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49f00" nameToken="0x1c40d60" typeStartToken="0x1c40b50" typeEndToken="0x1c40cb0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49f70" nameToken="0x1c41910" typeStartToken="0x1c41700" typeEndToken="0x1c41860" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c49fe0" nameToken="0x1c42ba0" typeStartToken="0x1c42af0" typeEndToken="0x1c42af0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a0c0" nameToken="0x1c44f60" typeStartToken="0x1c44eb0" typeEndToken="0x1c44eb0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c4a130" nameToken="0x1c452d0" typeStartToken="0x1c450c0" typeEndToken="0x1c45220" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1c4a050" nameToken="0x1c45640" typeStartToken="0x1c454e0" typeEndToken="0x1c45590" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="true" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1c34de8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c350a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c35368">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c35628">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c358e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c35ba8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c35e68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c36128">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c363e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c366a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c36998">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c36c58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c36f48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c37208">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c374c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c37788">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c386a8">
+      <value intvalue="85" possible="true"/>
+    </values>
+    <values id="0x1c38d88">
+      <value intvalue="20" possible="true"/>
+    </values>
+    <values id="0x1c3c6c8">
+      <value tokvalue="0x1c3c6c0" known="true"/>
+    </values>
+    <values id="0x1c3d618">
+      <value tokvalue="0x1c3d610" known="true"/>
+    </values>
+    <values id="0x1c3d778">
+      <value intvalue="5" known="true"/>
+    </values>
+    <values id="0x1c3e178">
+      <value tokvalue="0x1c3e170" known="true"/>
+    </values>
+    <values id="0x1c3e7d8">
+      <value tokvalue="0x1c3e7d0" known="true"/>
+    </values>
+    <values id="0x1c3ee38">
+      <value tokvalue="0x1c3ee30" known="true"/>
+    </values>
+    <values id="0x1c3f498">
+      <value tokvalue="0x1c3f490" known="true"/>
+    </values>
+    <values id="0x1c3faf8">
+      <value tokvalue="0x1c3faf0" known="true"/>
+    </values>
+    <values id="0x1c40188">
+      <value tokvalue="0x1c40180" known="true"/>
+    </values>
+    <values id="0x1c407e8">
+      <value tokvalue="0x1c407e0" known="true"/>
+    </values>
+    <values id="0x1c414f8">
+      <value intvalue="5000000" known="true"/>
+    </values>
+    <values id="0x1c41a78">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x1c43ac8">
+      <value intvalue="85" known="true"/>
+    </values>
+    <values id="0x1c43c28">
+      <value intvalue="20" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

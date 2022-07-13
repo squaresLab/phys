@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+  </tokenlist>
+  <scopes>
+    <scope id="0x244b390" type="Global"/>
+  </scopes>
+  <variables>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+<dump cfg="TARGET_LPC1768">
+  <tokenlist>
+    <token id="0x243aff0" file="GroveBuzzer.cpp" linenr="16" str="ros" scope="0x24529f0" type="name" astParent="0x244a4c0"/>
+    <token id="0x244a4c0" file="GroveBuzzer.cpp" linenr="16" str="::" scope="0x24529f0" astOperand1="0x243aff0" astOperand2="0x2447740"/>
+    <token id="0x24478f0" file="GroveBuzzer.cpp" linenr="16" str="NodeHandle" scope="0x24529f0" type="name"/>
+    <token id="0x2447740" file="GroveBuzzer.cpp" linenr="16" str="nh" scope="0x24529f0" type="name" varId="1" variable="0x2453360" astParent="0x244a4c0"/>
+    <token id="0x2439420" file="GroveBuzzer.cpp" linenr="16" str=";" scope="0x24529f0"/>
+    <token id="0x24394d0" file="GroveBuzzer.cpp" linenr="19" str="PwmOut" scope="0x24529f0" type="name"/>
+    <token id="0x244b530" file="GroveBuzzer.cpp" linenr="19" str="buzzer" scope="0x24529f0" type="name" function="0x24526e0" astParent="0x244b5e0"/>
+    <token id="0x244b5e0" file="GroveBuzzer.cpp" linenr="19" str="(" scope="0x24529f0" link="0x244b740" astOperand1="0x244b530" astOperand2="0x244b690"/>
+    <token id="0x244b690" file="GroveBuzzer.cpp" linenr="19" str="p21" scope="0x24529f0" type="name" astParent="0x244b5e0"/>
+    <token id="0x244b740" file="GroveBuzzer.cpp" linenr="19" str=")" scope="0x24529f0" link="0x244b5e0"/>
+    <token id="0x244b7f0" file="GroveBuzzer.cpp" linenr="19" str=";" scope="0x24529f0"/>
+    <token id="0x2449da0" file="GroveBuzzer.cpp" linenr="26" str="Timeout" scope="0x24529f0" type="name"/>
+    <token id="0x2449e50" file="GroveBuzzer.cpp" linenr="26" str="toff" scope="0x24529f0" type="name" varId="2" variable="0x24533d0"/>
+    <token id="0x2449f00" file="GroveBuzzer.cpp" linenr="26" str=";" scope="0x24529f0"/>
+    <token id="0x2449fb0" file="GroveBuzzer.cpp" linenr="27" str="bool" scope="0x24529f0" type="name"/>
+    <token id="0x244a060" file="GroveBuzzer.cpp" linenr="27" str="playing" scope="0x24529f0" type="name" varId="3" variable="0x2453440"/>
+    <token id="0x244a110" file="GroveBuzzer.cpp" linenr="27" str=";" scope="0x24529f0"/>
+    <token id="0x2447840" file="GroveBuzzer.cpp" linenr="27" str="playing" scope="0x24529f0" type="name" varId="3" variable="0x2453440" astParent="0x2447620"/>
+    <token id="0x2447620" file="GroveBuzzer.cpp" linenr="27" str="=" scope="0x24529f0" type="op" isAssignmentOp="True" astOperand1="0x2447840" astOperand2="0x244a1c0"/>
+    <token id="0x244a1c0" file="GroveBuzzer.cpp" linenr="27" str="false" scope="0x24529f0" type="name" values="0x244a1c8" astParent="0x2447620"/>
+    <token id="0x244a630" file="GroveBuzzer.cpp" linenr="27" str=";" scope="0x24529f0"/>
+    <token id="0x244a6e0" file="GroveBuzzer.cpp" linenr="28" str="DigitalOut" scope="0x24529f0" type="name"/>
+    <token id="0x244a790" file="GroveBuzzer.cpp" linenr="28" str="led" scope="0x24529f0" type="name" function="0x2452780" astParent="0x244a840"/>
+    <token id="0x244a840" file="GroveBuzzer.cpp" linenr="28" str="(" scope="0x24529f0" link="0x244a9a0" astOperand1="0x244a790" astOperand2="0x244a8f0"/>
+    <token id="0x244a8f0" file="GroveBuzzer.cpp" linenr="28" str="LED1" scope="0x24529f0" type="name" astParent="0x244a840"/>
+    <token id="0x244a9a0" file="GroveBuzzer.cpp" linenr="28" str=")" scope="0x24529f0" link="0x244a840"/>
+    <token id="0x244aa50" file="GroveBuzzer.cpp" linenr="28" str=";" scope="0x24529f0"/>
+    <token id="0x244ab00" file="GroveBuzzer.cpp" linenr="30" str="void" scope="0x24529f0" type="name"/>
+    <token id="0x244abb0" file="GroveBuzzer.cpp" linenr="30" str="nobeep" scope="0x24529f0" type="name" function="0x2452820" astParent="0x244ac60"/>
+    <token id="0x244ac60" file="GroveBuzzer.cpp" linenr="30" str="(" scope="0x24529f0" link="0x244ad10" astOperand1="0x244abb0"/>
+    <token id="0x244ad10" file="GroveBuzzer.cpp" linenr="30" str=")" scope="0x24529f0" link="0x244ac60"/>
+    <token id="0x244adc0" file="GroveBuzzer.cpp" linenr="31" str="{" scope="0x2452480" link="0x244c350"/>
+    <token id="0x244ae70" file="GroveBuzzer.cpp" linenr="32" str="buzzer" scope="0x2452480" type="name" astParent="0x244af20"/>
+    <token id="0x244af20" file="GroveBuzzer.cpp" linenr="32" str="." scope="0x2452480" astParent="0x244b080" astOperand1="0x244ae70" astOperand2="0x244afd0"/>
+    <token id="0x244afd0" file="GroveBuzzer.cpp" linenr="32" str="write" scope="0x2452480" type="name" astParent="0x244af20"/>
+    <token id="0x244b080" file="GroveBuzzer.cpp" linenr="32" str="(" scope="0x2452480" link="0x244bc70" astOperand1="0x244af20" astOperand2="0x244bbc0"/>
+    <token id="0x244bbc0" file="GroveBuzzer.cpp" linenr="32" str="0.0" scope="0x2452480" type="number" isFloat="True" astParent="0x244b080"/>
+    <token id="0x244bc70" file="GroveBuzzer.cpp" linenr="32" str=")" scope="0x2452480" link="0x244b080"/>
+    <token id="0x244bd20" file="GroveBuzzer.cpp" linenr="32" str=";" scope="0x2452480"/>
+    <token id="0x244bdd0" file="GroveBuzzer.cpp" linenr="33" str="led" scope="0x2452480" type="name" astParent="0x244be80"/>
+    <token id="0x244be80" file="GroveBuzzer.cpp" linenr="33" str="=" scope="0x2452480" type="op" isAssignmentOp="True" astOperand1="0x244bdd0" astOperand2="0x244bf30"/>
+    <token id="0x244bf30" file="GroveBuzzer.cpp" linenr="33" str="1" scope="0x2452480" type="number" isInt="True" values="0x244bf38" astParent="0x244be80"/>
+    <token id="0x244bfe0" file="GroveBuzzer.cpp" linenr="33" str=";" scope="0x2452480"/>
+    <token id="0x244c090" file="GroveBuzzer.cpp" linenr="34" str="playing" scope="0x2452480" type="name" varId="3" variable="0x2453440" astParent="0x244c140"/>
+    <token id="0x244c140" file="GroveBuzzer.cpp" linenr="34" str="=" scope="0x2452480" type="op" isAssignmentOp="True" astOperand1="0x244c090" astOperand2="0x244c1f0"/>
+    <token id="0x244c1f0" file="GroveBuzzer.cpp" linenr="34" str="false" scope="0x2452480" type="name" values="0x244c1f8" astParent="0x244c140"/>
+    <token id="0x244c2a0" file="GroveBuzzer.cpp" linenr="34" str=";" scope="0x2452480"/>
+    <token id="0x244c350" file="GroveBuzzer.cpp" linenr="35" str="}" scope="0x2452480" link="0x244adc0"/>
+    <token id="0x244c400" file="GroveBuzzer.cpp" linenr="36" str="void" scope="0x24529f0" type="name"/>
+    <token id="0x244c4b0" file="GroveBuzzer.cpp" linenr="36" str="beep" scope="0x24529f0" type="name" function="0x24525b0" astParent="0x244c560"/>
+    <token id="0x244c560" file="GroveBuzzer.cpp" linenr="36" str="(" scope="0x24529f0" link="0x244c980" astOperand1="0x244c4b0" astOperand2="0x244c770"/>
+    <token id="0x244c610" file="GroveBuzzer.cpp" linenr="36" str="float" scope="0x24529f0" type="name"/>
+    <token id="0x244c6c0" file="GroveBuzzer.cpp" linenr="36" str="freq" scope="0x24529f0" type="name" varId="4" variable="0x2453600" astParent="0x244c770"/>
+    <token id="0x244c770" file="GroveBuzzer.cpp" linenr="36" str="," scope="0x24529f0" astParent="0x244c560" astOperand1="0x244c6c0" astOperand2="0x244c8d0"/>
+    <token id="0x244c820" file="GroveBuzzer.cpp" linenr="36" str="float" scope="0x24529f0" type="name"/>
+    <token id="0x244c8d0" file="GroveBuzzer.cpp" linenr="36" str="time" scope="0x24529f0" type="name" varId="5" variable="0x2453670" astParent="0x244c770"/>
+    <token id="0x244c980" file="GroveBuzzer.cpp" linenr="36" str=")" scope="0x24529f0" link="0x244c560"/>
+    <token id="0x244ca30" file="GroveBuzzer.cpp" linenr="37" str="{" scope="0x2452bf0" link="0x244ded0"/>
+    <token id="0x244cae0" file="GroveBuzzer.cpp" linenr="38" str="buzzer" scope="0x2452bf0" type="name" astParent="0x244cb90"/>
+    <token id="0x244cb90" file="GroveBuzzer.cpp" linenr="38" str="." scope="0x2452bf0" astParent="0x244ccf0" astOperand1="0x244cae0" astOperand2="0x244cc40"/>
+    <token id="0x244cc40" file="GroveBuzzer.cpp" linenr="38" str="period" scope="0x2452bf0" type="name" astParent="0x244cb90"/>
+    <token id="0x244ccf0" file="GroveBuzzer.cpp" linenr="38" str="(" scope="0x2452bf0" link="0x244cfb0" astOperand1="0x244cb90" astOperand2="0x244ce50"/>
+    <token id="0x244cda0" file="GroveBuzzer.cpp" linenr="38" str="1.0" scope="0x2452bf0" type="number" isFloat="True" astParent="0x244ce50"/>
+    <token id="0x244ce50" file="GroveBuzzer.cpp" linenr="38" str="/" scope="0x2452bf0" type="op" isArithmeticalOp="True" astParent="0x244ccf0" astOperand1="0x244cda0" astOperand2="0x244cf00"/>
+    <token id="0x244cf00" file="GroveBuzzer.cpp" linenr="38" str="freq" scope="0x2452bf0" type="name" varId="4" variable="0x2453600" astParent="0x244ce50"/>
+    <token id="0x244cfb0" file="GroveBuzzer.cpp" linenr="38" str=")" scope="0x2452bf0" link="0x244ccf0"/>
+    <token id="0x244d060" file="GroveBuzzer.cpp" linenr="38" str=";" scope="0x2452bf0"/>
+    <token id="0x244d110" file="GroveBuzzer.cpp" linenr="39" str="buzzer" scope="0x2452bf0" type="name" astParent="0x244d1c0"/>
+    <token id="0x244d1c0" file="GroveBuzzer.cpp" linenr="39" str="." scope="0x2452bf0" astParent="0x244d320" astOperand1="0x244d110" astOperand2="0x244d270"/>
+    <token id="0x244d270" file="GroveBuzzer.cpp" linenr="39" str="write" scope="0x2452bf0" type="name" astParent="0x244d1c0"/>
+    <token id="0x244d320" file="GroveBuzzer.cpp" linenr="39" str="(" scope="0x2452bf0" link="0x244d480" astOperand1="0x244d1c0" astOperand2="0x244d3d0"/>
+    <token id="0x244d3d0" file="GroveBuzzer.cpp" linenr="39" str="0.5" scope="0x2452bf0" type="number" isFloat="True" astParent="0x244d320"/>
+    <token id="0x244d480" file="GroveBuzzer.cpp" linenr="39" str=")" scope="0x2452bf0" link="0x244d320"/>
+    <token id="0x244d530" file="GroveBuzzer.cpp" linenr="39" str=";" scope="0x2452bf0"/>
+    <token id="0x244d5e0" file="GroveBuzzer.cpp" linenr="40" str="toff" scope="0x2452bf0" type="name" varId="2" variable="0x24533d0" astParent="0x244d690"/>
+    <token id="0x244d690" file="GroveBuzzer.cpp" linenr="40" str="." scope="0x2452bf0" astParent="0x244d7f0" astOperand1="0x244d5e0" astOperand2="0x244d740"/>
+    <token id="0x244d740" file="GroveBuzzer.cpp" linenr="40" str="attach" scope="0x2452bf0" type="name" astParent="0x244d690"/>
+    <token id="0x244d7f0" file="GroveBuzzer.cpp" linenr="40" str="(" scope="0x2452bf0" link="0x244dab0" astOperand1="0x244d690" astOperand2="0x244d950"/>
+    <token id="0x244d8a0" file="GroveBuzzer.cpp" linenr="40" str="nobeep" scope="0x2452bf0" type="name" astParent="0x244d950"/>
+    <token id="0x244d950" file="GroveBuzzer.cpp" linenr="40" str="," scope="0x2452bf0" astParent="0x244d7f0" astOperand1="0x244d8a0" astOperand2="0x244da00"/>
+    <token id="0x244da00" file="GroveBuzzer.cpp" linenr="40" str="time" scope="0x2452bf0" type="name" varId="5" variable="0x2453670" astParent="0x244d950"/>
+    <token id="0x244dab0" file="GroveBuzzer.cpp" linenr="40" str=")" scope="0x2452bf0" link="0x244d7f0"/>
+    <token id="0x244db60" file="GroveBuzzer.cpp" linenr="40" str=";" scope="0x2452bf0"/>
+    <token id="0x244dc10" file="GroveBuzzer.cpp" linenr="41" str="led" scope="0x2452bf0" type="name" astParent="0x244dcc0"/>
+    <token id="0x244dcc0" file="GroveBuzzer.cpp" linenr="41" str="=" scope="0x2452bf0" type="op" isAssignmentOp="True" astOperand1="0x244dc10" astOperand2="0x244dd70"/>
+    <token id="0x244dd70" file="GroveBuzzer.cpp" linenr="41" str="0" scope="0x2452bf0" type="number" isInt="True" values="0x244dd78" astParent="0x244dcc0"/>
+    <token id="0x244de20" file="GroveBuzzer.cpp" linenr="41" str=";" scope="0x2452bf0"/>
+    <token id="0x244ded0" file="GroveBuzzer.cpp" linenr="42" str="}" scope="0x2452bf0" link="0x244ca30"/>
+    <token id="0x244df80" file="GroveBuzzer.cpp" linenr="44" str="void" scope="0x24529f0" type="name"/>
+    <token id="0x244e030" file="GroveBuzzer.cpp" linenr="44" str="messageCb" scope="0x24529f0" type="name" function="0x2452d20" astParent="0x244e0e0"/>
+    <token id="0x244e0e0" file="GroveBuzzer.cpp" linenr="44" str="(" scope="0x24529f0" link="0x244e5b0" astOperand1="0x244e030" astOperand2="0x244e450"/>
+    <token id="0x244e190" file="GroveBuzzer.cpp" linenr="44" str="const" scope="0x24529f0" type="name"/>
+    <token id="0x244e240" file="GroveBuzzer.cpp" linenr="44" str="std_msgs" scope="0x24529f0" type="name" astParent="0x244e2f0"/>
+    <token id="0x244e2f0" file="GroveBuzzer.cpp" linenr="44" str="::" scope="0x24529f0" astParent="0x244e450" astOperand1="0x244e240" astOperand2="0x244e3a0"/>
+    <token id="0x244e3a0" file="GroveBuzzer.cpp" linenr="44" str="Float32MultiArray" scope="0x24529f0" type="name" astParent="0x244e2f0"/>
+    <token id="0x244e450" file="GroveBuzzer.cpp" linenr="44" str="&amp;" scope="0x24529f0" type="op" astParent="0x244e0e0" astOperand1="0x244e2f0" astOperand2="0x244e500"/>
+    <token id="0x244e500" file="GroveBuzzer.cpp" linenr="44" str="msg" scope="0x24529f0" type="name" varId="6" variable="0x2453710" astParent="0x244e450"/>
+    <token id="0x244e5b0" file="GroveBuzzer.cpp" linenr="44" str=")" scope="0x24529f0" link="0x244e0e0"/>
+    <token id="0x244e660" file="GroveBuzzer.cpp" linenr="45" str="{" scope="0x2452dc0" link="0x244fa50"/>
+    <token id="0x244e710" file="GroveBuzzer.cpp" linenr="46" str="if" scope="0x2452dc0" type="name" astParent="0x244e7c0"/>
+    <token id="0x244e7c0" file="GroveBuzzer.cpp" linenr="46" str="(" scope="0x2452dc0" link="0x244e9d0" astOperand1="0x244e710" astOperand2="0x244e870"/>
+    <token id="0x244e870" file="GroveBuzzer.cpp" linenr="46" str="!" scope="0x2452dc0" type="op" isLogicalOp="True" astParent="0x244e7c0" astOperand1="0x244e920"/>
+    <token id="0x244e920" file="GroveBuzzer.cpp" linenr="46" str="playing" scope="0x2452dc0" type="name" varId="3" variable="0x2453440" astParent="0x244e870"/>
+    <token id="0x244e9d0" file="GroveBuzzer.cpp" linenr="46" str=")" scope="0x2452dc0" link="0x244e7c0"/>
+    <token id="0x244ea80" file="GroveBuzzer.cpp" linenr="47" str="{" scope="0x2452ef0" link="0x244f9a0"/>
+    <token id="0x244eb30" file="GroveBuzzer.cpp" linenr="48" str="playing" scope="0x2452ef0" type="name" varId="3" variable="0x2453440" astParent="0x244ebe0"/>
+    <token id="0x244ebe0" file="GroveBuzzer.cpp" linenr="48" str="=" scope="0x2452ef0" type="op" isAssignmentOp="True" astOperand1="0x244eb30" astOperand2="0x244ec90"/>
+    <token id="0x244ec90" file="GroveBuzzer.cpp" linenr="48" str="true" scope="0x2452ef0" type="name" values="0x244ec98" astParent="0x244ebe0"/>
+    <token id="0x244ed40" file="GroveBuzzer.cpp" linenr="48" str=";" scope="0x2452ef0"/>
+    <token id="0x244edf0" file="GroveBuzzer.cpp" linenr="51" str="beep" scope="0x2452ef0" type="name" function="0x24525b0" astParent="0x244eea0"/>
+    <token id="0x244eea0" file="GroveBuzzer.cpp" linenr="51" str="(" scope="0x2452ef0" link="0x244f840" astOperand1="0x244edf0" astOperand2="0x244f370"/>
+    <token id="0x244ef50" file="GroveBuzzer.cpp" linenr="51" str="msg" scope="0x2452ef0" type="name" varId="6" variable="0x2453710" astParent="0x244f000"/>
+    <token id="0x244f000" file="GroveBuzzer.cpp" linenr="51" str="." scope="0x2452ef0" astParent="0x244f160" astOperand1="0x244ef50" astOperand2="0x244f0b0"/>
+    <token id="0x244f0b0" file="GroveBuzzer.cpp" linenr="51" str="data" scope="0x2452ef0" type="name" varId="7" astParent="0x244f000"/>
+    <token id="0x244f160" file="GroveBuzzer.cpp" linenr="51" str="[" scope="0x2452ef0" link="0x244f2c0" astParent="0x244f370" astOperand1="0x244f000" astOperand2="0x244f210"/>
+    <token id="0x244f210" file="GroveBuzzer.cpp" linenr="51" str="0" scope="0x2452ef0" type="number" isInt="True" values="0x244f218" astParent="0x244f160"/>
+    <token id="0x244f2c0" file="GroveBuzzer.cpp" linenr="51" str="]" scope="0x2452ef0" link="0x244f160"/>
+    <token id="0x244f370" file="GroveBuzzer.cpp" linenr="51" str="," scope="0x2452ef0" astParent="0x244eea0" astOperand1="0x244f160" astOperand2="0x244f630"/>
+    <token id="0x244f420" file="GroveBuzzer.cpp" linenr="51" str="msg" scope="0x2452ef0" type="name" varId="6" variable="0x2453710" astParent="0x244f4d0"/>
+    <token id="0x244f4d0" file="GroveBuzzer.cpp" linenr="51" str="." scope="0x2452ef0" astParent="0x244f630" astOperand1="0x244f420" astOperand2="0x244f580"/>
+    <token id="0x244f580" file="GroveBuzzer.cpp" linenr="51" str="data" scope="0x2452ef0" type="name" varId="7" astParent="0x244f4d0"/>
+    <token id="0x244f630" file="GroveBuzzer.cpp" linenr="51" str="[" scope="0x2452ef0" link="0x244f790" astParent="0x244f370" astOperand1="0x244f4d0" astOperand2="0x244f6e0"/>
+    <token id="0x244f6e0" file="GroveBuzzer.cpp" linenr="51" str="1" scope="0x2452ef0" type="number" isInt="True" values="0x244f6e8" astParent="0x244f630"/>
+    <token id="0x244f790" file="GroveBuzzer.cpp" linenr="51" str="]" scope="0x2452ef0" link="0x244f630"/>
+    <token id="0x244f840" file="GroveBuzzer.cpp" linenr="51" str=")" scope="0x2452ef0" link="0x244eea0"/>
+    <token id="0x244f8f0" file="GroveBuzzer.cpp" linenr="51" str=";" scope="0x2452ef0"/>
+    <token id="0x244f9a0" file="GroveBuzzer.cpp" linenr="52" str="}" scope="0x2452ef0" link="0x244ea80"/>
+    <token id="0x244fa50" file="GroveBuzzer.cpp" linenr="53" str="}" scope="0x2452dc0" link="0x244e660"/>
+    <token id="0x244fb00" file="GroveBuzzer.cpp" linenr="55" str="ros" scope="0x24529f0" type="name" astParent="0x244fbb0"/>
+    <token id="0x244fbb0" file="GroveBuzzer.cpp" linenr="55" str="::" scope="0x24529f0" astOperand1="0x244fb00" astOperand2="0x244fc60"/>
+    <token id="0x244fc60" file="GroveBuzzer.cpp" linenr="55" str="Subscriber" scope="0x24529f0" type="name" astParent="0x244fbb0"/>
+    <token id="0x244fd10" file="GroveBuzzer.cpp" linenr="55" str="&lt;" scope="0x24529f0" link="0x2450000"/>
+    <token id="0x244fdc0" file="GroveBuzzer.cpp" linenr="55" str="std_msgs" scope="0x24529f0" type="name"/>
+    <token id="0x244fe70" file="GroveBuzzer.cpp" linenr="55" str="::" scope="0x24529f0"/>
+    <token id="0x244ff20" file="GroveBuzzer.cpp" linenr="55" str="Float32MultiArray" scope="0x24529f0" type="name"/>
+    <token id="0x2450000" file="GroveBuzzer.cpp" linenr="55" str="&gt;" scope="0x24529f0" link="0x244fd10"/>
+    <token id="0x24500b0" file="GroveBuzzer.cpp" linenr="55" str="sub" scope="0x24529f0" type="name" varId="8" variable="0x24534b0" astParent="0x2450160"/>
+    <token id="0x2450160" file="GroveBuzzer.cpp" linenr="55" str="(" scope="0x24529f0" link="0x24504d0" astOperand1="0x24500b0" astOperand2="0x24502c0"/>
+    <token id="0x2450210" file="GroveBuzzer.cpp" linenr="55" str="&quot;buzzer&quot;" scope="0x24529f0" type="string" strlen="6" values="0x2450218" astParent="0x24502c0"/>
+    <token id="0x24502c0" file="GroveBuzzer.cpp" linenr="55" str="," scope="0x24529f0" astParent="0x2450160" astOperand1="0x2450210" astOperand2="0x2450370"/>
+    <token id="0x2450370" file="GroveBuzzer.cpp" linenr="55" str="&amp;" scope="0x24529f0" type="op" astParent="0x24502c0" astOperand1="0x2450420"/>
+    <token id="0x2450420" file="GroveBuzzer.cpp" linenr="55" str="messageCb" scope="0x24529f0" type="name" astParent="0x2450370"/>
+    <token id="0x24504d0" file="GroveBuzzer.cpp" linenr="55" str=")" scope="0x24529f0" link="0x2450160"/>
+    <token id="0x2450580" file="GroveBuzzer.cpp" linenr="55" str=";" scope="0x24529f0"/>
+    <token id="0x2450630" file="GroveBuzzer.cpp" linenr="57" str="int" scope="0x24529f0" type="name"/>
+    <token id="0x24506e0" file="GroveBuzzer.cpp" linenr="57" str="main" scope="0x24529f0" type="name" function="0x2453020" astParent="0x2450790"/>
+    <token id="0x2450790" file="GroveBuzzer.cpp" linenr="57" str="(" scope="0x24529f0" link="0x2450840" astOperand1="0x24506e0"/>
+    <token id="0x2450840" file="GroveBuzzer.cpp" linenr="57" str=")" scope="0x24529f0" link="0x2450790"/>
+    <token id="0x24508f0" file="GroveBuzzer.cpp" linenr="58" str="{" scope="0x24530c0" link="0x24523c0"/>
+    <token id="0x24509a0" file="GroveBuzzer.cpp" linenr="59" str="buzzer" scope="0x24530c0" type="name" astParent="0x2450a50"/>
+    <token id="0x2450a50" file="GroveBuzzer.cpp" linenr="59" str="=" scope="0x24530c0" type="op" isAssignmentOp="True" astOperand1="0x24509a0" astOperand2="0x2450b00"/>
+    <token id="0x2450b00" file="GroveBuzzer.cpp" linenr="59" str="0" scope="0x24530c0" type="number" isInt="True" values="0x2450b08" astParent="0x2450a50"/>
+    <token id="0x2450bb0" file="GroveBuzzer.cpp" linenr="59" str=";" scope="0x24530c0"/>
+    <token id="0x2450c60" file="GroveBuzzer.cpp" linenr="60" str="led" scope="0x24530c0" type="name" astParent="0x2450d10"/>
+    <token id="0x2450d10" file="GroveBuzzer.cpp" linenr="60" str="=" scope="0x24530c0" type="op" isAssignmentOp="True" astOperand1="0x2450c60" astOperand2="0x2450dc0"/>
+    <token id="0x2450dc0" file="GroveBuzzer.cpp" linenr="60" str="1" scope="0x24530c0" type="number" isInt="True" values="0x2450dc8" astParent="0x2450d10"/>
+    <token id="0x2450e70" file="GroveBuzzer.cpp" linenr="60" str=";" scope="0x24530c0"/>
+    <token id="0x2450f20" file="GroveBuzzer.cpp" linenr="61" str="nh" scope="0x24530c0" type="name" varId="1" variable="0x2453360" astParent="0x2450fd0"/>
+    <token id="0x2450fd0" file="GroveBuzzer.cpp" linenr="61" str="." scope="0x24530c0" astParent="0x2451130" astOperand1="0x2450f20" astOperand2="0x2451080"/>
+    <token id="0x2451080" file="GroveBuzzer.cpp" linenr="61" str="initNode" scope="0x24530c0" type="name" astParent="0x2450fd0"/>
+    <token id="0x2451130" file="GroveBuzzer.cpp" linenr="61" str="(" scope="0x24530c0" link="0x24511e0" astOperand1="0x2450fd0"/>
+    <token id="0x24511e0" file="GroveBuzzer.cpp" linenr="61" str=")" scope="0x24530c0" link="0x2451130"/>
+    <token id="0x2451290" file="GroveBuzzer.cpp" linenr="61" str=";" scope="0x24530c0"/>
+    <token id="0x2451340" file="GroveBuzzer.cpp" linenr="62" str="nh" scope="0x24530c0" type="name" varId="1" variable="0x2453360" astParent="0x24513f0"/>
+    <token id="0x24513f0" file="GroveBuzzer.cpp" linenr="62" str="." scope="0x24530c0" astParent="0x2451550" astOperand1="0x2451340" astOperand2="0x24514a0"/>
+    <token id="0x24514a0" file="GroveBuzzer.cpp" linenr="62" str="subscribe" scope="0x24530c0" type="name" astParent="0x24513f0"/>
+    <token id="0x2451550" file="GroveBuzzer.cpp" linenr="62" str="(" scope="0x24530c0" link="0x24516b0" astOperand1="0x24513f0" astOperand2="0x2451600"/>
+    <token id="0x2451600" file="GroveBuzzer.cpp" linenr="62" str="sub" scope="0x24530c0" type="name" varId="8" variable="0x24534b0" astParent="0x2451550"/>
+    <token id="0x24516b0" file="GroveBuzzer.cpp" linenr="62" str=")" scope="0x24530c0" link="0x2451550"/>
+    <token id="0x2451760" file="GroveBuzzer.cpp" linenr="62" str=";" scope="0x24530c0"/>
+    <token id="0x2451810" file="GroveBuzzer.cpp" linenr="63" str="while" scope="0x24530c0" type="name" astParent="0x24518c0"/>
+    <token id="0x24518c0" file="GroveBuzzer.cpp" linenr="63" str="(" scope="0x24530c0" link="0x2451a20" astOperand1="0x2451810" astOperand2="0x2451970"/>
+    <token id="0x2451970" file="GroveBuzzer.cpp" linenr="63" str="1" scope="0x24530c0" type="number" isInt="True" values="0x2451978" astParent="0x24518c0"/>
+    <token id="0x2451a20" file="GroveBuzzer.cpp" linenr="63" str=")" scope="0x24530c0" link="0x24518c0"/>
+    <token id="0x2451ad0" file="GroveBuzzer.cpp" linenr="64" str="{" scope="0x2453210" link="0x2452310"/>
+    <token id="0x2451b80" file="GroveBuzzer.cpp" linenr="65" str="nh" scope="0x2453210" type="name" varId="1" variable="0x2453360" astParent="0x2451c30"/>
+    <token id="0x2451c30" file="GroveBuzzer.cpp" linenr="65" str="." scope="0x2453210" astParent="0x2451d90" astOperand1="0x2451b80" astOperand2="0x2451ce0"/>
+    <token id="0x2451ce0" file="GroveBuzzer.cpp" linenr="65" str="spinOnce" scope="0x2453210" type="name" astParent="0x2451c30"/>
+    <token id="0x2451d90" file="GroveBuzzer.cpp" linenr="65" str="(" scope="0x2453210" link="0x2451e40" astOperand1="0x2451c30"/>
+    <token id="0x2451e40" file="GroveBuzzer.cpp" linenr="65" str=")" scope="0x2453210" link="0x2451d90"/>
+    <token id="0x2451ef0" file="GroveBuzzer.cpp" linenr="65" str=";" scope="0x2453210"/>
+    <token id="0x2451fa0" file="GroveBuzzer.cpp" linenr="66" str="wait_ms" scope="0x2453210" type="name" astParent="0x2452050"/>
+    <token id="0x2452050" file="GroveBuzzer.cpp" linenr="66" str="(" scope="0x2453210" link="0x24521b0" astOperand1="0x2451fa0" astOperand2="0x2452100"/>
+    <token id="0x2452100" file="GroveBuzzer.cpp" linenr="66" str="1" scope="0x2453210" type="number" isInt="True" values="0x2452108" astParent="0x2452050"/>
+    <token id="0x24521b0" file="GroveBuzzer.cpp" linenr="66" str=")" scope="0x2453210" link="0x2452050"/>
+    <token id="0x2452260" file="GroveBuzzer.cpp" linenr="66" str=";" scope="0x2453210"/>
+    <token id="0x2452310" file="GroveBuzzer.cpp" linenr="67" str="}" scope="0x2453210" link="0x2451ad0"/>
+    <token id="0x24523c0" file="GroveBuzzer.cpp" linenr="68" str="}" scope="0x24530c0" link="0x24508f0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x24529f0" type="Global">
+      <functionList>
+        <function id="0x24526e0" tokenDef="0x244b530" name="buzzer">
+          <arg nr="1" variable="0x2453520"/>
+        </function>
+        <function id="0x2452780" tokenDef="0x244a790" name="led">
+          <arg nr="1" variable="0x2453590"/>
+        </function>
+        <function id="0x2452820" tokenDef="0x244abb0" name="nobeep"/>
+        <function id="0x24525b0" tokenDef="0x244c4b0" name="beep">
+          <arg nr="1" variable="0x2453600"/>
+          <arg nr="2" variable="0x2453670"/>
+        </function>
+        <function id="0x2452d20" tokenDef="0x244e030" name="messageCb">
+          <arg nr="1" variable="0x2453710"/>
+        </function>
+        <function id="0x2453020" tokenDef="0x24506e0" name="main"/>
+      </functionList>
+      <varlist>
+        <var id="0x2453360"/>
+        <var id="0x24533d0"/>
+        <var id="0x2453440"/>
+        <var id="0x24534b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x2452480" type="Function" className="nobeep" classStart="0x244adc0" classEnd="0x244c350" nestedIn="0x24529f0" function="0x2452820"/>
+    <scope id="0x2452bf0" type="Function" className="beep" classStart="0x244ca30" classEnd="0x244ded0" nestedIn="0x24529f0" function="0x24525b0"/>
+    <scope id="0x2452dc0" type="Function" className="messageCb" classStart="0x244e660" classEnd="0x244fa50" nestedIn="0x24529f0" function="0x2452d20"/>
+    <scope id="0x2452ef0" type="If" classStart="0x244ea80" classEnd="0x244f9a0" nestedIn="0x2452dc0"/>
+    <scope id="0x24530c0" type="Function" className="main" classStart="0x24508f0" classEnd="0x24523c0" nestedIn="0x24529f0" function="0x2453020"/>
+    <scope id="0x2453210" type="While" classStart="0x2451ad0" classEnd="0x2452310" nestedIn="0x24530c0"/>
+  </scopes>
+  <variables>
+    <var id="0x2453360" nameToken="0x2447740" typeStartToken="0x243aff0" typeEndToken="0x24478f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x24533d0" nameToken="0x2449e50" typeStartToken="0x2449da0" typeEndToken="0x2449da0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2453440" nameToken="0x244a060" typeStartToken="0x2449fb0" typeEndToken="0x2449fb0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2453600" nameToken="0x244c6c0" typeStartToken="0x244c610" typeEndToken="0x244c610" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2453670" nameToken="0x244c8d0" typeStartToken="0x244c820" typeEndToken="0x244c820" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2453710" nameToken="0x244e500" typeStartToken="0x244e240" typeEndToken="0x244e450" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x24534b0" nameToken="0x24500b0" typeStartToken="0x244fb00" typeEndToken="0x2450000" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x244a1c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x244bf38">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x244c1f8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x244dd78">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x244ec98">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x244f218">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x244f6e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x2450218">
+      <value tokvalue="0x2450210" known="true"/>
+    </values>
+    <values id="0x2450b08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x2450dc8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x2451978">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x2452108">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

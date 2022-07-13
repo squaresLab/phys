@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x1d954c0" file="depth_to_laser.cpp" linenr="11" str="using" scope="0x1db1340" type="name"/>
+    <token id="0x1da8430" file="depth_to_laser.cpp" linenr="11" str="namespace" scope="0x1db1340" type="name"/>
+    <token id="0x1da84e0" file="depth_to_laser.cpp" linenr="11" str="cv" scope="0x1db1340" type="name"/>
+    <token id="0x1da8590" file="depth_to_laser.cpp" linenr="11" str=";" scope="0x1db1340"/>
+    <token id="0x1da8640" file="depth_to_laser.cpp" linenr="13" str="class" scope="0x1db1340" type="name"/>
+    <token id="0x1da86f0" file="depth_to_laser.cpp" linenr="13" str="ImageConverter" scope="0x1db1340" type="name" type-scope="0x1da8180"/>
+    <token id="0x1da87a0" file="depth_to_laser.cpp" linenr="14" str="{" scope="0x1da8180" link="0x1db8760"/>
+    <token id="0x1da8850" file="depth_to_laser.cpp" linenr="15" str="ros" scope="0x1da8180" type="name" astParent="0x1da8900"/>
+    <token id="0x1da8900" file="depth_to_laser.cpp" linenr="15" str="::" scope="0x1da8180" astOperand1="0x1da8850" astOperand2="0x1da8a60"/>
+    <token id="0x1da89b0" file="depth_to_laser.cpp" linenr="15" str="NodeHandle" scope="0x1da8180" type="name"/>
+    <token id="0x1da8a60" file="depth_to_laser.cpp" linenr="15" str="nh_" scope="0x1da8180" type="name" varId="1" variable="0x1dbcbf0" astParent="0x1da8900"/>
+    <token id="0x1da8b10" file="depth_to_laser.cpp" linenr="15" str=";" scope="0x1da8180"/>
+    <token id="0x1da8bc0" file="depth_to_laser.cpp" linenr="16" str="image_transport" scope="0x1da8180" type="name" astParent="0x1da8c70"/>
+    <token id="0x1da8c70" file="depth_to_laser.cpp" linenr="16" str="::" scope="0x1da8180" astOperand1="0x1da8bc0" astOperand2="0x1da8dd0"/>
+    <token id="0x1da8d20" file="depth_to_laser.cpp" linenr="16" str="ImageTransport" scope="0x1da8180" type="name"/>
+    <token id="0x1da8dd0" file="depth_to_laser.cpp" linenr="16" str="it_" scope="0x1da8180" type="name" varId="2" variable="0x1dbcc90" astParent="0x1da8c70"/>
+    <token id="0x1da8e80" file="depth_to_laser.cpp" linenr="16" str=";" scope="0x1da8180"/>
+    <token id="0x1da32f0" file="depth_to_laser.cpp" linenr="17" str="image_transport" scope="0x1da8180" type="name" astParent="0x1da33a0"/>
+    <token id="0x1da33a0" file="depth_to_laser.cpp" linenr="17" str="::" scope="0x1da8180" astOperand1="0x1da32f0" astOperand2="0x1da3500"/>
+    <token id="0x1da3450" file="depth_to_laser.cpp" linenr="17" str="Subscriber" scope="0x1da8180" type="name"/>
+    <token id="0x1da3500" file="depth_to_laser.cpp" linenr="17" str="image_sub_" scope="0x1da8180" type="name" varId="3" variable="0x1dbcd00" astParent="0x1da33a0"/>
+    <token id="0x1da35b0" file="depth_to_laser.cpp" linenr="17" str=";" scope="0x1da8180"/>
+    <token id="0x1da3660" file="depth_to_laser.cpp" linenr="18" str="ros" scope="0x1da8180" type="name" astParent="0x1da3710"/>
+    <token id="0x1da3710" file="depth_to_laser.cpp" linenr="18" str="::" scope="0x1da8180" astOperand1="0x1da3660" astOperand2="0x1da3870"/>
+    <token id="0x1da37c0" file="depth_to_laser.cpp" linenr="18" str="Publisher" scope="0x1da8180" type="name"/>
+    <token id="0x1da3870" file="depth_to_laser.cpp" linenr="18" str="laser_pub_" scope="0x1da8180" type="name" varId="4" variable="0x1dbcd70" astParent="0x1da3710"/>
+    <token id="0x1da3920" file="depth_to_laser.cpp" linenr="18" str=";" scope="0x1da8180"/>
+    <token id="0x1da39d0" file="depth_to_laser.cpp" linenr="21" str="public:" scope="0x1da8180" type="name"/>
+    <token id="0x1da3b30" file="depth_to_laser.cpp" linenr="22" str="ImageConverter" scope="0x1da8180" type="name" function="0x1da8320" astParent="0x1da3be0"/>
+    <token id="0x1da3be0" file="depth_to_laser.cpp" linenr="22" str="(" scope="0x1da8180" link="0x1da3c90" astParent="0x1da3d40" astOperand1="0x1da3b30"/>
+    <token id="0x1da3c90" file="depth_to_laser.cpp" linenr="22" str=")" scope="0x1da8180" link="0x1da3be0"/>
+    <token id="0x1da3d40" file="depth_to_laser.cpp" linenr="23" str=":" scope="0x1da8180" astOperand1="0x1da3be0" astOperand2="0x1da3ea0"/>
+    <token id="0x1da3df0" file="depth_to_laser.cpp" linenr="23" str="it_" scope="0x1da8180" type="name" varId="2" variable="0x1dbcc90" astParent="0x1da3ea0"/>
+    <token id="0x1da3ea0" file="depth_to_laser.cpp" linenr="23" str="(" scope="0x1da8180" link="0x1da4000" astParent="0x1da3d40" astOperand1="0x1da3df0" astOperand2="0x1da3f50"/>
+    <token id="0x1da3f50" file="depth_to_laser.cpp" linenr="23" str="nh_" scope="0x1da8180" type="name" varId="1" variable="0x1dbcbf0" astParent="0x1da3ea0"/>
+    <token id="0x1da4000" file="depth_to_laser.cpp" linenr="23" str=")" scope="0x1da8180" link="0x1da3ea0"/>
+    <token id="0x1da40b0" file="depth_to_laser.cpp" linenr="24" str="{" scope="0x1dbbde0" link="0x1daa0b0"/>
+    <token id="0x1da4160" file="depth_to_laser.cpp" linenr="26" str="image_sub_" scope="0x1dbbde0" type="name" varId="3" variable="0x1dbcd00" astParent="0x1da4210"/>
+    <token id="0x1da4210" file="depth_to_laser.cpp" linenr="26" str="=" scope="0x1dbbde0" type="op" isAssignmentOp="True" astOperand1="0x1da4160" astOperand2="0x1da44d0"/>
+    <token id="0x1da42c0" file="depth_to_laser.cpp" linenr="26" str="it_" scope="0x1dbbde0" type="name" varId="2" variable="0x1dbcc90" astParent="0x1da4370"/>
+    <token id="0x1da4370" file="depth_to_laser.cpp" linenr="26" str="." scope="0x1dbbde0" astParent="0x1da44d0" astOperand1="0x1da42c0" astOperand2="0x1da4420"/>
+    <token id="0x1da4420" file="depth_to_laser.cpp" linenr="26" str="subscribe" scope="0x1dbbde0" type="name" astParent="0x1da4370"/>
+    <token id="0x1da44d0" file="depth_to_laser.cpp" linenr="26" str="(" scope="0x1dbbde0" link="0x1da4c60" astParent="0x1da4210" astOperand1="0x1da4370" astOperand2="0x1da4b00"/>
+    <token id="0x1da4580" file="depth_to_laser.cpp" linenr="26" str="&quot;/camera_link/image/depth&quot;" scope="0x1dbbde0" type="string" strlen="24" values="0x1da4588" astParent="0x1da4630"/>
+    <token id="0x1da4630" file="depth_to_laser.cpp" linenr="26" str="," scope="0x1dbbde0" astParent="0x1da4790" astOperand1="0x1da4580" astOperand2="0x1da46e0"/>
+    <token id="0x1da46e0" file="depth_to_laser.cpp" linenr="26" str="1" scope="0x1dbbde0" type="number" isInt="True" values="0x1da46e8" astParent="0x1da4630"/>
+    <token id="0x1da4790" file="depth_to_laser.cpp" linenr="26" str="," scope="0x1dbbde0" astParent="0x1da4b00" astOperand1="0x1da4630" astOperand2="0x1da4840"/>
+    <token id="0x1da4840" file="depth_to_laser.cpp" linenr="27" str="&amp;" scope="0x1dbbde0" type="op" astParent="0x1da4790" astOperand1="0x1da49a0"/>
+    <token id="0x1da48f0" file="depth_to_laser.cpp" linenr="27" str="ImageConverter" scope="0x1dbbde0" type="name" type-scope="0x1da8180" astParent="0x1da49a0"/>
+    <token id="0x1da49a0" file="depth_to_laser.cpp" linenr="27" str="::" scope="0x1dbbde0" astParent="0x1da4840" astOperand1="0x1da48f0" astOperand2="0x1da4a50"/>
+    <token id="0x1da4a50" file="depth_to_laser.cpp" linenr="27" str="imageCb" scope="0x1dbbde0" type="name" astParent="0x1da49a0"/>
+    <token id="0x1da4b00" file="depth_to_laser.cpp" linenr="27" str="," scope="0x1dbbde0" astParent="0x1da44d0" astOperand1="0x1da4790" astOperand2="0x1da4bb0"/>
+    <token id="0x1da4bb0" file="depth_to_laser.cpp" linenr="27" str="this" scope="0x1dbbde0" type="name" astParent="0x1da4b00"/>
+    <token id="0x1da4c60" file="depth_to_laser.cpp" linenr="27" str=")" scope="0x1dbbde0" link="0x1da44d0"/>
+    <token id="0x1da4d10" file="depth_to_laser.cpp" linenr="27" str=";" scope="0x1dbbde0"/>
+    <token id="0x1da4dc0" file="depth_to_laser.cpp" linenr="28" str="laser_pub_" scope="0x1dbbde0" type="name" varId="4" variable="0x1dbcd70" astParent="0x1da9660"/>
+    <token id="0x1da9660" file="depth_to_laser.cpp" linenr="28" str="=" scope="0x1dbbde0" type="op" isAssignmentOp="True" astOperand1="0x1da4dc0" astOperand2="0x1da9c90"/>
+    <token id="0x1da9710" file="depth_to_laser.cpp" linenr="28" str="nh_" scope="0x1dbbde0" type="name" varId="1" variable="0x1dbcbf0" astParent="0x1da97c0"/>
+    <token id="0x1da97c0" file="depth_to_laser.cpp" linenr="28" str="." scope="0x1dbbde0" astParent="0x1da9c90" astOperand1="0x1da9710" astOperand2="0x1da9870"/>
+    <token id="0x1da9870" file="depth_to_laser.cpp" linenr="28" str="advertise" scope="0x1dbbde0" type="name" astParent="0x1da97c0"/>
+    <token id="0x1da9920" file="depth_to_laser.cpp" linenr="28" str="&lt;" scope="0x1dbbde0" link="0x1da9be0"/>
+    <token id="0x1da99d0" file="depth_to_laser.cpp" linenr="28" str="sensor_msgs" scope="0x1dbbde0" type="name"/>
+    <token id="0x1da9a80" file="depth_to_laser.cpp" linenr="28" str="::" scope="0x1dbbde0"/>
+    <token id="0x1da9b30" file="depth_to_laser.cpp" linenr="28" str="LaserScan" scope="0x1dbbde0" type="name"/>
+    <token id="0x1da9be0" file="depth_to_laser.cpp" linenr="28" str="&gt;" scope="0x1dbbde0" link="0x1da9920"/>
+    <token id="0x1da9c90" file="depth_to_laser.cpp" linenr="28" str="(" scope="0x1dbbde0" link="0x1da9f50" astParent="0x1da9660" astOperand1="0x1da97c0" astOperand2="0x1da9df0"/>
+    <token id="0x1da9d40" file="depth_to_laser.cpp" linenr="28" str="&quot;/kinect2/laser&quot;" scope="0x1dbbde0" type="string" strlen="14" values="0x1da9d48" astParent="0x1da9df0"/>
+    <token id="0x1da9df0" file="depth_to_laser.cpp" linenr="28" str="," scope="0x1dbbde0" astParent="0x1da9c90" astOperand1="0x1da9d40" astOperand2="0x1da9ea0"/>
+    <token id="0x1da9ea0" file="depth_to_laser.cpp" linenr="28" str="20" scope="0x1dbbde0" type="number" isInt="True" values="0x1da9ea8" astParent="0x1da9df0"/>
+    <token id="0x1da9f50" file="depth_to_laser.cpp" linenr="28" str=")" scope="0x1dbbde0" link="0x1da9c90"/>
+    <token id="0x1daa000" file="depth_to_laser.cpp" linenr="28" str=";" scope="0x1dbbde0"/>
+    <token id="0x1daa0b0" file="depth_to_laser.cpp" linenr="31" str="}" scope="0x1dbbde0" link="0x1da40b0"/>
+    <token id="0x1daa160" file="depth_to_laser.cpp" linenr="33" str="~" scope="0x1da8180" type="op" astOperand1="0x1daa2c0"/>
+    <token id="0x1daa210" file="depth_to_laser.cpp" linenr="33" str="ImageConverter" scope="0x1da8180" type="name" function="0x1dbbf10" astParent="0x1daa2c0"/>
+    <token id="0x1daa2c0" file="depth_to_laser.cpp" linenr="33" str="(" scope="0x1da8180" link="0x1daa370" astParent="0x1daa160" astOperand1="0x1daa210"/>
+    <token id="0x1daa370" file="depth_to_laser.cpp" linenr="33" str=")" scope="0x1da8180" link="0x1daa2c0"/>
+    <token id="0x1daa420" file="depth_to_laser.cpp" linenr="34" str="{" scope="0x1dbbfb0" link="0x1daa4d0"/>
+    <token id="0x1daa4d0" file="depth_to_laser.cpp" linenr="36" str="}" scope="0x1dbbfb0" link="0x1daa420"/>
+    <token id="0x1daa580" file="depth_to_laser.cpp" linenr="38" str="void" scope="0x1da8180" type="name"/>
+    <token id="0x1daa630" file="depth_to_laser.cpp" linenr="38" str="imageCb" scope="0x1da8180" type="name" function="0x1dbc0e0" astParent="0x1daa6e0"/>
+    <token id="0x1daa6e0" file="depth_to_laser.cpp" linenr="38" str="(" scope="0x1da8180" link="0x1daabb0" astOperand1="0x1daa630" astOperand2="0x1daaa50"/>
+    <token id="0x1daa790" file="depth_to_laser.cpp" linenr="38" str="const" scope="0x1da8180" type="name"/>
+    <token id="0x1daa840" file="depth_to_laser.cpp" linenr="38" str="sensor_msgs" scope="0x1da8180" type="name" astParent="0x1daa8f0"/>
+    <token id="0x1daa8f0" file="depth_to_laser.cpp" linenr="38" str="::" scope="0x1da8180" astParent="0x1daaa50" astOperand1="0x1daa840" astOperand2="0x1daa9a0"/>
+    <token id="0x1daa9a0" file="depth_to_laser.cpp" linenr="38" str="ImageConstPtr" scope="0x1da8180" type="name" astParent="0x1daa8f0"/>
+    <token id="0x1daaa50" file="depth_to_laser.cpp" linenr="38" str="&amp;" scope="0x1da8180" type="op" astParent="0x1daa6e0" astOperand1="0x1daa8f0" astOperand2="0x1daab00"/>
+    <token id="0x1daab00" file="depth_to_laser.cpp" linenr="38" str="msg" scope="0x1da8180" type="name" varId="5" variable="0x1dbd320" astParent="0x1daaa50"/>
+    <token id="0x1daabb0" file="depth_to_laser.cpp" linenr="38" str=")" scope="0x1da8180" link="0x1daa6e0"/>
+    <token id="0x1daac60" file="depth_to_laser.cpp" linenr="39" str="{" scope="0x1dbc180" link="0x1db86b0"/>
+    <token id="0x1daad10" file="depth_to_laser.cpp" linenr="40" str="cv_bridge" scope="0x1dbc180" type="name" astParent="0x1daadc0"/>
+    <token id="0x1daadc0" file="depth_to_laser.cpp" linenr="40" str="::" scope="0x1dbc180" astOperand1="0x1daad10" astOperand2="0x1daaf20"/>
+    <token id="0x1daae70" file="depth_to_laser.cpp" linenr="40" str="CvImagePtr" scope="0x1dbc180" type="name"/>
+    <token id="0x1daaf20" file="depth_to_laser.cpp" linenr="40" str="cv_ptr" scope="0x1dbc180" type="name" varId="6" variable="0x1dbcde0" astParent="0x1daadc0"/>
+    <token id="0x1daafd0" file="depth_to_laser.cpp" linenr="40" str=";" scope="0x1dbc180"/>
+    <token id="0x1dab080" file="depth_to_laser.cpp" linenr="41" str="try" scope="0x1dbc180" type="name"/>
+    <token id="0x1dab130" file="depth_to_laser.cpp" linenr="42" str="{" scope="0x1dbc2b0" link="0x1dabc30"/>
+    <token id="0x1dab1e0" file="depth_to_laser.cpp" linenr="43" str="cv_ptr" scope="0x1dbc2b0" type="name" varId="6" variable="0x1dbcde0" astParent="0x1dab290"/>
+    <token id="0x1dab290" file="depth_to_laser.cpp" linenr="43" str="=" scope="0x1dbc2b0" type="op" isAssignmentOp="True" astOperand1="0x1dab1e0" astOperand2="0x1dab550"/>
+    <token id="0x1dab340" file="depth_to_laser.cpp" linenr="43" str="cv_bridge" scope="0x1dbc2b0" type="name" astParent="0x1dab3f0"/>
+    <token id="0x1dab3f0" file="depth_to_laser.cpp" linenr="43" str="::" scope="0x1dbc2b0" astParent="0x1dab550" astOperand1="0x1dab340" astOperand2="0x1dab4a0"/>
+    <token id="0x1dab4a0" file="depth_to_laser.cpp" linenr="43" str="toCvCopy" scope="0x1dbc2b0" type="name" astParent="0x1dab3f0"/>
+    <token id="0x1dab550" file="depth_to_laser.cpp" linenr="43" str="(" scope="0x1dbc2b0" link="0x1dabad0" astParent="0x1dab290" astOperand1="0x1dab3f0" astOperand2="0x1dab6b0"/>
+    <token id="0x1dab600" file="depth_to_laser.cpp" linenr="43" str="msg" scope="0x1dbc2b0" type="name" varId="5" variable="0x1dbd320" astParent="0x1dab6b0"/>
+    <token id="0x1dab6b0" file="depth_to_laser.cpp" linenr="43" str="," scope="0x1dbc2b0" astParent="0x1dab550" astOperand1="0x1dab600" astOperand2="0x1dab970"/>
+    <token id="0x1dab760" file="depth_to_laser.cpp" linenr="43" str="sensor_msgs" scope="0x1dbc2b0" type="name" astParent="0x1dab810"/>
+    <token id="0x1dab810" file="depth_to_laser.cpp" linenr="43" str="::" scope="0x1dbc2b0" astParent="0x1dab970" astOperand1="0x1dab760" astOperand2="0x1dab8c0"/>
+    <token id="0x1dab8c0" file="depth_to_laser.cpp" linenr="43" str="image_encodings" scope="0x1dbc2b0" type="name" astParent="0x1dab810"/>
+    <token id="0x1dab970" file="depth_to_laser.cpp" linenr="43" str="::" scope="0x1dbc2b0" astParent="0x1dab6b0" astOperand1="0x1dab810" astOperand2="0x1daba20"/>
+    <token id="0x1daba20" file="depth_to_laser.cpp" linenr="43" str="MONO16" scope="0x1dbc2b0" type="name" astParent="0x1dab970"/>
+    <token id="0x1dabad0" file="depth_to_laser.cpp" linenr="43" str=")" scope="0x1dbc2b0" link="0x1dab550"/>
+    <token id="0x1dabb80" file="depth_to_laser.cpp" linenr="43" str=";" scope="0x1dbc2b0"/>
+    <token id="0x1dabc30" file="depth_to_laser.cpp" linenr="44" str="}" scope="0x1dbc2b0" link="0x1dab130"/>
+    <token id="0x1dabce0" file="depth_to_laser.cpp" linenr="45" str="catch" scope="0x1dbc180" type="name" astParent="0x1dabd90"/>
+    <token id="0x1dabd90" file="depth_to_laser.cpp" linenr="45" str="(" scope="0x1dbc180" link="0x1dac1b0" astOperand1="0x1dabce0" astOperand2="0x1dac050"/>
+    <token id="0x1dabe40" file="depth_to_laser.cpp" linenr="45" str="cv_bridge" scope="0x1dbc180" type="name" astParent="0x1dabef0"/>
+    <token id="0x1dabef0" file="depth_to_laser.cpp" linenr="45" str="::" scope="0x1dbc180" astParent="0x1dac050" astOperand1="0x1dabe40" astOperand2="0x1dabfa0"/>
+    <token id="0x1dabfa0" file="depth_to_laser.cpp" linenr="45" str="Exception" scope="0x1dbc180" type="name" astParent="0x1dabef0"/>
+    <token id="0x1dac050" file="depth_to_laser.cpp" linenr="45" str="&amp;" scope="0x1dbc180" type="op" astParent="0x1dabd90" astOperand1="0x1dabef0" astOperand2="0x1dac100"/>
+    <token id="0x1dac100" file="depth_to_laser.cpp" linenr="45" str="e" scope="0x1dbc180" type="name" varId="7" variable="0x1dbc540" astParent="0x1dac050"/>
+    <token id="0x1dac1b0" file="depth_to_laser.cpp" linenr="45" str=")" scope="0x1dbc180" link="0x1dabd90"/>
+    <token id="0x1dac260" file="depth_to_laser.cpp" linenr="46" str="{" scope="0x1dbc3e0" link="0x1dacc60"/>
+    <token id="0x1dac310" file="depth_to_laser.cpp" linenr="47" str="ROS_ERROR" scope="0x1dbc3e0" type="name" astParent="0x1dac3c0"/>
+    <token id="0x1dac3c0" file="depth_to_laser.cpp" linenr="47" str="(" scope="0x1dbc3e0" link="0x1dac9a0" astOperand1="0x1dac310" astOperand2="0x1dac580"/>
+    <token id="0x1dac4a0" file="depth_to_laser.cpp" linenr="47" str="&quot;cv_bridge exception: %s&quot;" scope="0x1dbc3e0" type="string" strlen="23" values="0x1dac4a8" astParent="0x1dac580"/>
+    <token id="0x1dac580" file="depth_to_laser.cpp" linenr="47" str="," scope="0x1dbc3e0" astParent="0x1dac3c0" astOperand1="0x1dac4a0" astOperand2="0x1dac840"/>
+    <token id="0x1dac630" file="depth_to_laser.cpp" linenr="47" str="e" scope="0x1dbc3e0" type="name" varId="7" variable="0x1dbc540" astParent="0x1dac6e0"/>
+    <token id="0x1dac6e0" file="depth_to_laser.cpp" linenr="47" str="." scope="0x1dbc3e0" astParent="0x1dac840" astOperand1="0x1dac630" astOperand2="0x1dac790"/>
+    <token id="0x1dac790" file="depth_to_laser.cpp" linenr="47" str="what" scope="0x1dbc3e0" type="name" astParent="0x1dac6e0"/>
+    <token id="0x1dac840" file="depth_to_laser.cpp" linenr="47" str="(" scope="0x1dbc3e0" link="0x1dac8f0" astParent="0x1dac580" astOperand1="0x1dac6e0"/>
+    <token id="0x1dac8f0" file="depth_to_laser.cpp" linenr="47" str=")" scope="0x1dbc3e0" link="0x1dac840"/>
+    <token id="0x1dac9a0" file="depth_to_laser.cpp" linenr="47" str=")" scope="0x1dbc3e0" link="0x1dac3c0"/>
+    <token id="0x1daca50" file="depth_to_laser.cpp" linenr="47" str=";" scope="0x1dbc3e0"/>
+    <token id="0x1dacb00" file="depth_to_laser.cpp" linenr="48" str="return" scope="0x1dbc3e0" type="name"/>
+    <token id="0x1dacbb0" file="depth_to_laser.cpp" linenr="48" str=";" scope="0x1dbc3e0"/>
+    <token id="0x1dacc60" file="depth_to_laser.cpp" linenr="49" str="}" scope="0x1dbc3e0" link="0x1dac260"/>
+    <token id="0x1dacd10" file="depth_to_laser.cpp" linenr="51" str="Mat" scope="0x1dbc180" type="name"/>
+    <token id="0x1dacdc0" file="depth_to_laser.cpp" linenr="51" str="depthImage" scope="0x1dbc180" type="name" varId="8" variable="0x1dbce50"/>
+    <token id="0x1dace70" file="depth_to_laser.cpp" linenr="51" str=";" scope="0x1dbc180"/>
+    <token id="0x1dad080" file="depth_to_laser.cpp" linenr="51" str="depthImage" scope="0x1dbc180" type="name" varId="8" variable="0x1dbce50" astParent="0x1da7dd0"/>
+    <token id="0x1da7dd0" file="depth_to_laser.cpp" linenr="51" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1dad080" astOperand2="0x1dacfd0"/>
+    <token id="0x1dacf20" file="depth_to_laser.cpp" linenr="51" str="cv_ptr" scope="0x1dbc180" type="name" varId="6" variable="0x1dbcde0" astParent="0x1dacfd0"/>
+    <token id="0x1dacfd0" file="depth_to_laser.cpp" linenr="51" str="." scope="0x1dbc180" astParent="0x1da7dd0" astOperand1="0x1dacf20" astOperand2="0x1dad130"/>
+    <token id="0x1dad130" file="depth_to_laser.cpp" linenr="51" str="image" scope="0x1dbc180" type="name" varId="9" astParent="0x1dacfd0"/>
+    <token id="0x1dad1e0" file="depth_to_laser.cpp" linenr="51" str=";" scope="0x1dbc180"/>
+    <token id="0x1dad290" file="depth_to_laser.cpp" linenr="52" str="sensor_msgs" scope="0x1dbc180" type="name" astParent="0x1dad340"/>
+    <token id="0x1dad340" file="depth_to_laser.cpp" linenr="52" str="::" scope="0x1dbc180" astOperand1="0x1dad290" astOperand2="0x1dad4a0"/>
+    <token id="0x1dad3f0" file="depth_to_laser.cpp" linenr="52" str="LaserScan" scope="0x1dbc180" type="name"/>
+    <token id="0x1dad4a0" file="depth_to_laser.cpp" linenr="52" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1dad340"/>
+    <token id="0x1dad550" file="depth_to_laser.cpp" linenr="52" str=";" scope="0x1dbc180"/>
+    <token id="0x1dad600" file="depth_to_laser.cpp" linenr="54" str="ros" scope="0x1dbc180" type="name" astParent="0x1dad6b0"/>
+    <token id="0x1dad6b0" file="depth_to_laser.cpp" linenr="54" str="::" scope="0x1dbc180" astOperand1="0x1dad600" astOperand2="0x1dad810"/>
+    <token id="0x1dad760" file="depth_to_laser.cpp" linenr="54" str="Time" scope="0x1dbc180" type="name"/>
+    <token id="0x1dad810" file="depth_to_laser.cpp" linenr="54" str="a" scope="0x1dbc180" type="name" varId="11" variable="0x1dbcf30" astParent="0x1dad6b0"/>
+    <token id="0x1dad8c0" file="depth_to_laser.cpp" linenr="54" str=";" scope="0x1dbc180"/>
+    <token id="0x1db2bf0" file="depth_to_laser.cpp" linenr="54" str="a" scope="0x1dbc180" type="name" varId="11" variable="0x1dbcf30" astParent="0x1db2ca0"/>
+    <token id="0x1db2ca0" file="depth_to_laser.cpp" linenr="54" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db2bf0" astOperand2="0x1dadce0"/>
+    <token id="0x1dad970" file="depth_to_laser.cpp" linenr="54" str="ros" scope="0x1dbc180" type="name" astParent="0x1dada20"/>
+    <token id="0x1dada20" file="depth_to_laser.cpp" linenr="54" str="::" scope="0x1dbc180" astParent="0x1dadb80" astOperand1="0x1dad970" astOperand2="0x1dadad0"/>
+    <token id="0x1dadad0" file="depth_to_laser.cpp" linenr="54" str="Time" scope="0x1dbc180" type="name" astParent="0x1dada20"/>
+    <token id="0x1dadb80" file="depth_to_laser.cpp" linenr="54" str="::" scope="0x1dbc180" astParent="0x1dadce0" astOperand1="0x1dada20" astOperand2="0x1dadc30"/>
+    <token id="0x1dadc30" file="depth_to_laser.cpp" linenr="54" str="now" scope="0x1dbc180" type="name" astParent="0x1dadb80"/>
+    <token id="0x1dadce0" file="depth_to_laser.cpp" linenr="54" str="(" scope="0x1dbc180" link="0x1dadd90" astParent="0x1db2ca0" astOperand1="0x1dadb80"/>
+    <token id="0x1dadd90" file="depth_to_laser.cpp" linenr="54" str=")" scope="0x1dbc180" link="0x1dadce0"/>
+    <token id="0x1dade40" file="depth_to_laser.cpp" linenr="54" str=";" scope="0x1dbc180"/>
+    <token id="0x1dadef0" file="depth_to_laser.cpp" linenr="55" str="double" scope="0x1dbc180" type="name"/>
+    <token id="0x1dadfa0" file="depth_to_laser.cpp" linenr="55" str="min_depth" scope="0x1dbc180" type="name" varId="12" variable="0x1dbcfa0"/>
+    <token id="0x1dae050" file="depth_to_laser.cpp" linenr="55" str=";" scope="0x1dbc180"/>
+    <token id="0x1dba8a0" file="depth_to_laser.cpp" linenr="55" str="double" scope="0x1dbc180" type="name"/>
+    <token id="0x1dae100" file="depth_to_laser.cpp" linenr="55" str="tmp_depth" scope="0x1dbc180" type="name" varId="13" variable="0x1dbd010"/>
+    <token id="0x1dae1b0" file="depth_to_laser.cpp" linenr="55" str=";" scope="0x1dbc180"/>
+    <token id="0x1dae260" file="depth_to_laser.cpp" linenr="56" str="int" scope="0x1dbc180" type="name"/>
+    <token id="0x1dae310" file="depth_to_laser.cpp" linenr="56" str="r_start" scope="0x1dbc180" type="name" varId="14" variable="0x1dbd080"/>
+    <token id="0x1dae3c0" file="depth_to_laser.cpp" linenr="56" str=";" scope="0x1dbc180"/>
+    <token id="0x1dba950" file="depth_to_laser.cpp" linenr="56" str="r_start" scope="0x1dbc180" type="name" varId="14" variable="0x1dbd080" astParent="0x1dbaa00"/>
+    <token id="0x1dbaa00" file="depth_to_laser.cpp" linenr="56" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1dba950" astOperand2="0x1dae680"/>
+    <token id="0x1dae470" file="depth_to_laser.cpp" linenr="56" str="depthImage" scope="0x1dbc180" type="name" varId="8" variable="0x1dbce50" astParent="0x1dae520"/>
+    <token id="0x1dae520" file="depth_to_laser.cpp" linenr="56" str="." scope="0x1dbc180" astParent="0x1dae680" astOperand1="0x1dae470" astOperand2="0x1dae5d0"/>
+    <token id="0x1dae5d0" file="depth_to_laser.cpp" linenr="56" str="rows" scope="0x1dbc180" type="name" varId="15" astParent="0x1dae520"/>
+    <token id="0x1dae680" file="depth_to_laser.cpp" linenr="56" str="/" scope="0x1dbc180" type="op" isArithmeticalOp="True" astParent="0x1dbaa00" astOperand1="0x1dae520" astOperand2="0x1dae730"/>
+    <token id="0x1dae730" file="depth_to_laser.cpp" linenr="56" str="2" scope="0x1dbc180" type="number" isInt="True" values="0x1dae738" astParent="0x1dae680"/>
+    <token id="0x1dae7e0" file="depth_to_laser.cpp" linenr="56" str=";" scope="0x1dbc180"/>
+    <token id="0x1dae890" file="depth_to_laser.cpp" linenr="58" str="for" scope="0x1dbc180" type="name" astParent="0x1dae940"/>
+    <token id="0x1dae940" file="depth_to_laser.cpp" linenr="58" str="(" scope="0x1dbc180" link="0x1daf2e0" astOperand1="0x1dae890" astOperand2="0x1daecb0"/>
+    <token id="0x1dae9f0" file="depth_to_laser.cpp" linenr="58" str="int" scope="0x1dbc180" type="name"/>
+    <token id="0x1daeaa0" file="depth_to_laser.cpp" linenr="58" str="c" scope="0x1dbc180" type="name" varId="16" variable="0x1dbc6e0" astParent="0x1daeb50"/>
+    <token id="0x1daeb50" file="depth_to_laser.cpp" linenr="58" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astParent="0x1daecb0" astOperand1="0x1daeaa0" astOperand2="0x1daec00"/>
+    <token id="0x1daec00" file="depth_to_laser.cpp" linenr="58" str="0" scope="0x1dbc180" type="number" isInt="True" values="0x1daec08" astParent="0x1daeb50"/>
+    <token id="0x1daecb0" file="depth_to_laser.cpp" linenr="58" str=";" scope="0x1dbc180" astParent="0x1dae940" astOperand1="0x1daeb50" astOperand2="0x1daf0d0"/>
+    <token id="0x1daed60" file="depth_to_laser.cpp" linenr="58" str="c" scope="0x1dbc180" type="name" varId="16" variable="0x1dbc6e0" astParent="0x1daee10"/>
+    <token id="0x1daee10" file="depth_to_laser.cpp" linenr="58" str="&lt;" scope="0x1dbc180" type="op" isComparisonOp="True" astParent="0x1daf0d0" astOperand1="0x1daed60" astOperand2="0x1daef70"/>
+    <token id="0x1daeec0" file="depth_to_laser.cpp" linenr="58" str="depthImage" scope="0x1dbc180" type="name" varId="8" variable="0x1dbce50" astParent="0x1daef70"/>
+    <token id="0x1daef70" file="depth_to_laser.cpp" linenr="58" str="." scope="0x1dbc180" astParent="0x1daee10" astOperand1="0x1daeec0" astOperand2="0x1daf020"/>
+    <token id="0x1daf020" file="depth_to_laser.cpp" linenr="58" str="cols" scope="0x1dbc180" type="name" varId="17" astParent="0x1daef70"/>
+    <token id="0x1daf0d0" file="depth_to_laser.cpp" linenr="58" str=";" scope="0x1dbc180" astParent="0x1daecb0" astOperand1="0x1daee10" astOperand2="0x1daf180"/>
+    <token id="0x1daf180" file="depth_to_laser.cpp" linenr="58" str="++" scope="0x1dbc180" type="op" astParent="0x1daf0d0" astOperand1="0x1daf230"/>
+    <token id="0x1daf230" file="depth_to_laser.cpp" linenr="58" str="c" scope="0x1dbc180" type="name" varId="16" variable="0x1dbc6e0" astParent="0x1daf180"/>
+    <token id="0x1daf2e0" file="depth_to_laser.cpp" linenr="58" str=")" scope="0x1dbc180" link="0x1dae940"/>
+    <token id="0x1daf390" file="depth_to_laser.cpp" linenr="59" str="{" scope="0x1dbc5b0" link="0x1db4da0"/>
+    <token id="0x1daf440" file="depth_to_laser.cpp" linenr="60" str="min_depth" scope="0x1dbc5b0" type="name" varId="12" variable="0x1dbcfa0" astParent="0x1daf4f0"/>
+    <token id="0x1daf4f0" file="depth_to_laser.cpp" linenr="60" str="=" scope="0x1dbc5b0" type="op" isAssignmentOp="True" astOperand1="0x1daf440" astOperand2="0x1daf5a0"/>
+    <token id="0x1daf5a0" file="depth_to_laser.cpp" linenr="60" str="255" scope="0x1dbc5b0" type="number" isInt="True" values="0x1daf5a8" astParent="0x1daf4f0"/>
+    <token id="0x1daf650" file="depth_to_laser.cpp" linenr="60" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1daf700" file="depth_to_laser.cpp" linenr="61" str="for" scope="0x1dbc5b0" type="name" astParent="0x1daf7b0"/>
+    <token id="0x1daf7b0" file="depth_to_laser.cpp" linenr="61" str="(" scope="0x1dbc5b0" link="0x1db0150" astOperand1="0x1daf700" astOperand2="0x1dafb20"/>
+    <token id="0x1daf860" file="depth_to_laser.cpp" linenr="61" str="int" scope="0x1dbc5b0" type="name"/>
+    <token id="0x1daf910" file="depth_to_laser.cpp" linenr="61" str="r" scope="0x1dbc5b0" type="name" varId="18" variable="0x1dbc880" astParent="0x1daf9c0"/>
+    <token id="0x1daf9c0" file="depth_to_laser.cpp" linenr="61" str="=" scope="0x1dbc5b0" type="op" isAssignmentOp="True" astParent="0x1dafb20" astOperand1="0x1daf910" astOperand2="0x1dafa70"/>
+    <token id="0x1dafa70" file="depth_to_laser.cpp" linenr="61" str="r_start" scope="0x1dbc5b0" type="name" varId="14" variable="0x1dbd080" astParent="0x1daf9c0"/>
+    <token id="0x1dafb20" file="depth_to_laser.cpp" linenr="61" str=";" scope="0x1dbc5b0" astParent="0x1daf7b0" astOperand1="0x1daf9c0" astOperand2="0x1daff40"/>
+    <token id="0x1dafbd0" file="depth_to_laser.cpp" linenr="61" str="r" scope="0x1dbc5b0" type="name" varId="18" variable="0x1dbc880" astParent="0x1dafc80"/>
+    <token id="0x1dafc80" file="depth_to_laser.cpp" linenr="61" str="&lt;" scope="0x1dbc5b0" type="op" isComparisonOp="True" astParent="0x1daff40" astOperand1="0x1dafbd0" astOperand2="0x1dafde0"/>
+    <token id="0x1dafd30" file="depth_to_laser.cpp" linenr="61" str="depthImage" scope="0x1dbc5b0" type="name" varId="8" variable="0x1dbce50" astParent="0x1dafde0"/>
+    <token id="0x1dafde0" file="depth_to_laser.cpp" linenr="61" str="." scope="0x1dbc5b0" astParent="0x1dafc80" astOperand1="0x1dafd30" astOperand2="0x1dafe90"/>
+    <token id="0x1dafe90" file="depth_to_laser.cpp" linenr="61" str="rows" scope="0x1dbc5b0" type="name" varId="15" astParent="0x1dafde0"/>
+    <token id="0x1daff40" file="depth_to_laser.cpp" linenr="61" str=";" scope="0x1dbc5b0" astParent="0x1dafb20" astOperand1="0x1dafc80" astOperand2="0x1db00a0"/>
+    <token id="0x1dafff0" file="depth_to_laser.cpp" linenr="61" str="r" scope="0x1dbc5b0" type="name" varId="18" variable="0x1dbc880" astParent="0x1db00a0"/>
+    <token id="0x1db00a0" file="depth_to_laser.cpp" linenr="61" str="++" scope="0x1dbc5b0" type="op" astParent="0x1daff40" astOperand1="0x1dafff0"/>
+    <token id="0x1db0150" file="depth_to_laser.cpp" linenr="61" str=")" scope="0x1dbc5b0" link="0x1daf7b0"/>
+    <token id="0x1db0200" file="depth_to_laser.cpp" linenr="62" str="{" scope="0x1dbc750" link="0x1db1ee0"/>
+    <token id="0x1db02b0" file="depth_to_laser.cpp" linenr="63" str="tmp_depth" scope="0x1dbc750" type="name" varId="13" variable="0x1dbd010" astParent="0x1db0360"/>
+    <token id="0x1db0360" file="depth_to_laser.cpp" linenr="63" str="=" scope="0x1dbc750" type="op" isAssignmentOp="True" astOperand1="0x1db02b0" astOperand2="0x1db0410"/>
+    <token id="0x1db0410" file="depth_to_laser.cpp" linenr="63" str="(" scope="0x1dbc750" link="0x1db0570" astParent="0x1db0360" astOperand1="0x1db0a40"/>
+    <token id="0x1db04c0" file="depth_to_laser.cpp" linenr="63" str="int" scope="0x1dbc750" type="name"/>
+    <token id="0x1db0570" file="depth_to_laser.cpp" linenr="63" str=")" scope="0x1dbc750" link="0x1db0410"/>
+    <token id="0x1db0620" file="depth_to_laser.cpp" linenr="63" str="depthImage" scope="0x1dbc750" type="name" varId="8" variable="0x1dbce50" astParent="0x1db06d0"/>
+    <token id="0x1db06d0" file="depth_to_laser.cpp" linenr="63" str="." scope="0x1dbc750" astParent="0x1db0a40" astOperand1="0x1db0620" astOperand2="0x1db0780"/>
+    <token id="0x1db0780" file="depth_to_laser.cpp" linenr="63" str="at" scope="0x1dbc750" type="name" astParent="0x1db06d0"/>
+    <token id="0x1db0830" file="depth_to_laser.cpp" linenr="63" str="&lt;" scope="0x1dbc750" link="0x1db0990"/>
+    <token id="0x1db08e0" file="depth_to_laser.cpp" linenr="63" str="uchar" scope="0x1dbc750" type="name"/>
+    <token id="0x1db0990" file="depth_to_laser.cpp" linenr="63" str="&gt;" scope="0x1dbc750" link="0x1db0830"/>
+    <token id="0x1db0a40" file="depth_to_laser.cpp" linenr="63" str="(" scope="0x1dbc750" link="0x1db0d00" astParent="0x1db0410" astOperand1="0x1db06d0" astOperand2="0x1db0ba0"/>
+    <token id="0x1db0af0" file="depth_to_laser.cpp" linenr="63" str="r" scope="0x1dbc750" type="name" varId="18" variable="0x1dbc880" astParent="0x1db0ba0"/>
+    <token id="0x1db0ba0" file="depth_to_laser.cpp" linenr="63" str="," scope="0x1dbc750" astParent="0x1db0a40" astOperand1="0x1db0af0" astOperand2="0x1db0c50"/>
+    <token id="0x1db0c50" file="depth_to_laser.cpp" linenr="63" str="c" scope="0x1dbc750" type="name" varId="16" variable="0x1dbc6e0" values="0x1db0c58" astParent="0x1db0ba0"/>
+    <token id="0x1db0d00" file="depth_to_laser.cpp" linenr="63" str=")" scope="0x1dbc750" link="0x1db0a40"/>
+    <token id="0x1db0db0" file="depth_to_laser.cpp" linenr="63" str=";" scope="0x1dbc750"/>
+    <token id="0x1db0e60" file="depth_to_laser.cpp" linenr="64" str="if" scope="0x1dbc750" type="name" astParent="0x1db0f10"/>
+    <token id="0x1db0f10" file="depth_to_laser.cpp" linenr="64" str="(" scope="0x1dbc750" link="0x1db1b70" astOperand1="0x1db0e60" astOperand2="0x1db1750"/>
+    <token id="0x1db0fc0" file="depth_to_laser.cpp" linenr="64" str="(" scope="0x1dbc750" link="0x1db16a0"/>
+    <token id="0x1db1070" file="depth_to_laser.cpp" linenr="64" str="tmp_depth" scope="0x1dbc750" type="name" varId="13" variable="0x1dbd010" astParent="0x1db1120"/>
+    <token id="0x1db1120" file="depth_to_laser.cpp" linenr="64" str="&gt;" scope="0x1dbc750" type="op" isComparisonOp="True" astParent="0x1db1750" astOperand1="0x1db1070" astOperand2="0x1db1280"/>
+    <token id="0x1db11d0" file="depth_to_laser.cpp" linenr="64" str="(" scope="0x1dbc750" link="0x1db15f0"/>
+    <token id="0x1db1280" file="depth_to_laser.cpp" linenr="64" str="2" scope="0x1dbc750" type="number" isInt="True" values="0x1db1288" astParent="0x1db1120"/>
+    <token id="0x1db15f0" file="depth_to_laser.cpp" linenr="64" str=")" scope="0x1dbc750" link="0x1db11d0"/>
+    <token id="0x1db16a0" file="depth_to_laser.cpp" linenr="64" str=")" scope="0x1dbc750" link="0x1db0fc0"/>
+    <token id="0x1db1750" file="depth_to_laser.cpp" linenr="64" str="&amp;&amp;" scope="0x1dbc750" type="op" isLogicalOp="True" astParent="0x1db0f10" astOperand1="0x1db1120" astOperand2="0x1db1960"/>
+    <token id="0x1db1800" file="depth_to_laser.cpp" linenr="64" str="(" scope="0x1dbc750" link="0x1db1ac0"/>
+    <token id="0x1db18b0" file="depth_to_laser.cpp" linenr="64" str="tmp_depth" scope="0x1dbc750" type="name" varId="13" variable="0x1dbd010" astParent="0x1db1960"/>
+    <token id="0x1db1960" file="depth_to_laser.cpp" linenr="64" str="&lt;" scope="0x1dbc750" type="op" isComparisonOp="True" astParent="0x1db1750" astOperand1="0x1db18b0" astOperand2="0x1db1a10"/>
+    <token id="0x1db1a10" file="depth_to_laser.cpp" linenr="64" str="min_depth" scope="0x1dbc750" type="name" varId="12" variable="0x1dbcfa0" astParent="0x1db1960"/>
+    <token id="0x1db1ac0" file="depth_to_laser.cpp" linenr="64" str=")" scope="0x1dbc750" link="0x1db1800"/>
+    <token id="0x1db1b70" file="depth_to_laser.cpp" linenr="64" str=")" scope="0x1dbc750" link="0x1db0f10"/>
+    <token id="0x1db5110" file="depth_to_laser.cpp" linenr="64" str="{" scope="0x1dbc8f0" link="0x1da3a80"/>
+    <token id="0x1db1c20" file="depth_to_laser.cpp" linenr="65" str="min_depth" scope="0x1dbc8f0" type="name" varId="12" variable="0x1dbcfa0" astParent="0x1db1cd0"/>
+    <token id="0x1db1cd0" file="depth_to_laser.cpp" linenr="65" str="=" scope="0x1dbc8f0" type="op" isAssignmentOp="True" astOperand1="0x1db1c20" astOperand2="0x1db1d80"/>
+    <token id="0x1db1d80" file="depth_to_laser.cpp" linenr="65" str="tmp_depth" scope="0x1dbc8f0" type="name" varId="13" variable="0x1dbd010" astParent="0x1db1cd0"/>
+    <token id="0x1db1e30" file="depth_to_laser.cpp" linenr="65" str=";" scope="0x1dbc8f0"/>
+    <token id="0x1da3a80" file="depth_to_laser.cpp" linenr="65" str="}" scope="0x1dbc8f0" link="0x1db5110"/>
+    <token id="0x1db1ee0" file="depth_to_laser.cpp" linenr="66" str="}" scope="0x1dbc750" link="0x1db0200"/>
+    <token id="0x1db1f90" file="depth_to_laser.cpp" linenr="67" str="double" scope="0x1dbc5b0" type="name"/>
+    <token id="0x1db2040" file="depth_to_laser.cpp" linenr="67" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0"/>
+    <token id="0x1db20f0" file="depth_to_laser.cpp" linenr="67" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1dba180" file="depth_to_laser.cpp" linenr="67" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1dba230"/>
+    <token id="0x1dba230" file="depth_to_laser.cpp" linenr="67" str="=" scope="0x1dbc5b0" type="op" isAssignmentOp="True" astOperand1="0x1dba180" astOperand2="0x1db2510"/>
+    <token id="0x1db21a0" file="depth_to_laser.cpp" linenr="67" str="depthImage" scope="0x1dbc5b0" type="name" varId="8" variable="0x1dbce50" astParent="0x1db2250"/>
+    <token id="0x1db2250" file="depth_to_laser.cpp" linenr="67" str="." scope="0x1dbc5b0" astParent="0x1db23b0" astOperand1="0x1db21a0" astOperand2="0x1db2300"/>
+    <token id="0x1db2300" file="depth_to_laser.cpp" linenr="67" str="cols" scope="0x1dbc5b0" type="name" varId="17" astParent="0x1db2250"/>
+    <token id="0x1db23b0" file="depth_to_laser.cpp" linenr="67" str="/" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db2510" astOperand1="0x1db2250" astOperand2="0x1db2460"/>
+    <token id="0x1db2460" file="depth_to_laser.cpp" linenr="67" str="2" scope="0x1dbc5b0" type="number" isInt="True" values="0x1db2468" astParent="0x1db23b0"/>
+    <token id="0x1db2510" file="depth_to_laser.cpp" linenr="67" str="-" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1dba230" astOperand1="0x1db23b0" astOperand2="0x1db25c0"/>
+    <token id="0x1db25c0" file="depth_to_laser.cpp" linenr="67" str="c" scope="0x1dbc5b0" type="name" varId="16" variable="0x1dbc6e0" values="0x1db25c8" astParent="0x1db2510"/>
+    <token id="0x1db2670" file="depth_to_laser.cpp" linenr="67" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1db2720" file="depth_to_laser.cpp" linenr="68" str="double" scope="0x1dbc5b0" type="name"/>
+    <token id="0x1db27d0" file="depth_to_laser.cpp" linenr="68" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160"/>
+    <token id="0x1db2880" file="depth_to_laser.cpp" linenr="68" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1dba2e0" file="depth_to_laser.cpp" linenr="68" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1dba640"/>
+    <token id="0x1dba640" file="depth_to_laser.cpp" linenr="68" str="=" scope="0x1dbc5b0" type="op" isAssignmentOp="True" astOperand1="0x1dba2e0" astOperand2="0x1db29e0"/>
+    <token id="0x1db2930" file="depth_to_laser.cpp" linenr="68" str="min_depth" scope="0x1dbc5b0" type="name" varId="12" variable="0x1dbcfa0" astParent="0x1db29e0"/>
+    <token id="0x1db29e0" file="depth_to_laser.cpp" linenr="68" str="*" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1dba640" astOperand1="0x1db2930" astOperand2="0x1db2a90"/>
+    <token id="0x1db2a90" file="depth_to_laser.cpp" linenr="68" str="0.176470588235" scope="0x1dbc5b0" type="number" isFloat="True" astParent="0x1db29e0"/>
+    <token id="0x1db2f60" file="depth_to_laser.cpp" linenr="68" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1db3010" file="depth_to_laser.cpp" linenr="69" str="ls" scope="0x1dbc5b0" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db30c0"/>
+    <token id="0x1db30c0" file="depth_to_laser.cpp" linenr="69" str="." scope="0x1dbc5b0" astParent="0x1db3220" astOperand1="0x1db3010" astOperand2="0x1db3170"/>
+    <token id="0x1db3170" file="depth_to_laser.cpp" linenr="69" str="ranges" scope="0x1dbc5b0" type="name" varId="21" astParent="0x1db30c0"/>
+    <token id="0x1db3220" file="depth_to_laser.cpp" linenr="69" str="." scope="0x1dbc5b0" astParent="0x1db3380" astOperand1="0x1db30c0" astOperand2="0x1db32d0"/>
+    <token id="0x1db32d0" file="depth_to_laser.cpp" linenr="69" str="push_back" scope="0x1dbc5b0" type="name" astParent="0x1db3220"/>
+    <token id="0x1db3380" file="depth_to_laser.cpp" linenr="69" str="(" scope="0x1dbc5b0" link="0x1db3b10" astOperand1="0x1db3220" astOperand2="0x1db34e0"/>
+    <token id="0x1db3430" file="depth_to_laser.cpp" linenr="69" str="sqrt" scope="0x1dbc5b0" type="name" astParent="0x1db34e0"/>
+    <token id="0x1db34e0" file="depth_to_laser.cpp" linenr="69" str="(" scope="0x1dbc5b0" link="0x1db3a60" astParent="0x1db3380" astOperand1="0x1db3430" astOperand2="0x1db37a0"/>
+    <token id="0x1db3590" file="depth_to_laser.cpp" linenr="69" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1db3640"/>
+    <token id="0x1db3640" file="depth_to_laser.cpp" linenr="69" str="*" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db37a0" astOperand1="0x1db3590" astOperand2="0x1db36f0"/>
+    <token id="0x1db36f0" file="depth_to_laser.cpp" linenr="69" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1db3640"/>
+    <token id="0x1db37a0" file="depth_to_laser.cpp" linenr="69" str="+" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db34e0" astOperand1="0x1db3640" astOperand2="0x1db3900"/>
+    <token id="0x1db3850" file="depth_to_laser.cpp" linenr="69" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1db3900"/>
+    <token id="0x1db3900" file="depth_to_laser.cpp" linenr="69" str="*" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db37a0" astOperand1="0x1db3850" astOperand2="0x1db39b0"/>
+    <token id="0x1db39b0" file="depth_to_laser.cpp" linenr="69" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1db3900"/>
+    <token id="0x1db3a60" file="depth_to_laser.cpp" linenr="69" str=")" scope="0x1dbc5b0" link="0x1db34e0"/>
+    <token id="0x1db3b10" file="depth_to_laser.cpp" linenr="69" str=")" scope="0x1dbc5b0" link="0x1db3380"/>
+    <token id="0x1db3bc0" file="depth_to_laser.cpp" linenr="69" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1dba3e0" file="depth_to_laser.cpp" linenr="71" str="std" scope="0x1dbc5b0" type="name" astParent="0x1dba490"/>
+    <token id="0x1dba490" file="depth_to_laser.cpp" linenr="71" str="::" scope="0x1dbc5b0" astParent="0x1db3d20" astOperand1="0x1dba3e0" astOperand2="0x1db3c70"/>
+    <token id="0x1db3c70" file="depth_to_laser.cpp" linenr="71" str="cout" scope="0x1dbc5b0" type="name" astParent="0x1dba490"/>
+    <token id="0x1db3d20" file="depth_to_laser.cpp" linenr="71" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db3e80" astOperand1="0x1dba490" astOperand2="0x1db3dd0"/>
+    <token id="0x1db3dd0" file="depth_to_laser.cpp" linenr="71" str="&quot;(l , d) = &quot;" scope="0x1dbc5b0" type="string" strlen="10" values="0x1db3dd8" astParent="0x1db3d20"/>
+    <token id="0x1db3e80" file="depth_to_laser.cpp" linenr="71" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db3fe0" astOperand1="0x1db3d20" astOperand2="0x1db3f30"/>
+    <token id="0x1db3f30" file="depth_to_laser.cpp" linenr="71" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1db3e80"/>
+    <token id="0x1db3fe0" file="depth_to_laser.cpp" linenr="72" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4140" astOperand1="0x1db3e80" astOperand2="0x1db4090"/>
+    <token id="0x1db4090" file="depth_to_laser.cpp" linenr="72" str="&quot; , &quot;" scope="0x1dbc5b0" type="string" strlen="3" values="0x1db4098" astParent="0x1db3fe0"/>
+    <token id="0x1db4140" file="depth_to_laser.cpp" linenr="72" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db42a0" astOperand1="0x1db3fe0" astOperand2="0x1db41f0"/>
+    <token id="0x1db41f0" file="depth_to_laser.cpp" linenr="72" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1db4140"/>
+    <token id="0x1db42a0" file="depth_to_laser.cpp" linenr="72" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4400" astOperand1="0x1db4140" astOperand2="0x1db4350"/>
+    <token id="0x1db4350" file="depth_to_laser.cpp" linenr="72" str="&quot; ) ---&gt;  &quot;" scope="0x1dbc5b0" type="string" strlen="9" values="0x1db4358" astParent="0x1db42a0"/>
+    <token id="0x1db4400" file="depth_to_laser.cpp" linenr="72" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4b90" astOperand1="0x1db42a0" astOperand2="0x1db4560"/>
+    <token id="0x1db44b0" file="depth_to_laser.cpp" linenr="72" str="sqrt" scope="0x1dbc5b0" type="name" astParent="0x1db4560"/>
+    <token id="0x1db4560" file="depth_to_laser.cpp" linenr="72" str="(" scope="0x1dbc5b0" link="0x1db4ae0" astParent="0x1db4400" astOperand1="0x1db44b0" astOperand2="0x1db4820"/>
+    <token id="0x1db4610" file="depth_to_laser.cpp" linenr="72" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1db46c0"/>
+    <token id="0x1db46c0" file="depth_to_laser.cpp" linenr="72" str="*" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4820" astOperand1="0x1db4610" astOperand2="0x1db4770"/>
+    <token id="0x1db4770" file="depth_to_laser.cpp" linenr="72" str="l" scope="0x1dbc5b0" type="name" varId="19" variable="0x1dbd0f0" astParent="0x1db46c0"/>
+    <token id="0x1db4820" file="depth_to_laser.cpp" linenr="72" str="+" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4560" astOperand1="0x1db46c0" astOperand2="0x1db4980"/>
+    <token id="0x1db48d0" file="depth_to_laser.cpp" linenr="72" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1db4980"/>
+    <token id="0x1db4980" file="depth_to_laser.cpp" linenr="72" str="*" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astParent="0x1db4820" astOperand1="0x1db48d0" astOperand2="0x1db4a30"/>
+    <token id="0x1db4a30" file="depth_to_laser.cpp" linenr="72" str="d" scope="0x1dbc5b0" type="name" varId="20" variable="0x1dbd160" astParent="0x1db4980"/>
+    <token id="0x1db4ae0" file="depth_to_laser.cpp" linenr="72" str=")" scope="0x1dbc5b0" link="0x1db4560"/>
+    <token id="0x1db4b90" file="depth_to_laser.cpp" linenr="72" str="&lt;&lt;" scope="0x1dbc5b0" type="op" isArithmeticalOp="True" astOperand1="0x1db4400" astOperand2="0x1db2e00"/>
+    <token id="0x1db2d50" file="depth_to_laser.cpp" linenr="72" str="std" scope="0x1dbc5b0" type="name" astParent="0x1db2e00"/>
+    <token id="0x1db2e00" file="depth_to_laser.cpp" linenr="72" str="::" scope="0x1dbc5b0" astParent="0x1db4b90" astOperand1="0x1db2d50" astOperand2="0x1db4c40"/>
+    <token id="0x1db4c40" file="depth_to_laser.cpp" linenr="72" str="endl" scope="0x1dbc5b0" type="name" astParent="0x1db2e00"/>
+    <token id="0x1db4cf0" file="depth_to_laser.cpp" linenr="72" str=";" scope="0x1dbc5b0"/>
+    <token id="0x1db4da0" file="depth_to_laser.cpp" linenr="73" str="}" scope="0x1dbc5b0" link="0x1daf390"/>
+    <token id="0x1db4e50" file="depth_to_laser.cpp" linenr="77" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db4f00"/>
+    <token id="0x1db4f00" file="depth_to_laser.cpp" linenr="77" str="." scope="0x1dbc180" astParent="0x1db5060" astOperand1="0x1db4e50" astOperand2="0x1db4fb0"/>
+    <token id="0x1db4fb0" file="depth_to_laser.cpp" linenr="77" str="angle_min" scope="0x1dbc180" type="name" varId="22" astParent="0x1db4f00"/>
+    <token id="0x1db5060" file="depth_to_laser.cpp" linenr="77" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db4f00" astOperand2="0x1db51c0"/>
+    <token id="0x1db51c0" file="depth_to_laser.cpp" linenr="77" str="-3.14" scope="0x1dbc180" type="number" isFloat="True" astParent="0x1db5060"/>
+    <token id="0x1db5270" file="depth_to_laser.cpp" linenr="77" str=";" scope="0x1dbc180"/>
+    <token id="0x1db5320" file="depth_to_laser.cpp" linenr="78" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db53d0"/>
+    <token id="0x1db53d0" file="depth_to_laser.cpp" linenr="78" str="." scope="0x1dbc180" astParent="0x1db5530" astOperand1="0x1db5320" astOperand2="0x1db5480"/>
+    <token id="0x1db5480" file="depth_to_laser.cpp" linenr="78" str="angle_max" scope="0x1dbc180" type="name" varId="23" astParent="0x1db53d0"/>
+    <token id="0x1db5530" file="depth_to_laser.cpp" linenr="78" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db53d0" astOperand2="0x1db55e0"/>
+    <token id="0x1db55e0" file="depth_to_laser.cpp" linenr="78" str="3.14" scope="0x1dbc180" type="number" isFloat="True" astParent="0x1db5530"/>
+    <token id="0x1db5690" file="depth_to_laser.cpp" linenr="78" str=";" scope="0x1dbc180"/>
+    <token id="0x1db5740" file="depth_to_laser.cpp" linenr="79" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db57f0"/>
+    <token id="0x1db57f0" file="depth_to_laser.cpp" linenr="79" str="." scope="0x1dbc180" astParent="0x1db5950" astOperand1="0x1db5740" astOperand2="0x1db58a0"/>
+    <token id="0x1db58a0" file="depth_to_laser.cpp" linenr="79" str="angle_increment" scope="0x1dbc180" type="name" varId="24" astParent="0x1db57f0"/>
+    <token id="0x1db5950" file="depth_to_laser.cpp" linenr="79" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db57f0" astOperand2="0x1db6030"/>
+    <token id="0x1db5a00" file="depth_to_laser.cpp" linenr="79" str="(" scope="0x1dbc180" link="0x1db5f80"/>
+    <token id="0x1db5ab0" file="depth_to_laser.cpp" linenr="79" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db5b60"/>
+    <token id="0x1db5b60" file="depth_to_laser.cpp" linenr="79" str="." scope="0x1dbc180" astParent="0x1db5cc0" astOperand1="0x1db5ab0" astOperand2="0x1db5c10"/>
+    <token id="0x1db5c10" file="depth_to_laser.cpp" linenr="79" str="angle_max" scope="0x1dbc180" type="name" varId="23" astParent="0x1db5b60"/>
+    <token id="0x1db5cc0" file="depth_to_laser.cpp" linenr="79" str="-" scope="0x1dbc180" type="op" isArithmeticalOp="True" astParent="0x1db6030" astOperand1="0x1db5b60" astOperand2="0x1db5e20"/>
+    <token id="0x1db5d70" file="depth_to_laser.cpp" linenr="79" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db5e20"/>
+    <token id="0x1db5e20" file="depth_to_laser.cpp" linenr="79" str="." scope="0x1dbc180" astParent="0x1db5cc0" astOperand1="0x1db5d70" astOperand2="0x1db5ed0"/>
+    <token id="0x1db5ed0" file="depth_to_laser.cpp" linenr="79" str="angle_min" scope="0x1dbc180" type="name" varId="22" astParent="0x1db5e20"/>
+    <token id="0x1db5f80" file="depth_to_laser.cpp" linenr="79" str=")" scope="0x1dbc180" link="0x1db5a00"/>
+    <token id="0x1db6030" file="depth_to_laser.cpp" linenr="79" str="/" scope="0x1dbc180" type="op" isArithmeticalOp="True" astParent="0x1db5950" astOperand1="0x1db5cc0" astOperand2="0x1db63a0"/>
+    <token id="0x1db60e0" file="depth_to_laser.cpp" linenr="79" str="(" scope="0x1dbc180" link="0x1db6500"/>
+    <token id="0x1db6190" file="depth_to_laser.cpp" linenr="79" str="depthImage" scope="0x1dbc180" type="name" varId="8" variable="0x1dbce50" astParent="0x1db6240"/>
+    <token id="0x1db6240" file="depth_to_laser.cpp" linenr="79" str="." scope="0x1dbc180" astParent="0x1db63a0" astOperand1="0x1db6190" astOperand2="0x1db62f0"/>
+    <token id="0x1db62f0" file="depth_to_laser.cpp" linenr="79" str="cols" scope="0x1dbc180" type="name" varId="17" astParent="0x1db6240"/>
+    <token id="0x1db63a0" file="depth_to_laser.cpp" linenr="79" str="-" scope="0x1dbc180" type="op" isArithmeticalOp="True" astParent="0x1db6030" astOperand1="0x1db6240" astOperand2="0x1db6450"/>
+    <token id="0x1db6450" file="depth_to_laser.cpp" linenr="79" str="1" scope="0x1dbc180" type="number" isInt="True" values="0x1db6458" astParent="0x1db63a0"/>
+    <token id="0x1db6500" file="depth_to_laser.cpp" linenr="79" str=")" scope="0x1dbc180" link="0x1db60e0"/>
+    <token id="0x1db65b0" file="depth_to_laser.cpp" linenr="79" str=";" scope="0x1dbc180"/>
+    <token id="0x1db6660" file="depth_to_laser.cpp" linenr="80" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db6710"/>
+    <token id="0x1db6710" file="depth_to_laser.cpp" linenr="80" str="." scope="0x1dbc180" astParent="0x1db6870" astOperand1="0x1db6660" astOperand2="0x1db67c0"/>
+    <token id="0x1db67c0" file="depth_to_laser.cpp" linenr="80" str="scan_time" scope="0x1dbc180" type="name" varId="25" astParent="0x1db6710"/>
+    <token id="0x1db6870" file="depth_to_laser.cpp" linenr="80" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db6710" astOperand2="0x1db6920"/>
+    <token id="0x1db6920" file="depth_to_laser.cpp" linenr="80" str="0" scope="0x1dbc180" type="number" isInt="True" values="0x1db6928" astParent="0x1db6870"/>
+    <token id="0x1db69d0" file="depth_to_laser.cpp" linenr="80" str=";" scope="0x1dbc180"/>
+    <token id="0x1db6a80" file="depth_to_laser.cpp" linenr="81" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db6b30"/>
+    <token id="0x1db6b30" file="depth_to_laser.cpp" linenr="81" str="." scope="0x1dbc180" astParent="0x1db6c90" astOperand1="0x1db6a80" astOperand2="0x1db6be0"/>
+    <token id="0x1db6be0" file="depth_to_laser.cpp" linenr="81" str="range_min" scope="0x1dbc180" type="name" varId="26" astParent="0x1db6b30"/>
+    <token id="0x1db6c90" file="depth_to_laser.cpp" linenr="81" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db6b30" astOperand2="0x1db6d40"/>
+    <token id="0x1db6d40" file="depth_to_laser.cpp" linenr="81" str="0.5" scope="0x1dbc180" type="number" isFloat="True" astParent="0x1db6c90"/>
+    <token id="0x1db6df0" file="depth_to_laser.cpp" linenr="81" str=";" scope="0x1dbc180"/>
+    <token id="0x1db6ea0" file="depth_to_laser.cpp" linenr="82" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db6f50"/>
+    <token id="0x1db6f50" file="depth_to_laser.cpp" linenr="82" str="." scope="0x1dbc180" astParent="0x1db70b0" astOperand1="0x1db6ea0" astOperand2="0x1db7000"/>
+    <token id="0x1db7000" file="depth_to_laser.cpp" linenr="82" str="range_max" scope="0x1dbc180" type="name" varId="27" astParent="0x1db6f50"/>
+    <token id="0x1db70b0" file="depth_to_laser.cpp" linenr="82" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db6f50" astOperand2="0x1db7160"/>
+    <token id="0x1db7160" file="depth_to_laser.cpp" linenr="82" str="4.5" scope="0x1dbc180" type="number" isFloat="True" astParent="0x1db70b0"/>
+    <token id="0x1db7210" file="depth_to_laser.cpp" linenr="82" str=";" scope="0x1dbc180"/>
+    <token id="0x1db72c0" file="depth_to_laser.cpp" linenr="83" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db7370"/>
+    <token id="0x1db7370" file="depth_to_laser.cpp" linenr="83" str="." scope="0x1dbc180" astParent="0x1db74d0" astOperand1="0x1db72c0" astOperand2="0x1db7420"/>
+    <token id="0x1db7420" file="depth_to_laser.cpp" linenr="83" str="header" scope="0x1dbc180" type="name" varId="28" astParent="0x1db7370"/>
+    <token id="0x1db74d0" file="depth_to_laser.cpp" linenr="83" str="." scope="0x1dbc180" astParent="0x1db7630" astOperand1="0x1db7370" astOperand2="0x1db7580"/>
+    <token id="0x1db7580" file="depth_to_laser.cpp" linenr="83" str="stamp" scope="0x1dbc180" type="name" varId="29" astParent="0x1db74d0"/>
+    <token id="0x1db7630" file="depth_to_laser.cpp" linenr="83" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db74d0" astOperand2="0x1db7a50"/>
+    <token id="0x1db76e0" file="depth_to_laser.cpp" linenr="83" str="ros" scope="0x1dbc180" type="name" astParent="0x1db7790"/>
+    <token id="0x1db7790" file="depth_to_laser.cpp" linenr="83" str="::" scope="0x1dbc180" astParent="0x1db78f0" astOperand1="0x1db76e0" astOperand2="0x1db7840"/>
+    <token id="0x1db7840" file="depth_to_laser.cpp" linenr="83" str="Time" scope="0x1dbc180" type="name" astParent="0x1db7790"/>
+    <token id="0x1db78f0" file="depth_to_laser.cpp" linenr="83" str="::" scope="0x1dbc180" astParent="0x1db7a50" astOperand1="0x1db7790" astOperand2="0x1db79a0"/>
+    <token id="0x1db79a0" file="depth_to_laser.cpp" linenr="83" str="now" scope="0x1dbc180" type="name" astParent="0x1db78f0"/>
+    <token id="0x1db7a50" file="depth_to_laser.cpp" linenr="83" str="(" scope="0x1dbc180" link="0x1db7b00" astParent="0x1db7630" astOperand1="0x1db78f0"/>
+    <token id="0x1db7b00" file="depth_to_laser.cpp" linenr="83" str=")" scope="0x1dbc180" link="0x1db7a50"/>
+    <token id="0x1db7bb0" file="depth_to_laser.cpp" linenr="83" str=";" scope="0x1dbc180"/>
+    <token id="0x1db7c60" file="depth_to_laser.cpp" linenr="84" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db7d10"/>
+    <token id="0x1db7d10" file="depth_to_laser.cpp" linenr="84" str="." scope="0x1dbc180" astParent="0x1db7e70" astOperand1="0x1db7c60" astOperand2="0x1db7dc0"/>
+    <token id="0x1db7dc0" file="depth_to_laser.cpp" linenr="84" str="header" scope="0x1dbc180" type="name" varId="28" astParent="0x1db7d10"/>
+    <token id="0x1db7e70" file="depth_to_laser.cpp" linenr="84" str="." scope="0x1dbc180" astParent="0x1db7fd0" astOperand1="0x1db7d10" astOperand2="0x1db7f20"/>
+    <token id="0x1db7f20" file="depth_to_laser.cpp" linenr="84" str="frame_id" scope="0x1dbc180" type="name" varId="30" astParent="0x1db7e70"/>
+    <token id="0x1db7fd0" file="depth_to_laser.cpp" linenr="84" str="=" scope="0x1dbc180" type="op" isAssignmentOp="True" astOperand1="0x1db7e70" astOperand2="0x1db8080"/>
+    <token id="0x1db8080" file="depth_to_laser.cpp" linenr="84" str="&quot;camera_link&quot;" scope="0x1dbc180" type="string" strlen="11" values="0x1db8088" astParent="0x1db7fd0"/>
+    <token id="0x1db8130" file="depth_to_laser.cpp" linenr="84" str=";" scope="0x1dbc180"/>
+    <token id="0x1db81e0" file="depth_to_laser.cpp" linenr="87" str="laser_pub_" scope="0x1dbc180" type="name" varId="4" variable="0x1dbcd70" astParent="0x1db8290"/>
+    <token id="0x1db8290" file="depth_to_laser.cpp" linenr="87" str="." scope="0x1dbc180" astParent="0x1db83f0" astOperand1="0x1db81e0" astOperand2="0x1db8340"/>
+    <token id="0x1db8340" file="depth_to_laser.cpp" linenr="87" str="publish" scope="0x1dbc180" type="name" astParent="0x1db8290"/>
+    <token id="0x1db83f0" file="depth_to_laser.cpp" linenr="87" str="(" scope="0x1dbc180" link="0x1db8550" astOperand1="0x1db8290" astOperand2="0x1db84a0"/>
+    <token id="0x1db84a0" file="depth_to_laser.cpp" linenr="87" str="ls" scope="0x1dbc180" type="name" varId="10" variable="0x1dbcec0" astParent="0x1db83f0"/>
+    <token id="0x1db8550" file="depth_to_laser.cpp" linenr="87" str=")" scope="0x1dbc180" link="0x1db83f0"/>
+    <token id="0x1db8600" file="depth_to_laser.cpp" linenr="87" str=";" scope="0x1dbc180"/>
+    <token id="0x1db86b0" file="depth_to_laser.cpp" linenr="98" str="}" scope="0x1dbc180" link="0x1daac60"/>
+    <token id="0x1db8760" file="depth_to_laser.cpp" linenr="99" str="}" scope="0x1da8180" link="0x1da87a0"/>
+    <token id="0x1db8810" file="depth_to_laser.cpp" linenr="99" str=";" scope="0x1db1340"/>
+    <token id="0x1db88c0" file="depth_to_laser.cpp" linenr="101" str="int" scope="0x1db1340" type="name"/>
+    <token id="0x1db8970" file="depth_to_laser.cpp" linenr="101" str="main" scope="0x1db1340" type="name" function="0x1dbca20" astParent="0x1db8a20"/>
+    <token id="0x1db8a20" file="depth_to_laser.cpp" linenr="101" str="(" scope="0x1db1340" link="0x1db8fa0" astOperand1="0x1db8970" astOperand2="0x1db8c30"/>
+    <token id="0x1db8ad0" file="depth_to_laser.cpp" linenr="101" str="int" scope="0x1db1340" type="name"/>
+    <token id="0x1db8b80" file="depth_to_laser.cpp" linenr="101" str="argc" scope="0x1db1340" type="name" varId="31" variable="0x1dbd240" astParent="0x1db8c30"/>
+    <token id="0x1db8c30" file="depth_to_laser.cpp" linenr="101" str="," scope="0x1db1340" astParent="0x1db8a20" astOperand1="0x1db8b80" astOperand2="0x1db8d90"/>
+    <token id="0x1db8ce0" file="depth_to_laser.cpp" linenr="101" str="char" scope="0x1db1340" type="name" astParent="0x1db8d90"/>
+    <token id="0x1db8d90" file="depth_to_laser.cpp" linenr="101" str="*" scope="0x1db1340" type="op" isArithmeticalOp="True" astParent="0x1db8c30" astOperand1="0x1db8ce0" astOperand2="0x1db8e40"/>
+    <token id="0x1db8e40" file="depth_to_laser.cpp" linenr="101" str="*" scope="0x1db1340" type="op" isArithmeticalOp="True" astParent="0x1db8d90" astOperand1="0x1db8ef0"/>
+    <token id="0x1db8ef0" file="depth_to_laser.cpp" linenr="101" str="argv" scope="0x1db1340" type="name" varId="32" variable="0x1dbd2b0" astParent="0x1db8e40"/>
+    <token id="0x1db8fa0" file="depth_to_laser.cpp" linenr="101" str=")" scope="0x1db1340" link="0x1db8a20"/>
+    <token id="0x1db9050" file="depth_to_laser.cpp" linenr="102" str="{" scope="0x1dbcac0" link="0x1dba0d0"/>
+    <token id="0x1db9100" file="depth_to_laser.cpp" linenr="103" str="ros" scope="0x1dbcac0" type="name" astParent="0x1db91b0"/>
+    <token id="0x1db91b0" file="depth_to_laser.cpp" linenr="103" str="::" scope="0x1dbcac0" astParent="0x1db9310" astOperand1="0x1db9100" astOperand2="0x1db9260"/>
+    <token id="0x1db9260" file="depth_to_laser.cpp" linenr="103" str="init" scope="0x1dbcac0" type="name" astParent="0x1db91b0"/>
+    <token id="0x1db9310" file="depth_to_laser.cpp" linenr="103" str="(" scope="0x1dbcac0" link="0x1db9730" astOperand1="0x1db91b0" astOperand2="0x1db95d0"/>
+    <token id="0x1db93c0" file="depth_to_laser.cpp" linenr="103" str="argc" scope="0x1dbcac0" type="name" varId="31" variable="0x1dbd240" astParent="0x1db9470"/>
+    <token id="0x1db9470" file="depth_to_laser.cpp" linenr="103" str="," scope="0x1dbcac0" astParent="0x1db95d0" astOperand1="0x1db93c0" astOperand2="0x1db9520"/>
+    <token id="0x1db9520" file="depth_to_laser.cpp" linenr="103" str="argv" scope="0x1dbcac0" type="name" varId="32" variable="0x1dbd2b0" astParent="0x1db9470"/>
+    <token id="0x1db95d0" file="depth_to_laser.cpp" linenr="103" str="," scope="0x1dbcac0" astParent="0x1db9310" astOperand1="0x1db9470" astOperand2="0x1db9680"/>
+    <token id="0x1db9680" file="depth_to_laser.cpp" linenr="103" str="&quot;image_converter&quot;" scope="0x1dbcac0" type="string" strlen="15" values="0x1db9688" astParent="0x1db95d0"/>
+    <token id="0x1db9730" file="depth_to_laser.cpp" linenr="103" str=")" scope="0x1dbcac0" link="0x1db9310"/>
+    <token id="0x1db97e0" file="depth_to_laser.cpp" linenr="103" str=";" scope="0x1dbcac0"/>
+    <token id="0x1db9890" file="depth_to_laser.cpp" linenr="104" str="ImageConverter" scope="0x1dbcac0" type="name" type-scope="0x1da8180"/>
+    <token id="0x1db9940" file="depth_to_laser.cpp" linenr="104" str="ic" scope="0x1dbcac0" type="name" varId="33" variable="0x1dbd1d0"/>
+    <token id="0x1db99f0" file="depth_to_laser.cpp" linenr="104" str=";" scope="0x1dbcac0"/>
+    <token id="0x1db9aa0" file="depth_to_laser.cpp" linenr="105" str="ros" scope="0x1dbcac0" type="name" astParent="0x1db9b50"/>
+    <token id="0x1db9b50" file="depth_to_laser.cpp" linenr="105" str="::" scope="0x1dbcac0" astParent="0x1db9cb0" astOperand1="0x1db9aa0" astOperand2="0x1db9c00"/>
+    <token id="0x1db9c00" file="depth_to_laser.cpp" linenr="105" str="spin" scope="0x1dbcac0" type="name" astParent="0x1db9b50"/>
+    <token id="0x1db9cb0" file="depth_to_laser.cpp" linenr="105" str="(" scope="0x1dbcac0" link="0x1db9d60" astOperand1="0x1db9b50"/>
+    <token id="0x1db9d60" file="depth_to_laser.cpp" linenr="105" str=")" scope="0x1dbcac0" link="0x1db9cb0"/>
+    <token id="0x1db9e10" file="depth_to_laser.cpp" linenr="105" str=";" scope="0x1dbcac0"/>
+    <token id="0x1db9ec0" file="depth_to_laser.cpp" linenr="106" str="return" scope="0x1dbcac0" type="name" astOperand1="0x1db9f70"/>
+    <token id="0x1db9f70" file="depth_to_laser.cpp" linenr="106" str="0" scope="0x1dbcac0" type="number" isInt="True" values="0x1db9f78" astParent="0x1db9ec0"/>
+    <token id="0x1dba020" file="depth_to_laser.cpp" linenr="106" str=";" scope="0x1dbcac0"/>
+    <token id="0x1dba0d0" file="depth_to_laser.cpp" linenr="107" str="}" scope="0x1dbcac0" link="0x1db9050"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1db1340" type="Global">
+      <functionList>
+        <function id="0x1dbca20" tokenDef="0x1db8970" name="main">
+          <arg nr="1" variable="0x1dbd240"/>
+          <arg nr="2" variable="0x1dbd2b0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1da8180" type="Class" className="ImageConverter" classStart="0x1da87a0" classEnd="0x1db8760" nestedIn="0x1db1340">
+      <functionList>
+        <function id="0x1da8320" tokenDef="0x1da3b30" name="ImageConverter"/>
+        <function id="0x1dbbf10" tokenDef="0x1daa210" name="ImageConverter"/>
+        <function id="0x1dbc0e0" tokenDef="0x1daa630" name="imageCb">
+          <arg nr="1" variable="0x1dbd320"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x1dbcbf0"/>
+        <var id="0x1dbcc90"/>
+        <var id="0x1dbcd00"/>
+        <var id="0x1dbcd70"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dbbde0" type="Function" className="ImageConverter" classStart="0x1da40b0" classEnd="0x1daa0b0" nestedIn="0x1da8180" function="0x1da8320"/>
+    <scope id="0x1dbbfb0" type="Function" className="ImageConverter" classStart="0x1daa420" classEnd="0x1daa4d0" nestedIn="0x1da8180" function="0x1dbbf10"/>
+    <scope id="0x1dbc180" type="Function" className="imageCb" classStart="0x1daac60" classEnd="0x1db86b0" nestedIn="0x1da8180" function="0x1dbc0e0">
+      <varlist>
+        <var id="0x1dbcde0"/>
+        <var id="0x1dbce50"/>
+        <var id="0x1dbcec0"/>
+        <var id="0x1dbcf30"/>
+        <var id="0x1dbcfa0"/>
+        <var id="0x1dbd010"/>
+        <var id="0x1dbd080"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dbc2b0" type="Try" classStart="0x1dab130" classEnd="0x1dabc30" nestedIn="0x1dbc180"/>
+    <scope id="0x1dbc3e0" type="Catch" classStart="0x1dac260" classEnd="0x1dacc60" nestedIn="0x1dbc180">
+      <varlist>
+        <var id="0x1dbc540"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dbc5b0" type="For" classStart="0x1daf390" classEnd="0x1db4da0" nestedIn="0x1dbc180">
+      <varlist>
+        <var id="0x1dbc6e0"/>
+        <var id="0x1dbd0f0"/>
+        <var id="0x1dbd160"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dbc750" type="For" classStart="0x1db0200" classEnd="0x1db1ee0" nestedIn="0x1dbc5b0">
+      <varlist>
+        <var id="0x1dbc880"/>
+      </varlist>
+    </scope>
+    <scope id="0x1dbc8f0" type="If" classStart="0x1db5110" classEnd="0x1da3a80" nestedIn="0x1dbc750"/>
+    <scope id="0x1dbcac0" type="Function" className="main" classStart="0x1db9050" classEnd="0x1dba0d0" nestedIn="0x1db1340" function="0x1dbca20">
+      <varlist>
+        <var id="0x1dbd1d0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1dbcbf0" nameToken="0x1da8a60" typeStartToken="0x1da8850" typeEndToken="0x1da89b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcc90" nameToken="0x1da8dd0" typeStartToken="0x1da8bc0" typeEndToken="0x1da8d20" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcd00" nameToken="0x1da3500" typeStartToken="0x1da32f0" typeEndToken="0x1da3450" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcd70" nameToken="0x1da3870" typeStartToken="0x1da3660" typeEndToken="0x1da37c0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd320" nameToken="0x1daab00" typeStartToken="0x1daa840" typeEndToken="0x1daaa50" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1dbcde0" nameToken="0x1daaf20" typeStartToken="0x1daad10" typeEndToken="0x1daae70" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbc540" nameToken="0x1dac100" typeStartToken="0x1dabe40" typeEndToken="0x1dac050" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1dbce50" nameToken="0x1dacdc0" typeStartToken="0x1dacd10" typeEndToken="0x1dacd10" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcec0" nameToken="0x1dad4a0" typeStartToken="0x1dad290" typeEndToken="0x1dad3f0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcf30" nameToken="0x1dad810" typeStartToken="0x1dad600" typeEndToken="0x1dad760" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbcfa0" nameToken="0x1dadfa0" typeStartToken="0x1dadef0" typeEndToken="0x1dadef0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd010" nameToken="0x1dae100" typeStartToken="0x1dba8a0" typeEndToken="0x1dba8a0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd080" nameToken="0x1dae310" typeStartToken="0x1dae260" typeEndToken="0x1dae260" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbc6e0" nameToken="0x1daeaa0" typeStartToken="0x1dae9f0" typeEndToken="0x1dae9f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbc880" nameToken="0x1daf910" typeStartToken="0x1daf860" typeEndToken="0x1daf860" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd0f0" nameToken="0x1db2040" typeStartToken="0x1db1f90" typeEndToken="0x1db1f90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd160" nameToken="0x1db27d0" typeStartToken="0x1db2720" typeEndToken="0x1db2720" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd240" nameToken="0x1db8b80" typeStartToken="0x1db8ad0" typeEndToken="0x1db8ad0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1dbd2b0" nameToken="0x1db8ef0" typeStartToken="0x1db8ce0" typeEndToken="0x1db8e40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1dbd1d0" nameToken="0x1db9940" typeStartToken="0x1db9890" typeEndToken="0x1db9890" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1da4588">
+      <value tokvalue="0x1da4580" known="true"/>
+    </values>
+    <values id="0x1da46e8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1da9d48">
+      <value tokvalue="0x1da9d40" known="true"/>
+    </values>
+    <values id="0x1da9ea8">
+      <value intvalue="20" known="true"/>
+    </values>
+    <values id="0x1dac4a8">
+      <value tokvalue="0x1dac4a0" known="true"/>
+    </values>
+    <values id="0x1dae738">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1daec08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1daf5a8">
+      <value intvalue="255" known="true"/>
+    </values>
+    <values id="0x1db0c58">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1db1288">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1db2468">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x1db25c8">
+      <value intvalue="0" possible="true"/>
+    </values>
+    <values id="0x1db3dd8">
+      <value tokvalue="0x1db3dd0" known="true"/>
+    </values>
+    <values id="0x1db4098">
+      <value tokvalue="0x1db4090" known="true"/>
+    </values>
+    <values id="0x1db4358">
+      <value tokvalue="0x1db4350" known="true"/>
+    </values>
+    <values id="0x1db6458">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x1db6928">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1db8088">
+      <value tokvalue="0x1db8080" known="true"/>
+    </values>
+    <values id="0x1db9688">
+      <value tokvalue="0x1db9680" known="true"/>
+    </values>
+    <values id="0x1db9f78">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,977 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x19ca420" file="xbox_node.cpp" linenr="21" str="using" scope="0x19f62a0" type="name"/>
+    <token id="0x19dbae0" file="xbox_node.cpp" linenr="21" str="namespace" scope="0x19f62a0" type="name"/>
+    <token id="0x19dbb90" file="xbox_node.cpp" linenr="21" str="BlackLib" scope="0x19f62a0" type="name"/>
+    <token id="0x19dbc40" file="xbox_node.cpp" linenr="21" str=";" scope="0x19f62a0"/>
+    <token id="0x19dbcf0" file="xbox_node.cpp" linenr="22" str="int" scope="0x19f62a0" type="name"/>
+    <token id="0x19dbda0" file="xbox_node.cpp" linenr="22" str="estopflag" scope="0x19f62a0" type="name" varId="1" variable="0x19f9860"/>
+    <token id="0x19dbe50" file="xbox_node.cpp" linenr="22" str=";" scope="0x19f62a0"/>
+    <token id="0x19e1e00" file="xbox_node.cpp" linenr="22" str="estopflag" scope="0x19f62a0" type="name" varId="1" variable="0x19f9860" astParent="0x19e2bc0"/>
+    <token id="0x19e2bc0" file="xbox_node.cpp" linenr="22" str="=" scope="0x19f62a0" type="op" isAssignmentOp="True" astOperand1="0x19e1e00" astOperand2="0x19dbf00"/>
+    <token id="0x19dbf00" file="xbox_node.cpp" linenr="22" str="0" scope="0x19f62a0" type="number" isInt="True" values="0x19dbf08" astParent="0x19e2bc0"/>
+    <token id="0x19dbfb0" file="xbox_node.cpp" linenr="22" str=";" scope="0x19f62a0"/>
+    <token id="0x19dc060" file="xbox_node.cpp" linenr="23" str="class" scope="0x19f62a0" type="name"/>
+    <token id="0x19dc110" file="xbox_node.cpp" linenr="23" str="XboxData" scope="0x19f62a0" type="name" type-scope="0x19f6760"/>
+    <token id="0x19dc1c0" file="xbox_node.cpp" linenr="24" str="{" scope="0x19f6760" link="0x19dd7c0"/>
+    <token id="0x19dc270" file="xbox_node.cpp" linenr="25" str="public:" scope="0x19f6760" type="name"/>
+    <token id="0x19dc3d0" file="xbox_node.cpp" linenr="26" str="XboxData" scope="0x19f6760" type="name" function="0x19f6940" astParent="0x19dc480"/>
+    <token id="0x19dc480" file="xbox_node.cpp" linenr="26" str="(" scope="0x19f6760" link="0x19dc530" astOperand1="0x19dc3d0"/>
+    <token id="0x19dc530" file="xbox_node.cpp" linenr="26" str=")" scope="0x19f6760" link="0x19dc480"/>
+    <token id="0x19dc5e0" file="xbox_node.cpp" linenr="26" str=";" scope="0x19f6760"/>
+    <token id="0x19dc690" file="xbox_node.cpp" linenr="27" str="ros" scope="0x19f6760" type="name" astParent="0x19dc740"/>
+    <token id="0x19dc740" file="xbox_node.cpp" linenr="27" str="::" scope="0x19f6760" astOperand1="0x19dc690" astOperand2="0x19dc8a0"/>
+    <token id="0x19dc7f0" file="xbox_node.cpp" linenr="27" str="NodeHandle" scope="0x19f6760" type="name"/>
+    <token id="0x19dc8a0" file="xbox_node.cpp" linenr="27" str="nh_" scope="0x19f6760" type="name" varId="2" variable="0x19f98d0" astParent="0x19dc740"/>
+    <token id="0x19dc950" file="xbox_node.cpp" linenr="27" str=";" scope="0x19f6760"/>
+    <token id="0x19dca00" file="xbox_node.cpp" linenr="28" str="private:" scope="0x19f6760" type="name"/>
+    <token id="0x19dcb60" file="xbox_node.cpp" linenr="29" str="void" scope="0x19f6760" type="name"/>
+    <token id="0x19dcc10" file="xbox_node.cpp" linenr="29" str="joyCallback" scope="0x19f6760" type="name" function="0x19f69e0" astParent="0x19dccc0"/>
+    <token id="0x19dccc0" file="xbox_node.cpp" linenr="29" str="(" scope="0x19f6760" link="0x19dd2f0" astOperand1="0x19dcc10" astOperand2="0x19dd190"/>
+    <token id="0x19dcd70" file="xbox_node.cpp" linenr="29" str="const" scope="0x19f6760" type="name"/>
+    <token id="0x19dce20" file="xbox_node.cpp" linenr="29" str="sensor_msgs" scope="0x19f6760" type="name" astParent="0x19dced0"/>
+    <token id="0x19dced0" file="xbox_node.cpp" linenr="29" str="::" scope="0x19f6760" astParent="0x19dd030" astOperand1="0x19dce20" astOperand2="0x19dcf80"/>
+    <token id="0x19dcf80" file="xbox_node.cpp" linenr="29" str="Joy" scope="0x19f6760" type="name" astParent="0x19dced0"/>
+    <token id="0x19dd030" file="xbox_node.cpp" linenr="29" str="::" scope="0x19f6760" astParent="0x19dd190" astOperand1="0x19dced0" astOperand2="0x19dd0e0"/>
+    <token id="0x19dd0e0" file="xbox_node.cpp" linenr="29" str="ConstPtr" scope="0x19f6760" type="name" astParent="0x19dd030"/>
+    <token id="0x19dd190" file="xbox_node.cpp" linenr="29" str="&amp;" scope="0x19f6760" type="op" astParent="0x19dccc0" astOperand1="0x19dd030" astOperand2="0x19dd240"/>
+    <token id="0x19dd240" file="xbox_node.cpp" linenr="29" str="joy" scope="0x19f6760" type="name" varId="3" astParent="0x19dd190"/>
+    <token id="0x19dd2f0" file="xbox_node.cpp" linenr="29" str=")" scope="0x19f6760" link="0x19dccc0"/>
+    <token id="0x19dd3a0" file="xbox_node.cpp" linenr="29" str=";" scope="0x19f6760"/>
+    <token id="0x19dd450" file="xbox_node.cpp" linenr="30" str="ros" scope="0x19f6760" type="name" astParent="0x19dd500"/>
+    <token id="0x19dd500" file="xbox_node.cpp" linenr="30" str="::" scope="0x19f6760" astOperand1="0x19dd450" astOperand2="0x19dd660"/>
+    <token id="0x19dd5b0" file="xbox_node.cpp" linenr="30" str="Subscriber" scope="0x19f6760" type="name"/>
+    <token id="0x19dd660" file="xbox_node.cpp" linenr="30" str="joy_sub_" scope="0x19f6760" type="name" varId="4" variable="0x19f9940" astParent="0x19dd500"/>
+    <token id="0x19dd710" file="xbox_node.cpp" linenr="30" str=";" scope="0x19f6760"/>
+    <token id="0x19dd7c0" file="xbox_node.cpp" linenr="31" str="}" scope="0x19f6760" link="0x19dc1c0"/>
+    <token id="0x19dd870" file="xbox_node.cpp" linenr="31" str=";" scope="0x19f62a0"/>
+    <token id="0x19dd920" file="xbox_node.cpp" linenr="34" str="XboxData" scope="0x19f62a0" type="name" type-scope="0x19f6760" astParent="0x19dd9d0"/>
+    <token id="0x19dd9d0" file="xbox_node.cpp" linenr="34" str="::" scope="0x19f62a0" astParent="0x19ddb30" astOperand1="0x19dd920" astOperand2="0x19dda80"/>
+    <token id="0x19dda80" file="xbox_node.cpp" linenr="34" str="XboxData" scope="0x19f62a0" type="name" function="0x19f6940" astParent="0x19dd9d0"/>
+    <token id="0x19ddb30" file="xbox_node.cpp" linenr="34" str="(" scope="0x19f62a0" link="0x19ddbe0" astParent="0x19ddc90" astOperand1="0x19dd9d0"/>
+    <token id="0x19ddbe0" file="xbox_node.cpp" linenr="34" str=")" scope="0x19f62a0" link="0x19ddb30"/>
+    <token id="0x19ddc90" file="xbox_node.cpp" linenr="34" str=":" scope="0x19f62a0" astOperand1="0x19ddb30" astOperand2="0x19dddf0"/>
+    <token id="0x19ddd40" file="xbox_node.cpp" linenr="35" str="nh_" scope="0x19f62a0" type="name" varId="2" variable="0x19f98d0" astParent="0x19dddf0"/>
+    <token id="0x19dddf0" file="xbox_node.cpp" linenr="35" str="(" scope="0x19f62a0" link="0x19ddea0" astParent="0x19ddc90" astOperand1="0x19ddd40"/>
+    <token id="0x19ddea0" file="xbox_node.cpp" linenr="35" str=")" scope="0x19f62a0" link="0x19dddf0"/>
+    <token id="0x19ddf50" file="xbox_node.cpp" linenr="36" str="{" scope="0x19f6a80" link="0x19df830"/>
+    <token id="0x19de000" file="xbox_node.cpp" linenr="37" str="joy_sub_" scope="0x19f6a80" type="name" varId="4" variable="0x19f9940" astParent="0x19de0b0"/>
+    <token id="0x19de0b0" file="xbox_node.cpp" linenr="37" str="=" scope="0x19f6a80" type="op" isAssignmentOp="True" astOperand1="0x19de000" astOperand2="0x19def40"/>
+    <token id="0x19de160" file="xbox_node.cpp" linenr="37" str="nh_" scope="0x19f6a80" type="name" varId="2" variable="0x19f98d0" astParent="0x19dea70"/>
+    <token id="0x19dea70" file="xbox_node.cpp" linenr="37" str="." scope="0x19f6a80" astParent="0x19def40" astOperand1="0x19de160" astOperand2="0x19deb20"/>
+    <token id="0x19deb20" file="xbox_node.cpp" linenr="37" str="subscribe" scope="0x19f6a80" type="name" astParent="0x19dea70"/>
+    <token id="0x19debd0" file="xbox_node.cpp" linenr="37" str="&lt;" scope="0x19f6a80" link="0x19dee90"/>
+    <token id="0x19dec80" file="xbox_node.cpp" linenr="37" str="sensor_msgs" scope="0x19f6a80" type="name"/>
+    <token id="0x19ded30" file="xbox_node.cpp" linenr="37" str="::" scope="0x19f6a80"/>
+    <token id="0x19dede0" file="xbox_node.cpp" linenr="37" str="Joy" scope="0x19f6a80" type="name"/>
+    <token id="0x19dee90" file="xbox_node.cpp" linenr="37" str="&gt;" scope="0x19f6a80" link="0x19debd0"/>
+    <token id="0x19def40" file="xbox_node.cpp" linenr="37" str="(" scope="0x19f6a80" link="0x19df6d0" astParent="0x19de0b0" astOperand1="0x19dea70" astOperand2="0x19df570"/>
+    <token id="0x19deff0" file="xbox_node.cpp" linenr="37" str="&quot;joy&quot;" scope="0x19f6a80" type="string" strlen="3" values="0x19deff8" astParent="0x19df0a0"/>
+    <token id="0x19df0a0" file="xbox_node.cpp" linenr="37" str="," scope="0x19f6a80" astParent="0x19df200" astOperand1="0x19deff0" astOperand2="0x19df150"/>
+    <token id="0x19df150" file="xbox_node.cpp" linenr="37" str="10" scope="0x19f6a80" type="number" isInt="True" values="0x19df158" astParent="0x19df0a0"/>
+    <token id="0x19df200" file="xbox_node.cpp" linenr="37" str="," scope="0x19f6a80" astParent="0x19df570" astOperand1="0x19df0a0" astOperand2="0x19df2b0"/>
+    <token id="0x19df2b0" file="xbox_node.cpp" linenr="37" str="&amp;" scope="0x19f6a80" type="op" astParent="0x19df200" astOperand1="0x19df410"/>
+    <token id="0x19df360" file="xbox_node.cpp" linenr="37" str="XboxData" scope="0x19f6a80" type="name" type-scope="0x19f6760" astParent="0x19df410"/>
+    <token id="0x19df410" file="xbox_node.cpp" linenr="37" str="::" scope="0x19f6a80" astParent="0x19df2b0" astOperand1="0x19df360" astOperand2="0x19df4c0"/>
+    <token id="0x19df4c0" file="xbox_node.cpp" linenr="37" str="joyCallback" scope="0x19f6a80" type="name" astParent="0x19df410"/>
+    <token id="0x19df570" file="xbox_node.cpp" linenr="37" str="," scope="0x19f6a80" astParent="0x19def40" astOperand1="0x19df200" astOperand2="0x19df620"/>
+    <token id="0x19df620" file="xbox_node.cpp" linenr="37" str="this" scope="0x19f6a80" type="name" astParent="0x19df570"/>
+    <token id="0x19df6d0" file="xbox_node.cpp" linenr="37" str=")" scope="0x19f6a80" link="0x19def40"/>
+    <token id="0x19df780" file="xbox_node.cpp" linenr="37" str=";" scope="0x19f6a80"/>
+    <token id="0x19df830" file="xbox_node.cpp" linenr="38" str="}" scope="0x19f6a80" link="0x19ddf50"/>
+    <token id="0x19df8e0" file="xbox_node.cpp" linenr="39" str="void" scope="0x19f62a0" type="name"/>
+    <token id="0x19df990" file="xbox_node.cpp" linenr="39" str="XboxData" scope="0x19f62a0" type="name" type-scope="0x19f6760" astParent="0x19dfa40"/>
+    <token id="0x19dfa40" file="xbox_node.cpp" linenr="39" str="::" scope="0x19f62a0" astParent="0x19dfba0" astOperand1="0x19df990" astOperand2="0x19dfaf0"/>
+    <token id="0x19dfaf0" file="xbox_node.cpp" linenr="39" str="joyCallback" scope="0x19f62a0" type="name" function="0x19f69e0" astParent="0x19dfa40"/>
+    <token id="0x19dfba0" file="xbox_node.cpp" linenr="39" str="(" scope="0x19f62a0" link="0x19e01d0" astOperand1="0x19dfa40" astOperand2="0x19e0070"/>
+    <token id="0x19dfc50" file="xbox_node.cpp" linenr="39" str="const" scope="0x19f62a0" type="name"/>
+    <token id="0x19dfd00" file="xbox_node.cpp" linenr="39" str="sensor_msgs" scope="0x19f62a0" type="name" astParent="0x19dfdb0"/>
+    <token id="0x19dfdb0" file="xbox_node.cpp" linenr="39" str="::" scope="0x19f62a0" astParent="0x19dff10" astOperand1="0x19dfd00" astOperand2="0x19dfe60"/>
+    <token id="0x19dfe60" file="xbox_node.cpp" linenr="39" str="Joy" scope="0x19f62a0" type="name" astParent="0x19dfdb0"/>
+    <token id="0x19dff10" file="xbox_node.cpp" linenr="39" str="::" scope="0x19f62a0" astParent="0x19e0070" astOperand1="0x19dfdb0" astOperand2="0x19dffc0"/>
+    <token id="0x19dffc0" file="xbox_node.cpp" linenr="39" str="ConstPtr" scope="0x19f62a0" type="name" astParent="0x19dff10"/>
+    <token id="0x19e0070" file="xbox_node.cpp" linenr="39" str="&amp;" scope="0x19f62a0" type="op" astParent="0x19dfba0" astOperand1="0x19dff10" astOperand2="0x19e0120"/>
+    <token id="0x19e0120" file="xbox_node.cpp" linenr="39" str="joy" scope="0x19f62a0" type="name" varId="5" variable="0x19fa270" astParent="0x19e0070"/>
+    <token id="0x19e01d0" file="xbox_node.cpp" linenr="39" str=")" scope="0x19f62a0" link="0x19dfba0"/>
+    <token id="0x19e0280" file="xbox_node.cpp" linenr="40" str="{" scope="0x19f6bb0" link="0x19f46c0"/>
+    <token id="0x19e0330" file="xbox_node.cpp" linenr="42" str="BlackGPIO" scope="0x19f6bb0" type="name"/>
+    <token id="0x19e03e0" file="xbox_node.cpp" linenr="42" str="estopen" scope="0x19f6bb0" type="name" varId="6" variable="0x19f99b0" astParent="0x19e0490"/>
+    <token id="0x19e0490" file="xbox_node.cpp" linenr="42" str="(" scope="0x19f6bb0" link="0x19e0750" astOperand1="0x19e03e0" astOperand2="0x19e05f0"/>
+    <token id="0x19e0540" file="xbox_node.cpp" linenr="42" str="GPIO_31" scope="0x19f6bb0" type="name" astParent="0x19e05f0"/>
+    <token id="0x19e05f0" file="xbox_node.cpp" linenr="42" str="," scope="0x19f6bb0" astParent="0x19e0490" astOperand1="0x19e0540" astOperand2="0x19e06a0"/>
+    <token id="0x19e06a0" file="xbox_node.cpp" linenr="42" str="output" scope="0x19f6bb0" type="name" astParent="0x19e05f0"/>
+    <token id="0x19e0750" file="xbox_node.cpp" linenr="42" str=")" scope="0x19f6bb0" link="0x19e0490"/>
+    <token id="0x19e0800" file="xbox_node.cpp" linenr="42" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e08b0" file="xbox_node.cpp" linenr="43" str="BlackPWM" scope="0x19f6bb0" type="name"/>
+    <token id="0x19e0960" file="xbox_node.cpp" linenr="43" str="pwmLed2" scope="0x19f6bb0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e0a10"/>
+    <token id="0x19e0a10" file="xbox_node.cpp" linenr="43" str="(" scope="0x19f6bb0" link="0x19e0b70" astOperand1="0x19e0960" astOperand2="0x19e0ac0"/>
+    <token id="0x19e0ac0" file="xbox_node.cpp" linenr="43" str="EHRPWM2A" scope="0x19f6bb0" type="name" astParent="0x19e0a10"/>
+    <token id="0x19e0b70" file="xbox_node.cpp" linenr="43" str=")" scope="0x19f6bb0" link="0x19e0a10"/>
+    <token id="0x19e0c20" file="xbox_node.cpp" linenr="43" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e0cd0" file="xbox_node.cpp" linenr="44" str="pwmLed2" scope="0x19f6bb0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e0d80"/>
+    <token id="0x19e0d80" file="xbox_node.cpp" linenr="44" str="." scope="0x19f6bb0" astParent="0x19e0ee0" astOperand1="0x19e0cd0" astOperand2="0x19e0e30"/>
+    <token id="0x19e0e30" file="xbox_node.cpp" linenr="44" str="setPeriodTime" scope="0x19f6bb0" type="name" astParent="0x19e0d80"/>
+    <token id="0x19e0ee0" file="xbox_node.cpp" linenr="44" str="(" scope="0x19f6bb0" link="0x19e1040" astOperand1="0x19e0d80" astOperand2="0x19e0f90"/>
+    <token id="0x19e0f90" file="xbox_node.cpp" linenr="44" str="50000000" scope="0x19f6bb0" type="number" isInt="True" values="0x19e0f98" astParent="0x19e0ee0"/>
+    <token id="0x19e1040" file="xbox_node.cpp" linenr="44" str=")" scope="0x19f6bb0" link="0x19e0ee0"/>
+    <token id="0x19e10f0" file="xbox_node.cpp" linenr="44" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e11a0" file="xbox_node.cpp" linenr="45" str="pwmLed2" scope="0x19f6bb0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e1250"/>
+    <token id="0x19e1250" file="xbox_node.cpp" linenr="45" str="." scope="0x19f6bb0" astParent="0x19e13b0" astOperand1="0x19e11a0" astOperand2="0x19e1300"/>
+    <token id="0x19e1300" file="xbox_node.cpp" linenr="45" str="setDutyPercent" scope="0x19f6bb0" type="name" astParent="0x19e1250"/>
+    <token id="0x19e13b0" file="xbox_node.cpp" linenr="45" str="(" scope="0x19f6bb0" link="0x19e1510" astOperand1="0x19e1250" astOperand2="0x19e1460"/>
+    <token id="0x19e1460" file="xbox_node.cpp" linenr="45" str="0.0" scope="0x19f6bb0" type="number" isFloat="True" astParent="0x19e13b0"/>
+    <token id="0x19e1510" file="xbox_node.cpp" linenr="45" str=")" scope="0x19f6bb0" link="0x19e13b0"/>
+    <token id="0x19e15c0" file="xbox_node.cpp" linenr="45" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e1670" file="xbox_node.cpp" linenr="46" str="int" scope="0x19f6bb0" type="name"/>
+    <token id="0x19e1720" file="xbox_node.cpp" linenr="46" str="i" scope="0x19f6bb0" type="name" varId="8" variable="0x19f9a90"/>
+    <token id="0x19e17d0" file="xbox_node.cpp" linenr="46" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e1880" file="xbox_node.cpp" linenr="47" str="float" scope="0x19f6bb0" type="name"/>
+    <token id="0x19e1930" file="xbox_node.cpp" linenr="47" str="duty" scope="0x19f6bb0" type="name" varId="9" variable="0x19f9b00"/>
+    <token id="0x19e19e0" file="xbox_node.cpp" linenr="47" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e1a90" file="xbox_node.cpp" linenr="49" str="float" scope="0x19f6bb0" type="name"/>
+    <token id="0x19e1b40" file="xbox_node.cpp" linenr="49" str="val" scope="0x19f6bb0" type="name" varId="10" variable="0x19f9b70"/>
+    <token id="0x19e1bf0" file="xbox_node.cpp" linenr="49" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e3140" file="xbox_node.cpp" linenr="49" str="val" scope="0x19f6bb0" type="name" varId="10" variable="0x19f9b70" astParent="0x19e34b0"/>
+    <token id="0x19e34b0" file="xbox_node.cpp" linenr="49" str="=" scope="0x19f6bb0" type="op" isAssignmentOp="True" astOperand1="0x19e3140" astOperand2="0x19e1f60"/>
+    <token id="0x19e1ca0" file="xbox_node.cpp" linenr="49" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19e1d50"/>
+    <token id="0x19e1d50" file="xbox_node.cpp" linenr="49" str="." scope="0x19f6bb0" astParent="0x19e1f60" astOperand1="0x19e1ca0" astOperand2="0x19e1eb0"/>
+    <token id="0x19e1eb0" file="xbox_node.cpp" linenr="49" str="axes" scope="0x19f6bb0" type="name" varId="11" astParent="0x19e1d50"/>
+    <token id="0x19e1f60" file="xbox_node.cpp" linenr="49" str="[" scope="0x19f6bb0" link="0x19e20c0" astParent="0x19e34b0" astOperand1="0x19e1d50" astOperand2="0x19e2010"/>
+    <token id="0x19e2010" file="xbox_node.cpp" linenr="49" str="4" scope="0x19f6bb0" type="number" isInt="True" values="0x19e2018" astParent="0x19e1f60"/>
+    <token id="0x19e20c0" file="xbox_node.cpp" linenr="49" str="]" scope="0x19f6bb0" link="0x19e1f60"/>
+    <token id="0x19e2170" file="xbox_node.cpp" linenr="49" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e2220" file="xbox_node.cpp" linenr="50" str="duty" scope="0x19f6bb0" type="name" varId="9" variable="0x19f9b00" astParent="0x19e22d0"/>
+    <token id="0x19e22d0" file="xbox_node.cpp" linenr="50" str="=" scope="0x19f6bb0" type="op" isAssignmentOp="True" astOperand1="0x19e2220" astOperand2="0x19e26f0"/>
+    <token id="0x19e2380" file="xbox_node.cpp" linenr="50" str="(" scope="0x19f6bb0" link="0x19e2640"/>
+    <token id="0x19e2430" file="xbox_node.cpp" linenr="50" str="val" scope="0x19f6bb0" type="name" varId="10" variable="0x19f9b70" astParent="0x19e24e0"/>
+    <token id="0x19e24e0" file="xbox_node.cpp" linenr="50" str="+" scope="0x19f6bb0" type="op" isArithmeticalOp="True" astParent="0x19e26f0" astOperand1="0x19e2430" astOperand2="0x19e2590"/>
+    <token id="0x19e2590" file="xbox_node.cpp" linenr="50" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19e2598" astParent="0x19e24e0"/>
+    <token id="0x19e2640" file="xbox_node.cpp" linenr="50" str=")" scope="0x19f6bb0" link="0x19e2380"/>
+    <token id="0x19e26f0" file="xbox_node.cpp" linenr="50" str="*" scope="0x19f6bb0" type="op" isArithmeticalOp="True" astParent="0x19e22d0" astOperand1="0x19e24e0" astOperand2="0x19e27a0"/>
+    <token id="0x19e27a0" file="xbox_node.cpp" linenr="50" str="50.0" scope="0x19f6bb0" type="number" isFloat="True" astParent="0x19e26f0"/>
+    <token id="0x19e2850" file="xbox_node.cpp" linenr="50" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e2900" file="xbox_node.cpp" linenr="52" str="if" scope="0x19f6bb0" type="name" astParent="0x19e29b0"/>
+    <token id="0x19e29b0" file="xbox_node.cpp" linenr="52" str="(" scope="0x19f6bb0" link="0x19e3610" astOperand1="0x19e2900" astOperand2="0x19e32a0"/>
+    <token id="0x19e2a60" file="xbox_node.cpp" linenr="52" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19e2b10"/>
+    <token id="0x19e2b10" file="xbox_node.cpp" linenr="52" str="." scope="0x19f6bb0" astParent="0x19e2d20" astOperand1="0x19e2a60" astOperand2="0x19e2c70"/>
+    <token id="0x19e2c70" file="xbox_node.cpp" linenr="52" str="axes" scope="0x19f6bb0" type="name" varId="11" astParent="0x19e2b10"/>
+    <token id="0x19e2d20" file="xbox_node.cpp" linenr="52" str="[" scope="0x19f6bb0" link="0x19e2e80" astParent="0x19e2f30" astOperand1="0x19e2b10" astOperand2="0x19e2dd0"/>
+    <token id="0x19e2dd0" file="xbox_node.cpp" linenr="52" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19e2dd8" astParent="0x19e2d20"/>
+    <token id="0x19e2e80" file="xbox_node.cpp" linenr="52" str="]" scope="0x19f6bb0" link="0x19e2d20"/>
+    <token id="0x19e2f30" file="xbox_node.cpp" linenr="52" str="&amp;&amp;" scope="0x19f6bb0" type="op" isLogicalOp="True" astParent="0x19e32a0" astOperand1="0x19e2d20" astOperand2="0x19e3090"/>
+    <token id="0x19e2fe0" file="xbox_node.cpp" linenr="52" str="duty" scope="0x19f6bb0" type="name" varId="9" variable="0x19f9b00" values="0x19e2fe8" astParent="0x19e3090"/>
+    <token id="0x19e3090" file="xbox_node.cpp" linenr="52" str="&lt;=" scope="0x19f6bb0" type="op" isComparisonOp="True" values="0x19e3098" astParent="0x19e2f30" astOperand1="0x19e2fe0" astOperand2="0x19e31f0"/>
+    <token id="0x19e31f0" file="xbox_node.cpp" linenr="52" str="80" scope="0x19f6bb0" type="number" isInt="True" values="0x19e31f8" astParent="0x19e3090"/>
+    <token id="0x19e32a0" file="xbox_node.cpp" linenr="52" str="&amp;&amp;" scope="0x19f6bb0" type="op" isLogicalOp="True" astParent="0x19e29b0" astOperand1="0x19e2f30" astOperand2="0x19e3400"/>
+    <token id="0x19e3350" file="xbox_node.cpp" linenr="52" str="duty" scope="0x19f6bb0" type="name" varId="9" variable="0x19f9b00" astParent="0x19e3400"/>
+    <token id="0x19e3400" file="xbox_node.cpp" linenr="52" str="&gt;=" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19e32a0" astOperand1="0x19e3350" astOperand2="0x19e3560"/>
+    <token id="0x19e3560" file="xbox_node.cpp" linenr="52" str="16" scope="0x19f6bb0" type="number" isInt="True" values="0x19e3568" astParent="0x19e3400"/>
+    <token id="0x19e3610" file="xbox_node.cpp" linenr="52" str=")" scope="0x19f6bb0" link="0x19e29b0"/>
+    <token id="0x19e36c0" file="xbox_node.cpp" linenr="53" str="{" scope="0x19f6ce0" link="0x19e4640"/>
+    <token id="0x19f5e20" file="xbox_node.cpp" linenr="54" str="std" scope="0x19f6ce0" type="name" astParent="0x19f5ed0"/>
+    <token id="0x19f5ed0" file="xbox_node.cpp" linenr="54" str="::" scope="0x19f6ce0" astParent="0x19e3820" astOperand1="0x19f5e20" astOperand2="0x19e3770"/>
+    <token id="0x19e3770" file="xbox_node.cpp" linenr="54" str="cout" scope="0x19f6ce0" type="name" astParent="0x19f5ed0"/>
+    <token id="0x19e3820" file="xbox_node.cpp" linenr="54" str="&lt;&lt;" scope="0x19f6ce0" type="op" isArithmeticalOp="True" astParent="0x19e39e0" astOperand1="0x19f5ed0" astOperand2="0x19e3900"/>
+    <token id="0x19e3900" file="xbox_node.cpp" linenr="54" str="&quot;Current Duty Cycle= &quot;" scope="0x19f6ce0" type="string" strlen="20" values="0x19e3908" astParent="0x19e3820"/>
+    <token id="0x19e39e0" file="xbox_node.cpp" linenr="54" str="&lt;&lt;" scope="0x19f6ce0" type="op" isArithmeticalOp="True" astOperand1="0x19e3820" astOperand2="0x19e3b40"/>
+    <token id="0x19e3a90" file="xbox_node.cpp" linenr="54" str="100" scope="0x19f6ce0" type="number" isInt="True" values="0x19e3a98" astParent="0x19e3b40"/>
+    <token id="0x19e3b40" file="xbox_node.cpp" linenr="54" str="-" scope="0x19f6ce0" type="op" isArithmeticalOp="True" values="0x19e3b48" astParent="0x19e39e0" astOperand1="0x19e3a90" astOperand2="0x19e3bf0"/>
+    <token id="0x19e3bf0" file="xbox_node.cpp" linenr="54" str="duty" scope="0x19f6ce0" type="name" varId="9" variable="0x19f9b00" values="0x19e3bf8" astParent="0x19e3b40"/>
+    <token id="0x19e3ca0" file="xbox_node.cpp" linenr="54" str=";" scope="0x19f6ce0"/>
+    <token id="0x19f6540" file="xbox_node.cpp" linenr="55" str="std" scope="0x19f6ce0" type="name" astParent="0x19f65f0"/>
+    <token id="0x19f65f0" file="xbox_node.cpp" linenr="55" str="::" scope="0x19f6ce0" astParent="0x19e3e00" astOperand1="0x19f6540" astOperand2="0x19e3d50"/>
+    <token id="0x19e3d50" file="xbox_node.cpp" linenr="55" str="cout" scope="0x19f6ce0" type="name" astParent="0x19f65f0"/>
+    <token id="0x19e3e00" file="xbox_node.cpp" linenr="55" str="&lt;&lt;" scope="0x19f6ce0" type="op" isArithmeticalOp="True" astOperand1="0x19f65f0" astOperand2="0x19f6080"/>
+    <token id="0x19f66a0" file="xbox_node.cpp" linenr="55" str="std" scope="0x19f6ce0" type="name" astParent="0x19f6080"/>
+    <token id="0x19f6080" file="xbox_node.cpp" linenr="55" str="::" scope="0x19f6ce0" astParent="0x19e3e00" astOperand1="0x19f66a0" astOperand2="0x19e3eb0"/>
+    <token id="0x19e3eb0" file="xbox_node.cpp" linenr="55" str="endl" scope="0x19f6ce0" type="name" astParent="0x19f6080"/>
+    <token id="0x19e3f60" file="xbox_node.cpp" linenr="55" str=";" scope="0x19f6ce0"/>
+    <token id="0x19e4010" file="xbox_node.cpp" linenr="56" str="pwmLed2" scope="0x19f6ce0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e40c0"/>
+    <token id="0x19e40c0" file="xbox_node.cpp" linenr="56" str="." scope="0x19f6ce0" astParent="0x19e4220" astOperand1="0x19e4010" astOperand2="0x19e4170"/>
+    <token id="0x19e4170" file="xbox_node.cpp" linenr="56" str="setDutyPercent" scope="0x19f6ce0" type="name" astParent="0x19e40c0"/>
+    <token id="0x19e4220" file="xbox_node.cpp" linenr="56" str="(" scope="0x19f6ce0" link="0x19e44e0" astOperand1="0x19e40c0" astOperand2="0x19e4380"/>
+    <token id="0x19e42d0" file="xbox_node.cpp" linenr="56" str="100" scope="0x19f6ce0" type="number" isInt="True" values="0x19e42d8" astParent="0x19e4380"/>
+    <token id="0x19e4380" file="xbox_node.cpp" linenr="56" str="-" scope="0x19f6ce0" type="op" isArithmeticalOp="True" values="0x19e4388" astParent="0x19e4220" astOperand1="0x19e42d0" astOperand2="0x19e4430"/>
+    <token id="0x19e4430" file="xbox_node.cpp" linenr="56" str="duty" scope="0x19f6ce0" type="name" varId="9" variable="0x19f9b00" values="0x19e4438" astParent="0x19e4380"/>
+    <token id="0x19e44e0" file="xbox_node.cpp" linenr="56" str=")" scope="0x19f6ce0" link="0x19e4220"/>
+    <token id="0x19e4590" file="xbox_node.cpp" linenr="56" str=";" scope="0x19f6ce0"/>
+    <token id="0x19e4640" file="xbox_node.cpp" linenr="57" str="}" scope="0x19f6ce0" link="0x19e36c0"/>
+    <token id="0x19e46f0" file="xbox_node.cpp" linenr="58" str="else" scope="0x19f6bb0" type="name"/>
+    <token id="0x19ca4d0" file="xbox_node.cpp" linenr="58" str="{" scope="0x19f6f40" link="0x19dba30"/>
+    <token id="0x19e47a0" file="xbox_node.cpp" linenr="58" str="if" scope="0x19f6f40" type="name" astParent="0x19e4850"/>
+    <token id="0x19e4850" file="xbox_node.cpp" linenr="58" str="(" scope="0x19f6f40" link="0x19e5140" astOperand1="0x19e47a0" astOperand2="0x19e4dd0"/>
+    <token id="0x19e4900" file="xbox_node.cpp" linenr="58" str="joy" scope="0x19f6f40" type="name" varId="5" variable="0x19fa270" astParent="0x19e49b0"/>
+    <token id="0x19e49b0" file="xbox_node.cpp" linenr="58" str="." scope="0x19f6f40" astParent="0x19e4bc0" astOperand1="0x19e4900" astOperand2="0x19e4b10"/>
+    <token id="0x19e4b10" file="xbox_node.cpp" linenr="58" str="axes" scope="0x19f6f40" type="name" varId="11" astParent="0x19e49b0"/>
+    <token id="0x19e4bc0" file="xbox_node.cpp" linenr="58" str="[" scope="0x19f6f40" link="0x19e4d20" astParent="0x19e4dd0" astOperand1="0x19e49b0" astOperand2="0x19e4c70"/>
+    <token id="0x19e4c70" file="xbox_node.cpp" linenr="58" str="1" scope="0x19f6f40" type="number" isInt="True" values="0x19e4c78" astParent="0x19e4bc0"/>
+    <token id="0x19e4d20" file="xbox_node.cpp" linenr="58" str="]" scope="0x19f6f40" link="0x19e4bc0"/>
+    <token id="0x19e4dd0" file="xbox_node.cpp" linenr="58" str="&amp;&amp;" scope="0x19f6f40" type="op" isLogicalOp="True" astParent="0x19e4850" astOperand1="0x19e4bc0" astOperand2="0x19e4f30"/>
+    <token id="0x19e4e80" file="xbox_node.cpp" linenr="58" str="duty" scope="0x19f6f40" type="name" varId="9" variable="0x19f9b00" values="0x19e4e88" astParent="0x19e4f30"/>
+    <token id="0x19e4f30" file="xbox_node.cpp" linenr="58" str="&gt;=" scope="0x19f6f40" type="op" isComparisonOp="True" values="0x19e4f38" astParent="0x19e4dd0" astOperand1="0x19e4e80" astOperand2="0x19e5090"/>
+    <token id="0x19e5090" file="xbox_node.cpp" linenr="58" str="80" scope="0x19f6f40" type="number" isInt="True" values="0x19e5098" astParent="0x19e4f30"/>
+    <token id="0x19e5140" file="xbox_node.cpp" linenr="58" str=")" scope="0x19f6f40" link="0x19e4850"/>
+    <token id="0x19e51f0" file="xbox_node.cpp" linenr="59" str="{" scope="0x19f82d0" link="0x19e5e80"/>
+    <token id="0x19f6130" file="xbox_node.cpp" linenr="60" str="std" scope="0x19f82d0" type="name" astParent="0x19f61e0"/>
+    <token id="0x19f61e0" file="xbox_node.cpp" linenr="60" str="::" scope="0x19f82d0" astParent="0x19e5350" astOperand1="0x19f6130" astOperand2="0x19e52a0"/>
+    <token id="0x19e52a0" file="xbox_node.cpp" linenr="60" str="cout" scope="0x19f82d0" type="name" astParent="0x19f61e0"/>
+    <token id="0x19e5350" file="xbox_node.cpp" linenr="60" str="&lt;&lt;" scope="0x19f82d0" type="op" isArithmeticalOp="True" astParent="0x19e54e0" astOperand1="0x19f61e0" astOperand2="0x19e5400"/>
+    <token id="0x19e5400" file="xbox_node.cpp" linenr="60" str="&quot;Current Duty Cycle= &quot;" scope="0x19f82d0" type="string" strlen="20" values="0x19e5408" astParent="0x19e5350"/>
+    <token id="0x19e54e0" file="xbox_node.cpp" linenr="60" str="&lt;&lt;" scope="0x19f82d0" type="op" isArithmeticalOp="True" astOperand1="0x19e5350" astOperand2="0x19e5590"/>
+    <token id="0x19e5590" file="xbox_node.cpp" linenr="60" str="0" scope="0x19f82d0" type="number" isInt="True" values="0x19e5598" astParent="0x19e54e0"/>
+    <token id="0x19e5640" file="xbox_node.cpp" linenr="60" str=";" scope="0x19f82d0"/>
+    <token id="0x19f70e0" file="xbox_node.cpp" linenr="61" str="std" scope="0x19f82d0" type="name" astParent="0x19f7190"/>
+    <token id="0x19f7190" file="xbox_node.cpp" linenr="61" str="::" scope="0x19f82d0" astParent="0x19e57a0" astOperand1="0x19f70e0" astOperand2="0x19e56f0"/>
+    <token id="0x19e56f0" file="xbox_node.cpp" linenr="61" str="cout" scope="0x19f82d0" type="name" astParent="0x19f7190"/>
+    <token id="0x19e57a0" file="xbox_node.cpp" linenr="61" str="&lt;&lt;" scope="0x19f82d0" type="op" isArithmeticalOp="True" astOperand1="0x19f7190" astOperand2="0x19f72f0"/>
+    <token id="0x19f7240" file="xbox_node.cpp" linenr="61" str="std" scope="0x19f82d0" type="name" astParent="0x19f72f0"/>
+    <token id="0x19f72f0" file="xbox_node.cpp" linenr="61" str="::" scope="0x19f82d0" astParent="0x19e57a0" astOperand1="0x19f7240" astOperand2="0x19e5850"/>
+    <token id="0x19e5850" file="xbox_node.cpp" linenr="61" str="endl" scope="0x19f82d0" type="name" astParent="0x19f72f0"/>
+    <token id="0x19e5900" file="xbox_node.cpp" linenr="61" str=";" scope="0x19f82d0"/>
+    <token id="0x19e59b0" file="xbox_node.cpp" linenr="62" str="pwmLed2" scope="0x19f82d0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e5a60"/>
+    <token id="0x19e5a60" file="xbox_node.cpp" linenr="62" str="." scope="0x19f82d0" astParent="0x19e5bc0" astOperand1="0x19e59b0" astOperand2="0x19e5b10"/>
+    <token id="0x19e5b10" file="xbox_node.cpp" linenr="62" str="setDutyPercent" scope="0x19f82d0" type="name" astParent="0x19e5a60"/>
+    <token id="0x19e5bc0" file="xbox_node.cpp" linenr="62" str="(" scope="0x19f82d0" link="0x19e5d20" astOperand1="0x19e5a60" astOperand2="0x19e5c70"/>
+    <token id="0x19e5c70" file="xbox_node.cpp" linenr="62" str="0" scope="0x19f82d0" type="number" isInt="True" values="0x19e5c78" astParent="0x19e5bc0"/>
+    <token id="0x19e5d20" file="xbox_node.cpp" linenr="62" str=")" scope="0x19f82d0" link="0x19e5bc0"/>
+    <token id="0x19e5dd0" file="xbox_node.cpp" linenr="62" str=";" scope="0x19f82d0"/>
+    <token id="0x19e5e80" file="xbox_node.cpp" linenr="63" str="}" scope="0x19f82d0" link="0x19e51f0"/>
+    <token id="0x19e5f30" file="xbox_node.cpp" linenr="64" str="else" scope="0x19f6f40" type="name"/>
+    <token id="0x19d87b0" file="xbox_node.cpp" linenr="64" str="{" scope="0x19f8550" link="0x19d8860"/>
+    <token id="0x19e5fe0" file="xbox_node.cpp" linenr="64" str="if" scope="0x19f8550" type="name" astParent="0x19e6090"/>
+    <token id="0x19e6090" file="xbox_node.cpp" linenr="64" str="(" scope="0x19f8550" link="0x19e6980" astOperand1="0x19e5fe0" astOperand2="0x19e6610"/>
+    <token id="0x19e6140" file="xbox_node.cpp" linenr="64" str="joy" scope="0x19f8550" type="name" varId="5" variable="0x19fa270" astParent="0x19e61f0"/>
+    <token id="0x19e61f0" file="xbox_node.cpp" linenr="64" str="." scope="0x19f8550" astParent="0x19e6400" astOperand1="0x19e6140" astOperand2="0x19e6350"/>
+    <token id="0x19e6350" file="xbox_node.cpp" linenr="64" str="axes" scope="0x19f8550" type="name" varId="11" astParent="0x19e61f0"/>
+    <token id="0x19e6400" file="xbox_node.cpp" linenr="64" str="[" scope="0x19f8550" link="0x19e6560" astParent="0x19e6610" astOperand1="0x19e61f0" astOperand2="0x19e64b0"/>
+    <token id="0x19e64b0" file="xbox_node.cpp" linenr="64" str="1" scope="0x19f8550" type="number" isInt="True" values="0x19e64b8" astParent="0x19e6400"/>
+    <token id="0x19e6560" file="xbox_node.cpp" linenr="64" str="]" scope="0x19f8550" link="0x19e6400"/>
+    <token id="0x19e6610" file="xbox_node.cpp" linenr="64" str="&amp;&amp;" scope="0x19f8550" type="op" isLogicalOp="True" astParent="0x19e6090" astOperand1="0x19e6400" astOperand2="0x19e6770"/>
+    <token id="0x19e66c0" file="xbox_node.cpp" linenr="64" str="duty" scope="0x19f8550" type="name" varId="9" variable="0x19f9b00" values="0x19e66c8" astParent="0x19e6770"/>
+    <token id="0x19e6770" file="xbox_node.cpp" linenr="64" str="&lt;=" scope="0x19f8550" type="op" isComparisonOp="True" values="0x19e6778" astParent="0x19e6610" astOperand1="0x19e66c0" astOperand2="0x19e68d0"/>
+    <token id="0x19e68d0" file="xbox_node.cpp" linenr="64" str="16" scope="0x19f8550" type="number" isInt="True" values="0x19e68d8" astParent="0x19e6770"/>
+    <token id="0x19e6980" file="xbox_node.cpp" linenr="64" str=")" scope="0x19f8550" link="0x19e6090"/>
+    <token id="0x19e6a30" file="xbox_node.cpp" linenr="65" str="{" scope="0x19f86a0" link="0x19e76c0"/>
+    <token id="0x19f73a0" file="xbox_node.cpp" linenr="66" str="std" scope="0x19f86a0" type="name" astParent="0x19f7450"/>
+    <token id="0x19f7450" file="xbox_node.cpp" linenr="66" str="::" scope="0x19f86a0" astParent="0x19e6b90" astOperand1="0x19f73a0" astOperand2="0x19e6ae0"/>
+    <token id="0x19e6ae0" file="xbox_node.cpp" linenr="66" str="cout" scope="0x19f86a0" type="name" astParent="0x19f7450"/>
+    <token id="0x19e6b90" file="xbox_node.cpp" linenr="66" str="&lt;&lt;" scope="0x19f86a0" type="op" isArithmeticalOp="True" astParent="0x19e6d20" astOperand1="0x19f7450" astOperand2="0x19e6c40"/>
+    <token id="0x19e6c40" file="xbox_node.cpp" linenr="66" str="&quot;Current Duty Cycle= &quot;" scope="0x19f86a0" type="string" strlen="20" values="0x19e6c48" astParent="0x19e6b90"/>
+    <token id="0x19e6d20" file="xbox_node.cpp" linenr="66" str="&lt;&lt;" scope="0x19f86a0" type="op" isArithmeticalOp="True" astOperand1="0x19e6b90" astOperand2="0x19e6dd0"/>
+    <token id="0x19e6dd0" file="xbox_node.cpp" linenr="66" str="84" scope="0x19f86a0" type="number" isInt="True" values="0x19e6dd8" astParent="0x19e6d20"/>
+    <token id="0x19e6e80" file="xbox_node.cpp" linenr="66" str=";" scope="0x19f86a0"/>
+    <token id="0x19f7500" file="xbox_node.cpp" linenr="67" str="std" scope="0x19f86a0" type="name" astParent="0x19f75b0"/>
+    <token id="0x19f75b0" file="xbox_node.cpp" linenr="67" str="::" scope="0x19f86a0" astParent="0x19e6fe0" astOperand1="0x19f7500" astOperand2="0x19e6f30"/>
+    <token id="0x19e6f30" file="xbox_node.cpp" linenr="67" str="cout" scope="0x19f86a0" type="name" astParent="0x19f75b0"/>
+    <token id="0x19e6fe0" file="xbox_node.cpp" linenr="67" str="&lt;&lt;" scope="0x19f86a0" type="op" isArithmeticalOp="True" astOperand1="0x19f75b0" astOperand2="0x19f7710"/>
+    <token id="0x19f7660" file="xbox_node.cpp" linenr="67" str="std" scope="0x19f86a0" type="name" astParent="0x19f7710"/>
+    <token id="0x19f7710" file="xbox_node.cpp" linenr="67" str="::" scope="0x19f86a0" astParent="0x19e6fe0" astOperand1="0x19f7660" astOperand2="0x19e7090"/>
+    <token id="0x19e7090" file="xbox_node.cpp" linenr="67" str="endl" scope="0x19f86a0" type="name" astParent="0x19f7710"/>
+    <token id="0x19e7140" file="xbox_node.cpp" linenr="67" str=";" scope="0x19f86a0"/>
+    <token id="0x19e71f0" file="xbox_node.cpp" linenr="68" str="pwmLed2" scope="0x19f86a0" type="name" varId="7" variable="0x19f9a20" astParent="0x19e72a0"/>
+    <token id="0x19e72a0" file="xbox_node.cpp" linenr="68" str="." scope="0x19f86a0" astParent="0x19e7400" astOperand1="0x19e71f0" astOperand2="0x19e7350"/>
+    <token id="0x19e7350" file="xbox_node.cpp" linenr="68" str="setDutyPercent" scope="0x19f86a0" type="name" astParent="0x19e72a0"/>
+    <token id="0x19e7400" file="xbox_node.cpp" linenr="68" str="(" scope="0x19f86a0" link="0x19e7560" astOperand1="0x19e72a0" astOperand2="0x19e74b0"/>
+    <token id="0x19e74b0" file="xbox_node.cpp" linenr="68" str="84" scope="0x19f86a0" type="number" isInt="True" values="0x19e74b8" astParent="0x19e7400"/>
+    <token id="0x19e7560" file="xbox_node.cpp" linenr="68" str=")" scope="0x19f86a0" link="0x19e7400"/>
+    <token id="0x19e7610" file="xbox_node.cpp" linenr="68" str=";" scope="0x19f86a0"/>
+    <token id="0x19e76c0" file="xbox_node.cpp" linenr="69" str="}" scope="0x19f86a0" link="0x19e6a30"/>
+    <token id="0x19d8860" file="xbox_node.cpp" linenr="69" str="}" scope="0x19f8550" link="0x19d87b0"/>
+    <token id="0x19dba30" file="xbox_node.cpp" linenr="69" str="}" scope="0x19f6f40" link="0x19ca4d0"/>
+    <token id="0x19e7770" file="xbox_node.cpp" linenr="70" str="if" scope="0x19f6bb0" type="name" astParent="0x19e7820"/>
+    <token id="0x19e7820" file="xbox_node.cpp" linenr="70" str="(" scope="0x19f6bb0" link="0x19e8480" astOperand1="0x19e7770" astOperand2="0x19e8060"/>
+    <token id="0x19e78d0" file="xbox_node.cpp" linenr="70" str="(" scope="0x19f6bb0" link="0x19e7fb0"/>
+    <token id="0x19e7980" file="xbox_node.cpp" linenr="70" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19e7a30"/>
+    <token id="0x19e7a30" file="xbox_node.cpp" linenr="70" str="." scope="0x19f6bb0" astParent="0x19e7c40" astOperand1="0x19e7980" astOperand2="0x19e7b90"/>
+    <token id="0x19e7b90" file="xbox_node.cpp" linenr="70" str="buttons" scope="0x19f6bb0" type="name" varId="12" astParent="0x19e7a30"/>
+    <token id="0x19e7c40" file="xbox_node.cpp" linenr="70" str="[" scope="0x19f6bb0" link="0x19e7da0" astParent="0x19e7e50" astOperand1="0x19e7a30" astOperand2="0x19e7cf0"/>
+    <token id="0x19e7cf0" file="xbox_node.cpp" linenr="70" str="3" scope="0x19f6bb0" type="number" isInt="True" values="0x19e7cf8" astParent="0x19e7c40"/>
+    <token id="0x19e7da0" file="xbox_node.cpp" linenr="70" str="]" scope="0x19f6bb0" link="0x19e7c40"/>
+    <token id="0x19e7e50" file="xbox_node.cpp" linenr="70" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19e8060" astOperand1="0x19e7c40" astOperand2="0x19e7f00"/>
+    <token id="0x19e7f00" file="xbox_node.cpp" linenr="70" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19e7f08" astParent="0x19e7e50"/>
+    <token id="0x19e7fb0" file="xbox_node.cpp" linenr="70" str=")" scope="0x19f6bb0" link="0x19e78d0"/>
+    <token id="0x19e8060" file="xbox_node.cpp" linenr="70" str="&amp;&amp;" scope="0x19f6bb0" type="op" isLogicalOp="True" astParent="0x19e7820" astOperand1="0x19e7e50" astOperand2="0x19e8270"/>
+    <token id="0x19e8110" file="xbox_node.cpp" linenr="70" str="(" scope="0x19f6bb0" link="0x19e83d0"/>
+    <token id="0x19e81c0" file="xbox_node.cpp" linenr="70" str="estopflag" scope="0x19f6bb0" type="name" varId="1" variable="0x19f9860" astParent="0x19e8270"/>
+    <token id="0x19e8270" file="xbox_node.cpp" linenr="70" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19e8060" astOperand1="0x19e81c0" astOperand2="0x19e8320"/>
+    <token id="0x19e8320" file="xbox_node.cpp" linenr="70" str="0" scope="0x19f6bb0" type="number" isInt="True" values="0x19e8328" astParent="0x19e8270"/>
+    <token id="0x19e83d0" file="xbox_node.cpp" linenr="70" str=")" scope="0x19f6bb0" link="0x19e8110"/>
+    <token id="0x19e8480" file="xbox_node.cpp" linenr="70" str=")" scope="0x19f6bb0" link="0x19e7820"/>
+    <token id="0x19e8530" file="xbox_node.cpp" linenr="71" str="{" scope="0x19f87f0" link="0x19e8e50"/>
+    <token id="0x19e85e0" file="xbox_node.cpp" linenr="72" str="estopflag" scope="0x19f87f0" type="name" varId="1" variable="0x19f9860" astParent="0x19e8690"/>
+    <token id="0x19e8690" file="xbox_node.cpp" linenr="72" str="=" scope="0x19f87f0" type="op" isAssignmentOp="True" astOperand1="0x19e85e0" astOperand2="0x19e8740"/>
+    <token id="0x19e8740" file="xbox_node.cpp" linenr="72" str="1" scope="0x19f87f0" type="number" isInt="True" values="0x19e8748" astParent="0x19e8690"/>
+    <token id="0x19e87f0" file="xbox_node.cpp" linenr="72" str=";" scope="0x19f87f0"/>
+    <token id="0x19f77c0" file="xbox_node.cpp" linenr="73" str="std" scope="0x19f87f0" type="name" astParent="0x19f7870"/>
+    <token id="0x19f7870" file="xbox_node.cpp" linenr="73" str="::" scope="0x19f87f0" astParent="0x19e8950" astOperand1="0x19f77c0" astOperand2="0x19e88a0"/>
+    <token id="0x19e88a0" file="xbox_node.cpp" linenr="73" str="cout" scope="0x19f87f0" type="name" astParent="0x19f7870"/>
+    <token id="0x19e8950" file="xbox_node.cpp" linenr="73" str="&lt;&lt;" scope="0x19f87f0" type="op" isArithmeticalOp="True" astOperand1="0x19f7870" astOperand2="0x19e8a00"/>
+    <token id="0x19e8a00" file="xbox_node.cpp" linenr="73" str="&quot;E-stop Enabled&quot;" scope="0x19f87f0" type="string" strlen="14" values="0x19e8a08" astParent="0x19e8950"/>
+    <token id="0x19e8ae0" file="xbox_node.cpp" linenr="73" str=";" scope="0x19f87f0"/>
+    <token id="0x19f7920" file="xbox_node.cpp" linenr="74" str="std" scope="0x19f87f0" type="name" astParent="0x19f79d0"/>
+    <token id="0x19f79d0" file="xbox_node.cpp" linenr="74" str="::" scope="0x19f87f0" astParent="0x19e8c40" astOperand1="0x19f7920" astOperand2="0x19e8b90"/>
+    <token id="0x19e8b90" file="xbox_node.cpp" linenr="74" str="cout" scope="0x19f87f0" type="name" astParent="0x19f79d0"/>
+    <token id="0x19e8c40" file="xbox_node.cpp" linenr="74" str="&lt;&lt;" scope="0x19f87f0" type="op" isArithmeticalOp="True" astOperand1="0x19f79d0" astOperand2="0x19f7b30"/>
+    <token id="0x19f7a80" file="xbox_node.cpp" linenr="74" str="std" scope="0x19f87f0" type="name" astParent="0x19f7b30"/>
+    <token id="0x19f7b30" file="xbox_node.cpp" linenr="74" str="::" scope="0x19f87f0" astParent="0x19e8c40" astOperand1="0x19f7a80" astOperand2="0x19e8cf0"/>
+    <token id="0x19e8cf0" file="xbox_node.cpp" linenr="74" str="endl" scope="0x19f87f0" type="name" astParent="0x19f7b30"/>
+    <token id="0x19e8da0" file="xbox_node.cpp" linenr="74" str=";" scope="0x19f87f0"/>
+    <token id="0x19e8e50" file="xbox_node.cpp" linenr="75" str="}" scope="0x19f87f0" link="0x19e8530"/>
+    <token id="0x19e8f00" file="xbox_node.cpp" linenr="76" str="if" scope="0x19f6bb0" type="name" astParent="0x19e8fb0"/>
+    <token id="0x19e8fb0" file="xbox_node.cpp" linenr="76" str="(" scope="0x19f6bb0" link="0x19e9c10" astOperand1="0x19e8f00" astOperand2="0x19e97f0"/>
+    <token id="0x19e9060" file="xbox_node.cpp" linenr="76" str="(" scope="0x19f6bb0" link="0x19e9740"/>
+    <token id="0x19e9110" file="xbox_node.cpp" linenr="76" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19e91c0"/>
+    <token id="0x19e91c0" file="xbox_node.cpp" linenr="76" str="." scope="0x19f6bb0" astParent="0x19e93d0" astOperand1="0x19e9110" astOperand2="0x19e9320"/>
+    <token id="0x19e9320" file="xbox_node.cpp" linenr="76" str="buttons" scope="0x19f6bb0" type="name" varId="12" astParent="0x19e91c0"/>
+    <token id="0x19e93d0" file="xbox_node.cpp" linenr="76" str="[" scope="0x19f6bb0" link="0x19e9530" astParent="0x19e95e0" astOperand1="0x19e91c0" astOperand2="0x19e9480"/>
+    <token id="0x19e9480" file="xbox_node.cpp" linenr="76" str="2" scope="0x19f6bb0" type="number" isInt="True" values="0x19e9488" astParent="0x19e93d0"/>
+    <token id="0x19e9530" file="xbox_node.cpp" linenr="76" str="]" scope="0x19f6bb0" link="0x19e93d0"/>
+    <token id="0x19e95e0" file="xbox_node.cpp" linenr="76" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19e97f0" astOperand1="0x19e93d0" astOperand2="0x19e9690"/>
+    <token id="0x19e9690" file="xbox_node.cpp" linenr="76" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19e9698" astParent="0x19e95e0"/>
+    <token id="0x19e9740" file="xbox_node.cpp" linenr="76" str=")" scope="0x19f6bb0" link="0x19e9060"/>
+    <token id="0x19e97f0" file="xbox_node.cpp" linenr="76" str="&amp;&amp;" scope="0x19f6bb0" type="op" isLogicalOp="True" astParent="0x19e8fb0" astOperand1="0x19e95e0" astOperand2="0x19e9a00"/>
+    <token id="0x19e98a0" file="xbox_node.cpp" linenr="76" str="(" scope="0x19f6bb0" link="0x19e9b60"/>
+    <token id="0x19e9950" file="xbox_node.cpp" linenr="76" str="estopflag" scope="0x19f6bb0" type="name" varId="1" variable="0x19f9860" astParent="0x19e9a00"/>
+    <token id="0x19e9a00" file="xbox_node.cpp" linenr="76" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19e97f0" astOperand1="0x19e9950" astOperand2="0x19e9ab0"/>
+    <token id="0x19e9ab0" file="xbox_node.cpp" linenr="76" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19e9ab8" astParent="0x19e9a00"/>
+    <token id="0x19e9b60" file="xbox_node.cpp" linenr="76" str=")" scope="0x19f6bb0" link="0x19e98a0"/>
+    <token id="0x19e9c10" file="xbox_node.cpp" linenr="76" str=")" scope="0x19f6bb0" link="0x19e8fb0"/>
+    <token id="0x19e9cc0" file="xbox_node.cpp" linenr="77" str="{" scope="0x19f8940" link="0x19ea5e0"/>
+    <token id="0x19e9d70" file="xbox_node.cpp" linenr="78" str="estopflag" scope="0x19f8940" type="name" varId="1" variable="0x19f9860" astParent="0x19e9e20"/>
+    <token id="0x19e9e20" file="xbox_node.cpp" linenr="78" str="=" scope="0x19f8940" type="op" isAssignmentOp="True" astOperand1="0x19e9d70" astOperand2="0x19e9ed0"/>
+    <token id="0x19e9ed0" file="xbox_node.cpp" linenr="78" str="0" scope="0x19f8940" type="number" isInt="True" values="0x19e9ed8" astParent="0x19e9e20"/>
+    <token id="0x19e9f80" file="xbox_node.cpp" linenr="78" str=";" scope="0x19f8940"/>
+    <token id="0x19f7be0" file="xbox_node.cpp" linenr="79" str="std" scope="0x19f8940" type="name" astParent="0x19f7c90"/>
+    <token id="0x19f7c90" file="xbox_node.cpp" linenr="79" str="::" scope="0x19f8940" astParent="0x19ea0e0" astOperand1="0x19f7be0" astOperand2="0x19ea030"/>
+    <token id="0x19ea030" file="xbox_node.cpp" linenr="79" str="cout" scope="0x19f8940" type="name" astParent="0x19f7c90"/>
+    <token id="0x19ea0e0" file="xbox_node.cpp" linenr="79" str="&lt;&lt;" scope="0x19f8940" type="op" isArithmeticalOp="True" astOperand1="0x19f7c90" astOperand2="0x19ea190"/>
+    <token id="0x19ea190" file="xbox_node.cpp" linenr="79" str="&quot;E-stop Disabled&quot;" scope="0x19f8940" type="string" strlen="15" values="0x19ea198" astParent="0x19ea0e0"/>
+    <token id="0x19ea270" file="xbox_node.cpp" linenr="79" str=";" scope="0x19f8940"/>
+    <token id="0x19f7d40" file="xbox_node.cpp" linenr="80" str="std" scope="0x19f8940" type="name" astParent="0x19f7df0"/>
+    <token id="0x19f7df0" file="xbox_node.cpp" linenr="80" str="::" scope="0x19f8940" astParent="0x19ea3d0" astOperand1="0x19f7d40" astOperand2="0x19ea320"/>
+    <token id="0x19ea320" file="xbox_node.cpp" linenr="80" str="cout" scope="0x19f8940" type="name" astParent="0x19f7df0"/>
+    <token id="0x19ea3d0" file="xbox_node.cpp" linenr="80" str="&lt;&lt;" scope="0x19f8940" type="op" isArithmeticalOp="True" astOperand1="0x19f7df0" astOperand2="0x19f7f50"/>
+    <token id="0x19f7ea0" file="xbox_node.cpp" linenr="80" str="std" scope="0x19f8940" type="name" astParent="0x19f7f50"/>
+    <token id="0x19f7f50" file="xbox_node.cpp" linenr="80" str="::" scope="0x19f8940" astParent="0x19ea3d0" astOperand1="0x19f7ea0" astOperand2="0x19ea480"/>
+    <token id="0x19ea480" file="xbox_node.cpp" linenr="80" str="endl" scope="0x19f8940" type="name" astParent="0x19f7f50"/>
+    <token id="0x19ea530" file="xbox_node.cpp" linenr="80" str=";" scope="0x19f8940"/>
+    <token id="0x19ea5e0" file="xbox_node.cpp" linenr="81" str="}" scope="0x19f8940" link="0x19e9cc0"/>
+    <token id="0x19ea690" file="xbox_node.cpp" linenr="82" str="if" scope="0x19f6bb0" type="name" astParent="0x19ea740"/>
+    <token id="0x19ea740" file="xbox_node.cpp" linenr="82" str="(" scope="0x19f6bb0" link="0x19eae20" astOperand1="0x19ea690" astOperand2="0x19eacc0"/>
+    <token id="0x19ea7f0" file="xbox_node.cpp" linenr="82" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19ea8a0"/>
+    <token id="0x19ea8a0" file="xbox_node.cpp" linenr="82" str="." scope="0x19f6bb0" astParent="0x19eaab0" astOperand1="0x19ea7f0" astOperand2="0x19eaa00"/>
+    <token id="0x19eaa00" file="xbox_node.cpp" linenr="82" str="buttons" scope="0x19f6bb0" type="name" varId="12" astParent="0x19ea8a0"/>
+    <token id="0x19eaab0" file="xbox_node.cpp" linenr="82" str="[" scope="0x19f6bb0" link="0x19eac10" astParent="0x19eacc0" astOperand1="0x19ea8a0" astOperand2="0x19eab60"/>
+    <token id="0x19eab60" file="xbox_node.cpp" linenr="82" str="4" scope="0x19f6bb0" type="number" isInt="True" values="0x19eab68" astParent="0x19eaab0"/>
+    <token id="0x19eac10" file="xbox_node.cpp" linenr="82" str="]" scope="0x19f6bb0" link="0x19eaab0"/>
+    <token id="0x19eacc0" file="xbox_node.cpp" linenr="82" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19ea740" astOperand1="0x19eaab0" astOperand2="0x19ead70"/>
+    <token id="0x19ead70" file="xbox_node.cpp" linenr="82" str="1" scope="0x19f6bb0" type="number" isInt="True" values="0x19ead78" astParent="0x19eacc0"/>
+    <token id="0x19eae20" file="xbox_node.cpp" linenr="82" str=")" scope="0x19f6bb0" link="0x19ea740"/>
+    <token id="0x19eaed0" file="xbox_node.cpp" linenr="83" str="{" scope="0x19f8a90" link="0x19ece70"/>
+    <token id="0x19eaf80" file="xbox_node.cpp" linenr="84" str="std_msgs" scope="0x19f8a90" type="name" astParent="0x19eb030"/>
+    <token id="0x19eb030" file="xbox_node.cpp" linenr="84" str="::" scope="0x19f8a90" astOperand1="0x19eaf80" astOperand2="0x19eb190"/>
+    <token id="0x19eb0e0" file="xbox_node.cpp" linenr="84" str="Int32" scope="0x19f8a90" type="name"/>
+    <token id="0x19eb190" file="xbox_node.cpp" linenr="84" str="msg" scope="0x19f8a90" type="name" varId="13" variable="0x19f9c50" astParent="0x19eb030"/>
+    <token id="0x19eb240" file="xbox_node.cpp" linenr="84" str=";" scope="0x19f8a90"/>
+    <token id="0x19eb2f0" file="xbox_node.cpp" linenr="85" str="ros" scope="0x19f8a90" type="name" astParent="0x19eb3a0"/>
+    <token id="0x19eb3a0" file="xbox_node.cpp" linenr="85" str="::" scope="0x19f8a90" astOperand1="0x19eb2f0" astOperand2="0x19eb500"/>
+    <token id="0x19eb450" file="xbox_node.cpp" linenr="85" str="Publisher" scope="0x19f8a90" type="name"/>
+    <token id="0x19eb500" file="xbox_node.cpp" linenr="85" str="sendangle" scope="0x19f8a90" type="name" varId="14" variable="0x19f9cc0" astParent="0x19eb3a0"/>
+    <token id="0x19eb5b0" file="xbox_node.cpp" linenr="85" str=";" scope="0x19f8a90"/>
+    <token id="0x19e4a60" file="xbox_node.cpp" linenr="85" str="sendangle" scope="0x19f8a90" type="name" varId="14" variable="0x19f9cc0" astParent="0x19e4fe0"/>
+    <token id="0x19e4fe0" file="xbox_node.cpp" linenr="85" str="=" scope="0x19f8a90" type="op" isAssignmentOp="True" astOperand1="0x19e4a60" astOperand2="0x19ebbe0"/>
+    <token id="0x19eb660" file="xbox_node.cpp" linenr="85" str="nh_" scope="0x19f8a90" type="name" varId="2" variable="0x19f98d0" astParent="0x19eb710"/>
+    <token id="0x19eb710" file="xbox_node.cpp" linenr="85" str="." scope="0x19f8a90" astParent="0x19ebbe0" astOperand1="0x19eb660" astOperand2="0x19eb7c0"/>
+    <token id="0x19eb7c0" file="xbox_node.cpp" linenr="85" str="advertise" scope="0x19f8a90" type="name" astParent="0x19eb710"/>
+    <token id="0x19eb870" file="xbox_node.cpp" linenr="85" str="&lt;" scope="0x19f8a90" link="0x19ebb30"/>
+    <token id="0x19eb920" file="xbox_node.cpp" linenr="85" str="std_msgs" scope="0x19f8a90" type="name"/>
+    <token id="0x19eb9d0" file="xbox_node.cpp" linenr="85" str="::" scope="0x19f8a90"/>
+    <token id="0x19eba80" file="xbox_node.cpp" linenr="85" str="Int32" scope="0x19f8a90" type="name"/>
+    <token id="0x19ebb30" file="xbox_node.cpp" linenr="85" str="&gt;" scope="0x19f8a90" link="0x19eb870"/>
+    <token id="0x19ebbe0" file="xbox_node.cpp" linenr="85" str="(" scope="0x19f8a90" link="0x19ebea0" astParent="0x19e4fe0" astOperand1="0x19eb710" astOperand2="0x19ebd40"/>
+    <token id="0x19ebc90" file="xbox_node.cpp" linenr="85" str="&quot;beaglelisten&quot;" scope="0x19f8a90" type="string" strlen="12" values="0x19ebc98" astParent="0x19ebd40"/>
+    <token id="0x19ebd40" file="xbox_node.cpp" linenr="85" str="," scope="0x19f8a90" astParent="0x19ebbe0" astOperand1="0x19ebc90" astOperand2="0x19ebdf0"/>
+    <token id="0x19ebdf0" file="xbox_node.cpp" linenr="85" str="1" scope="0x19f8a90" type="number" isInt="True" values="0x19ebdf8" astParent="0x19ebd40"/>
+    <token id="0x19ebea0" file="xbox_node.cpp" linenr="85" str=")" scope="0x19f8a90" link="0x19ebbe0"/>
+    <token id="0x19ebf50" file="xbox_node.cpp" linenr="85" str=";" scope="0x19f8a90"/>
+    <token id="0x19ec000" file="xbox_node.cpp" linenr="86" str="ros" scope="0x19f8a90" type="name" astParent="0x19ec0b0"/>
+    <token id="0x19ec0b0" file="xbox_node.cpp" linenr="86" str="::" scope="0x19f8a90" astParent="0x19ec2c0" astOperand1="0x19ec000" astOperand2="0x19ec210"/>
+    <token id="0x19ec160" file="xbox_node.cpp" linenr="86" str="Rate" scope="0x19f8a90" type="name"/>
+    <token id="0x19ec210" file="xbox_node.cpp" linenr="86" str="loop_rate" scope="0x19f8a90" type="name" varId="15" variable="0x19f9d30" astParent="0x19ec0b0"/>
+    <token id="0x19ec2c0" file="xbox_node.cpp" linenr="86" str="(" scope="0x19f8a90" link="0x19ec420" astOperand1="0x19ec0b0" astOperand2="0x19ec370"/>
+    <token id="0x19ec370" file="xbox_node.cpp" linenr="86" str="1" scope="0x19f8a90" type="number" isInt="True" values="0x19ec378" astParent="0x19ec2c0"/>
+    <token id="0x19ec420" file="xbox_node.cpp" linenr="86" str=")" scope="0x19f8a90" link="0x19ec2c0"/>
+    <token id="0x19ec4d0" file="xbox_node.cpp" linenr="86" str=";" scope="0x19f8a90"/>
+    <token id="0x19ec580" file="xbox_node.cpp" linenr="87" str="msg" scope="0x19f8a90" type="name" varId="13" variable="0x19f9c50" astParent="0x19ec630"/>
+    <token id="0x19ec630" file="xbox_node.cpp" linenr="87" str="." scope="0x19f8a90" astParent="0x19ec790" astOperand1="0x19ec580" astOperand2="0x19ec6e0"/>
+    <token id="0x19ec6e0" file="xbox_node.cpp" linenr="87" str="data" scope="0x19f8a90" type="name" varId="16" astParent="0x19ec630"/>
+    <token id="0x19ec790" file="xbox_node.cpp" linenr="87" str="=" scope="0x19f8a90" type="op" isAssignmentOp="True" astOperand1="0x19ec630" astOperand2="0x19ec840"/>
+    <token id="0x19ec840" file="xbox_node.cpp" linenr="87" str="200" scope="0x19f8a90" type="number" isInt="True" values="0x19ec848" astParent="0x19ec790"/>
+    <token id="0x19ec8f0" file="xbox_node.cpp" linenr="87" str=";" scope="0x19f8a90"/>
+    <token id="0x19ec9a0" file="xbox_node.cpp" linenr="88" str="sendangle" scope="0x19f8a90" type="name" varId="14" variable="0x19f9cc0" astParent="0x19eca50"/>
+    <token id="0x19eca50" file="xbox_node.cpp" linenr="88" str="." scope="0x19f8a90" astParent="0x19ecbb0" astOperand1="0x19ec9a0" astOperand2="0x19ecb00"/>
+    <token id="0x19ecb00" file="xbox_node.cpp" linenr="88" str="publish" scope="0x19f8a90" type="name" astParent="0x19eca50"/>
+    <token id="0x19ecbb0" file="xbox_node.cpp" linenr="88" str="(" scope="0x19f8a90" link="0x19ecd10" astOperand1="0x19eca50" astOperand2="0x19ecc60"/>
+    <token id="0x19ecc60" file="xbox_node.cpp" linenr="88" str="msg" scope="0x19f8a90" type="name" varId="13" variable="0x19f9c50" astParent="0x19ecbb0"/>
+    <token id="0x19ecd10" file="xbox_node.cpp" linenr="88" str=")" scope="0x19f8a90" link="0x19ecbb0"/>
+    <token id="0x19ecdc0" file="xbox_node.cpp" linenr="88" str=";" scope="0x19f8a90"/>
+    <token id="0x19ece70" file="xbox_node.cpp" linenr="89" str="}" scope="0x19f8a90" link="0x19eaed0"/>
+    <token id="0x19ecf20" file="xbox_node.cpp" linenr="90" str="float" scope="0x19f6bb0" type="name"/>
+    <token id="0x19ecfd0" file="xbox_node.cpp" linenr="90" str="dataaxes" scope="0x19f6bb0" type="name" varId="17" variable="0x19f9be0"/>
+    <token id="0x19ed080" file="xbox_node.cpp" linenr="90" str=";" scope="0x19f6bb0"/>
+    <token id="0x19e62a0" file="xbox_node.cpp" linenr="90" str="dataaxes" scope="0x19f6bb0" type="name" varId="17" variable="0x19f9be0" astParent="0x19e6820"/>
+    <token id="0x19e6820" file="xbox_node.cpp" linenr="90" str="=" scope="0x19f6bb0" type="op" isAssignmentOp="True" astOperand1="0x19e62a0" astOperand2="0x19ed3f0"/>
+    <token id="0x19ed130" file="xbox_node.cpp" linenr="90" str="joy" scope="0x19f6bb0" type="name" varId="5" variable="0x19fa270" astParent="0x19ed1e0"/>
+    <token id="0x19ed1e0" file="xbox_node.cpp" linenr="90" str="." scope="0x19f6bb0" astParent="0x19ed3f0" astOperand1="0x19ed130" astOperand2="0x19ed340"/>
+    <token id="0x19ed340" file="xbox_node.cpp" linenr="90" str="axes" scope="0x19f6bb0" type="name" varId="11" astParent="0x19ed1e0"/>
+    <token id="0x19ed3f0" file="xbox_node.cpp" linenr="90" str="[" scope="0x19f6bb0" link="0x19ed550" astParent="0x19e6820" astOperand1="0x19ed1e0" astOperand2="0x19ed4a0"/>
+    <token id="0x19ed4a0" file="xbox_node.cpp" linenr="90" str="2" scope="0x19f6bb0" type="number" isInt="True" values="0x19ed4a8" astParent="0x19ed3f0"/>
+    <token id="0x19ed550" file="xbox_node.cpp" linenr="90" str="]" scope="0x19f6bb0" link="0x19ed3f0"/>
+    <token id="0x19ed600" file="xbox_node.cpp" linenr="90" str=";" scope="0x19f6bb0"/>
+    <token id="0x19ed6b0" file="xbox_node.cpp" linenr="91" str="if" scope="0x19f6bb0" type="name" astParent="0x19ed760"/>
+    <token id="0x19ed760" file="xbox_node.cpp" linenr="91" str="(" scope="0x19f6bb0" link="0x19edad0" astOperand1="0x19ed6b0" astOperand2="0x19ed8c0"/>
+    <token id="0x19ed810" file="xbox_node.cpp" linenr="91" str="dataaxes" scope="0x19f6bb0" type="name" varId="17" variable="0x19f9be0" values="0x19ed818" astParent="0x19ed8c0"/>
+    <token id="0x19ed8c0" file="xbox_node.cpp" linenr="91" str="&gt;=" scope="0x19f6bb0" type="op" isComparisonOp="True" values="0x19ed8c8" astParent="0x19ed760" astOperand1="0x19ed810" astOperand2="0x19eda20"/>
+    <token id="0x19eda20" file="xbox_node.cpp" linenr="91" str="8500" scope="0x19f6bb0" type="number" isInt="True" values="0x19eda28" astParent="0x19ed8c0"/>
+    <token id="0x19edad0" file="xbox_node.cpp" linenr="91" str=")" scope="0x19f6bb0" link="0x19ed760"/>
+    <token id="0x19edb80" file="xbox_node.cpp" linenr="92" str="{" scope="0x19f8be0" link="0x19f02b0"/>
+    <token id="0x19edc30" file="xbox_node.cpp" linenr="93" str="int" scope="0x19f8be0" type="name"/>
+    <token id="0x19edce0" file="xbox_node.cpp" linenr="93" str="dataaxesfin" scope="0x19f8be0" type="name" varId="18" variable="0x19f9da0"/>
+    <token id="0x19edd90" file="xbox_node.cpp" linenr="93" str=";" scope="0x19f8be0"/>
+    <token id="0x19e7ae0" file="xbox_node.cpp" linenr="93" str="dataaxesfin" scope="0x19f8be0" type="name" varId="18" variable="0x19f9da0" astParent="0x19e9270"/>
+    <token id="0x19e9270" file="xbox_node.cpp" linenr="93" str="=" scope="0x19f8be0" type="op" isAssignmentOp="True" astOperand1="0x19e7ae0" astOperand2="0x19ee1b0"/>
+    <token id="0x19ede40" file="xbox_node.cpp" linenr="93" str="(" scope="0x19f8be0" link="0x19ee100"/>
+    <token id="0x19edef0" file="xbox_node.cpp" linenr="93" str="dataaxes" scope="0x19f8be0" type="name" varId="17" variable="0x19f9be0" values="0x19edef8" astParent="0x19edfa0"/>
+    <token id="0x19edfa0" file="xbox_node.cpp" linenr="93" str="-" scope="0x19f8be0" type="op" isArithmeticalOp="True" values="0x19edfa8" astParent="0x19ee1b0" astOperand1="0x19edef0" astOperand2="0x19ee050"/>
+    <token id="0x19ee050" file="xbox_node.cpp" linenr="93" str="8500" scope="0x19f8be0" type="number" isInt="True" values="0x19ee058" astParent="0x19edfa0"/>
+    <token id="0x19ee100" file="xbox_node.cpp" linenr="93" str=")" scope="0x19f8be0" link="0x19ede40"/>
+    <token id="0x19ee1b0" file="xbox_node.cpp" linenr="93" str="/" scope="0x19f8be0" type="op" isArithmeticalOp="True" values="0x19ee1b8" astParent="0x19e9270" astOperand1="0x19edfa0" astOperand2="0x19ee260"/>
+    <token id="0x19ee260" file="xbox_node.cpp" linenr="93" str="49" scope="0x19f8be0" type="number" isInt="True" values="0x19ee268" astParent="0x19ee1b0"/>
+    <token id="0x19ee310" file="xbox_node.cpp" linenr="93" str=";" scope="0x19f8be0"/>
+    <token id="0x19ee3c0" file="xbox_node.cpp" linenr="94" str="std_msgs" scope="0x19f8be0" type="name" astParent="0x19ee470"/>
+    <token id="0x19ee470" file="xbox_node.cpp" linenr="94" str="::" scope="0x19f8be0" astOperand1="0x19ee3c0" astOperand2="0x19ee5d0"/>
+    <token id="0x19ee520" file="xbox_node.cpp" linenr="94" str="Int32" scope="0x19f8be0" type="name"/>
+    <token id="0x19ee5d0" file="xbox_node.cpp" linenr="94" str="msg" scope="0x19f8be0" type="name" varId="19" variable="0x19f9e10" astParent="0x19ee470"/>
+    <token id="0x19ee680" file="xbox_node.cpp" linenr="94" str=";" scope="0x19f8be0"/>
+    <token id="0x19ee730" file="xbox_node.cpp" linenr="95" str="ros" scope="0x19f8be0" type="name" astParent="0x19ee7e0"/>
+    <token id="0x19ee7e0" file="xbox_node.cpp" linenr="95" str="::" scope="0x19f8be0" astOperand1="0x19ee730" astOperand2="0x19ee940"/>
+    <token id="0x19ee890" file="xbox_node.cpp" linenr="95" str="Publisher" scope="0x19f8be0" type="name"/>
+    <token id="0x19ee940" file="xbox_node.cpp" linenr="95" str="sendangle" scope="0x19f8be0" type="name" varId="20" variable="0x19f9e80" astParent="0x19ee7e0"/>
+    <token id="0x19ee9f0" file="xbox_node.cpp" linenr="95" str=";" scope="0x19f8be0"/>
+    <token id="0x19ea950" file="xbox_node.cpp" linenr="95" str="sendangle" scope="0x19f8be0" type="name" varId="20" variable="0x19f9e80" astParent="0x19ed290"/>
+    <token id="0x19ed290" file="xbox_node.cpp" linenr="95" str="=" scope="0x19f8be0" type="op" isAssignmentOp="True" astOperand1="0x19ea950" astOperand2="0x19ef020"/>
+    <token id="0x19eeaa0" file="xbox_node.cpp" linenr="95" str="nh_" scope="0x19f8be0" type="name" varId="2" variable="0x19f98d0" astParent="0x19eeb50"/>
+    <token id="0x19eeb50" file="xbox_node.cpp" linenr="95" str="." scope="0x19f8be0" astParent="0x19ef020" astOperand1="0x19eeaa0" astOperand2="0x19eec00"/>
+    <token id="0x19eec00" file="xbox_node.cpp" linenr="95" str="advertise" scope="0x19f8be0" type="name" astParent="0x19eeb50"/>
+    <token id="0x19eecb0" file="xbox_node.cpp" linenr="95" str="&lt;" scope="0x19f8be0" link="0x19eef70"/>
+    <token id="0x19eed60" file="xbox_node.cpp" linenr="95" str="std_msgs" scope="0x19f8be0" type="name"/>
+    <token id="0x19eee10" file="xbox_node.cpp" linenr="95" str="::" scope="0x19f8be0"/>
+    <token id="0x19eeec0" file="xbox_node.cpp" linenr="95" str="Int32" scope="0x19f8be0" type="name"/>
+    <token id="0x19eef70" file="xbox_node.cpp" linenr="95" str="&gt;" scope="0x19f8be0" link="0x19eecb0"/>
+    <token id="0x19ef020" file="xbox_node.cpp" linenr="95" str="(" scope="0x19f8be0" link="0x19ef2e0" astParent="0x19ed290" astOperand1="0x19eeb50" astOperand2="0x19ef180"/>
+    <token id="0x19ef0d0" file="xbox_node.cpp" linenr="95" str="&quot;beaglelisten&quot;" scope="0x19f8be0" type="string" strlen="12" values="0x19ef0d8" astParent="0x19ef180"/>
+    <token id="0x19ef180" file="xbox_node.cpp" linenr="95" str="," scope="0x19f8be0" astParent="0x19ef020" astOperand1="0x19ef0d0" astOperand2="0x19ef230"/>
+    <token id="0x19ef230" file="xbox_node.cpp" linenr="95" str="1" scope="0x19f8be0" type="number" isInt="True" values="0x19ef238" astParent="0x19ef180"/>
+    <token id="0x19ef2e0" file="xbox_node.cpp" linenr="95" str=")" scope="0x19f8be0" link="0x19ef020"/>
+    <token id="0x19ef390" file="xbox_node.cpp" linenr="95" str=";" scope="0x19f8be0"/>
+    <token id="0x19ef440" file="xbox_node.cpp" linenr="96" str="ros" scope="0x19f8be0" type="name" astParent="0x19ef4f0"/>
+    <token id="0x19ef4f0" file="xbox_node.cpp" linenr="96" str="::" scope="0x19f8be0" astParent="0x19ef700" astOperand1="0x19ef440" astOperand2="0x19ef650"/>
+    <token id="0x19ef5a0" file="xbox_node.cpp" linenr="96" str="Rate" scope="0x19f8be0" type="name"/>
+    <token id="0x19ef650" file="xbox_node.cpp" linenr="96" str="loop_rate" scope="0x19f8be0" type="name" varId="21" variable="0x19f9ef0" astParent="0x19ef4f0"/>
+    <token id="0x19ef700" file="xbox_node.cpp" linenr="96" str="(" scope="0x19f8be0" link="0x19ef860" astOperand1="0x19ef4f0" astOperand2="0x19ef7b0"/>
+    <token id="0x19ef7b0" file="xbox_node.cpp" linenr="96" str="1" scope="0x19f8be0" type="number" isInt="True" values="0x19ef7b8" astParent="0x19ef700"/>
+    <token id="0x19ef860" file="xbox_node.cpp" linenr="96" str=")" scope="0x19f8be0" link="0x19ef700"/>
+    <token id="0x19ef910" file="xbox_node.cpp" linenr="96" str=";" scope="0x19f8be0"/>
+    <token id="0x19ef9c0" file="xbox_node.cpp" linenr="97" str="msg" scope="0x19f8be0" type="name" varId="19" variable="0x19f9e10" astParent="0x19efa70"/>
+    <token id="0x19efa70" file="xbox_node.cpp" linenr="97" str="." scope="0x19f8be0" astParent="0x19efbd0" astOperand1="0x19ef9c0" astOperand2="0x19efb20"/>
+    <token id="0x19efb20" file="xbox_node.cpp" linenr="97" str="data" scope="0x19f8be0" type="name" varId="22" astParent="0x19efa70"/>
+    <token id="0x19efbd0" file="xbox_node.cpp" linenr="97" str="=" scope="0x19f8be0" type="op" isAssignmentOp="True" astOperand1="0x19efa70" astOperand2="0x19efc80"/>
+    <token id="0x19efc80" file="xbox_node.cpp" linenr="97" str="dataaxesfin" scope="0x19f8be0" type="name" varId="18" variable="0x19f9da0" astParent="0x19efbd0"/>
+    <token id="0x19efd30" file="xbox_node.cpp" linenr="97" str=";" scope="0x19f8be0"/>
+    <token id="0x19efde0" file="xbox_node.cpp" linenr="98" str="sendangle" scope="0x19f8be0" type="name" varId="20" variable="0x19f9e80" astParent="0x19efe90"/>
+    <token id="0x19efe90" file="xbox_node.cpp" linenr="98" str="." scope="0x19f8be0" astParent="0x19efff0" astOperand1="0x19efde0" astOperand2="0x19eff40"/>
+    <token id="0x19eff40" file="xbox_node.cpp" linenr="98" str="publish" scope="0x19f8be0" type="name" astParent="0x19efe90"/>
+    <token id="0x19efff0" file="xbox_node.cpp" linenr="98" str="(" scope="0x19f8be0" link="0x19f0150" astOperand1="0x19efe90" astOperand2="0x19f00a0"/>
+    <token id="0x19f00a0" file="xbox_node.cpp" linenr="98" str="msg" scope="0x19f8be0" type="name" varId="19" variable="0x19f9e10" astParent="0x19efff0"/>
+    <token id="0x19f0150" file="xbox_node.cpp" linenr="98" str=")" scope="0x19f8be0" link="0x19efff0"/>
+    <token id="0x19f0200" file="xbox_node.cpp" linenr="98" str=";" scope="0x19f8be0"/>
+    <token id="0x19f02b0" file="xbox_node.cpp" linenr="99" str="}" scope="0x19f8be0" link="0x19edb80"/>
+    <token id="0x19f0360" file="xbox_node.cpp" linenr="100" str="else" scope="0x19f6bb0" type="name"/>
+    <token id="0x19f8000" file="xbox_node.cpp" linenr="100" str="{" scope="0x19f8e60" link="0x19f80b0"/>
+    <token id="0x19f0410" file="xbox_node.cpp" linenr="100" str="if" scope="0x19f8e60" type="name" astParent="0x19f04c0"/>
+    <token id="0x19f04c0" file="xbox_node.cpp" linenr="100" str="(" scope="0x19f8e60" link="0x19f08e0" astOperand1="0x19f0410" astOperand2="0x19f0620"/>
+    <token id="0x19f0570" file="xbox_node.cpp" linenr="100" str="dataaxes" scope="0x19f8e60" type="name" varId="17" variable="0x19f9be0" values="0x19f0578" astParent="0x19f0620"/>
+    <token id="0x19f0620" file="xbox_node.cpp" linenr="100" str="&lt;=" scope="0x19f8e60" type="op" isComparisonOp="True" values="0x19f0628" astParent="0x19f04c0" astOperand1="0x19f0570" astOperand2="0x19f0830"/>
+    <token id="0x19f0830" file="xbox_node.cpp" linenr="100" str="-8500" scope="0x19f8e60" type="number" isInt="True" values="0x19f0838" astParent="0x19f0620"/>
+    <token id="0x19f08e0" file="xbox_node.cpp" linenr="100" str=")" scope="0x19f8e60" link="0x19f04c0"/>
+    <token id="0x19f0990" file="xbox_node.cpp" linenr="101" str="{" scope="0x19f8fb0" link="0x19f30c0"/>
+    <token id="0x19f0a40" file="xbox_node.cpp" linenr="102" str="int" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f0af0" file="xbox_node.cpp" linenr="102" str="dataaxesfin" scope="0x19f8fb0" type="name" varId="23" variable="0x19f9f60"/>
+    <token id="0x19f0ba0" file="xbox_node.cpp" linenr="102" str=";" scope="0x19f8fb0"/>
+    <token id="0x19ed970" file="xbox_node.cpp" linenr="102" str="dataaxesfin" scope="0x19f8fb0" type="name" varId="23" variable="0x19f9f60" astParent="0x19f06d0"/>
+    <token id="0x19f06d0" file="xbox_node.cpp" linenr="102" str="=" scope="0x19f8fb0" type="op" isAssignmentOp="True" astOperand1="0x19ed970" astOperand2="0x19f0fc0"/>
+    <token id="0x19f0c50" file="xbox_node.cpp" linenr="102" str="(" scope="0x19f8fb0" link="0x19f0f10"/>
+    <token id="0x19f0d00" file="xbox_node.cpp" linenr="102" str="dataaxes" scope="0x19f8fb0" type="name" varId="17" variable="0x19f9be0" values="0x19f0d08" astParent="0x19f0db0"/>
+    <token id="0x19f0db0" file="xbox_node.cpp" linenr="102" str="+" scope="0x19f8fb0" type="op" isArithmeticalOp="True" values="0x19f0db8" astParent="0x19f0fc0" astOperand1="0x19f0d00" astOperand2="0x19f0e60"/>
+    <token id="0x19f0e60" file="xbox_node.cpp" linenr="102" str="8500" scope="0x19f8fb0" type="number" isInt="True" values="0x19f0e68" astParent="0x19f0db0"/>
+    <token id="0x19f0f10" file="xbox_node.cpp" linenr="102" str=")" scope="0x19f8fb0" link="0x19f0c50"/>
+    <token id="0x19f0fc0" file="xbox_node.cpp" linenr="102" str="/" scope="0x19f8fb0" type="op" isArithmeticalOp="True" values="0x19f0fc8" astParent="0x19f06d0" astOperand1="0x19f0db0" astOperand2="0x19f1070"/>
+    <token id="0x19f1070" file="xbox_node.cpp" linenr="102" str="49" scope="0x19f8fb0" type="number" isInt="True" values="0x19f1078" astParent="0x19f0fc0"/>
+    <token id="0x19f1120" file="xbox_node.cpp" linenr="102" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f11d0" file="xbox_node.cpp" linenr="103" str="std_msgs" scope="0x19f8fb0" type="name" astParent="0x19f1280"/>
+    <token id="0x19f1280" file="xbox_node.cpp" linenr="103" str="::" scope="0x19f8fb0" astOperand1="0x19f11d0" astOperand2="0x19f13e0"/>
+    <token id="0x19f1330" file="xbox_node.cpp" linenr="103" str="Int32" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f13e0" file="xbox_node.cpp" linenr="103" str="msg" scope="0x19f8fb0" type="name" varId="24" variable="0x19f9fd0" astParent="0x19f1280"/>
+    <token id="0x19f1490" file="xbox_node.cpp" linenr="103" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f1540" file="xbox_node.cpp" linenr="104" str="ros" scope="0x19f8fb0" type="name" astParent="0x19f15f0"/>
+    <token id="0x19f15f0" file="xbox_node.cpp" linenr="104" str="::" scope="0x19f8fb0" astOperand1="0x19f1540" astOperand2="0x19f1750"/>
+    <token id="0x19f16a0" file="xbox_node.cpp" linenr="104" str="Publisher" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f1750" file="xbox_node.cpp" linenr="104" str="sendangle" scope="0x19f8fb0" type="name" varId="25" variable="0x19fa040" astParent="0x19f15f0"/>
+    <token id="0x19f1800" file="xbox_node.cpp" linenr="104" str=";" scope="0x19f8fb0"/>
+    <token id="0x19d8340" file="xbox_node.cpp" linenr="104" str="sendangle" scope="0x19f8fb0" type="name" varId="25" variable="0x19fa040" astParent="0x19d83f0"/>
+    <token id="0x19d83f0" file="xbox_node.cpp" linenr="104" str="=" scope="0x19f8fb0" type="op" isAssignmentOp="True" astOperand1="0x19d8340" astOperand2="0x19f1e30"/>
+    <token id="0x19f18b0" file="xbox_node.cpp" linenr="104" str="nh_" scope="0x19f8fb0" type="name" varId="2" variable="0x19f98d0" astParent="0x19f1960"/>
+    <token id="0x19f1960" file="xbox_node.cpp" linenr="104" str="." scope="0x19f8fb0" astParent="0x19f1e30" astOperand1="0x19f18b0" astOperand2="0x19f1a10"/>
+    <token id="0x19f1a10" file="xbox_node.cpp" linenr="104" str="advertise" scope="0x19f8fb0" type="name" astParent="0x19f1960"/>
+    <token id="0x19f1ac0" file="xbox_node.cpp" linenr="104" str="&lt;" scope="0x19f8fb0" link="0x19f1d80"/>
+    <token id="0x19f1b70" file="xbox_node.cpp" linenr="104" str="std_msgs" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f1c20" file="xbox_node.cpp" linenr="104" str="::" scope="0x19f8fb0"/>
+    <token id="0x19f1cd0" file="xbox_node.cpp" linenr="104" str="Int32" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f1d80" file="xbox_node.cpp" linenr="104" str="&gt;" scope="0x19f8fb0" link="0x19f1ac0"/>
+    <token id="0x19f1e30" file="xbox_node.cpp" linenr="104" str="(" scope="0x19f8fb0" link="0x19f20f0" astParent="0x19d83f0" astOperand1="0x19f1960" astOperand2="0x19f1f90"/>
+    <token id="0x19f1ee0" file="xbox_node.cpp" linenr="104" str="&quot;beaglelisten&quot;" scope="0x19f8fb0" type="string" strlen="12" values="0x19f1ee8" astParent="0x19f1f90"/>
+    <token id="0x19f1f90" file="xbox_node.cpp" linenr="104" str="," scope="0x19f8fb0" astParent="0x19f1e30" astOperand1="0x19f1ee0" astOperand2="0x19f2040"/>
+    <token id="0x19f2040" file="xbox_node.cpp" linenr="104" str="1" scope="0x19f8fb0" type="number" isInt="True" values="0x19f2048" astParent="0x19f1f90"/>
+    <token id="0x19f20f0" file="xbox_node.cpp" linenr="104" str=")" scope="0x19f8fb0" link="0x19f1e30"/>
+    <token id="0x19f21a0" file="xbox_node.cpp" linenr="104" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f2250" file="xbox_node.cpp" linenr="105" str="ros" scope="0x19f8fb0" type="name" astParent="0x19f2300"/>
+    <token id="0x19f2300" file="xbox_node.cpp" linenr="105" str="::" scope="0x19f8fb0" astParent="0x19f2510" astOperand1="0x19f2250" astOperand2="0x19f2460"/>
+    <token id="0x19f23b0" file="xbox_node.cpp" linenr="105" str="Rate" scope="0x19f8fb0" type="name"/>
+    <token id="0x19f2460" file="xbox_node.cpp" linenr="105" str="loop_rate" scope="0x19f8fb0" type="name" varId="26" variable="0x19fa0b0" astParent="0x19f2300"/>
+    <token id="0x19f2510" file="xbox_node.cpp" linenr="105" str="(" scope="0x19f8fb0" link="0x19f2670" astOperand1="0x19f2300" astOperand2="0x19f25c0"/>
+    <token id="0x19f25c0" file="xbox_node.cpp" linenr="105" str="1" scope="0x19f8fb0" type="number" isInt="True" values="0x19f25c8" astParent="0x19f2510"/>
+    <token id="0x19f2670" file="xbox_node.cpp" linenr="105" str=")" scope="0x19f8fb0" link="0x19f2510"/>
+    <token id="0x19f2720" file="xbox_node.cpp" linenr="105" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f27d0" file="xbox_node.cpp" linenr="106" str="msg" scope="0x19f8fb0" type="name" varId="24" variable="0x19f9fd0" astParent="0x19f2880"/>
+    <token id="0x19f2880" file="xbox_node.cpp" linenr="106" str="." scope="0x19f8fb0" astParent="0x19f29e0" astOperand1="0x19f27d0" astOperand2="0x19f2930"/>
+    <token id="0x19f2930" file="xbox_node.cpp" linenr="106" str="data" scope="0x19f8fb0" type="name" varId="27" astParent="0x19f2880"/>
+    <token id="0x19f29e0" file="xbox_node.cpp" linenr="106" str="=" scope="0x19f8fb0" type="op" isAssignmentOp="True" astOperand1="0x19f2880" astOperand2="0x19f2a90"/>
+    <token id="0x19f2a90" file="xbox_node.cpp" linenr="106" str="dataaxesfin" scope="0x19f8fb0" type="name" varId="23" variable="0x19f9f60" astParent="0x19f29e0"/>
+    <token id="0x19f2b40" file="xbox_node.cpp" linenr="106" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f2bf0" file="xbox_node.cpp" linenr="107" str="sendangle" scope="0x19f8fb0" type="name" varId="25" variable="0x19fa040" astParent="0x19f2ca0"/>
+    <token id="0x19f2ca0" file="xbox_node.cpp" linenr="107" str="." scope="0x19f8fb0" astParent="0x19f2e00" astOperand1="0x19f2bf0" astOperand2="0x19f2d50"/>
+    <token id="0x19f2d50" file="xbox_node.cpp" linenr="107" str="publish" scope="0x19f8fb0" type="name" astParent="0x19f2ca0"/>
+    <token id="0x19f2e00" file="xbox_node.cpp" linenr="107" str="(" scope="0x19f8fb0" link="0x19f2f60" astOperand1="0x19f2ca0" astOperand2="0x19f2eb0"/>
+    <token id="0x19f2eb0" file="xbox_node.cpp" linenr="107" str="msg" scope="0x19f8fb0" type="name" varId="24" variable="0x19f9fd0" astParent="0x19f2e00"/>
+    <token id="0x19f2f60" file="xbox_node.cpp" linenr="107" str=")" scope="0x19f8fb0" link="0x19f2e00"/>
+    <token id="0x19f3010" file="xbox_node.cpp" linenr="107" str=";" scope="0x19f8fb0"/>
+    <token id="0x19f30c0" file="xbox_node.cpp" linenr="108" str="}" scope="0x19f8fb0" link="0x19f0990"/>
+    <token id="0x19f80b0" file="xbox_node.cpp" linenr="108" str="}" scope="0x19f8e60" link="0x19f8000"/>
+    <token id="0x19f3170" file="xbox_node.cpp" linenr="109" str="if" scope="0x19f6bb0" type="name" astParent="0x19f3220"/>
+    <token id="0x19f3220" file="xbox_node.cpp" linenr="109" str="(" scope="0x19f6bb0" link="0x19f34e0" astOperand1="0x19f3170" astOperand2="0x19f3380"/>
+    <token id="0x19f32d0" file="xbox_node.cpp" linenr="109" str="estopflag" scope="0x19f6bb0" type="name" varId="1" variable="0x19f9860" astParent="0x19f3380"/>
+    <token id="0x19f3380" file="xbox_node.cpp" linenr="109" str="==" scope="0x19f6bb0" type="op" isComparisonOp="True" astParent="0x19f3220" astOperand1="0x19f32d0" astOperand2="0x19f3430"/>
+    <token id="0x19f3430" file="xbox_node.cpp" linenr="109" str="0" scope="0x19f6bb0" type="number" isInt="True" values="0x19f3438" astParent="0x19f3380"/>
+    <token id="0x19f34e0" file="xbox_node.cpp" linenr="109" str=")" scope="0x19f6bb0" link="0x19f3220"/>
+    <token id="0x19f3590" file="xbox_node.cpp" linenr="110" str="{" scope="0x19f9100" link="0x19f3b10"/>
+    <token id="0x19f3640" file="xbox_node.cpp" linenr="111" str="estopen" scope="0x19f9100" type="name" varId="6" variable="0x19f99b0" astParent="0x19f36f0"/>
+    <token id="0x19f36f0" file="xbox_node.cpp" linenr="111" str="." scope="0x19f9100" astParent="0x19f3850" astOperand1="0x19f3640" astOperand2="0x19f37a0"/>
+    <token id="0x19f37a0" file="xbox_node.cpp" linenr="111" str="setValue" scope="0x19f9100" type="name" astParent="0x19f36f0"/>
+    <token id="0x19f3850" file="xbox_node.cpp" linenr="111" str="(" scope="0x19f9100" link="0x19f39b0" astOperand1="0x19f36f0" astOperand2="0x19f3900"/>
+    <token id="0x19f3900" file="xbox_node.cpp" linenr="111" str="low" scope="0x19f9100" type="name" astParent="0x19f3850"/>
+    <token id="0x19f39b0" file="xbox_node.cpp" linenr="111" str=")" scope="0x19f9100" link="0x19f3850"/>
+    <token id="0x19f3a60" file="xbox_node.cpp" linenr="111" str=";" scope="0x19f9100"/>
+    <token id="0x19f3b10" file="xbox_node.cpp" linenr="112" str="}" scope="0x19f9100" link="0x19f3590"/>
+    <token id="0x19f3bc0" file="xbox_node.cpp" linenr="113" str="else" scope="0x19f6bb0" type="name"/>
+    <token id="0x19f8160" file="xbox_node.cpp" linenr="113" str="{" scope="0x19f9380" link="0x19f8210"/>
+    <token id="0x19f3c70" file="xbox_node.cpp" linenr="113" str="if" scope="0x19f9380" type="name" astParent="0x19f3d20"/>
+    <token id="0x19f3d20" file="xbox_node.cpp" linenr="113" str="(" scope="0x19f9380" link="0x19f3fe0" astOperand1="0x19f3c70" astOperand2="0x19f3e80"/>
+    <token id="0x19f3dd0" file="xbox_node.cpp" linenr="113" str="estopflag" scope="0x19f9380" type="name" varId="1" variable="0x19f9860" astParent="0x19f3e80"/>
+    <token id="0x19f3e80" file="xbox_node.cpp" linenr="113" str="==" scope="0x19f9380" type="op" isComparisonOp="True" astParent="0x19f3d20" astOperand1="0x19f3dd0" astOperand2="0x19f3f30"/>
+    <token id="0x19f3f30" file="xbox_node.cpp" linenr="113" str="1" scope="0x19f9380" type="number" isInt="True" values="0x19f3f38" astParent="0x19f3e80"/>
+    <token id="0x19f3fe0" file="xbox_node.cpp" linenr="113" str=")" scope="0x19f9380" link="0x19f3d20"/>
+    <token id="0x19f4090" file="xbox_node.cpp" linenr="114" str="{" scope="0x19f94d0" link="0x19f4610"/>
+    <token id="0x19f4140" file="xbox_node.cpp" linenr="115" str="estopen" scope="0x19f94d0" type="name" varId="6" variable="0x19f99b0" astParent="0x19f41f0"/>
+    <token id="0x19f41f0" file="xbox_node.cpp" linenr="115" str="." scope="0x19f94d0" astParent="0x19f4350" astOperand1="0x19f4140" astOperand2="0x19f42a0"/>
+    <token id="0x19f42a0" file="xbox_node.cpp" linenr="115" str="setValue" scope="0x19f94d0" type="name" astParent="0x19f41f0"/>
+    <token id="0x19f4350" file="xbox_node.cpp" linenr="115" str="(" scope="0x19f94d0" link="0x19f44b0" astOperand1="0x19f41f0" astOperand2="0x19f4400"/>
+    <token id="0x19f4400" file="xbox_node.cpp" linenr="115" str="high" scope="0x19f94d0" type="name" astParent="0x19f4350"/>
+    <token id="0x19f44b0" file="xbox_node.cpp" linenr="115" str=")" scope="0x19f94d0" link="0x19f4350"/>
+    <token id="0x19f4560" file="xbox_node.cpp" linenr="115" str=";" scope="0x19f94d0"/>
+    <token id="0x19f4610" file="xbox_node.cpp" linenr="116" str="}" scope="0x19f94d0" link="0x19f4090"/>
+    <token id="0x19f8210" file="xbox_node.cpp" linenr="116" str="}" scope="0x19f9380" link="0x19f8160"/>
+    <token id="0x19f46c0" file="xbox_node.cpp" linenr="117" str="}" scope="0x19f6bb0" link="0x19e0280"/>
+    <token id="0x19f4770" file="xbox_node.cpp" linenr="119" str="int" scope="0x19f62a0" type="name"/>
+    <token id="0x19f4820" file="xbox_node.cpp" linenr="119" str="main" scope="0x19f62a0" type="name" function="0x19f9620" astParent="0x19f48d0"/>
+    <token id="0x19f48d0" file="xbox_node.cpp" linenr="119" str="(" scope="0x19f62a0" link="0x19f4e50" astOperand1="0x19f4820" astOperand2="0x19f4ae0"/>
+    <token id="0x19f4980" file="xbox_node.cpp" linenr="119" str="int" scope="0x19f62a0" type="name"/>
+    <token id="0x19f4a30" file="xbox_node.cpp" linenr="119" str="argc" scope="0x19f62a0" type="name" varId="28" variable="0x19fa190" astParent="0x19f4ae0"/>
+    <token id="0x19f4ae0" file="xbox_node.cpp" linenr="119" str="," scope="0x19f62a0" astParent="0x19f48d0" astOperand1="0x19f4a30" astOperand2="0x19f4c40"/>
+    <token id="0x19f4b90" file="xbox_node.cpp" linenr="119" str="char" scope="0x19f62a0" type="name" astParent="0x19f4c40"/>
+    <token id="0x19f4c40" file="xbox_node.cpp" linenr="119" str="*" scope="0x19f62a0" type="op" isArithmeticalOp="True" astParent="0x19f4ae0" astOperand1="0x19f4b90" astOperand2="0x19f4cf0"/>
+    <token id="0x19f4cf0" file="xbox_node.cpp" linenr="119" str="*" scope="0x19f62a0" type="op" isArithmeticalOp="True" astParent="0x19f4c40" astOperand1="0x19f4da0"/>
+    <token id="0x19f4da0" file="xbox_node.cpp" linenr="119" str="argv" scope="0x19f62a0" type="name" varId="29" variable="0x19fa200" astParent="0x19f4cf0"/>
+    <token id="0x19f4e50" file="xbox_node.cpp" linenr="119" str=")" scope="0x19f62a0" link="0x19f48d0"/>
+    <token id="0x19f4f00" file="xbox_node.cpp" linenr="120" str="{" scope="0x19f9710" link="0x19f5d70"/>
+    <token id="0x19f4fb0" file="xbox_node.cpp" linenr="121" str="ros" scope="0x19f9710" type="name" astParent="0x19f5060"/>
+    <token id="0x19f5060" file="xbox_node.cpp" linenr="121" str="::" scope="0x19f9710" astParent="0x19f51c0" astOperand1="0x19f4fb0" astOperand2="0x19f5110"/>
+    <token id="0x19f5110" file="xbox_node.cpp" linenr="121" str="init" scope="0x19f9710" type="name" astParent="0x19f5060"/>
+    <token id="0x19f51c0" file="xbox_node.cpp" linenr="121" str="(" scope="0x19f9710" link="0x19f55e0" astOperand1="0x19f5060" astOperand2="0x19f5480"/>
+    <token id="0x19f5270" file="xbox_node.cpp" linenr="121" str="argc" scope="0x19f9710" type="name" varId="28" variable="0x19fa190" astParent="0x19f5320"/>
+    <token id="0x19f5320" file="xbox_node.cpp" linenr="121" str="," scope="0x19f9710" astParent="0x19f5480" astOperand1="0x19f5270" astOperand2="0x19f53d0"/>
+    <token id="0x19f53d0" file="xbox_node.cpp" linenr="121" str="argv" scope="0x19f9710" type="name" varId="29" variable="0x19fa200" astParent="0x19f5320"/>
+    <token id="0x19f5480" file="xbox_node.cpp" linenr="121" str="," scope="0x19f9710" astParent="0x19f51c0" astOperand1="0x19f5320" astOperand2="0x19f5530"/>
+    <token id="0x19f5530" file="xbox_node.cpp" linenr="121" str="&quot;xbox_node&quot;" scope="0x19f9710" type="string" strlen="9" values="0x19f5538" astParent="0x19f5480"/>
+    <token id="0x19f55e0" file="xbox_node.cpp" linenr="121" str=")" scope="0x19f9710" link="0x19f51c0"/>
+    <token id="0x19f5690" file="xbox_node.cpp" linenr="121" str=";" scope="0x19f9710"/>
+    <token id="0x19f5740" file="xbox_node.cpp" linenr="122" str="XboxData" scope="0x19f9710" type="name" type-scope="0x19f6760"/>
+    <token id="0x19f57f0" file="xbox_node.cpp" linenr="122" str="myXbox" scope="0x19f9710" type="name" varId="30" variable="0x19fa120"/>
+    <token id="0x19f58a0" file="xbox_node.cpp" linenr="122" str=";" scope="0x19f9710"/>
+    <token id="0x19f5950" file="xbox_node.cpp" linenr="123" str="ros" scope="0x19f9710" type="name" astParent="0x19f5a00"/>
+    <token id="0x19f5a00" file="xbox_node.cpp" linenr="123" str="::" scope="0x19f9710" astParent="0x19f5b60" astOperand1="0x19f5950" astOperand2="0x19f5ab0"/>
+    <token id="0x19f5ab0" file="xbox_node.cpp" linenr="123" str="spin" scope="0x19f9710" type="name" astParent="0x19f5a00"/>
+    <token id="0x19f5b60" file="xbox_node.cpp" linenr="123" str="(" scope="0x19f9710" link="0x19f5c10" astOperand1="0x19f5a00"/>
+    <token id="0x19f5c10" file="xbox_node.cpp" linenr="123" str=")" scope="0x19f9710" link="0x19f5b60"/>
+    <token id="0x19f5cc0" file="xbox_node.cpp" linenr="123" str=";" scope="0x19f9710"/>
+    <token id="0x19f5d70" file="xbox_node.cpp" linenr="124" str="}" scope="0x19f9710" link="0x19f4f00"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x19f62a0" type="Global">
+      <functionList>
+        <function id="0x19f9620" tokenDef="0x19f4820" name="main">
+          <arg nr="1" variable="0x19fa190"/>
+          <arg nr="2" variable="0x19fa200"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x19f9860"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f6760" type="Class" className="XboxData" classStart="0x19dc1c0" classEnd="0x19dd7c0" nestedIn="0x19f62a0">
+      <functionList>
+        <function id="0x19f6940" tokenDef="0x19dc3d0" name="XboxData"/>
+        <function id="0x19f69e0" tokenDef="0x19dcc10" name="joyCallback">
+          <arg nr="1" variable="0x19fa270"/>
+        </function>
+      </functionList>
+      <varlist>
+        <var id="0x19f98d0"/>
+        <var id="0x19f9940"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f6a80" type="Function" className="XboxData" classStart="0x19ddf50" classEnd="0x19df830" nestedIn="0x19f62a0" function="0x19f6940"/>
+    <scope id="0x19f6bb0" type="Function" className="joyCallback" classStart="0x19e0280" classEnd="0x19f46c0" nestedIn="0x19f62a0" function="0x19f69e0">
+      <varlist>
+        <var id="0x19f99b0"/>
+        <var id="0x19f9a20"/>
+        <var id="0x19f9a90"/>
+        <var id="0x19f9b00"/>
+        <var id="0x19f9b70"/>
+        <var id="0x19f9be0"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f6ce0" type="If" classStart="0x19e36c0" classEnd="0x19e4640" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f6e10" type="Else" classStart="0x19ca4d0" classEnd="0x19dba30" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f6f40" type="Try" classStart="0x19ca4d0" classEnd="0x19dba30" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f82d0" type="If" classStart="0x19e51f0" classEnd="0x19e5e80" nestedIn="0x19f6f40"/>
+    <scope id="0x19f8420" type="Else" classStart="0x19d87b0" classEnd="0x19d8860" nestedIn="0x19f6f40"/>
+    <scope id="0x19f8550" type="Try" classStart="0x19d87b0" classEnd="0x19d8860" nestedIn="0x19f6f40"/>
+    <scope id="0x19f86a0" type="If" classStart="0x19e6a30" classEnd="0x19e76c0" nestedIn="0x19f8550"/>
+    <scope id="0x19f87f0" type="If" classStart="0x19e8530" classEnd="0x19e8e50" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f8940" type="If" classStart="0x19e9cc0" classEnd="0x19ea5e0" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f8a90" type="If" classStart="0x19eaed0" classEnd="0x19ece70" nestedIn="0x19f6bb0">
+      <varlist>
+        <var id="0x19f9c50"/>
+        <var id="0x19f9cc0"/>
+        <var id="0x19f9d30"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f8be0" type="If" classStart="0x19edb80" classEnd="0x19f02b0" nestedIn="0x19f6bb0">
+      <varlist>
+        <var id="0x19f9da0"/>
+        <var id="0x19f9e10"/>
+        <var id="0x19f9e80"/>
+        <var id="0x19f9ef0"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f8d30" type="Else" classStart="0x19f8000" classEnd="0x19f80b0" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f8e60" type="Try" classStart="0x19f8000" classEnd="0x19f80b0" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f8fb0" type="If" classStart="0x19f0990" classEnd="0x19f30c0" nestedIn="0x19f8e60">
+      <varlist>
+        <var id="0x19f9f60"/>
+        <var id="0x19f9fd0"/>
+        <var id="0x19fa040"/>
+        <var id="0x19fa0b0"/>
+      </varlist>
+    </scope>
+    <scope id="0x19f9100" type="If" classStart="0x19f3590" classEnd="0x19f3b10" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f9250" type="Else" classStart="0x19f8160" classEnd="0x19f8210" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f9380" type="Try" classStart="0x19f8160" classEnd="0x19f8210" nestedIn="0x19f6bb0"/>
+    <scope id="0x19f94d0" type="If" classStart="0x19f4090" classEnd="0x19f4610" nestedIn="0x19f9380"/>
+    <scope id="0x19f9710" type="Function" className="main" classStart="0x19f4f00" classEnd="0x19f5d70" nestedIn="0x19f62a0" function="0x19f9620">
+      <varlist>
+        <var id="0x19fa120"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x19f9860" nameToken="0x19dbda0" typeStartToken="0x19dbcf0" typeEndToken="0x19dbcf0" isArgument="false" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f98d0" nameToken="0x19dc8a0" typeStartToken="0x19dc690" typeEndToken="0x19dc7f0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9940" nameToken="0x19dd660" typeStartToken="0x19dd450" typeEndToken="0x19dd5b0" isArgument="false" isArray="false" isClass="true" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19fa270" nameToken="0x19e0120" typeStartToken="0x19dfd00" typeEndToken="0x19e0070" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x19f99b0" nameToken="0x19e03e0" typeStartToken="0x19e0330" typeEndToken="0x19e0330" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9a20" nameToken="0x19e0960" typeStartToken="0x19e08b0" typeEndToken="0x19e08b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9a90" nameToken="0x19e1720" typeStartToken="0x19e1670" typeEndToken="0x19e1670" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9b00" nameToken="0x19e1930" typeStartToken="0x19e1880" typeEndToken="0x19e1880" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9b70" nameToken="0x19e1b40" typeStartToken="0x19e1a90" typeEndToken="0x19e1a90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9c50" nameToken="0x19eb190" typeStartToken="0x19eaf80" typeEndToken="0x19eb0e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9cc0" nameToken="0x19eb500" typeStartToken="0x19eb2f0" typeEndToken="0x19eb450" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9d30" nameToken="0x19ec210" typeStartToken="0x19ec000" typeEndToken="0x19ec160" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9be0" nameToken="0x19ecfd0" typeStartToken="0x19ecf20" typeEndToken="0x19ecf20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9da0" nameToken="0x19edce0" typeStartToken="0x19edc30" typeEndToken="0x19edc30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9e10" nameToken="0x19ee5d0" typeStartToken="0x19ee3c0" typeEndToken="0x19ee520" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9e80" nameToken="0x19ee940" typeStartToken="0x19ee730" typeEndToken="0x19ee890" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9ef0" nameToken="0x19ef650" typeStartToken="0x19ef440" typeEndToken="0x19ef5a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9f60" nameToken="0x19f0af0" typeStartToken="0x19f0a40" typeEndToken="0x19f0a40" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19f9fd0" nameToken="0x19f13e0" typeStartToken="0x19f11d0" typeEndToken="0x19f1330" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19fa040" nameToken="0x19f1750" typeStartToken="0x19f1540" typeEndToken="0x19f16a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19fa0b0" nameToken="0x19f2460" typeStartToken="0x19f2250" typeEndToken="0x19f23b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19fa190" nameToken="0x19f4a30" typeStartToken="0x19f4980" typeEndToken="0x19f4980" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x19fa200" nameToken="0x19f4da0" typeStartToken="0x19f4b90" typeEndToken="0x19f4cf0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x19fa120" nameToken="0x19f57f0" typeStartToken="0x19f5740" typeEndToken="0x19f5740" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x19dbf08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19deff8">
+      <value tokvalue="0x19deff0" known="true"/>
+    </values>
+    <values id="0x19df158">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x19e0f98">
+      <value intvalue="50000000" known="true"/>
+    </values>
+    <values id="0x19e2018">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x19e2598">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e2dd8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e2fe8">
+      <value intvalue="80" condition-line="52" possible="true"/>
+      <value intvalue="16" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e3098">
+      <value intvalue="1" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e31f8">
+      <value intvalue="80" known="true"/>
+    </values>
+    <values id="0x19e3568">
+      <value intvalue="16" known="true"/>
+    </values>
+    <values id="0x19e3908">
+      <value tokvalue="0x19e3900" known="true"/>
+    </values>
+    <values id="0x19e3a98">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x19e3b48">
+      <value intvalue="20" condition-line="52" possible="true"/>
+      <value intvalue="84" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e3bf8">
+      <value intvalue="80" condition-line="52" possible="true"/>
+      <value intvalue="16" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e42d8">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x19e4388">
+      <value intvalue="20" condition-line="52" possible="true"/>
+      <value intvalue="84" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e4438">
+      <value intvalue="80" condition-line="52" possible="true"/>
+      <value intvalue="16" condition-line="52" possible="true"/>
+    </values>
+    <values id="0x19e4c78">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e4e88">
+      <value intvalue="80" condition-line="58" possible="true"/>
+      <value intvalue="16" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x19e4f38">
+      <value intvalue="1" condition-line="58" possible="true"/>
+      <value intvalue="0" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x19e5098">
+      <value intvalue="80" known="true"/>
+    </values>
+    <values id="0x19e5408">
+      <value tokvalue="0x19e5400" known="true"/>
+    </values>
+    <values id="0x19e5598">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19e5c78">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19e64b8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e66c8">
+      <value intvalue="16" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x19e6778">
+      <value intvalue="1" condition-line="64" possible="true"/>
+    </values>
+    <values id="0x19e68d8">
+      <value intvalue="16" known="true"/>
+    </values>
+    <values id="0x19e6c48">
+      <value tokvalue="0x19e6c40" known="true"/>
+    </values>
+    <values id="0x19e6dd8">
+      <value intvalue="84" known="true"/>
+    </values>
+    <values id="0x19e74b8">
+      <value intvalue="84" known="true"/>
+    </values>
+    <values id="0x19e7cf8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0x19e7f08">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e8328">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19e8748">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e8a08">
+      <value tokvalue="0x19e8a00" known="true"/>
+    </values>
+    <values id="0x19e9488">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x19e9698">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e9ab8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19e9ed8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19ea198">
+      <value tokvalue="0x19ea190" known="true"/>
+    </values>
+    <values id="0x19eab68">
+      <value intvalue="4" known="true"/>
+    </values>
+    <values id="0x19ead78">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19ebc98">
+      <value tokvalue="0x19ebc90" known="true"/>
+    </values>
+    <values id="0x19ebdf8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19ec378">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19ec848">
+      <value intvalue="200" known="true"/>
+    </values>
+    <values id="0x19ed4a8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x19ed818">
+      <value intvalue="8500" condition-line="91" possible="true"/>
+    </values>
+    <values id="0x19ed8c8">
+      <value intvalue="1" condition-line="91" possible="true"/>
+    </values>
+    <values id="0x19eda28">
+      <value intvalue="8500" known="true"/>
+    </values>
+    <values id="0x19edef8">
+      <value intvalue="8500" condition-line="91" possible="true"/>
+    </values>
+    <values id="0x19edfa8">
+      <value intvalue="0" condition-line="91" possible="true"/>
+    </values>
+    <values id="0x19ee058">
+      <value intvalue="8500" known="true"/>
+    </values>
+    <values id="0x19ee1b8">
+      <value intvalue="0" condition-line="91" possible="true"/>
+    </values>
+    <values id="0x19ee268">
+      <value intvalue="49" known="true"/>
+    </values>
+    <values id="0x19ef0d8">
+      <value tokvalue="0x19ef0d0" known="true"/>
+    </values>
+    <values id="0x19ef238">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19ef7b8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19f0578">
+      <value intvalue="-8500" condition-line="100" possible="true"/>
+    </values>
+    <values id="0x19f0628">
+      <value intvalue="1" condition-line="100" possible="true"/>
+    </values>
+    <values id="0x19f0838">
+      <value intvalue="-8500" known="true"/>
+    </values>
+    <values id="0x19f0d08">
+      <value intvalue="-8500" condition-line="100" possible="true"/>
+    </values>
+    <values id="0x19f0db8">
+      <value intvalue="0" condition-line="100" possible="true"/>
+    </values>
+    <values id="0x19f0e68">
+      <value intvalue="8500" known="true"/>
+    </values>
+    <values id="0x19f0fc8">
+      <value intvalue="0" condition-line="100" possible="true"/>
+    </values>
+    <values id="0x19f1078">
+      <value intvalue="49" known="true"/>
+    </values>
+    <values id="0x19f1ee8">
+      <value tokvalue="0x19f1ee0" known="true"/>
+    </values>
+    <values id="0x19f2048">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19f25c8">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19f3438">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x19f3f38">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x19f5538">
+      <value tokvalue="0x19f5530" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

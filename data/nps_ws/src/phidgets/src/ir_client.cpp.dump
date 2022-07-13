@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <tokenlist>
+    <token id="0x2654420" file="ir_client.cpp" linenr="38" str="int" scope="0x267dfa0" type="name"/>
+    <token id="0x26544d0" file="ir_client.cpp" linenr="38" str="main" scope="0x267dfa0" type="name" function="0x267e150" astParent="0x2662eb0"/>
+    <token id="0x2662eb0" file="ir_client.cpp" linenr="38" str="(" scope="0x267dfa0" link="0x2663430" astOperand1="0x26544d0" astOperand2="0x26630c0"/>
+    <token id="0x2662f60" file="ir_client.cpp" linenr="38" str="int" scope="0x267dfa0" type="name"/>
+    <token id="0x2663010" file="ir_client.cpp" linenr="38" str="argc" scope="0x267dfa0" type="name" varId="1" variable="0x267ff50" astParent="0x26630c0"/>
+    <token id="0x26630c0" file="ir_client.cpp" linenr="38" str="," scope="0x267dfa0" astParent="0x2662eb0" astOperand1="0x2663010" astOperand2="0x2663220"/>
+    <token id="0x2663170" file="ir_client.cpp" linenr="38" str="char" scope="0x267dfa0" type="name" astParent="0x2663220"/>
+    <token id="0x2663220" file="ir_client.cpp" linenr="38" str="*" scope="0x267dfa0" type="op" isArithmeticalOp="True" astParent="0x26630c0" astOperand1="0x2663170" astOperand2="0x26632d0"/>
+    <token id="0x26632d0" file="ir_client.cpp" linenr="38" str="*" scope="0x267dfa0" type="op" isArithmeticalOp="True" astParent="0x2663220" astOperand1="0x2663380"/>
+    <token id="0x2663380" file="ir_client.cpp" linenr="38" str="argv" scope="0x267dfa0" type="name" varId="2" variable="0x267ffc0" astParent="0x26632d0"/>
+    <token id="0x2663430" file="ir_client.cpp" linenr="38" str=")" scope="0x267dfa0" link="0x2662eb0"/>
+    <token id="0x26634e0" file="ir_client.cpp" linenr="39" str="{" scope="0x267e1f0" link="0x267d970"/>
+    <token id="0x2663590" file="ir_client.cpp" linenr="40" str="ROS_INFO" scope="0x267e1f0" type="name" astParent="0x2665df0"/>
+    <token id="0x2665df0" file="ir_client.cpp" linenr="40" str="(" scope="0x267e1f0" link="0x2665fb0" astOperand1="0x2663590" astOperand2="0x2665ed0"/>
+    <token id="0x2665ed0" file="ir_client.cpp" linenr="40" str="&quot;Phidgets IR client&quot;" scope="0x267e1f0" type="string" strlen="18" values="0x2665ed8" astParent="0x2665df0"/>
+    <token id="0x2665fb0" file="ir_client.cpp" linenr="40" str=")" scope="0x267e1f0" link="0x2665df0"/>
+    <token id="0x2666060" file="ir_client.cpp" linenr="40" str=";" scope="0x267e1f0"/>
+    <token id="0x2666110" file="ir_client.cpp" linenr="41" str="ros" scope="0x267e1f0" type="name" astParent="0x26661c0"/>
+    <token id="0x26661c0" file="ir_client.cpp" linenr="41" str="::" scope="0x267e1f0" astParent="0x2666320" astOperand1="0x2666110" astOperand2="0x2666270"/>
+    <token id="0x2666270" file="ir_client.cpp" linenr="41" str="init" scope="0x267e1f0" type="name" astParent="0x26661c0"/>
+    <token id="0x2666320" file="ir_client.cpp" linenr="41" str="(" scope="0x267e1f0" link="0x2666740" astOperand1="0x26661c0" astOperand2="0x26665e0"/>
+    <token id="0x26663d0" file="ir_client.cpp" linenr="41" str="argc" scope="0x267e1f0" type="name" varId="1" variable="0x267ff50" astParent="0x2666480"/>
+    <token id="0x2666480" file="ir_client.cpp" linenr="41" str="," scope="0x267e1f0" astParent="0x26665e0" astOperand1="0x26663d0" astOperand2="0x2666530"/>
+    <token id="0x2666530" file="ir_client.cpp" linenr="41" str="argv" scope="0x267e1f0" type="name" varId="2" variable="0x267ffc0" astParent="0x2666480"/>
+    <token id="0x26665e0" file="ir_client.cpp" linenr="41" str="," scope="0x267e1f0" astParent="0x2666320" astOperand1="0x2666480" astOperand2="0x2666690"/>
+    <token id="0x2666690" file="ir_client.cpp" linenr="41" str="&quot;ir_client&quot;" scope="0x267e1f0" type="string" strlen="9" values="0x2666698" astParent="0x26665e0"/>
+    <token id="0x2666740" file="ir_client.cpp" linenr="41" str=")" scope="0x267e1f0" link="0x2666320"/>
+    <token id="0x26667f0" file="ir_client.cpp" linenr="41" str=";" scope="0x267e1f0"/>
+    <token id="0x26668a0" file="ir_client.cpp" linenr="42" str="ros" scope="0x267e1f0" type="name" astParent="0x2666950"/>
+    <token id="0x2666950" file="ir_client.cpp" linenr="42" str="::" scope="0x267e1f0" astOperand1="0x26668a0" astOperand2="0x2666ab0"/>
+    <token id="0x2666a00" file="ir_client.cpp" linenr="42" str="NodeHandle" scope="0x267e1f0" type="name"/>
+    <token id="0x2666ab0" file="ir_client.cpp" linenr="42" str="n" scope="0x267e1f0" type="name" varId="3" variable="0x267fa10" astParent="0x2666950"/>
+    <token id="0x2666b60" file="ir_client.cpp" linenr="42" str=";" scope="0x267e1f0"/>
+    <token id="0x2666c10" file="ir_client.cpp" linenr="44" str="int" scope="0x267e1f0" type="name"/>
+    <token id="0x2666cc0" file="ir_client.cpp" linenr="44" str="serial_number" scope="0x267e1f0" type="name" varId="4" variable="0x267fa80"/>
+    <token id="0x2666d70" file="ir_client.cpp" linenr="44" str=";" scope="0x267e1f0"/>
+    <token id="0x2666e20" file="ir_client.cpp" linenr="44" str="serial_number" scope="0x267e1f0" type="name" varId="4" variable="0x267fa80" astParent="0x2668b40"/>
+    <token id="0x2668b40" file="ir_client.cpp" linenr="44" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x2666e20" astOperand2="0x2666ed0"/>
+    <token id="0x2666ed0" file="ir_client.cpp" linenr="44" str="-1" scope="0x267e1f0" type="number" isInt="True" values="0x2666ed8" astParent="0x2668b40"/>
+    <token id="0x2666f80" file="ir_client.cpp" linenr="44" str=";" scope="0x267e1f0"/>
+    <token id="0x2667030" file="ir_client.cpp" linenr="45" str="n" scope="0x267e1f0" type="name" varId="3" variable="0x267fa10" astParent="0x26670e0"/>
+    <token id="0x26670e0" file="ir_client.cpp" linenr="45" str="." scope="0x267e1f0" astParent="0x2667240" astOperand1="0x2667030" astOperand2="0x2667190"/>
+    <token id="0x2667190" file="ir_client.cpp" linenr="45" str="getParam" scope="0x267e1f0" type="name" astParent="0x26670e0"/>
+    <token id="0x2667240" file="ir_client.cpp" linenr="45" str="(" scope="0x267e1f0" link="0x2667500" astOperand1="0x26670e0" astOperand2="0x26673a0"/>
+    <token id="0x26672f0" file="ir_client.cpp" linenr="45" str="&quot;serial&quot;" scope="0x267e1f0" type="string" strlen="6" values="0x26672f8" astParent="0x26673a0"/>
+    <token id="0x26673a0" file="ir_client.cpp" linenr="45" str="," scope="0x267e1f0" astParent="0x2667240" astOperand1="0x26672f0" astOperand2="0x2667450"/>
+    <token id="0x2667450" file="ir_client.cpp" linenr="45" str="serial_number" scope="0x267e1f0" type="name" varId="4" variable="0x267fa80" values="0x2667458" astParent="0x26673a0"/>
+    <token id="0x2667500" file="ir_client.cpp" linenr="45" str=")" scope="0x267e1f0" link="0x2667240"/>
+    <token id="0x26675b0" file="ir_client.cpp" linenr="45" str=";" scope="0x267e1f0"/>
+    <token id="0x2667660" file="ir_client.cpp" linenr="46" str="std" scope="0x267e1f0" type="name" astParent="0x2667710"/>
+    <token id="0x2667710" file="ir_client.cpp" linenr="46" str="::" scope="0x267e1f0" astOperand1="0x2667660" astOperand2="0x2667870"/>
+    <token id="0x26677c0" file="ir_client.cpp" linenr="46" str="string" scope="0x267e1f0" type="name"/>
+    <token id="0x2667870" file="ir_client.cpp" linenr="46" str="name" scope="0x267e1f0" type="name" varId="5" variable="0x267faf0" astParent="0x2667710"/>
+    <token id="0x2667920" file="ir_client.cpp" linenr="46" str=";" scope="0x267e1f0"/>
+    <token id="0x266a1f0" file="ir_client.cpp" linenr="46" str="name" scope="0x267e1f0" type="name" varId="5" variable="0x267faf0" astParent="0x266b060"/>
+    <token id="0x266b060" file="ir_client.cpp" linenr="46" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x266a1f0" astOperand2="0x26679d0"/>
+    <token id="0x26679d0" file="ir_client.cpp" linenr="46" str="&quot;ir&quot;" scope="0x267e1f0" type="string" strlen="2" values="0x26679d8" astParent="0x266b060"/>
+    <token id="0x2667a80" file="ir_client.cpp" linenr="46" str=";" scope="0x267e1f0"/>
+    <token id="0x2667b30" file="ir_client.cpp" linenr="47" str="n" scope="0x267e1f0" type="name" varId="3" variable="0x267fa10" astParent="0x2667be0"/>
+    <token id="0x2667be0" file="ir_client.cpp" linenr="47" str="." scope="0x267e1f0" astParent="0x2667d40" astOperand1="0x2667b30" astOperand2="0x2667c90"/>
+    <token id="0x2667c90" file="ir_client.cpp" linenr="47" str="getParam" scope="0x267e1f0" type="name" astParent="0x2667be0"/>
+    <token id="0x2667d40" file="ir_client.cpp" linenr="47" str="(" scope="0x267e1f0" link="0x2668720" astOperand1="0x2667be0" astOperand2="0x2667ea0"/>
+    <token id="0x2667df0" file="ir_client.cpp" linenr="47" str="&quot;name&quot;" scope="0x267e1f0" type="string" strlen="4" values="0x2667df8" astParent="0x2667ea0"/>
+    <token id="0x2667ea0" file="ir_client.cpp" linenr="47" str="," scope="0x267e1f0" astParent="0x2667d40" astOperand1="0x2667df0" astOperand2="0x2667f50"/>
+    <token id="0x2667f50" file="ir_client.cpp" linenr="47" str="name" scope="0x267e1f0" type="name" varId="5" variable="0x267faf0" values="0x2667f58" astParent="0x2667ea0"/>
+    <token id="0x2668720" file="ir_client.cpp" linenr="47" str=")" scope="0x267e1f0" link="0x2667d40"/>
+    <token id="0x26687d0" file="ir_client.cpp" linenr="47" str=";" scope="0x267e1f0"/>
+    <token id="0x2668880" file="ir_client.cpp" linenr="48" str="if" scope="0x267e1f0" type="name" astParent="0x2668930"/>
+    <token id="0x2668930" file="ir_client.cpp" linenr="48" str="(" scope="0x267e1f0" link="0x2668ca0" astOperand1="0x2668880" astOperand2="0x2668a90"/>
+    <token id="0x26689e0" file="ir_client.cpp" linenr="48" str="serial_number" scope="0x267e1f0" type="name" varId="4" variable="0x267fa80" values="0x26689e8" astParent="0x2668a90"/>
+    <token id="0x2668a90" file="ir_client.cpp" linenr="48" str="==" scope="0x267e1f0" type="op" isComparisonOp="True" values="0x2668a98" astParent="0x2668930" astOperand1="0x26689e0" astOperand2="0x2668bf0"/>
+    <token id="0x2668bf0" file="ir_client.cpp" linenr="48" str="-1" scope="0x267e1f0" type="number" isInt="True" values="0x2668bf8" astParent="0x2668a90"/>
+    <token id="0x2668ca0" file="ir_client.cpp" linenr="48" str=")" scope="0x267e1f0" link="0x2668930"/>
+    <token id="0x2668d50" file="ir_client.cpp" linenr="48" str="{" scope="0x267e320" link="0x2669430"/>
+    <token id="0x2668e00" file="ir_client.cpp" linenr="49" str="n" scope="0x267e320" type="name" varId="3" variable="0x267fa10" astParent="0x2668eb0"/>
+    <token id="0x2668eb0" file="ir_client.cpp" linenr="49" str="." scope="0x267e320" astParent="0x2669010" astOperand1="0x2668e00" astOperand2="0x2668f60"/>
+    <token id="0x2668f60" file="ir_client.cpp" linenr="49" str="getParam" scope="0x267e320" type="name" astParent="0x2668eb0"/>
+    <token id="0x2669010" file="ir_client.cpp" linenr="49" str="(" scope="0x267e320" link="0x26692d0" astOperand1="0x2668eb0" astOperand2="0x2669170"/>
+    <token id="0x26690c0" file="ir_client.cpp" linenr="49" str="&quot;serial_number&quot;" scope="0x267e320" type="string" strlen="13" values="0x26690c8" astParent="0x2669170"/>
+    <token id="0x2669170" file="ir_client.cpp" linenr="49" str="," scope="0x267e320" astParent="0x2669010" astOperand1="0x26690c0" astOperand2="0x2669220"/>
+    <token id="0x2669220" file="ir_client.cpp" linenr="49" str="serial_number" scope="0x267e320" type="name" varId="4" variable="0x267fa80" values="0x2669228" astParent="0x2669170"/>
+    <token id="0x26692d0" file="ir_client.cpp" linenr="49" str=")" scope="0x267e320" link="0x2669010"/>
+    <token id="0x2669380" file="ir_client.cpp" linenr="49" str=";" scope="0x267e320"/>
+    <token id="0x2669430" file="ir_client.cpp" linenr="50" str="}" scope="0x267e320" link="0x2668d50"/>
+    <token id="0x26694e0" file="ir_client.cpp" linenr="52" str="const" scope="0x267e1f0" type="name"/>
+    <token id="0x2669590" file="ir_client.cpp" linenr="52" str="int" scope="0x267e1f0" type="name"/>
+    <token id="0x2669640" file="ir_client.cpp" linenr="52" str="buffer_length" scope="0x267e1f0" type="name" varId="6" variable="0x267fb60" astParent="0x26696f0"/>
+    <token id="0x26696f0" file="ir_client.cpp" linenr="52" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x2669640" astOperand2="0x26697a0"/>
+    <token id="0x26697a0" file="ir_client.cpp" linenr="52" str="100" scope="0x267e1f0" type="number" isInt="True" values="0x26697a8" astParent="0x26696f0"/>
+    <token id="0x2669850" file="ir_client.cpp" linenr="52" str=";" scope="0x267e1f0"/>
+    <token id="0x2669900" file="ir_client.cpp" linenr="53" str="std" scope="0x267e1f0" type="name" astParent="0x26699b0"/>
+    <token id="0x26699b0" file="ir_client.cpp" linenr="53" str="::" scope="0x267e1f0" astOperand1="0x2669900" astOperand2="0x2669b10"/>
+    <token id="0x2669a60" file="ir_client.cpp" linenr="53" str="string" scope="0x267e1f0" type="name"/>
+    <token id="0x2669b10" file="ir_client.cpp" linenr="53" str="topic_name" scope="0x267e1f0" type="name" varId="7" variable="0x267fbd0" astParent="0x26699b0"/>
+    <token id="0x2669bc0" file="ir_client.cpp" linenr="53" str=";" scope="0x267e1f0"/>
+    <token id="0x266b3d0" file="ir_client.cpp" linenr="53" str="topic_name" scope="0x267e1f0" type="name" varId="7" variable="0x267fbd0" astParent="0x2662d40"/>
+    <token id="0x2662d40" file="ir_client.cpp" linenr="53" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x266b3d0" astOperand2="0x2669d20"/>
+    <token id="0x2669c70" file="ir_client.cpp" linenr="53" str="&quot;phidgets/&quot;" scope="0x267e1f0" type="string" strlen="9" values="0x2669c78" astParent="0x2669d20"/>
+    <token id="0x2669d20" file="ir_client.cpp" linenr="53" str="+" scope="0x267e1f0" type="op" isArithmeticalOp="True" astParent="0x2662d40" astOperand1="0x2669c70" astOperand2="0x2669dd0"/>
+    <token id="0x2669dd0" file="ir_client.cpp" linenr="53" str="name" scope="0x267e1f0" type="name" varId="5" variable="0x267faf0" values="0x2669dd8" astParent="0x2669d20"/>
+    <token id="0x2669e80" file="ir_client.cpp" linenr="53" str=";" scope="0x267e1f0"/>
+    <token id="0x2669f30" file="ir_client.cpp" linenr="54" str="if" scope="0x267e1f0" type="name" astParent="0x2669fe0"/>
+    <token id="0x2669fe0" file="ir_client.cpp" linenr="54" str="(" scope="0x267e1f0" link="0x266a350" astOperand1="0x2669f30" astOperand2="0x266a140"/>
+    <token id="0x266a090" file="ir_client.cpp" linenr="54" str="serial_number" scope="0x267e1f0" type="name" varId="4" variable="0x267fa80" astParent="0x266a140"/>
+    <token id="0x266a140" file="ir_client.cpp" linenr="54" str="&gt;" scope="0x267e1f0" type="op" isComparisonOp="True" astParent="0x2669fe0" astOperand1="0x266a090" astOperand2="0x266a2a0"/>
+    <token id="0x266a2a0" file="ir_client.cpp" linenr="54" str="-1" scope="0x267e1f0" type="number" isInt="True" values="0x266a2a8" astParent="0x266a140"/>
+    <token id="0x266a350" file="ir_client.cpp" linenr="54" str=")" scope="0x267e1f0" link="0x2669fe0"/>
+    <token id="0x266a400" file="ir_client.cpp" linenr="54" str="{" scope="0x267f4e0" link="0x266b5e0"/>
+    <token id="0x266a4b0" file="ir_client.cpp" linenr="55" str="char" scope="0x267f4e0" type="name"/>
+    <token id="0x266a560" file="ir_client.cpp" linenr="55" str="ser" scope="0x267f4e0" type="name" varId="8" variable="0x267fe70" astParent="0x266a610"/>
+    <token id="0x266a610" file="ir_client.cpp" linenr="55" str="[" scope="0x267f4e0" link="0x266a770" astOperand1="0x266a560" astOperand2="0x266a6c0"/>
+    <token id="0x266a6c0" file="ir_client.cpp" linenr="55" str="10" scope="0x267f4e0" type="number" isInt="True" values="0x266a6c8" astParent="0x266a610"/>
+    <token id="0x266a770" file="ir_client.cpp" linenr="55" str="]" scope="0x267f4e0" link="0x266a610"/>
+    <token id="0x266a820" file="ir_client.cpp" linenr="55" str=";" scope="0x267f4e0"/>
+    <token id="0x266a8d0" file="ir_client.cpp" linenr="56" str="sprintf" scope="0x267f4e0" type="name" astParent="0x266a980"/>
+    <token id="0x266a980" file="ir_client.cpp" linenr="56" str="(" scope="0x267f4e0" link="0x266ada0" astOperand1="0x266a8d0" astOperand2="0x266ac40"/>
+    <token id="0x266aa30" file="ir_client.cpp" linenr="56" str="ser" scope="0x267f4e0" type="name" varId="8" variable="0x267fe70" astParent="0x266aae0"/>
+    <token id="0x266aae0" file="ir_client.cpp" linenr="56" str="," scope="0x267f4e0" astParent="0x266ac40" astOperand1="0x266aa30" astOperand2="0x266ab90"/>
+    <token id="0x266ab90" file="ir_client.cpp" linenr="56" str="&quot;%d&quot;" scope="0x267f4e0" type="string" strlen="2" values="0x266ab98" astParent="0x266aae0"/>
+    <token id="0x266ac40" file="ir_client.cpp" linenr="56" str="," scope="0x267f4e0" astParent="0x266a980" astOperand1="0x266aae0" astOperand2="0x266acf0"/>
+    <token id="0x266acf0" file="ir_client.cpp" linenr="56" str="serial_number" scope="0x267f4e0" type="name" varId="4" variable="0x267fa80" astParent="0x266ac40"/>
+    <token id="0x266ada0" file="ir_client.cpp" linenr="56" str=")" scope="0x267f4e0" link="0x266a980"/>
+    <token id="0x266ae50" file="ir_client.cpp" linenr="56" str=";" scope="0x267f4e0"/>
+    <token id="0x266af00" file="ir_client.cpp" linenr="57" str="topic_name" scope="0x267f4e0" type="name" varId="7" variable="0x267fbd0" astParent="0x266afb0"/>
+    <token id="0x266afb0" file="ir_client.cpp" linenr="57" str="+=" scope="0x267f4e0" type="op" isAssignmentOp="True" astOperand1="0x266af00" astOperand2="0x266b110"/>
+    <token id="0x266b110" file="ir_client.cpp" linenr="57" str="&quot;/&quot;" scope="0x267f4e0" type="string" strlen="1" values="0x266b118" astParent="0x266afb0"/>
+    <token id="0x266b1c0" file="ir_client.cpp" linenr="57" str=";" scope="0x267f4e0"/>
+    <token id="0x266b270" file="ir_client.cpp" linenr="58" str="topic_name" scope="0x267f4e0" type="name" varId="7" variable="0x267fbd0" astParent="0x266b320"/>
+    <token id="0x266b320" file="ir_client.cpp" linenr="58" str="+=" scope="0x267f4e0" type="op" isAssignmentOp="True" astOperand1="0x266b270" astOperand2="0x266b480"/>
+    <token id="0x266b480" file="ir_client.cpp" linenr="58" str="ser" scope="0x267f4e0" type="name" varId="8" variable="0x267fe70" astParent="0x266b320"/>
+    <token id="0x266b530" file="ir_client.cpp" linenr="58" str=";" scope="0x267f4e0"/>
+    <token id="0x266b5e0" file="ir_client.cpp" linenr="59" str="}" scope="0x267f4e0" link="0x266a400"/>
+    <token id="0x266b690" file="ir_client.cpp" linenr="61" str="ros" scope="0x267e1f0" type="name" astParent="0x266b740"/>
+    <token id="0x266b740" file="ir_client.cpp" linenr="61" str="::" scope="0x267e1f0" astOperand1="0x266b690" astOperand2="0x266b8a0"/>
+    <token id="0x266b7f0" file="ir_client.cpp" linenr="61" str="Publisher" scope="0x267e1f0" type="name"/>
+    <token id="0x266b8a0" file="ir_client.cpp" linenr="61" str="ir_pub" scope="0x267e1f0" type="name" varId="9" variable="0x267fc40" astParent="0x266b740"/>
+    <token id="0x266b950" file="ir_client.cpp" linenr="61" str=";" scope="0x267e1f0"/>
+    <token id="0x2662df0" file="ir_client.cpp" linenr="61" str="ir_pub" scope="0x267e1f0" type="name" varId="9" variable="0x267fc40" astParent="0x267da20"/>
+    <token id="0x267da20" file="ir_client.cpp" linenr="61" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x2662df0" astOperand2="0x266bf80"/>
+    <token id="0x266ba00" file="ir_client.cpp" linenr="62" str="n" scope="0x267e1f0" type="name" varId="3" variable="0x267fa10" astParent="0x266bab0"/>
+    <token id="0x266bab0" file="ir_client.cpp" linenr="62" str="." scope="0x267e1f0" astParent="0x266bf80" astOperand1="0x266ba00" astOperand2="0x266bb60"/>
+    <token id="0x266bb60" file="ir_client.cpp" linenr="62" str="advertise" scope="0x267e1f0" type="name" astParent="0x266bab0"/>
+    <token id="0x266bc10" file="ir_client.cpp" linenr="62" str="&lt;" scope="0x267e1f0" link="0x266bed0"/>
+    <token id="0x266bcc0" file="ir_client.cpp" linenr="62" str="phidgets" scope="0x267e1f0" type="name"/>
+    <token id="0x266bd70" file="ir_client.cpp" linenr="62" str="::" scope="0x267e1f0"/>
+    <token id="0x266be20" file="ir_client.cpp" linenr="62" str="ir_params" scope="0x267e1f0" type="name"/>
+    <token id="0x266bed0" file="ir_client.cpp" linenr="62" str="&gt;" scope="0x267e1f0" link="0x266bc10"/>
+    <token id="0x266bf80" file="ir_client.cpp" linenr="62" str="(" scope="0x267e1f0" link="0x266c240" astParent="0x267da20" astOperand1="0x266bab0" astOperand2="0x266c0e0"/>
+    <token id="0x266c030" file="ir_client.cpp" linenr="62" str="topic_name" scope="0x267e1f0" type="name" varId="7" variable="0x267fbd0" astParent="0x266c0e0"/>
+    <token id="0x266c0e0" file="ir_client.cpp" linenr="62" str="," scope="0x267e1f0" astParent="0x266bf80" astOperand1="0x266c030" astOperand2="0x266c190"/>
+    <token id="0x266c190" file="ir_client.cpp" linenr="63" str="buffer_length" scope="0x267e1f0" type="name" varId="6" variable="0x267fb60" values="0x266c198" astParent="0x266c0e0"/>
+    <token id="0x266c240" file="ir_client.cpp" linenr="63" str=")" scope="0x267e1f0" link="0x266bf80"/>
+    <token id="0x266c2f0" file="ir_client.cpp" linenr="63" str=";" scope="0x267e1f0"/>
+    <token id="0x266c3a0" file="ir_client.cpp" linenr="65" str="std" scope="0x267e1f0" type="name" astParent="0x266c450"/>
+    <token id="0x266c450" file="ir_client.cpp" linenr="65" str="::" scope="0x267e1f0" astOperand1="0x266c3a0" astOperand2="0x266c5b0"/>
+    <token id="0x266c500" file="ir_client.cpp" linenr="65" str="string" scope="0x267e1f0" type="name"/>
+    <token id="0x266c5b0" file="ir_client.cpp" linenr="65" str="text" scope="0x267e1f0" type="name" varId="10" variable="0x267fcb0" astParent="0x266c450"/>
+    <token id="0x266c660" file="ir_client.cpp" linenr="65" str=";" scope="0x267e1f0"/>
+    <token id="0x267dad0" file="ir_client.cpp" linenr="65" str="text" scope="0x267e1f0" type="name" varId="10" variable="0x267fcb0" astParent="0x267db80"/>
+    <token id="0x267db80" file="ir_client.cpp" linenr="65" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x267dad0" astOperand2="0x266c710"/>
+    <token id="0x266c710" file="ir_client.cpp" linenr="65" str="&quot;&quot;" scope="0x267e1f0" type="string" strlen="0" values="0x266c718" astParent="0x267db80"/>
+    <token id="0x266c7c0" file="ir_client.cpp" linenr="65" str=";" scope="0x267e1f0"/>
+    <token id="0x266c870" file="ir_client.cpp" linenr="66" str="ros" scope="0x267e1f0" type="name" astParent="0x266c920"/>
+    <token id="0x266c920" file="ir_client.cpp" linenr="66" str="::" scope="0x267e1f0" astParent="0x266cb30" astOperand1="0x266c870" astOperand2="0x266ca80"/>
+    <token id="0x266c9d0" file="ir_client.cpp" linenr="66" str="Rate" scope="0x267e1f0" type="name"/>
+    <token id="0x266ca80" file="ir_client.cpp" linenr="66" str="loop_rate" scope="0x267e1f0" type="name" varId="11" variable="0x267fd20" astParent="0x266c920"/>
+    <token id="0x266cb30" file="ir_client.cpp" linenr="66" str="(" scope="0x267e1f0" link="0x266cc90" astOperand1="0x266c920" astOperand2="0x266cbe0"/>
+    <token id="0x266cbe0" file="ir_client.cpp" linenr="66" str="30" scope="0x267e1f0" type="number" isInt="True" values="0x266cbe8" astParent="0x266cb30"/>
+    <token id="0x266cc90" file="ir_client.cpp" linenr="66" str=")" scope="0x267e1f0" link="0x266cb30"/>
+    <token id="0x266cd40" file="ir_client.cpp" linenr="66" str=";" scope="0x267e1f0"/>
+    <token id="0x266cdf0" file="ir_client.cpp" linenr="68" str="phidgets" scope="0x267e1f0" type="name" astParent="0x266cea0"/>
+    <token id="0x266cea0" file="ir_client.cpp" linenr="68" str="::" scope="0x267e1f0" astOperand1="0x266cdf0" astOperand2="0x266d000"/>
+    <token id="0x266cf50" file="ir_client.cpp" linenr="68" str="ir_params" scope="0x267e1f0" type="name"/>
+    <token id="0x266d000" file="ir_client.cpp" linenr="68" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x266cea0"/>
+    <token id="0x266d0b0" file="ir_client.cpp" linenr="68" str=";" scope="0x267e1f0"/>
+    <token id="0x266d160" file="ir_client.cpp" linenr="71" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x266d210"/>
+    <token id="0x266d210" file="ir_client.cpp" linenr="71" str="." scope="0x267e1f0" astParent="0x266d370" astOperand1="0x266d160" astOperand2="0x266d2c0"/>
+    <token id="0x266d2c0" file="ir_client.cpp" linenr="71" str="code" scope="0x267e1f0" type="name" varId="13" astParent="0x266d210"/>
+    <token id="0x266d370" file="ir_client.cpp" linenr="71" str="." scope="0x267e1f0" astParent="0x266d4d0" astOperand1="0x266d210" astOperand2="0x266d420"/>
+    <token id="0x266d420" file="ir_client.cpp" linenr="71" str="push_back" scope="0x267e1f0" type="name" astParent="0x266d370"/>
+    <token id="0x266d4d0" file="ir_client.cpp" linenr="71" str="(" scope="0x267e1f0" link="0x266d630" astOperand1="0x266d370" astOperand2="0x266d580"/>
+    <token id="0x266d580" file="ir_client.cpp" linenr="71" str="119" scope="0x267e1f0" type="number" isInt="True" values="0x266d588" astParent="0x266d4d0"/>
+    <token id="0x266d630" file="ir_client.cpp" linenr="71" str=")" scope="0x267e1f0" link="0x266d4d0"/>
+    <token id="0x266d6e0" file="ir_client.cpp" linenr="71" str=";" scope="0x267e1f0"/>
+    <token id="0x266d790" file="ir_client.cpp" linenr="72" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x266d840"/>
+    <token id="0x266d840" file="ir_client.cpp" linenr="72" str="." scope="0x267e1f0" astParent="0x266d9a0" astOperand1="0x266d790" astOperand2="0x266d8f0"/>
+    <token id="0x266d8f0" file="ir_client.cpp" linenr="72" str="code" scope="0x267e1f0" type="name" varId="13" astParent="0x266d840"/>
+    <token id="0x266d9a0" file="ir_client.cpp" linenr="72" str="." scope="0x267e1f0" astParent="0x266db00" astOperand1="0x266d840" astOperand2="0x266da50"/>
+    <token id="0x266da50" file="ir_client.cpp" linenr="72" str="push_back" scope="0x267e1f0" type="name" astParent="0x266d9a0"/>
+    <token id="0x266db00" file="ir_client.cpp" linenr="72" str="(" scope="0x267e1f0" link="0x266dc60" astOperand1="0x266d9a0" astOperand2="0x266dbb0"/>
+    <token id="0x266dbb0" file="ir_client.cpp" linenr="72" str="225" scope="0x267e1f0" type="number" isInt="True" values="0x266dbb8" astParent="0x266db00"/>
+    <token id="0x266dc60" file="ir_client.cpp" linenr="72" str=")" scope="0x267e1f0" link="0x266db00"/>
+    <token id="0x266dd10" file="ir_client.cpp" linenr="72" str=";" scope="0x267e1f0"/>
+    <token id="0x266ddc0" file="ir_client.cpp" linenr="73" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x266de70"/>
+    <token id="0x266de70" file="ir_client.cpp" linenr="73" str="." scope="0x267e1f0" astParent="0x266dfd0" astOperand1="0x266ddc0" astOperand2="0x266df20"/>
+    <token id="0x266df20" file="ir_client.cpp" linenr="73" str="code" scope="0x267e1f0" type="name" varId="13" astParent="0x266de70"/>
+    <token id="0x266dfd0" file="ir_client.cpp" linenr="73" str="." scope="0x267e1f0" astParent="0x266e130" astOperand1="0x266de70" astOperand2="0x266e080"/>
+    <token id="0x266e080" file="ir_client.cpp" linenr="73" str="push_back" scope="0x267e1f0" type="name" astParent="0x266dfd0"/>
+    <token id="0x266e130" file="ir_client.cpp" linenr="73" str="(" scope="0x267e1f0" link="0x266e290" astOperand1="0x266dfd0" astOperand2="0x266e1e0"/>
+    <token id="0x266e1e0" file="ir_client.cpp" linenr="73" str="208" scope="0x267e1f0" type="number" isInt="True" values="0x266e1e8" astParent="0x266e130"/>
+    <token id="0x266e290" file="ir_client.cpp" linenr="73" str=")" scope="0x267e1f0" link="0x266e130"/>
+    <token id="0x266e340" file="ir_client.cpp" linenr="73" str=";" scope="0x267e1f0"/>
+    <token id="0x266e3f0" file="ir_client.cpp" linenr="74" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x266e4a0"/>
+    <token id="0x266e4a0" file="ir_client.cpp" linenr="74" str="." scope="0x267e1f0" astParent="0x266e600" astOperand1="0x266e3f0" astOperand2="0x266e550"/>
+    <token id="0x266e550" file="ir_client.cpp" linenr="74" str="code" scope="0x267e1f0" type="name" varId="13" astParent="0x266e4a0"/>
+    <token id="0x266e600" file="ir_client.cpp" linenr="74" str="." scope="0x267e1f0" astParent="0x266e760" astOperand1="0x266e4a0" astOperand2="0x266e6b0"/>
+    <token id="0x266e6b0" file="ir_client.cpp" linenr="74" str="push_back" scope="0x267e1f0" type="name" astParent="0x266e600"/>
+    <token id="0x266e760" file="ir_client.cpp" linenr="74" str="(" scope="0x267e1f0" link="0x266e8c0" astOperand1="0x266e600" astOperand2="0x266e810"/>
+    <token id="0x266e810" file="ir_client.cpp" linenr="74" str="240" scope="0x267e1f0" type="number" isInt="True" values="0x266e818" astParent="0x266e760"/>
+    <token id="0x266e8c0" file="ir_client.cpp" linenr="74" str=")" scope="0x267e1f0" link="0x266e760"/>
+    <token id="0x266e970" file="ir_client.cpp" linenr="74" str=";" scope="0x267e1f0"/>
+    <token id="0x266ea20" file="ir_client.cpp" linenr="77" str="int" scope="0x267e1f0" type="name"/>
+    <token id="0x266ead0" file="ir_client.cpp" linenr="77" str="rawData" scope="0x267e1f0" type="name" varId="14" variable="0x267fe00" astParent="0x266eb80"/>
+    <token id="0x266eb80" file="ir_client.cpp" linenr="77" str="[" scope="0x267e1f0" link="0x266ece0" astParent="0x266ed90" astOperand1="0x266ead0" astOperand2="0x266ec30"/>
+    <token id="0x266ec30" file="ir_client.cpp" linenr="77" str="67" scope="0x267e1f0" type="number" isInt="True" values="0x266ec38" astParent="0x266eb80"/>
+    <token id="0x266ece0" file="ir_client.cpp" linenr="77" str="]" scope="0x267e1f0" link="0x266eb80"/>
+    <token id="0x266ed90" file="ir_client.cpp" linenr="77" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x266eb80" astOperand2="0x266ee40"/>
+    <token id="0x266ee40" file="ir_client.cpp" linenr="77" str="{" scope="0x267e1f0" link="0x2674a60" astParent="0x266ed90" astOperand1="0x2674900"/>
+    <token id="0x266eef0" file="ir_client.cpp" linenr="78" str="9040" scope="0x267e1f0" type="number" isInt="True" values="0x266eef8" astParent="0x266efa0"/>
+    <token id="0x266efa0" file="ir_client.cpp" linenr="78" str="," scope="0x267e1f0" astParent="0x266f100" astOperand1="0x266eef0" astOperand2="0x266f050"/>
+    <token id="0x266f050" file="ir_client.cpp" linenr="78" str="4590" scope="0x267e1f0" type="number" isInt="True" values="0x266f058" astParent="0x266efa0"/>
+    <token id="0x266f100" file="ir_client.cpp" linenr="78" str="," scope="0x267e1f0" astParent="0x266f260" astOperand1="0x266efa0" astOperand2="0x266f1b0"/>
+    <token id="0x266f1b0" file="ir_client.cpp" linenr="78" str="540" scope="0x267e1f0" type="number" isInt="True" values="0x266f1b8" astParent="0x266f100"/>
+    <token id="0x266f260" file="ir_client.cpp" linenr="78" str="," scope="0x267e1f0" astParent="0x266f3c0" astOperand1="0x266f100" astOperand2="0x266f310"/>
+    <token id="0x266f310" file="ir_client.cpp" linenr="78" str="630" scope="0x267e1f0" type="number" isInt="True" values="0x266f318" astParent="0x266f260"/>
+    <token id="0x266f3c0" file="ir_client.cpp" linenr="78" str="," scope="0x267e1f0" astParent="0x266f520" astOperand1="0x266f260" astOperand2="0x266f470"/>
+    <token id="0x266f470" file="ir_client.cpp" linenr="78" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x266f478" astParent="0x266f3c0"/>
+    <token id="0x266f520" file="ir_client.cpp" linenr="78" str="," scope="0x267e1f0" astParent="0x266f680" astOperand1="0x266f3c0" astOperand2="0x266f5d0"/>
+    <token id="0x266f5d0" file="ir_client.cpp" linenr="79" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x266f5d8" astParent="0x266f520"/>
+    <token id="0x266f680" file="ir_client.cpp" linenr="79" str="," scope="0x267e1f0" astParent="0x266f7e0" astOperand1="0x266f520" astOperand2="0x266f730"/>
+    <token id="0x266f730" file="ir_client.cpp" linenr="79" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x266f738" astParent="0x266f680"/>
+    <token id="0x266f7e0" file="ir_client.cpp" linenr="79" str="," scope="0x267e1f0" astParent="0x266f940" astOperand1="0x266f680" astOperand2="0x266f890"/>
+    <token id="0x266f890" file="ir_client.cpp" linenr="79" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x266f898" astParent="0x266f7e0"/>
+    <token id="0x266f940" file="ir_client.cpp" linenr="79" str="," scope="0x267e1f0" astParent="0x266faa0" astOperand1="0x266f7e0" astOperand2="0x266f9f0"/>
+    <token id="0x266f9f0" file="ir_client.cpp" linenr="79" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x266f9f8" astParent="0x266f940"/>
+    <token id="0x266faa0" file="ir_client.cpp" linenr="79" str="," scope="0x267e1f0" astParent="0x266fc00" astOperand1="0x266f940" astOperand2="0x266fb50"/>
+    <token id="0x266fb50" file="ir_client.cpp" linenr="79" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x266fb58" astParent="0x266faa0"/>
+    <token id="0x266fc00" file="ir_client.cpp" linenr="79" str="," scope="0x267e1f0" astParent="0x266fd60" astOperand1="0x266faa0" astOperand2="0x266fcb0"/>
+    <token id="0x266fcb0" file="ir_client.cpp" linenr="80" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x266fcb8" astParent="0x266fc00"/>
+    <token id="0x266fd60" file="ir_client.cpp" linenr="80" str="," scope="0x267e1f0" astParent="0x266fec0" astOperand1="0x266fc00" astOperand2="0x266fe10"/>
+    <token id="0x266fe10" file="ir_client.cpp" linenr="80" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x266fe18" astParent="0x266fd60"/>
+    <token id="0x266fec0" file="ir_client.cpp" linenr="80" str="," scope="0x267e1f0" astParent="0x2670020" astOperand1="0x266fd60" astOperand2="0x266ff70"/>
+    <token id="0x266ff70" file="ir_client.cpp" linenr="80" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x266ff78" astParent="0x266fec0"/>
+    <token id="0x2670020" file="ir_client.cpp" linenr="80" str="," scope="0x267e1f0" astParent="0x2670180" astOperand1="0x266fec0" astOperand2="0x26700d0"/>
+    <token id="0x26700d0" file="ir_client.cpp" linenr="80" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x26700d8" astParent="0x2670020"/>
+    <token id="0x2670180" file="ir_client.cpp" linenr="80" str="," scope="0x267e1f0" astParent="0x26702e0" astOperand1="0x2670020" astOperand2="0x2670230"/>
+    <token id="0x2670230" file="ir_client.cpp" linenr="80" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2670238" astParent="0x2670180"/>
+    <token id="0x26702e0" file="ir_client.cpp" linenr="80" str="," scope="0x267e1f0" astParent="0x2670440" astOperand1="0x2670180" astOperand2="0x2670390"/>
+    <token id="0x2670390" file="ir_client.cpp" linenr="81" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2670398" astParent="0x26702e0"/>
+    <token id="0x2670440" file="ir_client.cpp" linenr="81" str="," scope="0x267e1f0" astParent="0x26705a0" astOperand1="0x26702e0" astOperand2="0x26704f0"/>
+    <token id="0x26704f0" file="ir_client.cpp" linenr="81" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26704f8" astParent="0x2670440"/>
+    <token id="0x26705a0" file="ir_client.cpp" linenr="81" str="," scope="0x267e1f0" astParent="0x2670700" astOperand1="0x2670440" astOperand2="0x2670650"/>
+    <token id="0x2670650" file="ir_client.cpp" linenr="81" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x2670658" astParent="0x26705a0"/>
+    <token id="0x2670700" file="ir_client.cpp" linenr="81" str="," scope="0x267e1f0" astParent="0x2670860" astOperand1="0x26705a0" astOperand2="0x26707b0"/>
+    <token id="0x26707b0" file="ir_client.cpp" linenr="81" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26707b8" astParent="0x2670700"/>
+    <token id="0x2670860" file="ir_client.cpp" linenr="81" str="," scope="0x267e1f0" astParent="0x26709c0" astOperand1="0x2670700" astOperand2="0x2670910"/>
+    <token id="0x2670910" file="ir_client.cpp" linenr="81" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2670918" astParent="0x2670860"/>
+    <token id="0x26709c0" file="ir_client.cpp" linenr="81" str="," scope="0x267e1f0" astParent="0x2670b20" astOperand1="0x2670860" astOperand2="0x2670a70"/>
+    <token id="0x2670a70" file="ir_client.cpp" linenr="82" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2670a78" astParent="0x26709c0"/>
+    <token id="0x2670b20" file="ir_client.cpp" linenr="82" str="," scope="0x267e1f0" astParent="0x2670c80" astOperand1="0x26709c0" astOperand2="0x2670bd0"/>
+    <token id="0x2670bd0" file="ir_client.cpp" linenr="82" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2670bd8" astParent="0x2670b20"/>
+    <token id="0x2670c80" file="ir_client.cpp" linenr="82" str="," scope="0x267e1f0" astParent="0x2670de0" astOperand1="0x2670b20" astOperand2="0x2670d30"/>
+    <token id="0x2670d30" file="ir_client.cpp" linenr="82" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x2670d38" astParent="0x2670c80"/>
+    <token id="0x2670de0" file="ir_client.cpp" linenr="82" str="," scope="0x267e1f0" astParent="0x2670f40" astOperand1="0x2670c80" astOperand2="0x2670e90"/>
+    <token id="0x2670e90" file="ir_client.cpp" linenr="82" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2670e98" astParent="0x2670de0"/>
+    <token id="0x2670f40" file="ir_client.cpp" linenr="82" str="," scope="0x267e1f0" astParent="0x26710a0" astOperand1="0x2670de0" astOperand2="0x2670ff0"/>
+    <token id="0x2670ff0" file="ir_client.cpp" linenr="82" str="540" scope="0x267e1f0" type="number" isInt="True" values="0x2670ff8" astParent="0x2670f40"/>
+    <token id="0x26710a0" file="ir_client.cpp" linenr="82" str="," scope="0x267e1f0" astParent="0x2671200" astOperand1="0x2670f40" astOperand2="0x2671150"/>
+    <token id="0x2671150" file="ir_client.cpp" linenr="83" str="630" scope="0x267e1f0" type="number" isInt="True" values="0x2671158" astParent="0x26710a0"/>
+    <token id="0x2671200" file="ir_client.cpp" linenr="83" str="," scope="0x267e1f0" astParent="0x2671360" astOperand1="0x26710a0" astOperand2="0x26712b0"/>
+    <token id="0x26712b0" file="ir_client.cpp" linenr="83" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26712b8" astParent="0x2671200"/>
+    <token id="0x2671360" file="ir_client.cpp" linenr="83" str="," scope="0x267e1f0" astParent="0x26714c0" astOperand1="0x2671200" astOperand2="0x2671410"/>
+    <token id="0x2671410" file="ir_client.cpp" linenr="83" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2671418" astParent="0x2671360"/>
+    <token id="0x26714c0" file="ir_client.cpp" linenr="83" str="," scope="0x267e1f0" astParent="0x2671620" astOperand1="0x2671360" astOperand2="0x2671570"/>
+    <token id="0x2671570" file="ir_client.cpp" linenr="83" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2671578" astParent="0x26714c0"/>
+    <token id="0x2671620" file="ir_client.cpp" linenr="83" str="," scope="0x267e1f0" astParent="0x2671780" astOperand1="0x26714c0" astOperand2="0x26716d0"/>
+    <token id="0x26716d0" file="ir_client.cpp" linenr="83" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x26716d8" astParent="0x2671620"/>
+    <token id="0x2671780" file="ir_client.cpp" linenr="83" str="," scope="0x267e1f0" astParent="0x26718e0" astOperand1="0x2671620" astOperand2="0x2671830"/>
+    <token id="0x2671830" file="ir_client.cpp" linenr="84" str="540" scope="0x267e1f0" type="number" isInt="True" values="0x2671838" astParent="0x2671780"/>
+    <token id="0x26718e0" file="ir_client.cpp" linenr="84" str="," scope="0x267e1f0" astParent="0x2671a40" astOperand1="0x2671780" astOperand2="0x2671990"/>
+    <token id="0x2671990" file="ir_client.cpp" linenr="84" str="630" scope="0x267e1f0" type="number" isInt="True" values="0x2671998" astParent="0x26718e0"/>
+    <token id="0x2671a40" file="ir_client.cpp" linenr="84" str="," scope="0x267e1f0" astParent="0x2671ba0" astOperand1="0x26718e0" astOperand2="0x2671af0"/>
+    <token id="0x2671af0" file="ir_client.cpp" linenr="84" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2671af8" astParent="0x2671a40"/>
+    <token id="0x2671ba0" file="ir_client.cpp" linenr="84" str="," scope="0x267e1f0" astParent="0x2671d00" astOperand1="0x2671a40" astOperand2="0x2671c50"/>
+    <token id="0x2671c50" file="ir_client.cpp" linenr="84" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x2671c58" astParent="0x2671ba0"/>
+    <token id="0x2671d00" file="ir_client.cpp" linenr="84" str="," scope="0x267e1f0" astParent="0x2671e60" astOperand1="0x2671ba0" astOperand2="0x2671db0"/>
+    <token id="0x2671db0" file="ir_client.cpp" linenr="84" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2671db8" astParent="0x2671d00"/>
+    <token id="0x2671e60" file="ir_client.cpp" linenr="84" str="," scope="0x267e1f0" astParent="0x2671fc0" astOperand1="0x2671d00" astOperand2="0x2671f10"/>
+    <token id="0x2671f10" file="ir_client.cpp" linenr="85" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2671f18" astParent="0x2671e60"/>
+    <token id="0x2671fc0" file="ir_client.cpp" linenr="85" str="," scope="0x267e1f0" astParent="0x2672120" astOperand1="0x2671e60" astOperand2="0x2672070"/>
+    <token id="0x2672070" file="ir_client.cpp" linenr="85" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x2672078" astParent="0x2671fc0"/>
+    <token id="0x2672120" file="ir_client.cpp" linenr="85" str="," scope="0x267e1f0" astParent="0x2672280" astOperand1="0x2671fc0" astOperand2="0x26721d0"/>
+    <token id="0x26721d0" file="ir_client.cpp" linenr="85" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x26721d8" astParent="0x2672120"/>
+    <token id="0x2672280" file="ir_client.cpp" linenr="85" str="," scope="0x267e1f0" astParent="0x26723e0" astOperand1="0x2672120" astOperand2="0x2672330"/>
+    <token id="0x2672330" file="ir_client.cpp" linenr="85" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2672338" astParent="0x2672280"/>
+    <token id="0x26723e0" file="ir_client.cpp" linenr="85" str="," scope="0x267e1f0" astParent="0x2672540" astOperand1="0x2672280" astOperand2="0x2672490"/>
+    <token id="0x2672490" file="ir_client.cpp" linenr="85" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2672498" astParent="0x26723e0"/>
+    <token id="0x2672540" file="ir_client.cpp" linenr="85" str="," scope="0x267e1f0" astParent="0x26726a0" astOperand1="0x26723e0" astOperand2="0x26725f0"/>
+    <token id="0x26725f0" file="ir_client.cpp" linenr="86" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26725f8" astParent="0x2672540"/>
+    <token id="0x26726a0" file="ir_client.cpp" linenr="86" str="," scope="0x267e1f0" astParent="0x2672800" astOperand1="0x2672540" astOperand2="0x2672750"/>
+    <token id="0x2672750" file="ir_client.cpp" linenr="86" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2672758" astParent="0x26726a0"/>
+    <token id="0x2672800" file="ir_client.cpp" linenr="86" str="," scope="0x267e1f0" astParent="0x2672960" astOperand1="0x26726a0" astOperand2="0x26728b0"/>
+    <token id="0x26728b0" file="ir_client.cpp" linenr="86" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26728b8" astParent="0x2672800"/>
+    <token id="0x2672960" file="ir_client.cpp" linenr="86" str="," scope="0x267e1f0" astParent="0x2672ac0" astOperand1="0x2672800" astOperand2="0x2672a10"/>
+    <token id="0x2672a10" file="ir_client.cpp" linenr="86" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2672a18" astParent="0x2672960"/>
+    <token id="0x2672ac0" file="ir_client.cpp" linenr="86" str="," scope="0x267e1f0" astParent="0x2672c20" astOperand1="0x2672960" astOperand2="0x2672b70"/>
+    <token id="0x2672b70" file="ir_client.cpp" linenr="86" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2672b78" astParent="0x2672ac0"/>
+    <token id="0x2672c20" file="ir_client.cpp" linenr="86" str="," scope="0x267e1f0" astParent="0x2672d80" astOperand1="0x2672ac0" astOperand2="0x2672cd0"/>
+    <token id="0x2672cd0" file="ir_client.cpp" linenr="87" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2672cd8" astParent="0x2672c20"/>
+    <token id="0x2672d80" file="ir_client.cpp" linenr="87" str="," scope="0x267e1f0" astParent="0x2672ee0" astOperand1="0x2672c20" astOperand2="0x2672e30"/>
+    <token id="0x2672e30" file="ir_client.cpp" linenr="87" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x2672e38" astParent="0x2672d80"/>
+    <token id="0x2672ee0" file="ir_client.cpp" linenr="87" str="," scope="0x267e1f0" astParent="0x2673040" astOperand1="0x2672d80" astOperand2="0x2672f90"/>
+    <token id="0x2672f90" file="ir_client.cpp" linenr="87" str="610" scope="0x267e1f0" type="number" isInt="True" values="0x2672f98" astParent="0x2672ee0"/>
+    <token id="0x2673040" file="ir_client.cpp" linenr="87" str="," scope="0x267e1f0" astParent="0x26731a0" astOperand1="0x2672ee0" astOperand2="0x26730f0"/>
+    <token id="0x26730f0" file="ir_client.cpp" linenr="87" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26730f8" astParent="0x2673040"/>
+    <token id="0x26731a0" file="ir_client.cpp" linenr="87" str="," scope="0x267e1f0" astParent="0x2673300" astOperand1="0x2673040" astOperand2="0x2673250"/>
+    <token id="0x2673250" file="ir_client.cpp" linenr="87" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2673258" astParent="0x26731a0"/>
+    <token id="0x2673300" file="ir_client.cpp" linenr="87" str="," scope="0x267e1f0" astParent="0x2673460" astOperand1="0x26731a0" astOperand2="0x26733b0"/>
+    <token id="0x26733b0" file="ir_client.cpp" linenr="88" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26733b8" astParent="0x2673300"/>
+    <token id="0x2673460" file="ir_client.cpp" linenr="88" str="," scope="0x267e1f0" astParent="0x26735c0" astOperand1="0x2673300" astOperand2="0x2673510"/>
+    <token id="0x2673510" file="ir_client.cpp" linenr="88" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x2673518" astParent="0x2673460"/>
+    <token id="0x26735c0" file="ir_client.cpp" linenr="88" str="," scope="0x267e1f0" astParent="0x2673720" astOperand1="0x2673460" astOperand2="0x2673670"/>
+    <token id="0x2673670" file="ir_client.cpp" linenr="88" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2673678" astParent="0x26735c0"/>
+    <token id="0x2673720" file="ir_client.cpp" linenr="88" str="," scope="0x267e1f0" astParent="0x2673880" astOperand1="0x26735c0" astOperand2="0x26737d0"/>
+    <token id="0x26737d0" file="ir_client.cpp" linenr="88" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x26737d8" astParent="0x2673720"/>
+    <token id="0x2673880" file="ir_client.cpp" linenr="88" str="," scope="0x267e1f0" astParent="0x26739e0" astOperand1="0x2673720" astOperand2="0x2673930"/>
+    <token id="0x2673930" file="ir_client.cpp" linenr="88" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2673938" astParent="0x2673880"/>
+    <token id="0x26739e0" file="ir_client.cpp" linenr="88" str="," scope="0x267e1f0" astParent="0x2673b40" astOperand1="0x2673880" astOperand2="0x2673a90"/>
+    <token id="0x2673a90" file="ir_client.cpp" linenr="89" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2673a98" astParent="0x26739e0"/>
+    <token id="0x2673b40" file="ir_client.cpp" linenr="89" str="," scope="0x267e1f0" astParent="0x2673ca0" astOperand1="0x26739e0" astOperand2="0x2673bf0"/>
+    <token id="0x2673bf0" file="ir_client.cpp" linenr="89" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2673bf8" astParent="0x2673b40"/>
+    <token id="0x2673ca0" file="ir_client.cpp" linenr="89" str="," scope="0x267e1f0" astParent="0x2673e00" astOperand1="0x2673b40" astOperand2="0x2673d50"/>
+    <token id="0x2673d50" file="ir_client.cpp" linenr="89" str="1740" scope="0x267e1f0" type="number" isInt="True" values="0x2673d58" astParent="0x2673ca0"/>
+    <token id="0x2673e00" file="ir_client.cpp" linenr="89" str="," scope="0x267e1f0" astParent="0x2673f60" astOperand1="0x2673ca0" astOperand2="0x2673eb0"/>
+    <token id="0x2673eb0" file="ir_client.cpp" linenr="89" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2673eb8" astParent="0x2673e00"/>
+    <token id="0x2673f60" file="ir_client.cpp" linenr="89" str="," scope="0x267e1f0" astParent="0x26740c0" astOperand1="0x2673e00" astOperand2="0x2674010"/>
+    <token id="0x2674010" file="ir_client.cpp" linenr="89" str="1750" scope="0x267e1f0" type="number" isInt="True" values="0x2674018" astParent="0x2673f60"/>
+    <token id="0x26740c0" file="ir_client.cpp" linenr="89" str="," scope="0x267e1f0" astParent="0x2674220" astOperand1="0x2673f60" astOperand2="0x2674170"/>
+    <token id="0x2674170" file="ir_client.cpp" linenr="90" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2674178" astParent="0x26740c0"/>
+    <token id="0x2674220" file="ir_client.cpp" linenr="90" str="," scope="0x267e1f0" astParent="0x2674380" astOperand1="0x26740c0" astOperand2="0x26742d0"/>
+    <token id="0x26742d0" file="ir_client.cpp" linenr="90" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x26742d8" astParent="0x2674220"/>
+    <token id="0x2674380" file="ir_client.cpp" linenr="90" str="," scope="0x267e1f0" astParent="0x26744e0" astOperand1="0x2674220" astOperand2="0x2674430"/>
+    <token id="0x2674430" file="ir_client.cpp" linenr="90" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x2674438" astParent="0x2674380"/>
+    <token id="0x26744e0" file="ir_client.cpp" linenr="90" str="," scope="0x267e1f0" astParent="0x2674640" astOperand1="0x2674380" astOperand2="0x2674590"/>
+    <token id="0x2674590" file="ir_client.cpp" linenr="90" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2674598" astParent="0x26744e0"/>
+    <token id="0x2674640" file="ir_client.cpp" linenr="90" str="," scope="0x267e1f0" astParent="0x26747a0" astOperand1="0x26744e0" astOperand2="0x26746f0"/>
+    <token id="0x26746f0" file="ir_client.cpp" linenr="90" str="550" scope="0x267e1f0" type="number" isInt="True" values="0x26746f8" astParent="0x2674640"/>
+    <token id="0x26747a0" file="ir_client.cpp" linenr="90" str="," scope="0x267e1f0" astParent="0x2674900" astOperand1="0x2674640" astOperand2="0x2674850"/>
+    <token id="0x2674850" file="ir_client.cpp" linenr="91" str="620" scope="0x267e1f0" type="number" isInt="True" values="0x2674858" astParent="0x26747a0"/>
+    <token id="0x2674900" file="ir_client.cpp" linenr="91" str="," scope="0x267e1f0" astParent="0x266ee40" astOperand1="0x26747a0" astOperand2="0x26749b0"/>
+    <token id="0x26749b0" file="ir_client.cpp" linenr="91" str="540" scope="0x267e1f0" type="number" isInt="True" values="0x26749b8" astParent="0x2674900"/>
+    <token id="0x2674a60" file="ir_client.cpp" linenr="92" str="}" scope="0x267e1f0" link="0x266ee40"/>
+    <token id="0x2674b10" file="ir_client.cpp" linenr="92" str=";" scope="0x267e1f0"/>
+    <token id="0x2674bc0" file="ir_client.cpp" linenr="93" str="for" scope="0x267e1f0" type="name" astParent="0x2674c70"/>
+    <token id="0x2674c70" file="ir_client.cpp" linenr="93" str="(" scope="0x267e1f0" link="0x26754b0" astOperand1="0x2674bc0" astOperand2="0x2674fe0"/>
+    <token id="0x2674d20" file="ir_client.cpp" linenr="93" str="int" scope="0x267e1f0" type="name"/>
+    <token id="0x2674dd0" file="ir_client.cpp" linenr="93" str="i" scope="0x267e1f0" type="name" varId="15" variable="0x267f740" astParent="0x2674e80"/>
+    <token id="0x2674e80" file="ir_client.cpp" linenr="93" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astParent="0x2674fe0" astOperand1="0x2674dd0" astOperand2="0x2674f30"/>
+    <token id="0x2674f30" file="ir_client.cpp" linenr="93" str="0" scope="0x267e1f0" type="number" isInt="True" values="0x2674f38" astParent="0x2674e80"/>
+    <token id="0x2674fe0" file="ir_client.cpp" linenr="93" str=";" scope="0x267e1f0" astParent="0x2674c70" astOperand1="0x2674e80" astOperand2="0x26752a0"/>
+    <token id="0x2675090" file="ir_client.cpp" linenr="93" str="i" scope="0x267e1f0" type="name" varId="15" variable="0x267f740" astParent="0x2675140"/>
+    <token id="0x2675140" file="ir_client.cpp" linenr="93" str="&lt;" scope="0x267e1f0" type="op" isComparisonOp="True" astParent="0x26752a0" astOperand1="0x2675090" astOperand2="0x26751f0"/>
+    <token id="0x26751f0" file="ir_client.cpp" linenr="93" str="67" scope="0x267e1f0" type="number" isInt="True" values="0x26751f8" astParent="0x2675140"/>
+    <token id="0x26752a0" file="ir_client.cpp" linenr="93" str=";" scope="0x267e1f0" astParent="0x2674fe0" astOperand1="0x2675140" astOperand2="0x2675400"/>
+    <token id="0x2675350" file="ir_client.cpp" linenr="93" str="i" scope="0x267e1f0" type="name" varId="15" variable="0x267f740" astParent="0x2675400"/>
+    <token id="0x2675400" file="ir_client.cpp" linenr="93" str="++" scope="0x267e1f0" type="op" astParent="0x26752a0" astOperand1="0x2675350"/>
+    <token id="0x26754b0" file="ir_client.cpp" linenr="93" str=")" scope="0x267e1f0" link="0x2674c70"/>
+    <token id="0x2675560" file="ir_client.cpp" linenr="93" str="{" scope="0x267f610" link="0x2675e50"/>
+    <token id="0x2675610" file="ir_client.cpp" linenr="94" str="ir" scope="0x267f610" type="name" varId="12" variable="0x267fd90" astParent="0x26756c0"/>
+    <token id="0x26756c0" file="ir_client.cpp" linenr="94" str="." scope="0x267f610" astParent="0x2675820" astOperand1="0x2675610" astOperand2="0x2675770"/>
+    <token id="0x2675770" file="ir_client.cpp" linenr="94" str="data" scope="0x267f610" type="name" varId="16" astParent="0x26756c0"/>
+    <token id="0x2675820" file="ir_client.cpp" linenr="94" str="." scope="0x267f610" astParent="0x2675980" astOperand1="0x26756c0" astOperand2="0x26758d0"/>
+    <token id="0x26758d0" file="ir_client.cpp" linenr="94" str="push_back" scope="0x267f610" type="name" astParent="0x2675820"/>
+    <token id="0x2675980" file="ir_client.cpp" linenr="94" str="(" scope="0x267f610" link="0x2675cf0" astOperand1="0x2675820" astOperand2="0x2675ae0"/>
+    <token id="0x2675a30" file="ir_client.cpp" linenr="94" str="rawData" scope="0x267f610" type="name" varId="14" variable="0x267fe00" astParent="0x2675ae0"/>
+    <token id="0x2675ae0" file="ir_client.cpp" linenr="94" str="[" scope="0x267f610" link="0x2675c40" astParent="0x2675980" astOperand1="0x2675a30" astOperand2="0x2675b90"/>
+    <token id="0x2675b90" file="ir_client.cpp" linenr="94" str="i" scope="0x267f610" type="name" varId="15" variable="0x267f740" values="0x2675b98" astParent="0x2675ae0"/>
+    <token id="0x2675c40" file="ir_client.cpp" linenr="94" str="]" scope="0x267f610" link="0x2675ae0"/>
+    <token id="0x2675cf0" file="ir_client.cpp" linenr="94" str=")" scope="0x267f610" link="0x2675980"/>
+    <token id="0x2675da0" file="ir_client.cpp" linenr="94" str=";" scope="0x267f610"/>
+    <token id="0x2675e50" file="ir_client.cpp" linenr="95" str="}" scope="0x267f610" link="0x2675560"/>
+    <token id="0x2675f00" file="ir_client.cpp" linenr="97" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2675fb0"/>
+    <token id="0x2675fb0" file="ir_client.cpp" linenr="97" str="." scope="0x267e1f0" astParent="0x2676110" astOperand1="0x2675f00" astOperand2="0x2676060"/>
+    <token id="0x2676060" file="ir_client.cpp" linenr="97" str="bitcount" scope="0x267e1f0" type="name" varId="17" astParent="0x2675fb0"/>
+    <token id="0x2676110" file="ir_client.cpp" linenr="97" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x2675fb0" astOperand2="0x26761c0"/>
+    <token id="0x26761c0" file="ir_client.cpp" linenr="97" str="32" scope="0x267e1f0" type="number" isInt="True" values="0x26761c8" astParent="0x2676110"/>
+    <token id="0x2676270" file="ir_client.cpp" linenr="97" str=";" scope="0x267e1f0"/>
+    <token id="0x2676320" file="ir_client.cpp" linenr="98" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x26763d0"/>
+    <token id="0x26763d0" file="ir_client.cpp" linenr="98" str="." scope="0x267e1f0" astParent="0x2676530" astOperand1="0x2676320" astOperand2="0x2676480"/>
+    <token id="0x2676480" file="ir_client.cpp" linenr="98" str="head" scope="0x267e1f0" type="name" varId="18" astParent="0x26763d0"/>
+    <token id="0x2676530" file="ir_client.cpp" linenr="98" str="." scope="0x267e1f0" astParent="0x2676690" astOperand1="0x26763d0" astOperand2="0x26765e0"/>
+    <token id="0x26765e0" file="ir_client.cpp" linenr="98" str="push_back" scope="0x267e1f0" type="name" astParent="0x2676530"/>
+    <token id="0x2676690" file="ir_client.cpp" linenr="98" str="(" scope="0x267e1f0" link="0x26767f0" astOperand1="0x2676530" astOperand2="0x2676740"/>
+    <token id="0x2676740" file="ir_client.cpp" linenr="98" str="9000" scope="0x267e1f0" type="number" isInt="True" values="0x2676748" astParent="0x2676690"/>
+    <token id="0x26767f0" file="ir_client.cpp" linenr="98" str=")" scope="0x267e1f0" link="0x2676690"/>
+    <token id="0x26768a0" file="ir_client.cpp" linenr="98" str=";" scope="0x267e1f0"/>
+    <token id="0x2676950" file="ir_client.cpp" linenr="99" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2676a00"/>
+    <token id="0x2676a00" file="ir_client.cpp" linenr="99" str="." scope="0x267e1f0" astParent="0x2676b60" astOperand1="0x2676950" astOperand2="0x2676ab0"/>
+    <token id="0x2676ab0" file="ir_client.cpp" linenr="99" str="head" scope="0x267e1f0" type="name" varId="18" astParent="0x2676a00"/>
+    <token id="0x2676b60" file="ir_client.cpp" linenr="99" str="." scope="0x267e1f0" astParent="0x2676cc0" astOperand1="0x2676a00" astOperand2="0x2676c10"/>
+    <token id="0x2676c10" file="ir_client.cpp" linenr="99" str="push_back" scope="0x267e1f0" type="name" astParent="0x2676b60"/>
+    <token id="0x2676cc0" file="ir_client.cpp" linenr="99" str="(" scope="0x267e1f0" link="0x2676e20" astOperand1="0x2676b60" astOperand2="0x2676d70"/>
+    <token id="0x2676d70" file="ir_client.cpp" linenr="99" str="4500" scope="0x267e1f0" type="number" isInt="True" values="0x2676d78" astParent="0x2676cc0"/>
+    <token id="0x2676e20" file="ir_client.cpp" linenr="99" str=")" scope="0x267e1f0" link="0x2676cc0"/>
+    <token id="0x2676ed0" file="ir_client.cpp" linenr="99" str=";" scope="0x267e1f0"/>
+    <token id="0x2676f80" file="ir_client.cpp" linenr="100" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2677030"/>
+    <token id="0x2677030" file="ir_client.cpp" linenr="100" str="." scope="0x267e1f0" astParent="0x2677190" astOperand1="0x2676f80" astOperand2="0x26770e0"/>
+    <token id="0x26770e0" file="ir_client.cpp" linenr="100" str="zero" scope="0x267e1f0" type="name" varId="19" astParent="0x2677030"/>
+    <token id="0x2677190" file="ir_client.cpp" linenr="100" str="." scope="0x267e1f0" astParent="0x26772f0" astOperand1="0x2677030" astOperand2="0x2677240"/>
+    <token id="0x2677240" file="ir_client.cpp" linenr="100" str="push_back" scope="0x267e1f0" type="name" astParent="0x2677190"/>
+    <token id="0x26772f0" file="ir_client.cpp" linenr="100" str="(" scope="0x267e1f0" link="0x2677450" astOperand1="0x2677190" astOperand2="0x26773a0"/>
+    <token id="0x26773a0" file="ir_client.cpp" linenr="100" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x26773a8" astParent="0x26772f0"/>
+    <token id="0x2677450" file="ir_client.cpp" linenr="100" str=")" scope="0x267e1f0" link="0x26772f0"/>
+    <token id="0x2677500" file="ir_client.cpp" linenr="100" str=";" scope="0x267e1f0"/>
+    <token id="0x26775b0" file="ir_client.cpp" linenr="101" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2677660"/>
+    <token id="0x2677660" file="ir_client.cpp" linenr="101" str="." scope="0x267e1f0" astParent="0x26777c0" astOperand1="0x26775b0" astOperand2="0x2677710"/>
+    <token id="0x2677710" file="ir_client.cpp" linenr="101" str="zero" scope="0x267e1f0" type="name" varId="19" astParent="0x2677660"/>
+    <token id="0x26777c0" file="ir_client.cpp" linenr="101" str="." scope="0x267e1f0" astParent="0x2677920" astOperand1="0x2677660" astOperand2="0x2677870"/>
+    <token id="0x2677870" file="ir_client.cpp" linenr="101" str="push_back" scope="0x267e1f0" type="name" astParent="0x26777c0"/>
+    <token id="0x2677920" file="ir_client.cpp" linenr="101" str="(" scope="0x267e1f0" link="0x2677a80" astOperand1="0x26777c0" astOperand2="0x26779d0"/>
+    <token id="0x26779d0" file="ir_client.cpp" linenr="101" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x26779d8" astParent="0x2677920"/>
+    <token id="0x2677a80" file="ir_client.cpp" linenr="101" str=")" scope="0x267e1f0" link="0x2677920"/>
+    <token id="0x2677b30" file="ir_client.cpp" linenr="101" str=";" scope="0x267e1f0"/>
+    <token id="0x2677be0" file="ir_client.cpp" linenr="102" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2677c90"/>
+    <token id="0x2677c90" file="ir_client.cpp" linenr="102" str="." scope="0x267e1f0" astParent="0x2677df0" astOperand1="0x2677be0" astOperand2="0x2677d40"/>
+    <token id="0x2677d40" file="ir_client.cpp" linenr="102" str="one" scope="0x267e1f0" type="name" varId="20" astParent="0x2677c90"/>
+    <token id="0x2677df0" file="ir_client.cpp" linenr="102" str="." scope="0x267e1f0" astParent="0x2677f50" astOperand1="0x2677c90" astOperand2="0x2677ea0"/>
+    <token id="0x2677ea0" file="ir_client.cpp" linenr="102" str="push_back" scope="0x267e1f0" type="name" astParent="0x2677df0"/>
+    <token id="0x2677f50" file="ir_client.cpp" linenr="102" str="(" scope="0x267e1f0" link="0x26780b0" astOperand1="0x2677df0" astOperand2="0x2678000"/>
+    <token id="0x2678000" file="ir_client.cpp" linenr="102" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x2678008" astParent="0x2677f50"/>
+    <token id="0x26780b0" file="ir_client.cpp" linenr="102" str=")" scope="0x267e1f0" link="0x2677f50"/>
+    <token id="0x2678160" file="ir_client.cpp" linenr="102" str=";" scope="0x267e1f0"/>
+    <token id="0x2678210" file="ir_client.cpp" linenr="103" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x26782c0"/>
+    <token id="0x26782c0" file="ir_client.cpp" linenr="103" str="." scope="0x267e1f0" astParent="0x2678420" astOperand1="0x2678210" astOperand2="0x2678370"/>
+    <token id="0x2678370" file="ir_client.cpp" linenr="103" str="one" scope="0x267e1f0" type="name" varId="20" astParent="0x26782c0"/>
+    <token id="0x2678420" file="ir_client.cpp" linenr="103" str="." scope="0x267e1f0" astParent="0x2678580" astOperand1="0x26782c0" astOperand2="0x26784d0"/>
+    <token id="0x26784d0" file="ir_client.cpp" linenr="103" str="push_back" scope="0x267e1f0" type="name" astParent="0x2678420"/>
+    <token id="0x2678580" file="ir_client.cpp" linenr="103" str="(" scope="0x267e1f0" link="0x26786e0" astOperand1="0x2678420" astOperand2="0x2678630"/>
+    <token id="0x2678630" file="ir_client.cpp" linenr="103" str="1700" scope="0x267e1f0" type="number" isInt="True" values="0x2678638" astParent="0x2678580"/>
+    <token id="0x26786e0" file="ir_client.cpp" linenr="103" str=")" scope="0x267e1f0" link="0x2678580"/>
+    <token id="0x2678790" file="ir_client.cpp" linenr="103" str=";" scope="0x267e1f0"/>
+    <token id="0x2678840" file="ir_client.cpp" linenr="104" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x26788f0"/>
+    <token id="0x26788f0" file="ir_client.cpp" linenr="104" str="." scope="0x267e1f0" astParent="0x2678a50" astOperand1="0x2678840" astOperand2="0x26789a0"/>
+    <token id="0x26789a0" file="ir_client.cpp" linenr="104" str="trail" scope="0x267e1f0" type="name" varId="21" astParent="0x26788f0"/>
+    <token id="0x2678a50" file="ir_client.cpp" linenr="104" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x26788f0" astOperand2="0x2678b00"/>
+    <token id="0x2678b00" file="ir_client.cpp" linenr="104" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x2678b08" astParent="0x2678a50"/>
+    <token id="0x2678bb0" file="ir_client.cpp" linenr="104" str=";" scope="0x267e1f0"/>
+    <token id="0x2678c60" file="ir_client.cpp" linenr="105" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2678d10"/>
+    <token id="0x2678d10" file="ir_client.cpp" linenr="105" str="." scope="0x267e1f0" astParent="0x2678e70" astOperand1="0x2678c60" astOperand2="0x2678dc0"/>
+    <token id="0x2678dc0" file="ir_client.cpp" linenr="105" str="gap" scope="0x267e1f0" type="name" varId="22" astParent="0x2678d10"/>
+    <token id="0x2678e70" file="ir_client.cpp" linenr="105" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x2678d10" astOperand2="0x2678f20"/>
+    <token id="0x2678f20" file="ir_client.cpp" linenr="105" str="110000" scope="0x267e1f0" type="number" isInt="True" values="0x2678f28" astParent="0x2678e70"/>
+    <token id="0x2678fd0" file="ir_client.cpp" linenr="105" str=";" scope="0x267e1f0"/>
+    <token id="0x2679080" file="ir_client.cpp" linenr="106" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2679130"/>
+    <token id="0x2679130" file="ir_client.cpp" linenr="106" str="." scope="0x267e1f0" astParent="0x2679290" astOperand1="0x2679080" astOperand2="0x26791e0"/>
+    <token id="0x26791e0" file="ir_client.cpp" linenr="106" str="repeat" scope="0x267e1f0" type="name" varId="23" astParent="0x2679130"/>
+    <token id="0x2679290" file="ir_client.cpp" linenr="106" str="." scope="0x267e1f0" astParent="0x26793f0" astOperand1="0x2679130" astOperand2="0x2679340"/>
+    <token id="0x2679340" file="ir_client.cpp" linenr="106" str="push_back" scope="0x267e1f0" type="name" astParent="0x2679290"/>
+    <token id="0x26793f0" file="ir_client.cpp" linenr="106" str="(" scope="0x267e1f0" link="0x2679550" astOperand1="0x2679290" astOperand2="0x26794a0"/>
+    <token id="0x26794a0" file="ir_client.cpp" linenr="106" str="9000" scope="0x267e1f0" type="number" isInt="True" values="0x26794a8" astParent="0x26793f0"/>
+    <token id="0x2679550" file="ir_client.cpp" linenr="106" str=")" scope="0x267e1f0" link="0x26793f0"/>
+    <token id="0x2679600" file="ir_client.cpp" linenr="106" str=";" scope="0x267e1f0"/>
+    <token id="0x26796b0" file="ir_client.cpp" linenr="107" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2679760"/>
+    <token id="0x2679760" file="ir_client.cpp" linenr="107" str="." scope="0x267e1f0" astParent="0x26798c0" astOperand1="0x26796b0" astOperand2="0x2679810"/>
+    <token id="0x2679810" file="ir_client.cpp" linenr="107" str="repeat" scope="0x267e1f0" type="name" varId="23" astParent="0x2679760"/>
+    <token id="0x26798c0" file="ir_client.cpp" linenr="107" str="." scope="0x267e1f0" astParent="0x2679a20" astOperand1="0x2679760" astOperand2="0x2679970"/>
+    <token id="0x2679970" file="ir_client.cpp" linenr="107" str="push_back" scope="0x267e1f0" type="name" astParent="0x26798c0"/>
+    <token id="0x2679a20" file="ir_client.cpp" linenr="107" str="(" scope="0x267e1f0" link="0x2679b80" astOperand1="0x26798c0" astOperand2="0x2679ad0"/>
+    <token id="0x2679ad0" file="ir_client.cpp" linenr="107" str="2250" scope="0x267e1f0" type="number" isInt="True" values="0x2679ad8" astParent="0x2679a20"/>
+    <token id="0x2679b80" file="ir_client.cpp" linenr="107" str=")" scope="0x267e1f0" link="0x2679a20"/>
+    <token id="0x2679c30" file="ir_client.cpp" linenr="107" str=";" scope="0x267e1f0"/>
+    <token id="0x2679ce0" file="ir_client.cpp" linenr="108" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x2679d90"/>
+    <token id="0x2679d90" file="ir_client.cpp" linenr="108" str="." scope="0x267e1f0" astParent="0x2679ef0" astOperand1="0x2679ce0" astOperand2="0x2679e40"/>
+    <token id="0x2679e40" file="ir_client.cpp" linenr="108" str="repeat" scope="0x267e1f0" type="name" varId="23" astParent="0x2679d90"/>
+    <token id="0x2679ef0" file="ir_client.cpp" linenr="108" str="." scope="0x267e1f0" astParent="0x267a050" astOperand1="0x2679d90" astOperand2="0x2679fa0"/>
+    <token id="0x2679fa0" file="ir_client.cpp" linenr="108" str="push_back" scope="0x267e1f0" type="name" astParent="0x2679ef0"/>
+    <token id="0x267a050" file="ir_client.cpp" linenr="108" str="(" scope="0x267e1f0" link="0x267a1b0" astOperand1="0x2679ef0" astOperand2="0x267a100"/>
+    <token id="0x267a100" file="ir_client.cpp" linenr="108" str="560" scope="0x267e1f0" type="number" isInt="True" values="0x267a108" astParent="0x267a050"/>
+    <token id="0x267a1b0" file="ir_client.cpp" linenr="108" str=")" scope="0x267e1f0" link="0x267a050"/>
+    <token id="0x267a260" file="ir_client.cpp" linenr="108" str=";" scope="0x267e1f0"/>
+    <token id="0x267a310" file="ir_client.cpp" linenr="109" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x267a3c0"/>
+    <token id="0x267a3c0" file="ir_client.cpp" linenr="109" str="." scope="0x267e1f0" astParent="0x267a520" astOperand1="0x267a310" astOperand2="0x267a470"/>
+    <token id="0x267a470" file="ir_client.cpp" linenr="109" str="duty_cycle" scope="0x267e1f0" type="name" varId="24" astParent="0x267a3c0"/>
+    <token id="0x267a520" file="ir_client.cpp" linenr="109" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x267a3c0" astOperand2="0x267a5d0"/>
+    <token id="0x267a5d0" file="ir_client.cpp" linenr="109" str="33" scope="0x267e1f0" type="number" isInt="True" values="0x267a5d8" astParent="0x267a520"/>
+    <token id="0x267a680" file="ir_client.cpp" linenr="109" str=";" scope="0x267e1f0"/>
+    <token id="0x267a730" file="ir_client.cpp" linenr="110" str="ir" scope="0x267e1f0" type="name" varId="12" variable="0x267fd90" astParent="0x267a7e0"/>
+    <token id="0x267a7e0" file="ir_client.cpp" linenr="110" str="." scope="0x267e1f0" astParent="0x267a970" astOperand1="0x267a730" astOperand2="0x267a890"/>
+    <token id="0x267a890" file="ir_client.cpp" linenr="110" str="carrier_frequency" scope="0x267e1f0" type="name" varId="25" astParent="0x267a7e0"/>
+    <token id="0x267a970" file="ir_client.cpp" linenr="110" str="=" scope="0x267e1f0" type="op" isAssignmentOp="True" astOperand1="0x267a7e0" astOperand2="0x267aa20"/>
+    <token id="0x267aa20" file="ir_client.cpp" linenr="110" str="38000" scope="0x267e1f0" type="number" isInt="True" values="0x267aa28" astParent="0x267a970"/>
+    <token id="0x267aad0" file="ir_client.cpp" linenr="110" str=";" scope="0x267e1f0"/>
+    <token id="0x267ab80" file="ir_client.cpp" linenr="112" str="ROS_INFO" scope="0x267e1f0" type="name" astParent="0x267ac30"/>
+    <token id="0x267ac30" file="ir_client.cpp" linenr="112" str="(" scope="0x267e1f0" link="0x267ae20" astOperand1="0x267ab80" astOperand2="0x267ad40"/>
+    <token id="0x267ad40" file="ir_client.cpp" linenr="112" str="&quot;Hit M to send a test signal&quot;" scope="0x267e1f0" type="string" strlen="27" values="0x267ad48" astParent="0x267ac30"/>
+    <token id="0x267ae20" file="ir_client.cpp" linenr="112" str=")" scope="0x267e1f0" link="0x267ac30"/>
+    <token id="0x267aed0" file="ir_client.cpp" linenr="112" str=";" scope="0x267e1f0"/>
+    <token id="0x267af80" file="ir_client.cpp" linenr="114" str="while" scope="0x267e1f0" type="name" astParent="0x267b030"/>
+    <token id="0x267b030" file="ir_client.cpp" linenr="114" str="(" scope="0x267e1f0" link="0x267b450" astOperand1="0x267af80" astOperand2="0x267b2f0"/>
+    <token id="0x267b0e0" file="ir_client.cpp" linenr="114" str="ros" scope="0x267e1f0" type="name" astParent="0x267b190"/>
+    <token id="0x267b190" file="ir_client.cpp" linenr="114" str="::" scope="0x267e1f0" astParent="0x267b2f0" astOperand1="0x267b0e0" astOperand2="0x267b240"/>
+    <token id="0x267b240" file="ir_client.cpp" linenr="114" str="ok" scope="0x267e1f0" type="name" astParent="0x267b190"/>
+    <token id="0x267b2f0" file="ir_client.cpp" linenr="114" str="(" scope="0x267e1f0" link="0x267b3a0" astParent="0x267b030" astOperand1="0x267b190"/>
+    <token id="0x267b3a0" file="ir_client.cpp" linenr="114" str=")" scope="0x267e1f0" link="0x267b2f0"/>
+    <token id="0x267b450" file="ir_client.cpp" linenr="114" str=")" scope="0x267e1f0" link="0x267b030"/>
+    <token id="0x267b500" file="ir_client.cpp" linenr="114" str="{" scope="0x267f7b0" link="0x267d6b0"/>
+    <token id="0x267b5b0" file="ir_client.cpp" linenr="115" str="ros" scope="0x267f7b0" type="name" astParent="0x267b660"/>
+    <token id="0x267b660" file="ir_client.cpp" linenr="115" str="::" scope="0x267f7b0" astParent="0x267b7c0" astOperand1="0x267b5b0" astOperand2="0x267b710"/>
+    <token id="0x267b710" file="ir_client.cpp" linenr="115" str="spinOnce" scope="0x267f7b0" type="name" astParent="0x267b660"/>
+    <token id="0x267b7c0" file="ir_client.cpp" linenr="115" str="(" scope="0x267f7b0" link="0x267b870" astOperand1="0x267b660"/>
+    <token id="0x267b870" file="ir_client.cpp" linenr="115" str=")" scope="0x267f7b0" link="0x267b7c0"/>
+    <token id="0x267b920" file="ir_client.cpp" linenr="115" str=";" scope="0x267f7b0"/>
+    <token id="0x267b9d0" file="ir_client.cpp" linenr="116" str="loop_rate" scope="0x267f7b0" type="name" varId="11" variable="0x267fd20" astParent="0x267ba80"/>
+    <token id="0x267ba80" file="ir_client.cpp" linenr="116" str="." scope="0x267f7b0" astParent="0x267bbe0" astOperand1="0x267b9d0" astOperand2="0x267bb30"/>
+    <token id="0x267bb30" file="ir_client.cpp" linenr="116" str="sleep" scope="0x267f7b0" type="name" astParent="0x267ba80"/>
+    <token id="0x267bbe0" file="ir_client.cpp" linenr="116" str="(" scope="0x267f7b0" link="0x267bc90" astOperand1="0x267ba80"/>
+    <token id="0x267bc90" file="ir_client.cpp" linenr="116" str=")" scope="0x267f7b0" link="0x267bbe0"/>
+    <token id="0x267bd40" file="ir_client.cpp" linenr="116" str=";" scope="0x267f7b0"/>
+    <token id="0x267bdf0" file="ir_client.cpp" linenr="117" str="char" scope="0x267f7b0" type="name"/>
+    <token id="0x267bea0" file="ir_client.cpp" linenr="117" str="ch" scope="0x267f7b0" type="name" varId="26" variable="0x267fee0"/>
+    <token id="0x267bf50" file="ir_client.cpp" linenr="117" str=";" scope="0x267f7b0"/>
+    <token id="0x267dc80" file="ir_client.cpp" linenr="117" str="ch" scope="0x267f7b0" type="name" varId="26" variable="0x267fee0" astParent="0x267dd30"/>
+    <token id="0x267dd30" file="ir_client.cpp" linenr="117" str="=" scope="0x267f7b0" type="op" isAssignmentOp="True" astOperand1="0x267dc80" astOperand2="0x267c0b0"/>
+    <token id="0x267c000" file="ir_client.cpp" linenr="117" str="getc" scope="0x267f7b0" type="name" astParent="0x267c0b0"/>
+    <token id="0x267c0b0" file="ir_client.cpp" linenr="117" str="(" scope="0x267f7b0" link="0x267c210" astParent="0x267dd30" astOperand1="0x267c000" astOperand2="0x267c160"/>
+    <token id="0x267c160" file="ir_client.cpp" linenr="117" str="stdin" scope="0x267f7b0" type="name" astParent="0x267c0b0"/>
+    <token id="0x267c210" file="ir_client.cpp" linenr="117" str=")" scope="0x267f7b0" link="0x267c0b0"/>
+    <token id="0x267c2c0" file="ir_client.cpp" linenr="117" str=";" scope="0x267f7b0"/>
+    <token id="0x267c370" file="ir_client.cpp" linenr="119" str="if" scope="0x267f7b0" type="name" astParent="0x267c420"/>
+    <token id="0x267c420" file="ir_client.cpp" linenr="119" str="(" scope="0x267f7b0" link="0x267cc60" astOperand1="0x267c370" astOperand2="0x267c840"/>
+    <token id="0x267c4d0" file="ir_client.cpp" linenr="119" str="(" scope="0x267f7b0" link="0x267c790"/>
+    <token id="0x267c580" file="ir_client.cpp" linenr="119" str="ch" scope="0x267f7b0" type="name" varId="26" variable="0x267fee0" astParent="0x267c630"/>
+    <token id="0x267c630" file="ir_client.cpp" linenr="119" str="==" scope="0x267f7b0" type="op" isComparisonOp="True" astParent="0x267c840" astOperand1="0x267c580" astOperand2="0x267c6e0"/>
+    <token id="0x267c6e0" file="ir_client.cpp" linenr="119" str="'m'" scope="0x267f7b0" type="char" values="0x267c6e8" astParent="0x267c630"/>
+    <token id="0x267c790" file="ir_client.cpp" linenr="119" str=")" scope="0x267f7b0" link="0x267c4d0"/>
+    <token id="0x267c840" file="ir_client.cpp" linenr="119" str="||" scope="0x267f7b0" type="op" isLogicalOp="True" astParent="0x267c420" astOperand1="0x267c630" astOperand2="0x267ca50"/>
+    <token id="0x267c8f0" file="ir_client.cpp" linenr="119" str="(" scope="0x267f7b0" link="0x267cbb0"/>
+    <token id="0x267c9a0" file="ir_client.cpp" linenr="119" str="ch" scope="0x267f7b0" type="name" varId="26" variable="0x267fee0" astParent="0x267ca50"/>
+    <token id="0x267ca50" file="ir_client.cpp" linenr="119" str="==" scope="0x267f7b0" type="op" isComparisonOp="True" astParent="0x267c840" astOperand1="0x267c9a0" astOperand2="0x267cb00"/>
+    <token id="0x267cb00" file="ir_client.cpp" linenr="119" str="'M'" scope="0x267f7b0" type="char" values="0x267cb08" astParent="0x267ca50"/>
+    <token id="0x267cbb0" file="ir_client.cpp" linenr="119" str=")" scope="0x267f7b0" link="0x267c8f0"/>
+    <token id="0x267cc60" file="ir_client.cpp" linenr="119" str=")" scope="0x267f7b0" link="0x267c420"/>
+    <token id="0x267cd10" file="ir_client.cpp" linenr="119" str="{" scope="0x267f8e0" link="0x267d600"/>
+    <token id="0x267cdc0" file="ir_client.cpp" linenr="121" str="ROS_INFO" scope="0x267f8e0" type="name" astParent="0x267ce70"/>
+    <token id="0x267ce70" file="ir_client.cpp" linenr="121" str="(" scope="0x267f8e0" link="0x267cfd0" astOperand1="0x267cdc0" astOperand2="0x267cf20"/>
+    <token id="0x267cf20" file="ir_client.cpp" linenr="121" str="&quot;Sending signal&quot;" scope="0x267f8e0" type="string" strlen="14" values="0x267cf28" astParent="0x267ce70"/>
+    <token id="0x267cfd0" file="ir_client.cpp" linenr="121" str=")" scope="0x267f8e0" link="0x267ce70"/>
+    <token id="0x267d080" file="ir_client.cpp" linenr="121" str=";" scope="0x267f8e0"/>
+    <token id="0x267d130" file="ir_client.cpp" linenr="122" str="ir_pub" scope="0x267f8e0" type="name" varId="9" variable="0x267fc40" astParent="0x267d1e0"/>
+    <token id="0x267d1e0" file="ir_client.cpp" linenr="122" str="." scope="0x267f8e0" astParent="0x267d340" astOperand1="0x267d130" astOperand2="0x267d290"/>
+    <token id="0x267d290" file="ir_client.cpp" linenr="122" str="publish" scope="0x267f8e0" type="name" astParent="0x267d1e0"/>
+    <token id="0x267d340" file="ir_client.cpp" linenr="122" str="(" scope="0x267f8e0" link="0x267d4a0" astOperand1="0x267d1e0" astOperand2="0x267d3f0"/>
+    <token id="0x267d3f0" file="ir_client.cpp" linenr="122" str="ir" scope="0x267f8e0" type="name" varId="12" variable="0x267fd90" astParent="0x267d340"/>
+    <token id="0x267d4a0" file="ir_client.cpp" linenr="122" str=")" scope="0x267f8e0" link="0x267d340"/>
+    <token id="0x267d550" file="ir_client.cpp" linenr="122" str=";" scope="0x267f8e0"/>
+    <token id="0x267d600" file="ir_client.cpp" linenr="123" str="}" scope="0x267f8e0" link="0x267cd10"/>
+    <token id="0x267d6b0" file="ir_client.cpp" linenr="124" str="}" scope="0x267f7b0" link="0x267b500"/>
+    <token id="0x267d760" file="ir_client.cpp" linenr="126" str="return" scope="0x267e1f0" type="name" astOperand1="0x267d810"/>
+    <token id="0x267d810" file="ir_client.cpp" linenr="126" str="0" scope="0x267e1f0" type="number" isInt="True" values="0x267d818" astParent="0x267d760"/>
+    <token id="0x267d8c0" file="ir_client.cpp" linenr="126" str=";" scope="0x267e1f0"/>
+    <token id="0x267d970" file="ir_client.cpp" linenr="127" str="}" scope="0x267e1f0" link="0x26634e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x267dfa0" type="Global">
+      <functionList>
+        <function id="0x267e150" tokenDef="0x26544d0" name="main">
+          <arg nr="1" variable="0x267ff50"/>
+          <arg nr="2" variable="0x267ffc0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x267e1f0" type="Function" className="main" classStart="0x26634e0" classEnd="0x267d970" nestedIn="0x267dfa0" function="0x267e150">
+      <varlist>
+        <var id="0x267fa10"/>
+        <var id="0x267fa80"/>
+        <var id="0x267faf0"/>
+        <var id="0x267fb60"/>
+        <var id="0x267fbd0"/>
+        <var id="0x267fc40"/>
+        <var id="0x267fcb0"/>
+        <var id="0x267fd20"/>
+        <var id="0x267fd90"/>
+        <var id="0x267fe00"/>
+      </varlist>
+    </scope>
+    <scope id="0x267e320" type="If" classStart="0x2668d50" classEnd="0x2669430" nestedIn="0x267e1f0"/>
+    <scope id="0x267f4e0" type="If" classStart="0x266a400" classEnd="0x266b5e0" nestedIn="0x267e1f0">
+      <varlist>
+        <var id="0x267fe70"/>
+      </varlist>
+    </scope>
+    <scope id="0x267f610" type="For" classStart="0x2675560" classEnd="0x2675e50" nestedIn="0x267e1f0">
+      <varlist>
+        <var id="0x267f740"/>
+      </varlist>
+    </scope>
+    <scope id="0x267f7b0" type="While" classStart="0x267b500" classEnd="0x267d6b0" nestedIn="0x267e1f0">
+      <varlist>
+        <var id="0x267fee0"/>
+      </varlist>
+    </scope>
+    <scope id="0x267f8e0" type="If" classStart="0x267cd10" classEnd="0x267d600" nestedIn="0x267f7b0"/>
+  </scopes>
+  <variables>
+    <var id="0x267ff50" nameToken="0x2663010" typeStartToken="0x2662f60" typeEndToken="0x2662f60" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267ffc0" nameToken="0x2663380" typeStartToken="0x2663170" typeEndToken="0x26632d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x267fa10" nameToken="0x2666ab0" typeStartToken="0x26668a0" typeEndToken="0x2666a00" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fa80" nameToken="0x2666cc0" typeStartToken="0x2666c10" typeEndToken="0x2666c10" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267faf0" nameToken="0x2667870" typeStartToken="0x2667660" typeEndToken="0x26677c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fb60" nameToken="0x2669640" typeStartToken="0x2669590" typeEndToken="0x2669590" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fbd0" nameToken="0x2669b10" typeStartToken="0x2669900" typeEndToken="0x2669a60" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fe70" nameToken="0x266a560" typeStartToken="0x266a4b0" typeEndToken="0x266a4b0" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fc40" nameToken="0x266b8a0" typeStartToken="0x266b690" typeEndToken="0x266b7f0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fcb0" nameToken="0x266c5b0" typeStartToken="0x266c3a0" typeEndToken="0x266c500" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fd20" nameToken="0x266ca80" typeStartToken="0x266c870" typeEndToken="0x266c9d0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fd90" nameToken="0x266d000" typeStartToken="0x266cdf0" typeEndToken="0x266cf50" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fe00" nameToken="0x266ead0" typeStartToken="0x266ea20" typeEndToken="0x266ea20" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267f740" nameToken="0x2674dd0" typeStartToken="0x2674d20" typeEndToken="0x2674d20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x267fee0" nameToken="0x267bea0" typeStartToken="0x267bdf0" typeEndToken="0x267bdf0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2665ed8">
+      <value tokvalue="0x2665ed0" known="true"/>
+    </values>
+    <values id="0x2666698">
+      <value tokvalue="0x2666690" known="true"/>
+    </values>
+    <values id="0x2666ed8">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x26672f8">
+      <value tokvalue="0x26672f0" known="true"/>
+    </values>
+    <values id="0x2667458">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x26679d8">
+      <value tokvalue="0x26679d0" known="true"/>
+    </values>
+    <values id="0x2667df8">
+      <value tokvalue="0x2667df0" known="true"/>
+    </values>
+    <values id="0x2667f58">
+      <value tokvalue="0x26679d0" known="true"/>
+    </values>
+    <values id="0x26689e8">
+      <value intvalue="-1" condition-line="48" possible="true"/>
+    </values>
+    <values id="0x2668a98">
+      <value intvalue="1" condition-line="48" possible="true"/>
+    </values>
+    <values id="0x2668bf8">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x26690c8">
+      <value tokvalue="0x26690c0" known="true"/>
+    </values>
+    <values id="0x2669228">
+      <value intvalue="-1" condition-line="48" possible="true"/>
+    </values>
+    <values id="0x26697a8">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x2669c78">
+      <value tokvalue="0x2669c70" known="true"/>
+    </values>
+    <values id="0x2669dd8">
+      <value tokvalue="0x26679d0" possible="true"/>
+    </values>
+    <values id="0x266a2a8">
+      <value intvalue="-1" known="true"/>
+    </values>
+    <values id="0x266a6c8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0x266ab98">
+      <value tokvalue="0x266ab90" known="true"/>
+    </values>
+    <values id="0x266b118">
+      <value tokvalue="0x266b110" known="true"/>
+    </values>
+    <values id="0x266c198">
+      <value intvalue="100" known="true"/>
+    </values>
+    <values id="0x266c718">
+      <value tokvalue="0x266c710" known="true"/>
+    </values>
+    <values id="0x266cbe8">
+      <value intvalue="30" known="true"/>
+    </values>
+    <values id="0x266d588">
+      <value intvalue="119" known="true"/>
+    </values>
+    <values id="0x266dbb8">
+      <value intvalue="225" known="true"/>
+    </values>
+    <values id="0x266e1e8">
+      <value intvalue="208" known="true"/>
+    </values>
+    <values id="0x266e818">
+      <value intvalue="240" known="true"/>
+    </values>
+    <values id="0x266ec38">
+      <value intvalue="67" known="true"/>
+    </values>
+    <values id="0x266eef8">
+      <value intvalue="9040" known="true"/>
+    </values>
+    <values id="0x266f058">
+      <value intvalue="4590" known="true"/>
+    </values>
+    <values id="0x266f1b8">
+      <value intvalue="540" known="true"/>
+    </values>
+    <values id="0x266f318">
+      <value intvalue="630" known="true"/>
+    </values>
+    <values id="0x266f478">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x266f5d8">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x266f738">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x266f898">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x266f9f8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x266fb58">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x266fcb8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x266fe18">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x266ff78">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x26700d8">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x2670238">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2670398">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x26704f8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2670658">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x26707b8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2670918">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2670a78">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2670bd8">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2670d38">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x2670e98">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2670ff8">
+      <value intvalue="540" known="true"/>
+    </values>
+    <values id="0x2671158">
+      <value intvalue="630" known="true"/>
+    </values>
+    <values id="0x26712b8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2671418">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2671578">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x26716d8">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2671838">
+      <value intvalue="540" known="true"/>
+    </values>
+    <values id="0x2671998">
+      <value intvalue="630" known="true"/>
+    </values>
+    <values id="0x2671af8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2671c58">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x2671db8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2671f18">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2672078">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x26721d8">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2672338">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2672498">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x26725f8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2672758">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x26728b8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2672a18">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2672b78">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2672cd8">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2672e38">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x2672f98">
+      <value intvalue="610" known="true"/>
+    </values>
+    <values id="0x26730f8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2673258">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x26733b8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2673518">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x2673678">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x26737d8">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2673938">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2673a98">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2673bf8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2673d58">
+      <value intvalue="1740" known="true"/>
+    </values>
+    <values id="0x2673eb8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2674018">
+      <value intvalue="1750" known="true"/>
+    </values>
+    <values id="0x2674178">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x26742d8">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x2674438">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2674598">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x26746f8">
+      <value intvalue="550" known="true"/>
+    </values>
+    <values id="0x2674858">
+      <value intvalue="620" known="true"/>
+    </values>
+    <values id="0x26749b8">
+      <value intvalue="540" known="true"/>
+    </values>
+    <values id="0x2674f38">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x26751f8">
+      <value intvalue="67" known="true"/>
+    </values>
+    <values id="0x2675b98">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="66" possible="true"/>
+    </values>
+    <values id="0x26761c8">
+      <value intvalue="32" known="true"/>
+    </values>
+    <values id="0x2676748">
+      <value intvalue="9000" known="true"/>
+    </values>
+    <values id="0x2676d78">
+      <value intvalue="4500" known="true"/>
+    </values>
+    <values id="0x26773a8">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x26779d8">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x2678008">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x2678638">
+      <value intvalue="1700" known="true"/>
+    </values>
+    <values id="0x2678b08">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x2678f28">
+      <value intvalue="110000" known="true"/>
+    </values>
+    <values id="0x26794a8">
+      <value intvalue="9000" known="true"/>
+    </values>
+    <values id="0x2679ad8">
+      <value intvalue="2250" known="true"/>
+    </values>
+    <values id="0x267a108">
+      <value intvalue="560" known="true"/>
+    </values>
+    <values id="0x267a5d8">
+      <value intvalue="33" known="true"/>
+    </values>
+    <values id="0x267aa28">
+      <value intvalue="38000" known="true"/>
+    </values>
+    <values id="0x267ad48">
+      <value tokvalue="0x267ad40" known="true"/>
+    </values>
+    <values id="0x267c6e8">
+      <value intvalue="109" known="true"/>
+    </values>
+    <values id="0x267cb08">
+      <value intvalue="77" known="true"/>
+    </values>
+    <values id="0x267cf28">
+      <value tokvalue="0x267cf20" known="true"/>
+    </values>
+    <values id="0x267d818">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>
