@@ -266,6 +266,17 @@ class Token:
                 return value
         return None
 
+    # Implement __repr__
+    def __repr__(self):
+        if not self.astOperand1 and not self.astOperand2:
+            return self.str
+        elif self.astOperand1 and self.astOperand2:
+            return f"{repr(self.astOperand1)} {self.str} {repr(self.astOperand2)}"
+        elif self.astOperand1:
+            return f"{repr(self.astOperand1)} {self.str}"
+        else:
+            return f"{self.str} {repr(self.astOperand2)}"
+
 
 # Scope. Information about global scope, function scopes,
 # class scopes, inner scopes, etc.
@@ -389,6 +400,9 @@ class Variable:
         self.nameToken = IdMap[self.nameTokenId]
         self.typeStartToken = IdMap[self.typeStartTokenId]
         self.typeEndToken = IdMap[self.typeEndTokenId]
+
+    def __repr__(self):
+        return str({"id": self.Id, "name": self.nameToken.str})
 
 # ValueFlow class
 

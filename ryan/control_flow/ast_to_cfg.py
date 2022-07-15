@@ -1,13 +1,17 @@
 from __future__ import annotations
 from cpp_parser import CppcheckData, Token, Scope
-from cpp_utils import get_statement_tokens, tokens_to_str
-from dump_to_ast import DumpToAST
-from typing import List, Union, Set
+from cpp_utils import get_statement_tokens, tokens_to_str, token_to_stmt_str
+from dump_to_ast import DumpToAST, FunctionDeclaration, Statement
+from typing import List, Union, Set, Tuple
 from abc import ABC, abstractmethod
 from collections import deque
+import attr
 
 
 # TODO: Create CFG class
+
+# Output to json/yaml
+# pip-env
 
 class CFGNode(ABC):
     next: Union[Set[CFGNode], None] # IDK if this is how you do abstract attributes
@@ -36,69 +40,93 @@ class FunctionCFG:
             for next_node in cur.next:
                 queue.append(next_node)
 
+
 class EntryBlock(CFGNode):
+    """Entry block for a function"""    
     def __init__(self, function_declaration: FunctionDeclaration):
-        """Entry block for a function"""
         self.type = "entry"
         self.next = set()
         self.previous = set()
+        self.function_declaration = function_declaration
         self.function_arguments = list(function_declaration.function.argument.values())
 
     def get_type(self):
-        return self.type
+        return "entry"
 
+    def __repr__(self):
+        return f"EntryBlock(function_name={self.function_declaration.name})"
+
+@attr.s(eq=False, repr=False)
 class ExitBlock(CFGNode):
-    def __init__(self, previous: Set[CFGNode]):
-        """Entry block for a function"""
-        self.type = "exit"
-        self.function_declaration: function_declaration
-        self.next = set()
-        self.previous = set()
+    """Exit block for a function"""
+    function_declaration: FunctionDeclaration = attr.ib()
+    next: Set[CFGNode] = attr.ib(factory=set)
+    previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
-        return self.type
+        return "exit"
 
+    def __repr__(self):
+        return f"ExitBlock(function_name={self.function_declaration.name})"
+
+@attr.s(eq=False, repr=False)
 class BasicBlock(CFGNode):
-    def __init__(self, root_token: Token):
-        """Node for a basic block"""
-        self.type = "basic"
-        self.token = root_token
-        self.previous = set()
-        self.next = set()
+    """Node for a basic block"""
+    token: Token = attr.ib()
+    next: Set[CFGNode] = attr.ib(factory=set)
+    previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
-        return self.type
+        return "basic"
 
+    def __repr__(self):
+        return f"BasicBlock(token='{' '.join(token_to_stmt_str(self.token))}')"
+
+
+@attr.s(eq=False, repr=False)
 class ConditionalBlock(CFGNode):
-    def __init__(self, condition: Token, condition_true: CFGNode,
-    condition_false: CFGNode):
-        self.type = "conditional"
-        self.condition = condition
-        self.condition_true: condition_true
-        self.condition_false = condition_false
-        self.previous = set()
-        self.next = set()
+    """Node for condition block"""
+    condition: Token = attr.ib()
+    condition_true: CFGNode = attr.ib()
+    condition_false: CFGNode = attr.ib()
+    next: Set[CFGNode] = attr.ib(factory=set)
+    previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
-        return self.type
+        return "conditional"
 
+    def __repr__(self):
+        return f"ConditionalBlock(condition={token_to_stmt_str(self.condition)}"
+
+
+@attr.s(eq=False, repr=False)
 class JoinBlock(CFGNode):
-    def __init__(self, previous: Set[CFGNode]):
-        self.type = "join"
-        self.previous = previous
-        self.next = set()
+    next: Set[CFGNode] = attr.ib()
+    previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
-        return self.type
+        return "join"
+    
+    def __repr__(self):
+        repr_str = "JoinBlock("
 
+        prev_repr_str = []
+        for p in self.previous:
+            prev_repr_str.append(repr(p))
+        
+        repr_str = repr_str + ", ".join(prev_repr_str) + ")"
+        return repr_str
+
+@attr.s(eq=False, repr=False)
 class EmptyBlock(CFGNode):
-    def __init__(self):
-        self.type = "empty"
-        self.previous = set()
-        self.next = set()
+    next: Set[CFGNode] = attr.ib(factory=set)
+    previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
-        return self.type
+        return "empty"
+
+    def __repr__(self):
+        return "EmptyBlock()"
 
 class ASTToCFG:
     def __init__(self):
@@ -303,7 +331,7 @@ class ASTToCFG:
 
         for f in function_declaration_objs:
             entry_block = EntryBlock(f)
-            exit_block = ExitBlock([])
+            exit_block = ExitBlock(f)
 
             cfg = ASTToCFG.convert_statements(f.body, [(f.get_type(), entry_block, exit_block)])
             entry_block.next.add(cfg)
