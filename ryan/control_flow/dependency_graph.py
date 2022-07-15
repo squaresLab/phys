@@ -2,11 +2,12 @@ from ast_to_cfg import ASTToCFG, FunctionCFG, CFGNode
 from typing import Dict, Set
 from cpp_parser import Token, Variable
 from collections import deque
+from cpp_utils import get_statement_tokens, tokens_to_str, get_vars_from_statement, get_LHS_from_statement, get_RHS_from_statement, token_to_stmt_str
 
 def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, Dict[str, Set[Variable]]]:
     """Maps every node in CFG to a dictionary containing a def, use pair"""
     def_use_pairs = dict()
-    queue = deque(cfg.entry_block)
+    queue = deque([cfg.entry_block])
     seen = set()
 
     while queue:
@@ -47,33 +48,80 @@ def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, Dict[str, Set[Variab
     return def_use_pairs
 
 def reach_definitions(cfg: FunctionCFG):
-    reach_out = dict()
-    reach = dict()
+    reach_out: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = dict()
+    reach: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = dict()
     for n in cfg.nodes:
         reach_out[n] = set()
         reach[n] = set()
 
-    def_use_pairs = create_def_use_pairs(cfg)
+    def_use_pairs: Dict[CFGNode, Dict[str, Set[Variable]]] = create_def_use_pairs(cfg)
 
     queue = deque(cfg.nodes)
     while queue:
-        cur = queue.pop()
-        old_reach_out = reach_out[cur]
+        cur: CFGNode = queue.pop()
+        old_reach_out: Set[Tuple(CFGNode, Variable)] = reach_out[cur]
 
         for prev in cur.previous:
             reach[cur].update(reach_out[prev])
         
-        gen = (cur, def_use_pairs[cur]["def"])
-        kill = gen[1]
+        gen = set()
+        kill = set()
+        new_reach_out = set()
+        if def_use_pairs[cur]["def"]:
+            for def_var in def_use_pairs[cur]["def"]:
+                gen.add((cur, def_var))
+                kill.add(def_var.Id)
 
-        new_reach_out = {gen}
-        for node, variable in reach[cur]:
-            if variable not in kill:
-                new_reach_out.add((node, variable))
+            new_reach_out.update(gen)
+            if cur.get_type() == "basic":
+                if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
+                    print("~~~")
+                    print("HERE")
+                    print(kill)
+                    print(token_to_stmt_str(cur.token))
+            for node, variable in reach[cur]:
+                if variable.Id not in kill:
+                    new_reach_out.add((node, variable))
+                else:
+                    if cur.get_type() == "basic":
+                        if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
+                            print("THere")
+                            print(token_to_stmt_str(node.token))
 
+            if cur.get_type() == "basic":
+                if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
+                    print("Where")
+                    for n, var in new_reach_out:
+                        if n.get_type() == "basic":
+                            print(f"{token_to_stmt_str(n.token)}: {var.nameToken.str}")
+                        elif n.get_type() == "entry":
+                            print(f"Entry: {var.nameToken.str}")
         reach_out[cur] = new_reach_out
         if (new_reach_out != old_reach_out):
             queue.extend(cur.next)
 
     return reach
+
+
+if __name__ == "__main__":
+    cfg = ASTToCFG.convert("/home/rewong/phys/ryan/control_flow/data_dependency_tests/test_1.cpp.dump")
+    p = create_def_use_pairs(cfg[0])
+    # for k, v in p.items():
+    #     if k.get_type() == "basic":
+    #         print(token_to_stmt_str(k.token))
+    #         print(f"def {[x.nameToken.str for x in v['def']]}")
+    #         print(f"use {[x.nameToken.str for x in v['use']]}")
+
+    r = reach_definitions(cfg[0])
+    for k, v in r.items():
+        if k.get_type() == "basic":
+            print("____")
+            print(token_to_stmt_str(k.token))
+            
+            for n, var in v:
+                if n.get_type() == "basic":
+                    print(f"{token_to_stmt_str(n.token)}: {var.nameToken.str}")
+                elif n.get_type() == "entry":
+                    print(f"Entry: {var.nameToken.str}")
+
         

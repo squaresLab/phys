@@ -50,3 +50,6 @@ def root_token_to_str(t: Token) -> str:
         return ""
     print(t.str)
     return root_token_to_str(t.previous) + t.str + root_token_to_str(t.next)
+
+def token_to_stmt_str(t: Token) -> List[str]:
+    return tokens_to_str(get_statement_tokens(t))
