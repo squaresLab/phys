@@ -668,7 +668,7 @@ def print_AST(function_body):
                 print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_17.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
     parsed = DumpToAST.convert(test_path)
     # print_AST([parsed[0].body[-1]])
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
