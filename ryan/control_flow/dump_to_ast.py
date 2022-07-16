@@ -1,8 +1,15 @@
+"""Support for delayed annotations"""
 from __future__ import annotations
+
 from abc import ABC, abstractmethod
+from typing import List, Union, Set, Dict, Optional
+import json
+import yaml
+
 from cpp_parser import CppcheckData, Token, Scope
 from cpp_utils import get_statement_tokens, tokens_to_str
-from typing import List, Union, Set, Dict
+
+import attr
 
 
 def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
@@ -11,7 +18,7 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
     """
     root_tokens_set: Set[Token] = set()
     current_token: Union[Token, None] = token_start
-    
+
     while current_token is not None and current_token != token_end:  #todo: reverse token set exploration to top-down instead of bottom-up
         # HAS A PARENT
         if current_token.astParent: 
@@ -24,9 +31,9 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
                     token_parent.isRoot = True  # THIS PROPERTY IS A CUSTOM NEW PROPERTY
                     has_parent = False
                 else:
-                    token_parent = token_parent.astParent 
+                    token_parent = token_parent.astParent
         current_token = current_token.next
-    
+
     root_tokens = list(root_tokens_set)
     # SORT NUMERICALLY BY LINE NUMBER
     root_tokens = sorted(root_tokens, key=lambda x : int(x.linenr))
@@ -39,10 +46,8 @@ def get_function_statements(start_token: Token, end_token: Token, root_tokens: L
     of the statments in a funciton and returns all of the tokens of each statment.
     """
     function_statements = [get_statement_tokens(t) for t in root_tokens]
-    # print(end_token.str)
 
-    for i in range(len(function_statements)):
-        statement = function_statements[i]
+    for statement, i in enumerate(function_statements):
         cur = statement[-1].next
         statement_end = None
 
@@ -50,7 +55,7 @@ def get_function_statements(start_token: Token, end_token: Token, root_tokens: L
             statement_end = end_token.previous
         else:
             statement_end = function_statements[i + 1][0]
-        
+       
         while cur and cur != statement_end:
             statement.append(cur)
             cur = cur.next
@@ -189,46 +194,75 @@ class Statement(ABC):
     def get_type(self) -> str:
         raise NotImplementedError
 
+    @abstractmethod
+    def to_dict(self) -> Dict:
+        raise NotImplementedError
+
+@attr.s(repr=False)
 class BlockStatement(Statement):
-    def __init__(self, root_token: Token):
-        """Class for a single block statement"""
-        self.type: str = "block"
-        self.root_token: Token = root_token
+    """Single block statement"""
+    root_token: Token = attr.ib()
 
     def get_type(self) -> str:
-        return self.type
+        return "block"
 
+    def to_dict(self) -> Dict:
+        return {self.get_type(): repr(self.root_token)}
+
+    def __repr__(self):
+        return f"BasicStatement(root_token='{repr(self.root_token)}')"
+
+@attr.s(repr=False)
 class IfStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Statement], 
-    condition_false: List[Statement]):
-        """Class for an if statement"""
-        self.type: str = "if"
-        self.condition: Token = condition # Conditional
-        self.condition_false: List[Statement] = condition_false # If block
-        self.condition_true: List[Statement] = condition_true # Else block
+    """If statement"""
+    condition: Token = attr.ib()
+    condition_true: List[Statement] = attr.ib()
+    condition_false: List[Statement] = attr.ib()
 
     def get_type(self) -> str:
-        return self.type
+        return "if"
 
+    def to_dict(self) -> Dict:
+        if_dict = {
+            self.get_type(): {
+                "condition": repr(self.condition),
+                "condition_true": [s.to_dict() for s in self.condition_true],
+                "condition_false": [s.to_dict() for s in self.condition_false]
+            }
+        }
+
+        return if_dict
+
+    def __repr__(self):
+        return f"IfStatement(condition='{repr(self.condition)}'"
+
+@attr.s(repr=False)
 class WhileStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Statement]):
-        """Class for a while statement"""
-        self.type: str = "while"
-        self.condition: Token = condition # Conditional
-        self.condition_true: List[Statement] = condition_true # While block
+    """While statement"""
+    condition: Token = attr.ib() # Conditional
+    condition_true: List[Statement] = attr.ib() # While block
 
     def get_type(self) -> str:
-        return self.type
-        
+        return "while"
+
+    def to_dict(self) -> Dict:
+        while_dict = {
+            self.get_type(): {
+                "condition": repr(self.condition),
+                "condition_true": [s.to_dict() for s in self.condition_true]
+            }
+        }
+
+        return while_dict
+
+@attr.s()   
 class ForStatement(Statement):
-    def __init__(self, condition: Token, condition_true: List[Statement]):
-        """Class for a for loop"""
-        self.type: str = "for"
-        self.condition: Token = condition # Conditional
-        self.condition_true: List[Statement] = condition_true # For block
+    """For loop (all for loops should be desugared to while using .desugar)"""
+    condition: Token = attr.ib() # Conditional
+    condition_true: List[Statement] =  attr.ib() # For block
 
     def get_type(self):
-        return self.type
+        return "for"
 
     def desugar(self) -> List[Union[BlockStatement, WhileStatement]]:
         """Desugars for loop into a while loop"""
@@ -246,20 +280,19 @@ class ForStatement(Statement):
 
         return blocks
 
-class SwitchStatment(Statement):
-    def __init__(self, switch_expr, match_expr: Token, match_true: List[Statement]):
-        """Class for switch statements, chained together as a linked list"""
-        self.type = "switch"
-        self.switch_expr: Token = switch_expr 
-        self.match_expr: Token = match_expr # Case for single switch expression
-        self.match_true: List[Statement] = match_true # Code executed if switch case matches
-        self.has_break = False # Whether case terminates with break
-        self.is_default = False # Whether this is a default case
-        self.previous: Union[SwitchStatment, None] = None # Previous node in LL
-        self.next: Union[SwitchStatment, None] = None # Next node in LL
+    def to_dict(self) -> Dict:
+        raise ValueError("Desugar for into while")
 
-    def get_type(self) -> str:
-        return self.type
+@attr.s()
+class SwitchStatment(Statement):
+    """Switch statements represented as linked list (should be desugared into if statements)"""
+    switch_expr: Token = attr.ib()
+    match_expr: Token = attr.ib() # Case for single switch expression
+    match_true: List[Statement] = attr.ib() # Code executed if switch case matches
+    has_break: bool = attr.ib(init=False, default=False) # Whether case terminates with break
+    is_default: bool = attr.ib(init=False, default=False) # Whether this is a default case
+    previous: Optional[SwitchStatment] = attr.ib(init=False, default=None) # Previous node in LL
+    next: Optional[SwitchStatment] = attr.ib(init=False, default=None) # Next node in LL
 
     def _add_breaks(self):
         """Converts self into switch statements where every node has a break"""
@@ -300,22 +333,35 @@ class SwitchStatment(Statement):
         self._add_breaks()
         return self._switch_to_if_else()
 
+    def get_type(self) -> str:
+        return "switch"
 
+    def to_dict(self) -> Dict:
+        raise ValueError("Desugar switch to if")
+
+@attr.s()
 class FunctionDeclaration(Statement):
-    def __init__(self, name: str, token_start: Token, token_end: Token, scope_obj: Scope, scope_tree: ScopeNode,
-    function: str):
-        """Class for a function"""
-        self.type = "function"
-        self.name: str = name
-        self.token_start: Token = token_start
-        self.token_end: Token = token_end
-        self.scope_obj: Scope = scope_obj
-        self.scope_tree: ScopeNode = scope_tree
-        self.function: str = function
-        self.body: List[Statement] = []
+    """Function declaration"""
+    name: str = attr.ib()
+    token_start: Token = attr.ib()
+    token_end: Token = attr.ib()
+    scope_obj: Scope = attr.ib()
+    scope_tree: ScopeNode = attr.ib()
+    function_id: str = attr.ib()
+    body: List[Statement] = attr.ib(init=False, factory=list)
     
     def get_type(self):
-        return self.type
+        return "function"
+    
+    def to_dict(self) -> Dict:
+        function_dict = {
+            self.get_type(): {
+                "name": self.name,
+                "body": [s.to_dict() for s in self.body]
+            }
+        }
+
+        return function_dict
 
 class DumpToAST:
     def __init__(self):
@@ -342,6 +388,20 @@ class DumpToAST:
             function_declaration_objs.append(func_obj)
 
         return function_declaration_objs
+
+    @staticmethod
+    def write(function_declaration_objs: List[FunctionDeclaration], file_name: str, format="yaml"):
+        """Serializes FunctionDeclaration objects to yaml/json"""
+        objs_dict: List[Dict] = [f.to_dict() for f in function_declaration_objs]
+
+        if format == "yaml":
+            with open(file_name, "w") as f:
+                yaml.dump(objs_dict, f)
+        elif format == "json":
+            with open(file_name, "w") as f:
+                json.dump(objs_dict, f)
+        else:
+            raise ValueError("Format should be json or yaml")
 
 
 def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
@@ -422,7 +482,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     # Assumed that break/continue is always at the end of a statement
                     condition_false.append(BlockStatement(break_continue_token))
 
-            condition_false: List[Statment] = []
+            condition_false: List[Statement] = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
             
@@ -634,9 +694,9 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 def print_AST(function_body):
     for b in function_body:
         print("_____")
-        if b.type == "block":
+        if b.get_type() == "block":
             print(tokens_to_str(get_statement_tokens(b.root_token)))
-        elif b.type == "if":
+        elif b.get_type() == "if":
             print("IF:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("IF TRUE:")
@@ -646,19 +706,19 @@ def print_AST(function_body):
             print_AST(b.condition_false)
             print("END FALSE")
             print("END IF")
-        elif b.type == "while":
+        elif b.get_type() == "while":
             print("WHILE:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("IF TRUE:")
             print_AST(b.condition_true)
             print("END TRUE")
             print("END WHILE")
-        elif b.type == "for":
+        elif b.get_type() == "for":
             print("FOR:")
             print(tokens_to_str(get_statement_tokens(b.condition)))
             print("DO:")
             print_AST(b.condition_true)
-        elif b.type == "switch":
+        elif b.get_type() == "switch":
             if b.is_default:
                 print(f"SWITCH: (default = {b.is_default})")
             else:
@@ -681,6 +741,7 @@ if __name__ == "__main__":
     #     cur.extend(x.children)
 
     print_AST(parsed[0].body)
+    DumpToAST.write(parsed, "test_9.yaml")
     # print(parsed[0].body[-1].condition_true[2])
     # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:
