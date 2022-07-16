@@ -672,7 +672,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 if case_token.str == "default":
                     switch_block.is_default = True
 
-                if case_blocks and case_blocks[-1].type == "block":
+                if case_blocks and case_blocks[-1].get_type() == "block":
                     if case_blocks[-1].root_token.str in ["break", "continue", "pass"]:
                         switch_block.has_break = True
 
