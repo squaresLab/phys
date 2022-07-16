@@ -47,7 +47,7 @@ def get_function_statements(start_token: Token, end_token: Token, root_tokens: L
     """
     function_statements = [get_statement_tokens(t) for t in root_tokens]
 
-    for statement, i in enumerate(function_statements):
+    for i, statement in enumerate(function_statements):
         cur = statement[-1].next
         statement_end = None
 
@@ -112,7 +112,7 @@ class ScopeNode:
         Returns:
             bool : Whether the node was removed
         """
-        for children, i in enumerate(self.children):
+        for i, children in enumerate(self.children):
             if children.scope_id == scope_id:
                 self.children.pop(i)
                 return True
@@ -151,7 +151,7 @@ class ScopeNode:
         scope_node: ScopeNode = ScopeNode(scope_obj)
         scope_children: List[ScopeNode] = []
         # Find nested children
-        for s, i in enumerate(cppcheck_config.scopes):
+        for i, s in enumerate(cppcheck_config.scopes):
             if s == scope_node.scope_obj:
                 continue
 
@@ -350,7 +350,7 @@ class FunctionDeclaration(Statement):
     token_end: Token = attr.ib()
     scope_obj: Scope = attr.ib()
     scope_tree: ScopeNode = attr.ib()
-    function_id: str = attr.ib()
+    function: str = attr.ib()
     body: List[Statement] = attr.ib(init=False, factory=list)
 
     def get_type(self):
@@ -610,7 +610,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             # print([tokens_to_str(get_statement_tokens(x)) for x in case_default_tokens])
 
             # Get all condition tokens
-            for cur_token, i in enumerate(case_default_tokens):
+            for i, cur_token in enumerate(case_default_tokens):
                 match_case = None
                 if cur_token.str == "case":
                     match_case = cur_token.next if cur_token.next else None
@@ -618,7 +618,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 case_default_tokens[i] = (cur_token, match_case)
 
             # Get all blocks of code in each case:
-            for (case_token, match_case), i in enumerate(case_default_tokens):
+            for i, (case_token, match_case) in enumerate(case_default_tokens):
                 case_token_blocks = []
 
                 next_case_token = switch_scope_end
@@ -665,7 +665,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Make switch stmt objects
             switch_blocks = []
-            for (case_token, match_case, case_blocks), i in enumerate(case_default_tokens):
+            for i, (case_token, match_case, case_blocks) in enumerate(case_default_tokens):
                 case_token, match_case, case_blocks = case_default_tokens[i]
                 switch_block = SwitchStatment(switch_expr_root_token, match_case, case_blocks)
 

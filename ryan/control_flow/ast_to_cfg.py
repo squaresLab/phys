@@ -1,27 +1,30 @@
+"""Support for delayed annotations"""
 from __future__ import annotations
-from cpp_parser import CppcheckData, Token, Scope
-from cpp_utils import get_statement_tokens, tokens_to_str, token_to_stmt_str
-from dump_to_ast import DumpToAST, FunctionDeclaration, Statement
-from typing import List, Union, Set, Tuple
+
 from abc import ABC, abstractmethod
 from collections import deque
+from typing import List, Set, Tuple, Union
+
 import attr
 
+from cpp_parser import Token
+from cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
+from dump_to_ast import DumpToAST, FunctionDeclaration, Statement
 
-# TODO: Create CFG class
-
-# Output to json/yaml
-# pip-env
 
 class CFGNode(ABC):
-    next: Union[Set[CFGNode], None] # IDK if this is how you do abstract attributes
-    previous: Union[Set[CFGNode], None] # Empty set instead of None
+    """Abstract class for CFGNode"""
+    next: Set[CFGNode]
+    previous: Set[CFGNode]
 
     @abstractmethod
     def get_type(self):
+        """Returns type of CFGNode"""
         raise NotImplementedError
 
+
 class FunctionCFG:
+    """CFGNode for Function"""
     def __init__(self, function_declaration: FunctionDeclaration, entry_block: EntryBlock):
         self.function_declaration = function_declaration
         self.entry_block = entry_block
@@ -34,7 +37,7 @@ class FunctionCFG:
             cur = queue.pop()
             if cur in self.nodes:
                 pass
-            
+
             self.nodes.add(cur)
 
             for next_node in cur.next:
@@ -42,7 +45,7 @@ class FunctionCFG:
 
 
 class EntryBlock(CFGNode):
-    """Entry block for a function"""    
+    """Entry block for a function"""
     def __init__(self, function_declaration: FunctionDeclaration):
         self.type = "entry"
         self.next = set()
@@ -56,6 +59,7 @@ class EntryBlock(CFGNode):
     def __repr__(self):
         return f"EntryBlock(function_name={self.function_declaration.name})"
 
+
 @attr.s(eq=False, repr=False)
 class ExitBlock(CFGNode):
     """Exit block for a function"""
@@ -68,6 +72,7 @@ class ExitBlock(CFGNode):
 
     def __repr__(self):
         return f"ExitBlock(function_name={self.function_declaration.name})"
+
 
 @attr.s(eq=False, repr=False)
 class BasicBlock(CFGNode):
@@ -101,24 +106,27 @@ class ConditionalBlock(CFGNode):
 
 @attr.s(eq=False, repr=False)
 class JoinBlock(CFGNode):
+    """Node for join block"""
     next: Set[CFGNode] = attr.ib()
     previous: Set[CFGNode] = attr.ib(factory=set)
 
     def get_type(self):
         return "join"
-    
+
     def __repr__(self):
         repr_str = "JoinBlock("
 
         prev_repr_str = []
         for p in self.previous:
             prev_repr_str.append(repr(p))
-        
+
         repr_str = repr_str + ", ".join(prev_repr_str) + ")"
         return repr_str
 
+
 @attr.s(eq=False, repr=False)
 class EmptyBlock(CFGNode):
+    """Node for empty block"""
     next: Set[CFGNode] = attr.ib(factory=set)
     previous: Set[CFGNode] = attr.ib(factory=set)
 
@@ -128,9 +136,10 @@ class EmptyBlock(CFGNode):
     def __repr__(self):
         return "EmptyBlock()"
 
+
 class ASTToCFG:
+    """Class for converting AST to CFG"""
     def __init__(self):
-        """Class for converting AST into CFG"""
         pass
 
     @staticmethod
@@ -138,8 +147,6 @@ class ASTToCFG:
         """Traverses nodes of a CFG"""
         if not node:
             return None
-
-        # print("____")
 
         def traverse(path):
             # print(path)
@@ -167,29 +174,24 @@ class ASTToCFG:
                     return res
 
         return traverse([node])
-    
+
     @staticmethod
     def convert_statements(statements: List[Statement], call_tree: List[Tuple[str, Statement, Statement]]) -> EntryBlock:
-        """
-        
-        call_tree is order of block calls and each item is tuple of the call + start block of call + the exit/join block of that call
-        """
-        sentinel = EmptyBlock() # Sentinel node
-        cur = sentinel # Cur node in graph
+        """call_tree is order of block calls and each item is tuple of the call + start block of call + the exit/join block of that call"""
+        sentinel = EmptyBlock()  # Sentinel node
+        cur = sentinel  # Cur node in graph
 
         # print("____")
         # print(statements)
 
         for stmt in statements:
-            if stmt.get_type() == "block": # Block statement -> BasicBlock
+            if stmt.get_type() == "block":  # Block statement -> BasicBlock
                 # Make basic block, connect to cur, advance cur
                 basic_block = BasicBlock(stmt.root_token)
                 basic_block.previous.add(cur)
                 cur.next.add(basic_block)
                 cur = basic_block
 
-                # print(tokens_to_str(get_statement_tokens(stmt.root_token)))
-                
                 # Walk through AST to check for break/return/continue
                 for t in get_statement_tokens(stmt.root_token):
                     if t.str == "break":
@@ -201,7 +203,7 @@ class ASTToCFG:
                             if call_tree[i][0] == "while":
                                 last_while = call_tree[i]
                                 break
-                        
+
                         assert last_while, "Attempted to break with no while"
 
                         cur.next.add(last_while[2])
@@ -212,7 +214,7 @@ class ASTToCFG:
                         return start
                     elif t.str == "return":
                         assert call_tree, "No call tree"
-                        block_type, block_start, block_exit = call_tree[0]
+                        block_type, _, block_exit = call_tree[0]
                         assert block_type == "function", "Attempted to return outside a function"
 
                         # Connect return statement to function exit block
@@ -231,7 +233,7 @@ class ASTToCFG:
                             if call_tree[i][0] == "while":
                                 last_while = call_tree[i]
                                 break
-                        
+
                         assert last_while, "Attempted to continue with no while"
 
                         cur.next.add(last_while[1])
@@ -256,7 +258,7 @@ class ASTToCFG:
                 condition_true.previous.add(cond_block)
 
                 condition_true_end = ASTToCFG.convert_traverse(condition_true)
-                if condition_true_end is not None: # is False when breaking/returning
+                if condition_true_end is not None:  # is False when breaking/returning
                     condition_true_end = condition_true_end[-1]
                     condition_true_end.next.add(join_block)
                     join_block.previous.add(condition_true_end)
@@ -270,7 +272,7 @@ class ASTToCFG:
                     condition_false_end = condition_false_end[-1]
                     condition_false_end.next.add(join_block)
                     join_block.previous.add(condition_false_end)
-                
+
                 cur = join_block
             elif stmt.get_type() == "while":
                 cond_block = ConditionalBlock(stmt.condition, None, None)
@@ -298,7 +300,7 @@ class ASTToCFG:
                     condition_true_end.next.add(cond_block)
                     cond_block.previous.add(condition_true_end)
 
-                condition_false_end = condition_false # End of empty block is just the empty block
+                condition_false_end = condition_false  # End of empty block is just the empty block
                 
                 # Connect false to join
                 condition_false_end.next.add(join_block)
@@ -306,9 +308,9 @@ class ASTToCFG:
 
                 cur = join_block
             else:
-                raise Error(f"Unexpected statement: {smt.get_type()}")
+                raise ValueError(f"Unexpected statement: {stmt.get_type()}")
 
-        if call_tree and len(call_tree) == 1 and call_tree[0][0] == "function": # If we're in the top level function block
+        if call_tree and len(call_tree) == 1 and call_tree[0][0] == "function":  # If we're in the top level function block
             function_exit_block = call_tree[0][2]
             cur.next.add(function_exit_block)
             function_exit_block.previous.add(cur)
@@ -319,9 +321,8 @@ class ASTToCFG:
             start = sentinel.next.pop()
             start.previous.pop()
             return start
-        
-        return EmptyBlock()
 
+        return EmptyBlock()
 
     @staticmethod
     def convert(dump_file_path: str) -> List[FunctionCFG]:

@@ -1,12 +1,26 @@
-from ast_to_cfg import ASTToCFG, FunctionCFG, CFGNode
-from typing import Dict, Set
-from cpp_parser import Token, Variable
 from collections import deque
-from cpp_utils import get_statement_tokens, tokens_to_str, get_vars_from_statement, get_LHS_from_statement, get_RHS_from_statement, token_to_stmt_str
+from typing import Dict, Set, Tuple
 
-def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, Dict[str, Set[Variable]]]:
+import attr
+
+from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
+from cpp_parser import Variable
+from cpp_utils import (get_LHS_from_statement, get_RHS_from_statement,
+                       get_statement_tokens, get_vars_from_statement)
+
+# Create dataclass for def-use pair
+
+@attr.s(eq=False)
+class DefUsePair:
+    """Variables defined/used in a cfg Node"""
+
+    cfgNode: CFGNode = attr.ib()
+    define: Set[Variable] = attr.ib(factory=set)
+    use: Set[Variable] = attr.ib(factory=set)
+
+def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, DefUsePair]:
     """Maps every node in CFG to a dictionary containing a def, use pair"""
-    def_use_pairs = dict()
+    def_use_pairs = {}
     queue = deque([cfg.entry_block])
     seen = set()
 
@@ -17,27 +31,21 @@ def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, Dict[str, Set[Variab
             continue
 
         cur_type = cur.get_type()
-        block_def_use = {"def": set(), "use": set()}
+        block_def_use = DefUsePair(cur)
 
         if cur_type == "entry":
-            block_def_use["def"].update(cur.function_arguments)
+            block_def_use.define.update(cur.function_arguments)
         elif cur_type == "basic":
             statement = get_statement_tokens(cur.token)
             lhs = get_LHS_from_statement(statement)
             rhs = get_RHS_from_statement(statement)
 
             if lhs:
-                block_def_use["def"].update(get_vars_from_statement(lhs))
-            
-            block_def_use["use"].update(get_vars_from_statement(rhs))
+                block_def_use.define.update(get_vars_from_statement(lhs))
+
+            block_def_use.use.update(get_vars_from_statement(rhs))
         elif cur_type == "conditional":
-            block_def_use["use"].update(get_vars_from_statement(get_statement_tokens(cur.condition)))
-        elif cur_type == "join":
-            pass
-        elif cur_type == "empty":
-            pass
-        elif cur_type == "exit":
-            pass
+            block_def_use.use.update(get_vars_from_statement(get_statement_tokens(cur.condition)))
 
         for next_node in cur.next:
             queue.append(next_node)
@@ -47,9 +55,11 @@ def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, Dict[str, Set[Variab
 
     return def_use_pairs
 
+
 def reach_definitions(cfg: FunctionCFG):
-    reach_out: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = dict()
-    reach: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = dict()
+    """Calculates variables that reach a node for all nodes in CFG"""
+    reach_out: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = {}
+    reach: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = {}
     for n in cfg.nodes:
         reach_out[n] = set()
         reach[n] = set()
@@ -57,48 +67,43 @@ def reach_definitions(cfg: FunctionCFG):
     def_use_pairs: Dict[CFGNode, Dict[str, Set[Variable]]] = create_def_use_pairs(cfg)
 
     queue = deque(cfg.nodes)
+
     while queue:
         cur: CFGNode = queue.pop()
         old_reach_out: Set[Tuple(CFGNode, Variable)] = reach_out[cur]
 
+        reach[cur] = set()
         for prev in cur.previous:
             reach[cur].update(reach_out[prev])
-        
-        gen = set()
-        kill = set()
-        new_reach_out = set()
-        if def_use_pairs[cur]["def"]:
-            for def_var in def_use_pairs[cur]["def"]:
+
+        gen: Set[Tuple[CFGNode, Variable]] = set()
+        kill: Set[Variable] = set()
+        new_reach_out: Dict[CFGNode, Set[Tuple[CFGNode, Variable]]] = set()
+        if def_use_pairs[cur].define:
+            for def_var in def_use_pairs[cur].define:
                 gen.add((cur, def_var))
-                kill.add(def_var.Id)
+                kill.add(def_var)
 
             new_reach_out.update(gen)
-            if cur.get_type() == "basic":
-                if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
-                    print("~~~")
-                    print("HERE")
-                    print(kill)
-                    print(token_to_stmt_str(cur.token))
             for node, variable in reach[cur]:
-                if variable.Id not in kill:
+                if variable not in kill:
                     new_reach_out.add((node, variable))
-                else:
-                    if cur.get_type() == "basic":
-                        if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
-                            print("THere")
-                            print(token_to_stmt_str(node.token))
 
-            if cur.get_type() == "basic":
-                if token_to_stmt_str(cur.token) == ['vel_y', '=', '20']:
-                    print("Where")
-                    for n, var in new_reach_out:
-                        if n.get_type() == "basic":
-                            print(f"{token_to_stmt_str(n.token)}: {var.nameToken.str}")
-                        elif n.get_type() == "entry":
-                            print(f"Entry: {var.nameToken.str}")
         reach_out[cur] = new_reach_out
-        if (new_reach_out != old_reach_out):
+
+        if new_reach_out != old_reach_out:
             queue.extend(cur.next)
+
+    for cur_node, reach_tuples in reach.items():
+        cur_def = set(def_use_pairs[cur_node].define)
+        cur_use = set(def_use_pairs[cur_node].use)
+        remove = set()
+
+        for reach_node, reach_var in reach_tuples:
+            if reach_var in cur_def or reach_var not in cur_use:
+                remove.add((reach_node, reach_var))
+
+        reach[cur_node] -= remove
 
     return reach
 
@@ -113,15 +118,21 @@ if __name__ == "__main__":
     #         print(f"use {[x.nameToken.str for x in v['use']]}")
 
     r = reach_definitions(cfg[0])
+    # print(r)
     for k, v in r.items():
-        if k.get_type() == "basic":
-            print("____")
-            print(token_to_stmt_str(k.token))
+        print("___")
+        print(f"{k}:")
+        for (n, var) in v:
+            print(n, var)
+    # for k, v in r.items():
+    #     if k.get_type() == "basic":
+    #         print("____")
+    #         print(token_to_stmt_str(k.token))
             
-            for n, var in v:
-                if n.get_type() == "basic":
-                    print(f"{token_to_stmt_str(n.token)}: {var.nameToken.str}")
-                elif n.get_type() == "entry":
-                    print(f"Entry: {var.nameToken.str}")
+    #         for n, var in v:
+    #             if n.get_type() == "basic":
+    #                 print(f"{token_to_stmt_str(n.token)}: {var.nameToken.str}")
+    #             elif n.get_type() == "entry":
+    #                 print(f"Entry: {var.nameToken.str}")
 
         
