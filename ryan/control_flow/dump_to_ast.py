@@ -6,7 +6,7 @@ from typing import List, Union, Set, Dict, Optional
 import json
 import yaml
 
-from cpp_parser import CppcheckData, Token, Scope
+from cpp_parser import CppcheckData, Token, Scope, Configuration
 from cpp_utils import get_statement_tokens, tokens_to_str
 
 import attr
@@ -26,7 +26,7 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
             has_parent = True
             while has_parent:
                 # HAS NO PARENT, THEREFORE IS ROOT
-                if not token_parent.astParent:     
+                if not token_parent.astParent:
                     root_tokens_set.add(token_parent)
                     token_parent.isRoot = True  # THIS PROPERTY IS A CUSTOM NEW PROPERTY
                     has_parent = False
@@ -36,7 +36,7 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
 
     root_tokens = list(root_tokens_set)
     # SORT NUMERICALLY BY LINE NUMBER
-    root_tokens = sorted(root_tokens, key=lambda x : int(x.linenr))
+    root_tokens = sorted(root_tokens, key=lambda x: int(x.linenr))
     return root_tokens
 
 
@@ -55,7 +55,7 @@ def get_function_statements(start_token: Token, end_token: Token, root_tokens: L
             statement_end = end_token.previous
         else:
             statement_end = function_statements[i + 1][0]
-       
+
         while cur and cur != statement_end:
             statement.append(cur)
             cur = cur.next
@@ -64,30 +64,27 @@ def get_function_statements(start_token: Token, end_token: Token, root_tokens: L
 
 
 def get_functions(cppcheck_config: Configuration) -> Dict[str, Dict]:
-    """Retrieves function information from Cppcheck Config obj.
-    
-    """
+    """Retrieves function information from Cppcheck Config obj."""
     function_dicts: Dict[str, Dict] = {}
 
     # FIND FUNCTIONS IN "SCOPES" REGION OF DUMP FILE, START AND END TOKENs
     for s in cppcheck_config.scopes:
-        if s.type == "Function": 
+        if s.type == "Function":
             # SCAN ALL FUNCTIONS UNLESS LIST OF FUNCTIONS SPECIFIED
             function_dicts[s.Id] = {"name": s.className,
                                     "linern": s.classStart.linenr,
-                                    "token_start": s.classStart, 
-                                    "token_end": s.classEnd, 
-                                    "scopeObject":s,
+                                    "token_start": s.classStart,
+                                    "token_end": s.classEnd,
+                                    "scopeObject": s,
                                     "scopes": [],
                                     "symbol_table": {},
-                                    "function_graph_edges":[],
-                                    "function":s.function}
+                                    "function_graph_edges": [],
+                                    "function": s.function}
             # CONSTRUCT LIST OF ROOT TOKENS
             function_dicts[s.Id]["root_tokens"] = get_root_tokens(s.classStart, s.classEnd)
-                
-    #print "Found %d functions..." % len(function_dicts)
-    
+
     return function_dicts
+
 
 def get_function_scopes(cppcheck_config: Configuration, function_scope_id: str) -> List[Scope]:
     """Takes a function and returns a list of scopes nested within that function.
@@ -99,9 +96,10 @@ def get_function_scopes(cppcheck_config: Configuration, function_scope_id: str) 
 
     return nested_scopes
 
+
 class ScopeNode:
+    """Node for a tree of Scopes"""
     def __init__(self, scope_obj: Scope):
-        """Node for a tree of Scopes"""
         self.scope_id: str = scope_obj.Id
         self.scope_obj: Scope = scope_obj
         self.children: List[ScopeNode] = []
@@ -114,12 +112,12 @@ class ScopeNode:
         Returns:
             bool : Whether the node was removed
         """
-        for i in range(len(self.children)):
-            if self.children[i].scope_id == scope_id:
+        for children, i in enumerate(self.children):
+            if children.scope_id == scope_id:
                 self.children.pop(i)
                 return True
-            
-            res = self.children[i].remove_by_id(scope_id)
+
+            res = children.remove_by_id(scope_id)
             if res:
                 return True
 
@@ -129,7 +127,7 @@ class ScopeNode:
         """Finds node by scope_id"""
         if scope_id == self.scope_id:
             return self
-        
+
         for node in self.children:
             res = node.find_by_id(scope_id)
 
@@ -142,20 +140,18 @@ class ScopeNode:
         """Finds node by scope_obj"""
         return self.find_by_id(scope_obj.Id)
 
-
     @staticmethod
     def make_scope_tree(cppcheck_config: Configuration, scope_obj: Scope):
-        """Creates a scope tree using scopes in cppcheck_config where the 
+        """Creates a scope tree using scopes in cppcheck_config where the
         root is the scope_obj
         """
         if not scope_obj:
             return None
-        
+
         scope_node: ScopeNode = ScopeNode(scope_obj)
         scope_children: List[ScopeNode] = []
         # Find nested children
-        for i in range(len(cppcheck_config.scopes)):
-            s: Scope = cppcheck_config.scopes[i]
+        for s, i in enumerate(cppcheck_config.scopes):
             if s == scope_node.scope_obj:
                 continue
 
@@ -189,13 +185,18 @@ class ScopeNode:
 
         return scope_node_copy
 
+
 class Statement(ABC):
+    """Abstract base class for AST statements"""
+
     @abstractmethod
     def get_type(self) -> str:
+        """Returns statement type"""
         raise NotImplementedError
 
     @abstractmethod
     def to_dict(self) -> Dict:
+        """Serializes statement to dictionary"""
         raise NotImplementedError
 
 @attr.s(repr=False)
@@ -239,8 +240,8 @@ class IfStatement(Statement):
 @attr.s(repr=False)
 class WhileStatement(Statement):
     """While statement"""
-    condition: Token = attr.ib() # Conditional
-    condition_true: List[Statement] = attr.ib() # While block
+    condition: Token = attr.ib()  # Conditional
+    condition_true: List[Statement] = attr.ib()  # While block
 
     def get_type(self) -> str:
         return "while"
@@ -255,11 +256,11 @@ class WhileStatement(Statement):
 
         return while_dict
 
-@attr.s()   
+@attr.s()
 class ForStatement(Statement):
     """For loop (all for loops should be desugared to while using .desugar)"""
-    condition: Token = attr.ib() # Conditional
-    condition_true: List[Statement] =  attr.ib() # For block
+    condition: Token = attr.ib()  # Conditional
+    condition_true: List[Statement] = attr.ib()  # For block
 
     def get_type(self):
         return "for"
@@ -283,21 +284,22 @@ class ForStatement(Statement):
     def to_dict(self) -> Dict:
         raise ValueError("Desugar for into while")
 
+
 @attr.s()
 class SwitchStatment(Statement):
     """Switch statements represented as linked list (should be desugared into if statements)"""
     switch_expr: Token = attr.ib()
-    match_expr: Token = attr.ib() # Case for single switch expression
-    match_true: List[Statement] = attr.ib() # Code executed if switch case matches
-    has_break: bool = attr.ib(init=False, default=False) # Whether case terminates with break
-    is_default: bool = attr.ib(init=False, default=False) # Whether this is a default case
-    previous: Optional[SwitchStatment] = attr.ib(init=False, default=None) # Previous node in LL
-    next: Optional[SwitchStatment] = attr.ib(init=False, default=None) # Next node in LL
+    match_expr: Token = attr.ib()  # Case for single switch expression
+    match_true: List[Statement] = attr.ib()  # Code executed if switch case matches
+    has_break: bool = attr.ib(init=False, default=False)  # Whether case terminates with break
+    is_default: bool = attr.ib(init=False, default=False)  # Whether this is a default case
+    previous: Optional[SwitchStatment] = attr.ib(init=False, default=None)  # Previous node in LL
+    next: Optional[SwitchStatment] = attr.ib(init=False, default=None)  # Next node in LL
 
     def _add_breaks(self):
         """Converts self into switch statements where every node has a break"""
         # Convert switch statements so every switch has a break
-        cur_switch: SwitchStatment = self # Last node in LL
+        cur_switch: SwitchStatment = self  # Last node in LL
         while cur_switch.next: 
             cur_switch = cur_switch.next
 
@@ -311,11 +313,11 @@ class SwitchStatment(Statement):
 
     def _switch_to_if_else(self) -> IfStatement:
         """Converts a switch to an if/else. MUST run _add_breaks before"""
-        equals_token: Token = Token(None) # Hopefully this doesn't become a problem
+        equals_token: Token = Token(None)  # Hopefully this doesn't become a problem
         equals_token.str = "=="
         equals_token.astOperand1 = self.switch_expr
         equals_token.astOperand2 = self.match_expr
-        condition_true: List[Statement] = self.match_true[:-1] # Last token is break/continue/pass which should be excluded
+        condition_true: List[Statement] = self.match_true[:-1]  # Last token is break/continue/pass which should be excluded
         condition_false = []
 
         if self.next:
@@ -339,6 +341,7 @@ class SwitchStatment(Statement):
     def to_dict(self) -> Dict:
         raise ValueError("Desugar switch to if")
 
+
 @attr.s()
 class FunctionDeclaration(Statement):
     """Function declaration"""
@@ -349,10 +352,10 @@ class FunctionDeclaration(Statement):
     scope_tree: ScopeNode = attr.ib()
     function_id: str = attr.ib()
     body: List[Statement] = attr.ib(init=False, factory=list)
-    
+
     def get_type(self):
         return "function"
-    
+
     def to_dict(self) -> Dict:
         function_dict = {
             self.get_type(): {
@@ -363,13 +366,15 @@ class FunctionDeclaration(Statement):
 
         return function_dict
 
+
 class DumpToAST:
+    """Class for parsing an Cppcheck XML dump into an AST tree"""
     def __init__(self):
-        """Class for parsing an Cppcheck XML dump into an AST tree"""
         pass
 
     @staticmethod
-    def convert(dump_file_path: str):
+    def convert(dump_file_path: str) -> List[FunctionDeclaration]:
+        """Converts contents of a cppcheck .dump into an AST"""
         cpp_check = CppcheckData(dump_file_path)
         cppcheck_config = cpp_check.configurations[0]
 
@@ -377,8 +382,9 @@ class DumpToAST:
         # Loop through all functions in file
         for f in get_functions(cppcheck_config).values():
             func_obj = FunctionDeclaration(f["name"], f["token_start"], f["token_end"], 
-            f["scopeObject"], ScopeNode.make_scope_tree(cppcheck_config, f["scopeObject"]),
-            f["function"])
+                                           f["scopeObject"], 
+                                           ScopeNode.make_scope_tree(cppcheck_config, f["scopeObject"]),
+                                           f["function"])
 
             # Get root tokens for all statements inside of function
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
@@ -390,15 +396,15 @@ class DumpToAST:
         return function_declaration_objs
 
     @staticmethod
-    def write(function_declaration_objs: List[FunctionDeclaration], file_name: str, format="yaml"):
+    def write(function_declaration_objs: List[FunctionDeclaration], file_name: str, serialize_format="yaml"):
         """Serializes FunctionDeclaration objects to yaml/json"""
         objs_dict: List[Dict] = [f.to_dict() for f in function_declaration_objs]
 
-        if format == "yaml":
-            with open(file_name, "w") as f:
+        if serialize_format == "yaml":
+            with open(file_name, "w", encoding="utf-8") as f:
                 yaml.dump(objs_dict, f)
-        elif format == "json":
-            with open(file_name, "w") as f:
+        elif serialize_format == "json":
+            with open(file_name, "w", encoding="utf-8") as f:
                 json.dump(objs_dict, f)
         else:
             raise ValueError("Format should be json or yaml")
@@ -433,17 +439,17 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     condition_true_root_tokens.append(root_tokens.pop(0))
 
                 cur_token = cur_token.next
-                
-            # Recursively parse tokens    
+
+            # Recursively parse tokens
             condition_true: List[Statement] = parse(condition_true_root_tokens, if_scope)
-            
+
             # Check backwards in scope for break/continue
             break_continue_token = None
             cur_token: Token = if_scope_end
             while cur_token and cur_token.scopeId == if_scope_end.scopeId:
                 if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
-                    break # Haha get it?
+                    break  # Haha get it?
 
                 cur_token = cur_token.previous
 
@@ -474,18 +480,18 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 while cur_token and cur_token.scopeId == else_scope_end.scopeId and cur_token.Id != else_scope_end.Id:
                     if cur_token.str in ["break", "continue"]:
                         break_continue_token = cur_token
-                        break # Haha get it?
+                        break  # Haha get it?
 
                     cur_token = cur_token.previous
 
                 if break_continue_token:
                     # Assumed that break/continue is always at the end of a statement
-                    condition_false.append(BlockStatement(break_continue_token))
+                    condition_false_root_tokens.append(BlockStatement(break_continue_token))
 
             condition_false: List[Statement] = []
             if condition_false_root_tokens:
                 condition_false = parse(condition_false_root_tokens, else_scope)
-            
+
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
         # While statement
         elif t.astOperand1 and t.astOperand1.str == "while":
@@ -508,7 +514,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     condition_true_root_tokens.append(root_tokens.pop(0))
 
                 cur_token = cur_token.next
-            
+
             # Parse true case
             condition_true: List[Statement] = parse(condition_true_root_tokens, while_scope)
 
@@ -518,7 +524,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             while cur_token and cur_token.scopeId == while_scope_end.scopeId:
                 if cur_token.str in ["break", "continue"]:
                     break_continue_token = cur_token
-                    break # Haha get it?
+                    break  # Haha get it?
 
                 cur_token = cur_token.previous
 
@@ -543,7 +549,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     condition_true_root_tokens.append(root_tokens.pop(0))
 
                 cur_token = cur_token.next
-                
+
             condition_true: List[Statement] = parse(condition_true_root_tokens, for_scope)
             for_statement = ForStatement(conditional_root_token, condition_true)
 
@@ -553,7 +559,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
             while cur_token and cur_token.scopeId == for_scope_end.scopeId:
                 if cur_token.str in ["break", "continue", "pass"]:
                     break_continue_token = cur_token
-                    break # Haha get it?
+                    break  # Haha get it?
 
                 cur_token = cur_token.previous
 
@@ -588,7 +594,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # print([tokens_to_str(get_statement_tokens(x)) for x in switch_root_tokens])
             # Get all case/default tokens
-            case_default_tokens = [] 
+            case_default_tokens = []
             cur_token = t
             while cur_token and cur_token.Id != switch_scope_end.Id:
                 # print(cur_token.str)
@@ -598,24 +604,21 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     continue
                 if cur_token.str in ["case", "default"]:
                     case_default_tokens.append(cur_token)
-                
+
                 cur_token = cur_token.next
-            
+
             # print([tokens_to_str(get_statement_tokens(x)) for x in case_default_tokens])
 
             # Get all condition tokens
-            for i in range(len(case_default_tokens)):
-                cur_token: Token = case_default_tokens[i]
-            
+            for cur_token, i in enumerate(case_default_tokens):
                 match_case = None
                 if cur_token.str == "case":
                     match_case = cur_token.next if cur_token.next else None
-                
+
                 case_default_tokens[i] = (cur_token, match_case)
 
             # Get all blocks of code in each case:
-            for i in range(len(case_default_tokens)):
-                case_token, match_case = case_default_tokens[i]
+            for (case_token, match_case), i in enumerate(case_default_tokens):
                 case_token_blocks = []
 
                 next_case_token = switch_scope_end
@@ -628,14 +631,14 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                     if cur_token.Id >= next_case_token.Id:
                         break
-                    
+
                     case_token_blocks.append(cur_token)
                     switch_root_tokens.pop(0)
 
                 # print([tokens_to_str(get_statement_tokens(x)) for x in case_token_blocks])
 
                 case_default_tokens[i] = (case_token, match_case, parse(case_token_blocks, switch_scope))
-            
+
             # Check backwards from each case statement to check for break/continue
             for i in range(1, len(case_default_tokens) + 1):
                 end_token = None
@@ -643,7 +646,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     end_token = switch_scope_end
                 else:
                     end_token, _, _ = case_default_tokens[i]
-                
+
                 start_token, match_case, case_blocks = case_default_tokens[i - 1]
 
                 cur_token = end_token
@@ -651,7 +654,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                 while cur_token.Id >= start_token.Id:
                     if cur_token.str in ["break", "continue", "pass"]:
                         break_continue_token = cur_token
-                        break # Haha get it?
+                        break  # Haha get it?
 
                     cur_token = cur_token.previous
 
@@ -662,17 +665,17 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Make switch stmt objects
             switch_blocks = []
-            for i in range(len(case_default_tokens)):
+            for (case_token, match_case, case_blocks), i in enumerate(case_default_tokens):
                 case_token, match_case, case_blocks = case_default_tokens[i]
                 switch_block = SwitchStatment(switch_expr_root_token, match_case, case_blocks)
 
                 if case_token.str == "default":
                     switch_block.is_default = True
-                
+
                 if case_blocks and case_blocks[-1].type == "block":
                     if case_blocks[-1].root_token.str in ["break", "continue", "pass"]:
                         switch_block.has_break = True
-                
+
                 switch_blocks.append(switch_block)
 
                 # Link together switch nodes
@@ -682,7 +685,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
                     previous = switch_blocks[i - 1]
                     previous.next = switch_block
                     switch_block.previous = previous
-            
+
             blocks.append(switch_blocks[0].desugar())
         # Regular statement
         else:
@@ -753,7 +756,3 @@ if __name__ == "__main__":
     #         print(b.condition_true)
             # print(tokens_to_str(get_statement_tokens(b.condition_true)))
             # print(tokens_to_str(get_statement_tokens(b.condition_false)))
-
-
-
-    
