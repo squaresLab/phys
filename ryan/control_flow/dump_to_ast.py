@@ -1,4 +1,4 @@
-"""Support for delayed annotations"""
+"""Converting cppcheck dump files into AST Statements objects"""
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -194,7 +194,6 @@ class Statement(ABC):
         """Returns statement type"""
         raise NotImplementedError
 
-    @abstractmethod
     def to_dict(self) -> Dict:
         """Serializes statement to dictionary"""
         raise NotImplementedError

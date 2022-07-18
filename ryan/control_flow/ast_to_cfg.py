@@ -1,11 +1,13 @@
-"""Support for delayed annotations"""
+"""Converting Statement objects into CFGs"""
 from __future__ import annotations
 
+import json
 from abc import ABC, abstractmethod
 from collections import deque
-from typing import List, Set, Tuple, Union
+from typing import Dict, List, Set, Tuple
 
 import attr
+import yaml
 
 from cpp_parser import Token
 from cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
@@ -20,6 +22,10 @@ class CFGNode(ABC):
     @abstractmethod
     def get_type(self):
         """Returns type of CFGNode"""
+        raise NotImplementedError
+
+    def to_dict(self) -> Dict:
+        """Serializes CFGNode to dictionary"""
         raise NotImplementedError
 
 
@@ -43,11 +49,50 @@ class FunctionCFG:
             for next_node in cur.next:
                 queue.append(next_node)
 
+    def to_dict(self) -> Dict:
+        serialized_nodes_dict: Dict[CFGNode, Dict] = dict()
+
+        for n in self.nodes:
+            serialized_nodes_dict[n] = n.to_dict()
+
+        seen: Set[CFGNode] = set()
+        q = deque()
+        q.append(self.entry_block)
+
+        while q:
+            cur = q.pop()
+
+            if cur in seen:
+                continue
+
+            next_dicts = []
+            for n in cur.next:
+                if n in seen:
+                    next_dicts.append(n.to_dict())
+                else:
+                    next_dicts.append(serialized_nodes_dict[n])
+
+                q.append(n)
+
+            next_dicts.sort(key=lambda x: list(x.keys())[0])
+
+            previous_dicts = []
+            for n in cur.previous:
+                previous_dicts.append(n.to_dict())
+
+            previous_dicts.sort(key=lambda x: list(x.keys())[0])
+
+            cfgnode_dict = serialized_nodes_dict[cur]
+            cfgnode_dict[cur.get_type()]["next"] = next_dicts
+            cfgnode_dict[cur.get_type()]["previous"] = next_dicts
+
+            seen.add(cur)
+
+        return serialized_nodes_dict[self.entry_block]
 
 class EntryBlock(CFGNode):
     """Entry block for a function"""
     def __init__(self, function_declaration: FunctionDeclaration):
-        self.type = "entry"
         self.next = set()
         self.previous = set()
         self.function_declaration = function_declaration
@@ -58,6 +103,16 @@ class EntryBlock(CFGNode):
 
     def __repr__(self):
         return f"EntryBlock(function_name={self.function_declaration.name})"
+
+    def to_dict(self) -> Dict:
+        entry_dict = {
+            self.get_type(): {
+                "name": self.function_declaration.name,
+                "arguments": self.function_arguments,
+            }
+        }
+
+        return entry_dict
 
 
 @attr.s(eq=False, repr=False)
@@ -73,6 +128,15 @@ class ExitBlock(CFGNode):
     def __repr__(self):
         return f"ExitBlock(function_name={self.function_declaration.name})"
 
+    def to_dict(self) -> Dict:
+        exit_block_dict = {
+            self.get_type(): {
+                "name": self.function_declaration.name
+            }
+        }
+
+        return exit_block_dict
+
 
 @attr.s(eq=False, repr=False)
 class BasicBlock(CFGNode):
@@ -86,6 +150,15 @@ class BasicBlock(CFGNode):
 
     def __repr__(self):
         return f"BasicBlock(token='{' '.join(token_to_stmt_str(self.token))}')"
+
+    def to_dict(self) -> Dict:
+        basic_block_dict = {
+            self.get_type(): {
+                "token": token_to_stmt_str(self.token)
+            }
+        }
+
+        return basic_block_dict
 
 
 @attr.s(eq=False, repr=False)
@@ -102,6 +175,17 @@ class ConditionalBlock(CFGNode):
 
     def __repr__(self):
         return f"ConditionalBlock(condition={token_to_stmt_str(self.condition)}"
+
+    def to_dict(self) -> Dict:
+        condition_block_dict = {
+            self.get_type(): {
+                "condition": token_to_stmt_str(self.condition),
+                "condition_true": self.condition_true.to_dict(),
+                "condition_false": self.condition_false.to_dict()
+            }
+        }
+
+        return condition_block_dict
 
 
 @attr.s(eq=False, repr=False)
@@ -123,6 +207,13 @@ class JoinBlock(CFGNode):
         repr_str = repr_str + ", ".join(prev_repr_str) + ")"
         return repr_str
 
+    def to_dict(self) -> Dict:
+        join_block_dict = {
+            self.get_type(): {}
+        }
+
+        return join_block_dict
+
 
 @attr.s(eq=False, repr=False)
 class EmptyBlock(CFGNode):
@@ -135,6 +226,13 @@ class EmptyBlock(CFGNode):
 
     def __repr__(self):
         return "EmptyBlock()"
+
+    def to_dict(self) -> Dict:
+        empty_block_dict = {
+            self.get_type(): {}
+        }
+
+        return empty_block_dict
 
 
 class ASTToCFG:
@@ -343,6 +441,20 @@ class ASTToCFG:
             function_CFG.append(FunctionCFG(f, entry_block))
 
         return function_CFG
+
+    @staticmethod
+    def write(cfg: FunctionCFG, file_name: str, serialize_format="yaml"):
+        """Serializes FunctionDeclaration objects to yaml/json"""
+        objs_dict: Dict = cfg.to_dict()
+
+        if serialize_format == "yaml":
+            with open(file_name, "w", encoding="utf-8") as f:
+                yaml.dump(objs_dict, f)
+        elif serialize_format == "json":
+            with open(file_name, "w", encoding="utf-8") as f:
+                json.dump(objs_dict, f)
+        else:
+            raise ValueError("Format should be json or yaml")
 
 
 if __name__ == "__main__":
