@@ -5,7 +5,8 @@ from ast_to_cfg import ASTToCFG
 
 class TestASTToCFG(unittest.TestCase):
     def test(self):
-        for i in range(1, 10):
+        for i in range(12, 13):
+            print(f"=====Testing {i}=====")
             test_path = f"./ast_to_cfg_test/test_{i}.cpp.dump"
             sol_path = f"./ast_to_cfg_test/test_{i}_solution.yaml"
             cfg = ASTToCFG.convert(test_path)
@@ -23,9 +24,13 @@ class TestASTToCFG(unittest.TestCase):
             with open(sol_path) as f:
                 sol_dict = yaml.load(f, Loader=SafeLoader)
             
-            # print(cfg_dict)
-            # print()
-            # print(sol_dict)
+            for k, v in cfg_dict[0].items():
+                print("____")
+                print(k)
+                print("Code solution")
+                print(v)
+                print("Written solution")
+                print(sol_dict[0][k])
             self.assertEqual(cfg_dict, sol_dict)
             # self.compare_inputs(cfg_dict, sol_dict)
 

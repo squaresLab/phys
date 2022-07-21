@@ -202,6 +202,7 @@ class JoinBlock(CFGNode):
             prev_repr_str.append(repr(p))
 
         repr_str = repr_str + ", ".join(prev_repr_str) + ")"
+
         return repr_str
 
     def to_dict(self) -> Dict:
@@ -240,32 +241,35 @@ class ASTToCFG:
     @staticmethod
     def convert_traverse(node: CFGNode) -> List[CFGNode]:
         """Traverses nodes of a CFG"""
-        if not node:
-            return None
 
         def traverse(path):
+            # print("____")
             # print(path)
-            if path[-1].next == set():
+            # print(path[-1])
+            # print(path[-1].next)
+            if not path[-1].next:
+                # print("HERE1")
                 return path
+            
+            cur_node = path[-1]
+            if cur_node.get_type() == "basic":
+                for t in tokens_to_str(get_statement_tokens(cur_node.token)):
+                    if t in ["return", "break", "continue"]:
+                        # print("HERE2")
+                        return None
+            elif cur_node.get_type() == "exit":
+                # print("HERE3")
+                return None
 
             for next_node in path[-1].next:
                 if next_node in path:
                     continue
 
-                skip_node = False
-                if next_node.get_type() == "basic":
-                    # print(tokens_to_str(get_statement_tokens(next_node.token)))
-                    for t in tokens_to_str(get_statement_tokens(next_node.token)):
-                        if t in ["return", "break", "continue"]:
-                            skip_node = True
-                            break
-
-                if skip_node:
-                    continue
-
                 res = traverse(path + [next_node])
                 if res:
                     return res
+
+            return None
 
         return traverse([node])
 
@@ -303,7 +307,7 @@ class ASTToCFG:
                         last_while[2].previous.add(cur)
 
                         start = sentinel.next.pop()
-                        start.previous.pop()
+                        start.previous.remove(sentinel)
                         return start
                     elif t.str == "return":
                         assert call_tree, "No call tree"
@@ -315,7 +319,7 @@ class ASTToCFG:
                         block_exit.previous.add(cur)
 
                         start = sentinel.next.pop()
-                        start.previous.pop()
+                        start.previous.remove(sentinel)
                         return start
                     elif t.str == "continue":
                         assert call_tree, "No call tree"
@@ -354,7 +358,8 @@ class ASTToCFG:
                 condition_true.previous.add(cond_block)
 
                 condition_true_end = ASTToCFG.convert_traverse(condition_true)
-                if condition_true_end is not None:  # is False when breaking/returning
+
+                if condition_true_end is not None:
                     condition_true_end = condition_true_end[-1]
                     condition_true_end.next.add(join_block)
                     join_block.previous.add(condition_true_end)
@@ -368,8 +373,10 @@ class ASTToCFG:
                     condition_false_end = condition_false_end[-1]
                     condition_false_end.next.add(join_block)
                     join_block.previous.add(condition_false_end)
+
+                if condition_false_end or condition_true_end:
+                    function_cfg.nodes.append(join_block)
                 
-                function_cfg.nodes.append(join_block)
                 cur = join_block
             elif stmt.get_type() == "while":
                 cond_block = ConditionalBlock(stmt.condition, None, None)
@@ -394,11 +401,16 @@ class ASTToCFG:
 
                 # Traverse to end of conditionals
                 condition_true_end = ASTToCFG.convert_traverse(condition_true)
-
+                print(condition_true_end)
                 if condition_true_end:
                     condition_true_end = condition_true_end[-1]
-                    condition_true_end.next.add(cond_block)
-                    cond_block.previous.add(condition_true_end)
+
+                    if condition_true_end.get_type() == "basic" and "break" not in token_to_stmt_str(condition_true_end.token):
+                        condition_true_end.next.add(cond_block)
+                        cond_block.previous.add(condition_true_end)
+                    elif condition_true_end.get_type() != "basic":
+                        condition_true_end.next.add(cond_block)
+                        cond_block.previous.add(condition_true_end)
 
                 condition_false_end = condition_false  # End of empty block is just the empty block
 
@@ -406,15 +418,19 @@ class ASTToCFG:
                 condition_false_end.next.add(join_block)
                 join_block.previous.add(condition_false_end)
 
-                function_cfg.nodes.append(join_block)
+                if condition_true_end or condition_false_end:
+                    function_cfg.nodes.append(join_block)
+
                 cur = join_block
             else:
                 raise ValueError(f"Unexpected statement: {stmt.get_type()}")
 
         if call_tree and len(call_tree) == 1 and call_tree[0][0] == "function":  # If we're in the top level function block
             function_exit_block = call_tree[0][2]
-            cur.next.add(function_exit_block)
-            function_exit_block.previous.add(cur)
+
+            if cur.previous:  # Check that cur isn't dangling
+                cur.next.add(function_exit_block)
+                function_exit_block.previous.add(cur)
 
         if sentinel.next:
             assert len(sentinel.next) == 1, "Too many nodes"
@@ -467,8 +483,9 @@ class ASTToCFG:
 
 if __name__ == "__main__":
     # e_count = 0
-    test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_7.cpp.dump"
+    test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_12.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
+    # print(parsed[0].nodes)
     # print(parsed[0].to_dict())
     # ASTToCFG.write(parsed, "test_2.yaml")
     # with open("dump_files.txt") as f:
