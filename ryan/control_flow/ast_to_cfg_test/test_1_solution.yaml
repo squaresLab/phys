@@ -1,0 +1,48 @@
+---
+- entry:
+    name: goal_d
+    arguments:
+    - x_t
+    - y_t
+    - t
+    next:
+    - basic:
+        token: vel_x = 0
+        previous:
+        - entry:
+            name: goal_d
+            arguments:
+            - x_t
+            - y_t
+            - t
+        next:
+        - basic:
+            token: ang_z = 0
+            previous: 
+            - basic:
+                token: vel_x = 0
+            next:
+            - basic:
+                token: err_x = 0
+                previous:
+                - basic:
+                    token: ang_z = 0
+                next:
+                - basic:
+                    token: err_y = err_x + ang_z
+                    previous:
+                    - basic:
+                        token: err_x = 0
+                    next:
+                    - basic:
+                        token: vel_x = ang_z + err_x
+                        previous:
+                        - basic:
+                            token: err_y = err_x + ang_z
+                        next:
+                        - exit:
+                            name: goal_d
+                            previous:
+                            - basic:
+                                token: vel_x = ang_z + err_x 
+

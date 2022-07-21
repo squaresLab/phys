@@ -1,0 +1,47 @@
+---
+- entry:
+    name: goal_d
+    arguments:
+    - x_t
+    - y_t
+    - t
+    next:
+    - basic:
+        token: vel_x = 0
+        previous:
+        - entry:
+            name: goal_d
+            arguments:
+            - x_t
+            - y_t
+            - t
+        next:
+            - conditional:
+                condition: vel_x < 0
+                condition_true:
+                    - basic:
+                        token: vel_x = ang_z + err_x
+                condition_false:
+                    - empty_block: {}
+                previous:
+                    - basic:
+                        token: vel_x = 0
+                next:
+                    - basic:
+                        token: vel_x = ang_z + err_x
+                        previous:
+                            conditional:
+                                condition: vel_x < 0
+                                condition_true:
+                                    - basic:
+                                        token: vel_x = ang_z + err_x
+                                condition_false:
+                                    - empty_block: {}
+                        next:
+                        - join:
+                            previous:
+                            - basic:
+                                token: vel_x = ang_z + err_x
+                            next:
+                            - 
+                            
