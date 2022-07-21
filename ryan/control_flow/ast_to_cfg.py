@@ -63,8 +63,8 @@ class FunctionCFG:
                 previous_ids.append(node_mapping[prev_n])
 
             adjacency_list[node_mapping[n]] = {
-                "next": next_ids,
-                "previous": previous_ids
+                "next": sorted(next_ids),
+                "previous": sorted(previous_ids)
             }
 
         return adjacency_list
@@ -176,7 +176,7 @@ class ConditionalBlock(CFGNode):
     def to_dict(self) -> Dict:
         condition_block_dict = {
             self.get_type(): {
-                "condition": token_to_stmt_str(self.condition),
+                "condition": repr(self.condition),
                 "condition_true": self.condition_true.to_dict(),
                 "condition_false": self.condition_false.to_dict()
             }
@@ -342,7 +342,6 @@ class ASTToCFG:
                 cur.next.add(cond_block)
                 cond_block.previous.add(cur)
                 join_block = JoinBlock(set())
-                function_cfg.nodes.append(join_block)
 
                 # Recursively get true/false nodes
                 condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("if", cond_block, join_block)],
@@ -369,7 +368,8 @@ class ASTToCFG:
                     condition_false_end = condition_false_end[-1]
                     condition_false_end.next.add(join_block)
                     join_block.previous.add(condition_false_end)
-
+                
+                function_cfg.nodes.append(join_block)
                 cur = join_block
             elif stmt.get_type() == "while":
                 cond_block = ConditionalBlock(stmt.condition, None, None)
@@ -377,7 +377,6 @@ class ASTToCFG:
                 cur.next.add(cond_block)
                 cond_block.previous.add(cur)
                 join_block = JoinBlock(set())
-                function_cfg.nodes.append(join_block)
 
                 # Recursively get true/false nodes
                 condition_true = ASTToCFG.convert_statements(stmt.condition_true, call_tree + [("while", cond_block, join_block)],
@@ -402,11 +401,12 @@ class ASTToCFG:
                     cond_block.previous.add(condition_true_end)
 
                 condition_false_end = condition_false  # End of empty block is just the empty block
-                
+
                 # Connect false to join
                 condition_false_end.next.add(join_block)
                 join_block.previous.add(condition_false_end)
 
+                function_cfg.nodes.append(join_block)
                 cur = join_block
             else:
                 raise ValueError(f"Unexpected statement: {stmt.get_type()}")
@@ -467,10 +467,10 @@ class ASTToCFG:
 
 if __name__ == "__main__":
     # e_count = 0
-    test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_2.cpp.dump"
+    test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_7.cpp.dump"
     parsed = ASTToCFG.convert(test_path)
-    print(parsed[0].to_dict())
-    ASTToCFG.write(parsed, "test_2.yaml")
+    # print(parsed[0].to_dict())
+    # ASTToCFG.write(parsed, "test_2.yaml")
     # with open("dump_files.txt") as f:
     #     for idx, l in enumerate(f.readlines()):
     #         print(idx)
