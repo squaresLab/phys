@@ -337,7 +337,7 @@ class ASTToCFG:
                         last_while[1].previous.add(cur)
 
                         start = sentinel.next.pop()
-                        start.previous.pop()
+                        start.previous.remove(sentinel)
                         return start
 
             elif stmt.get_type() == "if":
