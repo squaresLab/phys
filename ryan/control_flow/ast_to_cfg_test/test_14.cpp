@@ -3,9 +3,9 @@ int test(int x) {
         if (x % 3 == 1) {
             break;
         } else if (x % 3 == 2) {
-            return x;
+            x += 2;
         } else {
-            x += 1;
+            continue;
         }
     }
 

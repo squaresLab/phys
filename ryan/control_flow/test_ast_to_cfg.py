@@ -5,7 +5,7 @@ from ast_to_cfg import ASTToCFG
 
 class TestASTToCFG(unittest.TestCase):
     def test(self):
-        for i in range(12, 14):
+        for i in range(1, 15):
             print(f"=====Testing {i}=====")
             test_path = f"./ast_to_cfg_test/test_{i}.cpp.dump"
             sol_path = f"./ast_to_cfg_test/test_{i}_solution.yaml"

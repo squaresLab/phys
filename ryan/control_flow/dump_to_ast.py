@@ -458,6 +458,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
             # Get tokens for false/else case
             condition_false_root_tokens: List[Token] = []
+            condition_false: List[Statement] = []
             # Check if Else scope exists and directly follows If scope
             if scope_tree.children and scope_tree.children[0].scope_obj.type == "Else":
                 else_scope: ScopeNode = scope_tree.children[0]
@@ -473,10 +474,14 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                     cur_token = cur_token.next
 
-                # Check backwards in scope for break/continue
+                if condition_false_root_tokens:
+                    condition_false = parse(condition_false_root_tokens, else_scope)
+
                 break_continue_token = None
                 cur_token: Token = else_scope_end
-                while cur_token and cur_token.scopeId == else_scope_end.scopeId and cur_token.Id != else_scope_end.Id:
+
+                # Check backwards in scope for break/continue
+                while cur_token and cur_token.scopeId == else_scope_end.scopeId:
                     if cur_token.str in ["break", "continue"]:
                         break_continue_token = cur_token
                         break  # Haha get it?
@@ -485,11 +490,7 @@ def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
 
                 if break_continue_token:
                     # Assumed that break/continue is always at the end of a statement
-                    condition_false_root_tokens.append(BlockStatement(break_continue_token))
-
-            condition_false: List[Statement] = []
-            if condition_false_root_tokens:
-                condition_false = parse(condition_false_root_tokens, else_scope)
+                    condition_false.append(BlockStatement(break_continue_token))
 
             blocks.append(IfStatement(conditional_root_token, condition_true, condition_false))
         # While statement
@@ -730,9 +731,9 @@ def print_AST(function_body):
                 print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_9.cpp.dump"
+    test_path = "/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_14.cpp.dump"
     parsed = DumpToAST.convert(test_path)
-    # print_AST([parsed[0].body[-1]])
+    print_AST([parsed[0].body[-1]])
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
