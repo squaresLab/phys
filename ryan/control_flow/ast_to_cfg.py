@@ -3,13 +3,12 @@ from __future__ import annotations
 
 import json
 from abc import ABC, abstractmethod
-from collections import deque
 from typing import Dict, List, Set, Tuple
 
 import attr
 import yaml
 
-from cpp_parser import Function, Token
+from cpp_parser import Token
 from cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
 from dump_to_ast import DumpToAST, FunctionDeclaration, Statement
 
@@ -243,22 +242,15 @@ class ASTToCFG:
         """Traverses nodes of a CFG"""
 
         def traverse(path):
-            # print("____")
-            # print(path)
-            # print(path[-1])
-            # print(path[-1].next)
             if not path[-1].next:
-                # print("HERE1")
                 return path
             
             cur_node = path[-1]
             if cur_node.get_type() == "basic":
                 for t in tokens_to_str(get_statement_tokens(cur_node.token)):
                     if t in ["return", "break", "continue"]:
-                        # print("HERE2")
                         return None
             elif cur_node.get_type() == "exit":
-                # print("HERE3")
                 return None
 
             for next_node in path[-1].next:
@@ -401,7 +393,6 @@ class ASTToCFG:
 
                 # Traverse to end of conditionals
                 condition_true_end = ASTToCFG.convert_traverse(condition_true)
-                print(condition_true_end)
                 if condition_true_end:
                     condition_true_end = condition_true_end[-1]
 

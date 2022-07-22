@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from collections import deque
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Tuple, Set
 
 import attr
 
@@ -10,15 +10,22 @@ from cpp_parser import Variable
 from cpp_utils import (get_LHS_from_statement, get_RHS_from_statement,
                        get_statement_tokens, get_vars_from_statement)
 
-# Create dataclass for def-use pair
-
 @attr.s(eq=False)
 class DefUsePair:
     """Variables defined/used in a cfg Node"""
-
     cfgNode: CFGNode = attr.ib()
     define: Set[Variable] = attr.ib(factory=set)
     use: Set[Variable] = attr.ib(factory=set)
+    
+    def to_dict(self) -> Dict:
+        """Serializes DefUsePair to dictionary"""
+        def_use_dict = {
+            "node": self.cfgNode.to_dict(),
+            "define": [v.nameToken.str for v in self.define],
+            "use": [v.nameToken.str for v in self.use]
+        }
+
+        return def_use_dict
 
 def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, DefUsePair]:
     """Maps every node in CFG to a dictionary containing a def, use pair"""
@@ -44,8 +51,10 @@ def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, DefUsePair]:
 
             if lhs:
                 block_def_use.define.update(get_vars_from_statement(lhs))
-
-            block_def_use.use.update(get_vars_from_statement(rhs))
+            if rhs:
+                block_def_use.use.update(get_vars_from_statement(rhs))
+            else:
+                block_def_use.use.update(get_vars_from_statement(statement))
         elif cur_type == "conditional":
             block_def_use.use.update(get_vars_from_statement(get_statement_tokens(cur.condition)))
 
@@ -58,47 +67,63 @@ def create_def_use_pairs(cfg: FunctionCFG) -> Dict[CFGNode, DefUsePair]:
     return def_use_pairs
 
 
-@attr.s()
+@attr.s(eq=False)
 class ReachDef:
     """Data class of a variable dn the CFGNode which defines it"""
     def_node: CFGNode = attr.ib()
     variable: Variable = attr.ib()
 
+    def to_dict(self) -> Dict:
+        """Serialized ReachDef to dict"""
+        reach_def_dict = {
+            "node": self.def_node.to_dict(),
+            "variable": self.variable.nameToken.str
+        }
 
-def reach_definitions(cfg: FunctionCFG) -> Dict[CFGNode, Set[ReachDef]]:
+        return reach_def_dict
+
+
+def create_reach_definitions(cfg: FunctionCFG, 
+                             def_use_pairs: Dict[CFGNode, DefUsePair]) -> Dict[CFGNode, Set[ReachDef]]:
     """Calculates variables that reach a node for all nodes in CFG. Returns a mapping 
     between CFGNodes and ReachNodes.
     """
+    reach_def_map: Dict[Tuple(CFGNode, Variable), ReachDef] = {}
     reach_out: Dict[CFGNode, Set[ReachDef]] = {}
     reach: Dict[CFGNode, Set[ReachDef]] = {}
     for n in cfg.nodes:
         reach_out[n] = set()
         reach[n] = set()
 
-    def_use_pairs: Dict[CFGNode, DefUsePair] = create_def_use_pairs(cfg)
-
     queue = deque(cfg.nodes)
 
     while queue:
-        cur: CFGNode = queue.pop()
+        cur: CFGNode = queue.popleft()
         old_reach_out: Set[ReachDef] = reach_out[cur]
 
-        reach[cur] = set()
+        reach_cur = set()
         for prev in cur.previous:
-            reach[cur].update(reach_out[prev])
+            reach_cur.update(reach_out[prev])
+        reach[cur] = reach_cur
 
         gen: Set[ReachDef] = set()
         kill: Set[Variable] = set()
         new_reach_out: Dict[CFGNode, Set[ReachDef]] = set()
         if def_use_pairs[cur].define:
             for def_var in def_use_pairs[cur].define:
-                gen.add(ReachDef(cur, def_var))
+                if (cur, def_var) in reach_def_map:
+                    gen.add(reach_def_map[(cur, def_var)])
+                else:
+                    new_reach_def = ReachDef(cur, def_var)
+                    reach_def_map[(cur, def_var)] = new_reach_def
+                    gen.add(new_reach_def)
                 kill.add(def_var)
 
             new_reach_out.update(gen)
-            for node, variable in reach[cur]:
+            for reach_def in reach[cur]:
+                variable = reach_def.variable
                 if variable not in kill:
-                    new_reach_out.add(ReachDef(node, variable))
+                    new_reach_out.add(reach_def)
         else:  # If nothing is defined then then kill and gen are empty sets
             new_reach_out = reach[cur]
 
@@ -110,79 +135,197 @@ def reach_definitions(cfg: FunctionCFG) -> Dict[CFGNode, Set[ReachDef]]:
     return reach
 
 
-@attr.s()
+@attr.s(eq=False)
 class DependencyNode:
     cfgnode: CFGNode = attr.ib()
     variable: Variable = attr.ib()
     next: Set[DependencyNode] = attr.ib(factory=set)
     previous: Set[DependencyNode] = attr.ib(factory=set)
 
+    def to_dict(self) -> Dict:
+        """Serializes DepenencyNode to dict"""
+        dependency_node_dict = {
+            "node": self.cfgnode.to_dict(),
+            "variable": self.variable.nameToken.str,
+        }
 
-def create_dependency_graph(reach_definitions: Dict[CFGNode, Set[ReachDef]], 
-                            def_use_pairs: Dict[CFGNode, DefUsePair]) -> List[DependencyNode]:
-    # Maps CFGNode to set of ReachDef which represent variables which are used to define other variables
-    # in CFGNode
-    node_dependency_mapping: Dict[CFGNode, Set[ReachDef]] = {}
-    
-    # Get all variables which are used to define other variables in each node
-    for cur_node, reach_def in reach_definitions.items():
-        cur_def = def_use_pairs[cur_node].define
-        cur_use = def_use_pairs[cur_node].use
-        remove = set()
+        return dependency_node_dict
 
-        if not cur_def:
-            continue
+@attr.s()
+class DependencyGraph:
+    cfg: FunctionCFG = attr.ib()
+    nodes: List[DependencyNode] = attr.ib()
+    reach_definition: Dict[CFGNode, Set[ReachDef]] = attr.ib()
+    def_use_pairs: Dict[CFGNode, DefUsePair] = attr.ib()
 
-        for r in reach_def:
-            reach_var = r.variable
-            # If the variable is killed by the statement or if variable isn't used in statement
-            if reach_var in cur_def or reach_var not in cur_use:
-                remove.add(reach_def)
+    def create_node_mapping(self) -> Dict[CFGNode, int]:
+        """Maps DependencyNode to a unique int. IDs are determined
+        by ordering nodes based on CFGNode ID and then by alphabetical order
+        of variable name.
+        """
+        cfg_node_mapping = self.cfg.create_node_mapping()
+        node_groups = {}
 
-        reach_definitions[cur_node] -= remove
+        for i in range(len(cfg_node_mapping)):
+            node_groups[i] = []
 
-        node_dependency_mapping[cur_node] = reach_definitions[cur_node]
+        for n in self.nodes:
+            cfgnode = n.cfgnode
+            node_groups[cfg_node_mapping[cfgnode]].append(n)
 
-    cfg_dependency_node_mapping = {}  # Maps CFGNode to set of DependencyNodes
-    dependency_graph_nodes = []  # All DependencyNodes
-    # Create all nodes of dependency graph for all variables in each node
-    for cur_node, reach_def in node_dependency_mapping.items():
-        cfg_dependency_node_mapping[cur_node] = set()
-        cur_def = def_use_pairs[cur_node].define
+        for group in node_groups.values():
+            group.sort(key=lambda x: x.variable.nameToken.str)
 
-        for def_var in cur_def:
-            d_node = DependencyNode(cur_node, def_var)
-            dependency_graph_nodes.append(d_node)
-            cfg_dependency_node_mapping[cur_node].add(d_node)
+        ordered_nodes = []
+        for group in node_groups.values():
+            ordered_nodes.extend(group)
 
-    # Set previous and next nodes for all dependency nodes
-    for d in dependency_graph_nodes:
-        reach_def = node_dependency_mapping[d.cfgnode]
+        node_mapping = {}
+        for idx, n in enumerate(ordered_nodes):
+            node_mapping[n] = idx
 
-        for r in reach_def:
-            prev = cfg_dependency_node_mapping[r.def_node]
-            d.previous.add(prev)
-            prev.next = d
+        return node_mapping
 
-    return dependency_graph_nodes
+    def create_adjacency_list(self) -> Dict[int]:
+        node_mapping = self.create_node_mapping()
+
+        adjacency_list = {}
+        for n in self.nodes:
+            next_ids = []
+            for next_n in n.next:
+                next_ids.append(node_mapping[next_n])
+
+            previous_ids = []
+            for prev_n in n.previous:
+                previous_ids.append(node_mapping[prev_n])
+
+            adjacency_list[node_mapping[n]] = {
+                "next": sorted(next_ids),
+                "previous": sorted(previous_ids)
+            }
+
+        return adjacency_list
+
+    def to_dict(self) -> List[Dict]:
+        serialized_nodes_dict: Dict[int, Dict] = {}
+        node_mapping = self.create_node_mapping()
+        adjacency_list = self.create_adjacency_list()
+
+        for n, id in node_mapping.items():
+            serialized_n = n.to_dict()
+            next_ids = adjacency_list[id]["next"]
+            previous_ids = adjacency_list[id]["previous"]
+
+            serialized_n["next"] = next_ids
+            serialized_n["previous"] = previous_ids
+
+            serialized_nodes_dict[id] = serialized_n
+
+        return serialized_nodes_dict
+
+    # def get_connected_components(self) -> List[Set[CFGNode]]:
+    #     """Returns a list of sets containing connected components"""
+    #     connected_components: List[Set[CFGNode]] = []
+    #     all_nodes = deque(self.nodes)
+    #     processed: Set[CFGnode] = set()
+
+    #     while all_nodes:
+    #         cur = all_nodes.pop()
+    #         if cur in processed:
+    #             continue
+
+
+
+
+
+
+class CFGToDependencyGraph:
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def create_dependency_graph(cfg: FunctionCFG) -> List[DependencyNode]:
+        # Maps CFGNode to set of ReachDef which represent variables which are used to define other variables
+        # in CFGNode
+        node_dependency_mapping: Dict[CFGNode, Set[ReachDef]] = {}
+        def_use_pairs = create_def_use_pairs(cfg)
+        reach_definitions = create_reach_definitions(cfg, def_use_pairs)
+
+        # Get all variables which are used to define other variables in each node
+        for cur_node, reach_def in reach_definitions.items():
+            cur_def: Set[Variable] = def_use_pairs[cur_node].define
+            cur_use: Set[Variable] = def_use_pairs[cur_node].use
+            remove = set()
+
+            if not cur_def:
+                continue
+            
+            for r in reach_def:
+                reach_var = r.variable
+                # If the variable is killed by the statement or if variable isn't used in statement
+                if reach_var in cur_def or reach_var not in cur_use:
+                    remove.add(r)
+
+            node_dependency_mapping[cur_node] = reach_definitions[cur_node].copy()
+            node_dependency_mapping[cur_node] -= remove
+
+        cfg_dependency_node_mapping = {}  # Maps CFGNode to set of DependencyNodes
+        dependency_graph_nodes = []  # All DependencyNodes
+        # Create all nodes of dependency graph for all variables in each node
+        for cur_node in node_dependency_mapping:
+            cfg_dependency_node_mapping[cur_node] = set()
+            cur_def = def_use_pairs[cur_node].define
+
+            for def_var in cur_def:
+                cfg_dependency_node_mapping[(cur_node, def_var)] = set()
+                d_node = DependencyNode(cur_node, def_var)
+                dependency_graph_nodes.append(d_node)
+                cfg_dependency_node_mapping[(cur_node, def_var)].add(d_node)
+
+        # Set previous and next nodes for all dependency nodes
+        for d in dependency_graph_nodes:
+            reach_def = node_dependency_mapping[d.cfgnode]
+
+            for r in reach_def:
+                prev = cfg_dependency_node_mapping[(r.def_node, r.variable)]
+                d.previous.update(prev)
+
+                for p in prev:
+                    p.next.add(d)
+
+        dependency_graph = DependencyGraph(cfg, dependency_graph_nodes, reach_definitions,
+                                           def_use_pairs)
+        return dependency_graph
 
 
 if __name__ == "__main__":
-    cfg = ASTToCFG.convert("/home/rewong/phys/ryan/control_flow/data_dependency_tests/test_1.cpp.dump")
-    p = create_def_use_pairs(cfg[0])
+    cfg = ASTToCFG.convert("/home/rewong/phys/ryan/control_flow/data_dependency_test/test_2.cpp.dump")
+    # p = create_def_use_pairs(cfg[0])
+    # print(p)
+    # print("____")
     # for k, v in p.items():
     #     if k.get_type() == "basic":
     #         print(token_to_stmt_str(k.token))
     #         print(f"def {[x.nameToken.str for x in v['def']]}")
     #         print(f"use {[x.nameToken.str for x in v['use']]}")
 
-    r = reach_definitions(cfg[0])
+    # r = create_reach_definitions(cfg[0], p)
     # print(r)
-    for k, v in r.items():
-        print("___")
-        print(f"{k}:")
-        for (n, var) in v:
-            print(n, var)
+
+    # for k, v in r.items():
+    #     print("____")
+    #     print(k)
+    #     for x in v:
+    #         print(x)
+    # print(p)
+    g = CFGToDependencyGraph().create_dependency_graph(cfg[0])
+    print(g.to_dict())
+    # print(r)
+    # for k, v in r.items():
+    #     print("___")
+    #     print(f"{k}:")
+    #     for (n, var) in v:
+    #         print(n, var)
     # for k, v in r.items():
     #     if k.get_type() == "basic":
     #         print("____")
