@@ -135,7 +135,7 @@ def create_reach_definitions(cfg: FunctionCFG,
     return reach
 
 
-@attr.s(eq=False)
+@attr.s(eq=False, repr=False)
 class DependencyNode:
     cfgnode: CFGNode = attr.ib()
     variable: Variable = attr.ib()
@@ -150,6 +150,9 @@ class DependencyNode:
         }
 
         return dependency_node_dict
+
+    def __repr__(self):
+        return str(self.to_dict())
 
 @attr.s()
 class DependencyGraph:
@@ -223,20 +226,66 @@ class DependencyGraph:
 
         return serialized_nodes_dict
 
-    # def get_connected_components(self) -> List[Set[CFGNode]]:
-    #     """Returns a list of sets containing connected components"""
-    #     connected_components: List[Set[CFGNode]] = []
-    #     all_nodes = deque(self.nodes)
-    #     processed: Set[CFGnode] = set()
+    def get_connected_components(self) -> List[Set[DependencyNode]]:
+        """Returns a list of sets containing connected components"""
+        connected_components: List[Set[CFGNode]] = []
+        all_nodes = deque(self.nodes)
+        processed: Set[CFGNode] = set()
 
-    #     while all_nodes:
-    #         cur = all_nodes.pop()
-    #         if cur in processed:
-    #             continue
+        while all_nodes:
+            root = all_nodes.pop()
+            if root in processed:
+                continue
 
+            q = deque([root])
+            connected = set()
+            while q:
+                cur = q.pop()
 
+                if cur in connected:
+                    continue
 
+                connected.add(cur)
+                processed.add(cur)
+                for n in cur.next:
+                    q.append(n)
+                for n in cur.previous:
+                    q.append(n)
 
+            connected_components.append(connected)
+
+        return connected
+
+    def get_node_connected_components(self, dependency_node) -> Set[DependencyNode]:
+        connected = set()
+        seen = set()
+        q = deque()
+        q.append(dependency_node)
+
+        while q:
+            cur = q.pop()
+            if cur in seen:
+                continue
+
+            connected.add(cur)
+
+            for n in cur.next:
+                q.append(n)
+            for n in cur.previous:
+                q.append(n)
+
+            seen.add(cur)
+
+        return connected
+
+    # def get_root_variables(self) -> List[DependencyNode]:
+    #     """Returns all root nodes of graph"""
+    #     connected_components = self.get_connected_components()
+    #     root_variables = []
+
+    #     for c in connected_components:
+    #         for n in c:
+    #             if not n.previous
 
 
 class CFGToDependencyGraph:

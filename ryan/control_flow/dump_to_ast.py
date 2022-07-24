@@ -7,7 +7,7 @@ import json
 import yaml
 
 from cpp_parser import CppcheckData, Token, Scope, Configuration
-from cpp_utils import get_statement_tokens, tokens_to_str
+from cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
 
 import attr
 
@@ -17,6 +17,7 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
     of all statments in the function.
     """
     root_tokens_set: Set[Token] = set()
+    root_tokens = []
     current_token: Union[Token, None] = token_start
 
     while current_token is not None and current_token != token_end:  #todo: reverse token set exploration to top-down instead of bottom-up
@@ -27,16 +28,18 @@ def get_root_tokens(token_start: Token, token_end: Token) -> List[Token]:
             while has_parent:
                 # HAS NO PARENT, THEREFORE IS ROOT
                 if not token_parent.astParent:
-                    root_tokens_set.add(token_parent)
+                    if token_parent not in root_tokens_set:
+                        root_tokens_set.add(token_parent)
+                        root_tokens.append(token_parent)
                     token_parent.isRoot = True  # THIS PROPERTY IS A CUSTOM NEW PROPERTY
                     has_parent = False
                 else:
                     token_parent = token_parent.astParent
         current_token = current_token.next
 
-    root_tokens = list(root_tokens_set)
+    # root_tokens = list(root_tokens_set)
     # SORT NUMERICALLY BY LINE NUMBER
-    root_tokens = sorted(root_tokens, key=lambda x: int(x.linenr))
+    # root_tokens = sorted(root_tokens, key=lambda x: int(x.linenr))
     return root_tokens
 
 
@@ -184,6 +187,15 @@ class ScopeNode:
         scope_node_copy.children = copy_children
 
         return scope_node_copy
+
+    def __repr__(self):
+        scope_tree_dict = {"type": self.scope_obj.type}
+        scope_tree_dict[self.scope_id] = []
+
+        for c in self.children:
+            scope_tree_dict[self.scope_id].append(repr(c))
+
+        return str(scope_tree_dict)
 
 
 class Statement(ABC):
@@ -384,10 +396,9 @@ class DumpToAST:
                                            f["scopeObject"], 
                                            ScopeNode.make_scope_tree(cppcheck_config, f["scopeObject"]),
                                            f["function"])
-
+            # print(f["name"])
             # Get root tokens for all statements inside of function
             root_tokens = get_root_tokens(func_obj.token_start, func_obj.token_end)
-            # print([tokens_to_str(get_statement_tokens(t)) for t in root_tokens])
             # Parse into AST
             func_obj.body = parse(root_tokens, func_obj.scope_tree.copy())
             function_declaration_objs.append(func_obj)
@@ -412,12 +423,17 @@ class DumpToAST:
 def parse(root_tokens: List[Token], scope_tree: ScopeNode) -> List[Statement]:
     """Parses root tokens into AST Statement objects"""
     blocks: List[Statement] = []
-
+    # print("_____")
+    # print(f"Outside scope tree {scope_tree}")
+    # print(token_to_stmt_str(root_tokens[0]) if root_tokens else "")
     while root_tokens:
         t: Token = root_tokens.pop(0)
+        # print(t)
+        # print(token_to_stmt_str(t))
 
         # If block
         if t.astOperand1 and t.astOperand1.str == "if":
+            # print(f"Inside scope tree {scope_tree}")
             # Grab the scope from scope tree
             if_scope: ScopeNode = scope_tree.children[0]
             assert if_scope.scope_obj.type == "If", f"Expected if scope, got {if_scope.scope_obj.type}"
@@ -731,9 +747,11 @@ def print_AST(function_body):
                 print_AST([b.next])
 
 if __name__ == "__main__":
-    test_path = "/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_14.cpp.dump"
+    # test_path = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_19.cpp.dump"
+    # test_path = "/home/rewong//phys/data/jaguar_base/src/motor_and_sensors_controller.cpp.dump"
+    test_path = "/home/rewong/phys/data/FrenchVanilla/src/turtlebot_example/src/turtlebot_example_node.cpp.dump"
     parsed = DumpToAST.convert(test_path)
-    print_AST([parsed[0].body[-1]])
+    print_AST(parsed[0].body)
     # print([x.scope_obj.type for x in parsed[0].scope_tree.children])
 
     # cur = [parsed[0].scope_tree]
@@ -743,8 +761,8 @@ if __name__ == "__main__":
     #     print([z.scope_id for z in x.children])
     #     cur.extend(x.children)
 
-    print_AST(parsed[0].body)
-    DumpToAST.write(parsed, "test_9.yaml")
+    # print_AST(parsed[0].body)
+    # DumpToAST.write(parsed, "test_9.yaml")
     # print(parsed[0].body[-1].condition_true[2])
     # print_AST(parsed[0].body[-1].match_true[-1].match_true)
     # for b in parsed[0].body:

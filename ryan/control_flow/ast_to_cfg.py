@@ -474,21 +474,23 @@ class ASTToCFG:
 
 if __name__ == "__main__":
     # e_count = 0
-    test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_12.cpp.dump"
-    parsed = ASTToCFG.convert(test_path)
+    # test_path = f"/home/rewong/phys/ryan/control_flow/ast_to_cfg_test/test_12.cpp.dump"
+    # parsed = ASTToCFG.convert(test_path)
     # print(parsed[0].nodes)
     # print(parsed[0].to_dict())
     # ASTToCFG.write(parsed, "test_2.yaml")
-    # with open("dump_files.txt") as f:
-    #     for idx, l in enumerate(f.readlines()):
-    #         print(idx)
-    #         try:
-    #             test_path = f"/home/rewong/{l.rstrip()}"
-    #             parsed = ASTToCFG.convert(test_path)
-    #         except Exception as e:
-    #             print(test_path)
-    #             print(e)
-    #             e_count += 1
+    e_count = 0
+    with open("dump_files.txt") as f:
+        for idx, l in enumerate(f.readlines()):
+            print(idx)
+            try:
+                test_path = f"/home/rewong/{l.rstrip()}"
+                parsed = ASTToCFG.convert(test_path)
+            except Exception as e:
+                print(test_path)
+                print(e)
+                e_count += 1
+    print(e_count)
     
     # print(e_count)
     # x = parsed[0].next.pop().next.pop().condition_false.next.pop().previous

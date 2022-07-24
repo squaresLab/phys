@@ -781,17 +781,17 @@ class ErrorChecker:
             name = e.var_name
 
             if e.ERROR_TYPE == UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS or e.ERROR_TYPE == UnitErrorTypes.COMPARISON_INCOMPATIBLE_UNITS:
+                # error_list.append({"line_num": linenr, "var_name": name, "token_id": e.token.Id, "error_type": etype, 
+                # "tokens": tokens_to_str(get_statement_tokens(e.token)), "left_token": e.token_left.str,
+                # "left_token_unit": e.token_left.units, "right_token": e.token_right.str, "right_token_unit": e.token_right.units})
                 error_list.append({"line_num": linenr, "var_name": name, "token_id": e.token.Id, "error_type": etype, 
-                "tokens": tokens_to_str(get_statement_tokens(e.token)), "left_token": e.token_left.str,
-                "left_token_unit": e.token_left.units, "right_token": e.token_right.str, "right_token_unit": e.token_right.units})
+                "root_token_id": get_token_root(e.token).Id})
             elif e.ERROR_TYPE == UnitErrorTypes.VARIABLE_MULTIPLE_UNITS:
-                statement_tokens = get_statement_tokens(e.token)
                 error_list.append({"line_num": linenr, "var_name": name, "var_id": e.token.Id, "error_type": etype, 
-                "tokens": tokens_to_str(statement_tokens), "lhs_tokens": tokens_to_str(get_LHS_from_statement(statement_tokens)),
-                "rhs_tokens": tokens_to_str(get_RHS_from_statement(statement_tokens)), "units": e.units_when_multiple_happened})
+                "root_token_id": get_token_root(e.token).Id, "units": e.units_when_multiple_happened})
             else:
                 error_list.append({"line_num": linenr, "var_name": name, "error_type": etype, 
-                "tokens": tokens_to_str(get_statement_tokens(e.token))})
+                "root_token_id": e.token.Id})
             # f.write("%s, %s, %s\n" % (linenr, name, etype))
 
             if e.ERROR_TYPE == UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS:
