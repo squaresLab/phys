@@ -776,7 +776,7 @@ class ErrorChecker:
                 error_list.append({"line_num": linenr, "var_name": name, "token_id": e.token.Id, "error_type": etype, 
                 "root_token_id": get_token_root(e.token).Id})
             elif e.ERROR_TYPE == UnitErrorTypes.VARIABLE_MULTIPLE_UNITS:
-                error_list.append({"line_num": linenr, "var_name": name, "var_id": e.token.Id, "error_type": etype, 
+                error_list.append({"line_num": linenr, "var_name": name, "token_id": e.token.Id, "error_type": etype, 
                 "root_token_id": get_token_root(e.token).Id, "units": e.units_when_multiple_happened})
             else:
                 error_list.append({"line_num": linenr, "var_name": name, "error_type": etype, 
