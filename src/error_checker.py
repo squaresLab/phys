@@ -180,6 +180,12 @@ class ErrorChecker:
                     # BOTH CHILDREN HAVE UNITS
                     if token.astOperand1.units != token.astOperand2.units:
                         if not self.have_found_addition_error_on_this_line:
+                            print("_____________")
+                            print(token.str)
+                            print(token.astOperand1.str)
+                            print(token.astOperand1.Id)
+                            print(token.astOperand2.str)
+                            print(token.astOperand2.Id)
                             # UNIT MISMATCH ON ADDITION
                             new_error = UnitError()
                             new_error.ERROR_TYPE = UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS
@@ -201,8 +207,6 @@ class ErrorChecker:
                             new_error.token_left = left_token
                             new_error.token_right = right_token
                             new_error.token = token
-                            print("??")
-                            print(self.get_var_name(left_token))
                             new_error.var_name = self.get_var_name(left_token)
                             # GET LINE FROM ORIGINAL FILE IF IT EXISTS
                             if self.source_file_exists:
@@ -218,21 +222,6 @@ class ErrorChecker:
                             # while next:
                             #     symbols.append(next.str)
                             #     next = next.next
-                            def get_root(t):
-                                while t.astParent:
-                                    t = t.astParent
-                                
-                                return t
-
-                            def get_statement(t):
-                                if not t:
-                                    return []
-                                if not(t.astOperand1 or t.astOperand2):
-                                    return [t.str]
-                                
-                                return get_statement(t.astOperand1) + [t.str] + get_statement(t.astOperand2)
-
-                            print("".join(get_statement(get_root(token))))
                             self.all_errors.append(new_error)
                             self.have_found_addition_error_on_this_line = True
 

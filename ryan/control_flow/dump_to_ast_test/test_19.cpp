@@ -14,6 +14,7 @@
 #include <geometry_msgs/Twist.h>
 #include <tf/transform_datatypes.h>
 
+
 double X=0.0;
 
 double Y=0.0;
@@ -22,10 +23,9 @@ int state=0;
 double err_x=0.0,err_y=0.0,err_d=0.0,err_yaw=0.0;
 double vel_x=0.0,vel_y=0.0,ang_z=0.0;
 
-
 void goal_d(double x_t,double y_t, double t)
 {
-
+	
 	err_x=x_t-X;
 	err_y=y_t-Y;
 	err_d=sqrt(err_x*err_x+err_y+err_y);

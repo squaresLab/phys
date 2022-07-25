@@ -231,6 +231,18 @@ def print_variable_units(a_cppcheck_configuration, var2unitproba, output_file_pa
         units = var_dict[(var_id, var_name)]
         variable_unit_list.append({"var_id": var_id, "var_name": var_name, "units": units})
     output_json["variables"] = variable_unit_list
+
+    token_units = {}
+    for t in a_cppcheck_configuration.tokenlist:
+        if t.Id == "0x992820":
+            print("YES!!")
+            print(t.units)
+        if not t.variable and t.units:
+            # print(t.str)
+            # print(t.Id)
+            token_units[t.Id] = t.units[0]
+    output_json["token_units"] = token_units
+
     with open(output_file_path, "w") as f:
         json.dump(output_json, f)
     
