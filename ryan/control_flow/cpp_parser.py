@@ -277,6 +277,22 @@ class Token:
         else:
             return f"{self.str} {repr(self.astOperand2)}"
 
+    def copy(self):
+        copy_token = Token(None)
+        copy_token.Id = self.Id
+        copy_token.str = self.str
+        copy_token.astOperand1 = self.astOperand1
+        copy_token.astOperand2 = self.astOperand2
+        copy_token.astOperand1Id = self.astOperand1Id
+        copy_token.astOperand2Id = self.astOperand2Id
+        copy_token.astParent = self.astParent
+        copy_token.astParentId = self.astParentId
+        copy_token.varId = self.varId
+        copy_token.variableId = self.variableId
+        copy_token.variable = self.variable
+
+        return copy_token
+
 
 # Scope. Information about global scope, function scopes,
 # class scopes, inner scopes, etc.

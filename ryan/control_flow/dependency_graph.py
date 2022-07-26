@@ -13,14 +13,14 @@ from cpp_utils import (get_LHS_from_statement, get_RHS_from_statement,
 @attr.s(eq=False)
 class DefUsePair:
     """Variables defined/used in a cfg Node"""
-    cfgNode: CFGNode = attr.ib()
+    cfgnode: CFGNode = attr.ib()
     define: Set[Variable] = attr.ib(factory=set)
     use: Set[Variable] = attr.ib(factory=set)
     
     def to_dict(self) -> Dict:
         """Serializes DefUsePair to dictionary"""
         def_use_dict = {
-            "node": self.cfgNode.to_dict(),
+            "node": self.cfgnode.to_dict(),
             "define": [v.nameToken.str for v in self.define],
             "use": [v.nameToken.str for v in self.use]
         }

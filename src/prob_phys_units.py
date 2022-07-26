@@ -234,9 +234,6 @@ def print_variable_units(a_cppcheck_configuration, var2unitproba, output_file_pa
 
     token_units = {}
     for t in a_cppcheck_configuration.tokenlist:
-        if t.Id == "0x992820":
-            print("YES!!")
-            print(t.units)
         if not t.variable and t.units:
             # print(t.str)
             # print(t.Id)

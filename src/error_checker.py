@@ -182,6 +182,7 @@ class ErrorChecker:
                         if not self.have_found_addition_error_on_this_line:
                             print("_____________")
                             print(token.str)
+                            print(token.Id)
                             print(token.astOperand1.str)
                             print(token.astOperand1.Id)
                             print(token.astOperand2.str)
