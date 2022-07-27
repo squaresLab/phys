@@ -9,7 +9,7 @@ import attr
 
 from cpp_parser import Token
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
-from cpp_utils import get_LHS_from_statement, get_RHS_from_statement, get_statement_tokens, get_vars_from_statement, token_to_stmt_str
+from cpp_utils import get_LHS_from_statement, get_RHS_from_statement, get_statement_tokens, get_vars_from_statement, token_to_stmt_str, tokens_to_str
 from dependency_graph import CFGToDependencyGraph, DependencyGraph
 from phys_fix import Error, PhysVar, get_error_dependency_node, get_token_unit_map
 
@@ -116,12 +116,12 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
     applying the rules t -> t * x or t -> t / x, where x is a variable which reaches t
     """
     # token_unit_diff = unit_diff(target_unit, cur_unit)
-    reach_defs = dependency_graph.reach_definitions[dependency_node.cfgnode]
+    reach_defs = dependency_graph.reach_definition[dependency_node.cfgnode]
     candidate_change_tuples = []
 
     q = []
     q.append(([], [], cur_unit))  # Tuple of vars to multiply by, vars to divide by, and the current unit difference
-
+    print(cur_unit, target_unit)
     for _ in range(depth):
         new_q = []
         for mult_vars, div_vars, units in q:
@@ -138,15 +138,51 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
 
                 if not reach_units:
                     continue
+                
 
-                multiplication_units = multiply_units(units, reach_units)
-                division_units = divide_units(units, reach_units)
-                new_q.append((mult_vars + reach_var, div_vars, multiplication_units))
-                new_q.append((mult_vars, div_vars + div_vars, division_units))
+                if reach_var not in div_vars:
+                    multiplication_units = multiply_units(units, reach_units)
+                    new_q.append((mult_vars + [reach_var], div_vars, multiplication_units))
+
+                if reach_var not in mult_vars:
+                    division_units = divide_units(units, reach_units) 
+                    new_q.append((mult_vars, div_vars + [reach_var], division_units))
         
         q = new_q
 
+    for c in candidate_change_tuples:
+        print(c)
 
+    # Change tuples into a list of tokens which can be made into a tree later
+    symbols_list = []
+
+    for mult_vars, div_vars in candidate_change_tuples:
+        symbols = []
+        if token.variableId:
+            symbols.extend([token.copy(), make_arithmetic_token("*")])
+
+            # Append multiplication symbols
+            for i in range(len(mult_vars) - 1):
+                symbols.extend([copy_variable_token(mult_vars[i]), make_arithmetic_token("*")])
+            
+            symbols.append(copy_variable_token(mult_vars[-1]))
+
+            # Append division symbols
+            for _, var in enumerate(div_vars):
+                symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
+        else:
+            for _, var in enumerate(mult_vars):
+                symbols.extend([copy_variable_token(var), make_arithmetic_token("*")])
+            
+            symbols.extend(get_statement_tokens(token.copy()))
+
+            for _, var in enumerate(div_vars):
+                symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
+
+        symbols_list.append(symbols)
+        print(tokens_to_str(symbols))
+
+    return candidate_change_tuples
     def construct_change_tree(mult_vars, div_vars):
         tree, left, right = None, None, None
         if mult_vars:
@@ -174,7 +210,7 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
     token_copy = token.copy()
     candidate_changes = []
 
-    for mult_vars, div_vars in in candidate_change_tuples:
+    for mult_vars, div_vars in candidate_change_tuples:
         # t, a /b -> t * a / b
         if token.varibleId:
             root = make_arithmetic_token("*")
@@ -335,14 +371,17 @@ def fix_addition_subtraction(error: Error, phys_var_map: Dict[str, PhysVar], tok
 
     # Assumes that only one unit is incorrect
     token_to_fix = None
+    token_to_fix_unit = None
 
     cur_token = None
     direction = None
     if error_right_unit != error_correct_unit:
         cur_token = error_right_token
+        token_to_fix_unit = error_right_unit
         direction = "left"
     else:
         cur_token = error_left_token
+        token_to_fix_unit = error_left_unit
         direction = "right"
 
     while True:
@@ -361,8 +400,9 @@ def fix_addition_subtraction(error: Error, phys_var_map: Dict[str, PhysVar], tok
             else:
                 cur_token = cur_token.astOperand2
         
-    print(token_to_fix)
-    
+    # print(token_to_fix)
+    apply_unit_multiplication(token_to_fix, token_to_fix_unit, error_correct_unit, phys_var_map, error.dependency_node,
+    error.dependency_graph)
 
 
 if __name__ == "__main__":

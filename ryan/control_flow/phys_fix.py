@@ -8,7 +8,7 @@ import attr
 
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
 from cpp_utils import get_statement_tokens, token_to_stmt_str
-from dependency_graph import CFGToDependencyGraph, DependencyGraph
+from dependency_graph import CFGToDependencyGraph, DependencyGraph, DependencyNode
 
 
 @attr.s()
@@ -16,8 +16,9 @@ class Error:
     root_token_id: str = attr.ib()
     error_token_id: str = attr.ib()
     error_type: str = attr.ib()
-    DependencyGraph: FunctionCFG = attr.ib(default=None)
-    node: CFGNode = attr.ib(default=None)
+    dependency_node: DependencyNode = attr.ib(default=None)
+    dependency_graph: DependencyGraph = attr.ib(default=None)
+    cfgnode: CFGNode = attr.ib(default=None)
     root_token = attr.ib(default=None)
     error_token = attr.ib(default=None)
 
@@ -91,6 +92,9 @@ def get_error_dependency_node(error: Error, dependency_graphs: List[DependencyGr
             if n.cfgnode.get_type() == "basic":
                 if n.cfgnode.token.Id == error.root_token_id:
                     error.root_token = n.cfgnode.token
+                    error.cfgnode = n.cfgnode
+                    error.dependency_node = n
+                    error.dependency_graph = d
                     for t in get_statement_tokens(error.root_token):
                         if t.Id == error.error_token_id:
                             error.error_token = t
@@ -103,7 +107,7 @@ def get_connected_errors(errors: List[Error], dependency_graphs: List[Dependency
     for e in errors:
         (d_graph, d_node) = get_error_dependency_node(errors, dependency_graphs)
         e.dependency_graph = d_graph
-        e.node = d_node
+        e.cfgnode = d_node
     
     connected_errors: List[Set[Error]] = []
     seen = set()
