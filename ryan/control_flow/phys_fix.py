@@ -3,149 +3,187 @@ from __future__ import annotations
 import json
 from collections import deque
 from typing import Dict, List, Set
+import xml.etree.ElementTree as ET
+from xml.etree.ElementTree import Element
 
 import attr
 
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
-from cpp_utils import get_statement_tokens, token_to_stmt_str
+from cpp_utils import get_root_token, get_statement_tokens, token_to_stmt_str
 from dependency_graph import CFGToDependencyGraph, DependencyGraph, DependencyNode
+from fix_addition_subtraction import fix_addition_subtraction
+from cpp_parser import CppcheckData
+from phys_fix_utils import Error, Change, get_error_dependency_node, PhysVar, get_token_unit_map
 
-
-@attr.s()
-class Error:
-    root_token_id: str = attr.ib()
-    error_token_id: str = attr.ib()
-    error_type: str = attr.ib()
-    dependency_node: DependencyNode = attr.ib(default=None)
-    dependency_graph: DependencyGraph = attr.ib(default=None)
-    cfgnode: CFGNode = attr.ib(default=None)
-    root_token = attr.ib(default=None)
-    error_token = attr.ib(default=None)
+class PhysFix:
+    def __init__(self):
+        pass
 
     @staticmethod
-    def from_dict(phys_output_path) -> List[Error]:
-        output_dict = {}
-        with open(phys_output_path) as f:
-            output_dict = json.load(f)
-        # print(output_dict)
-        error_dict = output_dict["errors"]
+    def load_srcml_xml(xml_path):
+        it = ET.parse(xml_path)
+        PhysFix._stripNs(it.getroot())
+        # for _, el in it:
+        #     prefix, has_namespace, postfix = el.tag.partition('}')
+        #     if has_namespace:
+        #         el.tag = postfix  # strip all namespaces
 
-        error_objs = []
-        for e in error_dict:
-            error_objs.append(Error(e["root_token_id"], e["token_id"], e["error_type"]))
-
-        return error_objs
-
-@attr.s()
-class PhysVar:
-    var_name: str = attr.ib()
-    var_id: str = attr.ib()
-    units: List[Dict] = attr.ib()  # Units sorted by likelihood by Phys
+        #     for n, v in el.items():
+        #         _, n_has_namespace, n_postfix = n.partition('}')
+        #         if n_has_namespace:
+        #             el.
+        # root = it.root
+        return it
 
     @staticmethod
-    def from_dict(phys_output_path) -> List[PhysVar]:
-        output_dict = {}
-        with open(phys_output_path) as f:
-            output_dict = json.load(f)
-        # print(output_dict)
-        var_dict = output_dict["variables"]
-
-        phys_var_objs = []
-        for v in var_dict:
-            var_name = v["var_name"]
-            var_id = v["var_id"]
-
-            units = []
-            for u in v["units"]:
-                if isinstance(u, list):
-                    units.append(u[0])
-                elif isinstance(u, dict):
-                    units.append(u)
-
-            phys_var_objs.append(PhysVar(var_name, var_id, units))
-
-        return phys_var_objs
+    def _stripNs(el):
+        '''Recursively search this element tree, removing namespaces.'''
+        if el.tag.startswith("{"):
+            el.tag = el.tag.split('}', 1)[1]  # strip namespace
+        keys = list(el.attrib.keys())
+        for k in keys:
+            if k.startswith("{"):
+                k2 = k.split('}', 1)[1]
+                el.attrib[k2] = el.attrib[k]
+                del el.attrib[k]
+        for child in el:
+            PhysFix._stripNs(child)
 
     @staticmethod
-    def create_unit_map(phys_vars: List[PhysVar]) -> Dict[str, PhysVar]:
-        unit_map = {}
-        for p in phys_vars:
-            unit_map[p.var_id] = p
+    def root_token_to_xml(token):
+        """Takes root token and turns it into xml elements"""
+        if not token:
+            return []
+
+        xml_elems = []
+        if token.variableId:
+            return [Element("name", text=token.str)]
+        else:
+            if token.str in "*/+-":
+                mid = Element("operator", text=token.str)
+                left = PhysFix.root_token_to_xml(token.astOperand1)
+                right = PhysFix.root_token_to_xml(token.astOperand2)
+                xml_elems = left + mid + right
+            elif token.str == "(":
+                left = Element("call")
+                left = left.subelement(left, "name", text=token.astOperand1.str)
+                mid = left.subelement(left, "argument_list", text="(")
+                
+                cur = token
+                while cur.astOperand2 and cur.astOperand2.str == ",":
+                    arg = mid.subelement(mid, "argument")
+                    arg = arg.subelemnt(arg, "expr")
+                    arg = arg.extend(PhysFix.root_token_to_xml(cur.astOperand1))
+
+                    cur = cur.astOperand2
+
+                if cur:
+                    arg = mid.subelement(mid, "argument")
+                    arg = arg.subelemnt(arg, "expr")
+                    arg = arg.extend(PhysFix.root_token_to_xml(cur))
+
+                xml_elems.append(left)
+            else:
+                mid = Element("literal", text=token.str)
+                left = PhysFix.root_token_to_xml(token.astOperand1)
+                right = PhysFix.root_token_to_xml(token.astOperand2)
+                xml_elems = left + mid + right
+
+        return xml_elems
+
+    @staticmethod
+    def apply_changes(srcml_xml, change: Change,
+                      output_file_prefix):
+        srcml_xml_root = srcml_xml.getroot()
+        token_to_fix = changes.token_to_fix
+        token_to_fix_root = get_root_token(token_to_fix)
+        statement_tokens = get_statement_tokens(token_to_fix_root)
+        token_line_num = token_to_fix_root.linenr
+        exprs = srcml_xml_root.findall(".//expr")
+        line_elem = []
+
+        # Find the xml line with the matching line number
+        for e in exprs:
+            if e.get("start").startswith(str(token_line_num)):
+                line_elem.append(e)
+
+        cur_token = statement_tokens[0]
+
+        elem_to_fix = None
+        elem_idx = None
+        elem_parent_map = {}
+        # Find the token to replace in the xml
+        for e_idx, e in enumerate(line_elem):
+            q = deque()
+            q.append((e_idx, e))
+
+            elem_found = False
+            while q:
+                idx, cur = q.popleft()
+
+                if cur.text:
+                    assert cur.text == cur_token.str, "Text not matching"
+                    if cur_token.Id == token_to_fix.Id:
+                        elem_found = True
+                        elem_to_fix = cur
+                        elem_idx = idx
+                        break
+
+                    cur_token = cur_token.next
+
+                for next_elem in cur:
+                    elem_parent_map[next_elem] = cur
+                    q.append((idx, next_elem))
+            
+            if elem_found:
+                break
         
-        return unit_map
+        if elem_to_fix.text == "(":
+            elem_to_fix = elem_parent_map[elem_to_fix]
 
+        print(elem_to_fix)
+        change_xml_elems = [PhysFix.root_token_to_xml(c) for c in change.changes]
+        elem_parent = elem_parent_map[elem_to_fix]
+        elem_parent.remove(elem_to_fix)
+        # For every change
+        for idx, c in enumerate(change_xml_elems):
+            # Insert the change into the xml
+            for i in range(len(c) - 1, -1, -1):
+                elem_parent.insert(elem_idx, c[i])
 
-def get_token_unit_map(phys_output_path):
-    output_dict = {}
-    with open(phys_output_path) as f:
-        output_dict = json.load(f)
-    # print(output_dict)
-    return output_dict["token_units"] 
-
-
-def get_error_dependency_node(error: Error, dependency_graphs: List[DependencyGraph]):
-    """Takes an error and a list of dependency graphs which compsoes a program and returns
-    the dependency graph and node at which the error occurs
-    """
-    for d in dependency_graphs:
-        for n in d.nodes:
-            if n.cfgnode.get_type() == "basic":
-                if n.cfgnode.token.Id == error.root_token_id:
-                    error.root_token = n.cfgnode.token
-                    error.cfgnode = n.cfgnode
-                    error.dependency_node = n
-                    error.dependency_graph = d
-                    for t in get_statement_tokens(error.root_token):
-                        if t.Id == error.error_token_id:
-                            error.error_token = t
-                            break
-
-                    return (d, n)
-
-def get_connected_errors(errors: List[Error], dependency_graphs: List[DependencyGraph]) -> List[Set[Error]]:
-    """Returns list of sets of errors which are connected in the dependency graph"""
-    for e in errors:
-        (d_graph, d_node) = get_error_dependency_node(errors, dependency_graphs)
-        e.dependency_graph = d_graph
-        e.cfgnode = d_node
-    
-    connected_errors: List[Set[Error]] = []
-    seen = set()
-
-    for e in errors:
-        if e in seen:
-            continue
-
-        q = deque()
-        q.append(e)
-        connected = set()
-        while q:
-            cur = q.pop()
-
-            if cur in connected:
-                continue
-
-            connected.add(cur)
-            seen.add(cur)
-            for n in cur.next:
-                q.append(n)
-            for n in cur.previous:
-                q.append(n)
-
-        connected_errors.append(connected)
-
-    return connected_errors
+            # Write xml
+            srcml_xml.write(f"{output_file_prefix}_{idx}.xml)")
+            # Delete changes
+            for _ in range(len(c)):
+                elem_parent.remove(elem_parent[elem_idx])
 
 
 if __name__ == "__main__":
-    phys_output = "/home/rewong/phys/src/turtlebot_example_node_output.json"
-    dump = "/home/rewong/phys/data/FrenchVanilla/src/turtlebot_example/src/turtlebot_example_node.cpp.dump"
+    output = "/home/rewong/phys/src/test_19_output.json"
+    dump = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_19.cpp.dump"
 
+    cppconfig = CppcheckData(dump).configurations[0]
     cfgs = ASTToCFG().convert(dump)
     d_graphs = [CFGToDependencyGraph().create_dependency_graph(c) for c in cfgs]
 
-    e = Error.from_dict(phys_output)
+    e = Error.from_dict(output)
     # print(e)
     e_dependency = get_error_dependency_node(e[0], d_graphs)
+    phys_vars = PhysVar.from_dict(output)
+    var_unit_map = PhysVar.create_unit_map(phys_vars)
+    token_unit_map = get_token_unit_map(output)
+    changes = fix_addition_subtraction(e[0], var_unit_map, token_unit_map)
+    print(changes)
+    # cfgs = ASTToCFG().convert(dump)
+    # d_graphs = [CFGToDependencyGraph().create_dependency_graph(c) for c in cfgs]
+
+    # e = Error.from_dict(phys_output)
+    # print(e)
+    # e_dependency = get_error_dependency_node(e[0], d_graphs)
     # print(d_graphs[0])
-    print(d_graphs[0].get_node_connected_components(e_dependency[1]))
+    # print(d_graphs[0].get_node_connected_components(e_dependency[1]))
+
+    x = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_src_ml.xml")
+    PhysFix.apply_changes(x, changes, "test_19_fix")
+    # print([q for q in r.findall(".//{http://www.srcML.org/srcML/src}expr")[0]])
+

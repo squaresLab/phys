@@ -290,6 +290,8 @@ class Token:
         copy_token.varId = self.varId
         copy_token.variableId = self.variableId
         copy_token.variable = self.variable
+        copy_token.isOp = self.isOp
+        copy_token.isNumber = self.isNumber
 
         return copy_token
 
