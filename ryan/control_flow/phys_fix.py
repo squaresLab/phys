@@ -3,13 +3,13 @@ from __future__ import annotations
 import json
 from collections import deque
 from typing import Dict, List, Set
-import xml.etree.ElementTree as ET
-from xml.etree.ElementTree import Element
+from lxml import etree
+# from lxml.etree.ElementTree import Element
 
 import attr
 
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
-from cpp_utils import get_root_token, get_statement_tokens, token_to_stmt_str
+from cpp_utils import get_root_token, get_statement_tokens, token_to_stmt_str, tokens_to_str
 from dependency_graph import CFGToDependencyGraph, DependencyGraph, DependencyNode
 from fix_addition_subtraction import fix_addition_subtraction
 from cpp_parser import CppcheckData
@@ -21,7 +21,7 @@ class PhysFix:
 
     @staticmethod
     def load_srcml_xml(xml_path):
-        it = ET.parse(xml_path)
+        it = etree.parse(xml_path)
         PhysFix._stripNs(it.getroot())
         # for _, el in it:
         #     prefix, has_namespace, postfix = el.tag.partition('}')
@@ -55,41 +55,121 @@ class PhysFix:
         if not token:
             return []
 
+        print(token_to_stmt_str(token))
+
         xml_elems = []
         if token.variableId:
-            return [Element("name", text=token.str)]
+            elem = etree.Element("name")
+            elem.text = token.str
+            return [elem]
         else:
             if token.str in "*/+-":
-                mid = Element("operator", text=token.str)
+                elem = etree.Element("operator")
+                elem.text = token.str
+                mid = [elem]
                 left = PhysFix.root_token_to_xml(token.astOperand1)
                 right = PhysFix.root_token_to_xml(token.astOperand2)
                 xml_elems = left + mid + right
             elif token.str == "(":
-                left = Element("call")
-                left = left.subelement(left, "name", text=token.astOperand1.str)
-                mid = left.subelement(left, "argument_list", text="(")
+                left = etree.Element("call")
+                left = etree.SubElement(left, "name")
+                left.text = token.astOperand1.str
+                mid = etree.SubElement(left, "argument_list")
+                mid.text = "("
                 
-                cur = token
-                while cur.astOperand2 and cur.astOperand2.str == ",":
-                    arg = mid.subelement(mid, "argument")
-                    arg = arg.subelemnt(arg, "expr")
+                cur = token.astOperand2
+                while cur and cur.str == ",":
+                    arg = etree.SubElement(mid, "argument")
+                    arg = etree.SubElement(arg, "expr")
                     arg = arg.extend(PhysFix.root_token_to_xml(cur.astOperand1))
 
                     cur = cur.astOperand2
 
                 if cur:
-                    arg = mid.subelement(mid, "argument")
-                    arg = arg.subelemnt(arg, "expr")
+                    arg = etree.SubElement(mid, "argument")
+                    arg = etree.SubElement(arg, "expr")
                     arg = arg.extend(PhysFix.root_token_to_xml(cur))
 
                 xml_elems.append(left)
             else:
-                mid = Element("literal", text=token.str)
+                mid = [etree.Element("literal")]
+                mid[0].text = token.str
                 left = PhysFix.root_token_to_xml(token.astOperand1)
                 right = PhysFix.root_token_to_xml(token.astOperand2)
                 xml_elems = left + mid + right
 
         return xml_elems
+
+    @staticmethod
+    def changes_to_xslt(srcml_xml, change: Change,
+                        output_file_prefix):
+        srcml_xml_root = srcml_xml.getroot()
+        token_to_fix = changes.token_to_fix
+        token_to_fix_root = get_root_token(token_to_fix)
+        statement_tokens = get_statement_tokens(token_to_fix_root)
+        token_line_num = token_to_fix_root.linenr
+        exprs = srcml_xml_root.findall(".//expr")
+        line_elem = []
+
+        # Find the xml line with the matching line number
+        for e in exprs:
+            if e.get("start").startswith(str(token_line_num)):
+                line_elem.append(e)
+
+        cur_token = statement_tokens[0]
+
+        elem_to_fix = None
+        elem_parent_map = {}
+        # Find the token to replace in the xml
+        for e_idx, e in enumerate(line_elem):
+            q = deque()
+            q.append((e_idx, e))
+
+            elem_found = False
+            while q:
+                idx, cur = q.popleft()
+
+                if cur.text:
+                    assert cur.text == cur_token.str, "Text not matching"
+                    if cur_token.Id == token_to_fix.Id:
+                        elem_found = True
+                        elem_to_fix = cur
+                        break
+
+                    cur_token = cur_token.next
+
+                for next_elem in cur:
+                    elem_parent_map[next_elem] = cur
+                    q.append((idx, next_elem))
+            
+            if elem_found:
+                break
+        
+        if elem_to_fix.text == "(":
+            elem_to_fix = elem_parent_map[elem_to_fix]
+
+        change.changes = [change.changes[0]]
+        change_xml_elems = [PhysFix.root_token_to_xml(c) for c in change.changes]
+
+        xslt_root = etree.XML('''<?xml version = "1.0"?>
+<xsl:stylesheet version = "1.0" 
+xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+</xsl:stylesheet>''')
+        xslt_tree = etree.ElementTree(xslt_root)
+        xslt_match = etree.SubElement(xslt_tree.getroot(), "{http://www.w3.org/1999/XSL/Transform}template",
+                                      match=f"//{elem_to_fix.tag}[@start='{elem_to_fix.get('start')}'][@end='{elem_to_fix.get('end')}']")
+        replace_str = ""
+        # print(etree.tostring(change_xml_elems[0][2], pretty_print=True))
+        for s in change_xml_elems[0]:
+            xslt_match.append(s)
+            # print(etree.tostring(s, method='text'))
+        # print(etree.tostring(srcml_xml, pretty_print=True))
+        # xslt_match.extend(change_xml_elems[0])
+        xslt_tree.write("test.xml")
+        # print(str(etree.tostring(xslt_tree, pretty_print=True)))
+        transform = etree.XSLT(xslt_root)
+        print(transform(srcml_xml))
+        
 
     @staticmethod
     def apply_changes(srcml_xml, change: Change,
@@ -141,7 +221,6 @@ class PhysFix:
         if elem_to_fix.text == "(":
             elem_to_fix = elem_parent_map[elem_to_fix]
 
-        print(elem_to_fix)
         change_xml_elems = [PhysFix.root_token_to_xml(c) for c in change.changes]
         elem_parent = elem_parent_map[elem_to_fix]
         elem_parent.remove(elem_to_fix)
@@ -173,7 +252,6 @@ if __name__ == "__main__":
     var_unit_map = PhysVar.create_unit_map(phys_vars)
     token_unit_map = get_token_unit_map(output)
     changes = fix_addition_subtraction(e[0], var_unit_map, token_unit_map)
-    print(changes)
     # cfgs = ASTToCFG().convert(dump)
     # d_graphs = [CFGToDependencyGraph().create_dependency_graph(c) for c in cfgs]
 
@@ -184,6 +262,6 @@ if __name__ == "__main__":
     # print(d_graphs[0].get_node_connected_components(e_dependency[1]))
 
     x = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_src_ml.xml")
-    PhysFix.apply_changes(x, changes, "test_19_fix")
+    PhysFix.changes_to_xslt(x, changes, "test_19_fix")
     # print([q for q in r.findall(".//{http://www.srcML.org/srcML/src}expr")[0]])
 
