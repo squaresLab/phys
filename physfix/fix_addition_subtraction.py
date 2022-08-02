@@ -187,7 +187,6 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
             continue
 
         new_div_vars = [token] + div_vars
-        print(new_div_vars)
         for idx, var in enumerate(new_div_vars):
             var_token = None
             if idx == len(new_div_vars) - 2:
@@ -205,8 +204,6 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
                 var_token_1.astParentId = div_token.Id
 
                 var_token_2 = copy_variable_token(new_div_vars[idx + 1])
-
-                print(var_token_1, var_token_2)
 
                 var_token_2.astParent = div_token
                 var_token_2.astParentId = div_token.Id
@@ -241,34 +238,6 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
             cur = cur.astOperand2
         
         change_trees.append(head.astOperand2)
-        print(token_to_stmt_str(head.astOperand2))
-
-    #     if token.variableId:
-    #         symbols.extend([token.copy(), make_arithmetic_token("*")])
-
-    #         # Append multiplication symbols
-    #         for i in range(len(mult_vars) - 1):
-    #             symbols.extend([copy_variable_token(mult_vars[i]), make_arithmetic_token("*")])
-            
-    #         symbols.append(copy_variable_token(mult_vars[-1]))
-
-    #         # Append division symbols
-    #         for _, var in enumerate(div_vars):
-    #             symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
-    #     else:
-    #         for _, var in enumerate(mult_vars):
-    #             symbols.extend([copy_variable_token(var), make_arithmetic_token("*")])
-            
-    #         symbols.extend(get_statement_tokens(token.copy()))
-
-    #         for _, var in enumerate(div_vars):
-    #             symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
-
-    #     symbols_list.append(symbols)
-
-    # candidate_changes = []
-    # for symbols in symbols_list:
-    #     candidate_changes.append(tokens_to_tree(symbols))
 
     return change_trees
 

@@ -29,7 +29,7 @@ void goal_d(double x_t,double y_t, double t)
 	err_x=x_t-X;
 	err_y=y_t-Y;
 	err_d=sqrt(err_x*err_x+
-	y_t*mult(err_x5/err_x);
+	x_t*mult(err_x,5));
 	err_yaw=t-yaw_degrees;
 	//if(err_yaw<0)err_yaw=err_yaw+360;
 	

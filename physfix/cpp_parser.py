@@ -12,7 +12,6 @@
 #
 
 import xml.etree.ElementTree as ET
-import argparse
 
 # Directive class. Contains information about each preprocessor directive
 # in the source code.

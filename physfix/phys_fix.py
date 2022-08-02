@@ -261,7 +261,7 @@ class PhysFix:
 
 if __name__ == "__main__":
     output = "/home/rewong/phys/src/test_19_output.json"
-    dump = "/home/rewong/phys/ryan/control_flow/dump_to_ast_test/test_19.cpp.dump"
+    dump = "/home/rewong/phys/physfix/tests/dump_to_ast_test/test_19.cpp.dump"
 
     cppconfig = CppcheckData(dump).configurations[0]
     cfgs = ASTToCFG().convert(dump)
@@ -283,10 +283,10 @@ if __name__ == "__main__":
     # print(d_graphs[0])
     # print(d_graphs[0].get_node_connected_components(e_dependency[1]))
 
-    x = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_src_ml.xml",
+    x = PhysFix.load_srcml_xml("/home/rewong/phys/physfix/test_src_ml.xml",
     strip_namespace=True)
     PhysFix.changes_to_xslt(x, changes, "test_19_fix")
-    y = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_19_fix_0.xml")
+    y = PhysFix.load_srcml_xml("/home/rewong/phys/physfix/test_19_fix_0.xml")
     PhysFix.apply_xslt(x, y, "test_result")
     # print([q for q in r.findall(".//{http://www.srcML.org/srcML/src}expr")[0]])
 
