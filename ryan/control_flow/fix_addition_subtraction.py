@@ -7,7 +7,7 @@ import uuid
 
 import attr
 
-from cpp_parser import Token
+from cpp_parser import Token, Variable
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
 from cpp_utils import get_LHS_from_statement, get_RHS_from_statement, get_statement_tokens, get_vars_from_statement, token_to_stmt_str, tokens_to_str, tokens_to_tree
 from dependency_graph import CFGToDependencyGraph, DependencyGraph
@@ -152,41 +152,125 @@ def apply_unit_multiplication(token: Token, cur_unit: Dict, target_unit: Dict, p
         q = new_q
 
     # Change tuples into a list of tokens which can be made into a tree later
-    symbols_list = []
+    change_trees = []
 
     # print(get_statement_tokens(token.copy()))
     # print([x.str for x in get_statement_tokens(token.copy())])
-
     for mult_vars, div_vars in candidate_change_tuples:
-        symbols = []
-        if token.variableId:
-            symbols.extend([token.copy(), make_arithmetic_token("*")])
+        head = Token(None)
+        cur = head
+        for var in mult_vars:
+            mult_token = make_arithmetic_token("*")
+            mult_token.astParent = cur
+            mult_token.astParentId = cur.Id
 
-            # Append multiplication symbols
-            for i in range(len(mult_vars) - 1):
-                symbols.extend([copy_variable_token(mult_vars[i]), make_arithmetic_token("*")])
+            var_token = copy_variable_token(var)
+            var_token.astParent = mult_token
+            var_token.astParentId = mult_token.Id
+
+            mult_token.astOperand1 = var_token
+            mult_token.astOperand1Id = var_token.Id
+
+            cur.astOperand2 = mult_token
+            cur.astOperand2Id = mult_token.Id
+            cur = cur.astOperand2
+
+        if not div_vars:
+            var_token = token.copy()
+            var_token.astParent = cur
+            var_token.astParentId = cur.Id
+
+            cur.astOperand2 = var_token
+            cur.astOperand2Id = var_token.Id
+
+            change_trees.append(head.astOperand2)
+            continue
+
+        new_div_vars = [token] + div_vars
+        print(new_div_vars)
+        for idx, var in enumerate(new_div_vars):
+            var_token = None
+            if idx == len(new_div_vars) - 2:
+                div_token = make_arithmetic_token("/")
+                div_token.astParent = cur
+                div_token.astParentId = cur.Id
+
+                var_token_1 = None
+                if isinstance(var, Variable):
+                    var_token_1 = copy_variable_token(var)
+                else:
+                    var_token_1 = var.copy()
+
+                var_token_1.astParent = div_token
+                var_token_1.astParentId = div_token.Id
+
+                var_token_2 = copy_variable_token(new_div_vars[idx + 1])
+
+                print(var_token_1, var_token_2)
+
+                var_token_2.astParent = div_token
+                var_token_2.astParentId = div_token.Id
+
+                div_token.astOperand1 = var_token_1
+                div_token.astOperand1Id = var_token_1.Id
+
+                div_token.astOperand2 = var_token_2
+                div_token.astOperand2d = var_token_2.Id
+
+                cur.astOperand2 = div_token
+                cur.astOperand2Id = div_token.Id
+                break
+
+            div_token = make_arithmetic_token("/")
+            div_token.astParent = cur
+            div_token.astParentId = cur.Id
+
+            if isinstance(var, Variable):
+                var_token = copy_variable_token(var)
+            else:
+                var_token = var.copy()
+
+            var_token.astParent = div_token
+            var_token.astParentId = div_token.Id
+
+            div_token.astOperand1 = var_token
+            div_token.astOperand1Id = var_token.Id
+
+            cur.astOperand2 = div_token
+            cur.astOperand2Id = div_token.Id
+            cur = cur.astOperand2
+        
+        change_trees.append(head.astOperand2)
+        print(token_to_stmt_str(head.astOperand2))
+
+    #     if token.variableId:
+    #         symbols.extend([token.copy(), make_arithmetic_token("*")])
+
+    #         # Append multiplication symbols
+    #         for i in range(len(mult_vars) - 1):
+    #             symbols.extend([copy_variable_token(mult_vars[i]), make_arithmetic_token("*")])
             
-            symbols.append(copy_variable_token(mult_vars[-1]))
+    #         symbols.append(copy_variable_token(mult_vars[-1]))
 
-            # Append division symbols
-            for _, var in enumerate(div_vars):
-                symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
-        else:
-            for _, var in enumerate(mult_vars):
-                symbols.extend([copy_variable_token(var), make_arithmetic_token("*")])
+    #         # Append division symbols
+    #         for _, var in enumerate(div_vars):
+    #             symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
+    #     else:
+    #         for _, var in enumerate(mult_vars):
+    #             symbols.extend([copy_variable_token(var), make_arithmetic_token("*")])
             
-            symbols.extend(get_statement_tokens(token.copy()))
+    #         symbols.extend(get_statement_tokens(token.copy()))
 
-            for _, var in enumerate(div_vars):
-                symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
+    #         for _, var in enumerate(div_vars):
+    #             symbols.extend([make_arithmetic_token("/"), copy_variable_token(var)])
 
-        symbols_list.append(symbols)
+    #     symbols_list.append(symbols)
 
-    candidate_changes = []
-    for symbols in symbols_list:
-        candidate_changes.append(tokens_to_tree(symbols))
+    # candidate_changes = []
+    # for symbols in symbols_list:
+    #     candidate_changes.append(tokens_to_tree(symbols))
 
-    return candidate_changes
+    return change_trees
 
 
 def fix_addition_subtraction(error: Error, phys_var_map: Dict[str, PhysVar], token_unit_map: Dict[str, Dict],

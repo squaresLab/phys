@@ -20,9 +20,11 @@ class PhysFix:
         pass
 
     @staticmethod
-    def load_srcml_xml(xml_path):
+    def load_srcml_xml(xml_path, strip_namespace=False):
         it = etree.parse(xml_path)
-        PhysFix._stripNs(it.getroot())
+
+        if strip_namespace:
+            PhysFix._stripNs(it.getroot())
         # for _, el in it:
         #     prefix, has_namespace, postfix = el.tag.partition('}')
         #     if has_namespace:
@@ -55,7 +57,13 @@ class PhysFix:
         if not token:
             return []
 
-        # print(token_to_stmt_str(token))
+        # print("_____")
+        # print(f"Currently: {tokens_to_str([token])}")
+        # if token.astOperand1:
+        #     print(f"left: {tokens_to_str([token.astOperand1])}")
+        # if token.astOperand2:
+        #     print(f"right: {tokens_to_str([token.astOperand2])}")
+
 
         xml_elems = []
         if token.variableId:
@@ -76,10 +84,12 @@ class PhysFix:
                 left.text = token.astOperand1.str
                 mid = etree.SubElement(left, "argument_list")
                 mid.text = "("
+                mid.tail = ")"
                 
                 cur = token.astOperand2
                 while cur and cur.str == ",":
                     arg = etree.SubElement(mid, "argument")
+                    arg.tail = ","
                     arg = etree.SubElement(arg, "expr")
                     arg = arg.extend(PhysFix.root_token_to_xml(cur.astOperand1))
 
@@ -151,32 +161,37 @@ class PhysFix:
         change.changes = [change.changes[0]]
         change_xml_elems = [PhysFix.root_token_to_xml(c) for c in change.changes]
 
-        xslt_root = etree.XML('''<?xml version = "1.0"?>
-<xsl:stylesheet version = "1.0" 
-xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="@*|node()">
-        <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
-        </xsl:copy>
-    </xsl:template>
-</xsl:stylesheet>''')
-        xslt_tree = etree.ElementTree(xslt_root)
-        xslt_match = etree.SubElement(xslt_tree.getroot(), "{http://www.w3.org/1999/XSL/Transform}template",
-                                      match=f"//{elem_to_fix.tag}[@start='{elem_to_fix.get('start')}'][@end='{elem_to_fix.get('end')}']")
-        replace_str = ""
-        # print(etree.tostring(change_xml_elems[0][2], pretty_print=True))
-        for s in change_xml_elems[0]:
-            xslt_match.append(s)
-            # print(etree.tostring(s, method='text'))
-        # print(etree.tostring(srcml_xml, pretty_print=True))
-        # xslt_match.extend(change_xml_elems[0])
-        xslt_tree.write("test.xml")
+        for idx, change_sub_elem in enumerate(change_xml_elems):
+            xslt_root = etree.XML('''<?xml version = "1.0"?>
+    <xsl:stylesheet version = "1.0" 
+    xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+        <xsl:template match="@*|node()">
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+            </xsl:copy>
+        </xsl:template>
+    </xsl:stylesheet>''')
+            xslt_tree = etree.ElementTree(xslt_root)
+            xslt_match = etree.SubElement(xslt_tree.getroot(), "{http://www.w3.org/1999/XSL/Transform}template",
+                                          match=f"//{elem_to_fix.tag}[@start='{elem_to_fix.get('start')}'][@end='{elem_to_fix.get('end')}']")
+            xslt_match.extend(change_sub_elem)
+            xslt_tree.write(f"{output_file_prefix}_{idx}.xml")
         # print(str(etree.tostring(xslt_tree, pretty_print=True)))
         transform = etree.XSLT(xslt_root)
         t = transform(srcml_xml)
         with open("test_result.xml", "wb") as f:
             f.write(etree.tostring(t, method='text'))
+
+    @staticmethod
+    def apply_xslt(srcml_xml, xslt, output_path):
+        transform = etree.XSLT(xslt)
+        t = transform(srcml_xml)
+
+        with open(f"{output_path}.xml", "wb") as f:
+            f.write(etree.tostring(t))
         
+        with open(f"{output_path}.cpp", "wb") as f:
+            f.write(etree.tostring(t, method='text'))
 
     @staticmethod
     def apply_changes(srcml_xml, change: Change,
@@ -268,7 +283,10 @@ if __name__ == "__main__":
     # print(d_graphs[0])
     # print(d_graphs[0].get_node_connected_components(e_dependency[1]))
 
-    x = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_src_ml.xml")
+    x = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_src_ml.xml",
+    strip_namespace=True)
     PhysFix.changes_to_xslt(x, changes, "test_19_fix")
+    y = PhysFix.load_srcml_xml("/home/rewong/phys/ryan/control_flow/test_19_fix_0.xml")
+    PhysFix.apply_xslt(x, y, "test_result")
     # print([q for q in r.findall(".//{http://www.srcML.org/srcML/src}expr")[0]])
 
