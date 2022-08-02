@@ -55,7 +55,7 @@ class PhysFix:
         if not token:
             return []
 
-        print(token_to_stmt_str(token))
+        # print(token_to_stmt_str(token))
 
         xml_elems = []
         if token.variableId:
@@ -154,6 +154,11 @@ class PhysFix:
         xslt_root = etree.XML('''<?xml version = "1.0"?>
 <xsl:stylesheet version = "1.0" 
 xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
 </xsl:stylesheet>''')
         xslt_tree = etree.ElementTree(xslt_root)
         xslt_match = etree.SubElement(xslt_tree.getroot(), "{http://www.w3.org/1999/XSL/Transform}template",
@@ -168,7 +173,9 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
         xslt_tree.write("test.xml")
         # print(str(etree.tostring(xslt_tree, pretty_print=True)))
         transform = etree.XSLT(xslt_root)
-        print(transform(srcml_xml))
+        t = transform(srcml_xml)
+        with open("test_result.xml", "wb") as f:
+            f.write(etree.tostring(t, method='text'))
         
 
     @staticmethod
