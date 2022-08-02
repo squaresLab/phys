@@ -44,21 +44,14 @@ def tokens_to_str(tokens: List[Token]) -> List[str]:
     return list(map(lambda x: x.str, tokens))
 
 
-def root_token_to_str(t: Token) -> str:
-    """Traverses token in inorder and concatenates all token strings"""
-    if not t:
-        return ""
-
-    return root_token_to_str(t.previous) + t.str + root_token_to_str(t.next)
-
-
 def token_to_stmt_str(t: Token) -> List[str]:
     """Traverses token in inorder and returns a list of strings"""
     return tokens_to_str(get_statement_tokens(t))
 
-def get_root_token(t):
+
+def get_root_token(t: Token) -> Token:
+    """Returns the root of a token tree"""
     while t.astParent:
         t = t.astParent
-    
+
     return t
-    
