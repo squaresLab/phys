@@ -8,8 +8,8 @@ import attr
 
 from dependency_graph import DependencyNode, DependencyGraph
 from ast_to_cfg import CFGNode
-from cpp_parser import Token
-from cpp_utils import get_statement_tokens
+from phys.physfix.parse.cpp_parser import Token
+from phys.physfix.parse.cpp_utils import get_statement_tokens
 
 
 @attr.s()

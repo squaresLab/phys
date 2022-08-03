@@ -7,9 +7,9 @@ import uuid
 
 import attr
 
-from cpp_parser import Token, Variable
+from phys.physfix.parse.cpp_parser import Token, Variable
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
-from cpp_utils import get_LHS_from_statement, get_RHS_from_statement, get_statement_tokens, get_vars_from_statement, token_to_stmt_str, tokens_to_str, tokens_to_tree
+from phys.physfix.parse.cpp_utils import get_LHS_from_statement, get_RHS_from_statement, get_statement_tokens, get_vars_from_statement, token_to_stmt_str, tokens_to_str, tokens_to_tree
 from dependency_graph import CFGToDependencyGraph, DependencyGraph
 from phys_fix_utils import Error, PhysVar, get_error_dependency_node, get_token_unit_map, Change
 

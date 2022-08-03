@@ -4,15 +4,14 @@ import json
 from collections import deque
 from typing import Dict, List, Set
 from lxml import etree
-# from lxml.etree.ElementTree import Element
 
 import attr
 
 from ast_to_cfg import ASTToCFG, CFGNode, FunctionCFG
-from cpp_utils import get_root_token, get_statement_tokens, token_to_stmt_str, tokens_to_str
+from phys.physfix.parse.cpp_utils import get_root_token, get_statement_tokens, token_to_stmt_str, tokens_to_str
 from dependency_graph import CFGToDependencyGraph, DependencyGraph, DependencyNode
 from fix_addition_subtraction import fix_addition_subtraction
-from cpp_parser import CppcheckData
+from phys.physfix.parse.cpp_parser import CppcheckData
 from phys_fix_utils import Error, Change, get_error_dependency_node, PhysVar, get_token_unit_map
 
 class PhysFix:

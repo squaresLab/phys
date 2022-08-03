@@ -8,9 +8,9 @@ from typing import Dict, List, Set, Tuple
 import attr
 import yaml
 
-from cpp_parser import Token
-from cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
-from dump_to_ast import DumpToAST, FunctionDeclaration, Statement
+from physfix.parse.cpp_parser import Token
+from physfix.parse.cpp_utils import get_statement_tokens, token_to_stmt_str, tokens_to_str
+from physfix.parse.dump_to_ast import DumpToAST, FunctionDeclaration, Statement
 
 
 class CFGNode(ABC):
