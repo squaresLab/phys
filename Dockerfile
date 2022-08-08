@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-# COPY src /src
+COPY src /src
 COPY requirements.txt /requirements.txt
 
 RUN apt-get update && apt-get install -y cppcheck libgmp3-dev python-pip 
@@ -10,6 +10,6 @@ RUN pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --
 RUN python -m nltk.downloader -d /usr/share/nltk_data wordnet
 
 
-WORKDIR /phys
-# ENTRYPOINT ["python", "./prob_phys_units.py"]
-CMD ["bash"]
+WORKDIR /src
+ENTRYPOINT ["python", "prob_phys_units.py"]
+# CMD ["bash"]
